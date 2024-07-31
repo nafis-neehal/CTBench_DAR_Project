@@ -1,0 +1,149 @@
+{
+  "trial_id": "NCT03151005",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, waist circumference, blood pressure, fasting glucose, fasting insulin, lipid profile (total cholesterol, LDL cholesterol, HDL cholesterol, triglycerides), thyroid-stimulating hormone levels, prolactin levels, menstrual cycle regularity, androgen levels (testosterone, DHEAS), liver function tests (ALT, AST), renal function tests (creatinine), hemoglobin levels, platelet count.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "weight"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "waist circumference",
+        "blood pressure",
+        "fasting glucose",
+        "fasting insulin",
+        "lipid profile (total cholesterol, LDL cholesterol, HDL cholesterol, triglycerides)",
+        "thyroid-stimulating hormone levels",
+        "prolactin levels",
+        "menstrual cycle regularity",
+        "androgen levels (testosterone, DHEAS)",
+        "liver function tests (ALT, AST)",
+        "renal function tests (creatinine)",
+        "hemoglobin levels",
+        "platelet count"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Waist Circumference, Blood Pressure, Fasting Glucose, Lipid Profile, Androgen Levels, Menstrual Cycle Regularity, Insulin Sensitivity,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Waist Circumference",
+        "Blood Pressure",
+        "Fasting Glucose",
+        "Lipid Profile",
+        "Androgen Levels",
+        "Menstrual Cycle Regularity",
+        "Insulin Sensitivity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, BMI, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, HbA1c, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, Menstrual Cycle Regularity, Androgen Levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "weight",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "HbA1c",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol",
+        "Menstrual Cycle Regularity",
+        "Androgen Levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), waistline, thyroid-stimulating hormone level, prolactin level, blood pressure, lipid profile, fasting glucose level, insulin sensitivity, menstrual cycle regularity, androgen levels, polycystic ovaries on ultrasound, smoking status, alcohol intake.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "weight",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "waistline",
+        "thyroid-stimulating hormone level",
+        "prolactin level",
+        "blood pressure",
+        "lipid profile",
+        "fasting glucose level",
+        "insulin sensitivity",
+        "menstrual cycle regularity",
+        "androgen levels",
+        "polycystic ovaries on ultrasound",
+        "smoking status",
+        "alcohol intake"
+      ]
+    }
+  }
+}

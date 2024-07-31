@@ -1,0 +1,181 @@
+{
+  "trial_id": "NCT00962091",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, histological or cytological confirmation of tumor type, menopausal status (for females), contraception use, venous access suitability, measurable disease status, recovery status from prior antineoplastic therapy, laboratory and organ function levels, prior surgery history, prior antineoplastic or radiation therapy history, infection status, ability to swallow medication, gastrointestinal disease or procedure history, brain metastasis status, cardiovascular condition status, history of other malignancies, HIV/hepatitis B/hepatitis C status, lactose intolerance status, history of metabolic acidosis, use of enzyme-inducing antiepileptic drugs or other specified medications, need for pancreatic enzymes or proton pump inhibitors, need for systemic anticoagulation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Body Surface Area (BSA)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "histological or cytological confirmation of tumor type",
+        "menopausal status (for females)",
+        "contraception use",
+        "venous access suitability",
+        "measurable disease status",
+        "recovery status from prior antineoplastic therapy",
+        "laboratory and organ function levels",
+        "prior surgery history",
+        "prior antineoplastic or radiation therapy history",
+        "infection status",
+        "ability to swallow medication",
+        "gastrointestinal disease or procedure history",
+        "brain metastasis status",
+        "cardiovascular condition status",
+        "history of other malignancies",
+        "HIV/hepatitis B/hepatitis C status",
+        "lactose intolerance status",
+        "history of metabolic acidosis",
+        "use of enzyme-inducing antiepileptic drugs or other specified medications",
+        "need for pancreatic enzymes or proton pump inhibitors",
+        "need for systemic anticoagulation"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Region of Enrollment, Tumor type, Prior antineoplastic therapy, Laboratory values (e.g., liver function tests, renal function tests), Organ function levels, Measurable disease status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Height",
+        "Weight",
+        "Body Surface Area (BSA)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "Tumor type",
+        "Prior antineoplastic therapy",
+        "Laboratory values (e.g., liver function tests, renal function tests)",
+        "Organ function levels",
+        "Measurable disease status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Body Mass Index, Histological diagnosis of solid tumor, Prior antineoplastic therapy, Prior radiation therapy, Prior experimental therapy, Prior surgery, Prior stem cell transplant, Presence of measurable disease, Presence of brain metastasis, Cardiovascular condition, History of HIV, Hepatitis B, Hepatitis C, Lactose intolerance, History of metabolic acidosis, Use of enzyme-inducing antiepileptic drugs, Use of proton pump inhibitors, Use of histamine receptor antagonists, Use of pancreatic enzymes, Full systemic anticoagulation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Body Surface Area (BSA)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "ECOG Performance Status",
+        "Body Mass Index",
+        "Histological diagnosis of solid tumor",
+        "Prior antineoplastic therapy",
+        "Prior radiation therapy",
+        "Prior experimental therapy",
+        "Prior surgery",
+        "Prior stem cell transplant",
+        "Presence of measurable disease",
+        "Presence of brain metastasis",
+        "Cardiovascular condition",
+        "History of HIV",
+        "Hepatitis B",
+        "Hepatitis C",
+        "Lactose intolerance",
+        "History of metabolic acidosis",
+        "Use of enzyme-inducing antiepileptic drugs",
+        "Use of proton pump inhibitors",
+        "Use of histamine receptor antagonists",
+        "Use of pancreatic enzymes",
+        "Full systemic anticoagulation"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, ethnicity, ECOG performance status, histological type of tumor, tumor stage, prior antineoplastic therapy, prior radiation therapy, prior surgical therapy, laboratory values (e.g. hemoglobin, platelet count, creatinine, etc.), organ function levels (e.g. liver function, kidney function, etc.).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Body Surface Area (BSA)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "histological type of tumor",
+        "tumor stage",
+        "prior antineoplastic therapy",
+        "prior radiation therapy",
+        "prior surgical therapy",
+        "laboratory values (e.g. hemoglobin, platelet count, creatinine, etc.)",
+        "organ function levels (e.g. liver function, kidney function, etc.)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "trial_id": "NCT00618072",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Ethnicity, Weight, Body Mass Index (BMI), Blood Pressure, HDL levels, Triglycerides levels, Area-under-the-curve (AUC) insulin level, Fasting glucose level, Postprandial glucose level, Menopausal status, Use of blood pressure medication, Use of lipid modifying medication.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Systolic BP",
+          "Blood Pressure"
+        ],
+        [
+          "HDL-cholesterol",
+          "HDL levels"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides levels"
+        ],
+        [
+          "AUC insulin",
+          "Area-under-the-curve (AUC) insulin level"
+        ],
+        [
+          "Fasting glucose",
+          "Fasting glucose level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Waist circumference",
+        "Diastolic BP",
+        "2-hour glucose",
+        "Hemoglobin A1C",
+        "Fasting insulin",
+        "Peak insulin",
+        "HOMA-IR",
+        "QUICKI",
+        "Total cholesterol",
+        "LDL-cholesterol"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "Postprandial glucose level",
+        "Menopausal status",
+        "Use of blood pressure medication",
+        "Use of lipid modifying medication"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Ethnicity, Menopausal status, BMI, Weight gain since twenties, Blood pressure, HDL cholesterol, Triglycerides, Fasting glucose, Postprandial glucose, Area-under-the-curve (AUC) insulin level, Use of blood pressure medication, Use of lipid modifying medication",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Systolic BP",
+          "Blood pressure"
+        ],
+        [
+          "Diastolic BP",
+          "Blood pressure"
+        ],
+        [
+          "Fasting glucose",
+          "Fasting glucose"
+        ],
+        [
+          "2-hour glucose",
+          "Postprandial glucose"
+        ],
+        [
+          "AUC insulin",
+          "Area-under-the-curve (AUC) insulin level"
+        ],
+        [
+          "HDL-cholesterol",
+          "HDL cholesterol"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Waist circumference",
+        "Hemoglobin A1C",
+        "Fasting insulin",
+        "Peak insulin",
+        "HOMA-IR",
+        "QUICKI",
+        "Total cholesterol",
+        "LDL-cholesterol"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "Menopausal status",
+        "Weight gain since twenties",
+        "Use of blood pressure medication",
+        "Use of lipid modifying medication"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnicity, BMI, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, HbA1c, Triglycerides, HDL Cholesterol, LDL Cholesterol, Insulin Sensitivity, Menopausal Status, History of Hypertension, History of Dyslipidemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Systolic BP",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic BP",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Fasting glucose",
+          "Fasting Glucose"
+        ],
+        [
+          "Hemoglobin A1C",
+          "HbA1c"
+        ],
+        [
+          "HDL-cholesterol",
+          "HDL Cholesterol"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Waist circumference",
+        "2-hour glucose",
+        "Fasting insulin",
+        "Peak insulin",
+        "AUC insulin",
+        "HOMA-IR",
+        "QUICKI",
+        "Total cholesterol",
+        "LDL-cholesterol"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Ethnicity",
+        "Waist Circumference",
+        "LDL Cholesterol",
+        "Insulin Sensitivity",
+        "Menopausal Status",
+        "History of Hypertension",
+        "History of Dyslipidemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, BMI, weight, height, waist circumference, hip circumference, systolic blood pressure, diastolic blood pressure, HDL, triglycerides, fasting glucose, postprandial glucose, HbA-1-C, ALT, creatinine, TSH.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Waist circumference",
+          "waist circumference"
+        ],
+        [
+          "Systolic BP",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic BP",
+          "diastolic blood pressure"
+        ],
+        [
+          "Fasting glucose",
+          "fasting glucose"
+        ],
+        [
+          "2-hour glucose",
+          "postprandial glucose"
+        ],
+        [
+          "Hemoglobin A1C",
+          "HbA-1-C"
+        ],
+        [
+          "HDL-cholesterol",
+          "HDL"
+        ],
+        [
+          "Triglycerides",
+          "triglycerides"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Fasting insulin",
+        "Peak insulin",
+        "AUC insulin",
+        "HOMA-IR",
+        "QUICKI",
+        "Total cholesterol",
+        "LDL-cholesterol"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "height",
+        "hip circumference",
+        "ALT",
+        "creatinine",
+        "TSH"
+      ]
+    }
+  }
+}

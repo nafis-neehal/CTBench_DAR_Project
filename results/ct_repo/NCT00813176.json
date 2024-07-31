@@ -1,0 +1,137 @@
+{
+  "trial_id": "NCT00813176",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, gender, type of surgery, smoking status, comorbidities (e.g., hypertension, diabetes), baseline pulmonary function tests, baseline oxygen saturation, baseline heart rate, baseline blood pressure, ASA (American Society of Anesthesiologists) physical status classification.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "double lumen tubes versus bronchial blockers",
+        "Body Weight",
+        "Neck Circumference"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "type of surgery",
+        "smoking status",
+        "comorbidities (e.g., hypertension, diabetes)",
+        "baseline pulmonary function tests",
+        "baseline oxygen saturation",
+        "baseline heart rate",
+        "baseline blood pressure",
+        "ASA (American Society of Anesthesiologists) physical status classification."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Type of Surgery, Duration of Surgery, Preoperative Pulmonary Function, Preoperative Comorbidities,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "double lumen tubes versus bronchial blockers",
+        "Body Weight",
+        "Neck Circumference"
+      ],
+      "remaining_candidate_features": [
+        "Type of Surgery",
+        "Duration of Surgery",
+        "Preoperative Pulmonary Function",
+        "Preoperative Comorbidities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Type of surgery,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "double lumen tubes versus bronchial blockers",
+        "Body Weight",
+        "Neck Circumference"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Type of surgery"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, ethnicity, smoking status, medical history (e.g., hypertension, diabetes, cardiovascular disease), surgical procedure, American Society of Anesthesiologists (ASA) physical status classification.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "double lumen tubes versus bronchial blockers",
+        "Body Weight",
+        "Neck Circumference"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "ethnicity",
+        "smoking status",
+        "medical history (e.g., hypertension, diabetes, cardiovascular disease)",
+        "surgical procedure",
+        "American Society of Anesthesiologists (ASA) physical status classification."
+      ]
+    }
+  }
+}

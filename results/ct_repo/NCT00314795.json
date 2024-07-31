@@ -1,0 +1,204 @@
+{
+  "trial_id": "NCT00314795",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline hemoglobin levels, dialysis status (not on dialysis, hemodialysis, peritoneal dialysis, post-renal transplant), history of immunosuppressive therapy, pregnancy status, baseline anti-erythropoietin antibody levels, frequency of transfusions, baseline blood pressure, baseline kidney function (e.g., eGFR), duration of chronic kidney disease, previous ESA treatment history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Baseline Hemoglobin (Hgb)",
+          "baseline hemoglobin levels"
+        ],
+        [
+          "Baseline Anti-erythropoietin (EPO) Antibody Titers",
+          "baseline anti-erythropoietin antibody levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Body Mass Index (BMI)",
+        "Baseline Ferritin",
+        "Baseline Transferrin Saturation",
+        "Bone Marrow Evaluation"
+      ],
+      "remaining_candidate_features": [
+        "dialysis status (not on dialysis, hemodialysis, peritoneal dialysis, post-renal transplant)",
+        "history of immunosuppressive therapy",
+        "pregnancy status",
+        "frequency of transfusions",
+        "baseline blood pressure",
+        "baseline kidney function (e.g., eGFR)",
+        "duration of chronic kidney disease",
+        "previous ESA treatment history."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemoglobin levels, Dialysis status, History of renal transplant, Use of immunosuppressive therapy, Blood pressure, Transfusion requirements, Anti-erythropoietin antibody status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Baseline Hemoglobin (Hgb)",
+          "Hemoglobin levels"
+        ],
+        [
+          "Baseline Anti-erythropoietin (EPO) Antibody Titers",
+          "Anti-erythropoietin antibody status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Body Mass Index (BMI)",
+        "Baseline Ferritin",
+        "Baseline Transferrin Saturation",
+        "Bone Marrow Evaluation"
+      ],
+      "remaining_candidate_features": [
+        "Dialysis status",
+        "History of renal transplant",
+        "Use of immunosuppressive therapy",
+        "Blood pressure",
+        "Transfusion requirements"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hemoglobin, Serum Creatinine, Estimated Glomerular Filtration Rate (eGFR), Dialysis Status, Transfusion History, Anti-Erythropoietin Antibody Status, Prior ESA Use, Prior Immunotherapy Use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline Hemoglobin (Hgb)",
+          "Hemoglobin"
+        ],
+        [
+          "Baseline Anti-erythropoietin (EPO) Antibody Titers",
+          "Anti-Erythropoietin Antibody Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Baseline Ferritin",
+        "Baseline Transferrin Saturation",
+        "Bone Marrow Evaluation"
+      ],
+      "remaining_candidate_features": [
+        "Serum Creatinine",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "Dialysis Status",
+        "Transfusion History",
+        "Prior ESA Use",
+        "Prior Immunotherapy Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, duration of chronic kidney disease, type of dialysis (hemodialysis or peritoneal dialysis), time since renal transplant, presence of immunosuppressive therapy, hemoglobin level, erythropoietin antibody status, transfusion history, blood pressure, medical history (including hypertension, myelodysplasia, myeloproliferative disorder, hematologic malignancy, metastatic infiltration).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index"
+        ],
+        [
+          "Baseline Hemoglobin (Hgb)",
+          "hemoglobin level"
+        ],
+        [
+          "Baseline Anti-erythropoietin (EPO) Antibody Titers",
+          "erythropoietin antibody status"
+        ],
+        [
+          "Bone Marrow Evaluation",
+          "medical history (including hypertension, myelodysplasia, myeloproliferative disorder, hematologic malignancy, metastatic infiltration)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Baseline Ferritin",
+        "Baseline Transferrin Saturation"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "duration of chronic kidney disease",
+        "type of dialysis (hemodialysis or peritoneal dialysis)",
+        "time since renal transplant",
+        "presence of immunosuppressive therapy",
+        "transfusion history",
+        "blood pressure"
+      ]
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "trial_id": "NCT02991482",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, histological subtype of mesothelioma, prior platinum-based chemotherapy, renal function (creatinine levels or creatinine clearance), haematological function (haemoglobin, white blood cell count, lymphocyte count, absolute neutrophil count, platelet count), liver function (ALT and AST levels), life expectancy, measurable or evaluable disease status according to RECIST 1.1 criteria, pregnancy status (for women of childbearing potential).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Histologic subtype",
+          "histological subtype of mesothelioma"
+        ],
+        [
+          "Prior treatment",
+          "prior platinum-based chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "EORTC score",
+        "PD-L1 Tumour proportion score"
+      ],
+      "remaining_candidate_features": [
+        "renal function (creatinine levels or creatinine clearance)",
+        "haematological function (haemoglobin, white blood cell count, lymphocyte count, absolute neutrophil count, platelet count)",
+        "liver function (ALT and AST levels)",
+        "life expectancy",
+        "measurable or evaluable disease status according to RECIST 1.1 criteria",
+        "pregnancy status (for women of childbearing potential)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Histological Subtype, Previous Chemotherapy Regimen, Renal Function (Creatinine, Creatinine Clearance), Haematological Function (Haemoglobin, WBC, Lymphocytes, ANC, Platelet Count), Liver Function (ALT, AST), Life Expectancy, Measurable Disease According to RECIST 1.1,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Histologic subtype",
+          "Histological Subtype"
+        ],
+        [
+          "Prior treatment",
+          "Previous Chemotherapy Regimen"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Smoking history",
+        "EORTC score",
+        "PD-L1 Tumour proportion score"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Renal Function (Creatinine, Creatinine Clearance)",
+        "Haematological Function (Haemoglobin, WBC, Lymphocytes, ANC, Platelet Count)",
+        "Liver Function (ALT, AST)",
+        "Life Expectancy",
+        "Measurable Disease According to RECIST 1.1"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, ECOG Performance Status, Histological Subtype of Malignant Pleural Mesothelioma, Number of Previous Chemotherapy Regimens, Time from Initial Diagnosis to Randomization, Prior Platinum-based Chemotherapy, Prior Surgery, Prior Radiotherapy, Baseline Eastern Cooperative Oncology Group (ECOG) Performance Status, Baseline Hemoglobin, Baseline White Blood Cell Count, Baseline Absolute Neutrophil Count, Baseline Platelet Count, Baseline Creatinine, Baseline ALT, Baseline AST.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Histologic subtype",
+          "Histological Subtype of Malignant Pleural Mesothelioma"
+        ],
+        [
+          "Prior treatment",
+          "Prior Platinum-based Chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Smoking history",
+        "EORTC score",
+        "PD-L1 Tumour proportion score"
+      ],
+      "remaining_candidate_features": [
+        "Number of Previous Chemotherapy Regimens",
+        "Time from Initial Diagnosis to Randomization",
+        "Prior Surgery",
+        "Prior Radiotherapy",
+        "Baseline Eastern Cooperative Oncology Group (ECOG) Performance Status",
+        "Baseline Hemoglobin",
+        "Baseline White Blood Cell Count",
+        "Baseline Absolute Neutrophil Count",
+        "Baseline Platelet Count",
+        "Baseline Creatinine",
+        "Baseline ALT",
+        "Baseline AST"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ECOG performance status, histological subtype of malignant pleural mesothelioma, number of prior chemotherapy regimens, time since diagnosis, prior platinum-based chemotherapy, presence of measurable or evaluable disease, creatinine level, haemoglobin level, white blood cell count, lymphocyte count, absolute neutrophil count, platelet count, ALT and AST levels, presence of liver metastases.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Histologic subtype",
+          "histological subtype of malignant pleural mesothelioma"
+        ],
+        [
+          "Prior treatment",
+          "prior platinum-based chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Smoking history",
+        "EORTC score",
+        "PD-L1 Tumour proportion score"
+      ],
+      "remaining_candidate_features": [
+        "number of prior chemotherapy regimens",
+        "time since diagnosis",
+        "presence of measurable or evaluable disease",
+        "creatinine level",
+        "haemoglobin level",
+        "white blood cell count",
+        "lymphocyte count",
+        "absolute neutrophil count",
+        "platelet count",
+        "ALT and AST levels",
+        "presence of liver metastases."
+      ]
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "trial_id": "NCT02151643",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, dialysis prescription stability, baseline serum phosphate level, pre-dialysis serum bicarbonate level, presence of chronic lung disease, carbon dioxide retention status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Baseline Serum Phosphate Concentrations",
+          "baseline serum phosphate level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "dialysis prescription stability",
+        "pre-dialysis serum bicarbonate level",
+        "presence of chronic lung disease",
+        "carbon dioxide retention status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Dialysis, Baseline Serum Phosphate, Baseline Serum Bicarbonate, Baseline Kidney Function,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Baseline Serum Phosphate Concentrations",
+          "Baseline Serum Phosphate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Dialysis",
+        "Baseline Serum Bicarbonate",
+        "Baseline Kidney Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Dialysis vintage, Serum phosphate concentration, Serum calcium concentration, Serum intact parathyroid hormone (iPTH) concentration,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Baseline Serum Phosphate Concentrations",
+          "Serum phosphate concentration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Dialysis vintage",
+        "Serum calcium concentration",
+        "Serum intact parathyroid hormone (iPTH) concentration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, dialysis prescription duration, serum phosphate level, serum bicarbonate level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Baseline Serum Phosphate Concentrations",
+          "serum phosphate level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "dialysis prescription duration",
+        "serum bicarbonate level"
+      ]
+    }
+  }
+}

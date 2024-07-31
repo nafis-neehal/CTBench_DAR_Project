@@ -1,0 +1,174 @@
+{
+  "trial_id": "NCT00803634",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline systolic blood pressure, dyspnea score, presence of pulmonary congestion, requirement for IV antihypertensive therapy, history of acute heart failure, history of hypertension, renal function status, liver function status, pregnancy status, allergy status, prior participation in clinical research studies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "baseline systolic blood pressure"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Diastolic Blood Pressure (DBP)"
+      ],
+      "remaining_candidate_features": [
+        "dyspnea score",
+        "presence of pulmonary congestion",
+        "requirement for IV antihypertensive therapy",
+        "history of acute heart failure",
+        "history of hypertension",
+        "renal function status",
+        "liver function status",
+        "pregnancy status",
+        "allergy status",
+        "prior participation in clinical research studies."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Heart Failure Duration, Dyspnea Score, Renal Function, Concomitant Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "Baseline Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure (DBP)",
+          "Baseline Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Heart Failure Duration",
+        "Dyspnea Score",
+        "Renal Function",
+        "Concomitant Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Ejection Fraction, New York Heart Association (NYHA) Class, B-type Natriuretic Peptide (BNP), Creatinine, Potassium.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure (DBP)",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Heart Rate",
+        "Ejection Fraction",
+        "New York Heart Association (NYHA) Class",
+        "B-type Natriuretic Peptide (BNP)",
+        "Creatinine",
+        "Potassium"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, medical history (hypertension, heart failure, myocardial infarction, coronary artery disease, diabetes, chronic kidney disease, liver disease), smoking status, New York Heart Association (NYHA) class, left ventricular ejection fraction, systolic blood pressure, diastolic blood pressure, heart rate, dyspnea score, creatinine, blood urea nitrogen, potassium, sodium, troponin, electrocardiogram findings.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic Blood Pressure (DBP)",
+          "diastolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "body mass index",
+        "medical history (hypertension, heart failure, myocardial infarction, coronary artery disease, diabetes, chronic kidney disease, liver disease)",
+        "smoking status",
+        "New York Heart Association (NYHA) class",
+        "left ventricular ejection fraction",
+        "heart rate",
+        "dyspnea score",
+        "creatinine",
+        "blood urea nitrogen",
+        "potassium",
+        "sodium",
+        "troponin",
+        "electrocardiogram findings."
+      ]
+    }
+  }
+}

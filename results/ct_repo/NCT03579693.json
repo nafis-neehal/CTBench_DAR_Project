@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT03579693",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Estimated Glomerular Filtration Rate (eGFR), Hemoglobin levels, Serum potassium levels, Weight, Walking distance, Presence of diabetes, Presence of anemia, Presence of hyperkalemia, HIV status, Liver disease status, COPD status, Mobility status, Institutionalization status, Use of immunosuppressive medications, Malignancy status, Cardiac pacemaker status, Participation in other trials, Language proficiency, Recent hospitalization for cardiac events, Blood pressure, Arrhythmia status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "eGFR per 2021 CKD-EPI",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Hemoglobin levels",
+        "Serum potassium levels",
+        "Weight",
+        "Walking distance",
+        "Presence of diabetes",
+        "Presence of anemia",
+        "Presence of hyperkalemia",
+        "HIV status",
+        "Liver disease status",
+        "COPD status",
+        "Mobility status",
+        "Institutionalization status",
+        "Use of immunosuppressive medications",
+        "Malignancy status",
+        "Cardiac pacemaker status",
+        "Participation in other trials",
+        "Language proficiency",
+        "Recent hospitalization for cardiac events",
+        "Blood pressure",
+        "Arrhythmia status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Estimated Glomerular Filtration Rate (eGFR), Hemoglobin, Serum Potassium, 6-minute walking distance, Systolic Blood Pressure, Diastolic Blood Pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "eGFR per 2021 CKD-EPI",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Hemoglobin",
+        "Serum Potassium",
+        "6-minute walking distance",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Chronic Kidney Disease Duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Potassium Level, 6-minute Walking Distance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "eGFR per 2021 CKD-EPI",
+          "eGFR"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Chronic Kidney Disease Duration",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hemoglobin",
+        "Potassium Level",
+        "6-minute Walking Distance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, estimated glomerular filtration rate, 6-minute walking distance, hemoglobin, potassium level, systolic blood pressure, diastolic blood pressure, history of diabetes, history of cardiovascular disease, history of malignancy, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body mass index",
+          "body mass index"
+        ],
+        [
+          "eGFR per 2021 CKD-EPI",
+          "estimated glomerular filtration rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "6-minute walking distance",
+        "hemoglobin",
+        "potassium level",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "history of diabetes",
+        "history of cardiovascular disease",
+        "history of malignancy",
+        "smoking status"
+      ]
+    }
+  }
+}

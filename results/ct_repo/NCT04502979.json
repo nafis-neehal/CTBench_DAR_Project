@@ -1,0 +1,150 @@
+{
+  "trial_id": "NCT04502979",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Parent age, parent language proficiency, infant age, infant gestational age at birth, infant developmental status, daycare attendance, parent willingness to learn ASL, parent willingness to participate in data collection.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Parent age"
+        ],
+        [
+          "Age",
+          "infant age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "parent language proficiency",
+        "infant gestational age at birth",
+        "infant developmental status",
+        "daycare attendance",
+        "parent willingness to learn ASL",
+        "parent willingness to participate in data collection."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Parent's Age, Parent's Language, Infant's Age, Infant's Birth Weight, Infant's Gestational Age at Birth, Parent's Education Level, Parent's Employment Status, Parent's Marital Status, Parent's BMI, Parent's Feeding Practices, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Parent's Age",
+        "Parent's Language",
+        "Infant's Age",
+        "Infant's Birth Weight",
+        "Infant's Gestational Age at Birth",
+        "Parent's Education Level",
+        "Parent's Employment Status",
+        "Parent's Marital Status",
+        "Parent's BMI",
+        "Parent's Feeding Practices"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Parent Age, Parent BMI, Infant Age, Infant Weight-for-Length Z Score, Breastfeeding Status, Formula Feeding Status, Solid Food Introduction Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Parent Age",
+        "Parent BMI",
+        "Infant Age",
+        "Infant Weight-for-Length Z Score",
+        "Breastfeeding Status",
+        "Formula Feeding Status",
+        "Solid Food Introduction Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, parental age, parental BMI, parental education level, household income, infant birth weight, gestational age, breastfeeding status, infant feeding mode (breastfed, formula-fed, or mixed).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "parental age",
+        "parental BMI",
+        "parental education level",
+        "household income",
+        "infant birth weight",
+        "gestational age",
+        "breastfeeding status",
+        "infant feeding mode (breastfed, formula-fed, or mixed)"
+      ]
+    }
+  }
+}

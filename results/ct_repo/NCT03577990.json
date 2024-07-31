@@ -1,0 +1,222 @@
+{
+  "trial_id": "NCT03577990",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, baseline systolic blood pressure, baseline diastolic blood pressure, antihypertensive medication use, physical activity level, dietary habits, weight, smartphone or device ownership, Bluetooth and Wi-Fi connectivity, community of residence.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "Baseline systolic blood pressure",
+          "baseline systolic blood pressure"
+        ],
+        [
+          "Baseline diastolic blood pressure",
+          "baseline diastolic blood pressure"
+        ],
+        [
+          "Baseline weight",
+          "weight"
+        ],
+        [
+          "Region of Enrollment",
+          "community of residence"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Years with Hypertension",
+        "Marital Status",
+        "Education",
+        "Income",
+        "Occupational Status"
+      ],
+      "remaining_candidate_features": [
+        "antihypertensive medication use",
+        "physical activity level",
+        "dietary habits",
+        "smartphone or device ownership",
+        "Bluetooth and Wi-Fi connectivity"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Antihypertensive medication adherence, Physical activity level, Dietary habits, Weight management,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Baseline systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Baseline diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Years with Hypertension",
+        "Marital Status",
+        "Education",
+        "Income",
+        "Occupational Status",
+        "Baseline weight"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Antihypertensive medication adherence",
+        "Physical activity level",
+        "Dietary habits",
+        "Weight management"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Antihypertensive Medication Use, Adherence to Antihypertensive Medication, Physical Activity Level, Dietary Habits, Weight Management, Smartphone Ownership,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Baseline systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Baseline diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Years with Hypertension",
+        "Marital Status",
+        "Education",
+        "Income",
+        "Occupational Status",
+        "Baseline weight"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Antihypertensive Medication Use",
+        "Adherence to Antihypertensive Medication",
+        "Physical Activity Level",
+        "Dietary Habits",
+        "Weight Management",
+        "Smartphone Ownership"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic and diastolic blood pressure, antihypertensive medication use, physical activity level, diet quality, weight, smoking status, comorbidities (diabetes, cardiovascular disease, etc.), education level, income, employment status, marital status, health literacy, technology proficiency, self-efficacy, adherence to antihypertensive medication(s) and lifestyle recommendations.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Baseline systolic blood pressure",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "Baseline diastolic blood pressure",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "Baseline weight",
+          "weight"
+        ],
+        [
+          "Education",
+          "education level"
+        ],
+        [
+          "Income",
+          "income"
+        ],
+        [
+          "Occupational Status",
+          "employment status"
+        ],
+        [
+          "Marital Status",
+          "marital status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Years with Hypertension"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "antihypertensive medication use",
+        "physical activity level",
+        "diet quality",
+        "smoking status",
+        "comorbidities (diabetes, cardiovascular disease, etc.)",
+        "health literacy",
+        "technology proficiency",
+        "self-efficacy",
+        "adherence to antihypertensive medication(s) and lifestyle recommendations."
+      ]
+    }
+  }
+}

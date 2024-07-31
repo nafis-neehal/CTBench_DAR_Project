@@ -1,0 +1,156 @@
+{
+  "trial_id": "NCT01596582",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, language fluency, previous colorectal cancer screening history, comorbidities, family history of colorectal cancer, presence of gastrointestinal symptoms, patient satisfaction with decision-making process, provider satisfaction, screening intentions, test completion rates.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Desired role in decision-making",
+          "patient satisfaction with decision-making process"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Education",
+        "Marital status",
+        "Insurance"
+      ],
+      "remaining_candidate_features": [
+        "language fluency",
+        "previous colorectal cancer screening history",
+        "comorbidities",
+        "family history of colorectal cancer",
+        "presence of gastrointestinal symptoms",
+        "provider satisfaction",
+        "screening intentions",
+        "test completion rates"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Previous CRC screening history, Family history of colorectal cancer, Presence of gastrointestinal symptoms, Comorbidities,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Education",
+        "Marital status",
+        "Insurance",
+        "Desired role in decision-making"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Previous CRC screening history",
+        "Family history of colorectal cancer",
+        "Presence of gastrointestinal symptoms",
+        "Comorbidities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Family History of Colorectal Cancer, Personal History of Colorectal Cancer or Polyps, Chronic Inflammatory Bowel Disease, Presence of Alarm Gastrointestinal Symptoms, Comorbidities, CRC Screening History, Provider Type.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Education",
+        "Marital status",
+        "Insurance",
+        "Desired role in decision-making"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Family History of Colorectal Cancer",
+        "Personal History of Colorectal Cancer or Polyps",
+        "Chronic Inflammatory Bowel Disease",
+        "Presence of Alarm Gastrointestinal Symptoms",
+        "Comorbidities",
+        "CRC Screening History",
+        "Provider Type"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, marital status, employment status, medical history (including prior CRC screening, comorbidities), family history of CRC or polyps, presence of alarm gastrointestinal symptoms, primary care provider or physician extender, CRC screening history (including type and date of last screening).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Education",
+          "education level"
+        ],
+        [
+          "Marital status",
+          "marital status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Insurance",
+        "Desired role in decision-making"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "employment status",
+        "medical history (including prior CRC screening, comorbidities)",
+        "family history of CRC or polyps",
+        "presence of alarm gastrointestinal symptoms",
+        "primary care provider or physician extender",
+        "CRC screening history (including type and date of last screening)"
+      ]
+    }
+  }
+}

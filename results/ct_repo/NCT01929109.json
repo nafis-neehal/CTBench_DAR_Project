@@ -1,0 +1,166 @@
+{
+  "trial_id": "NCT01929109",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), renal function (estimated creatinine clearance), presence of Type 2 Diabetes Mellitus (T2DM), blood pressure, hemoglobin levels, use of insulin, duration of hemodialysis, use of cytochrome P450 (CYP)3A inhibitors, use of drugs with a narrow therapeutic index, QT interval on ECG, PR interval on ECG.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Type 2 Diabetes Mellitus (T2DM) status",
+          "presence of Type 2 Diabetes Mellitus (T2DM)"
+        ],
+        [
+          "Creatinine clearance (CLcr)",
+          "renal function (estimated creatinine clearance)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Estimated Glomerular Filtration Rate (eGRF)"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "blood pressure",
+        "hemoglobin levels",
+        "use of insulin",
+        "duration of hemodialysis",
+        "use of cytochrome P450 (CYP)3A inhibitors",
+        "use of drugs with a narrow therapeutic index",
+        "QT interval on ECG",
+        "PR interval on ECG."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Estimated Creatinine Clearance (CLcr), Renal Function Group (Healthy, Mild, Moderate, Severe, ESRD), Type 2 Diabetes Mellitus Status, Hemoglobin, Systolic Blood Pressure, Diastolic Blood Pressure, 12-lead Electrocardiogram (ECG) Abnormalities, Use of Potent CYP3A Inhibitors, Use of Drugs with Narrow Therapeutic Index, Use of Drugs Known to Prolong QT Interval,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Type 2 Diabetes Mellitus (T2DM) status",
+          "Type 2 Diabetes Mellitus Status"
+        ],
+        [
+          "Creatinine clearance (CLcr)",
+          "Estimated Creatinine Clearance (CLcr)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Estimated Glomerular Filtration Rate (eGRF)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Renal Function Group (Healthy, Mild, Moderate, Severe, ESRD)",
+        "Hemoglobin",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "12-lead Electrocardiogram (ECG) Abnormalities",
+        "Use of Potent CYP3A Inhibitors",
+        "Use of Drugs with Narrow Therapeutic Index",
+        "Use of Drugs Known to Prolong QT Interval"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Estimated Creatinine Clearance, Diabetes Status, Hemoglobin, Systolic Blood Pressure, Diastolic Blood Pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Type 2 Diabetes Mellitus (T2DM) status",
+          "Diabetes Status"
+        ],
+        [
+          "Creatinine clearance (CLcr)",
+          "Estimated Creatinine Clearance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Estimated Glomerular Filtration Rate (eGRF)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Hemoglobin",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), estimated creatinine clearance (CLcr), presence of type 2 diabetes mellitus (T2DM), hemoglobin level, systolic and diastolic blood pressure, electrocardiogram (ECG) parameters (QTcF, PR interval).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Male",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Type 2 Diabetes Mellitus (T2DM) status",
+          "presence of type 2 diabetes mellitus (T2DM)"
+        ],
+        [
+          "Creatinine clearance (CLcr)",
+          "estimated creatinine clearance (CLcr)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Estimated Glomerular Filtration Rate (eGRF)"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "hemoglobin level",
+        "systolic and diastolic blood pressure",
+        "electrocardiogram (ECG) parameters (QTcF, PR interval)"
+      ]
+    }
+  }
+}

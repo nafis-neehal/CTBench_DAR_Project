@@ -1,0 +1,245 @@
+{
+  "trial_id": "NCT02481414",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Pap smear result, treatment history for HSIL, informed consent status, compliance with protocol requirements, history of immunosuppressive disease or treatment, pregnancy status, breastfeeding status, allergy to Candida antigen, history of severe asthma, history of invasive squamous cell carcinoma of the cervix, history of receiving PepCan, investigator's assessment of patient suitability.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Histological Diagnosis at Study Entry",
+          "Pap smear result"
+        ],
+        [
+          "Human papillomavirus (HPV) prophylactic vaccine",
+          "history of receiving PepCan"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Number (No.) of cervical quadrants",
+        "Body mass index",
+        "Albumin < 3.5 g/dL",
+        "Total protein < 6.4 g/dL",
+        "Any college",
+        "Any children",
+        "\u2265 5 sexual partners",
+        "Ever smoked",
+        "Currently smoke",
+        "Ever used oral contraceptives",
+        "Currently use oral contraceptives"
+      ],
+      "remaining_candidate_features": [
+        "treatment history for HSIL",
+        "informed consent status",
+        "compliance with protocol requirements",
+        "history of immunosuppressive disease or treatment",
+        "pregnancy status",
+        "breastfeeding status",
+        "allergy to Candida antigen",
+        "history of severe asthma",
+        "history of invasive squamous cell carcinoma of the cervix",
+        "investigator's assessment of patient suitability."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Baseline Pap smear result, History of severe asthma, History of invasive squamous cell carcinoma of the cervix, History of immunosuppressive disease or treatment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Histological Diagnosis at Study Entry",
+          "Baseline Pap smear result"
+        ],
+        [
+          "History of severe asthma requiring emergency room visit or hospitalization within the past 5 years",
+          "History of severe asthma"
+        ],
+        [
+          "History of invasive squamous cell carcinoma of the cervix",
+          "History of invasive squamous cell carcinoma of the cervix"
+        ],
+        [
+          "History of disease or treatment causing immunosuppression",
+          "History of immunosuppressive disease or treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Number (No.) of cervical quadrants",
+        "Body mass index",
+        "Albumin < 3.5 g/dL",
+        "Total protein < 6.4 g/dL",
+        "Human papillomavirus (HPV) prophylactic vaccine",
+        "Any college",
+        "Any children",
+        "\u2265 5 sexual partners",
+        "Ever smoked",
+        "Currently smoke",
+        "Ever used oral contraceptives",
+        "Currently use oral contraceptives"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Ethnicity (NIH/OMB), Region of Enrollment, HPV status, Cervical lesion grade, Colposcopy results, Pap smear results, History of cervical disease, History of immunosuppression, Pregnancy status, Breastfeeding status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Histological Diagnosis at Study Entry",
+          "Cervical lesion grade"
+        ],
+        [
+          "Human papillomavirus (HPV) prophylactic vaccine",
+          "HPV status"
+        ],
+        [
+          "Number (No.) of cervical quadrants",
+          "Colposcopy results"
+        ],
+        [
+          "Pap smear results",
+          "Pap smear results"
+        ],
+        [
+          "History of disease or treatment causing immunosuppression",
+          "History of immunosuppression"
+        ],
+        [
+          "Being pregnant or attempting to be pregnant within the period of study participation",
+          "Pregnancy status"
+        ],
+        [
+          "Breast feeding or planning to breast feed within the period of study participation",
+          "Breastfeeding status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Body mass index",
+        "Albumin < 3.5 g/dL",
+        "Total protein < 6.4 g/dL",
+        "Any college",
+        "Any children",
+        "\u2265 5 sexual partners",
+        "Ever smoked",
+        "Currently smoke",
+        "Ever used oral contraceptives",
+        "Currently use oral contraceptives"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "History of cervical disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, Pap smear result, colposcopy-guided biopsy result, history of immunosuppressive disease or treatment, pregnancy status, breastfeeding status, allergy to Candida antigen, history of severe asthma, history of invasive squamous cell carcinoma of the cervix, prior receipt of PepCan.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Histological Diagnosis at Study Entry",
+          "Pap smear result"
+        ],
+        [
+          "Histological Diagnosis at Study Entry",
+          "colposcopy-guided biopsy result"
+        ],
+        [
+          "Human papillomavirus (HPV) prophylactic vaccine",
+          "prior receipt of PepCan"
+        ],
+        [
+          "History of disease or treatment causing immunosuppression",
+          "history of immunosuppressive disease or treatment"
+        ],
+        [
+          "Being pregnant or attempting to be pregnant within the period of study participation",
+          "pregnancy status"
+        ],
+        [
+          "Breast feeding or planning to breast feed within the period of study participation",
+          "breastfeeding status"
+        ],
+        [
+          "Allergy to Candida antigen",
+          "allergy to Candida antigen"
+        ],
+        [
+          "History of severe asthma requiring emergency room visit or hospitalization within the past 5 years",
+          "history of severe asthma"
+        ],
+        [
+          "History of invasive squamous cell carcinoma of the cervix",
+          "history of invasive squamous cell carcinoma of the cervix"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Number (No.) of cervical quadrants",
+        "Body mass index",
+        "Albumin < 3.5 g/dL",
+        "Total protein < 6.4 g/dL",
+        "Any college",
+        "Any children",
+        "\u2265 5 sexual partners",
+        "Ever smoked",
+        "Currently smoke",
+        "Ever used oral contraceptives",
+        "Currently use oral contraceptives"
+      ],
+      "remaining_candidate_features": []
+    }
+  }
+}

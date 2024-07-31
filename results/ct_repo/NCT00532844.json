@@ -1,0 +1,170 @@
+{
+  "trial_id": "NCT00532844",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, history of cardiovascular disease, type 2 diabetes status, peripheral arterial disease status, obesity status, smoking status, hypercholesterolemia status, endothelial dysfunction status, pregnancy status, serum creatinine levels, hepatic enzyme concentrations, HIV status, Hepatitis B status, Hepatitis C status, history of alcohol and/or drug abuse, previous treatment with BH4, hypersensitivity to 6R-BH4 or its excipients.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "pregnancy status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race",
+        "Ethnicity",
+        "Weight",
+        "Height",
+        "Body Mass Index"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "history of cardiovascular disease",
+        "type 2 diabetes status",
+        "peripheral arterial disease status",
+        "obesity status",
+        "smoking status",
+        "hypercholesterolemia status",
+        "endothelial dysfunction status",
+        "serum creatinine levels",
+        "hepatic enzyme concentrations",
+        "HIV status",
+        "Hepatitis B status",
+        "Hepatitis C status",
+        "history of alcohol and/or drug abuse",
+        "previous treatment with BH4",
+        "hypersensitivity to 6R-BH4 or its excipients."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of cardiovascular disease, Type 2 diabetes status, Peripheral arterial disease status, Smoking status, Hypercholesterolemia status, Body Mass Index, Baseline PAT score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "History of cardiovascular disease",
+        "Type 2 diabetes status",
+        "Peripheral arterial disease status",
+        "Smoking status",
+        "Hypercholesterolemia status",
+        "Baseline PAT score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Cardiovascular Disease, History of Type 2 Diabetes, Peripheral Arterial Disease, Obesity, Smoking Status, Hypercholesterolemia, Endothelial Dysfunction Status, Creatinine Level, Hepatic Enzyme Concentrations.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Cardiovascular Disease",
+        "History of Type 2 Diabetes",
+        "Peripheral Arterial Disease",
+        "Obesity",
+        "Smoking Status",
+        "Hypercholesterolemia",
+        "Endothelial Dysfunction Status",
+        "Creatinine Level",
+        "Hepatic Enzyme Concentrations"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, heart rate, medical history (cardiovascular disease, peripheral arterial disease, obesity, smoking, hypercholesterolemia, type 2 diabetes), peripheral arterial tonometry (PAT) score, serum creatinine, hepatic enzyme concentrations, history of medication use (vitamin C supplements, multivitamins, dietary supplements, vitamin E-containing supplements).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "medical history (cardiovascular disease, peripheral arterial disease, obesity, smoking, hypercholesterolemia, type 2 diabetes)",
+        "peripheral arterial tonometry (PAT) score",
+        "serum creatinine",
+        "hepatic enzyme concentrations",
+        "history of medication use (vitamin C supplements, multivitamins, dietary supplements, vitamin E-containing supplements)"
+      ]
+    }
+  }
+}

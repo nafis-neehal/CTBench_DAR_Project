@@ -1,0 +1,208 @@
+{
+  "trial_id": "NCT02460783",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, HOMA-IR, MMSE, weight, waist measurement, fasting glucose, hematocrit, hemoglobin, ALT, AST, cardiovascular disease history, stroke history, neurological disease history, substance abuse history, endocrine disorder history, eating disorder history, GI disorder history, malabsorption disorder history, type 2 diabetes history, hypoglycemia history, systemic corticosteroid use, HIV status, HCV status, HBV status, MRI contraindications, LP contraindications, pregnancy status, nursing status, genetic testing consent for APOE.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Homeostatic Model Assessment of Insulin Resistance 2 (HOMA2-IR)",
+          "HOMA-IR"
+        ],
+        [
+          "Mini-Mental State Examination (MMSE) score",
+          "MMSE"
+        ],
+        [
+          "Body weight",
+          "weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Height",
+        "ApoE \u03b54 carrier status"
+      ],
+      "remaining_candidate_features": [
+        "waist measurement",
+        "fasting glucose",
+        "hematocrit",
+        "hemoglobin",
+        "ALT",
+        "AST",
+        "cardiovascular disease history",
+        "stroke history",
+        "neurological disease history",
+        "substance abuse history",
+        "endocrine disorder history",
+        "eating disorder history",
+        "GI disorder history",
+        "malabsorption disorder history",
+        "type 2 diabetes history",
+        "hypoglycemia history",
+        "systemic corticosteroid use",
+        "HIV status",
+        "HCV status",
+        "HBV status",
+        "MRI contraindications",
+        "LP contraindications",
+        "pregnancy status",
+        "nursing status",
+        "genetic testing consent for APOE."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Waist Circumference, HOMA-IR, MMSE Score, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Hematocrit, Hemoglobin, ALT, AST,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Homeostatic Model Assessment of Insulin Resistance 2 (HOMA2-IR)",
+          "HOMA-IR"
+        ],
+        [
+          "Mini-Mental State Examination (MMSE) score",
+          "MMSE Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Height",
+        "Body weight",
+        "ApoE \u03b54 carrier status"
+      ],
+      "remaining_candidate_features": [
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Glucose",
+        "Hematocrit",
+        "Hemoglobin",
+        "ALT",
+        "AST"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, BMI, Waist Circumference, HOMA-IR, MMSE, History of Cardiovascular Disease, History of Stroke or Other Neurological Disease, History of Substance Abuse, History of Endocrine Disorders, History of Eating Disorders, History of GI Disorders, History of Malabsorption Disorders, History of Type 2 Diabetes, Fasting Glucose, Hematocrit, Hemoglobin, ALT, AST.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Homeostatic Model Assessment of Insulin Resistance 2 (HOMA2-IR)",
+          "HOMA-IR"
+        ],
+        [
+          "Mini-Mental State Examination (MMSE) score",
+          "MMSE"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Height",
+        "Body weight",
+        "ApoE \u03b54 carrier status"
+      ],
+      "remaining_candidate_features": [
+        "Waist Circumference",
+        "History of Cardiovascular Disease",
+        "History of Stroke or Other Neurological Disease",
+        "History of Substance Abuse",
+        "History of Endocrine Disorders",
+        "History of Eating Disorders",
+        "History of GI Disorders",
+        "History of Malabsorption Disorders",
+        "History of Type 2 Diabetes",
+        "Fasting Glucose",
+        "Hematocrit",
+        "Hemoglobin",
+        "ALT",
+        "AST"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, waist measurement, MMSE score, HOMA-IR, medical history, medication use, smoking status, education level, ethnicity, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body weight",
+          "weight"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Homeostatic Model Assessment of Insulin Resistance 2 (HOMA2-IR)",
+          "HOMA-IR"
+        ],
+        [
+          "Mini-Mental State Examination (MMSE) score",
+          "MMSE score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Height",
+        "ApoE \u03b54 carrier status"
+      ],
+      "remaining_candidate_features": [
+        "waist measurement",
+        "medical history",
+        "medication use",
+        "smoking status",
+        "education level",
+        "ethnicity",
+        "marital status"
+      ]
+    }
+  }
+}

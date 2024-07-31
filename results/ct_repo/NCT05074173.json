@@ -1,0 +1,165 @@
+{
+  "trial_id": "NCT05074173",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline blood pressure, medication adherence score, number of antihypertensive medications, internet and mobile phone access, stage of hypertension, quality of life score, history of hospitalization, diagnosis of heart failure, end-stage kidney disease, acute coronary syndrome, stroke.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Type 2 Diabetes",
+          "baseline blood pressure"
+        ],
+        [
+          "Obesity",
+          "quality of life score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "medication adherence score",
+        "number of antihypertensive medications",
+        "internet and mobile phone access",
+        "stage of hypertension",
+        "history of hospitalization",
+        "diagnosis of heart failure",
+        "end-stage kidney disease",
+        "acute coronary syndrome",
+        "stroke."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Blood Pressure, Medication Adherence Score, Internet and Mobile Phone Access, Number of Antihypertensive Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Type 2 Diabetes",
+        "Obesity"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Blood Pressure",
+        "Medication Adherence Score",
+        "Internet and Mobile Phone Access",
+        "Number of Antihypertensive Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hypertension diagnosis duration, Systolic Blood Pressure, Diastolic Blood Pressure, Number of antihypertensive medications, K-Wood-MAS-4 score, Mobile phone access, Internet access.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Type 2 Diabetes",
+        "Obesity"
+      ],
+      "remaining_candidate_features": [
+        "Hypertension diagnosis duration",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Number of antihypertensive medications",
+        "K-Wood-MAS-4 score",
+        "Mobile phone access",
+        "Internet access."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, employment status, marital status, body mass index (BMI), smoking status, comorbidities (e.g., diabetes, heart disease), duration of hypertension diagnosis, number and type of antihypertensive medications, baseline blood pressure, K-Wood-MAS-4 score, quality of life score (CDC Health Related Quality of Life Questioner).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Type 2 Diabetes",
+          "comorbidities (e.g., diabetes, heart disease)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Obesity"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "education level",
+        "employment status",
+        "marital status",
+        "body mass index (BMI)",
+        "smoking status",
+        "duration of hypertension diagnosis",
+        "number and type of antihypertensive medications",
+        "baseline blood pressure",
+        "K-Wood-MAS-4 score",
+        "quality of life score (CDC Health Related Quality of Life Questioner)"
+      ]
+    }
+  }
+}

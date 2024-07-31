@@ -1,0 +1,199 @@
+{
+  "trial_id": "NCT00687739",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, menstrual cycle regularity, luteinizing hormone levels, serum progesterone levels, smoking status, physical activity level, diabetes medication use, hormonal contraception use, glucocorticoid use, pregnancy status, lactation status, hypersensitivity to specific substances, depression scale scores, bone density (osteopenia or osteoporosis), BMI, recent weight change, history of abnormal vaginal bleeding, history of breast cancer or estrogen-dependent neoplasms, history of venous thromboembolic events, renal function (creatinine clearance), liver function tests (AST, ALT, alkaline phosphatase, total bilirubin), thyroid function (TSH levels), blood pressure, cardiovascular disease status, orthopedic issues.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "menstrual cycle regularity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Composition Total Mass",
+        "Body Composition Fat Mass"
+      ],
+      "remaining_candidate_features": [
+        "luteinizing hormone levels",
+        "serum progesterone levels",
+        "smoking status",
+        "physical activity level",
+        "diabetes medication use",
+        "hormonal contraception use",
+        "glucocorticoid use",
+        "pregnancy status",
+        "lactation status",
+        "hypersensitivity to specific substances",
+        "depression scale scores",
+        "bone density (osteopenia or osteoporosis)",
+        "recent weight change",
+        "history of abnormal vaginal bleeding",
+        "history of breast cancer or estrogen-dependent neoplasms",
+        "history of venous thromboembolic events",
+        "renal function (creatinine clearance)",
+        "liver function tests (AST, ALT, alkaline phosphatase, total bilirubin)",
+        "thyroid function (TSH levels)",
+        "blood pressure",
+        "cardiovascular disease status",
+        "orthopedic issues"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Menstrual Cycle Regularity, Luteinizing Hormone Levels, Mid-luteal Serum Progesterone Levels, Smoking Status, Physical Activity Level, Depression Scale Scores, Bone Density (T scores), Weight Change, Liver Function Tests, Thyroid Function Tests, Blood Pressure, Cardiovascular Disease History, Orthopedic Issues",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Body Composition Total Mass",
+        "Body Composition Fat Mass"
+      ],
+      "remaining_candidate_features": [
+        "Menstrual Cycle Regularity",
+        "Luteinizing Hormone Levels",
+        "Mid-luteal Serum Progesterone Levels",
+        "Smoking Status",
+        "Physical Activity Level",
+        "Depression Scale Scores",
+        "Bone Density (T scores)",
+        "Weight Change",
+        "Liver Function Tests",
+        "Thyroid Function Tests",
+        "Blood Pressure",
+        "Cardiovascular Disease History",
+        "Orthopedic Issues"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Menstrual Cycle Length, Luteinizing Hormone, Progesterone, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin, Lipid Profile.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Body Composition Total Mass",
+        "Body Composition Fat Mass"
+      ],
+      "remaining_candidate_features": [
+        "Waist Circumference",
+        "Menstrual Cycle Length",
+        "Luteinizing Hormone",
+        "Progesterone",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Glucose",
+        "Fasting Insulin",
+        "Lipid Profile"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, BMI, race, ethnicity, smoking status, menstrual cycle length, luteinizing hormone level, serum progesterone level, Beck Depression Inventory-II score, Center for Epidemiologic Studies Depression Scale score, osteoporosis status, history of breast cancer, history of venous thromboembolic events, renal function, liver function tests, thyroid function tests, blood pressure, cardiovascular disease status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Sex: Female",
+          "menstrual cycle length"
+        ],
+        [
+          "Sex: Female",
+          "luteinizing hormone level"
+        ],
+        [
+          "Sex: Female",
+          "serum progesterone level"
+        ],
+        [
+          "Body Composition Total Mass",
+          "osteoporosis status"
+        ],
+        [
+          "Body Composition Fat Mass",
+          "history of breast cancer"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "smoking status",
+        "Beck Depression Inventory-II score",
+        "Center for Epidemiologic Studies Depression Scale score",
+        "history of venous thromboembolic events",
+        "renal function",
+        "liver function tests",
+        "thyroid function tests",
+        "blood pressure",
+        "cardiovascular disease status"
+      ]
+    }
+  }
+}

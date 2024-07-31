@@ -1,0 +1,170 @@
+{
+  "trial_id": "NCT03887299",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gestational Age, BMI, Prenatal Care Status, Immunosuppression Status, Skin Infection Status, Coagulopathy Status, Additional Surgical Procedure Likelihood, Allergy to CHG, Incarceration Status, Chorioamnionitis Status, Participation in Other Trials, Satisfaction, Quality of Life (QoL)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Medical Condition",
+          "Immunosuppression Status"
+        ],
+        [
+          "Medical Condition",
+          "Skin Infection Status"
+        ],
+        [
+          "Medical Condition",
+          "Coagulopathy Status"
+        ],
+        [
+          "Medical Condition",
+          "Chorioamnionitis Status"
+        ],
+        [
+          "Medical Condition",
+          "Allergy to CHG"
+        ],
+        [
+          "Medical Condition",
+          "Additional Surgical Procedure Likelihood"
+        ],
+        [
+          "Medical Condition",
+          "Incarceration Status"
+        ],
+        [
+          "Medical Condition",
+          "Participation in Other Trials"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Delivery complications",
+        "Vertical Skin incision",
+        "Skin closure with staples"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age",
+        "BMI",
+        "Prenatal Care Status",
+        "Satisfaction",
+        "Quality of Life (QoL)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational Age, Body Mass Index, Race/Ethnicity, Customized, Region of Enrollment, History of Cesarean Delivery, Diabetes Status, Hypertension Status, Smoking Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Medical Condition",
+        "Delivery complications",
+        "Vertical Skin incision",
+        "Skin closure with staples"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age",
+        "Body Mass Index",
+        "History of Cesarean Delivery",
+        "Diabetes Status",
+        "Hypertension Status",
+        "Smoking Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, BMI, Gestational Age, Parity, Previous Cesarean Section, History of Wound Infection, History of Diabetes, History of Hypertension,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Medical Condition",
+          "History of Wound Infection"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Delivery complications",
+        "Vertical Skin incision",
+        "Skin closure with staples"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Gestational Age",
+        "Parity",
+        "Previous Cesarean Section",
+        "History of Diabetes",
+        "History of Hypertension"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, BMI, gestational age, parity, history of previous cesarean delivery, medical comorbidities (e.g. diabetes, hypertension), smoking status, ethnicity, education level, occupation, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Medical Condition",
+          "medical comorbidities (e.g. diabetes, hypertension)"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Delivery complications",
+        "Vertical Skin incision",
+        "Skin closure with staples"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "gestational age",
+        "parity",
+        "history of previous cesarean delivery",
+        "smoking status",
+        "education level",
+        "occupation",
+        "marital status"
+      ]
+    }
+  }
+}

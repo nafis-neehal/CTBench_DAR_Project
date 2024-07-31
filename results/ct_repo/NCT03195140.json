@@ -1,0 +1,146 @@
+{
+  "trial_id": "NCT03195140",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, type of insulin therapy, baseline HbA1c, body mass index (BMI), use of continuous glucose monitoring (CGM), history of hypoglycemia, concomitant medications, baseline glucose levels, pregnancy status (for females), renal function (eGFR), thyroid function, cardiovascular health status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "pregnancy status (for females)"
+        ],
+        [
+          "Region of Enrollment",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "type of insulin therapy",
+        "baseline HbA1c",
+        "body mass index (BMI)",
+        "history of hypoglycemia",
+        "concomitant medications",
+        "baseline glucose levels",
+        "renal function (eGFR)",
+        "thyroid function",
+        "cardiovascular health status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Insulin Pump Use, Frequency of Hypoglycemia,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes",
+        "Baseline HbA1c",
+        "Insulin Pump Use",
+        "Frequency of Hypoglycemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Duration, Insulin Dose, HbA1c, BMI, History of Severe Hypoglycemia, History of DKA, Sensor Augmented Pump Experience.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Duration",
+        "Insulin Dose",
+        "HbA1c",
+        "BMI",
+        "History of Severe Hypoglycemia",
+        "History of DKA",
+        "Sensor Augmented Pump Experience"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, duration of diabetes, type of insulin therapy, HbA1c, body mass index (BMI), history of severe hypoglycemia, frequency of blood glucose monitoring, average daily insulin dose, presence of diabetes-related complications (e.g., retinopathy, nephropathy), concomitant medications, and socioeconomic status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "type of insulin therapy",
+        "HbA1c",
+        "body mass index (BMI)",
+        "history of severe hypoglycemia",
+        "frequency of blood glucose monitoring",
+        "average daily insulin dose",
+        "presence of diabetes-related complications (e.g., retinopathy, nephropathy)",
+        "concomitant medications",
+        "and socioeconomic status."
+      ]
+    }
+  }
+}

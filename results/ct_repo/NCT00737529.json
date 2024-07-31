@@ -1,0 +1,218 @@
+{
+  "trial_id": "NCT00737529",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, prior treatments, duration since last treatment, stage of disease at diagnosis, baseline tumor burden, baseline laboratory values (e.g., ANC, platelet count, AST/SGOT, ALT/SGPT, serum total bilirubin, creatinine clearance), presence of measurable disease on CT, history of CNS lymphoma, HIV status, Hepatitis B or C status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "MCL (Ann Arbor) Stage at Diagnosis",
+          "stage of disease at diagnosis"
+        ],
+        [
+          "Tumor Burden",
+          "baseline tumor burden"
+        ],
+        [
+          "Renal function at baseline",
+          "baseline laboratory values (e.g., ANC, platelet count, AST/SGOT, ALT/SGPT, serum total bilirubin, creatinine clearance)"
+        ],
+        [
+          "Prior Bone Marrow Assessment",
+          "prior treatments"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Duration of Mantle Cell Lymphoma",
+        "MCL International Prognostic Index (MIPI) Score Group at Enrollment",
+        "Bulky Disease"
+      ],
+      "remaining_candidate_features": [
+        "duration since last treatment",
+        "presence of measurable disease on CT",
+        "history of CNS lymphoma",
+        "HIV status",
+        "Hepatitis B or C status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Absolute neutrophil count, Platelet count, Serum AST/SGOT, Serum ALT/SGPT, Serum total bilirubin, Calculated creatinine clearance, Prior history of malignancies, Positive HIV status, Active Hepatitis B or C status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Renal function at baseline",
+          "Calculated creatinine clearance"
+        ],
+        [
+          "Prior history of malignancies",
+          "Prior history of malignancies"
+        ],
+        [
+          "Positive Human immunodeficiency virus (HIV)",
+          "Positive HIV status"
+        ],
+        [
+          "Active Hepatitis B or C",
+          "Active Hepatitis B or C status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Duration of Mantle Cell Lymphoma",
+        "MCL (Ann Arbor) Stage at Diagnosis",
+        "MCL International Prognostic Index (MIPI) Score Group at Enrollment",
+        "Prior Bone Marrow Assessment",
+        "Tumor Burden",
+        "Bulky Disease"
+      ],
+      "remaining_candidate_features": [
+        "Absolute neutrophil count",
+        "Platelet count",
+        "Serum AST/SGOT",
+        "Serum ALT/SGPT",
+        "Serum total bilirubin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior Bortezomib Treatment, Number of Prior Therapies, Time Since Initial Diagnosis, Time Since Last Therapy, Baseline Lymph Node Size, Baseline Bone Marrow Involvement, Baseline Hemoglobin, Baseline Platelet Count, Baseline Absolute Neutrophil Count, Baseline Creatinine Clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Renal function at baseline",
+          "Baseline Creatinine Clearance"
+        ],
+        [
+          "Duration of Mantle Cell Lymphoma",
+          "Time Since Initial Diagnosis"
+        ],
+        [
+          "Prior Bone Marrow Assessment",
+          "Baseline Bone Marrow Involvement"
+        ]
+      ],
+      "remaining_reference_features": [
+        "MCL (Ann Arbor) Stage at Diagnosis",
+        "MCL International Prognostic Index (MIPI) Score Group at Enrollment",
+        "Tumor Burden",
+        "Bulky Disease"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Prior Bortezomib Treatment",
+        "Number of Prior Therapies",
+        "Time Since Last Therapy",
+        "Baseline Lymph Node Size",
+        "Baseline Hemoglobin",
+        "Baseline Platelet Count",
+        "Baseline Absolute Neutrophil Count"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance score, mantle cell lymphoma subtype, prior treatments, time since diagnosis, time since last treatment, number of prior treatments, presence of extranodal involvement, presence of B symptoms, lactate dehydrogenase (LDH) level, beta-2 microglobulin level, absolute neutrophil count (ANC), platelet count, serum aspartate transaminase (AST), serum alanine transaminase (ALT), serum total bilirubin, calculated creatinine clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance score"
+        ],
+        [
+          "Renal function at baseline",
+          "calculated creatinine clearance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Duration of Mantle Cell Lymphoma",
+        "MCL (Ann Arbor) Stage at Diagnosis",
+        "MCL International Prognostic Index (MIPI) Score Group at Enrollment",
+        "Prior Bone Marrow Assessment",
+        "Tumor Burden",
+        "Bulky Disease"
+      ],
+      "remaining_candidate_features": [
+        "mantle cell lymphoma subtype",
+        "prior treatments",
+        "time since diagnosis",
+        "time since last treatment",
+        "number of prior treatments",
+        "presence of extranodal involvement",
+        "presence of B symptoms",
+        "lactate dehydrogenase (LDH) level",
+        "beta-2 microglobulin level",
+        "absolute neutrophil count (ANC)",
+        "platelet count",
+        "serum aspartate transaminase (AST)",
+        "serum alanine transaminase (ALT)",
+        "serum total bilirubin"
+      ]
+    }
+  }
+}

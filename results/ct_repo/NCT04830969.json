@@ -1,0 +1,219 @@
+{
+  "trial_id": "NCT04830969",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), number of natural teeth, baseline probing pocket depth (PD), baseline clinical attachment level (CAL), diabetes status (HbA1c levels), oral hygiene habits, medication use, smoking status, presence of other medical conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Whole Mouth Mean Pocket Depth",
+          "baseline probing pocket depth (PD)"
+        ],
+        [
+          "Whole Mouth Mean Clinical Attachment Loss",
+          "baseline clinical attachment level (CAL)"
+        ],
+        [
+          "Hemoglobin A1c",
+          "diabetes status (HbA1c levels)"
+        ],
+        [
+          "Smoking History",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Education",
+        "% sites with Pocket Depth \u2265 4 mm per participant",
+        "Bleeding on Probing (BOP) Index per participant",
+        "Plaque Index (PI) per participant",
+        "Fasting Blood Glucose",
+        "C-reactive Protein (CRP)",
+        "Alcohol Intake"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "number of natural teeth",
+        "oral hygiene habits",
+        "medication use",
+        "presence of other medical conditions"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Number of Natural Teeth, Clinical Attachment Level (CAL), Probing Depth (PD), Glycated Hemoglobin (HbA1c), Oral Microbiome Profile,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "% sites with Pocket Depth \u2265 4 mm per participant",
+          "Probing Depth (PD)"
+        ],
+        [
+          "Whole Mouth Mean Clinical Attachment Loss",
+          "Clinical Attachment Level (CAL)"
+        ],
+        [
+          "Hemoglobin A1c",
+          "Glycated Hemoglobin (HbA1c)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Education",
+        "Smoking History",
+        "Alcohol Intake",
+        "Whole Mouth Mean Pocket Depth",
+        "Bleeding on Probing (BOP) Index per participant",
+        "Plaque Index (PI) per participant",
+        "Fasting Blood Glucose",
+        "C-reactive Protein (CRP)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Number of Natural Teeth",
+        "Oral Microbiome Profile"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Periodontal disease severity, Number of natural teeth, CAL, PD.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Education",
+        "Smoking History",
+        "Alcohol Intake",
+        "Whole Mouth Mean Pocket Depth",
+        "Whole Mouth Mean Clinical Attachment Loss",
+        "% sites with Pocket Depth \u2265 4 mm per participant",
+        "Bleeding on Probing (BOP) Index per participant",
+        "Plaque Index (PI) per participant",
+        "Fasting Blood Glucose",
+        "C-reactive Protein (CRP)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diabetes Diagnosis Duration",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Periodontal disease severity",
+        "Number of natural teeth",
+        "CAL",
+        "PD."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), diabetes duration, HbA1c level, smoking status, medical history (including presence of comorbidities), periodontal disease severity, number of natural teeth, CAL, PD, oral hygiene habits, use of medications (including non-steroidal anti-inflammatory drugs and immunosuppressive agents), history of periodontal treatment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Smoking History",
+          "smoking status"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c level"
+        ],
+        [
+          "Whole Mouth Mean Clinical Attachment Loss",
+          "CAL"
+        ],
+        [
+          "Whole Mouth Mean Pocket Depth",
+          "PD"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Education",
+        "% sites with Pocket Depth \u2265 4 mm per participant",
+        "Bleeding on Probing (BOP) Index per participant",
+        "Plaque Index (PI) per participant",
+        "Fasting Blood Glucose",
+        "C-reactive Protein (CRP)"
+      ],
+      "remaining_candidate_features": [
+        "diabetes duration",
+        "medical history (including presence of comorbidities)",
+        "periodontal disease severity",
+        "number of natural teeth",
+        "oral hygiene habits",
+        "use of medications (including non-steroidal anti-inflammatory drugs and immunosuppressive agents)",
+        "history of periodontal treatment."
+      ]
+    }
+  }
+}

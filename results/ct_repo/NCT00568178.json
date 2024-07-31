@@ -1,0 +1,226 @@
+{
+  "trial_id": "NCT00568178",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline urinary protein/creatinine ratio, baseline glomerular filtration rate (GFR), history of chronic kidney disease, number of antihypertensive medications, sensitivity to losartan or similar drugs, sensitivity to amlodipine or calcium channel blockers, use of cyclosporine, history of major organ transplantation, pregnancy status, nursing status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Protein-to-Creatinine Ratio",
+          "baseline urinary protein/creatinine ratio"
+        ],
+        [
+          "Hypertensive",
+          "number of antihypertensive medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Prior Angiotensin Converting Enzyme Inhibitor /Angiotensin II Type I Receptor Blocker (ACE-I/ARB)Use",
+        "Race",
+        "Region",
+        "Tanner Stage",
+        "Body Mass Index (BMI)",
+        "Duration of Hypertension",
+        "Height",
+        "Sitting Diastolic Blood Pressure",
+        "Sitting Systolic Blood Pressure",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "baseline glomerular filtration rate (GFR)",
+        "history of chronic kidney disease",
+        "sensitivity to losartan or similar drugs",
+        "sensitivity to amlodipine or calcium channel blockers",
+        "use of cyclosporine",
+        "history of major organ transplantation",
+        "pregnancy status",
+        "nursing status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Protein/Creatinine Ratio, Baseline Glomerular Filtration Rate (GFR), Chronic Kidney Disease Duration, Blood Pressure, Use of Antihypertensive Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region",
+          "Region of Enrollment"
+        ],
+        [
+          "Protein-to-Creatinine Ratio",
+          "Baseline Protein/Creatinine Ratio"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Hypertensive",
+        "Prior Angiotensin Converting Enzyme Inhibitor /Angiotensin II Type I Receptor Blocker (ACE-I/ARB)Use",
+        "Tanner Stage",
+        "Body Mass Index (BMI)",
+        "Duration of Hypertension",
+        "Height",
+        "Sitting Diastolic Blood Pressure",
+        "Sitting Systolic Blood Pressure",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Glomerular Filtration Rate (GFR)",
+        "Chronic Kidney Disease Duration",
+        "Blood Pressure",
+        "Use of Antihypertensive Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Urinary Protein/Creatinine Ratio, Glomerular Filtration Rate, Chronic Kidney Disease Duration,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Sitting Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Sitting Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Protein-to-Creatinine Ratio",
+          "Urinary Protein/Creatinine Ratio"
+        ],
+        [
+          "Duration of Hypertension",
+          "Chronic Kidney Disease Duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Hypertensive",
+        "Prior Angiotensin Converting Enzyme Inhibitor /Angiotensin II Type I Receptor Blocker (ACE-I/ARB)Use",
+        "Tanner Stage",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Glomerular Filtration Rate"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, body mass index (BMI), race, ethnicity, duration of proteinuria, underlying cause of chronic kidney disease, systolic and diastolic blood pressure, serum creatinine, estimated glomerular filtration rate (eGFR), urinary protein/creatinine ratio at baseline, history of hypertension, history of cardiovascular disease, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Protein-to-Creatinine Ratio",
+          "urinary protein/creatinine ratio at baseline"
+        ],
+        [
+          "Sitting Diastolic Blood Pressure",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "Sitting Systolic Blood Pressure",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "Duration of Hypertension",
+          "history of hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Hypertensive",
+        "Prior Angiotensin Converting Enzyme Inhibitor /Angiotensin II Type I Receptor Blocker (ACE-I/ARB)Use",
+        "Region",
+        "Tanner Stage",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "duration of proteinuria",
+        "underlying cause of chronic kidney disease",
+        "serum creatinine",
+        "estimated glomerular filtration rate (eGFR)",
+        "history of cardiovascular disease",
+        "concomitant medications."
+      ]
+    }
+  }
+}

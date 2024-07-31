@@ -1,0 +1,227 @@
+{
+  "trial_id": "NCT01652729",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, body mass index (BMI), duration of type 2 diabetes, baseline HbA1c, fasting plasma glucose, body weight, metformin dosage, renal function (creatinine clearance), history of cardiovascular disease, history of pancreatitis, triglyceride levels, history of gastrointestinal diseases, history of central nervous system diseases, history of liver disease, history of malignant disease, history of severe hypoglycemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "gender"
+        ],
+        [
+          "Race",
+          "race/ethnicity"
+        ],
+        [
+          "Body weight",
+          "body weight"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1C",
+          "baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma glucose",
+          "fasting plasma glucose"
+        ],
+        [
+          "Baseline anti-hyperglycaemic drugs",
+          "metformin dosage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sitting Systolic BP",
+        "Sitting Distolic BP",
+        "eGFR",
+        "Urinary albumin-to-creatinine ratio",
+        "Duration of T2D"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 2 diabetes",
+        "renal function (creatinine clearance)",
+        "history of cardiovascular disease",
+        "history of pancreatitis",
+        "triglyceride levels",
+        "history of gastrointestinal diseases",
+        "history of central nervous system diseases",
+        "history of liver disease",
+        "history of malignant disease",
+        "history of severe hypoglycemia."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Duration of diabetes, HbA1c, Body weight, BMI, Fasting plasma glucose, Creatinine clearance, Blood pressure, Lipid profile, Smoking status, Concomitant medications, History of cardiovascular disease, History of gastrointestinal disease, History of hypoglycemia",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Body weight",
+          "Body weight"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1C",
+          "HbA1c"
+        ],
+        [
+          "Fasting Plasma glucose",
+          "Fasting plasma glucose"
+        ],
+        [
+          "eGFR",
+          "Creatinine clearance"
+        ],
+        [
+          "Baseline anti-hyperglycaemic drugs",
+          "Concomitant medications"
+        ],
+        [
+          "Duration of T2D",
+          "Duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Gender",
+        "Sitting Systolic BP",
+        "Sitting Distolic BP",
+        "Urinary albumin-to-creatinine ratio"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Blood pressure",
+        "Lipid profile",
+        "Smoking status",
+        "History of cardiovascular disease",
+        "History of gastrointestinal disease",
+        "History of hypoglycemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, Diabetes duration, Body Mass Index (BMI), HbA1c, Fasting plasma glucose, Metformin dose, History of cardiovascular disease, History of pancreatitis, Triglycerides, Estimated creatinine clearance, History of severe congestive heart failure, History of severe gastrointestinal diseases, History of malignant disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race",
+          "Ethnic Origin"
+        ],
+        [
+          "BMI",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "HbA1C",
+          "HbA1c"
+        ],
+        [
+          "Fasting Plasma glucose",
+          "Fasting plasma glucose"
+        ],
+        [
+          "Baseline anti-hyperglycaemic drugs",
+          "Metformin dose"
+        ],
+        [
+          "Duration of T2D",
+          "Diabetes duration"
+        ],
+        [
+          "eGFR",
+          "Estimated creatinine clearance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Gender",
+        "Body weight",
+        "Sitting Systolic BP",
+        "Sitting Distolic BP",
+        "Urinary albumin-to-creatinine ratio"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "History of cardiovascular disease",
+        "History of pancreatitis",
+        "Triglycerides",
+        "History of severe congestive heart failure",
+        "History of severe gastrointestinal diseases",
+        "History of malignant disease."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, weight, height, duration of type 2 diabetes mellitus, HbA1c at screening, fasting plasma glucose concentration at screening, metformin dose, history of cardiovascular disease, history of pancreatitis, history of gastrointestinal diseases, history of liver disease, history of severe hypoglycemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body weight",
+          "weight"
+        ],
+        [
+          "BMI",
+          "body mass index"
+        ],
+        [
+          "HbA1C",
+          "HbA1c at screening"
+        ],
+        [
+          "Fasting Plasma glucose",
+          "fasting plasma glucose concentration at screening"
+        ],
+        [
+          "Baseline anti-hyperglycaemic drugs",
+          "metformin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Gender",
+        "Race",
+        "Sitting Systolic BP",
+        "Sitting Distolic BP",
+        "eGFR",
+        "Urinary albumin-to-creatinine ratio",
+        "Duration of T2D"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "race",
+        "ethnicity",
+        "height",
+        "duration of type 2 diabetes mellitus",
+        "history of cardiovascular disease",
+        "history of pancreatitis",
+        "history of gastrointestinal diseases",
+        "history of liver disease",
+        "history of severe hypoglycemia."
+      ]
+    }
+  }
+}

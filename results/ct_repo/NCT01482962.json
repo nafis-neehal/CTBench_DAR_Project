@@ -1,0 +1,173 @@
+{
+  "trial_id": "NCT01482962",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, prior systemic therapy for PTCL, subtype of PTCL, tumor biopsy availability, venous access suitability, contraception agreement, baseline blood levels, baseline bone marrow function, baseline organ function, history of sleep apnea syndrome, cardiac condition, gastric or bowel function, infection status (HIV, hepatitis B, hepatitis C), history of stem cell or organ transplantation, prior cancer therapy toxicity recovery, recent major surgery or infection, breastfeeding or pregnancy status, coexistent second malignancy, serious medical or psychiatric illness.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Body Surface Area (BSA)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "prior systemic therapy for PTCL",
+        "subtype of PTCL",
+        "tumor biopsy availability",
+        "venous access suitability",
+        "contraception agreement",
+        "baseline blood levels",
+        "baseline bone marrow function",
+        "baseline organ function",
+        "history of sleep apnea syndrome",
+        "cardiac condition",
+        "gastric or bowel function",
+        "infection status (HIV, hepatitis B, hepatitis C)",
+        "history of stem cell or organ transplantation",
+        "prior cancer therapy toxicity recovery",
+        "recent major surgery or infection",
+        "breastfeeding or pregnancy status",
+        "coexistent second malignancy",
+        "serious medical or psychiatric illness."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Prior systemic therapy for PTCL, Tumor biopsy availability, Left ventricular ejection fraction (LVEF), HIV status, Hepatitis B status, Hepatitis C status, Prior autologous stem cell transplant, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Height",
+        "Weight",
+        "Body Surface Area (BSA)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "Prior systemic therapy for PTCL",
+        "Tumor biopsy availability",
+        "Left ventricular ejection fraction (LVEF)",
+        "HIV status",
+        "Hepatitis B status",
+        "Hepatitis C status",
+        "Prior autologous stem cell transplant"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Peripheral T-Cell Lymphoma Subtype, Number of Prior Systemic Therapies, Time Since Initial Diagnosis, Time Since Last Prior Therapy, Presence of B Symptoms, Lactate Dehydrogenase Level, Beta-2 Microglobulin Level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Height",
+        "Weight",
+        "Body Surface Area (BSA)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Peripheral T-Cell Lymphoma Subtype",
+        "Number of Prior Systemic Therapies",
+        "Time Since Initial Diagnosis",
+        "Time Since Last Prior Therapy",
+        "Presence of B Symptoms",
+        "Lactate Dehydrogenase Level",
+        "Beta-2 Microglobulin Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ECOG performance status, PTCL subtype, number of prior systemic therapies, time since initial diagnosis, time since last prior therapy, presence of B symptoms, lactate dehydrogenase (LDH) level, beta-2 microglobulin level, presence of extranodal involvement, tumor size, presence of cutaneous involvement, presence of bone marrow involvement.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Body Surface Area (BSA)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "PTCL subtype",
+        "number of prior systemic therapies",
+        "time since initial diagnosis",
+        "time since last prior therapy",
+        "presence of B symptoms",
+        "lactate dehydrogenase (LDH) level",
+        "beta-2 microglobulin level",
+        "presence of extranodal involvement",
+        "tumor size",
+        "presence of cutaneous involvement",
+        "presence of bone marrow involvement"
+      ]
+    }
+  }
+}

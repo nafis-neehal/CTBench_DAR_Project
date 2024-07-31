@@ -1,0 +1,337 @@
+{
+  "trial_id": "NCT00994682",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, ethnicity, body mass index (BMI), hemoglobin levels, white blood cell (WBC) count, neutrophil count, platelet count, albumin levels, serum creatinine levels, creatinine phosphokinase levels, aspartate aminotransferase (AST) levels, alanine aminotransferase (ALT) levels, alkaline phosphatase levels, glucose tolerance status, presence of type 2 diabetes mellitus (T2DM), liver histology findings.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Hemoglobin A1c",
+          "hemoglobin levels"
+        ],
+        [
+          "Plasma AST",
+          "aspartate aminotransferase (AST) levels"
+        ],
+        [
+          "Plasma ALT",
+          "alanine aminotransferase (ALT) levels"
+        ],
+        [
+          "NAFLD activity score (NAS) Liver histology",
+          "liver histology findings"
+        ],
+        [
+          "Diagnosis of definite NASH",
+          "presence of type 2 diabetes mellitus (T2DM)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Weight",
+        "Total body fat",
+        "Fasting plasma glucose",
+        "2-hour plasma glucose",
+        "Fasting plasma insulin",
+        "Fasting free fatty acids",
+        "Use of diabetes medications",
+        "Use of statins",
+        "Plasma triglycerides",
+        "Plasma total cholesterol",
+        "Plasma LDL-C",
+        "Plasma HDL-C",
+        "Steatosis grade",
+        "Inflammation grade",
+        "Ballooning grade",
+        "Fibrosis stage"
+      ],
+      "remaining_candidate_features": [
+        "white blood cell (WBC) count",
+        "neutrophil count",
+        "platelet count",
+        "albumin levels",
+        "serum creatinine levels",
+        "creatinine phosphokinase levels",
+        "alkaline phosphatase levels",
+        "glucose tolerance status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hemoglobin, White Blood Cell Count, Neutrophil Count, Platelet Count, Albumin, Serum Creatinine, Creatinine Phosphokinase, AST, ALT, Alkaline Phosphatase, Diabetes Status, Liver Biopsy Results,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Hemoglobin",
+          "Hemoglobin"
+        ],
+        [
+          "White Blood Cell Count",
+          "White Blood Cell Count"
+        ],
+        [
+          "Neutrophil Count",
+          "Neutrophil Count"
+        ],
+        [
+          "Platelets",
+          "Platelet Count"
+        ],
+        [
+          "Albumin",
+          "Albumin"
+        ],
+        [
+          "Serum creatinine",
+          "Serum Creatinine"
+        ],
+        [
+          "Creatinine phosphokinase",
+          "Creatinine Phosphokinase"
+        ],
+        [
+          "Plasma AST",
+          "AST"
+        ],
+        [
+          "Plasma ALT",
+          "ALT"
+        ],
+        [
+          "Diagnosis of definite NASH",
+          "Liver Biopsy Results"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Total body fat",
+        "Fasting plasma glucose",
+        "2-hour plasma glucose",
+        "Hemoglobin A1c",
+        "Fasting plasma insulin",
+        "Fasting free fatty acids",
+        "Use of diabetes medications",
+        "Use of statins",
+        "Plasma triglycerides",
+        "Plasma total cholesterol",
+        "Plasma LDL-C",
+        "Plasma HDL-C",
+        "NAFLD activity score (NAS) Liver histology",
+        "Steatosis grade",
+        "Inflammation grade",
+        "Ballooning grade",
+        "Fibrosis stage"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Alkaline Phosphatase",
+        "Diabetes Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity (NIH/OMB), Region of Enrollment, Body Mass Index, Diabetes Status, HbA1c, Fasting Plasma Glucose, Triglycerides, HDL Cholesterol, Systolic Blood Pressure, Diastolic Blood Pressure, Liver Histology Score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting plasma glucose",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c"
+        ],
+        [
+          "Plasma triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "Plasma HDL-C",
+          "HDL Cholesterol"
+        ],
+        [
+          "NAFLD activity score (NAS) Liver histology",
+          "Liver Histology Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Total body fat",
+        "2-hour plasma glucose",
+        "Fasting plasma insulin",
+        "Fasting free fatty acids",
+        "Use of diabetes medications",
+        "Use of statins",
+        "Plasma total cholesterol",
+        "Plasma LDL-C",
+        "Plasma AST",
+        "Plasma ALT",
+        "Steatosis grade",
+        "Inflammation grade",
+        "Ballooning grade",
+        "Fibrosis stage",
+        "Diagnosis of definite NASH"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diabetes Status",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ethnicity, body mass index (BMI), waist circumference, systolic and diastolic blood pressure, fasting plasma glucose, hemoglobin A1c, lipid profile (triglycerides, HDL, LDL), liver enzymes (AST, ALT, alkaline phosphatase), creatinine, albumin, hemoglobin, white blood cell count, platelet count, neutrophil count, history of type 2 diabetes mellitus, history of hypertension, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Fasting plasma glucose",
+          "fasting plasma glucose"
+        ],
+        [
+          "Hemoglobin A1c",
+          "hemoglobin A1c"
+        ],
+        [
+          "Plasma triglycerides",
+          "lipid profile (triglycerides, HDL, LDL)"
+        ],
+        [
+          "Plasma LDL-C",
+          "lipid profile (triglycerides, HDL, LDL)"
+        ],
+        [
+          "Plasma HDL-C",
+          "lipid profile (triglycerides, HDL, LDL)"
+        ],
+        [
+          "Plasma AST",
+          "liver enzymes (AST, ALT, alkaline phosphatase)"
+        ],
+        [
+          "Plasma ALT",
+          "liver enzymes (AST, ALT, alkaline phosphatase)"
+        ],
+        [
+          "Albumin",
+          "albumin"
+        ],
+        [
+          "Hemoglobin",
+          "hemoglobin"
+        ],
+        [
+          "White blood cell count",
+          "white blood cell count"
+        ],
+        [
+          "Platelet count",
+          "platelet count"
+        ],
+        [
+          "Neutrophil count",
+          "neutrophil count"
+        ],
+        [
+          "Diagnosis of definite NASH",
+          "history of type 2 diabetes mellitus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Weight",
+        "Total body fat",
+        "2-hour plasma glucose",
+        "Fasting plasma insulin",
+        "Fasting free fatty acids",
+        "Use of diabetes medications",
+        "Use of statins",
+        "Plasma total cholesterol",
+        "NAFLD activity score (NAS) Liver histology",
+        "Steatosis grade",
+        "Inflammation grade",
+        "Ballooning grade",
+        "Fibrosis stage"
+      ],
+      "remaining_candidate_features": [
+        "waist circumference",
+        "systolic and diastolic blood pressure",
+        "creatinine",
+        "history of hypertension",
+        "smoking status"
+      ]
+    }
+  }
+}

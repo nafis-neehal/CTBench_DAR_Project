@@ -1,0 +1,161 @@
+{
+  "trial_id": "NCT02351349",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, estimated glomerular filtration rate (eGFR), weight loss, self-reported exhaustion, grip strength, walking speed, physical activity level, comorbid conditions, cognitive function (MoCA score).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "estimated GFR",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Weight",
+          "weight loss"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "height",
+        "Body mass index"
+      ],
+      "remaining_candidate_features": [
+        "self-reported exhaustion",
+        "grip strength",
+        "walking speed",
+        "physical activity level",
+        "comorbid conditions",
+        "cognitive function (MoCA score)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Estimated Glomerular Filtration Rate (eGFR), Frailty Criteria (Weight Loss, Exhaustion, Weakness, Walking Speed, Physical Activity), Comorbid Conditions, Cognitive Function (MoCA Score),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "estimated GFR",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "height",
+        "Body mass index"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Frailty Criteria (Weight Loss, Exhaustion, Weakness, Walking Speed, Physical Activity)",
+        "Comorbid Conditions",
+        "Cognitive Function (MoCA Score)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Frailty Status, Comorbid Conditions, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Grip Strength, 6-Minute Walking Test, Physical Activity Level, Cognitive Function (MoCA Score)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "estimated GFR",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "height"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Frailty Status",
+        "Comorbid Conditions",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Grip Strength",
+        "6-Minute Walking Test",
+        "Physical Activity Level",
+        "Cognitive Function (MoCA Score)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), estimated glomerular filtration rate (eGFR), frailty criteria (unintentional weight loss, self-reported exhaustion, weakness, slow walking speed, low physical activity), grip strength, 6-minute walking test results, MoCA score, comorbid conditions, medication use, smoking status, alcohol consumption, education level, marital status, living arrangement.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "estimated GFR",
+          "estimated glomerular filtration rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Weight",
+        "height"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "frailty criteria (unintentional weight loss, self-reported exhaustion, weakness, slow walking speed, low physical activity)",
+        "grip strength",
+        "6-minute walking test results",
+        "MoCA score",
+        "comorbid conditions",
+        "medication use",
+        "smoking status",
+        "alcohol consumption",
+        "education level",
+        "marital status",
+        "living arrangement"
+      ]
+    }
+  }
+}

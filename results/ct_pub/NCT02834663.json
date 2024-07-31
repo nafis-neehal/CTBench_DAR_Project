@@ -1,0 +1,183 @@
+{
+  "trial_id": "NCT02834663",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type 2 diabetes duration, baseline best corrected visual acuity (BCVA), baseline central retinal thickness (CRT), presence of nonproliferative diabetic retinopathy (NPDR), baseline hemoglobin A1c (HbA1c) levels, blood pressure, history of hypertension, history of glaucoma, prior ocular treatments, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "gender"
+        ],
+        [
+          "Duration of DM",
+          "type 2 diabetes duration"
+        ],
+        [
+          "HbA1C",
+          "baseline hemoglobin A1c (HbA1c) levels"
+        ],
+        [
+          "BCVA",
+          "baseline best corrected visual acuity (BCVA)"
+        ],
+        [
+          "CRT",
+          "baseline central retinal thickness (CRT)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Total microaneurysms",
+        "Perifoveal non-perfused area"
+      ],
+      "remaining_candidate_features": [
+        "presence of nonproliferative diabetic retinopathy (NPDR)",
+        "blood pressure",
+        "history of hypertension",
+        "history of glaucoma",
+        "prior ocular treatments",
+        "smoking status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Duration of diabetes, Best corrected visual acuity (BCVA), Central retinal thickness (CRT), HbA1c, Blood pressure, Previous treatments for diabetic retinopathy, Presence of vitreous hemorrhage, History of vitreoretinal surgery, Post-cataract operation status, Prior treatment with anti-VEGF drugs, Intraocular corticosteroids, Retinal laser application, Presence of uncontrolled hypertension, Presence of uncontrolled glaucoma",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "Duration of DM",
+          "Duration of diabetes"
+        ],
+        [
+          "HbA1C",
+          "HbA1c"
+        ],
+        [
+          "BCVA",
+          "Best corrected visual acuity (BCVA)"
+        ],
+        [
+          "CRT",
+          "Central retinal thickness (CRT)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Total microaneurysms",
+        "Perifoveal non-perfused area"
+      ],
+      "remaining_candidate_features": [
+        "Blood pressure",
+        "Previous treatments for diabetic retinopathy",
+        "Presence of vitreous hemorrhage",
+        "History of vitreoretinal surgery",
+        "Post-cataract operation status",
+        "Prior treatment with anti-VEGF drugs",
+        "Intraocular corticosteroids",
+        "Retinal laser application",
+        "Presence of uncontrolled hypertension",
+        "Presence of uncontrolled glaucoma"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Diabetes duration, HbA1c, BMI, Systolic BP, Diastolic BP, Retinopathy severity, Microaneurysm count, Perifoveal non-perfusion area, Best corrected visual acuity, Central macular thickness.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "Duration of DM",
+          "Diabetes duration"
+        ],
+        [
+          "HbA1C",
+          "HbA1c"
+        ],
+        [
+          "BCVA",
+          "Best corrected visual acuity"
+        ],
+        [
+          "CRT",
+          "Central macular thickness"
+        ],
+        [
+          "Total microaneurysms",
+          "Microaneurysm count"
+        ],
+        [
+          "Perifoveal non-perfused are",
+          "Perifoveal non-perfusion area"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "BMI",
+        "Systolic BP",
+        "Diastolic BP",
+        "Retinopathy severity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Sex, Type of Diabetes, Duration of Diabetes, HbA1c, Blood Pressure, BMI, History of Hypertension, History of Glaucoma, History of Cataract Operation, Best Corrected Visual Acuity, Central Macular Thickness.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "Duration of DM",
+          "Duration of Diabetes"
+        ],
+        [
+          "HbA1C",
+          "HbA1c"
+        ],
+        [
+          "BCVA",
+          "Best Corrected Visual Acuity"
+        ],
+        [
+          "CRT",
+          "Central Macular Thickness"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Total microaneurysms",
+        "Perifoveal non-perfused area"
+      ],
+      "remaining_candidate_features": [
+        "Type of Diabetes",
+        "Blood Pressure",
+        "BMI",
+        "History of Hypertension",
+        "History of Glaucoma",
+        "History of Cataract Operation"
+      ]
+    }
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "trial_id": "NCT00965250",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, ethnicity, performance status (ECOG), histological subtype (thymoma, thymic carcinoma, thymic carcinoid tumors), prior chemotherapy regimens, measurable disease status, organ and marrow function (leukocytes, absolute neutrophil count, hemoglobin, platelets, total bilirubin, AST/ALT, creatinine), fasting serum glucose, life expectancy, concurrent corticosteroid use, history of diabetes mellitus, history of brain metastases, HIV status, history of other malignancies, prior treatment with IGF-1R inhibitors, ability to comply with study requirements.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "performance status (ECOG)"
+        ],
+        [
+          "Histological Analysis (WHO classification)",
+          "histological subtype (thymoma, thymic carcinoma, thymic carcinoid tumors)"
+        ],
+        [
+          "Previous systemic treatment (number of regimens)",
+          "prior chemotherapy regimens"
+        ],
+        [
+          "Previous chemotherapy",
+          "prior chemotherapy regimens"
+        ],
+        [
+          "Previous platinum treatment",
+          "prior chemotherapy regimens"
+        ],
+        [
+          "Previous radiotherapy",
+          "prior chemotherapy regimens"
+        ],
+        [
+          "Previous surgery",
+          "prior chemotherapy regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment",
+        "Median age",
+        "Metastatic Sites",
+        "Paraneoplastic Syndromes",
+        "Previous systemic treatment (six or more regimens)",
+        "Previous anthracycline",
+        "Investigational drugs"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "measurable disease status",
+        "organ and marrow function (leukocytes, absolute neutrophil count, hemoglobin, platelets, total bilirubin, AST/ALT, creatinine)",
+        "fasting serum glucose",
+        "life expectancy",
+        "concurrent corticosteroid use",
+        "history of diabetes mellitus",
+        "history of brain metastases",
+        "HIV status",
+        "history of other malignancies",
+        "prior treatment with IGF-1R inhibitors",
+        "ability to comply with study requirements."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Performance Status (ECOG), Prior Chemotherapy Regimens, Measurable Disease, Leukocyte Count, Absolute Neutrophil Count, Hemoglobin, Platelet Count, Total Bilirubin, AST/ALT Levels, Creatinine, Fasting Serum Glucose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "Performance Status (ECOG)"
+        ],
+        [
+          "Previous systemic treatment (number of regimens)",
+          "Prior Chemotherapy Regimens"
+        ],
+        [
+          "Previous chemotherapy",
+          "Prior Chemotherapy Regimens"
+        ],
+        [
+          "leukocytes greater than or equal to 3,000/mm^3",
+          "Leukocyte Count"
+        ],
+        [
+          "absolute neutrophil count greater than or equal to 1,500/mm^3",
+          "Absolute Neutrophil Count"
+        ],
+        [
+          "hemoglobin greater than or equal to 9 g/dL",
+          "Hemoglobin"
+        ],
+        [
+          "platelets greater than or equal to 100,000/mm^3",
+          "Platelet Count"
+        ],
+        [
+          "total bilirubin less than or equal to 1.5 times the institutional upper limit of normal (ULN)",
+          "Total Bilirubin"
+        ],
+        [
+          "aspartate aminotransferase (AST)(SGOT)/alanine aminotransferase (ALT)(SGPT) less than or equal to 3 times the institutional ULN",
+          "AST/ALT Levels"
+        ],
+        [
+          "creatinine less than or equal to 1.5 times the institutional ULN",
+          "Creatinine"
+        ],
+        [
+          "The patient must have fasting serum glucose less than 120 mg/dL or below the institutional ULN",
+          "Fasting Serum Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Median age",
+        "Metastatic Sites",
+        "Histological Analysis (WHO classification)",
+        "Paraneoplastic Syndromes",
+        "Previous systemic treatment (six or more regimens)",
+        "Previous platinum treatment",
+        "Previous anthracycline",
+        "Investigational drugs",
+        "Previous radiotherapy",
+        "Previous surgery"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Measurable Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological diagnosis, Number of prior chemotherapy regimens, Presence of measurable disease, Prior radiation therapy, Prior surgery, Presence of brain metastases, Diabetes diagnosis, Blood pressure, Creatinine clearance, Hemoglobin, Leukocyte count, Neutrophil count, Platelet count, Total bilirubin, AST, ALT, Fasting serum glucose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Histological Analysis (WHO classification)",
+          "Histological diagnosis"
+        ],
+        [
+          "Previous systemic treatment (number of regimens)",
+          "Number of prior chemotherapy regimens"
+        ],
+        [
+          "Previous radiotherapy",
+          "Prior radiation therapy"
+        ],
+        [
+          "Previous surgery",
+          "Prior surgery"
+        ],
+        [
+          "Previous chemotherapy",
+          "Presence of measurable disease"
+        ],
+        [
+          "Previous platinum treatment",
+          "Presence of brain metastases"
+        ],
+        [
+          "Previous anthracycline",
+          "Diabetes diagnosis"
+        ],
+        [
+          "Investigational drugs",
+          "Blood pressure"
+        ],
+        [
+          "Creatinine",
+          "Creatinine clearance"
+        ],
+        [
+          "Hemoglobin",
+          "Hemoglobin"
+        ],
+        [
+          "Leukocyte count",
+          "Leukocyte count"
+        ],
+        [
+          "Neutrophil count",
+          "Neutrophil count"
+        ],
+        [
+          "Platelet count",
+          "Platelet count"
+        ],
+        [
+          "Total bilirubin",
+          "Total bilirubin"
+        ],
+        [
+          "AST",
+          "AST"
+        ],
+        [
+          "ALT",
+          "ALT"
+        ],
+        [
+          "Fasting serum glucose",
+          "Fasting serum glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Median age",
+        "Metastatic Sites",
+        "Paraneoplastic Syndromes",
+        "Previous systemic treatment (six or more regimens)",
+        "Prior treatment with drugs of the IGF-1R inhibitor class"
+      ],
+      "remaining_candidate_features": [
+        "Male"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), performance status (ECOG), histological diagnosis (thymoma, thymic carcinoma, thymic carcinoid), number of prior chemotherapy regimens, time since last chemotherapy, presence of measurable disease, presence of brain metastases, diabetes status, history of other invasive malignancies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "performance status (ECOG)"
+        ],
+        [
+          "Histological Analysis (WHO classification)",
+          "histological diagnosis (thymoma, thymic carcinoma, thymic carcinoid)"
+        ],
+        [
+          "Previous systemic treatment (number of regimens)",
+          "number of prior chemotherapy regimens"
+        ],
+        [
+          "Previous chemotherapy",
+          "time since last chemotherapy"
+        ],
+        [
+          "Metastatic Sites",
+          "presence of measurable disease"
+        ],
+        [
+          "Paraneoplastic Syndromes",
+          "presence of brain metastases"
+        ],
+        [
+          "Previous systemic treatment (six or more regimens)",
+          "diabetes status"
+        ],
+        [
+          "Previous radiotherapy",
+          "history of other invasive malignancies."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Median age",
+        "Previous platinum treatment",
+        "Previous anthracycline",
+        "Investigational drugs",
+        "Previous surgery"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)"
+      ]
+    }
+  }
+}

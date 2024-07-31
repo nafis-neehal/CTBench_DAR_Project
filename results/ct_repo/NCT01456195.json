@@ -1,0 +1,211 @@
+{
+  "trial_id": "NCT01456195",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), HbA1c concentration, fasting plasma glucose (FPG), systolic blood pressure, diastolic blood pressure, serum creatinine, alanine aminotransferase (ALT) levels, aspartate aminotransferase (AST) levels, total bilirubin level, hemoglobin level, history of cancer, history of thyroid disease, history of diabetic retinopathy, history of gastric surgery, history of HIV/HBV/HCV infection, history of cardiovascular events, history of drug or alcohol abuse, compliance with study medication, use of other medications, pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Baseline Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Baseline HbA1c Category",
+          "HbA1c concentration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Baseline BMI Group",
+        "Smoking Classification",
+        "Duration of Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose (FPG)",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "serum creatinine",
+        "alanine aminotransferase (ALT) levels",
+        "aspartate aminotransferase (AST) levels",
+        "total bilirubin level",
+        "hemoglobin level",
+        "history of cancer",
+        "history of thyroid disease",
+        "history of diabetic retinopathy",
+        "history of gastric surgery",
+        "history of HIV/HBV/HCV infection",
+        "history of cardiovascular events",
+        "history of drug or alcohol abuse",
+        "compliance with study medication",
+        "use of other medications",
+        "pregnancy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Creatinine, Alanine Aminotransferase (ALT), Aspartate Aminotransferase (AST), Total Bilirubin, Estimated Glomerular Filtration Rate (eGFR), Hemoglobin, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Baseline Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline HbA1c Category",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Baseline BMI Group",
+        "Smoking Classification",
+        "Duration of Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Fasting Plasma Glucose",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Serum Creatinine",
+        "Alanine Aminotransferase (ALT)",
+        "Aspartate Aminotransferase (AST)",
+        "Total Bilirubin",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "Hemoglobin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, History of Diabetes, Duration of Diabetes, Previous Antidiabetic Medication Use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Baseline Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline HbA1c Category",
+          "HbA1c"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Baseline BMI Group",
+        "Smoking Classification"
+      ],
+      "remaining_candidate_features": [
+        "Fasting Plasma Glucose",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Diabetes",
+        "Previous Antidiabetic Medication Use."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c concentration, fasting plasma glucose (FPG), systolic and diastolic blood pressure, history of antidiabetic agent use, history of other medications, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Baseline Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Baseline HbA1c Category",
+          "HbA1c concentration"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "Smoking Classification",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Baseline BMI Group"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "fasting plasma glucose (FPG)",
+        "systolic and diastolic blood pressure",
+        "history of antidiabetic agent use",
+        "history of other medications"
+      ]
+    }
+  }
+}

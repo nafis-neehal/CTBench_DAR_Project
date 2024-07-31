@@ -1,0 +1,182 @@
+{
+  "trial_id": "NCT03651622",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Duration of Type 1 Diabetes, Hemoglobin A1c, Body Mass Index (BMI), Blood Glucose Monitoring Frequency, Physical Activity Level, Dietary Adherence, History of Diabetic Ketoacidosis (DKA), History of Severe Hypoglycemia, Pregnancy Status, Breastfeeding Status, Recent Childbirth, Metabolic Disorders, Thyroid Disease, Eating Disorder History, Dietary Restrictions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Hemoglobin A1c (%)",
+          "Hemoglobin A1c"
+        ],
+        [
+          "Time in clinical hypoglycemia",
+          "History of Severe Hypoglycemia"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight (kg)",
+        "Body fat",
+        "Time in target glucose range"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Duration of Type 1 Diabetes",
+        "Body Mass Index (BMI)",
+        "Blood Glucose Monitoring Frequency",
+        "Physical Activity Level",
+        "Dietary Adherence",
+        "History of Diabetic Ketoacidosis (DKA)",
+        "Pregnancy Status",
+        "Breastfeeding Status",
+        "Recent Childbirth",
+        "Metabolic Disorders",
+        "Thyroid Disease",
+        "Eating Disorder History",
+        "Dietary Restrictions"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, Blood Pressure, Total Cholesterol, Physical Activity Level, Dietary Adherence,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c (%)",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight (kg)",
+        "Body fat",
+        "Time in clinical hypoglycemia",
+        "Time in target glucose range"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Duration of Diabetes",
+        "Daily Insulin Dose",
+        "Blood Pressure",
+        "Total Cholesterol",
+        "Physical Activity Level",
+        "Dietary Adherence"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, BMI, HbA1c, History of Diabetic Ketoacidosis, History of Severe Hypoglycemia, Blood Glucose Monitoring Frequency,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c (%)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Weight (kg)",
+        "Body fat",
+        "Time in clinical hypoglycemia",
+        "Time in target glucose range"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Diagnosis Duration",
+        "BMI",
+        "History of Diabetic Ketoacidosis",
+        "History of Severe Hypoglycemia",
+        "Blood Glucose Monitoring Frequency"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, duration of Type 1 diabetes, latest hemoglobin A1c, history of diabetic ketoacidosis, history of severe hypoglycemia, presence of other metabolic disorders, presence of unstable thyroid disease, presence of eating disorder, presence of other serious condition, frequency of blood glucose monitoring, physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Hemoglobin A1c (%)",
+          "latest hemoglobin A1c"
+        ],
+        [
+          "Time in clinical hypoglycemia",
+          "history of severe hypoglycemia"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight (kg)",
+        "Body fat",
+        "Time in target glucose range"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "duration of Type 1 diabetes",
+        "history of diabetic ketoacidosis",
+        "presence of other metabolic disorders",
+        "presence of unstable thyroid disease",
+        "presence of eating disorder",
+        "presence of other serious condition",
+        "frequency of blood glucose monitoring",
+        "physical activity level."
+      ]
+    }
+  }
+}

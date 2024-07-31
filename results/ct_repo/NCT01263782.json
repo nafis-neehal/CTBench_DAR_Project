@@ -1,0 +1,204 @@
+{
+  "trial_id": "NCT01263782",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, ECOG performance status, tumor histology, stage of NSCLC, prior treatments, EGFR mutation status, ALK fusion status, hematologic function (ANC, platelet count, WBC count, hemoglobin), hepatic function (total bilirubin, alkaline phosphatase, AST, ALT), renal function (CrCl), presence of brain metastasis, pregnancy status, use of contraception, history of angina, arrhythmias, or congestive heart failure, blood pressure, history of stroke or transient ischemic attack, ability to take folic acid, vitamin B12, and dexamethasone, neuropathy grade, history of gastrointestinal conditions, ongoing anticoagulant treatment, breastfeeding status, presence of third space fluid, EML4-ALK fusion gene status, history of hemoptysis, urine protein creatinine ratio, diabetes control (HBA1C, fasting serum glucose), hypersensitivity to study drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Categorical",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "tumor histology",
+        "stage of NSCLC",
+        "prior treatments",
+        "EGFR mutation status",
+        "ALK fusion status",
+        "hematologic function (ANC, platelet count, WBC count, hemoglobin)",
+        "hepatic function (total bilirubin, alkaline phosphatase, AST, ALT)",
+        "renal function (CrCl)",
+        "presence of brain metastasis",
+        "pregnancy status",
+        "use of contraception",
+        "history of angina",
+        "arrhythmias",
+        "or congestive heart failure",
+        "blood pressure",
+        "history of stroke or transient ischemic attack",
+        "ability to take folic acid",
+        "vitamin B12",
+        "and dexamethasone",
+        "neuropathy grade",
+        "history of gastrointestinal conditions",
+        "ongoing anticoagulant treatment",
+        "breastfeeding status",
+        "presence of third space fluid",
+        "EML4-ALK fusion gene status",
+        "history of hemoptysis",
+        "urine protein creatinine ratio",
+        "diabetes control (HBA1C, fasting serum glucose)",
+        "hypersensitivity to study drugs."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Smoking Status, Stage of NSCLC, Tumor Histology, EGFR Mutation Status, ALK Fusion Status, Hemoglobin, Absolute Neutrophil Count, Platelet Count, White Blood Cell Count, Total Bilirubin, AST, ALT, Alkaline Phosphatase, Creatinine Clearance, Brain Metastasis Status, Prior Treatment History,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Smoking Status",
+        "Stage of NSCLC",
+        "Tumor Histology",
+        "EGFR Mutation Status",
+        "ALK Fusion Status",
+        "Hemoglobin",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "White Blood Cell Count",
+        "Total Bilirubin",
+        "AST",
+        "ALT",
+        "Alkaline Phosphatase",
+        "Creatinine Clearance",
+        "Brain Metastasis Status",
+        "Prior Treatment History"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Smoking History, Histology, Stage of Disease, Number of Metastatic Sites, Presence of Brain Metastases, EGFR Mutation Status, ALK Fusion Status, Prior Systemic Therapy, Prior Radiation Therapy, Prior Surgery, Baseline Hemoglobin, Baseline Platelet Count, Baseline ANC, Baseline Creatinine Clearance, Baseline Total Bilirubin, Baseline AST, Baseline ALT, Baseline Alkaline Phosphatase.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Smoking History",
+        "Histology",
+        "Stage of Disease",
+        "Number of Metastatic Sites",
+        "Presence of Brain Metastases",
+        "EGFR Mutation Status",
+        "ALK Fusion Status",
+        "Prior Systemic Therapy",
+        "Prior Radiation Therapy",
+        "Prior Surgery",
+        "Baseline Hemoglobin",
+        "Baseline Platelet Count",
+        "Baseline ANC",
+        "Baseline Creatinine Clearance",
+        "Baseline Total Bilirubin",
+        "Baseline AST",
+        "Baseline ALT",
+        "Baseline Alkaline Phosphatase"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, smoking history, histology (nonsquamous vs. squamous), stage of disease (IIIB vs. IV), presence of brain metastases, number and location of metastatic sites, EGFR mutation status, ALK fusion status, prior therapy (including biologics and chemotherapy), hemoglobin, absolute neutrophil count, platelet count, white blood cell count, total bilirubin, alkaline phosphatase, AST, ALT, creatinine clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "smoking history",
+        "histology (nonsquamous vs. squamous)",
+        "stage of disease (IIIB vs. IV)",
+        "presence of brain metastases",
+        "number and location of metastatic sites",
+        "EGFR mutation status",
+        "ALK fusion status",
+        "prior therapy (including biologics and chemotherapy)",
+        "hemoglobin",
+        "absolute neutrophil count",
+        "platelet count",
+        "white blood cell count",
+        "total bilirubin",
+        "alkaline phosphatase",
+        "AST",
+        "ALT",
+        "creatinine clearance"
+      ]
+    }
+  }
+}

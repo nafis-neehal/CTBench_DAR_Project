@@ -1,0 +1,144 @@
+{
+  "trial_id": "NCT02073929",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, insulin resistance status, premenopausal status, PCOS diagnosis, cardiovascular risk markers, medication history, contraceptive use, comorbidities, family history of MEN, diabetes status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Endogenous Thrombin Potential",
+          "cardiovascular risk markers"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Race/Ethnicity",
+        "Waist Circumference",
+        "Total testosterone"
+      ],
+      "remaining_candidate_features": [
+        "insulin resistance status",
+        "premenopausal status",
+        "PCOS diagnosis",
+        "medication history",
+        "contraceptive use",
+        "comorbidities",
+        "family history of MEN",
+        "diabetes status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Blood Pressure, Insulin Resistance, Baseline Endogenous Thrombin Potential (ETP), Cardiovascular Disease Risk Markers,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Endogenous Thrombin Potential",
+          "Baseline Endogenous Thrombin Potential (ETP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Waist Circumference",
+        "Total testosterone"
+      ],
+      "remaining_candidate_features": [
+        "Blood Pressure",
+        "Insulin Resistance",
+        "Cardiovascular Disease Risk Markers"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, BMI, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, HbA1c, Lipid Profile, Insulin Sensitivity, PCOS Phenotype.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Waist Circumference",
+        "Total testosterone",
+        "Endogenous Thrombin Potential"
+      ],
+      "remaining_candidate_features": [
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "HbA1c",
+        "Lipid Profile",
+        "Insulin Sensitivity",
+        "PCOS Phenotype"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, BMI, PCOS diagnosis, insulin resistance, menstrual status, hormonal contraceptive use, medication use (metformin, GLP-1-analog, DPP IV inhibitor), comorbidity status (diabetes, cardiovascular disease), family history of MEN.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Endogenous Thrombin Potential",
+          "Change in Endogenous Thrombin Potential"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Race/Ethnicity",
+        "Waist Circumference",
+        "Total testosterone"
+      ],
+      "remaining_candidate_features": [
+        "PCOS diagnosis",
+        "insulin resistance",
+        "menstrual status",
+        "hormonal contraceptive use",
+        "medication use (metformin, GLP-1-analog, DPP IV inhibitor)",
+        "comorbidity status (diabetes, cardiovascular disease)",
+        "family history of MEN."
+      ]
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "trial_id": "NCT01762501",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline systolic blood pressure, baseline diastolic blood pressure, body mass index (BMI), history of cardiovascular disease, use of antihypertensive medication, smoking status, alcohol consumption, physical activity level, duration of hypertension, comorbid conditions (e.g., diabetes, hyperlipidemia), baseline 24-hour systolic blood pressure, baseline 24-hour diastolic blood pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Clinic SBP",
+          "baseline systolic blood pressure"
+        ],
+        [
+          "Clinic DBP",
+          "baseline diastolic blood pressure"
+        ],
+        [
+          "24-hour SBP",
+          "baseline 24-hour systolic blood pressure"
+        ],
+        [
+          "24-hour DBP",
+          "baseline 24-hour diastolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "history of cardiovascular disease",
+        "use of antihypertensive medication",
+        "smoking status",
+        "alcohol consumption",
+        "physical activity level",
+        "duration of hypertension",
+        "comorbid conditions (e.g., diabetes, hyperlipidemia)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Mean 24-hour Systolic Blood Pressure, Mean 24-hour Diastolic Blood Pressure, History of Cardiovascular Disease, Use of Antihypertensive Agents,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Clinic SBP",
+          "Baseline Systolic Blood Pressure"
+        ],
+        [
+          "Clinic DBP",
+          "Baseline Diastolic Blood Pressure"
+        ],
+        [
+          "24-hour SBP",
+          "Mean 24-hour Systolic Blood Pressure"
+        ],
+        [
+          "24-hour DBP",
+          "Mean 24-hour Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "History of Cardiovascular Disease",
+        "Use of Antihypertensive Agents"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Mean 24-hour Systolic Blood Pressure, Mean 24-hour Diastolic Blood Pressure, History of Circulatory-related Diseases, History of Hypersensitivity or Allergy to Azilsartan or Amlodipine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Clinic SBP",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Clinic DBP",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "24-hour SBP",
+          "Mean 24-hour Systolic Blood Pressure"
+        ],
+        [
+          "24-hour DBP",
+          "Mean 24-hour Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "History of Circulatory-related Diseases",
+        "History of Hypersensitivity or Allergy to Azilsartan or Amlodipine."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, body mass index, systolic blood pressure, diastolic blood pressure, mean 24-hour systolic blood pressure, mean 24-hour diastolic blood pressure, history of hypertension, history of circulatory-related diseases, smoking status, alcohol consumption, use of antihypertensive agents, use of antianginal agents, use of antiarrhythmic agents, use of digitalis products.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Clinic SBP",
+          "systolic blood pressure"
+        ],
+        [
+          "Clinic DBP",
+          "diastolic blood pressure"
+        ],
+        [
+          "24-hour SBP",
+          "mean 24-hour systolic blood pressure"
+        ],
+        [
+          "24-hour DBP",
+          "mean 24-hour diastolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "body mass index",
+        "history of hypertension",
+        "history of circulatory-related diseases",
+        "smoking status",
+        "alcohol consumption",
+        "use of antihypertensive agents",
+        "use of antianginal agents",
+        "use of antiarrhythmic agents",
+        "use of digitalis products"
+      ]
+    }
+  }
+}

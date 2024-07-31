@@ -1,0 +1,183 @@
+{
+  "trial_id": "NCT00069576",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age at enrollment, body mass index (BMI), race/ethnicity, parity (number of previous pregnancies), family history of diabetes, smoking status, blood pressure, fasting blood glucose level, hemoglobin A1c, socioeconomic status, education level, marital status, employment status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Body-mass Index at Entry",
+          "body mass index (BMI)"
+        ],
+        [
+          "Glucose level after 50-g glucose-loading test - mg/dL",
+          "fasting blood glucose level"
+        ],
+        [
+          "Duration of gestation randomization",
+          "gestational age at enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Primigravida",
+        "Smoking",
+        "Alcohol Use",
+        "Glucose levels in 3-hr Oral Glucose Tolerance Test (OGTT) -mg/dL"
+      ],
+      "remaining_candidate_features": [
+        "parity (number of previous pregnancies)",
+        "family history of diabetes",
+        "smoking status",
+        "blood pressure",
+        "hemoglobin A1c",
+        "socioeconomic status",
+        "education level",
+        "marital status",
+        "employment status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational Age at Enrollment, Race/Ethnicity, Customized, Body Mass Index, Blood Glucose Levels, Blood Pressure, Parity, Smoking Status, Socioeconomic Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body-mass Index at Entry",
+          "Body Mass Index"
+        ],
+        [
+          "Glucose level after 50-g glucose-loading test - mg/dL",
+          "Blood Glucose Levels"
+        ],
+        [
+          "Duration of gestation randomization",
+          "Gestational Age at Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Primigravida",
+        "Smoking",
+        "Alcohol Use",
+        "Glucose levels in 3-hr Oral Glucose Tolerance Test (OGTT) -mg/dL"
+      ],
+      "remaining_candidate_features": [
+        "Blood Pressure",
+        "Parity",
+        "Smoking Status",
+        "Socioeconomic Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gestational Age at Enrollment, Gravidity, Parity, Ethnicity (NIH/OMB), Race/Ethnicity, Customized, Region of Enrollment, Pre-pregnancy Body Mass Index, Gestational Diabetes Mellitus Diagnosis, Fasting Plasma Glucose, Blood Pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body-mass Index at Entry",
+          "Pre-pregnancy Body Mass Index"
+        ],
+        [
+          "Duration of gestation randomization",
+          "Gestational Age at Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Primigravida",
+        "Smoking",
+        "Alcohol Use",
+        "Glucose level after 50-g glucose-loading test - mg/dL",
+        "Glucose levels in 3-hr Oral Glucose Tolerance Test (OGTT) -mg/dL"
+      ],
+      "remaining_candidate_features": [
+        "Gravidity",
+        "Parity",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Gestational Diabetes Mellitus Diagnosis",
+        "Fasting Plasma Glucose",
+        "Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, body mass index (BMI), gestational age at enrollment, parity, history of hypertension, history of asthma, history of autoimmune disease, history of hematologic disease, presence of fetal anomalies, presence of chronic medical conditions, use of corticosteroid therapy, use of beta adrenergic therapy, use of tocolytic therapy, history of preterm labor, history of pre-eclampsia, history of intrauterine growth retardation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Body-mass Index at Entry",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of gestation randomization",
+          "gestational age at enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Primigravida",
+        "Smoking",
+        "Alcohol Use",
+        "Glucose level after 50-g glucose-loading test - mg/dL",
+        "Glucose levels in 3-hr Oral Glucose Tolerance Test (OGTT) -mg/dL"
+      ],
+      "remaining_candidate_features": [
+        "parity",
+        "history of hypertension",
+        "history of asthma",
+        "history of autoimmune disease",
+        "history of hematologic disease",
+        "presence of fetal anomalies",
+        "presence of chronic medical conditions",
+        "use of corticosteroid therapy",
+        "use of beta adrenergic therapy",
+        "use of tocolytic therapy",
+        "history of preterm labor",
+        "history of pre-eclampsia",
+        "history of intrauterine growth retardation"
+      ]
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "trial_id": "NCT01621880",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, prior irradiation duration, radiographic evidence of brain necrosis, prior bevacizumab therapy, intracranial pressure status, fertility status, routine laboratory values (bilirubin, AST, creatinine, red-cell count, white-cell count, platelets, hemoglobin, PT, APTT, INR), history of seizures, anticonvulsant therapy status, informed consent status, active bleeding status, pathological condition risk of bleeding, wound healing status, metastatic disease status, tumor invasion status, history of bleeding, central nervous system hemorrhage status, history of abdominal fistula, gastrointestinal perforation, intra-abdominal abscess, blood pressure status, history of cerebrovascular accident, myocardial infarction status, angina status, heart failure status, cardiac arrhythmia status, vascular disease status, peripheral vascular disease status, infection status, bleeding diathesis status, prior steroid therapy for brain necrosis, history of anaphylactic response to bevacizumab.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Conventional radiotherapy",
+        "IMRT(intensity modulated radiation therapy)",
+        "Dose of nasopharyngeal radiation",
+        "Dose of neck radiation"
+      ],
+      "remaining_candidate_features": [
+        "prior irradiation duration",
+        "radiographic evidence of brain necrosis",
+        "prior bevacizumab therapy",
+        "intracranial pressure status",
+        "fertility status",
+        "routine laboratory values (bilirubin, AST, creatinine, red-cell count, white-cell count, platelets, hemoglobin, PT, APTT, INR)",
+        "history of seizures",
+        "anticonvulsant therapy status",
+        "informed consent status",
+        "active bleeding status",
+        "pathological condition risk of bleeding",
+        "wound healing status",
+        "metastatic disease status",
+        "tumor invasion status",
+        "history of bleeding",
+        "central nervous system hemorrhage status",
+        "history of abdominal fistula",
+        "gastrointestinal perforation",
+        "intra-abdominal abscess",
+        "blood pressure status",
+        "history of cerebrovascular accident",
+        "myocardial infarction status",
+        "angina status",
+        "heart failure status",
+        "cardiac arrhythmia status",
+        "vascular disease status",
+        "peripheral vascular disease status",
+        "infection status",
+        "bleeding diathesis status",
+        "prior steroid therapy for brain necrosis",
+        "history of anaphylactic response to bevacizumab"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Prior irradiation duration, Baseline brain necrosis severity, Baseline corticosteroid use, Baseline anticonvulsant use, Baseline laboratory values (bilirubin, AST, creatinine, red-cell count, white-cell count, platelets, Hb, PT, APTT, INR), History of seizures, History of hypertension, History of cardiovascular disease, History of bleeding diathesis,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Conventional radiotherapy",
+        "IMRT(intensity modulated radiation therapy)",
+        "Dose of nasopharyngeal radiation",
+        "Dose of neck radiation"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Prior irradiation duration",
+        "Baseline brain necrosis severity",
+        "Baseline corticosteroid use",
+        "Baseline anticonvulsant use",
+        "Baseline laboratory values (bilirubin, AST, creatinine, red-cell count, white-cell count, platelets, Hb, PT, APTT, INR)",
+        "History of seizures",
+        "History of hypertension",
+        "History of cardiovascular disease",
+        "History of bleeding diathesis"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Nasopharyngeal Carcinoma Stage, Prior Radiotherapy Dose, Time Since Radiotherapy, Karnofsky Performance Status, Presence of Neurological Symptoms, Corticosteroid Use at Baseline, Baseline MRI Findings.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Conventional radiotherapy",
+        "IMRT(intensity modulated radiation therapy)",
+        "Dose of nasopharyngeal radiation",
+        "Dose of neck radiation"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Nasopharyngeal Carcinoma Stage",
+        "Prior Radiotherapy Dose",
+        "Time Since Radiotherapy",
+        "Karnofsky Performance Status",
+        "Presence of Neurological Symptoms",
+        "Corticosteroid Use at Baseline",
+        "Baseline MRI Findings"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), Karnofsky performance status, nasopharyngeal carcinoma stage, time since radiotherapy, prior chemotherapy, prior surgery, radiation dose, presence of seizures, anticonvulsant therapy, laboratory values (bilirubin, AST, creatinine, red-cell count, white-cell count, platelets, Hb, PT, APTT, INR), history of hypertension, history of cardiovascular disease, history of bleeding disorders.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Dose of nasopharyngeal radiation",
+          "radiation dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Conventional radiotherapy",
+        "IMRT(intensity modulated radiation therapy)",
+        "Dose of neck radiation"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "body mass index (BMI)",
+        "Karnofsky performance status",
+        "nasopharyngeal carcinoma stage",
+        "time since radiotherapy",
+        "prior chemotherapy",
+        "prior surgery",
+        "presence of seizures",
+        "anticonvulsant therapy",
+        "laboratory values (bilirubin, AST, creatinine, red-cell count, white-cell count, platelets, Hb, PT, APTT, INR)",
+        "history of hypertension",
+        "history of cardiovascular disease",
+        "history of bleeding disorders"
+      ]
+    }
+  }
+}

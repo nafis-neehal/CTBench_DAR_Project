@@ -1,0 +1,192 @@
+{
+  "trial_id": "NCT03285594",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ethnicity, body weight, body mass index (BMI), duration of type 2 diabetes mellitus, baseline HbA1c, fasting plasma glucose (FPG), systolic blood pressure (SBP), diastolic blood pressure (DBP), type and dose of basal insulin, use of oral antidiabetes drugs (OADs), history of diabetic complications, presence of proliferative diabetic retinopathy, history of cardiovascular disease, liver function tests (ALT, AST, total bilirubin), renal function tests, history of gastric surgery, history of inflammatory bowel disease, pregnancy status, use of systemic glucocorticoids, history of diabetic ketoacidosis, history of nonketotic hyperosmolar coma.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "baseline HbA1c"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "systolic blood pressure (SBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body weight",
+        "body mass index (BMI)",
+        "duration of type 2 diabetes mellitus",
+        "fasting plasma glucose (FPG)",
+        "diastolic blood pressure (DBP)",
+        "type and dose of basal insulin",
+        "use of oral antidiabetes drugs (OADs)",
+        "history of diabetic complications",
+        "presence of proliferative diabetic retinopathy",
+        "history of cardiovascular disease",
+        "liver function tests (ALT, AST, total bilirubin)",
+        "renal function tests",
+        "history of gastric surgery",
+        "history of inflammatory bowel disease",
+        "pregnancy status",
+        "use of systemic glucocorticoids",
+        "history of diabetic ketoacidosis",
+        "history of nonketotic hyperosmolar coma"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Fasting Plasma Glucose, Body Weight, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of Diabetes, Type of Basal Insulin, Use of Oral Antidiabetic Drugs,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Fasting Plasma Glucose",
+        "Body Weight",
+        "Diastolic Blood Pressure",
+        "Duration of Diabetes",
+        "Type of Basal Insulin",
+        "Use of Oral Antidiabetic Drugs"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Fasting Plasma Glucose, Insulin Dose, Duration of Diabetes, History of Cardiovascular Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "Insulin Dose",
+        "Duration of Diabetes",
+        "History of Cardiovascular Disease."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, type of basal insulin used, dose of basal insulin, type and dose of oral antidiabetic drugs, hemoglobin A1c (HbA1c) at baseline, fasting plasma glucose (FPG) at baseline, systolic blood pressure (SBP) at baseline, history of diabetic complications, history of cardiovascular disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "hemoglobin A1c (HbA1c) at baseline"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "systolic blood pressure (SBP) at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of type 2 diabetes mellitus",
+        "type of basal insulin used",
+        "dose of basal insulin",
+        "type and dose of oral antidiabetic drugs",
+        "fasting plasma glucose (FPG) at baseline",
+        "history of diabetic complications",
+        "history of cardiovascular disease."
+      ]
+    }
+  }
+}

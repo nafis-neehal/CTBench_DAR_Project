@@ -1,0 +1,238 @@
+{
+  "trial_id": "NCT01160484",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, ECOG performance status, life expectancy, absolute neutrophil count (ANC), platelet count, hemoglobin (Hg) level, creatinine clearance, total bilirubin, AST/SGOT, ALT/SGPT, serum potassium, prior malignancies status, pregnancy test results (for females of childbearing potential), ability to take aspirin or other anticoagulants, presence of plasma cell dyscrasia, presence of plasma cell leukemia, peripheral neuropathy grade, cardiac function status, serum calcium level, serious medical conditions, major surgery history, pregnancy or breastfeeding status, prior chemotherapy, corticosteroid use, immunotherapy or antibody therapy use, radiation therapy history, use of experimental drugs, hypersensitivity to study drugs, erythema nodosum history, concurrent use of other anti-cancer agents, HIV status, hepatitis B or C status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "pregnancy test results (for females of childbearing potential)"
+        ],
+        [
+          "Serum M-protein",
+          "serum potassium"
+        ],
+        [
+          "Urine-M protein",
+          "urine-M protein"
+        ],
+        [
+          "Serum creatinine",
+          "creatinine clearance"
+        ],
+        [
+          "Prior treatments",
+          "prior chemotherapy"
+        ],
+        [
+          "Total Number of prior lines of treatment",
+          "prior malignancies status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "International Staging System (ISS); stage (N)"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "ECOG performance status",
+        "life expectancy",
+        "absolute neutrophil count (ANC)",
+        "platelet count",
+        "hemoglobin (Hg) level",
+        "total bilirubin",
+        "AST/SGOT",
+        "ALT/SGPT",
+        "presence of plasma cell dyscrasia",
+        "presence of plasma cell leukemia",
+        "peripheral neuropathy grade",
+        "cardiac function status",
+        "serum calcium level",
+        "serious medical conditions",
+        "major surgery history",
+        "pregnancy or breastfeeding status",
+        "corticosteroid use",
+        "immunotherapy or antibody therapy use",
+        "radiation therapy history",
+        "use of experimental drugs",
+        "hypersensitivity to study drugs",
+        "erythema nodosum history",
+        "concurrent use of other anti-cancer agents",
+        "HIV status",
+        "hepatitis B or C status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Absolute Neutrophil Count, Platelet Count, Hemoglobin, Creatinine Clearance, Total Bilirubin, AST/SGOT, ALT/SGPT, Serum Potassium, Prior Malignancies, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Serum M-protein",
+          "Serum M-protein"
+        ],
+        [
+          "Urine-M protein",
+          "Urine-M protein"
+        ],
+        [
+          "Serum creatinine",
+          "Creatinine Clearance"
+        ],
+        [
+          "Prior treatments",
+          "Prior Malignancies"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "International Staging System (ISS); stage (N)",
+        "Total Number of prior lines of treatment"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "ECOG Performance Status",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Hemoglobin",
+        "Total Bilirubin",
+        "AST/SGOT",
+        "ALT/SGPT",
+        "Serum Potassium"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Hemoglobin, Absolute Neutrophil Count, Platelet Count, Creatinine Clearance, Total Bilirubin, Aspartate Transaminase, Alanine Aminotransferase, Serum Potassium, Prior Malignancies, Prior Treatment, Peripheral Neuropathy, Cardiac Function, Hypercalcemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Serum M-protein",
+          "Serum M-protein"
+        ],
+        [
+          "Urine-M protein",
+          "Urine-M protein"
+        ],
+        [
+          "Serum creatinine",
+          "Creatinine Clearance"
+        ],
+        [
+          "Prior treatments",
+          "Prior Treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "International Staging System (ISS); stage (N)",
+        "Total Number of prior lines of treatment"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "ECOG Performance Status",
+        "Hemoglobin",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Total Bilirubin",
+        "Aspartate Transaminase",
+        "Alanine Aminotransferase",
+        "Serum Potassium",
+        "Prior Malignancies",
+        "Peripheral Neuropathy",
+        "Cardiac Function",
+        "Hypercalcemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, life expectancy, laboratory test results (ANC, platelet count, Hg, creatinine clearance, total bilirubin, AST/SGOT, ALT/SGPT, serum potassium), disease duration, number of prior therapies, prior malignancies, presence of peripheral neuropathy, cardiac function, serum calcium level, presence of plasma cell dyscrasia, presence of plasma cell leukemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Serum M-protein",
+          "laboratory test results (ANC, platelet count, Hg, creatinine clearance, total bilirubin, AST/SGOT, ALT/SGPT, serum potassium)"
+        ],
+        [
+          "Urine-M protein",
+          "laboratory test results (ANC, platelet count, Hg, creatinine clearance, total bilirubin, AST/SGOT, ALT/SGPT, serum potassium)"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "life expectancy",
+          "life expectancy"
+        ],
+        [
+          "Serum creatinine",
+          "laboratory test results (ANC, platelet count, Hg, creatinine clearance, total bilirubin, AST/SGOT, ALT/SGPT, serum potassium)"
+        ],
+        [
+          "Prior treatments",
+          "number of prior therapies"
+        ],
+        [
+          "Total Number of prior lines of treatment",
+          "number of prior therapies"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "International Staging System (ISS); stage (N)"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "disease duration",
+        "prior malignancies",
+        "presence of peripheral neuropathy",
+        "cardiac function",
+        "serum calcium level",
+        "presence of plasma cell dyscrasia",
+        "presence of plasma cell leukemia."
+      ]
+    }
+  }
+}

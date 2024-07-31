@@ -1,0 +1,203 @@
+{
+  "trial_id": "NCT00807092",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, baseline HbA1c, body mass index (BMI), baseline fasting plasma glucose, baseline postprandial glucose, prior oral antidiabetic drug (OAD) therapy, metformin dose, concomitant medications, smoking status, alcohol consumption, physical activity level, blood pressure, lipid profile, renal function, liver function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "BMI (Body Mass Index)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of diagnosed diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "HbA1c at screening",
+          "baseline HbA1c"
+        ],
+        [
+          "Metformin monotherapy or combination therapy at randomisation",
+          "prior oral antidiabetic drug (OAD) therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height at screening"
+      ],
+      "remaining_candidate_features": [
+        "baseline fasting plasma glucose",
+        "baseline postprandial glucose",
+        "metformin dose",
+        "concomitant medications",
+        "smoking status",
+        "alcohol consumption",
+        "physical activity level",
+        "blood pressure",
+        "lipid profile",
+        "renal function",
+        "liver function"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Fasting Plasma Glucose, Postprandial Glucose, Use of Oral Antidiabetic Drugs,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI (Body Mass Index)",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of diagnosed diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "HbA1c at screening",
+          "Baseline HbA1c"
+        ],
+        [
+          "Metformin monotherapy or combination therapy at randomisation",
+          "Use of Oral Antidiabetic Drugs"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Height at screening"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Fasting Plasma Glucose",
+        "Postprandial Glucose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, Metformin Dose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI (Body Mass Index)",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of diagnosed diabetes",
+          "Diabetes Diagnosis Duration"
+        ],
+        [
+          "HbA1c at screening",
+          "HbA1c"
+        ],
+        [
+          "Metformin monotherapy or combination therapy at randomisation",
+          "Metformin Dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Height at screening"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Fasting Plasma Glucose",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, glycosylated haemoglobin (HbA1c), fasting plasma glucose, systolic and diastolic blood pressure, lipid profile, smoking status, medical history, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "BMI (Body Mass Index)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of diagnosed diabetes",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "HbA1c at screening",
+          "glycosylated haemoglobin (HbA1c)"
+        ],
+        [
+          "Metformin monotherapy or combination therapy at randomisation",
+          "concomitant medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Weight",
+        "Height at screening"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "fasting plasma glucose",
+        "systolic and diastolic blood pressure",
+        "lipid profile",
+        "smoking status",
+        "medical history"
+      ]
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "trial_id": "NCT04392375",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age, number of fetuses (single or twin), baseline systolic blood pressure, baseline diastolic blood pressure, history of preeclampsia, prior antihypertensive treatment, race/ethnicity, body mass index (BMI), parity, smoking status, presence of comorbidities (e.g., diabetes, chronic hypertension).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Twin gestation",
+          "number of fetuses (single or twin)"
+        ],
+        [
+          "Chronic Hypertension",
+          "presence of comorbidities (e.g., diabetes, chronic hypertension)"
+        ],
+        [
+          "Smoking during current pregnancy",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Pregnancy BMI",
+        "BMI at delivery",
+        "Nulliparous",
+        "Chronic hypertension on maintenance medication (beta-blocker)",
+        "Diabates",
+        "Gestational age at delivery (week)",
+        "Neuraxial anesthesia",
+        "Fetal Growth Restriction"
+      ],
+      "remaining_candidate_features": [
+        "gestational age",
+        "baseline systolic blood pressure",
+        "baseline diastolic blood pressure",
+        "history of preeclampsia",
+        "prior antihypertensive treatment",
+        "body mass index (BMI)",
+        "parity"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational Age, Continuous, Parity, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Number of Fetuses, Prior Preeclampsia,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI at delivery",
+          "Body Mass Index"
+        ],
+        [
+          "Gestational age at delivery (week)",
+          "Gestational Age"
+        ],
+        [
+          "Twin gestation",
+          "Number of Fetuses"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Pregnancy BMI",
+        "Nulliparous",
+        "Chronic Hypertension",
+        "Chronic hypertension on maintenance medication (beta-blocker)",
+        "Smoking during current pregnancy",
+        "Diabetes",
+        "Neuraxial anesthesia",
+        "Fetal Growth Restriction"
+      ],
+      "remaining_candidate_features": [
+        "Parity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Prior Preeclampsia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gestational Age, Nulliparity, Parity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Proteinuria, Twin Gestation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age at delivery (week)",
+          "Gestational Age"
+        ],
+        [
+          "Nulliparous",
+          "Nulliparity"
+        ],
+        [
+          "Twin gestation",
+          "Twin Gestation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Pregnancy BMI",
+        "BMI at delivery",
+        "Chronic Hypertension",
+        "Chronic hypertension on maintenance medication (beta-blocker)",
+        "Smoking during current pregnancy",
+        "Diabetes",
+        "Neuraxial anesthesia",
+        "Fetal Growth Restriction"
+      ],
+      "remaining_candidate_features": [
+        "Parity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Proteinuria"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, gestational age, parity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, proteinuria level, presence of HELLP syndrome, presence of fetal growth restriction, presence of oligohydramnios, presence of placenta previa, presence of abruption, number of previous pregnancies, number of previous cesarean sections, presence of chronic hypertension, presence of diabetes, presence of kidney disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Gestational age at delivery (week)",
+          "gestational age"
+        ],
+        [
+          "BMI at delivery",
+          "body mass index (BMI)"
+        ],
+        [
+          "Chronic Hypertension",
+          "presence of chronic hypertension"
+        ],
+        [
+          "Diabates",
+          "presence of diabetes"
+        ],
+        [
+          "Fetal Growth Restriction",
+          "presence of fetal growth restriction"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Pregnancy BMI",
+        "Nulliparous",
+        "Chronic hypertension on maintenance medication (beta-blocker)",
+        "Smoking during current pregnancy",
+        "Neuraxial anesthesia",
+        "Twin gestation"
+      ],
+      "remaining_candidate_features": [
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "proteinuria level",
+        "presence of HELLP syndrome",
+        "presence of oligohydramnios",
+        "presence of placenta previa",
+        "presence of abruption",
+        "number of previous pregnancies",
+        "number of previous cesarean sections",
+        "presence of kidney disease"
+      ]
+    }
+  }
+}

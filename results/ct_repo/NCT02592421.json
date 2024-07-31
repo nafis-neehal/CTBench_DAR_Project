@@ -1,0 +1,165 @@
+{
+  "trial_id": "NCT02592421",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, BMI, HbA1c, Duration of Type II Diabetes Mellitus, Current diabetes medication, Plasma creatinine, 24-hour urine albumin excretion, Baseline plasma glucose concentration, Baseline endogenous glucose production (EGP)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "HBA1c (3 month blood glucose level measure)",
+          "HbA1c"
+        ],
+        [
+          "Diabetes Duration",
+          "Duration of Type II Diabetes Mellitus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Free Plasma Glucose (FPG)",
+        "Glomerular Filtration Rate (eGFR)"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Current diabetes medication",
+        "Plasma creatinine",
+        "24-hour urine albumin excretion",
+        "Baseline plasma glucose concentration",
+        "Baseline endogenous glucose production (EGP)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, HbA1c, Duration of Diabetes, Baseline Plasma Glucose, Baseline Endogenous Glucose Production, Medication Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "HBA1c (3 month blood glucose level measure)",
+          "HbA1c"
+        ],
+        [
+          "Diabetes Duration",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Free Plasma Glucose (FPG)",
+        "Glomerular Filtration Rate (eGFR)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline Plasma Glucose",
+        "Baseline Endogenous Glucose Production",
+        "Medication Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, HbA1c, Diabetes duration, Metformin use, Sulfonylurea use, Body weight,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "HBA1c (3 month blood glucose level measure)",
+          "HbA1c"
+        ],
+        [
+          "Diabetes Duration",
+          "Diabetes duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Free Plasma Glucose (FPG)",
+        "Glomerular Filtration Rate (eGFR)"
+      ],
+      "remaining_candidate_features": [
+        "Metformin use",
+        "Sulfonylurea use",
+        "Body weight"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, HbA1c, duration of diabetes, type of diabetes medication, body weight, plasma creatinine, 24-hour urine albumin excretion, history of proliferative diabetic retinopathy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "HBA1c (3 month blood glucose level measure)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Diabetes Duration",
+        "Free Plasma Glucose (FPG)",
+        "Glomerular Filtration Rate (eGFR)"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "duration of diabetes",
+        "type of diabetes medication",
+        "body weight",
+        "plasma creatinine",
+        "24-hour urine albumin excretion",
+        "history of proliferative diabetic retinopathy."
+      ]
+    }
+  }
+}

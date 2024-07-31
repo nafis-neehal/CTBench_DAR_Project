@@ -1,0 +1,188 @@
+{
+  "trial_id": "NCT02809183",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "age, gender, race, body mass index (BMI), estimated glomerular filtration rate (eGFR), serum bicarbonate level, baseline comorbid conditions, baseline medication use",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "eGFR",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Serum bicarbonate",
+          "serum bicarbonate level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Average daily protein",
+        "Diabetes mellitus",
+        "Hypertension",
+        "Heart failure",
+        "Left ventricular hypertrophy",
+        "Peripheral edema",
+        "Systolic BP",
+        "Serum phosphate",
+        "BUN"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "body mass index (BMI)",
+        "baseline comorbid conditions",
+        "baseline medication use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, eGFR, Serum bicarbonate level, BMI, Systolic blood pressure, Diastolic blood pressure, Use of diuretics, Use of oral diabetes drugs, Use of antihypertensive drugs, Use of antacids, Use of H2-blockers, Use of proton pump inhibitors",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Serum bicarbonate",
+          "Serum bicarbonate level"
+        ],
+        [
+          "Systolic BP",
+          "Systolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Average daily protein",
+        "Diabetes mellitus",
+        "Hypertension",
+        "Heart failure",
+        "Left ventricular hypertrophy",
+        "Peripheral edema",
+        "Serum phosphate",
+        "BUN"
+      ],
+      "remaining_candidate_features": [
+        "Race",
+        "BMI",
+        "Diastolic blood pressure",
+        "Use of diuretics",
+        "Use of oral diabetes drugs",
+        "Use of antihypertensive drugs",
+        "Use of antacids",
+        "Use of H2-blockers",
+        "Use of proton pump inhibitors"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Race, Ethnicity, Body Mass Index (BMI), eGFR, Serum bicarbonate level, Comorbid conditions, Concomitant medications, History of chronic obstructive pulmonary disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Serum bicarbonate",
+          "Serum bicarbonate level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Average daily protein",
+        "Diabetes mellitus",
+        "Hypertension",
+        "Heart failure",
+        "Left ventricular hypertrophy",
+        "Peripheral edema",
+        "Systolic BP",
+        "Serum phosphate",
+        "BUN"
+      ],
+      "remaining_candidate_features": [
+        "Race",
+        "Ethnicity",
+        "Body Mass Index (BMI)",
+        "Comorbid conditions",
+        "Concomitant medications",
+        "History of chronic obstructive pulmonary disease."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), eGFR, serum bicarbonate level, serum creatinine level, blood urea nitrogen (BUN) level, systolic blood pressure, diastolic blood pressure, medical history of chronic kidney disease, comorbidities, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Serum bicarbonate",
+          "serum bicarbonate level"
+        ],
+        [
+          "BUN",
+          "blood urea nitrogen (BUN) level"
+        ],
+        [
+          "Systolic BP",
+          "systolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Average daily protein",
+        "Diabetes mellitus",
+        "Hypertension",
+        "Heart failure",
+        "Left ventricular hypertrophy",
+        "Peripheral edema",
+        "Serum phosphate"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "body mass index (BMI)",
+        "serum creatinine level",
+        "diastolic blood pressure",
+        "medical history of chronic kidney disease",
+        "comorbidities",
+        "concomitant medications."
+      ]
+    }
+  }
+}

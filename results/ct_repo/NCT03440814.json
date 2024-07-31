@@ -1,0 +1,137 @@
+{
+  "trial_id": "NCT03440814",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, genetic confirmation of Prader-Willi syndrome, hyperphagia status, care setting stability, caregiver relationship duration, prior participation in interventional clinical study, pregnancy status, breastfeeding status, presence of other diseases or conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "HQ-CT Total Score"
+      ],
+      "remaining_candidate_features": [
+        "genetic confirmation of Prader-Willi syndrome",
+        "hyperphagia status",
+        "care setting stability",
+        "caregiver relationship duration",
+        "prior participation in interventional clinical study",
+        "pregnancy status",
+        "breastfeeding status",
+        "presence of other diseases or conditions."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Genetic confirmation of Prader-Willi syndrome, Hyperphagia score, Care setting stability, Caregiver relationship duration,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "HQ-CT Total Score",
+          "Hyperphagia score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Genetic confirmation of Prader-Willi syndrome",
+        "Care setting stability",
+        "Caregiver relationship duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Genetic confirmation of Prader-Willi syndrome, Hyperphagia status, Caregiver status, Duration of stable care setting,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "HQ-CT Total Score"
+      ],
+      "remaining_candidate_features": [
+        "Genetic confirmation of Prader-Willi syndrome",
+        "Hyperphagia status",
+        "Caregiver status",
+        "Duration of stable care setting"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, body mass index (BMI), genetic confirmation of Prader-Willi syndrome, duration of Prader-Willi syndrome diagnosis, presence of hyperphagia, caregiver relationship, duration of caregiver relationship, concomitant medications, medical history, presence of other diseases/conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "HQ-CT Total Score",
+          "presence of hyperphagia"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "genetic confirmation of Prader-Willi syndrome",
+        "duration of Prader-Willi syndrome diagnosis",
+        "caregiver relationship",
+        "duration of caregiver relationship",
+        "concomitant medications",
+        "medical history",
+        "presence of other diseases/conditions."
+      ]
+    }
+  }
+}

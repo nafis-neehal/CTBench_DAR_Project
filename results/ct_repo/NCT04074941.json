@@ -1,0 +1,214 @@
+{
+  "trial_id": "NCT04074941",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, resting systolic blood pressure, resting diastolic blood pressure, medication use, cognitive function score, physical function (timed up and go test), presence of physical disability, history of kidney disease, dietary compliance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Systolic blood pressure",
+          "resting systolic blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "resting diastolic blood pressure"
+        ],
+        [
+          "Hypertension medication use",
+          "medication use"
+        ],
+        [
+          "Montreal Cognitive Assessment score",
+          "cognitive function score"
+        ],
+        [
+          "Timed-up-and-go",
+          "physical function (timed up and go test)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "mmHg",
+        "Hypertension",
+        "Measured orthostatic hypertension",
+        "BMI",
+        "kg/m^2",
+        "Physical activity score",
+        "sec",
+        "Estimated calorie intake",
+        "kcal/d"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "presence of physical disability",
+        "history of kidney disease",
+        "dietary compliance."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Cognitive Function, Medication Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Montreal Cognitive Assessment score",
+          "Cognitive Function"
+        ],
+        [
+          "Hypertension medication use",
+          "Medication Use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "mmHg",
+        "Hypertension",
+        "Measured orthostatic hypertension",
+        "BMI",
+        "kg/m^2",
+        "Physical activity score",
+        "Timed-up-and-go",
+        "sec",
+        "Estimated calorie intake",
+        "kcal/d"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, Cognitive Function, Physical Function, Comorbidities, Medication Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Montreal Cognitive Assessment score",
+          "Cognitive Function"
+        ],
+        [
+          "Timed-up-and-go",
+          "Physical Function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "mmHg",
+        "Hypertension",
+        "Hypertension medication use",
+        "Measured orthostatic hypertension",
+        "BMI",
+        "kg/m^2",
+        "Physical activity score",
+        "sec",
+        "Estimated calorie intake",
+        "kcal/d"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Comorbidities",
+        "Medication Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, resting systolic blood pressure, resting diastolic blood pressure, Montreal Cognitive Assessment score, timed up and go test score, number and type of blood pressure medications, history of kidney disease, history of kidney transplant.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Systolic blood pressure",
+          "resting systolic blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "resting diastolic blood pressure"
+        ],
+        [
+          "Montreal Cognitive Assessment score",
+          "Montreal Cognitive Assessment score"
+        ],
+        [
+          "Timed-up-and-go",
+          "timed up and go test score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "mmHg",
+        "Hypertension",
+        "Hypertension medication use",
+        "Measured orthostatic hypertension",
+        "BMI",
+        "kg/m^2",
+        "Physical activity score",
+        "sec",
+        "Estimated calorie intake",
+        "kcal/d"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "race",
+        "ethnicity",
+        "body mass index",
+        "number and type of blood pressure medications",
+        "history of kidney disease",
+        "history of kidney transplant."
+      ]
+    }
+  }
+}

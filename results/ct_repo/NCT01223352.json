@@ -1,0 +1,182 @@
+{
+  "trial_id": "NCT01223352",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body weight, height, PAH diagnosis type, World Health Organization functional class, peripheral oxygen saturation (SpO2), baseline PAH-therapy, aspartate aminotransferase levels, alanine aminotransferase levels, hemoglobin levels, hematocrit levels, systolic blood pressure, hepatic function (Child-Pugh Class), history of hypersensitivity to bosentan, prior treatment with forbidden medications, prior treatment with investigational drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "World Health Organization functional class (WHO FC)",
+          "World Health Organization functional class"
+        ],
+        [
+          "PAH-specific therapy at baseline",
+          "baseline PAH-therapy"
+        ],
+        [
+          "Etiology of pulmonary arterial hypertension (PAH)",
+          "PAH diagnosis type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body weight",
+        "height",
+        "peripheral oxygen saturation (SpO2)",
+        "aspartate aminotransferase levels",
+        "alanine aminotransferase levels",
+        "hemoglobin levels",
+        "hematocrit levels",
+        "systolic blood pressure",
+        "hepatic function (Child-Pugh Class)",
+        "history of hypersensitivity to bosentan",
+        "prior treatment with forbidden medications",
+        "prior treatment with investigational drugs"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Weight, Peripheral Oxygen Saturation (SpO2), Baseline PAH-therapy, World Health Organization functional Class (WHO FC), Aspartate aminotransferase (AST) levels, Alanine aminotransferase (ALT) levels, Hemoglobin levels, Hematocrit levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "World Health Organization functional class (WHO FC)",
+          "World Health Organization functional Class (WHO FC)"
+        ],
+        [
+          "PAH-specific therapy at baseline",
+          "Baseline PAH-therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Etiology of pulmonary arterial hypertension (PAH)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Weight",
+        "Peripheral Oxygen Saturation (SpO2)",
+        "Aspartate aminotransferase (AST) levels",
+        "Alanine aminotransferase (ALT) levels",
+        "Hemoglobin levels",
+        "Hematocrit levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Weight, Height, Body Mass Index, WHO Functional Class, PAH Etiology, Baseline PAH Therapy, Systolic Blood Pressure, Diastolic Blood Pressure, Peripheral Oxygen Saturation, Aspartate Aminotransferase, Alanine Aminotransferase, Hemoglobin, Hematocrit.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Etiology of pulmonary arterial hypertension (PAH)",
+          "PAH Etiology"
+        ],
+        [
+          "World Health Organization functional class (WHO FC)",
+          "WHO Functional Class"
+        ],
+        [
+          "PAH-specific therapy at baseline",
+          "Baseline PAH Therapy"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Weight",
+        "Height",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Peripheral Oxygen Saturation",
+        "Aspartate Aminotransferase",
+        "Alanine Aminotransferase",
+        "Hemoglobin",
+        "Hematocrit"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, body mass index (BMI), race, ethnicity, WHO functional class, PAH etiology, SpO2, systolic blood pressure, aspartate aminotransferase, alanine aminotransferase, hemoglobin, hematocrit, background PAH therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "World Health Organization functional class (WHO FC)",
+          "WHO functional class"
+        ],
+        [
+          "Etiology of pulmonary arterial hypertension (PAH)",
+          "PAH etiology"
+        ],
+        [
+          "PAH-specific therapy at baseline",
+          "background PAH therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "race",
+        "ethnicity",
+        "SpO2",
+        "systolic blood pressure",
+        "aspartate aminotransferase",
+        "alanine aminotransferase",
+        "hemoglobin",
+        "hematocrit"
+      ]
+    }
+  }
+}

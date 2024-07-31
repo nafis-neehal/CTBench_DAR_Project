@@ -1,0 +1,265 @@
+{
+  "trial_id": "NCT00939640",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, body mass index (BMI), baseline blood pressure, left ventricular ejection fraction (LVEF), history of systemic hypertension, baseline B-type natriuretic peptide (BNP) levels, presence of atrial fibrillation, left atrial enlargement, left ventricular hypertrophy, baseline serum potassium levels, baseline serum calcium/phosphorus product, estimated glomerular filtration rate (eGFR), hemoglobin levels, hemoglobin A1c levels, history of myocardial infarction or unstable angina, presence of arrhythmia, psychiatric disorder or dementia status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Hypertension",
+          "history of systemic hypertension"
+        ],
+        [
+          "New York Heart Assocation Classification",
+          "baseline blood pressure"
+        ],
+        [
+          "Participants with Anemia",
+          "hemoglobin levels"
+        ],
+        [
+          "Participants with prior hospitalization due to heart failure",
+          "history of myocardial infarction or unstable angina"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Participants with Chronic Kidney Disease",
+        "Coronary Artery Disease",
+        "Participants wtih Diabetes Mellitus",
+        "Participants on chronic loop diuretics",
+        "Participants on 3 or more antihypertensive medications"
+      ],
+      "remaining_candidate_features": [
+        "race/ethnicity",
+        "left ventricular ejection fraction (LVEF)",
+        "baseline B-type natriuretic peptide (BNP) levels",
+        "presence of atrial fibrillation",
+        "left atrial enlargement",
+        "left ventricular hypertrophy",
+        "baseline serum potassium levels",
+        "baseline serum calcium/phosphorus product",
+        "estimated glomerular filtration rate (eGFR)",
+        "hemoglobin A1c levels",
+        "presence of arrhythmia",
+        "psychiatric disorder or dementia status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Left Ventricular Ejection Fraction, B-type Natriuretic Peptide (BNP) Levels, Serum Potassium Levels, Serum Calcium/Phosphorus Product, Estimated Glomerular Filtration Rate (eGFR), Hemoglobin A1c, Hemoglobin Levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Hypertension",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Participants with Anemia",
+          "Hemoglobin Levels"
+        ],
+        [
+          "New York Heart Assocation Classification",
+          "Left Ventricular Ejection Fraction"
+        ],
+        [
+          "Participants with Chronic Kidney Disease",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ],
+        [
+          "Participants wtih Diabetes Mellitus",
+          "Hemoglobin A1c"
+        ],
+        [
+          "Participants with prior hospitalization due to heart failure",
+          "B-type Natriuretic Peptide (BNP) Levels"
+        ],
+        [
+          "Participants on 3 or more antihypertensive medications",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Participants wtih Anemia",
+          "Hemoglobin Levels"
+        ],
+        [
+          "Participants with Chronic Kidney Disease",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Coronary Artery Disease",
+        "Participants on chronic loop diuretics"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Serum Potassium Levels",
+        "Serum Calcium/Phosphorus Product"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Left Ventricular Ejection Fraction, B-type Natriuretic Peptide, History of Systemic Hypertension, New York Heart Association Class, Serum Potassium Level, Serum Calcium/Phosphorus Product, Estimated Glomerular Filtration Rate, Hemoglobin, Hemoglobin A1c.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Hypertension",
+          "History of Systemic Hypertension"
+        ],
+        [
+          "New York Heart Assocation Classification",
+          "New York Heart Association Class"
+        ],
+        [
+          "Serum potassium level > 5.0 mmol/L at baseline or prior history of serum potassium level > 6.0",
+          "Serum Potassium Level"
+        ],
+        [
+          "Serum calcium/phosphorus product > 50 at baseline",
+          "Serum Calcium/Phosphorus Product"
+        ],
+        [
+          "Severe renal insufficiency (current estimated glomerular filtration rate < 30 ml/min)",
+          "Estimated Glomerular Filtration Rate"
+        ],
+        [
+          "Severe anemia (hemoglobin < 9 g/dL)",
+          "Hemoglobin"
+        ],
+        [
+          "Uncontrolled diabetes mellitus (hemoglobin A1c > 9%)",
+          "Hemoglobin A1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Participants with Chronic Kidney Disease",
+        "Coronary Artery Disease",
+        "Participants with Diabetes Mellitus",
+        "Participants with Anemia",
+        "Participants with prior hospitalization due to heart failure",
+        "Participants on chronic loop diuretics",
+        "Participants on 3 or more antihypertensive medications"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Left Ventricular Ejection Fraction",
+        "B-type Natriuretic Peptide"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, body mass index (BMI), systolic blood pressure, diastolic blood pressure, heart rate, left ventricular ejection fraction, B-type natriuretic peptide (BNP) level, serum potassium level, serum calcium/phosphorus product, estimated glomerular filtration rate, hemoglobin level, hemoglobin A1c level, New York Heart Association Class, Framingham criteria for heart failure, history of systemic hypertension, history of myocardial infarction, history of unstable angina, history of atrial fibrillation, left atrial enlargement, left ventricular hypertrophy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Hypertension",
+          "history of systemic hypertension"
+        ],
+        [
+          "New York Heart Assocation Classification",
+          "New York Heart Association Class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Participants with Chronic Kidney Disease",
+        "Coronary Artery Disease",
+        "Participants wtih Diabetes Mellitus",
+        "Participants wtih Anemia",
+        "Participants with prior hospitalization due to heart failure",
+        "Participants on chronic loop diuretics",
+        "Participants on 3 or more antihypertensive medications"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "left ventricular ejection fraction",
+        "B-type natriuretic peptide (BNP) level",
+        "serum potassium level",
+        "serum calcium/phosphorus product",
+        "estimated glomerular filtration rate",
+        "hemoglobin level",
+        "hemoglobin A1c level",
+        "Framingham criteria for heart failure",
+        "history of myocardial infarction",
+        "history of unstable angina",
+        "history of atrial fibrillation",
+        "left atrial enlargement",
+        "left ventricular hypertrophy"
+      ]
+    }
+  }
+}

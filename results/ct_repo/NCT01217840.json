@@ -1,0 +1,170 @@
+{
+  "trial_id": "NCT01217840",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, baseline vitamin D levels, inflammatory markers, lipid profile, blood pressure, mean blood sugars, history of vitamin D supplementation, use of glucocorticoids or anti-epileptics, history of rickets, diabetes mellitus, liver or kidney disease, malabsorptive disorders, genetic syndromes associated with obesity, lactose deficiency or insufficiency, galactosemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "25OH vitamin D",
+          "baseline vitamin D levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "inflammatory markers",
+        "lipid profile",
+        "blood pressure",
+        "mean blood sugars",
+        "history of vitamin D supplementation",
+        "use of glucocorticoids or anti-epileptics",
+        "history of rickets",
+        "diabetes mellitus",
+        "liver or kidney disease",
+        "malabsorptive disorders",
+        "genetic syndromes associated with obesity",
+        "lactose deficiency or insufficiency",
+        "galactosemia"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Blood Glucose, Lipid Profile, Inflammatory Markers, Vitamin D Levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "25OH vitamin D",
+          "Vitamin D Levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Blood Glucose",
+        "Lipid Profile",
+        "Inflammatory Markers"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Triglycerides, HDL Cholesterol, LDL Cholesterol, Inflammatory Markers (CRP, IL-6, TNF-alpha)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "25OH vitamin D",
+          "25OH Vitamin D"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Glucose",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol",
+        "Inflammatory Markers (CRP, IL-6, TNF-alpha)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, weight, height, body fat percentage, systolic blood pressure, diastolic blood pressure, fasting glucose, lipid profile, inflammatory markers (e.g. C-reactive protein, interleukin-6, tumor necrosis factor-alpha).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "25OH vitamin D",
+          "25OH Vitamin D"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "weight",
+        "height",
+        "body fat percentage",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "fasting glucose",
+        "lipid profile",
+        "inflammatory markers (e.g. C-reactive protein, interleukin-6, tumor necrosis factor-alpha)."
+      ]
+    }
+  }
+}

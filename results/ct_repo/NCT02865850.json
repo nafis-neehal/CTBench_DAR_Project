@@ -1,0 +1,207 @@
+{
+  "trial_id": "NCT02865850",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline hemoglobin level, serum ferritin level, transferrin saturation (TSAT), type of dialysis (peritoneal or hemodialysis), duration of dialysis, blood pressure, history of heart failure, history of acute coronary syndrome, history of stroke, baseline kidney function, hypersensitivity to study drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Average hemoglobin",
+          "baseline hemoglobin level"
+        ],
+        [
+          "Number of Participants on Different Types of Dialysis",
+          "type of dialysis (peritoneal or hemodialysis)"
+        ],
+        [
+          "Mean Years Since Chronic Dialysis Initiated",
+          "duration of dialysis"
+        ],
+        [
+          "Number of Participants with NYHA Functional Classification of Heart Failure",
+          "history of heart failure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Number of Participants with History of Diabetes",
+        "Number of Participants with Any History of Heart Failure"
+      ],
+      "remaining_candidate_features": [
+        "serum ferritin level",
+        "transferrin saturation (TSAT)",
+        "blood pressure",
+        "history of acute coronary syndrome",
+        "history of stroke",
+        "baseline kidney function",
+        "hypersensitivity to study drugs."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Dialysis, Baseline Hemoglobin, Serum Ferritin, Transferrin Saturation (TSAT), Blood Pressure, History of Cardiovascular Disease, Type of Dialysis (Peritoneal or Hemodialysis),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Average hemoglobin",
+          "Baseline Hemoglobin"
+        ],
+        [
+          "Number of Participants on Different Types of Dialysis",
+          "Type of Dialysis (Peritoneal or Hemodialysis)"
+        ],
+        [
+          "Mean Years Since Chronic Dialysis Initiated",
+          "Duration of Dialysis"
+        ],
+        [
+          "Number of Participants with NYHA Functional Classification of Heart Failure",
+          "History of Cardiovascular Disease"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of Participants with History of Diabetes",
+        "Number of Participants with Any History of Heart Failure"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Serum Ferritin",
+        "Transferrin Saturation (TSAT)",
+        "Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Dialysis modality, Duration of dialysis, Hemoglobin, Serum ferritin, TSAT, Systolic Blood Pressure, Diastolic Blood Pressure, History of cardiovascular disease, New York Heart Association Class.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Average hemoglobin",
+          "Hemoglobin"
+        ],
+        [
+          "Number of Participants on Different Types of Dialysis",
+          "Dialysis modality"
+        ],
+        [
+          "Mean Years Since Chronic Dialysis Initiated",
+          "Duration of dialysis"
+        ],
+        [
+          "Number of Participants with NYHA Functional Classification of Heart Failure",
+          "New York Heart Association Class."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of Participants with History of Diabetes",
+        "Number of Participants with Any History of Heart Failure"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Serum ferritin",
+        "TSAT",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of cardiovascular disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of dialysis, type of dialysis (peritoneal or hemodialysis), mean Screening hemoglobin, serum ferritin, TSAT, systolic and diastolic blood pressure, New York Heart Association Class, history of cardiovascular disease, history of stroke, history of bleeding or blood loss, use of erythropoiesis-stimulating agents, epoetin dose, Darbepoetin alfa dose, methoxy polyethylene glycol-epoetin beta dose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Average hemoglobin",
+          "mean Screening hemoglobin"
+        ],
+        [
+          "Number of Participants on Different Types of Dialysis",
+          "type of dialysis (peritoneal or hemodialysis)"
+        ],
+        [
+          "Mean Years Since Chronic Dialysis Initiated",
+          "duration of dialysis"
+        ],
+        [
+          "Number of Participants with NYHA Functional Classification of Heart Failure",
+          "New York Heart Association Class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Number of Participants with History of Diabetes",
+        "Number of Participants with Any History of Heart Failure"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "serum ferritin",
+        "TSAT",
+        "systolic and diastolic blood pressure",
+        "history of cardiovascular disease",
+        "history of stroke",
+        "history of bleeding or blood loss",
+        "use of erythropoiesis-stimulating agents",
+        "epoetin dose",
+        "Darbepoetin alfa dose",
+        "methoxy polyethylene glycol-epoetin beta dose"
+      ]
+    }
+  }
+}

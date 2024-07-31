@@ -1,0 +1,174 @@
+{
+  "trial_id": "NCT00339833",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, BMI, Smoking status, Alcohol or drug use, Medical history (including cardiovascular disease, respiratory disease, allergies, gastrointestinal, hepatic or renal disease, endocrinological disorders, CNS disease, psychiatric disorders), Blood pressure, Heart rate, Hematological parameters (prothrombin time, partial thromboplastin time, platelet count), Liver function tests (ALT, AST), Kidney function test (creatinine), C-reactive protein levels, Pregnancy status, Use of hormonal contraceptives, History of metabolic acidosis, Allergy to aspirin or salicylates, Viral illness status, Cancer history, Urine drug screening results.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Fasting plasma glucose",
+          "Change in Fasting Plasma Glucose Concentration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Fat",
+        "2 hour plasma glucose",
+        "Fasting plasma insulin",
+        "Basal EGP",
+        "Clamp R_d"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Smoking status",
+        "Alcohol or drug use",
+        "Medical history (including cardiovascular disease, respiratory disease, allergies, gastrointestinal, hepatic or renal disease, endocrinological disorders, CNS disease, psychiatric disorders)",
+        "Blood pressure",
+        "Heart rate",
+        "Hematological parameters (prothrombin time, partial thromboplastin time, platelet count)",
+        "Liver function tests (ALT, AST)",
+        "Kidney function test (creatinine)",
+        "C-reactive protein levels",
+        "Pregnancy status",
+        "Use of hormonal contraceptives",
+        "History of metabolic acidosis",
+        "Allergy to aspirin or salicylates",
+        "Viral illness status",
+        "Cancer history",
+        "Urine drug screening results"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Serum Insulin Concentration, C-reactive Protein, Ethnicity, Smoking Status, Alcohol Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting plasma glucose",
+          "Fasting Plasma Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Fat",
+        "2 hour plasma glucose",
+        "Fasting plasma insulin",
+        "Basal EGP",
+        "Clamp R_d"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Serum Insulin Concentration",
+        "C-reactive Protein",
+        "Ethnicity",
+        "Smoking Status",
+        "Alcohol Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose Concentration, Average Serum Insulin Concentration, C-Reactive Protein, Electrocardiogram Results.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting plasma glucose",
+          "Fasting Plasma Glucose Concentration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Fat",
+        "2 hour plasma glucose",
+        "Fasting plasma insulin",
+        "Basal EGP",
+        "Clamp R_d"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Average Serum Insulin Concentration",
+        "C-Reactive Protein",
+        "Electrocardiogram Results."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), systolic blood pressure, diastolic blood pressure, resting heart rate, electrocardiogram (ECG) results, hematological parameters (e.g., platelet count, prothrombin time, partial thromboplastin time), liver function tests (e.g., ALT, AST), renal function tests (e.g., creatinine), fasting plasma glucose concentration, average serum insulin concentration.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Fasting plasma glucose",
+          "fasting plasma glucose concentration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Fat",
+        "2 hour plasma glucose",
+        "Fasting plasma insulin",
+        "Basal EGP",
+        "Clamp R_d"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "resting heart rate",
+        "electrocardiogram (ECG) results",
+        "hematological parameters (e.g., platelet count, prothrombin time, partial thromboplastin time)",
+        "liver function tests (e.g., ALT, AST)",
+        "renal function tests (e.g., creatinine)",
+        "average serum insulin concentration."
+      ]
+    }
+  }
+}

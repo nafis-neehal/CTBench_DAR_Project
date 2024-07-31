@@ -1,0 +1,197 @@
+{
+  "trial_id": "NCT01986920",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, number of seborrheic keratosis lesions, general health status, pregnancy status, history of keloid formation or hypertrophic scarring, history of systemic malignancy, history of cutaneous malignancy, history of pre-malignancy, history of skin disease, history of sensitivity to study medication ingredients, prior use of systemic therapies, prior use of topical therapies, prior use of LASER or light-based therapies, presence of body art on treatment area, excessive tan on treatment area, recent sunburn on treatment area, participation in recent investigational drug trial.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "pregnancy status"
+        ],
+        [
+          "general health status",
+          "general health status"
+        ],
+        [
+          "history of keloid formation or hypertrophic scarring",
+          "history of keloid formation or hypertrophic scarring"
+        ],
+        [
+          "history of systemic malignancy",
+          "history of systemic malignancy"
+        ],
+        [
+          "history of cutaneous malignancy",
+          "history of cutaneous malignancy"
+        ],
+        [
+          "history of pre-malignancy",
+          "history of pre-malignancy"
+        ],
+        [
+          "history of skin disease",
+          "history of skin disease"
+        ],
+        [
+          "history of sensitivity to study medication ingredients",
+          "history of sensitivity to study medication ingredients"
+        ],
+        [
+          "prior use of systemic therapies",
+          "prior use of systemic therapies"
+        ],
+        [
+          "prior use of topical therapies",
+          "prior use of topical therapies"
+        ],
+        [
+          "prior use of LASER or light-based therapies",
+          "prior use of LASER or light-based therapies"
+        ],
+        [
+          "presence of body art on treatment area",
+          "presence of body art on treatment area"
+        ],
+        [
+          "excessive tan on treatment area",
+          "excessive tan on treatment area"
+        ],
+        [
+          "recent sunburn on treatment area",
+          "recent sunburn on treatment area"
+        ],
+        [
+          "participation in recent investigational drug trial",
+          "participation in recent investigational drug trial"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "number of seborrheic keratosis lesions"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Number of Seborrheic Keratosis Lesions, Baseline Lesion Size, Baseline Lesion Location, Baseline Lesion Color, Baseline Lesion Thickness,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Number of Seborrheic Keratosis Lesions",
+        "Baseline Lesion Size",
+        "Baseline Lesion Location",
+        "Baseline Lesion Color",
+        "Baseline Lesion Thickness"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Presence of Seborrheic Keratosis Lesions, Number of Seborrheic Keratosis Lesions, Lesion Size, Lesion Location.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Presence of Seborrheic Keratosis Lesions",
+        "Number of Seborrheic Keratosis Lesions",
+        "Lesion Size",
+        "Lesion Location"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, weight, height, body mass index (BMI), duration of seborrheic keratosis, number of target lesions, lesion size, lesion location, presence of comorbidities, medical history, concomitant medications, pregnancy status, lactation status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "duration of seborrheic keratosis",
+        "number of target lesions",
+        "lesion size",
+        "lesion location",
+        "presence of comorbidities",
+        "medical history",
+        "concomitant medications",
+        "pregnancy status",
+        "lactation status"
+      ]
+    }
+  }
+}

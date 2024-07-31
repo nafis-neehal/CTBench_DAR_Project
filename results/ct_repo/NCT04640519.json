@@ -1,0 +1,168 @@
+{
+  "trial_id": "NCT04640519",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, baseline blood pressure, history of hypertension, stroke severity, modified Rankin scale score, comorbid conditions, medication use, smoking status, alcohol use, socioeconomic status, education level, baseline health-related quality of life, caregiver availability.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "baseline blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Diastolic Blood Pressure (DBP)"
+      ],
+      "remaining_candidate_features": [
+        "history of hypertension",
+        "stroke severity",
+        "modified Rankin scale score",
+        "comorbid conditions",
+        "medication use",
+        "smoking status",
+        "alcohol use",
+        "socioeconomic status",
+        "education level",
+        "baseline health-related quality of life",
+        "caregiver availability"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Blood Pressure, Stroke Severity, Modified Rankin Scale, History of Hypertension, Medication Adherence,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "Baseline Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diastolic Blood Pressure (DBP)"
+      ],
+      "remaining_candidate_features": [
+        "Stroke Severity",
+        "Modified Rankin Scale",
+        "History of Hypertension",
+        "Medication Adherence"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of hypertension, Modified Rankin scale, Systolic Blood Pressure, Diastolic Blood Pressure, Stroke severity, Caregiver involvement,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure (DBP)",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "History of hypertension",
+        "Modified Rankin scale",
+        "Stroke severity",
+        "Caregiver involvement"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, stroke type (ischemic or hemorrhagic), stroke severity (modified Rankin scale), hypertension duration, blood pressure at enrollment, comorbidities (diabetes, heart disease, etc.), medication use (antihypertensives, etc.), cognitive function, caregiver status, education level, income level, health insurance status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "blood pressure at enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Diastolic Blood Pressure (DBP)"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "stroke type (ischemic or hemorrhagic)",
+        "stroke severity (modified Rankin scale)",
+        "hypertension duration",
+        "comorbidities (diabetes, heart disease, etc.)",
+        "medication use (antihypertensives, etc.)",
+        "cognitive function",
+        "caregiver status",
+        "education level",
+        "income level",
+        "health insurance status"
+      ]
+    }
+  }
+}

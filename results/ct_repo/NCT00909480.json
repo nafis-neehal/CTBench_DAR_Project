@@ -1,0 +1,203 @@
+{
+  "trial_id": "NCT00909480",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, baseline HbA1c, body mass index (BMI), baseline fasting plasma glucose, concomitant medications, ethnicity, baseline metformin dose, presence of additional oral anti-diabetic drugs (OADs).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c (Glycosylated haemoglobin A1c)",
+          "baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "baseline fasting plasma glucose"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Diabetes History",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Weight",
+        "Region of Enrolment",
+        "Height",
+        "Stratification"
+      ],
+      "remaining_candidate_features": [
+        "concomitant medications",
+        "baseline metformin dose",
+        "presence of additional oral anti-diabetic drugs (OADs)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Concomitant Anti-diabetic Medications, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c (Glycosylated haemoglobin A1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Region of Enrolment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diabetes History",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Height",
+        "Stratification"
+      ],
+      "remaining_candidate_features": [
+        "Concomitant Anti-diabetic Medications",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, Body Mass Index, HbA1c, Metformin dose, Anti-diabetic drug use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c (Glycosylated haemoglobin A1c)",
+          "HbA1c"
+        ],
+        [
+          "Region of Enrolment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diabetes History",
+          "Diabetes duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Fasting Plasma Glucose (FPG)",
+        "Height",
+        "Stratification"
+      ],
+      "remaining_candidate_features": [
+        "Metformin dose",
+        "Anti-diabetic drug use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at baseline, fasting plasma glucose at baseline, metformin dose, use of other oral anti-diabetic drugs (OADs), systolic and diastolic blood pressure, history of cardiovascular disease, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c (Glycosylated haemoglobin A1c)",
+          "HbA1c at baseline"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose at baseline"
+        ],
+        [
+          "Diabetes History",
+          "duration of type 2 diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Weight",
+        "Region of Enrolment",
+        "Height",
+        "Stratification"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "metformin dose",
+        "use of other oral anti-diabetic drugs (OADs)",
+        "systolic and diastolic blood pressure",
+        "history of cardiovascular disease",
+        "smoking status."
+      ]
+    }
+  }
+}

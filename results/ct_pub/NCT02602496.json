@@ -1,0 +1,186 @@
+{
+  "trial_id": "NCT02602496",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), baseline fruit and vegetable intake, baseline whole grain intake, baseline refined grain intake, physical activity level, baseline interleukin-6 levels, baseline tumor necrosis factor-\u03b1 levels, baseline high sensitivity C-reactive protein levels, baseline lipopolysaccharide binding protein levels, antibiotic use history, supplement use history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "gender"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Interleukin-6",
+          "baseline interleukin-6 levels"
+        ],
+        [
+          "TNF-alpha",
+          "baseline tumor necrosis factor-\u03b1 levels"
+        ],
+        [
+          "high-sensitivity C-reactive protein",
+          "baseline high sensitivity C-reactive protein levels"
+        ],
+        [
+          "Lipopolysaccharide binding protein",
+          "baseline lipopolysaccharide binding protein levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Stool microbiota composition"
+      ],
+      "remaining_candidate_features": [
+        "baseline fruit and vegetable intake",
+        "baseline whole grain intake",
+        "baseline refined grain intake",
+        "physical activity level",
+        "antibiotic use history",
+        "supplement use history."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, BMI, Baseline fruit and vegetable intake, Baseline whole grain intake, Physical activity level, Gastrointestinal health status, Use of supplements, Antibiotic use in the last six months, Inflammatory markers (e.g., Interleukin-6, Tumor Necrosis Factor-\u03b1, High Sensitivity C-reactive Protein, Lipopolysaccharide Binding Protein)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Interleukin-6",
+          "Inflammatory markers (e.g., Interleukin-6, Tumor Necrosis Factor-\u03b1, High Sensitivity C-reactive Protein, Lipopolysaccharide Binding Protein)"
+        ],
+        [
+          "TNF-alpha",
+          "Inflammatory markers (e.g., Interleukin-6, Tumor Necrosis Factor-\u03b1, High Sensitivity C-reactive Protein, Lipopolysaccharide Binding Protein)"
+        ],
+        [
+          "high-sensitivity C-reactive protein",
+          "Inflammatory markers (e.g., Interleukin-6, Tumor Necrosis Factor-\u03b1, High Sensitivity C-reactive Protein, Lipopolysaccharide Binding Protein)"
+        ],
+        [
+          "Lipopolysaccharide binding protein",
+          "Inflammatory markers (e.g., Interleukin-6, Tumor Necrosis Factor-\u03b1, High Sensitivity C-reactive Protein, Lipopolysaccharide Binding Protein)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Stool microbiota composition"
+      ],
+      "remaining_candidate_features": [
+        "Baseline fruit and vegetable intake",
+        "Baseline whole grain intake",
+        "Physical activity level",
+        "Gastrointestinal health status",
+        "Use of supplements",
+        "Antibiotic use in the last six months"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, BMI, Waist circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Total Cholesterol, HDL Cholesterol, Triglycerides, C-reactive Protein, Smoking Status, Physical Activity Level, Fruit and Vegetable Intake, Whole Grain Intake.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "high-sensitivity C-reactive protein",
+          "C-reactive Protein"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Interleukin-6",
+        "TNF-alpha",
+        "Lipopolysaccharide binding protein",
+        "Stool microbiota composition"
+      ],
+      "remaining_candidate_features": [
+        "Waist circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Glucose",
+        "Total Cholesterol",
+        "HDL Cholesterol",
+        "Triglycerides",
+        "Smoking Status",
+        "Physical Activity Level",
+        "Fruit and Vegetable Intake",
+        "Whole Grain Intake"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), body weight, height, waist circumference, hip circumference, systolic blood pressure, diastolic blood pressure, heart rate, physical activity level, smoking status, alcohol consumption, education level, occupation, marital status, ethnicity, fruit and vegetable intake, whole grain intake, refined grain intake, antibiotic use, multivitamin use, exercise habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Interleukin-6",
+        "TNF-alpha",
+        "high-sensitivity C-reactive protein",
+        "Lipopolysaccharide binding protein",
+        "Stool microbiota composition"
+      ],
+      "remaining_candidate_features": [
+        "body weight",
+        "height",
+        "waist circumference",
+        "hip circumference",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "physical activity level",
+        "smoking status",
+        "alcohol consumption",
+        "education level",
+        "occupation",
+        "marital status",
+        "ethnicity",
+        "fruit and vegetable intake",
+        "whole grain intake",
+        "refined grain intake",
+        "antibiotic use",
+        "multivitamin use",
+        "exercise habits"
+      ]
+    }
+  }
+}

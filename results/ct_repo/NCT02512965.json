@@ -1,0 +1,176 @@
+{
+  "trial_id": "NCT02512965",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, histologic or cytologic diagnosis of cancer, pain score, number of spinal segments involved, ECOG Performance Status, ability to complete quality of life questionnaire, use of contraceptive method, pregnancy test results, prior treatment with radionuclide, prior radiation to spinal segment, prior surgery to spinal segment, recent chemotherapy, Spinal Instability Neoplastic Score (SINS), presence of symptomatic spinal cord compression or cauda equina syndrome, pregnancy or lactation status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Worst pain score",
+          "pain score"
+        ],
+        [
+          "Spinal instability neoplastic score (SINS)",
+          "Spinal Instability Neoplastic Score (SINS)"
+        ],
+        [
+          "Histology",
+          "histologic or cytologic diagnosis of cancer"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Mass on imaging"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "number of spinal segments involved",
+        "ability to complete quality of life questionnaire",
+        "use of contraceptive method",
+        "pregnancy test results",
+        "prior treatment with radionuclide",
+        "prior radiation to spinal segment",
+        "prior surgery to spinal segment",
+        "recent chemotherapy",
+        "presence of symptomatic spinal cord compression or cauda equina syndrome",
+        "pregnancy or lactation status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Pain Score, Number of Spinal Segments Involved, ECOG Performance Status, Analgesic Use, Quality of Life Score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Worst pain score",
+          "Pain Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Spinal instability neoplastic score (SINS)",
+        "Histology",
+        "Mass on imaging"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Number of Spinal Segments Involved",
+        "Analgesic Use",
+        "Quality of Life Score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, ECOG Performance Status, Cancer Diagnosis, Spinal Metastases Location, Pain Score, Analgesic Use, Quality of Life Questionnaire Score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Worst pain score",
+          "Pain Score"
+        ],
+        [
+          "Histology",
+          "Cancer Diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Spinal instability neoplastic score (SINS)",
+        "Mass on imaging"
+      ],
+      "remaining_candidate_features": [
+        "Spinal Metastases Location",
+        "Analgesic Use",
+        "Quality of Life Questionnaire Score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ECOG Performance Status, histologic or cytologic diagnosis of cancer, primary tumor site, number of spinal segments involved, pain score, analgesic use, quality of life questionnaire scores.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Worst pain score",
+          "pain score"
+        ],
+        [
+          "Histology",
+          "histologic or cytologic diagnosis of cancer"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Spinal instability neoplastic score (SINS)",
+        "Mass on imaging"
+      ],
+      "remaining_candidate_features": [
+        "primary tumor site",
+        "number of spinal segments involved",
+        "analgesic use",
+        "quality of life questionnaire scores."
+      ]
+    }
+  }
+}

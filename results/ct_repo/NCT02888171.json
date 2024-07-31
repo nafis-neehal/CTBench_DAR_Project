@@ -1,0 +1,231 @@
+{
+  "trial_id": "NCT02888171",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline eGFR, baseline serum ferritin, baseline transferrin saturation, baseline hemoglobin, baseline hepcidin, baseline serum phosphorus, presence of gastrointestinal disorders, presence of liver disease, baseline ALT/AST levels, baseline bilirubin levels, baseline hemoglobin concentration, use of erythropoiesis stimulating agents, use of intravenous iron therapy, history of blood transfusion, known allergies to oral iron therapy, use of oral phosphorus binders, use of active vitamin D analogs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "estimated glomerular filtration rate",
+          "baseline eGFR"
+        ],
+        [
+          "transferrin saturation",
+          "baseline transferrin saturation"
+        ],
+        [
+          "ferritin",
+          "baseline serum ferritin"
+        ],
+        [
+          "hemoglobin",
+          "baseline hemoglobin"
+        ],
+        [
+          "phosphorus",
+          "baseline serum phosphorus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "body mass index",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "calcium"
+      ],
+      "remaining_candidate_features": [
+        "baseline hepcidin",
+        "presence of gastrointestinal disorders",
+        "presence of liver disease",
+        "baseline ALT/AST levels",
+        "baseline bilirubin levels",
+        "baseline hemoglobin concentration",
+        "use of erythropoiesis stimulating agents",
+        "use of intravenous iron therapy",
+        "history of blood transfusion",
+        "known allergies to oral iron therapy",
+        "use of oral phosphorus binders",
+        "use of active vitamin D analogs"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Serum Ferritin, Transferrin Saturation, Hemoglobin, Serum Phosphorus,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "estimated glomerular filtration rate",
+          "eGFR"
+        ],
+        [
+          "transferrin saturation",
+          "Transferrin Saturation"
+        ],
+        [
+          "ferritin",
+          "Serum Ferritin"
+        ],
+        [
+          "hemoglobin",
+          "Hemoglobin"
+        ],
+        [
+          "phosphorus",
+          "Serum Phosphorus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "body mass index",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "calcium"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Hemoglobin, Serum Ferritin, Transferrin Saturation, Phosphorus, ALT/AST, Bilirubin, CKD duration,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "estimated glomerular filtration rate",
+          "eGFR"
+        ],
+        [
+          "transferrin saturation",
+          "Transferrin Saturation"
+        ],
+        [
+          "ferritin",
+          "Serum Ferritin"
+        ],
+        [
+          "hemoglobin",
+          "Hemoglobin"
+        ],
+        [
+          "phosphorus",
+          "Phosphorus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "body mass index",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "calcium"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ALT/AST",
+        "Bilirubin",
+        "CKD duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, eGFR, serum creatinine, hemoglobin, serum ferritin, transferrin saturation, hepcidin, ALT, AST, bilirubin, serum phosphorus, medical history (including CKD, anemia, iron deficiency, gastrointestinal disorders, liver disease), concomitant medications (including erythropoiesis stimulating agents, oral phosphorus binders, active vitamin D analogs).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "body mass index",
+          "body mass index"
+        ],
+        [
+          "estimated glomerular filtration rate",
+          "eGFR"
+        ],
+        [
+          "transferrin saturation",
+          "transferrin saturation"
+        ],
+        [
+          "ferritin",
+          "serum ferritin"
+        ],
+        [
+          "hemoglobin",
+          "hemoglobin"
+        ],
+        [
+          "phosphorus",
+          "serum phosphorus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "calcium"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "serum creatinine",
+        "hepcidin",
+        "ALT",
+        "AST",
+        "bilirubin",
+        "medical history (including CKD, anemia, iron deficiency, gastrointestinal disorders, liver disease)",
+        "concomitant medications (including erythropoiesis stimulating agents, oral phosphorus binders, active vitamin D analogs)"
+      ]
+    }
+  }
+}

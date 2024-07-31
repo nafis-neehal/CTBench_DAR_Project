@@ -1,0 +1,154 @@
+{
+  "trial_id": "NCT00441064",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, systolic blood pressure (SBP), body mass index (BMI), number of antihypertensive medications, history of heart failure, history of unstable angina pectoris, history of myocardial infarction (MI), history of cardiovascular attack (CVA), history of malignancy, hemoglobin A1c (HbA1c) levels, use of investigational drugs, use of Tamsulosin hydrochloride, use of alpha blockers, use of antiarrhythmic drugs, pregnancy status, nursing status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "MASBP",
+          "systolic blood pressure (SBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "MSSBP",
+        "MSDBP",
+        "MADBP"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "body mass index (BMI)",
+        "number of antihypertensive medications",
+        "history of heart failure",
+        "history of unstable angina pectoris",
+        "history of myocardial infarction (MI)",
+        "history of cardiovascular attack (CVA)",
+        "history of malignancy",
+        "hemoglobin A1c (HbA1c) levels",
+        "use of investigational drugs",
+        "use of Tamsulosin hydrochloride",
+        "use of alpha blockers",
+        "use of antiarrhythmic drugs",
+        "pregnancy status",
+        "nursing status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Use of antihypertensive medications, History of cardiovascular disease, 24-hour Ambulatory Blood Pressure Monitoring (ABPM) results,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "MASBP",
+          "24-hour Ambulatory Blood Pressure Monitoring (ABPM) results"
+        ]
+      ],
+      "remaining_reference_features": [
+        "MSSBP",
+        "MSDBP",
+        "MADBP"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Use of antihypertensive medications",
+        "History of cardiovascular disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, 24-hour Ambulatory Blood Pressure Monitoring, History of Heart Failure, History of Unstable Angina Pectoris, History of Diabetes Mellitus, Number of Antihypertensive Medications, History of Myocardial Infarction, History of Cardiovascular Attack.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "MASBP",
+          "24-hour Ambulatory Blood Pressure Monitoring"
+        ]
+      ],
+      "remaining_reference_features": [
+        "MSSBP",
+        "MSDBP",
+        "MADBP"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Heart Failure",
+        "History of Unstable Angina Pectoris",
+        "History of Diabetes Mellitus",
+        "Number of Antihypertensive Medications",
+        "History of Myocardial Infarction",
+        "History of Cardiovascular Attack."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, history of hypertension, duration of hypertension, number of antihypertensive medications, history of heart failure, history of angina pectoris, history of myocardial infarction (MI), history of cardiovascular attack (CVA), history of malignancy, hemoglobin A1c (HbA1c), ambulatory blood pressure monitoring (ABPM) mean daytime SBP, ABPM mean daytime diastolic blood pressure (DBP).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "MASBP",
+          "ambulatory blood pressure monitoring (ABPM) mean daytime SBP"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "MSSBP",
+        "MSDBP",
+        "MADBP"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "race",
+        "ethnicity",
+        "body mass index (BMI)",
+        "systolic blood pressure (SBP)",
+        "diastolic blood pressure (DBP)",
+        "heart rate",
+        "history of hypertension",
+        "duration of hypertension",
+        "number of antihypertensive medications",
+        "history of heart failure",
+        "history of angina pectoris",
+        "history of myocardial infarction (MI)",
+        "history of cardiovascular attack (CVA)",
+        "history of malignancy",
+        "hemoglobin A1c (HbA1c)",
+        "ABPM mean daytime diastolic blood pressure (DBP)"
+      ]
+    }
+  }
+}

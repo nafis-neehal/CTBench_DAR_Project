@@ -1,0 +1,210 @@
+{
+  "trial_id": "NCT03195140",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, type of insulin therapy, baseline HbA1c, use of insulin pump, history of hypoglycemia, renal function (eGFR), thyroid function, cardiovascular health status, pregnancy status (for females), use of contraception (for females), employment status related to the study sponsor.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Female sex",
+          "gender"
+        ],
+        [
+          "Diabetes duration",
+          "duration of diabetes"
+        ],
+        [
+          "HbA1c",
+          "baseline HbA1c"
+        ],
+        [
+          "Current insulin modality",
+          "type of insulin therapy"
+        ],
+        [
+          "CGM use status",
+          "use of insulin pump"
+        ],
+        [
+          "1 or more events in the last 12 months",
+          "history of hypoglycemia"
+        ],
+        [
+          "Other noninsulin blood glucose control medications taken",
+          "use of contraception (for females)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/ethnicity",
+        "BMI",
+        "CGM metrics",
+        "N of glucose tests/day from self-report"
+      ],
+      "remaining_candidate_features": [
+        "renal function (eGFR)",
+        "thyroid function",
+        "cardiovascular health status",
+        "pregnancy status (for females)",
+        "employment status related to the study sponsor."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Duration of diabetes, Insulin regimen, Total daily insulin dose, HbA1c, BMI, eGFR, Thyroid function, Cardiovascular disease history, Hypoglycemia awareness, Use of acetaminophen, Pregnancy status, Employment status, Participation in other trials",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Female sex",
+          "Sex"
+        ],
+        [
+          "Diabetes duration",
+          "Duration of diabetes"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Current insulin modality",
+          "Insulin regimen"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Pregnancy status",
+          "Pregnancy status"
+        ],
+        [
+          "Employment status",
+          "Employment status"
+        ],
+        [
+          "Participation in other trials",
+          "Participation in other trials"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/ethnicity",
+        "CGM metrics",
+        "CGM use status",
+        "1 or more events in the last 12 months",
+        "N of glucose tests/day from self-report",
+        "Other noninsulin blood glucose control medications taken"
+      ],
+      "remaining_candidate_features": [
+        "Total daily insulin dose",
+        "Thyroid function",
+        "Cardiovascular disease history",
+        "Hypoglycemia awareness",
+        "Use of acetaminophen"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Diabetes duration, Insulin regimen, Total daily insulin dose, HbA1c, BMI, History of severe hypoglycemia, History of DKA, C-peptide, Existing CVD, Strong family history of CVD.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Female sex",
+          "Sex"
+        ],
+        [
+          "Diabetes duration",
+          "Diabetes duration"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Current insulin modality",
+          "Insulin regimen"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/ethnicity",
+        "CGM metrics",
+        "CGM use status",
+        "1 or more events in the last 12 months",
+        "N of glucose tests/day from self-report",
+        "Other noninsulin blood glucose control medications taken"
+      ],
+      "remaining_candidate_features": [
+        "Total daily insulin dose",
+        "History of severe hypoglycemia",
+        "History of DKA",
+        "C-peptide",
+        "Existing CVD",
+        "Strong family history of CVD"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, duration of diabetes, type of insulin therapy, insulin pump experience, HbA1c, body mass index (BMI), history of severe hypoglycemia, frequency of blood glucose monitoring, average daily insulin dose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Female sex",
+          "sex"
+        ],
+        [
+          "Diabetes duration",
+          "duration of diabetes"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Current insulin modality",
+          "type of insulin therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/ethnicity",
+        "CGM metrics",
+        "CGM use status",
+        "1 or more events in the last 12 months",
+        "N of glucose tests/day from self-report",
+        "Other noninsulin blood glucose control medications taken"
+      ],
+      "remaining_candidate_features": [
+        "insulin pump experience",
+        "history of severe hypoglycemia",
+        "frequency of blood glucose monitoring",
+        "average daily insulin dose"
+      ]
+    }
+  }
+}

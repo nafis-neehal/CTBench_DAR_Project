@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT00603590",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline systolic blood pressure, baseline diastolic blood pressure, baseline LDL cholesterol, baseline total cholesterol, baseline HbA1c, history of cardiovascular disease, history of antihypertensive drug use, history of aspirin use, history of statin use, history of peptic ulcer, history of liver failure, history of alcohol abuse, history of drug abuse, psychiatric illness, physical disability, other life-threatening conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "baseline diastolic blood pressure"
+        ],
+        [
+          "LDL cholesterol",
+          "baseline LDL cholesterol"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "baseline systolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "baseline total cholesterol",
+        "baseline HbA1c",
+        "history of cardiovascular disease",
+        "history of antihypertensive drug use",
+        "history of aspirin use",
+        "history of statin use",
+        "history of peptic ulcer",
+        "history of liver failure",
+        "history of alcohol abuse",
+        "history of drug abuse",
+        "psychiatric illness",
+        "physical disability",
+        "other life-threatening conditions"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, LDL Cholesterol, HbA1c, Uric Acid, Creatinine, History of alcohol abuse, History of drug abuse, Limiting psychiatric illness, Limiting physical disability, Other life-threatening condition,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "LDL cholesterol",
+          "LDL Cholesterol"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Age",
+        "Body Mass Index",
+        "Total Cholesterol",
+        "HbA1c",
+        "Uric Acid",
+        "Creatinine",
+        "History of alcohol abuse",
+        "History of drug abuse",
+        "Limiting psychiatric illness",
+        "Limiting physical disability",
+        "Other life-threatening condition"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, LDL Cholesterol, HbA1c, History of Cardiovascular Disease, History of Hypertension, History of Hyperlipidemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "LDL cholesterol",
+          "LDL Cholesterol"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Age",
+        "Total Cholesterol",
+        "HbA1c",
+        "History of Cardiovascular Disease",
+        "History of Hypertension",
+        "History of Hyperlipidemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, body mass index (BMI), smoking status, history of hypertension, history of hyperlipidemia, history of diabetes, history of cardiovascular disease, systolic blood pressure, diastolic blood pressure, total cholesterol, LDL cholesterol, HDL cholesterol, triglycerides, HbA1c, creatinine, uric acid, liver function tests, electrocardiogram (ECG) findings.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "diastolic blood pressure"
+        ],
+        [
+          "LDL cholesterol",
+          "LDL cholesterol"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "systolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "smoking status",
+        "history of hypertension",
+        "history of hyperlipidemia",
+        "history of diabetes",
+        "history of cardiovascular disease",
+        "total cholesterol",
+        "HDL cholesterol",
+        "triglycerides",
+        "HbA1c",
+        "creatinine",
+        "uric acid",
+        "liver function tests",
+        "electrocardiogram (ECG) findings"
+      ]
+    }
+  }
+}

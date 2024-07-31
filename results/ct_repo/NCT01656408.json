@@ -1,0 +1,165 @@
+{
+  "trial_id": "NCT01656408",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), smoking status, alcohol consumption, baseline heart rate (HR), baseline central systolic blood pressure (cSBP), history of cardiac disease, history of neurological disorders, history of psychiatric disorders, history of neoplastic disease, medication use, use of nicotine or nicotine-containing products, use of erectile dysfunction medications, use of organic nitrates, history of allergies, drug and alcohol abuse history, surgical history, blood donation history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Heart Rate (HR)",
+          "baseline heart rate (HR)"
+        ],
+        [
+          "Central Systolic Blood Pressure (cSBP)",
+          "baseline central systolic blood pressure (cSBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Augmentation Index (AIx)",
+        "Central Diastolic Blood Pressure (cDBP)",
+        "Peripheral Systolic Blood Pressure (pSBP)",
+        "Peripheral Diastolic Blood Pressure (pDBP)"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "smoking status",
+        "alcohol consumption",
+        "history of cardiac disease",
+        "history of neurological disorders",
+        "history of psychiatric disorders",
+        "history of neoplastic disease",
+        "medication use",
+        "use of nicotine or nicotine-containing products",
+        "use of erectile dysfunction medications",
+        "use of organic nitrates",
+        "history of allergies",
+        "drug and alcohol abuse history",
+        "surgical history",
+        "blood donation history"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Smoking Status, Alcohol Consumption, Medication Use, History of Cardiovascular Disease, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Heart Rate (HR)",
+          "Heart Rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Central Systolic Blood Pressure (cSBP)",
+        "Augmentation Index (AIx)",
+        "Central Diastolic Blood Pressure (cDBP)",
+        "Peripheral Systolic Blood Pressure (pSBP)",
+        "Peripheral Diastolic Blood Pressure (pDBP)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Smoking Status",
+        "Alcohol Consumption",
+        "Medication Use",
+        "History of Cardiovascular Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, History of Hypertension, History of Cardiovascular Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Female"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Heart Rate (HR)",
+          "Heart Rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Central Systolic Blood Pressure (cSBP)",
+        "Augmentation Index (AIx)",
+        "Central Diastolic Blood Pressure (cDBP)",
+        "Peripheral Systolic Blood Pressure (pSBP)",
+        "Peripheral Diastolic Blood Pressure (pDBP)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Hypertension",
+        "History of Cardiovascular Disease."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, body mass index (BMI), hypertension status, systolic blood pressure (SBP), heart rate (HR), smoking status, alcohol consumption, medical history (cardiac disease, stroke, seizures, neoplastic disease, psychiatric disorder).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Heart Rate (HR)",
+          "heart rate (HR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Central Systolic Blood Pressure (cSBP)",
+        "Augmentation Index (AIx)",
+        "Central Diastolic Blood Pressure (cDBP)",
+        "Peripheral Systolic Blood Pressure (pSBP)",
+        "Peripheral Diastolic Blood Pressure (pDBP)"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "hypertension status",
+        "systolic blood pressure (SBP)",
+        "smoking status",
+        "alcohol consumption",
+        "medical history (cardiac disease, stroke, seizures, neoplastic disease, psychiatric disorder)"
+      ]
+    }
+  }
+}

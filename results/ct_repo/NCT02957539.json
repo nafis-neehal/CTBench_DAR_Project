@@ -1,0 +1,184 @@
+{
+  "trial_id": "NCT02957539",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI at enrollment, Weight at enrollment, Primary care or women's clinic visits in the last year, Access to text-capable phone or email, Internet access, Living in Seattle area, Existence of behavioral flag, Presence of serious mental illness, Use of anti-psychotic medication, History of eating disorder, History of sexual trauma, Participation in MOVE! program in the past 4 months, Pregnancy status, Employment status, Ability to stand independently, Literacy level, Insulin dependency, Decision-making ability, Ability to remove socks and shoes, Weight loss in the last 6 months, Cognitive screening results.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Self Efficacy",
+        "Intrinsic Motivation",
+        "PHQ-8 Depression Score"
+      ],
+      "remaining_candidate_features": [
+        "BMI at enrollment",
+        "Weight at enrollment",
+        "Primary care or women's clinic visits in the last year",
+        "Access to text-capable phone or email",
+        "Internet access",
+        "Living in Seattle area",
+        "Existence of behavioral flag",
+        "Presence of serious mental illness",
+        "Use of anti-psychotic medication",
+        "History of eating disorder",
+        "History of sexual trauma",
+        "Participation in MOVE! program in the past 4 months",
+        "Pregnancy status",
+        "Employment status",
+        "Ability to stand independently",
+        "Literacy level",
+        "Insulin dependency",
+        "Decision-making ability",
+        "Ability to remove socks and shoes",
+        "Weight loss in the last 6 months",
+        "Cognitive screening results"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Weight, Access to Internet, Access to Text Capable Phone, Primary Care Visits,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Self Efficacy",
+        "Intrinsic Motivation",
+        "PHQ-8 Depression Score"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Weight",
+        "Access to Internet",
+        "Access to Text Capable Phone",
+        "Primary Care Visits"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Weight, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Lipid Profile, Smoking Status, Comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Self Efficacy",
+        "Intrinsic Motivation",
+        "PHQ-8 Depression Score"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Weight",
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Glucose",
+        "Lipid Profile",
+        "Smoking Status",
+        "Comorbidities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Sex, BMI, Weight, Race, Ethnicity, Education Level, Employment Status, Marital Status, Income Level, Access to Healthcare, Comorbidities, Medication Use, Smoking Status, Physical Activity Level, Diet Quality, Quality of Life, Cognitive Function, Mental Health Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ],
+        [
+          "PHQ-8 Depression Score",
+          "Mental Health Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Self Efficacy",
+        "Intrinsic Motivation"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Weight",
+        "Education Level",
+        "Employment Status",
+        "Marital Status",
+        "Income Level",
+        "Access to Healthcare",
+        "Comorbidities",
+        "Medication Use",
+        "Smoking Status",
+        "Physical Activity Level",
+        "Diet Quality",
+        "Quality of Life",
+        "Cognitive Function"
+      ]
+    }
+  }
+}

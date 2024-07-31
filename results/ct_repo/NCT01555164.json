@@ -1,0 +1,205 @@
+{
+  "trial_id": "NCT01555164",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Duration of Type 2 Diabetes Mellitus, Baseline HbA1c, Baseline Fasting Serum Glucose (FSG), Baseline C-peptide, Serum Creatinine, Liver Function Tests (AST, ALT, Total Bilirubin), Concomitant Medications, History of Cardiovascular Events, History of Congestive Heart Failure, Corrected QT Interval (QTc)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Glycosylated hemoglobin (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Fasting Serum Glucose (FSG)",
+          "Baseline Fasting Serum Glucose (FSG)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Estimated glomerular filtration rate (eGFR)",
+        "Duration of Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Type 2 Diabetes Mellitus",
+        "Baseline C-peptide",
+        "Serum Creatinine",
+        "Liver Function Tests (AST, ALT, Total Bilirubin)",
+        "Concomitant Medications",
+        "History of Cardiovascular Events",
+        "History of Congestive Heart Failure",
+        "Corrected QT Interval (QTc)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Fasting Serum Glucose, C-peptide, Serum Creatinine, Liver Function Tests (AST, ALT, Total Bilirubin), Duration of Diabetes, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Glycosylated hemoglobin (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Fasting Serum Glucose (FSG)",
+          "Fasting Serum Glucose"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Estimated glomerular filtration rate (eGFR)"
+      ],
+      "remaining_candidate_features": [
+        "C-peptide",
+        "Serum Creatinine",
+        "Liver Function Tests (AST, ALT, Total Bilirubin)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Fasting Serum Glucose, C-peptide, Metformin Dose, Diabetes Duration,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Glycosylated hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Fasting Serum Glucose (FSG)",
+          "Fasting Serum Glucose"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes Duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Estimated glomerular filtration rate (eGFR)"
+      ],
+      "remaining_candidate_features": [
+        "C-peptide",
+        "Metformin Dose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, metformin dose, HbA1c, fasting serum glucose (FSG), C-peptide, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including cardiovascular and cerebrovascular events), concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Glycosylated hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Fasting Serum Glucose (FSG)",
+          "fasting serum glucose (FSG)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes mellitus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Estimated glomerular filtration rate (eGFR)"
+      ],
+      "remaining_candidate_features": [
+        "metformin dose",
+        "C-peptide",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "medical history (including cardiovascular and cerebrovascular events)",
+        "concomitant medications"
+      ]
+    }
+  }
+}

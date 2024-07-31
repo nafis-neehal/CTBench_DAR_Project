@@ -1,0 +1,298 @@
+{
+  "trial_id": "NCT01056718",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline blood pressure, baseline heart rate, body mass index (BMI), left ventricular ejection fraction (LVEF), presence of diastolic dysfunction, baseline exercise capacity, comorbid conditions (e.g., diabetes, chronic kidney disease), medication use, smoking status, baseline metabolic equivalent (METS) level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Resting Systolic BP",
+          "baseline blood pressure"
+        ],
+        [
+          "Resting Heart Rate",
+          "baseline heart rate"
+        ],
+        [
+          "Resting Ejection Fraction (EF)",
+          "left ventricular ejection fraction (LVEF)"
+        ],
+        [
+          "Metabolic Equivalent",
+          "baseline metabolic equivalent (METS) level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Exercise Duration",
+        "Resting Diastolic BP",
+        "Peak Stress Systolic BP",
+        "Peak Stress Diastolic BP",
+        "Stress Heart Rate",
+        "Stress EF",
+        "Resting Stroke Volume",
+        "Stress Stroke Volume",
+        "Resting Cardiac Output",
+        "Stress Cardiac Output",
+        "LV End Diastolic Diameter",
+        "LV End Systolic Diameter",
+        "LV Mass",
+        "Mitral Valve Inflow (E) Velocity",
+        "Mitral Valve Inflow (A) Velocity",
+        "Mitral Valve E/A Ratio",
+        "Mitral Valve Deceleration Time",
+        "Mitral Valve Tissue Doppler Velocity (e')",
+        "Mitral Valve Tissue Doppler Velocity (a')",
+        "E/e' Ratio",
+        "Pulmonary Vein Peak Systolic Velocity",
+        "Pulmonary Vein Peak Diastolic Velocity",
+        "Quality of Life"
+      ],
+      "remaining_candidate_features": [
+        "presence of diastolic dysfunction",
+        "baseline exercise capacity",
+        "comorbid conditions (e.g., diabetes, chronic kidney disease)",
+        "medication use",
+        "smoking status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Blood Pressure, Baseline Exercise Tolerance, Left Ventricular Systolic Function, Left Ventricular Diastolic Function, Baseline Metabolic Equivalent (METS) Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Resting Systolic BP",
+          "Baseline Blood Pressure"
+        ],
+        [
+          "Exercise Duration",
+          "Baseline Exercise Tolerance"
+        ],
+        [
+          "Metabolic Equivalent",
+          "Baseline Metabolic Equivalent (METS) Level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "BMI",
+        "Resting Diastolic BP",
+        "Peak Stress Systolic BP",
+        "Peak Stress Diastolic BP",
+        "Resting Heart Rate",
+        "Stress Heart Rate",
+        "Resting Ejection Fraction (EF)",
+        "Stress EF",
+        "Resting Stroke Volume",
+        "Stress Stroke Volume",
+        "Resting Cardiac Output",
+        "Stress Cardiac Output",
+        "LV End Diastolic Diameter",
+        "LV End Systolic Diameter",
+        "LV Mass",
+        "Mitral Valve Inflow (E) Velocity",
+        "Mitral Valve Inflow (A) Velocity",
+        "Mitral Valve E/A Ratio",
+        "Mitral Valve Deceleration Time",
+        "Mitral Valve Tissue Doppler Velocity (e')",
+        "Mitral Valve Tissue Doppler Velocity (a')",
+        "E/e' Ratio",
+        "Pulmonary Vein Peak Systolic Velocity",
+        "Pulmonary Vein Peak Diastolic Velocity",
+        "Quality of Life"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Left Ventricular Systolic Function",
+        "Left Ventricular Diastolic Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Left Ventricular Ejection Fraction, E/A Ratio, Deceleration Time, Isovolumic Relaxation Time, Left Ventricular Mass Index, Exercise Capacity, New York Heart Association (NYHA) Class.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Resting Systolic BP",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Resting Diastolic BP",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Resting Ejection Fraction (EF)",
+          "Left Ventricular Ejection Fraction"
+        ],
+        [
+          "Mitral Valve E/A Ratio",
+          "E/A Ratio"
+        ],
+        [
+          "Mitral Valve Deceleration Time",
+          "Deceleration Time"
+        ],
+        [
+          "LV Mass",
+          "Left Ventricular Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Metabolic Equivalent",
+        "Exercise Duration",
+        "Peak Stress Systolic BP",
+        "Peak Stress Diastolic BP",
+        "Resting Heart Rate",
+        "Stress Heart Rate",
+        "Resting Stroke Volume",
+        "Stress Stroke Volume",
+        "Resting Cardiac Output",
+        "Stress Cardiac Output",
+        "LV End Diastolic Diameter",
+        "LV End Systolic Diameter",
+        "Mitral Valve Inflow (E) Velocity",
+        "Mitral Valve Inflow (A) Velocity",
+        "Mitral Valve Tissue Doppler Velocity (e')",
+        "Mitral Valve Tissue Doppler Velocity (a')",
+        "E/e' Ratio",
+        "Pulmonary Vein Peak Systolic Velocity",
+        "Pulmonary Vein Peak Diastolic Velocity",
+        "Quality of Life"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Exercise Capacity",
+        "Isovolumic Relaxation Time",
+        "New York Heart Association (NYHA) Class."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, height, weight, body mass index (BMI), systolic blood pressure, diastolic blood pressure, heart rate, New York Heart Association (NYHA) functional class, left ventricular ejection fraction, left ventricular end-diastolic volume, left ventricular end-systolic volume, echocardiographic measures of diastolic function (e.g. E/A ratio, deceleration time), medical history (e.g. diabetes, hyperlipidemia, smoking), concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Resting Systolic BP",
+          "systolic blood pressure"
+        ],
+        [
+          "Resting Diastolic BP",
+          "diastolic blood pressure"
+        ],
+        [
+          "Resting Heart Rate",
+          "heart rate"
+        ],
+        [
+          "Resting Ejection Fraction (EF)",
+          "left ventricular ejection fraction"
+        ],
+        [
+          "Mitral Valve E/A Ratio",
+          "echocardiographic measures of diastolic function (e.g. E/A ratio, deceleration time)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Exercise Duration",
+        "Metabolic Equivalent",
+        "Peak Stress Systolic BP",
+        "Peak Stress Diastolic BP",
+        "Stress Heart Rate",
+        "Stress EF",
+        "Resting Stroke Volume",
+        "Stress Stroke Volume",
+        "Resting Cardiac Output",
+        "Stress Cardiac Output",
+        "LV End Diastolic Diameter",
+        "LV End Systolic Diameter",
+        "LV Mass",
+        "Mitral Valve Inflow (E) Velocity",
+        "Mitral Valve Inflow (A) Velocity",
+        "Mitral Valve Deceleration Time",
+        "Mitral Valve Tissue Doppler Velocity (e')",
+        "Mitral Valve Tissue Doppler Velocity (a')",
+        "E/e' Ratio",
+        "Pulmonary Vein Peak Systolic Velocity",
+        "Pulmonary Vein Peak Diastolic Velocity",
+        "Quality of Life"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "height",
+        "weight",
+        "New York Heart Association (NYHA) functional class",
+        "left ventricular end-diastolic volume",
+        "left ventricular end-systolic volume",
+        "medical history (e.g. diabetes, hyperlipidemia, smoking)",
+        "concomitant medications."
+      ]
+    }
+  }
+}

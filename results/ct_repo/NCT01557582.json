@@ -1,0 +1,187 @@
+{
+  "trial_id": "NCT01557582",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type of PAH (IPAH, HPAH, APAH-CTD, APAH-HIV, APAH-PoPH, APAH-Drugs/Toxins, APAH-CHD repaired, APAH-CHD unrepaired), ability to lie motionless during imaging, presence of left heart disease, presence of arrhythmia, presence of implanted cardiac devices, pregnancy status, MRI contraindications, presence of obstructive or restrictive lung disease, HIV status, presence of opportunistic pulmonary disease, presence of thyroid disorders, presence of glycogen storage disease, presence of Gaucher's disease, presence of hereditary hemorrhagic telangiectasia, presence of hemoglobinopathies, presence of myeloproliferative disorders, history of splenectomy, presence of congenital heart disease other than specified, presence of significant venous or capillary involvement, presence of pulmonary veno-occlusive disease, presence of pulmonary capillary hemangiomatosis, presence of cardiac ischemic disease, systemic hypertension status, hepatic impairment status, presence of obstructive sleep apnea, use of CPAP or BiPAP device.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Etiology",
+          "type of PAH (IPAH, HPAH, APAH-CTD, APAH-HIV, APAH-PoPH, APAH-Drugs/Toxins, APAH-CHD repaired, APAH-CHD unrepaired)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "WHO Functional Health Class"
+      ],
+      "remaining_candidate_features": [
+        "ability to lie motionless during imaging",
+        "presence of left heart disease",
+        "presence of arrhythmia",
+        "presence of implanted cardiac devices",
+        "pregnancy status",
+        "MRI contraindications",
+        "presence of obstructive or restrictive lung disease",
+        "HIV status",
+        "presence of opportunistic pulmonary disease",
+        "presence of thyroid disorders",
+        "presence of glycogen storage disease",
+        "presence of Gaucher's disease",
+        "presence of hereditary hemorrhagic telangiectasia",
+        "presence of hemoglobinopathies",
+        "presence of myeloproliferative disorders",
+        "history of splenectomy",
+        "presence of congenital heart disease other than specified",
+        "presence of significant venous or capillary involvement",
+        "presence of pulmonary veno-occlusive disease",
+        "presence of pulmonary capillary hemangiomatosis",
+        "presence of cardiac ischemic disease",
+        "systemic hypertension status",
+        "hepatic impairment status",
+        "presence of obstructive sleep apnea",
+        "use of CPAP or BiPAP device"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Right Ventricular End-Diastolic Volume (RVEDV), Right Ventricular End-Systolic Volume (RVESV), Pulmonary Arterial Hypertension (PAH) subtype, Systolic Blood Pressure, Diastolic Blood Pressure, Left Ventricular Ejection Fraction (LVEF), Left Ventricular Systolic Function (LVSF), Pulmonary Capillary Wedge Pressure (PCWP), ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Etiology",
+          "Pulmonary Arterial Hypertension (PAH) subtype"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "WHO Functional Health Class"
+      ],
+      "remaining_candidate_features": [
+        "Right Ventricular End-Diastolic Volume (RVEDV)",
+        "Right Ventricular End-Systolic Volume (RVESV)",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Left Ventricular Ejection Fraction (LVEF)",
+        "Left Ventricular Systolic Function (LVSF)",
+        "Pulmonary Capillary Wedge Pressure (PCWP)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulmonary Arterial Hypertension diagnosis duration, World Health Organization functional class, Six-minute walk distance, N-terminal pro-brain natriuretic peptide,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "WHO Functional Health Class",
+          "World Health Organization functional class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Etiology"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Pulmonary Arterial Hypertension diagnosis duration",
+        "Six-minute walk distance",
+        "N-terminal pro-brain natriuretic peptide"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, body mass index (BMI), ethnicity, PAH subtype (IPAH, HPAH, APAH-CTD, APAH-HIV, APAH-PoPH, APAH-Drugs/Toxins, APAH-CHD), New York Heart Association (NYHA) functional class, 6-minute walk distance, systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, oxygen saturation, World Health Organization (WHO) functional class, cardiac medications, comorbidities (left heart disease, arrhythmia, obstructive or restrictive lung disease, etc.).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Etiology",
+          "PAH subtype (IPAH, HPAH, APAH-CTD, APAH-HIV, APAH-PoPH, APAH-Drugs/Toxins, APAH-CHD)"
+        ],
+        [
+          "WHO Functional Health Class",
+          "World Health Organization (WHO) functional class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "ethnicity",
+        "New York Heart Association (NYHA) functional class",
+        "6-minute walk distance",
+        "systolic blood pressure (SBP)",
+        "diastolic blood pressure (DBP)",
+        "heart rate",
+        "oxygen saturation",
+        "cardiac medications",
+        "comorbidities (left heart disease, arrhythmia, obstructive or restrictive lung disease, etc.)"
+      ]
+    }
+  }
+}

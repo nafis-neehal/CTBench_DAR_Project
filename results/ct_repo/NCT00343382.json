@@ -1,0 +1,194 @@
+{
+  "trial_id": "NCT00343382",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, menopausal status, history of breast cancer, duration of vaginal dryness symptoms, life expectancy, ability to complete questionnaires, use of tamoxifen or aromatase inhibitors, presence of active vaginal infection, concurrent chemotherapy, history of acute iritis, prior use of pilocarpine, use of vaginal preparations, use of estrogen products, diagnosis of asthma, COPD, CAD, or narrow angle glaucoma, history of cholelithiasis, hepatic or renal function, use of anticholinergics, use of pharmacologic soy preparations, history of cardiac arrhythmia, prior pelvic radiation therapy, prior radical pelvic surgery, diagnosis of vulvar and vaginal dysplasia, essential vulvodynia, vulvar vestibulitis, vaginal prolapse, Bartholin cyst/abscess, history of Bartholin gland surgery, lichen sclerosis, lichen planus of the vulvovaginal region, desquamative vaginitis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "menopausal status"
+        ],
+        [
+          "Tamoxifen use",
+          "use of tamoxifen or aromatase inhibitors"
+        ],
+        [
+          "Severity of vaginal symptoms",
+          "duration of vaginal dryness symptoms"
+        ],
+        [
+          "Breast cancer history",
+          "history of breast cancer"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Current aromatase inhibitor"
+      ],
+      "remaining_candidate_features": [
+        "life expectancy",
+        "ability to complete questionnaires",
+        "presence of active vaginal infection",
+        "concurrent chemotherapy",
+        "history of acute iritis",
+        "prior use of pilocarpine",
+        "use of vaginal preparations",
+        "use of estrogen products",
+        "diagnosis of asthma",
+        "COPD",
+        "CAD",
+        "or narrow angle glaucoma",
+        "history of cholelithiasis",
+        "hepatic or renal function",
+        "use of anticholinergics",
+        "use of pharmacologic soy preparations",
+        "history of cardiac arrhythmia",
+        "prior pelvic radiation therapy",
+        "prior radical pelvic surgery",
+        "diagnosis of vulvar and vaginal dysplasia",
+        "essential vulvodynia",
+        "vulvar vestibulitis",
+        "vaginal prolapse",
+        "Bartholin cyst/abscess",
+        "history of Bartholin gland surgery",
+        "lichen sclerosis",
+        "lichen planus of the vulvovaginal region",
+        "desquamative vaginitis"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Menopausal Status, History of Breast Cancer, Duration of Vaginal Dryness Symptoms, Use of Tamoxifen or Aromatase Inhibitors, Use of Vaginal Preparations, Use of Estrogen Products, History of Asthma or COPD, History of Cardiac Arrhythmia,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Tamoxifen use",
+          "Use of Tamoxifen or Aromatase Inhibitors"
+        ],
+        [
+          "Severity of vaginal symptoms",
+          "Duration of Vaginal Dryness Symptoms"
+        ],
+        [
+          "Breast cancer history",
+          "History of Breast Cancer"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Current aromatase inhibitor"
+      ],
+      "remaining_candidate_features": [
+        "Menopausal Status",
+        "Use of Vaginal Preparations",
+        "Use of Estrogen Products",
+        "History of Asthma or COPD",
+        "History of Cardiac Arrhythmia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Menopausal Status, Breast Cancer History, Vaginal Dryness Symptoms Duration, Life Expectancy, Ability to Complete Questionnaires.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Breast cancer history",
+          "Breast Cancer History"
+        ],
+        [
+          "Severity of vaginal symptoms",
+          "Vaginal Dryness Symptoms Duration"
+        ],
+        [
+          "Tamoxifen use",
+          "Current aromatase inhibitor"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Menopausal Status",
+        "Life Expectancy",
+        "Ability to Complete Questionnaires."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, menopausal status, breast cancer history, time since breast cancer diagnosis, breast cancer treatment history, vaginal dryness symptoms duration, quality of life scores, SGOT levels, creatinine levels, medical history (asthma, COPD, CAD, narrow angle glaucoma, cholelithiasis, hepatic or renal insufficiency), medication use (tamoxifen, aromatase inhibitors, anticholinergics, beta adrenergic antagonists, estrogen products, pharmacologic soy preparations), smoking status, body mass index (BMI).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Tamoxifen use",
+          "medication use (tamoxifen, aromatase inhibitors, anticholinergics, beta adrenergic antagonists, estrogen products, pharmacologic soy preparations)"
+        ],
+        [
+          "Current aromatase inhibitor",
+          "medication use (tamoxifen, aromatase inhibitors, anticholinergics, beta adrenergic antagonists, estrogen products, pharmacologic soy preparations)"
+        ],
+        [
+          "Severity of vaginal symptoms",
+          "vaginal dryness symptoms duration"
+        ],
+        [
+          "Breast cancer history",
+          "breast cancer history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "menopausal status",
+        "time since breast cancer diagnosis",
+        "breast cancer treatment history",
+        "quality of life scores",
+        "SGOT levels",
+        "creatinine levels",
+        "medical history (asthma, COPD, CAD, narrow angle glaucoma, cholelithiasis, hepatic or renal insufficiency)",
+        "smoking status",
+        "body mass index (BMI)"
+      ]
+    }
+  }
+}

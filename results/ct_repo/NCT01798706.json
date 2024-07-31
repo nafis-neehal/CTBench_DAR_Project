@@ -1,0 +1,246 @@
+{
+  "trial_id": "NCT01798706",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline HbA1c, fasting plasma glucose (FPG), body weight, body mass index (BMI), duration of type 2 diabetes, baseline anti-diabetic treatment regimen, glomerular filtration rate (eGFR), Mini-Nutritional Assessment-Short Form (MNA-SF) score, Mini Mental State Examination (MMSE) score, amylase levels, lipase levels, alanine aminotransferase (ALT) levels, aspartate aminotransferase (AST) levels, calcitonin levels, history of severe hypoglycemia, history of gastrointestinal disease, history of pancreatitis, family history of medullary thyroid cancer.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "HbA1c",
+          "baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose (FPG)"
+        ],
+        [
+          "Body Weight",
+          "body weight"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race",
+        "Ethnicity",
+        "Number of Participants with Categorical BMI",
+        "2-Hour Postprandial Plasma Glucose (PPG)",
+        "Glucose Excursion",
+        "7-Point Self-monitored Plasma Glucose (SMPG)"
+      ],
+      "remaining_candidate_features": [
+        "baseline anti-diabetic treatment regimen",
+        "glomerular filtration rate (eGFR)",
+        "Mini-Nutritional Assessment-Short Form (MNA-SF) score",
+        "Mini Mental State Examination (MMSE) score",
+        "amylase levels",
+        "lipase levels",
+        "alanine aminotransferase (ALT) levels",
+        "aspartate aminotransferase (AST) levels",
+        "calcitonin levels",
+        "history of severe hypoglycemia",
+        "history of gastrointestinal disease",
+        "history of pancreatitis",
+        "family history of medullary thyroid cancer."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Fasting Plasma Glucose, Body Weight, Total Daily Dose of Basal Insulin, Percentage of Participants Requiring Rescue Therapy, 7-point Self-monitored Plasma Glucose Profile, Systolic Blood Pressure, Diastolic Blood Pressure, BMI, eGFR, History of Severe Hypoglycemia, Cognitive Function (MMSE Score), Nutritional Status (MNA-SF Score),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Weight",
+          "Body Weight"
+        ],
+        [
+          "HbA1c",
+          "Baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "2-Hour Postprandial Plasma Glucose (PPG)",
+          "2-Hour Postprandial Plasma Glucose"
+        ],
+        [
+          "Glucose Excursion",
+          "Glucose Excursion"
+        ],
+        [
+          "7-Point Self-monitored Plasma Glucose (SMPG)",
+          "7-point Self-monitored Plasma Glucose Profile"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Number of Participants with Categorical BMI",
+        "Duration of Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Total Daily Dose of Basal Insulin",
+        "Percentage of Participants Requiring Rescue Therapy",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "eGFR",
+        "History of Severe Hypoglycemia",
+        "Cognitive Function (MMSE Score)",
+        "Nutritional Status (MNA-SF Score)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Fasting Plasma Glucose, Total Daily Dose of Basal Insulin, History of Hypoglycemia, Cognitive Function (MMSE Score), Mini-Nutritional Assessment-Short Form (MNA-SF) Score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "2-Hour Postprandial Plasma Glucose (PPG)",
+          "2-Hour Postprandial Plasma Glucose"
+        ],
+        [
+          "Glucose Excursion",
+          "Glucose Excursion"
+        ],
+        [
+          "7-Point Self-monitored Plasma Glucose (SMPG)",
+          "7-Point Self-monitored Plasma Glucose"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes Diagnosis Duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Number of Participants with Categorical BMI",
+        "Body Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Daily Dose of Basal Insulin",
+        "History of Hypoglycemia",
+        "Cognitive Function (MMSE Score)",
+        "Mini-Nutritional Assessment-Short Form (MNA-SF) Score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at baseline, fasting plasma glucose (FPG) at baseline, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (including cardiovascular disease, hypertension, dyslipidemia), current anti-diabetic treatment regimen, total daily dose of basal insulin (if taken).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c",
+          "HbA1c at baseline"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose (FPG) at baseline"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of Participants with Categorical BMI",
+        "Body Weight",
+        "2-Hour Postprandial Plasma Glucose (PPG)",
+        "Glucose Excursion",
+        "7-Point Self-monitored Plasma Glucose (SMPG)"
+      ],
+      "remaining_candidate_features": [
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "smoking status",
+        "medical history (including cardiovascular disease, hypertension, dyslipidemia)",
+        "current anti-diabetic treatment regimen",
+        "total daily dose of basal insulin (if taken)."
+      ]
+    }
+  }
+}

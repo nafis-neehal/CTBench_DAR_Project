@@ -1,0 +1,196 @@
+{
+  "trial_id": "NCT03289650",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, induction medications used, donor age, prior organ transplant status, organ recipient type, pregnancy status, ability to provide informed consent, graft function status, sensitivity to medications, infection status, flow cytometric crossmatch result, PRA level, donor specific antibodies status, body mass index (BMI), life expectancy, substance abuse history, psychiatric illness history, cardiovascular disease status, malignancy history, HIV status, HBV status, white blood cell count, platelet count, triglyceride level, total cholesterol level, investigational drug use history, anti-T cell therapy history, diagnosis of atypical-Hemolytic Uremic Syndrome (aHUS), Hepatitis C NAT-positive kidney transplant status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Male",
+          "gender"
+        ],
+        [
+          "Type of Donor",
+          "donor age"
+        ],
+        [
+          "Panel reactive antibodies (PRA)",
+          "PRA level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Cause of Kidney Disease",
+        "Estimated glomerular filtration rate (eGFR)"
+      ],
+      "remaining_candidate_features": [
+        "induction medications used",
+        "prior organ transplant status",
+        "organ recipient type",
+        "pregnancy status",
+        "ability to provide informed consent",
+        "graft function status",
+        "sensitivity to medications",
+        "infection status",
+        "flow cytometric crossmatch result",
+        "donor specific antibodies status",
+        "body mass index (BMI)",
+        "life expectancy",
+        "substance abuse history",
+        "psychiatric illness history",
+        "cardiovascular disease status",
+        "malignancy history",
+        "HIV status",
+        "HBV status",
+        "white blood cell count",
+        "platelet count",
+        "triglyceride level",
+        "total cholesterol level",
+        "investigational drug use history",
+        "anti-T cell therapy history",
+        "diagnosis of atypical-Hemolytic Uremic Syndrome (aHUS)",
+        "Hepatitis C NAT-positive kidney transplant status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline Kidney Function, Induction Medications Used, Presence of Donor Specific Antibodies, PRA Level, History of Cardiovascular Disease, History of Malignancy, Serologic Evidence of Infection, Baseline White Blood Cell Count, Baseline Platelet Count, Baseline Triglyceride Level, Baseline Total Cholesterol Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Panel reactive antibodies (PRA)",
+          "PRA Level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Cause of Kidney Disease",
+        "Type of Donor",
+        "Estimated glomerular filtration rate (eGFR)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Baseline Kidney Function",
+        "Induction Medications Used",
+        "Presence of Donor Specific Antibodies",
+        "History of Cardiovascular Disease",
+        "History of Malignancy",
+        "Serologic Evidence of Infection",
+        "Baseline White Blood Cell Count",
+        "Baseline Platelet Count",
+        "Baseline Triglyceride Level",
+        "Baseline Total Cholesterol Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Donor Age, Prior Kidney Transplant, Induction Medications, Delayed Graft Function, PRA, Donor Specific Antibodies, Cardiovascular Disease, Diabetes, Hypertension, Triglycerides, Total Cholesterol.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Panel reactive antibodies (PRA)",
+          "PRA"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Cause of Kidney Disease",
+        "Type of Donor",
+        "Estimated glomerular filtration rate (eGFR)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Donor Age",
+        "Prior Kidney Transplant",
+        "Induction Medications",
+        "Delayed Graft Function",
+        "Donor Specific Antibodies",
+        "Cardiovascular Disease",
+        "Diabetes",
+        "Hypertension",
+        "Triglycerides",
+        "Total Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, race, ethnicity, donor age, prior medical history (e.g., cardiovascular disease, malignancy), laboratory values (e.g., total white blood cell count, platelet count, triglyceride, total cholesterol), PRA, presence of donor specific antibodies, flow cytometric crossmatch results, induction medications used, kidney transplant function at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Panel reactive antibodies (PRA)",
+          "PRA"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Cause of Kidney Disease",
+        "Type of Donor",
+        "Estimated glomerular filtration rate (eGFR)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "ethnicity",
+        "donor age",
+        "prior medical history (e.g., cardiovascular disease, malignancy)",
+        "laboratory values (e.g., total white blood cell count, platelet count, triglyceride, total cholesterol)",
+        "presence of donor specific antibodies",
+        "flow cytometric crossmatch results",
+        "induction medications used",
+        "kidney transplant function at baseline."
+      ]
+    }
+  }
+}

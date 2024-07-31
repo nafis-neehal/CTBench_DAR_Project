@@ -1,0 +1,201 @@
+{
+  "trial_id": "NCT01781286",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, gender, metabolic health status, psychological health status, neurological health status, dietary history, eating habits, food allergies/intolerances, palatability rating of study snack foods, handedness.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI (kg/m2)",
+          "BMI"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "metabolic health status",
+          "metabolic health status"
+        ],
+        [
+          "psychological health status",
+          "psychological health status"
+        ],
+        [
+          "neurological health status",
+          "neurological health status"
+        ],
+        [
+          "dietary history",
+          "dietary history"
+        ],
+        [
+          "Frequency of Snacking",
+          "eating habits"
+        ],
+        [
+          "food allergies/intolerances",
+          "food allergies/intolerances"
+        ],
+        [
+          "palatability rating of study snack foods",
+          "palatability rating of study snack foods"
+        ],
+        [
+          "handedness",
+          "handedness"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "BMI (%)",
+        "Commonly consumed chips/crackers as a snack",
+        "Commonly consumed fruit as a snack",
+        "Commonly consumed cereal as a snack"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline Appetite Ratings, Baseline Satiety Ratings, Baseline Food Motivation, Baseline Reward-driven Eating Behavior, Baseline Mood Indices, Baseline Attention Indices, Baseline Fatigue Indices, Baseline Well-being Indices,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI (kg/m2)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "BMI (%)",
+        "Frequency of Snacking",
+        "Commonly consumed chips/crackers as a snack",
+        "Commonly consumed fruit as a snack",
+        "Commonly consumed cereal as a snack"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline Appetite Ratings",
+        "Baseline Satiety Ratings",
+        "Baseline Food Motivation",
+        "Baseline Reward-driven Eating Behavior",
+        "Baseline Mood Indices",
+        "Baseline Attention Indices",
+        "Baseline Fatigue Indices",
+        "Baseline Well-being Indices"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Ethnicity Not Collected, Region of Enrollment, Hand Dominance, Habitual Eating Patterns, Palatability of Study Snack Foods,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI (kg/m2)",
+          "BMI"
+        ],
+        [
+          "Frequency of Snacking",
+          "Habitual Eating Patterns"
+        ],
+        [
+          "Commonly consumed chips/crackers as a snack",
+          "Palatability of Study Snack Foods"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "BMI (%)",
+        "Commonly consumed fruit as a snack",
+        "Commonly consumed cereal as a snack"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity Not Collected",
+        "Hand Dominance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, BMI percentile for age, handedness, habitual eating patterns, overall liking of study snack foods, palatability questionnaire score, attention indices, mood indices, fatigue score, well-being score, concentration score, alertness score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI (kg/m2)",
+          "BMI"
+        ],
+        [
+          "BMI (%)",
+          "BMI percentile for age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Frequency of Snacking",
+        "Commonly consumed chips/crackers as a snack",
+        "Commonly consumed fruit as a snack",
+        "Commonly consumed cereal as a snack"
+      ],
+      "remaining_candidate_features": [
+        "handedness",
+        "habitual eating patterns",
+        "overall liking of study snack foods",
+        "palatability questionnaire score",
+        "attention indices",
+        "mood indices",
+        "fatigue score",
+        "well-being score",
+        "concentration score",
+        "alertness score"
+      ]
+    }
+  }
+}

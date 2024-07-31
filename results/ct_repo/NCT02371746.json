@@ -1,0 +1,159 @@
+{
+  "trial_id": "NCT02371746",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline intraocular pressure (IOP), duration of ocular hypertension or glaucoma, prior use of topical prostaglandin analogs (PGA), medical history, concomitant medications, visual acuity, central corneal thickness, cup-to-disc ratio.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Intraocular Pressure (mm Hg)",
+          "baseline intraocular pressure (IOP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "duration of ocular hypertension or glaucoma",
+        "prior use of topical prostaglandin analogs (PGA)",
+        "medical history",
+        "concomitant medications",
+        "visual acuity",
+        "central corneal thickness",
+        "cup-to-disc ratio."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure (IOP), Duration of Glaucoma or Ocular Hypertension, Prior Glaucoma Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Intraocular Pressure (mm Hg)",
+          "Baseline Intraocular Pressure (IOP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Glaucoma or Ocular Hypertension",
+        "Prior Glaucoma Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diagnosis (Ocular Hypertension or Open Angle Glaucoma), Current topical PGA treatment, IOP at baseline, History of eye surgery, History of glaucoma related surgery.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Intraocular Pressure (mm Hg)",
+          "IOP at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Diagnosis (Ocular Hypertension or Open Angle Glaucoma)",
+        "Current topical PGA treatment",
+        "History of eye surgery",
+        "History of glaucoma related surgery."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), medical history (including diabetes, hypertension, and cardiovascular disease), smoking status, duration of ocular hypertension or open-angle glaucoma diagnosis, current medications (including topical PGA), baseline intraocular pressure (IOP), best-corrected visual acuity, cup-to-disc ratio, central corneal thickness, and prior eye surgeries or procedures.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Intraocular Pressure (mm Hg)",
+          "baseline intraocular pressure (IOP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "medical history (including diabetes, hypertension, and cardiovascular disease)",
+        "smoking status",
+        "duration of ocular hypertension or open-angle glaucoma diagnosis",
+        "current medications (including topical PGA)",
+        "best-corrected visual acuity",
+        "cup-to-disc ratio",
+        "central corneal thickness",
+        "prior eye surgeries or procedures"
+      ]
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "trial_id": "NCT01722643",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 1 diabetes, baseline HbA1c, internet access, living situation, presence of severe medical or psychiatric illness, pregnancy status, breastfeeding status, presence of active psychosis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "HbA1c",
+          "baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "duration of type 1 diabetes",
+        "internet access",
+        "living situation",
+        "presence of severe medical or psychiatric illness",
+        "pregnancy status",
+        "breastfeeding status",
+        "presence of active psychosis"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Frequency of Blood Glucose Monitoring, Internet Access, Living Situation,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "HbA1c",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "Frequency of Blood Glucose Monitoring",
+        "Internet Access",
+        "Living Situation"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Insulin Dose, BMI, Blood Pressure, Parent-Teen Conflict, Executive Function, Delay Discounting,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diabetes Diagnosis Duration",
+        "Insulin Dose",
+        "BMI",
+        "Blood Pressure",
+        "Parent-Teen Conflict",
+        "Executive Function",
+        "Delay Discounting"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, duration of type 1 diabetes, average HbA1c over the past 6 months, most recent HbA1c, BMI, family structure (e.g., single parent, two-parent household), socioeconomic status, education level, access to healthcare, internet proficiency, executive function, delay discounting.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "HbA1c",
+          "average HbA1c over the past 6 months"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 1 diabetes",
+        "most recent HbA1c",
+        "BMI",
+        "family structure (e.g., single parent, two-parent household)",
+        "socioeconomic status",
+        "education level",
+        "access to healthcare",
+        "internet proficiency",
+        "executive function",
+        "delay discounting"
+      ]
+    }
+  }
+}

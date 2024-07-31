@@ -1,0 +1,175 @@
+{
+  "trial_id": "NCT00472641",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, diagnosis of bipolar disorder type, body mass index (BMI), fasting total cholesterol, fasting triglycerides, fasting blood glucose, medication regimen, duration of stable medication regimen, history of hospitalization in the past year, ability to understand and cooperate with study procedures, written informed consent.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Bipolar Subtype",
+          "diagnosis of bipolar disorder type"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Weight",
+        "Waist Circumference"
+      ],
+      "remaining_candidate_features": [
+        "fasting total cholesterol",
+        "fasting triglycerides",
+        "fasting blood glucose",
+        "medication regimen",
+        "duration of stable medication regimen",
+        "history of hospitalization in the past year",
+        "ability to understand and cooperate with study procedures",
+        "written informed consent."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline Weight, Type of Bipolar Disorder, Current Antipsychotic/Mood Stabilizer, Duration of Bipolar Disorder, Fasting Total Cholesterol, Fasting Triglycerides, Fasting Blood Glucose, Medication Regimen Stability,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Bipolar Subtype",
+          "Type of Bipolar Disorder"
+        ],
+        [
+          "Weight",
+          "Baseline Weight"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Waist Circumference"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Current Antipsychotic/Mood Stabilizer",
+        "Duration of Bipolar Disorder",
+        "Fasting Total Cholesterol",
+        "Fasting Triglycerides",
+        "Fasting Blood Glucose",
+        "Medication Regimen Stability"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Bipolar Disorder Diagnosis, Duration of Bipolar Disorder, Current Antipsychotic and/or Mood Stabilizer, MADRS Score, Fasting Total Cholesterol, Fasting Triglycerides, Fasting Blood Glucose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Bipolar Subtype",
+          "Bipolar Disorder Diagnosis"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Waist Circumference"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Bipolar Disorder",
+        "Current Antipsychotic and/or Mood Stabilizer",
+        "MADRS Score",
+        "Fasting Total Cholesterol",
+        "Fasting Triglycerides",
+        "Fasting Blood Glucose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), diagnosis of Bipolar Disorder type (I, II, or NOS), duration of illness, current medications, fasting total cholesterol, fasting triglycerides, fasting blood glucose, MADRS score, history of suicide attempts, medical comorbidities (diabetes, hypertension, hyperlipidemia, cardiovascular disease).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Male",
+          "sex"
+        ],
+        [
+          "Bipolar Subtype",
+          "diagnosis of Bipolar Disorder type (I, II, or NOS)"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Weight",
+        "Waist Circumference"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "duration of illness",
+        "current medications",
+        "fasting total cholesterol",
+        "fasting triglycerides",
+        "fasting blood glucose",
+        "MADRS score",
+        "history of suicide attempts",
+        "medical comorbidities (diabetes, hypertension, hyperlipidemia, cardiovascular disease)."
+      ]
+    }
+  }
+}

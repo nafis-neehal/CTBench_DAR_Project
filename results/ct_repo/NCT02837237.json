@@ -1,0 +1,192 @@
+{
+  "trial_id": "NCT02837237",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), estimated glomerular filtration rate (eGFR), serum potassium levels, hemodialysis schedule, smoking status, pregnancy status, surgical sterilization status, use of contraception, history of cardiovascular disease, history of pulmonary disease, history of hepatic disease, history of gastrointestinal disease, history of endocrine disease, history of immunologic disease, history of dermatologic disease, history of neurologic disease, history of psychiatric disease, history of hypotension, history of hyperkalemia, history of stroke, history of cardiac transplant, history of arrhythmia, history of myocardial infarction, history of coronary syndrome, history of heart failure, history of stomach or intestinal surgery, history of drug abuse, history of alcohol abuse, liver function test results, blood pressure, drug screen results, hypersensitivity to KBP-5074, use of other investigational products, use of mineralocorticoid receptor antagonists (MRAs), use of potassium-sparing diuretics, use of prescription drugs, use of herbal products, use of vitamins, use of over-the-counter medications, use of nutrients modulating CYP3A activity, participation in strenuous exercise, blood or plasma donation history, employment status related to the study site.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "systolic blood pressure",
+          "blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "estimated glomerular filtration rate (eGFR)",
+        "serum potassium levels",
+        "hemodialysis schedule",
+        "smoking status",
+        "pregnancy status",
+        "surgical sterilization status",
+        "use of contraception",
+        "history of cardiovascular disease",
+        "history of pulmonary disease",
+        "history of hepatic disease",
+        "history of gastrointestinal disease",
+        "history of endocrine disease",
+        "history of immunologic disease",
+        "history of dermatologic disease",
+        "history of neurologic disease",
+        "history of psychiatric disease",
+        "history of hypotension",
+        "history of hyperkalemia",
+        "history of stroke",
+        "history of cardiac transplant",
+        "history of arrhythmia",
+        "history of myocardial infarction",
+        "history of coronary syndrome",
+        "history of heart failure",
+        "history of stomach or intestinal surgery",
+        "history of drug abuse",
+        "history of alcohol abuse",
+        "liver function test results",
+        "drug screen results",
+        "hypersensitivity to KBP-5074",
+        "use of other investigational products",
+        "use of mineralocorticoid receptor antagonists (MRAs)",
+        "use of potassium-sparing diuretics",
+        "use of prescription drugs",
+        "use of herbal products",
+        "use of vitamins",
+        "use of over-the-counter medications",
+        "use of nutrients modulating CYP3A activity",
+        "participation in strenuous exercise",
+        "blood or plasma donation history",
+        "employment status related to the study site"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, Serum Potassium, Hemodialysis Status, Smoking Status, Concomitant Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "systolic blood pressure",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Diastolic Blood Pressure",
+        "eGFR",
+        "Serum Potassium",
+        "Hemodialysis Status",
+        "Smoking Status",
+        "Concomitant Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Estimated Glomerular Filtration Rate, Serum Potassium, Hemodialysis Status, Diabetes Status, Cardiovascular Disease History, Systolic Blood Pressure, Diastolic Blood Pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "systolic blood pressure",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Estimated Glomerular Filtration Rate",
+        "Serum Potassium",
+        "Hemodialysis Status",
+        "Diabetes Status",
+        "Cardiovascular Disease History",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), estimated glomerular filtration rate (eGFR), serum potassium, smoking status, alcohol use, medical history (including cardiovascular, pulmonary, hepatic, gallbladder or biliary tract, hematologic, gastrointestinal, endocrine, immunologic, dermatologic, neurologic, or psychiatric disease), systolic and diastolic blood pressure, heart rate, New York Heart Association Class, liver function tests (aspartate aminotransferase (AST), alanine aminotransferase (ALT), total bilirubin), hemoglobin, hematocrit, electrolyte levels, and concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "systolic blood pressure",
+          "systolic and diastolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "estimated glomerular filtration rate (eGFR)",
+        "serum potassium",
+        "smoking status",
+        "alcohol use",
+        "medical history (including cardiovascular, pulmonary, hepatic, gallbladder or biliary tract, hematologic, gastrointestinal, endocrine, immunologic, dermatologic, neurologic, or psychiatric disease)",
+        "heart rate",
+        "New York Heart Association Class",
+        "liver function tests (aspartate aminotransferase (AST), alanine aminotransferase (ALT), total bilirubin)",
+        "hemoglobin",
+        "hematocrit",
+        "electrolyte levels",
+        "concomitant medications"
+      ]
+    }
+  }
+}

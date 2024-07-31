@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT04633551",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Race/Ethnicity, Blood Pressure, Arterial Stiffness, Augmentation Index, Endothelial Function, Blood Markers of Inflammation, History of Adverse Pregnancy Outcome, Time Since Last Pregnancy, Medication Use, Smoking Status, Cancer Status, HIV/AIDS Status, Sensitivity to Supplement Components",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Blood Pressure"
+        ],
+        [
+          "Arterial stiffness",
+          "Arterial Stiffness"
+        ],
+        [
+          "Augmentation index",
+          "Augmentation Index"
+        ],
+        [
+          "Reactive hyperemia",
+          "Endothelial Function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Central systolic blood pressure",
+        "Inflammatory biomarker IL-6"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Blood Markers of Inflammation",
+        "History of Adverse Pregnancy Outcome",
+        "Time Since Last Pregnancy",
+        "Medication Use",
+        "Smoking Status",
+        "Cancer Status",
+        "HIV/AIDS Status",
+        "Sensitivity to Supplement Components"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Adverse Pregnancy Outcome, Time Since Last Pregnancy, Use of Anti-inflammatory Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Arterial stiffness",
+        "Augmentation index",
+        "Central systolic blood pressure",
+        "Reactive hyperemia",
+        "Inflammatory biomarker IL-6"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Diastolic Blood Pressure",
+        "History of Adverse Pregnancy Outcome",
+        "Time Since Last Pregnancy",
+        "Use of Anti-inflammatory Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Adverse Pregnancy Outcome, Gestational Age at Delivery, Parity, Previous Cardiovascular Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Arterial stiffness",
+        "Augmentation index",
+        "Central systolic blood pressure",
+        "Reactive hyperemia",
+        "Inflammatory biomarker IL-6"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Diastolic Blood Pressure",
+        "History of Adverse Pregnancy Outcome",
+        "Gestational Age at Delivery",
+        "Parity",
+        "Previous Cardiovascular Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, body mass index (BMI), parity, gestational age at delivery, type of adverse pregnancy outcome, time since adverse pregnancy outcome, systolic and diastolic blood pressure, smoking history, medical history (hypertension, diabetes, cardiovascular disease), medication use (antihypertensives, statins, NSAIDs), dietary habits, physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "systolic and diastolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Arterial stiffness",
+        "Augmentation index",
+        "Central systolic blood pressure",
+        "Reactive hyperemia",
+        "Inflammatory biomarker IL-6"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "parity",
+        "gestational age at delivery",
+        "type of adverse pregnancy outcome",
+        "time since adverse pregnancy outcome",
+        "smoking history",
+        "medical history (hypertension, diabetes, cardiovascular disease)",
+        "medication use (antihypertensives, statins, NSAIDs)",
+        "dietary habits",
+        "physical activity level"
+      ]
+    }
+  }
+}

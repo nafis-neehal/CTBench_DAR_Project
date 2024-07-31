@@ -1,0 +1,218 @@
+{
+  "trial_id": "NCT01108055",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, histology type, number of prior chemotherapeutic regimens, absolute neutrophil count (ANC), hemoglobin level, platelet count, prothrombin time (PT) or international normalized ratio (INR), total bilirubin level, aspartate aminotransferase (AST) level, alanine aminotransferase (ALT) level, serum creatinine level, urine protein to creatinine ratio (UPC), menopausal status or childbearing potential, prior malignancies, presence of CNS metastases, gastrointestinal abnormalities, infection status, QT interval, cardiovascular history, blood pressure, history of cerebrovascular events, recent major surgery or trauma, bleeding diathesis, pre-existing medical or psychiatric conditions, use of CYP3A4 inhibitors, electrolyte levels, prior taxane chemotherapy, recent anti-cancer therapies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "menopausal status or childbearing potential"
+        ],
+        [
+          "Prior Treatment Cycles",
+          "number of prior chemotherapeutic regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Sites of Primary Tumor",
+        "Time from last chemotherapy",
+        "Bellmunt Score"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "ECOG performance status",
+        "histology type",
+        "absolute neutrophil count (ANC)",
+        "hemoglobin level",
+        "platelet count",
+        "prothrombin time (PT) or international normalized ratio (INR)",
+        "total bilirubin level",
+        "aspartate aminotransferase (AST) level",
+        "alanine aminotransferase (ALT) level",
+        "serum creatinine level",
+        "urine protein to creatinine ratio (UPC)",
+        "prior malignancies",
+        "presence of CNS metastases",
+        "gastrointestinal abnormalities",
+        "infection status",
+        "QT interval",
+        "cardiovascular history",
+        "blood pressure",
+        "history of cerebrovascular events",
+        "recent major surgery or trauma",
+        "bleeding diathesis",
+        "pre-existing medical or psychiatric conditions",
+        "use of CYP3A4 inhibitors",
+        "electrolyte levels",
+        "prior taxane chemotherapy",
+        "recent anti-cancer therapies"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Histology type, Number of prior chemotherapy regimens, Baseline tumor measurements, Absolute neutrophil count (ANC), Hemoglobin, Platelets, Prothrombin time (PT) or international normalized ratio (INR), Total bilirubin, Aspartate aminotransferase (AST), Alanine aminotransferase (ALT), Serum creatinine, Urine Protein to Creatinine Ratio (UPC),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Number of prior chemotherapies",
+          "Number of prior chemotherapy regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Prior Treatment Cycles",
+        "Sites of Primary Tumor",
+        "Time from last chemotherapy",
+        "Bellmunt Score"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG performance status",
+        "Histology type",
+        "Baseline tumor measurements",
+        "Absolute neutrophil count (ANC)",
+        "Hemoglobin",
+        "Platelets",
+        "Prothrombin time (PT) or international normalized ratio (INR)",
+        "Total bilirubin",
+        "Aspartate aminotransferase (AST)",
+        "Alanine aminotransferase (ALT)",
+        "Serum creatinine",
+        "Urine Protein to Creatinine Ratio (UPC)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology, Prior Chemotherapy Regimens, Measurable Disease Criteria, ANC, Hemoglobin, Platelets, PT or INR, Total Bilirubin, AST, ALT, Serum Creatinine, UPC, Prior Radiation Therapy, Prior Surgery.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Prior Treatment Cycles",
+          "Prior Chemotherapy Regimens"
+        ],
+        [
+          "Sites of Primary Tumor",
+          "Histology"
+        ],
+        [
+          "Number of prior chemotherapies",
+          "Prior Chemotherapy Regimens"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Time from last chemotherapy",
+        "Bellmunt Score"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Measurable Disease Criteria",
+        "ANC",
+        "Hemoglobin",
+        "Platelets",
+        "PT or INR",
+        "Total Bilirubin",
+        "AST",
+        "ALT",
+        "Serum Creatinine",
+        "UPC",
+        "Prior Radiation Therapy",
+        "Prior Surgery"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, histology (transitional cell carcinoma or mixed), number of prior chemotherapeutic regimens, time since first recurrence, presence of measurable disease, ANC, hemoglobin, platelets, PT or INR, total bilirubin, AST, ALT, serum creatinine, UPC, history of other malignancies, history of CNS metastases or leptomeningeal carcinomatosis, presence of uncontrolled infection, QTc interval, history of cardiovascular conditions, blood pressure, history of cerebrovascular accident, hemoptysis, cerebral hemorrhage, GI bleed, pulmonary embolism or untreated DVT.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Number of prior chemotherapies",
+          "number of prior chemotherapeutic regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Prior Treatment Cycles",
+        "Sites of Primary Tumor",
+        "Time from last chemotherapy",
+        "Bellmunt Score"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ECOG performance status",
+        "histology (transitional cell carcinoma or mixed)",
+        "time since first recurrence",
+        "presence of measurable disease",
+        "ANC",
+        "hemoglobin",
+        "platelets",
+        "PT or INR",
+        "total bilirubin",
+        "AST",
+        "ALT",
+        "serum creatinine",
+        "UPC",
+        "history of other malignancies",
+        "history of CNS metastases or leptomeningeal carcinomatosis",
+        "presence of uncontrolled infection",
+        "QTc interval",
+        "history of cardiovascular conditions",
+        "blood pressure",
+        "history of cerebrovascular accident",
+        "hemoptysis",
+        "cerebral hemorrhage",
+        "GI bleed",
+        "pulmonary embolism or untreated DVT."
+      ]
+    }
+  }
+}

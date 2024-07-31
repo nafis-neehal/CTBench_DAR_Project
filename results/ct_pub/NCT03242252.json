@@ -1,0 +1,236 @@
+{
+  "trial_id": "NCT03242252",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline HbA1c, estimated glomerular filtration rate (eGFR), body mass index (BMI), duration of Type 2 diabetes, baseline blood pressure, baseline body weight, prior antidiabetic therapy, presence of chronic kidney disease stage 3, history of cardiovascular disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "Race and Ethnicity",
+          "race"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of Type 2 diabetes"
+        ],
+        [
+          "SBP",
+          "baseline blood pressure"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "eGFR",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Antihyperglycaemic medication",
+          "prior antidiabetic therapy"
+        ],
+        [
+          "CKD3A at screening",
+          "presence of chronic kidney disease stage 3"
+        ]
+      ],
+      "remaining_reference_features": [
+        "FPG",
+        "CKD3B at screening",
+        "Diabetic nephropathy",
+        "UACR",
+        "Albuminuria",
+        "Antihypertensive medication"
+      ],
+      "remaining_candidate_features": [
+        "baseline HbA1c",
+        "baseline body weight",
+        "history of cardiovascular disease."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Duration of diabetes, HbA1c, eGFR, Body weight, BMI, Systolic blood pressure, Diastolic blood pressure, Antidiabetic therapy, History of cardiovascular disease, History of hypertension, History of chronic kidney disease, Smoking status, Lipid profile",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race and Ethnicity",
+          "Race"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of diabetes"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "SBP",
+          "Systolic blood pressure"
+        ],
+        [
+          "Antihyperglycaemic medication",
+          "Antidiabetic therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "FPG",
+        "CKD3A at screening",
+        "CKD3B at screening",
+        "Diabetic nephropathy",
+        "UACR",
+        "Albuminuria",
+        "Antihypertensive medication"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c",
+        "Body weight",
+        "Diastolic blood pressure",
+        "History of cardiovascular disease",
+        "History of hypertension",
+        "History of chronic kidney disease",
+        "Smoking status",
+        "Lipid profile"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, Diabetes duration, HbA1c, eGFR, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, History of Cardiovascular Disease, History of Hypertension, History of Dyslipidemia, Smoking Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race and Ethnicity",
+          "Ethnic Origin"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes duration"
+        ],
+        [
+          "SBP",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "FPG",
+        "CKD3A at screening",
+        "CKD3B at screening",
+        "Diabetic nephropathy",
+        "UACR",
+        "Albuminuria",
+        "Antihyperglycaemic medication",
+        "Antihypertensive medication"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol",
+        "History of Cardiovascular Disease",
+        "History of Hypertension",
+        "History of Dyslipidemia",
+        "Smoking Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, estimated glomerular filtration rate (eGFR), systolic blood pressure, diastolic blood pressure, hemoglobin A1c (HbA1c) at baseline, fasting plasma glucose, history of cardiovascular disease, history of kidney disease, use of antidiabetic medications, use of antihypertensive medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race and Ethnicity",
+          "race"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "FPG",
+          "fasting plasma glucose"
+        ],
+        [
+          "SBP",
+          "systolic blood pressure"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "eGFR",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Antihyperglycaemic medication",
+          "use of antidiabetic medications"
+        ],
+        [
+          "Antihypertensive medication",
+          "use of antihypertensive medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "CKD3A at screening",
+        "CKD3B at screening",
+        "Diabetic nephropathy",
+        "UACR",
+        "Albuminuria"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "diastolic blood pressure",
+        "hemoglobin A1c (HbA1c) at baseline",
+        "history of cardiovascular disease",
+        "history of kidney disease"
+      ]
+    }
+  }
+}

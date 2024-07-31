@@ -1,0 +1,177 @@
+{
+  "trial_id": "NCT00618995",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), duration of Type 2 Diabetes Mellitus, current use of metformin, current use of sulfonylurea, smoking status, alcohol consumption, caffeine consumption, baseline urinary 11-Dehydrothromboxane B2 (11-dTxB2) levels, baseline laboratory safety tests, baseline electrocardiogram (ECG) results, history of major surgery, history of allergies, history of psychiatric disorders, history of neurological disorders, history of cardiovascular diseases, history of gastrointestinal diseases, history of hematological diseases, history of hepatic diseases, history of immunological diseases, history of renal diseases, history of respiratory diseases, history of genitourinary diseases, history of neoplastic diseases, history of blood or platelet disorders, use of anticoagulant or antiplatelet agents, use of insulin, use of PPAR gamma agonists, use of exenatide, use of acarbose, use of DPP-4 inhibitors.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "urinary 11-dTxB2",
+          "baseline urinary 11-Dehydrothromboxane B2 (11-dTxB2) levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Height",
+        "Weight",
+        "urinary PGI2-Metabolite"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of Type 2 Diabetes Mellitus",
+        "current use of metformin",
+        "current use of sulfonylurea",
+        "smoking status",
+        "alcohol consumption",
+        "caffeine consumption",
+        "baseline laboratory safety tests",
+        "baseline electrocardiogram (ECG) results",
+        "history of major surgery",
+        "history of allergies",
+        "history of psychiatric disorders",
+        "history of neurological disorders",
+        "history of cardiovascular diseases",
+        "history of gastrointestinal diseases",
+        "history of hematological diseases",
+        "history of hepatic diseases",
+        "history of immunological diseases",
+        "history of renal diseases",
+        "history of respiratory diseases",
+        "history of genitourinary diseases",
+        "history of neoplastic diseases",
+        "history of blood or platelet disorders",
+        "use of anticoagulant or antiplatelet agents",
+        "use of insulin",
+        "use of PPAR gamma agonists",
+        "use of exenatide",
+        "use of acarbose",
+        "use of DPP-4 inhibitors"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Duration of Type 2 Diabetes Mellitus, Use of Metformin, Use of Sulfonylurea, Smoking Status, Alcohol Consumption, Caffeine Consumption, Baseline Urinary 11-Dehydrothromboxane B2 (11-dTxB2),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "urinary 11-dTxB2",
+          "Baseline Urinary 11-Dehydrothromboxane B2 (11-dTxB2)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "urinary PGI2-Metabolite"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Duration of Type 2 Diabetes Mellitus",
+        "Use of Metformin",
+        "Use of Sulfonylurea",
+        "Smoking Status",
+        "Alcohol Consumption",
+        "Caffeine Consumption"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, History of Type 2 Diabetes Mellitus, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Fasting Plasma Glucose, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "urinary 11-dTxB2",
+        "urinary PGI2-Metabolite"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diabetes Diagnosis Duration",
+        "History of Type 2 Diabetes Mellitus",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "HbA1c",
+        "Fasting Plasma Glucose",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), type 2 diabetes mellitus duration, hemoglobin A1c (HbA1c), systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (including history of stroke, chronic seizures, or major neurological disorder), concomitant medications (including metformin or sulfonylurea agents), electrocardiogram (ECG) results.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "urinary 11-dTxB2",
+          "urinary 11-dTxB2"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Height",
+        "Weight",
+        "urinary PGI2-Metabolite"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "body mass index (BMI)",
+        "type 2 diabetes mellitus duration",
+        "hemoglobin A1c (HbA1c)",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "smoking status",
+        "medical history (including history of stroke, chronic seizures, or major neurological disorder)",
+        "concomitant medications (including metformin or sulfonylurea agents)",
+        "electrocardiogram (ECG) results."
+      ]
+    }
+  }
+}

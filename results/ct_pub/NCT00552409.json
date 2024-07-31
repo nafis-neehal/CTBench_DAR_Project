@@ -1,0 +1,185 @@
+{
+  "trial_id": "NCT00552409",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race/ethnicity, body mass index (BMI), baseline serum calcium levels, baseline circulating vitamin D levels, baseline urine albumin-creatinine ratio, baseline estimated glomerular filtration rate (eGFR), baseline hemoglobin A1c, baseline blood pressure, duration of diabetes, use of angiotensin converting enzyme inhibitor, use of angiotensin II receptor blocker, baseline cardiovascular risk markers.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race/ethnicity"
+        ],
+        [
+          "Serum 25",
+          "baseline circulating vitamin D levels"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Type 2 diabetes mellitus diagnosis",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Serum vitamin D3",
+        "Serum PTH"
+      ],
+      "remaining_candidate_features": [
+        "baseline serum calcium levels",
+        "baseline urine albumin-creatinine ratio",
+        "baseline estimated glomerular filtration rate (eGFR)",
+        "baseline hemoglobin A1c",
+        "baseline blood pressure",
+        "use of angiotensin converting enzyme inhibitor",
+        "use of angiotensin II receptor blocker",
+        "baseline cardiovascular risk markers."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Duration of diabetes, BMI, Blood pressure, Hemoglobin A1c, Serum calcium, Serum creatinine, eGFR, Urine albumin-creatinine ratio, 25-hydroxyvitamin D levels, Use of angiotensin converting enzyme inhibitor, Use of angiotensin II receptor blocker, History of nephrolithiasis, Vitamin D3 supplement intake.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Serum 25",
+          "25-hydroxyvitamin D levels"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Type 2 diabetes mellitus diagnosis",
+          "Duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Serum vitamin D3",
+        "Serum PTH"
+      ],
+      "remaining_candidate_features": [
+        "Blood pressure",
+        "Hemoglobin A1c",
+        "Serum calcium",
+        "Serum creatinine",
+        "eGFR",
+        "Urine albumin-creatinine ratio",
+        "Use of angiotensin converting enzyme inhibitor",
+        "Use of angiotensin II receptor blocker",
+        "History of nephrolithiasis",
+        "Vitamin D3 supplement intake"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, Diabetes duration, HbA1c, Insulin regimen, Total daily insulin dose, BMI, Systolic Blood Pressure, Diastolic blood pressure, Total cholesterol, eGFR, Urine albumin-creatinine ratio, Estimated glomerular filtration rate, 25-hydroxyvitamin D level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Type 2 diabetes mellitus diagnosis",
+          "Diabetes duration"
+        ],
+        [
+          "Serum 25",
+          "25-hydroxyvitamin D level."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Serum vitamin D3",
+        "Serum PTH"
+      ],
+      "remaining_candidate_features": [
+        "Ethnic Origin",
+        "HbA1c",
+        "Insulin regimen",
+        "Total daily insulin dose",
+        "Systolic Blood Pressure",
+        "Diastolic blood pressure",
+        "Total cholesterol",
+        "eGFR",
+        "Urine albumin-creatinine ratio",
+        "Estimated glomerular filtration rate"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, duration of diabetes, duration of kidney disease, hemoglobin A1c, systolic blood pressure, diastolic blood pressure, estimated glomerular filtration rate, urine albumin-creatinine ratio, 25-hydroxyvitamin D level, serum calcium level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Serum 25",
+          "25-hydroxyvitamin D level"
+        ],
+        [
+          "BMI",
+          "body mass index"
+        ],
+        [
+          "Type 2 diabetes mellitus diagnosis",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Serum vitamin D3",
+        "Serum PTH"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "duration of kidney disease",
+        "hemoglobin A1c",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "estimated glomerular filtration rate",
+        "urine albumin-creatinine ratio",
+        "serum calcium level."
+      ]
+    }
+  }
+}

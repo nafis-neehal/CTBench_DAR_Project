@@ -1,0 +1,144 @@
+{
+  "trial_id": "NCT01682603",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of spinal cord injury, baseline GFR, presence of neurogenic detrusor overactivity, urinary incontinence status, hand function or availability of caregiver for CIC, hypersensitivity to BTX-A.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Injury Level",
+          "duration of spinal cord injury"
+        ],
+        [
+          "Autonomic dysreflexia",
+          "presence of neurogenic detrusor overactivity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "ASIA Classification"
+      ],
+      "remaining_candidate_features": [
+        "baseline GFR",
+        "urinary incontinence status",
+        "hand function or availability of caregiver for CIC",
+        "hypersensitivity to BTX-A."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Duration of Spinal Cord Injury, Baseline GFR, Presence of Neurogenic Detrusor Overactivity, Urinary Incontinence Status, Hand Function Status, Availability of Care-giver for CIC,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Injury Level",
+        "ASIA Classification",
+        "Autonomic dysreflexia"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Spinal Cord Injury",
+        "Baseline GFR",
+        "Presence of Neurogenic Detrusor Overactivity",
+        "Urinary Incontinence Status",
+        "Hand Function Status",
+        "Availability of Care-giver for CIC"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Level of Spinal Cord Injury, Duration of Spinal Cord Injury, Baseline Neurogenic Detrusor Overactivity, Baseline Total GFR, Presence of Urinary Incontinence, Hand Function, Presence of Care-giver.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Injury Level",
+          "Level of Spinal Cord Injury"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "ASIA Classification",
+        "Autonomic dysreflexia"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Spinal Cord Injury",
+        "Baseline Neurogenic Detrusor Overactivity",
+        "Baseline Total GFR",
+        "Presence of Urinary Incontinence",
+        "Hand Function",
+        "Presence of Care-giver."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, duration of spinal cord injury, level of spinal cord injury, American Spinal Injury Association (ASIA) impairment scale, presence of urinary incontinence, baseline total GFR, presence of hand function or caregiver availability for CIC, baseline UDI-6 score, baseline IIQ-7 score, baseline QoL-I score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Injury Level",
+          "level of spinal cord injury"
+        ],
+        [
+          "ASIA Classification",
+          "American Spinal Injury Association (ASIA) impairment scale"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Autonomic dysreflexia"
+      ],
+      "remaining_candidate_features": [
+        "duration of spinal cord injury",
+        "presence of urinary incontinence",
+        "baseline total GFR",
+        "presence of hand function or caregiver availability for CIC",
+        "baseline UDI-6 score",
+        "baseline IIQ-7 score",
+        "baseline QoL-I score."
+      ]
+    }
+  }
+}

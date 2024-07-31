@@ -1,0 +1,174 @@
+{
+  "trial_id": "NCT00447382",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 1 diabetes, body mass index (BMI), HbA1c levels, baseline insulin dose, presence of proliferative retinopathy or maculopathy, history of major hypoglycemia, hepatic function, renal function, cardiac status, blood pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "BMI (Body Mass Index)",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c (Glycosylated haemoglobin)",
+          "HbA1c levels"
+        ],
+        [
+          "Diabetes History",
+          "duration of type 1 diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Height",
+        "Body weight"
+      ],
+      "remaining_candidate_features": [
+        "baseline insulin dose",
+        "presence of proliferative retinopathy or maculopathy",
+        "history of major hypoglycemia",
+        "hepatic function",
+        "renal function",
+        "cardiac status",
+        "blood pressure"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Duration of Diabetes, Daily Insulin Dose, Basal Insulin Dose, Bolus Insulin Dose, Frequency of Hypoglycemic Events,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI (Body Mass Index)",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c (Glycosylated haemoglobin)",
+          "HbA1c"
+        ],
+        [
+          "Diabetes History",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Height",
+        "Body weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Daily Insulin Dose",
+        "Basal Insulin Dose",
+        "Bolus Insulin Dose",
+        "Frequency of Hypoglycemic Events"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Region of Enrollment, Diabetes duration, BMI, HbA1c, Total daily dose of basal insulin, Total daily dose of bolus insulin,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI (Body Mass Index)",
+          "BMI"
+        ],
+        [
+          "HbA1c (Glycosylated haemoglobin)",
+          "HbA1c"
+        ],
+        [
+          "Diabetes History",
+          "Diabetes duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Height",
+        "Body weight"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Region of Enrollment",
+        "Total daily dose of basal insulin",
+        "Total daily dose of bolus insulin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 1 diabetes, HbA1c, total daily dose of basal insulin, frequency of administration of basal insulin, type of bolus insulin used, history of allergy to insulin or related products, history of proliferative retinopathy or maculopathy, history of recurrent major hypoglycaemia, history of impaired hepatic or renal function, history of cardiac problems, history of uncontrolled hypertension.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "BMI (Body Mass Index)",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c (Glycosylated haemoglobin)",
+          "HbA1c"
+        ],
+        [
+          "Diabetes History",
+          "duration of type 1 diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Height",
+        "Body weight"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "total daily dose of basal insulin",
+        "frequency of administration of basal insulin",
+        "type of bolus insulin used",
+        "history of allergy to insulin or related products",
+        "history of proliferative retinopathy or maculopathy",
+        "history of recurrent major hypoglycaemia",
+        "history of impaired hepatic or renal function",
+        "history of cardiac problems",
+        "history of uncontrolled hypertension."
+      ]
+    }
+  }
+}

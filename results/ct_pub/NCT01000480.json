@@ -1,0 +1,202 @@
+{
+  "trial_id": "NCT01000480",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, ECOG performance status, Histologic subtype, Stage of NSCLC, Prior radiation therapy, Measurable lesion status, Estimated life expectancy, Bone marrow reserve, Hepatic function, Renal function, Pulmonary function, Total lung V20, Contraceptive use, Prior systemic anticancer therapy, Concomitant systemic disorders, Cardiac condition, Prior malignancy history, Weight loss in the past 3 months, NSAID use, Folic acid and vitamin B12 supplementation, Corticosteroid use, Recent yellow fever vaccination, Hypersensitivity to study drugs, Clinical hearing status, Third-space fluid collections.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Gender"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Initial Pathological Diagnosis",
+          "Histologic subtype"
+        ],
+        [
+          "Stage of disease",
+          "Stage of NSCLC"
+        ],
+        [
+          "Prior radiotherapy",
+          "Prior radiation therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Smoking status",
+        "Forced expiratory volume in 1 min (FEV1)"
+      ],
+      "remaining_candidate_features": [
+        "Measurable lesion status",
+        "Estimated life expectancy",
+        "Bone marrow reserve",
+        "Hepatic function",
+        "Renal function",
+        "Pulmonary function",
+        "Total lung V20",
+        "Contraceptive use",
+        "Prior systemic anticancer therapy",
+        "Concomitant systemic disorders",
+        "Cardiac condition",
+        "Prior malignancy history",
+        "Weight loss in the past 3 months",
+        "NSAID use",
+        "Folic acid and vitamin B12 supplementation",
+        "Corticosteroid use",
+        "Recent yellow fever vaccination",
+        "Hypersensitivity to study drugs",
+        "Clinical hearing status",
+        "Third-space fluid collections"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, ECOG performance status, Smoking history, Histologic subtype, Stage of NSCLC, Measurable lesion status, Prior radiation therapy, Bone marrow reserve, Hepatic function, Renal function, Pulmonary function, Total lung V20, Contraceptive use, Weight loss in the last 3 months",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Initial Pathological Diagnosis",
+          "Histologic subtype"
+        ],
+        [
+          "Stage of disease",
+          "Stage of NSCLC"
+        ],
+        [
+          "Prior radiotherapy",
+          "Prior radiation therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Smoking status",
+        "Forced expiratory volume in 1 min (FEV1)"
+      ],
+      "remaining_candidate_features": [
+        "Smoking history",
+        "Measurable lesion status",
+        "Bone marrow reserve",
+        "Hepatic function",
+        "Renal function",
+        "Pulmonary function",
+        "Total lung V20",
+        "Contraceptive use",
+        "Weight loss in the last 3 months"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, ECOG performance status, Histologic diagnosis, Stage of NSCLC, Previous radiation therapy, Measurable lesions, Life expectancy, Bone marrow reserve, Hepatic function, Renal function, Pulmonary function, Total lung V20.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Initial Pathological Diagnosis",
+          "Histologic diagnosis"
+        ],
+        [
+          "Stage of disease",
+          "Stage of NSCLC"
+        ],
+        [
+          "Prior radiotherapy",
+          "Previous radiation therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Smoking status",
+        "Forced expiratory volume in 1 min (FEV1)"
+      ],
+      "remaining_candidate_features": [
+        "Measurable lesions",
+        "Life expectancy",
+        "Bone marrow reserve",
+        "Hepatic function",
+        "Renal function",
+        "Pulmonary function",
+        "Total lung V20"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, histologic diagnosis, stage of disease, presence of malignant pleural/pericardial effusions, prior radiation therapy, number and size of measurable lesions, life expectancy, lung function (total lung V20), bone marrow reserve, hepatic function, renal function, pulmonary function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Initial Pathological Diagnosis",
+          "histologic diagnosis"
+        ],
+        [
+          "Stage of disease",
+          "stage of disease"
+        ],
+        [
+          "Prior radiotherapy",
+          "prior radiation therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Forced expiratory volume in 1 min (FEV1)"
+      ],
+      "remaining_candidate_features": [
+        "presence of malignant pleural/pericardial effusions",
+        "number and size of measurable lesions",
+        "life expectancy",
+        "lung function (total lung V20)",
+        "bone marrow reserve",
+        "hepatic function",
+        "renal function",
+        "pulmonary function"
+      ]
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "trial_id": "NCT02360774",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Hemoglobin A1C, Renal function (GFR), Duration of Type 2 Diabetes, Baseline body weight, Blood pressure, Lipid profile, Medication use (other than insulin or GLP1 agents), History of UTI or mycotic genital infections, Smoking status, Physical activity level, Dietary habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "BMI",
+        "Hemoglobin A1C",
+        "Renal function (GFR)",
+        "Duration of Type 2 Diabetes",
+        "Baseline body weight",
+        "Blood pressure",
+        "Lipid profile",
+        "Medication use (other than insulin or GLP1 agents)",
+        "History of UTI or mycotic genital infections",
+        "Smoking status",
+        "Physical activity level",
+        "Dietary habits"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Hemoglobin A1C, Glomerular Filtration Rate (GFR), Duration of Type 2 Diabetes,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Hemoglobin A1C",
+        "Glomerular Filtration Rate (GFR)",
+        "Duration of Type 2 Diabetes"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hemoglobin A1C, Diabetes duration, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate, History of Urinary Tract Infections,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Hemoglobin A1C",
+        "Diabetes duration",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Estimated Glomerular Filtration Rate",
+        "History of Urinary Tract Infections"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, hemoglobin A1C, GFR, duration of type 2 diabetes, history of hypertension, history of cardiovascular disease, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "hemoglobin A1C",
+        "GFR",
+        "duration of type 2 diabetes",
+        "history of hypertension",
+        "history of cardiovascular disease",
+        "smoking status."
+      ]
+    }
+  }
+}

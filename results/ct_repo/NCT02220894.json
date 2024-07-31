@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT02220894",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ECOG performance status, smoking status, PD-L1 tumor proportion score (TPS), histology (squamous vs. non-squamous), prior adjuvant/neoadjuvant therapy, organ function parameters (e.g., liver function tests, renal function tests), baseline tumor measurements, comorbidities, prior radiation therapy, prior surgery, baseline weight, baseline height, baseline body mass index (BMI).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status (PS)",
+          "ECOG performance status"
+        ],
+        [
+          "Programmed Cell Death-Ligand 1 (PD-L1) Tumor Status",
+          "PD-L1 tumor proportion score (TPS)"
+        ],
+        [
+          "Tumor Histology",
+          "histology (squamous vs. non-squamous)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "smoking status",
+        "prior adjuvant/neoadjuvant therapy",
+        "organ function parameters (e.g., liver function tests, renal function tests)",
+        "baseline tumor measurements",
+        "comorbidities",
+        "prior radiation therapy",
+        "prior surgery",
+        "baseline weight",
+        "baseline height",
+        "baseline body mass index (BMI)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Smoking History, Histology (Squamous/Non-Squamous), PD-L1 Tumor Proportion Score (TPS), Prior Systemic Therapy, Baseline Tumor Size, Organ Function (e.g., liver, kidney),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status (PS)",
+          "ECOG Performance Status"
+        ],
+        [
+          "Programmed Cell Death-Ligand 1 (PD-L1) Tumor Status",
+          "PD-L1 Tumor Proportion Score (TPS)"
+        ],
+        [
+          "Tumor Histology",
+          "Histology (Squamous/Non-Squamous)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Smoking History",
+        "Prior Systemic Therapy",
+        "Baseline Tumor Size",
+        "Organ Function (e.g., liver, kidney)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology (Squamous/Non-Squamous), Smoking Status, Prior Chemotherapy, Prior Radiation Therapy, Tumor Proportion Score (TPS), PD-L1 Expression, Eastern Cooperative Oncology Group (ECOG) Performance Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status (PS)",
+          "ECOG Performance Status"
+        ],
+        [
+          "Programmed Cell Death-Ligand 1 (PD-L1) Tumor Status",
+          "PD-L1 Expression"
+        ],
+        [
+          "Tumor Histology",
+          "Histology (Squamous/Non-Squamous)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Smoking Status",
+        "Prior Chemotherapy",
+        "Prior Radiation Therapy",
+        "Tumor Proportion Score (TPS)",
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG Performance Status, smoking history, tumor histology, tumor stage, PD-L1 expression level, prior systemic chemotherapy, prior radiation therapy, prior malignancy, organ function (renal, hepatic, etc.), body mass index (BMI).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status (PS)",
+          "ECOG Performance Status"
+        ],
+        [
+          "Programmed Cell Death-Ligand 1 (PD-L1) Tumor Status",
+          "PD-L1 expression level"
+        ],
+        [
+          "Tumor Histology",
+          "tumor histology"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "smoking history",
+        "tumor stage",
+        "prior systemic chemotherapy",
+        "prior radiation therapy",
+        "prior malignancy",
+        "organ function (renal, hepatic, etc.)",
+        "body mass index (BMI)"
+      ]
+    }
+  }
+}

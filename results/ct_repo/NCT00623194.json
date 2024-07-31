@@ -1,0 +1,149 @@
+{
+  "trial_id": "NCT00623194",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, HbA1c levels, body mass index (BMI), insulin dose, concomitant medications, history of hypoglycemia, pubertal status, contraceptive use (for fertile females).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Pubertal Status",
+          "pubertal status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "HbA1c levels",
+        "insulin dose",
+        "concomitant medications",
+        "history of hypoglycemia",
+        "contraceptive use (for fertile females)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, Body Mass Index, Concomitant Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Height",
+        "Pubertal Status"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Duration of Diabetes",
+        "Baseline HbA1c",
+        "Daily Insulin Dose",
+        "Concomitant Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Previous insulin detemir treatment, HbA1c, BMI, Insulin dose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Height",
+        "Pubertal Status"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diabetes Diagnosis Duration",
+        "Previous insulin detemir treatment",
+        "HbA1c",
+        "Insulin dose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 1 diabetes, HbA1c, insulin dose, presence of diabetic complications, concomitant medications, history of allergic reactions, antibody levels at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Height",
+        "Pubertal Status"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "duration of type 1 diabetes",
+        "HbA1c",
+        "insulin dose",
+        "presence of diabetic complications",
+        "concomitant medications",
+        "history of allergic reactions",
+        "antibody levels at baseline."
+      ]
+    }
+  }
+}

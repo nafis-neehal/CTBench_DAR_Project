@@ -1,0 +1,214 @@
+{
+  "trial_id": "NCT02738879",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline A1C, duration of Type 2 Diabetes Mellitus, body mass index (BMI), fasting glucose levels, prior anti-hyperglycemic treatment regimen, baseline metformin dose, baseline sitagliptin dose, baseline sulfonylurea dose, baseline insulin glargine dose, renal function (e.g., serum creatinine or eGFR), liver function tests (e.g., ALT, AST), history of hypoglycemia, blood pressure, lipid profile (e.g., LDL, HDL, triglycerides).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Hemoglobin A1C (A1C)",
+          "baseline A1C"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting glucose levels"
+        ],
+        [
+          "Anti-Hyperglycemic Agent",
+          "prior anti-hyperglycemic treatment regimen"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate",
+          "renal function (e.g., serum creatinine or eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Geographic Region",
+        "Body Weight"
+      ],
+      "remaining_candidate_features": [
+        "duration of Type 2 Diabetes Mellitus",
+        "body mass index (BMI)",
+        "baseline metformin dose",
+        "baseline sitagliptin dose",
+        "baseline sulfonylurea dose",
+        "baseline insulin glargine dose",
+        "liver function tests (e.g., ALT, AST)",
+        "history of hypoglycemia",
+        "blood pressure",
+        "lipid profile (e.g., LDL, HDL, triglycerides)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Fasting Blood Glucose, Use of Metformin, Use of Sulfonylurea, Use of DPP-4 Inhibitor,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Geographic Region",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1C (A1C)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Blood Glucose"
+        ],
+        [
+          "Body Weight",
+          "Body Mass Index"
+        ],
+        [
+          "Anti-Hyperglycemic Agent",
+          "Use of Metformin"
+        ],
+        [
+          "Anti-Hyperglycemic Agent",
+          "Use of Sulfonylurea"
+        ],
+        [
+          "Anti-Hyperglycemic Agent",
+          "Use of DPP-4 Inhibitor"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Estimated Glomerular Filtration Rate"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Lipid Profile, History of Cardiovascular Disease, History of Hypoglycemia, Current Anti-Hyperglycemic Agents, Duration of Current Anti-Hyperglycemic Agents.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Geographic Region",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1C (A1C)",
+          "HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Body Weight",
+          "Body Mass Index"
+        ],
+        [
+          "Anti-Hyperglycemic Agent",
+          "Current Anti-Hyperglycemic Agents"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Estimated Glomerular Filtration Rate"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Diagnosis Duration",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Lipid Profile",
+        "History of Cardiovascular Disease",
+        "History of Hypoglycemia",
+        "Duration of Current Anti-Hyperglycemic Agents"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, A1C at screening, fasting glucose at screening, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including history of hypoglycemia, cardiovascular disease, and other relevant conditions), current medications, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Hemoglobin A1C (A1C)",
+          "A1C at screening"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting glucose at screening"
+        ],
+        [
+          "Body Weight",
+          "body mass index (BMI)"
+        ],
+        [
+          "Anti-Hyperglycemic Agent",
+          "current medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Geographic Region",
+        "Estimated Glomerular Filtration Rate"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "duration of diabetes",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "medical history (including history of hypoglycemia, cardiovascular disease, and other relevant conditions)",
+        "smoking status"
+      ]
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "trial_id": "NCT02030119",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Baseline physical activity level, Smartphone ownership, Employment status, Participation in other physical activity studies, Pregnancy status, Lactation status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Mean BMI",
+          "BMI"
+        ],
+        [
+          "Number of Participants with iPhone smartphone",
+          "Smartphone ownership"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Median physical activity in the past 7 d",
+        "MET-min",
+        "Race/ethnicity",
+        "Education",
+        "Marital status",
+        "Annual household income"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Baseline physical activity level",
+        "Employment status",
+        "Participation in other physical activity studies",
+        "Pregnancy status",
+        "Lactation status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline daily steps, Baseline physical activity level, Smartphone ownership,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Mean BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Number of Participants with iPhone smartphone",
+          "Smartphone ownership"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Median physical activity in the past 7 d",
+        "MET-min",
+        "Education",
+        "Marital status",
+        "Annual household income"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Baseline daily steps",
+        "Baseline physical activity level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Body Mass Index, Smartphone Type (iPhone or Android), Baseline Steps per Day,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Mean BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Number of Participants with iPhone smartphone",
+          "Smartphone Type (iPhone or Android)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Median physical activity in the past 7 d",
+        "MET-min",
+        "Race/ethnicity",
+        "Education",
+        "Marital status",
+        "Annual household income"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Steps per Day"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, IPAQ activity level score, occupation, smartphone type (iPhone or Android), baseline daily step count, employment status, education level, income level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Mean BMI",
+          "BMI"
+        ],
+        [
+          "Number of Participants with iPhone smartphone",
+          "smartphone type (iPhone or Android)"
+        ],
+        [
+          "Education",
+          "education level"
+        ],
+        [
+          "Annual household income",
+          "income level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Median physical activity in the past 7 d",
+        "MET-min",
+        "Race/ethnicity",
+        "Marital status"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "IPAQ activity level score",
+        "baseline daily step count",
+        "occupation",
+        "employment status"
+      ]
+    }
+  }
+}

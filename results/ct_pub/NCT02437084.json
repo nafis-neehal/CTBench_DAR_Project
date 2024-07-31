@@ -1,0 +1,157 @@
+{
+  "trial_id": "NCT02437084",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, BMI, fasting plasma glucose, LDL-C levels, triglycerides, hs-CRP levels, insulin sensitivity (by insulin suppression test), insulin secretion (by graded glucose infusion test), weight, lipids, creatinine levels, alanine aminotransferase levels, hematocrit.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Waist circumference",
+        "Systolic BP",
+        "Diastolic BP",
+        "Heart rate",
+        "Prediabetes",
+        "Metabolic syndrome"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose",
+        "LDL-C levels",
+        "triglycerides",
+        "hs-CRP levels",
+        "insulin sensitivity (by insulin suppression test)",
+        "insulin secretion (by graded glucose infusion test)",
+        "weight",
+        "lipids",
+        "creatinine levels",
+        "alanine aminotransferase levels",
+        "hematocrit"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, BMI, LDL-C, Triglycerides, Fasting plasma glucose, Insulin sensitivity, Insulin secretion, hs-CRP, Weight, Hematocrit, Alanine aminotransferase, Creatinine",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Female",
+        "Race",
+        "Waist circumference",
+        "Systolic BP",
+        "Diastolic BP",
+        "Heart rate",
+        "Prediabetes",
+        "Metabolic syndrome"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "LDL-C",
+        "Triglycerides",
+        "Fasting plasma glucose",
+        "Insulin sensitivity",
+        "Insulin secretion",
+        "hs-CRP",
+        "Weight",
+        "Hematocrit",
+        "Alanine aminotransferase",
+        "Creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, BMI, LDL-C, Triglycerides, Fasting Plasma Glucose, Insulin Sensitivity, Insulin Secretion Rate, hs-CRP, ASCVD Risk, Family History of Diabetes, History of Cardiovascular Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Female",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Waist circumference",
+        "Systolic BP",
+        "Diastolic BP",
+        "Heart rate",
+        "Prediabetes",
+        "Metabolic syndrome"
+      ],
+      "remaining_candidate_features": [
+        "LDL-C",
+        "Triglycerides",
+        "Fasting Plasma Glucose",
+        "Insulin Sensitivity",
+        "Insulin Secretion Rate",
+        "hs-CRP",
+        "ASCVD Risk",
+        "Family History of Diabetes",
+        "History of Cardiovascular Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, LDL-C, triglycerides, hs-CRP, fasting plasma glucose, hematocrit, alanine aminotransferase, creatinine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Female",
+        "Race",
+        "Waist circumference",
+        "Systolic BP",
+        "Diastolic BP",
+        "Heart rate",
+        "Prediabetes",
+        "Metabolic syndrome"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "LDL-C",
+        "triglycerides",
+        "hs-CRP",
+        "fasting plasma glucose",
+        "hematocrit",
+        "alanine aminotransferase",
+        "creatinine"
+      ]
+    }
+  }
+}

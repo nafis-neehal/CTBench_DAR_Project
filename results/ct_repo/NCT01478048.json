@@ -1,0 +1,184 @@
+{
+  "trial_id": "NCT01478048",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline disease characteristics, prior lines of therapy, prior response to proteasome inhibitors, ECOG performance status, renal function, liver function, hemoglobin levels, platelet count, white blood cell count, serum calcium levels, serum albumin levels, serum creatinine levels, \u03b22-microglobulin levels, lactate dehydrogenase (LDH) levels, cytogenetic abnormalities, presence of extramedullary disease, prior stem cell transplant status, prior use of immunomodulatory drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Number of Prior Lines of Therapy",
+          "prior lines of therapy"
+        ],
+        [
+          "Prior Protease Inhibitor Use",
+          "prior response to proteasome inhibitors"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Presence of At Least 1 Fc\u03b3RIIIa V allele"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "baseline disease characteristics",
+        "ECOG performance status",
+        "renal function",
+        "liver function",
+        "hemoglobin levels",
+        "platelet count",
+        "white blood cell count",
+        "serum calcium levels",
+        "serum albumin levels",
+        "serum creatinine levels",
+        "\u03b22-microglobulin levels",
+        "lactate dehydrogenase (LDH) levels",
+        "cytogenetic abnormalities",
+        "presence of extramedullary disease",
+        "prior stem cell transplant status",
+        "prior use of immunomodulatory drugs."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Number of Prior Lines of Therapy, Measurable Disease Status, Prior Proteasome Inhibitor Therapy, Progression-Free Survival (PFS) Status, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Prior Protease Inhibitor Use",
+          "Prior Proteasome Inhibitor Therapy"
+        ],
+        [
+          "Number of Prior Lines of Therapy",
+          "Number of Prior Lines of Therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Presence of At Least 1 Fc\u03b3RIIIa V allele"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Measurable Disease Status",
+        "Progression-Free Survival (PFS) Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Number of prior lines of therapy, Prior proteasome inhibitor therapy, Best response to prior proteasome inhibitor therapy, Time since last anti-myeloma therapy, M-protein, Hemoglobin, Platelet count, Creatinine, Calcium, Beta-2 microglobulin, Albumin, Lactate dehydrogenase, Bone marrow plasma cells, Extramedullary disease, Cytogenetic abnormalities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Prior Protease Inhibitor Use",
+          "Prior proteasome inhibitor therapy"
+        ],
+        [
+          "Number of Prior Lines of Therapy",
+          "Number of prior lines of therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Presence of At Least 1 Fc\u03b3RIIIa V allele"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Best response to prior proteasome inhibitor therapy",
+        "Time since last anti-myeloma therapy",
+        "M-protein",
+        "Hemoglobin",
+        "Platelet count",
+        "Creatinine",
+        "Calcium",
+        "Beta-2 microglobulin",
+        "Albumin",
+        "Lactate dehydrogenase",
+        "Bone marrow plasma cells",
+        "Extramedullary disease",
+        "Cytogenetic abnormalities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, Eastern Cooperative Oncology Group (ECOG) performance status, International Staging System (ISS) stage, number of prior lines of therapy, prior proteasome inhibitor therapy, best response to prior proteasome inhibitor therapy, time since diagnosis, serum M-protein, urine M-protein, serum free light chain, hemoglobin, platelet count, creatinine, lactate dehydrogenase (LDH), beta-2 microglobulin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Number of Prior Lines of Therapy",
+          "number of prior lines of therapy"
+        ],
+        [
+          "Prior Protease Inhibitor Use",
+          "prior proteasome inhibitor therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Presence of At Least 1 Fc\u03b3RIIIa V allele"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "Eastern Cooperative Oncology Group (ECOG) performance status",
+        "International Staging System (ISS) stage",
+        "best response to prior proteasome inhibitor therapy",
+        "time since diagnosis",
+        "serum M-protein",
+        "urine M-protein",
+        "serum free light chain",
+        "hemoglobin",
+        "platelet count",
+        "creatinine",
+        "lactate dehydrogenase (LDH)",
+        "beta-2 microglobulin"
+      ]
+    }
+  }
+}

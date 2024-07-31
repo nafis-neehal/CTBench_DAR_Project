@@ -1,0 +1,166 @@
+{
+  "trial_id": "NCT02166346",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline timed 25-foot walk, diagnosis confirmation by MRI, presence of gait impairment, history of seizure(s), pregnancy status, known use or allergy to dalfampridine, ability to walk, history of severe alcohol or drug abuse, history of severe psychiatric illness, severe uncontrolled medical problems.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Duration of Disease",
+        "Expanded Disability Status Scale score",
+        "Lesion location within spinal cord",
+        "Lesion length by MRI"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "baseline timed 25-foot walk",
+        "diagnosis confirmation by MRI",
+        "presence of gait impairment",
+        "history of seizure(s)",
+        "pregnancy status",
+        "known use or allergy to dalfampridine",
+        "ability to walk",
+        "history of severe alcohol or drug abuse",
+        "history of severe psychiatric illness",
+        "severe uncontrolled medical problems."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline 25-foot walk time, Diagnosis confirmation by MRI, History of seizures, Pregnancy status, Use or allergy to dalfampridine, Walking ability, History of alcohol or drug abuse, Severe psychiatric illness, Severe uncontrolled medical problems,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Lesion location within spinal cord",
+          "Diagnosis confirmation by MRI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Duration of Disease",
+        "Expanded Disability Status Scale score",
+        "Lesion length by MRI"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Baseline 25-foot walk time",
+        "History of seizures",
+        "Pregnancy status",
+        "Use or allergy to dalfampridine",
+        "Walking ability",
+        "History of alcohol or drug abuse",
+        "Severe psychiatric illness",
+        "Severe uncontrolled medical problems"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Transverse Myelitis, Baseline Timed 25-foot Walk, Expanded Disability Status Scale (EDSS), Manual Muscle Test (MMT), Ashworth Scale, Spinal Cord Independence Measure (SCIM), Fatigue Severity Scale (FSS), Beck Depression Inventory (BDI), Mini-Mental State Examination (MMSE),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Duration of Disease",
+          "Duration of Transverse Myelitis"
+        ],
+        [
+          "Expanded Disability Status Scale score",
+          "Expanded Disability Status Scale (EDSS)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Lesion location within spinal cord",
+        "Lesion length by MRI"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Baseline Timed 25-foot Walk",
+        "Manual Muscle Test (MMT)",
+        "Ashworth Scale",
+        "Spinal Cord Independence Measure (SCIM)",
+        "Fatigue Severity Scale (FSS)",
+        "Beck Depression Inventory (BDI)",
+        "Mini-Mental State Examination (MMSE)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of transverse myelitis, baseline timed 25-foot walk, MRI findings, NMO-IgG biomarker status, medical history (including concurrent conditions, seizure history, and severe medical problems), medication use, mini-mental state exam score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Duration of Disease",
+          "duration of transverse myelitis"
+        ],
+        [
+          "Lesion location within spinal cord",
+          "MRI findings"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Expanded Disability Status Scale score",
+        "Lesion length by MRI"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "baseline timed 25-foot walk",
+        "NMO-IgG biomarker status",
+        "medical history (including concurrent conditions, seizure history, and severe medical problems)",
+        "medication use",
+        "mini-mental state exam score."
+      ]
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "trial_id": "NCT04339296",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Chronic Conditions, Number of Prescribed Medications, Cognitive Status, Residency, Baseline Medication Adherence",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Chronic Health Conditions",
+          "Chronic Conditions"
+        ],
+        [
+          "Prescribed Medications",
+          "Number of Prescribed Medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Living Arrangement",
+        "Education",
+        "Employment Status",
+        "Annual Income",
+        "Over-the-counter (OTC) Medications",
+        "Help Taking Medication",
+        "Medication Management Method",
+        "Medication Times/Day"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Cognitive Status",
+        "Residency",
+        "Baseline Medication Adherence"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Number of Chronic Conditions, Number of Prescribed Medications, Baseline Medication Adherence, Cognitive Function,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Chronic Health Conditions",
+          "Number of Chronic Conditions"
+        ],
+        [
+          "Prescribed Medications",
+          "Number of Prescribed Medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Living Arrangement",
+        "Education",
+        "Employment Status",
+        "Annual Income",
+        "Over-the-counter (OTC) Medications",
+        "Help Taking Medication",
+        "Medication Management Method",
+        "Medication Times/Day"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Baseline Medication Adherence",
+        "Cognitive Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Number of Chronic Conditions, Number of Prescribed Oral Medications, Cognitive Function,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Chronic Health Conditions",
+          "Number of Chronic Conditions"
+        ],
+        [
+          "Prescribed Medications",
+          "Number of Prescribed Oral Medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Living Arrangement",
+        "Education",
+        "Employment Status",
+        "Annual Income",
+        "Over-the-counter (OTC) Medications",
+        "Help Taking Medication",
+        "Medication Management Method",
+        "Medication Times/Day"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Cognitive Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, marital status, living situation, number of chronic conditions, type of chronic conditions, number of prescribed medications, cognitive function, medical history, smoking status, alcohol consumption, body mass index (BMI), blood pressure, blood glucose level, anxiety and depression scores.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Living Arrangement",
+          "living situation"
+        ],
+        [
+          "Education",
+          "education level"
+        ],
+        [
+          "Chronic Health Conditions",
+          "type of chronic conditions"
+        ],
+        [
+          "Prescribed Medications",
+          "number of prescribed medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Employment Status",
+        "Annual Income",
+        "Over-the-counter (OTC) Medications",
+        "Help Taking Medication",
+        "Medication Management Method",
+        "Medication Times/Day"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "marital status",
+        "number of chronic conditions",
+        "cognitive function",
+        "medical history",
+        "smoking status",
+        "alcohol consumption",
+        "body mass index (BMI)",
+        "blood pressure",
+        "blood glucose level",
+        "anxiety and depression scores."
+      ]
+    }
+  }
+}

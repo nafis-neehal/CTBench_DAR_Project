@@ -1,0 +1,152 @@
+{
+  "trial_id": "NCT01944098",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Gender, Serum potassium levels, Serum magnesium levels, Preoperative narcotic use, History of chronic pain, History of allergies (lidocaine, hydromorphone, ketorolac, corn, amide anesthetics), Liver function tests (ALT, AST), Presence of cirrhosis or portal hypertension, Intraoperative complications, Intraoperative adhesions, Type of surgery (laparoscopic RYGB by Dr. Murr), Pregnancy status, Use of thioridizine, Severity of back pain due to degenerative joint disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Serum potassium levels",
+        "Serum magnesium levels",
+        "Preoperative narcotic use",
+        "History of chronic pain",
+        "History of allergies (lidocaine, hydromorphone, ketorolac, corn, amide anesthetics)",
+        "Liver function tests (ALT, AST)",
+        "Presence of cirrhosis or portal hypertension",
+        "Intraoperative complications",
+        "Intraoperative adhesions",
+        "Type of surgery (laparoscopic RYGB by Dr. Murr)",
+        "Pregnancy status",
+        "Use of thioridizine",
+        "Severity of back pain due to degenerative joint disease"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Baseline K+ levels, Baseline Mg++ levels, Preoperative narcotic use, Preoperative pain levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Baseline K+ levels",
+        "Baseline Mg++ levels",
+        "Preoperative narcotic use",
+        "Preoperative pain levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Type of Surgery, Anesthesia Induction Time, Extubation Time, Preoperative Pain Score, Preoperative Narcotic Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Type of Surgery",
+        "Anesthesia Induction Time",
+        "Extubation Time",
+        "Preoperative Pain Score",
+        "Preoperative Narcotic Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, ethnicity, medical history (e.g., hypertension, diabetes), surgical history, current medications, ASA physical status, K+ and Mg++ serum levels, ALT and AST levels, presence of chronic pain syndrome, presence of severe back pain secondary to degenerative joint disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "ethnicity",
+        "medical history (e.g., hypertension, diabetes)",
+        "surgical history",
+        "current medications",
+        "ASA physical status",
+        "K+ and Mg++ serum levels",
+        "ALT and AST levels",
+        "presence of chronic pain syndrome",
+        "presence of severe back pain secondary to degenerative joint disease."
+      ]
+    }
+  }
+}

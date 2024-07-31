@@ -1,0 +1,215 @@
+{
+  "trial_id": "NCT01179672",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, type of diabetes (Type 1 or Type 2), baseline pain severity score, Michigan Neuropathy Screening Inventory (MNSI) score, glycosylated hemoglobin (HbA1c) level, body mass index (BMI), concomitant medications, medical history (including cardiovascular, hepatic, renal, respiratory, and hematologic conditions), alanine transaminase (ALT) level, serum creatinine level, Brief Pain Inventory (BPI) 24-hour average pain score, completion rate of daily diaries.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Diabetes Disease Characteristics-Types of Diabetes",
+          "type of diabetes (Type 1 or Type 2)"
+        ],
+        [
+          "Weekly Mean of 24-Hour Average Pain",
+          "baseline pain severity score"
+        ],
+        [
+          "Brief Pain Inventory (BPI)-Severity Average Pain in the Last Week",
+          "Brief Pain Inventory (BPI) 24-hour average pain score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Diabetes Disease Characteristics",
+        "Clinical Global Impression of Severity (CGI-S)",
+        "Short Form-McGill Pain Questionnaire (SF-MPQ)",
+        "Sensory Portion Total Score",
+        "BPI-Interference Average Score",
+        "Sheehan Disability Scale (SDS) Total Score"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "Michigan Neuropathy Screening Inventory (MNSI) score",
+        "glycosylated hemoglobin (HbA1c) level",
+        "body mass index (BMI)",
+        "concomitant medications",
+        "medical history (including cardiovascular, hepatic, renal, respiratory, and hematologic conditions)",
+        "alanine transaminase (ALT) level",
+        "serum creatinine level",
+        "completion rate of daily diaries."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Baseline Pain Severity Score, Michigan Neuropathy Screening Inventory (MNSI) Score, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diabetes Disease Characteristics-Types of Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Weekly Mean of 24-Hour Average Pain",
+          "Baseline Pain Severity Score"
+        ],
+        [
+          "Diabetes Disease Characteristics",
+          "Baseline HbA1c"
+        ],
+        [
+          "Michigan Neuropathy Screening Inventory (MNSI) Score",
+          "Michigan Neuropathy Screening Inventory (MNSI) Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Brief Pain Inventory (BPI)-Severity Average Pain in the Last Week",
+        "Clinical Global Impression of Severity (CGI-S)",
+        "Short Form-McGill Pain Questionnaire (SF-MPQ)",
+        "Sensory Portion Total Score",
+        "BPI-Interference Average Score",
+        "Sheehan Disability Scale (SDS) Total Score"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Body Mass Index"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Type, Duration of Diabetes, HbA1c, Body Mass Index, Pain Severity Score, Michigan Neuropathy Screening Inventory (MNSI) Score, Brief Pain Inventory (BPI) 24-hour Average Pain Item Score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diabetes Disease Characteristics-Types of Diabetes",
+          "Diabetes Type"
+        ],
+        [
+          "Weekly Mean of 24-Hour Average Pain",
+          "Pain Severity Score"
+        ],
+        [
+          "Brief Pain Inventory (BPI)-Severity Average Pain in the Last Week",
+          "Brief Pain Inventory (BPI) 24-hour Average Pain Item Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Diabetes Disease Characteristics",
+        "Clinical Global Impression of Severity (CGI-S)",
+        "Short Form-McGill Pain Questionnaire (SF-MPQ)",
+        "Sensory Portion Total Score",
+        "BPI-Interference Average Score",
+        "Sheehan Disability Scale (SDS) Total Score"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "HbA1c",
+        "Body Mass Index",
+        "Michigan Neuropathy Screening Inventory (MNSI) Score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, duration of diabetic peripheral neuropathic pain, HbA1c, MNSI score, BPI 24-hour average pain item score, daily pain severity score, presence of comorbidities (e.g., hypertension, cardiovascular disease), concomitant medications, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Diabetes Disease Characteristics-Types of Diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Brief Pain Inventory (BPI)-Severity Average Pain in the Last Week",
+          "BPI 24-hour average pain item score"
+        ],
+        [
+          "Weekly Mean of 24-Hour Average Pain",
+          "daily pain severity score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Diabetes Disease Characteristics",
+        "Clinical Global Impression of Severity (CGI-S)",
+        "Short Form-McGill Pain Questionnaire (SF-MPQ)",
+        "Sensory Portion Total Score",
+        "BPI-Interference Average Score",
+        "Sheehan Disability Scale (SDS) Total Score"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of diabetic peripheral neuropathic pain",
+        "HbA1c",
+        "MNSI score",
+        "presence of comorbidities (e.g., hypertension, cardiovascular disease)",
+        "concomitant medications",
+        "smoking status"
+      ]
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "trial_id": "NCT04484831",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, BMI, Weight, Height, Ethnicity, Socioeconomic Status, Physical Activity Level, Dietary Habits, Mental Health Status, Family History of Obesity, Medication Use, Baseline Health Conditions",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race",
+        "Highest Parental Education"
+      ],
+      "remaining_candidate_features": [
+        "Weight",
+        "Height",
+        "Socioeconomic Status",
+        "Physical Activity Level",
+        "Dietary Habits",
+        "Mental Health Status",
+        "Family History of Obesity",
+        "Medication Use",
+        "Baseline Health Conditions"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Physical Activity Level, Dietary Intake, Psychological Well-being, Socioeconomic Status, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Highest Parental Education"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Physical Activity Level",
+        "Dietary Intake",
+        "Psychological Well-being",
+        "Socioeconomic Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, BMI Percentile, Region of Enrollment, Weight Status, Comorbidities, Medications, Previous Weight Loss Attempts,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "BMI",
+          "BMI Percentile"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race",
+        "Highest Parental Education"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Weight Status",
+        "Comorbidities",
+        "Medications",
+        "Previous Weight Loss Attempts"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, ethnicity, race, socioeconomic status, education level, occupation, marital status, medical history (including cardiovascular disease, diabetes, cancer, kidney disease, lung disease), medication use, physical activity level, eating disorder history, substance abuse history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Highest Parental Education"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "socioeconomic status",
+        "education level",
+        "occupation",
+        "marital status",
+        "medical history (including cardiovascular disease, diabetes, cancer, kidney disease, lung disease)",
+        "medication use",
+        "physical activity level",
+        "eating disorder history",
+        "substance abuse history."
+      ]
+    }
+  }
+}

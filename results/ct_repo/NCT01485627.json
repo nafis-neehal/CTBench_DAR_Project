@@ -1,0 +1,157 @@
+{
+  "trial_id": "NCT01485627",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type of cancer, stage of cancer, duration since diagnosis, treatment history, performance status, quality of life score, caregiver relationship to patient, caregiver age, caregiver gender, physician years in practice, physician specialty, physician gender.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Male",
+          "physician gender"
+        ],
+        [
+          "Sex: Female",
+          "caregiver gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "type of cancer",
+        "stage of cancer",
+        "duration since diagnosis",
+        "treatment history",
+        "performance status",
+        "quality of life score",
+        "caregiver relationship to patient",
+        "caregiver age",
+        "physician years in practice",
+        "physician specialty"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Cancer, Stage of Cancer, Quality of Life, Caregiver Status, Physician Specialty, Physician Years in Practice,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical"
+      ],
+      "remaining_candidate_features": [
+        "Type of Cancer",
+        "Stage of Cancer",
+        "Quality of Life",
+        "Caregiver Status",
+        "Physician Specialty",
+        "Physician Years in Practice"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Diagnosis, Time Since Diagnosis, Type of Cancer, Performance Status, Caregiver Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical"
+      ],
+      "remaining_candidate_features": [
+        "Cancer Diagnosis",
+        "Time Since Diagnosis",
+        "Type of Cancer",
+        "Performance Status",
+        "Caregiver Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, occupation, marital status, cancer type, cancer stage, time since diagnosis, prior treatment, performance status, quality of life, caregiver burden, relationship to patient (for caregivers).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "education level",
+        "occupation",
+        "marital status",
+        "cancer type",
+        "cancer stage",
+        "time since diagnosis",
+        "prior treatment",
+        "performance status",
+        "quality of life",
+        "caregiver burden",
+        "relationship to patient (for caregivers)"
+      ]
+    }
+  }
+}

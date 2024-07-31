@@ -1,0 +1,212 @@
+{
+  "trial_id": "NCT03223649",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), fasting plasma glucose, general health status, socioeconomic status, physical activity level, dietary habits, cognitive function, mood and anxiety levels, presence of significant cardiac or pulmonary disease, evidence of impaired glucose tolerance or type 2 diabetes, presence of other endocrinologic disorders, substance abuse or psychiatric disorder status, medication use, presence of neurocognitive disabilities, food allergies, skin disease or allergy to adhesive material, ability to abstain from certain medications, language fluency, pregnancy status, ambulatory impairment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Fasting glucose",
+          "fasting plasma glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Pubertal Maturation (Testes volume in males, Tanner breast stage in females)",
+        "Height",
+        "Weight",
+        "Fat mass",
+        "Lean mass",
+        "Weight status (overweight + obesity, not overweight)",
+        "Fasting insulin",
+        "HOMA-IR",
+        "Peak VO2",
+        "IPAQ score"
+      ],
+      "remaining_candidate_features": [
+        "general health status",
+        "socioeconomic status",
+        "physical activity level",
+        "dietary habits",
+        "cognitive function",
+        "mood and anxiety levels",
+        "presence of significant cardiac or pulmonary disease",
+        "evidence of impaired glucose tolerance or type 2 diabetes",
+        "presence of other endocrinologic disorders",
+        "substance abuse or psychiatric disorder status",
+        "medication use",
+        "presence of neurocognitive disabilities",
+        "food allergies",
+        "skin disease or allergy to adhesive material",
+        "ability to abstain from certain medications",
+        "language fluency",
+        "pregnancy status",
+        "ambulatory impairment"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, BMI, Fasting plasma glucose, Body mass index percentile, Health status, Physical activity level, Cognitive function, Mood and anxiety levels, Dietary habits, Socioeconomic status, Parent's education, Parent's economic status, Heart function (EKG results), Blood pressure, Oxygen levels during exercise, Activity levels (monitored by devices), Blood sugar levels (monitored by devices)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Fasting glucose",
+          "Fasting plasma glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Pubertal Maturation (Testes volume in males, Tanner breast stage in females)",
+        "Height",
+        "Weight",
+        "Fat mass",
+        "Lean mass",
+        "Weight status (overweight + obesity, not overweight)",
+        "Fasting insulin",
+        "HOMA-IR",
+        "Peak VO2",
+        "IPAQ score"
+      ],
+      "remaining_candidate_features": [
+        "Body mass index percentile",
+        "Health status",
+        "Physical activity level",
+        "Cognitive function",
+        "Mood and anxiety levels",
+        "Dietary habits",
+        "Socioeconomic status",
+        "Parent's education",
+        "Parent's economic status",
+        "Heart function (EKG results)",
+        "Blood pressure",
+        "Oxygen levels during exercise",
+        "Activity levels (monitored by devices)",
+        "Blood sugar levels (monitored by devices)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, BMI, Body fat percentage, Waist circumference, Systolic BP, Diastolic BP, Fasting plasma glucose, Insulin sensitivity, Parent's education, Parent's economic status, Child's attention, Child's memory, Child's feelings, Child's activity, Child's eating habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Fasting glucose",
+          "Fasting plasma glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Pubertal Maturation (Testes volume in males, Tanner breast stage in females)",
+        "Height",
+        "Weight",
+        "Fat mass",
+        "Lean mass",
+        "Weight status (overweight + obesity, not overweight)",
+        "Fasting insulin",
+        "HOMA-IR",
+        "Peak VO2",
+        "IPAQ score"
+      ],
+      "remaining_candidate_features": [
+        "Body fat percentage",
+        "Waist circumference",
+        "Systolic BP",
+        "Diastolic BP",
+        "Insulin sensitivity",
+        "Parent's education",
+        "Parent's economic status",
+        "Child's attention",
+        "Child's memory",
+        "Child's feelings",
+        "Child's activity",
+        "Child's eating habits."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), fasting plasma glucose, parent's education, economic status, physical activity level, diet, attention, memory, mood, anxiety.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Fasting glucose",
+          "fasting plasma glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Pubertal Maturation (Testes volume in males, Tanner breast stage in females)",
+        "Height",
+        "Weight",
+        "Fat mass",
+        "Lean mass",
+        "Weight status (overweight + obesity, not overweight)",
+        "Fasting insulin",
+        "HOMA-IR",
+        "Peak VO2",
+        "IPAQ score"
+      ],
+      "remaining_candidate_features": [
+        "parent's education",
+        "economic status",
+        "physical activity level",
+        "diet",
+        "attention",
+        "memory",
+        "mood",
+        "anxiety"
+      ]
+    }
+  }
+}

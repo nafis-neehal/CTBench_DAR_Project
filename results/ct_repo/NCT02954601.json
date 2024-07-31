@@ -1,0 +1,180 @@
+{
+  "trial_id": "NCT02954601",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), hemoglobin A1c (HbA1c), fasting serum glucose, diabetes treatment regimen, duration of diabetes, blood pressure, liver enzyme levels, triglyceride levels, thyroid-stimulating hormone (TSH) levels, C-peptide levels, pregnancy status (for females of childbearing potential), history of cardiovascular disease, history of cancer, history of liver disease, history of HIV, use of medications that affect glucose metabolism, history of drug or alcohol abuse.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Child-Bearing Status",
+          "pregnancy status (for females of childbearing potential)"
+        ],
+        [
+          "Alcohol History",
+          "history of drug or alcohol abuse"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Tobacco History",
+        "Caffiene History"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "hemoglobin A1c (HbA1c)",
+        "fasting serum glucose",
+        "diabetes treatment regimen",
+        "duration of diabetes",
+        "blood pressure",
+        "liver enzyme levels",
+        "triglyceride levels",
+        "thyroid-stimulating hormone (TSH) levels",
+        "C-peptide levels",
+        "history of cardiovascular disease",
+        "history of cancer",
+        "history of liver disease",
+        "history of HIV",
+        "use of medications that affect glucose metabolism"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, HbA1c, Fasting Serum Glucose, Diabetes Duration, Current Diabetes Treatment, Systolic Blood Pressure, Diastolic Blood Pressure, Liver Enzymes (ALT, AST, Alkaline Phosphatase), Triglycerides, C-peptide, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Child-Bearing Status",
+        "Alcohol History",
+        "Tobacco History",
+        "Caffiene History"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "HbA1c",
+        "Fasting Serum Glucose",
+        "Diabetes Duration",
+        "Current Diabetes Treatment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Liver Enzymes (ALT, AST, Alkaline Phosphatase)",
+        "Triglycerides",
+        "C-peptide"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hemoglobin A1c, Fasting Serum Glucose, Diabetes Duration, Metformin Dose, Systolic Blood Pressure, Diastolic Blood Pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Hemoglobin A1c",
+          "Hemoglobin A1c"
+        ],
+        [
+          "Fasting Serum Glucose",
+          "Fasting Serum Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Child-Bearing Status",
+        "Alcohol History",
+        "Tobacco History",
+        "Caffiene History"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diabetes Duration",
+        "Metformin Dose",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, HbA1c, fasting serum glucose, metformin dose and type, other diabetes medications, duration of diabetes, systolic and diastolic blood pressure, history of cardiovascular disease, history of cancer, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Child-Bearing Status",
+          "Females of childbearing potential"
+        ],
+        [
+          "Alcohol History",
+          "Subject is a user of recreational or illicit drugs or has had a recent history (within 1 year of Screening) of drug or alcohol abuse or dependence"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Tobacco History",
+        "Caffiene History"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "HbA1c",
+        "fasting serum glucose",
+        "metformin dose and type",
+        "other diabetes medications",
+        "duration of diabetes",
+        "systolic and diastolic blood pressure",
+        "history of cardiovascular disease",
+        "history of cancer",
+        "smoking status."
+      ]
+    }
+  }
+}

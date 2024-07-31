@@ -1,0 +1,240 @@
+{
+  "trial_id": "NCT00129389",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, menopausal status, tumor size, estrogen receptor status, progesterone receptor status, histological grade, type of surgery (mastectomy or conservative surgery), margin status, HER2 status, performance status (Karnofsky index), electrocardiogram (EKG) results, left ventricular ejection fraction (LVEF), neutrophil count, platelet count, hemoglobin level, total bilirubin level, aspartate aminotransferase (AST) level, alanine aminotransferase (ALT) level, alkaline phosphatase level, creatinine level, creatinine clearance, mammogram results, thorax x-ray results, abdominal echography and/or CT-scan results, bone scintigraphy results (if applicable), pregnancy test results.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "pregnancy test results"
+        ],
+        [
+          "Karnofsky Performance Status (PS)",
+          "performance status (Karnofsky index)"
+        ],
+        [
+          "Menopausal status",
+          "menopausal status"
+        ],
+        [
+          "Tumor size",
+          "tumor size"
+        ],
+        [
+          "Histologic grade",
+          "histological grade"
+        ],
+        [
+          "Hormonal receptors",
+          "estrogen receptor status"
+        ],
+        [
+          "Human Epidermal growth factor Receptor 2 (HER2) status",
+          "HER2 status"
+        ],
+        [
+          "Type of surgery",
+          "type of surgery (mastectomy or conservative surgery)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Histologic type",
+        "Triple-negative disease",
+        "Axillary surgery"
+      ],
+      "remaining_candidate_features": [
+        "progesterone receptor status",
+        "margin status",
+        "electrocardiogram (EKG) results",
+        "left ventricular ejection fraction (LVEF)",
+        "neutrophil count",
+        "platelet count",
+        "hemoglobin level",
+        "total bilirubin level",
+        "aspartate aminotransferase (AST) level",
+        "alanine aminotransferase (ALT) level",
+        "alkaline phosphatase level",
+        "creatinine level",
+        "creatinine clearance",
+        "mammogram results",
+        "thorax x-ray results",
+        "abdominal echography and/or CT-scan results",
+        "bone scintigraphy results (if applicable)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Tumor size, Hormone receptor status, Histological grade, HER2 status, Performance status (Karnofsky index), Electrocardiogram (EKG) results, Hematology results (neutrophils, platelets, hemoglobin), Hepatic function (total bilirubin, AST, ALT, alkaline phosphatase), Renal function (creatinine, creatinine clearance), Type of surgery (mastectomy or conservative), Metastatic disease status, Pregnancy test results,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Karnofsky Performance Status (PS)",
+          "Performance status (Karnofsky index)"
+        ],
+        [
+          "Tumor size",
+          "Tumor size"
+        ],
+        [
+          "Histologic grade",
+          "Histological grade"
+        ],
+        [
+          "Hormonal receptors",
+          "Hormone receptor status"
+        ],
+        [
+          "Human Epidermal growth factor Receptor 2 (HER2) status",
+          "HER2 status"
+        ],
+        [
+          "Type of surgery",
+          "Type of surgery (mastectomy or conservative)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Menopausal status",
+        "Histologic type",
+        "Triple-negative disease",
+        "Axillary surgery"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Electrocardiogram (EKG) results",
+        "Hematology results (neutrophils, platelets, hemoglobin)",
+        "Hepatic function (total bilirubin, AST, ALT, alkaline phosphatase)",
+        "Renal function (creatinine, creatinine clearance)",
+        "Metastatic disease status",
+        "Pregnancy test results"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Menopausal Status, Hormone Receptor Status, Tumor Size, Histological Grade, ER Status, PgR Status, HER2 Status, Performance Status (Karnofsky Index), Hemoglobin, Neutrophils, Platelets, Bilirubin, AST, ALT, Alkaline Phosphatase, Creatinine, Creatinine Clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Karnofsky Performance Status (PS)",
+          "Performance Status (Karnofsky Index)"
+        ],
+        [
+          "Menopausal status",
+          "Menopausal Status"
+        ],
+        [
+          "Tumor size",
+          "Tumor Size"
+        ],
+        [
+          "Histologic grade",
+          "Histological Grade"
+        ],
+        [
+          "Hormonal receptors",
+          "Hormone Receptor Status"
+        ],
+        [
+          "Human Epidermal growth factor Receptor 2 (HER2) status",
+          "HER2 Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Histologic type",
+        "Triple-negative disease",
+        "Type of surgery",
+        "Axillary surgery"
+      ],
+      "remaining_candidate_features": [
+        "ER Status",
+        "PgR Status",
+        "Hemoglobin",
+        "Neutrophils",
+        "Platelets",
+        "Bilirubin",
+        "AST",
+        "ALT",
+        "Alkaline Phosphatase",
+        "Creatinine",
+        "Creatinine Clearance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, menopausal status, hormone receptor status, HER2 status, tumor size, histological grade, performance status (Karnofsky index), presence of high risk criteria (St. Gallen, 1998), type of surgery, time from surgery to randomization, laboratory results (hematology, hepatic function, renal function), presence of metastatic disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Karnofsky Performance Status (PS)",
+          "performance status (Karnofsky index)"
+        ],
+        [
+          "Menopausal status",
+          "menopausal status"
+        ],
+        [
+          "Tumor size",
+          "tumor size"
+        ],
+        [
+          "Histologic grade",
+          "histological grade"
+        ],
+        [
+          "Hormonal receptors",
+          "hormone receptor status"
+        ],
+        [
+          "Human Epidermal growth factor Receptor 2 (HER2) status",
+          "HER2 status"
+        ],
+        [
+          "Type of surgery",
+          "type of surgery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Histologic type",
+        "Triple-negative disease",
+        "Axillary surgery"
+      ],
+      "remaining_candidate_features": [
+        "presence of high risk criteria (St. Gallen, 1998)",
+        "time from surgery to randomization",
+        "laboratory results (hematology, hepatic function, renal function)",
+        "presence of metastatic disease."
+      ]
+    }
+  }
+}

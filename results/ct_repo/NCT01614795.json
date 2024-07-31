@@ -1,0 +1,216 @@
+{
+  "trial_id": "NCT01614795",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, performance status (Lansky or Karnofsky score), tumor type, prior treatments, absolute neutrophil count (ANC), platelet count, hemoglobin level, creatinine clearance or serum creatinine, total bilirubin, serum glutamic pyruvate transaminase (SGPT/ALT), serum albumin, seizure disorder status, diabetes mellitus status, serum glucose levels, serum cholesterol levels, serum triglyceride levels, pregnancy status, infection status, compliance with safety monitoring, time since last chemotherapy, time since last growth factor therapy, time since last biologic agent therapy, time since last monoclonal antibody therapy, time since last radiotherapy, graft-vs-host disease status, corticosteroid use, investigational drug use, anti-cancer agent use, insulin or growth hormone therapy status, anticonvulsant use, warfarin use, prior IGF-1R therapy, prior mTOR inhibitor therapy, time since last major surgery.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Male",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "performance status (Lansky or Karnofsky score)",
+        "tumor type",
+        "prior treatments",
+        "absolute neutrophil count (ANC)",
+        "platelet count",
+        "hemoglobin level",
+        "creatinine clearance or serum creatinine",
+        "total bilirubin",
+        "serum glutamic pyruvate transaminase (SGPT/ALT)",
+        "serum albumin",
+        "seizure disorder status",
+        "diabetes mellitus status",
+        "serum glucose levels",
+        "serum cholesterol levels",
+        "serum triglyceride levels",
+        "pregnancy status",
+        "infection status",
+        "compliance with safety monitoring",
+        "time since last chemotherapy",
+        "time since last growth factor therapy",
+        "time since last biologic agent therapy",
+        "time since last monoclonal antibody therapy",
+        "time since last radiotherapy",
+        "graft-vs-host disease status",
+        "corticosteroid use",
+        "investigational drug use",
+        "anti-cancer agent use",
+        "insulin or growth hormone therapy status",
+        "anticonvulsant use",
+        "warfarin use",
+        "prior IGF-1R therapy",
+        "prior mTOR inhibitor therapy",
+        "time since last major surgery"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Tumor Type, Performance Status, Absolute Neutrophil Count (ANC), Platelet Count, Hemoglobin, Creatinine Clearance, Serum Creatinine, Total Bilirubin, Serum Glutamic Pyruvate Transaminase (SGPT), Serum Albumin, Serum Glucose, Serum Cholesterol, Serum Triglycerides, Prior Treatment Regimens, Time Since Last Chemotherapy, Time Since Last Radiotherapy, Time Since Last Biologic Therapy, Time Since Last Monoclonal Antibody Therapy, Time Since Last Stem Cell Transplant, Use of Growth Factors, Use of Corticosteroids, Use of Anticonvulsants, Use of Anticoagulants, Prior IGF-1R Therapy, Prior mTOR Inhibitor Therapy, Major Surgery History,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Tumor Type",
+        "Performance Status",
+        "Absolute Neutrophil Count (ANC)",
+        "Platelet Count",
+        "Hemoglobin",
+        "Creatinine Clearance",
+        "Serum Creatinine",
+        "Total Bilirubin",
+        "Serum Glutamic Pyruvate Transaminase (SGPT)",
+        "Serum Albumin",
+        "Serum Glucose",
+        "Serum Cholesterol",
+        "Serum Triglycerides",
+        "Prior Treatment Regimens",
+        "Time Since Last Chemotherapy",
+        "Time Since Last Radiotherapy",
+        "Time Since Last Biologic Therapy",
+        "Time Since Last Monoclonal Antibody Therapy",
+        "Time Since Last Stem Cell Transplant",
+        "Use of Growth Factors",
+        "Use of Corticosteroids",
+        "Use of Anticonvulsants",
+        "Use of Anticoagulants",
+        "Prior IGF-1R Therapy",
+        "Prior mTOR Inhibitor Therapy",
+        "Major Surgery History"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity Not Collected, Region of Enrollment, Lansky or Karnofsky Performance Status, Histologic Verification of Malignancy, Tumor Type, Prior Therapy, Radiographically Measurable Disease, Peripheral Absolute Neutrophil Count, Platelet Count, Hemoglobin, Creatinine Clearance or Radioisotope GFR, Total Bilirubin, Serum Glutamic Pyruvate Transaminase, Serum Albumin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity Not Collected",
+        "Lansky or Karnofsky Performance Status",
+        "Histologic Verification of Malignancy",
+        "Tumor Type",
+        "Prior Therapy",
+        "Radiographically Measurable Disease",
+        "Peripheral Absolute Neutrophil Count",
+        "Platelet Count",
+        "Hemoglobin",
+        "Creatinine Clearance or Radioisotope GFR",
+        "Total Bilirubin",
+        "Serum Glutamic Pyruvate Transaminase",
+        "Serum Albumin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, Lansky or Karnofsky performance status score, tumor type, tumor location, number of prior treatment regimens, time since last treatment, presence of central nervous system metastases, presence of bone marrow involvement, absolute neutrophil count, platelet count, hemoglobin, creatinine clearance, serum creatinine, total bilirubin, serum glutamic pyruvate transaminase, serum albumin, presence of seizure disorder, presence of diabetes mellitus, serum glucose, serum cholesterol, serum triglyceride.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Lansky or Karnofsky performance status score",
+        "tumor type",
+        "tumor location",
+        "number of prior treatment regimens",
+        "time since last treatment",
+        "presence of central nervous system metastases",
+        "presence of bone marrow involvement",
+        "absolute neutrophil count",
+        "platelet count",
+        "hemoglobin",
+        "creatinine clearance",
+        "serum creatinine",
+        "total bilirubin",
+        "serum glutamic pyruvate transaminase",
+        "serum albumin",
+        "presence of seizure disorder",
+        "presence of diabetes mellitus",
+        "serum glucose",
+        "serum cholesterol",
+        "serum triglyceride"
+      ]
+    }
+  }
+}

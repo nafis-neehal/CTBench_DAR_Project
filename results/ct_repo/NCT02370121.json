@@ -1,0 +1,283 @@
+{
+  "trial_id": "NCT02370121",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Waist Circumference, Triglycerides, High-density Lipoprotein Cholesterol (HDL-C), Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Total Insulin Secretion, First Phase of Insulin Secretion, Insulin Sensitivity",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index (BMI)",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Waist circumference (WC)",
+          "Waist Circumference"
+        ],
+        [
+          "Systolic blood pressure (SBP)",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure (DBP)",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Triglycerides (TGs)",
+          "Triglycerides"
+        ],
+        [
+          "high-density lipoprotein cholesterol (HDL-C)",
+          "High-density Lipoprotein Cholesterol (HDL-C)"
+        ],
+        [
+          "Fasting plasma glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Total insulin secretion",
+          "Total Insulin Secretion"
+        ],
+        [
+          "First phase of insulin secretion",
+          "First Phase of Insulin Secretion"
+        ],
+        [
+          "Insulin sensitivity",
+          "Insulin Sensitivity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Body weight (BW)",
+        "Total cholesterol (TC)",
+        "Low-density lipoprotein cholesterol (LDL-C)",
+        "Very-low density lipoprotein (VLDL)",
+        "2-hour postload plasma glucose (2-h PG)",
+        "Area under the curve of glucose (AUCG)",
+        "Area under the curve of insulin (AUCI)"
+      ],
+      "remaining_candidate_features": [
+        "Gender"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Waist Circumference, Triglycerides, High-density Lipoprotein Cholesterol, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Total Insulin Secretion, First Phase of Insulin Secretion, Insulin Sensitivity,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body mass index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Waist circumference (WC)",
+          "Waist Circumference"
+        ],
+        [
+          "Systolic blood pressure (SBP)",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure (DBP)",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Triglycerides (TGs)",
+          "Triglycerides"
+        ],
+        [
+          "high-density lipoprotein cholesterol (HDL-C)",
+          "High-density Lipoprotein Cholesterol"
+        ],
+        [
+          "Fasting plasma glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Total insulin secretion",
+          "Total Insulin Secretion"
+        ],
+        [
+          "First phase of insulin secretion",
+          "First Phase of Insulin Secretion"
+        ],
+        [
+          "Insulin sensitivity",
+          "Insulin Sensitivity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Body weight (BW)",
+        "Total cholesterol (TC)",
+        "Low-density lipoprotein cholesterol (LDL-C)",
+        "Very-low density lipoprotein (VLDL)",
+        "2-hour postload plasma glucose (2-h PG)",
+        "Area under the curve of glucose (AUCG)",
+        "Area under the curve of insulin (AUCI)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Triglycerides, High-density Lipoprotein Cholesterol, Fasting Plasma Glucose, Region of Enrollment",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body mass index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Waist circumference (WC)",
+          "Waist Circumference"
+        ],
+        [
+          "Systolic blood pressure (SBP)",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure (DBP)",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Triglycerides (TGs)",
+          "Triglycerides"
+        ],
+        [
+          "high-density lipoprotein cholesterol (HDL-C)",
+          "High-density Lipoprotein Cholesterol"
+        ],
+        [
+          "Fasting plasma glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Body weight (BW)",
+        "Total cholesterol (TC)",
+        "Low-density lipoprotein cholesterol (LDL-C)",
+        "Very-low density lipoprotein (VLDL)",
+        "2-hour postload plasma glucose (2-h PG)",
+        "Area under the curve of glucose (AUCG)",
+        "Area under the curve of insulin (AUCI)",
+        "Total insulin secretion",
+        "First phase of insulin secretion",
+        "Insulin sensitivity"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index, waist circumference, body weight, systolic blood pressure, diastolic blood pressure, triglycerides, high-density lipoprotein cholesterol, fasting plasma glucose, total insulin secretion, first phase of insulin secretion, insulin sensitivity, smoking status, medical history (thyroid disease, cardiovascular disease, kidney disease, hepatic disease, mental or physical illness).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index (BMI)",
+          "body mass index"
+        ],
+        [
+          "Waist circumference (WC)",
+          "waist circumference"
+        ],
+        [
+          "Body weight (BW)",
+          "body weight"
+        ],
+        [
+          "Systolic blood pressure (SBP)",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic blood pressure (DBP)",
+          "diastolic blood pressure"
+        ],
+        [
+          "Triglycerides (TGs)",
+          "triglycerides"
+        ],
+        [
+          "high-density lipoprotein cholesterol (HDL-C)",
+          "high-density lipoprotein cholesterol"
+        ],
+        [
+          "Fasting plasma glucose (FPG)",
+          "fasting plasma glucose"
+        ],
+        [
+          "Total insulin secretion",
+          "total insulin secretion"
+        ],
+        [
+          "First phase of insulin secretion",
+          "first phase of insulin secretion"
+        ],
+        [
+          "Insulin sensitivity",
+          "insulin sensitivity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Total cholesterol (TC)",
+        "Low-density lipoprotein cholesterol (LDL-C)",
+        "Very-low density lipoprotein (VLDL)",
+        "2-hour postload plasma glucose (2-h PG)",
+        "Area under the curve of glucose (AUCG)",
+        "Area under the curve of insulin (AUCI)"
+      ],
+      "remaining_candidate_features": [
+        "smoking status",
+        "medical history (thyroid disease, cardiovascular disease, kidney disease, hepatic disease, mental or physical illness)"
+      ]
+    }
+  }
+}

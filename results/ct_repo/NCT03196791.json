@@ -1,0 +1,157 @@
+{
+  "trial_id": "NCT03196791",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, American Society of Anesthesiologists (ASA) classification, stage of gastric cancer, comorbidities, previous abdominal surgeries, smoking status, alcohol consumption, baseline hemoglobin levels, baseline white blood cell count, baseline platelet count, baseline liver function tests, baseline renal function tests, baseline blood pressure, baseline heart rate.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body mass index (kg/m^2)",
+          "BMI"
+        ],
+        [
+          "ASA classification",
+          "American Society of Anesthesiologists (ASA) classification"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "stage of gastric cancer",
+        "comorbidities",
+        "previous abdominal surgeries",
+        "smoking status",
+        "alcohol consumption",
+        "baseline hemoglobin levels",
+        "baseline white blood cell count",
+        "baseline platelet count",
+        "baseline liver function tests",
+        "baseline renal function tests",
+        "baseline blood pressure",
+        "baseline heart rate"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, American Society of Anesthesiologists (ASA) Classification, Preoperative Hemoglobin, Preoperative Albumin, Tumor Stage,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body mass index (kg/m^2)",
+          "Body Mass Index"
+        ],
+        [
+          "ASA classification",
+          "American Society of Anesthesiologists (ASA) Classification"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Preoperative Hemoglobin",
+        "Preoperative Albumin",
+        "Tumor Stage"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, ASA Class, Gastric Cancer Stage,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body mass index (kg/m^2)",
+          "BMI"
+        ],
+        [
+          "ASA classification",
+          "ASA Class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Gastric Cancer Stage"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, ASA class, gastric cancer stage, tumor location, comorbidities, history of previous abdominal surgery, preoperative hemoglobin level, preoperative platelet count, preoperative albumin level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index (kg/m^2)",
+          "BMI"
+        ],
+        [
+          "ASA classification",
+          "ASA class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "gastric cancer stage",
+        "tumor location",
+        "comorbidities",
+        "history of previous abdominal surgery",
+        "preoperative hemoglobin level",
+        "preoperative platelet count",
+        "preoperative albumin level"
+      ]
+    }
+  }
+}

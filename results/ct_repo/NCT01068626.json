@@ -1,0 +1,206 @@
+{
+  "trial_id": "NCT01068626",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), waist circumference, lipid profile, blood pressure, liver function tests, renal function tests, history of hypertension, history of diabetes, history of liver disease, history of renal disease, history of endocrine disorders, history of malignant disease, history of myopathic disease, alcohol use, drug use, prior statin use, prior calcineurin-inhibitor use, prior anti-inflammatory drug use, prior investigational drug use, indication for statin treatment, cardiac history, oncologic history, neurologic history, psychiatric history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "gender"
+        ],
+        [
+          "Hypertension",
+          "history of hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Weight",
+        "Height",
+        "Current smoker",
+        "Visceral adipose tissue area",
+        "Subcutaneous adipose tissue area",
+        "Visceral/subcutaneous adipose tissue area ratio",
+        "Liver density",
+        "LDL cholesterol",
+        "Fasting glucose",
+        "Fasting insulin"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "waist circumference",
+        "lipid profile",
+        "blood pressure",
+        "liver function tests",
+        "renal function tests",
+        "history of diabetes",
+        "history of liver disease",
+        "history of renal disease",
+        "history of endocrine disorders",
+        "history of malignant disease",
+        "history of myopathic disease",
+        "alcohol use",
+        "drug use",
+        "prior statin use",
+        "prior calcineurin-inhibitor use",
+        "prior anti-inflammatory drug use",
+        "prior investigational drug use",
+        "indication for statin treatment",
+        "cardiac history",
+        "oncologic history",
+        "neurologic history",
+        "psychiatric history"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Blood Pressure, Cholesterol, Triglycerides, Liver Function Tests, Renal Function Tests, Baseline Visceral Adipose Tissue Area,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Visceral adipose tissue area",
+          "Baseline Visceral Adipose Tissue Area"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Height",
+        "Hypertension",
+        "Current smoker",
+        "Subcutaneous adipose tissue area",
+        "Visceral/subcutaneous adipose tissue area ratio",
+        "Liver density",
+        "LDL cholesterol",
+        "Fasting glucose",
+        "Fasting insulin"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Waist Circumference",
+        "Blood Pressure",
+        "Cholesterol",
+        "Triglycerides",
+        "Liver Function Tests",
+        "Renal Function Tests"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Male, Race/Ethnicity Not Collected, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, Fasting Glucose, Diabetes Status, Smoking Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "LDL cholesterol",
+          "LDL Cholesterol"
+        ],
+        [
+          "Fasting glucose",
+          "Fasting Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Height",
+        "Hypertension",
+        "Current smoker",
+        "Visceral adipose tissue area",
+        "Subcutaneous adipose tissue area",
+        "Visceral/subcutaneous adipose tissue area ratio",
+        "Liver density",
+        "Fasting insulin"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity Not Collected",
+        "Body Mass Index",
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "Diabetes Status",
+        "Smoking Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), waist circumference, systolic blood pressure, diastolic blood pressure, fasting glucose, lipid profile (total cholesterol, LDL-C, HDL-C, triglycerides), liver function tests, renal function tests, medical history (hypertension, dyslipidemia, diabetes mellitus, liver disease, renal disease, endocrine disorders, malignant disease, myopathic disease), smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "sex"
+        ],
+        [
+          "Hypertension",
+          "medical history (hypertension, dyslipidemia, diabetes mellitus, liver disease, renal disease, endocrine disorders, malignant disease, myopathic disease)"
+        ],
+        [
+          "LDL cholesterol",
+          "lipid profile (total cholesterol, LDL-C, HDL-C, triglycerides)"
+        ],
+        [
+          "Fasting glucose",
+          "fasting glucose"
+        ],
+        [
+          "Current smoker",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Weight",
+        "Height",
+        "Visceral adipose tissue area",
+        "Subcutaneous adipose tissue area",
+        "Visceral/subcutaneous adipose tissue area ratio",
+        "Liver density",
+        "Fasting insulin"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "waist circumference",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "liver function tests",
+        "renal function tests",
+        "alcohol consumption"
+      ]
+    }
+  }
+}

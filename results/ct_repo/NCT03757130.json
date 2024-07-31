@@ -1,0 +1,162 @@
+{
+  "trial_id": "NCT03757130",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, Body Mass Index (BMI), Body weight change in the previous 8 weeks, Medical history, Current medications, Organ function status, Pregnancy/lactation status, History of diabetes, History of thyroid carcinoma, History of pancreatitis, History of gallbladder disease, History of major depressive disorder",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body weight change in the previous 8 weeks",
+        "Medical history",
+        "Current medications",
+        "Organ function status",
+        "Pregnancy/lactation status",
+        "History of diabetes",
+        "History of thyroid carcinoma",
+        "History of pancreatitis",
+        "History of gallbladder disease",
+        "History of major depressive disorder"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Baseline Weight, Waist Circumference, Fasting Glucose, Fasting Insulin, Lipid Profile,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Baseline Weight",
+        "Waist Circumference",
+        "Fasting Glucose",
+        "Fasting Insulin",
+        "Lipid Profile"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Lipid Profile, Obesity-related comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Glucose",
+        "Lipid Profile",
+        "Obesity-related comorbidities."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), weight, medical history, concomitant medications, smoking status, alcohol use, race, ethnicity, height, waist circumference, hip circumference, systolic blood pressure, diastolic blood pressure, heart rate, fasting glucose, hemoglobin A1c, lipid profile, liver function tests, renal function tests.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "medical history",
+        "concomitant medications",
+        "smoking status",
+        "alcohol use",
+        "height",
+        "waist circumference",
+        "hip circumference",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "fasting glucose",
+        "hemoglobin A1c",
+        "lipid profile",
+        "liver function tests",
+        "renal function tests"
+      ]
+    }
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "trial_id": "NCT03675360",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, baseline HbA1c, body mass index (BMI), blood pressure, fasting glucose, lipid profile (total cholesterol, LDL, HDL, triglycerides), renal function (eGFR), liver function tests, dietary intake, physical activity level, alcohol consumption, smoking status, medical history, medication use, socioeconomic status, ethnicity.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Hemoglobin A1c",
+          "baseline HbA1c"
+        ],
+        [
+          "Fasting plasma glucose",
+          "fasting glucose"
+        ],
+        [
+          "Total cholesterol",
+          "lipid profile (total cholesterol, LDL, HDL, triglycerides)"
+        ],
+        [
+          "HDL cholesterol",
+          "lipid profile (total cholesterol, LDL, HDL, triglycerides)"
+        ],
+        [
+          "Low-density lipoprotein cholesterol",
+          "lipid profile (total cholesterol, LDL, HDL, triglycerides)"
+        ],
+        [
+          "Triglyceride level",
+          "lipid profile (total cholesterol, LDL, HDL, triglycerides)"
+        ],
+        [
+          "Physical activity level",
+          "physical activity level"
+        ],
+        [
+          "Current smoker",
+          "smoking status"
+        ],
+        [
+          "Antihypertensive medication use",
+          "medication use"
+        ],
+        [
+          "Lipid-lowering medication use",
+          "medication use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity",
+        "College degree or higher education",
+        "Body weight",
+        "Waist circumference",
+        "Systolic blood pressure",
+        "Diastolic blood pressure",
+        "Hemoglobin A1c <6.5%",
+        "Insulin",
+        "Homeostasis model assessment of insulin resistance",
+        "Total-to-HDL cholesterol ratio",
+        "10-y Atherosclerotic cardiovascular disease risk score"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure",
+        "renal function (eGFR)",
+        "liver function tests",
+        "dietary intake",
+        "alcohol consumption",
+        "medical history",
+        "socioeconomic status",
+        "ethnicity"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, BMI, HbA1c, Blood pressure, eGFR, Liver function, Thyroid function, Gout history, Cancer history, Hemoglobin level, Alcohol consumption, Smoking status, Physical activity level, Dietary intake, Medication use, COVID-19 history, Pregnancy status, Breastfeeding status, Residence location, Participation in other trials",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race and Ethnicity",
+          "Race"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c"
+        ],
+        [
+          "Systolic blood pressure",
+          "Blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Blood pressure"
+        ],
+        [
+          "Hemoglobin A1c <6.5%",
+          "Hemoglobin level"
+        ],
+        [
+          "Current smoker",
+          "Smoking status"
+        ],
+        [
+          "Physical activity level",
+          "Physical activity level"
+        ],
+        [
+          "Antihypertensive medication use",
+          "Medication use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "College degree or higher education",
+        "Body weight",
+        "Waist circumference",
+        "Fasting plasma glucose",
+        "Insulin",
+        "Homeostasis model assessment of insulin resistance",
+        "Total cholesterol",
+        "HDL cholesterol",
+        "Low-density lipoprotein cholesterol",
+        "Total-to-HDL cholesterol ratio",
+        "Triglyceride level",
+        "Lipid-lowering medication use",
+        "10-y Atherosclerotic cardiovascular disease risk score"
+      ],
+      "remaining_candidate_features": [
+        "eGFR",
+        "Liver function",
+        "Thyroid function",
+        "Gout history",
+        "Cancer history",
+        "Alcohol consumption",
+        "Dietary intake",
+        "COVID-19 history",
+        "Pregnancy status",
+        "Breastfeeding status",
+        "Residence location",
+        "Participation in other trials"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, BMI, HbA1c, Diabetes duration, Insulin regimen, Total daily insulin dose, Waist circumference, Systolic Blood Pressure, Diastolic blood pressure, Total cholesterol, Smoking history, eGFR, Diabetic retinopathy, Neuropathy, Antihypertensive drugs, Statin, Antiplatelet drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Waist circumference",
+          "Waist circumference"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Diastolic blood pressure"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c"
+        ],
+        [
+          "Total cholesterol",
+          "Total cholesterol"
+        ],
+        [
+          "Antihypertensive medication use",
+          "Antihypertensive drugs"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity",
+        "College degree or higher education",
+        "Body weight",
+        "Hemoglobin A1c <6.5%",
+        "Fasting plasma glucose",
+        "Insulin",
+        "Homeostasis model assessment of insulin resistance",
+        "HDL cholesterol",
+        "Low-density lipoprotein cholesterol",
+        "Total-to-HDL cholesterol ratio",
+        "Triglyceride level",
+        "Lipid-lowering medication use",
+        "Current smoker",
+        "Physical activity level",
+        "10-y Atherosclerotic cardiovascular disease risk score"
+      ],
+      "remaining_candidate_features": [
+        "Ethnic Origin",
+        "Diabetes duration",
+        "Insulin regimen",
+        "Total daily insulin dose",
+        "eGFR",
+        "Diabetic retinopathy",
+        "Neuropathy",
+        "Statin",
+        "Antiplatelet drugs",
+        "Smoking history"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index, race, ethnicity, HbA1c, estimated glomerular filtration rate, liver disease status, thyroid disease status, history of cancer, history of gout, history of osteoporosis, anemia status, history of blood donation or transfusion, HIV status, history of COVID-19, pregnancy status, breastfeeding status, alcohol consumption, nut allergy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Body mass index",
+          "body mass index"
+        ],
+        [
+          "Race and Ethnicity",
+          "race"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "College degree or higher education",
+        "Body weight",
+        "Waist circumference",
+        "Systolic blood pressure",
+        "Diastolic blood pressure",
+        "Hemoglobin A1c <6.5%",
+        "Fasting plasma glucose",
+        "Insulin",
+        "Homeostasis model assessment of insulin resistance",
+        "Total cholesterol",
+        "HDL cholesterol",
+        "Low-density lipoprotein cholesterol",
+        "Total-to-HDL cholesterol ratio",
+        "Triglyceride level",
+        "Antihypertensive medication use",
+        "Lipid-lowering medication use",
+        "Current smoker",
+        "Physical activity level",
+        "10-y Atherosclerotic cardiovascular disease risk score"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "estimated glomerular filtration rate",
+        "liver disease status",
+        "thyroid disease status",
+        "history of cancer",
+        "history of gout",
+        "history of osteoporosis",
+        "anemia status",
+        "history of blood donation or transfusion",
+        "HIV status",
+        "history of COVID-19",
+        "pregnancy status",
+        "breastfeeding status",
+        "alcohol consumption",
+        "nut allergy status"
+      ]
+    }
+  }
+}

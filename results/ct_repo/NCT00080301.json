@@ -1,0 +1,182 @@
+{
+  "trial_id": "NCT00080301",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, prior chemotherapy regimens, prior anthracycline treatment, prior taxane treatment, metastatic sites, hormone receptor status, HER2 status, baseline tumor size, baseline laboratory values (e.g., hemoglobin, white blood cell count, liver function tests), prior radiotherapy, prior surgery, duration of metastatic disease, comorbid conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Karnofsky Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Disease Sites",
+          "metastatic sites"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Disease Sites at Baseline",
+        "Menopausal Status",
+        "Number of Disease Sites",
+        "Presence of All Lesions",
+        "Visceral Disease in Liver and/or Lung"
+      ],
+      "remaining_candidate_features": [
+        "prior chemotherapy regimens",
+        "prior anthracycline treatment",
+        "prior taxane treatment",
+        "hormone receptor status",
+        "HER2 status",
+        "baseline tumor size",
+        "baseline laboratory values (e.g., hemoglobin, white blood cell count, liver function tests)",
+        "prior radiotherapy",
+        "prior surgery",
+        "duration of metastatic disease",
+        "comorbid conditions"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Prior chemotherapy regimens, Prior anthracycline treatment, Prior taxane treatment, Resistance to anthracycline, Resistance to taxane, History of brain metastases, History of leptomeningeal metastases, Neuropathy grade,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Disease Sites",
+        "Disease Sites at Baseline",
+        "Karnofsky Performance Status",
+        "Menopausal Status",
+        "Number of Disease Sites",
+        "Presence of All Lesions",
+        "Visceral Disease in Liver and/or Lung"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Prior chemotherapy regimens",
+        "Prior anthracycline treatment",
+        "Prior taxane treatment",
+        "Resistance to anthracycline",
+        "Resistance to taxane",
+        "History of brain metastases",
+        "History of leptomeningeal metastases",
+        "Neuropathy grade"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Menopausal Status, Performance Status, Number of Prior Chemotherapy Regimens, Prior Anthracycline and Taxane Therapy, Time Since Last Chemotherapy, Tumor Receptor Status, Metastatic Disease Sites.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Menopausal Status",
+          "Menopausal Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Disease Sites",
+        "Disease Sites at Baseline",
+        "Karnofsky Performance Status",
+        "Number of Disease Sites",
+        "Presence of All Lesions",
+        "Visceral Disease in Liver and/or Lung"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Performance Status",
+        "Number of Prior Chemotherapy Regimens",
+        "Prior Anthracycline and Taxane Therapy",
+        "Time Since Last Chemotherapy",
+        "Tumor Receptor Status",
+        "Metastatic Disease Sites."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, performance status, number of prior chemotherapy regimens, prior anthracycline and taxane therapy, cumulative dose of anthracycline, time since last chemotherapy, presence of metastases, number and location of metastatic sites, tumor receptor status (ER, PR, HER2), menopausal status, body mass index (BMI).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Karnofsky Performance Status",
+          "performance status"
+        ],
+        [
+          "Menopausal Status",
+          "menopausal status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Disease Sites",
+        "Disease Sites at Baseline",
+        "Number of Disease Sites",
+        "Presence of All Lesions",
+        "Visceral Disease in Liver and/or Lung"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "number of prior chemotherapy regimens",
+        "prior anthracycline and taxane therapy",
+        "cumulative dose of anthracycline",
+        "time since last chemotherapy",
+        "presence of metastases",
+        "number and location of metastatic sites",
+        "tumor receptor status (ER, PR, HER2)",
+        "body mass index (BMI)"
+      ]
+    }
+  }
+}

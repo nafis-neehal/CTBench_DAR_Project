@@ -1,0 +1,183 @@
+{
+  "trial_id": "NCT02014740",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, HbA1c, Duration of Type 2 Diabetes, Pre-treatment with Metformin, Blood Pressure, Lipid Profile, Glomerular Filtration Rate (GFR), Liver Function Tests, Heart Failure Status, History of Pancreatitis, Family History of Medullary Thyroid Carcinoma, Use of Systemic Corticosteroids, Pregnancy Status, Contraceptive Use",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "HemoglobinA1c (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Epicardial adipose tissue Thickness (EAT)",
+          "Echocardiographic Epicardial Fat Thickness"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Type 2 Diabetes",
+        "Pre-treatment with Metformin",
+        "Blood Pressure",
+        "Lipid Profile",
+        "Glomerular Filtration Rate (GFR)",
+        "Liver Function Tests",
+        "Heart Failure Status",
+        "History of Pancreatitis",
+        "Family History of Medullary Thyroid Carcinoma",
+        "Use of Systemic Corticosteroids",
+        "Pregnancy Status",
+        "Contraceptive Use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, HbA1c, Duration of Diabetes, Blood Pressure, Cholesterol, Triglycerides, Glomerular Filtration Rate (GFR),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "HemoglobinA1c (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Epicardial adipose tissue Thickness (EAT)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "Blood Pressure",
+        "Cholesterol",
+        "Triglycerides",
+        "Glomerular Filtration Rate (GFR)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, HbA1c, Diabetes Duration, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, Region of Enrollment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "HemoglobinA1c (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Epicardial adipose tissue Thickness (EAT)"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Duration",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, HbA1c, duration of type 2 diabetes, history of cardiovascular disease, smoking status, systolic blood pressure, diastolic blood pressure, heart rate, lipid profile, liver function tests, renal function tests, medication use (including antihypertensive and lipid-lowering agents).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "HemoglobinA1c (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Epicardial adipose tissue Thickness (EAT)"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "duration of type 2 diabetes",
+        "history of cardiovascular disease",
+        "smoking status",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "lipid profile",
+        "liver function tests",
+        "renal function tests",
+        "medication use (including antihypertensive and lipid-lowering agents)"
+      ]
+    }
+  }
+}

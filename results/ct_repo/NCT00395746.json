@@ -1,0 +1,163 @@
+{
+  "trial_id": "NCT00395746",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, duration of diabetes, baseline HbA1c, baseline fasting plasma glucose, use of sulfonylurea, diet/exercise regimen, presence of comorbidities, baseline blood pressure, baseline lipid profile.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "HbA1c",
+          "baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Body weight"
+      ],
+      "remaining_candidate_features": [
+        "baseline fasting plasma glucose",
+        "use of sulfonylurea",
+        "diet/exercise regimen",
+        "presence of comorbidities",
+        "baseline blood pressure",
+        "baseline lipid profile"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Use of Sulfonylurea,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c",
+          "Baseline HbA1c"
+        ],
+        [
+          "Duration of diabetes",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "Use of Sulfonylurea"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes duration, HbA1c, BMI, Sulfonylurea dose, Duration of sulfonylurea treatment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body weight",
+        "Duration of diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diabetes duration",
+        "Sulfonylurea dose",
+        "Duration of sulfonylurea treatment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose at screening, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, sulfonylurea type and dose at screening.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "HbA1c",
+          "HbA1c at screening"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Body weight"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "fasting plasma glucose at screening",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "smoking status",
+        "sulfonylurea type and dose at screening."
+      ]
+    }
+  }
+}

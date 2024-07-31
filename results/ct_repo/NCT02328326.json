@@ -1,0 +1,213 @@
+{
+  "trial_id": "NCT02328326",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, HbA1C level, blood pressure, diabetes duration, medication use, primary care visits, cognitive impairment status, living situation, language proficiency, life-limiting illness status, mental health status, substance abuse status, pregnancy status, care partner involvement, care partner age, care partner cognitive impairment status, care partner health status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Insulin Use among Patient Participants",
+          "medication use"
+        ],
+        [
+          "Patient Baseline Patient Activation Measure (PAM-13)",
+          "PAM-13 Cutoff"
+        ],
+        [
+          "Baseline UKPDS 5-Year Cardiac Risk Score",
+          "Change in Cardiac Event 5-year Risk Score, as Measured by UKPDS Risk Engine"
+        ],
+        [
+          "Care Partner Lives with Patient Participant",
+          "living situation"
+        ],
+        [
+          "Enrolled at Hospital-based clinic (vs. community clinic site)",
+          "primary care visits"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "HbA1C level",
+        "blood pressure",
+        "diabetes duration",
+        "cognitive impairment status",
+        "language proficiency",
+        "life-limiting illness status",
+        "mental health status",
+        "substance abuse status",
+        "pregnancy status",
+        "care partner involvement",
+        "care partner age",
+        "care partner cognitive impairment status",
+        "care partner health status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Diabetes duration, Number of primary care visits, Use of diabetes medication, Family member involvement in care,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Insulin Use among Patient Participants",
+          "Use of diabetes medication"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "PAM-13 Cutoff",
+        "Care Partner Lives with Patient Participant",
+        "Patient Baseline Patient Activation Measure (PAM-13)",
+        "Baseline UKPDS 5-Year Cardiac Risk Score",
+        "Enrolled at Hospital-based clinic (vs. community clinic site)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "HbA1c",
+        "Diabetes duration",
+        "Number of primary care visits",
+        "Family member involvement in care"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Blood Pressure, BMI, Family Member Involvement in Care, Patient Activation Measure, UKPDS Risk Engine Score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Patient Baseline Patient Activation Measure (PAM-13)",
+          "Patient Activation Measure"
+        ],
+        [
+          "Baseline UKPDS 5-Year Cardiac Risk Score",
+          "UKPDS Risk Engine Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Insulin Use among Patient Participants",
+        "PAM-13 Cutoff",
+        "Care Partner Lives with Patient Participant",
+        "Enrolled at Hospital-based clinic (vs. community clinic site)"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Diagnosis Duration",
+        "HbA1c",
+        "Blood Pressure",
+        "BMI",
+        "Family Member Involvement in Care"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, employment status, marital status, living situation, duration of diabetes, type of diabetes, HbA1C level, blood pressure, body mass index (BMI), smoking status, comorbidities, medication use, prior diabetes-related complications, family member/care partner involvement in care, patient's primary language, patient's cognitive function, patient's functional status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Insulin Use among Patient Participants",
+          "medication use"
+        ],
+        [
+          "Care Partner Lives with Patient Participant",
+          "living situation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "PAM-13 Cutoff",
+        "Patient Baseline Patient Activation Measure (PAM-13)",
+        "Baseline UKPDS 5-Year Cardiac Risk Score",
+        "Enrolled at Hospital-based clinic (vs. community clinic site)"
+      ],
+      "remaining_candidate_features": [
+        "education level",
+        "employment status",
+        "marital status",
+        "duration of diabetes",
+        "type of diabetes",
+        "HbA1C level",
+        "blood pressure",
+        "body mass index (BMI)",
+        "smoking status",
+        "comorbidities",
+        "prior diabetes-related complications",
+        "family member/care partner involvement in care",
+        "patient's primary language",
+        "patient's cognitive function",
+        "patient's functional status"
+      ]
+    }
+  }
+}

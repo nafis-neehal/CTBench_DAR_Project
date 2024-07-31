@@ -1,0 +1,217 @@
+{
+  "trial_id": "NCT02597712",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline endoscopy findings (circumferential and maximal extent of Barrett's mucosa), proton pump inhibitor use (duration and dosage), ECOG performance status, Karnofsky performance status, white blood cell count, absolute neutrophil count, platelet count, creatinine level, total bilirubin level, AST level, ALT level, use of contraception, history of allergic reactions, history of diabetes mellitus, history of pancreatitis, history of hepatitis B, hepatitis C or HIV, history of malabsorption syndrome, history of major surgery, history of other cancers, history of serious cardiac disease, history of respiratory disease, history of uncontrolled hypertension, history of active systemic infection, history of psychiatric illness, use of certain medicines and herbal remedies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ki67 expression",
+          "Change in Ki67 Biomarker Expression"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Fasting serum gastrin concentration (marker of gastric acid suppression)",
+        "Fasting plasma CgA concentration (marker of ECL cell hyperplasia)"
+      ],
+      "remaining_candidate_features": [
+        "baseline endoscopy findings (circumferential and maximal extent of Barrett's mucosa)",
+        "proton pump inhibitor use (duration and dosage)",
+        "Karnofsky performance status",
+        "white blood cell count",
+        "absolute neutrophil count",
+        "platelet count",
+        "creatinine level",
+        "total bilirubin level",
+        "AST level",
+        "ALT level",
+        "use of contraception",
+        "history of allergic reactions",
+        "history of diabetes mellitus",
+        "history of pancreatitis",
+        "history of hepatitis B",
+        "hepatitis C or HIV",
+        "history of malabsorption syndrome",
+        "history of major surgery",
+        "history of other cancers",
+        "history of serious cardiac disease",
+        "history of respiratory disease",
+        "history of uncontrolled hypertension",
+        "history of active systemic infection",
+        "history of psychiatric illness",
+        "use of certain medicines and herbal remedies."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Barrett's Esophagus Length, Proton Pump Inhibitor Use, ECOG Performance Status, Karnofsky Performance Status, White Blood Cell Count, Absolute Neutrophil Count, Platelet Count, Creatinine, Total Bilirubin, AST, ALT, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Ki67 expression",
+          "Change in Ki67 Biomarker Expression"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Fasting serum gastrin concentration (marker of gastric acid suppression)",
+        "Fasting plasma CgA concentration (marker of ECL cell hyperplasia)"
+      ],
+      "remaining_candidate_features": [
+        "Barrett's Esophagus Length",
+        "Proton Pump Inhibitor Use",
+        "ECOG Performance Status",
+        "Karnofsky Performance Status",
+        "White Blood Cell Count",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Creatinine",
+        "Total Bilirubin",
+        "AST",
+        "ALT"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, History of Barrett's Esophagus, Proton Pump Inhibitor Use, ECOG Performance Status, Karnofsky Performance Status, White Blood Cell Count, Absolute Neutrophil Count, Platelet Count, Creatinine, Total Bilirubin, AST, ALT.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Ki67 expression",
+          "Change in Ki67 Biomarker Expression"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Fasting serum gastrin concentration (marker of gastric acid suppression)",
+        "Fasting plasma CgA concentration (marker of ECL cell hyperplasia)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "History of Barrett's Esophagus",
+        "Proton Pump Inhibitor Use",
+        "ECOG Performance Status",
+        "Karnofsky Performance Status",
+        "White Blood Cell Count",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Creatinine",
+        "Total Bilirubin",
+        "AST",
+        "ALT"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, height, weight, body mass index (BMI), smoking status, history of proton pump inhibitor use, duration of Barrett's esophagus, circumferential extent of Barrett's mucosa, maximal contiguous extent of Barrett's mucosa, ECOG performance status, Karnofsky performance status, white blood cell count, absolute neutrophil count, platelet count, creatinine level, total bilirubin level, AST level, ALT level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ki67 expression",
+          "Change in Ki67 Biomarker Expression"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Fasting serum gastrin concentration (marker of gastric acid suppression)",
+        "Fasting plasma CgA concentration (marker of ECL cell hyperplasia)"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "height",
+        "weight",
+        "body mass index (BMI)",
+        "smoking status",
+        "history of proton pump inhibitor use",
+        "duration of Barrett's esophagus",
+        "circumferential extent of Barrett's mucosa",
+        "maximal contiguous extent of Barrett's mucosa",
+        "Karnofsky performance status",
+        "white blood cell count",
+        "absolute neutrophil count",
+        "platelet count",
+        "creatinine level",
+        "total bilirubin level",
+        "AST level",
+        "ALT level"
+      ]
+    }
+  }
+}

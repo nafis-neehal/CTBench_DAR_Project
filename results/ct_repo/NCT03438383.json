@@ -1,0 +1,187 @@
+{
+  "trial_id": "NCT03438383",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Smoking Status, Baseline Pulmonary Function (FEV1, FVC, PEFR), Baseline SpO2, Comorbidities (e.g., diabetes, hypertension), Duration of Morbid Obesity, Type of Bariatric Surgery (gastroplasty by Mason or gastric bypass), Anesthetic Protocol Details, Preoperative Pulmonary Status, Baseline Hypoxemia Status, Baseline Atelectasis Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Body mass index-BMI",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Smoking",
+          "Smoking Status"
+        ],
+        [
+          "Type of open bariatric surgery (OBS): gastroplasty",
+          "Type of Bariatric Surgery (gastroplasty by Mason or gastric bypass)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Type of OBS: open gastric bypass"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Pulmonary Function (FEV1, FVC, PEFR)",
+        "Baseline SpO2",
+        "Comorbidities (e.g., diabetes, hypertension)",
+        "Duration of Morbid Obesity",
+        "Anesthetic Protocol Details",
+        "Preoperative Pulmonary Status",
+        "Baseline Hypoxemia Status",
+        "Baseline Atelectasis Status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Duration of Morbid Obesity, Type of Bariatric Surgery, Anesthetic Protocol, Baseline Pulmonary Function (FEV1, FVC, PEFR), Baseline SpO2,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body mass index-BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Type of open bariatric surgery (OBS): gastroplasty",
+          "Type of Bariatric Surgery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Smoking",
+        "Type of OBS: open gastric bypass"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Morbid Obesity",
+        "Anesthetic Protocol",
+        "Baseline Pulmonary Function (FEV1, FVC, PEFR)",
+        "Baseline SpO2"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Duration of Morbid Obesity, Previous Pulmonary Disease, Previous Cardiovascular Disease, Chronic Renal Disease, Preoperative FEV1, Preoperative FVC, Preoperative PEFR, Preoperative SpO2.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body mass index-BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height",
+        "Weight",
+        "Smoking",
+        "Type of open bariatric surgery (OBS): gastroplasty",
+        "Type of OBS: open gastric bypass"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Morbid Obesity",
+        "Previous Pulmonary Disease",
+        "Previous Cardiovascular Disease",
+        "Chronic Renal Disease",
+        "Preoperative FEV1",
+        "Preoperative FVC",
+        "Preoperative PEFR",
+        "Preoperative SpO2."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Sex, BMI, Weight, Height, Duration of Morbid Obesity, Previous Weight Loss Attempts, Comorbidities (COPD, Pulmonary Disease, Cardiovascular Disease, Chronic Renal Disease), Smoking Status, Anesthetic Protocol, Type of Bariatric Surgery (Gastroplasty or Gastric Bypass).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Body mass index-BMI",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "Height",
+          "Height"
+        ],
+        [
+          "Type of open bariatric surgery (OBS): gastroplasty",
+          "Type of Bariatric Surgery (Gastroplasty or Gastric Bypass)"
+        ],
+        [
+          "Type of OBS: open gastric bypass",
+          "Type of Bariatric Surgery (Gastroplasty or Gastric Bypass)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Smoking"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Morbid Obesity",
+        "Previous Weight Loss Attempts",
+        "Comorbidities (COPD, Pulmonary Disease, Cardiovascular Disease, Chronic Renal Disease)",
+        "Smoking Status",
+        "Anesthetic Protocol"
+      ]
+    }
+  }
+}

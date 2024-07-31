@@ -1,0 +1,181 @@
+{
+  "trial_id": "NCT02367105",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, testosterone levels, frailty status, weight stability, exercise frequency, presence of chronic diseases, cardiopulmonary disease history, orthopedic/musculoskeletal impairments, neuromuscular impairments, visual impairments, hearing impairments, cognitive impairment (Mini Mental State Exam Score), use of bone active drugs, diabetes status (fasting blood glucose, HbA1c), history of prostate or breast cancer, history of testicular disease, sleep apnea status, hematocrit levels, prostate-specific antigen (PSA) levels, International Prostate Symptom Score, history of venous thromboembolism, osteoporosis status, bone mineral density (BMD) T-score, history of osteoporosis-related fractures.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Total testosterone level",
+          "testosterone levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Physical Performance Test score"
+      ],
+      "remaining_candidate_features": [
+        "frailty status",
+        "weight stability",
+        "exercise frequency",
+        "presence of chronic diseases",
+        "cardiopulmonary disease history",
+        "orthopedic/musculoskeletal impairments",
+        "neuromuscular impairments",
+        "visual impairments",
+        "hearing impairments",
+        "cognitive impairment (Mini Mental State Exam Score)",
+        "use of bone active drugs",
+        "diabetes status (fasting blood glucose, HbA1c)",
+        "history of prostate or breast cancer",
+        "history of testicular disease",
+        "sleep apnea status",
+        "hematocrit levels",
+        "prostate-specific antigen (PSA) levels",
+        "International Prostate Symptom Score",
+        "history of venous thromboembolism",
+        "osteoporosis status",
+        "bone mineral density (BMD) T-score",
+        "history of osteoporosis-related fractures"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Body Mass Index, Baseline Testosterone Levels, Physical Performance Test Score, Frailty Status, Weight Stability, Sedentary Behavior,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Total testosterone level",
+          "Baseline Testosterone Levels"
+        ],
+        [
+          "Physical Performance Test score",
+          "Physical Performance Test Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Frailty Status",
+        "Weight Stability",
+        "Sedentary Behavior"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Total Testosterone, Free Testosterone, Hematocrit, Prostate-Specific Antigen, International Prostate Symptom Score, Mini Mental State Exam Score, Frailty Status, Comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Total testosterone level",
+          "Total Testosterone"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Physical Performance Test score"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Free Testosterone",
+        "Hematocrit",
+        "Prostate-Specific Antigen",
+        "International Prostate Symptom Score",
+        "Mini Mental State Exam Score",
+        "Frailty Status",
+        "Comorbidities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, BMI, testosterone level, physical function, frailty status, weight, exercise habits, comorbidities, Mini Mental State Exam Score, fasting blood glucose, HbA1c, hematocrit, serum PSA, International Prostate Symptom Score, BMD T-score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Total testosterone level",
+          "testosterone level"
+        ],
+        [
+          "Physical Performance Test score",
+          "physical function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "frailty status",
+        "weight",
+        "exercise habits",
+        "comorbidities",
+        "Mini Mental State Exam Score",
+        "fasting blood glucose",
+        "HbA1c",
+        "hematocrit",
+        "serum PSA",
+        "International Prostate Symptom Score",
+        "BMD T-score."
+      ]
+    }
+  }
+}

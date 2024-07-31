@@ -1,0 +1,208 @@
+{
+  "trial_id": "NCT02194465",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, body mass index (BMI), baseline seated systolic blood pressure (SBP), baseline seated diastolic blood pressure (DBP), history of hypertension, current antihypertensive medication use, serum potassium levels, estimated glomerular filtration rate (eGFR).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Baseline in Seated Systolic Blood Pressure (SBP)",
+          "baseline seated systolic blood pressure (SBP)"
+        ],
+        [
+          "Baseline in Seated Diastolic Blood Pressure (DBP)",
+          "baseline seated diastolic blood pressure (DBP)"
+        ],
+        [
+          "Anti-Hypertensive Medication",
+          "current antihypertensive medication use"
+        ],
+        [
+          "Chronic Kidney Disease (CKD)",
+          "estimated glomerular filtration rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "race",
+        "history of hypertension",
+        "serum potassium levels"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Seated Systolic Blood Pressure, Seated Diastolic Blood Pressure, Serum Potassium, Estimated Glomerular Filtration Rate (eGFR), Use of Antihypertensive Medications, Duration of Hypertension,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline in Seated Systolic Blood Pressure (SBP)",
+          "Seated Systolic Blood Pressure"
+        ],
+        [
+          "Baseline in Seated Diastolic Blood Pressure (DBP)",
+          "Seated Diastolic Blood Pressure"
+        ],
+        [
+          "Anti-Hypertensive Medication",
+          "Use of Antihypertensive Medications"
+        ],
+        [
+          "Chronic Kidney Disease (CKD)",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Serum Potassium",
+        "Duration of Hypertension"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Number of Antihypertensive Medications, Serum Potassium Level, Estimated Glomerular Filtration Rate.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline in Seated Systolic Blood Pressure (SBP)",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Baseline in Seated Diastolic Blood Pressure (DBP)",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Anti-Hypertensive Medication",
+          "Number of Antihypertensive Medications"
+        ],
+        [
+          "Chronic Kidney Disease (CKD)",
+          "Estimated Glomerular Filtration Rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "History of Hypertension",
+        "Serum Potassium Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), history of hypertension, duration of hypertension, number and type of antihypertensive medications, seated systolic blood pressure (SBP), seated diastolic blood pressure (DBP), serum potassium levels, estimated glomerular filtration rate (eGFR).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Anti-Hypertensive Medication",
+          "number and type of antihypertensive medications"
+        ],
+        [
+          "Baseline in Seated Systolic Blood Pressure (SBP)",
+          "seated systolic blood pressure (SBP)"
+        ],
+        [
+          "Baseline in Seated Diastolic Blood Pressure (DBP)",
+          "seated diastolic blood pressure (DBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Chronic Kidney Disease (CKD)",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "history of hypertension",
+        "duration of hypertension",
+        "serum potassium levels",
+        "estimated glomerular filtration rate (eGFR)."
+      ]
+    }
+  }
+}

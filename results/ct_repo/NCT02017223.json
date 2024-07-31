@@ -1,0 +1,166 @@
+{
+  "trial_id": "NCT02017223",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ethnicity, physical activity level, blood pressure, sleep patterns, heart rate, galvanic skin response, blood glucose levels, geographic location, energy expenditure, sedentary behaviors, stress levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Region of Enrollment",
+          "geographic location"
+        ],
+        [
+          "accelerometry",
+          "physical activity level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "height",
+        "weight"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "blood pressure",
+        "sleep patterns",
+        "heart rate",
+        "galvanic skin response",
+        "blood glucose levels",
+        "energy expenditure",
+        "sedentary behaviors",
+        "stress levels"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Objective Physical Activity, Sleep Duration, Heart Rate, Blood Glucose Levels, Galvanic Skin Response,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "accelerometry",
+          "Objective Physical Activity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment",
+        "height",
+        "weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Sleep Duration",
+        "Heart Rate",
+        "Blood Glucose Levels",
+        "Galvanic Skin Response"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Objective weekly MVPA minutes, Adherence to MVPA guidelines at baseline, Objective average daily steps,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "height",
+        "weight",
+        "accelerometry"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Objective weekly MVPA minutes",
+        "Adherence to MVPA guidelines at baseline",
+        "Objective average daily steps"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), height, weight, waist circumference, blood pressure, heart rate, sleep duration, physical activity level, sedentary behavior, blood glucose levels, galvanic skin response, geographic location.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "height",
+          "height"
+        ],
+        [
+          "weight",
+          "weight"
+        ],
+        [
+          "accelerometry",
+          "physical activity level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "body mass index (BMI)",
+        "waist circumference",
+        "blood pressure",
+        "heart rate",
+        "sleep duration",
+        "sedentary behavior",
+        "blood glucose levels",
+        "galvanic skin response",
+        "geographic location."
+      ]
+    }
+  }
+}

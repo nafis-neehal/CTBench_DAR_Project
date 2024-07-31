@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT00910091",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, menopausal status, histological type of endometrial carcinoma, estrogen receptor (ER) status, ECOG performance status, measurable disease site, haemoglobin level, absolute neutrophil count (ANC), platelet count, serum creatinine level, serum AST level, serum ALT level, total serum bilirubin level, serum albumin level, cardiac function (NYHA class), prior surgery, prior radiotherapy, prior adjuvant chemotherapy, life expectancy, ability to swallow oral medication.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "menopausal status"
+        ],
+        [
+          "Eastern Cooperative Oncology Group(ECOG) Performance Status Score",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "BMI (Body Mass Index)",
+        "Race"
+      ],
+      "remaining_candidate_features": [
+        "histological type of endometrial carcinoma",
+        "estrogen receptor (ER) status",
+        "measurable disease site",
+        "haemoglobin level",
+        "absolute neutrophil count (ANC)",
+        "platelet count",
+        "serum creatinine level",
+        "serum AST level",
+        "serum ALT level",
+        "total serum bilirubin level",
+        "serum albumin level",
+        "cardiac function (NYHA class)",
+        "prior surgery",
+        "prior radiotherapy",
+        "prior adjuvant chemotherapy",
+        "life expectancy",
+        "ability to swallow oral medication"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, ECOG Performance Status, Estrogen Receptor (ER) Status, Hemoglobin, Absolute Neutrophil Count (ANC), Platelets, Serum Creatinine, Serum AST, Serum ALT, Total Serum Bilirubin, Serum Albumin, Cardiac Function (NYHA class), Prior Systemic Treatment for Endometrial Cancer, History of CNS Metastases,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Eastern Cooperative Oncology Group(ECOG) Performance Status Score",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Region of Enrollment",
+        "BMI (Body Mass Index)",
+        "Race"
+      ],
+      "remaining_candidate_features": [
+        "Estrogen Receptor (ER) Status",
+        "Hemoglobin",
+        "Absolute Neutrophil Count (ANC)",
+        "Platelets",
+        "Serum Creatinine",
+        "Serum AST",
+        "Serum ALT",
+        "Total Serum Bilirubin",
+        "Serum Albumin",
+        "Cardiac Function (NYHA class)",
+        "Prior Systemic Treatment for Endometrial Cancer",
+        "History of CNS Metastases"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Eastern Cooperative Oncology Group (ECOG) Performance Status, Histological diagnosis of endometrial carcinoma, Estrogen Receptor (ER) positivity, Number of prior systemic treatments, Time since last systemic treatment, Presence of measurable disease, Number of metastatic sites, Prior use of hormonal therapy, Prior use of chemotherapy, Prior use of targeted therapy, Prior use of antiangiogenic therapy, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Absolute Neutrophil Count (ANC), Platelets, Serum Creatinine, Serum AST, Serum ALT, Total Serum Bilirubin, Serum Albumin, New York Heart Association (NYHA) class.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Eastern Cooperative Oncology Group(ECOG) Performance Status Score",
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status"
+        ],
+        [
+          "BMI (Body Mass Index)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Race"
+      ],
+      "remaining_candidate_features": [
+        "Histological diagnosis of endometrial carcinoma",
+        "Estrogen Receptor (ER) positivity",
+        "Number of prior systemic treatments",
+        "Time since last systemic treatment",
+        "Presence of measurable disease",
+        "Number of metastatic sites",
+        "Prior use of hormonal therapy",
+        "Prior use of chemotherapy",
+        "Prior use of targeted therapy",
+        "Prior use of antiangiogenic therapy",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hemoglobin",
+        "Absolute Neutrophil Count (ANC)",
+        "Platelets",
+        "Serum Creatinine",
+        "Serum AST",
+        "Serum ALT",
+        "Total Serum Bilirubin",
+        "Serum Albumin",
+        "New York Heart Association (NYHA) class."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, ECOG performance status, histological subtype of endometrial carcinoma, ER positivity, prior adjuvant chemotherapy, prior radiotherapy, number and location of metastatic sites, measurable disease sites, life expectancy, hemoglobin, absolute neutrophil count, platelets, serum creatinine, serum AST, serum ALT, total serum bilirubin, serum albumin, cardiac function (NYHA class), menopausal status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "menopausal status"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group(ECOG) Performance Status Score",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "BMI (Body Mass Index)"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "histological subtype of endometrial carcinoma",
+        "ER positivity",
+        "prior adjuvant chemotherapy",
+        "prior radiotherapy",
+        "number and location of metastatic sites",
+        "measurable disease sites",
+        "life expectancy",
+        "hemoglobin",
+        "absolute neutrophil count",
+        "platelets",
+        "serum creatinine",
+        "serum AST",
+        "serum ALT",
+        "total serum bilirubin",
+        "serum albumin",
+        "cardiac function (NYHA class)"
+      ]
+    }
+  }
+}

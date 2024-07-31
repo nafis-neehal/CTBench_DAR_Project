@@ -1,0 +1,175 @@
+{
+  "trial_id": "NCT02285062",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, ECOG performance status, Histological subtype, Disease stage, Measurable disease by CT/MRI, Cumulative Illness Rating Scale (CIRS) score, Left Ventricular Ejection Fraction (LVEF), Peripheral neuropathy grade, Serostatus for HIV/HBV/HCV, Prior malignancies, Organ system scores.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Disease Stage of Diffuse Large B-Cell Lymphoma at Diagnosis",
+          "Disease stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Body Surface Area (BSA)",
+        "Creatinine Clearance",
+        "International Prognostic Index (IPI) Score",
+        "Presence of Bulky Disease"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Histological subtype",
+        "Measurable disease by CT/MRI",
+        "Cumulative Illness Rating Scale (CIRS) score",
+        "Left Ventricular Ejection Fraction (LVEF)",
+        "Peripheral neuropathy grade",
+        "Serostatus for HIV/HBV/HCV",
+        "Prior malignancies",
+        "Organ system scores."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Cumulative Illness Rating Scale (CIRS) score, Left Ventricular Ejection Fraction (LVEF), Peripheral neuropathy grade, Baseline tumor size,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Body Surface Area (BSA)",
+        "Creatinine Clearance",
+        "International Prognostic Index (IPI) Score",
+        "Presence of Bulky Disease",
+        "Disease Stage of Diffuse Large B-Cell Lymphoma at Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Cumulative Illness Rating Scale (CIRS) score",
+        "Left Ventricular Ejection Fraction (LVEF)",
+        "Peripheral neuropathy grade",
+        "Baseline tumor size"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, ECOG Performance Status, ABC Subtype, Ann Arbor Stage, International Prognostic Index (IPI) Score, Lactate Dehydrogenase (LDH) Level, Beta-2 Microglobulin Level, Bone Marrow Involvement, Extranodal Involvement, Bulky Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "International Prognostic Index (IPI) Score",
+          "International Prognostic Index (IPI) Score"
+        ],
+        [
+          "Presence of Bulky Disease",
+          "Bulky Disease"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Body Surface Area (BSA)",
+        "Creatinine Clearance",
+        "Disease Stage of Diffuse Large B-Cell Lymphoma at Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "ABC Subtype",
+        "Ann Arbor Stage",
+        "Lactate Dehydrogenase (LDH) Level",
+        "Beta-2 Microglobulin Level",
+        "Bone Marrow Involvement",
+        "Extranodal Involvement"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ECOG performance status, histological subtype of DLBCL, disease stage, presence of B symptoms, LDH level, bulky disease, number of extranodal sites involved, International Prognostic Index (IPI) score, CIRS score, LVEF, presence of peripheral neuropathy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "International Prognostic Index (IPI) Score",
+          "International Prognostic Index (IPI) score"
+        ],
+        [
+          "Presence of Bulky Disease",
+          "bulky disease"
+        ],
+        [
+          "Disease Stage of Diffuse Large B-Cell Lymphoma at Diagnosis",
+          "disease stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Body Surface Area (BSA)",
+        "Creatinine Clearance"
+      ],
+      "remaining_candidate_features": [
+        "histological subtype of DLBCL",
+        "presence of B symptoms",
+        "LDH level",
+        "number of extranodal sites involved",
+        "CIRS score",
+        "LVEF",
+        "presence of peripheral neuropathy"
+      ]
+    }
+  }
+}

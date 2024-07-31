@@ -1,0 +1,201 @@
+{
+  "trial_id": "NCT00375492",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, duration of type 2 diabetes, HbA1c, Body Mass Index (BMI), current oral antidiabetes agent regimen, baseline body weight, lipid-lowering agent use, history of medication use (e.g., exogenous insulin, thiazolidinedione, alpha-glucosidase inhibitor, Symlin injection, Byetta injection, gastrointestinal motility drugs, weight loss drugs, systemic corticosteroids), lifestyle modification program adherence.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Baseline Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Baseline Body Weight",
+          "baseline body weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Baseline Cholesterol",
+        "Baseline High Density Lipoprotein (HDL) Cholesterol",
+        "Baseline Homeostatic Model Assessment-Beta Cell (HOMA-B)",
+        "Baseline Homeostatic Model Assessment-Insulin Sensitivity (HOMA-S)",
+        "Baseline Low Density Lipoprotein (LDL) Cholesterol",
+        "Baseline Triglycerides",
+        "Baseline Waist Circumference"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "duration of type 2 diabetes",
+        "Body Mass Index (BMI)",
+        "current oral antidiabetes agent regimen",
+        "lipid-lowering agent use",
+        "history of medication use (e.g., exogenous insulin, thiazolidinedione, alpha-glucosidase inhibitor, Symlin injection, Byetta injection, gastrointestinal motility drugs, weight loss drugs, systemic corticosteroids)",
+        "lifestyle modification program adherence."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Duration of Diabetes, Current Oral Antidiabetes Agent Regimen, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Baseline Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Baseline Triglycerides",
+          "Triglycerides"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Baseline Body Weight",
+        "Baseline Cholesterol",
+        "Baseline High Density Lipoprotein (HDL) Cholesterol",
+        "Baseline Homeostatic Model Assessment-Beta Cell (HOMA-B)",
+        "Baseline Homeostatic Model Assessment-Insulin Sensitivity (HOMA-S)",
+        "Baseline Low Density Lipoprotein (LDL) Cholesterol",
+        "Baseline Waist Circumference"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Duration of Diabetes",
+        "Current Oral Antidiabetes Agent Regimen",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Diabetes duration, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, Waist Circumference, Fasting Glucose, Insulin Dose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Baseline Body Weight",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Baseline High Density Lipoprotein (HDL) Cholesterol",
+          "HDL Cholesterol"
+        ],
+        [
+          "Baseline Low Density Lipoprotein (LDL) Cholesterol",
+          "LDL Cholesterol"
+        ],
+        [
+          "Baseline Triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "Baseline Waist Circumference",
+          "Waist Circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Baseline Cholesterol",
+        "Baseline Homeostatic Model Assessment-Beta Cell (HOMA-B)",
+        "Baseline Homeostatic Model Assessment-Insulin Sensitivity (HOMA-S)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diabetes duration",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Fasting Glucose",
+        "Insulin Dose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, height, weight, BMI, HbA1c, duration of type 2 diabetes, type of oral antidiabetes agent regimen, systolic and diastolic blood pressure, heart rate, lipid profiles, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Baseline Body Weight",
+          "weight"
+        ],
+        [
+          "Baseline Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Baseline Cholesterol",
+          "lipid profiles"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Baseline High Density Lipoprotein (HDL) Cholesterol",
+        "Baseline Homeostatic Model Assessment-Beta Cell (HOMA-B)",
+        "Baseline Homeostatic Model Assessment-Insulin Sensitivity (HOMA-S)",
+        "Baseline Low Density Lipoprotein (LDL) Cholesterol",
+        "Baseline Triglycerides",
+        "Baseline Waist Circumference"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "height",
+        "BMI",
+        "duration of type 2 diabetes",
+        "type of oral antidiabetes agent regimen",
+        "systolic and diastolic blood pressure",
+        "heart rate",
+        "smoking status"
+      ]
+    }
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "trial_id": "NCT02521181",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, serum bicarbonate level, eGFR, blood pressure, lean body weight, urinary albumin:creatinine ratio, serum potassium level, heart failure status, history of urinary tract infections, presence of indwelling urinary catheter or urinary conduit, history of organ transplant, use of chronic immunosuppressive therapy, malignancy status, pregnancy status, life expectancy, use of supplemental oxygen, use of ACEI and ARBs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Serum Bicarbonate",
+          "serum bicarbonate level"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Systolic BP",
+          "blood pressure"
+        ],
+        [
+          "Lean Body Mass",
+          "lean body weight"
+        ],
+        [
+          "Urine Albumin / Creatinine Ratio",
+          "urinary albumin:creatinine ratio"
+        ],
+        [
+          "Serum Potassium",
+          "serum potassium level"
+        ],
+        [
+          "Congestive Heart Failure",
+          "heart failure status"
+        ],
+        [
+          "Ace/ARB Use",
+          "use of ACEI and ARBs"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "CKD Stage",
+        "Diabetes Mellitus",
+        "History of Heart Disease",
+        "COPD",
+        "Smoking Status",
+        "Weight",
+        "BMI",
+        "Urinary Ammonium",
+        "Urinary PH",
+        "Estimated DIetary Protein Intake"
+      ],
+      "remaining_candidate_features": [
+        "history of urinary tract infections",
+        "presence of indwelling urinary catheter or urinary conduit",
+        "history of organ transplant",
+        "use of chronic immunosuppressive therapy",
+        "malignancy status",
+        "pregnancy status",
+        "life expectancy",
+        "use of supplemental oxygen"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Bicarbonate, Estimated Glomerular Filtration Rate (eGFR), Urinary Albumin:Creatinine Ratio (ACR), Serum Potassium, Lean Body Weight,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Serum Bicarbonate",
+          "Serum Bicarbonate"
+        ],
+        [
+          "eGFR",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ],
+        [
+          "Urine Albumin / Creatinine Ratio",
+          "Urinary Albumin:Creatinine Ratio (ACR)"
+        ],
+        [
+          "Serum Potassium",
+          "Serum Potassium"
+        ],
+        [
+          "Lean Body Mass",
+          "Lean Body Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "CKD Stage",
+        "Diabetes Mellitus",
+        "History of Heart Disease",
+        "Congestive Heart Failure",
+        "COPD",
+        "Smoking Status",
+        "Weight",
+        "BMI",
+        "Systolic BP",
+        "Ace/ARB Use",
+        "Urinary Ammonium",
+        "Urinary PH",
+        "Estimated DIetary Protein Intake"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Lean Body Weight, Serum Bicarbonate, eGFR, Blood Pressure, Urinary Albumin:Creatinine Ratio, History of Chronic Kidney Disease, History of Cardiovascular Disease, Number of Antihypertensive and/or Diuretic Agents, Serum Potassium.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Lean Body Mass",
+          "Lean Body Weight"
+        ],
+        [
+          "Serum Bicarbonate",
+          "Serum Bicarbonate"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Urine Albumin / Creatinine Ratio",
+          "Urinary Albumin:Creatinine Ratio"
+        ],
+        [
+          "Serum Potassium",
+          "Serum Potassium"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "CKD Stage",
+        "Diabetes Mellitus",
+        "History of Heart Disease",
+        "Congestive Heart Failure",
+        "COPD",
+        "Smoking Status",
+        "Weight",
+        "BMI",
+        "Systolic BP",
+        "Ace/ARB Use",
+        "Urinary Ammonium",
+        "Urinary PH",
+        "Estimated DIetary Protein Intake"
+      ],
+      "remaining_candidate_features": [
+        "Blood Pressure",
+        "History of Chronic Kidney Disease",
+        "History of Cardiovascular Disease",
+        "Number of Antihypertensive and/or Diuretic Agents"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, lean body weight, serum bicarbonate level, eGFR, blood pressure, urinary albumin:creatinine ratio, number of antihypertensive and/or diuretic agents, medical history (including chronic kidney disease, heart failure, urinary tract infections), New York Heart Association Class, left ventricular ejection fraction, history of organ transplant, history of malignancy, history of immunosuppressive therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Lean Body Mass",
+          "lean body weight"
+        ],
+        [
+          "Serum Bicarbonate",
+          "serum bicarbonate level"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Urine Albumin / Creatinine Ratio",
+          "urinary albumin:creatinine ratio"
+        ],
+        [
+          "Number of Antihypertensive and/or Diuretic Agents",
+          "number of antihypertensive and/or diuretic agents"
+        ],
+        [
+          "Congestive Heart Failure",
+          "New York Heart Association Class"
+        ],
+        [
+          "History of Heart Disease",
+          "left ventricular ejection fraction"
+        ],
+        [
+          "Organ Transplant Recipients",
+          "history of organ transplant"
+        ],
+        [
+          "Malignancy Requiring Therapy",
+          "history of malignancy"
+        ],
+        [
+          "Chronic Immunosuppressive Therapy",
+          "history of immunosuppressive therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "CKD Stage",
+        "Diabetes Mellitus",
+        "COPD",
+        "Smoking Status",
+        "Weight",
+        "BMI",
+        "Systolic BP",
+        "Ace/ARB Use",
+        "Serum Potassium",
+        "Urinary Ammonium",
+        "Urinary PH",
+        "Estimated DIetary Protein Intake"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure",
+        "medical history (including chronic kidney disease, heart failure, urinary tract infections)"
+      ]
+    }
+  }
+}

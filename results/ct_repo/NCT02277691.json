@@ -1,0 +1,264 @@
+{
+  "trial_id": "NCT02277691",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, body mass index (BMI), baseline systolic blood pressure (SBP), baseline diastolic blood pressure (DBP), presence of diabetes mellitus, presence of chronic kidney disease (CKD), estimated glomerular filtration rate (eGFR), urinary albumin levels, history of cardiovascular diseases, history of cerebrovascular disorders, history of vascular diseases, hepatic function (AST/ALT levels), renal function (eGFR), sodium levels, potassium levels, history of gout, HbA1c levels, history of drug abuse, history of alcohol abuse.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Office Sitting Systolic Blood Pressure (SBP)",
+          "baseline systolic blood pressure (SBP)"
+        ],
+        [
+          "Office Sitting Diastolic Blood Pressure (DBP)",
+          "baseline diastolic blood pressure (DBP)"
+        ],
+        [
+          "Concurrent Diabetes Mellitus",
+          "presence of diabetes mellitus"
+        ],
+        [
+          "Concurrent Chronic Kidney Disease",
+          "presence of chronic kidney disease (CKD)"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate According To Creatinine (eGFRcreat)",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "History of Alcohol Consumption",
+          "history of alcohol abuse"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Smoking Classification",
+        "Duration of Hypertension",
+        "Medical History",
+        "Concurrent Medical Conditions",
+        "Medication History (Antihypertensives)"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "urinary albumin levels",
+        "history of cardiovascular diseases",
+        "history of cerebrovascular disorders",
+        "history of vascular diseases",
+        "hepatic function (AST/ALT levels)",
+        "renal function (eGFR)",
+        "sodium levels",
+        "potassium levels",
+        "history of gout",
+        "HbA1c levels",
+        "history of drug abuse"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, History of cardiovascular diseases, Baseline antihypertensive medication use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Office Sitting Systolic Blood Pressure (SBP)",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Office Sitting Diastolic Blood Pressure (DBP)",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate According To Creatinine (eGFRcreat)",
+          "eGFR"
+        ],
+        [
+          "Medical History",
+          "History of cardiovascular diseases"
+        ],
+        [
+          "Medication History (Antihypertensives)",
+          "Baseline antihypertensive medication use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Smoking Classification",
+        "History of Alcohol Consumption",
+        "Duration of Hypertension",
+        "Concurrent Diabetes Mellitus",
+        "Concurrent Chronic Kidney Disease",
+        "Concurrent Medical Conditions"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, History of Hypertension, History of Diabetes Mellitus, History of Chronic Kidney Disease, eGFRcreat, Urinary Albumin, History of Cardiovascular Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Office Sitting Systolic Blood Pressure (SBP)",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Office Sitting Diastolic Blood Pressure (DBP)",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate According To Creatinine (eGFRcreat)",
+          "eGFRcreat"
+        ],
+        [
+          "Concurrent Diabetes Mellitus",
+          "History of Diabetes Mellitus"
+        ],
+        [
+          "Concurrent Chronic Kidney Disease",
+          "History of Chronic Kidney Disease"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Smoking Classification",
+        "History of Alcohol Consumption",
+        "Duration of Hypertension",
+        "Medical History",
+        "Concurrent Medical Conditions",
+        "Medication History (Antihypertensives)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Heart Rate",
+        "History of Hypertension",
+        "Urinary Albumin",
+        "History of Cardiovascular Disease."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, medical history (including diabetes mellitus, chronic kidney disease, cardiovascular disease), concomitant medications, smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Office Sitting Systolic Blood Pressure (SBP)",
+          "systolic blood pressure (SBP)"
+        ],
+        [
+          "Office Sitting Diastolic Blood Pressure (DBP)",
+          "diastolic blood pressure (DBP)"
+        ],
+        [
+          "Concurrent Diabetes Mellitus",
+          "medical history (including diabetes mellitus, chronic kidney disease, cardiovascular disease)"
+        ],
+        [
+          "Concurrent Chronic Kidney Disease",
+          "medical history (including diabetes mellitus, chronic kidney disease, cardiovascular disease)"
+        ],
+        [
+          "Medical History",
+          "medical history (including diabetes mellitus, chronic kidney disease, cardiovascular disease)"
+        ],
+        [
+          "Concurrent Medical Conditions",
+          "medical history (including diabetes mellitus, chronic kidney disease, cardiovascular disease)"
+        ],
+        [
+          "Medication History (Antihypertensives)",
+          "concomitant medications"
+        ],
+        [
+          "Smoking Classification",
+          "smoking status"
+        ],
+        [
+          "History of Alcohol Consumption",
+          "alcohol consumption"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Duration of Hypertension",
+        "Estimated Glomerular Filtration Rate According To Creatinine (eGFRcreat)"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "heart rate"
+      ]
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "trial_id": "NCT04615624",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age, systolic blood pressure, diastolic blood pressure, pulse pressure, potassium levels, urine output, history of hypertensive disorder in pregnancy, presence of fetal anomaly, use of diuretics or potassium supplements, allergy/adverse reaction to furosemide, cervical dilation, presence of epidural.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex/Gender",
+        "Race/Ethnicity",
+        "obese",
+        "insurance",
+        "nulliparous",
+        "twin pregnancy",
+        "hypertension subtype"
+      ],
+      "remaining_candidate_features": [
+        "gestational age",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "pulse pressure",
+        "potassium levels",
+        "urine output",
+        "history of hypertensive disorder in pregnancy",
+        "presence of fetal anomaly",
+        "use of diuretics or potassium supplements",
+        "allergy/adverse reaction to furosemide",
+        "cervical dilation",
+        "presence of epidural"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulse Pressure, Potassium Levels, Urine Output, History of Hypertensive Disorders in Pregnancy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "obese",
+        "insurance",
+        "nulliparous",
+        "twin pregnancy",
+        "hypertension subtype"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Pulse Pressure",
+        "Potassium Levels",
+        "Urine Output",
+        "History of Hypertensive Disorders in Pregnancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gestational Age, Nulliparity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulse Pressure, Potassium Level, Urine Output,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "nulliparous",
+          "Nulliparity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex/Gender",
+        "Race/Ethnicity",
+        "obese",
+        "insurance",
+        "twin pregnancy",
+        "hypertension subtype"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Pulse Pressure",
+        "Potassium Level",
+        "Urine Output"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, gestational age, body mass index, race, ethnicity, parity, history of hypertension, history of pre-eclampsia, systolic blood pressure at baseline, diastolic blood pressure at baseline, pulse pressure at baseline, potassium level at baseline, urine output at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "nulliparous",
+          "parity"
+        ],
+        [
+          "hypertension subtype",
+          "history of hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex/Gender",
+        "obese",
+        "insurance",
+        "twin pregnancy"
+      ],
+      "remaining_candidate_features": [
+        "gestational age",
+        "body mass index",
+        "history of pre-eclampsia",
+        "systolic blood pressure at baseline",
+        "diastolic blood pressure at baseline",
+        "pulse pressure at baseline",
+        "potassium level at baseline",
+        "urine output at baseline"
+      ]
+    }
+  }
+}

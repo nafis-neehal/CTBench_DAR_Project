@@ -1,0 +1,195 @@
+{
+  "trial_id": "NCT04586127",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type of cancer, stage of cancer, treatment type, duration of treatment, race/ethnicity, socioeconomic status, education level, marital status, employment status, health insurance status, baseline quality of life, baseline psychological distress, baseline physical health, baseline social support.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Cancer diagnosis",
+          "type of cancer"
+        ],
+        [
+          "Stage at diagnosis",
+          "stage of cancer"
+        ],
+        [
+          "Insurance source",
+          "health insurance status"
+        ],
+        [
+          "School status",
+          "education level"
+        ],
+        [
+          "Working status",
+          "employment status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Time since diagnosis",
+        "Cohabitants"
+      ],
+      "remaining_candidate_features": [
+        "treatment type",
+        "duration of treatment",
+        "socioeconomic status",
+        "marital status",
+        "baseline quality of life",
+        "baseline psychological distress",
+        "baseline physical health",
+        "baseline social support"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Type, Cancer Stage, Treatment Type, Duration of Treatment, Socioeconomic Status, Education Level, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Cancer diagnosis",
+          "Cancer Type"
+        ],
+        [
+          "Stage at diagnosis",
+          "Cancer Stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Time since diagnosis",
+        "Insurance source",
+        "Cohabitants",
+        "School status",
+        "Working status"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Treatment Type",
+        "Duration of Treatment",
+        "Socioeconomic Status",
+        "Education Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Diagnosis, Current Cancer Treatment Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Cancer diagnosis",
+          "Cancer Diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Time since diagnosis",
+        "Stage at diagnosis",
+        "Insurance source",
+        "Cohabitants",
+        "School status",
+        "Working status"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Current Cancer Treatment Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, cancer type, cancer stage, treatment type, duration of treatment, education level, employment status, insurance status, household income, marital status, number of dependents, distance from treatment center.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Cancer diagnosis",
+          "cancer type"
+        ],
+        [
+          "Stage at diagnosis",
+          "cancer stage"
+        ],
+        [
+          "Insurance source",
+          "insurance status"
+        ],
+        [
+          "School status",
+          "education level"
+        ],
+        [
+          "Working status",
+          "employment status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Time since diagnosis",
+        "Cohabitants"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "treatment type",
+        "duration of treatment",
+        "household income",
+        "marital status",
+        "number of dependents",
+        "distance from treatment center"
+      ]
+    }
+  }
+}

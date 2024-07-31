@@ -1,0 +1,142 @@
+{
+  "trial_id": "NCT02762708",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Duration of Type 2 Diabetes, Baseline Fasting Glucose, Baseline Peak Glucose, Baseline Glucose AUC, Medication Use, Dietary Intake, Physical Activity Level, Baseline Gut Microbiome Composition",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "BMI",
+        "Duration of Type 2 Diabetes",
+        "Baseline Fasting Glucose",
+        "Baseline Peak Glucose",
+        "Baseline Glucose AUC",
+        "Medication Use",
+        "Dietary Intake",
+        "Physical Activity Level",
+        "Baseline Gut Microbiome Composition"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Duration of Diabetes, Fasting Glucose, Peak Glucose, Glucose AUC, Use of Diabetes Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Duration of Diabetes",
+        "Fasting Glucose",
+        "Peak Glucose",
+        "Glucose AUC",
+        "Use of Diabetes Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, Diabetes duration, HbA1c, Fasting glucose, Systolic blood pressure, Diastolic blood pressure, Total cholesterol, Triglycerides, HDL cholesterol, LDL cholesterol, Insulin use, Oral hypoglycemic agent use, History of cardiovascular disease, History of hypertension, History of dyslipidemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Diabetes duration",
+        "HbA1c",
+        "Fasting glucose",
+        "Systolic blood pressure",
+        "Diastolic blood pressure",
+        "Total cholesterol",
+        "Triglycerides",
+        "HDL cholesterol",
+        "LDL cholesterol",
+        "Insulin use",
+        "Oral hypoglycemic agent use",
+        "History of cardiovascular disease",
+        "History of hypertension",
+        "History of dyslipidemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, duration of type 2 diabetes, HbA1c, fasting glucose, peak glucose, glucose AUC, history of microvascular or macrovascular complications, medication use (including thiazolidinediones and antibiotics), smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "BMI",
+        "duration of type 2 diabetes",
+        "HbA1c",
+        "fasting glucose",
+        "peak glucose",
+        "glucose AUC",
+        "history of microvascular or macrovascular complications",
+        "medication use (including thiazolidinediones and antibiotics)",
+        "smoking status."
+      ]
+    }
+  }
+}

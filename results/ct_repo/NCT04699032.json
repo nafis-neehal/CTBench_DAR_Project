@@ -1,0 +1,184 @@
+{
+  "trial_id": "NCT04699032",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), total body weight, renal function (eGFR), medical history, vital signs, ECG results, safety laboratory results, serum albumin concentration, hemoglobin concentration, AST and ALT values, proteinuria, total bilirubin, alcohol and drug use history, concomitant medications, blood donation history, contraceptive use, pregnancy status, breastfeeding status, blood pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Weight",
+          "total body weight"
+        ],
+        [
+          "Estimated glomerular filtration rate",
+          "renal function (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "medical history",
+        "vital signs",
+        "ECG results",
+        "safety laboratory results",
+        "serum albumin concentration",
+        "hemoglobin concentration",
+        "AST and ALT values",
+        "proteinuria",
+        "total bilirubin",
+        "alcohol and drug use history",
+        "concomitant medications",
+        "blood donation history",
+        "contraceptive use",
+        "pregnancy status",
+        "breastfeeding status",
+        "blood pressure"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, eGFR, Serum albumin concentration, Hemoglobin concentration, Aspartate amino transaminase (AST), Alanine amino transaminase (ALT), Proteinuria, Total bilirubin, Systolic Blood Pressure, Diastolic Blood Pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Estimated glomerular filtration rate",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Serum albumin concentration",
+        "Hemoglobin concentration",
+        "Aspartate amino transaminase (AST)",
+        "Alanine amino transaminase (ALT)",
+        "Proteinuria",
+        "Total bilirubin",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Estimated Glomerular Filtration Rate (eGFR), Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Albumin, Aspartate Amino Transaminase (AST), Alanine Amino Transaminase (ALT), Total Bilirubin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Estimated glomerular filtration rate",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hemoglobin",
+        "Albumin",
+        "Aspartate Amino Transaminase (AST)",
+        "Alanine Amino Transaminase (ALT)",
+        "Total Bilirubin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), total body weight, eGFR, serum albumin concentration, hemoglobin concentration, aspartate amino transaminase (AST) or alanine amino transaminase (ALT) values, proteinuria, total bilirubin, systolic and diastolic blood pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Weight",
+          "total body weight"
+        ],
+        [
+          "Estimated glomerular filtration rate",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "serum albumin concentration",
+        "hemoglobin concentration",
+        "aspartate amino transaminase (AST) or alanine amino transaminase (ALT) values",
+        "proteinuria",
+        "total bilirubin",
+        "systolic and diastolic blood pressure."
+      ]
+    }
+  }
+}

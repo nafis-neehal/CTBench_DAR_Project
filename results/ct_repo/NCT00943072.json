@@ -1,0 +1,167 @@
+{
+  "trial_id": "NCT00943072",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline central retinal thickness, baseline best corrected visual acuity (BCVA), duration of CRVO, prior treatments for CRVO, presence of iris neovascularization, presence of vitreous hemorrhage, presence of traction retinal detachment, presence of preretinal fibrosis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Baseline Retinal Thickness by Optical Coherence Tomography (OCT)",
+          "baseline central retinal thickness"
+        ],
+        [
+          "Baseline Best Corrected Visual Acuity (BCVA) Letter Score",
+          "baseline best corrected visual acuity (BCVA)"
+        ],
+        [
+          "Time Since Central Retinal Vein Occlusion (CRVO) Diagnosis",
+          "duration of CRVO"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Baseline National Eye Institute 25-item Visual Function Questionnaire (NEI VFQ-25) Total Score",
+        "Baseline Intraocular Pressure",
+        "Number of Participants with Retinal Perfusion at Baseline"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "gender",
+        "prior treatments for CRVO",
+        "presence of iris neovascularization",
+        "presence of vitreous hemorrhage",
+        "presence of traction retinal detachment",
+        "presence of preretinal fibrosis"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Central Retinal Thickness, Baseline Best Corrected Visual Acuity (BCVA), Duration of CRVO, Presence of Iris Neovascularization, Presence of Vitreous Hemorrhage, Presence of Traction Retinal Detachment, Presence of Preretinal Fibrosis,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Baseline Retinal Thickness by Optical Coherence Tomography (OCT)",
+          "Baseline Central Retinal Thickness"
+        ],
+        [
+          "Baseline Best Corrected Visual Acuity (BCVA) Letter Score",
+          "Baseline Best Corrected Visual Acuity (BCVA)"
+        ],
+        [
+          "Time Since Central Retinal Vein Occlusion (CRVO) Diagnosis",
+          "Duration of CRVO"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Baseline National Eye Institute 25-item Visual Function Questionnaire (NEI VFQ-25) Total Score",
+        "Baseline Intraocular Pressure",
+        "Number of Participants with Retinal Perfusion at Baseline"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Presence of Iris Neovascularization",
+        "Presence of Vitreous Hemorrhage",
+        "Presence of Traction Retinal Detachment",
+        "Presence of Preretinal Fibrosis"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of CRVO, Baseline BCVA, Mean Central Retinal Thickness,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Baseline Retinal Thickness by Optical Coherence Tomography (OCT)",
+          "Mean Central Retinal Thickness"
+        ],
+        [
+          "Baseline Best Corrected Visual Acuity (BCVA) Letter Score",
+          "Baseline BCVA"
+        ],
+        [
+          "Time Since Central Retinal Vein Occlusion (CRVO) Diagnosis",
+          "Duration of CRVO"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Baseline National Eye Institute 25-item Visual Function Questionnaire (NEI VFQ-25) Total Score",
+        "Baseline Intraocular Pressure",
+        "Number of Participants with Retinal Perfusion at Baseline"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, duration of CRVO, mean central retinal thickness on OCT, ETDRS best corrected visual acuity, presence of iris neovascularization, vitreous hemorrhage, traction retinal detachment, or preretinal fibrosis involving the macula in either eye.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Baseline Retinal Thickness by Optical Coherence Tomography (OCT)",
+          "mean central retinal thickness on OCT"
+        ],
+        [
+          "Baseline Best Corrected Visual Acuity (BCVA) Letter Score",
+          "ETDRS best corrected visual acuity"
+        ],
+        [
+          "Time Since Central Retinal Vein Occlusion (CRVO) Diagnosis",
+          "duration of CRVO"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Baseline National Eye Institute 25-item Visual Function Questionnaire (NEI VFQ-25) Total Score",
+        "Baseline Intraocular Pressure",
+        "Number of Participants with Retinal Perfusion at Baseline"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "presence of iris neovascularization",
+        "vitreous hemorrhage",
+        "traction retinal detachment",
+        "or preretinal fibrosis involving the macula in either eye."
+      ]
+    }
+  }
+}

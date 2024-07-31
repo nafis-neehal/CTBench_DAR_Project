@@ -1,0 +1,193 @@
+{
+  "trial_id": "NCT02298946",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, prior treatments (e.g., chemotherapy, surgery), number of metastatic sites, liver function tests (e.g., ALT, AST, bilirubin), renal function tests (e.g., creatinine, creatinine clearance), hematologic parameters (e.g., leukocytes, neutrophil count, platelets), KRAS mutation status, presence of measurable disease by RECIST 1.1 criteria, life expectancy, history of autoimmune disease, history of inflammatory bowel disease, history of other malignancies, HIV status, use of immunosuppressive medications, pregnancy status, allergy history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Count of Participants with Pre-Treatment Biopsies",
+          "presence of measurable disease by RECIST 1.1 criteria"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "prior treatments (e.g., chemotherapy, surgery)",
+        "number of metastatic sites",
+        "liver function tests (e.g., ALT, AST, bilirubin)",
+        "renal function tests (e.g., creatinine, creatinine clearance)",
+        "hematologic parameters (e.g., leukocytes, neutrophil count, platelets)",
+        "KRAS mutation status",
+        "life expectancy",
+        "history of autoimmune disease",
+        "history of inflammatory bowel disease",
+        "history of other malignancies",
+        "HIV status",
+        "use of immunosuppressive medications",
+        "pregnancy status",
+        "allergy history."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Previous Chemotherapy Regimen, Liver Metastasis, Baseline Tumor Measurements, Leukocyte Count, Absolute Neutrophil Count, Platelet Count, Total Bilirubin, ALT, AST, Creatinine, Creatinine Clearance,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Count of Participants with Pre-Treatment Biopsies"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Previous Chemotherapy Regimen",
+        "Liver Metastasis",
+        "Baseline Tumor Measurements",
+        "Leukocyte Count",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Total Bilirubin",
+        "ALT",
+        "AST",
+        "Creatinine",
+        "Creatinine Clearance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior Chemotherapy, Prior Radiation Therapy, Number of Metastatic Sites, Liver Metastases, KRAS Status, Prior Cetuximab or Panitumumab, Leukocytes, Absolute Neutrophil Count, Platelets, Total Bilirubin, ALT, AST, Creatinine, Creatinine Clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Count of Participants with Pre-Treatment Biopsies"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Prior Chemotherapy",
+        "Prior Radiation Therapy",
+        "Number of Metastatic Sites",
+        "Liver Metastases",
+        "KRAS Status",
+        "Prior Cetuximab or Panitumumab",
+        "Leukocytes",
+        "Absolute Neutrophil Count",
+        "Platelets",
+        "Total Bilirubin",
+        "ALT",
+        "AST",
+        "Creatinine",
+        "Creatinine Clearance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, life expectancy, histopathological confirmation of Colorectal Carcinoma, prior oxaliplatin and irinotecan containing chemotherapeutic regimen, KRAS wild type tumor status, number and location of metastatic disease in the liver, measurable disease by RECIST 1.1 criteria, leukocytes, absolute neutrophil count, platelets, total bilirubin, ALT, AST, creatinine, creatinine clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Count of Participants with Pre-Treatment Biopsies",
+          "histopathological confirmation of Colorectal Carcinoma"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "life expectancy",
+        "prior oxaliplatin and irinotecan containing chemotherapeutic regimen",
+        "KRAS wild type tumor status",
+        "number and location of metastatic disease in the liver",
+        "measurable disease by RECIST 1.1 criteria",
+        "leukocytes",
+        "absolute neutrophil count",
+        "platelets",
+        "total bilirubin",
+        "ALT",
+        "AST",
+        "creatinine",
+        "creatinine clearance"
+      ]
+    }
+  }
+}

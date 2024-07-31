@@ -1,0 +1,208 @@
+{
+  "trial_id": "NCT02392351",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline office systolic blood pressure (OSBP), baseline 24-hour ambulatory systolic blood pressure (ASBP), renal artery diameter, renal artery length, estimated glomerular filtration rate (eGFR), presence of renal artery stenosis, presence of renal artery aneurysm, presence of fibromuscular dysplasia (FMD), presence of secondary hypertension, presence of type 1 diabetes mellitus, ejection fraction, history of heart failure hospitalization, presence of severe valvular heart disease, history of orthostatic hypotension.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Max Renal Artery Diameter",
+          "renal artery diameter"
+        ],
+        [
+          "Renal Artery Length",
+          "renal artery length"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Left Renal Artery",
+        "Left Renal Accessory Artery",
+        "Right Renal Artery",
+        "Right Renal Accessory Artery",
+        "Reference Renal Artery Diameter"
+      ],
+      "remaining_candidate_features": [
+        "baseline office systolic blood pressure (OSBP)",
+        "baseline 24-hour ambulatory systolic blood pressure (ASBP)",
+        "estimated glomerular filtration rate (eGFR)",
+        "presence of renal artery stenosis",
+        "presence of renal artery aneurysm",
+        "presence of fibromuscular dysplasia (FMD)",
+        "presence of secondary hypertension",
+        "presence of type 1 diabetes mellitus",
+        "ejection fraction",
+        "history of heart failure hospitalization",
+        "presence of severe valvular heart disease",
+        "history of orthostatic hypotension"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Office Systolic Blood Pressure, Ambulatory Systolic Blood Pressure, Renal Artery Diameter, Renal Artery Length, Estimated Glomerular Filtration Rate (eGFR), Ejection Fraction, History of Heart Failure, Valvular Heart Disease, Orthostatic Hypotension,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Renal Artery Diameter",
+          "Renal Artery Diameter"
+        ],
+        [
+          "Renal Artery Length",
+          "Renal Artery Length"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Left Renal Artery",
+        "Left Renal Accessory Artery",
+        "Right Renal Artery",
+        "Right Renal Accessory Artery",
+        "Max Renal Artery Diameter",
+        "Reference Renal Artery Diameter"
+      ],
+      "remaining_candidate_features": [
+        "Office Systolic Blood Pressure",
+        "Ambulatory Systolic Blood Pressure",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "Ejection Fraction",
+        "History of Heart Failure",
+        "Valvular Heart Disease",
+        "Orthostatic Hypotension"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Office Systolic Blood Pressure, Office Diastolic Blood Pressure, Average 24-hour Ambulatory Systolic Blood Pressure, Average 24-hour Ambulatory Diastolic Blood Pressure, eGFR, Diabetes Status, History of Cardiovascular Disease, Antihypertensive Medication Use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Left Renal Artery",
+        "Left Renal Accessory Artery",
+        "Right Renal Artery",
+        "Right Renal Accessory Artery",
+        "Max Renal Artery Diameter",
+        "Reference Renal Artery Diameter",
+        "Renal Artery Length"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Office Systolic Blood Pressure",
+        "Office Diastolic Blood Pressure",
+        "Average 24-hour Ambulatory Systolic Blood Pressure",
+        "Average 24-hour Ambulatory Diastolic Blood Pressure",
+        "eGFR",
+        "Diabetes Status",
+        "History of Cardiovascular Disease",
+        "Antihypertensive Medication Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), office systolic blood pressure (OSBP), average 24-hour ambulatory systolic blood pressure (ASBP), average 24-hour ambulatory diastolic blood pressure (ADBP), ejection fraction, estimated glomerular filtration rate (eGFR), presence of type 1 diabetes mellitus, presence of heart failure, presence of severe valvular heart disease, history of orthostatic hypotension, number of antihypertensive medications, duration of hypertension.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Max Renal Artery Diameter",
+          "office systolic blood pressure (OSBP)"
+        ],
+        [
+          "Reference Renal Artery Diameter",
+          "average 24-hour ambulatory systolic blood pressure (ASBP)"
+        ],
+        [
+          "Renal Artery Length",
+          "average 24-hour ambulatory diastolic blood pressure (ADBP)"
+        ],
+        [
+          "Left Renal Artery",
+          "ejection fraction"
+        ],
+        [
+          "Right Renal Artery",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Left Renal Accessory Artery",
+          "presence of type 1 diabetes mellitus"
+        ],
+        [
+          "Right Renal Accessory Artery",
+          "presence of heart failure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "presence of severe valvular heart disease",
+        "history of orthostatic hypotension",
+        "number of antihypertensive medications",
+        "duration of hypertension"
+      ]
+    }
+  }
+}

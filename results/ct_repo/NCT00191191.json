@@ -1,0 +1,142 @@
+{
+  "trial_id": "NCT00191191",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, clinical stage, performance status, prior chemotherapy regimens, smoking status, weight, height, baseline tumor size, comorbidities, baseline laboratory values (e.g., hemoglobin, white blood cell count, liver function tests), ECOG performance status, race/ethnicity, prior radiation therapy, baseline quality of life scores.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "Weight",
+          "weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Histological Types"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "gender",
+        "clinical stage",
+        "performance status",
+        "prior chemotherapy regimens",
+        "smoking status",
+        "baseline tumor size",
+        "comorbidities",
+        "baseline laboratory values (e.g., hemoglobin, white blood cell count, liver function tests)",
+        "race/ethnicity",
+        "prior radiation therapy",
+        "baseline quality of life scores"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Performance Status, Previous Chemotherapy Regimens, Clinical Stage, Body Mass Index, Smoking Status, Hemoglobin Levels, White Blood Cell Count, Platelet Count, Liver Function Tests, Renal Function Tests,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Histological Types",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Previous Chemotherapy Regimens",
+        "Clinical Stage",
+        "Body Mass Index",
+        "Smoking Status",
+        "Hemoglobin Levels",
+        "White Blood Cell Count",
+        "Platelet Count",
+        "Liver Function Tests",
+        "Renal Function Tests"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, ECOG Performance Status, Histological Subtype, Smoking Status, Number of Prior Chemotherapy Regimens, Time Since Initial Diagnosis, Time Since Last Chemotherapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Histological Types",
+          "Histological Subtype"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Gender",
+        "Smoking Status",
+        "Number of Prior Chemotherapy Regimens",
+        "Time Since Initial Diagnosis",
+        "Time Since Last Chemotherapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, performance status, clinical stage, number of prior chemotherapeutic regimens, time since diagnosis, time since last treatment, smoking history, presence of comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Histological Types",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "sex",
+        "race",
+        "ethnicity",
+        "clinical stage",
+        "number of prior chemotherapeutic regimens",
+        "time since diagnosis",
+        "time since last treatment",
+        "smoking history",
+        "presence of comorbidities"
+      ]
+    }
+  }
+}

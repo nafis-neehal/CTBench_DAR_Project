@@ -1,0 +1,196 @@
+{
+  "trial_id": "NCT02338362",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, baseline intraocular pressure, cup:disc ratio, humphrey visual field mean deviation, duration of glaucoma, use of glaucoma medications, smoking status, body mass index (BMI), history of ocular surgery, baseline visual acuity.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Mean intraocular pressure",
+          "baseline intraocular pressure"
+        ],
+        [
+          "Mean cup-disc ratio",
+          "cup:disc ratio"
+        ],
+        [
+          "Mean visual field mean deviation",
+          "humphrey visual field mean deviation"
+        ],
+        [
+          "Diagnosis",
+          "duration of glaucoma"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Mean number of ocular hypotensive medications",
+        "Prior laser trabeculoplasty",
+        "Mean central corneal thickness",
+        "Mean logMAR visual acuity"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "use of glaucoma medications",
+        "smoking status",
+        "body mass index (BMI)",
+        "history of ocular surgery",
+        "baseline visual acuity."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure, Cup-to-Disc Ratio, Visual Field Mean Deviation, Duration of Glaucoma/Ocular Hypertension, Use of Glaucoma Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Mean intraocular pressure",
+          "Baseline Intraocular Pressure"
+        ],
+        [
+          "Mean cup-disc ratio",
+          "Cup-to-Disc Ratio"
+        ],
+        [
+          "Mean visual field mean deviation",
+          "Visual Field Mean Deviation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Mean number of ocular hypotensive medications",
+        "Prior laser trabeculoplasty",
+        "Mean central corneal thickness",
+        "Mean logMAR visual acuity",
+        "Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Glaucoma/Ocular Hypertension",
+        "Use of Glaucoma Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cup:Disc Ratio, Humphrey Visual Field Mean Deviation, Intraocular Pressure, Glaucoma Diagnosis Duration,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Mean intraocular pressure",
+          "Intraocular Pressure"
+        ],
+        [
+          "Mean cup-disc ratio",
+          "Cup:Disc Ratio"
+        ],
+        [
+          "Mean visual field mean deviation",
+          "Humphrey Visual Field Mean Deviation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Mean number of ocular hypotensive medications",
+        "Prior laser trabeculoplasty",
+        "Mean central corneal thickness",
+        "Mean logMAR visual acuity",
+        "Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Glaucoma Diagnosis Duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, smoking status, duration of glaucoma, cup:disc ratio, Humphrey visual field mean deviation, intraocular pressure at baseline, number of glaucoma medications, best-corrected visual acuity.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Mean intraocular pressure",
+          "intraocular pressure at baseline"
+        ],
+        [
+          "Mean cup-disc ratio",
+          "cup:disc ratio"
+        ],
+        [
+          "Mean visual field mean deviation",
+          "Humphrey visual field mean deviation"
+        ],
+        [
+          "Mean logMAR visual acuity",
+          "best-corrected visual acuity"
+        ],
+        [
+          "Diagnosis",
+          "duration of glaucoma"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Mean number of ocular hypotensive medications",
+        "Prior laser trabeculoplasty",
+        "Mean central corneal thickness"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index",
+        "smoking status",
+        "number of glaucoma medications"
+      ]
+    }
+  }
+}

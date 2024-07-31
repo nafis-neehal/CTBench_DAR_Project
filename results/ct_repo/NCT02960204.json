@@ -1,0 +1,334 @@
+{
+  "trial_id": "NCT02960204",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Baseline HVPG, Child-Pugh Score, ALT levels, AST levels, Creatinine clearance, Use of NSBB, Use of nitrates, Use of diuretics, Use of lactulose, Use of rifaximin, Use of statins, Alpha-fetoprotein levels, HbA1c levels, History of cardiac arrhythmias, QTcF interval, History of malignancies, Diabetes status, HIV status, History of liver transplant, Use of controlled substances, Pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Hepatic Venous Pressure Gradient",
+          "Baseline HVPG"
+        ],
+        [
+          "Child-Pugh Score",
+          "Child-Pugh Score"
+        ],
+        [
+          "Taking Non-Selective Beta Blockers at Baseline",
+          "Use of NSBB"
+        ],
+        [
+          "Gallstones",
+          "ALT levels"
+        ],
+        [
+          "Cholecystectomy",
+          "AST levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Cirrhosis Baseline Status",
+        "Varices",
+        "Compensated Status with Varices",
+        "Model for End-Stage Liver Disease (MELD) Score",
+        "MELD Classification (Median Cut)",
+        "MELD Component: Total Bilirubin",
+        "MELD Component: Serum Creatine",
+        "MELD Component: International Normalized Ratio",
+        "Child-Pugh Classification",
+        "Child-Pugh Component: Total Bilirubin",
+        "Child-Pugh Component: Total Albumin",
+        "Child-Pugh Component: Ascites",
+        "Child-Pugh Component Hepatic Encephalopathy",
+        "Child-Pugh Component: Prothrombin Time (or International Normalized Ratio)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index (BMI)",
+        "Creatinine clearance",
+        "Use of nitrates",
+        "Use of diuretics",
+        "Use of lactulose",
+        "Use of rifaximin",
+        "Use of statins",
+        "Alpha-fetoprotein levels",
+        "HbA1c levels",
+        "History of cardiac arrhythmias",
+        "QTcF interval",
+        "History of malignancies",
+        "Diabetes status",
+        "HIV status",
+        "History of liver transplant",
+        "Use of controlled substances",
+        "Pregnancy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HVPG, Child-Pugh Score, ALT, AST, Creatinine Clearance, Alpha-fetoprotein, Diabetes Status, Use of NSBB, Nitrates, Diuretics, Lactulose, Rifaximin, or Statins,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hepatic Venous Pressure Gradient",
+          "Baseline HVPG"
+        ],
+        [
+          "Child-Pugh Score",
+          "Child-Pugh Score"
+        ],
+        [
+          "Taking Non-Selective Beta Blockers at Baseline",
+          "Use of NSBB"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Cirrhosis Baseline Status",
+        "Varices",
+        "Compensated Status with Varices",
+        "Model for End-Stage Liver Disease (MELD) Score",
+        "MELD Classification (Median Cut)",
+        "MELD Component: Total Bilirubin",
+        "MELD Component: Serum Creatine",
+        "MELD Component: International Normalized Ratio",
+        "Child-Pugh Classification",
+        "Child-Pugh Component: Total Bilirubin",
+        "Child-Pugh Component: Total Albumin",
+        "Child-Pugh Component: Ascites",
+        "Child-Pugh Component Hepatic Encephalopathy",
+        "Child-Pugh Component: Prothrombin Time (or International Normalized Ratio)",
+        "Gallstones",
+        "Cholecystectomy"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ALT",
+        "AST",
+        "Creatinine Clearance",
+        "Alpha-fetoprotein",
+        "Diabetes Status",
+        "Nitrates",
+        "Diuretics",
+        "Lactulose",
+        "Rifaximin",
+        "or Statins"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Child-Pugh Score, HVPG, ALT, AST, Creatinine Clearance, Diabetes Status, HbA1c, History of Decompensating Events.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hepatic Venous Pressure Gradient",
+          "HVPG"
+        ],
+        [
+          "Child-Pugh Score",
+          "Child-Pugh Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Taking Non-Selective Beta Blockers at Baseline",
+        "Cirrhosis Baseline Status",
+        "Varices",
+        "Compensated Status with Varices",
+        "Model for End-Stage Liver Disease (MELD) Score",
+        "MELD Classification (Median Cut)",
+        "MELD Component: Total Bilirubin",
+        "MELD Component: Serum Creatine",
+        "MELD Component: International Normalized Ratio",
+        "Child-Pugh Classification",
+        "Child-Pugh Component: Total Bilirubin",
+        "Child-Pugh Component: Total Albumin",
+        "Child-Pugh Component: Ascites",
+        "Child-Pugh Component Hepatic Encephalopathy",
+        "Child-Pugh Component: Prothrombin Time (or International Normalized Ratio)",
+        "Gallstones",
+        "Cholecystectomy"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "ALT",
+        "AST",
+        "Creatinine Clearance",
+        "Diabetes Status",
+        "HbA1c",
+        "History of Decompensating Events."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), cirrhosis etiology, Child-Pugh score, Model for End-Stage Liver Disease (MELD) score, presence of esophageal varices, presence of ascites, prior decompensating events, concomitant medications, liver function tests (ALT, AST, bilirubin, albumin), creatinine clearance, alpha-fetoprotein, HbA1c, history of diabetes, history of malignancies, history of cardiac arrhythmias.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Hepatic Venous Pressure Gradient",
+          "liver function tests (ALT, AST, bilirubin, albumin)"
+        ],
+        [
+          "Cirrhosis Baseline Status",
+          "cirrhosis etiology"
+        ],
+        [
+          "Varices",
+          "presence of esophageal varices"
+        ],
+        [
+          "Child-Pugh Score",
+          "Child-Pugh score"
+        ],
+        [
+          "Model for End-Stage Liver Disease (MELD) Score",
+          "Model for End-Stage Liver Disease (MELD) score"
+        ],
+        [
+          "Child-Pugh Component: Ascites",
+          "presence of ascites"
+        ],
+        [
+          "Child-Pugh Component: Total Bilirubin",
+          "liver function tests (ALT, AST, bilirubin, albumin)"
+        ],
+        [
+          "Child-Pugh Component: Prothrombin Time (or International Normalized Ratio)",
+          "liver function tests (ALT, AST, bilirubin, albumin)"
+        ],
+        [
+          "Child-Pugh Component: Total Albumin",
+          "liver function tests (ALT, AST, bilirubin, albumin)"
+        ],
+        [
+          "Child-Pugh Component: Hepatic Encephalopathy",
+          "prior decompensating events"
+        ],
+        [
+          "Child-Pugh Component: Prothrombin Time (or International Normalized Ratio)",
+          "liver function tests (ALT, AST, bilirubin, albumin)"
+        ],
+        [
+          "Child-Pugh Component: Total Bilirubin",
+          "liver function tests (ALT, AST, bilirubin, albumin)"
+        ],
+        [
+          "Child-Pugh Component: Total Albumin",
+          "liver function tests (ALT, AST, bilirubin, albumin)"
+        ],
+        [
+          "Child-Pugh Component: Ascites",
+          "presence of ascites"
+        ],
+        [
+          "Child-Pugh Component Hepatic Encephalopathy",
+          "prior decompensating events"
+        ],
+        [
+          "Child-Pugh Component: Prothrombin Time (or International Normalized Ratio)",
+          "liver function tests (ALT, AST, bilirubin, albumin)"
+        ],
+        [
+          "Gallstones",
+          "history of diabetes"
+        ],
+        [
+          "Cholecystectomy",
+          "history of malignancies"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Taking Non-Selective Beta Blockers at Baseline",
+        "Compensated Status with Varices",
+        "MELD Classification (Median Cut)",
+        "MELD Component: Total Bilirubin",
+        "MELD Component: Serum Creatine",
+        "MELD Component: International Normalized Ratio",
+        "Child-Pugh Classification",
+        "Child-Pugh Component: Total Bilirubin",
+        "Child-Pugh Component: Total Albumin",
+        "Child-Pugh Component: Ascites",
+        "Child-Pugh Component Hepatic Encephalopathy",
+        "Child-Pugh Component: Prothrombin Time (or International Normalized Ratio)"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "concomitant medications",
+        "creatinine clearance",
+        "alpha-fetoprotein",
+        "HbA1c",
+        "history of diabetes",
+        "history of malignancies",
+        "history of cardiac arrhythmias."
+      ]
+    }
+  }
+}

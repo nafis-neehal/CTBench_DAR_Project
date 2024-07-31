@@ -1,0 +1,254 @@
+{
+  "trial_id": "NCT01031680",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Duration of Type 2 Diabetes Mellitus, Baseline HbA1c Levels, Blood Pressure, Cardiovascular Disease History, Current Medications, Smoking Status, Renal Function (e.g., eGFR), Lipid Profile (e.g., LDL, HDL, Triglycerides), Ethnicity, Physical Activity Level, Socioeconomic Status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "T2DM duration",
+          "Duration of Type 2 Diabetes Mellitus"
+        ],
+        [
+          "HbA1c",
+          "Baseline HbA1c Levels"
+        ],
+        [
+          "eGFR",
+          "Renal Function (e.g., eGFR)"
+        ],
+        [
+          "Seated SBP",
+          "Blood Pressure"
+        ],
+        [
+          "Qualifying CV event",
+          "Cardiovascular Disease History"
+        ],
+        [
+          "Type of treatment",
+          "Current Medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age categorization",
+        "Female",
+        "Time from most recent qualifying CV event",
+        "Duration of hypertension",
+        "Congestive heart failure",
+        "Weight",
+        "Seated DBP",
+        "FBG",
+        "Concomitant medication with loop diuretics"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Smoking Status",
+        "Lipid Profile (e.g., LDL, HDL, Triglycerides)",
+        "Ethnicity",
+        "Physical Activity Level",
+        "Socioeconomic Status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Duration of diabetes, BMI, Weight, Waist circumference, Systolic blood pressure, Diastolic blood pressure, HbA1c, Fasting plasma glucose, Serum creatinine, eGFR, Total cholesterol, LDL cholesterol, HDL cholesterol, Triglycerides, Smoking status, Antihyperglycemic medications, Antihypertensive medications, Lipid-lowering medications",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Female",
+          "Sex"
+        ],
+        [
+          "T2DM duration",
+          "Duration of diabetes"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Seated SBP",
+          "Systolic blood pressure"
+        ],
+        [
+          "Seated DBP",
+          "Diastolic blood pressure"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age categorization",
+        "Qualifying CV event",
+        "Time from most recent qualifying CV event",
+        "Duration of hypertension",
+        "Congestive heart failure",
+        "FBG",
+        "Type of treatment",
+        "Concomitant medication with loop diuretics"
+      ],
+      "remaining_candidate_features": [
+        "Race",
+        "Waist circumference",
+        "Fasting plasma glucose",
+        "Serum creatinine",
+        "Total cholesterol",
+        "LDL cholesterol",
+        "HDL cholesterol",
+        "Triglycerides",
+        "Smoking status",
+        "Antihyperglycemic medications",
+        "Antihypertensive medications",
+        "Lipid-lowering medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, Diabetes duration, BMI, Systolic Blood Pressure, Diastolic blood pressure, HbA1c, Total cholesterol, LDL cholesterol, HDL cholesterol, Triglycerides, eGFR, History of cardiovascular disease, History of hypertension, Medications, Smoking history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Seated SBP",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Seated DBP",
+          "Diastolic blood pressure"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "T2DM duration",
+          "Diabetes duration"
+        ],
+        [
+          "Qualifying CV event",
+          "History of cardiovascular disease"
+        ],
+        [
+          "Duration of hypertension",
+          "History of hypertension"
+        ],
+        [
+          "Concomitant medication with loop diuretics",
+          "Medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age categorization",
+        "Female",
+        "Time from most recent qualifying CV event",
+        "Congestive heart failure",
+        "Weight",
+        "FBG",
+        "Type of treatment"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Ethnic Origin",
+        "Total cholesterol",
+        "LDL cholesterol",
+        "HDL cholesterol",
+        "Triglycerides",
+        "Smoking history"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, history of cardiovascular disease, systolic blood pressure, diastolic blood pressure, HbA1c levels, fasting plasma glucose levels, lipid profiles, estimated glomerular filtration rate (eGFR), use of anti-hypertensive medications, use of anti-diabetic medications, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "T2DM duration",
+          "duration of type 2 diabetes mellitus"
+        ],
+        [
+          "Qualifying CV event",
+          "history of cardiovascular disease"
+        ],
+        [
+          "Seated SBP",
+          "systolic blood pressure"
+        ],
+        [
+          "Seated DBP",
+          "diastolic blood pressure"
+        ],
+        [
+          "HbA1c",
+          "HbA1c levels"
+        ],
+        [
+          "eGFR",
+          "estimated glomerular filtration rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age categorization",
+        "Female",
+        "Time from most recent qualifying CV event",
+        "Duration of hypertension",
+        "Congestive heart failure",
+        "Weight",
+        "FBG",
+        "Type of treatment",
+        "Concomitant medication with loop diuretics"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "race",
+        "ethnicity",
+        "fasting plasma glucose levels",
+        "lipid profiles",
+        "use of anti-hypertensive medications",
+        "use of anti-diabetic medications",
+        "smoking status."
+      ]
+    }
+  }
+}

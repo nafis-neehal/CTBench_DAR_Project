@@ -1,0 +1,183 @@
+{
+  "trial_id": "NCT01044290",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, primary diagnosis, disease stage, duration of illness, comorbidities, baseline quality of life score, education level, marital status, employment status, socioeconomic status, smoking status, alcohol use, medication use, cognitive function, language proficiency.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "Highest level of Education",
+          "education level"
+        ],
+        [
+          "Financial Status",
+          "socioeconomic status"
+        ],
+        [
+          "Working Status",
+          "employment status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Palliative Performance Scale - Stratification variable",
+        "Religion"
+      ],
+      "remaining_candidate_features": [
+        "primary diagnosis",
+        "disease stage",
+        "duration of illness",
+        "comorbidities",
+        "baseline quality of life score",
+        "marital status",
+        "smoking status",
+        "alcohol use",
+        "medication use",
+        "cognitive function",
+        "language proficiency"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Serious Illness, Duration of Illness, Baseline Quality of Life Score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Palliative Performance Scale - Stratification variable",
+        "Highest level of Education",
+        "Religion",
+        "Financial Status",
+        "Working Status"
+      ],
+      "remaining_candidate_features": [
+        "Type of Serious Illness",
+        "Duration of Illness",
+        "Baseline Quality of Life Score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Primary Diagnosis, Karnofsky Performance Status, Charlson Comorbidity Index,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Palliative Performance Scale - Stratification variable",
+        "Highest level of Education",
+        "Religion",
+        "Financial Status",
+        "Working Status"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Primary Diagnosis",
+        "Karnofsky Performance Status",
+        "Charlson Comorbidity Index"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, marital status, education level, employment status, primary diagnosis, disease severity, comorbidities, functional status, quality of life at baseline, depression, anxiety, spiritual well-being, social support.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Highest level of Education",
+          "education level"
+        ],
+        [
+          "Working Status",
+          "employment status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Palliative Performance Scale - Stratification variable",
+        "Religion",
+        "Financial Status"
+      ],
+      "remaining_candidate_features": [
+        "marital status",
+        "primary diagnosis",
+        "disease severity",
+        "comorbidities",
+        "functional status",
+        "quality of life at baseline",
+        "depression",
+        "anxiety",
+        "spiritual well-being",
+        "social support"
+      ]
+    }
+  }
+}

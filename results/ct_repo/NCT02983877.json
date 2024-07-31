@@ -1,0 +1,235 @@
+{
+  "trial_id": "NCT02983877",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of bipolar disorder diagnosis, duration of hypertension diagnosis, baseline systolic blood pressure, baseline adherence to antihypertensive medication, baseline adherence to bipolar disorder medication, type of antihypertensive medication, type of mood stabilizing or antipsychotic medication, literacy level, language proficiency.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Age of hypertension diagnosis",
+          "duration of hypertension diagnosis"
+        ],
+        [
+          "Age of bipolar disorder diagnosis",
+          "duration of bipolar disorder diagnosis"
+        ],
+        [
+          "baseline adherence to antihypertensive medication",
+          "baseline adherence to antihypertensive medication"
+        ],
+        [
+          "baseline adherence to bipolar disorder medication",
+          "baseline adherence to bipolar disorder medication"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Years of education",
+        "Employment",
+        "Bipolar disorder type",
+        "hypertension-related hospitalizations",
+        "substance use-related hospitalizations",
+        "History of physical abuse",
+        "History of sexual abuse",
+        "Mental illness in the family",
+        "Smokes cigarettes",
+        "Median number of cigarettes smoked per day",
+        "BMI"
+      ],
+      "remaining_candidate_features": [
+        "baseline systolic blood pressure",
+        "type of antihypertensive medication",
+        "type of mood stabilizing or antipsychotic medication",
+        "literacy level",
+        "language proficiency"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Bipolar Disorder, Duration of Hypertension, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Baseline Adherence to Antihypertensives, Baseline Adherence to BD Medication,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Years of education",
+          "Duration of Bipolar Disorder"
+        ],
+        [
+          "Age of hypertension diagnosis",
+          "Duration of Hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Employment",
+        "Bipolar disorder type",
+        "Age of bipolar disorder diagnosis",
+        "hypertension-related hospitalizations",
+        "substance use-related hospitalizations",
+        "History of physical abuse",
+        "History of sexual abuse",
+        "Mental illness in the family",
+        "Smokes cigarettes",
+        "Median number of cigarettes smoked per day",
+        "BMI"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Systolic Blood Pressure",
+        "Baseline Diastolic Blood Pressure",
+        "Baseline Adherence to Antihypertensives",
+        "Baseline Adherence to BD Medication"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Bipolar Disorder Diagnosis Duration, Hypertension Diagnosis Duration, Systolic Blood Pressure, Diastolic Blood Pressure, Adherence to Antihypertensive Medication, Adherence to Bipolar Disorder Medication.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Age of hypertension diagnosis",
+          "Hypertension Diagnosis Duration"
+        ],
+        [
+          "Age of bipolar disorder diagnosis",
+          "Bipolar Disorder Diagnosis Duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Years of education",
+        "Employment",
+        "Bipolar disorder type",
+        "hypertension-related hospitalizations",
+        "substance use-related hospitalizations",
+        "History of physical abuse",
+        "History of sexual abuse",
+        "Mental illness in the family",
+        "Smokes cigarettes",
+        "Median number of cigarettes smoked per day",
+        "BMI"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Adherence to Antihypertensive Medication",
+        "Adherence to Bipolar Disorder Medication"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, employment status, marital status, duration of bipolar disorder, duration of hypertension, number of antihypertensive medications, number of mood stabilizing or antipsychotic medications, systolic blood pressure, diastolic blood pressure, body mass index, smoking status, comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Years of education",
+          "education level"
+        ],
+        [
+          "Employment",
+          "employment status"
+        ],
+        [
+          "Age of hypertension diagnosis",
+          "duration of hypertension"
+        ],
+        [
+          "Age of bipolar disorder diagnosis",
+          "duration of bipolar disorder"
+        ],
+        [
+          "BMI",
+          "body mass index"
+        ],
+        [
+          "Smokes cigarettes",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Bipolar disorder type",
+        "hypertension-related hospitalizations",
+        "substance use-related hospitalizations",
+        "History of physical abuse",
+        "History of sexual abuse",
+        "Mental illness in the family",
+        "Median number of cigarettes smoked per day"
+      ],
+      "remaining_candidate_features": [
+        "marital status",
+        "number of antihypertensive medications",
+        "number of mood stabilizing or antipsychotic medications",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "comorbidities"
+      ]
+    }
+  }
+}

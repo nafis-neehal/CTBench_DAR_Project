@@ -1,0 +1,232 @@
+{
+  "trial_id": "NCT00864227",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race/ethnicity, diagnosis (type of leukemia or lymphoma), disease status (e.g., complete remission), prior chemotherapy, HLA match status, left ventricular ejection fraction, bilirubin levels, ALT levels, AST levels, alkaline phosphatase levels, serum creatinine levels, creatinine clearance or GFR, FEV1, FVC, DLCO, oxygen saturation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "Primary Disease",
+          "diagnosis (type of leukemia or lymphoma)"
+        ],
+        [
+          "HLA Typing Match Score - 1st Cord",
+          "HLA match status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Karnofsky Performance-status Score",
+        "HLA Typing Match Score - 2nd Cord",
+        "HLA Typing Match Score - 1st Cord to 2nd Cord"
+      ],
+      "remaining_candidate_features": [
+        "disease status (e.g., complete remission)",
+        "prior chemotherapy",
+        "left ventricular ejection fraction",
+        "bilirubin levels",
+        "ALT levels",
+        "AST levels",
+        "alkaline phosphatase levels",
+        "serum creatinine levels",
+        "creatinine clearance or GFR",
+        "FEV1",
+        "FVC",
+        "DLCO",
+        "oxygen saturation"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Disease Type, Disease Status at Transplant, Pre-cryopreserved nucleated cell dose, HLA matching, Left ventricular ejection fraction, Bilirubin, ALT, AST, Alkaline phosphatase, Serum creatinine, Creatinine clearance, GFR, FEV1, FVC, DLCO, O2 saturation,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Primary Disease",
+          "Disease Type"
+        ],
+        [
+          "HLA Typing Match Score - 1st Cord",
+          "HLA matching"
+        ],
+        [
+          "HLA Typing Match Score - 2nd Cord",
+          "HLA matching"
+        ],
+        [
+          "HLA Typing Match Score - 1st Cord to 2nd Cord",
+          "HLA matching"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Karnofsky Performance-status Score"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Disease Status at Transplant",
+        "Pre-cryopreserved nucleated cell dose",
+        "Left ventricular ejection fraction",
+        "Bilirubin",
+        "ALT",
+        "AST",
+        "Alkaline phosphatase",
+        "Serum creatinine",
+        "Creatinine clearance",
+        "GFR",
+        "FEV1",
+        "FVC",
+        "DLCO",
+        "O2 saturation"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Disease Status, Performance Status, Prior Chemotherapy, Prior Radiation Therapy, HLA Match, Umbilical Cord Blood Unit Characteristics, Donor-Recipient HLA Match, Pre-transplant Comorbidities, Organ Function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Primary Disease",
+          "Disease Status"
+        ],
+        [
+          "HLA Typing Match Score - 1st Cord",
+          "HLA Match"
+        ],
+        [
+          "HLA Typing Match Score - 2nd Cord",
+          "Umbilical Cord Blood Unit Characteristics"
+        ],
+        [
+          "HLA Typing Match Score - 1st Cord to 2nd Cord",
+          "Donor-Recipient HLA Match"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Karnofsky Performance-status Score"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Performance Status",
+        "Prior Chemotherapy",
+        "Prior Radiation Therapy",
+        "Pre-transplant Comorbidities",
+        "Organ Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, performance status, disease type, disease status, number of prior chemotherapy regimens, time from diagnosis to transplant, prior radiation therapy, HLA typing, cytogenetics, minimal residual disease status, left ventricular ejection fraction, bilirubin, alanine aminotransferase, aspartate aminotransferase, alkaline phosphatase, serum creatinine, creatinine clearance, glomerular filtration rate, forced expiratory volume in one second, forced vital capacity, carbon monoxide diffusing capacity, oxygen saturation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Karnofsky Performance-status Score",
+          "performance status"
+        ],
+        [
+          "Primary Disease",
+          "disease type"
+        ],
+        [
+          "HLA Typing Match Score - 1st Cord",
+          "HLA typing"
+        ],
+        [
+          "HLA Typing Match Score - 2nd Cord",
+          "HLA typing"
+        ],
+        [
+          "HLA Typing Match Score - 1st Cord to 2nd Cord",
+          "HLA typing"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "disease status",
+        "number of prior chemotherapy regimens",
+        "time from diagnosis to transplant",
+        "prior radiation therapy",
+        "cytogenetics",
+        "minimal residual disease status",
+        "left ventricular ejection fraction",
+        "bilirubin",
+        "alanine aminotransferase",
+        "aspartate aminotransferase",
+        "alkaline phosphatase",
+        "serum creatinine",
+        "creatinine clearance",
+        "glomerular filtration rate",
+        "forced expiratory volume in one second",
+        "forced vital capacity",
+        "carbon monoxide diffusing capacity",
+        "oxygen saturation"
+      ]
+    }
+  }
+}

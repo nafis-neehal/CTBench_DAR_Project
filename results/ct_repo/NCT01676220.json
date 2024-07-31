@@ -1,0 +1,170 @@
+{
+  "trial_id": "NCT01676220",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Duration of Type 2 Diabetes Mellitus, Baseline HbA1c, Body Mass Index (BMI), Current non-insulin antihyperglycemic therapy, History of insulin use, Presence of diabetic retinopathy, Baseline fasting plasma glucose, Ethnicity, Blood pressure, Lipid profile, Renal function (e.g., serum creatinine, eGFR), Liver function tests (e.g., ALT, AST), Smoking status, Physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Type 2 Diabetes Mellitus"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Basal Insulin Daily Dose"
+      ],
+      "remaining_candidate_features": [
+        "Current non-insulin antihyperglycemic therapy",
+        "History of insulin use",
+        "Presence of diabetic retinopathy",
+        "Baseline fasting plasma glucose",
+        "Ethnicity",
+        "Blood pressure",
+        "Lipid profile",
+        "Renal function (e.g., serum creatinine, eGFR)",
+        "Liver function tests (e.g., ALT, AST)",
+        "Smoking status",
+        "Physical activity level"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Use of Non-insulin Antihyperglycemic Drugs,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Basal Insulin Daily Dose"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "Use of Non-insulin Antihyperglycemic Drugs"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, HbA1c, BMI, Non-insulin Antidiabetic Therapy, History of Hypoglycemia,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes Duration"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Basal Insulin Daily Dose"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Non-insulin Antidiabetic Therapy",
+        "History of Hypoglycemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at baseline, fasting plasma glucose at baseline, non-insulin antidiabetic therapy at baseline, history of hypertension, history of cardiovascular disease, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "HbA1c at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Basal Insulin Daily Dose"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "fasting plasma glucose at baseline",
+        "non-insulin antidiabetic therapy at baseline",
+        "history of hypertension",
+        "history of cardiovascular disease",
+        "smoking status."
+      ]
+    }
+  }
+}

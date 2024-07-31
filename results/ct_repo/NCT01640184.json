@@ -1,0 +1,191 @@
+{
+  "trial_id": "NCT01640184",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of chronic kidney disease, stage of chronic kidney disease, baseline intact parathyroid hormone (iPTH) levels, presence of parathyroid nodular or diffuse hyperplasia, previous treatments for hyperparathyroidism, comorbid conditions (e.g., history of myocardial infarction, congestive heart failure, stroke), medication history, ultrasound imaging findings, radioisotope scan findings, baseline serum calcium levels, baseline serum phosphorus levels, baseline vitamin D levels, baseline renal function (e.g., glomerular filtration rate).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "iPTH-baseline",
+          "baseline intact parathyroid hormone (iPTH) levels"
+        ],
+        [
+          "Ca-baseline",
+          "baseline serum calcium levels"
+        ],
+        [
+          "P-baseline",
+          "baseline serum phosphorus levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "BALP-baseline"
+      ],
+      "remaining_candidate_features": [
+        "duration of chronic kidney disease",
+        "stage of chronic kidney disease",
+        "presence of parathyroid nodular or diffuse hyperplasia",
+        "previous treatments for hyperparathyroidism",
+        "comorbid conditions (e.g., history of myocardial infarction, congestive heart failure, stroke)",
+        "medication history",
+        "ultrasound imaging findings",
+        "radioisotope scan findings",
+        "baseline vitamin D levels",
+        "baseline renal function (e.g., glomerular filtration rate)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Chronic Kidney Disease, Baseline Intact Parathyroid Hormone (iPTH) Levels, Baseline Serum Calcium Levels, Baseline Serum Phosphorus Levels, Baseline Serum Alkaline Phosphatase Levels, Baseline Serum 25-Hydroxyvitamin D Levels, Baseline Serum Creatinine Levels, Baseline Estimated Glomerular Filtration Rate (eGFR), History of Parathyroid Surgery, History of Neck Surgery, History of Neck Irradiation, Use of Vitamin D Derivatives, Use of Calcimimetics,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Ca-baseline",
+          "Baseline Serum Calcium Levels"
+        ],
+        [
+          "P-baseline",
+          "Baseline Serum Phosphorus Levels"
+        ],
+        [
+          "iPTH-baseline",
+          "Baseline Intact Parathyroid Hormone (iPTH) Levels"
+        ],
+        [
+          "BALP-baseline",
+          "Baseline Serum Alkaline Phosphatase Levels"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Duration of Chronic Kidney Disease",
+        "Baseline Serum 25-Hydroxyvitamin D Levels",
+        "Baseline Serum Creatinine Levels",
+        "Baseline Estimated Glomerular Filtration Rate (eGFR)",
+        "History of Parathyroid Surgery",
+        "History of Neck Surgery",
+        "History of Neck Irradiation",
+        "Use of Vitamin D Derivatives",
+        "Use of Calcimimetics"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, CKD Stage, iPTH Level, Parathyroid Gland Size, Calcium Level, Phosphorus Level, Vitamin D Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "iPTH-baseline",
+          "iPTH Level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Ca-baseline",
+        "P-baseline",
+        "BALP-baseline"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "CKD Stage",
+        "Parathyroid Gland Size",
+        "Calcium Level",
+        "Phosphorus Level",
+        "Vitamin D Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, body mass index (BMI), CKD stage, duration of CKD, iPTH levels, parathyroid gland size, ultrasound imaging or radioisotope scan results, medical history (including cardiovascular disease, diabetes, hypertension), current medications, vitamin D levels, calcium levels, phosphorus levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "iPTH-baseline",
+          "iPTH levels"
+        ],
+        [
+          "Ca-baseline",
+          "calcium levels"
+        ],
+        [
+          "P-baseline",
+          "phosphorus levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "BALP-baseline"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "CKD stage",
+        "duration of CKD",
+        "parathyroid gland size",
+        "ultrasound imaging or radioisotope scan results",
+        "medical history (including cardiovascular disease, diabetes, hypertension)",
+        "current medications",
+        "vitamin D levels"
+      ]
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "trial_id": "NCT02559180",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline visual acuity, central subfield thickness, history of previous anti-VEGF treatment, duration of diabetic macular edema, presence of other ocular conditions, prior ocular surgeries, baseline intraocular pressure, presence of systemic conditions (e.g., diabetes duration, HbA1c levels), use of systemic medications, race/ethnicity, smoking status, body mass index (BMI).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Early Treatment Diabetic Retinopathy Study (ETDRS) letters scores",
+          "baseline visual acuity"
+        ],
+        [
+          "Optical Coherence Tomography (OCT) - Central Subfield Thickness (CST)",
+          "central subfield thickness"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "race/ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "OCT - Cube Volume",
+        "OCT - Average Thickness"
+      ],
+      "remaining_candidate_features": [
+        "history of previous anti-VEGF treatment",
+        "duration of diabetic macular edema",
+        "presence of other ocular conditions",
+        "prior ocular surgeries",
+        "baseline intraocular pressure",
+        "presence of systemic conditions (e.g., diabetes duration, HbA1c levels)",
+        "use of systemic medications",
+        "smoking status",
+        "body mass index (BMI)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline Visual Acuity, Central Subfield Thickness, Prior Anti-VEGF Treatment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Early Treatment Diabetic Retinopathy Study (ETDRS) letters scores",
+          "Baseline Visual Acuity"
+        ],
+        [
+          "Optical Coherence Tomography (OCT) - Central Subfield Thickness (CST)",
+          "Central Subfield Thickness"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "OCT - Cube Volume",
+        "OCT - Average Thickness"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "Prior Anti-VEGF Treatment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, HbA1c, Best-Corrected Visual Acuity, Central Subfield Thickness, Prior Anti-VEGF Injections, Prior Panretinal Photocoagulation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Early Treatment Diabetic Retinopathy Study (ETDRS) letters scores",
+          "Best-Corrected Visual Acuity"
+        ],
+        [
+          "Optical Coherence Tomography (OCT) - Central Subfield Thickness (CST)",
+          "Central Subfield Thickness"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "OCT - Cube Volume",
+        "OCT - Average Thickness"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diabetes Duration",
+        "HbA1c",
+        "Prior Anti-VEGF Injections",
+        "Prior Panretinal Photocoagulation."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, duration of diabetes, duration of diabetic macular edema, previous anti-VEGF treatment, best-corrected visual acuity, central subfield thickness, spherical equivalent, axial length, presence of vitreomacular adhesion, presence of epiretinal membrane, history of panretinal photocoagulation, history of cataract surgery, history of glaucoma, history of uveitis, history of corneal transplant or corneal dystrophy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Early Treatment Diabetic Retinopathy Study (ETDRS) letters scores",
+          "best-corrected visual acuity"
+        ],
+        [
+          "Optical Coherence Tomography (OCT) - Central Subfield Thickness (CST)",
+          "central subfield thickness"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "OCT - Cube Volume",
+        "OCT - Average Thickness"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "duration of diabetes",
+        "duration of diabetic macular edema",
+        "previous anti-VEGF treatment",
+        "spherical equivalent",
+        "axial length",
+        "presence of vitreomacular adhesion",
+        "presence of epiretinal membrane",
+        "history of panretinal photocoagulation",
+        "history of cataract surgery",
+        "history of glaucoma",
+        "history of uveitis",
+        "history of corneal transplant or corneal dystrophy"
+      ]
+    }
+  }
+}

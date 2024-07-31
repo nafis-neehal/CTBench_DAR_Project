@@ -1,0 +1,184 @@
+{
+  "trial_id": "NCT02269943",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, histological or cytological diagnosis, disease stage (locally advanced or metastatic), number of previous treatment regimens, prior platinum-based chemotherapy, organ function status, bone marrow function status, presence of measurable disease, prior major surgery, prior radiotherapy, prior investigational therapy, pregnancy status, presence of active cardiac disease, presence of HIV infection, history of gastrointestinal disorders, ability to swallow oral medication, presence of active bleeding conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Nasopharyngeal Cancer (NPC) Diagnosis Types",
+          "histological or cytological diagnosis"
+        ],
+        [
+          "Participants with Prior Anti-Cancer Therapies",
+          "number of previous treatment regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Time From Initial Diagnosis to First Dose"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "disease stage (locally advanced or metastatic)",
+        "prior platinum-based chemotherapy",
+        "organ function status",
+        "bone marrow function status",
+        "presence of measurable disease",
+        "prior major surgery",
+        "prior radiotherapy",
+        "prior investigational therapy",
+        "pregnancy status",
+        "presence of active cardiac disease",
+        "presence of HIV infection",
+        "history of gastrointestinal disorders",
+        "ability to swallow oral medication",
+        "presence of active bleeding conditions"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Previous treatment regimens, Organ function tests, Bone marrow function tests, Disease progression status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Participants with Prior Anti-Cancer Therapies",
+          "Previous treatment regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Time From Initial Diagnosis to First Dose",
+        "Nasopharyngeal Cancer (NPC) Diagnosis Types"
+      ],
+      "remaining_candidate_features": [
+        "Organ function tests",
+        "Bone marrow function tests",
+        "Disease progression status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological diagnosis, Number of previous regimens, Platinum-containing regimen, Radiographically-documented measurable disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Nasopharyngeal Cancer (NPC) Diagnosis Types",
+          "Histological diagnosis"
+        ],
+        [
+          "Participants with Prior Anti-Cancer Therapies",
+          "Number of previous regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Time From Initial Diagnosis to First Dose"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Platinum-containing regimen",
+        "Radiographically-documented measurable disease."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, histological diagnosis (undifferentiated or poorly differentiated nasopharyngeal carcinoma), number of previous regimens, platinum-containing regimen, presence of measurable disease, organ and bone marrow function tests (e.g., hemoglobin, platelet count, white blood cell count, creatinine, bilirubin, etc.), prior malignancies, history of brain metastasis, gastrointestinal disorders, cardiac disease, HIV infection, bleeding disorders, surgical history, prior anticancer therapy, radiation therapy, and pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Nasopharyngeal Cancer (NPC) Diagnosis Types",
+          "histological diagnosis (undifferentiated or poorly differentiated nasopharyngeal carcinoma)"
+        ],
+        [
+          "Participants with Prior Anti-Cancer Therapies",
+          "prior anticancer therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Time From Initial Diagnosis to First Dose"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "number of previous regimens",
+        "platinum-containing regimen",
+        "presence of measurable disease",
+        "organ and bone marrow function tests (e.g., hemoglobin, platelet count, white blood cell count, creatinine, bilirubin, etc.)",
+        "prior malignancies",
+        "history of brain metastasis",
+        "gastrointestinal disorders",
+        "cardiac disease",
+        "HIV infection",
+        "bleeding disorders",
+        "surgical history",
+        "radiation therapy",
+        "pregnancy status"
+      ]
+    }
+  }
+}

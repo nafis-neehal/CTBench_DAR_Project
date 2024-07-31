@@ -1,0 +1,151 @@
+{
+  "trial_id": "NCT03011567",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age at delivery, blood pressure at baseline, diagnosis of hypertensive disorder of pregnancy, renal function (serum creatinine), platelet count, liver function (AST/ALT levels), history of sensitivities to medications, use of anticoagulation, incidence of postpartum hemorrhage.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age",
+          "gestational age at delivery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure at baseline",
+        "diagnosis of hypertensive disorder of pregnancy",
+        "renal function (serum creatinine)",
+        "platelet count",
+        "liver function (AST/ALT levels)",
+        "history of sensitivities to medications",
+        "use of anticoagulation",
+        "incidence of postpartum hemorrhage"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational Age at Delivery, Blood Pressure at Baseline, Diagnosis of Hypertensive Disorder of Pregnancy, Renal Function (Serum Creatinine), Platelet Count, Liver Function (AST/ALT), Use of Anticoagulation, Race/Ethnicity, Region of Enrollment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age",
+          "Gestational Age at Delivery"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Blood Pressure at Baseline",
+        "Diagnosis of Hypertensive Disorder of Pregnancy",
+        "Renal Function (Serum Creatinine)",
+        "Platelet Count",
+        "Liver Function (AST/ALT)",
+        "Use of Anticoagulation"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gestational Age at Delivery, Parity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diagnosis of Hypertensive Disorder of Pregnancy,HELLP Syndrome, Eclampsia, Gestational Hypertension, Preeclampsia without Severe Features, Preeclampsia with Severe Features.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age",
+          "Gestational Age at Delivery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Parity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Diagnosis of Hypertensive Disorder of Pregnancy",
+        "HELLP Syndrome",
+        "Eclampsia",
+        "Gestational Hypertension",
+        "Preeclampsia without Severe Features",
+        "Preeclampsia with Severe Features"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, gestational age at delivery, parity, body mass index (BMI), history of hypertension, history of preeclampsia, severity of hypertensive disorder of pregnancy, systolic and diastolic blood pressure at randomization, serum creatinine level, platelet count, liver enzyme levels (AST and ALT), use of anticoagulation therapy, history of postpartum hemorrhage.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Gestational age",
+          "gestational age at delivery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "parity",
+        "body mass index (BMI)",
+        "history of hypertension",
+        "history of preeclampsia",
+        "severity of hypertensive disorder of pregnancy",
+        "systolic and diastolic blood pressure at randomization",
+        "serum creatinine level",
+        "platelet count",
+        "liver enzyme levels (AST and ALT)",
+        "use of anticoagulation therapy",
+        "history of postpartum hemorrhage"
+      ]
+    }
+  }
+}

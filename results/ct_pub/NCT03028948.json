@@ -1,0 +1,181 @@
+{
+  "trial_id": "NCT03028948",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Stage of Melanoma, Time Since Surgical Treatment, Internet Access, Language Proficiency, Adherence to Skin Self-Examination, Adherence to Sun Protection Recommendations",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Gender"
+        ],
+        [
+          "Time since Melanoma",
+          "Time Since Surgical Treatment"
+        ],
+        [
+          "Frequency of using the internet",
+          "Internet Access"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Level of Education",
+        "Annual household income",
+        "Marital status",
+        "Level of comfort using the internet",
+        "Number of melanoma risk",
+        "14 to 24 months disease stage"
+      ],
+      "remaining_candidate_features": [
+        "Stage of Melanoma",
+        "Language Proficiency",
+        "Adherence to Skin Self-Examination",
+        "Adherence to Sun Protection Recommendations"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Education, Employment status, Marital status, Stage of melanoma, Time since diagnosis, Internet access, Adherence to skin self-examination, Adherence to sun protection behaviors",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race"
+        ],
+        [
+          "Level of Education",
+          "Education"
+        ],
+        [
+          "Marital status",
+          "Marital status"
+        ],
+        [
+          "Time since Melanoma",
+          "Time since diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Annual household income",
+        "Frequency of using the internet",
+        "Level of comfort using the internet",
+        "Number of melanoma risk",
+        "14 to 24 months disease stage"
+      ],
+      "remaining_candidate_features": [
+        "Employment status",
+        "Stage of melanoma",
+        "Internet access",
+        "Adherence to skin self-examination",
+        "Adherence to sun protection behaviors"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Education, Marital status, Employment, Skin type, History of sunburn, History of skin cancer, Family history of skin cancer, Previous sun protection behaviors, Previous skin self-examination behaviors.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Level of Education",
+          "Education"
+        ],
+        [
+          "Marital status",
+          "Marital status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Annual household income",
+        "Frequency of using the internet",
+        "Level of comfort using the internet",
+        "Number of melanoma risk",
+        "Time since Melanoma",
+        "14 to 24 months disease stage"
+      ],
+      "remaining_candidate_features": [
+        "Employment",
+        "Skin type",
+        "History of sunburn",
+        "History of skin cancer",
+        "Family history of skin cancer",
+        "Previous sun protection behaviors",
+        "Previous skin self-examination behaviors"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, ethnicity, education level, income, occupation, marital status, smoking status, body mass index (BMI), time since diagnosis, stage of melanoma, treatment received, sun protection behavior index at baseline, frequency of skin self-examination at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Level of Education",
+          "education level"
+        ],
+        [
+          "Annual household income",
+          "income"
+        ],
+        [
+          "Marital status",
+          "marital status"
+        ],
+        [
+          "Time since Melanoma",
+          "time since diagnosis"
+        ],
+        [
+          "11. 14 to 24 months disease stage",
+          "stage of melanoma"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Frequency of using the internet",
+        "Level of comfort using the internet",
+        "Number of melanoma risk"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "occupation",
+        "smoking status",
+        "body mass index (BMI)",
+        "treatment received",
+        "sun protection behavior index at baseline",
+        "frequency of skin self-examination at baseline"
+      ]
+    }
+  }
+}

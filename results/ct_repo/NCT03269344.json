@@ -1,0 +1,193 @@
+{
+  "trial_id": "NCT03269344",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, ECOG performance status, gender, stage of cancer, baseline pain levels, baseline quality of life scores, prior medical history, concurrent medications, smoking status, alcohol use, baseline mucositis symptoms.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Smoking Status",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Primary Site",
+        "HPV Status",
+        "Clinical T Stage",
+        "Clinical N Stage",
+        "Type of Chemotherapy",
+        "Opioid Use at Baseline",
+        "Gross Tumor Volume of Primary Tumor",
+        "Gross Tumor Volume Total (cc)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "gender",
+        "stage of cancer",
+        "baseline pain levels",
+        "baseline quality of life scores",
+        "prior medical history",
+        "concurrent medications",
+        "alcohol use",
+        "baseline mucositis symptoms"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Stage of cancer, Baseline pain score, Baseline quality of life score, Use of opioid medication,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Opioid Use at Baseline",
+          "Use of opioid medication"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Smoking Status",
+        "Primary Site",
+        "HPV Status",
+        "Clinical T Stage",
+        "Clinical N Stage",
+        "Type of Chemotherapy",
+        "Gross Tumor Volume of Primary Tumor",
+        "Gross Tumor Volume Total (cc)"
+      ],
+      "remaining_candidate_features": [
+        "Stage of cancer",
+        "Baseline pain score",
+        "Baseline quality of life score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Chemotherapy Regimen, Radiation Therapy Dose, Tumor Stage, Tumor Location, Pain Score at Baseline, Opioid Use at Baseline, Quality of Life Score at Baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Type of Chemotherapy",
+          "Chemotherapy Regimen"
+        ],
+        [
+          "Opioid Use at Baseline",
+          "Opioid Use at Baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Smoking Status",
+        "Primary Site",
+        "HPV Status",
+        "Clinical T Stage",
+        "Clinical N Stage",
+        "Gross Tumor Volume of Primary Tumor",
+        "Gross Tumor Volume Total (cc)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Radiation Therapy Dose",
+        "Tumor Stage",
+        "Tumor Location",
+        "Pain Score at Baseline",
+        "Quality of Life Score at Baseline"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ECOG performance status, tumor stage, tumor location, chemotherapy regimen, radiation therapy dose, prior pain medication use, opioid use, quality of life score (PROMS), weight, height, body mass index (BMI), smoking status, alcohol use, medical comorbidities (e.g., diabetes, hypertension, cardiovascular disease).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Smoking Status",
+          "smoking status"
+        ],
+        [
+          "Clinical T Stage",
+          "tumor stage"
+        ],
+        [
+          "Type of Chemotherapy",
+          "chemotherapy regimen"
+        ],
+        [
+          "Opioid Use at Baseline",
+          "opioid use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Primary Site",
+        "HPV Status",
+        "Clinical N Stage",
+        "Gross Tumor Volume of Primary Tumor",
+        "Gross Tumor Volume Total (cc)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "tumor location",
+        "radiation therapy dose",
+        "prior pain medication use",
+        "quality of life score (PROMS)",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "alcohol use",
+        "medical comorbidities (e.g., diabetes, hypertension, cardiovascular disease)."
+      ]
+    }
+  }
+}

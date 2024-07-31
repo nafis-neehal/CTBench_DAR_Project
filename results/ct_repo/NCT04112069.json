@@ -1,0 +1,167 @@
+{
+  "trial_id": "NCT04112069",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 1 diabetes, HbA1c level, insulin pump usage duration, frequency of SMBG meter tests, use of CGM, pregnancy status, history of severe hypoglycemia, history of diabetic ketoacidosis (DKA), renal function (eGFR), history of cardiovascular disease, EKG findings, history of mental illness, use of medications affecting glucose regulation, history of eating disorders, use of SGLT2 inhibitors, use of GLP1, pramlintide, or metformin, use of steroids, history of inappropriate insulin administration.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "pregnancy status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "duration of type 1 diabetes",
+        "HbA1c level",
+        "insulin pump usage duration",
+        "frequency of SMBG meter tests",
+        "use of CGM",
+        "history of severe hypoglycemia",
+        "history of diabetic ketoacidosis (DKA)",
+        "renal function (eGFR)",
+        "history of cardiovascular disease",
+        "EKG findings",
+        "history of mental illness",
+        "use of medications affecting glucose regulation",
+        "history of eating disorders",
+        "use of SGLT2 inhibitors",
+        "use of GLP1",
+        "pramlintide",
+        "metformin",
+        "use of steroids",
+        "history of inappropriate insulin administration"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, HbA1c, Insulin Pump Use Duration, Daily SMBG Tests, CGM Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes",
+        "HbA1c",
+        "Insulin Pump Use Duration",
+        "Daily SMBG Tests",
+        "CGM Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Insulin Pump Use Duration, HbA1c, BMI, SMBG Frequency, CGM Use, History of Severe Hypoglycemia, History of DKA.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Diagnosis Duration",
+        "Insulin Pump Use Duration",
+        "HbA1c",
+        "BMI",
+        "SMBG Frequency",
+        "CGM Use",
+        "History of Severe Hypoglycemia",
+        "History of DKA"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of type 1 diabetes, HbA1c level, insulin pump usage, SMBG meter tests per day, CGM usage, history of severe hypoglycemia, history of diabetic ketoacidosis, presence of microvascular or macrovascular complications, concomitant medications, history of smoking or substance abuse.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "duration of type 1 diabetes",
+        "HbA1c level",
+        "insulin pump usage",
+        "SMBG meter tests per day",
+        "CGM usage",
+        "history of severe hypoglycemia",
+        "history of diabetic ketoacidosis",
+        "presence of microvascular or macrovascular complications",
+        "concomitant medications",
+        "history of smoking or substance abuse"
+      ]
+    }
+  }
+}

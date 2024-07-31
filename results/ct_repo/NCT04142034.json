@@ -1,0 +1,198 @@
+{
+  "trial_id": "NCT04142034",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI percentile, Rurality (RUCA code), Primary caregiver's relationship to child, Primary caregiver's age, Primary caregiver's gender, Primary caregiver's BMI, Primary caregiver's education level, Primary caregiver's employment status, Household income, Number of children in household, Physical activity level, Dietary habits, English proficiency, Availability for intervention sessions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Child body mass index",
+          "BMI percentile"
+        ],
+        [
+          "Caregiver body mass index",
+          "Primary caregiver's BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Child body mass index adjusted for age and sex",
+        "Daily sweetened drink servings",
+        "Daily fruit and vegetable servings",
+        "Daily servings of red foods",
+        "Average daily minutes of moderate to vigorous physical activity",
+        "MVPA (%)"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Rurality (RUCA code)",
+        "Primary caregiver's relationship to child",
+        "Primary caregiver's age",
+        "Primary caregiver's gender",
+        "Primary caregiver's education level",
+        "Primary caregiver's employment status",
+        "Household income",
+        "Number of children in household",
+        "Physical activity level",
+        "Dietary habits",
+        "English proficiency",
+        "Availability for intervention sessions."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Physical Activity Level, Dietary Habits, Caregiver's Education Level, Caregiver's Employment Status, Household Income,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Child body mass index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Child body mass index adjusted for age and sex",
+        "Caregiver body mass index",
+        "Daily sweetened drink servings",
+        "Daily fruit and vegetable servings",
+        "Daily servings of red foods",
+        "Average daily minutes of moderate to vigorous physical activity",
+        "MVPA (%)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Physical Activity Level",
+        "Dietary Habits",
+        "Caregiver's Education Level",
+        "Caregiver's Employment Status",
+        "Household Income"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Rural vs. Urban Residence, Primary Caregiver's Education Level, Household Income, Child's Physical Activity Level, Child's Dietary Habits, Caregiver's Physical Activity Level, Caregiver's Dietary Habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Child body mass index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Child body mass index adjusted for age and sex",
+        "Caregiver body mass index",
+        "Daily sweetened drink servings",
+        "Daily fruit and vegetable servings",
+        "Daily servings of red foods",
+        "Average daily minutes of moderate to vigorous physical activity",
+        "MVPA (%)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Rural vs. Urban Residence",
+        "Primary Caregiver's Education Level",
+        "Household Income",
+        "Child's Physical Activity Level",
+        "Child's Dietary Habits",
+        "Caregiver's Physical Activity Level",
+        "Caregiver's Dietary Habits"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI percentile, weight, height, rural vs. non-rural residence, primary caregiver's relationship to child, primary caregiver's education level, household income, access to healthcare, physical activity level, dietary habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Child body mass index",
+          "BMI percentile"
+        ],
+        [
+          "Average daily minutes of moderate to vigorous physical activity",
+          "physical activity level"
+        ],
+        [
+          "Daily fruit and vegetable servings",
+          "dietary habits"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Child body mass index adjusted for age and sex",
+        "Caregiver body mass index",
+        "Daily sweetened drink servings",
+        "Daily servings of red foods",
+        "MVPA (%)"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "rural vs. non-rural residence",
+        "primary caregiver's relationship to child",
+        "primary caregiver's education level",
+        "household income",
+        "access to healthcare"
+      ]
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "trial_id": "NCT00369655",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, ECOG performance status, hormone receptor status, HER2 status, prior chemotherapy regimens, prior trastuzumab treatment, WBC count, absolute neutrophil count, platelet count, hemoglobin level, bilirubin level, alkaline phosphatase level, AST level, ALT level, creatinine level, urine protein:creatinine ratio, life expectancy, history of cardiovascular disease, history of thromboembolic events, history of other malignancies, history of significant traumatic injury, history of allergy or hypersensitivity, history of abdominal fistula or gastrointestinal perforation, history of nonhealing wounds, history of lung carcinoma, history of bleeding diathesis, presence of active infection, concurrent medical conditions, prior hormonal therapy, prior radiotherapy, prior major surgery, concurrent anticoagulant use, concurrent antiretroviral therapy, concurrent participation in other clinical trials.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "sex"
+        ],
+        [
+          "ECOG Performance Score",
+          "ECOG performance status"
+        ],
+        [
+          "Human epidermal growth factor receptor 2 (HER2) Result",
+          "HER2 status"
+        ],
+        [
+          "Previous (Neo) Adjuvant Chemotherapy",
+          "prior chemotherapy regimens"
+        ],
+        [
+          "Number of Previous Chemotherapy Regimens",
+          "prior chemotherapy regimens"
+        ],
+        [
+          "Previous Hormonal Therapy",
+          "prior hormonal therapy"
+        ],
+        [
+          "Previous Trastuzumab",
+          "prior trastuzumab treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Cell type",
+        "Dominant Disease",
+        "Visceral Disease Site",
+        "Estrogen Receptor (ER) Result",
+        "Progesterone Receptor (PR) Result",
+        "Prior Anthracyclines",
+        "Prior Taxanes"
+      ],
+      "remaining_candidate_features": [
+        "WBC count",
+        "absolute neutrophil count",
+        "platelet count",
+        "hemoglobin level",
+        "bilirubin level",
+        "alkaline phosphatase level",
+        "AST level",
+        "ALT level",
+        "creatinine level",
+        "urine protein:creatinine ratio",
+        "life expectancy",
+        "history of cardiovascular disease",
+        "history of thromboembolic events",
+        "history of other malignancies",
+        "history of significant traumatic injury",
+        "history of allergy or hypersensitivity",
+        "history of abdominal fistula or gastrointestinal perforation",
+        "history of nonhealing wounds",
+        "history of lung carcinoma",
+        "history of bleeding diathesis",
+        "presence of active infection",
+        "concurrent medical conditions",
+        "prior radiotherapy",
+        "prior major surgery",
+        "concurrent anticoagulant use",
+        "concurrent antiretroviral therapy",
+        "concurrent participation in other clinical trials"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Hormone receptor status, HER2 status, Number of prior chemotherapy regimens, Prior trastuzumab treatment, White blood cell count, Absolute neutrophil count, Platelet count, Hemoglobin, Bilirubin, Alkaline phosphatase, AST, ALT, Creatinine, Urine protein:creatinine ratio,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "ECOG Performance Score",
+          "ECOG performance status"
+        ],
+        [
+          "Human epidermal growth factor receptor 2 (HER2) Result",
+          "HER2 status"
+        ],
+        [
+          "Number of Previous Chemotherapy Regimens",
+          "Number of prior chemotherapy regimens"
+        ],
+        [
+          "Previous Trastuzumab",
+          "Prior trastuzumab treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Cell type",
+        "Dominant Disease",
+        "Visceral Disease Site",
+        "Estrogen Receptor (ER) Result",
+        "Progesterone Receptor (PR) Result",
+        "Previous (Neo) Adjuvant Chemotherapy",
+        "Previous Hormonal Therapy",
+        "Prior Anthracyclines",
+        "Prior Taxanes"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Hormone receptor status",
+        "White blood cell count",
+        "Absolute neutrophil count",
+        "Platelet count",
+        "Hemoglobin",
+        "Bilirubin",
+        "Alkaline phosphatase",
+        "AST",
+        "ALT",
+        "Creatinine",
+        "Urine protein:creatinine ratio"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Menopausal Status, Hormone Receptor Status, Prior Chemotherapy Regimens, Prior Trastuzumab, Prior Radiotherapy, Prior Surgery, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Bilirubin, Alkaline Phosphatase, AST, ALT, Creatinine, Urine Protein:Creatinine Ratio.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "ECOG Performance Score",
+          "ECOG Performance Status"
+        ],
+        [
+          "Human epidermal growth factor receptor 2 (HER2) Result",
+          "Hormone Receptor Status"
+        ],
+        [
+          "Number of Previous Chemotherapy Regimens",
+          "Prior Chemotherapy Regimens"
+        ],
+        [
+          "Previous Trastuzumab",
+          "Prior Trastuzumab"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Cell type",
+        "Dominant Disease",
+        "Visceral Disease Site",
+        "Estrogen Receptor (ER) Result",
+        "Progesterone Receptor (PR) Result",
+        "Previous (Neo) Adjuvant Chemotherapy",
+        "Previous Hormonal Therapy",
+        "Prior Anthracyclines",
+        "Prior Taxanes"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Menopausal Status",
+        "Prior Radiotherapy",
+        "Prior Surgery",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hemoglobin",
+        "Bilirubin",
+        "Alkaline Phosphatase",
+        "AST",
+        "ALT",
+        "Creatinine",
+        "Urine Protein:Creatinine Ratio."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, menopausal status, hormone receptor status, HER2 status, number of prior chemotherapy regimens, prior taxane and/or anthracycline use, prior trastuzumab use, presence of measurable disease, presence of nonmeasurable disease, tumor size, tumor location, time since diagnosis, time since metastasis, life expectancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "sex"
+        ],
+        [
+          "ECOG Performance Score",
+          "ECOG performance status"
+        ],
+        [
+          "Human epidermal growth factor receptor 2 (HER2) Result",
+          "HER2 status"
+        ],
+        [
+          "Number of Previous Chemotherapy Regimens",
+          "number of prior chemotherapy regimens"
+        ],
+        [
+          "Previous Trastuzumab",
+          "prior trastuzumab use"
+        ],
+        [
+          "Prior Anthracyclines",
+          "prior taxane and/or anthracycline use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Cell type",
+        "Dominant Disease",
+        "Visceral Disease Site",
+        "Estrogen Receptor (ER) Result",
+        "Progesterone Receptor (PR) Result",
+        "Previous (Neo) Adjuvant Chemotherapy",
+        "Previous Hormonal Therapy",
+        "Prior Taxanes"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "menopausal status",
+        "hormone receptor status",
+        "presence of measurable disease",
+        "presence of nonmeasurable disease",
+        "tumor size",
+        "tumor location",
+        "time since diagnosis",
+        "time since metastasis",
+        "life expectancy."
+      ]
+    }
+  }
+}

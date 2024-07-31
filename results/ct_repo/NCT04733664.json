@@ -1,0 +1,159 @@
+{
+  "trial_id": "NCT04733664",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, dialysis duration, average interdialytic weight gain, type of A-V dialysis shunt, systolic blood pressure, history of significant allergic reactions, history of significant blood loss, use of midodrine, presence of ascites, presence of anasarca, psychiatric history, history of illicit drug use, primary vascular access for hemodialysis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "dialysis duration",
+        "average interdialytic weight gain",
+        "type of A-V dialysis shunt",
+        "systolic blood pressure",
+        "history of significant allergic reactions",
+        "history of significant blood loss",
+        "use of midodrine",
+        "presence of ascites",
+        "presence of anasarca",
+        "psychiatric history",
+        "history of illicit drug use",
+        "primary vascular access for hemodialysis."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Dialysis, Average Interdialytic Weight Gain, Type of A-V Dialysis Shunt, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Use of Midodrine, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Dialysis",
+        "Average Interdialytic Weight Gain",
+        "Type of A-V Dialysis Shunt",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hemoglobin",
+        "Use of Midodrine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Interdialytic weight gain, A-V dialysis shunt type, Fistula or graft, Average weekly dialysis duration, Average weekly ultrafiltration volume.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hemoglobin",
+        "Interdialytic weight gain",
+        "A-V dialysis shunt type",
+        "Fistula or graft",
+        "Average weekly dialysis duration",
+        "Average weekly ultrafiltration volume."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), systolic blood pressure, diastolic blood pressure, heart rate, medical history (including end stage renal disease, oliguria, and hemodialysis), dialysis vintage, type of vascular access, average interdialytic weight gain, presence of comorbidities (e.g., malignancies, neurological diseases).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "medical history (including end stage renal disease, oliguria, and hemodialysis)",
+        "dialysis vintage",
+        "type of vascular access",
+        "average interdialytic weight gain",
+        "presence of comorbidities (e.g., malignancies, neurological diseases)"
+      ]
+    }
+  }
+}

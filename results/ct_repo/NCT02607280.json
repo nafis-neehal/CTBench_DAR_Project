@@ -1,0 +1,150 @@
+{
+  "trial_id": "NCT02607280",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), duration of diabetes (for DPNP patients), duration of post-herpetic neuralgia (for PHN patients), creatinine clearance, baseline pain score, HbA1c level (for DPNP patients), use of pain medications, presence of comorbid conditions, smoking status, alcohol use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of diabetes (for DPNP patients)",
+        "duration of post-herpetic neuralgia (for PHN patients)",
+        "creatinine clearance",
+        "baseline pain score",
+        "HbA1c level (for DPNP patients)",
+        "use of pain medications",
+        "presence of comorbid conditions",
+        "smoking status",
+        "alcohol use."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Diabetes (Type 1 or Type 2), Duration of Diabetes, Baseline HbA1c, Creatinine Clearance, Pain Scale Score, Duration of Post-Herpetic Neuralgia,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Type of Diabetes (Type 1 or Type 2)",
+        "Duration of Diabetes",
+        "Baseline HbA1c",
+        "Creatinine Clearance",
+        "Pain Scale Score",
+        "Duration of Post-Herpetic Neuralgia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Creatinine clearance, Pain scale, Diabetes type, HbA1c, Duration of diabetes, Duration of pain,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Creatinine clearance",
+        "Pain scale",
+        "Diabetes type",
+        "HbA1c",
+        "Duration of diabetes",
+        "Duration of pain"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, body mass index (BMI), creatinine clearance, pain scale at screening, type of diabetes (for DPNP), duration of diabetes (for DPNP), HbA1c (for DPNP), presence of painful distal symmetric polyneuropathy (for DPNP), duration of PHN (for PHN), time since herpes zoster skin rash (for PHN).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "creatinine clearance",
+        "pain scale at screening",
+        "type of diabetes (for DPNP)",
+        "duration of diabetes (for DPNP)",
+        "HbA1c (for DPNP)",
+        "presence of painful distal symmetric polyneuropathy (for DPNP)",
+        "duration of PHN (for PHN)",
+        "time since herpes zoster skin rash (for PHN)"
+      ]
+    }
+  }
+}

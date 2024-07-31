@@ -1,0 +1,204 @@
+{
+  "trial_id": "NCT00890045",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, life expectancy, end-stage renal disease status, ability to provide informed consent, willingness to cooperate with follow-up, upper arm suitability for implant, ability to follow anticoagulation regimen, target artery diameter, history of drug abuse, recent surgical history, investigational device or drug treatment status, bleeding diathesis or hypercoagulable state, white blood cell count, platelet count, presence of degenerative connective tissue disease, infection status, underlying co-morbidities, condition affecting evaluation or follow-up, candidacy for autologous fistulas, scheduled renal transplant status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "History of Coronary artery disease",
+          "underlying co-morbidities"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "History of Diabetes mellitus",
+        "History of Hypertension",
+        "Access History"
+      ],
+      "remaining_candidate_features": [
+        "life expectancy",
+        "end-stage renal disease status",
+        "ability to provide informed consent",
+        "willingness to cooperate with follow-up",
+        "upper arm suitability for implant",
+        "ability to follow anticoagulation regimen",
+        "target artery diameter",
+        "history of drug abuse",
+        "recent surgical history",
+        "investigational device or drug treatment status",
+        "bleeding diathesis or hypercoagulable state",
+        "white blood cell count",
+        "platelet count",
+        "presence of degenerative connective tissue disease",
+        "infection status",
+        "condition affecting evaluation or follow-up",
+        "candidacy for autologous fistulas",
+        "scheduled renal transplant status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of End-Stage Renal Disease, Previous Vascular Access Procedures, Baseline Blood Pressure, Baseline Hemoglobin, Baseline Platelet Count, Baseline White Blood Cell Count, Baseline Serum Albumin, Baseline Serum Creatinine, Baseline Serum Calcium, Baseline Serum Phosphorus, Baseline Parathyroid Hormone, Baseline C-Reactive Protein, Baseline Use of Anticoagulants/Antiplatelets,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Access History",
+          "Previous Vascular Access Procedures"
+        ]
+      ],
+      "remaining_reference_features": [
+        "History of Coronary artery disease",
+        "History of Diabetes mellitus",
+        "History of Hypertension"
+      ],
+      "remaining_candidate_features": [
+        "Duration of End-Stage Renal Disease",
+        "Baseline Blood Pressure",
+        "Baseline Hemoglobin",
+        "Baseline Platelet Count",
+        "Baseline White Blood Cell Count",
+        "Baseline Serum Albumin",
+        "Baseline Serum Creatinine",
+        "Baseline Serum Calcium",
+        "Baseline Serum Phosphorus",
+        "Baseline Parathyroid Hormone",
+        "Baseline C-Reactive Protein",
+        "Baseline Use of Anticoagulants/Antiplatelets"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Status, History of Cardiovascular Disease, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemodialysis Duration,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "History of Coronary artery disease",
+          "History of Cardiovascular Disease"
+        ],
+        [
+          "History of Diabetes mellitus",
+          "Diabetes Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "History of Hypertension",
+        "Access History"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hemodialysis Duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, life expectancy, body mass index (BMI), comorbidities (e.g., diabetes, hypertension, cardiovascular disease), smoking status, history of previous vascular access procedures, upper arm circumference, graft target artery diameter, platelet count, white blood cell count, hemoglobin level, creatinine level, albumin level, dialysis vintage, type of dialysis (hemodialysis, peritoneal dialysis), aspirin and/or oral anticoagulation/antiplatelet regimen use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Male",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "History of Coronary artery disease",
+          "comorbidities (e.g., diabetes, hypertension, cardiovascular disease)"
+        ],
+        [
+          "History of Diabetes mellitus",
+          "comorbidities (e.g., diabetes, hypertension, cardiovascular disease)"
+        ],
+        [
+          "History of Hypertension",
+          "comorbidities (e.g., diabetes, hypertension, cardiovascular disease)"
+        ],
+        [
+          "Access History",
+          "history of previous vascular access procedures"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "life expectancy",
+        "body mass index (BMI)",
+        "smoking status",
+        "upper arm circumference",
+        "graft target artery diameter",
+        "platelet count",
+        "white blood cell count",
+        "hemoglobin level",
+        "creatinine level",
+        "albumin level",
+        "dialysis vintage",
+        "type of dialysis (hemodialysis, peritoneal dialysis)",
+        "aspirin and/or oral anticoagulation/antiplatelet regimen use."
+      ]
+    }
+  }
+}

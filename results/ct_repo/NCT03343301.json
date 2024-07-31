@@ -1,0 +1,197 @@
+{
+  "trial_id": "NCT03343301",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, ECOG performance status, disease stage (unresectable, locally advanced, or metastatic), prior treatments, absolute neutrophil count (ANC), platelet count, hemoglobin level, aspartate aminotransferase (AST) level, alanine aminotransferase (ALT) level, bilirubin level, creatinine clearance, international normalized ratio (INR) or prothrombin time (PT), presence of measurable or non-measurable disease, histological or cytological confirmation of GI malignancy, cardiac function status, presence of peripheral sensory neuropathy, infection status, HIV/AIDS status, hepatitis B or C status, history of interstitial lung disease, history of bleeding diathesis or coagulopathy, prior radiotherapy, prior treatment with selective inhibitors of the FGF-FGFR pathway, ongoing adverse effects from prior systemic treatment, participation in other clinical studies, corneal health status, HER2 status, surgical history, pregnancy or breastfeeding status, presence of serious or unstable concomitant systemic disorders, allergy or hypersensitivity status, history of prior malignancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Anti-Cancer Treatment Prior to Enrollment",
+          "prior treatments"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "disease stage (unresectable, locally advanced, or metastatic)",
+        "absolute neutrophil count (ANC)",
+        "platelet count",
+        "hemoglobin level",
+        "aspartate aminotransferase (AST) level",
+        "alanine aminotransferase (ALT) level",
+        "bilirubin level",
+        "creatinine clearance",
+        "international normalized ratio (INR) or prothrombin time (PT)",
+        "presence of measurable or non-measurable disease",
+        "histological or cytological confirmation of GI malignancy",
+        "cardiac function status",
+        "presence of peripheral sensory neuropathy",
+        "infection status",
+        "HIV/AIDS status",
+        "hepatitis B or C status",
+        "history of interstitial lung disease",
+        "history of bleeding diathesis or coagulopathy",
+        "prior radiotherapy",
+        "prior treatment with selective inhibitors of the FGF-FGFR pathway",
+        "ongoing adverse effects from prior systemic treatment",
+        "participation in other clinical studies",
+        "corneal health status",
+        "HER2 status",
+        "surgical history",
+        "pregnancy or breastfeeding status",
+        "presence of serious or unstable concomitant systemic disorders",
+        "allergy or hypersensitivity status",
+        "history of prior malignancy"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Disease Stage, Hemoglobin, Absolute Neutrophil Count (ANC), Platelet Count, Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), Bilirubin, Creatinine Clearance, Prior Cancer Treatment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Anti-Cancer Treatment Prior to Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Disease Stage",
+        "Hemoglobin",
+        "Absolute Neutrophil Count (ANC)",
+        "Platelet Count",
+        "Aspartate Aminotransferase (AST)",
+        "Alanine Aminotransferase (ALT)",
+        "Bilirubin",
+        "Creatinine Clearance",
+        "Prior Cancer Treatment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, BMI, Hemoglobin, Absolute Neutrophil Count, Platelets, Aspartate Aminotransferase, Alanine Aminotransferase, Bilirubin, Calculated Creatinine Clearance, International Normalized Ratio, Prothrombin Time, Histologically or Cytologically Confirmed GI Malignancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Anti-Cancer Treatment Prior to Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "BMI",
+        "Hemoglobin",
+        "Absolute Neutrophil Count",
+        "Platelets",
+        "Aspartate Aminotransferase",
+        "Alanine Aminotransferase",
+        "Bilirubin",
+        "Calculated Creatinine Clearance",
+        "International Normalized Ratio",
+        "Prothrombin Time",
+        "Histologically or Cytologically Confirmed GI Malignancy."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, life expectancy, disease type (gastric cancer, gastroesophageal cancer, etc.), disease stage (unresectable, locally advanced, metastatic), prior treatments, measurable or non-measurable disease, presence of CNS metastases, cardiac function, cardiac disease, peripheral sensory neuropathy, history of interstitial lung disease, history of bleeding diathesis or coagulopathy, presence of corneal defects, HER2 status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Anti-Cancer Treatment Prior to Enrollment",
+          "prior treatments"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "life expectancy",
+        "disease type (gastric cancer, gastroesophageal cancer, etc.)",
+        "disease stage (unresectable, locally advanced, metastatic)",
+        "measurable or non-measurable disease",
+        "presence of CNS metastases",
+        "cardiac function",
+        "cardiac disease",
+        "peripheral sensory neuropathy",
+        "history of interstitial lung disease",
+        "history of bleeding diathesis or coagulopathy",
+        "presence of corneal defects",
+        "HER2 status"
+      ]
+    }
+  }
+}

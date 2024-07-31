@@ -1,0 +1,215 @@
+{
+  "trial_id": "NCT01721044",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, body mass index (BMI), duration of rheumatoid arthritis, baseline disease activity score (DAS28), number of tender joints, number of swollen joints, C-reactive protein (CRP) levels, high-sensitivity C-reactive protein (hsCRP) levels, prior use of TNF inhibitors, concomitant use of cDMARDs, baseline corticosteroid use, baseline non-steroidal anti-inflammatory drug (NSAID) use, estimated glomerular filtration rate (eGFR), aspartate aminotransferase (AST) levels, alanine aminotransferase (ALT) levels, total bilirubin levels, history of cardiovascular events, history of liver disease, history of lymphoproliferative disease, history of malignancy, history of infections, thyroid-stimulating hormone (TSH) levels, electrocardiogram (ECG) findings, presence of fibromyalgia, presence of other systemic inflammatory conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Duration of Rheumatoid Arthritis",
+          "duration of rheumatoid arthritis"
+        ],
+        [
+          "Tender Joint Count of 68 Evaluable Joints",
+          "number of tender joints"
+        ],
+        [
+          "Swollen Joint Count of 66 Evaluable Joints",
+          "number of swollen joints"
+        ],
+        [
+          "High Sensitivity C-Reactive Protein (hsCRP)",
+          "high-sensitivity C-reactive protein (hsCRP) levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "baseline disease activity score (DAS28)",
+        "C-reactive protein (CRP) levels",
+        "prior use of TNF inhibitors",
+        "concomitant use of cDMARDs",
+        "baseline corticosteroid use",
+        "baseline non-steroidal anti-inflammatory drug (NSAID) use",
+        "estimated glomerular filtration rate (eGFR)",
+        "aspartate aminotransferase (AST) levels",
+        "alanine aminotransferase (ALT) levels",
+        "total bilirubin levels",
+        "history of cardiovascular events",
+        "history of liver disease",
+        "history of lymphoproliferative disease",
+        "history of malignancy",
+        "history of infections",
+        "thyroid-stimulating hormone (TSH) levels",
+        "electrocardiogram (ECG) findings",
+        "presence of fibromyalgia",
+        "presence of other systemic inflammatory conditions"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Rheumatoid Arthritis, Number of Tender Joints, Number of Swollen Joints, C-reactive protein (CRP) levels, Use of TNF inhibitors, Use of cDMARDs, Baseline corticosteroid use, Baseline NSAID use, Estimated glomerular filtration rate (eGFR), Liver function tests (AST, ALT, Bilirubin), Cardiovascular history, History of infections,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Duration of Rheumatoid Arthritis",
+          "Duration of Rheumatoid Arthritis"
+        ],
+        [
+          "Tender Joint Count of 68 Evaluable Joints",
+          "Number of Tender Joints"
+        ],
+        [
+          "Swollen Joint Count of 66 Evaluable Joints",
+          "Number of Swollen Joints"
+        ],
+        [
+          "High Sensitivity C-Reactive Protein (hsCRP)",
+          "C-reactive protein (CRP) levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Use of TNF inhibitors",
+        "Use of cDMARDs",
+        "Baseline corticosteroid use",
+        "Baseline NSAID use",
+        "Estimated glomerular filtration rate (eGFR)",
+        "Liver function tests (AST, ALT, Bilirubin)",
+        "Cardiovascular history",
+        "History of infections"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Duration of Rheumatoid Arthritis, C-reactive protein, Tender Joint Count, Swollen Joint Count, Disease Activity Score 28 (DAS28), Conventional Disease-Modifying Antirheumatic Drugs (cDMARDs) use, Tumor Necrosis Factor (TNF) inhibitor use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Duration of Rheumatoid Arthritis",
+          "Duration of Rheumatoid Arthritis"
+        ],
+        [
+          "Tender Joint Count of 68 Evaluable Joints",
+          "Tender Joint Count"
+        ],
+        [
+          "Swollen Joint Count of 66 Evaluable Joints",
+          "Swollen Joint Count"
+        ],
+        [
+          "High Sensitivity C-Reactive Protein (hsCRP)",
+          "C-reactive protein"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Disease Activity Score 28 (DAS28)",
+        "Conventional Disease-Modifying Antirheumatic Drugs (cDMARDs) use",
+        "Tumor Necrosis Factor (TNF) inhibitor use."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of rheumatoid arthritis, number of tender joints, number of swollen joints, C-reactive protein (CRP) or high-sensitivity C-reactive protein (hsCRP) level, prior use of biologic tumor necrosis factor (TNF)-alpha inhibitors, prior use of conventional disease-modifying antirheumatic drugs (cDMARDs), smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Duration of Rheumatoid Arthritis",
+          "duration of rheumatoid arthritis"
+        ],
+        [
+          "Tender Joint Count of 68 Evaluable Joints",
+          "number of tender joints"
+        ],
+        [
+          "Swollen Joint Count of 66 Evaluable Joints",
+          "number of swollen joints"
+        ],
+        [
+          "High Sensitivity C-Reactive Protein (hsCRP)",
+          "C-reactive protein (CRP) or high-sensitivity C-reactive protein (hsCRP) level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "prior use of biologic tumor necrosis factor (TNF)-alpha inhibitors",
+        "prior use of conventional disease-modifying antirheumatic drugs (cDMARDs)",
+        "smoking status"
+      ]
+    }
+  }
+}

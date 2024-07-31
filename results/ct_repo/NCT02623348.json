@@ -1,0 +1,219 @@
+{
+  "trial_id": "NCT02623348",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "age, gender, duration on hemodialysis, baseline physical activity level, comorbid conditions, body mass index (BMI), medication use, socioeconomic status, educational level, smoking status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Dialysis Vintage (Years)",
+          "duration on hemodialysis"
+        ],
+        [
+          "Currently smoking",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Hemoglobin",
+        "Serum Albumin",
+        "Standardized Kt/V",
+        "Hypertension",
+        "Diabetes",
+        "Coronary Artery Disease",
+        "Congestive Heart Failure",
+        "Stroke",
+        "Peripheral Vascular Disease",
+        "HIV",
+        "Arrhythmia"
+      ],
+      "remaining_candidate_features": [
+        "baseline physical activity level",
+        "comorbid conditions",
+        "medication use",
+        "socioeconomic status",
+        "educational level"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration on Hemodialysis, Baseline Physical Activity Level, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Dialysis Vintage (Years)",
+          "Duration on Hemodialysis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Hemoglobin",
+        "Serum Albumin",
+        "Standardized Kt/V",
+        "Currently smoking",
+        "Hypertension",
+        "Diabetes",
+        "Coronary Artery Disease",
+        "Congestive Heart Failure",
+        "Stroke",
+        "Peripheral Vascular Disease",
+        "HIV",
+        "Arrhythmia"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Physical Activity Level",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Dialysis duration, Comorbidities,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Dialysis Vintage (Years)",
+          "Dialysis duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Hemoglobin",
+        "Serum Albumin",
+        "Standardized Kt/V",
+        "Currently smoking",
+        "Hypertension",
+        "Diabetes",
+        "Coronary Artery Disease",
+        "Congestive Heart Failure",
+        "Stroke",
+        "Peripheral Vascular Disease",
+        "HIV",
+        "Arrhythmia"
+      ],
+      "remaining_candidate_features": [
+        "Comorbidities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, body mass index, dialysis duration, comorbidities, walking ability, physical function, quality of life, blood pressure, hemoglobin, albumin, creatinine, urea reduction ratio.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index"
+        ],
+        [
+          "Dialysis Vintage (Years)",
+          "dialysis duration"
+        ],
+        [
+          "Hemoglobin",
+          "hemoglobin"
+        ],
+        [
+          "Serum Albumin",
+          "albumin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Standardized Kt/V",
+        "Currently smoking",
+        "Hypertension",
+        "Diabetes",
+        "Coronary Artery Disease",
+        "Congestive Heart Failure",
+        "Stroke",
+        "Peripheral Vascular Disease",
+        "HIV",
+        "Arrhythmia"
+      ],
+      "remaining_candidate_features": [
+        "comorbidities",
+        "walking ability",
+        "physical function",
+        "quality of life",
+        "blood pressure",
+        "creatinine",
+        "urea reduction ratio."
+      ]
+    }
+  }
+}

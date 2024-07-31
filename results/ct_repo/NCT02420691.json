@@ -1,0 +1,196 @@
+{
+  "trial_id": "NCT02420691",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, histological subtype of neuroendocrine tumor, prior lines of therapy, absolute neutrophil count (ANC), hemoglobin (Hgb) level, platelet count, serum total bilirubin, aspartate aminotransferase (AST) level, alanine aminotransferase (ALT) level, serum creatinine, serum potassium, serum sodium, serum magnesium, serum phosphorus, serum calcium, pregnancy status, systolic blood pressure, left ventricular ejection fraction (LVEF).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "histological subtype of neuroendocrine tumor",
+        "prior lines of therapy",
+        "absolute neutrophil count (ANC)",
+        "hemoglobin (Hgb) level",
+        "platelet count",
+        "serum total bilirubin",
+        "aspartate aminotransferase (AST) level",
+        "alanine aminotransferase (ALT) level",
+        "serum creatinine",
+        "serum potassium",
+        "serum sodium",
+        "serum magnesium",
+        "serum phosphorus",
+        "serum calcium",
+        "pregnancy status",
+        "systolic blood pressure",
+        "left ventricular ejection fraction (LVEF)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological Grade, Tumor Origin, Prior Lines of Therapy, Absolute Neutrophil Count (ANC), Hemoglobin (Hgb), Platelet Count, Serum Total Bilirubin, Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), Serum Creatinine, Serum Potassium, Serum Sodium, Serum Magnesium, Serum Phosphorus, Serum Calcium,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Histological Grade",
+        "Tumor Origin",
+        "Prior Lines of Therapy",
+        "Absolute Neutrophil Count (ANC)",
+        "Hemoglobin (Hgb)",
+        "Platelet Count",
+        "Serum Total Bilirubin",
+        "Aspartate Aminotransferase (AST)",
+        "Alanine Aminotransferase (ALT)",
+        "Serum Creatinine",
+        "Serum Potassium",
+        "Serum Sodium",
+        "Serum Magnesium",
+        "Serum Phosphorus",
+        "Serum Calcium"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior therapy, Number of prior lines of therapy, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Absolute Neutrophil Count, Platelet Count, Serum Total Bilirubin, AST, ALT, Serum Creatinine, Serum Potassium, Serum Sodium, Serum Magnesium, Serum Phosphorus, Total Calcium.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Prior therapy",
+        "Number of prior lines of therapy",
+        "BMI",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hemoglobin",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Serum Total Bilirubin",
+        "AST",
+        "ALT",
+        "Serum Creatinine",
+        "Serum Potassium",
+        "Serum Sodium",
+        "Serum Magnesium",
+        "Serum Phosphorus",
+        "Total Calcium"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, Eastern Cooperative Oncology Group (ECOG) performance status, histological diagnosis, tumor location, number of prior lines of therapy, presence of MEN1 syndrome, presence of functional or non-functional tumors, prior therapy, time since last dose of prior anti-cancer therapy, absolute neutrophil count (ANC), hemoglobin (Hgb), platelets, serum total bilirubin, aspartate aminotransferase (AST), alanine aminotransferase (ALT), serum creatinine, serum potassium, sodium, magnesium, phosphorus, total calcium.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Eastern Cooperative Oncology Group (ECOG) performance status",
+        "histological diagnosis",
+        "tumor location",
+        "number of prior lines of therapy",
+        "presence of MEN1 syndrome",
+        "presence of functional or non-functional tumors",
+        "prior therapy",
+        "time since last dose of prior anti-cancer therapy",
+        "absolute neutrophil count (ANC)",
+        "hemoglobin (Hgb)",
+        "platelets",
+        "serum total bilirubin",
+        "aspartate aminotransferase (AST)",
+        "alanine aminotransferase (ALT)",
+        "serum creatinine",
+        "serum potassium",
+        "sodium",
+        "magnesium",
+        "phosphorus",
+        "total calcium"
+      ]
+    }
+  }
+}

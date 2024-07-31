@@ -1,0 +1,195 @@
+{
+  "trial_id": "NCT03664726",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, fasting plasma glucose (FPG) levels, 2-hour glucose levels after Oral Glucose Tolerance Test (OGTT), hemoglobin A1c (HbA1c) levels, history of hypertension, history of hyperlipidemia, blood pressure, LDL cholesterol levels, non-HDL cholesterol levels, medication use for hypertension, medication use for dyslipidemia, exclusion of Type 2 Diabetes, pregnancy status, psychiatric disorder status, intellectual impairment status, medication use affecting glucose levels, willingness to eat study food, prior participation in similar studies, discounting criteria status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "hbA1c",
+          "hemoglobin A1c (HbA1c) levels"
+        ],
+        [
+          "Delay discounting",
+          "discounting criteria status"
+        ],
+        [
+          "Reinforcing Value of Food; Intensity",
+          "Reinforcing Value of Food"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Site Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose (FPG) levels",
+        "2-hour glucose levels after Oral Glucose Tolerance Test (OGTT)",
+        "history of hypertension",
+        "history of hyperlipidemia",
+        "blood pressure",
+        "LDL cholesterol levels",
+        "non-HDL cholesterol levels",
+        "medication use for hypertension",
+        "medication use for dyslipidemia",
+        "exclusion of Type 2 Diabetes",
+        "pregnancy status",
+        "psychiatric disorder status",
+        "intellectual impairment status",
+        "medication use affecting glucose levels",
+        "willingness to eat study food",
+        "prior participation in similar studies"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Fasting Plasma Glucose, 2-hour Glucose, Hemoglobin A1c, Blood Pressure, LDL Cholesterol, Non-HDL Cholesterol, Comorbid Hypertension, Comorbid Hyperlipidemia,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "hbA1c",
+          "Hemoglobin A1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Delay discounting",
+        "Site Enrollment",
+        "Reinforcing Value of Food; Intensity"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Fasting Plasma Glucose",
+        "2-hour Glucose",
+        "Blood Pressure",
+        "LDL Cholesterol",
+        "Non-HDL Cholesterol",
+        "Comorbid Hypertension",
+        "Comorbid Hyperlipidemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Hemoglobin A1c, History of Hypertension, History of Hyperlipidemia, Comorbidities, Education Level, Income Level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "hbA1c",
+          "Hemoglobin A1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Site Enrollment",
+        "Delay discounting",
+        "Reinforcing Value of Food; Intensity"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "History of Hypertension",
+        "History of Hyperlipidemia",
+        "Comorbidities",
+        "Education Level",
+        "Income Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), fasting plasma glucose (FPG), hemoglobin A1c (HbA1c), blood pressure, LDL cholesterol, non-fasting non-HDL cholesterol, history of hypertension, history of hyperlipidemia, medication use (e.g. Lisinopril, Diovan, Niacin, Lovastatin), education level, income level, employment status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "hbA1c",
+          "hemoglobin A1c (HbA1c)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Delay discounting",
+        "Site Enrollment",
+        "Reinforcing Value of Food; Intensity"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "fasting plasma glucose (FPG)",
+        "blood pressure",
+        "LDL cholesterol",
+        "non-fasting non-HDL cholesterol",
+        "history of hypertension",
+        "history of hyperlipidemia",
+        "medication use (e.g. Lisinopril, Diovan, Niacin, Lovastatin)",
+        "education level",
+        "income level",
+        "employment status"
+      ]
+    }
+  }
+}

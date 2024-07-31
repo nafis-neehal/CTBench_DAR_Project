@@ -1,0 +1,158 @@
+{
+  "trial_id": "NCT03913455",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, histological or cytological diagnosis, extent of disease, prior lines of chemotherapy, measurable disease status, bone marrow function (hemoglobin, absolute neutrophil count, platelet count), liver function (total bilirubin, ALT, AST), renal function (estimated glomerular filtration rate), pregnancy status, use of birth control, presence of brain metastases, concurrent medical conditions, infection status, hypersensitivity to study treatment, prior investigational drug treatment, second malignancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Smoking Status"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "histological or cytological diagnosis",
+        "extent of disease",
+        "prior lines of chemotherapy",
+        "measurable disease status",
+        "bone marrow function (hemoglobin, absolute neutrophil count, platelet count)",
+        "liver function (total bilirubin, ALT, AST)",
+        "renal function (estimated glomerular filtration rate)",
+        "pregnancy status",
+        "use of birth control",
+        "presence of brain metastases",
+        "concurrent medical conditions",
+        "infection status",
+        "hypersensitivity to study treatment",
+        "prior investigational drug treatment",
+        "second malignancy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Histological or Cytological Diagnosis, Extent of Disease, Prior Lines of Chemotherapy, Measurable Disease, Bone Marrow Function, Liver Function, Renal Function, Pregnancy Status, Use of Birth Control,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Smoking Status"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG Performance Status",
+        "Histological or Cytological Diagnosis",
+        "Extent of Disease",
+        "Prior Lines of Chemotherapy",
+        "Measurable Disease",
+        "Bone Marrow Function",
+        "Liver Function",
+        "Renal Function",
+        "Pregnancy Status",
+        "Use of Birth Control"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Extent of Disease, Prior Chemotherapy, Prior Immunotherapy, Hemoglobin, Absolute Neutrophil Count, Platelet Count, Total Bilirubin, ALT, AST, INR, eGFR.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Smoking Status"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG Performance Status",
+        "Extent of Disease",
+        "Prior Chemotherapy",
+        "Prior Immunotherapy",
+        "Hemoglobin",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Total Bilirubin",
+        "ALT",
+        "AST",
+        "INR",
+        "eGFR"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ECOG performance status, histological diagnosis, disease stage, number of prior chemotherapy lines, presence of bone-only disease, presence of brain metastases, laboratory values (hemoglobin, absolute neutrophil count, platelet count, total bilirubin, ALT, AST, INR, eGFR), prior immunotherapy, prior radiation therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Smoking Status"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "histological diagnosis",
+        "disease stage",
+        "number of prior chemotherapy lines",
+        "presence of bone-only disease",
+        "presence of brain metastases",
+        "laboratory values (hemoglobin, absolute neutrophil count, platelet count, total bilirubin, ALT, AST, INR, eGFR)",
+        "prior immunotherapy",
+        "prior radiation therapy."
+      ]
+    }
+  }
+}

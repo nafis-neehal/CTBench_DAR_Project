@@ -1,0 +1,157 @@
+{
+  "trial_id": "NCT01288612",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, residency status, history of Barrett's Esophagus, history of endoscopy, history of progressive dysphagia, presence of Zenkers or epiphrenic diverticulum, history of recurrent epistaxis, presence of illnesses impairing questionnaire completion, use of anticoagulation therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Region of Enrollment",
+          "residency status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Reflux Symptoms",
+        "Education",
+        "Employment",
+        "Marital Status",
+        "Use of Proton Pump Inhibitor (PPI)"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "history of Barrett's Esophagus",
+        "history of endoscopy",
+        "history of progressive dysphagia",
+        "presence of Zenkers or epiphrenic diverticulum",
+        "history of recurrent epistaxis",
+        "presence of illnesses impairing questionnaire completion",
+        "use of anticoagulation therapy."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of Gastroesophageal Reflux Disease (GERD), Smoking Status, Alcohol Consumption, Family History of Barrett's Esophagus, Use of Acid-Suppressive Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Reflux Symptoms",
+        "Education",
+        "Employment",
+        "Marital Status",
+        "Use of Proton Pump Inhibitor (PPI)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "History of Gastroesophageal Reflux Disease (GERD)",
+        "Smoking Status",
+        "Alcohol Consumption",
+        "Family History of Barrett's Esophagus",
+        "Use of Acid-Suppressive Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of gastroesophageal reflux disease, History of Barretts Esophagus, History of endoscopy, Dysphagia symptoms, Epistaxis symptoms,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Reflux Symptoms",
+        "Education",
+        "Employment",
+        "Marital Status",
+        "Use of Proton Pump Inhibitor (PPI)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "History of gastroesophageal reflux disease",
+        "History of Barretts Esophagus",
+        "History of endoscopy",
+        "Dysphagia symptoms",
+        "Epistaxis symptoms"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, history of gastroesophageal reflux disease (GERD) symptoms, history of esophageal surgery, Olmsted county residency duration, education level, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Region of Enrollment",
+          "Olmsted county residency duration"
+        ],
+        [
+          "Reflux Symptoms",
+          "history of gastroesophageal reflux disease (GERD) symptoms"
+        ],
+        [
+          "Education",
+          "education level"
+        ],
+        [
+          "Marital Status",
+          "marital status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Employment",
+        "Use of Proton Pump Inhibitor (PPI)"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "body mass index (BMI)",
+        "smoking status",
+        "history of esophageal surgery"
+      ]
+    }
+  }
+}

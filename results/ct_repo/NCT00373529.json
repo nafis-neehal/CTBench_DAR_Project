@@ -1,0 +1,215 @@
+{
+  "trial_id": "NCT00373529",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, presence of adverse prognostic factors, renal function (total bilirubin, AST, ALT, serum creatinine, estimated GFR), hepatic function, cardiac function (LVEF, left ventricular fractional shortening), prior treatments, presence of other malignancies, CNS involvement, HIV status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Eastern Cooperative Oncology Group Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Antecedent Hematologic Disorder",
+          "presence of adverse prognostic factors"
+        ],
+        [
+          "Karyotype",
+          "presence of adverse prognostic factors"
+        ],
+        [
+          "Participants Summarized by Number of Adverse Prognostic Factors",
+          "presence of adverse prognostic factors"
+        ],
+        [
+          "Participants Summarized by Number of Adverse Prognostic Factors Excluding Intermediate Karyotype",
+          "presence of adverse prognostic factors"
+        ],
+        [
+          "Secondary acute myeloid leukemia (AML) at baseline",
+          "presence of adverse prognostic factors"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race",
+        "Ethnicity",
+        "Height",
+        "Weight",
+        "Age at Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "renal function (total bilirubin, AST, ALT, serum creatinine, estimated GFR)",
+        "hepatic function",
+        "cardiac function (LVEF, left ventricular fractional shortening)",
+        "prior treatments",
+        "presence of other malignancies",
+        "CNS involvement",
+        "HIV status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Adverse prognostic factors, Renal function (serum creatinine, estimated GFR), Hepatic function (total bilirubin, AST, ALT), Cardiac function (LVEF, left ventricular fractional shortening), Type of AML (de novo, secondary, with antecedent hematologic disorder), Karyotype classification,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Karyotype",
+          "Karyotype classification"
+        ],
+        [
+          "Antecedent Hematologic Disorder",
+          "Type of AML (de novo, secondary, with antecedent hematologic disorder)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "Height",
+        "Weight",
+        "Age at Enrollment",
+        "Participants Summarized by Number of Adverse Prognostic Factors",
+        "Participants Summarized by Number of Adverse Prognostic Factors Excluding Intermediate Karyotype",
+        "Secondary acute myeloid leukemia (AML) at baseline"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Adverse prognostic factors",
+        "Renal function (serum creatinine, estimated GFR)",
+        "Hepatic function (total bilirubin, AST, ALT)",
+        "Cardiac function (LVEF, left ventricular fractional shortening)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Karyotype, Hemoglobin, Platelet Count, White Blood Cell Count, Bone Marrow Blast Percentage, Creatinine, Total Bilirubin, AST, ALT, Left Ventricular Ejection Fraction.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Karyotype",
+          "Karyotype"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "Height",
+        "Weight",
+        "Age at Enrollment",
+        "Antecedent Hematologic Disorder",
+        "Participants Summarized by Number of Adverse Prognostic Factors",
+        "Participants Summarized by Number of Adverse Prognostic Factors Excluding Intermediate Karyotype",
+        "Secondary acute myeloid leukemia (AML) at baseline"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Hemoglobin",
+        "Platelet Count",
+        "White Blood Cell Count",
+        "Bone Marrow Blast Percentage",
+        "Creatinine",
+        "Total Bilirubin",
+        "AST",
+        "ALT",
+        "Left Ventricular Ejection Fraction."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, diagnosis of AML (de novo, secondary or with an antecedent hematologic disorder), presence of adverse prognostic factors, karyotype, total bilirubin, AST, ALT, serum creatinine, estimated glomerular filtration rate, left ventricular ejection fraction, left ventricular fractional shortening.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Antecedent Hematologic Disorder",
+          "diagnosis of AML (de novo, secondary or with an antecedent hematologic disorder)"
+        ],
+        [
+          "Karyotype",
+          "karyotype"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity",
+        "Height",
+        "Weight",
+        "Age at Enrollment",
+        "Participants Summarized by Number of Adverse Prognostic Factors",
+        "Participants Summarized by Number of Adverse Prognostic Factors Excluding Intermediate Karyotype",
+        "Secondary acute myeloid leukemia (AML) at baseline"
+      ],
+      "remaining_candidate_features": [
+        "presence of adverse prognostic factors",
+        "total bilirubin",
+        "AST",
+        "ALT",
+        "serum creatinine",
+        "estimated glomerular filtration rate",
+        "left ventricular ejection fraction",
+        "left ventricular fractional shortening"
+      ]
+    }
+  }
+}

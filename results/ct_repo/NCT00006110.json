@@ -1,0 +1,174 @@
+{
+  "trial_id": "NCT00006110",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, Menopausal status, Performance status, Life expectancy, White cell count, Platelet count, Hemoglobin, Bilirubin, Creatinine, Left ventricular ejection fraction (LVEF), Pregnancy status, Use of contraception, Prior malignancies, Tumor size, Lymph node involvement, HER-2 status, Measurable or evaluable disease, Synchronous bilateral primary breast cancer status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Type of Therapy",
+          "HER-2 status"
+        ],
+        [
+          "Clinical Stage",
+          "Tumor size"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Estrogen Receptor Status"
+      ],
+      "remaining_candidate_features": [
+        "Menopausal status",
+        "Performance status",
+        "Life expectancy",
+        "White cell count",
+        "Platelet count",
+        "Hemoglobin",
+        "Bilirubin",
+        "Creatinine",
+        "Left ventricular ejection fraction (LVEF)",
+        "Pregnancy status",
+        "Use of contraception",
+        "Prior malignancies",
+        "Lymph node involvement",
+        "Measurable or evaluable disease",
+        "Synchronous bilateral primary breast cancer status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Tumor size, Nodal status, HER-2 status, Hemoglobin, White cell count, Platelet count, Bilirubin, Creatinine, Left ventricular ejection fraction (LVEF), Prior malignancies,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Clinical Stage",
+          "Tumor size"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Type of Therapy",
+        "Estrogen Receptor Status"
+      ],
+      "remaining_candidate_features": [
+        "Nodal status",
+        "HER-2 status",
+        "Hemoglobin",
+        "White cell count",
+        "Platelet count",
+        "Bilirubin",
+        "Creatinine",
+        "Left ventricular ejection fraction (LVEF)",
+        "Prior malignancies"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Menopausal Status, Performance Status, Life Expectancy, Hematopoietic: White Cell Count, Hematopoietic: Platelet Count, Hematopoietic: Hemoglobin, Bilirubin, Creatinine, Left Ventricular Ejection Fraction (LVEF), Tumor Size, Number of Positive Lymph Nodes, HER-2 Status, Breast Cancer Stage.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Clinical Stage",
+          "Breast Cancer Stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Type of Therapy",
+        "Estrogen Receptor Status"
+      ],
+      "remaining_candidate_features": [
+        "Menopausal Status",
+        "Performance Status",
+        "Life Expectancy",
+        "Hematopoietic: White Cell Count",
+        "Hematopoietic: Platelet Count",
+        "Hematopoietic: Hemoglobin",
+        "Bilirubin",
+        "Creatinine",
+        "Left Ventricular Ejection Fraction (LVEF)",
+        "Tumor Size",
+        "Number of Positive Lymph Nodes",
+        "HER-2 Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, menopausal status, performance status, life expectancy, white cell count, platelet count, hemoglobin, bilirubin, creatinine, left ventricular ejection fraction (LVEF), tumor size, number of positive lymph nodes, HER-2 status, presence of distant metastases, presence of synchronous bilateral primary breast cancer.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Type of Therapy",
+          "trastuzumab, cyclophosphamide, doxorubicin hydrochloride, paclitaxel, conventional surgery"
+        ],
+        [
+          "Clinical Stage",
+          "tumor size"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Estrogen Receptor Status"
+      ],
+      "remaining_candidate_features": [
+        "menopausal status",
+        "performance status",
+        "life expectancy",
+        "white cell count",
+        "platelet count",
+        "hemoglobin",
+        "bilirubin",
+        "creatinine",
+        "left ventricular ejection fraction (LVEF)",
+        "number of positive lymph nodes",
+        "HER-2 status",
+        "presence of distant metastases",
+        "presence of synchronous bilateral primary breast cancer."
+      ]
+    }
+  }
+}

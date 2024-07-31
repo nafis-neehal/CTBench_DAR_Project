@@ -1,0 +1,186 @@
+{
+  "trial_id": "NCT00863746",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG Performance Status, prior treatment regimens, life expectancy, ability to swallow oral medication, use of birth control measures, hemoglobin levels, absolute neutrophil count, platelet count, total bilirubin levels, alanine aminotransferase levels, aspartate aminotransferase levels, alkaline phosphatase levels, prothrombin time-international normalized ratio, partial thromboplastin time, serum creatinine levels, calculated creatinine clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Number of previous regiments",
+          "prior treatment regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Geographic Region",
+        "Smoker status",
+        "Brain metastasis present",
+        "Prior EGFR-based sysmatic treatments"
+      ],
+      "remaining_candidate_features": [
+        "life expectancy",
+        "ability to swallow oral medication",
+        "use of birth control measures",
+        "hemoglobin levels",
+        "absolute neutrophil count",
+        "platelet count",
+        "total bilirubin levels",
+        "alanine aminotransferase levels",
+        "aspartate aminotransferase levels",
+        "alkaline phosphatase levels",
+        "prothrombin time-international normalized ratio",
+        "partial thromboplastin time",
+        "serum creatinine levels",
+        "calculated creatinine clearance."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, ECOG Performance Status, Smoking history, Histology type, Number of prior treatment regimens, Hemoglobin, Absolute neutrophil count, Platelet count, Total bilirubin, Alanine aminotransferase (ALT), Aspartate aminotransferase (AST), Alkaline phosphatase, Prothrombin Time (PT)-International Normalized Ratio (INR), Partial Thromboplastin Time (PTT), Serum creatinine, Calculated creatinine clearance",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Number of previous regiments",
+          "Number of prior treatment regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Geographic Region",
+        "Smoker status",
+        "Brain metastasis present",
+        "Prior EGFR-based sysmatic treatments"
+      ],
+      "remaining_candidate_features": [
+        "Race",
+        "Smoking history",
+        "Histology type",
+        "Hemoglobin",
+        "Absolute neutrophil count",
+        "Platelet count",
+        "Total bilirubin",
+        "Alanine aminotransferase (ALT)",
+        "Aspartate aminotransferase (AST)",
+        "Alkaline phosphatase",
+        "Prothrombin Time (PT)-International Normalized Ratio (INR)",
+        "Partial Thromboplastin Time (PTT)",
+        "Serum creatinine",
+        "Calculated creatinine clearance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, ECOG Performance Status, Histology, Number of prior treatment regimens, Best response to prior treatment, Time since last treatment, Presence of brain metastases, Presence of liver metastases, Hemoglobin, Absolute neutrophil count, Platelet count, Total bilirubin, Alanine aminotransferase, Aspartate aminotransferase, Alkaline phosphatase, Prothrombin Time-International Normalized Ratio, Partial Thromboplastin Time, Serum creatinine, Calculated creatinine clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Number of previous regiments",
+          "Number of prior treatment regimens"
+        ],
+        [
+          "Brain metastasis present",
+          "Presence of brain metastases"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Geographic Region",
+        "Smoker status",
+        "Prior EGFR-based sysmatic treatments"
+      ],
+      "remaining_candidate_features": [
+        "Histology",
+        "Best response to prior treatment",
+        "Time since last treatment",
+        "Presence of liver metastases",
+        "Hemoglobin",
+        "Absolute neutrophil count",
+        "Platelet count",
+        "Total bilirubin",
+        "Alanine aminotransferase",
+        "Aspartate aminotransferase",
+        "Alkaline phosphatase",
+        "Prothrombin Time-International Normalized Ratio",
+        "Partial Thromboplastin Time",
+        "Serum creatinine",
+        "Calculated creatinine clearance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ECOG performance status, histology, number of prior treatment regimens, presence of liver metastases, hemoglobin, absolute neutrophil count, platelet count, total bilirubin, ALT, AST, alkaline phosphatase, prothrombin time-INR or PTT, serum creatinine, calculated creatinine clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Number of previous regiments",
+          "number of prior treatment regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Geographic Region",
+        "Smoker status",
+        "Brain metastasis present",
+        "Prior EGFR-based sysmatic treatments"
+      ],
+      "remaining_candidate_features": [
+        "histology",
+        "presence of liver metastases",
+        "hemoglobin",
+        "absolute neutrophil count",
+        "platelet count",
+        "total bilirubin",
+        "ALT",
+        "AST",
+        "alkaline phosphatase",
+        "prothrombin time-INR or PTT",
+        "serum creatinine",
+        "calculated creatinine clearance."
+      ]
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "trial_id": "NCT02816710",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, Type of Diabetes Mellitus, Duration of Diabetes, Baseline Best-Corrected Visual Acuity, Presence of Vitreous Hemorrhage, Presence of Tractional Retinal Detachment, Presence of Complicated Retinal Detachment, Serum Hemoglobin A1c (HbA1c) Levels, Presence of Coexistent Ocular Disease, Prior Vitreoretinal Surgery, Prior Anti-VEGF Pharmacotherapy, Presence of Iris or Angle Neovascularization, Presence of Neovascular Glaucoma, Presence of Severe External Ocular Infection, Pregnancy Status, Oral Contraceptive Intake, Usage of Anticoagulant or Antiplatelet Therapy, Control of Systemic Diseases (e.g., Hypertension, Cardiac Diseases), Abnormal Coagulation-Associated Blood Diseases.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Type 1 diabetes",
+          "Type of Diabetes Mellitus"
+        ],
+        [
+          "Duration of diabetes (years)",
+          "Duration of Diabetes"
+        ],
+        [
+          "HbA1c at time of surgery",
+          "Serum Hemoglobin A1c (HbA1c) Levels"
+        ],
+        [
+          "LogMAR Best Corrected Visual Acuity (BCVA)",
+          "Baseline Best-Corrected Visual Acuity"
+        ],
+        [
+          "Preoperative iris neovascularization",
+          "Presence of Iris or Angle Neovascularization"
+        ],
+        [
+          "Hypertension",
+          "Control of Systemic Diseases (e.g., Hypertension, Cardiac Diseases)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Study eye (right eye)",
+        "Previous history of pan-retinal photocoagulation (PRP)",
+        "Lens status (pseudophakic)",
+        "Extent of vitreoretinal adhesion grade"
+      ],
+      "remaining_candidate_features": [
+        "Presence of Vitreous Hemorrhage",
+        "Presence of Tractional Retinal Detachment",
+        "Presence of Complicated Retinal Detachment",
+        "Presence of Coexistent Ocular Disease",
+        "Prior Vitreoretinal Surgery",
+        "Prior Anti-VEGF Pharmacotherapy",
+        "Presence of Neovascular Glaucoma",
+        "Presence of Severe External Ocular Infection",
+        "Pregnancy Status",
+        "Oral Contraceptive Intake",
+        "Usage of Anticoagulant or Antiplatelet Therapy",
+        "Abnormal Coagulation-Associated Blood Diseases"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Type of Diabetes (Type 1 or Type 2), Duration of Diabetes, Baseline HbA1c, Presence of Vitreous Hemorrhage, Presence of Tractional Retinal Detachment, Prior Vitreoretinal Surgery, Prior Anti-VEGF Therapy, Presence of Macula-involving Retinal Detachment, Presence of Iris or Angle Neovascularization, Presence of Neovascular Glaucoma, Usage of Anticoagulant or Antiplatelet Therapy, Presence of Severe External Ocular Infection, Presence of Uncontrolled Systemic Diseases,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Type 1 diabetes",
+          "Type of Diabetes (Type 1 or Type 2)"
+        ],
+        [
+          "Duration of diabetes (years)",
+          "Duration of Diabetes"
+        ],
+        [
+          "HbA1c at time of surgery",
+          "Baseline HbA1c"
+        ],
+        [
+          "Preoperative iris neovascularization",
+          "Presence of Iris or Angle Neovascularization"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Hypertension",
+        "Study eye (right eye)",
+        "Previous history of pan-retinal photocoagulation (PRP)",
+        "LogMAR Best Corrected Visual Acuity (BCVA)",
+        "Lens status (pseudophakic)",
+        "Extent of vitreoretinal adhesion grade"
+      ],
+      "remaining_candidate_features": [
+        "Presence of Vitreous Hemorrhage",
+        "Presence of Tractional Retinal Detachment",
+        "Prior Vitreoretinal Surgery",
+        "Prior Anti-VEGF Therapy",
+        "Presence of Macula-involving Retinal Detachment",
+        "Presence of Neovascular Glaucoma",
+        "Usage of Anticoagulant or Antiplatelet Therapy",
+        "Presence of Severe External Ocular Infection",
+        "Presence of Uncontrolled Systemic Diseases"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Type, Diabetes Duration, HbA1c, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Retinopathy Severity, Prior Vitreoretinal Surgery, Prior Anti-VEGF Therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "HbA1c at time of surgery",
+          "HbA1c"
+        ],
+        [
+          "Type 1 diabetes",
+          "Diabetes Type"
+        ],
+        [
+          "Duration of diabetes (years)",
+          "Diabetes Duration"
+        ],
+        [
+          "Previous history of pan-retinal photocoagulation (PRP)",
+          "Prior Anti-VEGF Therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Hypertension",
+        "Study eye (right eye)",
+        "LogMAR Best Corrected Visual Acuity (BCVA)",
+        "Lens status (pseudophakic)",
+        "Preoperative iris neovascularization",
+        "Extent of vitreoretinal adhesion grade"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Retinopathy Severity",
+        "Prior Vitreoretinal Surgery"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, diabetes type, duration of diabetes, HbA1c level, presence of hypertension, presence of cardiac diseases, presence of coagulation-associated blood diseases, prior ocular surgery, prior anti-VEGF pharmacotherapy, best-corrected visual acuity at baseline, presence of tractional retinal detachment, presence of vitreous hemorrhage, presence of fibrous proliferation, presence of macula-involving retinal detachment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Type 1 diabetes",
+          "diabetes type"
+        ],
+        [
+          "Duration of diabetes (years)",
+          "duration of diabetes"
+        ],
+        [
+          "HbA1c at time of surgery",
+          "HbA1c level"
+        ],
+        [
+          "Hypertension",
+          "presence of hypertension"
+        ],
+        [
+          "LogMAR Best Corrected Visual Acuity (BCVA)",
+          "best-corrected visual acuity at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Study eye (right eye)",
+        "Previous history of pan-retinal photocoagulation (PRP)",
+        "Lens status (pseudophakic)",
+        "Preoperative iris neovascularization",
+        "Extent of vitreoretinal adhesion grade"
+      ],
+      "remaining_candidate_features": [
+        "presence of cardiac diseases",
+        "presence of coagulation-associated blood diseases",
+        "prior ocular surgery",
+        "prior anti-VEGF pharmacotherapy",
+        "presence of tractional retinal detachment",
+        "presence of vitreous hemorrhage",
+        "presence of fibrous proliferation",
+        "presence of macula-involving retinal detachment"
+      ]
+    }
+  }
+}

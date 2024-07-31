@@ -1,0 +1,194 @@
+{
+  "trial_id": "NCT01061775",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, baseline BMI, duration since last treatment (surgery, radiation, or chemotherapy), presence of renal impairment, presence of gastroparesis, history of pancreatitis, diabetes status, use of Metformin, use of weight loss medications, participation in weight loss programs, history of bariatric surgery, pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "baseline BMI"
+        ],
+        [
+          "Waist to Height Ratio",
+          "Waist to Height Ratio"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Tumor Type",
+        "Height",
+        "Weight",
+        "Waist Circumference",
+        "Hip Circumference",
+        "Child Eating Behaviour Questionnaire"
+      ],
+      "remaining_candidate_features": [
+        "duration since last treatment (surgery, radiation, or chemotherapy)",
+        "presence of renal impairment",
+        "presence of gastroparesis",
+        "history of pancreatitis",
+        "diabetes status",
+        "use of Metformin",
+        "use of weight loss medications",
+        "participation in weight loss programs",
+        "history of bariatric surgery",
+        "pregnancy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Waist to Height Ratio, Time Since Treatment for Craniopharyngioma,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Waist to Height Ratio",
+          "Waist to Height Ratio"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment",
+        "Tumor Type",
+        "Height",
+        "Weight",
+        "Waist Circumference",
+        "Hip Circumference",
+        "Child Eating Behaviour Questionnaire"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Time Since Treatment for Craniopharyngioma"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, Hypothalamic obesity diagnosis duration, Previous treatment for craniopharyngioma, Radiation therapy, Chemotherapy, Surgical treatment, Parental consent, Patient assent,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Tumor Type",
+          "Previous treatment for craniopharyngioma"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Waist Circumference",
+        "Hip Circumference",
+        "Waist to Height Ratio",
+        "Child Eating Behaviour Questionnaire"
+      ],
+      "remaining_candidate_features": [
+        "Hypothalamic obesity diagnosis duration",
+        "Radiation therapy",
+        "Chemotherapy",
+        "Surgical treatment",
+        "Parental consent",
+        "Patient assent"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, waist circumference, hip circumference, presence of diabetes, presence of gastroparesis, presence of pancreatitis, renal function, time since treatment for craniopharyngioma, type of treatment for craniopharyngioma, use of Metformin, use of weight loss medications, participation in formal weight loss programs, history of bariatric surgery.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Waist Circumference",
+          "waist circumference"
+        ],
+        [
+          "Hip Circumference",
+          "hip circumference"
+        ],
+        [
+          "Waist to Height Ratio",
+          "waist circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Tumor Type",
+        "Child Eating Behaviour Questionnaire"
+      ],
+      "remaining_candidate_features": [
+        "presence of diabetes",
+        "presence of gastroparesis",
+        "presence of pancreatitis",
+        "renal function",
+        "time since treatment for craniopharyngioma",
+        "type of treatment for craniopharyngioma",
+        "use of Metformin",
+        "use of weight loss medications",
+        "participation in formal weight loss programs",
+        "history of bariatric surgery"
+      ]
+    }
+  }
+}

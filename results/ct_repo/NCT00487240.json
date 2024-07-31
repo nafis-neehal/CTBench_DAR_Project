@@ -1,0 +1,152 @@
+{
+  "trial_id": "NCT00487240",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), duration of diabetes, baseline hemoglobin A1c (HbA1c), history of severe hypoglycemia, use of oral antihyperglycemic medications, pregnancy status, use of systemic glucocorticoid therapy, prior treatment with investigational drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "baseline hemoglobin A1c (HbA1c)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "gender",
+        "history of severe hypoglycemia",
+        "use of oral antihyperglycemic medications",
+        "pregnancy status",
+        "use of systemic glucocorticoid therapy",
+        "prior treatment with investigational drugs."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Frequency of Severe Hypoglycemia, Use of Oral Antihyperglycemic Medications, Compliance with Self-Monitoring of Blood Glucose, Compliance with Study Visits,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Daily Insulin Dose",
+        "Frequency of Severe Hypoglycemia",
+        "Use of Oral Antihyperglycemic Medications",
+        "Compliance with Self-Monitoring of Blood Glucose",
+        "Compliance with Study Visits"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, HbA1c, Diabetes Duration, Insulin Dose, SMBG, Hypoglycemic Events,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes Duration"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Insulin Dose",
+        "SMBG",
+        "Hypoglycemic Events"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), duration of type 1 diabetes, hemoglobin A1c (HbA1c) at baseline, history of severe hypoglycemia, use of oral antihyperglycemic medications, use of systemic glucocorticoid therapy, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 1 diabetes"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "hemoglobin A1c (HbA1c) at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "history of severe hypoglycemia",
+        "use of oral antihyperglycemic medications",
+        "use of systemic glucocorticoid therapy",
+        "smoking status."
+      ]
+    }
+  }
+}

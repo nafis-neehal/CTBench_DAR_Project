@@ -1,0 +1,210 @@
+{
+  "trial_id": "NCT01222689",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ECOG performance status, prior lines of therapy, absolute neutrophil count (ANC), platelet count, total bilirubin, aspartate aminotransferase (AST), alanine aminotransferase (ALT), serum creatinine, CA19-9 levels, life expectancy, presence of measurable disease, prior radiation therapy, use of contraception, pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Prior chemotherapy",
+          "prior lines of therapy"
+        ],
+        [
+          "Prior radiation",
+          "prior radiation therapy"
+        ],
+        [
+          "Elevated baseline Cancer Antigen 19-9(CA19-9) > 2x Upper Limit of Normal (ULN)",
+          "CA19-9 levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Prior surgery"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "absolute neutrophil count (ANC)",
+        "platelet count",
+        "total bilirubin",
+        "aspartate aminotransferase (AST)",
+        "alanine aminotransferase (ALT)",
+        "serum creatinine",
+        "life expectancy",
+        "presence of measurable disease",
+        "use of contraception",
+        "pregnancy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Absolute neutrophil count, Platelet count, Total bilirubin, AST, ALT, Serum creatinine, CA19-9 level, Prior systemic therapy, Prior radiation therapy, Life expectancy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Prior chemotherapy",
+          "Prior systemic therapy"
+        ],
+        [
+          "Prior radiation",
+          "Prior radiation therapy"
+        ],
+        [
+          "Elevated baseline Cancer Antigen 19-9(CA19-9) > 2x Upper Limit of Normal (ULN)",
+          "CA19-9 level"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Prior surgery"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Absolute neutrophil count",
+        "Platelet count",
+        "Total bilirubin",
+        "AST",
+        "ALT",
+        "Serum creatinine",
+        "Life expectancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior Chemotherapy, Prior Radiation Therapy, CA19-9 Level, Tumor Stage, Tumor Location, ANC, Platelet Count, INR, Total Bilirubin, AST, ALT, Serum Creatinine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Prior chemotherapy",
+          "Prior Chemotherapy"
+        ],
+        [
+          "Prior radiation",
+          "Prior Radiation Therapy"
+        ],
+        [
+          "Elevated baseline Cancer Antigen 19-9(CA19-9) > 2x Upper Limit of Normal (ULN)",
+          "CA19-9 Level"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Prior surgery"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Tumor Stage",
+        "Tumor Location",
+        "ANC",
+        "Platelet Count",
+        "INR",
+        "Total Bilirubin",
+        "AST",
+        "ALT",
+        "Serum Creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, life expectancy, histological type of pancreatic cancer, number of prior therapies, prior radiation therapy, prior surgery, CA19-9 level, ANC, platelet count, INR, total bilirubin, AST, ALT, serum creatinine, presence of metastases, measurable disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Prior chemotherapy",
+          "number of prior therapies"
+        ],
+        [
+          "Prior surgery",
+          "prior surgery"
+        ],
+        [
+          "Prior radiation",
+          "prior radiation therapy"
+        ],
+        [
+          "Elevated baseline Cancer Antigen 19-9(CA19-9) > 2x Upper Limit of Normal (ULN)",
+          "CA19-9 level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "life expectancy",
+        "histological type of pancreatic cancer",
+        "ANC",
+        "platelet count",
+        "INR",
+        "total bilirubin",
+        "AST",
+        "ALT",
+        "serum creatinine",
+        "presence of metastases",
+        "measurable disease"
+      ]
+    }
+  }
+}

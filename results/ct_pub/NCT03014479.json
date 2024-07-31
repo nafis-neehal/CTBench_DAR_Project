@@ -1,0 +1,236 @@
+{
+  "trial_id": "NCT03014479",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 2 diabetes, baseline Hemoglobin A1c (HbA1c), body mass index (BMI), blood pressure, comorbidities (e.g., hypertension, dyslipidemia), estimated glomerular filtration rate (eGFR), history of gastrointestinal resection, history of serious heart disease or cerebrovascular disorder, history of serious pancreatic, blood, or other disease, history of proliferative diabetic retinopathy, history of malignancy, history of hypersensitivity or allergy to DPP-4 inhibitors, pregnancy status, number of medications for comorbidities, baseline Diabetes Therapy Related -QOL (DTR-QOL) score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "gender"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of DM",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "Any medication for concurrent condition",
+          "comorbidities (e.g., hypertension, dyslipidemia)"
+        ],
+        [
+          "HbA1c",
+          "baseline Hemoglobin A1c (HbA1c)"
+        ],
+        [
+          "DTR-QOL total score",
+          "baseline Diabetes Therapy Related -QOL (DTR-QOL) score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age categories",
+        "Smoking classification",
+        "Drink alcohol almost every day?",
+        "Duration of DM categories",
+        "Number of doses of study drugs",
+        "DTSQ total score",
+        "Fasting blood glucose",
+        "Fasting glycoalbumin",
+        "1",
+        "5-AG"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure",
+        "estimated glomerular filtration rate (eGFR)",
+        "history of gastrointestinal resection",
+        "history of serious heart disease or cerebrovascular disorder",
+        "history of serious pancreatic",
+        "blood",
+        "or other disease",
+        "history of proliferative diabetic retinopathy",
+        "history of malignancy",
+        "history of hypersensitivity or allergy to DPP-4 inhibitors",
+        "pregnancy status",
+        "number of medications for comorbidities"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, BMI, Duration of diabetes, HbA1c, eGFR, Comorbidities, Medication use, Employment status, Education level, Smoking status, Blood pressure, Lipid profile, Physical activity level",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Duration of DM",
+          "Duration of diabetes"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Any medication for concurrent condition",
+          "Comorbidities"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age categories",
+        "Smoking classification",
+        "Drink alcohol almost every day?",
+        "Duration of DM categories",
+        "Number of doses of study drugs",
+        "DTR-QOL total score",
+        "DTSQ total score",
+        "Fasting blood glucose",
+        "Fasting glycoalbumin",
+        "1",
+        "5-AG"
+      ],
+      "remaining_candidate_features": [
+        "eGFR",
+        "Medication use",
+        "Employment status",
+        "Education level",
+        "Smoking status",
+        "Blood pressure",
+        "Lipid profile",
+        "Physical activity level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, BMI, Duration of diabetes, HbA1c, Fasting plasma glucose, Systolic blood pressure, Diastolic blood pressure, Total cholesterol, Triglycerides, HDL cholesterol, LDL cholesterol, eGFR, History of hypertension, History of dyslipidemia, History of cardiovascular disease, Current smoking status, Education level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Duration of DM",
+          "Duration of diabetes"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Fasting blood glucose",
+          "Fasting plasma glucose"
+        ],
+        [
+          "Any medication for concurrent condition",
+          "History of hypertension"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age categories",
+        "Smoking classification",
+        "Drink alcohol almost every day?",
+        "Duration of DM categories",
+        "Number of doses of study drugs",
+        "DTR-QOL total score",
+        "DTSQ total score",
+        "Fasting glycoalbumin",
+        "1",
+        "5-AG"
+      ],
+      "remaining_candidate_features": [
+        "Systolic blood pressure",
+        "Diastolic blood pressure",
+        "Total cholesterol",
+        "Triglycerides",
+        "HDL cholesterol",
+        "LDL cholesterol",
+        "History of dyslipidemia",
+        "History of cardiovascular disease",
+        "Current smoking status",
+        "Education level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, history of hypertension, history of dyslipidemia, number of comorbidities, number of medications for comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of DM",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Any medication for concurrent condition",
+          "number of medications for comorbidities"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age categories",
+        "Smoking classification",
+        "Drink alcohol almost every day?",
+        "Duration of DM categories",
+        "Number of doses of study drugs",
+        "DTR-QOL total score",
+        "DTSQ total score",
+        "Fasting blood glucose",
+        "Fasting glycoalbumin",
+        "1",
+        "5-AG"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "fasting plasma glucose",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "history of hypertension",
+        "history of dyslipidemia",
+        "number of comorbidities"
+      ]
+    }
+  }
+}

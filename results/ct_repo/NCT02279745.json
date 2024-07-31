@@ -1,0 +1,200 @@
+{
+  "trial_id": "NCT02279745",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, body mass index (BMI), baseline pulmonary vascular resistance, baseline cardiac output, baseline cardiac index, baseline mean pulmonary arterial pressure, systolic blood pressure, medical history, concomitant medications, smoking status, WHO functional class, duration of pulmonary arterial hypertension, previous treatments for pulmonary arterial hypertension.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "World Health Organization (WHO) Functional Class at Baseline",
+          "WHO functional class"
+        ],
+        [
+          "Time Since Pulmonary Arterial Hypertension (PAH) Diagnosis",
+          "duration of pulmonary arterial hypertension"
+        ],
+        [
+          "6-Minute Walk Distance (6MWD) at Baseline",
+          "baseline pulmonary vascular resistance"
+        ],
+        [
+          "N-terminal Pro-brain Natriuretic Peptide (NT-proBNP) at Baseline",
+          "baseline cardiac output"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Etiology of PAH"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "baseline cardiac index",
+        "baseline mean pulmonary arterial pressure",
+        "systolic blood pressure",
+        "medical history",
+        "concomitant medications",
+        "smoking status",
+        "previous treatments for pulmonary arterial hypertension"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Pulmonary Vascular Resistance, Baseline Cardiac Output, Baseline Cardiac Index, Baseline Mean Pulmonary Arterial Pressure, Systolic Blood Pressure, Diastolic Blood Pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Time Since Pulmonary Arterial Hypertension (PAH) Diagnosis",
+        "Etiology of PAH",
+        "6-Minute Walk Distance (6MWD) at Baseline",
+        "World Health Organization (WHO) Functional Class at Baseline",
+        "N-terminal Pro-brain Natriuretic Peptide (NT-proBNP) at Baseline"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Baseline Pulmonary Vascular Resistance",
+        "Baseline Cardiac Output",
+        "Baseline Cardiac Index",
+        "Baseline Mean Pulmonary Arterial Pressure",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulmonary Vascular Resistance, Cardiac Output, Cardiac Index, Mean Pulmonary Arterial Pressure, World Health Organization Functional Class, Six-Minute Walk Distance, N-terminal pro-brain natriuretic peptide.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Systolic Blood Pressure <90 mmHg at Baseline",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "World Health Organization (WHO) Functional Class at Baseline",
+          "World Health Organization Functional Class"
+        ],
+        [
+          "6-Minute Walk Distance (6MWD) at Baseline",
+          "Six-Minute Walk Distance"
+        ],
+        [
+          "N-terminal Pro-brain Natriuretic Peptide (NT-proBNP) at Baseline",
+          "N-terminal pro-brain natriuretic peptide"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Time Since Pulmonary Arterial Hypertension (PAH) Diagnosis",
+        "Etiology of PAH"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Diastolic Blood Pressure",
+        "Pulmonary Vascular Resistance",
+        "Cardiac Output",
+        "Cardiac Index",
+        "Mean Pulmonary Arterial Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), systolic blood pressure, diastolic blood pressure, heart rate, New York Heart Association (NYHA) functional class, World Health Organization (WHO) functional class, pulmonary arterial hypertension (PAH) etiology, duration of PAH, prior PAH therapy, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Time Since Pulmonary Arterial Hypertension (PAH) Diagnosis",
+          "duration of PAH"
+        ],
+        [
+          "Etiology of PAH",
+          "pulmonary arterial hypertension (PAH) etiology"
+        ],
+        [
+          "World Health Organization (WHO) Functional Class at Baseline",
+          "World Health Organization (WHO) functional class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "6-Minute Walk Distance (6MWD) at Baseline",
+        "N-terminal Pro-brain Natriuretic Peptide (NT-proBNP) at Baseline"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "New York Heart Association (NYHA) functional class",
+        "prior PAH therapy",
+        "concomitant medications."
+      ]
+    }
+  }
+}

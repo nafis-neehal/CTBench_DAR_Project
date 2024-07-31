@@ -1,0 +1,171 @@
+{
+  "trial_id": "NCT03268941",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), smoking status, duration of gastroparesis symptoms, type of gastroparesis (diabetic or idiopathic), gastric emptying rate, nausea symptom score, hemoglobin A1c (for diabetes mellitus participants), history of gastrointestinal surgeries, history of inflammatory bowel disease, history of anorexia nervosa or bulimia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Underlying Disease",
+          "type of gastroparesis (diabetic or idiopathic)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "smoking status",
+        "duration of gastroparesis symptoms",
+        "gastric emptying rate",
+        "nausea symptom score",
+        "hemoglobin A1c (for diabetes mellitus participants)",
+        "history of gastrointestinal surgeries",
+        "history of inflammatory bowel disease",
+        "history of anorexia nervosa or bulimia."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Smoking Status, Duration of Gastroparesis Symptoms, Gastric Emptying Time, Nausea Symptom Score, Hemoglobin A1c,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Underlying Disease",
+          "Hemoglobin A1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Smoking Status",
+        "Duration of Gastroparesis Symptoms",
+        "Gastric Emptying Time",
+        "Nausea Symptom Score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Diabetes Diagnosis Duration, HbA1c, Gastroparesis Symptoms, Gastric Emptying Time, Nausea Subscale Score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Underlying Disease"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Diagnosis Duration",
+        "HbA1c",
+        "Gastroparesis Symptoms",
+        "Gastric Emptying Time",
+        "Nausea Subscale Score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), diabetes mellitus status, gastroparesis diagnosis (DG or IG), duration of gastroparesis symptoms, nausea subscale score, haemoglobin A1c (HBA1c) level, gastric emptying rate, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Underlying Disease",
+          "diabetes mellitus status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "gastroparesis diagnosis (DG or IG)",
+        "duration of gastroparesis symptoms",
+        "nausea subscale score",
+        "haemoglobin A1c (HBA1c) level",
+        "gastric emptying rate",
+        "smoking status"
+      ]
+    }
+  }
+}

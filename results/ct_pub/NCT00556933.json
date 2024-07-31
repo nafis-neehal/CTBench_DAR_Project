@@ -1,0 +1,265 @@
+{
+  "trial_id": "NCT00556933",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, primary cause of end-stage renal disease, duration of dialysis before transplant, type of donor (living or deceased), HLA matching, Panel Reactive Antibody (PRA) score, history of diabetes, history of hypertension, body mass index (BMI), baseline renal function, previous immunosuppressive treatments, history of CMV disease, history of hepatitis B or C, history of BK virus, allergy to rabbits, number of previous transplants, type of previous transplants.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age at transplantion",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "PRA",
+          "Panel Reactive Antibody (PRA) score"
+        ],
+        [
+          "CMV serostatus",
+          "history of CMV disease"
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI",
+        "BMI>30",
+        "Liver Donor- Related or Unrelated",
+        "Donor Deceased",
+        "Hours of Cold Ischemia in Deceased Donor",
+        "Donor/Recipient height ratio",
+        "Donor/Recipient height ratio",
+        "Antigen mismatch",
+        "CNI withdrawn",
+        "Donor Age at procurement",
+        "Donor Sex",
+        "Donor BMI",
+        "Donor Final Creatinine",
+        "Deceased Donor Grade A",
+        "Deceased Donor Grade B",
+        "Deceased Donor Grade C",
+        "Deceased Donor <18 years old"
+      ],
+      "remaining_candidate_features": [
+        "primary cause of end-stage renal disease",
+        "duration of dialysis before transplant",
+        "type of donor (living or deceased)",
+        "HLA matching",
+        "history of diabetes",
+        "history of hypertension",
+        "body mass index (BMI)",
+        "baseline renal function",
+        "previous immunosuppressive treatments",
+        "history of hepatitis B or C",
+        "history of BK virus",
+        "allergy to rabbits",
+        "number of previous transplants",
+        "type of previous transplants."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Primary renal disease, Duration of dialysis, Type of dialysis, Donor type (living or deceased), HLA mismatch, Panel Reactive Antibody (PRA) score, Cold ischemia time, Warm ischemia time, Induction therapy, Maintenance immunosuppression, Serum creatinine, eGFR, Incidence of delayed graft function, Incidence of acute rejection, Cytomegalovirus (CMV) status, Hepatitis B and C status, History of BK virus, History of previous transplants, Blood pressure, BMI, Diabetes status, Cardiovascular disease history, Smoking status, Alcohol use, Employment status, Education level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age at transplantion",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "PRA",
+          "Panel Reactive Antibody (PRA) score"
+        ],
+        [
+          "Hours of Cold Ischemia in Deceased Donor",
+          "Cold ischemia time"
+        ],
+        [
+          "CMV serostatus",
+          "Cytomegalovirus (CMV) status"
+        ],
+        [
+          "Donor Deceased",
+          "Donor type (living or deceased)"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI>30",
+        "Liver Donor- Related or Unrelated",
+        "Donor/Recipient height ratio",
+        "Donor/Recipient height ratio",
+        "Antigen mismatch",
+        "CNI withdrawn",
+        "Donor Age at procurement",
+        "Donor Sex",
+        "Donor BMI",
+        "Donor Final Creatinine",
+        "Deceased Donor Grade A",
+        "Deceased Donor Grade B",
+        "Deceased Donor Grade C",
+        "Deceased Donor <18 years old"
+      ],
+      "remaining_candidate_features": [
+        "Primary renal disease",
+        "Duration of dialysis",
+        "Type of dialysis",
+        "HLA mismatch",
+        "Warm ischemia time",
+        "Induction therapy",
+        "Maintenance immunosuppression",
+        "Serum creatinine",
+        "eGFR",
+        "Incidence of delayed graft function",
+        "Incidence of acute rejection",
+        "Hepatitis B and C status",
+        "History of BK virus",
+        "History of previous transplants",
+        "Blood pressure",
+        "Diabetes status",
+        "Cardiovascular disease history",
+        "Smoking status",
+        "Alcohol use",
+        "Employment status",
+        "Education level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, BMI, Diabetes, Hypertension, Hyperlipidemia, Smoking history, Previous cardiovascular event, Previous congestive heart failure, Education, Cigarette-smoking status, Weight, Waist circumference, Blood pressure, Medications, Glycated hemoglobin, Fasting serum glucose, Cholesterol, Triglyceride, Potassium, Serum creatinine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age at transplantion",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Race",
+          "Ethnic Origin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI>30",
+        "Liver Donor- Related or Unrelated",
+        "Donor Deceased",
+        "Hours of Cold Ischemia in Deceased Donor",
+        "PRA",
+        "Donor/Recipient height ratio",
+        "Donor/Recipient height ratio",
+        "Antigen mismatch",
+        "CNI withdrawn",
+        "CMV serostatus",
+        "Donor Age at procurement",
+        "Donor Sex",
+        "Donor BMI",
+        "Donor Final Creatinine",
+        "Deceased Donor Grade A",
+        "Deceased Donor Grade B",
+        "Deceased Donor Grade C",
+        "Deceased Donor <18 years old"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes",
+        "Hypertension",
+        "Hyperlipidemia",
+        "Smoking history",
+        "Previous cardiovascular event",
+        "Previous congestive heart failure",
+        "Education",
+        "Cigarette-smoking status",
+        "Weight",
+        "Waist circumference",
+        "Blood pressure",
+        "Medications",
+        "Glycated hemoglobin",
+        "Fasting serum glucose",
+        "Cholesterol",
+        "Triglyceride",
+        "Potassium",
+        "Serum creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), primary cause of end-stage renal disease, duration of dialysis, previous transplant history, panel reactive antibody (PRA) score, cytomegalovirus (CMV) serostatus, hepatitis B and C serostatus, concomitant medical conditions (e.g., diabetes, hypertension), smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age at transplantion",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "PRA",
+          "panel reactive antibody (PRA) score"
+        ],
+        [
+          "CMV serostatus",
+          "cytomegalovirus (CMV) serostatus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI>30",
+        "Liver Donor- Related or Unrelated",
+        "Donor Deceased",
+        "Hours of Cold Ischemia in Deceased Donor",
+        "Donor/Recipient height ratio",
+        "Donor/Recipient height ratio",
+        "Antigen mismatch",
+        "CNI withdrawn",
+        "Donor Age at procurement",
+        "Donor Sex",
+        "Donor BMI",
+        "Donor Final Creatinine",
+        "Deceased Donor Grade A",
+        "Deceased Donor Grade B",
+        "Deceased Donor Grade C",
+        "Deceased Donor <18 years old"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "primary cause of end-stage renal disease",
+        "duration of dialysis",
+        "previous transplant history",
+        "hepatitis B and C serostatus",
+        "concomitant medical conditions (e.g., diabetes, hypertension)",
+        "smoking status"
+      ]
+    }
+  }
+}

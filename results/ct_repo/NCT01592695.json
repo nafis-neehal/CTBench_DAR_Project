@@ -1,0 +1,194 @@
+{
+  "trial_id": "NCT01592695",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, smoking history (e.g., number of cigarettes per day, years of smoking), primary care provider location (Iowa City VAMC or Coralville Clinic), residence type (non-metropolitan area), willingness to quit (within the next 30 days), telephone access type (land line or cell phone), residence stability, depressive symptoms, alcohol use, weight, comorbid conditions (e.g., psychiatric disorders), use of nicotine replacement therapy, use of bupropion, use of varenicline, combination pharmacotherapy usage, treatment satisfaction.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Region of Enrollment",
+          "primary care provider location (Iowa City VAMC or Coralville Clinic)"
+        ],
+        [
+          "Cigarettes smoked per day",
+          "smoking history (e.g., number of cigarettes per day, years of smoking)"
+        ],
+        [
+          "Readiness to quit smoking",
+          "willingness to quit (within the next 30 days)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Nicotine dependence",
+        "Prior quit attempts lasting at least 24 hours",
+        "Age of smoking initiation"
+      ],
+      "remaining_candidate_features": [
+        "residence type (non-metropolitan area)",
+        "telephone access type (land line or cell phone)",
+        "residence stability",
+        "depressive symptoms",
+        "alcohol use",
+        "weight",
+        "comorbid conditions (e.g., psychiatric disorders)",
+        "use of nicotine replacement therapy",
+        "use of bupropion",
+        "use of varenicline",
+        "combination pharmacotherapy usage",
+        "treatment satisfaction."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Smoking History, Daily Cigarette Consumption, Previous Quit Attempts, Depressive Symptoms, Alcohol Use, Weight, Access to Telephone, Stable Residence,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Cigarettes smoked per day",
+          "Daily Cigarette Consumption"
+        ],
+        [
+          "Prior quit attempts lasting at least 24 hours",
+          "Previous Quit Attempts"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Nicotine dependence",
+        "Readiness to quit smoking",
+        "Age of smoking initiation"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Smoking History",
+        "Depressive Symptoms",
+        "Alcohol Use",
+        "Weight",
+        "Access to Telephone",
+        "Stable Residence"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Veteran Status, Cigarettes Smoked per Day, Nicotine Dependence, Fagerstrom Test for Nicotine Dependence, Depression Symptoms, Alcohol Use, Body Mass Index,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Nicotine dependence",
+          "Nicotine Dependence"
+        ],
+        [
+          "Cigarettes smoked per day",
+          "Cigarettes Smoked per Day"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Prior quit attempts lasting at least 24 hours",
+        "Readiness to quit smoking",
+        "Age of smoking initiation"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Veteran Status",
+        "Fagerstrom Test for Nicotine Dependence",
+        "Depression Symptoms",
+        "Alcohol Use",
+        "Body Mass Index"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, veteran status, smoking history (e.g., number of cigarettes smoked per day, years of smoking), nicotine dependence, motivation to quit, depressive symptoms, alcohol use, body mass index (BMI), medical comorbidities, prior quit attempts, current medications, education level, employment status, marital status, income level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Nicotine dependence",
+          "nicotine dependence"
+        ],
+        [
+          "Cigarettes smoked per day",
+          "smoking history (e.g., number of cigarettes smoked per day, years of smoking)"
+        ],
+        [
+          "Prior quit attempts lasting at least 24 hours",
+          "prior quit attempts"
+        ],
+        [
+          "Readiness to quit smoking",
+          "motivation to quit"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Age of smoking initiation"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "veteran status",
+        "depressive symptoms",
+        "alcohol use",
+        "body mass index (BMI)",
+        "medical comorbidities",
+        "current medications",
+        "education level",
+        "employment status",
+        "marital status",
+        "income level"
+      ]
+    }
+  }
+}

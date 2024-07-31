@@ -1,0 +1,242 @@
+{
+  "trial_id": "NCT00713830",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), duration of type 2 diabetes mellitus, baseline HbA1c, fasting plasma glucose (FPG), use of sulfonylurea, use of metformin, history of cardiovascular disease, history of pancreatitis, renal function (serum creatinine), liver function tests (AST, ALT, alkaline phosphatase, bilirubin), blood pressure (systolic and diastolic), history of hypoglycemia, weight change in the last 3 months, hemoglobin levels, neutrophil count, platelet count, hepatitis B and C status, history of gastrointestinal disease, history of drug or alcohol abuse, history of diabetic retinopathy or macular edema.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose (FPG)"
+        ],
+        [
+          "Body Weight",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "2-Hour Postprandial Plasma Glucose (PPG)",
+        "Homeostasis Model Assessment for Beta-cell Function (HOMA-beta)",
+        "Fasting glucagon",
+        "2-hour postprandial glucagon",
+        "Fasting plasma insulin (FPI)",
+        "2-hour postprandial plasma insulin",
+        "Fasting proinsulin",
+        "2-hour postprandial proinsulin",
+        "Fasting C-peptide",
+        "2-hour postprandial C-peptide",
+        "Glucose Excursion",
+        "Fasting proinsulin-to-insulin ratio",
+        "2-hour postprandial proinsulin-to-insulin ratio"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 2 diabetes mellitus",
+        "use of sulfonylurea",
+        "use of metformin",
+        "history of cardiovascular disease",
+        "history of pancreatitis",
+        "renal function (serum creatinine)",
+        "liver function tests (AST, ALT, alkaline phosphatase, bilirubin)",
+        "blood pressure (systolic and diastolic)",
+        "history of hypoglycemia",
+        "weight change in the last 3 months",
+        "hemoglobin levels",
+        "neutrophil count",
+        "platelet count",
+        "hepatitis B and C status",
+        "history of gastrointestinal disease",
+        "history of drug or alcohol abuse",
+        "history of diabetic retinopathy or macular edema"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Fasting Plasma Glucose, Duration of Diabetes, Daily Insulin Dose, Blood Pressure, Total Cholesterol, Triglycerides, eGFR, History of Cardiovascular Disease,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "2-Hour Postprandial Plasma Glucose (PPG)",
+        "Body Weight",
+        "Homeostasis Model Assessment for Beta-cell Function (HOMA-beta)",
+        "Fasting glucagon",
+        "2-hour postprandial glucagon",
+        "Fasting plasma insulin (FPI)",
+        "2-hour postprandial plasma insulin",
+        "Fasting proinsulin",
+        "2-hour postprandial proinsulin",
+        "Fasting C-peptide",
+        "2-hour postprandial C-peptide",
+        "Glucose Excursion",
+        "Fasting proinsulin-to-insulin ratio",
+        "2-hour postprandial proinsulin-to-insulin ratio"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Duration of Diabetes",
+        "Daily Insulin Dose",
+        "Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "eGFR",
+        "History of Cardiovascular Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, HbA1c, Sulfonylurea Dose, Metformin Dose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Body Weight",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "2-Hour Postprandial Plasma Glucose (PPG)",
+        "Homeostasis Model Assessment for Beta-cell Function (HOMA-beta)",
+        "Fasting glucagon",
+        "2-hour postprandial glucagon",
+        "Fasting plasma insulin (FPI)",
+        "2-hour postprandial plasma insulin",
+        "Fasting proinsulin",
+        "2-hour postprandial proinsulin",
+        "Fasting C-peptide",
+        "2-hour postprandial C-peptide",
+        "Glucose Excursion",
+        "Fasting proinsulin-to-insulin ratio",
+        "2-hour postprandial proinsulin-to-insulin ratio"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diabetes Diagnosis Duration",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Sulfonylurea Dose",
+        "Metformin Dose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose (FPG) at screening, sulfonylurea dose, metformin dose, systolic blood pressure (SBP), diastolic blood pressure (DBP), history of cardiovascular disease, history of hypoglycemia, history of pancreatitis, history of gastrointestinal disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c at screening"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose (FPG) at screening"
+        ],
+        [
+          "Body Weight",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "2-Hour Postprandial Plasma Glucose (PPG)",
+        "Homeostasis Model Assessment for Beta-cell Function (HOMA-beta)",
+        "Fasting glucagon",
+        "2-hour postprandial glucagon",
+        "Fasting plasma insulin (FPI)",
+        "2-hour postprandial plasma insulin",
+        "Fasting proinsulin",
+        "2-hour postprandial proinsulin",
+        "Fasting C-peptide",
+        "2-hour postprandial C-peptide",
+        "Glucose Excursion",
+        "Fasting proinsulin-to-insulin ratio",
+        "2-hour postprandial proinsulin-to-insulin ratio"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "duration of type 2 diabetes",
+        "sulfonylurea dose",
+        "metformin dose",
+        "systolic blood pressure (SBP)",
+        "diastolic blood pressure (DBP)",
+        "history of cardiovascular disease",
+        "history of hypoglycemia",
+        "history of pancreatitis",
+        "history of gastrointestinal disease"
+      ]
+    }
+  }
+}

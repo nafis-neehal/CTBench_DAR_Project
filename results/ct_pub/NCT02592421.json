@@ -1,0 +1,160 @@
+{
+  "trial_id": "NCT02592421",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, BMI, HbA1c, Duration of Diabetes, Medication Use (metformin and/or sulfonylurea), Baseline Plasma Glucose Concentration, Baseline Endogenous Glucose Production (EGP), Body Weight, Exercise Level",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1C",
+          "HbA1c"
+        ],
+        [
+          "Background Drug Therapy",
+          "Medication Use (metformin and/or sulfonylurea)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex",
+        "Diabetes",
+        "FPG",
+        "eGFR"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Duration of Diabetes",
+        "Baseline Plasma Glucose Concentration",
+        "Baseline Endogenous Glucose Production (EGP)",
+        "Body Weight",
+        "Exercise Level"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, BMI, Duration of diabetes, HbA1c, Fasting plasma glucose, Plasma creatinine, 24-hour urine albumin excretion, Current diabetes medication, Stable body weight, Exercise habits",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1C",
+          "HbA1c"
+        ],
+        [
+          "Background Drug Therapy",
+          "Current diabetes medication"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex",
+        "Diabetes",
+        "FPG",
+        "eGFR"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Duration of diabetes",
+        "Fasting plasma glucose",
+        "Plasma creatinine",
+        "24-hour urine albumin excretion",
+        "Stable body weight",
+        "Exercise habits"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Sex, BMI, Diabetes duration, HbA1c, Insulin regimen, Total daily insulin dose, Metformin use, Sulfonylurea use, History of proliferative diabetic retinopathy, Plasma creatinine, 24-hour urine albumin excretion.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1C",
+          "HbA1c"
+        ],
+        [
+          "Background Drug Therapy",
+          "Metformin use"
+        ],
+        [
+          "Background Drug Therapy",
+          "Sulfonylurea use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex",
+        "Diabetes",
+        "FPG",
+        "eGFR"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Diabetes duration",
+        "Insulin regimen",
+        "Total daily insulin dose",
+        "History of proliferative diabetic retinopathy",
+        "Plasma creatinine",
+        "24-hour urine albumin excretion"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Sex, BMI, HbA1c, Duration of diabetes, Type of diabetes medication, History of diabetic complications, History of cardiovascular disease, Smoking status, Exercise habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1C",
+          "HbA1c"
+        ],
+        [
+          "Diabetes",
+          "Duration of diabetes"
+        ],
+        [
+          "Background Drug Therapy",
+          "Type of diabetes medication"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex",
+        "FPG",
+        "eGFR"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "History of diabetic complications",
+        "History of cardiovascular disease",
+        "Smoking status",
+        "Exercise habits."
+      ]
+    }
+  }
+}

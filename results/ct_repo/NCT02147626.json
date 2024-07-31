@@ -1,0 +1,160 @@
+{
+  "trial_id": "NCT02147626",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, history of preeclampsia, blood pressure status, internet access, language proficiency, pregnancy status, diabetes status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Personal Health Self-efficacy (Eating)",
+        "Personal Health Self-efficacy (Physical Activity)",
+        "Physical Activity",
+        "Physical inactivity",
+        "Adherence to Dietary Approaches to Stop Hypertension (DASH) Diet",
+        "Patient Knowledge of Cardiovascular Disease Risk",
+        "Patient Control Over Cardiovascular Disease Risk"
+      ],
+      "remaining_candidate_features": [
+        "history of preeclampsia",
+        "blood pressure status",
+        "internet access",
+        "language proficiency",
+        "pregnancy status",
+        "diabetes status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Postpartum Weight Retention, Normotensive or Prehypertensive Status, Access to Internet,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Personal Health Self-efficacy (Eating)",
+        "Personal Health Self-efficacy (Physical Activity)",
+        "Physical Activity",
+        "Physical inactivity",
+        "Adherence to Dietary Approaches to Stop Hypertension (DASH) Diet",
+        "Patient Knowledge of Cardiovascular Disease Risk",
+        "Patient Control Over Cardiovascular Disease Risk"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Postpartum Weight Retention",
+        "Normotensive or Prehypertensive Status",
+        "Access to Internet"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, History of Preeclampsia, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Gestational Age at Delivery, Parity, Breastfeeding Status, Postpartum Weight Retention,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Personal Health Self-efficacy (Eating)",
+        "Personal Health Self-efficacy (Physical Activity)",
+        "Physical Activity",
+        "Physical inactivity",
+        "Adherence to Dietary Approaches to Stop Hypertension (DASH) Diet",
+        "Patient Knowledge of Cardiovascular Disease Risk",
+        "Patient Control Over Cardiovascular Disease Risk"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "History of Preeclampsia",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Gestational Age at Delivery",
+        "Parity",
+        "Breastfeeding Status",
+        "Postpartum Weight Retention"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, education level, parity, gestational age at delivery, history of preeclampsia severity, body mass index (BMI), systolic and diastolic blood pressure, medical comorbidities, current smoking status, current medication use, internet proficiency, language spoken at home.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Personal Health Self-efficacy (Eating)",
+        "Personal Health Self-efficacy (Physical Activity)",
+        "Physical Activity",
+        "Physical inactivity",
+        "Adherence to Dietary Approaches to Stop Hypertension (DASH) Diet",
+        "Patient Knowledge of Cardiovascular Disease Risk",
+        "Patient Control Over Cardiovascular Disease Risk"
+      ],
+      "remaining_candidate_features": [
+        "education level",
+        "parity",
+        "gestational age at delivery",
+        "history of preeclampsia severity",
+        "body mass index (BMI)",
+        "systolic and diastolic blood pressure",
+        "medical comorbidities",
+        "current smoking status",
+        "current medication use",
+        "internet proficiency",
+        "language spoken at home."
+      ]
+    }
+  }
+}

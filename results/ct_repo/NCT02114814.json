@@ -1,0 +1,252 @@
+{
+  "trial_id": "NCT02114814",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Ethnicity, Language proficiency, Duration of diabetes diagnosis, Baseline HbA1c levels, Medication use, Physical activity levels, Dietary habits, Family support, Diabetes knowledge, Diabetes self-efficacy, Health-related quality of life, Cognitive status, Pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ],
+        [
+          "Physical Activity (the Short International Physical Activity Questionnaire)",
+          "Physical activity levels"
+        ],
+        [
+          "Dietary Intake (BFRSS fruits/vegetables) servings/day",
+          "Dietary habits"
+        ],
+        [
+          "Family Support (Supportive Resources (CIRS))",
+          "Family support"
+        ],
+        [
+          "Diabetes self-efficacy (DSE)",
+          "Diabetes self-efficacy"
+        ],
+        [
+          "Diabetes knowledge (Spoken Knowledge of Diabetes in Low Literacy Patients with Diabetes)",
+          "Diabetes knowledge"
+        ],
+        [
+          "HbA1c",
+          "Baseline HbA1c levels"
+        ],
+        [
+          "Medical Outcomes Study Short Form Health Survey Version 2 (SF-12v2)",
+          "Health-related quality of life"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Body Mass Index (BMI)",
+        "Systolic Blood pressure",
+        "Diabetes self-management (Revised Summary of Diabetes Self-Care Activities)"
+      ],
+      "remaining_candidate_features": [
+        "Language proficiency",
+        "Duration of diabetes diagnosis",
+        "Medication use",
+        "Cognitive status",
+        "Pregnancy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity, Region of Enrollment, Diabetes Duration, Baseline HbA1c, Body Mass Index, Blood Pressure, Diabetes Knowledge, Diabetes Self-efficacy, Family Support, Health-related Quality of Life,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Systolic Blood pressure",
+          "Blood Pressure"
+        ],
+        [
+          "Physical Activity (the Short International Physical Activity Questionnaire)",
+          "Physical Activity"
+        ],
+        [
+          "Dietary Intake ( BFRSS fruits/vegetables) servings/day",
+          "Dietary Intake"
+        ],
+        [
+          "Family Support (Supportive Resources (CIRS))",
+          "Family Support"
+        ],
+        [
+          "Diabetes self-efficacy (DSE)",
+          "Diabetes Self-efficacy"
+        ],
+        [
+          "Diabetes self-management (Revised Summary of Diabetes Self-Care Activities)",
+          "Diabetes Self-management"
+        ],
+        [
+          "Diabetes knowledge (Spoken Knowledge of Diabetes in Low Literacy Patients with Diabetes)",
+          "Diabetes Knowledge"
+        ],
+        [
+          "Medical Outcomes Study Short Form Health Survey Version 2 (SF-12v2)",
+          "Health-related Quality of Life"
+        ],
+        [
+          "HbA1c",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diabetes Duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity (Hispanic), Region of Enrollment, Diabetes Diagnosis Duration, Family Support, HbA1c, Body Mass Index, Physical Activity Level, Diabetes Self-Efficacy, Health-Related Quality of Life.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Family Support (Supportive Resources (CIRS))",
+          "Family Support"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Physical Activity (the Short International Physical Activity Questionnaire)",
+          "Physical Activity Level"
+        ],
+        [
+          "Diabetes self-efficacy (DSE)",
+          "Diabetes Self-Efficacy"
+        ],
+        [
+          "Medical Outcomes Study Short Form Health Survey Version 2 (SF-12v2)",
+          "Health-Related Quality of Life."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Systolic Blood pressure",
+        "Dietary Intake ( BFRSS fruits/vegetables) servings/day",
+        "Diabetes self-management (Revised Summary of Diabetes Self-Care Activities)",
+        "Diabetes knowledge (Spoken Knowledge of Diabetes in Low Literacy Patients with Diabetes )"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity (Hispanic)",
+        "Region of Enrollment",
+        "Diabetes Diagnosis Duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ethnicity, language spoken, education level, employment status, marital status, household income, duration of diabetes diagnosis, current diabetes treatment, body mass index (BMI), physical activity level, smoking status, comorbidities, family support, diabetes knowledge, diabetes self-efficacy, health-related quality of life.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Physical Activity (the Short International Physical Activity Questionnaire)",
+          "physical activity level"
+        ],
+        [
+          "Family Support (Supportive Resources (CIRS))",
+          "family support"
+        ],
+        [
+          "Diabetes self-efficacy (DSE)",
+          "diabetes self-efficacy"
+        ],
+        [
+          "Diabetes knowledge (Spoken Knowledge of Diabetes in Low Literacy Patients with Diabetes)",
+          "diabetes knowledge"
+        ],
+        [
+          "Medical Outcomes Study Short Form Health Survey Version 2 (SF-12v2)",
+          "health-related quality of life."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Systolic Blood pressure",
+        "Dietary Intake ( BFRSS fruits/vegetables) servings/day",
+        "Diabetes self-management (Revised Summary of Diabetes Self-Care Activities)",
+        "HbA1c"
+      ],
+      "remaining_candidate_features": [
+        "language spoken",
+        "education level",
+        "employment status",
+        "marital status",
+        "household income",
+        "duration of diabetes diagnosis",
+        "current diabetes treatment",
+        "smoking status",
+        "comorbidities"
+      ]
+    }
+  }
+}

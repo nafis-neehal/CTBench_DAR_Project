@@ -1,0 +1,208 @@
+{
+  "trial_id": "NCT03506724",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age, blood pressure at baseline, history of hypertension, history of preeclampsia, body mass index (BMI), race/ethnicity, smoking status, parity, genetic variants (e.g., ADRB1), renal function, heart rate, medication history, allergy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Gestational age",
+          "gestational age"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "blood pressure at baseline"
+        ],
+        [
+          "History of Smoking",
+          "smoking status"
+        ],
+        [
+          "Pre-medication",
+          "medication history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Number of participants who are Post-partum",
+        "Number of Participants with Chronic Hypertension (CHTN)",
+        "Number of Participants with Gestational Hypertension (GHTN)",
+        "Number of Participants with Diabete Mellitus Type I or II",
+        "Family History of HTN",
+        "DiastolicBlood Pressure"
+      ],
+      "remaining_candidate_features": [
+        "history of hypertension",
+        "history of preeclampsia",
+        "parity",
+        "genetic variants (e.g., ADRB1)",
+        "renal function",
+        "heart rate",
+        "allergy status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Gestational Age at Enrollment, Systolic Blood Pressure, Diastolic Blood Pressure, History of Preeclampsia, History of Hypertension, Use of Antihypertensive Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Gestational age",
+          "Gestational Age at Enrollment"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Pre-medication",
+          "Use of Antihypertensive Medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Body Mass Index (BMI)",
+        "Number of participants who are Post-partum",
+        "Number of Participants with Chronic Hypertension (CHTN)",
+        "Number of Participants with Gestational Hypertension (GHTN)",
+        "Number of Participants with Diabete Mellitus Type I or II",
+        "Family History of HTN",
+        "History of Smoking"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "History of Preeclampsia",
+        "History of Hypertension"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gestational Age, Parity, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Chronic Hypertension, Preeclampsia History,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age",
+          "Gestational Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Number of participants who are Post-partum",
+        "Number of Participants with Chronic Hypertension (CHTN)",
+        "Number of Participants with Gestational Hypertension (GHTN)",
+        "Number of Participants with Diabete Mellitus Type I or II",
+        "Family History of HTN",
+        "History of Smoking",
+        "Pre-medication"
+      ],
+      "remaining_candidate_features": [
+        "Parity",
+        "Region of Enrollment",
+        "Chronic Hypertension",
+        "Preeclampsia History"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, gestational age, parity, body mass index (BMI), medical history (including history of hypertension, preeclampsia, heart failure, cardiac arrhythmia), medication use (including anti-hypertensive medications), fetal heart rate category, presence of abruptio placenta, renal function (estimated glomerular filtration rate, serum creatinine).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Gestational age",
+          "gestational age"
+        ],
+        [
+          "History of Smoking",
+          "medical history (including history of hypertension, preeclampsia, heart failure, cardiac arrhythmia)"
+        ],
+        [
+          "Pre-medication",
+          "medication use (including anti-hypertensive medications)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Number of participants who are Post-partum",
+        "Number of Participants with Chronic Hypertension (CHTN)",
+        "Number of Participants with Gestational Hypertension (GHTN)",
+        "Number of Participants with Diabete Mellitus Type I or II",
+        "Family History of HTN",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ],
+      "remaining_candidate_features": [
+        "parity",
+        "fetal heart rate category",
+        "presence of abruptio placenta",
+        "renal function (estimated glomerular filtration rate, serum creatinine)"
+      ]
+    }
+  }
+}

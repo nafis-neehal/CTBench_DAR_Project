@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT00343291",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ECOG performance status, histological subtype of NSCLC, stage of NSCLC, prior treatments, hematologic function (ANC, hemoglobin, platelet count), hepatic function (total bilirubin, transaminases, alkaline phosphatase), renal function (serum creatinine, creatinine clearance, proteinuria), coagulation function (INR, prothrombin time, partial thromboplastin time), presence of comorbidities (e.g., hypertension, cardiac conditions), smoking status, baseline tumor measurements.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Smoking Status",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "histological subtype of NSCLC",
+        "stage of NSCLC",
+        "prior treatments",
+        "hematologic function (ANC, hemoglobin, platelet count)",
+        "hepatic function (total bilirubin, transaminases, alkaline phosphatase)",
+        "renal function (serum creatinine, creatinine clearance, proteinuria)",
+        "coagulation function (INR, prothrombin time, partial thromboplastin time)",
+        "presence of comorbidities (e.g., hypertension, cardiac conditions)",
+        "baseline tumor measurements"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Histological Subtype, Stage of Disease, Measurable Disease, Absolute Neutrophil Count, Hemoglobin, Platelet Count, Total Bilirubin, Transaminases, Alkaline Phosphatase, Serum Creatinine, Creatinine Clearance, Urine Protein, International Normalized Ratio, Prothrombin Time, Partial Thromboplastin Time, Contraception Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Smoking Status"
+      ],
+      "remaining_candidate_features": [
+        "Histological Subtype",
+        "Stage of Disease",
+        "Measurable Disease",
+        "Absolute Neutrophil Count",
+        "Hemoglobin",
+        "Platelet Count",
+        "Total Bilirubin",
+        "Transaminases",
+        "Alkaline Phosphatase",
+        "Serum Creatinine",
+        "Creatinine Clearance",
+        "Urine Protein",
+        "International Normalized Ratio",
+        "Prothrombin Time",
+        "Partial Thromboplastin Time",
+        "Contraception Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology, Stage of Disease, Number of Metastatic Sites, Prior Chemotherapy, Prior Radiation Therapy, Prior Surgery, Smoking Status, Pack Years of Smoking, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Smoking Status",
+          "Smoking Status"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Histology",
+        "Stage of Disease",
+        "Number of Metastatic Sites",
+        "Prior Chemotherapy",
+        "Prior Radiation Therapy",
+        "Prior Surgery",
+        "Pack Years of Smoking",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, histological type of NSCLC, stage of disease, presence of malignant pleural effusion, number and location of metastatic sites, prior therapies, smoking history, pack-years of smoking, body mass index, absolute neutrophil count, hemoglobin, platelet count, total bilirubin, transaminases, alkaline phosphatase, serum creatinine, calculated creatinine clearance, International Normalized Ratio, prothrombin time, partial thromboplastin time.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Smoking Status"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "histological type of NSCLC",
+        "stage of disease",
+        "presence of malignant pleural effusion",
+        "number and location of metastatic sites",
+        "prior therapies",
+        "smoking history",
+        "pack-years of smoking",
+        "body mass index",
+        "absolute neutrophil count",
+        "hemoglobin",
+        "platelet count",
+        "total bilirubin",
+        "transaminases",
+        "alkaline phosphatase",
+        "serum creatinine",
+        "calculated creatinine clearance",
+        "International Normalized Ratio",
+        "prothrombin time",
+        "partial thromboplastin time"
+      ]
+    }
+  }
+}

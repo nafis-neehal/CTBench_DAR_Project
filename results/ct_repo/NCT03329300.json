@@ -1,0 +1,193 @@
+{
+  "trial_id": "NCT03329300",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI percentile, baseline body fat mass, executive function scores (child), executive function scores (parent), ethnicity, socioeconomic status, parental education level, baseline physical activity levels, baseline dietary habits, family medical history, adherence to treatment protocol.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Child Body Fat Mass (DXA)",
+          "baseline body fat mass"
+        ],
+        [
+          "Executive Functioning",
+          "executive function scores (child)"
+        ],
+        [
+          "Executive Functioning",
+          "executive function scores (parent)"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Child Body Mass Index",
+        "Parent Body Mass Index",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "BMI percentile",
+        "socioeconomic status",
+        "parental education level",
+        "baseline physical activity levels",
+        "baseline dietary habits",
+        "family medical history",
+        "adherence to treatment protocol."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Parent Executive Function, Child Executive Function, Baseline Body Fat Mass, Parent Adherence to Treatment, Child Adherence to Treatment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Child Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Executive Functioning",
+          "Child Executive Function"
+        ],
+        [
+          "Child Body Fat Mass (DXA)",
+          "Baseline Body Fat Mass"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Parent Body Mass Index",
+        "Height",
+        "Weight",
+        "Parent Adherence to Treatment"
+      ],
+      "remaining_candidate_features": [
+        "Parent Executive Function",
+        "Child Adherence to Treatment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Parent-Child Relationship, BMI z-score, Child Executive Function, Parent Executive Function,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Executive Functioning",
+          "Child Executive Function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Child Body Fat Mass (DXA)",
+        "Child Body Mass Index",
+        "Parent Body Mass Index",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Parent-Child Relationship",
+        "BMI z-score",
+        "Parent Executive Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, race, ethnicity, parental education level, household income, child's reading and math abilities, parental cognitive/executive function, child's cognitive/executive function, medical history, medication use, physical activity level, dietary habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Child Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Executive Functioning",
+          "child's cognitive/executive function"
+        ],
+        [
+          "Parent Body Mass Index",
+          "parental cognitive/executive function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Child Body Fat Mass (DXA)",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "parental education level",
+        "household income",
+        "child's reading and math abilities",
+        "medical history",
+        "medication use",
+        "physical activity level",
+        "dietary habits"
+      ]
+    }
+  }
+}

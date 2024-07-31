@@ -1,0 +1,223 @@
+{
+  "trial_id": "NCT00666666",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, ECOG performance status, PSA level, prior local therapy (radiation or surgery), duration of prior androgen ablation therapy, leukocyte count, absolute neutrophil count, platelet count, total bilirubin level, AST(SGOT) level, ALT(SGPT) level, creatinine level, creatinine clearance, life expectancy, presence of soft tissue or bony metastasis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "PSA level",
+          "PSA level"
+        ],
+        [
+          "Metastatic disease",
+          "presence of soft tissue or bony metastasis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Gleason Score"
+      ],
+      "remaining_candidate_features": [
+        "prior local therapy (radiation or surgery)",
+        "duration of prior androgen ablation therapy",
+        "leukocyte count",
+        "absolute neutrophil count",
+        "platelet count",
+        "total bilirubin level",
+        "AST(SGOT) level",
+        "ALT(SGPT) level",
+        "creatinine level",
+        "creatinine clearance",
+        "life expectancy"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, PSA level, ECOG performance status, Leukocyte count, Absolute neutrophil count, Platelet count, Total bilirubin, AST(SGOT)/ALT(SGPT) levels, Creatinine level, Prior local therapy (radiation or surgery), Duration of androgen ablation therapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Metastatic disease",
+          "PSA level"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Leukocyte count",
+          "Leukocyte count"
+        ],
+        [
+          "Absolute neutrophil count",
+          "Absolute neutrophil count"
+        ],
+        [
+          "Platelet count",
+          "Platelet count"
+        ],
+        [
+          "Total bilirubin",
+          "Total bilirubin"
+        ],
+        [
+          "AST(SGOT)/ALT(SGPT) levels",
+          "AST(SGOT)/ALT(SGPT) levels"
+        ],
+        [
+          "Creatinine level",
+          "Creatinine level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)",
+        "Gleason Score"
+      ],
+      "remaining_candidate_features": [
+        "Prior local therapy (radiation or surgery)",
+        "Duration of androgen ablation therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, PSA at baseline, Gleason Score, Clinical Stage, Prior Local Therapy, Prior Androgen Ablation Therapy, Prior Antiandrogen Therapy, Life Expectancy, Creatinine Clearance, Hemoglobin, Leukocytes, Absolute Neutrophil Count, Platelets, Total Bilirubin, AST, ALT.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Gleason Score",
+          "Gleason Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)",
+        "Metastatic disease"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "PSA at baseline",
+        "Clinical Stage",
+        "Prior Local Therapy",
+        "Prior Androgen Ablation Therapy",
+        "Prior Antiandrogen Therapy",
+        "Life Expectancy",
+        "Creatinine Clearance",
+        "Hemoglobin",
+        "Leukocytes",
+        "Absolute Neutrophil Count",
+        "Platelets",
+        "Total Bilirubin",
+        "AST",
+        "ALT"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ECOG performance status, PSA level, Gleason score, presence of bone metastases, presence of soft tissue metastases, prior local therapy, prior androgen ablation therapy, prior adjuvant/neoadjuvant therapy, life expectancy, leukocyte count, absolute neutrophil count, platelet count, total bilirubin, AST, ALT, creatinine, creatinine clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "PSA level",
+          "PSA level"
+        ],
+        [
+          "Gleason Score",
+          "Gleason score"
+        ],
+        [
+          "Metastatic disease",
+          "presence of bone metastases"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "presence of soft tissue metastases",
+        "prior local therapy",
+        "prior androgen ablation therapy",
+        "prior adjuvant/neoadjuvant therapy",
+        "life expectancy",
+        "leukocyte count",
+        "absolute neutrophil count",
+        "platelet count",
+        "total bilirubin",
+        "AST",
+        "ALT",
+        "creatinine",
+        "creatinine clearance"
+      ]
+    }
+  }
+}

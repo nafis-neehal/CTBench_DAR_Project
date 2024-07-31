@@ -1,0 +1,189 @@
+{
+  "trial_id": "NCT01545336",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, mean pulmonary artery pressure, pulmonary capillary wedge pressure, pulmonary vascular resistance (PVR), forced expiratory volume in 1 second (FEV1), forced vital capacity (FVC), total lung capacity, six-minute walk distance, follicle-stimulating hormone (FSH) levels, history of hormone therapy, WHO functional class, history of breast cancer, sleep apnea status, left-sided valvular disease status, ejection fraction, PAH therapy status, renal function (creatinine levels), Child-Pugh class, alcohol consumption history, use of investigational drugs, enrollment in other clinical trials.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Six minute walk distance",
+          "six-minute walk distance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "mean pulmonary artery pressure",
+        "pulmonary capillary wedge pressure",
+        "pulmonary vascular resistance (PVR)",
+        "forced expiratory volume in 1 second (FEV1)",
+        "forced vital capacity (FVC)",
+        "total lung capacity",
+        "follicle-stimulating hormone (FSH) levels",
+        "history of hormone therapy",
+        "WHO functional class",
+        "history of breast cancer",
+        "sleep apnea status",
+        "left-sided valvular disease status",
+        "ejection fraction",
+        "PAH therapy status",
+        "renal function (creatinine levels)",
+        "Child-Pugh class",
+        "alcohol consumption history",
+        "use of investigational drugs",
+        "enrollment in other clinical trials."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Mean Pulmonary Artery Pressure, Pulmonary Vascular Resistance, Pulmonary Capillary Wedge Pressure, Forced Expiratory Volume in 1 Second (FEV1), Forced Vital Capacity (FVC), Total Lung Capacity, Six Minute Walk Distance, Functional Class, Creatinine, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Six minute walk distance",
+          "Six Minute Walk Distance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Mean Pulmonary Artery Pressure",
+        "Pulmonary Vascular Resistance",
+        "Pulmonary Capillary Wedge Pressure",
+        "Forced Expiratory Volume in 1 Second (FEV1)",
+        "Forced Vital Capacity (FVC)",
+        "Total Lung Capacity",
+        "Functional Class",
+        "Creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulmonary Arterial Hypertension (PAH) diagnosis duration, WHO functional class, Six-minute walk distance, Right ventricular function, Pulmonary vascular resistance, Forced Expiratory Volume in 1 second (FEV1), Forced Vital Capacity (FVC), Total lung capacity, Follicle-stimulating hormone (FSH) levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Six minute walk distance",
+          "Six-minute walk distance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Pulmonary Arterial Hypertension (PAH) diagnosis duration",
+        "WHO functional class",
+        "Right ventricular function",
+        "Pulmonary vascular resistance",
+        "Forced Expiratory Volume in 1 second (FEV1)",
+        "Forced Vital Capacity (FVC)",
+        "Total lung capacity",
+        "Follicle-stimulating hormone (FSH) levels."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), mean pulmonary artery pressure, pulmonary capillary wedge pressure, pulmonary vascular resistance (PVR), forced expiratory volume in 1 second (FEV1), forced vital capacity (FVC), total lung capacity, six-minute walk distance, World Health Organization (WHO) functional class, PAH etiology, duration of PAH diagnosis, current PAH therapy, follicle-stimulating hormone (FSH) levels, creatinine levels, ejection fraction, tricuspid annular plane systolic excursion (TAPSE) at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Six minute walk distance",
+          "six-minute walk distance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "mean pulmonary artery pressure",
+        "pulmonary capillary wedge pressure",
+        "pulmonary vascular resistance (PVR)",
+        "forced expiratory volume in 1 second (FEV1)",
+        "forced vital capacity (FVC)",
+        "total lung capacity",
+        "World Health Organization (WHO) functional class",
+        "PAH etiology",
+        "duration of PAH diagnosis",
+        "current PAH therapy",
+        "follicle-stimulating hormone (FSH) levels",
+        "creatinine levels",
+        "ejection fraction",
+        "tricuspid annular plane systolic excursion (TAPSE) at baseline"
+      ]
+    }
+  }
+}

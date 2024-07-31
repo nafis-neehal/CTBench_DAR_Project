@@ -1,0 +1,185 @@
+{
+  "trial_id": "NCT05137002",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, body mass index (BMI), baseline systolic blood pressure (SBP), baseline diastolic blood pressure (DBP), duration of hypertension, number of antihypertensive medications, presence of diabetes, baseline glycated hemoglobin (HbA1c), estimated glomerular filtration rate (eGFR), serum sodium levels, serum potassium levels, white blood cell count, absolute neutrophil count, alcohol consumption, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Seated SBP",
+          "baseline systolic blood pressure (SBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "baseline diastolic blood pressure (DBP)",
+        "duration of hypertension",
+        "number of antihypertensive medications",
+        "presence of diabetes",
+        "baseline glycated hemoglobin (HbA1c)",
+        "estimated glomerular filtration rate (eGFR)",
+        "serum sodium levels",
+        "serum potassium levels",
+        "white blood cell count",
+        "absolute neutrophil count",
+        "alcohol consumption",
+        "smoking status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Diabetes Status, Baseline eGFR, Baseline Potassium Levels, Baseline Sodium Levels, Baseline Glycated Hemoglobin, Number of Background Antihypertensive Medications, Adherence to Study Drug,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Seated SBP",
+          "Baseline Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Baseline Diastolic Blood Pressure",
+        "Diabetes Status",
+        "Baseline eGFR",
+        "Baseline Potassium Levels",
+        "Baseline Sodium Levels",
+        "Baseline Glycated Hemoglobin",
+        "Number of Background Antihypertensive Medications",
+        "Adherence to Study Drug"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Number of Anti-Hypertensive Medications, Duration of Hypertension, History of Cardiovascular Disease, History of Diabetes, Estimated Glomerular Filtration Rate (eGFR), Potassium Level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Seated SBP",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Diastolic Blood Pressure",
+        "Number of Anti-Hypertensive Medications",
+        "Duration of Hypertension",
+        "History of Cardiovascular Disease",
+        "History of Diabetes",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "Potassium Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, history of diabetes, history of heart failure, history of stroke or transient ischemic attack, history of chronic kidney disease, estimated glomerular filtration rate (eGFR), number and type of background antihypertensive medications, duration of hypertension, smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Seated SBP",
+          "systolic blood pressure (SBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "diastolic blood pressure (DBP)",
+        "heart rate",
+        "history of diabetes",
+        "history of heart failure",
+        "history of stroke or transient ischemic attack",
+        "history of chronic kidney disease",
+        "estimated glomerular filtration rate (eGFR)",
+        "number and type of background antihypertensive medications",
+        "duration of hypertension",
+        "smoking status",
+        "alcohol consumption."
+      ]
+    }
+  }
+}

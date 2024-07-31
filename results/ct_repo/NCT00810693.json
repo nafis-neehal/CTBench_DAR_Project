@@ -1,0 +1,222 @@
+{
+  "trial_id": "NCT00810693",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline 6-minute walking distance (6MWD), PAH etiology (idiopathic, familial, associated with connective tissue disease, congenital heart disease, portal hypertension with liver cirrhosis, anorexigen or amphetamine use), prior PAH treatment (treatment naive, pre-treated with Endothelin Antagonist or Prostacyclin analogue), baseline WHO functional class, baseline hemodynamic parameters (e.g., pulmonary arterial pressure, cardiac output), baseline NT-proBNP levels, baseline oxygen saturation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Prior PH therapy",
+          "prior PAH treatment (treatment naive, pre-treated with Endothelin Antagonist or Prostacyclin analogue)"
+        ],
+        [
+          "pre-treated with endothelin receptor antagonist",
+          "prior PAH treatment (treatment naive, pre-treated with Endothelin Antagonist or Prostacyclin analogue)"
+        ],
+        [
+          "pre-treated with prostacyclin analogue",
+          "prior PAH treatment (treatment naive, pre-treated with Endothelin Antagonist or Prostacyclin analogue)"
+        ],
+        [
+          "PAH subtype",
+          "PAH etiology (idiopathic, familial, associated with connective tissue disease, congenital heart disease, portal hypertension with liver cirrhosis, anorexigen or amphetamine use)"
+        ],
+        [
+          "Baseline 6MWD",
+          "baseline 6-minute walking distance (6MWD)"
+        ],
+        [
+          "WHO (World Health Organization) functional class",
+          "baseline WHO functional class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "BMI",
+        "Pulmonary vascular resistance"
+      ],
+      "remaining_candidate_features": [
+        "baseline hemodynamic parameters (e.g., pulmonary arterial pressure, cardiac output)",
+        "baseline NT-proBNP levels",
+        "baseline oxygen saturation"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline 6 Minutes Walking Distance (6MWD), PAH Etiology, Baseline Functional Class, Baseline Hemodynamics, Concomitant PAH Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Baseline 6MWD",
+          "Baseline 6 Minutes Walking Distance (6MWD)"
+        ],
+        [
+          "PAH subtype",
+          "PAH Etiology"
+        ],
+        [
+          "WHO (World Health Organization) functional class",
+          "Baseline Functional Class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Prior PH therapy",
+        "pre-treated with endothelin receptor antagonist",
+        "pre-treated with prostacyclin analogue",
+        "BMI",
+        "Pulmonary vascular resistance"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Baseline Hemodynamics",
+        "Concomitant PAH Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, 6-Minute Walk Distance, World Health Organization Functional Class, Pulmonary Arterial Hypertension Etiology, Prior PAH Treatment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Prior PH therapy",
+          "Prior PAH Treatment"
+        ],
+        [
+          "pre-treated with endothelin receptor antagonist",
+          "Prior PAH Treatment"
+        ],
+        [
+          "pre-treated with prostacyclin analogue",
+          "Prior PAH Treatment"
+        ],
+        [
+          "PAH subtype",
+          "Pulmonary Arterial Hypertension Etiology"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline 6MWD",
+          "6-Minute Walk Distance"
+        ],
+        [
+          "WHO (World Health Organization) functional class",
+          "World Health Organization Functional Class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Pulmonary vascular resistance"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), PAH etiology (idiopathic, familial, associated), World Health Organization (WHO) functional class, 6-minute walk distance (6MWD) at baseline, systolic pulmonary artery pressure (sPAP) at baseline, mean pulmonary artery pressure (mPAP) at baseline, cardiac output at baseline, pulmonary vascular resistance (PVR) at baseline, N-terminal pro-brain natriuretic peptide (NT-proBNP) at baseline, previous PAH therapy (endothelin antagonist, prostacyclin analogue).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Prior PH therapy",
+          "previous PAH therapy (endothelin antagonist, prostacyclin analogue)"
+        ],
+        [
+          "pre-treated with endothelin receptor antagonist",
+          "previous PAH therapy (endothelin antagonist, prostacyclin analogue)"
+        ],
+        [
+          "pre-treated with prostacyclin analogue",
+          "previous PAH therapy (endothelin antagonist, prostacyclin analogue)"
+        ],
+        [
+          "PAH subtype",
+          "PAH etiology (idiopathic, familial, associated)"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Baseline 6MWD",
+          "6-minute walk distance (6MWD) at baseline"
+        ],
+        [
+          "WHO (World Health Organization) functional class",
+          "World Health Organization (WHO) functional class"
+        ],
+        [
+          "Pulmonary vascular resistance",
+          "pulmonary vascular resistance (PVR) at baseline"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "systolic pulmonary artery pressure (sPAP) at baseline",
+        "mean pulmonary artery pressure (mPAP) at baseline",
+        "cardiac output at baseline",
+        "N-terminal pro-brain natriuretic peptide (NT-proBNP) at baseline"
+      ]
+    }
+  }
+}

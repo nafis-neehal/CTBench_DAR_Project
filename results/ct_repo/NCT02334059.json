@@ -1,0 +1,170 @@
+{
+  "trial_id": "NCT02334059",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, BMI, ASA classification, baseline pain score, comorbidities, duration of surgery, type of anesthesia, preoperative opioid use, baseline kidney function, baseline psychiatric history, baseline language proficiency.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Duration of Surgery",
+          "duration of surgery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Pre-operative Pain Score",
+        "Pre-operative sedation score",
+        "Pre-operative PONV score"
+      ],
+      "remaining_candidate_features": [
+        "ASA classification",
+        "baseline pain score",
+        "comorbidities",
+        "type of anesthesia",
+        "preoperative opioid use",
+        "baseline kidney function",
+        "baseline psychiatric history",
+        "baseline language proficiency."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, ASA Classification, Duration of Surgery, Baseline Pain Score, Preoperative Opioid Use, Comorbidities,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Surgery",
+          "Duration of Surgery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Pre-operative Pain Score",
+        "Pre-operative sedation score",
+        "Pre-operative PONV score"
+      ],
+      "remaining_candidate_features": [
+        "ASA Classification",
+        "Baseline Pain Score",
+        "Preoperative Opioid Use",
+        "Comorbidities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Body Mass Index, ASA Classification, History of Chronic Pain, History of Opioid Use, Creatinine Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Pre-operative Pain Score",
+          "History of Chronic Pain"
+        ],
+        [
+          "Pre-operative sedation score",
+          "History of Opioid Use"
+        ],
+        [
+          "Pre-operative PONV score",
+          "Creatinine Level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Duration of Surgery"
+      ],
+      "remaining_candidate_features": [
+        "ASA Classification"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), ASA classification, history of chronic pain, history of substance abuse, creatinine level, psychiatric history, English fluency.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Pre-operative Pain Score",
+          "history of chronic pain"
+        ],
+        [
+          "Pre-operative sedation score",
+          "ASA classification"
+        ],
+        [
+          "Pre-operative PONV score",
+          "psychiatric history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Duration of Surgery"
+      ],
+      "remaining_candidate_features": [
+        "history of substance abuse",
+        "creatinine level",
+        "English fluency."
+      ]
+    }
+  }
+}

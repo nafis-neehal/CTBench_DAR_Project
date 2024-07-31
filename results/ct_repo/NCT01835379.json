@@ -1,0 +1,188 @@
+{
+  "trial_id": "NCT01835379",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, history of diabetes mellitus (Type 1 or 2), duration of ulcer, size of ulcer, location of ulcer, Wagner grade of ulcer, ankle brachial index (ABI), toe pressure, transcutaneous oxygen pressure (TcPO2), alanine aminotransferase (ALT) levels, aspartate aminotransferase (AST) levels, serum albumin levels, pre-albumin levels, alkaline phosphatase levels, serum total bilirubin levels, serum BUN levels, serum creatinine levels, HbA1c levels, hemoglobin (Hgb) levels, white blood cell (WBC) count, absolute neutrophil count, platelet count.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body Mass Index (BMI)"
+      ],
+      "remaining_candidate_features": [
+        "history of diabetes mellitus (Type 1 or 2)",
+        "duration of ulcer",
+        "size of ulcer",
+        "location of ulcer",
+        "Wagner grade of ulcer",
+        "ankle brachial index (ABI)",
+        "toe pressure",
+        "transcutaneous oxygen pressure (TcPO2)",
+        "alanine aminotransferase (ALT) levels",
+        "aspartate aminotransferase (AST) levels",
+        "serum albumin levels",
+        "pre-albumin levels",
+        "alkaline phosphatase levels",
+        "serum total bilirubin levels",
+        "serum BUN levels",
+        "serum creatinine levels",
+        "HbA1c levels",
+        "hemoglobin (Hgb) levels",
+        "white blood cell (WBC) count",
+        "absolute neutrophil count",
+        "platelet count"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, HbA1c, Ulcer Size, Ulcer Duration, Ankle Brachial Index (ABI), Toe Pressure, Transcutaneous Oxygen Pressure (TcPO2), Alanine Aminotransferase (ALT), Aspartate Aminotransferase (AST), Serum Albumin, Pre-albumin Levels, Alkaline Phosphatase, Serum Total Bilirubin, Serum BUN, Serum Creatinine, Hemoglobin (Hgb), White Blood Cell Count (WBC), Absolute Neutrophil Count, Platelet Count,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Body Mass Index (BMI)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "HbA1c",
+        "Ulcer Size",
+        "Ulcer Duration",
+        "Ankle Brachial Index (ABI)",
+        "Toe Pressure",
+        "Transcutaneous Oxygen Pressure (TcPO2)",
+        "Alanine Aminotransferase (ALT)",
+        "Aspartate Aminotransferase (AST)",
+        "Serum Albumin",
+        "Pre-albumin Levels",
+        "Alkaline Phosphatase",
+        "Serum Total Bilirubin",
+        "Serum BUN",
+        "Serum Creatinine",
+        "Hemoglobin (Hgb)",
+        "White Blood Cell Count (WBC)",
+        "Absolute Neutrophil Count",
+        "Platelet Count"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Body Mass Index, Ankle Brachial Index, Ulcer Size, Ulcer Duration, Wagner Grade.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diabetes Diagnosis Duration",
+        "HbA1c",
+        "Ankle Brachial Index",
+        "Ulcer Size",
+        "Ulcer Duration",
+        "Wagner Grade"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, diabetes type (1 or 2), duration of diabetes, history of smoking, body mass index (BMI), ankle brachial index (ABI), toe pressure, transcutaneous oxygen pressure (TcPO2), Wagner grade, ulcer size, ulcer duration, HbA1c, hemoglobin (Hgb), serum albumin, pre-albumin levels, alanine aminotransferase (ALT), aspartate aminotransferase (AST), alkaline phosphatase, serum total bilirubin, serum blood urea nitrogen (BUN), serum creatinine, white blood cell (WBC) count, absolute neutrophil count, platelet count.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "diabetes type (1 or 2)",
+        "duration of diabetes",
+        "history of smoking",
+        "ankle brachial index (ABI)",
+        "toe pressure",
+        "transcutaneous oxygen pressure (TcPO2)",
+        "Wagner grade",
+        "ulcer size",
+        "ulcer duration",
+        "HbA1c",
+        "hemoglobin (Hgb)",
+        "serum albumin",
+        "pre-albumin levels",
+        "alanine aminotransferase (ALT)",
+        "aspartate aminotransferase (AST)",
+        "alkaline phosphatase",
+        "serum total bilirubin",
+        "serum blood urea nitrogen (BUN)",
+        "serum creatinine",
+        "white blood cell (WBC) count",
+        "absolute neutrophil count",
+        "platelet count"
+      ]
+    }
+  }
+}

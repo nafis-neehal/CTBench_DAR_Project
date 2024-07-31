@@ -1,0 +1,184 @@
+{
+  "trial_id": "NCT00110084",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, Performance status, Life expectancy, Absolute neutrophil count, Platelet count, Hemoglobin, AST, ALT, Bilirubin, Creatinine, Hormone receptor status, HER2 status, Prior adjuvant chemotherapy, Prior neoadjuvant chemotherapy, Prior radiotherapy, Prior hormonal treatment, Prior investigational drugs, Concurrent bisphosphonates usage, Presence of measurable disease, Presence of non-measurable disease, History of allergy or hypersensitivity to study drugs, Presence of serious medical risk factors, Presence of active brain metastasis, Pregnancy status, Use of effective contraception, Pre-existing peripheral neuropathy, Presence of other clinically significant illness, History of active stage III or IV invasive non-breast malignancy within the past 5 years.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex/Gender",
+          "Sex"
+        ],
+        [
+          "HER2 (human epidermal growth factor receptor 2) status",
+          "HER2 status"
+        ],
+        [
+          "Performance Score",
+          "Performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Dominant disease site",
+        "Estrogen receptor status",
+        "Number of metastatic sites",
+        "Progesterone receptor status"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Life expectancy",
+        "Absolute neutrophil count",
+        "Platelet count",
+        "Hemoglobin",
+        "AST",
+        "ALT",
+        "Bilirubin",
+        "Creatinine",
+        "Hormone receptor status",
+        "Prior adjuvant chemotherapy",
+        "Prior neoadjuvant chemotherapy",
+        "Prior radiotherapy",
+        "Prior hormonal treatment",
+        "Prior investigational drugs",
+        "Concurrent bisphosphonates usage",
+        "Presence of measurable disease",
+        "Presence of non-measurable disease",
+        "History of allergy or hypersensitivity to study drugs",
+        "Presence of serious medical risk factors",
+        "Presence of active brain metastasis",
+        "Pregnancy status",
+        "Use of effective contraception",
+        "Pre-existing peripheral neuropathy",
+        "Presence of other clinically significant illness",
+        "History of active stage III or IV invasive non-breast malignancy within the past 5 years"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, ECOG Performance Status, Absolute Neutrophil Count, Platelet Count, Hemoglobin, AST, ALT, Bilirubin, Creatinine, Hormone Receptor Status, HER2 Status, Prior Adjuvant Chemotherapy, Prior Radiotherapy, Prior Hormonal Treatment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "HER2 (human epidermal growth factor receptor 2) status",
+          "HER2 Status"
+        ],
+        [
+          "Performance Score",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Dominant disease site",
+        "Estrogen receptor status",
+        "Number of metastatic sites",
+        "Progesterone receptor status"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Hemoglobin",
+        "AST",
+        "ALT",
+        "Bilirubin",
+        "Creatinine",
+        "Hormone Receptor Status",
+        "Prior Adjuvant Chemotherapy",
+        "Prior Radiotherapy",
+        "Prior Hormonal Treatment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Menopausal Status, ECOG Performance Status, Life Expectancy, Hemoglobin, Absolute Neutrophil Count, Platelet Count, AST, ALT, Bilirubin, Creatinine, HER2 Status, Hormone Receptor Status, Number of Prior Chemotherapy Regimens, Prior Adjuvant or Neoadjuvant Taxane, Prior Neoadjuvant Chemotherapy, Prior Radiotherapy to Target Lesion, Prior Hormonal Treatment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "HER2 (human epidermal growth factor receptor 2) status",
+          "HER2 Status"
+        ],
+        [
+          "Performance Score",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Dominant disease site",
+        "Estrogen receptor status",
+        "Number of metastatic sites",
+        "Progesterone receptor status"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Menopausal Status",
+        "Life Expectancy",
+        "Hemoglobin",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "AST",
+        "ALT",
+        "Bilirubin",
+        "Creatinine",
+        "Hormone Receptor Status",
+        "Number of Prior Chemotherapy Regimens",
+        "Prior Adjuvant or Neoadjuvant Taxane",
+        "Prior Neoadjuvant Chemotherapy",
+        "Prior Radiotherapy to Target Lesion",
+        "Prior Hormonal Treatment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Sex, Menopausal status, Performance status, Life expectancy, Hematopoietic parameters (Absolute neutrophil count, Platelet count, Hemoglobin), Hepatic parameters (AST, ALT, Bilirubin), Renal parameter (Creatinine), HER2 status, Hormone receptor status, Number of prior chemotherapy regimens, Prior adjuvant or neoadjuvant taxane, Prior hormonal treatment, Prior radiotherapy, Presence of bone metastases, Presence of non-measurable disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex/Gender",
+          "Sex"
+        ],
+        [
+          "HER2 (human epidermal growth factor receptor 2) status",
+          "HER2 status"
+        ],
+        [
+          "Performance Score",
+          "Performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Dominant disease site",
+        "Estrogen receptor status",
+        "Number of metastatic sites",
+        "Progesterone receptor status"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Menopausal status",
+        "Life expectancy",
+        "Hematopoietic parameters (Absolute neutrophil count, Platelet count, Hemoglobin)",
+        "Hepatic parameters (AST, ALT, Bilirubin)",
+        "Renal parameter (Creatinine)",
+        "Hormone receptor status",
+        "Number of prior chemotherapy regimens",
+        "Prior adjuvant or neoadjuvant taxane",
+        "Prior hormonal treatment",
+        "Prior radiotherapy",
+        "Presence of bone metastases",
+        "Presence of non-measurable disease."
+      ]
+    }
+  }
+}

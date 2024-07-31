@@ -1,0 +1,147 @@
+{
+  "trial_id": "NCT02961920",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, BMI, ASA classification, baseline PaO2, history of pulmonary disease, history of cardiopulmonary disease, type of spine surgery, duration of anesthesia, baseline hemodynamic parameters.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "body mass index",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ASA classification",
+        "baseline PaO2",
+        "history of pulmonary disease",
+        "history of cardiopulmonary disease",
+        "type of spine surgery",
+        "duration of anesthesia",
+        "baseline hemodynamic parameters."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, ASA Physical Status Classification, Systolic Blood Pressure, Diastolic Blood Pressure, History of Pulmonary Disease, History of Cardiopulmonary Disease, Hemodynamic Stability,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "body mass index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ASA Physical Status Classification",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Pulmonary Disease",
+        "History of Cardiopulmonary Disease",
+        "Hemodynamic Stability"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, ASA physical status, Region of Enrollment, History of cardiopulmonary disease, History of lung surgery, History of chronic obstructive pulmonary disease (COPD), History of asthma, History of pneumothorax.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "body mass index",
+          "BMI"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "ASA physical status",
+        "History of cardiopulmonary disease",
+        "History of lung surgery",
+        "History of chronic obstructive pulmonary disease (COPD)",
+        "History of asthma",
+        "History of pneumothorax."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, ASA classification, history of cardiopulmonary disease, history of COPD, history of asthma, history of pneumothorax, history of lung surgery, history of bronchopleural fistula.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "body mass index",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ASA classification",
+        "history of cardiopulmonary disease",
+        "history of COPD",
+        "history of asthma",
+        "history of pneumothorax",
+        "history of lung surgery",
+        "history of bronchopleural fistula."
+      ]
+    }
+  }
+}

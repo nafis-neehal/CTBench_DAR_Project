@@ -1,0 +1,164 @@
+{
+  "trial_id": "NCT02692560",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Primary Care Provider, Duration of Enrollment at Kaiser Permanente Washington, Language Proficiency, Hearing Ability, Self-reported Sitting Time, Self-reported Ability to Stand, Self-reported Ability to Walk, Availability for Study Duration, Willingness to Wear Activity Monitors, Residence Status, Mobility Status, Mental Health Status, Substance Use Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex",
+          "Gender"
+        ],
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Education",
+        "Employment",
+        "Diabetes",
+        "Hypertension"
+      ],
+      "remaining_candidate_features": [
+        "Primary Care Provider",
+        "Duration of Enrollment at Kaiser Permanente Washington",
+        "Language Proficiency",
+        "Hearing Ability",
+        "Self-reported Sitting Time",
+        "Self-reported Ability to Stand",
+        "Self-reported Ability to Walk",
+        "Availability for Study Duration",
+        "Willingness to Wear Activity Monitors",
+        "Residence Status",
+        "Mobility Status",
+        "Mental Health Status",
+        "Substance Use Status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Self-reported sitting time, Self-reported ability to stand, Self-reported ability to walk, Employment status, Education level, Primary care visits, Use of assistive device, Health conditions (dementia, mental health disorder, substance use disorder)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Education",
+          "Education level"
+        ],
+        [
+          "Employment",
+          "Employment status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Diabetes",
+        "Hypertension"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Self-reported sitting time",
+        "Self-reported ability to stand",
+        "Self-reported ability to walk",
+        "Primary care visits",
+        "Use of assistive device",
+        "Health conditions (dementia, mental health disorder, substance use disorder)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, BMI, Ethnicity, Education, Employment, Marital status, Living situation, Self-reported sitting time, Self-reported ability to stand and walk, Comorbidities, Medications, History of falls, Fear of falling, Self-efficacy for exercise, Depression, Anxiety.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Education",
+          "Education"
+        ],
+        [
+          "Employment",
+          "Employment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Diabetes",
+        "Hypertension"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "Marital status",
+        "Living situation",
+        "Self-reported sitting time",
+        "Self-reported ability to stand and walk",
+        "Comorbidities",
+        "Medications",
+        "History of falls",
+        "Fear of falling",
+        "Self-efficacy for exercise",
+        "Depression",
+        "Anxiety"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Sex, BMI, Self-reported sitting time, Ability to stand with or without an assistive device, Ability to walk one block with or without an assistive device.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Education",
+        "Employment",
+        "Diabetes",
+        "Hypertension"
+      ],
+      "remaining_candidate_features": [
+        "Self-reported sitting time",
+        "Ability to stand with or without an assistive device",
+        "Ability to walk one block with or without an assistive device."
+      ]
+    }
+  }
+}

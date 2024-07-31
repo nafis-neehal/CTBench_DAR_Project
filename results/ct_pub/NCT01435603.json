@@ -1,0 +1,226 @@
+{
+  "trial_id": "NCT01435603",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), fasting plasma glucose, 2-hour post-challenge plasma glucose, A1c, blood pressure (systolic and diastolic), history of cardiovascular disease, history of lung disease, pregnancy status, medication use, ability to provide informed consent, language proficiency.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c- NGSP",
+          "A1c"
+        ],
+        [
+          "Systolic blood pressure",
+          "blood pressure (systolic and diastolic)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Household Income",
+        "Weight",
+        "BMI (categorical)",
+        "HbA1c-IFCC",
+        "Total cholesterol",
+        "HDL cholesterol",
+        "Antiglycemic medications",
+        "Antihypertensive medications",
+        "Statin medications"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose",
+        "2-hour post-challenge plasma glucose",
+        "history of cardiovascular disease",
+        "history of lung disease",
+        "pregnancy status",
+        "medication use",
+        "ability to provide informed consent",
+        "language proficiency."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race/Ethnicity, Education, Employment status, BMI, Waist circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, 2-hour Post-challenge Plasma Glucose, HbA1c, Smoking status, Physical activity level, Medication use, History of cardiovascular disease, Dietary intake",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "HbA1c- NGSP",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "Household Income",
+        "Weight",
+        "BMI (categorical)",
+        "HbA1c-IFCC",
+        "Total cholesterol",
+        "HDL cholesterol",
+        "Antiglycemic medications",
+        "Antihypertensive medications",
+        "Statin medications"
+      ],
+      "remaining_candidate_features": [
+        "Education",
+        "Employment status",
+        "Waist circumference",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "2-hour Post-challenge Plasma Glucose",
+        "Smoking status",
+        "Physical activity level",
+        "Medication use",
+        "History of cardiovascular disease",
+        "Dietary intake"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnicity, BMI, Body weight, Waist circumference, Systolic blood pressure, Diastolic blood pressure, Fasting plasma glucose, HbA1c, Total cholesterol, HDL cholesterol, Triglycerides, Self-reported physical activity, Self-reported diet quality, Education, Employment status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Ethnicity",
+          "Ethnicity"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "Body weight"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic blood pressure"
+        ],
+        [
+          "Total cholesterol",
+          "Total cholesterol"
+        ],
+        [
+          "HDL cholesterol",
+          "HDL cholesterol"
+        ],
+        [
+          "HbA1c- NGSP",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Household Income",
+        "BMI (categorical)",
+        "HbA1c-IFCC",
+        "Antiglycemic medications",
+        "Antihypertensive medications",
+        "Statin medications"
+      ],
+      "remaining_candidate_features": [
+        "Waist circumference",
+        "Diastolic blood pressure",
+        "Fasting plasma glucose",
+        "Triglycerides",
+        "Self-reported physical activity",
+        "Self-reported diet quality",
+        "Education",
+        "Employment status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, fasting plasma glucose, 2-hour post-challenge plasma glucose, A1c, systolic blood pressure, diastolic blood pressure, medical history (cardiovascular disease, lung disease, pregnancy), medication use, ability to communicate in English or Spanish.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index"
+        ],
+        [
+          "HbA1c- NGSP",
+          "A1c"
+        ],
+        [
+          "Systolic blood pressure",
+          "systolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Household Income",
+        "Weight",
+        "BMI (categorical)",
+        "HbA1c-IFCC",
+        "Total cholesterol",
+        "HDL cholesterol",
+        "Antiglycemic medications",
+        "Antihypertensive medications",
+        "Statin medications"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose",
+        "2-hour post-challenge plasma glucose",
+        "diastolic blood pressure",
+        "medical history (cardiovascular disease, lung disease, pregnancy)",
+        "medication use",
+        "ability to communicate in English or Spanish."
+      ]
+    }
+  }
+}

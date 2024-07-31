@@ -1,0 +1,181 @@
+{
+  "trial_id": "NCT02636439",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, ejection fraction, left ventricular diastolic dysfunction grade, NHANES HF Clinical Score, presence of HF symptoms/signs, baseline peak exercise oxygen consumption (VO2), baseline cardiac medication use, baseline heart failure symptoms, history of valvular heart disease, history of hospitalization or urgent care visits, blood pressure, diabetes status, presence of COPD, history of stroke, cancer status, hemoglobin levels, renal function (eGFR), pregnancy status, psychiatric disease status, geographic stability, consent status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Peak exercise oxygen consumption (VO2)",
+          "baseline peak exercise oxygen consumption (VO2)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "BMI",
+        "ejection fraction",
+        "left ventricular diastolic dysfunction grade",
+        "NHANES HF Clinical Score",
+        "presence of HF symptoms/signs",
+        "baseline cardiac medication use",
+        "baseline heart failure symptoms",
+        "history of valvular heart disease",
+        "history of hospitalization or urgent care visits",
+        "blood pressure",
+        "diabetes status",
+        "presence of COPD",
+        "history of stroke",
+        "cancer status",
+        "hemoglobin levels",
+        "renal function (eGFR)",
+        "pregnancy status",
+        "psychiatric disease status",
+        "geographic stability",
+        "consent status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Ejection Fraction, Left Ventricular Diastolic Dysfunction Grade, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Failure Symptoms/Signs, NHANES HF Clinical Score, Rich et al. Criteria for HF,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Peak exercise oxygen consumption (VO2)",
+          "Peak Exercise Oxygen Consumption (VO2)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Ejection Fraction",
+        "Left Ventricular Diastolic Dysfunction Grade",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Heart Failure Symptoms/Signs",
+        "NHANES HF Clinical Score",
+        "Rich et al. Criteria for HF"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Ejection Fraction, Left Ventricular Diastolic Dysfunction, Heart Failure Symptoms, NHANES HF Clinical Score, Cardiac Medication, Hypertension, Diabetes, Chronic Obstructive Pulmonary Disease, Anemia, Renal Insufficiency,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Peak exercise oxygen consumption (VO2)",
+          "Peak Exercise Oxygen Consumption (VO2)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Ejection Fraction",
+        "Left Ventricular Diastolic Dysfunction",
+        "Heart Failure Symptoms",
+        "NHANES HF Clinical Score",
+        "Cardiac Medication",
+        "Hypertension",
+        "Diabetes",
+        "Chronic Obstructive Pulmonary Disease",
+        "Anemia",
+        "Renal Insufficiency"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, ejection fraction, left ventricular diastolic dysfunction grade, NHANES HF Clinical Score, Rich et al. criteria for HF, cardiac medication, systolic blood pressure, diastolic blood pressure, hemoglobin A1c, serum creatinine, eGFR, history of stroke, history of cancer, history of COPD, history of psychiatric disease, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Peak exercise oxygen consumption (VO2)",
+          "Peak Exercise Oxygen Consumption (VO2)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "BMI",
+        "ejection fraction",
+        "left ventricular diastolic dysfunction grade",
+        "NHANES HF Clinical Score",
+        "Rich et al. criteria for HF",
+        "cardiac medication",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "hemoglobin A1c",
+        "serum creatinine",
+        "eGFR",
+        "history of stroke",
+        "history of cancer",
+        "history of COPD",
+        "history of psychiatric disease",
+        "smoking status."
+      ]
+    }
+  }
+}

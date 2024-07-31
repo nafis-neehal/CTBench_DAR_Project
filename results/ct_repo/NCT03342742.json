@@ -1,0 +1,200 @@
+{
+  "trial_id": "NCT03342742",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, renal function (eGFR), internet access, travel plans, participation in other studies, informed consent capability, diabetes status, nicotine use, alcohol or substance abuse history, recent hospitalization or surgery, dyslipidemia status, blood pressure, pregnancy/lactation status, cardiovascular disease history, pulmonary disease history, gastrointestinal disease history, cancer history, ECG abnormalities, gastrointestinal disorders, pulmonary disorders, medication use affecting weight/appetite, eating disorder history, recent weight changes, thyroid disorder status, depression history, psychiatric illness history, MRI contraindications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "CKD-EPI eGFR",
+          "renal function (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Total Kidney Volume by Magnetic Resonance Imaging (MRI)"
+      ],
+      "remaining_candidate_features": [
+        "internet access",
+        "travel plans",
+        "participation in other studies",
+        "informed consent capability",
+        "diabetes status",
+        "nicotine use",
+        "alcohol or substance abuse history",
+        "recent hospitalization or surgery",
+        "dyslipidemia status",
+        "blood pressure",
+        "pregnancy/lactation status",
+        "cardiovascular disease history",
+        "pulmonary disease history",
+        "gastrointestinal disease history",
+        "cancer history",
+        "ECG abnormalities",
+        "gastrointestinal disorders",
+        "pulmonary disorders",
+        "medication use affecting weight/appetite",
+        "eating disorder history",
+        "recent weight changes",
+        "thyroid disorder status",
+        "depression history",
+        "psychiatric illness history",
+        "MRI contraindications"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR), Total Cholesterol, Triglycerides, Hemoglobin A1C,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "CKD-EPI eGFR",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Total Kidney Volume by Magnetic Resonance Imaging (MRI)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "Hemoglobin A1C"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Estimated Glomerular Filtration Rate (eGFR), Autosomal Dominant Polycystic Kidney Disease (ADPKD) diagnosis, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin A1C, Low Density Lipoprotein Cholesterol, Triglycerides.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "CKD-EPI eGFR",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Total Kidney Volume by Magnetic Resonance Imaging (MRI)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Autosomal Dominant Polycystic Kidney Disease (ADPKD) diagnosis",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hemoglobin A1C",
+        "Low Density Lipoprotein Cholesterol",
+        "Triglycerides"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, eGFR, systolic blood pressure, diastolic blood pressure, LDL cholesterol, triglycerides, hemoglobin A1C, history of smoking, history of alcohol or substance abuse, history of cardiovascular disease, history of peripheral vascular disease, history of cerebrovascular disease, history of pulmonary disease, history of gastrointestinal disease, history of cancer, history of thyroid disorder, history of depression, history of other psychiatric illness.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "CKD-EPI eGFR",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Total Kidney Volume by Magnetic Resonance Imaging (MRI)"
+      ],
+      "remaining_candidate_features": [
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "LDL cholesterol",
+        "triglycerides",
+        "hemoglobin A1C",
+        "history of smoking",
+        "history of alcohol or substance abuse",
+        "history of cardiovascular disease",
+        "history of peripheral vascular disease",
+        "history of cerebrovascular disease",
+        "history of pulmonary disease",
+        "history of gastrointestinal disease",
+        "history of cancer",
+        "history of thyroid disorder",
+        "history of depression",
+        "history of other psychiatric illness."
+      ]
+    }
+  }
+}

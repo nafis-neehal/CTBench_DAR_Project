@@ -1,0 +1,259 @@
+{
+  "trial_id": "NCT02595684",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Cholesterol, Triglycerides, Fasting glucose, Smoking status, Drug use, Renal function, Liver function, Thyroid function, Hypersensitivity to tadalafil, Insulin sensitivity, Insulin secretion",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Fasting Glucose",
+          "Fasting glucose"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "Total Cholesterol",
+          "Cholesterol"
+        ],
+        [
+          "Insulin Sensitivity",
+          "Insulin sensitivity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Postprandial Glucose",
+        "First Phase of Insulin",
+        "Total Insulin Secretion",
+        "Body Weight",
+        "Waist Circumference",
+        "High Density LIpoprotein cholesterol (HDL-c)",
+        "Low density lipoprotein cholesterol (LDL-c)",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Body Fat",
+        "Area under the curve (AUC) glucose",
+        "Area under the curve (AUC) insulin"
+      ],
+      "remaining_candidate_features": [
+        "Smoking status",
+        "Drug use",
+        "Renal function",
+        "Liver function",
+        "Thyroid function",
+        "Hypersensitivity to tadalafil",
+        "Insulin secretion"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Body Mass Index, Fasting Glucose, Postprandial Glucose, First Phase of Insulin Secretion, Total Insulin Secretion, Insulin Sensitivity, Area Under the Curve (AUC) Glucose, Area Under the Curve (AUC) Insulin,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting Glucose",
+          "Fasting Glucose"
+        ],
+        [
+          "Postprandial Glucose",
+          "Postprandial Glucose"
+        ],
+        [
+          "First Phase of Insulin",
+          "First Phase of Insulin Secretion"
+        ],
+        [
+          "Total Insulin Secretion",
+          "Total Insulin Secretion"
+        ],
+        [
+          "Insulin Sensitivity",
+          "Insulin Sensitivity"
+        ],
+        [
+          "Area under the curve (AUC) glucose",
+          "Area Under the Curve (AUC) Glucose"
+        ],
+        [
+          "Area under the curve (AUC) insulin",
+          "Area Under the Curve (AUC) Insulin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Body Weight",
+        "Waist Circumference",
+        "Triglycerides",
+        "Total Cholesterol",
+        "High Density LIpoprotein cholesterol (HDL-c)",
+        "Low density lipoprotein cholesterol (LDL-c)",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Body Fat"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, BMI, Region of Enrollment, Fasting Glucose, Triglycerides, Cholesterol, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes Family History, Smoking Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Fasting Glucose",
+          "Fasting Glucose"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Body Weight",
+        "Waist Circumference",
+        "Total Cholesterol",
+        "High Density LIpoprotein cholesterol (HDL-c)",
+        "Low density lipoprotein cholesterol (LDL-c)",
+        "Body Fat",
+        "First Phase of Insulin",
+        "Total Insulin Secretion",
+        "Insulin Sensitivity",
+        "Area under the curve (AUC) glucose",
+        "Area under the curve (AUC) insulin"
+      ],
+      "remaining_candidate_features": [
+        "Cholesterol",
+        "Diabetes Family History",
+        "Smoking Status."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Sex, BMI, Weight, Height, Waist Circumference, Hip Circumference, Blood Pressure, Heart Rate, Fasting Glucose, Cholesterol, Triglycerides, Smoking Status, Medical History (Diabetes, Hypertension, Renal Disease, Liver Disease, Thyroid Disease).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex"
+        ],
+        [
+          "Fasting Glucose",
+          "Fasting Glucose"
+        ],
+        [
+          "Postprandial Glucose",
+          "Postprandial Glucose"
+        ],
+        [
+          "First Phase of Insulin",
+          "First Phase of Insulin Secretion"
+        ],
+        [
+          "Total Insulin Secretion",
+          "Total Insulin Secretion"
+        ],
+        [
+          "Insulin Sensitivity",
+          "Insulin Sensitivity"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Waist Circumference",
+          "Waist Circumference"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "Total Cholesterol",
+          "Cholesterol"
+        ],
+        [
+          "Area under the curve (AUC) glucose",
+          "Area Under the Curve (AUC) Glucose"
+        ],
+        [
+          "Area under the curve (AUC) insulin",
+          "Area Under the Curve (AUC) Insulin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Region of Enrollment",
+        "Body Weight",
+        "High Density LIpoprotein cholesterol (HDL-c)",
+        "Low density lipoprotein cholesterol (LDL-c)",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Body Fat"
+      ],
+      "remaining_candidate_features": [
+        "Weight",
+        "Height",
+        "Hip Circumference",
+        "Blood Pressure",
+        "Heart Rate",
+        "Smoking Status",
+        "Medical History (Diabetes, Hypertension, Renal Disease, Liver Disease, Thyroid Disease)."
+      ]
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "trial_id": "NCT02736474",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Waist circumference, Smoking history (years and cigarettes per day), Antipsychotic medication type and duration, Presence of dyslipidemia, Hepatic transaminase levels, Thyroid Stimulating Hormone (TSH) levels, Thyroxine4 (T4) levels, Cardiac history, Pregnancy status (for women)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Gender"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "waist circumference",
+          "Waist circumference"
+        ],
+        [
+          "smoking time duration",
+          "Smoking history (years and cigarettes per day)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "illness time duration",
+        "breath CO level",
+        "number of cigarettes smoked per week",
+        "smoking craving",
+        "body weight",
+        "HbA1c",
+        "fasting glucose",
+        "HDL",
+        "LDL",
+        "insulin",
+        "Triglyceride"
+      ],
+      "remaining_candidate_features": [
+        "Antipsychotic medication type and duration",
+        "Presence of dyslipidemia",
+        "Hepatic transaminase levels",
+        "Thyroid Stimulating Hormone (TSH) levels",
+        "Thyroxine4 (T4) levels",
+        "Cardiac history",
+        "Pregnancy status (for women)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Waist Circumference, Number of Cigarettes Smoked Daily, Duration of Smoking Habit, Antipsychotic Medication Type and Dosage, Baseline Weight, Baseline Hepatic Transaminase Levels, Baseline Thyroid Stimulating Hormone (TSH) Levels, Baseline Thyroxine (T4) Levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "smoking time duration",
+          "Duration of Smoking Habit"
+        ],
+        [
+          "number of cigarettes smoked per week",
+          "Number of Cigarettes Smoked Daily"
+        ],
+        [
+          "body weight",
+          "Baseline Weight"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "waist circumference",
+          "Waist Circumference"
+        ],
+        [
+          "elevated hepatic transaminase levels",
+          "Baseline Hepatic Transaminase Levels"
+        ],
+        [
+          "Clinically significant Thyroid Stimulating Hormone\uff08TSH\uff09 and/or thyroxine4\uff08T4\uff09 abnormalities",
+          "Baseline Thyroid Stimulating Hormone (TSH) Levels"
+        ],
+        [
+          "Clinically significant Thyroid Stimulating Hormone\uff08TSH\uff09 and/or thyroxine4\uff08T4\uff09 abnormalities",
+          "Baseline Thyroxine (T4) Levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "illness time duration",
+        "breath CO level",
+        "smoking craving",
+        "HbA1c",
+        "fasting glucose",
+        "HDL",
+        "LDL",
+        "insulin",
+        "Triglyceride"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Antipsychotic Medication Type and Dosage"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Smoking Status, Number of Cigarettes Smoked per Day, Duration of Smoking, Diagnosis of Schizophrenia, Antipsychotic Medication, Duration of Antipsychotic Medication, Dyslipidemia Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "smoking time duration",
+          "Duration of Smoking"
+        ],
+        [
+          "number of cigarettes smoked per week",
+          "Number of Cigarettes Smoked per Day"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "waist circumference",
+          "Waist Circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "illness time duration",
+        "breath CO level",
+        "smoking craving",
+        "body weight",
+        "HbA1c",
+        "fasting glucose",
+        "HDL",
+        "LDL",
+        "insulin",
+        "Triglyceride"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Smoking Status",
+        "Diagnosis of Schizophrenia",
+        "Antipsychotic Medication",
+        "Duration of Antipsychotic Medication",
+        "Dyslipidemia Status."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, waist circumference, smoking history (number of cigarettes per day, years of smoking), diagnosis of schizophrenia (duration, severity), antipsychotic medication use (type, dose, duration), presence of dyslipidemia, TSH and T4 levels, hepatic transaminase levels, history of seizure disorder, history of cardiac problems, history of other medical conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "waist circumference",
+          "waist circumference"
+        ],
+        [
+          "smoking time duration",
+          "smoking history (number of cigarettes per day, years of smoking)"
+        ],
+        [
+          "TSH",
+          "TSH and T4 levels"
+        ],
+        [
+          "illness time duration",
+          "diagnosis of schizophrenia (duration, severity)"
+        ],
+        [
+          "fasting glucose",
+          "presence of dyslipidemia"
+        ],
+        [
+          "hepatic transaminase levels",
+          "hepatic transaminase levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "breath CO level",
+        "number of cigarettes smoked per week",
+        "smoking craving",
+        "body weight",
+        "HbA1c",
+        "HDL",
+        "LDL",
+        "insulin",
+        "Triglyceride"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "antipsychotic medication use (type, dose, duration)",
+        "history of seizure disorder",
+        "history of cardiac problems",
+        "history of other medical conditions."
+      ]
+    }
+  }
+}

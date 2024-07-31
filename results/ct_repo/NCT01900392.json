@@ -1,0 +1,199 @@
+{
+  "trial_id": "NCT01900392",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Gender, Baseline weight, Weight loss in the past 4-6 months, Health status, Socioeconomic status, Education level, Employment status, Marital status, Smoking status, Physical activity level, Dietary habits, Mental health status, Substance use history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI measures",
+          "BMI"
+        ],
+        [
+          "Weight measures",
+          "Baseline weight"
+        ],
+        [
+          "Education",
+          "Education level"
+        ],
+        [
+          "Physical activity in min per week",
+          "Physical activity level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Household income",
+        "Household size",
+        "BMI \u226535 kg/m2 at randomization",
+        "Eating behaviors by Three-Factor Eating Questionnaire"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Weight loss in the past 4-6 months",
+        "Health status",
+        "Socioeconomic status",
+        "Employment status",
+        "Marital status",
+        "Smoking status",
+        "Dietary habits",
+        "Mental health status",
+        "Substance use history"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline Weight, Weight Loss History, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI measures",
+          "Body Mass Index"
+        ],
+        [
+          "Weight measures",
+          "Baseline Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Household income",
+        "Household size",
+        "Education",
+        "BMI \u226535 kg/m2 at randomization",
+        "Eating behaviors by Three-Factor Eating Questionnaire",
+        "Physical activity in min per week"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Weight Loss History"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, Weight Loss History, Region of Enrollment, Baseline Weight, Baseline BMI, \n\n##Question:\n(please provide the next question)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI measures",
+          "BMI"
+        ],
+        [
+          "Weight measures",
+          "Baseline Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Household income",
+        "Household size",
+        "Education",
+        "BMI \u226535 kg/m2 at randomization",
+        "Eating behaviors by Three-Factor Eating Questionnaire",
+        "Physical activity in min per week"
+      ],
+      "remaining_candidate_features": [
+        "Weight Loss History",
+        "Region of Enrollment",
+        "Baseline BMI"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, race, ethnicity, education level, income, occupation, marital status, smoking status, medical history, medications, comorbidities, prior weight loss attempts, duration of obesity, physical activity level, dietary habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Household income",
+          "income"
+        ],
+        [
+          "Education",
+          "education level"
+        ],
+        [
+          "Weight measures",
+          "weight"
+        ],
+        [
+          "BMI measures",
+          "BMI"
+        ],
+        [
+          "Physical activity in min per week",
+          "physical activity level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Household size",
+        "BMI \u226535 kg/m2 at randomization",
+        "Eating behaviors by Three-Factor Eating Questionnaire"
+      ],
+      "remaining_candidate_features": [
+        "occupation",
+        "marital status",
+        "smoking status",
+        "medical history",
+        "medications",
+        "comorbidities",
+        "prior weight loss attempts",
+        "duration of obesity",
+        "dietary habits."
+      ]
+    }
+  }
+}

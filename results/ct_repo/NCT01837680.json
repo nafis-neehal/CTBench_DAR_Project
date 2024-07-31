@@ -1,0 +1,224 @@
+{
+  "trial_id": "NCT01837680",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age, type of diabetes (gestational or type 2), pre-pregnancy BMI, ethnicity, parity, previous history of gestational diabetes, duration of diabetes, baseline HbA1c, fasting blood glucose levels, socioeconomic status, smoking status, family history of diabetes, blood pressure, lipid profile.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "T2DM",
+          "type of diabetes (gestational or type 2)"
+        ],
+        [
+          "GDM in previous pregnancies",
+          "previous history of gestational diabetes"
+        ],
+        [
+          "Prepregnancy body mass index",
+          "pre-pregnancy BMI"
+        ],
+        [
+          "Gestational age diagnosed",
+          "gestational age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Multiple gestation",
+        "Polycystic ovary syndrome",
+        "Chronic hypertension",
+        "Renal disease",
+        "Thyroid disease",
+        "Prepregnancy body status",
+        "Previous management",
+        "Gestational age at entry to DIPP",
+        "Gestational age insulin started",
+        "Time between visits"
+      ],
+      "remaining_candidate_features": [
+        "parity",
+        "duration of diabetes",
+        "baseline HbA1c",
+        "fasting blood glucose levels",
+        "socioeconomic status",
+        "smoking status",
+        "family history of diabetes",
+        "blood pressure",
+        "lipid profile"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational Age at Diagnosis, Type of Diabetes (Gestational or Type 2), Pre-pregnancy BMI, Ethnicity, Race, Baseline HbA1c, Blood Pressure, Parity, Number of Fetuses,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity"
+        ],
+        [
+          "T2DM",
+          "Type of Diabetes (Gestational or Type 2)"
+        ],
+        [
+          "Multiple gestation",
+          "Number of Fetuses"
+        ],
+        [
+          "Gestational age diagnosed",
+          "Gestational Age at Diagnosis"
+        ],
+        [
+          "Prepregnancy body mass index",
+          "Pre-pregnancy BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "GDM in previous pregnancies",
+        "Polycystic ovary syndrome",
+        "Chronic hypertension",
+        "Renal disease",
+        "Thyroid disease",
+        "Prepregnancy body status",
+        "Previous management",
+        "Gestational age at entry to DIPP",
+        "Gestational age insulin started",
+        "Time between visits"
+      ],
+      "remaining_candidate_features": [
+        "Race",
+        "Baseline HbA1c",
+        "Blood Pressure",
+        "Parity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gestational Age, Parity, BMI, Previous History of GDM, Previous History of T2DM, Family History of Diabetes, Ethnicity, Region of Enrollment, HbA1c at Screening, Fasting Plasma Glucose at Screening, Insulin Dose at Baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity"
+        ],
+        [
+          "T2DM",
+          "Previous History of T2DM"
+        ],
+        [
+          "GDM in previous pregnancies",
+          "Previous History of GDM"
+        ],
+        [
+          "Prepregnancy body mass index",
+          "BMI"
+        ],
+        [
+          "Gestational age diagnosed",
+          "Gestational Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Multiple gestation",
+        "Polycystic ovary syndrome",
+        "Chronic hypertension",
+        "Renal disease",
+        "Thyroid disease",
+        "Prepregnancy body status",
+        "Previous management",
+        "Gestational age at entry to DIPP",
+        "Gestational age insulin started",
+        "Time between visits"
+      ],
+      "remaining_candidate_features": [
+        "Parity",
+        "Family History of Diabetes",
+        "Region of Enrollment",
+        "HbA1c at Screening",
+        "Fasting Plasma Glucose at Screening",
+        "Insulin Dose at Baseline"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, gestational age at enrollment, parity, body mass index (BMI), type of diabetes (GDM or T2DM), duration of diabetes, previous diabetes treatment, HbA1c at enrollment, fasting plasma glucose at enrollment, blood pressure, medical history (hypertension, preeclampsia, etc.), smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "T2DM",
+          "type of diabetes (GDM or T2DM)"
+        ],
+        [
+          "Gestational age diagnosed",
+          "gestational age at enrollment"
+        ],
+        [
+          "Prepregnancy body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Previous management",
+          "previous diabetes treatment"
+        ],
+        [
+          "Chronic hypertension",
+          "medical history (hypertension, preeclampsia, etc.)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "GDM in previous pregnancies",
+        "Multiple gestation",
+        "Polycystic ovary syndrome",
+        "Renal disease",
+        "Thyroid disease",
+        "Prepregnancy body status",
+        "Gestational age at entry to DIPP",
+        "Gestational age insulin started",
+        "Time between visits"
+      ],
+      "remaining_candidate_features": [
+        "parity",
+        "duration of diabetes",
+        "HbA1c at enrollment",
+        "fasting plasma glucose at enrollment",
+        "blood pressure",
+        "smoking status."
+      ]
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "trial_id": "NCT03200366",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Ethnicity, Education Level, Income Level, Health Insurance Status, Previous CRC Screening History, Marital Status, Employment Status, Baseline Anxiety Levels, Baseline Satisfaction with Healthcare, Baseline Knowledge of CRC Screening, Baseline Health Literacy, Baseline Bowel Preparation Quality.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity"
+        ],
+        [
+          "Education",
+          "Education Level"
+        ],
+        [
+          "Household Income",
+          "Income Level"
+        ],
+        [
+          "Health Insurance Coverage",
+          "Health Insurance Status"
+        ],
+        [
+          "Knowledge of CRC and Screening",
+          "Baseline Knowledge of CRC Screening"
+        ],
+        [
+          "Health Literacy",
+          "Baseline Health Literacy"
+        ],
+        [
+          "Employment Status",
+          "Employment Status"
+        ],
+        [
+          "Married/Partnered",
+          "Marital Status"
+        ],
+        [
+          "Colonoscopy-Related Procedural Anxiety",
+          "Baseline Anxiety Levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Number in Household",
+        "Children Under Age 18 in Household",
+        "Household Income Categorized by $15K Level",
+        "Adequacy of Income",
+        "Body Mass Index (BMI)",
+        "Global Physical Health",
+        "Global Mental Health",
+        "Comorbidity",
+        "Perceived Risk for CRC",
+        "Colonoscopy Stage of Adoption",
+        "Perceived Benefits of CRC Screening by Colonoscopy",
+        "Perceived Barriers to CRC Screening by Colonoscopy",
+        "Perceived Self-Efficacy for CRC Screening by Colonoscopy",
+        "Fecal Immunochemical Test Stage of Adoption",
+        "Perceived Benefits of CRC Screening by FIT",
+        "Perceived Barriers to CRC Screening by FIT",
+        "Perceived Self-Efficacy for CRC Screening by FIT"
+      ],
+      "remaining_candidate_features": [
+        "Previous CRC Screening History",
+        "Baseline Satisfaction with Healthcare",
+        "Baseline Bowel Preparation Quality."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Previous CRC screening history, Family history of CRC, Health literacy, Anxiety levels, Satisfaction with colonoscopy experience, Quality of bowel preparation,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Health Literacy",
+          "Health literacy"
+        ],
+        [
+          "Colonoscopy-Related Procedural Anxiety",
+          "Anxiety levels"
+        ],
+        [
+          "Satisfaction with the colonoscopy experience",
+          "Satisfaction with colonoscopy experience"
+        ],
+        [
+          "Quality of bowel preparation",
+          "Quality of bowel preparation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Married/Partnered",
+        "Education",
+        "Number in Household",
+        "Children Under Age 18 in Household",
+        "Employment Status",
+        "Household Income",
+        "Household Income Categorized by $15K Level",
+        "Adequacy of Income",
+        "Health Insurance Coverage",
+        "Body Mass Index (BMI)",
+        "Global Physical Health",
+        "Global Mental Health",
+        "Comorbidity",
+        "Knowledge of CRC and Screening",
+        "Perceived Risk for CRC",
+        "Colonoscopy Stage of Adoption",
+        "Perceived Benefits of CRC Screening by Colonoscopy",
+        "Perceived Barriers to CRC Screening by Colonoscopy",
+        "Perceived Self-Efficacy for CRC Screening by Colonoscopy",
+        "Fecal Immunochemical Test Stage of Adoption",
+        "Perceived Benefits of CRC Screening by FIT",
+        "Perceived Barriers to CRC Screening by FIT",
+        "Perceived Self-Efficacy for CRC Screening by FIT"
+      ],
+      "remaining_candidate_features": [
+        "Previous CRC screening history",
+        "Family history of CRC"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Family History of Colorectal Cancer, Personal History of Conditions that Place Participants at High Risk for Colorectal Cancer, Prior Colonoscopy Experience, Anxiety about Colonoscopy Procedure, Satisfaction with Colonoscopy Experience.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Family History of CRC which increases the participant's risk for CRC",
+          "Family History of Colorectal Cancer"
+        ],
+        [
+          "Personal history of conditions that place participants at high risk for CRC",
+          "Personal History of Conditions that Place Participants at High Risk for Colorectal Cancer"
+        ],
+        [
+          "Colonoscopy-Related Procedural Anxiety",
+          "Anxiety about Colonoscopy Procedure"
+        ],
+        [
+          "Satisfaction with Colonoscopy Experience",
+          "Satisfaction with Colonoscopy Experience"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Married/Partnered",
+        "Education",
+        "Number in Household",
+        "Children Under Age 18 in Household",
+        "Employment Status",
+        "Household Income",
+        "Household Income Categorized by $15K Level",
+        "Adequacy of Income",
+        "Health Insurance Coverage",
+        "Body Mass Index (BMI)",
+        "Global Physical Health",
+        "Global Mental Health",
+        "Health Literacy",
+        "Comorbidity",
+        "Knowledge of CRC and Screening",
+        "Perceived Risk for CRC",
+        "Colonoscopy Stage of Adoption",
+        "Perceived Benefits of CRC Screening by Colonoscopy",
+        "Perceived Barriers to CRC Screening by Colonoscopy",
+        "Perceived Self-Efficacy for CRC Screening by Colonoscopy",
+        "Fecal Immunochemical Test Stage of Adoption",
+        "Perceived Benefits of CRC Screening by FIT",
+        "Perceived Barriers to CRC Screening by FIT",
+        "Perceived Self-Efficacy for CRC Screening by FIT"
+      ],
+      "remaining_candidate_features": [
+        "Prior Colonoscopy Experience"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, income, marital status, employment status, health insurance status, medical comorbidities, family history of CRC, personal history of polyps or CRC, history of colonoscopy, current smoking status, body mass index (BMI), self-reported health status, anxiety level, satisfaction with healthcare provider, prior experience with CRC screening, and distance from residence to endoscopy department.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Education",
+          "education level"
+        ],
+        [
+          "Household Income",
+          "income"
+        ],
+        [
+          "Married/Partnered",
+          "marital status"
+        ],
+        [
+          "Employment Status",
+          "employment status"
+        ],
+        [
+          "Health Insurance Coverage",
+          "health insurance status"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Comorbidity",
+          "medical comorbidities"
+        ],
+        [
+          "Family history of CRC which increases the participant's risk for CRC",
+          "family history of CRC"
+        ],
+        [
+          "Personal history of CRC or polyps",
+          "personal history of polyps or CRC"
+        ],
+        [
+          "Colonoscopy Stage of Adoption",
+          "history of colonoscopy"
+        ],
+        [
+          "Global Physical Health",
+          "self-reported health status"
+        ],
+        [
+          "Colonoscopy-Related Procedural Anxiety",
+          "anxiety level"
+        ],
+        [
+          "Knowledge of CRC and Screening",
+          "prior experience with CRC screening"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Number in Household",
+        "Children Under Age 18 in Household",
+        "Household Income Categorized by $15K Level",
+        "Adequacy of Income",
+        "Global Mental Health",
+        "Health Literacy",
+        "Perceived Risk for CRC",
+        "Perceived Benefits of CRC Screening by Colonoscopy",
+        "Perceived Barriers to CRC Screening by Colonoscopy",
+        "Perceived Self-Efficacy for CRC Screening by Colonoscopy",
+        "Fecal Immunochemical Test Stage of Adoption",
+        "Perceived Benefits of CRC Screening by FIT",
+        "Perceived Barriers to CRC Screening by FIT",
+        "Perceived Self-Efficacy for CRC Screening by FIT"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "current smoking status",
+        "satisfaction with healthcare provider",
+        "distance from residence to endoscopy department"
+      ]
+    }
+  }
+}

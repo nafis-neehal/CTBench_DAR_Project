@@ -1,0 +1,209 @@
+{
+  "trial_id": "NCT00028093",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, presence of HCV RNA, genotype of HCV, liver biopsy results, serum alanine aminotransferase (ALT) levels, serum aspartate aminotransferase (AST) levels, chronic renal disease status, creatinine clearance, serum creatinine levels, hemodialysis status, potential candidacy for renal transplantation, hematocrit levels, pregnancy status, systemic or major illnesses, previous antiviral therapy, immunosuppressive therapy, evidence of other liver diseases, evidence of coronary artery disease, evidence of cerebral vascular disease, substance abuse history, alphafetoprotein (AFP) levels, ultrasound findings, clinical gout, autoimmune disease status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Alanine transaminase",
+          "serum alanine aminotransferase (ALT) levels"
+        ],
+        [
+          "Hepatitis C Virus RNA level",
+          "presence of HCV RNA"
+        ],
+        [
+          "Histology activity index",
+          "liver biopsy results"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Duration of infection",
+        "Mode of infection",
+        "Weight",
+        "Body Mass Index",
+        "Ishak fibrosis"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "genotype of HCV",
+        "serum aspartate aminotransferase (AST) levels",
+        "chronic renal disease status",
+        "creatinine clearance",
+        "serum creatinine levels",
+        "hemodialysis status",
+        "potential candidacy for renal transplantation",
+        "hematocrit levels",
+        "pregnancy status",
+        "systemic or major illnesses",
+        "previous antiviral therapy",
+        "immunosuppressive therapy",
+        "evidence of other liver diseases",
+        "evidence of coronary artery disease",
+        "evidence of cerebral vascular disease",
+        "substance abuse history",
+        "alphafetoprotein (AFP) levels",
+        "ultrasound findings",
+        "clinical gout",
+        "autoimmune disease status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HCV RNA levels, Genotype 1 HCV, Liver biopsy histology activity index, Serum alanine aminotransferase (ALT), Serum aspartate aminotransferase (AST), Creatinine clearance, Serum creatinine, Hematocrit, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Alanine transaminase",
+          "Serum alanine aminotransferase (ALT)"
+        ],
+        [
+          "Histology activity index",
+          "Liver biopsy histology activity index"
+        ],
+        [
+          "Hepatitis C Virus RNA level",
+          "Baseline HCV RNA levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Duration of infection",
+        "Mode of infection",
+        "Weight",
+        "Body Mass Index",
+        "Ishak fibrosis"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Region of Enrollment",
+        "Genotype 1 HCV",
+        "Serum aspartate aminotransferase (AST)",
+        "Creatinine clearance",
+        "Serum creatinine",
+        "Hematocrit"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Creatinine Clearance, Hematocrit, Alanine Transaminase, Aspartate Transaminase, Hepatitis C Virus RNA Levels, Liver Biopsy Histology Activity Index, Presence of Chronic Renal Disease, Presence of Cirrhosis, Presence of Decompensated Liver Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Alanine transaminase",
+          "Alanine Transaminase"
+        ],
+        [
+          "Histology activity index",
+          "Liver Biopsy Histology Activity Index"
+        ],
+        [
+          "Hepatitis C Virus RNA level",
+          "Hepatitis C Virus RNA Levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Duration of infection",
+        "Mode of infection",
+        "Weight",
+        "Ishak fibrosis"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Region of Enrollment",
+        "Creatinine Clearance",
+        "Hematocrit",
+        "Aspartate Transaminase",
+        "Presence of Chronic Renal Disease",
+        "Presence of Cirrhosis",
+        "Presence of Decompensated Liver Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, weight, height, body mass index (BMI), genotype, HCV RNA levels, liver biopsy results (necroinflammatory histology activity index), serum ALT and AST levels, creatinine clearance, serum creatinine, hematocrit, bilirubin, albumin, prothrombin time, history of bleeding esophageal varices, ascites or hepatic encephalopathy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Alanine transaminase",
+          "serum ALT and AST levels"
+        ],
+        [
+          "Histology activity index",
+          "liver biopsy results (necroinflammatory histology activity index)"
+        ],
+        [
+          "Hepatitis C Virus RNA level",
+          "HCV RNA levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Duration of infection",
+        "Mode of infection",
+        "Weight",
+        "Ishak fibrosis"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "weight",
+        "height",
+        "genotype",
+        "creatinine clearance",
+        "serum creatinine",
+        "hematocrit",
+        "bilirubin",
+        "albumin",
+        "prothrombin time",
+        "history of bleeding esophageal varices",
+        "ascites or hepatic encephalopathy."
+      ]
+    }
+  }
+}

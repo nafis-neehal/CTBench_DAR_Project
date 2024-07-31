@@ -1,0 +1,156 @@
+{
+  "trial_id": "NCT01643473",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, baseline blood pressure, baseline Framingham Risk Score, presence of diabetes, presence of hyperlipidemia, number of antihypertensive medications prescribed, number of oral anti-diabetic medications prescribed, psychiatric comorbidity status, current participation in other hypertension or diabetes studies, plan to discontinue care at the clinic within the next 3 months.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race/ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Educational Status",
+        "Unemployed",
+        "Annual income less than $40"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "baseline blood pressure",
+        "baseline Framingham Risk Score",
+        "presence of diabetes",
+        "presence of hyperlipidemia",
+        "number of antihypertensive medications prescribed",
+        "number of oral anti-diabetic medications prescribed",
+        "psychiatric comorbidity status",
+        "current participation in other hypertension or diabetes studies",
+        "plan to discontinue care at the clinic within the next 3 months."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Blood Pressure, Baseline HbA1c, Medication Adherence, Framingham Risk Score, Existing Cardiovascular Disease Risk Factors,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Educational Status",
+        "Unemployed",
+        "Annual income less than $40"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Baseline Blood Pressure",
+        "Baseline HbA1c",
+        "Medication Adherence",
+        "Framingham Risk Score",
+        "Existing Cardiovascular Disease Risk Factors"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hypertension diagnosis duration, Diabetes diagnosis duration, Framingham Risk Scores, Blood Pressure, Number of antihypertensive or oral anti-diabetic medications, Self-reported medication adherence,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Educational Status",
+        "Unemployed",
+        "Annual income less than $40,000"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Hypertension diagnosis duration",
+        "Diabetes diagnosis duration",
+        "Framingham Risk Scores",
+        "Blood Pressure",
+        "Number of antihypertensive or oral anti-diabetic medications",
+        "Self-reported medication adherence"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, blood pressure, Framingham Risk Scores, cardiovascular disease risk factors, hyperlipidemia, diabetes status, kidney disease status, number and type of antihypertensive or oral anti-diabetic medications, duration of hypertension or T2DM diagnosis, education level, income level, health literacy, access to healthcare, technology literacy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Educational Status",
+          "education level"
+        ],
+        [
+          "Annual income less than $40,000",
+          "income level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Unemployed"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "blood pressure",
+        "Framingham Risk Scores",
+        "cardiovascular disease risk factors",
+        "hyperlipidemia",
+        "diabetes status",
+        "kidney disease status",
+        "number and type of antihypertensive or oral anti-diabetic medications",
+        "duration of hypertension or T2DM diagnosis",
+        "health literacy",
+        "access to healthcare",
+        "technology literacy"
+      ]
+    }
+  }
+}

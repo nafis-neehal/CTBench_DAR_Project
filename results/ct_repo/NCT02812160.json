@@ -1,0 +1,162 @@
+{
+  "trial_id": "NCT02812160",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, history of obesity duration, history of failure with non-surgical weight loss methods, willingness to comply with dietary restrictions, distance from investigator's office, ability to give informed consent, use of birth control methods (for women of childbearing potential).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "use of birth control methods (for women of childbearing potential)"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "history of obesity duration",
+        "history of failure with non-surgical weight loss methods",
+        "willingness to comply with dietary restrictions",
+        "distance from investigator's office",
+        "ability to give informed consent"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Duration of Obesity, History of Weight Loss Attempts, Systolic Blood Pressure, Diastolic Blood Pressure, Baseline Total Body Weight,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Obesity",
+        "History of Weight Loss Attempts",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Baseline Total Body Weight"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Lipid Profile, History of Diabetes, History of Hypertension, History of Hyperlipidemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical"
+      ],
+      "remaining_candidate_features": [
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Glucose",
+        "Lipid Profile",
+        "History of Diabetes",
+        "History of Hypertension",
+        "History of Hyperlipidemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, ethnicity, race, smoking status, history of obesity, history of non-surgical weight loss methods, comorbidities, medications, dietary habits, physical activity level, education level, occupation, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "ethnicity",
+        "smoking status",
+        "history of obesity",
+        "history of non-surgical weight loss methods",
+        "comorbidities",
+        "medications",
+        "dietary habits",
+        "physical activity level",
+        "education level",
+        "occupation",
+        "marital status"
+      ]
+    }
+  }
+}

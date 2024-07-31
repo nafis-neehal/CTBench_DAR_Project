@@ -1,0 +1,144 @@
+{
+  "trial_id": "NCT01131312",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, diagnosis of ASCUS or LSIL, previous hysterectomy, history of excisional or ablative treatment of cervix, pregnancy status, HIV status, study site location, follow-up adherence.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "diagnosis of ASCUS or LSIL"
+        ],
+        [
+          "Region of Enrollment",
+          "study site location"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "previous hysterectomy",
+        "history of excisional or ablative treatment of cervix",
+        "pregnancy status",
+        "HIV status",
+        "follow-up adherence"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Previous cervical treatment, HPV status, Cytology results, Smoking status, Use of oral contraceptives, Number of sexual partners,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Previous cervical treatment",
+        "HPV status",
+        "Cytology results",
+        "Smoking status",
+        "Use of oral contraceptives",
+        "Number of sexual partners"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, History of previous abnormal Pap smear, History of previous cervical treatment, HPV status, Cytology results, Colposcopy results, Biopsy results,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "History of previous abnormal Pap smear",
+        "History of previous cervical treatment",
+        "HPV status",
+        "Cytology results",
+        "Colposcopy results",
+        "Biopsy results"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, smoking status, parity, history of previous abnormal Pap smears, history of previous cervical treatments, HPV status, HIV status, pregnancy status, diagnosis of ASCUS or LSIL, duration of ASCUS or LSIL diagnosis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Sex: Female",
+          "diagnosis of ASCUS or LSIL"
+        ],
+        [
+          "Region of Enrollment",
+          "history of previous cervical treatments"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "smoking status",
+        "parity",
+        "history of previous abnormal Pap smears",
+        "HPV status",
+        "HIV status",
+        "pregnancy status",
+        "duration of ASCUS or LSIL diagnosis"
+      ]
+    }
+  }
+}

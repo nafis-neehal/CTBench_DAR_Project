@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT01441973",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline serum monoclonal (M) protein level, baseline bone marrow plasma cells (BMPC) percentage, baseline free light chain ratio, baseline urine M protein level, baseline CD56^dim cells percentage, performance status, prior treatments, comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "gender"
+        ],
+        [
+          "BMPC percentage",
+          "baseline bone marrow plasma cells (BMPC) percentage"
+        ],
+        [
+          "Serum M protein",
+          "baseline serum monoclonal (M) protein level"
+        ],
+        [
+          "Urine M protein",
+          "baseline urine M protein level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Myeloma type",
+        "ECOG performance status",
+        "Serum \u03b22 microglobulin",
+        "Chronic kidney disease stage",
+        "Time since diagnosis",
+        "Satisfied high\u2010risk SMM criteria at study entry"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "baseline free light chain ratio",
+        "baseline CD56^dim cells percentage",
+        "performance status",
+        "prior treatments",
+        "comorbidities"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Serum monoclonal (M) protein level, Bone marrow plasma cells (BMPC) percentage, Serum free light chain ratio, Urine M protein level, Hepatitis B/C status, HIV status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex"
+        ],
+        [
+          "BMPC percentage",
+          "Bone marrow plasma cells (BMPC) percentage"
+        ],
+        [
+          "Serum M protein",
+          "Serum monoclonal (M) protein level"
+        ],
+        [
+          "Urine M protein",
+          "Urine M protein level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Myeloma type",
+        "ECOG performance status",
+        "Serum \u03b22 microglobulin",
+        "Chronic kidney disease stage",
+        "Time since diagnosis",
+        "Satisfied high\u2010risk SMM criteria at study entry"
+      ],
+      "remaining_candidate_features": [
+        "Race",
+        "Serum free light chain ratio",
+        "Hepatitis B/C status",
+        "HIV status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Race, BMI, Serum monoclonal (M) protein, Bone marrow plasma cells (BMPC), Urine M protein, Serum free light chain ratio, Hepatitis B or C virus or HIV infection status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex"
+        ],
+        [
+          "BMPC percentage",
+          "Bone marrow plasma cells (BMPC)"
+        ],
+        [
+          "Serum M protein",
+          "Serum monoclonal (M) protein"
+        ],
+        [
+          "Urine M protein",
+          "Urine M protein"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Myeloma type",
+        "ECOG performance status",
+        "Serum \u03b22 microglobulin",
+        "Chronic kidney disease stage",
+        "Time since diagnosis",
+        "Satisfied high\u2010risk SMM criteria at study entry"
+      ],
+      "remaining_candidate_features": [
+        "Race",
+        "BMI",
+        "Serum free light chain ratio",
+        "Hepatitis B or C virus or HIV infection status."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), serum monoclonal (M) protein level, bone marrow plasma cells (BMPC) percentage, free light chain ratio, urine M protein level, presence of cytogenetic abnormalities, prior therapies, duration of smoldering multiple myeloma, Eastern Cooperative Oncology Group (ECOG) performance status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "sex"
+        ],
+        [
+          "ECOG performance status",
+          "Eastern Cooperative Oncology Group (ECOG) performance status"
+        ],
+        [
+          "BMPC percentage",
+          "bone marrow plasma cells (BMPC) percentage"
+        ],
+        [
+          "Serum M protein",
+          "serum monoclonal (M) protein level"
+        ],
+        [
+          "Urine M protein",
+          "urine M protein level"
+        ],
+        [
+          "Time since diagnosis",
+          "duration of smoldering multiple myeloma"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Myeloma type",
+        "Serum \u03b22 microglobulin",
+        "Chronic kidney disease stage",
+        "Satisfied high\u2010risk SMM criteria at study entry"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "body mass index (BMI)",
+        "free light chain ratio",
+        "presence of cytogenetic abnormalities",
+        "prior therapies"
+      ]
+    }
+  }
+}

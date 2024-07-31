@@ -1,0 +1,161 @@
+{
+  "trial_id": "NCT00752726",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, Body Mass Index (BMI), Waist circumference, General health status, Dietary habits, Smoking status, Medication use, History of gastrointestinal disease, History of psychological disorder, History of neurological disorder, History of thyroid conditions, History of weight loss surgery, Blood pressure, Heart disease status, Diabetes status, History of panic attacks or claustrophobia, Recent weight change.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Waist Circumference",
+          "Waist circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Body Weight",
+        "Height",
+        "Visceral Abdominal Tissue (VAT) Mass"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "General health status",
+        "Dietary habits",
+        "Smoking status",
+        "Medication use",
+        "History of gastrointestinal disease",
+        "History of psychological disorder",
+        "History of neurological disorder",
+        "History of thyroid conditions",
+        "History of weight loss surgery",
+        "Blood pressure",
+        "Heart disease status",
+        "Diabetes status",
+        "History of panic attacks or claustrophobia",
+        "Recent weight change"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Blood Glucose, Dietary Habits, Physical Activity Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Waist Circumference",
+          "Waist Circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight",
+        "Height",
+        "Visceral Abdominal Tissue (VAT) Mass"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Blood Glucose",
+        "Dietary Habits",
+        "Physical Activity Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Blood Glucose, History of Hypertension, History of Diabetes Mellitus.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Waist Circumference",
+          "Waist Circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight",
+        "Height",
+        "Visceral Abdominal Tissue (VAT) Mass"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Blood Glucose",
+        "History of Hypertension",
+        "History of Diabetes Mellitus."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, waist circumference, weight, height, ethnicity, smoking history, medical history (including hypertension, heart disease, diabetes mellitus), medication use, diet habits, physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Waist Circumference",
+          "waist circumference"
+        ],
+        [
+          "Body Weight",
+          "weight"
+        ],
+        [
+          "Height",
+          "height"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Visceral Abdominal Tissue (VAT) Mass"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "ethnicity",
+        "smoking history",
+        "medical history (including hypertension, heart disease, diabetes mellitus)",
+        "medication use",
+        "diet habits",
+        "physical activity level"
+      ]
+    }
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "trial_id": "NCT01280903",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, community dwelling status, osteoarthritis of the knee diagnosis, hypertension diagnosis, current lower extremity exercise frequency, current fitness walking frequency, ability to manage treatment regimen, telephone access, recent cortisone or Synvisc injections, recent angioplasty or stents or pacemaker, cardiovascular disease status, pulmonary disease status, metabolic disease status, resting systolic blood pressure, resting diastolic blood pressure, presence of other conditions affecting lower extremity exercise, current knee conditions, major depression status, upcoming major surgical procedures, concurrent participation in other trials.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Systolic blood pressure",
+          "resting systolic blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "resting diastolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body mass index",
+        "Number of comorbidities",
+        "Marital status",
+        "Educational status",
+        "Employment status",
+        "Household income",
+        "Lower extremity exercise (e-diary): days/week",
+        "Lower extremity exercise (e-diary): minutes/week",
+        "Lower extremity exercise (e-diary): average minutes/day",
+        "Lower extremity exercise (e-diary): volume [repetitions x sets over 7-day period]/week",
+        "Fitness walking (e-dairy): days/week",
+        "Fitness walking (e-diary): minutes/week",
+        "Fitness walking (e-diary): average minutes/day",
+        "Activity minutes over 7 days (ActiGraph): no to very low (counts of 0-99/min)",
+        "Activity minutes over 7 days (ActiGraph): light (counts of 100-2,019/min)",
+        "Activity minutes over 7 days (ActiGraph): moderate-to-vigorous (counts of > 2,020/min)",
+        "Number of bouts over 7 days (ActiGraph): bouts of moderate-to-vigorous activity",
+        "Mean duration of bouts over 7 days (ActiGraph): bouts of moderate-to-vigorous activity n=96",
+        "Mean number of daily activity minutes (ActiGraph): no to very low (counts of 0-99/min)",
+        "Mean number of daily activity minutes (ActiGraph): light (counts of 100-2,019/min)",
+        "Mean number of daily activity minutes (ActiGraph): moderate-to-vigorous (counts of >2,020/min)",
+        "Mean number of daily bouts (ActiGraph): bouts of moderate-to-vigorous activity",
+        "6-minute walk",
+        "Short Physical Performance Battery: total",
+        "Short Physical Performance Battery: repeated chair stands",
+        "Short Physical Performance Battery: 4-meter usual walk",
+        "Short Physical Performance Battery: standing balance",
+        "Chair sit-and-reach",
+        "8-foot up-and-go",
+        "Quadriceps strength (mean maximum for right and left quadriceps)",
+        "Western Ontario and McMaster Universities Osteoarthritis Index: Pain",
+        "Western Ontario and McMaster Universities Osteoarthritis Index: Function",
+        "Western Ontario and McMaster Universities Osteoarthritis Index: Stiffness",
+        "Short Form-36v2 Health Survey: Bodily Pain",
+        "Short Form-36v2 Health Survey: Physical Functioning",
+        "Short Form-36v2 Health Survey: Physical Component Score",
+        "Short Form-36v2 Health Survey: Mental Component Score",
+        "Brief Fatigue Inventory",
+        "Self-efficacy: Exercise",
+        "Self-efficacy: Exercise Barriers",
+        "Self-efficacy: Arthritis Pain",
+        "Self-efficacy: Arthritis Function",
+        "Self-efficacy: Arthritis Other Symptoms",
+        "Perceived Therapeutic Efficacy - Exercise & Arthritis",
+        "Perceived Therapeutic Efficacy - Exercise & Hypertension"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "community dwelling status",
+        "osteoarthritis of the knee diagnosis",
+        "hypertension diagnosis",
+        "current lower extremity exercise frequency",
+        "current fitness walking frequency",
+        "ability to manage treatment regimen",
+        "telephone access",
+        "recent cortisone or Synvisc injections",
+        "recent angioplasty or stents or pacemaker",
+        "cardiovascular disease status",
+        "pulmonary disease status",
+        "metabolic disease status",
+        "presence of other conditions affecting lower extremity exercise",
+        "current knee conditions",
+        "major depression status",
+        "upcoming major surgical procedures",
+        "concurrent participation in other trials."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Osteoarthritis severity, Hypertension duration, Physical activity level, Functional status, Pain level, Fatigue level, Health-related quality of life,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Number of comorbidities",
+        "Marital status",
+        "Educational status",
+        "Employment status",
+        "Household income",
+        "Lower extremity exercise (e-diary): days/week",
+        "Lower extremity exercise (e-diary): minutes/week",
+        "Lower extremity exercise (e-diary): average minutes/day",
+        "Lower extremity exercise (e-diary): volume [repetitions x sets over 7-day period]/week",
+        "Fitness walking (e-dairy): days/week",
+        "Fitness walking (e-diary): minutes/week",
+        "Fitness walking (e-diary): average minutes/day",
+        "Activity minutes over 7 days (ActiGraph): no to very low (counts of 0-99/min)",
+        "Activity minutes over 7 days (ActiGraph): light (counts of 100-2,019/min)",
+        "Activity minutes over 7 days (ActiGraph): moderate-to-vigorous (counts of > 2,020/min)",
+        "Number of bouts over 7 days (ActiGraph): bouts of moderate-to-vigorous activity",
+        "Mean duration of bouts over 7 days (ActiGraph): bouts of moderate-to-vigorous activity n=96",
+        "Mean number of daily activity minutes (ActiGraph): no to very low (counts of 0-99/min)",
+        "Mean number of daily activity minutes (ActiGraph): light (counts of 100-2,019/min)",
+        "Mean number of daily activity minutes (ActiGraph): moderate-to-vigorous (counts of >2,020/min)",
+        "Mean number of daily bouts (ActiGraph): bouts of moderate-to-vigorous activity",
+        "6-minute walk",
+        "Short Physical Performance Battery: total",
+        "Short Physical Performance Battery: repeated chair stands",
+        "Short Physical Performance Battery: 4-meter usual walk",
+        "Short Physical Performance Battery: standing balance",
+        "Chair sit-and-reach",
+        "8-foot up-and-go",
+        "Quadriceps strength (mean maximum for right and left quadriceps)",
+        "Western Ontario and McMaster Universities Osteoarthritis Index: Pain",
+        "Western Ontario and McMaster Universities Osteoarthritis Index: Function",
+        "Western Ontario and McMaster Universities Osteoarthritis Index: Stiffness",
+        "Short Form-36v2 Health Survey: Bodily Pain",
+        "Short Form-36v2 Health Survey: Physical Functioning",
+        "Short Form-36v2 Health Survey: Physical Component Score",
+        "Short Form-36v2 Health Survey: Mental Component Score",
+        "Brief Fatigue Inventory",
+        "Self-efficacy: Exercise",
+        "Self-efficacy: Exercise Barriers",
+        "Self-efficacy: Arthritis Pain",
+        "Self-efficacy: Arthritis Function",
+        "Self-efficacy: Arthritis Other Symptoms",
+        "Perceived Therapeutic Efficacy - Exercise & Arthritis",
+        "Perceived Therapeutic Efficacy - Exercise & Hypertension"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Osteoarthritis severity",
+        "Hypertension duration",
+        "Physical activity level",
+        "Functional status",
+        "Pain level",
+        "Fatigue level",
+        "Health-related quality of life"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Knee Osteoarthritis Severity, Hypertension Duration, Current Medication Use, Self-reported Physical Function, Self-reported Pain, Self-reported Fatigue, Health-related Quality of Life.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Number of comorbidities",
+        "Marital status",
+        "Educational status",
+        "Employment status",
+        "Household income",
+        "Lower extremity exercise (e-diary): days/week",
+        "Lower extremity exercise (e-diary): minutes/week",
+        "Lower extremity exercise (e-diary): average minutes/day",
+        "Lower extremity exercise (e-diary): volume [repetitions x sets over 7-day period]/week",
+        "Fitness walking (e-dairy): days/week",
+        "Fitness walking (e-diary): minutes/week",
+        "Fitness walking (e-diary): average minutes/day",
+        "Activity minutes over 7 days (ActiGraph): no to very low (counts of 0-99/min)",
+        "Activity minutes over 7 days (ActiGraph): light (counts of 100-2,019/min)",
+        "Activity minutes over 7 days (ActiGraph): moderate-to-vigorous (counts of > 2,020/min)",
+        "Number of bouts over 7 days (ActiGraph): bouts of moderate-to-vigorous activity",
+        "Mean duration of bouts over 7 days (ActiGraph): bouts of moderate-to-vigorous activity n=96",
+        "Mean number of daily activity minutes (ActiGraph): no to very low (counts of 0-99/min)",
+        "Mean number of daily activity minutes (ActiGraph): light (counts of 100-2,019/min)",
+        "Mean number of daily activity minutes (ActiGraph): moderate-to-vigorous (counts of >2,020/min)",
+        "Mean number of daily bouts (ActiGraph): bouts of moderate-to-vigorous activity",
+        "6-minute walk",
+        "Short Physical Performance Battery: total",
+        "Short Physical Performance Battery: repeated chair stands",
+        "Short Physical Performance Battery: 4-meter usual walk",
+        "Short Physical Performance Battery: standing balance",
+        "Chair sit-and-reach",
+        "8-foot up-and-go",
+        "Quadriceps strength (mean maximum for right and left quadriceps)",
+        "Western Ontario and McMaster Universities Osteoarthritis Index: Pain",
+        "Western Ontario and McMaster Universities Osteoarthritis Index: Function",
+        "Western Ontario and McMaster Universities Osteoarthritis Index: Stiffness",
+        "Short Form-36v2 Health Survey: Bodily Pain",
+        "Short Form-36v2 Health Survey: Physical Functioning",
+        "Short Form-36v2 Health Survey: Physical Component Score",
+        "Short Form-36v2 Health Survey: Mental Component Score",
+        "Brief Fatigue Inventory",
+        "Self-efficacy: Exercise",
+        "Self-efficacy: Exercise Barriers",
+        "Self-efficacy: Arthritis Pain",
+        "Self-efficacy: Arthritis Function",
+        "Self-efficacy: Arthritis Other Symptoms",
+        "Perceived Therapeutic Efficacy - Exercise & Arthritis",
+        "Perceived Therapeutic Efficacy - Exercise & Hypertension"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Knee Osteoarthritis Severity",
+        "Hypertension Duration",
+        "Current Medication Use",
+        "Self-reported Physical Function",
+        "Self-reported Pain",
+        "Self-reported Fatigue",
+        "Health-related Quality of Life."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, education level, employment status, marital status, living situation, medical history (including osteoarthritis and hypertension duration, comorbidities), medication use, physical activity level at baseline, pain level at baseline, fatigue level at baseline, health-related quality of life at baseline, blood pressure at baseline, leg strength at baseline, functional status at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body mass index",
+          "body mass index"
+        ],
+        [
+          "Number of comorbidities",
+          "medical history (including osteoarthritis and hypertension duration, comorbidities)"
+        ],
+        [
+          "Marital status",
+          "marital status"
+        ],
+        [
+          "Educational status",
+          "education level"
+        ],
+        [
+          "Employment status",
+          "employment status"
+        ],
+        [
+          "Systolic blood pressure",
+          "blood pressure at baseline"
+        ],
+        [
+          "Diastolic blood pressure",
+          "blood pressure at baseline"
+        ],
+        [
+          "Quadriceps strength (mean maximum for right and left quadriceps)",
+          "leg strength at baseline"
+        ],
+        [
+          "Western Ontario and McMaster Universities Osteoarthritis Index: Pain",
+          "pain level at baseline"
+        ],
+        [
+          "Brief Fatigue Inventory",
+          "fatigue level at baseline"
+        ],
+        [
+          "Short Form-36v2 Health Survey: Physical Functioning",
+          "functional status at baseline"
+        ],
+        [
+          "Short Form-36v2 Health Survey: Physical Component Score",
+          "health-related quality of life at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Household income",
+        "Lower extremity exercise (e-diary): days/week",
+        "Lower extremity exercise (e-diary): minutes/week",
+        "Lower extremity exercise (e-diary): average minutes/day",
+        "Lower extremity exercise (e-diary): volume [repetitions x sets over 7-day period]/week",
+        "Fitness walking (e-dairy): days/week",
+        "Fitness walking (e-diary): minutes/week",
+        "Fitness walking (e-diary): average minutes/day",
+        "Activity minutes over 7 days (ActiGraph): no to very low (counts of 0-99/min)",
+        "Activity minutes over 7 days (ActiGraph): light (counts of 100-2,019/min)",
+        "Activity minutes over 7 days (ActiGraph): moderate-to-vigorous (counts of > 2,020/min)",
+        "Number of bouts over 7 days (ActiGraph): bouts of moderate-to-vigorous activity",
+        "Mean duration of bouts over 7 days (ActiGraph): bouts of moderate-to-vigorous activity n=96",
+        "Mean number of daily activity minutes (ActiGraph): no to very low (counts of 0-99/min)",
+        "Mean number of daily activity minutes (ActiGraph): light (counts of 100-2,019/min)",
+        "Mean number of daily activity minutes (ActiGraph): moderate-to-vigorous (counts of >2,020/min)",
+        "Mean number of daily bouts (ActiGraph): bouts of moderate-to-vigorous activity",
+        "6-minute walk",
+        "Short Physical Performance Battery: total",
+        "Short Physical Performance Battery: repeated chair stands",
+        "Short Physical Performance Battery: 4-meter usual walk",
+        "Short Physical Performance Battery: standing balance",
+        "Chair sit-and-reach",
+        "8-foot up-and-go",
+        "Western Ontario and McMaster Universities Osteoarthritis Index: Function",
+        "Western Ontario and McMaster Universities Osteoarthritis Index: Stiffness",
+        "Short Form-36v2 Health Survey: Bodily Pain",
+        "Short Form-36v2 Health Survey: Mental Component Score",
+        "Self-efficacy: Exercise",
+        "Self-efficacy: Exercise Barriers",
+        "Self-efficacy: Arthritis Pain",
+        "Self-efficacy: Arthritis Function",
+        "Self-efficacy: Arthritis Other Symptoms",
+        "Perceived Therapeutic Efficacy - Exercise & Arthritis",
+        "Perceived Therapeutic Efficacy - Exercise & Hypertension"
+      ],
+      "remaining_candidate_features": [
+        "living situation",
+        "medication use",
+        "physical activity level at baseline"
+      ]
+    }
+  }
+}

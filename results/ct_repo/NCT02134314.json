@@ -1,0 +1,215 @@
+{
+  "trial_id": "NCT02134314",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Race, Donor Age, Cold Ischemia Time, Donor Cause of Death, Pretransplant Meningococcal Vaccination Status, Serum Creatinine Levels, History of Thrombosis, Coagulation Function (INR, PTT, Platelet Count), PCR Status for Hep B/Hep C/HIV, Type of Kidney Transplant (ECD/DCD/ECD&DCD), ABO Compatibility with Donor Allograft.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race"
+        ],
+        [
+          "Donor Age",
+          "Donor Age"
+        ],
+        [
+          "Transplant Cold Ischemia Time",
+          "Cold Ischemia Time"
+        ],
+        [
+          "Donor DCD Cause of Death",
+          "Donor Cause of Death"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Diabetes",
+        "Donor Creatinine",
+        "Donor KDPI",
+        "Donor KDPI equal to or greater than 85%",
+        "Anti-HLA DSA",
+        "HLA Class I Antibodies Present",
+        "HLA Class II Antibodies Present",
+        "Treatment with Thymoglobulin at transplantation",
+        "Treatment with Alemtuzumab at transplantation"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Pretransplant Meningococcal Vaccination Status",
+        "Serum Creatinine Levels",
+        "History of Thrombosis",
+        "Coagulation Function (INR, PTT, Platelet Count)",
+        "PCR Status for Hep B/Hep C/HIV",
+        "Type of Kidney Transplant (ECD/DCD/ECD&DCD)",
+        "ABO Compatibility with Donor Allograft."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Donor Age, Cold Ischemia Time, Recipient Race, Donor Cause of Death, Pretransplant Meningococcal Vaccination Status, Baseline Serum Creatinine, Baseline Coagulation Function (INR, PTT, Platelet Count),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Donor Age",
+          "Donor Age"
+        ],
+        [
+          "Transplant Cold Ischemia Time",
+          "Cold Ischemia Time"
+        ],
+        [
+          "Donor DCD Cause of Death",
+          "Donor Cause of Death"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diabetes",
+        "Donor Creatinine",
+        "Donor KDPI",
+        "Donor KDPI equal to or greater than 85%",
+        "Anti-HLA DSA",
+        "HLA Class I Antibodies Present",
+        "HLA Class II Antibodies Present",
+        "Treatment with Thymoglobulin at transplantation",
+        "Treatment with Alemtuzumab at transplantation"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Recipient Race",
+        "Pretransplant Meningococcal Vaccination Status",
+        "Baseline Serum Creatinine",
+        "Baseline Coagulation Function (INR, PTT, Platelet Count)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Donor Age, Cold Ischemia Time, Recipient Race, Donor Death due to Cerebrovascular Accident, Meningococcal Vaccination Status, End Stage Renal Disease Duration, Previous Transplant History, Comorbidities (e.g., Diabetes, Hypertension).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Donor Age",
+          "Donor Age"
+        ],
+        [
+          "Transplant Cold Ischemia Time",
+          "Cold Ischemia Time"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diabetes",
+        "Donor Creatinine",
+        "Donor DCD Cause of Death",
+        "Donor KDPI",
+        "Donor KDPI equal to or greater than 85%",
+        "Anti-HLA DSA",
+        "HLA Class I Antibodies Present",
+        "HLA Class II Antibodies Present",
+        "Treatment with Thymoglobulin at transplantation",
+        "Treatment with Alemtuzumab at transplantation"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Recipient Race",
+        "Donor Death due to Cerebrovascular Accident",
+        "Meningococcal Vaccination Status",
+        "End Stage Renal Disease Duration",
+        "Previous Transplant History",
+        "Comorbidities (e.g., Diabetes, Hypertension)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, weight, height, BMI, medical history (e.g. hypertension, diabetes), smoking status, pre-transplant serum creatinine, pre-transplant dialysis status, donor age, donor type (ECD/DCD), cold ischemia time, recipient-donor ABO compatibility, pre-transplant meningococcal vaccination status, risk index score for DGF.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Donor Age",
+          "donor age"
+        ],
+        [
+          "Transplant Cold Ischemia Time",
+          "cold ischemia time"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Diabetes",
+        "Donor Creatinine",
+        "Donor DCD Cause of Death",
+        "Donor KDPI",
+        "Donor KDPI equal to or greater than 85%",
+        "Anti-HLA DSA",
+        "HLA Class I Antibodies Present",
+        "HLA Class II Antibodies Present",
+        "Treatment with Thymoglobulin at transplantation",
+        "Treatment with Alemtuzumab at transplantation"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "BMI",
+        "medical history (e.g. hypertension, diabetes)",
+        "smoking status",
+        "pre-transplant serum creatinine",
+        "pre-transplant dialysis status",
+        "donor type (ECD/DCD)",
+        "recipient-donor ABO compatibility",
+        "pre-transplant meningococcal vaccination status",
+        "risk index score for DGF."
+      ]
+    }
+  }
+}

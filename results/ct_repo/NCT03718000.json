@@ -1,0 +1,216 @@
+{
+  "trial_id": "NCT03718000",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, baseline body weight, holiday recognition/celebration, access to WiFi, history of eating disorders, involvement in weight loss/exercise programs, pregnancy/nursing status, medication use, chronic diseases affecting metabolism or body weight.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "baseline body weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Height",
+        "Total Body Fat Percentage",
+        "Waist Circumference",
+        "Hip Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglyceride",
+        "HDL-Cholesterol",
+        "LDL-Cholesterol"
+      ],
+      "remaining_candidate_features": [
+        "holiday recognition/celebration",
+        "access to WiFi",
+        "history of eating disorders",
+        "involvement in weight loss/exercise programs",
+        "pregnancy/nursing status",
+        "medication use",
+        "chronic diseases affecting metabolism or body weight."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline Body Weight, Baseline Body Fat Percentage, Holiday Celebrations, Access to WiFi,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Weight",
+          "Baseline Body Weight"
+        ],
+        [
+          "Total Body Fat Percentage",
+          "Baseline Body Fat Percentage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Height",
+        "Waist Circumference",
+        "Hip Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglyceride",
+        "HDL-Cholesterol",
+        "LDL-Cholesterol"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Holiday Celebrations",
+        "Access to WiFi"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Weight, Height, Waist Circumference, Hip Circumference, Body Fat Percentage, Holiday Celebrations,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Height",
+          "Height"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "Total Body Fat Percentage",
+          "Body Fat Percentage"
+        ],
+        [
+          "Waist Circumference",
+          "Waist Circumference"
+        ],
+        [
+          "Hip Circumference",
+          "Hip Circumference"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglyceride",
+        "HDL-Cholesterol",
+        "LDL-Cholesterol"
+      ],
+      "remaining_candidate_features": [
+        "Holiday Celebrations"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, body fat percentage, ethnicity, education level, occupation, marital status, number of holidays recognized or celebrated, WiFi access, history of eating disorders, presence of chronic diseases affecting metabolism or body weight, use of medications affecting metabolism or body weight, current weight loss and/or exercise program participation, pregnancy or nursing status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "Total Body Fat Percentage",
+          "body fat percentage"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Waist Circumference",
+        "Hip Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglyceride",
+        "HDL-Cholesterol",
+        "LDL-Cholesterol"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "education level",
+        "occupation",
+        "marital status",
+        "number of holidays recognized or celebrated",
+        "WiFi access",
+        "history of eating disorders",
+        "presence of chronic diseases affecting metabolism or body weight",
+        "use of medications affecting metabolism or body weight",
+        "current weight loss and/or exercise program participation",
+        "pregnancy or nursing status"
+      ]
+    }
+  }
+}

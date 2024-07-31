@@ -1,0 +1,171 @@
+{
+  "trial_id": "NCT00967668",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline weight, BMI, medical center location (Ann Arbor or Cleveland), baseline physical activity level, baseline dietary habits, comorbid conditions, smoking status, medication use, baseline MOVE! program participation status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Health-related disability",
+          "comorbid conditions"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Education",
+        "years",
+        "Income less than $20k",
+        "Charlson Index",
+        "Depression",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "baseline weight",
+        "BMI",
+        "medical center location (Ann Arbor or Cleveland)",
+        "baseline physical activity level",
+        "baseline dietary habits",
+        "smoking status",
+        "medication use",
+        "baseline MOVE! program participation status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Baseline weight, Physical activity level, Dietary habits,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Education",
+        "years",
+        "Income less than $20k",
+        "Health-related disability",
+        "Charlson Index",
+        "Depression",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Baseline weight",
+        "Physical activity level",
+        "Dietary habits"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Self-reported physical activity, Self-reported diet quality,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Education",
+        "years",
+        "Income less than $20k",
+        "Health-related disability",
+        "Charlson Index",
+        "Depression",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Self-reported physical activity",
+        "Self-reported diet quality"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), weight, height, waist circumference, medical center location, MOVE! program eligibility, ability to walk 10 minutes continuously, comorbidities, current medications, smoking status, education level, employment status, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Education",
+          "education level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "years",
+        "Income less than $20k",
+        "Health-related disability",
+        "Charlson Index",
+        "Depression",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "weight",
+        "height",
+        "waist circumference",
+        "medical center location",
+        "MOVE! program eligibility",
+        "comorbidities",
+        "current medications",
+        "smoking status",
+        "employment status",
+        "marital status."
+      ]
+    }
+  }
+}

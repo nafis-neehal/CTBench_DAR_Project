@@ -1,0 +1,168 @@
+{
+  "trial_id": "NCT02111980",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, medical history, type of cardiac implantable electronic device (CIED), duration of CIED implantation, reason for CIED removal or replacement, baseline pacing mode, baseline pacing polarity, baseline base rate, baseline max tracking rate, baseline atrio-ventricular (AV) delay, baseline battery capacity, baseline pacing impedance, baseline shock impedance, baseline P wave measurement, baseline R wave measurement, baseline capture threshold.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Body Mass Index (BMI)",
+        "History of Coronary Artery Disease (CAD)",
+        "History of Atrial Fibrillation (AF)",
+        "History of Diabetes Mellitus (DM)",
+        "History of Hypertension (HTN)",
+        "Measured Ejection Fraction (EF) (%)"
+      ],
+      "remaining_candidate_features": [
+        "medical history",
+        "type of cardiac implantable electronic device (CIED)",
+        "duration of CIED implantation",
+        "reason for CIED removal or replacement",
+        "baseline pacing mode",
+        "baseline pacing polarity",
+        "baseline base rate",
+        "baseline max tracking rate",
+        "baseline atrio-ventricular (AV) delay",
+        "baseline battery capacity",
+        "baseline pacing impedance",
+        "baseline shock impedance",
+        "baseline P wave measurement",
+        "baseline R wave measurement",
+        "baseline capture threshold"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Cardiac Implantable Electronic Device (CIED), Reason for CIED Removal, Duration of CIED Implantation, Baseline Pacing Mode, Baseline Pacing Polarity, Baseline Base Rate, Baseline Max Tracking Rate, Baseline Atrio-ventricular (AV) Delay, Baseline Battery Capacity, Baseline Pacing Impedance, Baseline Shock Impedance, Baseline P & R Wave Measurements, Baseline Capture Threshold,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Mass Index (BMI)",
+        "History of Coronary Artery Disease (CAD)",
+        "History of Atrial Fibrillation (AF)",
+        "History of Diabetes Mellitus (DM)",
+        "History of Hypertension (HTN)",
+        "Measured Ejection Fraction (EF) (%)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Type of Cardiac Implantable Electronic Device (CIED)",
+        "Reason for CIED Removal",
+        "Duration of CIED Implantation",
+        "Baseline Pacing Mode",
+        "Baseline Pacing Polarity",
+        "Baseline Base Rate",
+        "Baseline Max Tracking Rate",
+        "Baseline Atrio-ventricular (AV) Delay",
+        "Baseline Battery Capacity",
+        "Baseline Pacing Impedance",
+        "Baseline Shock Impedance",
+        "Baseline P & R Wave Measurements",
+        "Baseline Capture Threshold"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Cardiac Implantable Electronic Device (CIED), Indication for CIED removal or replacement, CIED settings at baseline,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Mass Index (BMI)",
+        "History of Coronary Artery Disease (CAD)",
+        "History of Atrial Fibrillation (AF)",
+        "History of Diabetes Mellitus (DM)",
+        "History of Hypertension (HTN)",
+        "Measured Ejection Fraction (EF) (%)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Type of Cardiac Implantable Electronic Device (CIED)",
+        "Indication for CIED removal or replacement",
+        "CIED settings at baseline"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, body mass index (BMI), medical history (cardiomyopathy, cardiac arrhythmia, heart failure, chronic thromboembolic pulmonary hypertension), type of pacemaker/ICD (permanent/temporary), indication for pacemaker/ICD removal or replacement, presence of comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "History of Coronary Artery Disease (CAD)",
+          "medical history (cardiomyopathy, cardiac arrhythmia, heart failure, chronic thromboembolic pulmonary hypertension)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "History of Atrial Fibrillation (AF)",
+        "History of Diabetes Mellitus (DM)",
+        "History of Hypertension (HTN)",
+        "Measured Ejection Fraction (EF) (%)"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "type of pacemaker/ICD (permanent/temporary)",
+        "indication for pacemaker/ICD removal or replacement",
+        "presence of comorbidities."
+      ]
+    }
+  }
+}

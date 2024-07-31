@@ -1,0 +1,175 @@
+{
+  "trial_id": "NCT02572882",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of hemodialysis, stool frequency, use of birth control (for women of childbearing potential), baseline microbiome composition, baseline stool metabolome, baseline plasma metabolome, hemoglobin levels, presence of chronic conditions (e.g., HIV, inflammatory bowel disease, cirrhosis), use of prebiotics/probiotics, antibiotic use, expected survival, pregnancy status, incarceration status, participation in other studies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "Duration of dialysis",
+          "duration of hemodialysis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Hypertension",
+        "Diabetes mellitus"
+      ],
+      "remaining_candidate_features": [
+        "stool frequency",
+        "use of birth control (for women of childbearing potential)",
+        "baseline microbiome composition",
+        "baseline stool metabolome",
+        "baseline plasma metabolome",
+        "hemoglobin levels",
+        "presence of chronic conditions (e.g., HIV, inflammatory bowel disease, cirrhosis)",
+        "use of prebiotics/probiotics",
+        "antibiotic use",
+        "expected survival",
+        "pregnancy status",
+        "incarceration status",
+        "participation in other studies."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Duration of hemodialysis, Stool frequency, Hemoglobin level, Use of prebiotics or probiotics, Use of antibiotics, Presence of chronic infections, Presence of gastrointestinal conditions, Liver function status, Anticipated kidney transplantation, Pregnancy status, Participation in other studies, Incarceration status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Duration of dialysis",
+          "Duration of hemodialysis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Hypertension",
+        "Diabetes mellitus"
+      ],
+      "remaining_candidate_features": [
+        "Stool frequency",
+        "Hemoglobin level",
+        "Use of prebiotics or probiotics",
+        "Use of antibiotics",
+        "Presence of chronic infections",
+        "Presence of gastrointestinal conditions",
+        "Liver function status",
+        "Anticipated kidney transplantation",
+        "Pregnancy status",
+        "Participation in other studies",
+        "Incarceration status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnicity, Body Mass Index (BMI), Hemodialysis vintage, Dialysis adequacy (Kt/V), Residual renal function, Comorbidities (diabetes, hypertension, cardiovascular disease), Medications (phosphate binders, vitamin D, erythropoietin), Laboratory values (hemoglobin, albumin, calcium, phosphorus, parathyroid hormone), Stool frequency, Stool consistency.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Ethnicity",
+          "Ethnicity"
+        ],
+        [
+          "Hypertension",
+          "Comorbidities (diabetes, hypertension, cardiovascular disease)"
+        ],
+        [
+          "Diabetes mellitus",
+          "Comorbidities (diabetes, hypertension, cardiovascular disease)"
+        ],
+        [
+          "Duration of dialysis",
+          "Hemodialysis vintage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index (BMI)",
+        "Dialysis adequacy (Kt/V)",
+        "Residual renal function",
+        "Medications (phosphate binders, vitamin D, erythropoietin)",
+        "Laboratory values (hemoglobin, albumin, calcium, phosphorus, parathyroid hormone)",
+        "Stool frequency",
+        "Stool consistency"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, hemoglobin, serum creatinine, urea, potassium, sodium, calcium, phosphate, albumin, dialysis vintage, comorbidities (e.g., diabetes, hypertension), medications (e.g., phosphate binders, vitamin D analogs), stool frequency, stool consistency.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Hypertension",
+          "comorbidities (e.g., diabetes, hypertension)"
+        ],
+        [
+          "Diabetes mellitus",
+          "comorbidities (e.g., diabetes, hypertension)"
+        ],
+        [
+          "Duration of dialysis",
+          "dialysis vintage"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "body mass index",
+        "hemoglobin",
+        "serum creatinine",
+        "urea",
+        "potassium",
+        "sodium",
+        "calcium",
+        "phosphate",
+        "albumin",
+        "medications (e.g., phosphate binders, vitamin D analogs)",
+        "stool frequency",
+        "stool consistency."
+      ]
+    }
+  }
+}

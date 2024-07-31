@@ -1,0 +1,180 @@
+{
+  "trial_id": "NCT02046395",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 2 diabetes, duration of hypertension, baseline estimated glomerular filtration rate (eGFR), baseline urinary microalbumin creatinine ratio, baseline blood pressure, baseline body mass index (BMI), baseline hemoglobin A1c (HbA1c), baseline serum creatinine, baseline lipid profile, baseline medication use (ACE inhibitors, ARBs, other antihypertensives).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "eGFR",
+          "baseline estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Hemoglobin A1c",
+          "baseline hemoglobin A1c (HbA1c)"
+        ],
+        [
+          "Creatinine",
+          "baseline serum creatinine"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 2 diabetes",
+        "duration of hypertension",
+        "baseline urinary microalbumin creatinine ratio",
+        "baseline blood pressure",
+        "baseline body mass index (BMI)",
+        "baseline lipid profile",
+        "baseline medication use (ACE inhibitors, ARBs, other antihypertensives)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Blood Pressure, Estimated Glomerular Filtration Rate (eGFR), Duration of Diabetes, Use of ACE Inhibitors or ARBs, Urine Microalbumin Creatinine Ratio,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "eGFR",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Creatinine",
+        "Hemoglobin A1c"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Blood Pressure",
+        "Duration of Diabetes",
+        "Use of ACE Inhibitors or ARBs",
+        "Urine Microalbumin Creatinine Ratio"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, Hypertension, Estimated glomerular filtration rate (eGFR), Urine microalbumin creatinine ratio, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "eGFR",
+          "Estimated glomerular filtration rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Creatinine",
+        "Hemoglobin A1c"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes duration",
+        "Hypertension",
+        "Urine microalbumin creatinine ratio",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Body Mass Index"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, duration of hypertension, systolic blood pressure, diastolic blood pressure, eGFR, urinary protein, hemoglobin A1c (HbA1c), serum creatinine, history of cardiovascular disease, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Hemoglobin A1c",
+          "hemoglobin A1c (HbA1c)"
+        ],
+        [
+          "Creatinine",
+          "serum creatinine"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "body mass index (BMI)",
+        "duration of diabetes",
+        "duration of hypertension",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "urinary protein",
+        "history of cardiovascular disease",
+        "smoking status."
+      ]
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "trial_id": "NCT02304367",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline serum phosphorus levels, baseline FGF23 levels, baseline renal tubular maximum reabsorption rate of phosphate to glomerular filtration rate (TmP/GFR), baseline estimated glomerular filtration rate (eGFR), baseline corrected serum calcium level, medical history, prior medical records, pregnancy status, use of contraception, history of recurrent infection, history of immunodeficiency, history of allergic reactions, prior use of investigational drugs, prior use of therapeutic monoclonal antibodies, prior use of vitamin D metabolites or analogs, prior use of phosphate or aluminum hydroxide antacids, prior use of medication to suppress parathyroid hormone (PTH), history of malignancy, history of blood donation, history of allergic reactions to specific medications, ability to complete study requirements.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Serum Phosphorus",
+          "baseline serum phosphorus levels"
+        ],
+        [
+          "Serum Total Fibroblast Growth Factor 23 (FGF23)",
+          "baseline FGF23 levels"
+        ],
+        [
+          "Osteoid Volume/Bone Volume (OB/BV)",
+          "Osteoid Volume/Bone Volume (OV/BV)"
+        ],
+        [
+          "Osteoid Surface/Bone Surface (OS/BS)",
+          "Osteoid Surface/Bone Surface (OS/BS)"
+        ],
+        [
+          "Osteoid Thickness (O.Th)",
+          "Osteoid Thickness (O.Th)"
+        ],
+        [
+          "Mineralization Lag Time (Mlt)",
+          "Mineralization Lag Time (MLt)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "baseline renal tubular maximum reabsorption rate of phosphate to glomerular filtration rate (TmP/GFR)",
+        "baseline estimated glomerular filtration rate (eGFR)",
+        "baseline corrected serum calcium level",
+        "medical history",
+        "prior medical records",
+        "pregnancy status",
+        "use of contraception",
+        "history of recurrent infection",
+        "history of immunodeficiency",
+        "history of allergic reactions",
+        "prior use of investigational drugs",
+        "prior use of therapeutic monoclonal antibodies",
+        "prior use of vitamin D metabolites or analogs",
+        "prior use of phosphate or aluminum hydroxide antacids",
+        "prior use of medication to suppress parathyroid hormone (PTH)",
+        "history of malignancy",
+        "history of blood donation",
+        "history of allergic reactions to specific medications",
+        "ability to complete study requirements"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline serum phosphorus levels, Baseline FGF23 levels, Baseline TmP/GFR ratio, Baseline eGFR, Corrected serum calcium levels, Duration of TIO/ENS diagnosis, Prior surgical history for tumor/lesion excision,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Serum Total Fibroblast Growth Factor 23 (FGF23)",
+          "Baseline FGF23 levels"
+        ],
+        [
+          "Serum Phosphorus",
+          "Baseline serum phosphorus levels"
+        ],
+        [
+          "Osteoid Volume/Bone Volume (OB/BV)",
+          "Osteoid Volume/Bone Volume (OV/BV)"
+        ],
+        [
+          "Osteoid Surface/Bone Surface (OS/BS)",
+          "Osteoid Surface/Bone Surface (OS/BS)"
+        ],
+        [
+          "Osteoid Thickness (O.Th)",
+          "Osteoid Thickness (O.Th)"
+        ],
+        [
+          "Mineralization Lag Time (Mlt)",
+          "Mineralization Lag Time (MLt)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Baseline TmP/GFR ratio",
+        "Baseline eGFR",
+        "Corrected serum calcium levels",
+        "Duration of TIO/ENS diagnosis",
+        "Prior surgical history for tumor/lesion excision"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, FGF23 level, Serum phosphorus level, eGFR, Corrected serum calcium level, TmP/GFR ratio, Osteoid thickness, Osteoid surface/bone surface, Osteoid volume/bone volume, Mineralization lag time.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Diagnosis",
+          "Region of Enrollment"
+        ],
+        [
+          "Serum Total Fibroblast Growth Factor 23 (FGF23)",
+          "FGF23 level"
+        ],
+        [
+          "Serum Phosphorus",
+          "Serum phosphorus level"
+        ],
+        [
+          "Osteoid Volume/Bone Volume (OB/BV)",
+          "Osteoid volume/bone volume"
+        ],
+        [
+          "Osteoid Surface/Bone Surface (OS/BS)",
+          "Osteoid surface/bone surface"
+        ],
+        [
+          "Osteoid Thickness (O.Th)",
+          "Osteoid thickness"
+        ],
+        [
+          "Mineralization Lag Time (Mlt)",
+          "Mineralization lag time"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "eGFR",
+        "Corrected serum calcium level",
+        "TmP/GFR ratio"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), estimated glomerular filtration rate (eGFR), fasting serum phosphorus level, fibroblast growth factor 23 (FGF23) level, ratio of renal tubular maximum reabsorption rate of phosphate to glomerular filtration rate (TmP/GFR), corrected serum calcium level, medical history (including diagnosis of TIO or ENS, presence of phosphaturic mesenchymal tumors, and history of malignancy), concomitant medications, and prior treatments.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Serum Total Fibroblast Growth Factor 23 (FGF23)",
+          "fibroblast growth factor 23 (FGF23) level"
+        ],
+        [
+          "Serum Phosphorus",
+          "fasting serum phosphorus level"
+        ],
+        [
+          "Osteoid Volume/Bone Volume (OB/BV)",
+          "Osteoid Volume/Bone Volume (OV/BV)"
+        ],
+        [
+          "Osteoid Surface/Bone Surface (OS/BS)",
+          "Osteoid Surface/Bone Surface (OS/BS)"
+        ],
+        [
+          "Osteoid Thickness (O.Th)",
+          "Osteoid Thickness (O.Th)"
+        ],
+        [
+          "Mineralization Lag Time (Mlt)",
+          "Mineralization Lag Time (MLt)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "estimated glomerular filtration rate (eGFR)",
+        "ratio of renal tubular maximum reabsorption rate of phosphate to glomerular filtration rate (TmP/GFR)",
+        "corrected serum calcium level",
+        "medical history (including diagnosis of TIO or ENS, presence of phosphaturic mesenchymal tumors, and history of malignancy)",
+        "concomitant medications",
+        "prior treatments"
+      ]
+    }
+  }
+}

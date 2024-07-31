@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT00801632",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, body mass index (BMI), primary cause of kidney failure, duration of kidney failure, previous transplant history, HLA matching status, serologic evidence of prior exposure to Epstein-Barr virus (EBV), baseline kidney function, baseline white blood cell count, baseline liver function tests, baseline cardiac function, baseline lung function, baseline immunosuppressant medication use, baseline antibody status against the donor.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Baseline Creatinine Level",
+          "baseline kidney function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "primary cause of kidney failure",
+        "duration of kidney failure",
+        "previous transplant history",
+        "HLA matching status",
+        "serologic evidence of prior exposure to Epstein-Barr virus (EBV)",
+        "baseline white blood cell count",
+        "baseline liver function tests",
+        "baseline cardiac function",
+        "baseline lung function",
+        "baseline immunosuppressant medication use",
+        "baseline antibody status against the donor."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Donor (Living/Cadaveric), HLA Mismatch, Serologic Evidence of EBV, Baseline White Blood Cell Count, Baseline Lung Capacity, Baseline Cardiac Capacity,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Baseline Creatinine Level"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Type of Donor (Living/Cadaveric)",
+        "HLA Mismatch",
+        "Serologic Evidence of EBV",
+        "Baseline White Blood Cell Count",
+        "Baseline Lung Capacity",
+        "Baseline Cardiac Capacity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Blood Type, HLA Antigen Mismatch, Prior Exposure to Epstein-Barr Virus, White Blood Cell Count, HIV-1 Status, Hepatitis B and C Status, Lung Capacity, Cardiac Capacity, Pregnancy Status, Lactation Status, Presence of Antibody Against the Donor.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Baseline Creatinine Level"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Blood Type",
+        "HLA Antigen Mismatch",
+        "Prior Exposure to Epstein-Barr Virus",
+        "White Blood Cell Count",
+        "HIV-1 Status",
+        "Hepatitis B and C Status",
+        "Lung Capacity",
+        "Cardiac Capacity",
+        "Pregnancy Status",
+        "Lactation Status",
+        "Presence of Antibody Against the Donor"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), serum creatinine, estimated glomerular filtration rate (eGFR), HLA antigen mismatch, Epstein-Barr virus (EBV) serostatus, ABO blood group, white blood cell count, HIV-1 status, hepatitis B and C virus status, lung capacity, cardiac capacity, history of radiation therapy, history of pregnancy or lactation, presence of antibody against the donor.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Baseline Creatinine Level",
+          "serum creatinine"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "estimated glomerular filtration rate (eGFR)",
+        "HLA antigen mismatch",
+        "Epstein-Barr virus (EBV) serostatus",
+        "ABO blood group",
+        "white blood cell count",
+        "HIV-1 status",
+        "hepatitis B and C virus status",
+        "lung capacity",
+        "cardiac capacity",
+        "history of radiation therapy",
+        "history of pregnancy or lactation",
+        "presence of antibody against the donor."
+      ]
+    }
+  }
+}

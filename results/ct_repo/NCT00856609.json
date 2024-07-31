@@ -1,0 +1,289 @@
+{
+  "trial_id": "NCT00856609",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, blood pressure, fasting triglyceride level, liver function (transaminases), renal function (creatinine clearance), smoking status, alcohol consumption, contraceptive use (for females), history of chronic diseases (e.g., cardiovascular disease, endocrine disorders), medication use, previous exposure to exenatide, history of eating disorders, history of obesity treatment (surgery or medication), physical activity level, dietary habits, psychological status (e.g., depression, psychosis).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Body weight",
+          "weight"
+        ],
+        [
+          "Fasting glucose",
+          "fasting triglyceride level"
+        ],
+        [
+          "Liver function abnormalities (transaminases greater than twice normal)",
+          "liver function (transaminases)"
+        ],
+        [
+          "Renal insufficiency (creatinine clearance < 50 ml/min)",
+          "renal function (creatinine clearance)"
+        ],
+        [
+          "Current use of tobacco products",
+          "smoking status"
+        ],
+        [
+          "Chronic ethanol use (> 3 drinks /day)",
+          "alcohol consumption"
+        ],
+        [
+          "For females, use of a medically approved form of contraception",
+          "contraceptive use (for females)"
+        ],
+        [
+          "History of chronic infection including tuberculosis, coccidiomycoses, lyme disease or HIV infection",
+          "history of chronic diseases (e.g., cardiovascular disease, endocrine disorders)"
+        ],
+        [
+          "Use of other medications to treat obesity including medications obtained over the counter or internet",
+          "medication use"
+        ],
+        [
+          "Previous exposure to exenatide",
+          "previous exposure to exenatide"
+        ],
+        [
+          "History of an eating disorder including anorexia or bulimia",
+          "history of eating disorders"
+        ],
+        [
+          "History of surgery for the treatment of obesity (gastric banding, gastric bypass)",
+          "history of obesity treatment (surgery or medication)"
+        ],
+        [
+          "Spontaneous physical activity",
+          "physical activity level"
+        ],
+        [
+          "Mean energy intake",
+          "dietary habits"
+        ],
+        [
+          "Current clinical depression, diagnosis of psychosis or recent use of psychotropic medication",
+          "psychological status (e.g., depression, psychosis)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Fat free mass",
+        "Fat mass",
+        "Body fat",
+        "Two-hour glucose",
+        "Percentage of calories needed for weight maintenance participants consumed",
+        "Carbohydrates intake",
+        "Fat intake",
+        "Protein intake",
+        "Soda intake",
+        "24 hour energy expenditure",
+        "Respiratory quotient",
+        "Carbohydrate oxidation",
+        "Lipid Oxidation",
+        "Sleeping metabolic rate",
+        "Awake fed thermogenesis"
+      ],
+      "remaining_candidate_features": [
+        "height"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline Weight, Baseline Energy Intake, Baseline Energy Expenditure, Blood Pressure, Fasting Triglycerides, Liver Function Tests, Renal Function Tests, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Body weight",
+          "Baseline Weight"
+        ],
+        [
+          "Fasting triglyceride level greater than or equal to 500",
+          "Fasting Triglycerides"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Fat free mass",
+        "Fat mass",
+        "Body fat",
+        "Fasting glucose",
+        "Two-hour glucose",
+        "Mean energy intake",
+        "Percentage of calories needed for weight maintenance participants consumed",
+        "Carbohydrates intake",
+        "Fat intake",
+        "Protein intake",
+        "Soda intake",
+        "24 hour energy expenditure",
+        "Respiratory quotient",
+        "Carbohydrate oxidation",
+        "Lipid Oxidation",
+        "Sleeping metabolic rate",
+        "Awake fed thermogenesis",
+        "Spontaneous physical activity"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Energy Intake",
+        "Baseline Energy Expenditure",
+        "Blood Pressure",
+        "Liver Function Tests",
+        "Renal Function Tests"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin, HbA1c, Lipid Profile, Hunger and Fullness Hormones.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting glucose",
+          "Fasting Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body weight",
+        "Fat free mass",
+        "Fat mass",
+        "Body fat",
+        "Two-hour glucose",
+        "Mean energy intake",
+        "Percentage of calories needed for weight maintenance participants consumed",
+        "Carbohydrates intake",
+        "Fat intake",
+        "Protein intake",
+        "Soda intake",
+        "24 hour energy expenditure",
+        "Respiratory quotient",
+        "Carbohydrate oxidation",
+        "Lipid Oxidation",
+        "Sleeping metabolic rate",
+        "Awake fed thermogenesis",
+        "Spontaneous physical activity"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Insulin",
+        "HbA1c",
+        "Lipid Profile",
+        "Hunger and Fullness Hormones."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, race, ethnicity, smoking status, medical history (diabetes, hypertension, cardiovascular disease, etc.), medication use, dietary habits, physical activity level, menopausal status, contraceptive use, education level, occupation, income level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body weight",
+          "weight"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Fat free mass",
+        "Fat mass",
+        "Body fat",
+        "Fasting glucose",
+        "Two-hour glucose",
+        "Mean energy intake",
+        "Percentage of calories needed for weight maintenance participants consumed",
+        "Carbohydrates intake",
+        "Fat intake",
+        "Protein intake",
+        "Soda intake",
+        "24 hour energy expenditure",
+        "Respiratory quotient",
+        "Carbohydrate oxidation",
+        "Lipid Oxidation",
+        "Sleeping metabolic rate",
+        "Awake fed thermogenesis",
+        "Spontaneous physical activity"
+      ],
+      "remaining_candidate_features": [
+        "height",
+        "ethnicity",
+        "smoking status",
+        "medical history (diabetes, hypertension, cardiovascular disease, etc.)",
+        "medication use",
+        "dietary habits",
+        "physical activity level",
+        "menopausal status",
+        "contraceptive use",
+        "education level",
+        "occupation",
+        "income level"
+      ]
+    }
+  }
+}

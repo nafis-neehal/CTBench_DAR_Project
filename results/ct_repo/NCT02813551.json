@@ -1,0 +1,209 @@
+{
+  "trial_id": "NCT02813551",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age at delivery, blood pressure at baseline, body mass index (BMI), race/ethnicity, parity, type of preeclampsia (with or without severe features, superimposed on chronic hypertension), baseline serum potassium levels, baseline urine output, history of chronic hypertension, history of gestational hypertension, history of heart failure or pulmonary edema, hypersensitivity to Torsemide or sulfonylureas, preexisting diuretic use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI) at delivery",
+          "body mass index (BMI)"
+        ],
+        [
+          "Chronic Hypertension",
+          "history of chronic hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Married",
+        "Nulliparous",
+        "Smoker",
+        "Use of illicit drugs",
+        "Use of Cocaine",
+        "Prenatal care",
+        "Form of Payment",
+        "Pregestational Diabetes",
+        "Gestational Diabetes",
+        "Asthma"
+      ],
+      "remaining_candidate_features": [
+        "gestational age at delivery",
+        "blood pressure at baseline",
+        "parity",
+        "type of preeclampsia (with or without severe features, superimposed on chronic hypertension)",
+        "baseline serum potassium levels",
+        "baseline urine output",
+        "history of gestational hypertension",
+        "history of heart failure or pulmonary edema",
+        "hypersensitivity to Torsemide or sulfonylureas",
+        "preexisting diuretic use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Type of Preeclampsia, Baseline Blood Pressure, Urine Output, Serum Potassium, Preexisting Diuretic Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Chronic Hypertension",
+          "Type of Preeclampsia"
+        ],
+        [
+          "Urine Output",
+          "Urine Output"
+        ],
+        [
+          "Serum Potassium",
+          "Serum Potassium"
+        ],
+        [
+          "Preexisting Diuretic Use",
+          "Preexisting Diuretic Use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Body Mass Index (BMI) at delivery",
+        "Married",
+        "Nulliparous",
+        "Smoker",
+        "Use of illicit drugs",
+        "Use of Cocaine",
+        "Prenatal care",
+        "Form of Payment",
+        "Pregestational Diabetes",
+        "Gestational Diabetes",
+        "Asthma"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gestational Age at Delivery, Parity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Proteinuria, Serum Creatinine, Serum Potassium, Urine Output.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI) at delivery",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Married",
+        "Nulliparous",
+        "Smoker",
+        "Use of illicit drugs",
+        "Use of Cocaine",
+        "Prenatal care",
+        "Form of Payment",
+        "Pregestational Diabetes",
+        "Gestational Diabetes",
+        "Chronic Hypertension",
+        "Asthma"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age at Delivery",
+        "Parity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Proteinuria",
+        "Serum Creatinine",
+        "Serum Potassium",
+        "Urine Output"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, body mass index, parity, gestational age at delivery, severity of preeclampsia, presence of chronic hypertension, presence of diabetes, smoking status, baseline systolic and diastolic blood pressure, baseline serum creatinine, baseline serum potassium, urine output at randomization.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI) at delivery",
+          "body mass index"
+        ],
+        [
+          "Nulliparous",
+          "parity"
+        ],
+        [
+          "Chronic Hypertension",
+          "presence of chronic hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Married",
+        "Smoker",
+        "Use of illicit drugs",
+        "Use of Cocaine",
+        "Prenatal care",
+        "Form of Payment",
+        "Pregestational Diabetes",
+        "Gestational Diabetes",
+        "Asthma"
+      ],
+      "remaining_candidate_features": [
+        "gestational age at delivery",
+        "severity of preeclampsia",
+        "presence of diabetes",
+        "smoking status",
+        "baseline systolic and diastolic blood pressure",
+        "baseline serum creatinine",
+        "baseline serum potassium",
+        "urine output at randomization."
+      ]
+    }
+  }
+}

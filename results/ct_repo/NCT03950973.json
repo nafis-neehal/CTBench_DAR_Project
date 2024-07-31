@@ -1,0 +1,163 @@
+{
+  "trial_id": "NCT03950973",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type of diabetes (type 1 or type 2), baseline HbA1c level, access to a telephone, participation in other diabetes intervention studies, cognitive impairment status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "gender"
+        ],
+        [
+          "Type of diabetes",
+          "type of diabetes (type 1 or type 2)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Income as percent of poverty level",
+        "Number of chronic conditions",
+        "Health Insurance Type"
+      ],
+      "remaining_candidate_features": [
+        "baseline HbA1c level",
+        "access to a telephone",
+        "participation in other diabetes intervention studies",
+        "cognitive impairment status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Type of Diabetes (Type 1 or Type 2), Duration of Diabetes, Use of Anti-hyperglycemic Medication, Access to Telephone,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Type of diabetes",
+          "Type of Diabetes (Type 1 or Type 2)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Income as percent of poverty level",
+        "Number of chronic conditions",
+        "Health Insurance Type"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Baseline HbA1c",
+        "Duration of Diabetes",
+        "Use of Anti-hyperglycemic Medication",
+        "Access to Telephone"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Type, Diabetes Duration, HbA1c, Anti-hyperglycemic Medication, Financial Burden, Unmet Social Risk Factors,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Type of diabetes",
+          "Diabetes Type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Income as percent of poverty level",
+        "Number of chronic conditions",
+        "Health Insurance Type"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Diabetes Duration",
+        "HbA1c",
+        "Anti-hyperglycemic Medication",
+        "Financial Burden",
+        "Unmet Social Risk Factors"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, diabetes type (type 1 or type 2), duration of diabetes, prescribed anti-hyperglycemic medication, most recent HbA1c level, body mass index (BMI), smoking status, education level, income level, health insurance status, access to healthcare services, cognitive function, prior diabetes self-care activities, prior resource utilization.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Type of diabetes",
+          "diabetes type (type 1 or type 2)"
+        ],
+        [
+          "Income as percent of poverty level",
+          "income level"
+        ],
+        [
+          "Health Insurance Type",
+          "health insurance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Number of chronic conditions"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "duration of diabetes",
+        "prescribed anti-hyperglycemic medication",
+        "most recent HbA1c level",
+        "body mass index (BMI)",
+        "smoking status",
+        "education level",
+        "access to healthcare services",
+        "cognitive function",
+        "prior diabetes self-care activities",
+        "prior resource utilization"
+      ]
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "trial_id": "NCT03163992",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ECOG performance status, Child-Pugh score, Barcelona Clinic Liver Cancer (BCLC) stage, prior sorafenib treatment duration, presence of esophageal or gastric varices, prior locoregional therapy, baseline liver function tests (ALT, AST, bilirubin), baseline renal function tests (creatinine), baseline hematologic parameters (hemoglobin, platelets, white blood cell count), PD-L1 expression status, baseline tumor size and number, presence of extrahepatic spread, presence of vascular invasion.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Child-Pugh score",
+          "Child-Pugh score"
+        ],
+        [
+          "Barcelona Clinic Liver Cancer (BCLC) stage",
+          "Barcelona Clinic Liver Cancer (BCLC) stage"
+        ],
+        [
+          "prior sorafenib treatment duration",
+          "prior sorafenib treatment duration"
+        ],
+        [
+          "presence of esophageal or gastric varices",
+          "presence of esophageal or gastric varices"
+        ],
+        [
+          "prior locoregional therapy",
+          "prior locoregional therapy"
+        ],
+        [
+          "baseline liver function tests (ALT, AST, bilirubin)",
+          "baseline liver function tests (ALT, AST, bilirubin)"
+        ],
+        [
+          "baseline renal function tests (creatinine)",
+          "baseline renal function tests (creatinine)"
+        ],
+        [
+          "baseline hematologic parameters (hemoglobin, platelets, white blood cell count)",
+          "baseline hematologic parameters (hemoglobin, platelets, white blood cell count)"
+        ],
+        [
+          "PD-L1 expression status",
+          "PD-L1 expression status"
+        ],
+        [
+          "baseline tumor size and number",
+          "baseline tumor size and number"
+        ],
+        [
+          "presence of extrahepatic spread",
+          "presence of extrahepatic spread"
+        ],
+        [
+          "presence of vascular invasion",
+          "presence of vascular invasion"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Child-Pugh class, Barcelona Clinic Liver Cancer (BCLC) stage, Previous sorafenib treatment duration, Measurable disease per RECIST 1.1, Baseline liver function tests (e.g., ALT, AST, bilirubin), Baseline alpha-fetoprotein (AFP) levels, Baseline performance status (e.g., ECOG),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Child-Pugh class",
+        "Barcelona Clinic Liver Cancer (BCLC) stage",
+        "Previous sorafenib treatment duration",
+        "Measurable disease per RECIST 1.1",
+        "Baseline liver function tests (e.g., ALT, AST, bilirubin)",
+        "Baseline alpha-fetoprotein (AFP) levels",
+        "Baseline performance status (e.g., ECOG)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Child-Pugh Class, BCLC Stage, Prior Sorafenib Treatment, Alpha-fetoprotein, Hepatitis B or C Status, Liver Function Tests.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG Performance Status",
+        "Child-Pugh Class",
+        "BCLC Stage",
+        "Prior Sorafenib Treatment",
+        "Alpha-fetoprotein",
+        "Hepatitis B or C Status",
+        "Liver Function Tests"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, Child-Pugh class, Barcelona Clinic Liver Cancer (BCLC) stage, histological subtype of HCC, prior sorafenib treatment duration, prior locoregional therapy, presence of metastases, PD-L1 expression status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "Eastern Cooperative Oncology Group (ECOG) performance status",
+        "Child-Pugh class",
+        "Barcelona Clinic Liver Cancer (BCLC) stage",
+        "histological subtype of HCC",
+        "prior sorafenib treatment duration",
+        "prior locoregional therapy",
+        "presence of metastases",
+        "PD-L1 expression status."
+      ]
+    }
+  }
+}

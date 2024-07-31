@@ -1,0 +1,155 @@
+{
+  "trial_id": "NCT03668808",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 1 diabetes, HbA1c level, current basal insulin analogue, frequency of rapid-acting bolus insulin injections, history of severe hypoglycemia, history of diabetic ketoacidosis, willingness to use continuous glucose monitoring, ability to self-manage insulin therapy, ability to adhere to protocol.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Hypoglycemia awareness",
+          "history of severe hypoglycemia"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 1 diabetes",
+        "HbA1c level",
+        "current basal insulin analogue",
+        "frequency of rapid-acting bolus insulin injections",
+        "history of diabetic ketoacidosis",
+        "ability to self-manage insulin therapy",
+        "ability to adhere to protocol."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, Frequency of Severe Hypoglycemia, Use of Continuous Glucose Monitoring,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hypoglycemia awareness",
+          "Frequency of Severe Hypoglycemia"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "Baseline HbA1c",
+        "Daily Insulin Dose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, BMI, Total Daily Insulin Dose, Basal Insulin Dose, Bolus Insulin Dose, History of Severe Hypoglycemia, History of Diabetic Ketoacidosis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hypoglycemia awareness",
+          "History of Severe Hypoglycemia"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Diagnosis Duration",
+        "HbA1c",
+        "BMI",
+        "Total Daily Insulin Dose",
+        "Basal Insulin Dose",
+        "Bolus Insulin Dose",
+        "History of Diabetic Ketoacidosis"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), duration of diabetes, HbA1c, type of basal insulin used prior to study, number of daily insulin injections, average daily insulin dose, history of severe hypoglycemia, history of diabetic ketoacidosis, presence of diabetic complications (retinopathy, nephropathy, neuropathy), smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Hypoglycemia awareness",
+          "history of severe hypoglycemia"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of diabetes",
+        "HbA1c",
+        "type of basal insulin used prior to study",
+        "number of daily insulin injections",
+        "average daily insulin dose",
+        "history of diabetic ketoacidosis",
+        "presence of diabetic complications (retinopathy, nephropathy, neuropathy)",
+        "smoking status"
+      ]
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "trial_id": "NCT01000480",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, ECOG performance status, Histologic subtype, Stage of NSCLC, Prior radiation therapy, Measurable lesion status, Estimated life expectancy, Bone marrow reserve, Hepatic function, Renal function, Pulmonary function, Total lung V20, Contraceptive use, Prior systemic anticancer therapy, Concomitant systemic disorders, Cardiac condition, Prior malignancy history, Weight loss in the past 3 months, Use of NSAIDs, Folic acid or vitamin B12 supplementation, Corticosteroid use, Recent yellow fever vaccination, Hypersensitivity to study drugs, Clinical hearing status, Presence of third-space fluid collections.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Stage of Disease",
+          "Stage of NSCLC"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status (PS)",
+          "ECOG performance status"
+        ],
+        [
+          "Initial pathological diagnosis",
+          "Histologic subtype"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Current Tobacco Use"
+      ],
+      "remaining_candidate_features": [
+        "Prior radiation therapy",
+        "Measurable lesion status",
+        "Estimated life expectancy",
+        "Bone marrow reserve",
+        "Hepatic function",
+        "Renal function",
+        "Pulmonary function",
+        "Total lung V20",
+        "Contraceptive use",
+        "Prior systemic anticancer therapy",
+        "Concomitant systemic disorders",
+        "Cardiac condition",
+        "Prior malignancy history",
+        "Weight loss in the past 3 months",
+        "Use of NSAIDs",
+        "Folic acid or vitamin B12 supplementation",
+        "Corticosteroid use",
+        "Recent yellow fever vaccination",
+        "Hypersensitivity to study drugs",
+        "Clinical hearing status",
+        "Presence of third-space fluid collections"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Smoking history, Histologic subtype, Stage of disease, Measurable lesion status, Bone marrow function, Hepatic function, Renal function, Pulmonary function, Weight loss in the past 3 months, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Stage of Disease",
+          "Stage of disease"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status (PS)",
+          "ECOG performance status"
+        ],
+        [
+          "Initial pathological diagnosis",
+          "Histologic subtype"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Current Tobacco Use"
+      ],
+      "remaining_candidate_features": [
+        "Smoking history",
+        "Measurable lesion status",
+        "Bone marrow function",
+        "Hepatic function",
+        "Renal function",
+        "Pulmonary function",
+        "Weight loss in the past 3 months"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, ECOG Performance Status, Histologic Diagnosis, Stage of Disease, Prior Radiation Therapy, Measurable Lesion, Life Expectancy, Bone Marrow Reserve, Hepatic Function, Renal Function, Pulmonary Function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Stage of Disease",
+          "Stage of Disease"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status (PS)",
+          "ECOG Performance Status"
+        ],
+        [
+          "Initial pathological diagnosis",
+          "Histologic Diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Current Tobacco Use"
+      ],
+      "remaining_candidate_features": [
+        "Prior Radiation Therapy",
+        "Measurable Lesion",
+        "Life Expectancy",
+        "Bone Marrow Reserve",
+        "Hepatic Function",
+        "Renal Function",
+        "Pulmonary Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, histologic diagnosis, stage of disease, number and size of lesions, prior radiation therapy, estimated life expectancy, total lung V20, bone marrow reserve, hepatic function, renal function, pulmonary function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Stage of Disease",
+          "stage of disease"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status (PS)",
+          "ECOG performance status"
+        ],
+        [
+          "Initial pathological diagnosis",
+          "histologic diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Current Tobacco Use"
+      ],
+      "remaining_candidate_features": [
+        "number and size of lesions",
+        "prior radiation therapy",
+        "estimated life expectancy",
+        "total lung V20",
+        "bone marrow reserve",
+        "hepatic function",
+        "renal function",
+        "pulmonary function"
+      ]
+    }
+  }
+}

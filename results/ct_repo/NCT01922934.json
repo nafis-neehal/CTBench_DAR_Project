@@ -1,0 +1,229 @@
+{
+  "trial_id": "NCT01922934",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, ethnicity, type 2 diabetes status, hypertension status, hyperlipidemia status, atherosclerotic cardiovascular disease status, obstructive sleep apnea status, number of primary care visits in the past 12 months, baseline glucose levels, baseline blood pressure, baseline cholesterol levels, medication use for weight-related conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Baseline BMI",
+          "BMI"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Diabetes",
+          "type 2 diabetes status"
+        ],
+        [
+          "hypertension",
+          "hypertension status"
+        ],
+        [
+          "hyperlipidemia",
+          "hyperlipidemia status"
+        ],
+        [
+          "Coronary artery disease",
+          "atherosclerotic cardiovascular disease status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Primary Language",
+        "Hypertension",
+        "Hyperlipidemia"
+      ],
+      "remaining_candidate_features": [
+        "obstructive sleep apnea status",
+        "number of primary care visits in the past 12 months",
+        "baseline glucose levels",
+        "baseline blood pressure",
+        "baseline cholesterol levels",
+        "medication use for weight-related conditions."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Glucose levels, Cholesterol levels, Hypertension status, Hyperlipidemia status, Obstructive sleep apnea status, Weight-related diagnoses, Medication use for weight-related conditions,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Baseline BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Diabetes",
+          "Glucose levels"
+        ],
+        [
+          "Hypertension",
+          "Hypertension status"
+        ],
+        [
+          "Hyperlipidemia",
+          "Hyperlipidemia status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Primary Language",
+        "or hyperlipidemia",
+        "Coronary artery disease"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Cholesterol levels",
+        "Obstructive sleep apnea status",
+        "Weight-related diagnoses",
+        "Medication use for weight-related conditions"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Lipid Profile, Diabetes Status, Hypertension Status, Hyperlipidemia Status, Atherosclerotic Cardiovascular Disease Status, Obstructive Sleep Apnea Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Baseline BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Diabetes",
+          "Diabetes Status"
+        ],
+        [
+          "Hypertension",
+          "Hypertension Status"
+        ],
+        [
+          "Hyperlipidemia",
+          "Hyperlipidemia Status"
+        ],
+        [
+          "Coronary artery disease",
+          "Atherosclerotic Cardiovascular Disease Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Primary Language"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "Lipid Profile",
+        "Obstructive Sleep Apnea Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, weight, height, waist circumference, systolic and diastolic blood pressure, fasting glucose, lipid profile, medical history (diabetes, hypertension, hyperlipidemia, atherosclerotic cardiovascular disease, obstructive sleep apnea), smoking status, medication use (glucose lowering, anti-hypertensive, lipid lowering agents), education level, income level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Baseline BMI",
+          "BMI"
+        ],
+        [
+          "Diabetes",
+          "medical history (diabetes, hypertension, hyperlipidemia, atherosclerotic cardiovascular disease, obstructive sleep apnea)"
+        ],
+        [
+          "hypertension",
+          "medical history (diabetes, hypertension, hyperlipidemia, atherosclerotic cardiovascular disease, obstructive sleep apnea)"
+        ],
+        [
+          "Hyperlipidemia",
+          "medical history (diabetes, hypertension, hyperlipidemia, atherosclerotic cardiovascular disease, obstructive sleep apnea)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Primary Language",
+        "or hyperlipidemia",
+        "Hypertension",
+        "Coronary artery disease"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "waist circumference",
+        "systolic and diastolic blood pressure",
+        "fasting glucose",
+        "lipid profile",
+        "smoking status",
+        "medication use (glucose lowering, anti-hypertensive, lipid lowering agents)",
+        "education level",
+        "income level"
+      ]
+    }
+  }
+}

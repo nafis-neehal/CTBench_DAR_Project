@@ -1,0 +1,149 @@
+{
+  "trial_id": "NCT01846728",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Body Mass Index (BMI), Menstrual Cycle Regularity, Baseline Estrogen Levels, Baseline Brown Adipose Tissue Activity, Blood Pressure, Bone Density (T scores), Thyroid Function, Physical Activity Level",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "fat free mass (from DXA)",
+          "Bone Density (T scores)"
+        ],
+        [
+          "Thyroid Function",
+          "Thyroid Function"
+        ],
+        [
+          "Physical Activity Level",
+          "Physical Activity Level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Fat mass (measured with DXA)"
+      ],
+      "remaining_candidate_features": [
+        "Menstrual Cycle Regularity",
+        "Baseline Estrogen Levels",
+        "Baseline Brown Adipose Tissue Activity",
+        "Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Menstrual Cycle Regularity, Baseline Brown Adipose Tissue Activity, Baseline Energy Expenditure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Fat mass (measured with DXA)",
+        "fat free mass (from DXA)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Menstrual Cycle Regularity",
+        "Baseline Brown Adipose Tissue Activity",
+        "Baseline Energy Expenditure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Body Mass Index, Menstrual Cycle Status, Region of Enrollment, \n\n##Question:\n(No question provided)\n\n##Answer:\n(No answer provided)\n\n##Question:\n(No question provided)\n\n##Answer:\n(No answer provided)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Fat mass (measured with DXA)",
+        "fat free mass (from DXA)"
+      ],
+      "remaining_candidate_features": [
+        "Menstrual Cycle Status",
+        "Region of Enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index, weight, height, body composition, menstrual cycle regularity, parity, smoking status, medical history (including thyroid dysfunction, hypertension, osteopenia, osteoporosis), medication use (including hormonal contraceptive or menopausal therapy), physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index",
+          "body mass index"
+        ],
+        [
+          "Weight",
+          "weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Fat mass (measured with DXA)",
+        "fat free mass (from DXA)"
+      ],
+      "remaining_candidate_features": [
+        "height",
+        "body composition",
+        "menstrual cycle regularity",
+        "parity",
+        "smoking status",
+        "medical history (including thyroid dysfunction, hypertension, osteopenia, osteoporosis)",
+        "medication use (including hormonal contraceptive or menopausal therapy)",
+        "physical activity level."
+      ]
+    }
+  }
+}

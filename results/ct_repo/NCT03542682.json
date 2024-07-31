@@ -1,0 +1,134 @@
+{
+  "trial_id": "NCT03542682",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Duration of Type 1 Diabetes, HbA1c, Weight, Total Daily Insulin Requirement, Gender, Hematocrit, Serum Potassium",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Baseline mean percent Hemoglobin A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Type 1 Diabetes",
+        "Weight",
+        "Total Daily Insulin Requirement",
+        "Gender",
+        "Hematocrit",
+        "Serum Potassium"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Duration of Diabetes, HbA1c, Total Daily Insulin Dose, Weight, Hematocrit, Serum Potassium,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Baseline mean percent Hemoglobin A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "Total Daily Insulin Dose",
+        "Weight",
+        "Hematocrit",
+        "Serum Potassium"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Diabetes duration, HbA1c, Total daily insulin dose, Body weight, BMI, Hypothyroidism status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Baseline mean percent Hemoglobin A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Diabetes duration",
+        "Total daily insulin dose",
+        "Body weight",
+        "BMI",
+        "Hypothyroidism status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, body mass index (BMI), HbA1c, total daily insulin requirement, duration of T1D, duration of CSII therapy, hematocrit, serum potassium.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Baseline mean percent Hemoglobin A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "body mass index (BMI)",
+        "total daily insulin requirement",
+        "duration of T1D",
+        "duration of CSII therapy",
+        "hematocrit",
+        "serum potassium."
+      ]
+    }
+  }
+}

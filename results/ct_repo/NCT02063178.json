@@ -1,0 +1,195 @@
+{
+  "trial_id": "NCT02063178",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Military Rank, Branch of Service, Baseline Weight, Baseline Physical Activity Level, Baseline Dietary Habits, Blood Pressure, Smoking Status, Medical History, Medication Use, Marital Status, Education Level, Ethnicity, Duration of Military Service, Number of Previous Weight Loss Attempts, Baseline Fitness Test Results",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Weight",
+          "Baseline Weight"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Military Rank",
+        "Branch of Service",
+        "Baseline Physical Activity Level",
+        "Baseline Dietary Habits",
+        "Blood Pressure",
+        "Smoking Status",
+        "Medical History",
+        "Medication Use",
+        "Marital Status",
+        "Education Level",
+        "Duration of Military Service",
+        "Number of Previous Weight Loss Attempts",
+        "Baseline Fitness Test Results"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Physical Activity Level, Dietary Intake, Weight, Height, Waist Circumference, Military Rank,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Physical Activity Level",
+        "Dietary Intake",
+        "Height",
+        "Waist Circumference",
+        "Military Rank"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Military Rank, Years of Service, History of Overweight or Obesity, History of Medical Encounters for Overweight or Obesity, Days of Work Lost from Absenteeism, Average Daily Based, Healthcare Costs, History of Diabetes, History of Uncontrolled Hypertension, History of Unstable Psychiatric Condition, History of Significant Kidney or Liver Disease, History of Uncontrolled Thyroid Disease or Pheochromocytoma, History of Malignancy, History of Bariatric Surgery, History of Significant Recent Weight Loss.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Military Rank",
+        "Years of Service",
+        "History of Overweight or Obesity",
+        "History of Medical Encounters for Overweight or Obesity",
+        "Days of Work Lost from Absenteeism",
+        "Average Daily Based",
+        "Healthcare Costs",
+        "History of Diabetes",
+        "History of Uncontrolled Hypertension",
+        "History of Unstable Psychiatric Condition",
+        "History of Significant Kidney or Liver Disease",
+        "History of Uncontrolled Thyroid Disease or Pheochromocytoma",
+        "History of Malignancy",
+        "History of Bariatric Surgery",
+        "History of Significant Recent Weight Loss"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, military rank, years of service, education level, marital status, number of dependents, smoking status, medical history (hypertension, diabetes, etc.), physical activity level, dietary habits, weight loss history, medication use, blood pressure, lipid profile, glucose levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Weight",
+          "weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "military rank",
+        "years of service",
+        "education level",
+        "marital status",
+        "number of dependents",
+        "smoking status",
+        "medical history (hypertension, diabetes, etc.)",
+        "physical activity level",
+        "dietary habits",
+        "weight loss history",
+        "medication use",
+        "blood pressure",
+        "lipid profile",
+        "glucose levels"
+      ]
+    }
+  }
+}

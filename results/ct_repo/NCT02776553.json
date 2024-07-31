@@ -1,0 +1,345 @@
+{
+  "trial_id": "NCT02776553",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Cause of Cirrhosis, Albumin Level, International Normalized Ratio (INR), Radiologic or Endoscopic Evidence of Portal Hypertension, Creatinine Level, Model for End Stage Liver Disease (MELD) Score, History of Variceal Bleeding, Ascites, Hepatic Encephalopathy, Jaundice, Potential Transplant Candidate Status, Baseline Physical Fitness (VO2), Baseline Distance Walked, Baseline Sarcopenia Status, Quality of Life, Anthropometrics, Body Composition, Metabolic Profile.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Albumin",
+          "Albumin Level"
+        ],
+        [
+          "INR",
+          "International Normalized Ratio (INR)"
+        ],
+        [
+          "Creatinine",
+          "Creatinine Level"
+        ],
+        [
+          "MELD-sodium",
+          "Model for End Stage Liver Disease (MELD) Score"
+        ],
+        [
+          "Prior variceal bleeding",
+          "History of Variceal Bleeding"
+        ],
+        [
+          "Ascites",
+          "Ascites"
+        ],
+        [
+          "Hepatic encephalopathy",
+          "Hepatic Encephalopathy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Etiology of cirrhosis-NASH/cryptogenic",
+        "Etiology of cirrhosis-Hepatitis C",
+        "Etiology of cirrhosis-Alcoholic",
+        "Etiology of cirrhosis-Cholestatic",
+        "Weight",
+        "BMI",
+        "Diabetes Mellitus",
+        "Hypertension",
+        "Use of beta-blocker",
+        "Esophageal varices",
+        "Large volume paracentesis",
+        "Child-Turcotte-Pugh Score [median (range)]",
+        "Child-Turcotte-Pugh Class B",
+        "Child-Turcotte-Pugh Class C",
+        "D'Amico Stage 4",
+        "D'Amico Stage 5",
+        "Total bilirubin (mg/dL)",
+        "ALT",
+        "AST",
+        "Hemoglobin",
+        "Platelets",
+        "Sodium"
+      ],
+      "remaining_candidate_features": [
+        "Cause of Cirrhosis",
+        "Radiologic or Endoscopic Evidence of Portal Hypertension",
+        "Jaundice",
+        "Potential Transplant Candidate Status",
+        "Baseline Physical Fitness (VO2)",
+        "Baseline Distance Walked",
+        "Baseline Sarcopenia Status",
+        "Quality of Life",
+        "Anthropometrics",
+        "Body Composition",
+        "Metabolic Profile."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, MELD Score, Serum Albumin, International Normalized Ratio (INR), Creatinine, History of Variceal Bleeding, Ascites, Hepatic Encephalopathy, Jaundice,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "MELD-sodium",
+          "MELD Score"
+        ],
+        [
+          "Albumin",
+          "Serum Albumin"
+        ],
+        [
+          "INR",
+          "International Normalized Ratio (INR)"
+        ],
+        [
+          "Creatinine",
+          "Creatinine"
+        ],
+        [
+          "Prior variceal bleeding",
+          "History of Variceal Bleeding"
+        ],
+        [
+          "Ascites",
+          "Ascites"
+        ],
+        [
+          "Hepatic encephalopathy",
+          "Hepatic Encephalopathy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Etiology of cirrhosis-NASH/cryptogenic",
+        "Etiology of cirrhosis-Hepatitis C",
+        "Etiology of cirrhosis-Alcoholic",
+        "Etiology of cirrhosis-Cholestatic",
+        "Weight",
+        "Diabetes Mellitus",
+        "Hypertension",
+        "Use of beta-blocker",
+        "Esophageal varices",
+        "Large volume paracentesis",
+        "Child-Turcotte-Pugh Score [median (range)]",
+        "Child-Turcotte-Pugh Class B",
+        "Child-Turcotte-Pugh Class C",
+        "D'Amico Stage 4",
+        "D'Amico Stage 5",
+        "Total bilirubin (mg/dL)",
+        "ALT",
+        "AST",
+        "Hemoglobin",
+        "Platelets",
+        "Sodium"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Jaundice"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, MELD Score, Cirrhosis Etiology, History of Variceal Bleeding, History of Ascites, History of Hepatic Encephalopathy, History of Jaundice, Creatinine Level, INR, Albumin Level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "MELD-sodium",
+          "MELD Score"
+        ],
+        [
+          "Etiology of cirrhosis-NASH/cryptogenic",
+          "Cirrhosis Etiology"
+        ],
+        [
+          "Prior variceal bleeding",
+          "History of Variceal Bleeding"
+        ],
+        [
+          "Ascites",
+          "History of Ascites"
+        ],
+        [
+          "Hepatic encephalopathy",
+          "History of Hepatic Encephalopathy"
+        ],
+        [
+          "Creatinine",
+          "Creatinine Level"
+        ],
+        [
+          "INR",
+          "INR"
+        ],
+        [
+          "Albumin",
+          "Albumin Level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Etiology of cirrhosis-Hepatitis C",
+        "Etiology of cirrhosis-Alcoholic",
+        "Etiology of cirrhosis-Cholestatic",
+        "Weight",
+        "Diabetes Mellitus",
+        "Hypertension",
+        "Use of beta-blocker",
+        "Esophageal varices",
+        "Large volume paracentesis",
+        "Child-Turcotte-Pugh Score [median (range)]",
+        "Child-Turcotte-Pugh Class B",
+        "Child-Turcotte-Pugh Class C",
+        "D'Amico Stage 4",
+        "D'Amico Stage 5",
+        "Total bilirubin (mg/dL)",
+        "ALT",
+        "AST",
+        "Hemoglobin",
+        "Platelets",
+        "Sodium"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "History of Jaundice"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), cirrhosis etiology, MELD score, creatinine level, albumin level, INR, presence of portal hypertension, history of variceal bleeding, ascites, hepatic encephalopathy, jaundice, comorbidities (e.g., diabetes, hypertension), smoking status, physical activity level at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Etiology of cirrhosis-NASH/cryptogenic",
+          "cirrhosis etiology"
+        ],
+        [
+          "MELD-sodium",
+          "MELD score"
+        ],
+        [
+          "Creatinine",
+          "creatinine level"
+        ],
+        [
+          "Albumin",
+          "albumin level"
+        ],
+        [
+          "INR",
+          "INR"
+        ],
+        [
+          "Prior variceal bleeding",
+          "history of variceal bleeding"
+        ],
+        [
+          "Ascites",
+          "ascites"
+        ],
+        [
+          "Hepatic encephalopathy",
+          "hepatic encephalopathy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Etiology of cirrhosis-Hepatitis C",
+        "Etiology of cirrhosis-Alcoholic",
+        "Etiology of cirrhosis-Cholestatic",
+        "Weight",
+        "Diabetes Mellitus",
+        "Hypertension",
+        "Use of beta-blocker",
+        "Esophageal varices",
+        "Large volume paracentesis",
+        "Child-Turcotte-Pugh Score [median (range)]",
+        "Child-Turcotte-Pugh Class B",
+        "Child-Turcotte-Pugh Class C",
+        "D'Amico Stage 4",
+        "D'Amico Stage 5",
+        "Total bilirubin (mg/dL)",
+        "ALT",
+        "AST",
+        "Hemoglobin",
+        "Platelets",
+        "Sodium"
+      ],
+      "remaining_candidate_features": [
+        "presence of portal hypertension",
+        "jaundice",
+        "comorbidities (e.g., diabetes, hypertension)",
+        "smoking status",
+        "physical activity level at baseline."
+      ]
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "trial_id": "NCT02347527",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Dietary Habits, Baseline Food Preferences, Baseline Neuronal Response to Food Cues, Health Status, MRI Eligibility, Weight Status (Overweight/Obese vs. Healthy Weight)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "BMI",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Baseline food image ratings",
+          "Baseline Food Preferences"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Dietary Habits",
+        "Baseline Neuronal Response to Food Cues",
+        "Health Status",
+        "MRI Eligibility",
+        "Weight Status (Overweight/Obese vs. Healthy Weight)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Dietary Restrictions, Current Dieting Status, MRI Eligibility, Baseline Food Preferences, Baseline Neuronal Response to Food Cues,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline food image ratings",
+          "Baseline Food Preferences"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Dietary Restrictions",
+        "Current Dieting Status",
+        "MRI Eligibility",
+        "Baseline Neuronal Response to Food Cues"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Weight Status (Overweight/Obese, Healthy Weight), Food Restrictions, Dieting Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Baseline food image ratings"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Weight Status (Overweight/Obese, Healthy Weight)",
+        "Food Restrictions",
+        "Dieting Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), weight, height, waist circumference, hip circumference, body fat percentage, dietary habits, food preferences, eating habits, physical activity level, medical history, medication use, smoking status, socioeconomic status, education level, occupation, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Baseline food image ratings"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "waist circumference",
+        "hip circumference",
+        "body fat percentage",
+        "dietary habits",
+        "food preferences",
+        "eating habits",
+        "physical activity level",
+        "medical history",
+        "medication use",
+        "smoking status",
+        "socioeconomic status",
+        "education level",
+        "occupation",
+        "marital status"
+      ]
+    }
+  }
+}

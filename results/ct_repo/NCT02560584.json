@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT02560584",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, medical history, history of bladder cancer, number of previous tumors, grade of previous tumors, previous treatments (e.g., TURB, BCG immunotherapy, intravesical chemotherapy), presence of gross haematuria, allergy history, pregnancy status, mental condition, compliance likelihood.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Number of Previous Recurrences",
+          "number of previous tumors"
+        ],
+        [
+          "History of High Grade (Grade 2 or 3) Ta or T1",
+          "grade of previous tumors"
+        ],
+        [
+          "Patients Treated with intravesical chemotherapy",
+          "previous treatments (e.g., TURB, BCG immunotherapy, intravesical chemotherapy)"
+        ],
+        [
+          "Patients with Previous Treatment with BCG Immunotherapy",
+          "previous treatments (e.g., TURB, BCG immunotherapy, intravesical chemotherapy)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "History of CIS"
+      ],
+      "remaining_candidate_features": [
+        "medical history",
+        "history of bladder cancer",
+        "presence of gross haematuria",
+        "allergy history",
+        "pregnancy status",
+        "mental condition",
+        "compliance likelihood."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of Multiple Tumors, History of Recurrent Tumors, History of High Grade Tumors,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "History of High Grade (Grade 2 or 3) Ta or T1",
+          "History of High Grade Tumors"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Number of Previous Recurrences",
+        "History of CIS",
+        "Patients Treated with intravesical chemotherapy",
+        "Patients with Previous Treatment with BCG Immunotherapy"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "History of Multiple Tumors",
+        "History of Recurrent Tumors"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of multiple tumors, History of recurrent tumors, History of high-grade tumor, Previous treatment with Bacillus Calmette-Gu\u00e9rin (BCG) immunotherapy or intravesical chemotherapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "History of High Grade (Grade 2 or 3) Ta or T1",
+          "History of high-grade tumor"
+        ],
+        [
+          "Patients Treated with intravesical chemotherapy",
+          "Previous treatment with Bacillus Calmette-Gu\u00e9rin (BCG) immunotherapy or intravesical chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Number of Previous Recurrences",
+        "History of CIS",
+        "Patients with Previous Treatment with BCG Immunotherapy"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "History of multiple tumors",
+        "History of recurrent tumors"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (including history of bladder cancer, multiple tumors, recurrent tumors, high-grade tumors), previous treatments (including TURB, BCG immunotherapy, intravesical chemotherapy), presence of gross haematuria, porphyria, allergy to hexaminolevulinate hydrochloride or similar compounds, pregnancy status, breast-feeding status, use of contraception, participation in other clinical studies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Patients Treated with intravesical chemotherapy",
+          "previous treatments (including TURB, BCG immunotherapy, intravesical chemotherapy)"
+        ],
+        [
+          "Patients with Previous Treatment with BCG Immunotherapy",
+          "previous treatments (including TURB, BCG immunotherapy, intravesical chemotherapy)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Number of Previous Recurrences",
+        "History of CIS",
+        "History of High Grade (Grade 2 or 3) Ta or T1"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "smoking status",
+        "medical history (including history of bladder cancer, multiple tumors, recurrent tumors, high-grade tumors)",
+        "presence of gross haematuria",
+        "porphyria",
+        "allergy to hexaminolevulinate hydrochloride or similar compounds",
+        "pregnancy status",
+        "breast-feeding status",
+        "use of contraception",
+        "participation in other clinical studies."
+      ]
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "trial_id": "NCT01907828",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, systolic blood pressure, diastolic blood pressure, heart rate, body mass index (BMI), duration of hypertension, number of antihypertensive medications, type of antihypertensive medications, left ventricular ejection fraction (LVEF), renal function (estimated GFR), presence of left atrial thrombus, history of myocardial infarction, presence of valvular heart disease, presence of renovascular abnormalities, smoking status, alcohol consumption, presence of systemic infection, pregnancy status, participation in other clinical studies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Office Blood Pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Office Heart Rate",
+          "heart rate"
+        ],
+        [
+          "Body mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Number of Participants with a history of renal assessment prior to enrollment",
+          "renal function (estimated GFR)"
+        ],
+        [
+          "Medical History",
+          "history of myocardial infarction"
+        ],
+        [
+          "Medical History",
+          "presence of valvular heart disease"
+        ],
+        [
+          "Medical History",
+          "presence of renovascular abnormalities"
+        ],
+        [
+          "Medical History",
+          "presence of systemic infection"
+        ],
+        [
+          "Medical History",
+          "pregnancy status"
+        ],
+        [
+          "Medical History",
+          "participation in other clinical studies"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "New York Heart Association (NYHA) Class of Cardiac Disease"
+      ],
+      "remaining_candidate_features": [
+        "diastolic blood pressure",
+        "duration of hypertension",
+        "number of antihypertensive medications",
+        "type of antihypertensive medications",
+        "left ventricular ejection fraction (LVEF)",
+        "presence of left atrial thrombus",
+        "smoking status",
+        "alcohol consumption"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Systolic Blood Pressure, Diastolic Blood Pressure, Number of Anti-hypertensive Medications, Left Ventricular Ejection Fraction (LVEF), Estimated Glomerular Filtration Rate (eGFR), Duration of Atrial Fibrillation, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Office Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Left Ventricular Ejection Fraction (LVEF)",
+          "Left Ventricular Ejection Fraction (LVEF)"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate (eGFR)",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Height",
+        "Weight",
+        "Body mass Index (BMI)",
+        "Office Heart Rate",
+        "Number of Participants with a history of renal assessment prior to enrollment",
+        "New York Heart Association (NYHA) Class of Cardiac Disease",
+        "Medical History"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diastolic Blood Pressure",
+        "Number of Anti-hypertensive Medications",
+        "Duration of Atrial Fibrillation"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Number of Anti-Hypertensive Medications, Left Ventricular Ejection Fraction, History of Myocardial Infarction, History of CABG, History of Renal Angioplasty, History of Renal Denervation, History of Abdominal Aortic Stent Grafts.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Office Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Left Ventricular Ejection Fraction (LVEF)",
+          "Left Ventricular Ejection Fraction"
+        ],
+        [
+          "Medical History",
+          "History of Myocardial Infarction"
+        ],
+        [
+          "Medical History",
+          "History of CABG"
+        ],
+        [
+          "Medical History",
+          "History of Renal Angioplasty"
+        ],
+        [
+          "Medical History",
+          "History of Renal Denervation"
+        ],
+        [
+          "Medical History",
+          "History of Abdominal Aortic Stent Grafts"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Height",
+        "Weight",
+        "Office Heart Rate",
+        "Number of Participants with a history of renal assessment prior to enrollment",
+        "New York Heart Association (NYHA) Class of Cardiac Disease"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diastolic Blood Pressure",
+        "Number of Anti-Hypertensive Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, heart rate, left ventricular ejection fraction (LVEF), atrial fibrillation type (paroxysmal or persistent), duration of atrial fibrillation, number of anti-hypertensive medications, type of anti-hypertensive medications, estimated glomerular filtration rate (eGFR), presence of comorbidities (e.g. diabetes, coronary artery disease, heart failure).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Office Blood Pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Office Heart Rate",
+          "heart rate"
+        ],
+        [
+          "Number of Participants with a history of renal assessment prior to enrollment",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Medical History",
+          "presence of comorbidities (e.g. diabetes, coronary artery disease, heart failure)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "New York Heart Association (NYHA) Class of Cardiac Disease"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "diastolic blood pressure",
+        "left ventricular ejection fraction (LVEF)",
+        "atrial fibrillation type (paroxysmal or persistent)",
+        "duration of atrial fibrillation",
+        "number of anti-hypertensive medications",
+        "type of anti-hypertensive medications"
+      ]
+    }
+  }
+}

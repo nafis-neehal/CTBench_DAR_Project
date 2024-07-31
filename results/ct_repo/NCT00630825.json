@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT00630825",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), glycosylated hemoglobin (HbA1c) level, duration of Type 2 Diabetes Mellitus, use of oral antihyperglycemic medications, serum creatinine level, history of cardiovascular events, liver function tests (alanine transaminase), history of pancreatitis, pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "glycosylated hemoglobin (HbA1c) level"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of Type 2 Diabetes Mellitus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Weight"
+      ],
+      "remaining_candidate_features": [
+        "use of oral antihyperglycemic medications",
+        "serum creatinine level",
+        "history of cardiovascular events",
+        "liver function tests (alanine transaminase)",
+        "history of pancreatitis",
+        "pregnancy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Concomitant Medications, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight"
+      ],
+      "remaining_candidate_features": [
+        "Concomitant Medications",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Diabetes duration, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, history of diabetes-related complications, current antihyperglycemic medications, glycosylated hemoglobin (HbA1c) at baseline, fasting plasma glucose at baseline, systolic and diastolic blood pressure, heart rate, waist circumference, lipid profile (total cholesterol, high-density lipoprotein cholesterol, low-density lipoprotein cholesterol, triglycerides).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "glycosylated hemoglobin (HbA1c) at baseline"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes mellitus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Body Weight"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "history of diabetes-related complications",
+        "current antihyperglycemic medications",
+        "fasting plasma glucose at baseline",
+        "systolic and diastolic blood pressure",
+        "heart rate",
+        "waist circumference",
+        "lipid profile (total cholesterol, high-density lipoprotein cholesterol, low-density lipoprotein cholesterol, triglycerides)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "trial_id": "NCT00446992",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index, Fasting Glucose, Fasting Insulin, Hemoglobin A1c, IL-6, Triglycerides, Cholesterol Total, HDL, LDL, Duration of Psychosis, Smoking Status, Alcohol Use, Family History of Diabetes, Physical Activity Level",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting Glucose",
+          "Fasting Glucose"
+        ],
+        [
+          "Fasting Insulin",
+          "Fasting Insulin"
+        ],
+        [
+          "Hemoglobin A1c",
+          "Hemoglobin A1c"
+        ],
+        [
+          "Interleukin 6 (IL-6)",
+          "IL-6"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "Total Cholesterol",
+          "Cholesterol Total"
+        ],
+        [
+          "HDL",
+          "HDL"
+        ],
+        [
+          "LDL",
+          "LDL"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Socioeconomic Status (SES)",
+        "Number of Cigarettes Per Day",
+        "Duration of Untreated Psychosis",
+        "Oral Glucose Tolerance Test (OGGT)",
+        "Positive and Negative Syndromes Scale (PANSS)",
+        "C-Reactive Protein",
+        "Adiponectin",
+        "Leptin",
+        "Cortisol",
+        "Parental History of Type II Diabetes Mellitus"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Duration of Psychosis",
+        "Smoking Status",
+        "Alcohol Use",
+        "Family History of Diabetes",
+        "Physical Activity Level"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Fasting Glucose, Fasting Insulin, Hemoglobin A1c, IL-6, Triglycerides, Cholesterol Total, HDL, LDL,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting Glucose",
+          "Fasting Glucose"
+        ],
+        [
+          "Fasting Insulin",
+          "Fasting Insulin"
+        ],
+        [
+          "Hemoglobin A1c",
+          "Hemoglobin A1c"
+        ],
+        [
+          "Interleukin 6 (IL-6)",
+          "IL-6"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "Total Cholesterol",
+          "Cholesterol Total"
+        ],
+        [
+          "HDL",
+          "HDL"
+        ],
+        [
+          "LDL",
+          "LDL"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Socioeconomic Status (SES)",
+        "Number of Cigarettes Per Day",
+        "Duration of Untreated Psychosis",
+        "Oral Glucose Tolerance Test (OGGT)",
+        "Positive and Negative Syndromes Scale (PANSS)",
+        "C-Reactive Protein",
+        "Adiponectin",
+        "Leptin",
+        "Cortisol",
+        "Parental History of Type II Diabetes Mellitus"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Fasting Glucose, Fasting Insulin, Hemoglobin A1c, Duration of Psychosis, Antipsychotic Naivety,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting Glucose",
+          "Fasting Glucose"
+        ],
+        [
+          "Fasting Insulin",
+          "Fasting Insulin"
+        ],
+        [
+          "Hemoglobin A1c",
+          "Hemoglobin A1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Socioeconomic Status (SES)",
+        "Number of Cigarettes Per Day",
+        "Duration of Untreated Psychosis",
+        "Oral Glucose Tolerance Test (OGGT)",
+        "Interleukin 6 (IL-6)",
+        "Positive and Negative Syndromes Scale (PANSS)",
+        "C-Reactive Protein",
+        "Adiponectin",
+        "Leptin",
+        "Cortisol",
+        "Total Cholesterol",
+        "Triglycerides",
+        "LDL",
+        "HDL",
+        "Parental History of Type II Diabetes Mellitus"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Psychosis",
+        "Antipsychotic Naivety"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, smoking status, medical history, family history of diabetes, family history of schizophrenia, duration of psychosis, cumulative antipsychotic exposure, fasting glucose, fasting insulin, hemoglobin A1c, IL-6, triglycerides, cholesterol total, HDL, LDL.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index"
+        ],
+        [
+          "Fasting Glucose",
+          "fasting glucose"
+        ],
+        [
+          "Fasting Insulin",
+          "fasting insulin"
+        ],
+        [
+          "Hemoglobin A1c",
+          "hemoglobin A1c"
+        ],
+        [
+          "Interleukin 6 (IL-6)",
+          "IL-6"
+        ],
+        [
+          "Total Cholesterol",
+          "cholesterol total"
+        ],
+        [
+          "Triglycerides",
+          "triglycerides"
+        ],
+        [
+          "LDL",
+          "LDL"
+        ],
+        [
+          "HDL",
+          "HDL"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Socioeconomic Status (SES)",
+        "Number of Cigarettes Per Day",
+        "Duration of Untreated Psychosis",
+        "Oral Glucose Tolerance Test (OGGT)",
+        "Positive and Negative Syndromes Scale (PANSS)",
+        "C-Reactive Protein",
+        "Adiponectin",
+        "Leptin",
+        "Cortisol",
+        "Parental History of Type II Diabetes Mellitus"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "race",
+        "ethnicity",
+        "smoking status",
+        "medical history",
+        "family history of diabetes",
+        "family history of schizophrenia",
+        "duration of psychosis",
+        "cumulative antipsychotic exposure"
+      ]
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "trial_id": "NCT00458003",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, ASA physical status, BMI, resting heart rate, gestational age, number of fetuses, baseline blood pressure, baseline heart rate, baseline oxygen saturation, history of preeclampsia, previous cesarean delivery, baseline hemoglobin level, baseline hematocrit level, baseline platelet count, baseline serum creatinine level, baseline liver function tests, baseline proteinuria, baseline fetal heart rate, baseline fetal biophysical profile.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "ASA physical status"
+        ],
+        [
+          "Estimated gestational age (weeks)",
+          "gestational age"
+        ],
+        [
+          "Multiple gestation",
+          "number of fetuses"
+        ],
+        [
+          "Preeclampsia",
+          "history of preeclampsia"
+        ],
+        [
+          "Baseline systolic blood pressure",
+          "baseline blood pressure"
+        ],
+        [
+          "Baseline heart rate",
+          "baseline heart rate"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Number of infants delivered per group",
+        "Baseline oxygen saturation",
+        "Baseline hemoglobin level",
+        "Baseline hematocrit level",
+        "Baseline serum creatinine level",
+        "Baseline liver function tests",
+        "Baseline proteinuria",
+        "Baseline fetal heart rate",
+        "Baseline fetal biophysical profile"
+      ],
+      "remaining_candidate_features": [
+        "previous cesarean delivery",
+        "baseline oxygen saturation",
+        "baseline hemoglobin level",
+        "baseline hematocrit level",
+        "baseline serum creatinine level",
+        "baseline liver function tests",
+        "baseline proteinuria",
+        "baseline fetal heart rate",
+        "baseline fetal biophysical profile"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, BMI, ASA Physical Status Classification, Resting Heart Rate, Number of Gestations, Diagnosis of Preeclampsia, Type of Anesthesia,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Baseline heart rate",
+          "Resting Heart Rate"
+        ],
+        [
+          "Preeclampsia",
+          "Diagnosis of Preeclampsia"
+        ],
+        [
+          "Multiple gestation",
+          "Number of Gestations"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Estimated gestational age (weeks)",
+        "Number of infants delivered per group",
+        "Baseline systolic blood pressure"
+      ],
+      "remaining_candidate_features": [
+        "ASA Physical Status Classification",
+        "Type of Anesthesia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gestational Age, ASA Physical Status, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Parity, Previous Cesarean Delivery.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Estimated gestational age (weeks)",
+          "Gestational Age"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Baseline heart rate",
+          "Heart Rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Multiple gestation",
+        "Preeclampsia",
+        "Number of infants delivered per group"
+      ],
+      "remaining_candidate_features": [
+        "ASA Physical Status",
+        "Diastolic Blood Pressure",
+        "Parity",
+        "Previous Cesarean Delivery"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, ASA physical status, BMI, gestational age, parity, resting heart rate, systolic blood pressure, diastolic blood pressure, mean arterial pressure, presence of preexisting hypertension, presence of fetal anomalies, twin gestation, presence of eclampsia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Estimated gestational age (weeks)",
+          "gestational age"
+        ],
+        [
+          "Baseline heart rate",
+          "resting heart rate"
+        ],
+        [
+          "Baseline systolic blood pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Multiple gestation",
+          "twin gestation"
+        ],
+        [
+          "Preeclampsia",
+          "presence of preexisting hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Number of infants delivered per group"
+      ],
+      "remaining_candidate_features": [
+        "ASA physical status",
+        "parity",
+        "diastolic blood pressure",
+        "mean arterial pressure",
+        "presence of fetal anomalies",
+        "presence of eclampsia"
+      ]
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "trial_id": "NCT00996281",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline systolic blood pressure, baseline diastolic blood pressure, body mass index (BMI), history of antihypertensive treatment, renal function (e.g., serum creatinine), liver function (e.g., alanine aminotransferase, aspartate aminotransferase), potassium levels, history of diabetes, history of cardiovascular events, smoking status, alcohol use, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Systolic blood pressure",
+          "baseline systolic blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "baseline diastolic blood pressure"
+        ],
+        [
+          "Diabetes Status",
+          "history of diabetes"
+        ],
+        [
+          "Smoking history",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Estimated glomerular filtration rate",
+        "Chronic Kidney Disease (CKD) status"
+      ],
+      "remaining_candidate_features": [
+        "history of antihypertensive treatment",
+        "renal function (e.g., serum creatinine)",
+        "liver function (e.g., alanine aminotransferase, aspartate aminotransferase)",
+        "potassium levels",
+        "history of cardiovascular events",
+        "alcohol use",
+        "concomitant medications"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Baseline Heart Rate, Baseline Body Mass Index, Baseline Serum Potassium, Baseline Serum Creatinine, Baseline Fasting Glucose, Baseline HbA1c, Baseline Total Cholesterol, Baseline LDL Cholesterol, Baseline HDL Cholesterol, Baseline Triglycerides,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic blood pressure",
+          "Baseline Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Baseline Diastolic Blood Pressure"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Baseline Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Smoking history",
+        "Diabetes Status",
+        "Estimated glomerular filtration rate",
+        "Chronic Kidney Disease (CKD) status"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Heart Rate",
+        "Baseline Serum Potassium",
+        "Baseline Serum Creatinine",
+        "Baseline Fasting Glucose",
+        "Baseline HbA1c",
+        "Baseline Total Cholesterol",
+        "Baseline LDL Cholesterol",
+        "Baseline HDL Cholesterol",
+        "Baseline Triglycerides"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications, Prior Cardiovascular Events.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Smoking history",
+        "Diabetes Status",
+        "Estimated glomerular filtration rate",
+        "Chronic Kidney Disease (CKD) status"
+      ],
+      "remaining_candidate_features": [
+        "History of Hypertension",
+        "Duration of Hypertension",
+        "Number of Antihypertensive Medications",
+        "Prior Cardiovascular Events"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including hypertension, diabetes, cardiovascular disease), concomitant medications, smoking status, alcohol consumption, laboratory values (including serum creatinine, potassium, alanine aminotransferase, aspartate aminotransferase).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index"
+        ],
+        [
+          "Systolic blood pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "diastolic blood pressure"
+        ],
+        [
+          "Smoking history",
+          "smoking status"
+        ],
+        [
+          "Diabetes Status",
+          "medical history (including hypertension, diabetes, cardiovascular disease)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Estimated glomerular filtration rate",
+        "Chronic Kidney Disease (CKD) status"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "heart rate",
+        "concomitant medications",
+        "alcohol consumption",
+        "laboratory values (including serum creatinine, potassium, alanine aminotransferase, aspartate aminotransferase)"
+      ]
+    }
+  }
+}

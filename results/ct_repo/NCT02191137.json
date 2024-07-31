@@ -1,0 +1,171 @@
+{
+  "trial_id": "NCT02191137",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, pregnancy status, pulmonary vascular resistance (PVR), mean pulmonary artery pressure (PAP mean), pulmonary capillary wedge pressure (PCWP), type of PAH (idiopathic, familial, associated with connective tissue disease, congenital heart disease, anorexigen or amphetamine use, portal hypertension with liver cirrhosis), 6-minute walking distance (6MWD), use of PAH-specific pulmonary medications, use of nitrate and/or nitric oxide (NO) donor therapy, use of phosphodiesterase 5 (PDE5) inhibitors, presence of severe restrictive lung disease, history of uncontrolled high blood pressure or hypotension, history of hemoptysis or pulmonary hemorrhage.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Six-minute walk distance (6MWD)",
+          "6-minute walking distance (6MWD)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Living with Pulmonary Hypertension (LPH)",
+        "Short Form-12 Health Survey (SF-12) questionnaire",
+        "WHO functional class",
+        "Modified Borg Dyspnea Scale",
+        "Work Limitations Questionnaire (WLQ)",
+        "WLQ: Percentage of Productivity loss"
+      ],
+      "remaining_candidate_features": [
+        "pregnancy status",
+        "pulmonary vascular resistance (PVR)",
+        "mean pulmonary artery pressure (PAP mean)",
+        "pulmonary capillary wedge pressure (PCWP)",
+        "type of PAH (idiopathic, familial, associated with connective tissue disease, congenital heart disease, anorexigen or amphetamine use, portal hypertension with liver cirrhosis)",
+        "use of PAH-specific pulmonary medications",
+        "use of nitrate and/or nitric oxide (NO) donor therapy",
+        "use of phosphodiesterase 5 (PDE5) inhibitors",
+        "presence of severe restrictive lung disease",
+        "history of uncontrolled high blood pressure or hypotension",
+        "history of hemoptysis or pulmonary hemorrhage."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline 6 Minute Walking Distance (6MWD), Pulmonary Vascular Resistance (PVR), Mean Pulmonary Artery Pressure (PAP mean), Pulmonary Capillary Wedge Pressure (PCWP), Type of PAH,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Six-minute walk distance (6MWD)",
+          "Baseline 6 Minute Walking Distance (6MWD)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Living with Pulmonary Hypertension (LPH)",
+        "Short Form-12 Health Survey (SF-12) questionnaire",
+        "WHO functional class",
+        "Modified Borg Dyspnea Scale",
+        "Work Limitations Questionnaire (WLQ)",
+        "WLQ: Percentage of Productivity loss"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Pulmonary Vascular Resistance (PVR)",
+        "Mean Pulmonary Artery Pressure (PAP mean)",
+        "Pulmonary Capillary Wedge Pressure (PCWP)",
+        "Type of PAH"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, 6-Minute Walking Distance, Pulmonary Vascular Resistance, Mean Pulmonary Artery Pressure, Pulmonary Capillary Wedge Pressure, PAH Type, PAH Duration,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Six-minute walk distance (6MWD)",
+          "6-Minute Walking Distance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Living with Pulmonary Hypertension (LPH)",
+        "Short Form-12 Health Survey (SF-12) questionnaire",
+        "WHO functional class",
+        "Modified Borg Dyspnea Scale",
+        "Work Limitations Questionnaire (WLQ)",
+        "WLQ: Percentage of Productivity loss"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Pulmonary Vascular Resistance",
+        "Mean Pulmonary Artery Pressure",
+        "Pulmonary Capillary Wedge Pressure",
+        "PAH Type",
+        "PAH Duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), World Health Organization functional class, 6-minute walk distance (6MWD), pulmonary vascular resistance (PVR), mean pulmonary artery pressure (PAP mean), pulmonary capillary wedge pressure (PCWP), type of PAH (idiopathic, familial, associated), etiology of PAH (connective tissue disease, congenital heart disease, anorexigen or amphetamine use, portal hypertension with liver cirrhosis), comorbidities (hypertension, diabetes, etc.), smoking status, New York Heart Association (NYHA) functional class.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "WHO functional class",
+          "World Health Organization functional class"
+        ],
+        [
+          "Six-minute walk distance (6MWD)",
+          "6-minute walk distance (6MWD)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Living with Pulmonary Hypertension (LPH)",
+        "Short Form-12 Health Survey (SF-12) questionnaire",
+        "Modified Borg Dyspnea Scale",
+        "Work Limitations Questionnaire (WLQ)",
+        "WLQ: Percentage of Productivity loss"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "body mass index (BMI)",
+        "pulmonary vascular resistance (PVR)",
+        "mean pulmonary artery pressure (PAP mean)",
+        "pulmonary capillary wedge pressure (PCWP)",
+        "type of PAH (idiopathic, familial, associated)",
+        "etiology of PAH (connective tissue disease, congenital heart disease, anorexigen or amphetamine use, portal hypertension with liver cirrhosis)",
+        "comorbidities (hypertension, diabetes, etc.)",
+        "smoking status",
+        "New York Heart Association (NYHA) functional class"
+      ]
+    }
+  }
+}

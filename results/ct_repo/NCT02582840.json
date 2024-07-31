@@ -1,0 +1,192 @@
+{
+  "trial_id": "NCT02582840",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, HbA1c, total daily insulin dose, duration of insulin use, method of insulin administration, C-peptide levels, estimated GFR, hemoglobin levels, liver function tests (AST, ALT, serum total bilirubin), hepatitis B surface antigen status, anti-hepatitis C virus antibody status, free T4 levels, history of DKA, history of hospital admission for glycemic control, history of malignancy, history of bladder cancer, history of radiation therapy to the lower abdomen or pelvis, retinopathy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)%",
+          "HbA1c"
+        ],
+        [
+          "C-Peptide",
+          "C-peptide levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Duration of Type 1 Diabetes",
+        "Fasting Plasma Glucose (FPG)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "total daily insulin dose",
+        "duration of insulin use",
+        "method of insulin administration",
+        "estimated GFR",
+        "hemoglobin levels",
+        "liver function tests (AST, ALT, serum total bilirubin)",
+        "hepatitis B surface antigen status",
+        "anti-hepatitis C virus antibody status",
+        "free T4 levels",
+        "history of DKA",
+        "history of hospital admission for glycemic control",
+        "history of malignancy",
+        "history of bladder cancer",
+        "history of radiation therapy to the lower abdomen or pelvis",
+        "retinopathy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, BMI, HbA1c, Duration of Diabetes, Total Daily Insulin Dose, eGFR, Hemoglobin, Liver Function Tests (AST, ALT, Total Bilirubin), ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)%",
+          "HbA1c"
+        ],
+        [
+          "C-Peptide",
+          "C-Peptide"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Duration of Type 1 Diabetes",
+        "Fasting Plasma Glucose (FPG)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "BMI",
+        "Duration of Diabetes",
+        "Total Daily Insulin Dose",
+        "eGFR",
+        "Hemoglobin",
+        "Liver Function Tests (AST, ALT, Total Bilirubin)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Insulin Dose, C-peptide, Duration of Diabetes, History of Diabetes-Related Complications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)%",
+          "HbA1c"
+        ],
+        [
+          "C-Peptide",
+          "C-peptide"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Duration of Type 1 Diabetes",
+        "Fasting Plasma Glucose (FPG)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Insulin Dose",
+        "Duration of Diabetes",
+        "History of Diabetes-Related Complications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, HbA1c, C-peptide, insulin dose, method of insulin administration, duration of T1DM, history of T2DM, history of MODY, history of pancreatic surgery, history of chronic pancreatitis, history of bladder cancer, history of malignancy, AST, ALT, serum total bilirubin, eGFR, hemoglobin, hepatitis B surface antigen, anti-hepatitis C virus antibody, free T4.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)%",
+          "HbA1c"
+        ],
+        [
+          "C-Peptide",
+          "C-peptide"
+        ],
+        [
+          "Duration of Type 1 Diabetes",
+          "duration of T1DM"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Fasting Plasma Glucose (FPG)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "insulin dose",
+        "method of insulin administration",
+        "history of T2DM",
+        "history of MODY",
+        "history of pancreatic surgery",
+        "history of chronic pancreatitis",
+        "history of bladder cancer",
+        "history of malignancy",
+        "AST",
+        "ALT",
+        "serum total bilirubin",
+        "eGFR",
+        "hemoglobin",
+        "hepatitis B surface antigen",
+        "anti-hepatitis C virus antibody",
+        "free T4"
+      ]
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "trial_id": "NCT01887600",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, body weight, estimated glomerular filtration rate (eGFR), hemoglobin (Hb) levels, ferritin levels, transferrin saturation (TSAT) levels, serum folate levels, serum vitamin B12 levels, alanine aminotransferase (ALT) levels, aspartate aminotransferase (AST) levels, total bilirubin (TBL) levels, systolic blood pressure (SBP), diastolic blood pressure (DBP), history of chronic kidney disease (CKD) stage, history of cardiovascular events, history of liver disease, history of malignancy, history of chronic inflammatory disease, history of gastrointestinal bleeding, history of alcohol or drug abuse, HIV status, hepatitis B status, hepatitis C status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Baseline Hemoglobin (Hb) Value",
+          "hemoglobin (Hb) levels"
+        ],
+        [
+          "Baseline Estimated Glomerular Filtration Rate (eGFR)",
+          "estimated glomerular filtration rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "History of Diabetes (Type 1 or 2)",
+        "Iron Repletion at Baseline",
+        "Time From Chronic Kidney Disease (CKD) Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "body weight",
+        "ferritin levels",
+        "transferrin saturation (TSAT) levels",
+        "serum folate levels",
+        "serum vitamin B12 levels",
+        "alanine aminotransferase (ALT) levels",
+        "aspartate aminotransferase (AST) levels",
+        "total bilirubin (TBL) levels",
+        "systolic blood pressure (SBP)",
+        "diastolic blood pressure (DBP)",
+        "history of chronic kidney disease (CKD) stage",
+        "history of cardiovascular events",
+        "history of liver disease",
+        "history of malignancy",
+        "history of chronic inflammatory disease",
+        "history of gastrointestinal bleeding",
+        "history of alcohol or drug abuse",
+        "HIV status",
+        "hepatitis B status",
+        "hepatitis C status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Estimated Glomerular Filtration Rate (eGFR), Hemoglobin levels, Ferritin levels, Transferrin saturation (TSAT), Serum folate level, Serum vitamin B12 level, Alanine aminotransferase (ALT) levels, Aspartate aminotransferase (AST) levels, Total bilirubin (TBL) levels, Body weight,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Baseline Hemoglobin (Hb) Value",
+          "Hemoglobin levels"
+        ],
+        [
+          "Baseline Estimated Glomerular Filtration Rate (eGFR)",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "History of Diabetes (Type 1 or 2)",
+        "Iron Repletion at Baseline",
+        "Time From Chronic Kidney Disease (CKD) Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Ferritin levels",
+        "Transferrin saturation (TSAT)",
+        "Serum folate level",
+        "Serum vitamin B12 level",
+        "Alanine aminotransferase (ALT) levels",
+        "Aspartate aminotransferase (AST) levels",
+        "Total bilirubin (TBL) levels",
+        "Body weight"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Hemoglobin, Ferritin, Transferrin Saturation, Serum Folate, Serum Vitamin B12, Alanine Aminotransferase, Aspartate Aminotransferase, Total Bilirubin, Body Weight, History of Myelodysplastic Syndrome or Multiple Myeloma, History of Hereditary Hematologic Disease, History of Hemosiderosis or Hemochromatosis, History of Coagulation Disorder or Hypercoagulable Condition, History of Chronic Inflammatory Disease, History of Elective Surgery, History of Gastrointestinal Bleeding, History of Chronic Liver Disease, History of New York Heart Association Class III or IV Congestive Heart Failure, History of Myocardial Infarction, Acute Coronary Syndrome, Stroke, Seizure, or Thrombotic/Thromboembolic Event, Uncontrolled Hypertension, History of Malignancy, History of Renal Cell Carcinoma, HIV, Hepatitis B or C, Active Clinically Significant Infection, Untreated Proliferative Diabetic Retinopathy, Diabetic Macular Edema, Macular Degeneration, Retinal Vein Occlusion.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Baseline Hemoglobin (Hb) Value",
+          "Hemoglobin"
+        ],
+        [
+          "Baseline Estimated Glomerular Filtration Rate (eGFR)",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "History of Diabetes (Type 1 or 2)",
+        "Iron Repletion at Baseline",
+        "Time From Chronic Kidney Disease (CKD) Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Ferritin",
+        "Transferrin Saturation",
+        "Serum Folate",
+        "Serum Vitamin B12",
+        "Alanine Aminotransferase",
+        "Aspartate Aminotransferase",
+        "Total Bilirubin",
+        "Body Weight",
+        "History of Myelodysplastic Syndrome or Multiple Myeloma",
+        "History of Hereditary Hematologic Disease",
+        "History of Hemosiderosis or Hemochromatosis",
+        "History of Coagulation Disorder or Hypercoagulable Condition",
+        "History of Chronic Inflammatory Disease",
+        "History of Elective Surgery",
+        "History of Gastrointestinal Bleeding",
+        "History of Chronic Liver Disease",
+        "History of New York Heart Association Class III or IV Congestive Heart Failure",
+        "History of Myocardial Infarction",
+        "Acute Coronary Syndrome",
+        "Stroke",
+        "Seizure",
+        "or Thrombotic/Thromboembolic Event",
+        "Uncontrolled Hypertension",
+        "History of Malignancy",
+        "History of Renal Cell Carcinoma",
+        "HIV",
+        "Hepatitis B or C",
+        "Active Clinically Significant Infection",
+        "Untreated Proliferative Diabetic Retinopathy",
+        "Diabetic Macular Edema",
+        "Macular Degeneration",
+        "Retinal Vein Occlusion"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), kidney disease stage (KDOQI), estimated glomerular filtration rate (eGFR), hemoglobin (Hb) level, ferritin level, transferrin saturation (TSAT) level, serum folate level, serum vitamin B12 level, alanine aminotransferase (ALT) level, aspartate aminotransferase (AST) level, total bilirubin (TBL) level, medical history (e.g., hypertension, diabetes, cardiovascular disease), concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Baseline Hemoglobin (Hb) Value",
+          "hemoglobin (Hb) level"
+        ],
+        [
+          "Baseline Estimated Glomerular Filtration Rate (eGFR)",
+          "estimated glomerular filtration rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "History of Diabetes (Type 1 or 2)",
+        "Iron Repletion at Baseline",
+        "Time From Chronic Kidney Disease (CKD) Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "kidney disease stage (KDOQI)",
+        "ferritin level",
+        "transferrin saturation (TSAT) level",
+        "serum folate level",
+        "serum vitamin B12 level",
+        "alanine aminotransferase (ALT) level",
+        "aspartate aminotransferase (AST) level",
+        "total bilirubin (TBL) level",
+        "medical history (e.g., hypertension, diabetes, cardiovascular disease)",
+        "concomitant medications"
+      ]
+    }
+  }
+}

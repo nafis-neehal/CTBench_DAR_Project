@@ -1,0 +1,256 @@
+{
+  "trial_id": "NCT01364584",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, glycosylated hemoglobin (HbA1C), smoking status, blood pressure (systolic and diastolic), medication use (metformin, sulfonylurea drugs, meglitinides), menopausal status, exercise frequency, presence of comorbid conditions, renal function (creatinine levels), proteinuria, history of pancreatitis, presence of peripheral arterial disease, presence of autonomic dysfunction.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "menopausal status"
+        ],
+        [
+          "Body Mass Index (kg/m2)",
+          "BMI"
+        ],
+        [
+          "HbA1c (%)",
+          "glycosylated hemoglobin (HbA1C)"
+        ],
+        [
+          "Smoking Status",
+          "smoking status"
+        ],
+        [
+          "Resting Systolic Blood Pressure",
+          "blood pressure (systolic and diastolic)"
+        ],
+        [
+          "Medication Use",
+          "medication use (metformin, sulfonylurea drugs, meglitinides)"
+        ],
+        [
+          "Presence of Comorbid Conditions",
+          "presence of comorbid conditions"
+        ],
+        [
+          "Renal Function",
+          "renal function (creatinine levels)"
+        ],
+        [
+          "Proteinuria",
+          "proteinuria"
+        ],
+        [
+          "History of Pancreatitis",
+          "history of pancreatitis"
+        ],
+        [
+          "Presence of Peripheral Arterial Disease",
+          "presence of peripheral arterial disease"
+        ],
+        [
+          "Presence of Autonomic Dysfunction",
+          "presence of autonomic dysfunction"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Body Mass (kg)",
+        "Body Fat (%)",
+        "Lean Mass (kg)",
+        "Fasting Glucose (mg/dl)",
+        "Fasting Insulin (\u03bcU/ml)",
+        "Total Cholesterol (mg/dl)",
+        "LDL Cholesterol (mg/dl)",
+        "Triglycerides (mg/dl)",
+        "Glycerol (mg/dl)",
+        "Free Fatty Acids (mmol/L)",
+        "VO2peak (ml/kg/min)",
+        "VO2peak (ml/min)",
+        "VO2 kinetics tau (sec)",
+        "Circumferential Strain",
+        "Longitudinal Strain",
+        "Stroke Volume (ml/beat)"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "exercise frequency"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Glycosylated hemoglobin (HbA1C), Resting systolic blood pressure, Resting diastolic blood pressure, Diabetes duration, Daily insulin dose, Smoking status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (kg/m2)",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c (%)",
+          "Glycosylated hemoglobin (HbA1C)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Body Mass (kg)",
+        "Body Fat (%)",
+        "Lean Mass (kg)",
+        "Fasting Glucose (mg/dl)",
+        "Fasting Insulin (\u03bcU/ml)",
+        "Total Cholesterol (mg/dl)",
+        "LDL Cholesterol (mg/dl)",
+        "Triglycerides (mg/dl)",
+        "Glycerol (mg/dl)",
+        "Free Fatty Acids (mmol/L)",
+        "VO2peak (ml/kg/min)",
+        "VO2peak (ml/min)",
+        "VO2 kinetics tau (sec)",
+        "Circumferential Strain",
+        "Longitudinal Strain",
+        "Stroke Volume (ml/beat)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Resting systolic blood pressure",
+        "Resting diastolic blood pressure",
+        "Diabetes duration",
+        "Daily insulin dose",
+        "Smoking status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Diabetes Duration, Metformin Use, Sulfonylurea Use, Meglitinide Use, Smoking Status, Peak Oxygen Consumption (VO2 Peak) at Baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (kg/m2)",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c (%)",
+          "HbA1c"
+        ],
+        [
+          "VO2peak (ml/kg/min)",
+          "Peak Oxygen Consumption (VO2 Peak) at Baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Mass (kg)",
+        "Body Fat (%)",
+        "Lean Mass (kg)",
+        "Fasting Glucose (mg/dl)",
+        "Fasting Insulin (\u03bcU/ml)",
+        "Total Cholesterol (mg/dl)",
+        "LDL Cholesterol (mg/dl)",
+        "Triglycerides (mg/dl)",
+        "Glycerol (mg/dl)",
+        "Free Fatty Acids (mmol/L)",
+        "VO2peak (ml/min)",
+        "VO2 kinetics tau (sec)",
+        "Circumferential Strain",
+        "Longitudinal Strain",
+        "Stroke Volume (ml/beat)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Diabetes Duration",
+        "Metformin Use",
+        "Sulfonylurea Use",
+        "Meglitinide Use",
+        "Smoking Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, HbA1C, systolic blood pressure, diastolic blood pressure, smoking status, duration of type 2 diabetes, metformin dose, sulfonylurea or meglitinide use, exercise habits, menopausal status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (kg/m2)",
+          "BMI"
+        ],
+        [
+          "HbA1c (%)",
+          "HbA1C"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Body Mass (kg)",
+        "Body Fat (%)",
+        "Lean Mass (kg)",
+        "Fasting Glucose (mg/dl)",
+        "Fasting Insulin (\u03bcU/ml)",
+        "Total Cholesterol (mg/dl)",
+        "LDL Cholesterol (mg/dl)",
+        "Triglycerides (mg/dl)",
+        "Glycerol (mg/dl)",
+        "Free Fatty Acids (mmol/L)",
+        "VO2peak (ml/kg/min)",
+        "VO2peak (ml/min)",
+        "VO2 kinetics tau (sec)",
+        "Circumferential Strain",
+        "Longitudinal Strain",
+        "Stroke Volume (ml/beat)"
+      ],
+      "remaining_candidate_features": [
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "smoking status",
+        "duration of type 2 diabetes",
+        "metformin dose",
+        "sulfonylurea or meglitinide use",
+        "exercise habits",
+        "menopausal status."
+      ]
+    }
+  }
+}

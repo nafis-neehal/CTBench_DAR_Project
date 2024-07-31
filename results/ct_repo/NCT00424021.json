@@ -1,0 +1,195 @@
+{
+  "trial_id": "NCT00424021",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, baseline pulmonary arterial hypertension (PAH) severity, baseline exercise capacity, baseline functional class, baseline hemodynamic parameters, baseline use of PAH-specific therapies, baseline comorbidities, baseline HIV status, baseline conventional therapy for PAH, baseline laboratory values, baseline vital signs, baseline echocardiographic parameters.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Years Pulmonary Arterial Hypertension (PAH) Present",
+          "baseline pulmonary arterial hypertension (PAH) severity"
+        ],
+        [
+          "6-minute Walk Distance",
+          "baseline exercise capacity"
+        ],
+        [
+          "World Health Organization Class",
+          "baseline functional class"
+        ],
+        [
+          "Primary Diagnosis",
+          "baseline comorbidities"
+        ],
+        [
+          "Height",
+          "baseline vital signs"
+        ],
+        [
+          "Weight",
+          "baseline vital signs"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Borg Dyspnea Index"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "baseline hemodynamic parameters",
+        "baseline use of PAH-specific therapies",
+        "baseline HIV status",
+        "baseline conventional therapy for PAH",
+        "baseline laboratory values",
+        "baseline echocardiographic parameters"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline PAH severity, HIV status, Concomitant PAH therapy, Duration of PAH diagnosis,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Years Pulmonary Arterial Hypertension (PAH) Present",
+          "Duration of PAH diagnosis"
+        ],
+        [
+          "Primary Diagnosis",
+          "Baseline PAH severity"
+        ],
+        [
+          "World Health Organization Class",
+          "HIV status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "6-minute Walk Distance",
+        "Borg Dyspnea Index",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Region of Enrollment",
+        "Concomitant PAH therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulmonary Arterial Hypertension (PAH) diagnosis duration, World Health Organization (WHO) functional class, Six-minute walk distance, Borg dyspnea index,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Years Pulmonary Arterial Hypertension (PAH) Present",
+          "Pulmonary Arterial Hypertension (PAH) diagnosis duration"
+        ],
+        [
+          "6-minute Walk Distance",
+          "Six-minute walk distance"
+        ],
+        [
+          "Borg Dyspnea Index",
+          "Borg dyspnea index"
+        ],
+        [
+          "World Health Organization Class",
+          "World Health Organization (WHO) functional class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Primary Diagnosis",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), medical history of pulmonary arterial hypertension, HIV status, conventional therapy for PAH, duration of PAH diagnosis, New York Heart Association (NYHA) functional class, six-minute walk distance (6MWD) at baseline, mean pulmonary arterial pressure (mPAP) at baseline, cardiac output at baseline, pulmonary vascular resistance (PVR) at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Years Pulmonary Arterial Hypertension (PAH) Present",
+          "duration of PAH diagnosis"
+        ],
+        [
+          "6-minute Walk Distance",
+          "six-minute walk distance (6MWD) at baseline"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Primary Diagnosis",
+          "medical history of pulmonary arterial hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Borg Dyspnea Index",
+        "World Health Organization Class"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "body mass index (BMI)",
+        "HIV status",
+        "conventional therapy for PAH",
+        "New York Heart Association (NYHA) functional class",
+        "mean pulmonary arterial pressure (mPAP) at baseline",
+        "cardiac output at baseline",
+        "pulmonary vascular resistance (PVR) at baseline"
+      ]
+    }
+  }
+}

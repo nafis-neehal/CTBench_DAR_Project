@@ -1,0 +1,166 @@
+{
+  "trial_id": "NCT01514292",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type of diabetes management (intensive insulin therapy or non-intensive insulin therapy), frequency of exercise, number of daily fingersticks, skin condition, allergy to medical-grade adhesives, pregnancy status, dialysis status, hematocrit level, participation in other investigational studies, history of cardiovascular disease, history of epilepsy, history of severe migraines, history of adrenal disease, history of syncope, hypoglycemia awareness, history of severe hypoglycemia, presence of chronic infectious diseases, MRI/CT scan/diathermy schedule.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "type of diabetes management (intensive insulin therapy or non-intensive insulin therapy)",
+        "frequency of exercise",
+        "number of daily fingersticks",
+        "skin condition",
+        "allergy to medical-grade adhesives",
+        "pregnancy status",
+        "dialysis status",
+        "hematocrit level",
+        "participation in other investigational studies",
+        "history of cardiovascular disease",
+        "history of epilepsy",
+        "history of severe migraines",
+        "history of adrenal disease",
+        "history of syncope",
+        "hypoglycemia awareness",
+        "history of severe hypoglycemia",
+        "presence of chronic infectious diseases",
+        "MRI/CT scan/diathermy schedule"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Diabetes, Diabetes Management Method (IIT or non-IIT), Frequency of Exercise, Number of Fingersticks per Day, Hematocrit Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Type of Diabetes",
+        "Diabetes Management Method (IIT or non-IIT)",
+        "Frequency of Exercise",
+        "Number of Fingersticks per Day",
+        "Hematocrit Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gender, Diabetes Type, Insulin Therapy, BMI, HbA1c, Diabetes Duration, Blood Pressure, Lipid Profile, History of Cardiovascular Disease,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Male",
+          "Gender"
+        ],
+        [
+          "Categorical",
+          "Diabetes Type"
+        ],
+        [
+          "Categorical",
+          "Insulin Therapy"
+        ],
+        [
+          "Categorical",
+          "History of Cardiovascular Disease"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "HbA1c",
+        "Diabetes Duration",
+        "Blood Pressure",
+        "Lipid Profile"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, diabetes type (type 1 or type 2), diabetes duration, insulin therapy type (intensive or non-intensive), body mass index (BMI), hematocrit, history of cardiovascular disease, history of severe hypoglycemia, exercise routine, acetaminophen use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Male",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "ethnicity (NIH/OMB)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "diabetes type (type 1 or type 2)",
+        "diabetes duration",
+        "insulin therapy type (intensive or non-intensive)",
+        "body mass index (BMI)",
+        "hematocrit",
+        "history of cardiovascular disease",
+        "history of severe hypoglycemia",
+        "exercise routine",
+        "acetaminophen use."
+      ]
+    }
+  }
+}

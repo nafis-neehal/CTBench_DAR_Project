@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT00447057",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, performance status, prior treatment history, baseline tumor size, baseline laboratory values (e.g., hemoglobin, white blood cell count, liver function tests, renal function tests), smoking status, weight, height, comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "performance status"
+        ],
+        [
+          "Smoking status",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Basis for Diagnosis",
+        "Initial Pathological Diagnosis",
+        "Stage of Disease at Study Entry",
+        "Pack-years",
+        "smokers only"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "prior treatment history",
+        "baseline tumor size",
+        "baseline laboratory values (e.g., hemoglobin, white blood cell count, liver function tests, renal function tests)",
+        "weight",
+        "height",
+        "comorbidities"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Performance Status, Previous Treatment Regimen, Bone Marrow Reserve, Renal Function, Hepatic Function,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Basis for Diagnosis",
+        "Initial Pathological Diagnosis",
+        "Stage of Disease at Study Entry",
+        "Smoking status",
+        "Pack-years",
+        "smokers only"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Previous Treatment Regimen",
+        "Bone Marrow Reserve",
+        "Renal Function",
+        "Hepatic Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Histology, Performance Status, Number of Prior Chemotherapy Regimens, Best Response to Prior Chemotherapy, Time Since Last Chemotherapy, ECOG Performance Status, Smoking History, Pack Years of Smoking.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Smoking status",
+          "Smoking History"
+        ],
+        [
+          "Pack-years",
+          "Pack Years of Smoking"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Basis for Diagnosis",
+        "Initial Pathological Diagnosis",
+        "Stage of Disease at Study Entry",
+        "smokers only"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Histology",
+        "Performance Status",
+        "Number of Prior Chemotherapy Regimens",
+        "Best Response to Prior Chemotherapy",
+        "Time Since Last Chemotherapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, performance status, histological subtype of NSCLC, number of prior chemotherapy regimens, time since last chemotherapy, presence of metastases, smoking history, pack-years of smoking, body mass index (BMI), serum biomarkers (e.g. carcinoembryonic antigen (CEA), cytokeratin fragment 21-1 (CYFRA 21-1)), liver and renal function tests, complete blood count (CBC).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "performance status"
+        ],
+        [
+          "Initial Pathological Diagnosis",
+          "histological subtype of NSCLC"
+        ],
+        [
+          "Stage of Disease at Study Entry",
+          "presence of metastases"
+        ],
+        [
+          "Smoking status",
+          "smoking history"
+        ],
+        [
+          "Pack-years",
+          "pack-years of smoking"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Basis for Diagnosis",
+        "smokers only"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "ethnicity",
+        "number of prior chemotherapy regimens",
+        "time since last chemotherapy",
+        "body mass index (BMI)",
+        "serum biomarkers (e.g. carcinoembryonic antigen (CEA), cytokeratin fragment 21-1 (CYFRA 21-1))",
+        "liver and renal function tests",
+        "complete blood count (CBC)"
+      ]
+    }
+  }
+}

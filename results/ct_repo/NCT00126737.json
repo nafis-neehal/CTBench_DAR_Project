@@ -1,0 +1,180 @@
+{
+  "trial_id": "NCT00126737",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Kellgren and Lawrence grade, American Arthritis Association functional class, Baseline pain level, Baseline physical function (WOMAC Function), Baseline mental health status (SF-36v Mental Scale), Baseline physical health status (SF-36v Physical Scale)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "BMI at Baseline",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "WOMAC Function",
+          "Baseline physical function (WOMAC Function)"
+        ],
+        [
+          "36 Items Short Form Survey Instrument (SF-36v) Mental Scale",
+          "Baseline mental health status (SF-36v Mental Scale)"
+        ],
+        [
+          "SF-36v Physical Scale",
+          "Baseline physical health status (SF-36v Physical Scale)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Duration of OA",
+        "Walking Distance",
+        "Stair Total (climb, descend)",
+        "Married"
+      ],
+      "remaining_candidate_features": [
+        "Kellgren and Lawrence grade",
+        "American Arthritis Association functional class",
+        "Baseline pain level"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Kellgren and Lawrence grade, American Arthritis Association functional class, Baseline pain score, Baseline physical function score, Baseline mental health score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI at Baseline",
+          "Body Mass Index"
+        ],
+        [
+          "WOMAC Function",
+          "Baseline physical function score"
+        ],
+        [
+          "36 Items Short Form Survey Instrument (SF-36v) Mental Scale",
+          "Baseline mental health score"
+        ],
+        [
+          "SF-36v Physical Scale",
+          "Baseline pain score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Duration of OA",
+        "Walking Distance",
+        "Stair Total (climb, descend)",
+        "Married"
+      ],
+      "remaining_candidate_features": [
+        "Kellgren and Lawrence grade",
+        "American Arthritis Association functional class"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Body Mass Index, Knee radiographs of Kellgren and Lawrence grade, American Arthritis Association functional class, Pain level, Duration of osteoarthritis, Comorbidities,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI at Baseline",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of OA",
+          "Duration of osteoarthritis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Walking Distance",
+        "WOMAC Function",
+        "36 Items Short Form Survey Instrument (SF-36v) Mental Scale",
+        "SF-36v Physical Scale",
+        "Stair Total (climb, descend)",
+        "Married"
+      ],
+      "remaining_candidate_features": [
+        "Knee radiographs of Kellgren and Lawrence grade",
+        "American Arthritis Association functional class",
+        "Pain level",
+        "Comorbidities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index, American Arthritis Association functional class, Kellgren and Lawrence grade, duration of osteoarthritis, pain severity, physical activity level, comorbidities, medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI at Baseline",
+          "body mass index"
+        ],
+        [
+          "Duration of OA",
+          "duration of osteoarthritis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Walking Distance",
+        "WOMAC Function",
+        "36 Items Short Form Survey Instrument (SF-36v) Mental Scale",
+        "SF-36v Physical Scale",
+        "Stair Total (climb, descend)",
+        "Married"
+      ],
+      "remaining_candidate_features": [
+        "American Arthritis Association functional class",
+        "Kellgren and Lawrence grade",
+        "pain severity",
+        "physical activity level",
+        "comorbidities",
+        "medication use."
+      ]
+    }
+  }
+}

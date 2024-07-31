@@ -1,0 +1,233 @@
+{
+  "trial_id": "NCT01003639",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), duration of IIH diagnosis, visual acuity, perimetric mean deviation (PMD), presence of bilateral papilledema, intraocular pressure, refractive error, use of birth control (for women of child-bearing potential), previous treatments for IIH, comorbid conditions (e.g., obstructive sleep apnea, diabetes), baseline CSF pressure, baseline blood work results (anemia, leukopenia, thrombocytopenia, renal function, hepatic function), history of drug exposure associated with elevated intracranial pressure, smoking status, alcohol use, socioeconomic status, adherence to weight loss counseling program.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Perimetric mean deviation",
+          "perimetric mean deviation (PMD)"
+        ],
+        [
+          "Papilledema grade (fundus photography) Study Eye",
+          "presence of bilateral papilledema"
+        ],
+        [
+          "CSF pressure",
+          "baseline CSF pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Weight change in the past 6 mo",
+        "Transient visual obscurations",
+        "Diplopia",
+        "Constant visual loss",
+        "Photophobia",
+        "Headache",
+        "Pulsatile tinnitus",
+        "Papilledema grade (fundus photography) Fellow eye",
+        "HIT-6 total score",
+        "SF-36 component summary score"
+      ],
+      "remaining_candidate_features": [
+        "duration of IIH diagnosis",
+        "visual acuity",
+        "intraocular pressure",
+        "refractive error",
+        "use of birth control (for women of child-bearing potential)",
+        "previous treatments for IIH",
+        "comorbid conditions (e.g., obstructive sleep apnea, diabetes)",
+        "baseline blood work results (anemia, leukopenia, thrombocytopenia, renal function, hepatic function)",
+        "history of drug exposure associated with elevated intracranial pressure",
+        "smoking status",
+        "alcohol use",
+        "socioeconomic status",
+        "adherence to weight loss counseling program."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Baseline Visual Acuity, Baseline Perimetric Mean Deviation, Presence of Papilledema, Duration of IIH Symptoms,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Perimetric mean deviation",
+          "Baseline Perimetric Mean Deviation"
+        ],
+        [
+          "Papilledema grade (fundus photography) Study Eye",
+          "Presence of Papilledema"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Weight",
+        "Weight change in the past 6 mo",
+        "Transient visual obscurations",
+        "Diplopia",
+        "Constant visual loss",
+        "Photophobia",
+        "Headache",
+        "Pulsatile tinnitus",
+        "Papilledema grade (fundus photography) Fellow eye",
+        "HIT-6 total score",
+        "CSF pressure",
+        "SF-36 component summary score"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Baseline Visual Acuity",
+        "Duration of IIH Symptoms"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Visual Acuity, Perimetric Mean Deviation, Papilledema Grade, Headache Frequency, Headache Severity, CSF Pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Perimetric mean deviation",
+          "Perimetric Mean Deviation"
+        ],
+        [
+          "CSF pressure",
+          "CSF Pressure."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Weight",
+        "Weight change in the past 6 mo",
+        "Transient visual obscurations",
+        "Diplopia",
+        "Constant visual loss",
+        "Photophobia",
+        "Headache",
+        "Pulsatile tinnitus",
+        "Papilledema grade (fundus photography) Study Eye",
+        "Papilledema grade (fundus photography) Fellow eye",
+        "HIT-6 total score",
+        "SF-36 component summary score"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Visual Acuity",
+        "Papilledema Grade",
+        "Headache Frequency",
+        "Headache Severity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, duration of IIH symptoms, presence of headaches, presence of papilledema, visual acuity, refractive error, intraocular pressure, average perimetric mean deviation, presence of other medical conditions, use of concomitant medications, smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index",
+          "body mass index"
+        ],
+        [
+          "Headache",
+          "presence of headaches"
+        ],
+        [
+          "Papilledema grade (fundus photography) Study Eye",
+          "presence of papilledema"
+        ],
+        [
+          "Perimetric mean deviation",
+          "average perimetric mean deviation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Weight change in the past 6 mo",
+        "Transient visual obscurations",
+        "Diplopia",
+        "Constant visual loss",
+        "Photophobia",
+        "Pulsatile tinnitus",
+        "Papilledema grade (fundus photography) Fellow eye",
+        "HIT-6 total score",
+        "CSF pressure",
+        "SF-36 component summary score"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "duration of IIH symptoms",
+        "visual acuity",
+        "refractive error",
+        "intraocular pressure",
+        "presence of other medical conditions",
+        "use of concomitant medications",
+        "smoking status",
+        "alcohol consumption"
+      ]
+    }
+  }
+}

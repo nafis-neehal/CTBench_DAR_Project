@@ -1,0 +1,270 @@
+{
+  "trial_id": "NCT03416127",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, Body Mass Index (BMI), Physical Activity Level, Baseline Fasting Serum Glucose, Baseline 2-Hour Serum Glucose After Oral Glucose Tolerance Test, Baseline Glycated Hemoglobin A1c, Baseline Metabolic Profile, Baseline Areas Under the Curve of Glucose and Insulin, Baseline Insulinogenic Index, Baseline Stumvoll Index, Baseline Matsuda Index",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Fasting serum glucose",
+          "Baseline Fasting Serum Glucose"
+        ],
+        [
+          "2 hours after OGTT",
+          "Baseline 2-Hour Serum Glucose After Oral Glucose Tolerance Test"
+        ],
+        [
+          "Glycosylated Hemoglobin (A1C)",
+          "Baseline Glycated Hemoglobin A1c"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Total insulin secretion",
+        "Insulin sensitivity",
+        "First phase of insulin secretion",
+        "AUC glucose",
+        "AUC insulin",
+        "Glucose 30 min after oral glucose tolerance test",
+        "Glucose 60 min after oral glucose tolerance test",
+        "Glucose 90 min after oral glucose tolerance test",
+        "Waist circumference",
+        "Body weight",
+        "Percentage of fat mass",
+        "Total cholesterol",
+        "Triglycerides",
+        "High Density Lipoprotein cholesterol (c-HDL)",
+        "Low-Density Lipoproteins-cholesterol (c-LDL)",
+        "Very low density lipoprotein (VLDL)",
+        "Creatinine",
+        "Uric acid",
+        "Systolic blood pressure",
+        "Diastolic blood pressure"
+      ],
+      "remaining_candidate_features": [
+        "Physical Activity Level",
+        "Baseline Metabolic Profile",
+        "Baseline Areas Under the Curve of Glucose and Insulin",
+        "Baseline Insulinogenic Index",
+        "Baseline Stumvoll Index",
+        "Baseline Matsuda Index"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Fasting Serum Glucose, 2-hour Serum Glucose After Oral Glucose Tolerance Test, Glycated Hemoglobin (A1C), Triglycerides, Total Cholesterol, Physical Activity Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting serum glucose",
+          "Fasting Serum Glucose"
+        ],
+        [
+          "2 hours after OGTT",
+          "2-hour Serum Glucose After Oral Glucose Tolerance Test"
+        ],
+        [
+          "Glycosylated Hemoglobin (A1C)",
+          "Glycated Hemoglobin (A1C)"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "Total cholesterol",
+          "Total Cholesterol"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Total insulin secretion",
+        "Insulin sensitivity",
+        "First phase of insulin secretion",
+        "AUC glucose",
+        "AUC insulin",
+        "Glucose 30 min after oral glucose tolerance test",
+        "Glucose 60 min after oral glucose tolerance test",
+        "Glucose 90 min after oral glucose tolerance test",
+        "Waist circumference",
+        "Body weight",
+        "Percentage of fat mass",
+        "High Density Lipoprotein cholesterol (c-HDL)",
+        "Low-Density Lipoproteins-cholesterol (c-LDL)",
+        "Very low density lipoprotein (VLDL)",
+        "Creatinine",
+        "Uric acid",
+        "Systolic blood pressure",
+        "Diastolic blood pressure"
+      ],
+      "remaining_candidate_features": [
+        "Physical Activity Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Diabetes duration, Fasting serum glucose, 2-h serum glucose after oral glucose tolerance test, Glycated hemoglobin A1c, Triglycerides, Total cholesterol.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Fasting serum glucose",
+          "Fasting serum glucose"
+        ],
+        [
+          "2 hours after OGTT",
+          "2-h serum glucose after oral glucose tolerance test"
+        ],
+        [
+          "Glycosylated Hemoglobin (A1C)",
+          "Glycated hemoglobin A1c"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "Total cholesterol",
+          "Total cholesterol"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Total insulin secretion",
+        "Insulin sensitivity",
+        "First phase of insulin secretion",
+        "AUC glucose",
+        "AUC insulin",
+        "Glucose 30 min after oral glucose tolerance test",
+        "Glucose 60 min after oral glucose tolerance test",
+        "Glucose 90 min after oral glucose tolerance test",
+        "Waist circumference",
+        "Body weight",
+        "Percentage of fat mass",
+        "High Density Lipoprotein cholesterol (c-HDL)",
+        "Low-Density Lipoproteins-cholesterol (c-LDL)",
+        "Very low density lipoprotein (VLDL)",
+        "Creatinine",
+        "Uric acid",
+        "Systolic blood pressure",
+        "Diastolic blood pressure"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), physical activity level, duration of diabetes, fasting blood glucose levels, postprandial blood glucose levels, triglycerides, total cholesterol, history of allergies, history of bee sting allergy, history of hypersensitivity to ingredients of intervention.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Fasting serum glucose",
+          "fasting blood glucose levels"
+        ],
+        [
+          "2 hours after OGTT",
+          "postprandial blood glucose levels"
+        ],
+        [
+          "Triglycerides",
+          "triglycerides"
+        ],
+        [
+          "Total cholesterol",
+          "total cholesterol"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Glycosylated Hemoglobin (A1C)",
+        "Total insulin secretion",
+        "Insulin sensitivity",
+        "First phase of insulin secretion",
+        "AUC glucose",
+        "AUC insulin",
+        "Glucose 30 min after oral glucose tolerance test",
+        "Glucose 60 min after oral glucose tolerance test",
+        "Glucose 90 min after oral glucose tolerance test",
+        "Waist circumference",
+        "Body weight",
+        "Percentage of fat mass",
+        "High Density Lipoprotein cholesterol (c-HDL)",
+        "Low-Density Lipoproteins-cholesterol (c-LDL)",
+        "Very low density lipoprotein (VLDL)",
+        "Creatinine",
+        "Uric acid",
+        "Systolic blood pressure",
+        "Diastolic blood pressure"
+      ],
+      "remaining_candidate_features": [
+        "physical activity level",
+        "duration of diabetes",
+        "history of allergies",
+        "history of bee sting allergy",
+        "history of hypersensitivity to ingredients of intervention."
+      ]
+    }
+  }
+}

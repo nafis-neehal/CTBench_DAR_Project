@@ -1,0 +1,201 @@
+{
+  "trial_id": "NCT02698891",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, stage of breast cancer, absolute neutrophil count (ANC), hemoglobin level, platelet count, total bilirubin level, aspartate aminotransferase (AST) level, alanine aminotransferase (ALT) level, alkaline phosphatase level, serum creatinine level, pregnancy status, hepatitis B and C status, history of prior chemotherapy or radiation therapy, history of fever and neutropenia, use of lithium, use of chronic oral steroids or immunosuppressive agents, HIV status, history of hematologic disease, history of allergic reactions to Paclitaxel, pregnancy or breastfeeding status, presence of uncontrolled intercurrent illness.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "ECOG PS at baseline",
+          "ECOG performance status"
+        ],
+        [
+          "Stage at initial diagnosis",
+          "stage of breast cancer"
+        ],
+        [
+          "Menopausal status",
+          "pregnancy status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Surface Area",
+        "Race",
+        "Ethnicity",
+        "Histology",
+        "Hormone receptor status",
+        "chemotherapy setting"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "absolute neutrophil count (ANC)",
+        "hemoglobin level",
+        "platelet count",
+        "total bilirubin level",
+        "aspartate aminotransferase (AST) level",
+        "alanine aminotransferase (ALT) level",
+        "alkaline phosphatase level",
+        "serum creatinine level",
+        "hepatitis B and C status",
+        "history of prior chemotherapy or radiation therapy",
+        "history of fever and neutropenia",
+        "use of lithium",
+        "use of chronic oral steroids or immunosuppressive agents",
+        "HIV status",
+        "history of hematologic disease",
+        "history of allergic reactions to Paclitaxel",
+        "pregnancy or breastfeeding status",
+        "presence of uncontrolled intercurrent illness"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, ECOG performance status, Stage of breast cancer, Absolute neutrophil count (ANC), Hemoglobin, Platelets, Total bilirubin, Aspartate aminotransferase (AST), Alanine aminotransferase (ALT), Alkaline phosphatase, Serum creatinine, Hepatitis B/C status, History of allergic reactions to similar compounds, History of hematologic disease, Prior chemotherapy or radiation therapy, Use of investigational agents, Use of immunosuppressive agents, HIV status, Pregnancy status, History of intercurrent illness.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "ECOG PS at baseline",
+          "ECOG performance status"
+        ],
+        [
+          "Stage at initial diagnosis",
+          "Stage of breast cancer"
+        ],
+        [
+          "Menopausal status",
+          "Pregnancy status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Surface Area",
+        "Race",
+        "Ethnicity",
+        "Histology",
+        "Hormone receptor status",
+        "chemotherapy setting"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Race",
+        "Absolute neutrophil count (ANC)",
+        "Hemoglobin",
+        "Platelets",
+        "Total bilirubin",
+        "Aspartate aminotransferase (AST)",
+        "Alanine aminotransferase (ALT)",
+        "Alkaline phosphatase",
+        "Serum creatinine",
+        "Hepatitis B/C status",
+        "History of allergic reactions to similar compounds",
+        "History of hematologic disease",
+        "Prior chemotherapy or radiation therapy",
+        "Use of investigational agents",
+        "Use of immunosuppressive agents",
+        "HIV status",
+        "History of intercurrent illness"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, BMI, ECOG performance status, Menopausal status, Breast cancer stage, Histological grade, ER/PR/HER2 status, Prior chemotherapy or radiation therapy, Laboratory values (ANC, Hemoglobin, Platelets, Total bilirubin, AST, ALT, Alkaline phosphatase, Serum creatinine).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "ECOG PS at baseline",
+          "ECOG performance status"
+        ],
+        [
+          "Menopausal status",
+          "Menopausal status"
+        ],
+        [
+          "Stage at initial diagnosis",
+          "Breast cancer stage"
+        ],
+        [
+          "Histology",
+          "Histological grade"
+        ],
+        [
+          "Hormone receptor status",
+          "ER/PR/HER2 status"
+        ],
+        [
+          "chemotherapy setting",
+          "Prior chemotherapy or radiation therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Surface Area",
+        "Race",
+        "Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Ethnic Origin",
+        "BMI",
+        "Laboratory values (ANC, Hemoglobin, Platelets, Total bilirubin, AST, ALT, Alkaline phosphatase, Serum creatinine)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, breast cancer stage, tumor size, tumor grade, hormone receptor status, HER2 status, menopausal status, prior chemotherapy or hormonal therapy, laboratory values (hemoglobin, absolute neutrophil count, platelets, total bilirubin, AST, ALT, alkaline phosphatase, serum creatinine).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "ECOG PS at baseline",
+          "ECOG performance status"
+        ],
+        [
+          "Menopausal status",
+          "menopausal status"
+        ],
+        [
+          "Stage at initial diagnosis",
+          "breast cancer stage"
+        ],
+        [
+          "Hormone receptor status",
+          "hormone receptor status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Surface Area",
+        "Histology",
+        "chemotherapy setting"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "tumor size",
+        "tumor grade",
+        "HER2 status",
+        "prior chemotherapy or hormonal therapy",
+        "laboratory values (hemoglobin, absolute neutrophil count, platelets, total bilirubin, AST, ALT, alkaline phosphatase, serum creatinine)."
+      ]
+    }
+  }
+}

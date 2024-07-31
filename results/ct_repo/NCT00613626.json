@@ -1,0 +1,193 @@
+{
+  "trial_id": "NCT00613626",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, baseline potassium levels, baseline calcium levels, baseline magnesium levels, ECOG performance status, presence of measurable disease, prior malignancy history, baseline blood pressure, baseline QTc interval, smoking status, baseline weight, baseline height, baseline body mass index (BMI), baseline hemoglobin levels, baseline white blood cell count, baseline platelet count, baseline liver function tests (AST, ALT, bilirubin), baseline renal function (creatinine, BUN).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Liver Metastases",
+        "Brain Metastases",
+        "Platinum Therapy"
+      ],
+      "remaining_candidate_features": [
+        "baseline potassium levels",
+        "baseline calcium levels",
+        "baseline magnesium levels",
+        "presence of measurable disease",
+        "prior malignancy history",
+        "baseline blood pressure",
+        "baseline QTc interval",
+        "smoking status",
+        "baseline weight",
+        "baseline height",
+        "baseline body mass index (BMI)",
+        "baseline hemoglobin levels",
+        "baseline white blood cell count",
+        "baseline platelet count",
+        "baseline liver function tests (AST, ALT, bilirubin)",
+        "baseline renal function (creatinine, BUN)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Potassium Levels, Baseline Calcium Levels, Baseline Magnesium Levels, Baseline QTc Interval, Baseline Blood Pressure, Smoking Status, Prior Malignancy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "ECOG Performance Status",
+        "Liver Metastases",
+        "Brain Metastases",
+        "Platinum Therapy"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline Potassium Levels",
+        "Baseline Calcium Levels",
+        "Baseline Magnesium Levels",
+        "Baseline QTc Interval",
+        "Baseline Blood Pressure",
+        "Smoking Status",
+        "Prior Malignancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology, Extent of Disease, Prior Chemotherapy, Prior Radiotherapy, Prior Surgery, Baseline Hemoglobin, Baseline White Blood Cell Count, Baseline Platelet Count, Baseline Creatinine, Baseline Bilirubin, Baseline Albumin, Baseline LDH, Baseline Alkaline Phosphatase.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Liver Metastases",
+        "Brain Metastases",
+        "Platinum Therapy"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Histology",
+        "Extent of Disease",
+        "Prior Chemotherapy",
+        "Prior Radiotherapy",
+        "Prior Surgery",
+        "Baseline Hemoglobin",
+        "Baseline White Blood Cell Count",
+        "Baseline Platelet Count",
+        "Baseline Creatinine",
+        "Baseline Bilirubin",
+        "Baseline Albumin",
+        "Baseline LDH",
+        "Baseline Alkaline Phosphatase"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, performance status, smoking history, histological subtype, disease stage, number and location of metastases, prior therapies, potassium level, calcium level, magnesium level, QTc interval, systolic and diastolic blood pressure, VEGF level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "ECOG Performance Status",
+          "performance status"
+        ],
+        [
+          "Brain Metastases",
+          "number and location of metastases"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Liver Metastases",
+        "Platinum Therapy"
+      ],
+      "remaining_candidate_features": [
+        "smoking history",
+        "histological subtype",
+        "disease stage",
+        "prior therapies",
+        "potassium level",
+        "calcium level",
+        "magnesium level",
+        "QTc interval",
+        "systolic and diastolic blood pressure",
+        "VEGF level."
+      ]
+    }
+  }
+}

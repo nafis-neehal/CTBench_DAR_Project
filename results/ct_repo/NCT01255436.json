@@ -1,0 +1,152 @@
+{
+  "trial_id": "NCT01255436",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Duration of Hypertension, Number of Antihypertensive Medications, Mobile Phone Access, Living Situation (with someone who can read text messages), Medication Adherence at Baseline, Participation in Other Studies, Presence of Clinical Conditions (dementia, psychological disorder)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "Time in years since diagnosis of hypertension",
+          "Duration of Hypertension"
+        ],
+        [
+          "Number of prescribed drugs for hypertension",
+          "Number of Antihypertensive Medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Employment Status",
+        "Educational Attainment",
+        "Number of prescribed maintenance medications"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Systolic Blood Pressure",
+        "Baseline Diastolic Blood Pressure",
+        "Mobile Phone Access",
+        "Living Situation (with someone who can read text messages)",
+        "Medication Adherence at Baseline",
+        "Participation in Other Studies",
+        "Presence of Clinical Conditions (dementia, psychological disorder)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of Hypertension, Medication Adherence, Mobile Phone Access,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex: Female"
+        ],
+        [
+          "Time in years since diagnosis of hypertension",
+          "Duration of Hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Employment Status",
+        "Educational Attainment",
+        "Number of prescribed drugs for hypertension",
+        "Number of prescribed maintenance medications"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Medication Adherence",
+        "Mobile Phone Access"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Hypertension Duration, Number of Antihypertensive Medications, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, Smoking Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex: Female"
+        ],
+        [
+          "Time in years since diagnosis of hypertension",
+          "Hypertension Duration"
+        ],
+        [
+          "Number of prescribed drugs for hypertension",
+          "Number of Antihypertensive Medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Employment Status",
+        "Educational Attainment",
+        "Number of prescribed maintenance medications"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Body Mass Index",
+        "Smoking Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index, systolic blood pressure at baseline, diastolic blood pressure at baseline, duration of hypertension, number of antihypertensive medications, type of antihypertensive medications, smoking status, presence of comorbidities (diabetes, dyslipidemia, cardiovascular disease), education level, occupation, household income.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "Educational Attainment",
+          "education level"
+        ],
+        [
+          "Time in years since diagnosis of hypertension",
+          "duration of hypertension"
+        ],
+        [
+          "Number of prescribed drugs for hypertension",
+          "number of antihypertensive medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Employment Status",
+        "Number of prescribed maintenance medications"
+      ],
+      "remaining_candidate_features": [
+        "body mass index",
+        "systolic blood pressure at baseline",
+        "diastolic blood pressure at baseline",
+        "type of antihypertensive medications",
+        "smoking status",
+        "presence of comorbidities (diabetes, dyslipidemia, cardiovascular disease)",
+        "occupation",
+        "household income"
+      ]
+    }
+  }
+}

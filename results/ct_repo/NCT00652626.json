@@ -1,0 +1,209 @@
+{
+  "trial_id": "NCT00652626",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, diagnosis (MDS, AML, solid tumors, multiple myeloma, non-Hodgkin's lymphoma, Hodgkin's disease), ECOG performance status, life expectancy, renal function (creatinine clearance), hemoglobin levels, absolute neutrophil count, platelet count, total bilirubin levels, aspartate aminotransferase (AST) levels, alanine transaminase (ALT) levels, serum bicarbonate levels, smoking status, prior treatments (chemotherapy, radiotherapy, investigational agents), history of brain metastases, presence of clinically significant ECG findings, presence of uncontrolled intercurrent illness, HIV status, hepatitis B or C status, presence of advanced malignant hepatic tumors, end-stage renal disease status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "gender"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status: Initial Treatment Phase",
+          "ECOG performance status"
+        ],
+        [
+          "Cancer Diagnosis: Initial Treatment Phase",
+          "diagnosis (MDS, AML, solid tumors, multiple myeloma, non-Hodgkin's lymphoma, Hodgkin's disease)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Gender of Extension Period Participants",
+        "Race: Extension Phase",
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status: Extension Phase",
+        "Body Surface Area (BSA)",
+        "Cancer Diagnosis: Extension Phase"
+      ],
+      "remaining_candidate_features": [
+        "life expectancy",
+        "renal function (creatinine clearance)",
+        "hemoglobin levels",
+        "absolute neutrophil count",
+        "platelet count",
+        "total bilirubin levels",
+        "aspartate aminotransferase (AST) levels",
+        "alanine transaminase (ALT) levels",
+        "serum bicarbonate levels",
+        "smoking status",
+        "prior treatments (chemotherapy, radiotherapy, investigational agents)",
+        "history of brain metastases",
+        "presence of clinically significant ECG findings",
+        "presence of uncontrolled intercurrent illness",
+        "HIV status",
+        "hepatitis B or C status",
+        "presence of advanced malignant hepatic tumors",
+        "end-stage renal disease status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis (MDS, AML, Solid Tumors, Multiple Myeloma, Non-Hodgkin's Lymphoma, Hodgkin's Disease), ECOG Performance Status, Hemoglobin, Absolute Neutrophil Count, Platelets, Total Bilirubin, Aspartate Aminotransferase (AST), Alanine Transaminase (ALT), Serum Bicarbonate, Creatinine Clearance, 12-lead Electrocardiogram (ECG) Results, Smoking Status, Contraceptive Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status: Initial Treatment Phase",
+          "ECOG Performance Status"
+        ],
+        [
+          "Cancer Diagnosis: Initial Treatment Phase",
+          "Diagnosis (MDS, AML, Solid Tumors, Multiple Myeloma, Non-Hodgkin's Lymphoma, Hodgkin's Disease)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Gender of Extension Period Participants",
+        "Race: Extension Phase",
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status: Extension Phase",
+        "Body Surface Area (BSA)",
+        "Cancer Diagnosis: Extension Phase"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Hemoglobin",
+        "Absolute Neutrophil Count",
+        "Platelets",
+        "Total Bilirubin",
+        "Aspartate Aminotransferase (AST)",
+        "Alanine Transaminase (ALT)",
+        "Serum Bicarbonate",
+        "Creatinine Clearance",
+        "12-lead Electrocardiogram (ECG) Results",
+        "Smoking Status",
+        "Contraceptive Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, ECOG Performance Status, Hemoglobin, Absolute Neutrophil Count, Platelets, Total Bilirubin, Aspartate Aminotransferase, Alanine Transaminase, Serum Bicarbonate, Creatinine Clearance, Cancer Diagnosis, Prior Chemotherapy, Prior Radiotherapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status: Initial Treatment Phase",
+          "ECOG Performance Status"
+        ],
+        [
+          "Cancer Diagnosis: Initial Treatment Phase",
+          "Cancer Diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Gender of Extension Period Participants",
+        "Race: Extension Phase",
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status: Extension Phase",
+        "Body Surface Area (BSA)",
+        "Cancer Diagnosis: Extension Phase"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Body Mass Index",
+        "Hemoglobin",
+        "Absolute Neutrophil Count",
+        "Platelets",
+        "Total Bilirubin",
+        "Aspartate Aminotransferase",
+        "Alanine Transaminase",
+        "Serum Bicarbonate",
+        "Creatinine Clearance",
+        "Prior Chemotherapy",
+        "Prior Radiotherapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, weight, height, body mass index (BMI), ECOG performance status, diagnosis (MDS, AML, solid tumors, multiple myeloma, non-Hodgkin's lymphoma, Hodgkin's disease), creatinine clearance, hemoglobin, absolute neutrophil count, platelets, total bilirubin, AST, ALT, serum bicarbonate, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status: Initial Treatment Phase",
+          "ECOG performance status"
+        ],
+        [
+          "Cancer Diagnosis: Initial Treatment Phase",
+          "diagnosis (MDS, AML, solid tumors, multiple myeloma, non-Hodgkin's lymphoma, Hodgkin's disease)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Gender of Extension Period Participants",
+        "Race: Extension Phase",
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status: Extension Phase",
+        "Body Surface Area (BSA)",
+        "Cancer Diagnosis: Extension Phase"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "creatinine clearance",
+        "hemoglobin",
+        "absolute neutrophil count",
+        "platelets",
+        "total bilirubin",
+        "AST",
+        "ALT",
+        "serum bicarbonate",
+        "smoking status"
+      ]
+    }
+  }
+}

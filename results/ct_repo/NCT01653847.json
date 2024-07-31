@@ -1,0 +1,204 @@
+{
+  "trial_id": "NCT01653847",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ethnic background, type of organ recipient, ability to provide informed consent, donor type, panel reactive antibody (PRA) level, history of focal segmental glomerulonephritis (FSGS), presence of significant or active infection, pregnancy or nursing status, history of severe hyperlipidemia, cholesterol level, platelet count, white blood cell (WBC) count, presence of other significant surgical, medical, or psychiatric conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnic background"
+        ],
+        [
+          "Cause of End Stage Renal Disease",
+          "history of focal segmental glomerulonephritis (FSGS)"
+        ],
+        [
+          "Pre-Emptive Transplant (Prior to Dialysis)",
+          "type of organ recipient"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Induction Therapy History"
+      ],
+      "remaining_candidate_features": [
+        "ability to provide informed consent",
+        "donor type",
+        "panel reactive antibody (PRA) level",
+        "presence of significant or active infection",
+        "pregnancy or nursing status",
+        "history of severe hyperlipidemia",
+        "cholesterol level",
+        "platelet count",
+        "white blood cell (WBC) count",
+        "presence of other significant surgical",
+        "medical",
+        "or psychiatric conditions."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Glomerular Filtration Rate (GFR), Panel Reactive Antibody (PRA) Level, Platelet Count, White Blood Cell (WBC) Count, Cholesterol Levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Panel Reactive Antibody (PRA) Level",
+          "Panel Reactive Antibody (PRA) Level"
+        ],
+        [
+          "Platelet Count",
+          "Platelet Count"
+        ],
+        [
+          "White Blood Cell (WBC) Count",
+          "White Blood Cell (WBC) Count"
+        ],
+        [
+          "Cause of End Stage Renal Disease",
+          "Baseline Glomerular Filtration Rate (GFR)"
+        ],
+        [
+          "Cholesterol Levels",
+          "Cholesterol Levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Pre-Emptive Transplant (Prior to Dialysis)",
+        "Induction Therapy History"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity (NIH/OMB), Region of Enrollment, Body Mass Index, History of Diabetes, History of Hypertension, History of Cardiovascular Disease, Serum Creatinine, Estimated Glomerular Filtration Rate (eGFR), Panel Reactive Antibody (PRA), Donor Type (Living or Deceased), Cold Ischemia Time, Warm Ischemia Time.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Panel Reactive Antibody (PRA)",
+          "Panel Reactive Antibody (PRA)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Pre-Emptive Transplant (Prior to Dialysis)",
+        "Cause of End Stage Renal Disease",
+        "Induction Therapy History"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "History of Diabetes",
+        "History of Hypertension",
+        "History of Cardiovascular Disease",
+        "Serum Creatinine",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "Donor Type (Living or Deceased)",
+        "Cold Ischemia Time",
+        "Warm Ischemia Time"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, gender, ethnicity, weight, height, body mass index (BMI), serum creatinine, estimated glomerular filtration rate (eGFR), panel reactive antibody (PRA), platelet count, white blood cell (WBC) count, cholesterol level, history of hyperlipidemia, history of infection, history of surgical/medical/psychiatric condition.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "panel reactive antibody (PRA)",
+          "panel reactive antibody (PRA)"
+        ],
+        [
+          "white blood cell (WBC) count",
+          "white blood cell (WBC) count"
+        ],
+        [
+          "platelet count",
+          "platelet count"
+        ],
+        [
+          "history of hyperlipidemia",
+          "history of hyperlipidemia"
+        ],
+        [
+          "history of infection",
+          "history of infection"
+        ],
+        [
+          "history of surgical/medical/psychiatric condition.",
+          "history of surgical/medical/psychiatric condition."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Pre-Emptive Transplant (Prior to Dialysis)",
+        "Cause of End Stage Renal Disease",
+        "Induction Therapy History"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "serum creatinine",
+        "estimated glomerular filtration rate (eGFR)",
+        "cholesterol level"
+      ]
+    }
+  }
+}

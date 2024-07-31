@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT02981069",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, BMI, HbA1c, fasting plasma glucose, duration of diabetes, blood pressure, lipid profile (total cholesterol, LDL-C, HDL-C, triglycerides), renal function (serum creatinine, eGFR), liver function tests (AST, ALT), medication use (metformin, sulfonylurea), physical exam findings, medical history, smoking status, alcohol consumption, physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "blood pressure",
+          "blood pressure"
+        ],
+        [
+          "lipid profile (total cholesterol, LDL-C, HDL-C, triglycerides)",
+          "lipid profile (total cholesterol, LDL-C, HDL-C, triglycerides)"
+        ],
+        [
+          "renal function (serum creatinine, eGFR)",
+          "renal function (serum creatinine, eGFR)"
+        ],
+        [
+          "liver function tests (AST, ALT)",
+          "liver function tests (AST, ALT)"
+        ],
+        [
+          "medication use (metformin, sulfonylurea)",
+          "medication use (metformin, sulfonylurea)"
+        ],
+        [
+          "physical exam findings",
+          "physical exam findings"
+        ],
+        [
+          "medical history",
+          "medical history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose",
+        "duration of diabetes",
+        "smoking status",
+        "alcohol consumption",
+        "physical activity level."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, HbA1c, Fasting Plasma Glucose, Blood Pressure, Cholesterol, Triglycerides, Duration of Diabetes, Baseline Medication Use, Renal Function (eGFR), Liver Function Tests (AST, ALT),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "HbA1c",
+        "Fasting Plasma Glucose",
+        "Blood Pressure",
+        "Cholesterol",
+        "Triglycerides",
+        "Duration of Diabetes",
+        "Baseline Medication Use",
+        "Renal Function (eGFR)",
+        "Liver Function Tests (AST, ALT)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, HbA1c, Diabetes Duration, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, eGFR, Region of Enrollment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "HbA1c",
+        "Diabetes Duration",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "eGFR"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, BMI, HbA1c, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, heart rate, weight, height, waist circumference, hip circumference, body fat percentage, smoking status, medical history (diabetes duration, hypertension, dyslipidemia, cardiovascular disease), medication use (metformin, sulfonylurea, anti-hypertensive, lipid-lowering), physical activity level, dietary habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "HbA1c",
+        "fasting plasma glucose",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "weight",
+        "height",
+        "waist circumference",
+        "hip circumference",
+        "body fat percentage",
+        "smoking status",
+        "medical history (diabetes duration, hypertension, dyslipidemia, cardiovascular disease)",
+        "medication use (metformin, sulfonylurea, anti-hypertensive, lipid-lowering)",
+        "physical activity level",
+        "dietary habits."
+      ]
+    }
+  }
+}

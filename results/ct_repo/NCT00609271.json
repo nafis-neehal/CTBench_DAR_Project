@@ -1,0 +1,339 @@
+{
+  "trial_id": "NCT00609271",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race/ethnicity, BMI, blood pressure, body weight, body fat percentage, waist circumference, LDL cholesterol, HDL cholesterol, total cholesterol, triglycerides, plasma glucose, serum insulin, adiponectin, leptin, resistin, C-reactive protein, serum creatinine, alcohol consumption, current medication use, medical history, smoking status, physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "body weight",
+          "body weight"
+        ],
+        [
+          "body composition",
+          "body fat percentage"
+        ],
+        [
+          "body mass index",
+          "BMI"
+        ],
+        [
+          "waist circumference",
+          "waist circumference"
+        ],
+        [
+          "systolic blood pressure",
+          "blood pressure"
+        ],
+        [
+          "diastolic blood pressure",
+          "blood pressure"
+        ],
+        [
+          "total cholesterol",
+          "total cholesterol"
+        ],
+        [
+          "LDL cholesterol",
+          "LDL cholesterol"
+        ],
+        [
+          "HDL cholesterol",
+          "HDL cholesterol"
+        ],
+        [
+          "triglycerides",
+          "triglycerides"
+        ],
+        [
+          "plasma glucose",
+          "plasma glucose"
+        ],
+        [
+          "serum insulin",
+          "serum insulin"
+        ],
+        [
+          "serum creatinine",
+          "serum creatinine"
+        ],
+        [
+          "C-reactive protein",
+          "C-reactive protein"
+        ],
+        [
+          "Physical activity level",
+          "physical activity level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "total-HDL cholesterol ratio",
+        "Medication use",
+        "Framingham risk percent"
+      ],
+      "remaining_candidate_features": [
+        "adiponectin",
+        "leptin",
+        "resistin",
+        "alcohol consumption",
+        "current medication use",
+        "medical history",
+        "smoking status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Lipids, Plasma Glucose, Insulin, Adiponectin, Leptin, Resistin, C-reactive Protein, Waist Circumference, Total Body Fat, Lean Mass, 10-year Framingham Risk Score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "plasma glucose",
+          "Plasma Glucose"
+        ],
+        [
+          "serum insulin",
+          "Insulin"
+        ],
+        [
+          "C-reactive protein",
+          "C-reactive Protein"
+        ],
+        [
+          "waist circumference",
+          "Waist Circumference"
+        ],
+        [
+          "Framingham risk percent",
+          "10-year Framingham Risk Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "body weight",
+        "body composition",
+        "total cholesterol",
+        "LDL cholesterol",
+        "HDL cholesterol",
+        "total-HDL cholesterol ratio",
+        "triglycerides",
+        "serum creatinine",
+        "Medication use",
+        "Physical activity level"
+      ],
+      "remaining_candidate_features": [
+        "Serum Lipids",
+        "Adiponectin",
+        "Leptin",
+        "Resistin",
+        "Total Body Fat",
+        "Lean Mass"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, LDL Cholesterol, HDL Cholesterol, Triglycerides, Fasting Plasma Glucose, Serum Insulin, C-reactive Protein, Waist Circumference, Lean Mass, Fat Mass.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "total cholesterol",
+          "Total Cholesterol"
+        ],
+        [
+          "LDL cholesterol",
+          "LDL Cholesterol"
+        ],
+        [
+          "HDL cholesterol",
+          "HDL Cholesterol"
+        ],
+        [
+          "triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "plasma glucose",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "serum insulin",
+          "Serum Insulin"
+        ],
+        [
+          "C-reactive protein",
+          "C-reactive Protein"
+        ],
+        [
+          "waist circumference",
+          "Waist Circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "body weight",
+        "body composition",
+        "total-HDL cholesterol ratio",
+        "serum creatinine",
+        "Medication use",
+        "Physical activity level",
+        "Framingham risk percent"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Lean Mass",
+        "Fat Mass"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race/ethnicity, BMI, body weight, height, waist circumference, systolic and diastolic BP, total percent body fat, serum lipids (LDL-cholesterol, HDL-cholesterol, triglycerides), plasma glucose, insulin, adipocytokines (adiponectin, leptin, resistin), C-reactive protein, medical history (CVD, diabetes, renal disease, cancer, osteoporosis, thyroid disease, gout), medication use (antihypertensive, cholesterol-lowering), smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "body weight",
+          "body weight"
+        ],
+        [
+          "body mass index",
+          "BMI"
+        ],
+        [
+          "waist circumference",
+          "waist circumference"
+        ],
+        [
+          "systolic blood pressure",
+          "systolic and diastolic BP"
+        ],
+        [
+          "diastolic blood pressure",
+          "systolic and diastolic BP"
+        ],
+        [
+          "total cholesterol",
+          "serum lipids (LDL-cholesterol, HDL-cholesterol, triglycerides)"
+        ],
+        [
+          "LDL cholesterol",
+          "serum lipids (LDL-cholesterol, HDL-cholesterol, triglycerides)"
+        ],
+        [
+          "HDL cholesterol",
+          "serum lipids (LDL-cholesterol, HDL-cholesterol, triglycerides)"
+        ],
+        [
+          "triglycerides",
+          "serum lipids (LDL-cholesterol, HDL-cholesterol, triglycerides)"
+        ],
+        [
+          "plasma glucose",
+          "plasma glucose"
+        ],
+        [
+          "serum insulin",
+          "insulin"
+        ],
+        [
+          "C-reactive protein",
+          "C-reactive protein"
+        ],
+        [
+          "Medication use",
+          "medication use (antihypertensive, cholesterol-lowering)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "body composition",
+        "total-HDL cholesterol ratio",
+        "serum creatinine",
+        "Physical activity level",
+        "Framingham risk percent"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "height",
+        "total percent body fat",
+        "adipocytokines (adiponectin, leptin, resistin)",
+        "medical history (CVD, diabetes, renal disease, cancer, osteoporosis, thyroid disease, gout)",
+        "smoking status",
+        "alcohol consumption"
+      ]
+    }
+  }
+}

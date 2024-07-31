@@ -1,0 +1,162 @@
+{
+  "trial_id": "NCT01757847",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, baseline binge eating frequency, baseline distress levels, baseline functioning levels, weight, attendance rate of MOVE! program sessions, medical history, psychiatric history, current medications, history of substance abuse, history of suicidal ideation or attempts, previous treatments for weight management or binge eating, baseline physical activity levels, baseline dietary habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Binge Eating Scale",
+          "baseline binge eating frequency"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "BMI",
+        "baseline distress levels",
+        "baseline functioning levels",
+        "weight",
+        "attendance rate of MOVE! program sessions",
+        "medical history",
+        "psychiatric history",
+        "current medications",
+        "history of substance abuse",
+        "history of suicidal ideation or attempts",
+        "previous treatments for weight management or binge eating",
+        "baseline physical activity levels",
+        "baseline dietary habits"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Attendance of MOVE! sessions, Baseline Binge Eating Scale (BES) score, Systolic Blood Pressure, Diastolic Blood Pressure, History of psychiatric illness, History of substance abuse,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Binge Eating Scale",
+          "Baseline Binge Eating Scale (BES) score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Attendance of MOVE! sessions",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of psychiatric illness",
+        "History of substance abuse"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Binge Eating Scale (BES), MOVE! program attendance, Weight loss,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Binge Eating Scale",
+          "Binge Eating Scale (BES)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "MOVE! program attendance",
+        "Weight loss"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, weight, height, diagnosis of binge eating disorder, duration of binge eating disorder, number of binge eating episodes per week, MOVE! program attendance, medical comorbidities, psychiatric comorbidities, current medications, history of suicide attempts, history of psychotherapy for weight management or binge eating.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Binge Eating Scale",
+          "number of binge eating episodes per week"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "weight",
+        "height",
+        "diagnosis of binge eating disorder",
+        "duration of binge eating disorder",
+        "MOVE! program attendance",
+        "medical comorbidities",
+        "psychiatric comorbidities",
+        "current medications",
+        "history of suicide attempts",
+        "history of psychotherapy for weight management or binge eating."
+      ]
+    }
+  }
+}

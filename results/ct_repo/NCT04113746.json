@@ -1,0 +1,169 @@
+{
+  "trial_id": "NCT04113746",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Asthma Control Questionnaire (ACQ) score, Gender, Smoking history, Diagnosis of dementia, Diagnosis of chronic obstructive pulmonary disease (COPD) or other chronic respiratory illness, Language spoken",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Language",
+          "Language spoken"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Marital Status",
+        "Monthly Income",
+        "Education",
+        "Insurance"
+      ],
+      "remaining_candidate_features": [
+        "Asthma Control Questionnaire (ACQ) score",
+        "Gender",
+        "Smoking history",
+        "Diagnosis of dementia",
+        "Diagnosis of chronic obstructive pulmonary disease (COPD) or other chronic respiratory illness"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Asthma Control Questionnaire (ACQ) score, Smoking history,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Marital Status",
+        "Language",
+        "Monthly Income",
+        "Education",
+        "Insurance"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Asthma Control Questionnaire (ACQ) score",
+        "Smoking history"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Body Mass Index, Asthma Control Questionnaire (ACQ) score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Marital Status",
+        "Language",
+        "Monthly Income",
+        "Education",
+        "Insurance"
+      ],
+      "remaining_candidate_features": [
+        "Asthma Control Questionnaire (ACQ) score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, ACQ score, smoking history, diagnosis of dementia, diagnosis of COPD or other chronic respiratory illness, years since asthma diagnosis, asthma medication use, physical activity level, education level, income level, occupation, marital status, ethnicity, race.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Language",
+          "English speaking"
+        ],
+        [
+          "Education",
+          "education level"
+        ],
+        [
+          "Monthly Income",
+          "income level"
+        ],
+        [
+          "Marital Status",
+          "marital status"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Insurance"
+      ],
+      "remaining_candidate_features": [
+        "ACQ score",
+        "smoking history",
+        "diagnosis of dementia",
+        "diagnosis of COPD or other chronic respiratory illness",
+        "years since asthma diagnosis",
+        "asthma medication use",
+        "physical activity level",
+        "occupation"
+      ]
+    }
+  }
+}

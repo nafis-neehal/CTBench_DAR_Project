@@ -1,0 +1,156 @@
+{
+  "trial_id": "NCT03390426",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, weight, ASA classification, baseline blood pressure, baseline heart rate, history of hypertension, history of diabetes, smoking status, baseline pain score, type of surgery (total ankle arthroplasty or ankle fusion).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "ASA Status",
+          "ASA classification"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body Mass Index (BMI)"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "baseline blood pressure",
+        "baseline heart rate",
+        "history of hypertension",
+        "history of diabetes",
+        "smoking status",
+        "baseline pain score",
+        "type of surgery (total ankle arthroplasty or ankle fusion)."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, ASA Classification, Weight, Preoperative Blood Pressure, Type of Surgery, Duration of Surgery, Baseline Pain Score, Use of Chronic Opioids,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "ASA Status",
+          "ASA Classification"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Preoperative Blood Pressure",
+        "Type of Surgery",
+        "Duration of Surgery",
+        "Baseline Pain Score",
+        "Use of Chronic Opioids"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, ASA Classification, Body Weight, History of Chronic Pain, Daily Opioid Use, Infection at Block Placement Site, Pregnancy Status, Allergy to Local Anesthetics, Psychiatric Disorder Status, History of Clinically Significant Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "ASA Status",
+          "ASA Classification"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body Mass Index (BMI)"
+      ],
+      "remaining_candidate_features": [
+        "Body Weight",
+        "History of Chronic Pain",
+        "Daily Opioid Use",
+        "Infection at Block Placement Site",
+        "Pregnancy Status",
+        "Allergy to Local Anesthetics",
+        "Psychiatric Disorder Status",
+        "History of Clinically Significant Disease."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, body mass index (BMI), American Society of Anesthesiologists (ASA) physical status, history of hypertension, history of chronic pain, daily opioid use, presence of anxiety or psychiatric disorder, presence of clinically significant disease or condition.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "ASA Status",
+          "American Society of Anesthesiologists (ASA) physical status"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "history of hypertension",
+        "history of chronic pain",
+        "daily opioid use",
+        "presence of anxiety or psychiatric disorder",
+        "presence of clinically significant disease or condition."
+      ]
+    }
+  }
+}

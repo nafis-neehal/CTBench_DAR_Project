@@ -1,0 +1,185 @@
+{
+  "trial_id": "NCT00062764",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), baseline serum alanine aminotransferase (ALT) levels, liver histology score, insulin sensitivity, visceral fat, liver volume, liver biochemistry, history of diabetes, history of alcohol consumption, previous treatment with pioglitazone or metformin, duration of follow-up after previous treatment, presence of other liver diseases, platelet counts, prothrombin time, Child-Pugh score, fasting plasma glucose, use of anti-diabetic drugs, presence of significant systemic illnesses, anti-HIV status, substance abuse history, pregnancy status, alpha-fetoprotein levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Obesity Distribution",
+          "body mass index (BMI)"
+        ],
+        [
+          "2-hr glucose diabetes mellitus",
+          "fasting plasma glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "2-hr glucose (Impaired glucose tolerance)",
+        "Metabolic syndrome",
+        "Fasting glucose"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "baseline serum alanine aminotransferase (ALT) levels",
+        "liver histology score",
+        "insulin sensitivity",
+        "visceral fat",
+        "liver volume",
+        "liver biochemistry",
+        "history of diabetes",
+        "history of alcohol consumption",
+        "previous treatment with pioglitazone or metformin",
+        "duration of follow-up after previous treatment",
+        "presence of other liver diseases",
+        "platelet counts",
+        "prothrombin time",
+        "Child-Pugh score",
+        "use of anti-diabetic drugs",
+        "presence of significant systemic illnesses",
+        "anti-HIV status",
+        "substance abuse history",
+        "pregnancy status",
+        "alpha-fetoprotein levels"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Serum Alanine Aminotransferase (ALT) levels, Liver histology score, Insulin sensitivity, Visceral fat, Liver volume, Liver biochemistry,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Obesity Distribution",
+        "2-hr glucose diabetes mellitus",
+        "2-hr glucose (Impaired glucose tolerance)",
+        "Metabolic syndrome",
+        "Fasting glucose"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Body Mass Index",
+        "Serum Alanine Aminotransferase (ALT) levels",
+        "Liver histology score",
+        "Insulin sensitivity",
+        "Visceral fat",
+        "Liver volume",
+        "Liver biochemistry"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, BMI, Diabetes Status, History of Hepatitis, ALT Levels, Liver Histology, Insulin Sensitivity, Visceral Fat, Liver Volume, Liver Biochemistry.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Obesity Distribution",
+          "BMI"
+        ],
+        [
+          "2-hr glucose diabetes mellitus",
+          "Diabetes Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "2-hr glucose (Impaired glucose tolerance)",
+        "Metabolic syndrome",
+        "Fasting glucose"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "History of Hepatitis",
+        "ALT Levels",
+        "Liver Histology",
+        "Insulin Sensitivity",
+        "Visceral Fat",
+        "Liver Volume",
+        "Liver Biochemistry"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, ethnicity, body mass index (BMI), waist circumference, systolic and diastolic blood pressure, fasting plasma glucose, hemoglobin A1c, serum alanine aminotransferase (ALT) levels, liver histology scores, insulin sensitivity, visceral fat, liver volume, liver biochemistry, medical history (including diabetes, obesity, and insulin resistance), medication use (including anti-diabetic drugs, insulin, biguanides, sulfonylureas, or thiazolidinediones).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Obesity Distribution",
+          "body mass index (BMI)"
+        ],
+        [
+          "2-hr glucose diabetes mellitus",
+          "fasting plasma glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "2-hr glucose (Impaired glucose tolerance)",
+        "Metabolic syndrome",
+        "Fasting glucose"
+      ],
+      "remaining_candidate_features": [
+        "age",
+        "ethnicity",
+        "waist circumference",
+        "systolic and diastolic blood pressure",
+        "hemoglobin A1c",
+        "serum alanine aminotransferase (ALT) levels",
+        "liver histology scores",
+        "insulin sensitivity",
+        "visceral fat",
+        "liver volume",
+        "liver biochemistry",
+        "medical history (including diabetes, obesity, and insulin resistance)",
+        "medication use (including anti-diabetic drugs, insulin, biguanides, sulfonylureas, or thiazolidinediones)"
+      ]
+    }
+  }
+}

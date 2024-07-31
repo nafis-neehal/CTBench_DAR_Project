@@ -1,0 +1,166 @@
+{
+  "trial_id": "NCT00109031",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type of cancer, stage of cancer, prior treatments, baseline oral health status, baseline renal function, baseline liver function, baseline pulmonary function, baseline cardiac function, baseline infection status, baseline mucositis status, baseline performance status, baseline hematologic parameters, baseline nutritional status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Type of diagnosis",
+          "type of cancer"
+        ],
+        [
+          "Etoposide use",
+          "prior treatments"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Number of days of total body irradiation"
+      ],
+      "remaining_candidate_features": [
+        "stage of cancer",
+        "baseline oral health status",
+        "baseline renal function",
+        "baseline liver function",
+        "baseline pulmonary function",
+        "baseline cardiac function",
+        "baseline infection status",
+        "baseline mucositis status",
+        "baseline performance status",
+        "baseline hematologic parameters",
+        "baseline nutritional status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Cancer, CD34+ cell count, Renal function (serum creatinine), Liver function (direct bilirubin, AST, ALT), Pulmonary function (DLCO), ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Type of diagnosis",
+          "Type of Cancer"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Etoposide use",
+        "Number of days of total body irradiation"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "CD34+ cell count",
+        "Renal function (serum creatinine)",
+        "Liver function (direct bilirubin, AST, ALT)",
+        "Pulmonary function (DLCO)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (NIH/OMB), Cancer Diagnosis, CD34+ cells/kg, Prior Bone Marrow or Peripheral Blood Stem Cell Transplantation, History of Pancreatitis, Renal Function, Liver Function, Pulmonary Function,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Type of diagnosis",
+          "Cancer Diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Etoposide use",
+        "Number of days of total body irradiation"
+      ],
+      "remaining_candidate_features": [
+        "CD34+ cells/kg",
+        "Prior Bone Marrow or Peripheral Blood Stem Cell Transplantation",
+        "History of Pancreatitis",
+        "Renal Function",
+        "Liver Function",
+        "Pulmonary Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), cancer diagnosis, disease stage, prior chemotherapy or radiation therapy, CD34+ cell count, creatinine level, bilirubin level, AST level, ALT level, DLCO, New York Heart Association class, history of pancreatitis, history of congestive heart failure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Type of diagnosis",
+          "cancer diagnosis"
+        ],
+        [
+          "Etoposide use",
+          "prior chemotherapy or radiation therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Number of days of total body irradiation"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "disease stage",
+        "CD34+ cell count",
+        "creatinine level",
+        "bilirubin level",
+        "AST level",
+        "ALT level",
+        "DLCO",
+        "New York Heart Association class",
+        "history of pancreatitis",
+        "history of congestive heart failure"
+      ]
+    }
+  }
+}

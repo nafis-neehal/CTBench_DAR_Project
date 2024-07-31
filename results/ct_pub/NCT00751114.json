@@ -1,0 +1,287 @@
+{
+  "trial_id": "NCT00751114",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Duration of diabetes, Baseline HbA1c, Baseline Fasting Plasma Glucose (FPG), Body Mass Index (BMI), Body weight, Metformin dose, Renal function (serum creatinine), Hepatic function (ALT, AST), History of retinopathy, History of pancreatitis, Alcohol or drug use history, Pregnancy status, Use of systemic corticosteroids, Participation in other clinical trials.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Gender"
+        ],
+        [
+          "Bodyweight",
+          "Body weight"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of diabetes"
+        ],
+        [
+          "HbA1c",
+          "Baseline HbA1c"
+        ],
+        [
+          "Fasting plasma glucose",
+          "Baseline Fasting Plasma Glucose (FPG)"
+        ],
+        [
+          "Serum creatinine",
+          "Renal function (serum creatinine)"
+        ],
+        [
+          "Aspartate aminotransferase",
+          "Hepatic function (ALT, AST)"
+        ],
+        [
+          "Any late diabetes complication",
+          "History of retinopathy"
+        ],
+        [
+          "History of pancreatitis",
+          "History of pancreatitis"
+        ],
+        [
+          "Alcohol or drug use history",
+          "Alcohol or drug use history"
+        ],
+        [
+          "Pregnancy status",
+          "Pregnancy status"
+        ],
+        [
+          "Concomitant treatments",
+          "Use of systemic corticosteroids"
+        ],
+        [
+          "Participation in another clinical trial within the month prior to visit 1",
+          "Participation in other clinical trials."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Systolic Blood Pressure",
+        "Distolic Blood pressure",
+        "Heart rate",
+        "Duration of Oral Antidiabetes Drugs",
+        "Antidiabetic treatments in previous 3 months",
+        "Dose of metformin",
+        "SMFPG",
+        "Total cholesterol",
+        "HDL Cholesterol",
+        "LDL Cholesterol",
+        "Triglycerides"
+      ],
+      "remaining_candidate_features": [
+        "Metformin dose"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Duration of diabetes, HbA1c, Fasting Plasma Glucose (FPG), Body Mass Index (BMI), Weight, Systolic Blood Pressure, Diastolic Blood Pressure, Serum creatinine, Alanine aminotransferase (ALT), Aspartate aminotransferase (AST), Smoking status, Previous antidiabetic treatment, Concomitant medications",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Bodyweight",
+          "Weight"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of diabetes"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Distolic Blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Fasting plasma glucose",
+          "Fasting Plasma Glucose (FPG)"
+        ],
+        [
+          "Aspartate aminotransferase",
+          "Aspartate aminotransferase (AST)"
+        ],
+        [
+          "Serum creatinine",
+          "Serum creatinine"
+        ],
+        [
+          "Concomitant treatments",
+          "Concomitant medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Heart rate",
+        "Duration of Oral Antidiabetes Drugs",
+        "Antidiabetic treatments in previous 3 months",
+        "Dose of metformin",
+        "Any late diabetes complication",
+        "SMFPG",
+        "Total cholesterol",
+        "HDL Cholesterol",
+        "LDL Cholesterol",
+        "Triglycerides",
+        "Alanine aminotransferase"
+      ],
+      "remaining_candidate_features": [
+        "Race",
+        "Smoking status",
+        "Previous antidiabetic treatment",
+        "Alanine aminotransferase (ALT)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, Diabetes duration, BMI, HbA1c, Fasting Plasma Glucose, Metformin dose, History of hypertension, History of dyslipidemia, History of cardiovascular disease, Smoking history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes duration"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Fasting plasma glucose",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Dose of metformin",
+          "Metformin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Bodyweight",
+        "Systolic Blood Pressure",
+        "Distolic Blood pressure",
+        "Heart rate",
+        "Duration of Oral Antidiabetes Drugs",
+        "Antidiabetic treatments in previous 3 months",
+        "Any late diabetes complication",
+        "SMFPG",
+        "Total cholesterol",
+        "HDL Cholesterol",
+        "LDL Cholesterol",
+        "Triglycerides",
+        "Aspartate aminotransferase",
+        "Serum creatinine",
+        "Concomitant treatments"
+      ],
+      "remaining_candidate_features": [
+        "Ethnic Origin",
+        "History of hypertension",
+        "History of dyslipidemia",
+        "History of cardiovascular disease",
+        "Smoking history"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, duration of diabetes, HbA1c at baseline, FPG at baseline, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (e.g., hypertension, dyslipidemia, cardiovascular disease), concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Distolic Blood pressure",
+          "diastolic blood pressure"
+        ],
+        [
+          "Heart rate",
+          "heart rate"
+        ],
+        [
+          "HbA1c",
+          "HbA1c at baseline"
+        ],
+        [
+          "Fasting plasma glucose",
+          "FPG at baseline"
+        ],
+        [
+          "Concomitant treatments",
+          "concomitant medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Bodyweight",
+        "Duration of Oral Antidiabetes Drugs",
+        "Antidiabetic treatments in previous 3 months",
+        "Dose of metformin",
+        "Any late diabetes complication",
+        "SMFPG",
+        "Total cholesterol",
+        "HDL Cholesterol",
+        "LDL Cholesterol",
+        "Triglycerides",
+        "Aspartate aminotransferase",
+        "Serum creatinine"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "smoking status",
+        "medical history (e.g., hypertension, dyslipidemia, cardiovascular disease)"
+      ]
+    }
+  }
+}

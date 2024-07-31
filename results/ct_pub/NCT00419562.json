@@ -1,0 +1,191 @@
+{
+  "trial_id": "NCT00419562",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, relationship to proband, fasting plasma glucose, 2-hour plasma glucose, mIAA levels, presence of other autoantibodies, HLA haplotype, history of severe active disease, prior participation in T1DM prevention trials, history of insulin or oral hypoglycemic agent use, history of immunosuppressive drug or glucocorticoid therapy, use of medications influencing glucose, pregnancy status, compliance likelihood.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Family Members with T1DM",
+          "relationship to proband"
+        ],
+        [
+          "Number of Autoantibodies positive",
+          "presence of other autoantibodies"
+        ],
+        [
+          "Human leukocyte antigen allele",
+          "HLA haplotype"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "BMI",
+        "HbA1C",
+        "First phase insulin release",
+        "c-peptide"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose",
+        "2-hour plasma glucose",
+        "mIAA levels",
+        "history of severe active disease",
+        "prior participation in T1DM prevention trials",
+        "history of insulin or oral hypoglycemic agent use",
+        "history of immunosuppressive drug or glucocorticoid therapy",
+        "use of medications influencing glucose",
+        "pregnancy status",
+        "compliance likelihood"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Ethnicity, Relationship to proband, mIAA levels, Other autoantibodies status, Fasting plasma glucose, 2-hour plasma glucose, HLA haplotype, Family history of diabetes, BMI, Medical history, Medications, OGTT results",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race"
+        ],
+        [
+          "Family Members with T1DM",
+          "Relationship to proband"
+        ],
+        [
+          "Number of Autoantibodies positive",
+          "Other autoantibodies status"
+        ],
+        [
+          "Human leukocyte antigen allele",
+          "HLA haplotype"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "HbA1C",
+        "First phase insulin release",
+        "c-peptide"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "mIAA levels",
+        "Fasting plasma glucose",
+        "2-hour plasma glucose",
+        "Family history of diabetes",
+        "Medical history",
+        "Medications",
+        "OGTT results"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, Family history of type 1 diabetes, mIAA levels, Other autoantibody levels, Fasting plasma glucose, 2-hour plasma glucose, BMI, HLA DQA1*0102, DQB1*0602 haplotype.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnic Origin"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Family Members with T1DM",
+          "Family history of type 1 diabetes"
+        ],
+        [
+          "Number of Autoantibodies positive",
+          "Other autoantibody levels"
+        ],
+        [
+          "Human leukocyte antigen allele",
+          "HLA DQA1*0102"
+        ]
+      ],
+      "remaining_reference_features": [
+        "HbA1C",
+        "First phase insulin release",
+        "c-peptide"
+      ],
+      "remaining_candidate_features": [
+        "mIAA levels",
+        "Fasting plasma glucose",
+        "2-hour plasma glucose",
+        "DQB1*0602 haplotype."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, body mass index (BMI), proband relationship, number of autoantibodies, mIAA levels, insulin autoantibody levels, glutamic acid decarboxylase antibody (GADA) levels, insulinoma-associated antigen-2 antibody (IA-2A) levels, zinc transporter 8 antibody (ZnT8A) levels, HLA DQA1*0102, DQB1*0602 haplotype, fasting plasma glucose, 2-hour plasma glucose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Family Members with T1DM",
+          "proband relationship"
+        ],
+        [
+          "Number of Autoantibodies positive",
+          "number of autoantibodies"
+        ],
+        [
+          "Human leukocyte antigen allele",
+          "HLA DQA1*0102"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex",
+        "Race/Ethnicity",
+        "HbA1C",
+        "First phase insulin release",
+        "c-peptide"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "mIAA levels",
+        "insulin autoantibody levels",
+        "glutamic acid decarboxylase antibody (GADA) levels",
+        "insulinoma-associated antigen-2 antibody (IA-2A) levels",
+        "zinc transporter 8 antibody (ZnT8A) levels",
+        "DQB1*0602 haplotype",
+        "fasting plasma glucose",
+        "2-hour plasma glucose."
+      ]
+    }
+  }
+}

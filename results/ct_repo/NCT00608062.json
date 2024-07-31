@@ -1,0 +1,265 @@
+{
+  "trial_id": "NCT00608062",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, race, ethnicity, menopausal status (premenopausal, perimenopausal, postmenopausal), blood pressure, plasma glucose concentrations, physical activity level, smoking status, medication use, vitamin supplement use, history of estrogen-dependent neoplasms, history of liver or gallbladder disease, history of vaginal bleeding, history of venous thromboembolism, history of hypertriglyceridemia, history of cardiovascular disease, allergy to transdermal patch or GnRHant, contraindications to HRT and GnRHant.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "menopausal status (premenopausal, perimenopausal, postmenopausal)"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "blood pressure"
+        ],
+        [
+          "Glucose",
+          "plasma glucose concentrations"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "physical activity level"
+        ],
+        [
+          "Nonsmokers",
+          "smoking status"
+        ],
+        [
+          "No use of medications that might influence cardiovascular function",
+          "medication use"
+        ],
+        [
+          "No use of vitamin supplements or willing to stop use for duration of the study",
+          "vitamin supplement use"
+        ],
+        [
+          "History of or active estrogen-dependent neoplasms",
+          "history of estrogen-dependent neoplasms"
+        ],
+        [
+          "History of or active acute liver or gallbladder disease",
+          "history of liver or gallbladder disease"
+        ],
+        [
+          "History of or active vaginal bleeding",
+          "history of vaginal bleeding"
+        ],
+        [
+          "History of or active venous thromboembolism",
+          "history of venous thromboembolism"
+        ],
+        [
+          "History of or active hypertriglyceridemia",
+          "history of hypertriglyceridemia"
+        ],
+        [
+          "History of or active cardiovascular disease",
+          "history of cardiovascular disease"
+        ],
+        [
+          "Known allergy to transdermal patch or GnRHant",
+          "allergy to transdermal patch or GnRHant"
+        ],
+        [
+          "Other contraindications to HRT and GnRHant",
+          "contraindications to HRT and GnRHant"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Body Mass",
+        "Diastolic Blood Pressure",
+        "VO2peak",
+        "Insulin",
+        "Total Cholesterol",
+        "Low-density Lipoprotein",
+        "High-density Lipoprotein"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Menopausal Status (Premenopausal, Perimenopausal, Postmenopausal), Race/Ethnicity, Customized, Resting Blood Pressure, Fasting Plasma Glucose, Physical Activity Level, Smoking Status, Use of Medications Influencing Cardiovascular Function, Use of Vitamin Supplements,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Menopausal Status (Premenopausal, Perimenopausal, Postmenopausal)"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Resting Blood Pressure"
+        ],
+        [
+          "Glucose",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Physical Activity Level",
+          "Physical Activity Level"
+        ],
+        [
+          "Smoking Status",
+          "Smoking Status"
+        ],
+        [
+          "Use of Medications Influencing Cardiovascular Function",
+          "Use of Medications Influencing Cardiovascular Function"
+        ],
+        [
+          "Use of Vitamin Supplements",
+          "Use of Vitamin Supplements"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Body Mass",
+        "Body Mass Index (BMI)",
+        "Diastolic Blood Pressure",
+        "VO2peak",
+        "Insulin",
+        "Total Cholesterol",
+        "Low-density Lipoprotein",
+        "High-density Lipoprotein"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Menopausal Status, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Plasma Glucose Concentrations, Smoking Status, Sedentary or Recreational Activity Level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Glucose",
+          "Plasma Glucose Concentrations"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Body Mass",
+        "VO2peak",
+        "Insulin",
+        "Total Cholesterol",
+        "Low-density Lipoprotein",
+        "High-density Lipoprotein"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Menopausal Status",
+        "Smoking Status",
+        "Sedentary or Recreational Activity Level."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, menopausal status, body mass index, systolic blood pressure, diastolic blood pressure, fasting plasma glucose, smoking status, physical activity level, use of medications influencing cardiovascular function, use of vitamin supplements.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "menopausal status"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "diastolic blood pressure"
+        ],
+        [
+          "Glucose",
+          "fasting plasma glucose"
+        ],
+        [
+          "Categorical",
+          "race"
+        ],
+        [
+          "Categorical",
+          "ethnicity"
+        ],
+        [
+          "Categorical",
+          "smoking status"
+        ],
+        [
+          "Categorical",
+          "physical activity level"
+        ],
+        [
+          "Categorical",
+          "use of medications influencing cardiovascular function"
+        ],
+        [
+          "Categorical",
+          "use of vitamin supplements"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Body Mass",
+        "VO2peak",
+        "Insulin",
+        "Total Cholesterol",
+        "Low-density Lipoprotein",
+        "High-density Lipoprotein"
+      ],
+      "remaining_candidate_features": []
+    }
+  }
+}

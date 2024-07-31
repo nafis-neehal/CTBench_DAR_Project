@@ -1,0 +1,168 @@
+{
+  "trial_id": "NCT02866695",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type of organ transplant (kidney or lung), time since transplantation, number of actinic keratoses, medical history, pregnancy status (for females of childbearing potential), use of concomitant medications, history of previous treatments for actinic keratosis, history of dermatologic diseases in the treatment area.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Organ Transplant Type",
+          "type of organ transplant (kidney or lung)"
+        ],
+        [
+          "Years Since Transplant",
+          "time since transplantation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "number of actinic keratoses",
+        "medical history",
+        "pregnancy status (for females of childbearing potential)",
+        "use of concomitant medications",
+        "history of previous treatments for actinic keratosis",
+        "history of dermatologic diseases in the treatment area."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Transplant (Kidney or Lung), Time Since Transplant, Number of Actinic Keratoses, Stability of Health Condition, Use of Concomitant Medications, Compliance with Study Requirements,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Organ Transplant Type",
+          "Type of Transplant (Kidney or Lung)"
+        ],
+        [
+          "Years Since Transplant",
+          "Time Since Transplant"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Number of Actinic Keratoses",
+        "Stability of Health Condition",
+        "Use of Concomitant Medications",
+        "Compliance with Study Requirements"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Solid Organ Transplant Type, Time Since Transplantation, Number of Actinic Keratoses at Baseline, Immunosuppressive Regimen.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Organ Transplant Type",
+          "Solid Organ Transplant Type"
+        ],
+        [
+          "Years Since Transplant",
+          "Time Since Transplantation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Number of Actinic Keratoses at Baseline",
+        "Immunosuppressive Regimen"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), time since transplantation, type of transplanted organ, immunosuppressive regimen, history of skin cancer, number and location of actinic keratoses, medical history, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Organ Transplant Type",
+          "type of transplanted organ"
+        ],
+        [
+          "Years Since Transplant",
+          "time since transplantation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "immunosuppressive regimen",
+        "history of skin cancer",
+        "number and location of actinic keratoses",
+        "medical history",
+        "concomitant medications."
+      ]
+    }
+  }
+}

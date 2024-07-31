@@ -1,0 +1,210 @@
+{
+  "trial_id": "NCT01606748",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, hepatic function, hematologic function, renal function, prior chemotherapy, prior radiotherapy, prior surgery, prior hormonal therapy, presence of measurable disease, presence of non-measurable disease, contraceptive use, pregnancy status, history of coronary artery disease, history of congestive heart failure, history of angina pectoris, history of myocardial infarction, history of neurological disorders, history of psychiatric disorders, history of drug abuse, history of alcohol abuse, presence of active infection, presence of brain metastases, surgical status, prior use of gemcitabine, prior use of cisplatin, use of concurrent anticancer therapy, use of steroids, use of anticonvulsants, history of major surgery, history of subcutaneous venous access device implantation, enrollment in other clinical trials.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) at Baseline",
+          "ECOG performance status"
+        ],
+        [
+          "Disease Characteristics - Tumor Type",
+          "presence of measurable disease"
+        ],
+        [
+          "Prior Anti-Cancer Therapy",
+          "prior chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "hepatic function",
+        "hematologic function",
+        "renal function",
+        "prior radiotherapy",
+        "prior surgery",
+        "prior hormonal therapy",
+        "presence of non-measurable disease",
+        "contraceptive use",
+        "pregnancy status",
+        "history of coronary artery disease",
+        "history of congestive heart failure",
+        "history of angina pectoris",
+        "history of myocardial infarction",
+        "history of neurological disorders",
+        "history of psychiatric disorders",
+        "history of drug abuse",
+        "history of alcohol abuse",
+        "presence of active infection",
+        "presence of brain metastases",
+        "surgical status",
+        "prior use of gemcitabine",
+        "prior use of cisplatin",
+        "use of concurrent anticancer therapy",
+        "use of steroids",
+        "use of anticonvulsants",
+        "history of major surgery",
+        "history of subcutaneous venous access device implantation",
+        "enrollment in other clinical trials."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Hepatic Function, Hematologic Function, Renal Function, Prior Chemotherapy, Prior Radiotherapy, Prior Surgery, Contraceptive Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) at Baseline",
+          "ECOG Performance Status"
+        ],
+        [
+          "Prior Anti-Cancer Therapy",
+          "Prior Chemotherapy"
+        ],
+        [
+          "Prior Anti-Cancer Therapy",
+          "Prior Radiotherapy"
+        ],
+        [
+          "Prior Anti-Cancer Therapy",
+          "Prior Surgery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Disease Characteristics - Tumor Type"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Hepatic Function",
+        "Hematologic Function",
+        "Renal Function",
+        "Contraceptive Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Tumor Type, Prior Chemotherapy, Prior Radiotherapy, Prior Surgery, Hepatic Function, Hematologic Function, Renal Function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) at Baseline",
+          "ECOG Performance Status"
+        ],
+        [
+          "Disease Characteristics - Tumor Type",
+          "Tumor Type"
+        ],
+        [
+          "Prior Anti-Cancer Therapy",
+          "Prior Chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Prior Radiotherapy",
+        "Prior Surgery",
+        "Hepatic Function",
+        "Hematologic Function",
+        "Renal Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), Eastern Cooperative Oncology Group performance status (ECOG PS), tumor type, prior anticancer therapy, number of prior chemotherapy regimens, time since diagnosis, time since last treatment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) at Baseline",
+          "Eastern Cooperative Oncology Group performance status (ECOG PS)"
+        ],
+        [
+          "Disease Characteristics - Tumor Type",
+          "tumor type"
+        ],
+        [
+          "Prior Anti-Cancer Therapy",
+          "prior anticancer therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "number of prior chemotherapy regimens",
+        "time since diagnosis",
+        "time since last treatment."
+      ]
+    }
+  }
+}

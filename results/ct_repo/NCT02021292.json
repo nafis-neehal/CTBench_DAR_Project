@@ -1,0 +1,214 @@
+{
+  "trial_id": "NCT02021292",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, body mass index (BMI), baseline pulmonary vascular resistance (PVR), World Health Organization (WHO) functional class, duration of chronic thromboembolic pulmonary hypertension (CTEPH), previous medical history, concomitant medications, smoking status, baseline 6-minute walk distance (6MWD), baseline Borg dyspnea index, baseline N-terminal pro-brain natriuretic peptide (NT-proBNP) levels, baseline echocardiographic parameters, baseline right heart catheterization parameters.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Time since diagnosis of chronic thromboembolic pulmonary hypertension (CTEPH)",
+          "duration of chronic thromboembolic pulmonary hypertension (CTEPH)"
+        ],
+        [
+          "6-minute walk distance (6MWD)",
+          "baseline 6-minute walk distance (6MWD)"
+        ],
+        [
+          "Pulmonary vascular resistance (PVR)",
+          "baseline pulmonary vascular resistance (PVR)"
+        ],
+        [
+          "WHO functional class",
+          "World Health Organization (WHO) functional class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Use of pulmonary arterial hypertension (PAH) medication"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "previous medical history",
+        "concomitant medications",
+        "smoking status",
+        "baseline Borg dyspnea index",
+        "baseline N-terminal pro-brain natriuretic peptide (NT-proBNP) levels",
+        "baseline echocardiographic parameters",
+        "baseline right heart catheterization parameters"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Pulmonary Vascular Resistance (PVR), Baseline 6-minute walk distance, WHO functional class, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Oxygen Saturation,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Pulmonary vascular resistance (PVR)",
+          "Baseline Pulmonary Vascular Resistance (PVR)"
+        ],
+        [
+          "6-minute walk distance (6MWD)",
+          "Baseline 6-minute walk distance"
+        ],
+        [
+          "WHO functional class",
+          "WHO functional class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Time since diagnosis of chronic thromboembolic pulmonary hypertension (CTEPH)",
+        "Use of pulmonary arterial hypertension (PAH) medication"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Heart Rate",
+        "Oxygen Saturation"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, 6-minute walk distance, World Health Organization functional class, Pulmonary Vascular Resistance, Cardiac Index, N-terminal pro-brain natriuretic peptide.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "6-minute walk distance (6MWD)",
+          "6-minute walk distance"
+        ],
+        [
+          "Pulmonary vascular resistance (PVR)",
+          "Pulmonary Vascular Resistance"
+        ],
+        [
+          "WHO functional class",
+          "World Health Organization functional class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Time since diagnosis of chronic thromboembolic pulmonary hypertension (CTEPH)",
+        "Use of pulmonary arterial hypertension (PAH) medication"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity (NIH/OMB)",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Cardiac Index",
+        "N-terminal pro-brain natriuretic peptide."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), WHO functional class, 6-minute walk distance, pulmonary vascular resistance (PVR) at rest, mean pulmonary arterial pressure, cardiac output, heart rate, systolic blood pressure, diastolic blood pressure, forced expiratory volume in 1 second (FEV1), forced vital capacity (FVC), total lung capacity (TLC), diffusion capacity of the lungs for carbon monoxide (DLCO), New York Heart Association (NYHA) functional class, time since diagnosis of CTEPH, history of pulmonary embolism, use of anticoagulant therapy, use of vasodilator therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Time since diagnosis of chronic thromboembolic pulmonary hypertension (CTEPH)",
+          "time since diagnosis of CTEPH"
+        ],
+        [
+          "6-minute walk distance (6MWD)",
+          "6-minute walk distance"
+        ],
+        [
+          "Pulmonary vascular resistance (PVR)",
+          "pulmonary vascular resistance (PVR) at rest"
+        ],
+        [
+          "WHO functional class",
+          "WHO functional class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Use of pulmonary arterial hypertension (PAH) medication"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "weight",
+        "height",
+        "mean pulmonary arterial pressure",
+        "cardiac output",
+        "heart rate",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "forced expiratory volume in 1 second (FEV1)",
+        "forced vital capacity (FVC)",
+        "total lung capacity (TLC)",
+        "diffusion capacity of the lungs for carbon monoxide (DLCO)",
+        "New York Heart Association (NYHA) functional class",
+        "history of pulmonary embolism",
+        "use of anticoagulant therapy",
+        "use of vasodilator therapy"
+      ]
+    }
+  }
+}

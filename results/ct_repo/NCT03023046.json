@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT03023046",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, total bilirubin levels, AST/ALT levels, creatinine levels, calculated creatinine clearance, presence of cytopenias, prior systemic therapy for ALL, presence of extramedullary disease, hypersensitivity to study drugs, pregnancy status, anticipated survival, ability to give informed consent, use of effective contraception.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "High white blood cell count",
+        "Lineage",
+        "Philadelphia chromosome"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "total bilirubin levels",
+        "AST/ALT levels",
+        "creatinine levels",
+        "calculated creatinine clearance",
+        "presence of cytopenias",
+        "prior systemic therapy for ALL",
+        "presence of extramedullary disease",
+        "hypersensitivity to study drugs",
+        "pregnancy status",
+        "anticipated survival",
+        "ability to give informed consent",
+        "use of effective contraception"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Total Bilirubin, AST/ALT Levels, Creatinine Levels, Diagnosis Type (ALL or Lymphoblastic Lymphoma), Prior Systemic Therapy for ALL, Presence of Extramedullary Disease,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Total Bilirubin",
+          "Total Bilirubin"
+        ],
+        [
+          "AST/ALT Levels",
+          "AST/ALT Levels"
+        ],
+        [
+          "Creatinine Levels",
+          "Creatinine Levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "High white blood cell count",
+        "Lineage",
+        "Philadelphia chromosome"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diagnosis Type (ALL or Lymphoblastic Lymphoma)",
+        "Prior Systemic Therapy for ALL",
+        "Presence of Extramedullary Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Total Bilirubin, AST/ALT, Creatinine, Hematologic Parameters (e.g., White Blood Cell Count, Hemoglobin, Platelet Count), Presence of Hepatic Involvement by ALL, Presence of CNS Disease, Prior Therapy for ALL.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "High white blood cell count",
+          "Hematologic Parameters (e.g., White Blood Cell Count, Hemoglobin, Platelet Count)"
+        ],
+        [
+          "Philadelphia chromosome",
+          "Presence of Hepatic Involvement by ALL"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Lineage"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "ECOG Performance Status",
+        "Total Bilirubin",
+        "AST/ALT",
+        "Creatinine",
+        "Presence of CNS Disease",
+        "Prior Therapy for ALL"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, weight, height, body mass index (BMI), total bilirubin, aspartate aminotransferase (AST), alanine aminotransferase (ALT), creatinine, calculated creatinine clearance, white blood cell count, absolute neutrophil count, platelet count, hemoglobin, presence of Ph+ disease, presence of liver test abnormalities attributable to hepatic involvement by ALL.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "High white blood cell count",
+          "white blood cell count"
+        ],
+        [
+          "Philadelphia chromosome",
+          "presence of Ph+ disease"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Lineage"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "total bilirubin",
+        "aspartate aminotransferase (AST)",
+        "alanine aminotransferase (ALT)",
+        "creatinine",
+        "calculated creatinine clearance",
+        "absolute neutrophil count",
+        "platelet count",
+        "hemoglobin",
+        "presence of liver test abnormalities attributable to hepatic involvement by ALL"
+      ]
+    }
+  }
+}

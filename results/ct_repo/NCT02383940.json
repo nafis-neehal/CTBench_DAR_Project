@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT02383940",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 1 diabetes mellitus, baseline hemoglobin A1C, insulin regimen (CSII or MDI), self-monitored blood glucose (SMBG) frequency, body mass index (BMI), use of contraception (for females of childbearing potential), history of diabetic ketoacidosis (DKA), history of severe hypoglycemic events.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "use of contraception (for females of childbearing potential)"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of type 1 diabetes mellitus"
+        ],
+        [
+          "Insulin Delivery Method",
+          "insulin regimen (CSII or MDI)"
+        ],
+        [
+          "Hemoglobin A1C Level in Participants",
+          "baseline hemoglobin A1C"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Body weight",
+        "Baseline daily total insulin"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "self-monitored blood glucose (SMBG) frequency",
+        "history of diabetic ketoacidosis (DKA)",
+        "history of severe hypoglycemic events."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Insulin Delivery Method, Daily Insulin Dose, Frequency of Self-Monitored Blood Glucose (SMBG), Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Duration of diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Insulin Delivery Method",
+          "Insulin Delivery Method"
+        ],
+        [
+          "Hemoglobin A1C Level in Participants",
+          "Baseline HbA1c"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Body weight",
+        "Baseline daily total insulin"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Daily Insulin Dose",
+        "Frequency of Self-Monitored Blood Glucose (SMBG)",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Insulin Dose, BMI, Blood Pressure, Total Cholesterol, eGFR, Diabetic Retinopathy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Duration of diabetes",
+          "Diabetes Diagnosis Duration"
+        ],
+        [
+          "Hemoglobin A1C Level in Participants",
+          "Baseline HbA1c"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Body weight",
+        "Insulin Delivery Method",
+        "Baseline daily total insulin"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Insulin Dose",
+        "Blood Pressure",
+        "Total Cholesterol",
+        "eGFR",
+        "Diabetic Retinopathy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 1 diabetes mellitus, insulin regimen, hemoglobin A1C (A1C) at baseline, fasting plasma glucose at baseline, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, history of diabetic ketoacidosis, history of severe hypoglycemic events.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of type 1 diabetes mellitus"
+        ],
+        [
+          "Insulin Delivery Method",
+          "insulin regimen"
+        ],
+        [
+          "Hemoglobin A1C Level in Participants",
+          "hemoglobin A1C (A1C) at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Body weight",
+        "Baseline daily total insulin"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "fasting plasma glucose at baseline",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "smoking status",
+        "history of diabetic ketoacidosis",
+        "history of severe hypoglycemic events."
+      ]
+    }
+  }
+}

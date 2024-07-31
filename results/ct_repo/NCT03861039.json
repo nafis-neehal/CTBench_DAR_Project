@@ -1,0 +1,177 @@
+{
+  "trial_id": "NCT03861039",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c level, use of antihyperglycemic medications, history of cardiovascular disease, history of pancreatitis, liver function tests (ALT levels), history of diabetic retinopathy, history of gastrointestinal disorders, family history of medullary thyroid carcinoma, history of weight loss drug use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of type 2 diabetes",
+        "use of antihyperglycemic medications",
+        "history of cardiovascular disease",
+        "history of pancreatitis",
+        "liver function tests (ALT levels)",
+        "history of diabetic retinopathy",
+        "history of gastrointestinal disorders",
+        "family history of medullary thyroid carcinoma",
+        "history of weight loss drug use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Concomitant Medications, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Duration of Diabetes",
+        "Concomitant Medications",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Diabetes duration, Systolic Blood Pressure, Diastolic Blood Pressure, Lipid profile, History of cardiovascular disease, History of pancreatitis, History of thyroid disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Diabetes duration",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Lipid profile",
+        "History of cardiovascular disease",
+        "History of pancreatitis",
+        "History of thyroid disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, heart rate, medical history, concomitant medications, oral antihyperglycemic medication(s) used, sulfonylureas, biguanides, thiazolidinedione, alpha-glucosidase inhibitor, glinides, sodium-glucose cotransporter type 2 inhibitor.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of type 2 diabetes",
+        "fasting plasma glucose",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "medical history",
+        "concomitant medications",
+        "oral antihyperglycemic medication(s) used",
+        "sulfonylureas",
+        "biguanides",
+        "thiazolidinedione",
+        "alpha-glucosidase inhibitor",
+        "glinides",
+        "sodium-glucose cotransporter type 2 inhibitor."
+      ]
+    }
+  }
+}

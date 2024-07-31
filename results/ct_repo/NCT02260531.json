@@ -1,0 +1,236 @@
+{
+  "trial_id": "NCT02260531",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, ECOG performance status, histological subtype of breast cancer, HER2 status, prior cranial radiation, corticosteroid use, organ and marrow function, laboratory values, prior therapy, bisphosphonate use, disease assessment (CT scan, MRI, bone scan), presence of CNS lesions, seizure history, CNS hemorrhage history, GI bleeding history, tumor location, anticoagulant use, PT/INR or PTT levels, ability to swallow tablets, pregnancy status, lactation status, HIV status, QTcF interval, infection status, prior lapatinib use, allergy or hypersensitivity to cabozantinib, use of CYP3A4 inducers.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Prior anti-HER2 therapy-Trastuzumab",
+          "prior therapy"
+        ],
+        [
+          "Prior anti-HER2 therapy-Lapatinib",
+          "prior lapatinib use"
+        ],
+        [
+          "Prior Whole brain radiation",
+          "prior cranial radiation"
+        ],
+        [
+          "Sites of metastatic disease",
+          "presence of CNS lesions"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Prior Stereotactic radiosurgery",
+        "No Prior CNS radiation",
+        "Surgical resection of CNS metastasis",
+        "Number of sites of metastases at study entry"
+      ],
+      "remaining_candidate_features": [
+        "histological subtype of breast cancer",
+        "HER2 status",
+        "corticosteroid use",
+        "organ and marrow function",
+        "laboratory values",
+        "bisphosphonate use",
+        "disease assessment (CT scan, MRI, bone scan)",
+        "seizure history",
+        "CNS hemorrhage history",
+        "GI bleeding history",
+        "tumor location",
+        "anticoagulant use",
+        "PT/INR or PTT levels",
+        "ability to swallow tablets",
+        "pregnancy status",
+        "lactation status",
+        "HIV status",
+        "QTcF interval",
+        "infection status",
+        "allergy or hypersensitivity to cabozantinib",
+        "use of CYP3A4 inducers"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Prior cranial radiation, HER2 status, Baseline brain MRI findings, Prior therapy, Organ and marrow function, Laboratory values, Use of corticosteroids, Use of bisphosphonates,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Prior anti-HER2 therapy-Trastuzumab",
+          "HER2 status"
+        ],
+        [
+          "Prior anti-HER2 therapy-Lapatinib",
+          "Prior therapy"
+        ],
+        [
+          "Prior Whole brain radiation",
+          "Prior cranial radiation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Prior Stereotactic radiosurgery",
+        "No Prior CNS radiation",
+        "Surgical resection of CNS metastasis",
+        "Sites of metastatic disease",
+        "Number of sites of metastases at study entry"
+      ],
+      "remaining_candidate_features": [
+        "Baseline brain MRI findings",
+        "Organ and marrow function",
+        "Laboratory values",
+        "Use of corticosteroids",
+        "Use of bisphosphonates"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, HER2 Status, Number of Brain Metastases, Largest Brain Metastasis Diameter, Prior Cranial Radiation, Prior Systemic Therapy, Time from Initial Breast Cancer Diagnosis to Development of Brain Metastases.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Prior anti-HER2 therapy-Trastuzumab",
+          "HER2 Status"
+        ],
+        [
+          "Prior anti-HER2 therapy-Lapatinib",
+          "Prior Systemic Therapy"
+        ],
+        [
+          "Prior Whole brain radiation",
+          "Prior Cranial Radiation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Prior Stereotactic radiosurgery",
+        "No Prior CNS radiation",
+        "Surgical resection of CNS metastasis",
+        "Sites of metastatic disease",
+        "Number of sites of metastases at study entry"
+      ],
+      "remaining_candidate_features": [
+        "Number of Brain Metastases",
+        "Largest Brain Metastasis Diameter",
+        "Time from Initial Breast Cancer Diagnosis to Development of Brain Metastases"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, histological subtype of breast cancer, hormone receptor status, HER2 status, number and location of CNS lesions, prior cranial radiation, prior systemic therapy, time from diagnosis of brain metastases to study entry, baseline corticosteroid dose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Prior anti-HER2 therapy-Trastuzumab",
+          "prior systemic therapy"
+        ],
+        [
+          "Prior anti-HER2 therapy-Lapatinib",
+          "prior systemic therapy"
+        ],
+        [
+          "Prior Whole brain radiation",
+          "prior cranial radiation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Prior Stereotactic radiosurgery",
+        "No Prior CNS radiation",
+        "Surgical resection of CNS metastasis",
+        "Sites of metastatic disease",
+        "Number of sites of metastases at study entry"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "histological subtype of breast cancer",
+        "hormone receptor status",
+        "HER2 status",
+        "number and location of CNS lesions",
+        "time from diagnosis of brain metastases to study entry",
+        "baseline corticosteroid dose."
+      ]
+    }
+  }
+}

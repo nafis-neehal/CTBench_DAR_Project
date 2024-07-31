@@ -1,0 +1,183 @@
+{
+  "trial_id": "NCT01044693",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, clinical diagnosis, baseline systolic blood pressure, baseline diastolic blood pressure, medication history, presence of orthostatic hypotension, presence of supine hypertension, informed consent status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Diagnosis",
+          "clinical diagnosis"
+        ],
+        [
+          "Systolic BP",
+          "baseline systolic blood pressure"
+        ],
+        [
+          "supine",
+          "presence of supine hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "BMI",
+        "Duration of disease",
+        "Medical history of essential hypertension",
+        "upright",
+        "Heart rate",
+        "Plasma norepinephrine"
+      ],
+      "remaining_candidate_features": [
+        "baseline diastolic blood pressure",
+        "medication history",
+        "presence of orthostatic hypotension",
+        "informed consent status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Diagnosis of Primary Autonomic Failure, Duration of Autonomic Failure, Use of Antihypertensive Medications, Orthostatic Hypotension Severity,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Diagnosis",
+          "Diagnosis of Primary Autonomic Failure"
+        ],
+        [
+          "Systolic BP",
+          "Baseline Systolic Blood Pressure"
+        ],
+        [
+          "Duration of disease",
+          "Duration of Autonomic Failure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI",
+        "Medical history of essential hypertension",
+        "supine",
+        "upright",
+        "Heart rate",
+        "Plasma norepinephrine"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Baseline Diastolic Blood Pressure",
+        "Use of Antihypertensive Medications",
+        "Orthostatic Hypotension Severity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Orthostatic Hypotension, Primary Autonomic Failure Diagnosis,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Diagnosis",
+          "Primary Autonomic Failure Diagnosis"
+        ],
+        [
+          "Systolic BP",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Duration of disease",
+        "Medical history of essential hypertension",
+        "supine",
+        "upright",
+        "Heart rate",
+        "Plasma norepinephrine"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diastolic Blood Pressure",
+        "Orthostatic Hypotension"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, duration of autonomic failure, type of autonomic failure (Parkinson Disease, Multiple System Atrophy, Pure Autonomic Failure), systolic blood pressure, diastolic blood pressure, heart rate, comorbidities, concomitant medications, laboratory values (e.g. renal function, liver function).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Diagnosis",
+          "type of autonomic failure (Parkinson Disease, Multiple System Atrophy, Pure Autonomic Failure)"
+        ],
+        [
+          "Systolic BP",
+          "systolic blood pressure"
+        ],
+        [
+          "Heart rate",
+          "heart rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "BMI",
+        "Duration of disease",
+        "Medical history of essential hypertension",
+        "supine",
+        "upright",
+        "Plasma norepinephrine"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "body mass index",
+        "duration of autonomic failure",
+        "diastolic blood pressure",
+        "comorbidities",
+        "concomitant medications",
+        "laboratory values (e.g. renal function, liver function)"
+      ]
+    }
+  }
+}

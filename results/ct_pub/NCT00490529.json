@@ -1,0 +1,156 @@
+{
+  "trial_id": "NCT00490529",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, ECOG Performance Status, Karnofsky Performance Scale, HIV status, Disease stage, Prior treatments, Peripheral blood tumor cell count, Medical history, Psychological history",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Gender"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Treatment Recieved",
+        "Response to immunotherapy",
+        "MIPI",
+        "Ki-67",
+        "B-MIPI"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky Performance Scale",
+        "HIV status",
+        "Disease stage",
+        "Prior treatments",
+        "Peripheral blood tumor cell count",
+        "Medical history",
+        "Psychological history"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, ECOG Performance Status, Karnofsky Performance Scale, HIV status, Previous treatments, Disease stage, Tumor burden, Blood counts, Biopsy results, Comorbidities, Medication history, Psychological status, Pregnancy status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Treatment Recieved",
+          "Previous treatments"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Response to immunotherapy",
+        "MIPI",
+        "Ki-67",
+        "B-MIPI"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky Performance Scale",
+        "HIV status",
+        "Disease stage",
+        "Tumor burden",
+        "Blood counts",
+        "Biopsy results",
+        "Comorbidities",
+        "Medication history",
+        "Psychological status",
+        "Pregnancy status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, ECOG Performance Status, Karnofsky performance scale, HIV status, Presence of accessible disease site, Number of peripheral blood tumor cells, Prior treatment with rituximab and standard induction chemotherapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Treatment Recieved",
+          "Prior treatment with rituximab and standard induction chemotherapy."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Response to immunotherapy",
+        "MIPI",
+        "Ki-67",
+        "B-MIPI"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky performance scale",
+        "HIV status",
+        "Presence of accessible disease site",
+        "Number of peripheral blood tumor cells"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, Karnofsky performance scale, HIV status, medical history of MCL, prior treatment for MCL, time since diagnosis, disease stage, lactate dehydrogenase (LDH) level, beta-2 microglobulin level, presence of extranodal involvement, presence of blastoid variant, peripheral blood tumor cell count.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Treatment Recieved",
+        "Response to immunotherapy",
+        "MIPI",
+        "Ki-67",
+        "B-MIPI"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "Karnofsky performance scale",
+        "HIV status",
+        "medical history of MCL",
+        "prior treatment for MCL",
+        "time since diagnosis",
+        "disease stage",
+        "lactate dehydrogenase (LDH) level",
+        "beta-2 microglobulin level",
+        "presence of extranodal involvement",
+        "presence of blastoid variant",
+        "peripheral blood tumor cell count."
+      ]
+    }
+  }
+}

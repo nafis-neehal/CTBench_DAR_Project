@@ -1,0 +1,152 @@
+{
+  "trial_id": "NCT00888290",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Estimated GFR, Baseline Bicarbonate Level, Blood Pressure, Presence of Lower Extremity Edema, History of Heart Failure, Use of Immunosuppressives, Planned Initiation of ESRD Treatment, Kidney Transplant History",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Blood Pressure"
+        ],
+        [
+          "Serum Bicarbonate Levels",
+          "Baseline Bicarbonate Level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Diastolic Blood Pressure"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Estimated GFR",
+        "Presence of Lower Extremity Edema",
+        "History of Heart Failure",
+        "Use of Immunosuppressives",
+        "Planned Initiation of ESRD Treatment",
+        "Kidney Transplant History"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Estimated Glomerular Filtration Rate (eGFR), Baseline Bicarbonate Levels, Systolic Blood Pressure, Diastolic Blood Pressure, History of Heart Failure, Lower Extremity Edema, Use of Immunosuppressives,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Serum Bicarbonate Levels",
+          "Baseline Bicarbonate Levels"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "History of Heart Failure",
+        "Lower Extremity Edema",
+        "Use of Immunosuppressives"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (Customized), Region of Enrollment, Estimated Glomerular Filtration Rate (eGFR), Serum Bicarbonate Levels, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, Muscle Strength,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Serum Bicarbonate Levels",
+          "Serum Bicarbonate Levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Region of Enrollment",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "Body Mass Index",
+        "Muscle Strength"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, estimated GFR, systolic blood pressure, bicarbonate level, presence of heart failure, presence of lower extremity edema, history of kidney transplantation, history of immunosuppressive treatment, muscle strength.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Serum Bicarbonate Levels",
+          "bicarbonate level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Diastolic Blood Pressure"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "race",
+        "ethnicity",
+        "estimated GFR",
+        "presence of heart failure",
+        "presence of lower extremity edema",
+        "history of kidney transplantation",
+        "history of immunosuppressive treatment",
+        "muscle strength."
+      ]
+    }
+  }
+}

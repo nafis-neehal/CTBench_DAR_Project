@@ -1,0 +1,184 @@
+{
+  "trial_id": "NCT00527514",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, mean seated systolic blood pressure (MSSBP), mean seated diastolic blood pressure (MSDBP), mean daytime systolic blood pressure, mean daytime diastolic blood pressure, history of stroke or transient ischemic attack (TIA), history of myocardial infarction, coronary angioplasty, coronary artery bypass graft, or heart failure, presence of secondary hypertension, type of diabetes, presence of hemodynamically significant cardiac valvular disease, presence of clinically significant cardiac conduction defects, fasting glucose level, pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "24-Hour Ambulatory Systolic Blood Pressure",
+          "mean daytime systolic blood pressure"
+        ],
+        [
+          "24-Hour Ambulatory Diastolic Blood Pressure",
+          "mean daytime diastolic blood pressure"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "mean seated systolic blood pressure (MSSBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Stage of Hypertension",
+        "Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "mean seated diastolic blood pressure (MSDBP)",
+        "history of stroke or transient ischemic attack (TIA)",
+        "history of myocardial infarction",
+        "coronary angioplasty",
+        "coronary artery bypass graft",
+        "or heart failure",
+        "presence of secondary hypertension",
+        "type of diabetes",
+        "presence of hemodynamically significant cardiac valvular disease",
+        "presence of clinically significant cardiac conduction defects",
+        "fasting glucose level",
+        "pregnancy status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Mean Seated Systolic Blood Pressure (MSSBP), Mean Seated Diastolic Blood Pressure (MSDBP), Mean Daytime Systolic Blood Pressure, Mean Daytime Diastolic Blood Pressure, Fasting Glucose, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "24-hour Ambulatory Systolic Blood Pressure",
+          "Mean Daytime Systolic Blood Pressure"
+        ],
+        [
+          "24-Hour Ambulatory Diastolic Blood Pressure",
+          "Mean Daytime Diastolic Blood Pressure"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Mean Seated Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Stage of Hypertension",
+        "Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Mean Seated Diastolic Blood Pressure (MSDBP)",
+        "Fasting Glucose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Cardiovascular Disease, Diabetes Status, Smoking Status, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Stage of Hypertension",
+        "24-Hour Ambulatory Diastolic Blood Pressure",
+        "24-hour Ambulatory Systolic Blood Pressure",
+        "Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Body Mass Index",
+        "Diastolic Blood Pressure",
+        "History of Cardiovascular Disease",
+        "Diabetes Status",
+        "Smoking Status",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (including diabetes, cardiovascular disease, and kidney disease), systolic and diastolic blood pressure, heart rate, fasting glucose, serum creatinine, potassium levels, liver function tests, electrocardiogram (ECG) findings, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Male",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "24-hour Ambulatory Systolic Blood Pressure",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "Heart Rate",
+          "heart rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Stage of Hypertension",
+        "24-Hour Ambulatory Diastolic Blood Pressure",
+        "Systolic Blood Pressure"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "ethnicity",
+        "body mass index (BMI)",
+        "smoking status",
+        "medical history (including diabetes, cardiovascular disease, and kidney disease)",
+        "fasting glucose",
+        "serum creatinine",
+        "potassium levels",
+        "liver function tests",
+        "electrocardiogram (ECG) findings",
+        "concomitant medications"
+      ]
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "trial_id": "NCT03180294",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, cancer type, menopausal status, baseline FSFI desire subscale score, baseline PHQ-4 score, performance status, liver function tests (AST, ALT, total bilirubin), glomerular filtration rate, use of endocrine therapies, use of vaginal estrogen, use of antidepressants, history of depression or anxiety disorders, history of seizure disorders, history of eating disorders, allergy to bupropion, use of drugs metabolized by CYP2D6, history of Parkinson's disease, multiple sclerosis or fibromyalgia, history of extensive pelvic surgeries, history of reconstruction surgery, use of oral or transdermal estrogen therapy, blood pressure readings, history of bipolar disorder, decision-making capacity, concurrent use of bupropion, concomitant invasive malignancy, previous or concurrent use of flibanserin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "menopausal status"
+        ],
+        [
+          "Current Selective Serotonin Reuptake Inhibitors (SSRI) Use",
+          "use of antidepressants"
+        ],
+        [
+          "Zubrod",
+          "performance status"
+        ],
+        [
+          "Prior Pelvic Radiation Therapy",
+          "history of extensive pelvic surgeries"
+        ],
+        [
+          "Aromatase Inhibitor therapy",
+          "use of endocrine therapies"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "cancer type",
+        "baseline FSFI desire subscale score",
+        "baseline PHQ-4 score",
+        "liver function tests (AST, ALT, total bilirubin)",
+        "glomerular filtration rate",
+        "use of vaginal estrogen",
+        "history of depression or anxiety disorders",
+        "history of seizure disorders",
+        "history of eating disorders",
+        "allergy to bupropion",
+        "use of drugs metabolized by CYP2D6",
+        "history of Parkinson's disease",
+        "multiple sclerosis or fibromyalgia",
+        "history of reconstruction surgery",
+        "use of oral or transdermal estrogen therapy",
+        "blood pressure readings",
+        "history of bipolar disorder",
+        "decision-making capacity",
+        "concurrent use of bupropion",
+        "concomitant invasive malignancy",
+        "previous or concurrent use of flibanserin."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Type of Cancer, Time Since Completion of Definitive Therapy, Menopausal Status, Baseline FSFI Desire Subscale Score, Baseline PHQ-4 Score, Baseline PROMIS Sexual Function and Satisfaction Score, Baseline PROMIS Fatigue Short Form 8a Score, Baseline Impact of Treatment Scale Score, Baseline PRO-CTCAE Items Score, Baseline Revised Dyadic Adjustment Scale Score, AST, ALT, Total Bilirubin, Glomerular Filtration Rate, Use of Endocrine Therapies, Use of Vaginal Estrogen, Use of Antidepressants,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Current Selective Serotonin Reuptake Inhibitors (SSRI) Use",
+          "Use of Antidepressants"
+        ],
+        [
+          "Aromatase Inhibitor therapy",
+          "Use of Endocrine Therapies"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Zubrod",
+        "Prior Pelvic Radiation Therapy",
+        "Prior Pelvic Surgery"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Type of Cancer",
+        "Time Since Completion of Definitive Therapy",
+        "Menopausal Status",
+        "Baseline FSFI Desire Subscale Score",
+        "Baseline PHQ-4 Score",
+        "Baseline PROMIS Sexual Function and Satisfaction Score",
+        "Baseline PROMIS Fatigue Short Form 8a Score",
+        "Baseline Impact of Treatment Scale Score",
+        "Baseline PRO-CTCAE Items Score",
+        "Baseline Revised Dyadic Adjustment Scale Score",
+        "AST",
+        "ALT",
+        "Total Bilirubin",
+        "Glomerular Filtration Rate",
+        "Use of Vaginal Estrogen"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Menopausal Status, Cancer Diagnosis, Type of Cancer, Time Since Definitive Therapy, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, FSFI Desire Subscale Score, PHQ-4 Score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Current Selective Serotonin Reuptake Inhibitors (SSRI) Use",
+          "Current Selective Serotonin Reuptake Inhibitors (SSRI) Use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Zubrod",
+        "Prior Pelvic Radiation Therapy",
+        "Prior Pelvic Surgery",
+        "Aromatase Inhibitor therapy"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Menopausal Status",
+        "Cancer Diagnosis",
+        "Type of Cancer",
+        "Time Since Definitive Therapy",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "FSFI Desire Subscale Score",
+        "PHQ-4 Score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, race, ethnicity, body mass index (BMI), cancer type (breast or gynecologic), cancer stage, time since cancer diagnosis, time since completion of definitive therapy, menopausal status, hormone replacement therapy use, antidepressant use, history of depression or anxiety disorders, history of seizure disorders, history of anorexia or bulimia, history of Parkinson's disease, multiple sclerosis, or fibromyalgia, history of pelvic exenteration surgery, history of reconstruction surgery, performance status, aspartate aminotransferase (AST) and alanine aminotransferase (ALT) levels, total bilirubin level, glomerular filtration rate, FSFI desire subscale score at baseline, PHQ-4 score at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "menopausal status"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Current Selective Serotonin Reuptake Inhibitors (SSRI) Use",
+          "antidepressant use"
+        ],
+        [
+          "Prior Pelvic Radiation Therapy",
+          "time since completion of definitive therapy"
+        ],
+        [
+          "Prior Pelvic Surgery",
+          "history of pelvic exenteration surgery"
+        ],
+        [
+          "Aromatase Inhibitor therapy",
+          "hormone replacement therapy use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Zubrod"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "cancer type (breast or gynecologic)",
+        "cancer stage",
+        "time since cancer diagnosis",
+        "history of depression or anxiety disorders",
+        "history of seizure disorders",
+        "history of anorexia or bulimia",
+        "history of Parkinson's disease",
+        "multiple sclerosis",
+        "or fibromyalgia",
+        "history of reconstruction surgery",
+        "performance status",
+        "aspartate aminotransferase (AST) and alanine aminotransferase (ALT) levels",
+        "total bilirubin level",
+        "glomerular filtration rate",
+        "FSFI desire subscale score at baseline",
+        "PHQ-4 score at baseline"
+      ]
+    }
+  }
+}

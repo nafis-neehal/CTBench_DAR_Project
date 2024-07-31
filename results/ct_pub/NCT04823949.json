@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT04823949",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, gestational age at delivery, type of hypertensive disorder, parity, mode of delivery, race/ethnicity, baseline blood pressure, history of hypertension, use of antihypertensive medication, socioeconomic status, smoking status, education level, marital status, employment status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI at 1st Visit",
+          "BMI"
+        ],
+        [
+          "Gestational age at delivery",
+          "gestational age at delivery"
+        ],
+        [
+          "Race",
+          "race/ethnicity"
+        ],
+        [
+          "Chronic HTN",
+          "history of hypertension"
+        ],
+        [
+          "Tobacco use",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Insurance",
+        "Diabetes",
+        "Renal Disease",
+        "Timing of Diagnosis",
+        "Disease severity"
+      ],
+      "remaining_candidate_features": [
+        "type of hypertensive disorder",
+        "parity",
+        "mode of delivery",
+        "baseline blood pressure",
+        "use of antihypertensive medication",
+        "socioeconomic status",
+        "education level",
+        "marital status",
+        "employment status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, BMI, Type of hypertensive disorder of pregnancy, Mode of delivery, Gestational age at delivery, Parity, History of hypertension, Use of antihypertensive medication, Smoking status, Education level, Employment status, Marital status, Insurance status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "BMI at 1st Visit",
+          "BMI"
+        ],
+        [
+          "Chronic HTN",
+          "History of hypertension"
+        ],
+        [
+          "Gestational age at delivery",
+          "Gestational age at delivery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Insurance",
+        "Tobacco use",
+        "Diabetes",
+        "Renal Disease",
+        "Timing of Diagnosis",
+        "Disease severity"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Type of hypertensive disorder of pregnancy",
+        "Mode of delivery",
+        "Parity",
+        "Use of antihypertensive medication",
+        "Smoking status",
+        "Education level",
+        "Employment status",
+        "Marital status",
+        "Insurance status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Race, Ethnicity, BMI, Gestational age at delivery, Parity, History of hypertension, History of pre-eclampsia, History of gestational diabetes, Mode of delivery, Blood pressure at delivery, Antihypertensive medication use during pregnancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "BMI at 1st Visit",
+          "BMI"
+        ],
+        [
+          "Gestational age at delivery",
+          "Gestational age at delivery"
+        ],
+        [
+          "Chronic HTN",
+          "History of hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Insurance",
+        "Tobacco use",
+        "Diabetes",
+        "Renal Disease",
+        "Timing of Diagnosis",
+        "Disease severity"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "Parity",
+        "History of pre-eclampsia",
+        "History of gestational diabetes",
+        "Mode of delivery",
+        "Blood pressure at delivery",
+        "Antihypertensive medication use during pregnancy."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, BMI, parity, gestational age at delivery, type of hypertensive disorder of pregnancy, mode of delivery, history of chronic hypertension, history of pre-eclampsia, number of prenatal care visits, education level, race, ethnicity, insurance status, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "BMI at 1st Visit",
+          "BMI"
+        ],
+        [
+          "Chronic HTN",
+          "history of chronic hypertension"
+        ],
+        [
+          "Gestational age at delivery",
+          "gestational age at delivery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Insurance",
+        "Tobacco use",
+        "Diabetes",
+        "Renal Disease",
+        "Timing of Diagnosis",
+        "Disease severity"
+      ],
+      "remaining_candidate_features": [
+        "parity",
+        "type of hypertensive disorder of pregnancy",
+        "mode of delivery",
+        "history of pre-eclampsia",
+        "number of prenatal care visits",
+        "education level",
+        "ethnicity",
+        "insurance status",
+        "marital status"
+      ]
+    }
+  }
+}

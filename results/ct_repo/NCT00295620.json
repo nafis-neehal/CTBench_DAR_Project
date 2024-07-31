@@ -1,0 +1,234 @@
+{
+  "trial_id": "NCT00295620",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, menopausal status, TNM classification at diagnosis, estrogen receptor status, progesterone receptor status, prior chemotherapy, prior radiotherapy, duration of prior endocrine therapy, performance index according to WHO, liver function, kidney function, compliance status, psychiatric history, hormone replacement therapy usage, presence of serious accessory disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "pN-stage",
+          "TNM classification at diagnosis"
+        ],
+        [
+          "pT-stage",
+          "TNM classification at diagnosis"
+        ],
+        [
+          "Previous Chemotherapy",
+          "prior chemotherapy"
+        ],
+        [
+          "Previous Endocrine Therapy",
+          "duration of prior endocrine therapy"
+        ],
+        [
+          "Estrogen Receptor Status",
+          "estrogen receptor status"
+        ],
+        [
+          "Progesterone Receptor Status",
+          "progesterone receptor status"
+        ],
+        [
+          "Previous Radiotherapy",
+          "prior radiotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Surgery Type",
+        "Sentinel Node Biopsy",
+        "Axillary Surgery",
+        "Tumor Grading"
+      ],
+      "remaining_candidate_features": [
+        "menopausal status",
+        "performance index according to WHO",
+        "liver function",
+        "kidney function",
+        "compliance status",
+        "psychiatric history",
+        "hormone replacement therapy usage",
+        "presence of serious accessory disease."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, TNM Classification at Diagnosis, Estrogen Receptor Status, Progesterone Receptor Status, Previous Chemotherapy, Previous Radiotherapy, Duration of Prior Endocrine Therapy, Performance Index, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "pN-stage",
+          "TNM Classification at Diagnosis"
+        ],
+        [
+          "Estrogen Receptor Status",
+          "Estrogen Receptor Status"
+        ],
+        [
+          "Progesterone Receptor Status",
+          "Progesterone Receptor Status"
+        ],
+        [
+          "Previous Chemotherapy",
+          "Previous Chemotherapy"
+        ],
+        [
+          "Previous Radiotherapy",
+          "Previous Radiotherapy"
+        ],
+        [
+          "Previous Endocrine Therapy",
+          "Duration of Prior Endocrine Therapy"
+        ],
+        [
+          "Performance Index >2 according to WHO",
+          "Performance Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "pT-stage",
+        "Surgery Type",
+        "Sentinel Node Biopsy",
+        "Axillary Surgery",
+        "Tumor Grading"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Postmenopausal Status, Region of Enrollment, Body Mass Index, TNM Classification, Estrogen Receptor Status, Progesterone Receptor Status, Previous Chemotherapy, Previous Radiotherapy, Performance Index According to WHO.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Previous Chemotherapy",
+          "Previous Chemotherapy"
+        ],
+        [
+          "Previous Radiotherapy",
+          "Previous Radiotherapy"
+        ],
+        [
+          "Estrogen Receptor Status",
+          "Estrogen Receptor Status"
+        ],
+        [
+          "Progesterone Receptor Status",
+          "Progesterone Receptor Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "pN-stage",
+        "pT-stage",
+        "Previous Endocrine Therapy",
+        "Surgery Type",
+        "Sentinel Node Biopsy",
+        "Axillary Surgery",
+        "Tumor Grading"
+      ],
+      "remaining_candidate_features": [
+        "Postmenopausal Status",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "TNM Classification",
+        "Performance Index According to WHO."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, menopausal status, TNM classification, tumor size, tumor grade, hormone receptor status, prior chemotherapy, prior radiotherapy, time since primary surgery, performance status, comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "pN-stage",
+          "TNM classification"
+        ],
+        [
+          "pT-stage",
+          "TNM classification"
+        ],
+        [
+          "Previous Chemotherapy",
+          "prior chemotherapy"
+        ],
+        [
+          "Previous Endocrine Therapy",
+          "hormone receptor status"
+        ],
+        [
+          "Estrogen Receptor Status",
+          "hormone receptor status"
+        ],
+        [
+          "Progesterone Receptor Status",
+          "hormone receptor status"
+        ],
+        [
+          "Previous Radiotherapy",
+          "prior radiotherapy"
+        ],
+        [
+          "Performance Index >2 according to WHO",
+          "performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Surgery Type",
+        "Sentinel Node Biopsy",
+        "Axillary Surgery",
+        "Tumor Grading"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "menopausal status",
+        "tumor size",
+        "tumor grade",
+        "time since primary surgery",
+        "comorbidities"
+      ]
+    }
+  }
+}

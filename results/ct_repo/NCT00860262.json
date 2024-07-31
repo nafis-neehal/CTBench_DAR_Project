@@ -1,0 +1,183 @@
+{
+  "trial_id": "NCT00860262",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline systolic blood pressure (SBP), baseline diastolic blood pressure (DBP), current antihypertensive therapy status, medical history, body mass index (BMI), smoking status, alcohol consumption, baseline heart rate, race/ethnicity, duration of hypertension.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Hypertension",
+          "duration of hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Body Mass Index Class",
+        "Race Class",
+        "Type II Diabetes",
+        "Duration of Hypertension Class",
+        "Number of previous antihypertensive treatments"
+      ],
+      "remaining_candidate_features": [
+        "baseline systolic blood pressure (SBP)",
+        "baseline diastolic blood pressure (DBP)",
+        "current antihypertensive therapy status",
+        "medical history",
+        "smoking status",
+        "alcohol consumption",
+        "baseline heart rate"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Current antihypertensive therapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Number of previous antihypertensive treatments",
+          "Current antihypertensive therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Mass Index (BMI)",
+        "Body Mass Index Class",
+        "Race Class",
+        "Type II Diabetes",
+        "Duration of Hypertension",
+        "Duration of Hypertension Class"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Baseline Systolic Blood Pressure",
+        "Baseline Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications at Baseline,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Hypertension",
+          "Duration of Hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Mass Index Class",
+        "Race Class",
+        "Type II Diabetes",
+        "Duration of Hypertension Class",
+        "Number of previous antihypertensive treatments"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Hypertension",
+        "Number of Antihypertensive Medications at Baseline"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (including presence of diabetes, cardiovascular disease, kidney disease), current antihypertensive therapy, duration of hypertension, baseline seated trough cuff SBP and DBP, heart rate, estimated glomerular filtration rate (eGFR), serum potassium, serum creatinine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Type II Diabetes",
+          "medical history (including presence of diabetes, cardiovascular disease, kidney disease)"
+        ],
+        [
+          "Duration of Hypertension",
+          "duration of hypertension"
+        ],
+        [
+          "Number of previous antihypertensive treatments",
+          "current antihypertensive therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Body Mass Index Class",
+        "Race Class",
+        "Duration of Hypertension Class"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "smoking status",
+        "baseline seated trough cuff SBP and DBP",
+        "heart rate",
+        "estimated glomerular filtration rate (eGFR)",
+        "serum potassium",
+        "serum creatinine"
+      ]
+    }
+  }
+}

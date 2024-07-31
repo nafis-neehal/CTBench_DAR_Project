@@ -1,0 +1,135 @@
+{
+  "trial_id": "NCT00350792",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG Performance Status, stage of disease, measurable lesion status, prior chemotherapy status, presence of serious systemic disorders, ability to discontinue aspirin or anti-inflammatory non-steroid use, concurrent antitumor therapy status, brain metastasis status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Disease Stage",
+          "stage of disease"
+        ],
+        [
+          "Pathological Diagnosis",
+          "measurable lesion status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "prior chemotherapy status",
+        "presence of serious systemic disorders",
+        "ability to discontinue aspirin or anti-inflammatory non-steroid use",
+        "concurrent antitumor therapy status",
+        "brain metastasis status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Stage of Disease, Measurable Lesion Size,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Disease Stage",
+          "Stage of Disease"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Pathological Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Measurable Lesion Size"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, ECOG Performance Status, Stage of NSCLC, Measurable Lesion, Prior Chemotherapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Disease Stage",
+          "Stage of NSCLC"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Pathological Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Measurable Lesion",
+        "Prior Chemotherapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ECOG Performance Status, stage of NSCLC, presence of measurable lesions, prior chemotherapy, prior radiotherapy, presence of systemic disorders, presence of brain metastasis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Disease Stage",
+          "stage of NSCLC"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Pathological Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "presence of measurable lesions",
+        "prior chemotherapy",
+        "prior radiotherapy",
+        "presence of systemic disorders",
+        "presence of brain metastasis."
+      ]
+    }
+  }
+}

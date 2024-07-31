@@ -1,0 +1,191 @@
+{
+  "trial_id": "NCT02010684",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, language preference, baseline Hb A1c, baseline Geriatric Depression Scale (GDS) score, socioeconomic status, medication use for diabetes, duration of diabetes, comorbid conditions, baseline depression measures.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Hemoglobin A1c",
+          "baseline Hb A1c"
+        ],
+        [
+          "Geriatric Depression Scale (GDS)",
+          "baseline Geriatric Depression Scale (GDS) score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Diastolic Blood Pressure",
+        "Systolic Blood Pressure",
+        "Low Density Lipoprotein-C",
+        "Patient Health Questionnaire-9 (PHQ-9)",
+        "EQ-5D",
+        "Yale Physical Activity Scale - Index Summary Score",
+        "Self-Efficacy (Diabetes Empowerment Scale)",
+        "Body Mass Index"
+      ],
+      "remaining_candidate_features": [
+        "language preference",
+        "socioeconomic status",
+        "medication use for diabetes",
+        "duration of diabetes",
+        "comorbid conditions",
+        "baseline depression measures."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity, Language Preference, Baseline HbA1c, Baseline Depression Score, Socioeconomic Status, Duration of Diabetes, Medication Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity"
+        ],
+        [
+          "Hemoglobin A1c",
+          "Baseline HbA1c"
+        ],
+        [
+          "Geriatric Depression Scale (GDS)",
+          "Baseline Depression Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diastolic Blood Pressure",
+        "Systolic Blood Pressure",
+        "Low Density Lipoprotein-C",
+        "Patient Health Questionnaire-9 (PHQ-9)",
+        "EQ-5D",
+        "Yale Physical Activity Scale - Index Summary Score",
+        "Self-Efficacy (Diabetes Empowerment Scale)",
+        "Body Mass Index"
+      ],
+      "remaining_candidate_features": [
+        "Language Preference",
+        "Socioeconomic Status",
+        "Duration of Diabetes",
+        "Medication Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Ethnicity (Latino), Region of Enrollment, Diabetes duration, HbA1c, Geriatric Depression Scale (GDS),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity (Latino)"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c"
+        ],
+        [
+          "Geriatric Depression Scale (GDS)",
+          "Geriatric Depression Scale (GDS)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diastolic Blood Pressure",
+        "Systolic Blood Pressure",
+        "Low Density Lipoprotein-C",
+        "Patient Health Questionnaire-9 (PHQ-9)",
+        "EQ-5D",
+        "Yale Physical Activity Scale - Index Summary Score",
+        "Self-Efficacy (Diabetes Empowerment Scale)",
+        "Body Mass Index"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diabetes duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ethnicity, language spoken, Hb A1c, Geriatric Depression Scale (GDS) score, diabetes duration, body mass index (BMI), blood pressure, lipid profile, smoking status, medication use (including antidepressants and diabetes medications), education level, income level, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Hemoglobin A1c",
+          "Hb A1c"
+        ],
+        [
+          "Geriatric Depression Scale (GDS)",
+          "Geriatric Depression Scale (GDS) score"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Diastolic Blood Pressure",
+        "Systolic Blood Pressure",
+        "Low Density Lipoprotein-C",
+        "Patient Health Questionnaire-9 (PHQ-9)",
+        "EQ-5D",
+        "Yale Physical Activity Scale - Index Summary Score",
+        "Self-Efficacy (Diabetes Empowerment Scale)"
+      ],
+      "remaining_candidate_features": [
+        "language spoken",
+        "diabetes duration",
+        "blood pressure",
+        "lipid profile",
+        "smoking status",
+        "medication use (including antidepressants and diabetes medications)",
+        "education level",
+        "income level",
+        "marital status"
+      ]
+    }
+  }
+}

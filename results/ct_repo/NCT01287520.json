@@ -1,0 +1,187 @@
+{
+  "trial_id": "NCT01287520",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, performance status (ECOG), life expectancy, histological or cytological diagnosis, presence of measurable or nonmeasurable disease, hematologic function, hepatic function, renal function, previous therapies for cancer, blood pressure, cardiac condition, electrolyte levels, reproductive status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance",
+          "performance status (ECOG)"
+        ],
+        [
+          "Basis of Diagnosis",
+          "histological or cytological diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Surface Area",
+        "Initial Pathological Tumor Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "life expectancy",
+        "presence of measurable or nonmeasurable disease",
+        "hematologic function",
+        "hepatic function",
+        "renal function",
+        "previous therapies for cancer",
+        "blood pressure",
+        "cardiac condition",
+        "electrolyte levels",
+        "reproductive status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Life Expectancy, Histological or Cytological Diagnosis, Measurable Disease Status, Hematologic Function, Hepatic Function, Renal Function, Prior Cancer Therapies, Systolic Blood Pressure, Diastolic Blood Pressure, Electrolyte Levels, Cardiac History, Concomitant Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance",
+          "ECOG Performance Status"
+        ],
+        [
+          "Basis of Diagnosis",
+          "Histological or Cytological Diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Body Surface Area",
+        "Initial Pathological Tumor Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Life Expectancy",
+        "Measurable Disease Status",
+        "Hematologic Function",
+        "Hepatic Function",
+        "Renal Function",
+        "Prior Cancer Therapies",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Electrolyte Levels",
+        "Cardiac History",
+        "Concomitant Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Life Expectancy, Cancer Diagnosis, Presence of Measurable or Nonmeasurable Disease, Hematologic Function, Hepatic Function, Renal Function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance",
+          "ECOG Performance Status"
+        ],
+        [
+          "Basis of Diagnosis",
+          "Cancer Diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Surface Area",
+        "Initial Pathological Tumor Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Life Expectancy",
+        "Presence of Measurable or Nonmeasurable Disease",
+        "Hematologic Function",
+        "Hepatic Function",
+        "Renal Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, performance status (ECOG scale), life expectancy, cancer diagnosis, presence of measurable or nonmeasurable disease, prior cancer therapies, hematologic function, hepatic function, renal function, systolic blood pressure, diastolic blood pressure, electrocardiogram (ECG) results, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance",
+          "performance status (ECOG scale)"
+        ],
+        [
+          "Basis of Diagnosis",
+          "cancer diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Body Surface Area",
+        "Initial Pathological Tumor Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "life expectancy",
+        "presence of measurable or nonmeasurable disease",
+        "prior cancer therapies",
+        "hematologic function",
+        "hepatic function",
+        "renal function",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "electrocardiogram (ECG) results",
+        "concomitant medications."
+      ]
+    }
+  }
+}

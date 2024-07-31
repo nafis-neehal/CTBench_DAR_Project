@@ -1,0 +1,201 @@
+{
+  "trial_id": "NCT01349660",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race/ethnicity, ECOG performance status, prior treatments, tumor type, disease stage, measurable disease status, life expectancy, hematologic function, hepatic function, renal function, fasting plasma glucose, left ventricular ejection fraction (LVEF), QTc interval on ECG, history of cardiac disease, history of bleeding diathesis or coagulopathy, prior use of PI3K inhibitors, prior use of bevacizumab, time since last cancer therapy, use of anticoagulants, use of medications affecting QT interval, history of hemoptysis or hematemesis, use of hematopoietic colony-stimulating factors, recent major surgical procedures.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "Primary Tumor Type",
+          "tumor type"
+        ],
+        [
+          "Prior Treatment with Bevacizumab",
+          "prior use of bevacizumab"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "prior treatments",
+        "disease stage",
+        "measurable disease status",
+        "life expectancy",
+        "hematologic function",
+        "hepatic function",
+        "renal function",
+        "fasting plasma glucose",
+        "left ventricular ejection fraction (LVEF)",
+        "QTc interval on ECG",
+        "history of cardiac disease",
+        "history of bleeding diathesis or coagulopathy",
+        "prior use of PI3K inhibitors",
+        "time since last cancer therapy",
+        "use of anticoagulants",
+        "use of medications affecting QT interval",
+        "history of hemoptysis or hematemesis",
+        "use of hematopoietic colony-stimulating factors",
+        "recent major surgical procedures"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Life Expectancy, Hematologic Function, Hepatic Function, Renal Function, Prior Cancer Therapy, Tumor Type, Measurable Disease,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Primary Tumor Type",
+          "Tumor Type"
+        ],
+        [
+          "Prior Treatment with Bevacizumab",
+          "Prior Cancer Therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG Performance Status",
+        "Life Expectancy",
+        "Hematologic Function",
+        "Hepatic Function",
+        "Renal Function",
+        "Measurable Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior Bevacizumab Treatment, Prior PI3K Inhibitor Treatment, Tumor Type, Measurable Disease, Archival Tumor Tissue Availability, Hemoglobin, Platelet Count, Absolute Neutrophil Count, Creatinine, Total Bilirubin, AST, ALT, Albumin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Prior Treatment with Bevacizumab",
+          "Prior Bevacizumab Treatment"
+        ],
+        [
+          "Primary Tumor Type",
+          "Tumor Type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG Performance Status",
+        "Prior PI3K Inhibitor Treatment",
+        "Measurable Disease",
+        "Archival Tumor Tissue Availability",
+        "Hemoglobin",
+        "Platelet Count",
+        "Absolute Neutrophil Count",
+        "Creatinine",
+        "Total Bilirubin",
+        "AST",
+        "ALT",
+        "Albumin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, life expectancy, tumor type, number of prior therapies, time since last therapy, presence of measurable disease, presence of non-measurable disease, prior bevacizumab treatment, prior PI3K inhibitor treatment, presence of diabetes, presence of cardiac disease, presence of bleeding diathesis or coagulopathy, hemoglobin, platelet count, white blood cell count, creatinine, bilirubin, aspartate aminotransferase, alanine aminotransferase, albumin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Primary Tumor Type",
+          "tumor type"
+        ],
+        [
+          "Prior Treatment with Bevacizumab",
+          "prior bevacizumab treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "ECOG performance status",
+        "life expectancy",
+        "number of prior therapies",
+        "time since last therapy",
+        "presence of measurable disease",
+        "presence of non-measurable disease",
+        "prior PI3K inhibitor treatment",
+        "presence of diabetes",
+        "presence of cardiac disease",
+        "presence of bleeding diathesis or coagulopathy",
+        "hemoglobin",
+        "platelet count",
+        "white blood cell count",
+        "creatinine",
+        "bilirubin",
+        "aspartate aminotransferase",
+        "alanine aminotransferase",
+        "albumin"
+      ]
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "trial_id": "NCT00006392",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Digital Rectal Examination (DRE) results, Total Prostate-Specific Antigen (PSA) levels, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hemorrhagic Stroke, History of Malignancies within the past 5 years, Presence of Uncontrolled Medical Illness, Presence of Retinitis Pigmentosa, Prior Randomization to SWOG-9217, Concurrent Multivitamin Use, Concurrent Anticoagulation Therapy, Concurrent Prophylactic Aspirin Use, Concurrent Anti-Hypertension Medication Use, Concurrent Participation in Another Study.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "PSA (ng/ml)",
+          "Total Prostate-Specific Antigen (PSA) levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Age (categorical)",
+        "Education (highest)",
+        "Smoking status"
+      ],
+      "remaining_candidate_features": [
+        "Digital Rectal Examination (DRE) results",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Hemorrhagic Stroke",
+        "History of Malignancies within the past 5 years",
+        "Presence of Uncontrolled Medical Illness",
+        "Presence of Retinitis Pigmentosa",
+        "Prior Randomization to SWOG-9217",
+        "Concurrent Multivitamin Use",
+        "Concurrent Anticoagulation Therapy",
+        "Concurrent Prophylactic Aspirin Use",
+        "Concurrent Anti-Hypertension Medication Use",
+        "Concurrent Participation in Another Study"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Prostate-Specific Antigen (PSA), Digital Rectal Examination (DRE) Results, History of Hemorrhagic Stroke, Use of Antihypertensive Medication, Use of Prophylactic Aspirin,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "PSA (ng/ml)",
+          "Total Prostate-Specific Antigen (PSA)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Age (categorical)",
+        "Education (highest)",
+        "Smoking status"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Digital Rectal Examination (DRE) Results",
+        "History of Hemorrhagic Stroke",
+        "Use of Antihypertensive Medication",
+        "Use of Prophylactic Aspirin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Systolic Blood Pressure, Diastolic Blood Pressure, Total Prostate-Specific Antigen, Digital Rectal Examination, Family History of Prostate Cancer, History of Prostate Biopsy, History of High-Grade Prostatic Intraepithelial Neoplasia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "PSA (ng/ml)",
+          "Total Prostate-Specific Antigen"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Age (categorical)",
+        "Education (highest)",
+        "Smoking status"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Digital Rectal Examination",
+        "Family History of Prostate Cancer",
+        "History of Prostate Biopsy",
+        "History of High-Grade Prostatic Intraepithelial Neoplasia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, total prostate-specific antigen (PSA) level, digital rectal examination (DRE) result, smoking status, family history of prostate cancer, medical history (including hypertension, diabetes, and cardiovascular disease), concurrent medications (including anticoagulation therapy, aspirin, and anti-hypertension medication).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "PSA (ng/ml)",
+          "total prostate-specific antigen (PSA) level"
+        ],
+        [
+          "Smoking status",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Age (categorical)",
+        "Education (highest)"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "digital rectal examination (DRE) result",
+        "family history of prostate cancer",
+        "medical history (including hypertension, diabetes, and cardiovascular disease)",
+        "concurrent medications (including anticoagulation therapy, aspirin, and anti-hypertension medication)"
+      ]
+    }
+  }
+}

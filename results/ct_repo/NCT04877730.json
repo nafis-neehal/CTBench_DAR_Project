@@ -1,0 +1,206 @@
+{
+  "trial_id": "NCT04877730",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 1 diabetes, current insulin use duration, current insulin pump use duration, carbohydrate ratio, correction factors, internet access, pregnancy status, contraception use, personal CGM use, willingness to use study CGM, willingness to use UVa closed-loop system, willingness to use study insulin, willingness to avoid new non-insulin glucose-lowering agents, daily carbohydrate intake, oral steroid use, understanding of protocol, COVID-19 vaccination status, history of diabetic ketoacidosis, history of severe hypoglycemia, seizure disorder treatment, planned surgery, treatment with non-insulin glucose-lowering agents, other medical conditions, use of automated insulin delivery mechanism, known contact with COVID-19 positive individual.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Diabetes duration (years)",
+          "duration of type 1 diabetes"
+        ],
+        [
+          "Previous CGM users",
+          "personal CGM use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "HbA1c",
+        "Body mass index (BMI)"
+      ],
+      "remaining_candidate_features": [
+        "current insulin use duration",
+        "current insulin pump use duration",
+        "carbohydrate ratio",
+        "correction factors",
+        "internet access",
+        "pregnancy status",
+        "contraception use",
+        "willingness to use study CGM",
+        "willingness to use UVa closed-loop system",
+        "willingness to use study insulin",
+        "willingness to avoid new non-insulin glucose-lowering agents",
+        "daily carbohydrate intake",
+        "oral steroid use",
+        "understanding of protocol",
+        "COVID-19 vaccination status",
+        "history of diabetic ketoacidosis",
+        "history of severe hypoglycemia",
+        "seizure disorder treatment",
+        "planned surgery",
+        "treatment with non-insulin glucose-lowering agents",
+        "other medical conditions",
+        "use of automated insulin delivery mechanism",
+        "known contact with COVID-19 positive individual"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Insulin Pump Use Duration, Baseline HbA1c, Daily Insulin Dose, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, eGFR, History of Diabetic Ketoacidosis, History of Severe Hypoglycemia,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Diabetes duration (years)",
+          "Duration of Diabetes"
+        ],
+        [
+          "Body mass index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Previous CGM users",
+          "Insulin Pump Use Duration"
+        ],
+        [
+          "HbA1c",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Daily Insulin Dose",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "eGFR",
+        "History of Diabetic Ketoacidosis",
+        "History of Severe Hypoglycemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Duration, Insulin Pump Usage Duration, HbA1c, BMI, Total Daily Insulin Dose, Carbohydrate Ratio, Correction Factor, Average Daily Blood Glucose, History of Severe Hypoglycemia, History of Diabetic Ketoacidosis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Diabetes duration (years)",
+          "Diabetes Duration"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Body mass index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Previous CGM users"
+      ],
+      "remaining_candidate_features": [
+        "Insulin Pump Usage Duration",
+        "Total Daily Insulin Dose",
+        "Carbohydrate Ratio",
+        "Correction Factor",
+        "Average Daily Blood Glucose",
+        "History of Severe Hypoglycemia",
+        "History of Diabetic Ketoacidosis."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 1 diabetes, insulin pump usage duration, HbA1c, total daily insulin dose, carbohydrate ratio, correction factors, history of severe hypoglycemia, history of diabetic ketoacidosis, presence of diabetes-related complications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Diabetes duration (years)",
+          "duration of type 1 diabetes"
+        ],
+        [
+          "Body mass index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Previous CGM users",
+          "insulin pump usage duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "total daily insulin dose",
+        "carbohydrate ratio",
+        "correction factors",
+        "history of severe hypoglycemia",
+        "history of diabetic ketoacidosis",
+        "presence of diabetes-related complications"
+      ]
+    }
+  }
+}

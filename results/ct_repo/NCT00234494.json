@@ -1,0 +1,217 @@
+{
+  "trial_id": "NCT00234494",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ECOG performance status, prior chemotherapy, prior radiation therapy, prior immunotherapy, prior biologic therapy, prior vaccine therapy, measurable disease status, history of central nervous system metastasis, history of organ allograft, history of bleeding diathesis or coagulopathy, history of serious non-healing wound, history of abdominal fistula, history of gastrointestinal perforation, history of intra-abdominal abscess, history of other malignancies, history of major surgical procedures, history of minor surgical procedures.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Prior cystectomy",
+          "prior chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "kg/m2",
+        "Creatinine",
+        "mg/dL",
+        "WBC Count",
+        "Hemoglobin",
+        "Platelet count",
+        "Number of metastatic sites",
+        "Metastatic Site Locations",
+        "Modified Bajorin risk group"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "prior radiation therapy",
+        "prior immunotherapy",
+        "prior biologic therapy",
+        "prior vaccine therapy",
+        "measurable disease status",
+        "history of central nervous system metastasis",
+        "history of organ allograft",
+        "history of bleeding diathesis or coagulopathy",
+        "history of serious non-healing wound",
+        "history of abdominal fistula",
+        "history of gastrointestinal perforation",
+        "history of intra-abdominal abscess",
+        "history of other malignancies",
+        "history of major surgical procedures",
+        "history of minor surgical procedures."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Prior chemotherapy, Measurable disease per RECIST, Prior radiation therapy, Prior immunotherapy, Prior biologic therapy, Prior vaccine therapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Mass Index",
+        "kg/m2",
+        "Creatinine",
+        "mg/dL",
+        "WBC Count",
+        "Hemoglobin",
+        "Platelet count",
+        "Number of metastatic sites",
+        "Prior cystectomy",
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+        "Metastatic Site Locations",
+        "Modified Bajorin risk group"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Prior chemotherapy",
+        "Measurable disease per RECIST",
+        "Prior radiation therapy",
+        "Prior immunotherapy",
+        "Prior biologic therapy",
+        "Prior vaccine therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological subtype of transitional cell carcinoma, Prior chemotherapy, Prior radiation therapy, Prior surgery, Measurable disease, Baseline hemoglobin, Baseline creatinine, Baseline liver function tests.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Hemoglobin",
+          "Baseline hemoglobin"
+        ],
+        [
+          "Creatinine",
+          "Baseline creatinine"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Mass Index",
+        "kg/m2",
+        "WBC Count",
+        "Platelet count",
+        "Number of metastatic sites",
+        "Prior cystectomy",
+        "Metastatic Site Locations",
+        "Modified Bajorin risk group"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Histological subtype of transitional cell carcinoma",
+        "Prior chemotherapy",
+        "Prior radiation therapy",
+        "Prior surgery",
+        "Measurable disease",
+        "Baseline liver function tests."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, histological subtype of transitional cell carcinoma, tumor stage, presence of metastases, prior chemotherapy, prior radiation therapy, prior surgery, time from diagnosis to study entry, baseline hemoglobin, baseline platelet count, baseline creatinine, baseline liver function tests, baseline albumin, body mass index.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index"
+        ],
+        [
+          "Creatinine",
+          "baseline creatinine"
+        ],
+        [
+          "Hemoglobin",
+          "baseline hemoglobin"
+        ],
+        [
+          "Platelet count",
+          "baseline platelet count"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "kg/m2",
+        "WBC Count",
+        "Number of metastatic sites",
+        "Prior cystectomy",
+        "Metastatic Site Locations",
+        "Modified Bajorin risk group"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "histological subtype of transitional cell carcinoma",
+        "tumor stage",
+        "presence of metastases",
+        "prior chemotherapy",
+        "prior radiation therapy",
+        "prior surgery",
+        "time from diagnosis to study entry",
+        "baseline liver function tests",
+        "baseline albumin"
+      ]
+    }
+  }
+}

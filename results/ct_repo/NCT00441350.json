@@ -1,0 +1,165 @@
+{
+  "trial_id": "NCT00441350",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline sitting diastolic blood pressure (dBP), baseline sitting systolic blood pressure (sBP), body mass index (BMI), medical history, concomitant medications, smoking status, alcohol consumption, duration of hypertension, previous antihypertensive treatments.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Trough Sitting dBP",
+          "baseline sitting diastolic blood pressure (dBP)"
+        ],
+        [
+          "Trough Sitting sBP",
+          "baseline sitting systolic blood pressure (sBP)"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "medical history",
+        "concomitant medications",
+        "smoking status",
+        "alcohol consumption",
+        "duration of hypertension",
+        "previous antihypertensive treatments."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline sitting diastolic blood pressure (dBP), Baseline sitting systolic blood pressure (sBP), Previous antihypertensive treatment, Body Mass Index (BMI), Smoking status, Alcohol consumption,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Trough Sitting dBP",
+          "Baseline sitting diastolic blood pressure (dBP)"
+        ],
+        [
+          "Trough Sitting sBP",
+          "Baseline sitting systolic blood pressure (sBP)"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Previous antihypertensive treatment",
+        "Smoking status",
+        "Alcohol consumption"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of Hypertension, Previous Antihypertensive Treatment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Trough Sitting dBP",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Trough Sitting sBP",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Duration of Hypertension",
+        "Previous Antihypertensive Treatment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, weight, height, body mass index (BMI), systolic blood pressure (sBP), diastolic blood pressure (dBP), heart rate, medical history (including hypertension duration and previous antihypertensive treatment), concomitant medications, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Trough Sitting sBP",
+          "systolic blood pressure (sBP)"
+        ],
+        [
+          "Trough Sitting dBP",
+          "diastolic blood pressure (dBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "weight",
+        "height",
+        "heart rate",
+        "medical history (including hypertension duration and previous antihypertensive treatment)",
+        "concomitant medications",
+        "smoking status"
+      ]
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "trial_id": "NCT02309138",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age at enrollment, body mass index (BMI), race/ethnicity, parity, family history of diabetes, previous history of gestational diabetes, smoking status, socioeconomic status, education level, blood pressure, fasting glucose level, hemoglobin A1c, lipid profile, physical activity level, dietary habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "pre-pregnancy BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "previous history of gestational diabetes",
+          "previous history of gestational diabetes"
+        ],
+        [
+          "First degree family history of diabetes",
+          "family history of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Glucose Challenge 50 gm test"
+      ],
+      "remaining_candidate_features": [
+        "gestational age at enrollment",
+        "parity",
+        "smoking status",
+        "socioeconomic status",
+        "education level",
+        "blood pressure",
+        "fasting glucose level",
+        "hemoglobin A1c",
+        "lipid profile",
+        "physical activity level",
+        "dietary habits"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational Age at Enrollment, Race/Ethnicity, Customized, Body Mass Index, Blood Pressure, Fasting Glucose, Previous Gestational Diabetes, Parity, Smoking Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "pre-pregnancy BMI",
+          "Body Mass Index"
+        ],
+        [
+          "previous history of gestational diabetes",
+          "Previous Gestational Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Glucose Challenge 50 gm test",
+        "First degree family history of diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age at Enrollment",
+        "Blood Pressure",
+        "Fasting Glucose",
+        "Parity",
+        "Smoking Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gestational Age, Singleton Gestation, Body Mass Index, Ethnicity (NIH/OMB), Region of Enrollment, Previous history of gestational diabetes, Family history of diabetes, Hypertension,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "pre-pregnancy BMI",
+          "Body Mass Index"
+        ],
+        [
+          "previous history of gestational diabetes",
+          "Previous history of gestational diabetes"
+        ],
+        [
+          "First degree family history of diabetes",
+          "Family history of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Glucose Challenge 50 gm test"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age",
+        "Singleton Gestation",
+        "Region of Enrollment",
+        "Hypertension"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, body mass index (BMI), gestational age at randomization, parity, history of gestational diabetes, family history of diabetes, smoking status, medical history (hypertension, liver disease, HIV), medication use (corticosteroids, antihypertensives), singleton gestation, fetal sex.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "pre-pregnancy BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "previous history of gestational diabetes",
+          "history of gestational diabetes"
+        ],
+        [
+          "First degree family history of diabetes",
+          "family history of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Glucose Challenge 50 gm test"
+      ],
+      "remaining_candidate_features": [
+        "gestational age at randomization",
+        "parity",
+        "smoking status",
+        "medical history (hypertension, liver disease, HIV)",
+        "medication use (corticosteroids, antihypertensives)",
+        "singleton gestation",
+        "fetal sex"
+      ]
+    }
+  }
+}

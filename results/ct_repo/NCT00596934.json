@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT00596934",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, fasting leptin levels, liver biopsy results, insulin resistance, body composition characteristics, metabolic parameters, fasting glucose levels, presence of other liver diseases, presence of clinical diabetes, medication use for NASH or obesity, presence of HIV, renal function, cancer status, heart failure status, infection status, life expectancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "gender"
+        ],
+        [
+          "Non-alcoholic steatohepatitis (NASH) score",
+          "liver biopsy results"
+        ],
+        [
+          "Body Weight",
+          "BMI"
+        ],
+        [
+          "Insulin Resistance: homeostatic model assessment (HOMA)",
+          "insulin resistance"
+        ],
+        [
+          "Fasting glucose",
+          "fasting glucose levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Region of Enrollment",
+        "Liver fat percentage by Magnetic Resonance Imaging (MRI - Dixon method)",
+        "Liver function test: Alanine aminotransferase (ALT)",
+        "Liver function test: Aspartate aminotransferase (AST)",
+        "Fasting triglycerides"
+      ],
+      "remaining_candidate_features": [
+        "fasting leptin levels",
+        "body composition characteristics",
+        "metabolic parameters",
+        "presence of other liver diseases",
+        "presence of clinical diabetes",
+        "medication use for NASH or obesity",
+        "presence of HIV",
+        "renal function",
+        "cancer status",
+        "heart failure status",
+        "infection status",
+        "life expectancy"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Body Mass Index, Fasting Leptin Levels, Liver Enzyme Levels, Insulin Sensitivity, Liver Histopathology,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Non-alcoholic steatohepatitis (NASH) score",
+          "Liver Histopathology"
+        ],
+        [
+          "Body Weight",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting glucose",
+          "Fasting Leptin Levels"
+        ],
+        [
+          "Insulin Resistance: homeostatic model assessment (HOMA)",
+          "Insulin Sensitivity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Region of Enrollment",
+        "Liver fat percentage by Magnetic Resonance Imaging (MRI - Dixon method)",
+        "Liver function test: Alanine aminotransferase (ALT)",
+        "Liver function test: Aspartate aminotransferase (AST)",
+        "Fasting triglycerides"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Liver Enzyme Levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, BMI, Leptin levels, Fasting glucose, Liver histopathology score, Waist circumference, Insulin resistance, Lipid profile.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Non-alcoholic steatohepatitis (NASH) score",
+          "Liver histopathology score"
+        ],
+        [
+          "Fasting glucose",
+          "Fasting glucose"
+        ],
+        [
+          "Insulin Resistance: homeostatic model assessment (HOMA)",
+          "Insulin resistance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Region of Enrollment",
+        "Body Weight",
+        "Liver fat percentage by Magnetic Resonance Imaging (MRI - Dixon method)",
+        "Liver function test: Alanine aminotransferase (ALT)",
+        "Liver function test: Aspartate aminotransferase (AST)",
+        "Fasting triglycerides"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Leptin levels",
+        "Waist circumference",
+        "Lipid profile."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, body mass index (BMI), waist circumference, fasting glucose, fasting insulin, hemoglobin A1c, lipid profile, liver enzymes, leptin levels, presence of diabetes, presence of hypertension, smoking status, alcohol consumption, medical history (including presence of cardiovascular disease, kidney disease, cancer), medication use (including insulin sensitizers, lipid-lowering agents, antihypertensives).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Male",
+          "sex"
+        ],
+        [
+          "Fasting glucose",
+          "fasting glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Non-alcoholic steatohepatitis (NASH) score",
+        "Body Weight",
+        "Liver fat percentage by Magnetic Resonance Imaging (MRI - Dixon method)",
+        "Liver function test: Alanine aminotransferase (ALT)",
+        "Liver function test: Aspartate aminotransferase (AST)",
+        "Insulin Resistance: homeostatic model assessment (HOMA)",
+        "Fasting triglycerides"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "waist circumference",
+        "fasting insulin",
+        "hemoglobin A1c",
+        "lipid profile",
+        "liver enzymes",
+        "leptin levels",
+        "presence of diabetes",
+        "presence of hypertension",
+        "smoking status",
+        "alcohol consumption",
+        "medical history (including presence of cardiovascular disease, kidney disease, cancer)",
+        "medication use (including insulin sensitizers, lipid-lowering agents, antihypertensives)"
+      ]
+    }
+  }
+}

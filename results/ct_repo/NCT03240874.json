@@ -1,0 +1,151 @@
+{
+  "trial_id": "NCT03240874",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age, type of diabetes (gestational diabetes mellitus or type 2 diabetes mellitus), language (English-speaking), income level, access to a mobile smartphone, insurance status, pregnancy viability.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Diabetes diagnosis",
+          "type of diabetes (gestational diabetes mellitus or type 2 diabetes mellitus)"
+        ],
+        [
+          "Publicly funded insurance",
+          "insurance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body Mass Index (BMI)"
+      ],
+      "remaining_candidate_features": [
+        "gestational age",
+        "language (English-speaking)",
+        "income level",
+        "access to a mobile smartphone",
+        "pregnancy viability"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational age, Diabetes type (gestational or type 2), Income level, Insurance type, Access to mobile smartphone,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Diabetes diagnosis",
+          "Diabetes type (gestational or type 2)"
+        ],
+        [
+          "Publicly funded insurance",
+          "Insurance type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body Mass Index (BMI)"
+      ],
+      "remaining_candidate_features": [
+        "Gestational age",
+        "Income level",
+        "Access to mobile smartphone"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gestational Age, Gestational Diabetes Mellitus, Type 2 Diabetes Mellitus, Low Income Status, Household Income, Family Size, Publicly-Supported Insurance, Access to Mobile Smartphone,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Diabetes diagnosis",
+          "Gestational Diabetes Mellitus"
+        ],
+        [
+          "Diabetes diagnosis",
+          "Type 2 Diabetes Mellitus"
+        ],
+        [
+          "Publicly funded insurance",
+          "Publicly-Supported Insurance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body Mass Index (BMI)"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age",
+        "Low Income Status",
+        "Household Income",
+        "Family Size",
+        "Access to Mobile Smartphone"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, gestational age, type of diabetes (gestational diabetes mellitus or type 2 diabetes mellitus), language spoken (English), income level (low income, defined as use of publicly-supported insurance for prenatal care or household income <200% of poverty line for family size), access to a mobile smartphone, parity, gravidity, body mass index (BMI), ethnicity, race.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Diabetes diagnosis",
+          "type of diabetes (gestational diabetes mellitus or type 2 diabetes mellitus)"
+        ],
+        [
+          "Publicly funded insurance",
+          "income level (low income, defined as use of publicly-supported insurance for prenatal care or household income <200% of poverty line for family size)"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "gestational age",
+        "language spoken (English)",
+        "access to a mobile smartphone",
+        "parity",
+        "gravidity"
+      ]
+    }
+  }
+}

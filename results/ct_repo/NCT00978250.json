@@ -1,0 +1,174 @@
+{
+  "trial_id": "NCT00978250",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, type of cancer, Karnofsky performance status, prior therapy, absolute neutrophil count, platelet count, total bilirubin, AST/ALT levels, creatinine levels, life expectancy, organ and marrow function, presence of liver metastases, use of contraception, history of allergic reactions to study drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "type of cancer",
+        "Karnofsky performance status",
+        "prior therapy",
+        "absolute neutrophil count",
+        "platelet count",
+        "total bilirubin",
+        "AST/ALT levels",
+        "creatinine levels",
+        "life expectancy",
+        "organ and marrow function",
+        "presence of liver metastases",
+        "use of contraception",
+        "history of allergic reactions to study drugs."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Type, Prior Lines of Therapy, Karnofsky Performance Status, Absolute Neutrophil Count, Platelet Count, Total Bilirubin, Aspartate Transaminase (AST), Alanine Transaminase (ALT), Creatinine, Creatinine Clearance,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Cancer Type",
+        "Prior Lines of Therapy",
+        "Karnofsky Performance Status",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Total Bilirubin",
+        "Aspartate Transaminase (AST)",
+        "Alanine Transaminase (ALT)",
+        "Creatinine",
+        "Creatinine Clearance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky Performance Status, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Absolute Neutrophil Count, Platelet Count, Total Bilirubin, Aspartate Transaminase, Alanine Transaminase, Creatinine, Creatinine Clearance, Tumor Type, Prior Therapy, Number of Prior Therapies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky Performance Status",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hemoglobin",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Total Bilirubin",
+        "Aspartate Transaminase",
+        "Alanine Transaminase",
+        "Creatinine",
+        "Creatinine Clearance",
+        "Tumor Type",
+        "Prior Therapy",
+        "Number of Prior Therapies"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, Karnofsky performance status, life expectancy, histology, tumor type, number of prior therapies, time since last therapy, presence of measurable disease, presence of skin lesions, absolute neutrophil count, platelets, total bilirubin, aspartate transaminase (AST), alanine transaminase (ALT), creatinine, creatinine clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky performance status",
+        "life expectancy",
+        "histology",
+        "tumor type",
+        "number of prior therapies",
+        "time since last therapy",
+        "presence of measurable disease",
+        "presence of skin lesions",
+        "absolute neutrophil count",
+        "platelets",
+        "total bilirubin",
+        "aspartate transaminase (AST)",
+        "alanine transaminase (ALT)",
+        "creatinine",
+        "creatinine clearance"
+      ]
+    }
+  }
+}

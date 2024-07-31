@@ -1,0 +1,162 @@
+{
+  "trial_id": "NCT04760444",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Race/Ethnicity, Duration of Type 2 Diabetes, Ambulatory Status, Presence of Serious Health Conditions, Presence of Psychiatric Illness, Cognitive Function, Presence of Serious Diabetes Complications, Baseline Hemoglobin A1C, Baseline Self-Care Activities",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Hemoglobin A1C",
+          "Baseline Hemoglobin A1C"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Type 2 Diabetes",
+        "Ambulatory Status",
+        "Presence of Serious Health Conditions",
+        "Presence of Psychiatric Illness",
+        "Cognitive Function",
+        "Presence of Serious Diabetes Complications",
+        "Baseline Self-Care Activities"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Blood Pressure, Weight, Diabetes Distress, Self-Management Behaviors,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1C",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes",
+        "Blood Pressure",
+        "Weight",
+        "Diabetes Distress",
+        "Self-Management Behaviors"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin A1C, Self-Care Activities,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1C",
+          "Hemoglobin A1C"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Diagnosis Duration",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Self-Care Activities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, sex, body mass index (BMI), duration of diabetes, comorbidities, smoking status, education level, employment status, marital status, income level, health literacy, diabetes treatment regimen, blood pressure, weight, diabetes distress, self-management behaviors.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Male",
+          "sex"
+        ],
+        [
+          "Hemoglobin A1C",
+          "Hemoglobin A1C"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "duration of diabetes",
+        "comorbidities",
+        "smoking status",
+        "education level",
+        "employment status",
+        "marital status",
+        "income level",
+        "health literacy",
+        "diabetes treatment regimen",
+        "blood pressure",
+        "weight",
+        "diabetes distress",
+        "self-management behaviors."
+      ]
+    }
+  }
+}

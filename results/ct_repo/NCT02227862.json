@@ -1,0 +1,193 @@
+{
+  "trial_id": "NCT02227862",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), baseline HbA1c, duration of Type 1 Diabetes Mellitus, hemoglobin level, history of severe hypoglycemia, history of diabetic ketoacidosis, serological evidence of HIV, hepatitis B, or hepatitis C, history of drug or alcohol dependence.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Baseline HbA1c",
+          "baseline HbA1c"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of Type 1 Diabetes Mellitus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Insulin History",
+        "Dosing Time",
+        "Baseline fasting plasma glucose",
+        "Baseline fasting C-peptide"
+      ],
+      "remaining_candidate_features": [
+        "hemoglobin level",
+        "history of severe hypoglycemia",
+        "history of diabetic ketoacidosis",
+        "serological evidence of HIV",
+        "hepatitis B",
+        "or hepatitis C",
+        "history of drug or alcohol dependence."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, History of Severe Hypoglycemia, History of Diabetic Ketoacidosis,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline HbA1c",
+          "Baseline HbA1c"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment",
+        "Insulin History",
+        "Dosing Time",
+        "Baseline fasting plasma glucose",
+        "Baseline fasting C-peptide"
+      ],
+      "remaining_candidate_features": [
+        "Daily Insulin Dose",
+        "History of Severe Hypoglycemia",
+        "History of Diabetic Ketoacidosis"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Body Mass Index, HbA1c, Hemoglobin, Region of Enrollment, Diabetes Diagnosis Duration, Insulin Dose, Hypoglycemic Events,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race/Ethnicity",
+        "Insulin History",
+        "Dosing Time",
+        "Duration of Diabetes",
+        "Baseline fasting plasma glucose",
+        "Baseline fasting C-peptide"
+      ],
+      "remaining_candidate_features": [
+        "Hemoglobin",
+        "Diabetes Diagnosis Duration",
+        "Insulin Dose",
+        "Hypoglycemic Events"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 1 diabetes, glycosylated hemoglobin (HbA1c) at screening, hemoglobin at screening, insulin dose at screening, history of diabetic complications, history of hypoglycemia, history of severe hypoglycemia, history of diabetic ketoacidosis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 1 diabetes"
+        ],
+        [
+          "Baseline HbA1c",
+          "glycosylated hemoglobin (HbA1c) at screening"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Insulin History",
+        "Dosing Time",
+        "Baseline fasting plasma glucose",
+        "Baseline fasting C-peptide"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "hemoglobin at screening",
+        "insulin dose at screening",
+        "history of diabetic complications",
+        "history of hypoglycemia",
+        "history of severe hypoglycemia",
+        "history of diabetic ketoacidosis"
+      ]
+    }
+  }
+}

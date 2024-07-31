@@ -1,0 +1,284 @@
+{
+  "trial_id": "NCT01768637",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, estimated glomerular filtration rate (eGFR), urinary albumin to creatinine ratio, history of recent hospitalizations, history of acute coronary or cerebrovascular events, history of surgery, blood dyscrasias, active bleeding, history of gastrointestinal bleeding, concomitant use of other anti-platelet or antithrombotic drugs, recent treatment with glycoprotein antagonist or proton pump inhibitor, hematocrit level, white blood cell count, platelet count, presence of active malignancy, presence of liver disease, diagnosis of depression, use of antidepressant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Women",
+          "gender"
+        ],
+        [
+          "eGFR",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Urine albumin-to-creatinine ratio",
+          "urinary albumin to creatinine ratio"
+        ],
+        [
+          "Hematocrit",
+          "hematocrit level"
+        ],
+        [
+          "White blood cell count",
+          "white blood cell count"
+        ],
+        [
+          "Platelet count",
+          "platelet count"
+        ],
+        [
+          "Proton pump inhibitor use",
+          "recent treatment with glycoprotein antagonist or proton pump inhibitor"
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI",
+        "Black",
+        "Diabetes mellitus",
+        "Beta blocker use",
+        "Statin use",
+        "Angiotensin converting enzyme inhibitor or angiotensin receptor blocker use",
+        "Allopurinol use",
+        "Baseline use of aspirin",
+        "Hemoglobin",
+        "Serum total cholesterol",
+        "Serum triglycerides",
+        "Serum low density lipoprotein",
+        "Serum total bilirubin",
+        "Glycosylated hemoglobin",
+        "Serum albumin",
+        "Serum uric acid",
+        "Serum calcium",
+        "Serum phosphorus",
+        "Serum parathyroid hormone",
+        "Serum 25-hydroxyvitamin D"
+      ],
+      "remaining_candidate_features": [
+        "history of recent hospitalizations",
+        "history of acute coronary or cerebrovascular events",
+        "history of surgery",
+        "blood dyscrasias",
+        "active bleeding",
+        "history of gastrointestinal bleeding",
+        "concomitant use of other anti-platelet or antithrombotic drugs",
+        "presence of active malignancy",
+        "presence of liver disease",
+        "diagnosis of depression",
+        "use of antidepressant medications."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR), Urinary Albumin to Creatinine Ratio, Hematocrit, White Blood Cell Count, Platelet Count, History of Cardiovascular Events, Use of Antiplatelet Agents, Use of Antithrombotic Drugs, Recent Hospitalizations, Recent Surgeries, History of Gastrointestinal Bleeding, Presence of Active Malignancy, Presence of Liver Disease, Diagnosis of Depression, Use of Antidepressant Medications",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Women",
+          "Sex"
+        ],
+        [
+          "eGFR",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ],
+        [
+          "Urine albumin-to-creatinine ratio",
+          "Urinary Albumin to Creatinine Ratio"
+        ],
+        [
+          "Hematocrit",
+          "Hematocrit"
+        ],
+        [
+          "White blood cell count",
+          "White Blood Cell Count"
+        ],
+        [
+          "Platelet count",
+          "Platelet Count"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Black",
+        "Diabetes mellitus",
+        "Proton pump inhibitor use",
+        "Beta blocker use",
+        "Statin use",
+        "Angiotensin converting enzyme inhibitor or angiotensin receptor blocker use",
+        "Allopurinol use",
+        "Baseline use of aspirin",
+        "Hemoglobin",
+        "Serum total cholesterol",
+        "Serum triglycerides",
+        "Serum low density lipoprotein",
+        "Serum total bilirubin",
+        "Glycosylated hemoglobin",
+        "Serum albumin",
+        "Serum uric acid",
+        "Serum calcium",
+        "Serum phosphorus",
+        "Serum parathyroid hormone",
+        "Serum 25-hydroxyvitamin D"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Cardiovascular Events",
+        "Use of Antiplatelet Agents",
+        "Use of Antithrombotic Drugs",
+        "Recent Hospitalizations",
+        "Recent Surgeries",
+        "History of Gastrointestinal Bleeding",
+        "Presence of Active Malignancy",
+        "Presence of Liver Disease",
+        "Diagnosis of Depression",
+        "Use of Antidepressant Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Race, Ethnicity, BMI, Diabetes, Hypertension, Hyperlipidemia, Smoking history, Chronic kidney disease stage, Estimated glomerular filtration rate, Urinary albumin to creatinine ratio, Hematocrit, White blood cell count, Platelet count.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Women",
+          "Sex"
+        ],
+        [
+          "Diabetes mellitus",
+          "Diabetes"
+        ],
+        [
+          "eGFR",
+          "Estimated glomerular filtration rate"
+        ],
+        [
+          "Urine albumin-to-creatinine ratio",
+          "Urinary albumin to creatinine ratio"
+        ],
+        [
+          "Hematocrit",
+          "Hematocrit"
+        ],
+        [
+          "White blood cell count",
+          "White blood cell count"
+        ],
+        [
+          "Platelet count",
+          "Platelet count"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Black",
+        "Proton pump inhibitor use",
+        "Beta blocker use",
+        "Statin use",
+        "Angiotensin converting enzyme inhibitor or angiotensin receptor blocker use",
+        "Allopurinol use",
+        "Baseline use of aspirin",
+        "Hemoglobin",
+        "Serum total cholesterol",
+        "Serum triglycerides",
+        "Serum low density lipoprotein",
+        "Serum total bilirubin",
+        "Glycosylated hemoglobin",
+        "Serum albumin",
+        "Serum uric acid",
+        "Serum calcium",
+        "Serum phosphorus",
+        "Serum parathyroid hormone",
+        "Serum 25-hydroxyvitamin D"
+      ],
+      "remaining_candidate_features": [
+        "Race",
+        "Ethnicity",
+        "Hypertension",
+        "Hyperlipidemia",
+        "Smoking history",
+        "Chronic kidney disease stage"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, estimated glomerular filtration rate, urinary albumin to creatinine ratio, hematocrit, white blood cell count, platelet count.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Women",
+          "sex"
+        ],
+        [
+          "eGFR",
+          "estimated glomerular filtration rate"
+        ],
+        [
+          "Urine albumin-to-creatinine ratio",
+          "urinary albumin to creatinine ratio"
+        ],
+        [
+          "Hematocrit",
+          "hematocrit"
+        ],
+        [
+          "White blood cell count",
+          "white blood cell count"
+        ],
+        [
+          "Platelet count",
+          "platelet count."
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI",
+        "Black",
+        "Diabetes mellitus",
+        "Proton pump inhibitor use",
+        "Beta blocker use",
+        "Statin use",
+        "Angiotensin converting enzyme inhibitor or angiotensin receptor blocker use",
+        "Allopurinol use",
+        "Baseline use of aspirin",
+        "Hemoglobin",
+        "Serum total cholesterol",
+        "Serum triglycerides",
+        "Serum low density lipoprotein",
+        "Serum total bilirubin",
+        "Glycosylated hemoglobin",
+        "Serum albumin",
+        "Serum uric acid",
+        "Serum calcium",
+        "Serum phosphorus",
+        "Serum parathyroid hormone",
+        "Serum 25-hydroxyvitamin D"
+      ],
+      "remaining_candidate_features": []
+    }
+  }
+}

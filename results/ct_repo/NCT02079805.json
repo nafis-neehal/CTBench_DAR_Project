@@ -1,0 +1,235 @@
+{
+  "trial_id": "NCT02079805",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline systolic blood pressure, baseline diastolic blood pressure, HbA1c, fasting blood glucose, HOMA-R, body mass index (BMI), duration of type 2 diabetes mellitus, duration of hypertension, use of antihypertensive medication, use of antidiabetic medication, presence of cardiovascular diseases, renal function (eGFR), liver function, potassium levels, lifestyle factors (diet/exercise therapy).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Blood Pressure Systolic Mean",
+          "baseline systolic blood pressure"
+        ],
+        [
+          "Blood Pressure Diastolic Mean",
+          "baseline diastolic blood pressure"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Insulin Resistance Index (HOMA-R)",
+          "HOMA-R"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes Mellitus",
+          "duration of type 2 diabetes mellitus"
+        ],
+        [
+          "Duration of Hypertention",
+          "duration of hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Weight",
+        "Smoking Classification",
+        "Alcohol Classification",
+        "Taking Biguanides"
+      ],
+      "remaining_candidate_features": [
+        "fasting blood glucose",
+        "use of antihypertensive medication",
+        "use of antidiabetic medication",
+        "presence of cardiovascular diseases",
+        "renal function (eGFR)",
+        "liver function",
+        "potassium levels",
+        "lifestyle factors (diet/exercise therapy)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Fasting Blood Glucose, HOMA-R, Duration of Diabetes, Use of Antidiabetic Medication,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Diabetes Mellitus",
+          "Duration of Diabetes"
+        ],
+        [
+          "Insulin Resistance Index (HOMA-R)",
+          "HOMA-R"
+        ],
+        [
+          "Blood Pressure Systolic Mean",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Blood Pressure Diastolic Mean",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Smoking Classification",
+        "Alcohol Classification",
+        "Duration of Hypertention",
+        "Taking Biguanides"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Fasting Blood Glucose",
+        "Use of Antidiabetic Medication"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Fasting Blood Glucose, Duration of Diabetes, Duration of Hypertension, History of Cardiovascular Disease, Current Antihypertensive Medication, Current Antidiabetic Medication.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Hypertention",
+          "Duration of Hypertension"
+        ],
+        [
+          "Duration of Diabetes Mellitus",
+          "Duration of Diabetes"
+        ],
+        [
+          "Insulin Resistance Index (HOMA-R)",
+          "Fasting Blood Glucose"
+        ],
+        [
+          "Blood Pressure Systolic Mean",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Blood Pressure Diastolic Mean",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Smoking Classification",
+        "Alcohol Classification",
+        "Taking Biguanides"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "History of Cardiovascular Disease",
+        "Current Antihypertensive Medication",
+        "Current Antidiabetic Medication"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), systolic blood pressure, diastolic blood pressure, HbA1c, fasting blood glucose, HOMA-R, duration of hypertension, duration of type 2 diabetes mellitus, history of cardiovascular disease, current antihypertensive medication, current antidiabetic medication.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Blood Pressure Systolic Mean",
+          "systolic blood pressure"
+        ],
+        [
+          "Blood Pressure Diastolic Mean",
+          "diastolic blood pressure"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Insulin Resistance Index (HOMA-R)",
+          "HOMA-R"
+        ],
+        [
+          "Duration of Hypertention",
+          "duration of hypertension"
+        ],
+        [
+          "Duration of Diabetes Mellitus",
+          "duration of type 2 diabetes mellitus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Weight",
+        "Smoking Classification",
+        "Alcohol Classification",
+        "Taking Biguanides"
+      ],
+      "remaining_candidate_features": [
+        "fasting blood glucose",
+        "history of cardiovascular disease",
+        "current antihypertensive medication",
+        "current antidiabetic medication"
+      ]
+    }
+  }
+}

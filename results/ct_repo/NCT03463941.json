@@ -1,0 +1,170 @@
+{
+  "trial_id": "NCT03463941",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, church attendance frequency, language proficiency, willingness to complete study activities, physical activity level, health status, educational level, marital status, employment status, socioeconomic status, baseline health conditions (e.g., obesity, type II diabetes, cardiovascular disease, cancer).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Days of Physical Activity",
+          "physical activity level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body Mass Index (BMI)",
+        "Weight",
+        "Fruit and Vegetable Intake"
+      ],
+      "remaining_candidate_features": [
+        "church attendance frequency",
+        "language proficiency",
+        "willingness to complete study activities",
+        "health status",
+        "educational level",
+        "marital status",
+        "employment status",
+        "socioeconomic status",
+        "baseline health conditions (e.g., obesity, type II diabetes, cardiovascular disease, cancer)."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Frequency of Church Attendance, Self-reported Physical Activity Level, Health Literacy, Chronic Disease History, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Weight",
+        "Fruit and Vegetable Intake",
+        "Days of Physical Activity"
+      ],
+      "remaining_candidate_features": [
+        "Frequency of Church Attendance",
+        "Self-reported Physical Activity Level",
+        "Health Literacy",
+        "Chronic Disease History"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Church Attendance, Self-reported Physical Activity Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Weight",
+        "Fruit and Vegetable Intake",
+        "Days of Physical Activity"
+      ],
+      "remaining_candidate_features": [
+        "Church Attendance",
+        "Self-reported Physical Activity Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, gender, race, ethnicity, education level, employment status, marital status, body mass index (BMI), medical history (including chronic diseases such as obesity, type II diabetes, cardiovascular disease, cancer), physical activity level, church attendance frequency, language proficiency.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Days of Physical Activity",
+          "physical activity level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Weight",
+        "Fruit and Vegetable Intake"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "education level",
+        "employment status",
+        "marital status",
+        "medical history (including chronic diseases such as obesity, type II diabetes, cardiovascular disease, cancer)",
+        "church attendance frequency",
+        "language proficiency."
+      ]
+    }
+  }
+}

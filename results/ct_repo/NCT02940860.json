@@ -1,0 +1,166 @@
+{
+  "trial_id": "NCT02940860",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Hemoglobin level, eGFR, Serum ferritin, Transferrin Saturation (TSAT), Erythropoiesis Stimulating Agent (ESA) use, History of cardiovascular disease, Urine composition abnormalities, Alcohol or drug use history, Pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Current smoker",
+          "Alcohol or drug use history"
+        ],
+        [
+          "Race/Ethnicity",
+          "Pregnancy status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Hemoglobin level",
+        "eGFR",
+        "Serum ferritin",
+        "Transferrin Saturation (TSAT)",
+        "Erythropoiesis Stimulating Agent (ESA) use",
+        "History of cardiovascular disease",
+        "Urine composition abnormalities"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Hemoglobin, eGFR, Serum Ferritin, Transferrin Saturation, Use of Erythropoiesis Stimulating Agents, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Current smoker"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Hemoglobin",
+        "eGFR",
+        "Serum Ferritin",
+        "Transferrin Saturation",
+        "Use of Erythropoiesis Stimulating Agents",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Hemoglobin, Ferritin, Transferrin Saturation, ESA use, Cardiovascular disease risk,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Current smoker"
+      ],
+      "remaining_candidate_features": [
+        "eGFR",
+        "Hemoglobin",
+        "Ferritin",
+        "Transferrin Saturation",
+        "ESA use",
+        "Cardiovascular disease risk"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, body mass index (BMI), eGFR, Hb, s-ferritin, TSAT, history of cardio-vascular disease, Framingham risk score, ESA use, comorbidities (e.g. diabetes, hypertension), smoking status, alcohol consumption, medical history (e.g. liver disease, hepatitis).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Current smoker",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "eGFR",
+        "Hb",
+        "s-ferritin",
+        "TSAT",
+        "history of cardio-vascular disease",
+        "Framingham risk score",
+        "ESA use",
+        "comorbidities (e.g. diabetes, hypertension)",
+        "alcohol consumption",
+        "medical history (e.g. liver disease, hepatitis)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "trial_id": "NCT00432276",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), duration of type 2 diabetes mellitus, baseline HbA1c, fasting plasma glucose, fasting plasma C-peptide concentration, systolic blood pressure, diastolic blood pressure, hemoglobin levels, alanine aminotransferase levels, serum creatinine levels, thyroid-stimulating hormone levels, urine albumin/creatinine ratio, history of cardiovascular events, history of diabetic retinopathy, history of diabetic gastroparesis, history of gastric bypass surgery, history of psychiatric disorders, history of substance abuse, use of contraception in females of childbearing potential.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of type 2 diabetes mellitus"
+        ],
+        [
+          "HbA1c",
+          "baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Height",
+        "Weight",
+        "Baseline daily metformin HCl use",
+        "Current smoker"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose",
+        "fasting plasma C-peptide concentration",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "hemoglobin levels",
+        "alanine aminotransferase levels",
+        "serum creatinine levels",
+        "thyroid-stimulating hormone levels",
+        "urine albumin/creatinine ratio",
+        "history of cardiovascular events",
+        "history of diabetic retinopathy",
+        "history of diabetic gastroparesis",
+        "history of gastric bypass surgery",
+        "history of psychiatric disorders",
+        "history of substance abuse",
+        "use of contraception in females of childbearing potential."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Fasting Plasma C-peptide, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Alanine Aminotransferase, Serum Creatinine, Thyroid-Stimulating Hormone,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Height",
+        "Weight",
+        "Duration of diabetes",
+        "Baseline daily metformin HCl use",
+        "Current smoker"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Fasting Plasma C-peptide",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hemoglobin",
+        "Alanine Aminotransferase",
+        "Serum Creatinine",
+        "Thyroid-Stimulating Hormone"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma C-peptide Concentration, Hemoglobin, Alanine Aminotransferase, Serum Creatinine, Thyroid-stimulating Hormone Level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of diabetes",
+          "Diabetes Diagnosis Duration"
+        ],
+        [
+          "HbA1c",
+          "Hemoglobin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Height",
+        "Weight",
+        "Baseline daily metformin HCl use",
+        "Current smoker"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma C-peptide Concentration",
+        "Alanine Aminotransferase",
+        "Serum Creatinine",
+        "Thyroid-stimulating Hormone Level."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, duration of diabetes, HbA1c, fasting plasma glucose, systolic and diastolic blood pressure, hemoglobin, alanine aminotransferase, serum creatinine, thyroid-stimulating hormone level, fasting plasma C-peptide concentration.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Height",
+        "Weight",
+        "Baseline daily metformin HCl use",
+        "Current smoker"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose",
+        "systolic and diastolic blood pressure",
+        "hemoglobin",
+        "alanine aminotransferase",
+        "serum creatinine",
+        "thyroid-stimulating hormone level",
+        "fasting plasma C-peptide concentration."
+      ]
+    }
+  }
+}

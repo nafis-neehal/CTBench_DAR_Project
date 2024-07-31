@@ -1,0 +1,235 @@
+{
+  "trial_id": "NCT00086580",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, disease stage (Binet stage or Rai stage), performance status (WHO PS), hemoglobin level, platelet count, absolute neutrophil count (ANC), splenomegaly status, lymphadenopathy status, lymphocytosis status, serum creatinine level, creatinine clearance (CrCl), total bilirubin level, AST level, ALT level, prior response to fludarabine or alemtuzumab therapy, time since last therapy, presence of comorbid conditions, history of infections, pregnancy status, use of contraceptive methods.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "World Health Organization (WHO) Performance Status",
+          "performance status (WHO PS)"
+        ],
+        [
+          "Rai Stage Group",
+          "disease stage (Binet stage or Rai stage)"
+        ],
+        [
+          "Binet Stage",
+          "disease stage (Binet stage or Rai stage)"
+        ],
+        [
+          "Summary of Prior Therapy by Type of Therapy",
+          "prior response to fludarabine or alemtuzumab therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Body Surface Area (BSA)",
+        "Maximum Lymph Node Size",
+        "Disease Status"
+      ],
+      "remaining_candidate_features": [
+        "hemoglobin level",
+        "platelet count",
+        "absolute neutrophil count (ANC)",
+        "splenomegaly status",
+        "lymphadenopathy status",
+        "lymphocytosis status",
+        "serum creatinine level",
+        "creatinine clearance (CrCl)",
+        "total bilirubin level",
+        "AST level",
+        "ALT level",
+        "time since last therapy",
+        "presence of comorbid conditions",
+        "history of infections",
+        "pregnancy status",
+        "use of contraceptive methods"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gender, Race/Ethnicity, Region of Enrollment, Binet Stage, Rai Stage, Performance Status, Hemoglobin, Platelet Count, Absolute Neutrophil Count, Splenomegaly, Lymphadenopathy, Lymphocytosis, Serum Creatinine, Creatinine Clearance, Total Bilirubin, AST, ALT, Prior Response to Fludarabine or Alemtuzumab,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "World Health Organization (WHO) Performance Status",
+          "Performance Status"
+        ],
+        [
+          "Rai Stage Group",
+          "Rai Stage"
+        ],
+        [
+          "Binet Stage",
+          "Binet Stage"
+        ],
+        [
+          "Summary of Prior Therapy by Type of Therapy",
+          "Prior Response to Fludarabine or Alemtuzumab"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Height",
+        "Body Surface Area (BSA)",
+        "Maximum Lymph Node Size",
+        "Disease Status"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Hemoglobin",
+        "Platelet Count",
+        "Absolute Neutrophil Count",
+        "Splenomegaly",
+        "Lymphadenopathy",
+        "Lymphocytosis",
+        "Serum Creatinine",
+        "Creatinine Clearance",
+        "Total Bilirubin",
+        "AST",
+        "ALT"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Performance Status (WHO), Binet Stage, Rai Stage, Hemoglobin, Platelet Count, Absolute Neutrophil Count, Serum Creatinine, Calculated Creatinine Clearance, Total Bilirubin, AST, ALT, Prior Therapy, Time Since Last Therapy, Reason for Treatment Failure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "World Health Organization (WHO) Performance Status",
+          "Performance Status (WHO)"
+        ],
+        [
+          "Binet Stage",
+          "Binet Stage"
+        ],
+        [
+          "Rai Stage Group",
+          "Rai Stage"
+        ],
+        [
+          "Summary of Prior Therapy by Type of Therapy",
+          "Prior Therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Height",
+        "Body Surface Area (BSA)",
+        "Maximum Lymph Node Size",
+        "Disease Status"
+      ],
+      "remaining_candidate_features": [
+        "Hemoglobin",
+        "Platelet Count",
+        "Absolute Neutrophil Count",
+        "Serum Creatinine",
+        "Calculated Creatinine Clearance",
+        "Total Bilirubin",
+        "AST",
+        "ALT",
+        "Time Since Last Therapy",
+        "Reason for Treatment Failure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, weight, height, Binet stage, Rai stage, World Health Organization (WHO) performance status, time since diagnosis, number of prior therapies, prior response to fludarabine or alemtuzumab, presence of B symptoms, serum creatinine, calculated creatinine clearance, total bilirubin, AST, ALT, absolute neutrophil count, platelet count, hemoglobin, presence of splenomegaly, lymphadenopathy, lymphocytosis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "World Health Organization (WHO) Performance Status",
+          "World Health Organization (WHO) performance status"
+        ],
+        [
+          "Rai Stage Group",
+          "Rai stage"
+        ],
+        [
+          "Binet Stage",
+          "Binet stage"
+        ],
+        [
+          "Summary of Prior Therapy by Type of Therapy",
+          "number of prior therapies"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Body Surface Area (BSA)",
+        "Maximum Lymph Node Size",
+        "Disease Status"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "time since diagnosis",
+        "prior response to fludarabine or alemtuzumab",
+        "presence of B symptoms",
+        "serum creatinine",
+        "calculated creatinine clearance",
+        "total bilirubin",
+        "AST",
+        "ALT",
+        "absolute neutrophil count",
+        "platelet count",
+        "hemoglobin",
+        "presence of splenomegaly",
+        "lymphadenopathy",
+        "lymphocytosis."
+      ]
+    }
+  }
+}

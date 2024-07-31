@@ -1,0 +1,262 @@
+{
+  "trial_id": "NCT02214186",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age, systolic blood pressure, diastolic blood pressure, proteinuria levels, urine output, presence of cerebral or visual disturbances, presence of pulmonary edema, presence of epigastric pain, hepatic function, platelet count, presence of HELLP syndrome, evidence of fetal compromise, baseline serum creatinine levels, baseline cystatin C levels, baseline NGAL levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational Age",
+          "gestational age"
+        ],
+        [
+          "Systolic pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic pressure",
+          "diastolic blood pressure"
+        ],
+        [
+          "Thrombocytopenia",
+          "platelet count"
+        ],
+        [
+          "Impaired liver function",
+          "hepatic function"
+        ],
+        [
+          "Right upper quadrant or epigastric pain",
+          "presence of epigastric pain"
+        ],
+        [
+          "Pulmonary edema",
+          "presence of pulmonary edema"
+        ],
+        [
+          "Cerebral or visual disturbances",
+          "presence of cerebral or visual disturbances"
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI",
+        "Twin Pregnancy",
+        "Chronic Hypertension",
+        "Previous Preclampsia",
+        "Persistent high blood pressure",
+        "Antihypertensive drugs used before hospital admission",
+        "Diabetes mellitus",
+        "Anesthesia and surgical time"
+      ],
+      "remaining_candidate_features": [
+        "proteinuria levels",
+        "urine output",
+        "presence of HELLP syndrome",
+        "evidence of fetal compromise",
+        "baseline serum creatinine levels",
+        "baseline cystatin C levels",
+        "baseline NGAL levels"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Gestational age, BMI, Systolic blood pressure, Diastolic blood pressure, Proteinuria, Oliguria, Cerebral or visual disturbances, Pulmonary edema, Epigastric pain, Hepatic rupture, Impaired liver function, Thrombocytopenia, Hemolysis, Elevated liver enzymes, Low platelet count (HELLP syndrome), Evidence of fetal compromise, Serum creatinine levels, Previous kidney disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Gestational Age",
+          "Gestational age"
+        ],
+        [
+          "Systolic pressure",
+          "Systolic blood pressure"
+        ],
+        [
+          "Diastolic pressure",
+          "Diastolic blood pressure"
+        ],
+        [
+          "Thrombocytopenia",
+          "Thrombocytopenia"
+        ],
+        [
+          "Impaired liver function",
+          "Impaired liver function"
+        ],
+        [
+          "Right upper quadrant or epigastric pain",
+          "Epigastric pain"
+        ],
+        [
+          "Pulmonary edema",
+          "Pulmonary edema"
+        ],
+        [
+          "Cerebral or visual disturbances",
+          "Cerebral or visual disturbances"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Twin Pregnancy",
+        "Chronic Hypertension",
+        "Previous Preclampsia",
+        "Persistent high blood pressure",
+        "Antihypertensive drugs used before hospital admission",
+        "Diabetes mellitus",
+        "Anesthesia and surgical time"
+      ],
+      "remaining_candidate_features": [
+        "Proteinuria",
+        "Oliguria",
+        "Hepatic rupture",
+        "Hemolysis",
+        "Elevated liver enzymes",
+        "Low platelet count (HELLP syndrome)",
+        "Evidence of fetal compromise",
+        "Serum creatinine levels",
+        "Previous kidney disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Gestational age, Parity, Body mass index, Systolic blood pressure, Diastolic blood pressure, Proteinuria, Serum creatinine, Serum cystatin C, Serum Neutrophil gelatinase-associated lipocalin (NGAL), History of hypertension, History of kidney disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "Body mass index"
+        ],
+        [
+          "Gestational Age",
+          "Gestational age"
+        ],
+        [
+          "Systolic pressure",
+          "Systolic blood pressure"
+        ],
+        [
+          "Diastolic pressure",
+          "Diastolic blood pressure"
+        ],
+        [
+          "Pulmonary edema",
+          "Pulmonary edema"
+        ],
+        [
+          "Cerebral or visual disturbances",
+          "Cerebral or visual disturbances"
+        ],
+        [
+          "Thrombocytopenia",
+          "Thrombocytopenia"
+        ],
+        [
+          "Impaired liver function",
+          "Impaired liver function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Twin Pregnancy",
+        "Chronic Hypertension",
+        "Previous Preclampsia",
+        "Persistent high blood pressure",
+        "Right upper quadrant or epigastric pain",
+        "Antihypertensive drugs used before hospital admission",
+        "Diabetes mellitus",
+        "Anesthesia and surgical time"
+      ],
+      "remaining_candidate_features": [
+        "Parity",
+        "Proteinuria",
+        "Serum creatinine",
+        "Serum cystatin C",
+        "Serum Neutrophil gelatinase-associated lipocalin (NGAL)",
+        "History of hypertension",
+        "History of kidney disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Body Mass Index (BMI), Gestational Age, Systolic Blood Pressure, Diastolic Blood Pressure, Proteinuria Level, Oliguria Status, Presence of Cerebral or Visual Disturbances, Presence of Pulmonary Edema, Epigastric Pain Status, Hepatic Rupture Status, Thrombocytopenia Status, Hemolysis Status, Elevated Liver Enzymes Status, Low Platelet Count Status, HELLP Syndrome Status, Fetal Compromise Status, Previous Serum Creatinine Levels, Previous Kidney Disease Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Gestational Age",
+          "Gestational Age"
+        ],
+        [
+          "Systolic pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Thrombocytopenia",
+          "Thrombocytopenia Status"
+        ],
+        [
+          "Impaired liver function",
+          "Elevated Liver Enzymes Status"
+        ],
+        [
+          "Right upper quadrant or epigastric pain",
+          "Epigastric Pain Status"
+        ],
+        [
+          "Pulmonary edema",
+          "Presence of Pulmonary Edema"
+        ],
+        [
+          "Cerebral or visual disturbances",
+          "Presence of Cerebral or Visual Disturbances"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Twin Pregnancy",
+        "Chronic Hypertension",
+        "Previous Preclampsia",
+        "Persistent high blood pressure",
+        "Antihypertensive drugs used before hospital admission",
+        "Diabetes mellitus",
+        "Anesthesia and surgical time"
+      ],
+      "remaining_candidate_features": [
+        "Proteinuria Level",
+        "Oliguria Status",
+        "Hepatic Rupture Status",
+        "Hemolysis Status",
+        "Low Platelet Count Status",
+        "HELLP Syndrome Status",
+        "Fetal Compromise Status",
+        "Previous Serum Creatinine Levels",
+        "Previous Kidney Disease Status"
+      ]
+    }
+  }
+}

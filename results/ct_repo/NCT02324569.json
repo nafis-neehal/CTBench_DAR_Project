@@ -1,0 +1,254 @@
+{
+  "trial_id": "NCT02324569",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, baseline HbA1c, fasting C-peptide level, insulin dose, duration of diabetes, body mass index (BMI), blood pressure, liver function tests (AST, ALT, bilirubin), renal function (creatinine clearance), fasting blood glucose level, history of cardiac diseases, history of cerebrovascular disorders, history of pancreatic or hematological diseases, hematological parameters (hemoglobin, hematocrit, erythrocytes), alcohol consumption, history of drug abuse, concomitant medications, previous participation in clinical studies, pregnancy status, contraceptive use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Haemoglobin A1c (HbA1c)",
+          "baseline HbA1c"
+        ],
+        [
+          "Fasting C-Peptide",
+          "fasting C-peptide level"
+        ],
+        [
+          "Daily Dose of Insulin Preparation at Week -6",
+          "insulin dose"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Creatinine Clearance (Ccr)",
+          "renal function (creatinine clearance)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Type of Insulin Preparation",
+        "Fasting Plasma Glucose",
+        "2-hour (hr) Postprandial Plasma Glucose",
+        "Glycoalbumin",
+        "1",
+        "5-Anhydroglucitol",
+        "Insulinogenic Index"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure",
+        "liver function tests (AST, ALT, bilirubin)",
+        "fasting blood glucose level",
+        "history of cardiac diseases",
+        "history of cerebrovascular disorders",
+        "history of pancreatic or hematological diseases",
+        "hematological parameters (hemoglobin, hematocrit, erythrocytes)",
+        "alcohol consumption",
+        "history of drug abuse",
+        "concomitant medications",
+        "previous participation in clinical studies",
+        "pregnancy status",
+        "contraceptive use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Fasting C-peptide level, Duration of Diabetes, Daily Insulin Dose, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Daily Dose of Insulin Preparation at Week -6",
+          "Daily Insulin Dose"
+        ],
+        [
+          "Haemoglobin A1c (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Fasting C-Peptide",
+          "Fasting C-peptide level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Type of Insulin Preparation",
+        "Creatinine Clearance (Ccr)",
+        "Fasting Plasma Glucose",
+        "2-hour (hr) Postprandial Plasma Glucose",
+        "Glycoalbumin",
+        "1,5-Anhydroglucitol",
+        "Insulinogenic Index"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Fasting C-peptide, Haemoglobin A1c, Insulin dose, Systolic Blood Pressure, Diastolic Blood Pressure, Creatinine clearance, History of cardiac diseases, History of cerebrovascular disorders, History of pancreatic or hematological diseases.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Creatinine Clearance (Ccr)",
+          "Creatinine clearance"
+        ],
+        [
+          "Haemoglobin A1c (HbA1c)",
+          "Haemoglobin A1c"
+        ],
+        [
+          "Fasting C-Peptide",
+          "Fasting C-peptide"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Duration of Diabetes",
+        "Type of Insulin Preparation",
+        "Daily Dose of Insulin Preparation at Week -6",
+        "Fasting Plasma Glucose",
+        "2-hour (hr) Postprandial Plasma Glucose",
+        "Glycoalbumin",
+        "1,5-Anhydroglucitol",
+        "Insulinogenic Index"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Insulin dose",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of cardiac diseases",
+        "History of cerebrovascular disorders",
+        "History of pancreatic or hematological diseases."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, fasting C-peptide level, Haemoglobin A1c (HbA1c) value, insulin dose, type of insulin preparation, systolic and diastolic blood pressure, history of hypertension, history of cardiovascular disease, history of pancreatitis, history of malignancies, smoking status, alcohol consumption, creatinine clearance (Ccr), Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), total bilirubin, hemoglobin, hematocrit, erythrocytes.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes mellitus"
+        ],
+        [
+          "Type of Insulin Preparation",
+          "type of insulin preparation"
+        ],
+        [
+          "Daily Dose of Insulin Preparation at Week -6",
+          "insulin dose"
+        ],
+        [
+          "Creatinine Clearance (Ccr)",
+          "creatinine clearance (Ccr)"
+        ],
+        [
+          "Haemoglobin A1c (HbA1c)",
+          "Haemoglobin A1c (HbA1c) value"
+        ],
+        [
+          "Fasting C-Peptide",
+          "fasting C-peptide level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Fasting Plasma Glucose",
+        "2-hour (hr) Postprandial Plasma Glucose",
+        "Glycoalbumin",
+        "1",
+        "5-Anhydroglucitol",
+        "Insulinogenic Index"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "systolic and diastolic blood pressure",
+        "history of hypertension",
+        "history of cardiovascular disease",
+        "history of pancreatitis",
+        "history of malignancies",
+        "smoking status",
+        "alcohol consumption",
+        "Aspartate Aminotransferase (AST)",
+        "Alanine Aminotransferase (ALT)",
+        "total bilirubin",
+        "hemoglobin",
+        "hematocrit",
+        "erythrocytes"
+      ]
+    }
+  }
+}

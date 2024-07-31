@@ -1,0 +1,161 @@
+{
+  "trial_id": "NCT03641716",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age of child, household income, parent's age, parent's language proficiency, number of home-based intervention sessions completed",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age of child"
+        ],
+        [
+          "3-Day Food Diary",
+          "Change From Baseline 3-Day Food Diary (Dietary Variety) at 3 Months"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Parenting Stress Index - Short Form",
+        "Nutrition Screening Tool for Every Preschooler"
+      ],
+      "remaining_candidate_features": [
+        "household income",
+        "parent's age",
+        "parent's language proficiency",
+        "number of home-based intervention sessions completed"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Household Income, Parent Education Level, Child BMI, Child Dietary Intake, Parent Dietary Intake, Parent BMI, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "3-Day Food Diary",
+          "Child Dietary Intake"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Parenting Stress Index - Short Form",
+        "Nutrition Screening Tool for Every Preschooler"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Household Income",
+        "Parent Education Level",
+        "Parent Dietary Intake",
+        "Parent BMI",
+        "Child BMI"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Household Income, Parent Education Level, Child Age, Child BMI Percentile, Parent BMI,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "3-Day Food Diary",
+        "Parenting Stress Index - Short Form",
+        "Nutrition Screening Tool for Every Preschooler"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Household Income",
+        "Parent Education Level",
+        "Child Age",
+        "Child BMI Percentile",
+        "Parent BMI"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, household income, parental education level, parental employment status, number of children in the household, child's weight, child's height, body mass index (BMI), dietary habits, feeding behavior, parental feeding style.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "3-Day Food Diary",
+          "dietary habits"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Parenting Stress Index - Short Form",
+        "Nutrition Screening Tool for Every Preschooler"
+      ],
+      "remaining_candidate_features": [
+        "household income",
+        "parental education level",
+        "parental employment status",
+        "number of children in the household",
+        "child's weight",
+        "child's height",
+        "body mass index (BMI)",
+        "feeding behavior",
+        "parental feeding style"
+      ]
+    }
+  }
+}

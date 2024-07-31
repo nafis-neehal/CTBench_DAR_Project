@@ -1,0 +1,133 @@
+{
+  "trial_id": "NCT00918346",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Diagnosis of open-angle glaucoma or ocular hypertension, Prior use of prostaglandin(s), Baseline intraocular pressure (IOP)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Diagnosis - worse eyes",
+          "Diagnosis of open-angle glaucoma or ocular hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Central corneal thickness"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Prior use of prostaglandin(s)",
+        "Baseline intraocular pressure (IOP)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure (IOP), Prior use of prostaglandin(s),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diagnosis - worse eyes",
+        "Central corneal thickness"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Baseline Intraocular Pressure (IOP)",
+        "Prior use of prostaglandin(s)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis of open angle glaucoma or ocular hypertension, Prior use of prostaglandin(s), Intraocular pressure at baseline,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diagnosis - worse eyes",
+          "Diagnosis of open angle glaucoma or ocular hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Central corneal thickness"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Prior use of prostaglandin(s)",
+        "Intraocular pressure at baseline"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), diagnosis (open-angle glaucoma or ocular hypertension), prior use of prostaglandin(s), intraocular pressure (IOP) at baseline, number of eyes with IOP 22-34 mmHg, presence of comorbidities, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Diagnosis - worse eyes",
+          "diagnosis (open-angle glaucoma or ocular hypertension)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Central corneal thickness"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "prior use of prostaglandin(s)",
+        "intraocular pressure (IOP) at baseline",
+        "number of eyes with IOP 22-34 mmHg",
+        "presence of comorbidities",
+        "concomitant medications"
+      ]
+    }
+  }
+}

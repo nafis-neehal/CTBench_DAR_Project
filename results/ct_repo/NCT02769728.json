@@ -1,0 +1,222 @@
+{
+  "trial_id": "NCT02769728",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, HbA1c, Duration of Type 2 Diabetes, Body Weight, Body Composition, Blood Pressure, Lipid Profile, Medication Use, Lifestyle Intervention History, Cardiovascular Risk Factors, Gut Peptide Levels, Gut Permeability, History of Gastrointestinal Conditions, Psychiatric History, Alcohol and Drug Use History, Previous Surgical History, Helicobacter Pylori Status, Iron Levels, Autoimmune Disease History, Malignancy History.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Body weight",
+          "Body Weight"
+        ],
+        [
+          "Diabetes duration in years",
+          "Duration of Type 2 Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Waist circumference",
+        "Hip circumference",
+        "Waist to hip ratio",
+        "systolic blood pressure",
+        "diastolic blood pressure"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c",
+        "Body Composition",
+        "Blood Pressure",
+        "Lipid Profile",
+        "Medication Use",
+        "Lifestyle Intervention History",
+        "Cardiovascular Risk Factors",
+        "Gut Peptide Levels",
+        "Gut Permeability",
+        "History of Gastrointestinal Conditions",
+        "Psychiatric History",
+        "Alcohol and Drug Use History",
+        "Previous Surgical History",
+        "Helicobacter Pylori Status",
+        "Iron Levels",
+        "Autoimmune Disease History",
+        "Malignancy History"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, HbA1c, Duration of Diabetes, Blood Pressure, Cholesterol, Triglycerides, Waist Circumference, Baseline Insulin Sensitivity, Baseline Beta-cell Function,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Waist circumference",
+          "Waist Circumference"
+        ],
+        [
+          "Diabetes duration in years",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Body weight",
+        "Height",
+        "Hip circumference",
+        "Waist to hip ratio",
+        "systolic blood pressure",
+        "diastolic blood pressure"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c",
+        "Blood Pressure",
+        "Cholesterol",
+        "Triglycerides",
+        "Baseline Insulin Sensitivity",
+        "Baseline Beta-cell Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, HbA1c, Diabetes duration, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, Waist Circumference, Hip Circumference.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Waist circumference",
+          "Waist Circumference"
+        ],
+        [
+          "Hip circumference",
+          "Hip Circumference"
+        ],
+        [
+          "systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Diabetes duration in years",
+          "Diabetes duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Body weight",
+        "Height",
+        "Waist to hip ratio"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, HbA1c, fasting glucose, fasting insulin, blood pressure, lipid profile, waist circumference, body composition, smoking status, medical history (including diabetes duration, cardiovascular disease, and other comorbidities), medication use (including diabetes medications, antihypertensives, and lipid-lowering agents).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Waist circumference",
+          "waist circumference"
+        ],
+        [
+          "Body weight",
+          "body composition"
+        ],
+        [
+          "Diabetes duration in years",
+          "medical history (including diabetes duration, cardiovascular disease, and other comorbidities)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Hip circumference",
+        "Waist to hip ratio",
+        "systolic blood pressure",
+        "diastolic blood pressure"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "HbA1c",
+        "fasting glucose",
+        "fasting insulin",
+        "blood pressure",
+        "lipid profile",
+        "smoking status",
+        "medication use (including diabetes medications, antihypertensives, and lipid-lowering agents)"
+      ]
+    }
+  }
+}

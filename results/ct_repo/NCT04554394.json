@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT04554394",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, language proficiency, number of warts, size of warts, medical history (systemic infections, tinnitus, immune status, diabetes), medication use (blood thinners, other wart removal products), allergy status (Lidocaine), participation in other research studies, employment status (related to the sponsor or clinic site).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Verrucae Disposition",
+          "number of warts"
+        ],
+        [
+          "Wart Subtype",
+          "size of warts"
+        ],
+        [
+          "History of Prior Verrucae Treatment",
+          "medical history (systemic infections, tinnitus, immune status, diabetes)"
+        ],
+        [
+          "Anatomic Location",
+          "allergy status (Lidocaine)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Fitzpatrick Skin Type"
+      ],
+      "remaining_candidate_features": [
+        "language proficiency",
+        "medication use (blood thinners, other wart removal products)",
+        "participation in other research studies",
+        "employment status (related to the sponsor or clinic site)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Number of Warts, Size of Warts, Duration of Warts, Previous Treatments for Warts,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "History of Prior Verrucae Treatment",
+          "Previous Treatments for Warts"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Fitzpatrick Skin Type",
+        "Verrucae Disposition",
+        "Wart Subtype",
+        "Anatomic Location"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Number of Warts",
+        "Size of Warts",
+        "Duration of Warts"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Number of Warts, Wart Size, Wart Location, Duration of Wart Presence, Previous Wart Treatments,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Wart Location",
+          "Anatomic Location"
+        ],
+        [
+          "Previous Wart Treatments",
+          "History of Prior Verrucae Treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Fitzpatrick Skin Type",
+        "Verrucae Disposition",
+        "Wart Subtype"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Number of Warts",
+        "Wart Size",
+        "Duration of Wart Presence"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, duration of warts, number of warts, wart size, wart location, medical history (including diabetes, immunocompromised status), concomitant medications (including blood thinners), prior wart treatments.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Verrucae Disposition",
+          "number of warts"
+        ],
+        [
+          "Wart Subtype",
+          "duration of warts"
+        ],
+        [
+          "Anatomic Location",
+          "wart location"
+        ],
+        [
+          "History of Prior Verrucae Treatment",
+          "prior wart treatments"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Fitzpatrick Skin Type"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "smoking status",
+        "wart size",
+        "medical history (including diabetes, immunocompromised status)",
+        "concomitant medications (including blood thinners)"
+      ]
+    }
+  }
+}

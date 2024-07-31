@@ -1,0 +1,141 @@
+{
+  "trial_id": "NCT00475982",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, PSA level, Gleason score, physical activity level, comorbidities, medication use, alcohol/drug use, prior treatments (e.g., radiotherapy, cryotherapy), baseline weight, baseline diet, baseline physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "PSA level",
+        "Gleason score",
+        "physical activity level",
+        "comorbidities",
+        "medication use",
+        "alcohol/drug use",
+        "prior treatments (e.g., radiotherapy, cryotherapy)",
+        "baseline weight",
+        "baseline diet",
+        "baseline physical activity level."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Prostate-Specific Antigen (PSA) levels, Gleason score, Physical activity level, Comorbidities, Use of weight loss medications, Use of lycopene supplements,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Prostate-Specific Antigen (PSA) levels",
+        "Gleason score",
+        "Physical activity level",
+        "Comorbidities",
+        "Use of weight loss medications",
+        "Use of lycopene supplements"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, BMI, Prostate-specific antigen (PSA), Gleason grade, Diabetes status, History of androgen deprivation therapy, History of prostate radiotherapy, History of cryotherapy, Current use of weight loss medications, Current use of lycopene supplements, Co-morbidities, Cardiac pacemaker.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Prostate-specific antigen (PSA)",
+        "Gleason grade",
+        "Diabetes status",
+        "History of androgen deprivation therapy",
+        "History of prostate radiotherapy",
+        "History of cryotherapy",
+        "Current use of weight loss medications",
+        "Current use of lycopene supplements",
+        "Co-morbidities",
+        "Cardiac pacemaker."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, BMI, PSA level, Gleason grade, prostate volume, medical history (diabetes, cardiac disease, pulmonary disease, liver disease), smoking status, physical activity level, medication use (androgen deprivation therapy, antiandrogen therapy, finasteride, weight loss medications, lycopene supplements), insulin use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "PSA level",
+        "Gleason grade",
+        "prostate volume",
+        "medical history (diabetes, cardiac disease, pulmonary disease, liver disease)",
+        "smoking status",
+        "physical activity level",
+        "medication use (androgen deprivation therapy, antiandrogen therapy, finasteride, weight loss medications, lycopene supplements)",
+        "insulin use."
+      ]
+    }
+  }
+}

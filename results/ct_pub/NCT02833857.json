@@ -1,0 +1,280 @@
+{
+  "trial_id": "NCT02833857",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, weight, height, duration of chronic kidney disease, duration of secondary hyperparathyroidism, baseline serum corrected calcium concentration, baseline serum phosphorus concentration, baseline serum potassium concentration, baseline intact parathyroid hormone (iPTH) levels, baseline heart rate, baseline temperature, baseline blood pressure, baseline PR interval, baseline QRS interval, baseline QT interval, baseline corrected (Bazett) QT interval, baseline corrected (Fridericia) QT interval.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "weight",
+          "weight"
+        ],
+        [
+          "iPTH",
+          "baseline intact parathyroid hormone (iPTH) levels"
+        ],
+        [
+          "cCa",
+          "baseline serum corrected calcium concentration"
+        ],
+        [
+          "Phosphorus",
+          "baseline serum phosphorus concentration"
+        ],
+        [
+          "SBP",
+          "baseline blood pressure"
+        ],
+        [
+          "PR Interval",
+          "baseline PR interval"
+        ],
+        [
+          "QRS Interval",
+          "baseline QRS interval"
+        ],
+        [
+          "QT Interval",
+          "baseline QT interval"
+        ],
+        [
+          "Corrected (Bazett) QT Interval",
+          "baseline corrected (Bazett) QT interval"
+        ],
+        [
+          "Corrected (Fridericia) QT Interval",
+          "baseline corrected (Fridericia) QT interval"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "BMI",
+        "DBP",
+        "History of sHPT",
+        "History of cinacalcet use",
+        "History of ESRD",
+        "Hemodialysis vintage",
+        "mean (SD)",
+        "Dialysate Ca",
+        "Total Ca",
+        "Ionized Ca"
+      ],
+      "remaining_candidate_features": [
+        "height",
+        "duration of chronic kidney disease",
+        "duration of secondary hyperparathyroidism",
+        "baseline serum potassium concentration",
+        "baseline heart rate",
+        "baseline temperature"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Weight, Diagnosis of chronic kidney disease, Diagnosis of secondary hyperparathyroidism, Duration of hemodialysis, Baseline serum corrected calcium concentration, Baseline serum phosphorus concentration, Baseline serum potassium concentration, Baseline intact parathyroid hormone (iPTH) levels, Baseline heart rate, Baseline temperature, Baseline blood pressure, Baseline PR interval, Baseline QRS interval, Baseline QT interval, Baseline corrected (Bazett) QT interval, Baseline corrected (Fridericia) QT interval",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "History of sHPT",
+          "Diagnosis of secondary hyperparathyroidism"
+        ],
+        [
+          "History of ESRD",
+          "Diagnosis of chronic kidney disease"
+        ],
+        [
+          "Hemodialysis vintage",
+          "Duration of hemodialysis"
+        ],
+        [
+          "cCa",
+          "Baseline serum corrected calcium concentration"
+        ],
+        [
+          "Phosphorus",
+          "Baseline serum phosphorus concentration"
+        ],
+        [
+          "iPTH",
+          "Baseline intact parathyroid hormone (iPTH) levels"
+        ],
+        [
+          "SBP",
+          "Baseline blood pressure"
+        ],
+        [
+          "QT Interval",
+          "Baseline QT interval"
+        ],
+        [
+          "Corrected (Bazett) QT Interval",
+          "Baseline corrected (Bazett) QT interval"
+        ],
+        [
+          "Corrected (Fridericia) QT Interval",
+          "Baseline corrected (Fridericia) QT interval"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex",
+        "Race",
+        "Ethnicity",
+        "BMI",
+        "DBP",
+        "History of cinacalcet use",
+        "mean (SD)",
+        "Dialysate Ca",
+        "Total Ca",
+        "Ionized Ca"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Baseline serum potassium concentration",
+        "Baseline heart rate",
+        "Baseline temperature",
+        "Baseline PR interval",
+        "Baseline QRS interval"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Weight, Height, BMI, Ethnicity, Duration of hemodialysis, Duration of secondary hyperparathyroidism, Current medications, Laboratory results (e.g. serum calcium, phosphorus, potassium, iPTH levels).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Ethnicity",
+          "Ethnicity"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "History of sHPT",
+          "Duration of secondary hyperparathyroidism"
+        ],
+        [
+          "History of cinacalcet use",
+          "Current medications"
+        ],
+        [
+          "Hemodialysis vintage",
+          "Duration of hemodialysis"
+        ],
+        [
+          "iPTH",
+          "Laboratory results (e.g. serum calcium, phosphorus, potassium, iPTH levels)"
+        ],
+        [
+          "Phosphorus",
+          "Laboratory results (e.g. serum calcium, phosphorus, potassium, iPTH levels)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "SBP",
+        "DBP",
+        "History of ESRD",
+        "mean (SD)",
+        "Dialysate Ca",
+        "cCa",
+        "Total Ca",
+        "Ionized Ca"
+      ],
+      "remaining_candidate_features": [
+        "Weight",
+        "Height"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, body mass index (BMI), race, ethnicity, duration of hemodialysis, duration of secondary hyperparathyroidism, prior cinacalcet therapy, concomitant medications, medical history, laboratory results (serum corrected calcium, phosphorus, potassium, intact parathyroid hormone levels).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "History of sHPT",
+          "duration of secondary hyperparathyroidism"
+        ],
+        [
+          "History of cinacalcet use",
+          "prior cinacalcet therapy"
+        ],
+        [
+          "Hemodialysis vintage",
+          "duration of hemodialysis"
+        ],
+        [
+          "iPTH",
+          "laboratory results (serum corrected calcium, phosphorus, potassium, intact parathyroid hormone levels)"
+        ],
+        [
+          "cCa",
+          "laboratory results (serum corrected calcium, phosphorus, potassium, intact parathyroid hormone levels)"
+        ],
+        [
+          "Phosphorus",
+          "laboratory results (serum corrected calcium, phosphorus, potassium, intact parathyroid hormone levels)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "SBP",
+        "DBP",
+        "History of ESRD",
+        "mean (SD)",
+        "Dialysate Ca",
+        "Total Ca",
+        "Ionized Ca"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "concomitant medications",
+        "medical history"
+      ]
+    }
+  }
+}

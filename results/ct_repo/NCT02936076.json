@@ -1,0 +1,133 @@
+{
+  "trial_id": "NCT02936076",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, physical activity level, smartphone ownership, stress-eating endorsement, baseline dietary intake, baseline eating behaviors, baseline stress levels, medical history, pregnancy status, ability to walk without assistance, ability to meet exercise recommendations.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "pregnancy status"
+        ],
+        [
+          "Categorical",
+          "stress-eating endorsement"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "physical activity level",
+        "smartphone ownership",
+        "baseline dietary intake",
+        "baseline eating behaviors",
+        "baseline stress levels",
+        "medical history",
+        "ability to walk without assistance",
+        "ability to meet exercise recommendations."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Baseline physical activity level, Smartphone ownership, Stress-eating behavior,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Baseline physical activity level",
+        "Smartphone ownership",
+        "Stress-eating behavior"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, BMI, Region of Enrollment, Physical Activity Level, Stress-eating, Smartphone Ownership,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Physical Activity Level",
+        "Stress-eating",
+        "Smartphone Ownership"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Sex, BMI, Physical activity level, Smartphone ownership, Stress-eating habits, Pregnancy status, Medical history, Diabetes status, Ability to walk without an assisted device, Adherence to exercise recommendations.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Physical activity level",
+        "Smartphone ownership",
+        "Stress-eating habits",
+        "Pregnancy status",
+        "Medical history",
+        "Diabetes status",
+        "Ability to walk without an assisted device",
+        "Adherence to exercise recommendations"
+      ]
+    }
+  }
+}

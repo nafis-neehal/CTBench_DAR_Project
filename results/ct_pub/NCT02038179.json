@@ -1,0 +1,160 @@
+{
+  "trial_id": "NCT02038179",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, baseline systolic blood pressure (SBP), baseline diastolic blood pressure (DBP), serum urate levels, body mass index (BMI), estimated glomerular filtration rate (eGFR), smoking status, use of calcium channel blockers, hemoglobin levels, white cell count, platelet count, HLAB5801 genetic phenotype, history of serious medical conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age at Enrollment",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Screening Serum urate",
+          "serum urate levels"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "baseline systolic blood pressure (SBP)",
+        "baseline diastolic blood pressure (DBP)",
+        "estimated glomerular filtration rate (eGFR)",
+        "smoking status",
+        "use of calcium channel blockers",
+        "hemoglobin levels",
+        "white cell count",
+        "platelet count",
+        "HLAB5801 genetic phenotype",
+        "history of serious medical conditions."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Serum urate, Estimated glomerular filtration rate (eGFR), Smoking status, Hemoglobin, Platelet count, White cell count, Use of calcium channel blockers",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age at Enrollment",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Screening Serum urate",
+          "Serum urate"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Estimated glomerular filtration rate (eGFR)",
+        "Smoking status",
+        "Hemoglobin",
+        "Platelet count",
+        "White cell count",
+        "Use of calcium channel blockers"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Urate, Estimated Glomerular Filtration Rate, Smoking Status, Diabetes Status, Gout Status, Hypertension Status, Medications, Education.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age at Enrollment",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnic Origin"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Screening Serum urate",
+          "Serum Urate"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Estimated Glomerular Filtration Rate",
+        "Smoking Status",
+        "Diabetes Status",
+        "Gout Status",
+        "Hypertension Status",
+        "Medications",
+        "Education"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), serum urate levels, estimated glomerular filtration rate (eGFR), smoking status, medical history of diabetes, history of gout, use of statins, use of calcium channel blockers.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age at Enrollment",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Screening Serum urate",
+          "serum urate levels"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "systolic blood pressure (SBP)",
+        "diastolic blood pressure (DBP)",
+        "estimated glomerular filtration rate (eGFR)",
+        "smoking status",
+        "medical history of diabetes",
+        "history of gout",
+        "use of statins",
+        "use of calcium channel blockers."
+      ]
+    }
+  }
+}

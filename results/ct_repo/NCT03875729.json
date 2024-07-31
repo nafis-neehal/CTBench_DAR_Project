@@ -1,0 +1,267 @@
+{
+  "trial_id": "NCT03875729",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration since diagnosis, baseline C-peptide levels, presence of T1D-related autoantibodies, presence of stable thyroid or celiac disease, history of infections (HIV, HBV, HCV), baseline HbA1c levels, body mass index (BMI), race/ethnicity, family history of diabetes.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Peak C-peptide at screening",
+          "baseline C-peptide levels"
+        ],
+        [
+          "Number of positive type 1 diabetes (T1D) autoantibodies",
+          "presence of T1D-related autoantibodies"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Body mass index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Glycated hemoglobin (HbA1c)",
+          "baseline HbA1c levels"
+        ],
+        [
+          "Time from type 1 diabetes (T1D) diagnosis to randomization",
+          "duration since diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Age group at randomization",
+        "History of diabetic ketoacidosis (DKA)",
+        "Human leukocyte antigen (HLA) genotyping - DR3",
+        "Human leukocyte antigen (HLA) genotyping - DR4",
+        "Anti-glutamic acid decarboxylase 65 (GAD65) autoantibody",
+        "Anti-islet antigen 2 (IA-2) autoantibody",
+        "Anti-zinc transporter 8 (ZnT8) autoantibody",
+        "Anti-insulin autoantibody",
+        "Anti-islet cell cytoplasmic antibody (ICA)",
+        "Height",
+        "Weight",
+        "Body mass index (BMI) z-score",
+        "C-peptide area under concentration-time curve standardized by mixed meal tolerance test duration",
+        "Insulin use"
+      ],
+      "remaining_candidate_features": [
+        "presence of stable thyroid or celiac disease",
+        "history of infections (HIV, HBV, HCV)",
+        "family history of diabetes"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline C-peptide levels, Presence of T1D-related autoantibodies, Body Mass Index, HbA1c, Insulin dose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Peak C-peptide at screening",
+          "Baseline C-peptide levels"
+        ],
+        [
+          "Number of positive type 1 diabetes (T1D) autoantibodies",
+          "Presence of T1D-related autoantibodies"
+        ],
+        [
+          "Body mass index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Glycated hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Insulin use",
+          "Insulin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Age group at randomization",
+        "History of diabetic ketoacidosis (DKA)",
+        "Human leukocyte antigen (HLA) genotyping - DR3",
+        "Human leukocyte antigen (HLA) genotyping - DR4",
+        "Anti-glutamic acid decarboxylase 65 (GAD65) autoantibody",
+        "Anti-islet antigen 2 (IA-2) autoantibody",
+        "Anti-zinc transporter 8 (ZnT8) autoantibody",
+        "Anti-insulin autoantibody",
+        "Anti-islet cell cytoplasmic antibody (ICA)",
+        "Height",
+        "Weight",
+        "Body mass index (BMI) z-score",
+        "C-peptide area under concentration-time curve standardized by mixed meal tolerance test duration",
+        "Time from type 1 diabetes (T1D) diagnosis to randomization"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Peak Stimulated C-peptide, T1D-related Autoantibodies, BMI, Insulin Dose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Peak C-peptide at screening",
+          "Peak Stimulated C-peptide"
+        ],
+        [
+          "Number of positive type 1 diabetes (T1D) autoantibodies",
+          "T1D-related Autoantibodies"
+        ],
+        [
+          "Body mass index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Age group at randomization",
+        "History of diabetic ketoacidosis (DKA)",
+        "Human leukocyte antigen (HLA) genotyping - DR3",
+        "Human leukocyte antigen (HLA) genotyping - DR4",
+        "Anti-glutamic acid decarboxylase 65 (GAD65) autoantibody",
+        "Anti-islet antigen 2 (IA-2) autoantibody",
+        "Anti-zinc transporter 8 (ZnT8) autoantibody",
+        "Anti-insulin autoantibody",
+        "Anti-islet cell cytoplasmic antibody (ICA)",
+        "Height",
+        "Weight",
+        "Body mass index (BMI) z-score",
+        "C-peptide area under concentration-time curve standardized by mixed meal tolerance test duration",
+        "Insulin use",
+        "Glycated hemoglobin (HbA1c)",
+        "Time from type 1 diabetes (T1D) diagnosis to randomization"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes",
+        "Insulin Dose."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, peak stimulated C-peptide at screening, T1D-related autoantibody status, HbA1c, insulin dose, presence of thyroid or celiac disease, medical history, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body mass index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Peak C-peptide at screening",
+          "peak stimulated C-peptide at screening"
+        ],
+        [
+          "Number of positive type 1 diabetes (T1D) autoantibodies",
+          "T1D-related autoantibody status"
+        ],
+        [
+          "Glycated hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Insulin use",
+          "insulin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Age group at randomization",
+        "History of diabetic ketoacidosis (DKA)",
+        "Human leukocyte antigen (HLA) genotyping - DR3",
+        "Human leukocyte antigen (HLA) genotyping - DR4",
+        "Anti-glutamic acid decarboxylase 65 (GAD65) autoantibody",
+        "Anti-islet antigen 2 (IA-2) autoantibody",
+        "Anti-zinc transporter 8 (ZnT8) autoantibody",
+        "Anti-insulin autoantibody",
+        "Anti-islet cell cytoplasmic antibody (ICA)",
+        "Height",
+        "Weight",
+        "Body mass index (BMI) z-score",
+        "C-peptide area under concentration-time curve standardized by mixed meal tolerance test duration",
+        "Time from type 1 diabetes (T1D) diagnosis to randomization"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "presence of thyroid or celiac disease",
+        "medical history",
+        "concomitant medications"
+      ]
+    }
+  }
+}

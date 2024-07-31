@@ -1,0 +1,207 @@
+{
+  "trial_id": "NCT01939366",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, body mass index (BMI), duration of diabetes, type of diabetes (type 1 or type 2), baseline pain intensity score, glycosylated hemoglobin (HbA1C) level, current pain medication use, renal function (creatinine clearance), hepatic function, presence of diabetic complications (e.g., diabetic ulcers, Charcot's joints), history of alcohol or drug abuse, history of seizure disorder or epilepsy, use of birth control (for women of childbearing potential).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Pain Assessment - Average 24-hour pain",
+          "baseline pain intensity score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Pain Assessment - Worst 24-hour pain",
+        "Pain Assessment - Current Morning Pain",
+        "Pain Assessment - Current Evening Pain"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "type of diabetes (type 1 or type 2)",
+        "glycosylated hemoglobin (HbA1C) level",
+        "current pain medication use",
+        "renal function (creatinine clearance)",
+        "hepatic function",
+        "presence of diabetic complications (e.g., diabetic ulcers, Charcot's joints)",
+        "history of alcohol or drug abuse",
+        "history of seizure disorder or epilepsy",
+        "use of birth control (for women of childbearing potential)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Diabetes (Type 1 or Type 2), Duration of Diabetes, Baseline Pain Intensity Score, HbA1c, Current Pain Medication Use, Creatinine Clearance, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Pain Assessment - Average 24-hour pain",
+          "Baseline Pain Intensity Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height",
+        "Weight",
+        "BMI",
+        "Pain Assessment - Worst 24-hour pain",
+        "Pain Assessment - Current Morning Pain",
+        "Pain Assessment - Current Evening Pain"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Type of Diabetes (Type 1 or Type 2)",
+        "Duration of Diabetes",
+        "HbA1c",
+        "Current Pain Medication Use",
+        "Creatinine Clearance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Type, Diabetes Duration, HbA1c, Body Mass Index, Pain Intensity Score, Duration of Painful Diabetic Polyneuropathic Neuropathy, Current Pain Medication, Creatinine Clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Pain Assessment - Average 24-hour pain",
+          "Pain Intensity Score"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Creatinine Clearance",
+          "Creatinine Clearance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Pain Assessment - Worst 24-hour pain",
+        "Pain Assessment - Current Morning Pain",
+        "Pain Assessment - Current Evening Pain"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Type",
+        "Diabetes Duration",
+        "Duration of Painful Diabetic Polyneuropathic Neuropathy",
+        "Current Pain Medication"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of diabetes, duration of diabetic neuropathy, type of diabetes, HbA1C, blood glucose, creatinine clearance, liver function tests, pain intensity score at baseline, use of concomitant medications, history of smoking, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Pain Assessment - Average 24-hour pain",
+          "pain intensity score at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Pain Assessment - Worst 24-hour pain",
+        "Pain Assessment - Current Morning Pain",
+        "Pain Assessment - Current Evening Pain"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "duration of diabetic neuropathy",
+        "type of diabetes",
+        "HbA1C",
+        "blood glucose",
+        "creatinine clearance",
+        "liver function tests",
+        "use of concomitant medications",
+        "history of smoking",
+        "alcohol consumption"
+      ]
+    }
+  }
+}

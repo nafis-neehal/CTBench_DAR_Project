@@ -1,0 +1,177 @@
+{
+  "trial_id": "NCT04057248",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline HbA1C, duration of diabetes, medication use, smartphone ownership, baseline diabetes quality of life score, baseline blood glucose levels, education level, employment status, comorbid conditions, baseline physical activity level, baseline dietary habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "HBA1C>8.5",
+          "baseline HbA1C"
+        ],
+        [
+          "Weight",
+          "baseline blood glucose levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Total Cholesterol",
+        "Triglycerides value"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "medication use",
+        "smartphone ownership",
+        "baseline diabetes quality of life score",
+        "education level",
+        "employment status",
+        "comorbid conditions",
+        "baseline physical activity level",
+        "baseline dietary habits"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Blood Pressure, Medication Use, Diabetes Quality of Life Score, Smartphone Usage,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "HBA1C>8.5",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Weight",
+        "Total Cholesterol",
+        "Triglycerides value"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes",
+        "Body Mass Index",
+        "Blood Pressure",
+        "Medication Use",
+        "Diabetes Quality of Life Score",
+        "Smartphone Usage"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes Quality of Life Score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "HBA1C>8.5",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Total Cholesterol",
+        "Triglycerides value"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diabetes Diagnosis Duration",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Diabetes Quality of Life Score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, duration of type 2 diabetes, HbA1C at baseline, BMI, blood pressure, lipid profile, diabetes medication use, comorbidities, quality of life score at baseline, education level, employment status, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "HBA1C>8.5",
+          "HbA1C at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Weight",
+        "Total Cholesterol",
+        "Triglycerides value"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "duration of type 2 diabetes",
+        "BMI",
+        "blood pressure",
+        "lipid profile",
+        "diabetes medication use",
+        "comorbidities",
+        "quality of life score at baseline",
+        "education level",
+        "employment status",
+        "marital status"
+      ]
+    }
+  }
+}

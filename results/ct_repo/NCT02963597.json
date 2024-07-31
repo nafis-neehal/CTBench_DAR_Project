@@ -1,0 +1,194 @@
+{
+  "trial_id": "NCT02963597",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Systolic Pulmonary Artery Pressure, Right Atrial Pressure, Apnea Hypopnea Index (AHI), Oxygen Saturation, Heart Failure Diagnosis Duration, Functional Parameters (e.g., 6 Minute Walk Test), Biomarkers (e.g., NT-proBNP), Echocardiographic Parameters (e.g., Ejection Fraction), Comorbidities (e.g., Hypertension, Diabetes), Medication Use, Smoking Status, Renal Function (e.g., Serum Creatinine), History of Cardiac Surgery, Stroke History, Chronic Obstructive Pulmonary Disease (COPD) Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index (BMI)",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Apnea-hypopnea index (AHI)",
+          "Apnea Hypopnea Index (AHI)"
+        ],
+        [
+          "History of COPD",
+          "Chronic Obstructive Pulmonary Disease (COPD) Status"
+        ],
+        [
+          "Smoking history",
+          "Smoking Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Type of heart failure according to EF (HFrEF/HFpEF)"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Systolic Pulmonary Artery Pressure",
+        "Right Atrial Pressure",
+        "Oxygen Saturation",
+        "Heart Failure Diagnosis Duration",
+        "Functional Parameters (e.g., 6 Minute Walk Test)",
+        "Biomarkers (e.g., NT-proBNP)",
+        "Echocardiographic Parameters (e.g., Ejection Fraction)",
+        "Comorbidities (e.g., Hypertension, Diabetes)",
+        "Medication Use",
+        "Renal Function (e.g., Serum Creatinine)",
+        "History of Cardiac Surgery",
+        "Stroke History"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Apnea Hypopnea Index (AHI), Oxygen Saturation, Pulmonary Artery Systolic Pressure, Left Ventricular Ejection Fraction, 6 Minute Walk Test Distance, Serum Creatinine,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body mass index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Apnea-hypopnea index (AHI)",
+          "Apnea Hypopnea Index (AHI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Type of heart failure according to EF (HFrEF/HFpEF)",
+        "Smoking history",
+        "History of COPD"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Oxygen Saturation",
+        "Pulmonary Artery Systolic Pressure",
+        "Left Ventricular Ejection Fraction",
+        "6 Minute Walk Test Distance",
+        "Serum Creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Ejection Fraction, Left Ventricular End-Diastolic Diameter, AHI, O2 Saturation, 6-Minute Walk Test Distance, NYHA Class, Creatinine, Hemoglobin, BNP.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body mass index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Type of heart failure according to EF (HFrEF/HFpEF)",
+          "Ejection Fraction"
+        ],
+        [
+          "Apnea-hypopnea index (AHI)",
+          "AHI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Smoking history",
+        "History of COPD"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Left Ventricular End-Diastolic Diameter",
+        "O2 Saturation",
+        "6-Minute Walk Test Distance",
+        "NYHA Class",
+        "Creatinine",
+        "Hemoglobin",
+        "BNP"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index, systolic pulmonary artery pressure, right atrial pressure, Apnea Hypopnea Index, oxygen saturation, left ventricular ejection fraction, forced expiratory volume at one second, serum creatinine, 6-minute walk test distance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index (BMI)",
+          "body mass index"
+        ],
+        [
+          "Apnea-hypopnea index (AHI)",
+          "Apnea Hypopnea Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Type of heart failure according to EF (HFrEF/HFpEF)",
+        "Smoking history",
+        "History of COPD"
+      ],
+      "remaining_candidate_features": [
+        "systolic pulmonary artery pressure",
+        "right atrial pressure",
+        "oxygen saturation",
+        "left ventricular ejection fraction",
+        "forced expiratory volume at one second",
+        "serum creatinine",
+        "6-minute walk test distance."
+      ]
+    }
+  }
+}

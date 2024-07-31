@@ -1,0 +1,171 @@
+{
+  "trial_id": "NCT00682448",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline weight, baseline BMI, baseline fasting blood glucose (FBG), baseline insulin resistance, baseline lipid profile (including cholesterol, triglycerides, HDL, LDL), baseline liver function tests (SGOT, SGPT, AP), baseline kidney function (MDRD), baseline EKG (QTc interval), diagnosis (Schizophrenia, Schizoaffective Disorder, Bipolar I or II, major depression with psychotic features), baseline cardiovascular status, baseline history of alcohol use, baseline history of lactic acidosis, baseline history of hypoglycemia, baseline use of antidiabetic agents, baseline use of antihyperlipidemic medication, baseline use of neuroleptic medication, baseline use of OTC chromium, gymnema or cimetidine, baseline use of corticosteroids.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "weight",
+          "baseline weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "baseline BMI",
+        "baseline fasting blood glucose (FBG)",
+        "baseline insulin resistance",
+        "baseline lipid profile (including cholesterol, triglycerides, HDL, LDL)",
+        "baseline liver function tests (SGOT, SGPT, AP)",
+        "baseline kidney function (MDRD)",
+        "baseline EKG (QTc interval)",
+        "diagnosis (Schizophrenia, Schizoaffective Disorder, Bipolar I or II, major depression with psychotic features)",
+        "baseline cardiovascular status",
+        "baseline history of alcohol use",
+        "baseline history of lactic acidosis",
+        "baseline history of hypoglycemia",
+        "baseline use of antidiabetic agents",
+        "baseline use of antihyperlipidemic medication",
+        "baseline use of neuroleptic medication",
+        "baseline use of OTC chromium",
+        "gymnema or cimetidine",
+        "baseline use of corticosteroids"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Fasting Blood Glucose, Liver Function Tests (SGOT, SGPT, AP), Kidney Function (MDRD), Cardiovascular Stability, Baseline EKG (QTc Interval),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment",
+        "weight"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Fasting Blood Glucose",
+        "Liver Function Tests (SGOT, SGPT, AP)",
+        "Kidney Function (MDRD)",
+        "Cardiovascular Stability",
+        "Baseline EKG (QTc Interval)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis, Baseline Fasting Blood Glucose, Baseline Liver Function Tests, Baseline MDRD, Baseline QTc, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Triglycerides, HDL Cholesterol, LDL Cholesterol, Total Cholesterol.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "weight"
+      ],
+      "remaining_candidate_features": [
+        "Diagnosis",
+        "Baseline Fasting Blood Glucose",
+        "Baseline Liver Function Tests",
+        "Baseline MDRD",
+        "Baseline QTc",
+        "Body Mass Index",
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol",
+        "Total Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, diagnosis (schizophrenia, schizoaffective disorder, bipolar I or II, major depression with psychotic features), body mass index (BMI), fasting blood glucose (FBG), liver function tests (SGOT, SGPT, AP), Modification of Diet in Renal Disease (MDRD) Equation, electrocardiogram (EKG) QTc interval, medical history (cardiovascular instability, congestive heart failure, lactic acidosis, hypoglycemia), current medications (antidiabetic agents, antihyperlipidemic medication, neuroleptic medication, corticosteroids).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "weight",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "diagnosis (schizophrenia, schizoaffective disorder, bipolar I or II, major depression with psychotic features)",
+        "fasting blood glucose (FBG)",
+        "liver function tests (SGOT, SGPT, AP)",
+        "Modification of Diet in Renal Disease (MDRD) Equation",
+        "electrocardiogram (EKG) QTc interval",
+        "medical history (cardiovascular instability, congestive heart failure, lactic acidosis, hypoglycemia)",
+        "current medications (antidiabetic agents, antihyperlipidemic medication, neuroleptic medication, corticosteroids)"
+      ]
+    }
+  }
+}

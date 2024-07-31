@@ -1,0 +1,258 @@
+{
+  "trial_id": "NCT00620282",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, duration of diabetes, HbA1c levels, BMI, blood pressure, lipid profile, baseline forearm blood flow, concomitant medications, smoking status, history of cardiovascular disease, retinopathy status, autonomic neuropathy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Glycosylated Haemoglobin A1c (HbA1c)",
+          "HbA1c levels"
+        ],
+        [
+          "Previous Anti-diabetic Treatment",
+          "concomitant medications"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "Body Weight",
+          "BMI"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "HbA1c levels"
+        ],
+        [
+          "Total Cholesterol (TC)",
+          "lipid profile"
+        ],
+        [
+          "Low density lipoprotein (LDL-C)",
+          "lipid profile"
+        ],
+        [
+          "High density lipoprotein (HDL-C)",
+          "lipid profile"
+        ],
+        [
+          "Triglycerides (TG)",
+          "lipid profile"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Tumor necrosis factor-alpha (TNF-alpha)"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure",
+        "baseline forearm blood flow",
+        "smoking status",
+        "history of cardiovascular disease",
+        "retinopathy status",
+        "autonomic neuropathy status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, HbA1c, Blood Pressure, Duration of Diabetes, Concomitant Medications, Smoking Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Glycosylated Haemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Previous Anti-diabetic Treatment",
+        "Body Weight",
+        "Fasting Plasma Glucose (FPG)",
+        "Total Cholesterol (TC)",
+        "Low density lipoprotein (LDL-C)",
+        "High density lipoprotein (HDL-C)",
+        "Triglycerides (TG)",
+        "Tumor necrosis factor-alpha (TNF-alpha)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Blood Pressure",
+        "Concomitant Medications",
+        "Smoking Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Cardiovascular Disease, Current Smoking Status, Metformin Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes Duration"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Glycosylated Haemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Previous Anti-diabetic Treatment",
+        "Body Weight",
+        "Fasting Plasma Glucose (FPG)",
+        "Total Cholesterol (TC)",
+        "Low density lipoprotein (LDL-C)",
+        "High density lipoprotein (HDL-C)",
+        "Triglycerides (TG)",
+        "Tumor necrosis factor-alpha (TNF-alpha)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Cardiovascular Disease",
+        "Current Smoking Status",
+        "Metformin Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), HbA1c, systolic blood pressure, diastolic blood pressure, smoking history, duration of type 2 diabetes, type of diabetes treatment at baseline (diet and lifestyle changes or metformin monotherapy), history of cardiovascular disease, presence of retinopathy or maculopathy, presence of autonomic neuropathy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Glycosylated Haemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Systolic blood pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "diastolic blood pressure"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "Previous Anti-diabetic Treatment",
+          "type of diabetes treatment at baseline (diet and lifestyle changes or metformin monotherapy)"
+        ],
+        [
+          "Body Weight",
+          "body weight"
+        ],
+        [
+          "Smoking history",
+          "smoking history"
+        ],
+        [
+          "History of cardiovascular disease",
+          "history of cardiovascular disease"
+        ],
+        [
+          "Presence of retinopathy or maculopathy",
+          "presence of retinopathy or maculopathy"
+        ],
+        [
+          "Presence of autonomic neuropathy",
+          "presence of autonomic neuropathy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Fasting Plasma Glucose (FPG)",
+        "Total Cholesterol (TC)",
+        "Low density lipoprotein (LDL-C)",
+        "High density lipoprotein (HDL-C)",
+        "Triglycerides (TG)",
+        "Tumor necrosis factor-alpha (TNF-alpha)"
+      ],
+      "remaining_candidate_features": []
+    }
+  }
+}

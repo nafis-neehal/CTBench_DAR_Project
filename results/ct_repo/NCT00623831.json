@@ -1,0 +1,193 @@
+{
+  "trial_id": "NCT00623831",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, Karnofsky performance status, tumor type, tumor expression of NY-ESO-1, prior treatments, absolute neutrophil count (ANC), platelet count, alanine aminotransferase (ALT) levels, aspartate aminotransferase (AST) levels, total bilirubin levels, creatinine levels, expected survival, presence of significant heart disease, presence of serious illnesses, HIV status, autoimmune disease status, chronic use of immunosuppressive drugs, mental impairment status, availability for follow-up, participation in other clinical trials, pregnancy or breastfeeding status, use of contraception in women of childbearing potential.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Baseline Karnofsky Performance Status",
+          "Karnofsky performance status"
+        ],
+        [
+          "Diagnosis at Study Entry",
+          "tumor type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Stage IV Disease at Study Entry"
+      ],
+      "remaining_candidate_features": [
+        "tumor expression of NY-ESO-1",
+        "prior treatments",
+        "absolute neutrophil count (ANC)",
+        "platelet count",
+        "alanine aminotransferase (ALT) levels",
+        "aspartate aminotransferase (AST) levels",
+        "total bilirubin levels",
+        "creatinine levels",
+        "expected survival",
+        "presence of significant heart disease",
+        "presence of serious illnesses",
+        "HIV status",
+        "autoimmune disease status",
+        "chronic use of immunosuppressive drugs",
+        "mental impairment status",
+        "availability for follow-up",
+        "participation in other clinical trials",
+        "pregnancy or breastfeeding status",
+        "use of contraception in women of childbearing potential."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Tumor Type, Karnofsky Performance Status, Prior Treatments, Absolute Neutrophil Count (ANC), Platelet Count, Alanine Aminotransferase (ALT), Aspartate Aminotransferase (AST), Total Bilirubin, Creatinine,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Baseline Karnofsky Performance Status",
+          "Karnofsky Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Diagnosis at Study Entry",
+        "Stage IV Disease at Study Entry"
+      ],
+      "remaining_candidate_features": [
+        "Tumor Type",
+        "Prior Treatments",
+        "Absolute Neutrophil Count (ANC)",
+        "Platelet Count",
+        "Alanine Aminotransferase (ALT)",
+        "Aspartate Aminotransferase (AST)",
+        "Total Bilirubin",
+        "Creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky Performance Status, NY-ESO-1 Antigen Expression, Tumor Type, Prior Treatment, Absolute Neutrophil Count, Platelet Count, Alanine Aminotransferase, Aspartate Aminotransferase, Total Bilirubin, Creatinine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Karnofsky Performance Status",
+          "Baseline Karnofsky Performance Status"
+        ],
+        [
+          "Diagnosis at Study Entry",
+          "Tumor Type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Stage IV Disease at Study Entry"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "NY-ESO-1 Antigen Expression",
+        "Prior Treatment",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Alanine Aminotransferase",
+        "Aspartate Aminotransferase",
+        "Total Bilirubin",
+        "Creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, Karnofsky performance status, tumor type, NY-ESO-1 expression, prior therapies, absolute neutrophil count (ANC), platelet count, alanine aminotransferase (ALT), aspartate aminotransferase (AST), total bilirubin, creatinine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Baseline Karnofsky Performance Status",
+          "Karnofsky performance status"
+        ],
+        [
+          "Diagnosis at Study Entry",
+          "tumor type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Stage IV Disease at Study Entry"
+      ],
+      "remaining_candidate_features": [
+        "NY-ESO-1 expression",
+        "prior therapies",
+        "absolute neutrophil count (ANC)",
+        "platelet count",
+        "alanine aminotransferase (ALT)",
+        "aspartate aminotransferase (AST)",
+        "total bilirubin",
+        "creatinine."
+      ]
+    }
+  }
+}

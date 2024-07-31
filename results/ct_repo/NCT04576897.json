@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT04576897",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Liver Stiffness Measurement (LSM), Presence of Esophageal Varices, Platelet Count, AST/ALT levels, Alcohol Consumption Status, Pregnancy Status, Presence of Pacemaker or Defibrillator, History of Liver Transplantation",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "liver stiffness",
+          "Liver Stiffness Measurement (LSM)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Velacur",
+        "liver steatosis",
+        "transient elastography via FibroScan"
+      ],
+      "remaining_candidate_features": [
+        "Presence of Esophageal Varices",
+        "Platelet Count",
+        "AST/ALT levels",
+        "Alcohol Consumption Status",
+        "Pregnancy Status",
+        "Presence of Pacemaker or Defibrillator",
+        "History of Liver Transplantation"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Liver Stiffness Measurement, Platelet Count, AST/ALT Levels, Alcohol Consumption Status, Ascites Status, Post Liver Transplantation Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "liver stiffness",
+          "Liver Stiffness Measurement"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Velacur",
+        "liver steatosis",
+        "transient elastography via FibroScan"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Platelet Count",
+        "AST/ALT Levels",
+        "Alcohol Consumption Status",
+        "Ascites Status",
+        "Post Liver Transplantation Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Body Mass Index, Presence of Esophageal Varices, Platelet Count, Liver Stiffness Measurement, Portal Pressure Measurement, History of Liver Transplantation, History of Ascites, History of Acute Hepatitis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Velacur",
+          "Velacur"
+        ],
+        [
+          "liver stiffness",
+          "Liver Stiffness Measurement"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "liver steatosis",
+        "transient elastography via FibroScan"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Body Mass Index",
+        "Presence of Esophageal Varices",
+        "Platelet Count",
+        "Portal Pressure Measurement",
+        "History of Liver Transplantation",
+        "History of Ascites",
+        "History of Acute Hepatitis"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ethnicity, body mass index (BMI), presence of esophageal varices, platelet count, AST/ALT levels, history of alcohol consumption, presence of ascites, history of liver transplantation, presence of pacemaker or defibrillator.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Velacur",
+          "Velacur"
+        ],
+        [
+          "liver stiffness",
+          "liver stiffness"
+        ],
+        [
+          "platelet count",
+          "Platelet Count for Participants With Compensated Advanced Chronic Liver Disease"
+        ],
+        [
+          "AST/ALT levels",
+          "AST/ALT levels"
+        ],
+        [
+          "history of alcohol consumption",
+          "history of alcohol consumption"
+        ],
+        [
+          "presence of ascites",
+          "presence of ascites"
+        ],
+        [
+          "history of liver transplantation",
+          "history of liver transplantation"
+        ],
+        [
+          "presence of pacemaker or defibrillator",
+          "presence of pacemaker or defibrillator"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "liver steatosis",
+        "transient elastography via FibroScan"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "presence of esophageal varices"
+      ]
+    }
+  }
+}

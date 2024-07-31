@@ -1,0 +1,315 @@
+{
+  "trial_id": "NCT00283686",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Baseline GFR, Blood Pressure, Diagnosis of ADPKD, Serum Potassium, Urine Albumin-to-Creatinine Ratio, Fasting Serum Glucose, Random Non-Fasting Glucose, History of Hypertension Treatment, Use of ACE-I or ARB, History of Angioneurotic Edema, Use of \u03b2-blocker or Calcium Channel Blocker, Systemic Illness, Hospitalization History, Life Expectancy, History of Non-Compliance, Presence of Cerebral Aneurysm, Use of Creatine Supplements, Congenital Kidney Absence, Allergy to Sorbitol or Sodium Polystyrene Sulfonate.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "eGFR",
+          "Baseline GFR"
+        ],
+        [
+          "SBP",
+          "Blood Pressure"
+        ],
+        [
+          "serum potassium",
+          "Serum Potassium"
+        ],
+        [
+          "serum albumin",
+          "Urine Albumin-to-Creatinine Ratio"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Height",
+        "BMI",
+        "BSA",
+        "DBP",
+        "Liver cysts",
+        "Liver volume",
+        "height adjusted liver volume",
+        "liver cyst volume",
+        "height adjusted liver cyst volume",
+        "liver parenchymal volume",
+        "height adjusted liver parnehcymal volume",
+        "total kidney volume",
+        "height adjusted total kidney volume",
+        "spleen volume",
+        "height adjusted spleen volume",
+        "serum sodium",
+        "hemoglobin",
+        "WBC",
+        "platelets",
+        "AST",
+        "ALT",
+        "alkaline phosphatase",
+        "bilirubin",
+        "physical functioning QOL",
+        "physical role QOL",
+        "bodily pain QOL",
+        "general health QOL",
+        "vitality QOL",
+        "social functioning QOL",
+        "role emotional QOL",
+        "mental health QOL",
+        "standardized mental component QOL",
+        "standardized physical component QOL"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Diagnosis of ADPKD",
+        "Fasting Serum Glucose",
+        "Random Non-Fasting Glucose",
+        "History of Hypertension Treatment",
+        "Use of ACE-I or ARB",
+        "History of Angioneurotic Edema",
+        "Use of \u03b2-blocker or Calcium Channel Blocker",
+        "Systemic Illness",
+        "Hospitalization History",
+        "Life Expectancy",
+        "History of Non-Compliance",
+        "Presence of Cerebral Aneurysm",
+        "Use of Creatine Supplements",
+        "Congenital Kidney Absence",
+        "Allergy to Sorbitol or Sodium Polystyrene Sulfonate."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, BMI, Blood Pressure, GFR, Serum creatinine, Serum potassium, Urine albumin-to-creatinine ratio, History of hypertension, Use of antihypertensive medications, Family history of ADPKD, History of diabetes, Smoking status, History of cardiovascular disease",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "SBP",
+          "Blood Pressure"
+        ],
+        [
+          "DBP",
+          "Blood Pressure"
+        ],
+        [
+          "eGFR",
+          "GFR"
+        ],
+        [
+          "serum potassium",
+          "Serum potassium"
+        ],
+        [
+          "urine albumin-to-creatinine ratio",
+          "Urine albumin-to-creatinine ratio"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Height",
+        "BSA",
+        "Liver cysts",
+        "Liver volume",
+        "height adjusted liver volume",
+        "liver cyst volume",
+        "height adjusted liver cyst volume",
+        "liver parenchymal volume",
+        "height adjusted liver parnehcymal volume",
+        "total kidney volume",
+        "height adjusted total kidney volume",
+        "spleen volume",
+        "height adjusted spleen volume",
+        "serum albumin",
+        "serum sodium",
+        "hemoglobin",
+        "WBC",
+        "platelets",
+        "AST",
+        "ALT",
+        "alkaline phosphatase",
+        "bilirubin",
+        "physical functioning QOL",
+        "physical role QOL",
+        "bodily pain QOL",
+        "general health QOL",
+        "vitality QOL",
+        "social functioning QOL",
+        "role emotional QOL",
+        "mental health QOL",
+        "standardized mental component QOL",
+        "standardized physical component QOL"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Race",
+        "Serum creatinine",
+        "History of hypertension",
+        "Use of antihypertensive medications",
+        "Family history of ADPKD",
+        "History of diabetes",
+        "Smoking status",
+        "History of cardiovascular disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, Body Mass Index (BMI), Blood Pressure, Estimated Glomerular Filtration Rate (eGFR), Urine Albumin-to-Creatinine Ratio, Serum Potassium, Fasting Serum Glucose, History of Hypertension, History of Diabetes, Family History of ADPKD, Kidney Volume.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "SBP",
+          "Blood Pressure"
+        ],
+        [
+          "DBP",
+          "Blood Pressure"
+        ],
+        [
+          "eGFR",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ],
+        [
+          "total kidney volume",
+          "Kidney Volume"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Height",
+        "BSA",
+        "Liver cysts",
+        "Liver volume",
+        "height adjusted liver volume",
+        "liver cyst volume",
+        "height adjusted liver cyst volume",
+        "liver parenchymal volume",
+        "height adjusted liver parnehcymal volume",
+        "height adjusted total kidney volume",
+        "spleen volume",
+        "height adjusted spleen volume",
+        "serum albumin",
+        "serum sodium",
+        "hemoglobin",
+        "WBC",
+        "platelets",
+        "AST",
+        "ALT",
+        "alkaline phosphatase",
+        "bilirubin",
+        "physical functioning QOL",
+        "physical role QOL",
+        "bodily pain QOL",
+        "general health QOL",
+        "vitality QOL",
+        "social functioning QOL",
+        "role emotional QOL",
+        "mental health QOL",
+        "standardized mental component QOL",
+        "standardized physical component QOL"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Ethnic Origin",
+        "Urine Albumin-to-Creatinine Ratio",
+        "Serum Potassium",
+        "Fasting Serum Glucose",
+        "History of Hypertension",
+        "History of Diabetes",
+        "Family History of ADPKD"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, systolic blood pressure, diastolic blood pressure, estimated glomerular filtration rate, serum creatinine, urinary albumin-to-creatinine ratio, presence of hypertension, presence of diabetes, smoking status, family history of ADPKD, duration of ADPKD diagnosis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "body mass index"
+        ],
+        [
+          "SBP",
+          "systolic blood pressure"
+        ],
+        [
+          "DBP",
+          "diastolic blood pressure"
+        ],
+        [
+          "eGFR",
+          "estimated glomerular filtration rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Height",
+        "BSA",
+        "Liver cysts",
+        "Liver volume",
+        "height adjusted liver volume",
+        "liver cyst volume",
+        "height adjusted liver cyst volume",
+        "liver parenchymal volume",
+        "height adjusted liver parnehcymal volume",
+        "total kidney volume",
+        "height adjusted total kidney volume",
+        "spleen volume",
+        "height adjusted spleen volume",
+        "serum albumin",
+        "serum sodium",
+        "hemoglobin",
+        "WBC",
+        "platelets",
+        "AST",
+        "ALT",
+        "alkaline phosphatase",
+        "bilirubin",
+        "physical functioning QOL",
+        "physical role QOL",
+        "bodily pain QOL",
+        "general health QOL",
+        "vitality QOL",
+        "social functioning QOL",
+        "role emotional QOL",
+        "mental health QOL",
+        "standardized mental component QOL",
+        "standardized physical component QOL"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "race",
+        "ethnicity",
+        "serum creatinine",
+        "urinary albumin-to-creatinine ratio",
+        "presence of hypertension",
+        "presence of diabetes",
+        "smoking status",
+        "family history of ADPKD",
+        "duration of ADPKD diagnosis"
+      ]
+    }
+  }
+}

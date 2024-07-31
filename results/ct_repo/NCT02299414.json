@@ -1,0 +1,233 @@
+{
+  "trial_id": "NCT02299414",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age at enrollment, race/ethnicity, body mass index (BMI), baseline blood pressure (systolic and diastolic), history of chronic hypertension, use of antihypertensive medication at baseline, parity, smoking status, presence of diabetes mellitus, presence of chronic kidney disease, presence of cardiac disorders, presence of retinopathy, presence of sickle cell disease, socioeconomic status, education level, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gestational age at enrollment"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Blood Pressure - Systolic",
+          "baseline blood pressure (systolic and diastolic)"
+        ],
+        [
+          "Blood Pressure - Diastolic",
+          "baseline blood pressure (systolic and diastolic)"
+        ],
+        [
+          "Type of CHTN",
+          "history of chronic hypertension"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Diabetes Mellitus",
+          "presence of diabetes mellitus"
+        ],
+        [
+          "Current Smoker",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Insurance Type",
+        "Prior Pregnancy",
+        "Gestational Age less than 14 weeks",
+        "Aspirin Use"
+      ],
+      "remaining_candidate_features": [
+        "use of antihypertensive medication at baseline",
+        "parity",
+        "presence of chronic kidney disease",
+        "presence of cardiac disorders",
+        "presence of retinopathy",
+        "presence of sickle cell disease",
+        "socioeconomic status",
+        "education level",
+        "marital status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational Age at Enrollment, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Parity, Pre-existing Conditions (e.g., Diabetes Mellitus, Chronic Kidney Disease), Use of Antihypertensive Medication, Smoking Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Blood Pressure - Systolic",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Blood Pressure - Diastolic",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Gestational Age less than 14 weeks",
+          "Gestational Age at Enrollment"
+        ],
+        [
+          "Diabetes Mellitus",
+          "Pre-existing Conditions (e.g., Diabetes Mellitus, Chronic Kidney Disease)"
+        ],
+        [
+          "Current Smoker",
+          "Smoking Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Insurance Type",
+        "Type of CHTN",
+        "Prior Pregnancy",
+        "BMI",
+        "Aspirin Use"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Parity",
+        "Use of Antihypertensive Medication"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gestational Age at Randomization, Chronic Hypertension Duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Antihypertensive Medication Use, Diabetes Status, Chronic Kidney Disease Status, Cardiac Disorder Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational Age less than 14 weeks",
+          "Gestational Age at Randomization"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Blood Pressure - Systolic",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Blood Pressure - Diastolic",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Diabetes Mellitus",
+          "Diabetes Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Insurance Type",
+        "Type of CHTN",
+        "Prior Pregnancy",
+        "Current Smoker",
+        "Aspirin Use"
+      ],
+      "remaining_candidate_features": [
+        "Chronic Hypertension Duration",
+        "Antihypertensive Medication Use",
+        "Chronic Kidney Disease Status",
+        "Cardiac Disorder Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, body mass index (BMI), gestational age at randomization, parity, history of hypertension, history of preeclampsia, history of diabetes, history of kidney disease, history of cardiac disease, smoking status, use of antihypertensive medications at baseline, systolic and diastolic blood pressure at baseline, proteinuria at baseline, creatinine at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Gestational Age less than 14 weeks",
+          "gestational age at randomization"
+        ],
+        [
+          "Prior Pregnancy",
+          "parity"
+        ],
+        [
+          "Type of CHTN",
+          "history of hypertension"
+        ],
+        [
+          "Diabetes Mellitus",
+          "history of diabetes"
+        ],
+        [
+          "Current Smoker",
+          "smoking status"
+        ],
+        [
+          "Blood Pressure - Systolic",
+          "systolic and diastolic blood pressure at baseline"
+        ],
+        [
+          "Blood Pressure - Diastolic",
+          "systolic and diastolic blood pressure at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Insurance Type",
+        "Aspirin Use"
+      ],
+      "remaining_candidate_features": [
+        "history of preeclampsia",
+        "history of kidney disease",
+        "history of cardiac disease",
+        "use of antihypertensive medications at baseline",
+        "proteinuria at baseline",
+        "creatinine at baseline"
+      ]
+    }
+  }
+}

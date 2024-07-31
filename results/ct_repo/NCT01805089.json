@@ -1,0 +1,225 @@
+{
+  "trial_id": "NCT01805089",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race/ethnicity, body mass index (BMI), menopausal status, history of ductal carcinoma in situ, history of lobular carcinoma in situ, history of stages 1-3 breast cancer, baseline estradiol levels, baseline IGF levels, baseline sleep quality, baseline hot flash frequency, baseline mood status, prior use of chemotherapy, prior use of hormonal therapy, concomitant medication use, baseline use of sleep aids, baseline use of postmenopausal hormone replacement therapy, baseline use of black cohosh, flaxseed, or soy supplements, baseline use of oral melatonin supplementation, baseline use of warfarin, presence of active seizure disorder.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Cancer Stage",
+          "history of stages 1-3 breast cancer"
+        ],
+        [
+          "Estradiol",
+          "baseline estradiol levels"
+        ],
+        [
+          "Insulin-like Growth Factor 1",
+          "baseline IGF levels"
+        ],
+        [
+          "Sleep (Pittsburgh Sleep Quality Index)",
+          "baseline sleep quality"
+        ],
+        [
+          "Hot Flashes",
+          "baseline hot flash frequency"
+        ],
+        [
+          "Mood",
+          "baseline mood status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Smoking Status"
+      ],
+      "remaining_candidate_features": [
+        "menopausal status",
+        "history of ductal carcinoma in situ",
+        "history of lobular carcinoma in situ",
+        "prior use of chemotherapy",
+        "prior use of hormonal therapy",
+        "concomitant medication use",
+        "baseline use of sleep aids",
+        "baseline use of postmenopausal hormone replacement therapy",
+        "baseline use of black cohosh",
+        "flaxseed",
+        "or soy supplements",
+        "baseline use of oral melatonin supplementation",
+        "baseline use of warfarin",
+        "presence of active seizure disorder"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Breast Cancer Stage, Time Since Diagnosis, Use of Hormonal Therapy, Use of Sleep Aids, Use of Supplements,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Cancer Stage",
+          "Breast Cancer Stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Smoking Status",
+        "Body Mass Index (BMI)",
+        "Estradiol",
+        "Insulin-like Growth Factor 1",
+        "Sleep (Pittsburgh Sleep Quality Index)",
+        "Hot Flashes",
+        "Mood"
+      ],
+      "remaining_candidate_features": [
+        "Time Since Diagnosis",
+        "Use of Hormonal Therapy",
+        "Use of Sleep Aids",
+        "Use of Supplements"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Menopausal Status, Breast Cancer Stage, History of Hormone Replacement Therapy, History of Chemotherapy, Sleep Quality, Hot Flash Severity, Mood Status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Cancer Stage",
+          "Breast Cancer Stage"
+        ],
+        [
+          "Estradiol",
+          "Estradiol"
+        ],
+        [
+          "Insulin-like Growth Factor 1",
+          "Insulin-like Growth Factor 1"
+        ],
+        [
+          "Sleep (Pittsburgh Sleep Quality Index)",
+          "Sleep Quality"
+        ],
+        [
+          "Hot Flashes",
+          "Hot Flash Severity"
+        ],
+        [
+          "Mood",
+          "Mood Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Smoking Status",
+        "Body Mass Index (BMI)"
+      ],
+      "remaining_candidate_features": [
+        "Menopausal Status",
+        "History of Hormone Replacement Therapy",
+        "History of Chemotherapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, body mass index (BMI), menopausal status, history of breast cancer (type, stage, treatment), sleep quality, hot flash frequency and severity, mood status, estrogen levels, IGF levels, use of hormone replacement therapy, use of sleep aids, work schedule, use of supplements (black cohosh, flaxseed, soy), use of warfarin, history of seizure disorder.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Cancer Stage",
+          "history of breast cancer (type, stage, treatment)"
+        ],
+        [
+          "Estradiol",
+          "estrogen levels"
+        ],
+        [
+          "Insulin-like Growth Factor 1",
+          "IGF levels"
+        ],
+        [
+          "Sleep (Pittsburgh Sleep Quality Index)",
+          "sleep quality"
+        ],
+        [
+          "Hot Flashes",
+          "hot flash frequency and severity"
+        ],
+        [
+          "Mood",
+          "mood status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Smoking Status"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "menopausal status",
+        "use of hormone replacement therapy",
+        "use of sleep aids",
+        "work schedule",
+        "use of supplements (black cohosh, flaxseed, soy)",
+        "use of warfarin",
+        "history of seizure disorder"
+      ]
+    }
+  }
+}

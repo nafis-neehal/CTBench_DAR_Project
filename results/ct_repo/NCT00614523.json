@@ -1,0 +1,182 @@
+{
+  "trial_id": "NCT00614523",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, ECOG performance status, platelet count, liver function (ALT, AST, total bilirubin), serum creatinine concentration, bone marrow biopsy and aspirate results, cytogenetics, history of bleeding associated with MDS, history of prior malignancy, history of infections, history of cardiovascular conditions (angina, heart failure, hypertension, cardiac arrhythmia, myocardial infarction), history of thrombosis (arterial or venous), use of contraceptive precautions, sensitivity to recombinant E coli-derived products.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Baseline Platelet Counts",
+          "platelet count"
+        ],
+        [
+          "Myelodysplastic Syndromes World Health Organization Classification",
+          "bone marrow biopsy and aspirate results"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Prior MDS Therapy",
+        "International Prognostic Scoring System (IPSS) Total Score"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "liver function (ALT, AST, total bilirubin)",
+        "serum creatinine concentration",
+        "cytogenetics",
+        "history of bleeding associated with MDS",
+        "history of prior malignancy",
+        "history of infections",
+        "history of cardiovascular conditions (angina, heart failure, hypertension, cardiac arrhythmia, myocardial infarction)",
+        "history of thrombosis (arterial or venous)",
+        "use of contraceptive precautions",
+        "sensitivity to recombinant E coli-derived products."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Platelet Count, History of Bleeding, ECOG Performance Status, Liver Function Tests (ALT, AST, Bilirubin), Serum Creatinine, Bone Marrow Biopsy and Aspirate with Cytogenetics,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Myelodysplastic Syndromes World Health Organization Classification",
+          "Bone Marrow Biopsy and Aspirate with Cytogenetics"
+        ],
+        [
+          "Baseline Platelet Counts",
+          "Platelet Count"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Prior MDS Therapy",
+        "International Prognostic Scoring System (IPSS) Total Score"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "History of Bleeding",
+        "ECOG Performance Status",
+        "Liver Function Tests (ALT, AST, Bilirubin)",
+        "Serum Creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, MDS International Prognostic Scoring System (IPSS) risk category, Platelet count, Eastern Cooperative Oncology Group (ECOG) performance status, Liver function tests (ALT, AST, total bilirubin), Serum creatinine concentration, Bone marrow biopsy and aspirate with cytogenetics, History of bleeding associated with MDS diagnosis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Myelodysplastic Syndromes World Health Organization Classification",
+          "MDS International Prognostic Scoring System (IPSS) risk category"
+        ],
+        [
+          "Baseline Platelet Counts",
+          "Platelet count"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Prior MDS Therapy",
+        "International Prognostic Scoring System (IPSS) Total Score"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Eastern Cooperative Oncology Group (ECOG) performance status",
+        "Liver function tests (ALT, AST, total bilirubin)",
+        "Serum creatinine concentration",
+        "Bone marrow biopsy and aspirate with cytogenetics",
+        "History of bleeding associated with MDS diagnosis."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), ECOG performance status, IPSS risk category, MDS subtype, platelet count, hemoglobin level, absolute neutrophil count, liver function tests (ALT, AST, total bilirubin), serum creatinine concentration, bone marrow biopsy and aspirate results, cytogenetics, history of bleeding associated with MDS diagnosis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Myelodysplastic Syndromes World Health Organization Classification",
+          "MDS subtype"
+        ],
+        [
+          "Prior MDS Therapy",
+          "history of bleeding associated with MDS diagnosis."
+        ],
+        [
+          "Baseline Platelet Counts",
+          "platelet count"
+        ],
+        [
+          "International Prognostic Scoring System (IPSS) Total Score",
+          "IPSS risk category"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "ECOG performance status",
+        "hemoglobin level",
+        "absolute neutrophil count",
+        "liver function tests (ALT, AST, total bilirubin)",
+        "serum creatinine concentration",
+        "bone marrow biopsy and aspirate results",
+        "cytogenetics"
+      ]
+    }
+  }
+}

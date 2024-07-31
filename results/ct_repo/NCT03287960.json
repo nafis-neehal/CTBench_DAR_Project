@@ -1,0 +1,175 @@
+{
+  "trial_id": "NCT03287960",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, genetic status for LEPR gene, body mass index (BMI), weight percentile for age (for children and adolescents), contraceptive use (for females of child-bearing potential), history of gastric bypass surgery, diagnosis of psychiatric disorders, Patient Health Questionnaire-9 (PHQ-9) score, Columbia Suicide Severity Rating Scale (C-SSRS) score, presence of severe lung disease, heart failure status (NYHA Class), history of liver disease, liver function test results (ALT, AST, alkaline phosphatase, serum bilirubin), renal function test results (creatinine, BUN, albuminuria), family history of skin cancer or melanoma, history of ocular-cutaneous albinism, dermatologic findings related to melanoma, participation in previous clinical studies, hypersensitivity to study drug, compliance with injection regimen.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "genetic status for LEPR gene",
+        "body mass index (BMI)",
+        "weight percentile for age (for children and adolescents)",
+        "contraceptive use (for females of child-bearing potential)",
+        "history of gastric bypass surgery",
+        "diagnosis of psychiatric disorders",
+        "Patient Health Questionnaire-9 (PHQ-9) score",
+        "Columbia Suicide Severity Rating Scale (C-SSRS) score",
+        "presence of severe lung disease",
+        "heart failure status (NYHA Class)",
+        "history of liver disease",
+        "liver function test results (ALT, AST, alkaline phosphatase, serum bilirubin)",
+        "renal function test results (creatinine, BUN, albuminuria)",
+        "family history of skin cancer or melanoma",
+        "history of ocular-cutaneous albinism",
+        "dermatologic findings related to melanoma",
+        "participation in previous clinical studies",
+        "hypersensitivity to study drug",
+        "compliance with injection regimen"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Weight, Genetic Status, Baseline Liver Function Tests (ALT, AST, Alkaline Phosphatase, Serum Bilirubin), Baseline Renal Function Tests (Creatinine, BUN, Albuminuria), Baseline PHQ-9 Score, Baseline C-SSRS Score, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Weight",
+        "Genetic Status",
+        "Baseline Liver Function Tests (ALT, AST, Alkaline Phosphatase, Serum Bilirubin)",
+        "Baseline Renal Function Tests (Creatinine, BUN, Albuminuria)",
+        "Baseline PHQ-9 Score",
+        "Baseline C-SSRS Score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Genetic Status for LEPR Gene, Region of Enrollment, Body Mass Index, Weight, Height, Waist Circumference, Hip Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, HbA1c, Lipid Profile, Liver Function Tests, Renal Function Tests.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Genetic Status for LEPR Gene",
+        "Body Mass Index",
+        "Weight",
+        "Height",
+        "Waist Circumference",
+        "Hip Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Glucose",
+        "HbA1c",
+        "Lipid Profile",
+        "Liver Function Tests",
+        "Renal Function Tests"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), weight, height, LEPR genetic status, Tanner stage, menarche status, FSH level, PHQ-9 score, C-SSRS score, liver function tests (ALT, AST, alkaline phosphatase, bilirubin), creatinine, blood urea nitrogen (BUN), Cockcroft Gault equation, medical history (schizophrenia, bipolar disorder, personality disorder, DSM-III disorders, liver disease, heart failure, oncologic disease, skin cancer, melanoma, ocular-cutaneous albinism), concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "weight",
+        "height",
+        "LEPR genetic status",
+        "Tanner stage",
+        "menarche status",
+        "FSH level",
+        "PHQ-9 score",
+        "C-SSRS score",
+        "liver function tests (ALT, AST, alkaline phosphatase, bilirubin)",
+        "creatinine",
+        "blood urea nitrogen (BUN)",
+        "Cockcroft Gault equation",
+        "medical history (schizophrenia, bipolar disorder, personality disorder, DSM-III disorders, liver disease, heart failure, oncologic disease, skin cancer, melanoma, ocular-cutaneous albinism)",
+        "concomitant medications."
+      ]
+    }
+  }
+}

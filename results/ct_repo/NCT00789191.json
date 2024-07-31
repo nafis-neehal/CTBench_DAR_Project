@@ -1,0 +1,209 @@
+{
+  "trial_id": "NCT00789191",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, baseline HbA1c, BMI, baseline fasting plasma glucose, baseline postprandial glucose, use of metformin, use of sulphonylurea, blood pressure, lipid profile, renal function, liver function, history of cardiovascular disease, smoking status, alcohol use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "HbA1c",
+          "baseline HbA1c"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "FPG",
+          "baseline fasting plasma glucose"
+        ],
+        [
+          "Diabetes History",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height",
+        "Body Weight",
+        "Stratification"
+      ],
+      "remaining_candidate_features": [
+        "baseline postprandial glucose",
+        "use of metformin",
+        "use of sulphonylurea",
+        "blood pressure",
+        "lipid profile",
+        "renal function",
+        "liver function",
+        "history of cardiovascular disease",
+        "smoking status",
+        "alcohol use."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Blood Pressure, Fasting Plasma Glucose, Use of Metformin, Use of Sulphonylurea,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "HbA1c",
+          "Baseline HbA1c"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "FPG",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Diabetes History",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Height",
+        "Body Weight",
+        "Stratification"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Blood Pressure",
+        "Use of Metformin",
+        "Use of Sulphonylurea"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, BMI, HbA1c, Fasting plasma glucose, Systolic blood pressure, Diastolic blood pressure, Total cholesterol, Triglycerides, HDL cholesterol, LDL cholesterol, Metformin dose, Sulphonylurea use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height",
+        "Body Weight",
+        "Stratification",
+        "FPG",
+        "Diabetes History"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diabetes duration",
+        "Fasting plasma glucose",
+        "Systolic blood pressure",
+        "Diastolic blood pressure",
+        "Total cholesterol",
+        "Triglycerides",
+        "HDL cholesterol",
+        "LDL cholesterol",
+        "Metformin dose",
+        "Sulphonylurea use."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose, systolic and diastolic blood pressure, lipid profile, smoking status, history of cardiovascular disease, history of hypertension, history of hepatic or renal disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "HbA1c",
+          "HbA1c at screening"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Diabetes History",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "FPG",
+          "fasting plasma glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Height",
+        "Body Weight",
+        "Stratification"
+      ],
+      "remaining_candidate_features": [
+        "systolic and diastolic blood pressure",
+        "lipid profile",
+        "smoking status",
+        "history of cardiovascular disease",
+        "history of hypertension",
+        "history of hepatic or renal disease."
+      ]
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "trial_id": "NCT04701138",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, BMI, fasting glucose, HbA1c, menopausal status, baseline plasma SPM concentration, baseline serum SPM concentration, baseline PBMC SPM concentration, baseline PUFA-derived metabolite concentration, baseline immune cell population abundance, baseline in vitro antibody response, baseline cytokine production.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "fasting glucose",
+        "HbA1c",
+        "menopausal status",
+        "baseline plasma SPM concentration",
+        "baseline serum SPM concentration",
+        "baseline PBMC SPM concentration",
+        "baseline PUFA-derived metabolite concentration",
+        "baseline immune cell population abundance",
+        "baseline in vitro antibody response",
+        "baseline cytokine production."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Fasting Glucose, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, Waist Circumference, Triglycerides, Total Cholesterol, LDL Cholesterol, HDL Cholesterol, C-Reactive Protein,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Fasting Glucose",
+        "HbA1c",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Waist Circumference",
+        "Triglycerides",
+        "Total Cholesterol",
+        "LDL Cholesterol",
+        "HDL Cholesterol",
+        "C-Reactive Protein"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Fasting Glucose, HbA1c, Menopausal Status, History of Autoimmune Disease, History of Liver Disease, History of Coagulopathy, History of Hypothyroidism, Fish Consumption, Aspirin or NSAIDs Use, Asthma Medication Use, Immunomodulatory or Immunosuppressant Therapy Use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Fasting Glucose",
+        "HbA1c",
+        "Menopausal Status",
+        "History of Autoimmune Disease",
+        "History of Liver Disease",
+        "History of Coagulopathy",
+        "History of Hypothyroidism",
+        "Fish Consumption",
+        "Aspirin or NSAIDs Use",
+        "Asthma Medication Use",
+        "Immunomodulatory or Immunosuppressant Therapy Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, fasting glucose, HbA1c, menopausal status, medical history (autoimmune disease, liver disease, coagulopathy, hypothyroidism), medication use (n-3 PUFA supplements, anticoagulants, estrogen, testosterone, daily aspirin, NSAIDs, active asthma medications, immunomodulatory or immunosuppressant therapy), COVID-19 status, smoking status, dietary habits (fatty fish consumption).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "fasting glucose",
+        "HbA1c",
+        "menopausal status",
+        "medical history (autoimmune disease, liver disease, coagulopathy, hypothyroidism)",
+        "medication use (n-3 PUFA supplements, anticoagulants, estrogen, testosterone, daily aspirin, NSAIDs, active asthma medications, immunomodulatory or immunosuppressant therapy)",
+        "COVID-19 status",
+        "smoking status",
+        "dietary habits (fatty fish consumption)"
+      ]
+    }
+  }
+}

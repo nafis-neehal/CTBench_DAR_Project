@@ -1,0 +1,256 @@
+{
+  "trial_id": "NCT01402284",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ECOG performance status, serum monoclonal protein level, urine monoclonal protein level, serum immunoglobulin free light chain level, serum calcium level, serum creatinine level, hemoglobin level, presence of lytic bone lesions, creatinine clearance, absolute neutrophil count, platelet count, bilirubin level, AST level, ALT level, history of hypertension, history of diabetes, hepatitis B or C status, cardiovascular disease status, gastrointestinal disease status, neuropathy grade, prior major surgery.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "serum monoclonal protein level",
+          "serum monoclonal protein level"
+        ],
+        [
+          "urine monoclonal protein level",
+          "urine monoclonal protein level"
+        ],
+        [
+          "serum immunoglobulin free light chain level",
+          "serum immunoglobulin free light chain level"
+        ],
+        [
+          "serum calcium level",
+          "serum calcium level"
+        ],
+        [
+          "serum creatinine level",
+          "serum creatinine level"
+        ],
+        [
+          "hemoglobin level",
+          "hemoglobin level"
+        ],
+        [
+          "presence of lytic bone lesions",
+          "presence of lytic bone lesions"
+        ],
+        [
+          "creatinine clearance",
+          "creatinine clearance"
+        ],
+        [
+          "absolute neutrophil count",
+          "absolute neutrophil count"
+        ],
+        [
+          "platelet count",
+          "platelet count"
+        ],
+        [
+          "bilirubin level",
+          "bilirubin level"
+        ],
+        [
+          "AST level",
+          "AST level"
+        ],
+        [
+          "ALT level",
+          "ALT level"
+        ],
+        [
+          "history of hypertension",
+          "history of hypertension"
+        ],
+        [
+          "history of diabetes",
+          "history of diabetes"
+        ],
+        [
+          "hepatitis B or C status",
+          "hepatitis B or C status"
+        ],
+        [
+          "cardiovascular disease status",
+          "cardiovascular disease status"
+        ],
+        [
+          "gastrointestinal disease status",
+          "gastrointestinal disease status"
+        ],
+        [
+          "neuropathy grade",
+          "neuropathy grade"
+        ],
+        [
+          "prior major surgery",
+          "prior major surgery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Isotypes"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gender, Race/Ethnicity, Region of Enrollment, ECOG performance status, Serum monoclonal protein level, Urine monoclonal protein level, Serum immunoglobulin free light chain level, Serum calcium level, Serum creatinine level, Hemoglobin level, Platelet count, Absolute neutrophil count, Bilirubin level, AST level, ALT level, Creatinine clearance, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Isotypes"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "Serum monoclonal protein level",
+        "Urine monoclonal protein level",
+        "Serum immunoglobulin free light chain level",
+        "Serum calcium level",
+        "Serum creatinine level",
+        "Hemoglobin level",
+        "Platelet count",
+        "Absolute neutrophil count",
+        "Bilirubin level",
+        "AST level",
+        "ALT level",
+        "Creatinine clearance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Creatinine Clearance, Hemoglobin, Absolute Neutrophil Count, Platelet Count, Bilirubin, Aspartate Aminotransferase, Alanine Aminotransferase, Multiple Myeloma Stage, Bone Marrow Plasma Cell Percentage, Serum Monoclonal Protein, Urine Monoclonal Protein, Serum Immunoglobulin Free Light Chain, Kappa/Lambda Ratio.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Isotypes"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Creatinine Clearance",
+        "Hemoglobin",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Bilirubin",
+        "Aspartate Aminotransferase",
+        "Alanine Aminotransferase",
+        "Multiple Myeloma Stage",
+        "Bone Marrow Plasma Cell Percentage",
+        "Serum Monoclonal Protein",
+        "Urine Monoclonal Protein",
+        "Serum Immunoglobulin Free Light Chain",
+        "Kappa/Lambda Ratio"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, creatinine clearance, absolute neutrophil count, hemoglobin, platelet count, bilirubin, aspartate aminotransferase, alanine aminotransferase, serum monoclonal protein, urine monoclonal protein, serum immunoglobulin free light chain, kappa/lambda ratio, calcium, serum creatinine, hemoglobin value, presence of lytic lesions, osteopenia, or pathological fractures.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Isotypes"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "creatinine clearance",
+        "absolute neutrophil count",
+        "hemoglobin",
+        "platelet count",
+        "bilirubin",
+        "aspartate aminotransferase",
+        "alanine aminotransferase",
+        "serum monoclonal protein",
+        "urine monoclonal protein",
+        "serum immunoglobulin free light chain",
+        "kappa/lambda ratio",
+        "calcium",
+        "serum creatinine",
+        "hemoglobin value",
+        "presence of lytic lesions",
+        "osteopenia",
+        "or pathological fractures."
+      ]
+    }
+  }
+}

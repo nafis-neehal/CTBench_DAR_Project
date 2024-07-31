@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT03390842",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline blood bicarbonate level, baseline serum calcium level, baseline kidney function (e.g., eGFR), history of chronic kidney disease, history of metabolic acidosis, concomitant medications, baseline body mass index (BMI), baseline blood pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Baseline eGFR",
+          "baseline kidney function (e.g., eGFR)"
+        ],
+        [
+          "Baseline Bicarbonate",
+          "baseline blood bicarbonate level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "History of Hypertension",
+        "History of Diabetes Mellitus",
+        "History of Congestive Heart Failure"
+      ],
+      "remaining_candidate_features": [
+        "baseline serum calcium level",
+        "history of chronic kidney disease",
+        "history of metabolic acidosis",
+        "concomitant medications",
+        "baseline body mass index (BMI)",
+        "baseline blood pressure"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Blood bicarbonate level, Serum calcium level, History of gastrointestinal disorders, Use of renal replacement therapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Baseline Bicarbonate",
+          "Blood bicarbonate level"
+        ],
+        [
+          "History of gastrointestinal disorders",
+          "History of gastrointestinal disorders"
+        ],
+        [
+          "Use of renal replacement therapy",
+          "Use of renal replacement therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "History of Hypertension",
+        "History of Diabetes Mellitus",
+        "History of Congestive Heart Failure",
+        "Baseline eGFR"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Serum calcium level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Blood Bicarbonate Level, Serum Calcium Level, Estimated Glomerular Filtration Rate, Diabetic Gastroparesis, History of Bowel Obstruction, Swallowing Disorders, Severe Gastrointestinal Disorders, Inflammatory Bowel Disease, Major Gastrointestinal Surgery, Active Gastric/Duodenal Ulcers.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Baseline Bicarbonate",
+          "Blood Bicarbonate Level"
+        ],
+        [
+          "Baseline eGFR",
+          "Estimated Glomerular Filtration Rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "History of Hypertension",
+        "History of Diabetes Mellitus",
+        "History of Congestive Heart Failure"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Serum Calcium Level",
+        "Diabetic Gastroparesis",
+        "History of Bowel Obstruction",
+        "Swallowing Disorders",
+        "Severe Gastrointestinal Disorders",
+        "Inflammatory Bowel Disease",
+        "Major Gastrointestinal Surgery",
+        "Active Gastric/Duodenal Ulcers."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), blood bicarbonate level, serum calcium level, estimated glomerular filtration rate (eGFR), chronic kidney disease (CKD) stage, history of diabetic gastroparesis, bowel obstruction, swallowing disorders, severe gastrointestinal disorders, inflammatory bowel disease, major gastrointestinal surgery, active gastric/duodenal ulcers, history of acute kidney injury, history of renal replacement therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Baseline eGFR",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Baseline Bicarbonate",
+          "blood bicarbonate level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "History of Hypertension",
+        "History of Diabetes Mellitus",
+        "History of Congestive Heart Failure"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "serum calcium level",
+        "chronic kidney disease (CKD) stage",
+        "history of diabetic gastroparesis",
+        "bowel obstruction",
+        "swallowing disorders",
+        "severe gastrointestinal disorders",
+        "inflammatory bowel disease",
+        "major gastrointestinal surgery",
+        "active gastric/duodenal ulcers",
+        "history of acute kidney injury",
+        "history of renal replacement therapy."
+      ]
+    }
+  }
+}

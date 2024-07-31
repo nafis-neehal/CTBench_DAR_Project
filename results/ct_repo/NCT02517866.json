@@ -1,0 +1,209 @@
+{
+  "trial_id": "NCT02517866",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race/ethnicity, baseline systolic blood pressure, baseline diastolic blood pressure, baseline HbA1c, duration of type 2 diabetes, body mass index (BMI), use of oral antidiabetic drugs (OADs), smoking status, alcohol use, renal function (estimated glomerular filtration rate), serum potassium levels, alanine aminotransferase (ALT) levels, history of cardiovascular disease, history of congestive heart failure, history of cardiac arrhythmias, history of obstructive coronary artery disease, history of secondary hypertension, history of liver disease, history of malignancy, history of neurological disease, history of hypersensitivity to ACE inhibitors or ARBs, history of angioedema, pregnancy status, breastfeeding status, history of alcohol abuse, history of drug abuse.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "baseline HbA1c"
+        ],
+        [
+          "Smoking history",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Baseline Antihypertensive Treatment Status"
+      ],
+      "remaining_candidate_features": [
+        "baseline systolic blood pressure",
+        "baseline diastolic blood pressure",
+        "duration of type 2 diabetes",
+        "use of oral antidiabetic drugs (OADs)",
+        "alcohol use",
+        "renal function (estimated glomerular filtration rate)",
+        "serum potassium levels",
+        "alanine aminotransferase (ALT) levels",
+        "history of cardiovascular disease",
+        "history of congestive heart failure",
+        "history of cardiac arrhythmias",
+        "history of obstructive coronary artery disease",
+        "history of secondary hypertension",
+        "history of liver disease",
+        "history of malignancy",
+        "history of neurological disease",
+        "history of hypersensitivity to ACE inhibitors or ARBs",
+        "history of angioedema",
+        "pregnancy status",
+        "breastfeeding status",
+        "history of alcohol abuse",
+        "history of drug abuse"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Glycated hemoglobin (HbA1c), Duration of Type 2 Diabetes, Use of Oral Antidiabetic Drugs (OADs), Estimated Glomerular Filtration Rate (eGFR), Serum Potassium, Alanine Aminotransferase (ALT) Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "Glycated hemoglobin (HbA1c)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Smoking history",
+        "Baseline Antihypertensive Treatment Status"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Duration of Type 2 Diabetes",
+        "Use of Oral Antidiabetic Drugs (OADs)",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "Serum Potassium",
+        "Alanine Aminotransferase (ALT) Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Duration of Diabetes, Duration of Hypertension, Number of Antihypertensive Medications, Number of Oral Antidiabetic Drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Height",
+        "Weight",
+        "Smoking history",
+        "Baseline Antihypertensive Treatment Status"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Duration of Diabetes",
+        "Duration of Hypertension",
+        "Number of Antihypertensive Medications",
+        "Number of Oral Antidiabetic Drugs"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, glycosylated hemoglobin (HbA1C), duration of hypertension, duration of type 2 diabetes mellitus, current antihypertensive medications, current oral antidiabetic drugs (OADs), smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "glycosylated hemoglobin (HbA1C)"
+        ],
+        [
+          "Baseline Antihypertensive Treatment Status",
+          "current antihypertensive medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Smoking history"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "duration of hypertension",
+        "duration of type 2 diabetes mellitus",
+        "current oral antidiabetic drugs (OADs)",
+        "smoking status"
+      ]
+    }
+  }
+}

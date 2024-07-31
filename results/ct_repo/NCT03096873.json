@@ -1,0 +1,275 @@
+{
+  "trial_id": "NCT03096873",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Height, Weight, BMI, Body Fat Percentage, Lean Body Mass Percentage, Waist Circumference, Glucose Levels, Insulin Levels, HOMA-IR, Leptin Levels, Adiponectin Levels",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Height",
+          "Height"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Percentage of body fat",
+          "Body Fat Percentage"
+        ],
+        [
+          "Lean body mass",
+          "Lean Body Mass Percentage"
+        ],
+        [
+          "Waist circumference",
+          "Waist Circumference"
+        ],
+        [
+          "Glucose",
+          "Glucose Levels"
+        ],
+        [
+          "Insulin",
+          "Insulin Levels"
+        ],
+        [
+          "Homeostasis Model Assessment of Insulin Resistance (HOMA-IR)",
+          "HOMA-IR"
+        ],
+        [
+          "Leptin",
+          "Leptin Levels"
+        ],
+        [
+          "Adiponectin",
+          "Adiponectin Levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Resting heart rate",
+        "Arterial stiffness",
+        "Blood pressure",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Volume of maximal oxygen consumption (VO2max)",
+        "Maximal Heart Rate"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Waist Circumference, Body Fat Percentage, Lean Body Mass Percentage, Glucose Levels, Insulin Levels, HOMA-IR, Leptin Levels, Adiponectin Levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Weight",
+          "Body Mass Index"
+        ],
+        [
+          "Waist circumference",
+          "Waist Circumference"
+        ],
+        [
+          "Percentage of body fat",
+          "Body Fat Percentage"
+        ],
+        [
+          "Lean body mass",
+          "Lean Body Mass Percentage"
+        ],
+        [
+          "Glucose",
+          "Glucose Levels"
+        ],
+        [
+          "Insulin",
+          "Insulin Levels"
+        ],
+        [
+          "Homeostasis Model Assessment of Insulin Resistance (HOMA-IR)",
+          "HOMA-IR"
+        ],
+        [
+          "Leptin",
+          "Leptin Levels"
+        ],
+        [
+          "Adiponectin",
+          "Adiponectin Levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Resting heart rate",
+        "Arterial stiffness",
+        "Height",
+        "Blood pressure",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Volume of maximal oxygen consumption (VO2max)",
+        "Maximal Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Body Mass Index, Waist Circumference, Insulin Levels, Glucose Levels, Leptin Levels, Adiponectin Levels, HOMA-IR,_Lean Body Mass, Body Fat,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Waist circumference",
+          "Waist Circumference"
+        ],
+        [
+          "Insulin",
+          "Insulin Levels"
+        ],
+        [
+          "Glucose",
+          "Glucose Levels"
+        ],
+        [
+          "Leptin",
+          "Leptin Levels"
+        ],
+        [
+          "Adiponectin",
+          "Adiponectin Levels"
+        ],
+        [
+          "Homeostasis Model Assessment of Insulin Resistance (HOMA-IR)",
+          "HOMA-IR"
+        ],
+        [
+          "Lean body mass",
+          "Lean Body Mass"
+        ],
+        [
+          "Percentage of body fat",
+          "Body Fat"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Weight",
+        "Resting heart rate",
+        "Arterial stiffness",
+        "Height",
+        "Blood pressure",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Volume of maximal oxygen consumption (VO2max)",
+        "Maximal Heart Rate"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Height in Meters, Weight in Kilograms, BMI in Weight (Kilograms)/Height (Meters)^2, Body Fat in Percents, Lean Body Mass in Percents, Waist Circumference in Centimeters, Glucose Levels in Millimole Per Liter, Insulin Levels in Micro Unit Per Milliliter, Homeostasis Model Assessment of Insulin Resistance (HOMA-IR), Leptin Levels in Nano Grams Per Milliliter, Adiponectin Levels in Micro Grams Per Milliliter.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Height",
+          "Height in Meters"
+        ],
+        [
+          "Weight",
+          "Weight in Kilograms"
+        ],
+        [
+          "Body mass index",
+          "BMI in Weight (Kilograms)/Height (Meters)^2"
+        ],
+        [
+          "Percentage of body fat",
+          "Body Fat in Percents"
+        ],
+        [
+          "Lean body mass",
+          "Lean Body Mass in Percents"
+        ],
+        [
+          "Waist circumference",
+          "Waist Circumference in Centimeters"
+        ],
+        [
+          "Glucose",
+          "Glucose Levels in Millimole Per Liter"
+        ],
+        [
+          "Insulin",
+          "Insulin Levels in Micro Unit Per Milliliter"
+        ],
+        [
+          "Homeostasis Model Assessment of Insulin Resistance (HOMA-IR)",
+          "Homeostasis Model Assessment of Insulin Resistance (HOMA-IR)"
+        ],
+        [
+          "Leptin",
+          "Leptin Levels in Nano Grams Per Milliliter"
+        ],
+        [
+          "Adiponectin",
+          "Adiponectin Levels in Micro Grams Per Milliliter"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Resting heart rate",
+        "Arterial stiffness",
+        "Blood pressure",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Volume of maximal oxygen consumption (VO2max)",
+        "Maximal Heart Rate"
+      ],
+      "remaining_candidate_features": []
+    }
+  }
+}

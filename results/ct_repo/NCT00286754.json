@@ -1,0 +1,265 @@
+{
+  "trial_id": "NCT00286754",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, baseline blood pressure, duration of hypertension, antihypertensive medication use, history of cardiovascular disease, smoking status, alcohol consumption, body mass index (BMI), comorbid conditions, baseline health-related quality of life, baseline treatment adherence, socioeconomic status, education level, marital status, employment status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Marital status",
+          "marital status"
+        ],
+        [
+          "Education",
+          "education level"
+        ],
+        [
+          "Employment status",
+          "employment status"
+        ],
+        [
+          "Smoking",
+          "smoking status"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Blood pressure control",
+          "baseline blood pressure"
+        ],
+        [
+          "Ischemic Heart Disease (IHD)",
+          "history of cardiovascular disease"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Campus",
+        "Diabetes Mellitus",
+        "History of revascularization",
+        "Hyperlipidemia",
+        "Estimated glomerular filtration rate (EGFR)",
+        "Systolic Blood Pressure",
+        "mm Mg",
+        "Diastolic blood pressure",
+        "Aerobic exercise",
+        "Medication adherence by Morisky scale",
+        "Number of antihypertensive medications",
+        "Diet stage of change",
+        "Exercise Stage of Change",
+        "Medication Stage of Change"
+      ],
+      "remaining_candidate_features": [
+        "duration of hypertension",
+        "antihypertensive medication use",
+        "alcohol consumption",
+        "comorbid conditions",
+        "baseline health-related quality of life",
+        "baseline treatment adherence",
+        "socioeconomic status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Antihypertensive Medication Adherence, Health-Related Quality of Life, Cardiovascular Disease History,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Marital status",
+        "Education",
+        "Employment status",
+        "Campus",
+        "Smoking",
+        "Blood pressure control",
+        "Diabetes Mellitus",
+        "Ischemic Heart Disease (IHD)",
+        "History of revascularization",
+        "Hyperlipidemia",
+        "Estimated glomerular filtration rate (EGFR)",
+        "mm Mg",
+        "Aerobic exercise",
+        "Medication adherence by Morisky scale",
+        "Number of antihypertensive medications",
+        "Diet stage of change",
+        "Exercise Stage of Change",
+        "Medication Stage of Change"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Antihypertensive Medication Adherence",
+        "Health-Related Quality of Life",
+        "Cardiovascular Disease History"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of Cardiovascular Disease, Hypertension Duration, Systolic Blood Pressure, Diastolic Blood Pressure, Antihypertensive Medication Use, Comorbidities, Health-Related Quality of Life.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Marital status",
+        "Education",
+        "Employment status",
+        "Campus",
+        "Smoking",
+        "Body mass index",
+        "Blood pressure control",
+        "Diabetes Mellitus",
+        "Ischemic Heart Disease (IHD)",
+        "History of revascularization",
+        "Hyperlipidemia",
+        "Estimated glomerular filtration rate (EGFR)",
+        "mm Mg",
+        "Aerobic exercise",
+        "Medication adherence by Morisky scale",
+        "Number of antihypertensive medications",
+        "Diet stage of change",
+        "Exercise Stage of Change",
+        "Medication Stage of Change"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "History of Cardiovascular Disease",
+        "Hypertension Duration",
+        "Antihypertensive Medication Use",
+        "Comorbidities",
+        "Health-Related Quality of Life."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, smoking status, years with hypertension, years on antihypertensive medication, number of antihypertensive medications, comorbidities (CVD, diabetes, chronic kidney disease, etc.), health-related quality of life, treatment adherence, satisfaction, acceptability, cost-effectiveness.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body mass index",
+          "body mass index"
+        ],
+        [
+          "Smoking",
+          "smoking status"
+        ],
+        [
+          "Number of antihypertensive medications",
+          "number of antihypertensive medications"
+        ],
+        [
+          "Blood pressure control",
+          "treatment adherence"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "years with hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Marital status",
+        "Education",
+        "Employment status",
+        "Campus",
+        "Diabetes Mellitus",
+        "Ischemic Heart Disease (IHD)",
+        "History of revascularization",
+        "Hyperlipidemia",
+        "Estimated glomerular filtration rate (EGFR)",
+        "mm Mg",
+        "Diastolic blood pressure",
+        "Aerobic exercise",
+        "Medication adherence by Morisky scale",
+        "Diet stage of change",
+        "Exercise Stage of Change",
+        "Medication Stage of Change"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "years on antihypertensive medication",
+        "comorbidities (CVD, diabetes, chronic kidney disease, etc.)",
+        "health-related quality of life",
+        "satisfaction",
+        "acceptability",
+        "cost-effectiveness."
+      ]
+    }
+  }
+}

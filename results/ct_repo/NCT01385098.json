@@ -1,0 +1,170 @@
+{
+  "trial_id": "NCT01385098",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Type of Bariatric Surgery (Roux-en Y gastric bypass or sleeve gastrectomy), Baseline Serum 25(OH)D Levels, Baseline Parathyroid Hormone (PTH) Levels, Baseline Calcium Levels, Baseline Phosphorus Levels, Dietary Vitamin D Intake, Dietary Calcium Intake",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "BMI",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Surgery type",
+          "Type of Bariatric Surgery (Roux-en Y gastric bypass or sleeve gastrectomy)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "kg/m^2",
+        "Body weight",
+        "lb",
+        "Excess body weight"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Serum 25(OH)D Levels",
+        "Baseline Parathyroid Hormone (PTH) Levels",
+        "Baseline Calcium Levels",
+        "Baseline Phosphorus Levels",
+        "Dietary Vitamin D Intake",
+        "Dietary Calcium Intake"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Type of Bariatric Surgery, Baseline Vitamin D Levels, Baseline Calcium Levels, Baseline Parathyroid Hormone (PTH) Levels, Baseline Phosphorus Levels, Dietary Vitamin D Intake, Dietary Calcium Intake,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Surgery type",
+          "Type of Bariatric Surgery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "kg/m^2",
+        "Body weight",
+        "lb",
+        "Excess body weight"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Vitamin D Levels",
+        "Baseline Calcium Levels",
+        "Baseline Parathyroid Hormone (PTH) Levels",
+        "Baseline Phosphorus Levels",
+        "Dietary Vitamin D Intake",
+        "Dietary Calcium Intake"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, BMI, Type of Bariatric Surgery, Serum 25(OH)D levels, Parathyroid hormone (PTH), Calcium, Phosphorus, Vitamin D intake from diet.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Surgery type",
+          "Type of Bariatric Surgery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "kg/m^2",
+        "Body weight",
+        "lb",
+        "Excess body weight"
+      ],
+      "remaining_candidate_features": [
+        "Serum 25(OH)D levels",
+        "Parathyroid hormone (PTH)",
+        "Calcium",
+        "Phosphorus",
+        "Vitamin D intake from diet."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), type of bariatric surgery (Roux-en Y gastric bypass or sleeve gastrectomy), co-morbidities, serum 25(OH)D levels, parathyroid hormone (PTH) levels, calcium levels, phosphorus levels, dietary vitamin D and calcium intake.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Surgery type",
+          "type of bariatric surgery (Roux-en Y gastric bypass or sleeve gastrectomy)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "kg/m^2",
+        "Body weight",
+        "lb",
+        "Excess body weight"
+      ],
+      "remaining_candidate_features": [
+        "co-morbidities",
+        "serum 25(OH)D levels",
+        "parathyroid hormone (PTH) levels",
+        "calcium levels",
+        "phosphorus levels",
+        "dietary vitamin D and calcium intake."
+      ]
+    }
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "trial_id": "NCT01438229",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline systolic blood pressure, baseline diastolic blood pressure, number of antihypertensive medications, presence of type 2 diabetes, eGFR, history of renal artery intervention, presence of renal artery atherosclerosis, renal artery dimensions, presence of renovascular hypertension, presence of other renal disorders.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Office Systolic Blood Pressure",
+          "baseline systolic blood pressure"
+        ],
+        [
+          "Office Diastolic Blood Pressure",
+          "baseline diastolic blood pressure"
+        ],
+        [
+          "Number of Anti-Hypertensive Medications",
+          "number of antihypertensive medications"
+        ],
+        [
+          "Type II Diabetes Mellitus",
+          "presence of type 2 diabetes"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Coronary Artery Disease",
+        "Hyperlipidemia",
+        "Sleep Apnea",
+        "Serum Creatinine",
+        "Cystatin C",
+        "Urine Albumin-to-Creatinine Ration",
+        "Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "history of renal artery intervention",
+        "presence of renal artery atherosclerosis",
+        "renal artery dimensions",
+        "presence of renovascular hypertension",
+        "presence of other renal disorders."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Number of Antihypertensive Medications, eGFR, History of Renal Artery Intervention,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Number of Anti-Hypertensive Medications",
+          "Number of Antihypertensive Medications"
+        ],
+        [
+          "Office Systolic Blood Pressure",
+          "Baseline Systolic Blood Pressure"
+        ],
+        [
+          "Office Diastolic Blood Pressure",
+          "Baseline Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Mass Index",
+        "Coronary Artery Disease",
+        "Hyperlipidemia",
+        "Type II Diabetes Mellitus",
+        "Sleep Apnea",
+        "Serum Creatinine",
+        "Cystatin C",
+        "Urine Albumin-to-Creatinine Ration",
+        "Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "History of Renal Artery Intervention"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Number of Antihypertensive Medications, Diabetes Status, eGFR, Renal Artery Anatomy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Number of Anti-Hypertensive Medications",
+          "Number of Antihypertensive Medications"
+        ],
+        [
+          "Office Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Office Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Coronary Artery Disease",
+        "Hyperlipidemia",
+        "Type II Diabetes Mellitus",
+        "Sleep Apnea",
+        "Serum Creatinine",
+        "Cystatin C",
+        "Urine Albumin-to-Creatinine Ration",
+        "Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Status",
+        "Renal Artery Anatomy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, type 2 diabetes status, number of antihypertensive medications, office systolic blood pressure, office diastolic blood pressure, eGFR, serum creatinine, potassium levels, history of cardiovascular disease, history of kidney disease, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index"
+        ],
+        [
+          "Type II Diabetes Mellitus",
+          "type 2 diabetes status"
+        ],
+        [
+          "Number of Anti-Hypertensive Medications",
+          "number of antihypertensive medications"
+        ],
+        [
+          "Office Systolic Blood Pressure",
+          "office systolic blood pressure"
+        ],
+        [
+          "Office Diastolic Blood Pressure",
+          "office diastolic blood pressure"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Serum Creatinine",
+          "serum creatinine"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Coronary Artery Disease",
+        "Hyperlipidemia",
+        "Sleep Apnea",
+        "Cystatin C",
+        "Urine Albumin-to-Creatinine Ration",
+        "Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "race",
+        "ethnicity",
+        "potassium levels",
+        "history of cardiovascular disease",
+        "history of kidney disease",
+        "smoking status"
+      ]
+    }
+  }
+}

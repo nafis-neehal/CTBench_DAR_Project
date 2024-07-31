@@ -1,0 +1,183 @@
+{
+  "trial_id": "NCT00661830",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG Performance Status, histological type of adenocarcinoma, presence of measurable target lesion, prior adjuvant chemotherapy, prior irradiation, prior surgical procedures, history of cardiac disease, history of hypertension, history of HIV infection, history of active infections, history of CNS tumors, history of seizure disorder, history of organ allograft, history of bleeding diathesis, history of thromboembolism, renal dialysis status, pregnancy or breastfeeding status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Type of Adenocarcinoma",
+          "histological type of adenocarcinoma"
+        ],
+        [
+          "Number of target lesions",
+          "presence of measurable target lesion"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Grading of adenocarcinoma",
+        "Time since histological diagnosis",
+        "Number of non-target lesions",
+        "Sum Sizes of target lesions"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "prior adjuvant chemotherapy",
+        "prior irradiation",
+        "prior surgical procedures",
+        "history of cardiac disease",
+        "history of hypertension",
+        "history of HIV infection",
+        "history of active infections",
+        "history of CNS tumors",
+        "history of seizure disorder",
+        "history of organ allograft",
+        "history of bleeding diathesis",
+        "history of thromboembolism",
+        "renal dialysis status",
+        "pregnancy or breastfeeding status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Primary Tumor Location, Histological Subtype, Prior Surgery, Prior Chemotherapy, Prior Radiotherapy, Measurable Disease, Baseline Pain Level, Baseline Biliary Obstruction Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Type of Adenocarcinoma",
+          "Histological Subtype"
+        ],
+        [
+          "Number of target lesions",
+          "Measurable Disease"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Grading of adenocarcinoma",
+        "Time since histological diagnosis",
+        "Number of non-target lesions",
+        "Sum Sizes of target lesions"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Primary Tumor Location",
+        "Prior Surgery",
+        "Prior Chemotherapy",
+        "Prior Radiotherapy",
+        "Baseline Pain Level",
+        "Baseline Biliary Obstruction Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological confirmation of adenocarcinoma, Number of metastatic sites, Presence of pain and biliary obstruction, Prior adjuvant chemotherapy, Prior irradiation or PDT, Systolic Blood Pressure, Diastolic Blood Pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Type of Adenocarcinoma",
+        "Grading of adenocarcinoma",
+        "Time since histological diagnosis",
+        "Number of target lesions",
+        "Number of non-target lesions",
+        "Sum Sizes of target lesions"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Histological confirmation of adenocarcinoma",
+        "Number of metastatic sites",
+        "Presence of pain and biliary obstruction",
+        "Prior adjuvant chemotherapy",
+        "Prior irradiation or PDT",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ECOG Performance Status, histological subtype of adenocarcinoma, tumor location, number and size of target lesions, presence of metastases, prior adjuvant chemotherapy, prior irradiation, prior PDT, laboratory values (e.g. hemoglobin, platelet count, liver enzymes, bilirubin), pain and biliary obstruction status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Type of Adenocarcinoma",
+          "histological subtype of adenocarcinoma"
+        ],
+        [
+          "Number of target lesions",
+          "number and size of target lesions"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Grading of adenocarcinoma",
+        "Time since histological diagnosis",
+        "Number of non-target lesions",
+        "Sum Sizes of target lesions"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "tumor location",
+        "presence of metastases",
+        "prior adjuvant chemotherapy",
+        "prior irradiation",
+        "prior PDT",
+        "laboratory values (e.g. hemoglobin, platelet count, liver enzymes, bilirubin)",
+        "pain and biliary obstruction status."
+      ]
+    }
+  }
+}

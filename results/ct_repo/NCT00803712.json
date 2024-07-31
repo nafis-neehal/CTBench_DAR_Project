@@ -1,0 +1,189 @@
+{
+  "trial_id": "NCT00803712",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of hemodialysis, baseline PTH levels, baseline corrected serum calcium levels, history of parathyroidectomy, vitamin D therapy status, pregnancy status, gastrointestinal disorder status, known sensitivity to cinacalcet, medical condition stability, prior investigational agent use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Active Vitamin D Use",
+          "vitamin D therapy status"
+        ],
+        [
+          "iPTH",
+          "baseline PTH levels"
+        ],
+        [
+          "Corrected Serum Calcium",
+          "baseline corrected serum calcium levels"
+        ],
+        [
+          "Dialysis Vintage",
+          "duration of hemodialysis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Serum Phosphorus",
+        "Albumin"
+      ],
+      "remaining_candidate_features": [
+        "history of parathyroidectomy",
+        "pregnancy status",
+        "gastrointestinal disorder status",
+        "known sensitivity to cinacalcet",
+        "medical condition stability",
+        "prior investigational agent use."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline PTH levels, Baseline Serum Calcium levels, Use of Vitamin D therapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Active Vitamin D Use",
+          "Use of Vitamin D therapy"
+        ],
+        [
+          "iPTH",
+          "Baseline PTH levels"
+        ],
+        [
+          "Corrected Serum Calcium",
+          "Baseline Serum Calcium levels"
+        ],
+        [
+          "Dialysis Vintage",
+          "Duration of Hemodialysis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Serum Phosphorus",
+        "Albumin"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Mean PTH, Mean Corrected Serum Calcium, Vitamin D Use at Baseline, Parathyroidectomy History, Kidney Transplant Status, Cinacalcet Use at Baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Active Vitamin D Use",
+          "Vitamin D Use at Baseline"
+        ],
+        [
+          "iPTH",
+          "Mean PTH"
+        ],
+        [
+          "Corrected Serum Calcium",
+          "Mean Corrected Serum Calcium"
+        ],
+        [
+          "Dialysis Vintage",
+          "Duration of Hemodialysis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Serum Phosphorus",
+        "Albumin"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Parathyroidectomy History",
+        "Kidney Transplant Status",
+        "Cinacalcet Use at Baseline"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, duration of hemodialysis, PTH level, corrected serum calcium level, vitamin D use, history of parathyroidectomy, kidney transplant status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Active Vitamin D Use",
+          "vitamin D use"
+        ],
+        [
+          "iPTH",
+          "PTH level"
+        ],
+        [
+          "Corrected Serum Calcium",
+          "corrected serum calcium level"
+        ],
+        [
+          "Dialysis Vintage",
+          "duration of hemodialysis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Serum Phosphorus",
+        "Albumin"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "history of parathyroidectomy",
+        "kidney transplant status"
+      ]
+    }
+  }
+}

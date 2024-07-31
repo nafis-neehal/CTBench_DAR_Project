@@ -1,0 +1,155 @@
+{
+  "trial_id": "NCT03380000",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Body Mass Index (BMI), Resting Systolic Blood Pressure, Resting Diastolic Blood Pressure, Total Cholesterol, LDL Cholesterol, Fasting Blood Triglycerides, Fasting Blood Glucose, HbA1c, Exercise Habits, Menopausal Status, Medication Use, Smoking Status, Alcohol Consumption, Dietary Habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Resting Systolic Blood Pressure",
+          "Resting Systolic Blood Pressure"
+        ],
+        [
+          "Resting Diastolic Blood Pressure",
+          "Resting Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Mean arterial pressure"
+      ],
+      "remaining_candidate_features": [
+        "Total Cholesterol",
+        "LDL Cholesterol",
+        "Fasting Blood Triglycerides",
+        "Fasting Blood Glucose",
+        "HbA1c",
+        "Exercise Habits",
+        "Menopausal Status",
+        "Medication Use",
+        "Smoking Status",
+        "Alcohol Consumption",
+        "Dietary Habits"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, LDL Cholesterol, Fasting Blood Triglycerides, Fasting Blood Glucose, HbA1c,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Mean arterial pressure"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "LDL Cholesterol",
+        "Fasting Blood Triglycerides",
+        "Fasting Blood Glucose",
+        "HbA1c"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Postmenopausal Status, Region of Enrollment, Body Mass Index, Resting Systolic Blood Pressure, Resting Diastolic Blood Pressure, Total Cholesterol, LDL Cholesterol, Fasting Blood Triglycerides, Fasting Blood Glucose, HbA1c,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Mean arterial pressure"
+      ],
+      "remaining_candidate_features": [
+        "Postmenopausal Status",
+        "Body Mass Index",
+        "Resting Systolic Blood Pressure",
+        "Resting Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "LDL Cholesterol",
+        "Fasting Blood Triglycerides",
+        "Fasting Blood Glucose",
+        "HbA1c"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Body Mass Index, Resting Systolic Blood Pressure, Resting Diastolic Blood Pressure, Total Cholesterol, LDL Cholesterol, Fasting Blood Triglycerides, Fasting Blood Glucose, HbA1c, Menopausal Status, Smoking History, Medical History (including cardiovascular, metabolic, hematologic, pulmonary, renal, musculoskeletal, and/or neurological disease(s)).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Menopausal Status"
+        ],
+        [
+          "Mean arterial pressure",
+          "Resting Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Resting Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "LDL Cholesterol",
+        "Fasting Blood Triglycerides",
+        "Fasting Blood Glucose",
+        "HbA1c",
+        "Smoking History",
+        "Medical History (including cardiovascular, metabolic, hematologic, pulmonary, renal, musculoskeletal, and/or neurological disease(s))."
+      ]
+    }
+  }
+}

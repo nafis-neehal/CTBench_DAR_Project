@@ -1,0 +1,208 @@
+{
+  "trial_id": "NCT02237079",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Fasting glucose, Triglycerides, Menopausal status, Presence of menopausal symptoms (hot flashes, vaginal dryness), Normal mammogram status, Physician clearance status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Fasting glucose",
+          "Fasting glucose"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "Years since last menstrual period (LMP)",
+          "Menopausal status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Waist-to-hip ratio",
+        "Waist circumference",
+        "Total cholesterol",
+        "High-density lipoprotein (HDL)",
+        "Low-density lipoprotein (LDL)"
+      ],
+      "remaining_candidate_features": [
+        "Presence of menopausal symptoms (hot flashes, vaginal dryness)",
+        "Normal mammogram status",
+        "Physician clearance status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Fasting Glucose, Triglycerides, Waist-to-hip Ratio, Basal Glucose Concentration, Insulin Sensitivity Index, Homeostatic Model Assessment (HOMA) \u03b2-cell Function, Homeostatic Model Assessment (HOMA) Insulin Resistance (IR), Fasting Insulin Clearance (FIC), Glucose-stimulated Insulin Clearance (GSIC)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting glucose",
+          "Fasting Glucose"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "Waist-to-hip ratio",
+          "Waist-to-hip Ratio"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Years since last menstrual period (LMP)",
+        "Waist circumference",
+        "Total cholesterol",
+        "High-density lipoprotein (HDL)",
+        "Low-density lipoprotein (LDL)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Basal Glucose Concentration",
+        "Insulin Sensitivity Index",
+        "Homeostatic Model Assessment (HOMA) \u03b2-cell Function",
+        "Homeostatic Model Assessment (HOMA) Insulin Resistance (IR)",
+        "Fasting Insulin Clearance (FIC)",
+        "Glucose-stimulated Insulin Clearance (GSIC)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, BMI, Menopausal Status, Region of Enrollment, Fasting Glucose, Triglycerides, Waist-to-hip Ratio, Dual-energy X-ray Absorptiometry (DXA), Acute Insulin Response to Glucose (AIRg), Basal Glucose Concentration (Gb), Disposition Index (DI), Insulin Sensitivity (SI) Index, Homeostatic Model Assessment (HOMA) \u03b2-cell Function, Homeostatic Model Assessment (HOMA) Insulin Resistance (IR), Fasting Insulin Clearance (FIC), Glucose-stimulated Insulin Clearance (GSIC),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Waist-to-hip ratio",
+          "Waist-to-hip Ratio"
+        ],
+        [
+          "Fasting glucose",
+          "Fasting Glucose"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Years since last menstrual period (LMP)",
+        "Waist circumference",
+        "Total cholesterol",
+        "High-density lipoprotein (HDL)",
+        "Low-density lipoprotein (LDL)"
+      ],
+      "remaining_candidate_features": [
+        "Menopausal Status",
+        "Dual-energy X-ray Absorptiometry (DXA)",
+        "Acute Insulin Response to Glucose (AIRg)",
+        "Basal Glucose Concentration (Gb)",
+        "Disposition Index (DI)",
+        "Insulin Sensitivity (SI) Index",
+        "Homeostatic Model Assessment (HOMA) \u03b2-cell Function",
+        "Homeostatic Model Assessment (HOMA) Insulin Resistance (IR)",
+        "Fasting Insulin Clearance (FIC)",
+        "Glucose-stimulated Insulin Clearance (GSIC)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, BMI, menopausal status, duration since final menstrual period, presence of hot flashes, presence of vaginal dryness, fasting glucose, triglycerides, mammogram results, medical history, medication use, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "menopausal status"
+        ],
+        [
+          "Years since last menstrual period (LMP)",
+          "duration since final menstrual period"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Fasting glucose",
+          "fasting glucose"
+        ],
+        [
+          "Triglycerides",
+          "triglycerides"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Waist-to-hip ratio",
+        "Waist circumference",
+        "Total cholesterol",
+        "High-density lipoprotein (HDL)",
+        "Low-density lipoprotein (LDL)"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "presence of hot flashes",
+        "presence of vaginal dryness",
+        "mammogram results",
+        "medical history",
+        "medication use",
+        "smoking status"
+      ]
+    }
+  }
+}

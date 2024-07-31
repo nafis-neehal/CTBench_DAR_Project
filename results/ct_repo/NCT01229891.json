@@ -1,0 +1,174 @@
+{
+  "trial_id": "NCT01229891",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, fasting blood glucose, body mass index (BMI), duration of diabetes, HbA1c levels, blood pressure, lipid profile, dietary intake, physical activity level, medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "25-hydroxyvitamin D",
+          "Serum 25-hydroxyvitamin D"
+        ],
+        [
+          "Fasting serum glucose (FSG)",
+          "fasting blood glucose"
+        ],
+        [
+          "HbA1c",
+          "HbA1c levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Insulin",
+        "TG",
+        "Tchol",
+        "LDL",
+        "HDL"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "body mass index (BMI)",
+        "duration of diabetes",
+        "blood pressure",
+        "lipid profile",
+        "dietary intake",
+        "physical activity level",
+        "medication use."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Fasting Blood Glucose, HbA1c, Serum 25-hydroxyvitamin D, Duration of Diabetes, Medication Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "25-hydroxyvitamin D",
+          "Serum 25-hydroxyvitamin D"
+        ],
+        [
+          "Fasting serum glucose (FSG)",
+          "Fasting Blood Glucose"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Insulin",
+        "TG",
+        "Tchol",
+        "LDL",
+        "HDL"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Duration of Diabetes",
+        "Medication Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes duration, Fasting blood glucose, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Triglycerides, HDL cholesterol, LDL cholesterol.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "25-hydroxyvitamin D",
+          "Serum 25-hydroxyvitamin D"
+        ],
+        [
+          "Fasting serum glucose (FSG)",
+          "Fasting blood glucose"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "TG",
+          "Triglycerides"
+        ],
+        [
+          "LDL",
+          "LDL cholesterol"
+        ],
+        [
+          "HDL",
+          "HDL cholesterol"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Insulin",
+        "Tchol"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Diabetes duration",
+        "BMI",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), duration of diabetes, fasting blood glucose, hemoglobin A1c (HbA1c), systolic and diastolic blood pressure, lipid profile, serum creatinine, estimated glomerular filtration rate (eGFR), medication use (hypoglycemic, antihypertensive, lipid-lowering).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Fasting serum glucose (FSG)",
+          "fasting blood glucose"
+        ],
+        [
+          "HbA1c",
+          "hemoglobin A1c (HbA1c)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "25-hydroxyvitamin D",
+        "Insulin",
+        "TG",
+        "Tchol",
+        "LDL",
+        "HDL"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "body mass index (BMI)",
+        "duration of diabetes",
+        "systolic and diastolic blood pressure",
+        "lipid profile",
+        "serum creatinine",
+        "estimated glomerular filtration rate (eGFR)",
+        "medication use (hypoglycemic, antihypertensive, lipid-lowering)"
+      ]
+    }
+  }
+}

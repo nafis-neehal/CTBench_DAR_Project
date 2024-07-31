@@ -1,0 +1,174 @@
+{
+  "trial_id": "NCT00617305",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, weight, gender, diagnosis of PAH type, WHO functional class, duration of PDE-5i therapy, stable dose duration of PDE-5i therapy, mean pulmonary arterial pressure (mPAP), pulmonary vascular resistance (PVR), pulmonary capillary wedge pressure (PCWP), left ventricular end diastolic pressure (LVEDP), total lung capacity, forced expiratory volume in 1 second (FEV1), 6-minute walk test (6MWT) distance, use of calcium channel blockers, use of statins, HIV status, left ventricular ejection fraction (LVEF), serum alanine aminotransferase (ALT) levels, serum aspartate aminotransferase (AST) levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "gender",
+        "diagnosis of PAH type",
+        "WHO functional class",
+        "duration of PDE-5i therapy",
+        "stable dose duration of PDE-5i therapy",
+        "mean pulmonary arterial pressure (mPAP)",
+        "pulmonary vascular resistance (PVR)",
+        "pulmonary capillary wedge pressure (PCWP)",
+        "left ventricular end diastolic pressure (LVEDP)",
+        "total lung capacity",
+        "forced expiratory volume in 1 second (FEV1)",
+        "6-minute walk test (6MWT) distance",
+        "use of calcium channel blockers",
+        "use of statins",
+        "HIV status",
+        "left ventricular ejection fraction (LVEF)",
+        "serum alanine aminotransferase (ALT) levels",
+        "serum aspartate aminotransferase (AST) levels"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Weight, WHO Functional Class, Duration of PAH Diagnosis, Baseline Pulmonary Vascular Resistance (PVR), Baseline Mean Pulmonary Arterial Pressure (mPAP), Baseline Pulmonary Capillary Wedge Pressure (PCWP), Baseline Forced Expiratory Volume in 1 Second (FEV1), Baseline Total Lung Capacity (TLC), 6-Minute Walk Distance (6MWD), Use of Background PAH Therapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Weight",
+        "WHO Functional Class",
+        "Duration of PAH Diagnosis",
+        "Baseline Pulmonary Vascular Resistance (PVR)",
+        "Baseline Mean Pulmonary Arterial Pressure (mPAP)",
+        "Baseline Pulmonary Capillary Wedge Pressure (PCWP)",
+        "Baseline Forced Expiratory Volume in 1 Second (FEV1)",
+        "Baseline Total Lung Capacity (TLC)",
+        "6-Minute Walk Distance (6MWD)",
+        "Use of Background PAH Therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, WHO Functional Class, 6-Minute Walk Distance, Pulmonary Arterial Pressure, Pulmonary Vascular Resistance, Cardiac Output, Pulmonary Capillary Wedge Pressure, Left Ventricular End Diastolic Pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "WHO Functional Class",
+        "6-Minute Walk Distance",
+        "Pulmonary Arterial Pressure",
+        "Pulmonary Vascular Resistance",
+        "Cardiac Output",
+        "Pulmonary Capillary Wedge Pressure",
+        "Left Ventricular End Diastolic Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, weight, sex, race, ethnicity, WHO functional class, diagnosis of PAH (idiopathic, familial, connective tissue disease, congenital heart defects, drug or toxin use, HIV), duration of PAH, duration of PDE-5i therapy, type of PDE-5i therapy (sildenafil or tadalafil), dose of PDE-5i therapy, mPAP, PVR, PCWP or LVEDP, total lung capacity, forced expiratory volume in 1 second, 6-minute walk test distance, use of calcium channel blockers, use of statins, HIV disease status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "WHO functional class",
+        "diagnosis of PAH (idiopathic, familial, connective tissue disease, congenital heart defects, drug or toxin use, HIV)",
+        "duration of PAH",
+        "duration of PDE-5i therapy",
+        "type of PDE-5i therapy (sildenafil or tadalafil)",
+        "dose of PDE-5i therapy",
+        "mPAP",
+        "PVR",
+        "PCWP or LVEDP",
+        "total lung capacity",
+        "forced expiratory volume in 1 second",
+        "6-minute walk test distance",
+        "use of calcium channel blockers",
+        "use of statins",
+        "HIV disease status"
+      ]
+    }
+  }
+}

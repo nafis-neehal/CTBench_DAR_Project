@@ -1,0 +1,157 @@
+{
+  "trial_id": "NCT03556761",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age at delivery, baseline blood pressure, diagnosis of hypertensive disorder, severity of pre-eclampsia, baseline creatinine, baseline potassium, history of diabetes mellitus, history of chronic kidney disease, history of cardiac disorders, history of rheumatic disease, history of sickle cell disease, use of ototoxic agents, stability status per investigator's judgement.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Hypertensive Disorders of Pregnancy (HDP)",
+          "diagnosis of hypertensive disorder"
+        ],
+        [
+          "Gestational age at delivery",
+          "gestational age at delivery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Cesarean delivery"
+      ],
+      "remaining_candidate_features": [
+        "baseline blood pressure",
+        "severity of pre-eclampsia",
+        "baseline creatinine",
+        "baseline potassium",
+        "history of diabetes mellitus",
+        "history of chronic kidney disease",
+        "history of cardiac disorders",
+        "history of rheumatic disease",
+        "history of sickle cell disease",
+        "use of ototoxic agents",
+        "stability status per investigator's judgement."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Type of Hypertensive Disorder, Gestational Age at Delivery, Baseline Blood Pressure, Baseline Creatinine, Baseline Potassium, Use of Antihypertensive Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Hypertensive Disorders of Pregnancy (HDP)",
+          "Type of Hypertensive Disorder"
+        ],
+        [
+          "Gestational age at delivery",
+          "Gestational Age at Delivery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Cesarean delivery"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Baseline Blood Pressure",
+        "Baseline Creatinine",
+        "Baseline Potassium",
+        "Use of Antihypertensive Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gestational Age, Parity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Creatinine, Potassium, History of Hypertensive Disorders of Pregnancy, Type of Hypertensive Disorder of Pregnancy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Hypertensive Disorders of Pregnancy (HDP)",
+          "History of Hypertensive Disorders of Pregnancy"
+        ],
+        [
+          "Gestational age at delivery",
+          "Gestational Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Cesarean delivery"
+      ],
+      "remaining_candidate_features": [
+        "Parity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Creatinine",
+        "Potassium",
+        "Type of Hypertensive Disorder of Pregnancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, gestational age at delivery, parity, body mass index, race, ethnicity, history of hypertension, history of pre-eclampsia, severity of hypertensive disorder of pregnancy, type of hypertensive disorder of pregnancy, baseline blood pressure, baseline creatinine, potassium level, presence of comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Hypertensive Disorders of Pregnancy (HDP)",
+          "type of hypertensive disorder of pregnancy"
+        ],
+        [
+          "Gestational age at delivery",
+          "gestational age at delivery"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Cesarean delivery"
+      ],
+      "remaining_candidate_features": [
+        "parity",
+        "body mass index",
+        "history of hypertension",
+        "history of pre-eclampsia",
+        "severity of hypertensive disorder of pregnancy",
+        "baseline blood pressure",
+        "baseline creatinine",
+        "potassium level",
+        "presence of comorbidities"
+      ]
+    }
+  }
+}

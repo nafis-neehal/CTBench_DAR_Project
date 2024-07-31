@@ -1,0 +1,204 @@
+{
+  "trial_id": "NCT00316225",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Race, Performance Status (ECOG), Stage of Disease (III or IV), Prior Anticancer Treatment, Presence of Third-Space Fluid, Estimated Life Expectancy, Weight Loss in the Last 6 Weeks, Presence of Active Infection, Pregnancy Status, Breast-feeding Status, Brain Metastases Status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "Performance Status (ECOG)"
+        ],
+        [
+          "Disease Stage",
+          "Stage of Disease (III or IV)"
+        ],
+        [
+          "Type of Third-Space Fluid",
+          "Presence of Third-Space Fluid"
+        ],
+        [
+          "Weight",
+          "Weight Loss in the Last 6 Weeks"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Male",
+        "Region of Enrollment",
+        "Diagnosis",
+        "Fluid Severity",
+        "Primary Basis for Diagnosis",
+        "Body Surface Area",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Prior Anticancer Treatment",
+        "Estimated Life Expectancy",
+        "Presence of Active Infection",
+        "Pregnancy Status",
+        "Breast-feeding Status",
+        "Brain Metastases Status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Performance Status, Stage of Cancer, Presence of Third-Space Fluid, Prior Anticancer Treatment, Estimated Life Expectancy, Weight Loss,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "Performance Status"
+        ],
+        [
+          "Disease Stage",
+          "Stage of Cancer"
+        ],
+        [
+          "Presence of Third-Space Fluid",
+          "Presence of Third-Space Fluid"
+        ],
+        [
+          "Weight",
+          "Weight Loss"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Diagnosis",
+        "Fluid Severity",
+        "Primary Basis for Diagnosis",
+        "Type of Third-Space Fluid",
+        "Body Surface Area",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Prior Anticancer Treatment",
+        "Estimated Life Expectancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Eastern Cooperative Oncology Group Performance Status, Prior anticancer treatment, Estimated life expectancy, Presence of third-space fluid, Cancer diagnosis (NSCLC or mesothelioma), Stage of disease (III or IV).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "Eastern Cooperative Oncology Group Performance Status"
+        ],
+        [
+          "Diagnosis",
+          "Cancer diagnosis (NSCLC or mesothelioma)"
+        ],
+        [
+          "Disease Stage",
+          "Stage of disease (III or IV)"
+        ],
+        [
+          "Type of Third-Space Fluid",
+          "Presence of third-space fluid"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Fluid Severity",
+        "Primary Basis for Diagnosis",
+        "Body Surface Area",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Prior anticancer treatment",
+        "Estimated life expectancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, Eastern Cooperative Oncology Group Performance Status, diagnosis (NSCLC or mesothelioma), stage of disease, presence of third-space fluid (fluid around the lungs or abdomen), prior anticancer treatment, estimated life expectancy, weight, height, body mass index.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "Eastern Cooperative Oncology Group Performance Status"
+        ],
+        [
+          "Diagnosis",
+          "diagnosis (NSCLC or mesothelioma)"
+        ],
+        [
+          "Disease Stage",
+          "stage of disease"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Height",
+          "height"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Fluid Severity",
+        "Primary Basis for Diagnosis",
+        "Type of Third-Space Fluid",
+        "Body Surface Area"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "ethnicity",
+        "presence of third-space fluid (fluid around the lungs or abdomen)",
+        "prior anticancer treatment",
+        "estimated life expectancy",
+        "body mass index."
+      ]
+    }
+  }
+}

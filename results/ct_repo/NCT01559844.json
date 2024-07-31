@@ -1,0 +1,248 @@
+{
+  "trial_id": "NCT01559844",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, HCV RNA level at screening, Child-Pugh Score (CPT), Model for End-Stage Liver Disease (MELD) score, HCC weighted MELD score, presence of chronic HCV infection, liver biopsy results, history of liver disease, renal function (CLcr), history of psychiatric illness, history of immunologic disorder, history of hemoglobinopathy, history of pulmonary or cardiac disease, history of porphyria, history of diabetes, history of cancer other than HCC, history of malignancy, history of previous solid organ transplantation, history of hypersensitivity to RBV, history of systemic antineoplastic or immunomodulatory treatment, history of TACE or RFA, participation in previous clinical studies with investigational drugs, biologics, or devices.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Baseline HCV RNA",
+          "HCV RNA level at screening"
+        ],
+        [
+          "Baseline Child-Pugh Turcotte (CPT) Score",
+          "Child-Pugh Score (CPT)"
+        ],
+        [
+          "Baseline Model For End-Stage Liver Disease (MELD) Score",
+          "Model for End-Stage Liver Disease (MELD) score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Prior Hepatitis C Virus (HCV) Treatment",
+        "Response to Last Prior HCV Treatment Regimen",
+        "Days on Transplant Waitlist",
+        "Baseline HCV RNA Category",
+        "HCV Genotype",
+        "IL28b Status"
+      ],
+      "remaining_candidate_features": [
+        "HCC weighted MELD score",
+        "presence of chronic HCV infection",
+        "liver biopsy results",
+        "history of liver disease",
+        "renal function (CLcr)",
+        "history of psychiatric illness",
+        "history of immunologic disorder",
+        "history of hemoglobinopathy",
+        "history of pulmonary or cardiac disease",
+        "history of porphyria",
+        "history of diabetes",
+        "history of cancer other than HCC",
+        "history of malignancy",
+        "history of previous solid organ transplantation",
+        "history of hypersensitivity to RBV",
+        "history of systemic antineoplastic or immunomodulatory treatment",
+        "history of TACE or RFA",
+        "participation in previous clinical studies with investigational drugs",
+        "biologics",
+        "or devices."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, HCV RNA level, Child-Pugh Score, MELD Score, Hepatocellular carcinoma (HCC) status, Liver function tests (ALT, AST, Bilirubin), Renal function (Creatinine, eGFR), Prior HCV treatment history, Concomitant medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Baseline HCV RNA",
+          "HCV RNA level"
+        ],
+        [
+          "Baseline Child-Pugh Turcotte (CPT) Score",
+          "Child-Pugh Score"
+        ],
+        [
+          "Baseline Model For End-Stage Liver Disease (MELD) Score",
+          "MELD Score"
+        ],
+        [
+          "Prior Hepatitis C Virus (HCV) Treatment",
+          "Prior HCV treatment history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Response to Last Prior HCV Treatment Regimen",
+        "Days on Transplant Waitlist",
+        "Baseline HCV RNA Category",
+        "HCV Genotype",
+        "IL28b Status"
+      ],
+      "remaining_candidate_features": [
+        "Hepatocellular carcinoma (HCC) status",
+        "Liver function tests (ALT, AST, Bilirubin)",
+        "Renal function (Creatinine, eGFR)",
+        "Concomitant medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, MELD Score, Child-Pugh Score, HCV RNA, HCV Genotype, Liver Function Tests, Creatinine Clearance, Diabetes Status, History of Hepatocellular Carcinoma, Prior Treatment for Hepatitis C.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Female"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Prior Hepatitis C Virus (HCV) Treatment",
+          "Prior Treatment for Hepatitis C."
+        ],
+        [
+          "Baseline HCV RNA",
+          "HCV RNA"
+        ],
+        [
+          "HCV Genotype",
+          "HCV Genotype"
+        ],
+        [
+          "Baseline Child-Pugh Turcotte (CPT) Score",
+          "Child-Pugh Score"
+        ],
+        [
+          "Baseline Model For End-Stage Liver Disease (MELD) Score",
+          "MELD Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Response to Last Prior HCV Treatment Regimen",
+        "Days on Transplant Waitlist",
+        "Baseline HCV RNA Category",
+        "IL28b Status"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Liver Function Tests",
+        "Creatinine Clearance",
+        "Diabetes Status",
+        "History of Hepatocellular Carcinoma"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), MELD score, HCC weighted MELD score, Child-Pugh score, HCV genotype, HCV RNA level, liver function tests (LFTs), creatinine clearance (CLcr), history of previous HCV treatment, presence of cirrhosis, presence of ascites, presence of variceal hemorrhage, presence of hepatic encephalopathy, presence of hepatorenal syndrome, presence of hepatopulmonary syndrome.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Baseline Model For End-Stage Liver Disease (MELD) Score",
+          "MELD score"
+        ],
+        [
+          "Baseline Child-Pugh Turcotte (CPT) Score",
+          "Child-Pugh score"
+        ],
+        [
+          "HCV Genotype",
+          "HCV genotype"
+        ],
+        [
+          "Baseline HCV RNA",
+          "HCV RNA level"
+        ],
+        [
+          "Prior Hepatitis C Virus (HCV) Treatment",
+          "history of previous HCV treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Response to Last Prior HCV Treatment Regimen",
+        "Days on Transplant Waitlist",
+        "Baseline HCV RNA Category",
+        "IL28b Status"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "HCC weighted MELD score",
+        "liver function tests (LFTs)",
+        "creatinine clearance (CLcr)",
+        "presence of cirrhosis",
+        "presence of ascites",
+        "presence of variceal hemorrhage",
+        "presence of hepatic encephalopathy",
+        "presence of hepatorenal syndrome",
+        "presence of hepatopulmonary syndrome"
+      ]
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "trial_id": "NCT00713830",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 2 diabetes, baseline HbA1c, body weight, body mass index (BMI), fasting plasma glucose (FPG), beta-cell function (HOMA beta), 2-hour postprandial plasma glucose (PPG), glucagon levels, insulin levels, proinsulin levels, C-peptide levels, history of hypoglycemia, history of pancreatitis, history of cardiovascular events, blood pressure, liver function tests (AST, ALT, alkaline phosphatase), renal function (serum creatinine), hemoglobin levels, neutrophil count, platelet count, hepatitis B and C status, history of gastrointestinal disease, history of drug or alcohol abuse, use of other medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Mean age",
+          "Age"
+        ],
+        [
+          "Weight",
+          "body weight"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c",
+          "baseline HbA1c"
+        ],
+        [
+          "FPG",
+          "fasting plasma glucose (FPG)"
+        ],
+        [
+          "2-hour PPG",
+          "2-hour postprandial plasma glucose (PPG)"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of type 2 diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race",
+        "Caucasion",
+        "Black",
+        "Asian",
+        "2-hour glucose excursion",
+        "SU therapy (Glim/Glyb/Glic/Glip/Other)",
+        "Duration of SU treatment",
+        "Metformin use"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "beta-cell function (HOMA beta)",
+        "glucagon levels",
+        "insulin levels",
+        "proinsulin levels",
+        "C-peptide levels",
+        "history of hypoglycemia",
+        "history of pancreatitis",
+        "history of cardiovascular events",
+        "blood pressure",
+        "liver function tests (AST, ALT, alkaline phosphatase)",
+        "renal function (serum creatinine)",
+        "hemoglobin levels",
+        "neutrophil count",
+        "platelet count",
+        "hepatitis B and C status",
+        "history of gastrointestinal disease",
+        "history of drug or alcohol abuse",
+        "use of other medications"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Duration of diabetes, HbA1c, Body weight, BMI, Fasting plasma glucose (FPG), Systolic blood pressure, Diastolic blood pressure, Beta-cell function (HOMA beta), 2-hour postprandial plasma glucose (PPG), Glucagon, Insulin, Proinsulin, C-peptide, Serum creatinine, Liver function tests (AST, ALT, ALP), Lipase, Amylase, Total bilirubin, Hemoglobin, Neutrophils, Platelets, History of cardiovascular events, History of gastrointestinal disease, History of drug or alcohol abuse, Use of antidiabetic agents, Use of systemic glucocorticoids, Renal function (serum creatinine clearance)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Male",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Mean age",
+          "Age"
+        ],
+        [
+          "Duration of diabetes",
+          "Duration of diabetes"
+        ],
+        [
+          "Weight",
+          "Body weight"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "FPG",
+          "Fasting plasma glucose (FPG)"
+        ],
+        [
+          "2-hour PPG",
+          "2-hour postprandial plasma glucose (PPG)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Caucasion",
+        "Black",
+        "Asian",
+        "2-hour glucose excursion",
+        "SU therapy (Glim/Glyb/Glic/Glip/Other)",
+        "Duration of SU treatment",
+        "Metformin use"
+      ],
+      "remaining_candidate_features": [
+        "Systolic blood pressure",
+        "Diastolic blood pressure",
+        "Beta-cell function (HOMA beta)",
+        "Glucagon",
+        "Insulin",
+        "Proinsulin",
+        "C-peptide",
+        "Serum creatinine",
+        "Liver function tests (AST, ALT, ALP)",
+        "Lipase",
+        "Amylase",
+        "Total bilirubin",
+        "Hemoglobin",
+        "Neutrophils",
+        "Platelets",
+        "History of cardiovascular events",
+        "History of gastrointestinal disease",
+        "History of drug or alcohol abuse",
+        "Use of antidiabetic agents",
+        "Use of systemic glucocorticoids",
+        "Renal function (serum creatinine clearance)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, Diabetes duration, BMI, HbA1c, Fasting plasma glucose, Systolic blood pressure, Diastolic blood pressure, Lipid profile, History of cardiovascular disease, History of hypoglycemia, Sulfonylurea dose, Metformin dose, Insulin regimen, Total daily insulin dose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Male",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Ethnic Origin"
+        ],
+        [
+          "Mean age",
+          "Age"
+        ],
+        [
+          "Duration of diabetes",
+          "Diabetes duration"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "FPG",
+          "Fasting plasma glucose"
+        ],
+        [
+          "SU therapy (Glim/Glyb/Glic/Glip/Other)",
+          "Sulfonylurea dose"
+        ],
+        [
+          "Metformin use",
+          "Metformin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Caucasion",
+        "Black",
+        "Asian",
+        "Weight",
+        "2-hour PPG",
+        "2-hour glucose excursion",
+        "Duration of SU treatment"
+      ],
+      "remaining_candidate_features": [
+        "Systolic blood pressure",
+        "Diastolic blood pressure",
+        "Lipid profile",
+        "History of cardiovascular disease",
+        "History of hypoglycemia",
+        "Insulin regimen",
+        "Total daily insulin dose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose (FPG) at screening, systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, weight, height.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Male",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Mean age",
+          "age"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c",
+          "HbA1c at screening"
+        ],
+        [
+          "FPG",
+          "fasting plasma glucose (FPG) at screening"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Caucasion",
+        "Black",
+        "Asian",
+        "2-hour PPG",
+        "2-hour glucose excursion",
+        "SU therapy (Glim/Glyb/Glic/Glip/Other)",
+        "Duration of SU treatment",
+        "Metformin use"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "systolic blood pressure (SBP)",
+        "diastolic blood pressure (DBP)",
+        "heart rate",
+        "height"
+      ]
+    }
+  }
+}

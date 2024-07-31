@@ -1,0 +1,148 @@
+{
+  "trial_id": "NCT00962247",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI percentile, total sedentary hours per week, household size, baseline physical activity level, baseline energy intake.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index",
+          "BMI percentile"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height",
+        "Weight",
+        "zBMI"
+      ],
+      "remaining_candidate_features": [
+        "total sedentary hours per week",
+        "household size",
+        "baseline physical activity level",
+        "baseline energy intake"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline Sedentary Behavior, Household Composition,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height",
+        "Weight",
+        "zBMI"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline Sedentary Behavior",
+        "Household Composition"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Sex, BMI, Sedentary behavior hours per week, Physical activity level, Energy intake, Household information,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height",
+        "Weight",
+        "zBMI"
+      ],
+      "remaining_candidate_features": [
+        "Sedentary behavior hours per week",
+        "Physical activity level",
+        "Energy intake",
+        "Household information"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, BMI, weight, height, household income, parental education level, ethnicity, physical activity level at baseline, sedentary behavior hours per week at baseline, energy intake at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "zBMI"
+      ],
+      "remaining_candidate_features": [
+        "household income",
+        "parental education level",
+        "physical activity level at baseline",
+        "sedentary behavior hours per week at baseline",
+        "energy intake at baseline."
+      ]
+    }
+  }
+}

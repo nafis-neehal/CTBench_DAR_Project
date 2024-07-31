@@ -1,0 +1,174 @@
+{
+  "trial_id": "NCT03546270",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, systolic blood pressure, diastolic blood pressure, body mass index, menopausal status, exercise frequency, smoking status, medication use, hormone therapy use, muscle strength, aerobic capacity",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "diastolic blood pressure"
+        ],
+        [
+          "Muscular strength",
+          "muscle strength"
+        ],
+        [
+          "Cardiorespiratory endurance",
+          "aerobic capacity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Pressure wave reflection",
+        "Arterial stiffness"
+      ],
+      "remaining_candidate_features": [
+        "body mass index",
+        "menopausal status",
+        "exercise frequency",
+        "smoking status",
+        "medication use",
+        "hormone therapy use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Menopausal Status, Regular Exercise Frequency,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Pressure wave reflection",
+        "Arterial stiffness",
+        "Muscular strength",
+        "Cardiorespiratory endurance"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Menopausal Status",
+        "Regular Exercise Frequency"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Menopausal Status, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulse Wave Velocity, Muscle Strength, Aerobic Capacity.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Arterial stiffness",
+          "Pulse Wave Velocity"
+        ],
+        [
+          "Muscular strength",
+          "Muscle Strength"
+        ],
+        [
+          "Cardiorespiratory endurance",
+          "Aerobic Capacity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Pressure wave reflection"
+      ],
+      "remaining_candidate_features": [
+        "Menopausal Status",
+        "Region of Enrollment",
+        "Body Mass Index"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Body Mass Index (BMI), Systolic Blood Pressure (SBP), Diastolic Blood Pressure (DBP), Pulse Wave Velocity (PWV), Augmentation Index (AIx), Muscle Strength, Aerobic Capacity, Menopausal Status, Smoking Status, Medication Use, Hormone Therapy Use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure (SBP)"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure (DBP)"
+        ],
+        [
+          "Arterial stiffness",
+          "Pulse Wave Velocity (PWV)"
+        ],
+        [
+          "Pressure wave reflection",
+          "Augmentation Index (AIx)"
+        ],
+        [
+          "Muscular strength",
+          "Muscle Strength"
+        ],
+        [
+          "Cardiorespiratory endurance",
+          "Aerobic Capacity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index (BMI)",
+        "Menopausal Status",
+        "Smoking Status",
+        "Medication Use",
+        "Hormone Therapy Use."
+      ]
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "trial_id": "NCT02099838",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, duration of diabetes, baseline HbA1c, baseline fasting plasma glucose, baseline postprandial plasma glucose, baseline blood pressure, baseline liver function tests (ALT, AST), baseline renal function tests (serum creatinine), baseline lipid profile (total cholesterol, LDL, HDL, triglycerides), baseline white blood count (WBC), baseline platelet count (PLT), baseline hemoglobin (Hb).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Duration of Type 2 Diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Systolic Blood Pressure(SBP)",
+          "baseline blood pressure"
+        ],
+        [
+          "Diastolic Blood Pressure(DBP)",
+          "baseline blood pressure"
+        ],
+        [
+          "ln(Fasting Plasma Glucose(FPG))",
+          "baseline fasting plasma glucose"
+        ],
+        [
+          "2-hour Postprandial Glucose(2hPPG)",
+          "baseline postprandial plasma glucose"
+        ],
+        [
+          "ln(HbA1c)",
+          "baseline HbA1c"
+        ],
+        [
+          "Glutamic-pyruvic Transaminase(ALT)",
+          "baseline liver function tests (ALT, AST)"
+        ],
+        [
+          "Glutamic-oxaloacetic Transaminase(AST)",
+          "baseline liver function tests (ALT, AST)"
+        ],
+        [
+          "Total Cholesterol(TC)",
+          "baseline lipid profile (total cholesterol, LDL, HDL, triglycerides)"
+        ],
+        [
+          "Triglyceride(TG)",
+          "baseline lipid profile (total cholesterol, LDL, HDL, triglycerides)"
+        ],
+        [
+          "High Density Lipoprotein(HDL)",
+          "baseline lipid profile (total cholesterol, LDL, HDL, triglycerides)"
+        ],
+        [
+          "ln(Low Density Lipoprotein(LDL))",
+          "baseline lipid profile (total cholesterol, LDL, HDL, triglycerides)"
+        ],
+        [
+          "White blood count (WBC)",
+          "baseline white blood count (WBC)"
+        ],
+        [
+          "Platelet count (PLT)",
+          "baseline platelet count (PLT)"
+        ],
+        [
+          "Hemoglobin (Hb)",
+          "baseline hemoglobin (Hb)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Height(Male)",
+        "Height(Female)",
+        "Weight(Male)",
+        "Weight(Female)",
+        "ln(Fasting Insulin)",
+        "ln(2-hour Postprandial Insulin)",
+        "Total Bilirubin(TBil)",
+        "Direct Bilirubin(DBil)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "baseline renal function tests (serum creatinine)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Blood Pressure, Liver Function Tests (ALT, AST), Renal Function Tests (Serum Creatinine), White Blood Cell Count, Platelet Count, Hemoglobin,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Duration of Type 2 Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Systolic Blood Pressure(SBP)",
+          "Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure(DBP)",
+          "Blood Pressure"
+        ],
+        [
+          "ln(HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Glutamic-pyruvic Transaminase(ALT)",
+          "Liver Function Tests (ALT, AST)"
+        ],
+        [
+          "Glutamic-oxaloacetic Transaminase(AST)",
+          "Liver Function Tests (ALT, AST)"
+        ],
+        [
+          "White blood count (WBC)",
+          "White Blood Cell Count"
+        ],
+        [
+          "Platelet count (PLT)",
+          "Platelet Count"
+        ],
+        [
+          "Hemoglobin",
+          "Hemoglobin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height(Male)",
+        "Height(Female)",
+        "Weight(Male)",
+        "Weight(Female)",
+        "ln(Fasting Plasma Glucose(FPG))",
+        "2-hour Postprandial Glucose(2hPPG)",
+        "ln(Fasting Insulin)",
+        "ln(2-hour Postprandial Insulin)",
+        "Total Cholesterol(TC)",
+        "Triglyceride(TG)",
+        "High Density Lipoprotein(HDL)",
+        "ln(Low Density Lipoprotein(LDL))",
+        "Total Bilirubin(TBil)",
+        "Direct Bilirubin(DBil)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Renal Function Tests (Serum Creatinine)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Duration of Diabetes, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL-C, LDL-C, History of Cardiovascular Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Duration of Type 2 Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Systolic Blood Pressure(SBP)",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure(DBP)",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "ln(HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "ln(Fasting Plasma Glucose(FPG))",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Total Cholesterol(TC)",
+          "Total Cholesterol"
+        ],
+        [
+          "Triglyceride(TG)",
+          "Triglycerides"
+        ],
+        [
+          "High Density Lipoprotein(HDL)",
+          "HDL-C"
+        ],
+        [
+          "ln(Low Density Lipoprotein(LDL))",
+          "LDL-C"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Height(Male)",
+        "Height(Female)",
+        "Weight(Male)",
+        "Weight(Female)",
+        "ln(2-hour Postprandial Glucose(2hPPG))",
+        "ln(Fasting Insulin)",
+        "ln(2-hour Postprandial Insulin)",
+        "Glutamic-pyruvic Transaminase(ALT)",
+        "Glutamic-oxaloacetic Transaminase(AST)",
+        "Total Bilirubin(TBil)",
+        "Direct Bilirubin(DBil)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "History of Cardiovascular Disease."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, duration of diabetes, HbA1c at baseline, type of sulfonylurea used, duration of sulfonylurea treatment, fasting plasma glucose at baseline, systolic and diastolic blood pressure, lipid profiles, liver function tests, renal function tests, history of cardiovascular disease, history of hypoglycemia, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Duration of Type 2 Diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Systolic Blood Pressure(SBP)",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "Diastolic Blood Pressure(DBP)",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "ln(HbA1c)",
+          "HbA1c at baseline"
+        ],
+        [
+          "ln(Fasting Plasma Glucose(FPG))",
+          "fasting plasma glucose at baseline"
+        ],
+        [
+          "Glutamic-pyruvic Transaminase(ALT)",
+          "liver function tests"
+        ],
+        [
+          "Glutamic-oxaloacetic Transaminase(AST)",
+          "liver function tests"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Height(Male)",
+        "Height(Female)",
+        "Weight(Male)",
+        "Weight(Female)",
+        "2-hour Postprandial Glucose(2hPPG)",
+        "ln(Fasting Insulin)",
+        "ln(2-hour Postprandial Insulin)",
+        "Total Cholesterol(TC)",
+        "Triglyceride(TG)",
+        "High Density Lipoprotein(HDL)",
+        "ln(Low Density Lipoprotein(LDL))",
+        "Total Bilirubin(TBil)",
+        "Direct Bilirubin(DBil)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "type of sulfonylurea used",
+        "duration of sulfonylurea treatment",
+        "lipid profiles",
+        "renal function tests",
+        "history of cardiovascular disease",
+        "history of hypoglycemia",
+        "smoking status"
+      ]
+    }
+  }
+}

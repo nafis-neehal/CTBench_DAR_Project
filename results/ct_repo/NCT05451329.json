@@ -1,0 +1,139 @@
+{
+  "trial_id": "NCT05451329",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline intraocular pressure, visual acuity, number of ocular hypotensive medications used prior to the study, history of primary open-angle glaucoma or ocular hypertension, presence of hypersensitivity to study medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "baseline intraocular pressure",
+        "visual acuity",
+        "number of ocular hypotensive medications used prior to the study",
+        "history of primary open-angle glaucoma or ocular hypertension",
+        "presence of hypersensitivity to study medications."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure, Corrected Visual Acuity, Number of Ocular Hypotensive Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Intraocular Pressure",
+        "Corrected Visual Acuity",
+        "Number of Ocular Hypotensive Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Intraocular Pressure, Best-Corrected Visual Acuity, Number of Ocular Hypotensive Medications, Diagnosis of Primary Open-Angle Glaucoma or Ocular Hypertension,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Intraocular Pressure",
+        "Best-Corrected Visual Acuity",
+        "Number of Ocular Hypotensive Medications",
+        "Diagnosis of Primary Open-Angle Glaucoma or Ocular Hypertension"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, diagnosis (POAG or OHT), number of ocular hypotensive medications, unmedicated intraocular pressure, corrected visual acuity, Snellen visual acuity.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "diagnosis (POAG or OHT)",
+        "number of ocular hypotensive medications",
+        "unmedicated intraocular pressure",
+        "corrected visual acuity",
+        "Snellen visual acuity."
+      ]
+    }
+  }
+}

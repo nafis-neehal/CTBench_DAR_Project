@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT03199638",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Tanner stage, Weight, Hemoglobin A1C, Total daily insulin dose, BMI, Thyroid replacement therapy status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "HbA1C",
+          "Hemoglobin A1C"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Height",
+        "BMI percentile",
+        "Duration of diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Tanner stage",
+        "Total daily insulin dose",
+        "Thyroid replacement therapy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Tanner Stage, Weight, Hemoglobin A1C, Total Daily Insulin Dose, Body Mass Index, Insulin Program Type,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1C",
+          "Hemoglobin A1C"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Height",
+        "BMI percentile",
+        "Duration of diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Tanner Stage",
+        "Total Daily Insulin Dose",
+        "Insulin Program Type"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Tanner Stage, Body Mass Index, HbA1c, Total Daily Insulin Dose, Insulin Program, Diabetes Duration,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1C",
+          "HbA1c"
+        ],
+        [
+          "Duration of diabetes",
+          "Diabetes Duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "BMI percentile"
+      ],
+      "remaining_candidate_features": [
+        "Tanner Stage",
+        "Total Daily Insulin Dose",
+        "Insulin Program"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, Tanner stage, weight, BMI, hemoglobin A1C, total daily insulin dose, type of insulin program, duration of type 1 diabetes, presence of thyroid replacement therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "HbA1C",
+          "hemoglobin A1C"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of type 1 diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Height",
+        "BMI percentile"
+      ],
+      "remaining_candidate_features": [
+        "Tanner stage",
+        "total daily insulin dose",
+        "type of insulin program",
+        "presence of thyroid replacement therapy."
+      ]
+    }
+  }
+}

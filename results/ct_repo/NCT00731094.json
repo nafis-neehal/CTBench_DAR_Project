@@ -1,0 +1,159 @@
+{
+  "trial_id": "NCT00731094",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Primary care clinic visits in the past 12 months, Cardiovascular risk assessment, Ambulatory status, Current physical activity level, Diagnosis of pulmonary hypertension, Diagnosis of COPD, Comorbid conditions, Vision status, Plans to move from the treatment area, Willingness to travel to the study site, Employment status at VAPHS, Participation in other interventional research studies, Willingness to provide informed consent.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Primary care clinic visits in the past 12 months",
+        "Cardiovascular risk assessment",
+        "Ambulatory status",
+        "Current physical activity level",
+        "Diagnosis of pulmonary hypertension",
+        "Diagnosis of COPD",
+        "Comorbid conditions",
+        "Vision status",
+        "Plans to move from the treatment area",
+        "Willingness to travel to the study site",
+        "Employment status at VAPHS",
+        "Participation in other interventional research studies",
+        "Willingness to provide informed consent"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Objective weekly MVPA minutes, Adherence to MVPA guidelines at baseline, Objective average daily steps,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Objective weekly MVPA minutes",
+        "Adherence to MVPA guidelines at baseline",
+        "Objective average daily steps"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Weekly Moderate to Vigorous Physical Activity, Adherence to MVPA guidelines at baseline, Average daily steps,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Weekly Moderate to Vigorous Physical Activity",
+        "Adherence to MVPA guidelines at baseline",
+        "Average daily steps"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, BMI, primary care clinic visits in the past 12 months, comorbid conditions, smoking status, employment status, education level, marital status, race, ethnicity.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "primary care clinic visits in the past 12 months",
+        "comorbid conditions",
+        "smoking status",
+        "employment status",
+        "education level",
+        "marital status"
+      ]
+    }
+  }
+}

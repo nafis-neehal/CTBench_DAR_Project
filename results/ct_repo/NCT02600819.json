@@ -1,0 +1,196 @@
+{
+  "trial_id": "NCT02600819",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, body mass index (BMI), duration of HIV infection, baseline CD4+ T cell count, baseline HIV-1 RNA levels, duration on chronic hemodialysis, baseline estimated glomerular filtration rate (eGFR), baseline hemoglobin levels, baseline platelet count, baseline absolute neutrophil count, prior antiretroviral therapy history, presence of comorbid conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "Cluster Determinant 4+ (CD4+) Cell Count",
+          "baseline CD4+ T cell count"
+        ],
+        [
+          "HIV-1 RNA Category",
+          "baseline HIV-1 RNA levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "CD4+ Cell Count Categories",
+        "CD4 Percentage"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of HIV infection",
+        "duration on chronic hemodialysis",
+        "baseline estimated glomerular filtration rate (eGFR)",
+        "baseline hemoglobin levels",
+        "baseline platelet count",
+        "baseline absolute neutrophil count",
+        "prior antiretroviral therapy history",
+        "presence of comorbid conditions"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of HIV-1 infection, Baseline CD4+ T cell count, Baseline HIV-1 RNA levels, Duration on chronic hemodialysis, Estimated glomerular filtration rate (eGFR), Hemoglobin levels, Platelet count, Absolute neutrophil count,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Cluster Determinant 4+ (CD4+) Cell Count",
+          "Baseline CD4+ T cell count"
+        ],
+        [
+          "HIV-1 RNA Category",
+          "Baseline HIV-1 RNA levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "CD4+ Cell Count Categories",
+        "CD4 Percentage"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of HIV-1 infection",
+        "Duration on chronic hemodialysis",
+        "Estimated glomerular filtration rate (eGFR)",
+        "Hemoglobin levels",
+        "Platelet count",
+        "Absolute neutrophil count"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, CD4+ T cell count, Plasma HIV-1 RNA concentrations, Hemoglobin, Absolute neutrophil count, Platelets, eGFR, Hemodialysis duration, Prior antiretroviral regimen, HIV-1 treatment history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Cluster Determinant 4+ (CD4+) Cell Count",
+          "CD4+ T cell count"
+        ],
+        [
+          "HIV-1 RNA Category",
+          "Plasma HIV-1 RNA concentrations"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "CD4+ Cell Count Categories",
+        "CD4 Percentage"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Hemoglobin",
+        "Absolute neutrophil count",
+        "Platelets",
+        "eGFR",
+        "Hemodialysis duration",
+        "Prior antiretroviral regimen",
+        "HIV-1 treatment history"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), CD4+ T cell count, plasma HIV-1 RNA concentrations, eGFR, hemoglobin, absolute neutrophil count, platelets, history of AIDS-defining conditions, duration of HIV-1 infection, duration of antiretroviral therapy, prior antiretroviral regimens, history of hepatitis B or C co-infection, presence of comorbidities (e.g., diabetes, hypertension), smoking status, alcohol use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Cluster Determinant 4+ (CD4+) Cell Count",
+          "CD4+ T cell count"
+        ],
+        [
+          "HIV-1 RNA Category",
+          "plasma HIV-1 RNA concentrations"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "CD4+ Cell Count Categories",
+        "CD4 Percentage"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "eGFR",
+        "hemoglobin",
+        "absolute neutrophil count",
+        "platelets",
+        "history of AIDS-defining conditions",
+        "duration of HIV-1 infection",
+        "duration of antiretroviral therapy",
+        "prior antiretroviral regimens",
+        "history of hepatitis B or C co-infection",
+        "presence of comorbidities (e.g., diabetes, hypertension)",
+        "smoking status",
+        "alcohol use"
+      ]
+    }
+  }
+}

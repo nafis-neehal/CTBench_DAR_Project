@@ -1,0 +1,280 @@
+{
+  "trial_id": "NCT01986881",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, body mass index (BMI), hemoglobin A1c (A1C), duration of type 2 diabetes mellitus (T2DM), history of atherosclerosis, background anti-hyperglycemic agents (AHA) use, history of cardiovascular events, smoking status, blood pressure, lipid profile, renal function (e.g., estimated glomerular filtration rate), baseline insulin dose (for insulin sub-study), baseline sulfonylurea dose (for sulfonylurea sub-study), baseline metformin dose (for metformin with sulfonylurea sub-study).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Body-mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of type 2 diabetes",
+          "duration of type 2 diabetes mellitus (T2DM)"
+        ],
+        [
+          "Glycated hemoglobin",
+          "hemoglobin A1c (A1C)"
+        ],
+        [
+          "Blood pressure",
+          "blood pressure"
+        ],
+        [
+          "Estimated GFR",
+          "renal function (e.g., estimated glomerular filtration rate)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region",
+        "Total cholesterol",
+        "Low-density lipoprotein cholesterol",
+        "High-density lipoprotein cholesterol",
+        "Triglycerides",
+        "Coronary artery disease",
+        "Cerebrovascular disease",
+        "Peripheral arterial disease",
+        "Heart failure",
+        "Myocardial infarction",
+        "Coronary revascularization",
+        "Stroke"
+      ],
+      "remaining_candidate_features": [
+        "history of atherosclerosis",
+        "background anti-hyperglycemic agents (AHA) use",
+        "history of cardiovascular events",
+        "smoking status",
+        "lipid profile",
+        "baseline insulin dose (for insulin sub-study)",
+        "baseline sulfonylurea dose (for sulfonylurea sub-study)",
+        "baseline metformin dose (for metformin with sulfonylurea sub-study)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Ethnicity, Body Mass Index (BMI), Duration of diabetes, Hemoglobin A1C (A1C), History of atherosclerosis, Background anti-hyperglycemic agents, Smoking status, Blood pressure, Cholesterol levels, History of cardiovascular events, Use of cardiovascular medications, Renal function (eGFR), Liver function tests, Concomitant medications, Physical activity level, Socioeconomic status, Education level",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Body-mass index",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Duration of type 2 diabetes",
+          "Duration of diabetes"
+        ],
+        [
+          "Glycated hemoglobin",
+          "Hemoglobin A1C (A1C)"
+        ],
+        [
+          "Blood pressure",
+          "Blood pressure"
+        ],
+        [
+          "Estimated GFR",
+          "Renal function (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region",
+        "Total cholesterol",
+        "Low-density lipoprotein cholesterol",
+        "High-density lipoprotein cholesterol",
+        "Triglycerides",
+        "Coronary artery disease",
+        "Cerebrovascular disease",
+        "Peripheral arterial disease",
+        "Heart failure",
+        "Myocardial infarction",
+        "Coronary revascularization",
+        "Stroke"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "History of atherosclerosis",
+        "Background anti-hyperglycemic agents",
+        "Smoking status",
+        "Cholesterol levels",
+        "History of cardiovascular events",
+        "Use of cardiovascular medications",
+        "Liver function tests",
+        "Concomitant medications",
+        "Physical activity level",
+        "Socioeconomic status",
+        "Education level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Race, Ethnicity, BMI, Duration of diabetes, HbA1c, History of cardiovascular disease, History of myocardial infarction, History of stroke, History of coronary revascularization, History of peripheral revascularization, History of heart failure, Systolic blood pressure, Diastolic blood pressure, LDL cholesterol, HDL cholesterol, Triglycerides, eGFR, Medications, Smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Body-mass index",
+          "BMI"
+        ],
+        [
+          "Duration of type 2 diabetes",
+          "Duration of diabetes"
+        ],
+        [
+          "Glycated hemoglobin",
+          "HbA1c"
+        ],
+        [
+          "Low-density lipoprotein cholesterol",
+          "LDL cholesterol"
+        ],
+        [
+          "High-density lipoprotein cholesterol",
+          "HDL cholesterol"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "Blood pressure",
+          "Systolic blood pressure"
+        ],
+        [
+          "Estimated GFR",
+          "eGFR"
+        ],
+        [
+          "Coronary artery disease",
+          "History of cardiovascular disease"
+        ],
+        [
+          "Myocardial infarction",
+          "History of myocardial infarction"
+        ],
+        [
+          "Coronary revascularization",
+          "History of coronary revascularization"
+        ],
+        [
+          "Stroke",
+          "History of stroke"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region",
+        "Total cholesterol",
+        "Cerebrovascular disease",
+        "Peripheral arterial disease",
+        "Heart failure"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "Diastolic blood pressure",
+        "History of peripheral revascularization",
+        "History of heart failure",
+        "Medications",
+        "Smoking status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), hemoglobin A1c (A1C), systolic blood pressure, diastolic blood pressure, heart rate, medical history of atherosclerosis, history of cardiovascular events, New York Heart Association (NYHA) class, type 2 diabetes mellitus duration, current anti-hyperglycemic agents, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Body-mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of type 2 diabetes",
+          "type 2 diabetes mellitus duration"
+        ],
+        [
+          "Glycated hemoglobin",
+          "hemoglobin A1c (A1C)"
+        ],
+        [
+          "Blood pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Coronary artery disease",
+          "medical history of atherosclerosis"
+        ],
+        [
+          "Heart failure",
+          "New York Heart Association (NYHA) class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region",
+        "Total cholesterol",
+        "Low-density lipoprotein cholesterol",
+        "High-density lipoprotein cholesterol",
+        "Triglycerides",
+        "Estimated GFR",
+        "Cerebrovascular disease",
+        "Peripheral arterial disease",
+        "Myocardial infarction",
+        "Coronary revascularization",
+        "Stroke"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "diastolic blood pressure",
+        "heart rate",
+        "history of cardiovascular events",
+        "current anti-hyperglycemic agents",
+        "smoking status"
+      ]
+    }
+  }
+}

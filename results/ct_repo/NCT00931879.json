@@ -1,0 +1,228 @@
+{
+  "trial_id": "NCT00931879",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, diabetes duration, triglyceride levels, C-peptide levels, presence of diabetic retinopathy, presence of diabetic nephropathy, presence of non-diabetic neuropathy, history of macrovascular events, use of ACE inhibitors or ARBs, liver enzyme levels, presence of pedal edema, history of heart failure, concomitant medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Qualifying triglyceride level (mg/dL)",
+          "triglyceride levels"
+        ],
+        [
+          "C-peptide (ng/mL)",
+          "C-peptide levels"
+        ],
+        [
+          "serum glutamate oxaloacetate transaminase(AST) (u/L)",
+          "liver enzyme levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Weight (lbs)",
+        "BMI kg/m^2",
+        "Total cholesterol (mg/dL)",
+        "HDL cholesterol (mg/dL)",
+        "LDL cholesterol (mg/dL)",
+        "HbA1c (%)",
+        "Fasting glucose (mg/dL)",
+        "serum glutamate pyruvate transaminase (ALT) (u/L)",
+        "Alkaline phosphatase (u/L)",
+        "Insulin (uIU/mL)"
+      ],
+      "remaining_candidate_features": [
+        "diabetes duration",
+        "presence of diabetic retinopathy",
+        "presence of diabetic nephropathy",
+        "presence of non-diabetic neuropathy",
+        "history of macrovascular events",
+        "use of ACE inhibitors or ARBs",
+        "presence of pedal edema",
+        "history of heart failure",
+        "concomitant medication use."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline Triglyceride Levels, Baseline HbA1c, Blood Pressure, BMI, Presence of Diabetic Neuropathy, Use of ACE-inhibiting agents or ARBs, Liver Function Tests,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Qualifying triglyceride level (mg/dL)",
+          "Baseline Triglyceride Levels"
+        ],
+        [
+          "HbA1c (%)",
+          "Baseline HbA1c"
+        ],
+        [
+          "BMI kg/m^2",
+          "BMI"
+        ],
+        [
+          "C-peptide (ng/mL)",
+          "Presence of Diabetic Neuropathy"
+        ],
+        [
+          "serum glutamate oxaloacetate transaminase(AST) (u/L)",
+          "Liver Function Tests"
+        ],
+        [
+          "serum glutamate pyruvate transaminase (ALT) (u/L)",
+          "Liver Function Tests"
+        ],
+        [
+          "Alkaline phosphatase (u/L)",
+          "Liver Function Tests"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Weight (lbs)",
+        "Total cholesterol (mg/dL)",
+        "HDL cholesterol (mg/dL)",
+        "LDL cholesterol (mg/dL)",
+        "Fasting glucose (mg/dL)",
+        "Insulin (uIU/mL)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Duration of Diabetes",
+        "Blood Pressure",
+        "Use of ACE-inhibiting agents or ARBs"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, Triglyceride Levels, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Diabetic Neuropathy, History of Diabetic Retinopathy, History of Diabetic Nephropathy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Qualifying triglyceride level (mg/dL)",
+          "Triglyceride Levels"
+        ],
+        [
+          "HbA1c (%)",
+          "HbA1c"
+        ],
+        [
+          "BMI kg/m^2",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Weight (lbs)",
+        "Total cholesterol (mg/dL)",
+        "HDL cholesterol (mg/dL)",
+        "LDL cholesterol (mg/dL)",
+        "Fasting glucose (mg/dL)",
+        "serum glutamate oxaloacetate transaminase(AST) (u/L)",
+        "serum glutamate pyruvate transaminase (ALT) (u/L)",
+        "Alkaline phosphatase (u/L)",
+        "C-peptide (ng/mL)",
+        "Insulin (uIU/mL)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diabetes Duration",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Diabetic Neuropathy",
+        "History of Diabetic Retinopathy",
+        "History of Diabetic Nephropathy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), duration of type 2 diabetes, triglyceride levels, C-peptide levels, presence of diabetic retinopathy, presence of diabetic nephropathy, presence of neuropathy, history of macrovascular events, use of ACE-inhibiting agents or angiotensin receptor blockade therapy (ARB), liver enzyme levels, presence of pedal edema, New York Heart Association Class, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI kg/m^2",
+          "body mass index (BMI)"
+        ],
+        [
+          "Qualifying triglyceride level (mg/dL)",
+          "triglyceride levels"
+        ],
+        [
+          "C-peptide (ng/mL)",
+          "C-peptide levels"
+        ],
+        [
+          "serum glutamate oxaloacetate transaminase(AST) (u/L)",
+          "liver enzyme levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Weight (lbs)",
+        "Total cholesterol (mg/dL)",
+        "HDL cholesterol (mg/dL)",
+        "LDL cholesterol (mg/dL)",
+        "HbA1c (%)",
+        "Fasting glucose (mg/dL)",
+        "serum glutamate pyruvate transaminase (ALT) (u/L)",
+        "Alkaline phosphatase (u/L)",
+        "Insulin (uIU/mL)"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 2 diabetes",
+        "presence of diabetic retinopathy",
+        "presence of diabetic nephropathy",
+        "presence of neuropathy",
+        "history of macrovascular events",
+        "use of ACE-inhibiting agents or angiotensin receptor blockade therapy (ARB)",
+        "presence of pedal edema",
+        "New York Heart Association Class",
+        "concomitant medications."
+      ]
+    }
+  }
+}

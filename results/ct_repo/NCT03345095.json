@@ -1,0 +1,194 @@
+{
+  "trial_id": "NCT03345095",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, Karnofsky performance score (KPS), extent of tumor resection, MGMT status, steroid use, life expectancy, brain MRI results, white blood cell count (WBC), absolute neutrophil count (ANC), platelet count, hemoglobin level, total bilirubin level, alanine aminotransferase (ALT) level, aspartate aminotransferase (AST) level, alkaline phosphatase (ALP) level, serum creatinine level, creatinine clearance (CrCl), pregnancy status, use of birth control measures, breastfeeding status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Karnofsky Performance Status",
+          "Karnofsky performance score (KPS)"
+        ],
+        [
+          "Extent of surgery",
+          "extent of tumor resection"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "MGMT status",
+        "steroid use",
+        "life expectancy",
+        "brain MRI results",
+        "white blood cell count (WBC)",
+        "absolute neutrophil count (ANC)",
+        "platelet count",
+        "hemoglobin level",
+        "total bilirubin level",
+        "alanine aminotransferase (ALT) level",
+        "aspartate aminotransferase (AST) level",
+        "alkaline phosphatase (ALP) level",
+        "serum creatinine level",
+        "creatinine clearance (CrCl)",
+        "pregnancy status",
+        "use of birth control measures",
+        "breastfeeding status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Karnofsky Performance Score (KPS), Extent of Tumor Resection, MGMT Methylation Status, Steroid Use, White Blood Cell Count, Absolute Neutrophil Count, Platelet Count, Hemoglobin, Total Bilirubin, Alanine Aminotransferase (ALT), Aspartate Aminotransferase (AST), Alkaline Phosphatase (ALP), Serum Creatinine, Creatinine Clearance,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Karnofsky Performance Status",
+          "Karnofsky Performance Score (KPS)"
+        ],
+        [
+          "Extent of surgery",
+          "Extent of Tumor Resection"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "MGMT Methylation Status",
+        "Steroid Use",
+        "White Blood Cell Count",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Hemoglobin",
+        "Total Bilirubin",
+        "Alanine Aminotransferase (ALT)",
+        "Aspartate Aminotransferase (AST)",
+        "Alkaline Phosphatase (ALP)",
+        "Serum Creatinine",
+        "Creatinine Clearance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Karnofsky Performance Status, Histological diagnosis of glioblastoma, MGMT status, Extent of resection, Tumor location, Prior steroid use, Baseline hemoglobin, Baseline platelet count, Baseline white blood cell count, Baseline absolute neutrophil count, Baseline creatinine, Baseline bilirubin, Baseline ALT, Baseline AST, Baseline alkaline phosphatase.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Karnofsky Performance Status",
+          "Karnofsky Performance Status"
+        ],
+        [
+          "Extent of surgery",
+          "Extent of resection"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Histological diagnosis of glioblastoma",
+        "MGMT status",
+        "Tumor location",
+        "Prior steroid use",
+        "Baseline hemoglobin",
+        "Baseline platelet count",
+        "Baseline white blood cell count",
+        "Baseline absolute neutrophil count",
+        "Baseline creatinine",
+        "Baseline bilirubin",
+        "Baseline ALT",
+        "Baseline AST",
+        "Baseline alkaline phosphatase"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, Karnofsky performance score (KPS), histological subtype of glioblastoma, MGMT status, extent of tumor resection, presence of residual tumor, steroid use, prior surgical complications, white blood cell count (WBC), absolute neutrophil count (ANC), platelet count, hemoglobin, total bilirubin, alanine aminotransferase (ALT), aspartate aminotransferase (AST), alkaline phosphatase (ALP), serum creatinine, creatinine clearance (CrCl).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Karnofsky Performance Status",
+          "Karnofsky performance score (KPS)"
+        ],
+        [
+          "Extent of surgery",
+          "extent of tumor resection"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "histological subtype of glioblastoma",
+        "MGMT status",
+        "presence of residual tumor",
+        "steroid use",
+        "prior surgical complications",
+        "white blood cell count (WBC)",
+        "absolute neutrophil count (ANC)",
+        "platelet count",
+        "hemoglobin",
+        "total bilirubin",
+        "alanine aminotransferase (ALT)",
+        "aspartate aminotransferase (AST)",
+        "alkaline phosphatase (ALP)",
+        "serum creatinine",
+        "creatinine clearance (CrCl)"
+      ]
+    }
+  }
+}

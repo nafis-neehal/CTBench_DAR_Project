@@ -1,0 +1,195 @@
+{
+  "trial_id": "NCT00098020",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline proteinuria, blood pressure, renal biopsy results, prior treatment history, glomerular filtration rate (GFR), liver function tests (AST, ALT, total bilirubin, protime), triglyceride levels, presence of hypertension, presence of HIV-1 infection, hemoglobin A1c levels, presence of cardiovascular disease, presence of diabetes, presence of chronic inflammatory or infectious conditions, presence of depression, use of ACE inhibitors or ARBs, use of immunosuppressive agents, use of contraceptive methods.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Protein",
+          "baseline proteinuria"
+        ],
+        [
+          "Urine",
+          "urine"
+        ],
+        [
+          "Creatinine",
+          "creatinine"
+        ],
+        [
+          "Protein/Creatinine Ratio",
+          "protein/creatinine ratio"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure",
+        "renal biopsy results",
+        "prior treatment history",
+        "glomerular filtration rate (GFR)",
+        "liver function tests (AST, ALT, total bilirubin, protime)",
+        "triglyceride levels",
+        "presence of hypertension",
+        "presence of HIV-1 infection",
+        "hemoglobin A1c levels",
+        "presence of cardiovascular disease",
+        "presence of diabetes",
+        "presence of chronic inflammatory or infectious conditions",
+        "presence of depression",
+        "use of ACE inhibitors or ARBs",
+        "use of immunosuppressive agents",
+        "use of contraceptive methods"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Proteinuria, Baseline Blood Pressure, Baseline eGFR, Duration of Disease, Prior Immunosuppressive Treatments, Baseline Liver Function Tests, Baseline Triglycerides,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Protein/Creatinine Ratio",
+          "Baseline Proteinuria"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Protein",
+        "Urine",
+        "Creatinine"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Baseline Blood Pressure",
+        "Baseline eGFR",
+        "Duration of Disease",
+        "Prior Immunosuppressive Treatments",
+        "Baseline Liver Function Tests",
+        "Baseline Triglycerides"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Urine Protein/Creatinine Ratio, Estimated Glomerular Filtration Rate, Hemoglobin A1c, CD4 Count, History of Hypertension, History of Diabetes, History of Cardiovascular Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Protein/Creatinine Ratio",
+          "Urine Protein/Creatinine Ratio"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Protein",
+        "Urine",
+        "Creatinine"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Estimated Glomerular Filtration Rate",
+        "Hemoglobin A1c",
+        "CD4 Count",
+        "History of Hypertension",
+        "History of Diabetes",
+        "History of Cardiovascular Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), systolic and diastolic blood pressure, glomerular filtration rate (GFR), proteinuria, serum creatinine, serum albumin, hemoglobin A1c, CD4 count (for HIV-infected patients), presence of hypertension, presence of diabetes, prior immunosuppressive therapy, duration of nephrotic syndrome, biopsy findings (including type of podocyte disease, degree of glomerulosclerosis, and interstitial fibrosis).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Protein",
+          "proteinuria"
+        ],
+        [
+          "Urine",
+          "serum creatinine"
+        ],
+        [
+          "Creatinine",
+          "serum creatinine"
+        ],
+        [
+          "Protein/Creatinine Ratio",
+          "proteinuria"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "systolic and diastolic blood pressure",
+        "glomerular filtration rate (GFR)",
+        "serum albumin",
+        "hemoglobin A1c",
+        "CD4 count (for HIV-infected patients)",
+        "presence of hypertension",
+        "presence of diabetes",
+        "prior immunosuppressive therapy",
+        "duration of nephrotic syndrome",
+        "biopsy findings (including type of podocyte disease, degree of glomerulosclerosis, and interstitial fibrosis)"
+      ]
+    }
+  }
+}

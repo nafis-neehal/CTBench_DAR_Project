@@ -1,0 +1,173 @@
+{
+  "trial_id": "NCT03490734",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Baseline fMRI brain activation signals, Dietary habits, Psychoactive drug use, Smoking status, Medical history, Axis I psychopathology status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Baseline fMRI brain activation signals",
+        "Dietary habits",
+        "Psychoactive drug use",
+        "Smoking status",
+        "Medical history",
+        "Axis I psychopathology status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline fMRI brain activation signals, Frequency of psychoactive drug use, Smoking status, Serious medical conditions, Dietary practices,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline fMRI brain activation signals",
+        "Frequency of psychoactive drug use",
+        "Smoking status",
+        "Serious medical conditions",
+        "Dietary practices"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Baseline weight, Height, Waist circumference, Hip circumference, Smoking status, Medical history, Dietary habits,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Baseline weight",
+        "Height",
+        "Waist circumference",
+        "Hip circumference",
+        "Smoking status",
+        "Medical history",
+        "Dietary habits"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, ethnicity, education level, occupation, smoking status, medical history (e.g., diabetes, cancer), Axis I psychopathology status, psychoactive drug use, dietary practices.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race (NIH/OMB)"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "smoking status",
+          "smoking status"
+        ],
+        [
+          "medical history (e.g., diabetes, cancer)",
+          "medical history (e.g., diabetes, cancer)"
+        ],
+        [
+          "Axis I psychopathology status",
+          "Axis I psychopathology status"
+        ],
+        [
+          "psychoactive drug use",
+          "psychoactive drug use"
+        ],
+        [
+          "dietary practices",
+          "dietary practices"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "education level",
+        "occupation"
+      ]
+    }
+  }
+}

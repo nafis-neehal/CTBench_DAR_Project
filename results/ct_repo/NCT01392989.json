@@ -1,0 +1,211 @@
+{
+  "trial_id": "NCT01392989",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, diagnosis (MDS or MPD), subtype of MDS or MPD, percentage of marrow blasts, morphologic leukemia free-state (MLFS) status, HLA match status, prior malignancy status, cardiac function (ejection fraction), lung function (DLCO), bilirubin levels, AST levels, ALT levels, creatinine clearance, Karnofsky performance score (KPS), HIV status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "diagnosis (MDS or MPD)",
+        "subtype of MDS or MPD",
+        "percentage of marrow blasts",
+        "morphologic leukemia free-state (MLFS) status",
+        "HLA match status",
+        "prior malignancy status",
+        "cardiac function (ejection fraction)",
+        "lung function (DLCO)",
+        "bilirubin levels",
+        "AST levels",
+        "ALT levels",
+        "creatinine clearance",
+        "Karnofsky performance score (KPS)",
+        "HIV status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis of MDS or MPD, Marrow Blasts Percentage, Morphologic Leukemia Free-State, Karnofsky Performance Score, Cardiac Function (Ejection Fraction), Pulmonary Function (DLCO), Bilirubin Levels, Liver Enzymes (AST, ALT), Creatinine Clearance, Prior Malignancy, HIV Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Diagnosis of MDS or MPD",
+        "Marrow Blasts Percentage",
+        "Morphologic Leukemia Free-State",
+        "Karnofsky Performance Score",
+        "Cardiac Function (Ejection Fraction)",
+        "Pulmonary Function (DLCO)",
+        "Bilirubin Levels",
+        "Liver Enzymes (AST, ALT)",
+        "Creatinine Clearance",
+        "Prior Malignancy",
+        "HIV Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis (MDS/MPD/t-MN), Disease classification (WHO), Marrow blasts percentage, Karnofsky performance score, Ejection fraction, DLCO, Bilirubin, AST, ALT, Estimated creatinine clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Diagnosis (MDS/MPD/t-MN)",
+        "Disease classification (WHO)",
+        "Marrow blasts percentage",
+        "Karnofsky performance score",
+        "Ejection fraction",
+        "DLCO",
+        "Bilirubin",
+        "AST",
+        "ALT",
+        "Estimated creatinine clearance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, Karnofsky performance score (KPS), diagnosis (MDS/MPD/t-MN), MDS/MPD/t-MN subtype, prior therapy, time from diagnosis to transplant, presence of residual dysplastic features, blast percentage in marrow, presence of CNS involvement, cardiac function (ejection fraction), diffusing capacity of the lungs for carbon monoxide (DLCO), bilirubin, aspartate aminotransferase (AST), alanine aminotransferase (ALT), estimated creatinine clearance, HIV status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Karnofsky performance score (KPS)",
+          "Karnofsky performance score (KPS)"
+        ],
+        [
+          "Categorical",
+          "diagnosis (MDS/MPD/t-MN)"
+        ],
+        [
+          "Categorical",
+          "MDS/MPD/t-MN subtype"
+        ],
+        [
+          "Categorical",
+          "prior therapy"
+        ],
+        [
+          "Categorical",
+          "presence of residual dysplastic features"
+        ],
+        [
+          "Categorical",
+          "blast percentage in marrow"
+        ],
+        [
+          "Categorical",
+          "presence of CNS involvement"
+        ],
+        [
+          "Categorical",
+          "cardiac function (ejection fraction)"
+        ],
+        [
+          "Categorical",
+          "diffusing capacity of the lungs for carbon monoxide (DLCO)"
+        ],
+        [
+          "Categorical",
+          "bilirubin"
+        ],
+        [
+          "Categorical",
+          "aspartate aminotransferase (AST)"
+        ],
+        [
+          "Categorical",
+          "alanine aminotransferase (ALT)"
+        ],
+        [
+          "Categorical",
+          "estimated creatinine clearance"
+        ],
+        [
+          "Categorical",
+          "HIV status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "time from diagnosis to transplant"
+      ]
+    }
+  }
+}

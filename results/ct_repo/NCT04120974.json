@@ -1,0 +1,204 @@
+{
+  "trial_id": "NCT04120974",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type of diabetes (Type 1 or Type 2), duration of diabetes, HbA1c level at baseline, BMI, presence of lipohypertrophy, daily insulin dose, frequency of hypoglycemic events, quality of life score, internet access, outpatient status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Baseline HbA1c (%)",
+          "HbA1c level at baseline"
+        ],
+        [
+          "Diabetes Type: Type I",
+          "type of diabetes (Type 1 or Type 2)"
+        ],
+        [
+          "Baseline Lipohypertrophy: Yes",
+          "presence of lipohypertrophy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Insulin therapy duration",
+        "average",
+        "average (years)",
+        "Baseline Lipohypertrophy: No"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "daily insulin dose",
+        "frequency of hypoglycemic events",
+        "quality of life score",
+        "internet access",
+        "outpatient status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Duration of Diabetes, Type of Diabetes (Type 1 or Type 2), Baseline HbA1c, Insulin Total Daily Dose (TDD), Presence of Lipohypertrophy, Frequency of Hypoglycemic Events, Quality of Life (QoL) Scores,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline HbA1c (%)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Diabetes Type: Type I",
+          "Type of Diabetes (Type 1 or Type 2)"
+        ],
+        [
+          "Diabetes Type: Type II",
+          "Type of Diabetes (Type 1 or Type 2)"
+        ],
+        [
+          "Baseline Lipohypertrophy: Yes",
+          "Presence of Lipohypertrophy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "average",
+        "Insulin therapy duration",
+        "average (years)",
+        "Baseline Lipohypertrophy: No"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "Insulin Total Daily Dose (TDD)",
+        "Frequency of Hypoglycemic Events",
+        "Quality of Life (QoL) Scores"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Diabetes Type, BMI, HbA1c, Insulin Total Daily Dose, Lipohypertrophy Status, Duration of Diabetes, Quality of Life Score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Baseline HbA1c (%)",
+          "HbA1c"
+        ],
+        [
+          "Diabetes Type: Type I",
+          "Diabetes Type"
+        ],
+        [
+          "Baseline Lipohypertrophy: Yes",
+          "Lipohypertrophy Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "average",
+        "Type II",
+        "Insulin therapy duration",
+        "average (years)",
+        "Baseline Lipohypertrophy: No"
+      ],
+      "remaining_candidate_features": [
+        "Insulin Total Daily Dose",
+        "Duration of Diabetes",
+        "Quality of Life Score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, diabetes type (Type 1 or Type 2), duration of diabetes, duration of insulin therapy, HbA1c at baseline, insulin Total Daily Dose (TDD) at baseline, presence of lipohypertrophy, quality of life (QoL) at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Baseline HbA1c (%)",
+          "HbA1c at baseline"
+        ],
+        [
+          "Diabetes Type: Type I",
+          "diabetes type (Type 1 or Type 2)"
+        ],
+        [
+          "Insulin therapy duration",
+          "duration of insulin therapy"
+        ],
+        [
+          "Baseline Lipohypertrophy: Yes",
+          "presence of lipohypertrophy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "average",
+        "Type II",
+        "average (years)",
+        "Baseline Lipohypertrophy: No"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "insulin Total Daily Dose (TDD) at baseline",
+        "quality of life (QoL) at baseline."
+      ]
+    }
+  }
+}

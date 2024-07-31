@@ -1,0 +1,172 @@
+{
+  "trial_id": "NCT01234649",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, history of gestational diabetes mellitus, fasting glucose levels, insulin sensitivity, \u00df-cell function, blood pressure, serum liver enzyme levels, fasting serum triglycerides, hematological profiles, creatinine clearance, lipid-lowering medication use, history of cardiovascular disease, history of cerebrovascular disease, history of renal disease, history of hepatobiliary disease, history of pancreatitis, family history of medullary thyroid carcinoma, history of cholestasis during pregnancy, current use of medications affecting glucose tolerance, current use of weight-loss drugs, pregnancy status, breastfeeding status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI greater than/equal to 25",
+          "BMI"
+        ],
+        [
+          "Sex: Female",
+          "history of gestational diabetes mellitus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "fasting glucose levels",
+        "insulin sensitivity",
+        "\u00df-cell function",
+        "blood pressure",
+        "serum liver enzyme levels",
+        "fasting serum triglycerides",
+        "hematological profiles",
+        "creatinine clearance",
+        "lipid-lowering medication use",
+        "history of cardiovascular disease",
+        "history of cerebrovascular disease",
+        "history of renal disease",
+        "history of hepatobiliary disease",
+        "history of pancreatitis",
+        "family history of medullary thyroid carcinoma",
+        "history of cholestasis during pregnancy",
+        "current use of medications affecting glucose tolerance",
+        "current use of weight-loss drugs",
+        "pregnancy status",
+        "breastfeeding status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Hemoglobin A1c, Insulin Sensitivity, Insulin Secretion, Triglycerides, Liver Enzymes (AST, ALT), Creatinine Clearance, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "BMI greater than/equal to 25",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Glucose",
+        "Hemoglobin A1c",
+        "Insulin Sensitivity",
+        "Insulin Secretion",
+        "Triglycerides",
+        "Liver Enzymes (AST, ALT)",
+        "Creatinine Clearance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Ethnicity (NIH/OMB), Region of Enrollment, Body Mass Index, Gestational Diabetes Mellitus History, Dysglycemia Status, Insulin Secretion-Sensitivity Index (IS-SI), Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Triglycerides, HDL Cholesterol, LDL Cholesterol.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI greater than/equal to 25",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Diabetes Mellitus History",
+        "Dysglycemia Status",
+        "Insulin Secretion-Sensitivity Index (IS-SI)",
+        "Fasting Plasma Glucose",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, BMI, parity, gestational age at GDM diagnosis, time since GDM diagnosis, history of hypertension, history of dyslipidemia, family history of diabetes, history of cardiovascular disease, smoking status, ethnicity, education level, occupation, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI greater than/equal to 25",
+          "BMI"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "parity",
+        "gestational age at GDM diagnosis",
+        "time since GDM diagnosis",
+        "history of hypertension",
+        "history of dyslipidemia",
+        "family history of diabetes",
+        "history of cardiovascular disease",
+        "smoking status",
+        "education level",
+        "occupation",
+        "marital status"
+      ]
+    }
+  }
+}

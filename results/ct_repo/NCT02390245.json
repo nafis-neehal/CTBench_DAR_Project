@@ -1,0 +1,160 @@
+{
+  "trial_id": "NCT02390245",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Ethnicity, Family history of glaucoma, History of diabetes, Previous ophthalmologist visits",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Screening categories"
+      ],
+      "remaining_candidate_features": [
+        "Family history of glaucoma",
+        "History of diabetes",
+        "Previous ophthalmologist visits"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Family history of glaucoma, Diabetes status, Previous eye care visits, Intraocular pressure, Fundus camera images,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Screening categories"
+      ],
+      "remaining_candidate_features": [
+        "Family history of glaucoma",
+        "Diabetes status",
+        "Previous eye care visits",
+        "Intraocular pressure",
+        "Fundus camera images"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Status, Family History of Glaucoma, Previous Eye Care Visit, Intraocular Pressure, Visual Acuity, Refraction, Cup-to-Disc Ratio, Visual Field Defects, Optic Nerve Head Parameters, Retinal Nerve Fiber Layer Thickness.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Screening categories"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Status",
+        "Family History of Glaucoma",
+        "Previous Eye Care Visit",
+        "Intraocular Pressure",
+        "Visual Acuity",
+        "Refraction",
+        "Cup-to-Disc Ratio",
+        "Visual Field Defects",
+        "Optic Nerve Head Parameters",
+        "Retinal Nerve Fiber Layer Thickness"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, ethnicity, family history of glaucoma, diabetes status, prior ophthalmologist visit within the past year, sex, body mass index (BMI), smoking status, medical history (e.g., hypertension, cardiovascular disease), education level, income level, health insurance status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Screening categories",
+          "family history of glaucoma"
+        ],
+        [
+          "Screening categories",
+          "diabetes status"
+        ],
+        [
+          "Screening categories",
+          "prior ophthalmologist visit within the past year"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "smoking status",
+        "medical history (e.g., hypertension, cardiovascular disease)",
+        "education level",
+        "income level",
+        "health insurance status"
+      ]
+    }
+  }
+}

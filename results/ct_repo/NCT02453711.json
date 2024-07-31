@@ -1,0 +1,161 @@
+{
+  "trial_id": "NCT02453711",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), previous weight loss attempts, HbA1c levels, calcitonin levels, personal or family history of medullary thyroid carcinoma, history of pancreatitis, history of major depressive disorder, history of suicidal attempts, pregnancy status, contraceptive use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Glycosylated haemoglobin (HbA1c)",
+          "HbA1c levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Body weight",
+        "Fasting plasma glucose (FPG)"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "previous weight loss attempts",
+        "calcitonin levels",
+        "personal or family history of medullary thyroid carcinoma",
+        "history of pancreatitis",
+        "history of major depressive disorder",
+        "history of suicidal attempts",
+        "pregnancy status",
+        "contraceptive use."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, History of weight loss attempts,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Glycosylated haemoglobin (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body weight",
+        "Fasting plasma glucose (FPG)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of weight loss attempts"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, HbA1c, Lipid Profile, History of Hypertension, History of Dyslipidemia, Family History of Obesity, Previous Weight Loss Attempts.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Glycosylated haemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Fasting plasma glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body weight"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Lipid Profile",
+        "History of Hypertension",
+        "History of Dyslipidemia",
+        "Family History of Obesity",
+        "Previous Weight Loss Attempts."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), HbA1c, calcitonin, history of weight loss attempts, history of pancreatitis, history of major depressive disorder, history of suicidal attempts, pregnancy status, use of contraceptive methods, use of glucose-lowering agents, use of medications that may cause significant weight change.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Glycosylated haemoglobin (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Body weight",
+        "Fasting plasma glucose (FPG)"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "calcitonin",
+        "history of weight loss attempts",
+        "history of pancreatitis",
+        "history of major depressive disorder",
+        "history of suicidal attempts",
+        "pregnancy status",
+        "use of contraceptive methods",
+        "use of glucose-lowering agents",
+        "use of medications that may cause significant weight change."
+      ]
+    }
+  }
+}

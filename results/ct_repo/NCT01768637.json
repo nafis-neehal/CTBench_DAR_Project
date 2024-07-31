@@ -1,0 +1,233 @@
+{
+  "trial_id": "NCT01768637",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, estimated glomerular filtration rate (eGFR), urinary albumin to creatinine ratio, history of recent hospitalizations, history of acute coronary or cerebrovascular events, history of surgery, presence of blood dyscrasias or active bleeding, history of gastrointestinal bleeding, concomitant use of other anti-platelet or antithrombotic drugs, recent treatment with glycoprotein antagonist or proton pump inhibitor, hematocrit level, white blood cell count, platelet count, presence of active malignancy or liver disease, diagnosis of depression, use of antidepressant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "estimated glomerular filtration rate (eGFR)",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Urine albumin to creatinine ratio",
+          "urinary albumin to creatinine ratio"
+        ],
+        [
+          "Hematocrit",
+          "hematocrit level"
+        ],
+        [
+          "Platelet count",
+          "platelet count"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Body mass index",
+        "Diabetes mellitus",
+        "Proton pump inhibitor use",
+        "Beta blocker use",
+        "Statin use",
+        "Angiotensin converting enzyme inhibitor or angiotensin receptor blocker use",
+        "Allopurinol use",
+        "Baseline use of aspirin",
+        "Hemoglobin",
+        "Glycosylated hemoglobin"
+      ],
+      "remaining_candidate_features": [
+        "history of recent hospitalizations",
+        "history of acute coronary or cerebrovascular events",
+        "history of surgery",
+        "presence of blood dyscrasias or active bleeding",
+        "history of gastrointestinal bleeding",
+        "concomitant use of other anti-platelet or antithrombotic drugs",
+        "recent treatment with glycoprotein antagonist or proton pump inhibitor",
+        "white blood cell count",
+        "presence of active malignancy or liver disease",
+        "diagnosis of depression",
+        "use of antidepressant medications"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Estimated Glomerular Filtration Rate (eGFR), Urinary Albumin to Creatinine Ratio, Hematocrit, White Blood Cell Count, Platelet Count,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "estimated glomerular filtration rate (eGFR)",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ],
+        [
+          "Urine albumin to creatinine ratio",
+          "Urinary Albumin to Creatinine Ratio"
+        ],
+        [
+          "Hematocrit",
+          "Hematocrit"
+        ],
+        [
+          "Platelet count",
+          "Platelet Count"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Body mass index",
+        "Diabetes mellitus",
+        "Proton pump inhibitor use",
+        "Beta blocker use",
+        "Statin use",
+        "Angiotensin converting enzyme inhibitor or angiotensin receptor blocker use",
+        "Allopurinol use",
+        "Baseline use of aspirin",
+        "Hemoglobin",
+        "Glycosylated hemoglobin"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "White Blood Cell Count"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Estimated Glomerular Filtration Rate, Chronic Kidney Disease Stage, Hematocrit, White Blood Cell Count, Platelet Count, History of Cardiovascular Events, History of Bleeding Complications, Use of Anti-platelet Agents, Use of Antithrombotic Drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "estimated glomerular filtration rate (eGFR)",
+          "Estimated Glomerular Filtration Rate"
+        ],
+        [
+          "Hematocrit",
+          "Hematocrit"
+        ],
+        [
+          "Platelet count",
+          "Platelet Count"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Body mass index",
+        "Diabetes mellitus",
+        "Proton pump inhibitor use",
+        "Beta blocker use",
+        "Statin use",
+        "Angiotensin converting enzyme inhibitor or angiotensin receptor blocker use",
+        "Allopurinol use",
+        "Baseline use of aspirin",
+        "Urine albumin to creatinine ratio",
+        "Hemoglobin",
+        "Glycosylated hemoglobin"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Chronic Kidney Disease Stage",
+        "White Blood Cell Count",
+        "History of Cardiovascular Events",
+        "History of Bleeding Complications",
+        "Use of Anti-platelet Agents",
+        "Use of Antithrombotic Drugs"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, estimated glomerular filtration rate, urinary albumin to creatinine ratio, hematocrit, white blood cell count, platelet count, history of acute coronary or cerebrovascular event, history of surgery, history of bleeding, presence of kidney damage, presence of liver disease, presence of malignancy, use of antidepressant medications, use of anti-platelet agents or antithrombotic drugs, use of glycoprotein antagonist or proton pump inhibitor.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "estimated glomerular filtration rate (eGFR)",
+          "estimated glomerular filtration rate"
+        ],
+        [
+          "Urine albumin to creatinine ratio",
+          "urinary albumin to creatinine ratio"
+        ],
+        [
+          "Hematocrit",
+          "hematocrit"
+        ],
+        [
+          "Platelet count",
+          "platelet count"
+        ],
+        [
+          "Proton pump inhibitor use",
+          "use of glycoprotein antagonist or proton pump inhibitor"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Body mass index",
+        "Diabetes mellitus",
+        "Beta blocker use",
+        "Statin use",
+        "Angiotensin converting enzyme inhibitor or angiotensin receptor blocker use",
+        "Allopurinol use",
+        "Baseline use of aspirin",
+        "Hemoglobin",
+        "Glycosylated hemoglobin"
+      ],
+      "remaining_candidate_features": [
+        "white blood cell count",
+        "history of acute coronary or cerebrovascular event",
+        "history of surgery",
+        "history of bleeding",
+        "presence of kidney damage",
+        "presence of liver disease",
+        "presence of malignancy",
+        "use of antidepressant medications",
+        "use of anti-platelet agents or antithrombotic drugs"
+      ]
+    }
+  }
+}

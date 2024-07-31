@@ -1,0 +1,113 @@
+{
+  "trial_id": "NCT03210220",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), American Society of Anesthesiologists (ASA) classification, Sensitivity to local anesthetic, Bleeding disorders, Use of anticoagulant, Spine or chest wall deformity, Pregnancy status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "American Society of Anesthesiologists (ASA) classification",
+        "Sensitivity to local anesthetic",
+        "Bleeding disorders",
+        "Use of anticoagulant",
+        "Spine or chest wall deformity",
+        "Pregnancy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, BMI, ASA classification, Type of breast cancer surgery, Preoperative pain score, Preoperative opioid use, Comorbidities, Smoking status, Alcohol use, Baseline anxiety/depression score",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "BMI",
+        "ASA classification",
+        "Type of breast cancer surgery",
+        "Preoperative pain score",
+        "Preoperative opioid use",
+        "Comorbidities",
+        "Smoking status",
+        "Alcohol use",
+        "Baseline anxiety/depression score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, ASA status, BMI, Type of breast cancer surgery",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "Body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "ASA status",
+        "Type of breast cancer surgery"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Sex, Body Mass Index (BMI), American Society of Anesthesiologists (ASA) classification, Type of breast cancer surgery, History of chronic pain, History of opioid use, Preoperative pain score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "American Society of Anesthesiologists (ASA) classification",
+          "American Society of Anesthesiologists (ASA) classification"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Type of breast cancer surgery",
+        "History of chronic pain",
+        "History of opioid use",
+        "Preoperative pain score"
+      ]
+    }
+  }
+}

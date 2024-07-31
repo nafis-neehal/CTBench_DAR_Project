@@ -1,0 +1,201 @@
+{
+  "trial_id": "NCT02829268",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, genetic mutation type, duration of Wolfram syndrome, baseline visual acuity, baseline beta cell function, baseline neurological function, medical history, medication history, physical exam results, neurological exam results, eye exam results, endocrine exam results, vital signs, height, weight, electrocardiogram results, blood test results, urine test results, pregnancy test results (if applicable), questionnaire responses.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Abnormal liver function test results",
+          "blood test results"
+        ],
+        [
+          "Best-corrected visual acuity in participants measured by LogMar Score",
+          "baseline visual acuity"
+        ],
+        [
+          "Neurological Functions in participants assessed by the Wolfram Unified Rating Scale (WURS)",
+          "baseline neurological function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "C-peptide levels in participants during the oral mixed meal tolerance test",
+        "Visual Functioning in participants assessed by Visual Functioning Questionnaire-25"
+      ],
+      "remaining_candidate_features": [
+        "genetic mutation type",
+        "duration of Wolfram syndrome",
+        "medical history",
+        "medication history",
+        "physical exam results",
+        "neurological exam results",
+        "eye exam results",
+        "endocrine exam results",
+        "vital signs",
+        "height",
+        "weight",
+        "electrocardiogram results",
+        "urine test results",
+        "pregnancy test results (if applicable)",
+        "questionnaire responses"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Height, Weight, Visual Acuity, Beta Cell Function, Neurological Function, Liver Function,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Abnormal liver function test results",
+          "Liver Function"
+        ],
+        [
+          "Best-corrected visual acuity in participants measured by LogMar Score",
+          "Visual Acuity"
+        ],
+        [
+          "Neurological Functions in participants assessed by the Wolfram Unified Rating Scale (WURS)",
+          "Neurological Function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "C-peptide levels in participants during the oral mixed meal tolerance test",
+        "Visual Functioning in participants assessed by Visual Functioning Questionnaire-25"
+      ],
+      "remaining_candidate_features": [
+        "Height",
+        "Weight",
+        "Beta Cell Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Genetic mutation status (WFS1 gene), Region of Enrollment, Diabetes diagnosis duration, Visual acuity, Remaining beta cell functions, Neurological functions, Height, Weight, BMI.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Visual Functioning in participants assessed by Visual Functioning Questionnaire-25",
+          "Visual acuity"
+        ],
+        [
+          "Neurological Functions in participants assessed by the Wolfram Unified Rating Scale (WURS)",
+          "Neurological functions"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Abnormal liver function test results",
+        "C-peptide levels in participants during the oral mixed meal tolerance test",
+        "Best-corrected visual acuity in participants measured by LogMar Score"
+      ],
+      "remaining_candidate_features": [
+        "Genetic mutation status (WFS1 gene)",
+        "Diabetes diagnosis duration",
+        "Remaining beta cell functions",
+        "Height",
+        "Weight",
+        "BMI."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), medical history (including diabetes mellitus, optic nerve atrophy, ataxia), medication history, WFS1 gene mutation status, visual acuity, remaining beta cell functions, neurological functions, liver function tests, electrocardiogram results, blood and urine test results.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Abnormal liver function test results",
+          "liver function tests"
+        ],
+        [
+          "Best-corrected visual acuity in participants measured by LogMar Score",
+          "visual acuity"
+        ],
+        [
+          "Neurological Functions in participants assessed by the Wolfram Unified Rating Scale (WURS)",
+          "neurological functions"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "C-peptide levels in participants during the oral mixed meal tolerance test",
+        "Visual Functioning in participants assessed by Visual Functioning Questionnaire-25"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "medical history (including diabetes mellitus, optic nerve atrophy, ataxia)",
+        "medication history",
+        "WFS1 gene mutation status",
+        "remaining beta cell functions",
+        "electrocardiogram results",
+        "blood and urine test results"
+      ]
+    }
+  }
+}

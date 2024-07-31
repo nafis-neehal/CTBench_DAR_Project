@@ -1,0 +1,142 @@
+{
+  "trial_id": "NCT03263780",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, PSA level, Gleason score, cT stage, creatinine clearance, number of positive biopsy cores, percentage of core involvement, previous local therapy for prostate cancer, ability to receive PET tracer, ability to receive MRI, extracapsular extension or seminal vesicle invasion on imaging.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "PSA level",
+        "Gleason score",
+        "cT stage",
+        "creatinine clearance",
+        "number of positive biopsy cores",
+        "percentage of core involvement",
+        "previous local therapy for prostate cancer",
+        "ability to receive PET tracer",
+        "ability to receive MRI",
+        "extracapsular extension or seminal vesicle invasion on imaging."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Prostate-Specific Antigen (PSA) Level, Gleason Score, Clinical Tumor Stage (cT1-cT2c), Estimated Creatinine Clearance, Number of Positive Biopsy Cores, Percentage of Core Involvement,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Prostate-Specific Antigen (PSA) Level",
+        "Gleason Score",
+        "Clinical Tumor Stage (cT1-cT2c)",
+        "Estimated Creatinine Clearance",
+        "Number of Positive Biopsy Cores",
+        "Percentage of Core Involvement"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, PSA, Gleason Score, Clinical T-Stage, Prostate Volume, Number of Positive Biopsy Cores, Percent of Core Involvement, Family History of Prostate Cancer.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "PSA",
+        "Gleason Score",
+        "Clinical T-Stage",
+        "Prostate Volume",
+        "Number of Positive Biopsy Cores",
+        "Percent of Core Involvement",
+        "Family History of Prostate Cancer"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, BMI, PSA level, Gleason score, prostate volume, number of positive biopsy cores, percentage of core involvement, creatinine clearance, medical history (e.g. diabetes, hypertension), smoking status, family history of prostate cancer.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "PSA level",
+        "Gleason score",
+        "prostate volume",
+        "number of positive biopsy cores",
+        "percentage of core involvement",
+        "creatinine clearance",
+        "medical history (e.g. diabetes, hypertension)",
+        "smoking status",
+        "family history of prostate cancer."
+      ]
+    }
+  }
+}

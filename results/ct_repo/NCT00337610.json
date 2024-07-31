@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT00337610",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline A1C, duration of diabetes, body mass index (BMI), fasting plasma glucose, use of other antidiabetic medications, blood pressure, lipid profile, renal function, liver function, race/ethnicity, smoking status, physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Male",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose"
+        ],
+        [
+          "Hemoglobin A1C (A1C)",
+          "baseline A1C"
+        ]
+      ],
+      "remaining_reference_features": [
+        "2-Hour Post-Meal Glucose (2 hr PMG)"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "body mass index (BMI)",
+        "use of other antidiabetic medications",
+        "blood pressure",
+        "lipid profile",
+        "renal function",
+        "liver function",
+        "smoking status",
+        "physical activity level"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline A1C, Duration of Diabetes, Body Mass Index, Fasting Plasma Glucose, Use of Oral Antidiabetic Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Hemoglobin A1C (A1C)",
+          "Baseline A1C"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "2-Hour Post-Meal Glucose (2 hr PMG)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Duration of Diabetes",
+        "Body Mass Index",
+        "Use of Oral Antidiabetic Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, HbA1c, Body Mass Index, Blood pressure, Previous cardiovascular disease (CVD) event, \n\n##Answer:\nAge, Categorical, Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Existing Cardiovascular Disease, Baseline HbA1c, Daily Insulin Dose, BMI, Blood Pressure, Total Cholesterol, eGFR, Diabetic Retinopathy, \n\n##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Objective weekly MVPA minutes, Adherence to MVPA guidelines at baseline, Objective average daily steps,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Hemoglobin A1C (A1C)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "2-Hour Post-Meal Glucose (2 hr PMG)",
+        "Fasting Plasma Glucose (FPG)"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Diabetes duration",
+        "Body Mass Index",
+        "Blood pressure",
+        "Previous cardiovascular disease (CVD) event",
+        "Categorical",
+        "Diabetes Diagnosis Duration",
+        "Existing Cardiovascular Disease",
+        "Baseline HbA1c",
+        "Daily Insulin Dose",
+        "BMI",
+        "Blood Pressure",
+        "Total Cholesterol",
+        "eGFR",
+        "Diabetic Retinopathy",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Objective weekly MVPA minutes",
+        "Adherence to MVPA guidelines at baseline",
+        "Objective average daily steps"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, hemoglobin A1C (HbA1c) at baseline, fasting plasma glucose (FPG) at baseline, systolic and diastolic blood pressure, heart rate, waist circumference, medical history (including cardiovascular disease, hypertension, dyslipidemia), current medications (including antidiabetic, antihypertensive, lipid-lowering medications), smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Male",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Hemoglobin A1C (A1C)",
+          "hemoglobin A1C (HbA1c) at baseline"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose (FPG) at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "2-Hour Post-Meal Glucose (2 hr PMG)"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "duration of diabetes",
+        "systolic and diastolic blood pressure",
+        "heart rate",
+        "waist circumference",
+        "medical history (including cardiovascular disease, hypertension, dyslipidemia)",
+        "current medications (including antidiabetic, antihypertensive, lipid-lowering medications)",
+        "smoking status",
+        "alcohol consumption"
+      ]
+    }
+  }
+}

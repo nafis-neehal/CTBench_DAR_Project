@@ -1,0 +1,193 @@
+{
+  "trial_id": "NCT00234533",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, height, weight, growth hormone deficiency status, Turner syndrome status, chronic renal insufficiency status, baseline IGF-1 levels, duration of growth hormone therapy, pubertal status, ethnicity, socioeconomic status, nutritional status, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Duration of previous Growth Hormone (GH) treatment",
+          "duration of growth hormone therapy"
+        ],
+        [
+          "Auxological Parameter - Height",
+          "height"
+        ],
+        [
+          "Auxological Parameter - Weight",
+          "weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Birth height",
+        "Birth weight",
+        "Duration of gestation",
+        "Genetic target height",
+        "Calculated genetic target height Standard Deviation Score (SDS)",
+        "Auxological Parameter - Calculated height SDS",
+        "Auxological Parameter - Calculated weight SDS",
+        "Auxological Parameter - Annualised Growth Velocity (GV)",
+        "Auxological Parameter - Calculated annualised GV SDS"
+      ],
+      "remaining_candidate_features": [
+        "growth hormone deficiency status",
+        "Turner syndrome status",
+        "chronic renal insufficiency status",
+        "baseline IGF-1 levels",
+        "pubertal status",
+        "ethnicity",
+        "socioeconomic status",
+        "nutritional status",
+        "concomitant medications"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Height, Weight, Body Mass Index, Growth Hormone Deficiency Diagnosis, Turner Syndrome Diagnosis, Chronic Renal Insufficiency Diagnosis, Baseline IGF-1 Levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Auxological Parameter - Height",
+          "Height"
+        ],
+        [
+          "Auxological Parameter - Weight",
+          "Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Birth height",
+        "Birth weight",
+        "Duration of gestation",
+        "Genetic target height",
+        "Calculated genetic target height Standard Deviation Score (SDS)",
+        "Duration of previous Growth Hormone (GH) treatment",
+        "Auxological Parameter - Calculated height SDS",
+        "Auxological Parameter - Calculated weight SDS",
+        "Auxological Parameter - Annualised Growth Velocity (GV)",
+        "Auxological Parameter - Calculated annualised GV SDS"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Growth Hormone Deficiency Diagnosis",
+        "Turner Syndrome Diagnosis",
+        "Chronic Renal Insufficiency Diagnosis",
+        "Baseline IGF-1 Levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diagnosis (Growth Hormone Deficiency, Turner Syndrome, Chronic Renal Insufficiency), Height, Weight, BMI, IGF-1 levels at baseline, GH dose at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Auxological Parameter - Height",
+          "Height"
+        ],
+        [
+          "Auxological Parameter - Weight",
+          "Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Birth height",
+        "Birth weight",
+        "Duration of gestation",
+        "Genetic target height",
+        "Calculated genetic target height Standard Deviation Score (SDS)",
+        "Duration of previous Growth Hormone (GH) treatment",
+        "Auxological Parameter - Calculated height SDS",
+        "Auxological Parameter - Calculated weight SDS",
+        "Auxological Parameter - Annualised Growth Velocity (GV)",
+        "Auxological Parameter - Calculated annualised GV SDS"
+      ],
+      "remaining_candidate_features": [
+        "Diagnosis (Growth Hormone Deficiency, Turner Syndrome, Chronic Renal Insufficiency)",
+        "BMI",
+        "IGF-1 levels at baseline",
+        "GH dose at baseline."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, body mass index (BMI), diagnosis (Turner syndrome, renal insufficiency, pituitary diseases, dwarfism), duration of growth hormone deficiency, previous growth hormone treatment, Tanner stage, pubertal status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Auxological Parameter - Height",
+          "height"
+        ],
+        [
+          "Auxological Parameter - Weight",
+          "weight"
+        ],
+        [
+          "Duration of previous Growth Hormone (GH) treatment",
+          "previous growth hormone treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Birth height",
+        "Birth weight",
+        "Duration of gestation",
+        "Genetic target height",
+        "Calculated genetic target height Standard Deviation Score (SDS)",
+        "Auxological Parameter - Calculated height SDS",
+        "Auxological Parameter - Calculated weight SDS",
+        "Auxological Parameter - Annualised Growth Velocity (GV)",
+        "Auxological Parameter - Calculated annualised GV SDS"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "diagnosis (Turner syndrome, renal insufficiency, pituitary diseases, dwarfism)",
+        "duration of growth hormone deficiency",
+        "Tanner stage",
+        "pubertal status"
+      ]
+    }
+  }
+}

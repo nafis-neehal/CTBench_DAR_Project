@@ -1,0 +1,171 @@
+{
+  "trial_id": "NCT05204134",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 1 diabetes, total daily insulin dose, type of insulin used, A1c level, history of severe hypoglycemia, history of diabetic ketoacidosis, current glucagon product availability, presence of significant chronic kidney disease, presence of significant liver disease, history of adrenal insufficiency, thyroid function status, use of glucocorticoids, use of beta blockers, use of long-acting insulin, use of inhaled insulin, use of non-insulin glucose-lowering agents, pregnancy status, psychiatric treatment history, history of drug or alcohol abuse.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "HbA1c at Enrollment",
+          "A1c level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 1 diabetes",
+        "total daily insulin dose",
+        "type of insulin used",
+        "history of severe hypoglycemia",
+        "history of diabetic ketoacidosis",
+        "current glucagon product availability",
+        "presence of significant chronic kidney disease",
+        "presence of significant liver disease",
+        "history of adrenal insufficiency",
+        "thyroid function status",
+        "use of glucocorticoids",
+        "use of beta blockers",
+        "use of long-acting insulin",
+        "use of inhaled insulin",
+        "use of non-insulin glucose-lowering agents",
+        "pregnancy status",
+        "psychiatric treatment history",
+        "history of drug or alcohol abuse"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Total Daily Insulin Dose, Frequency of Severe Hypoglycemia, Frequency of Diabetic Ketoacidosis,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "HbA1c at Enrollment",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "Total Daily Insulin Dose",
+        "Frequency of Severe Hypoglycemia",
+        "Frequency of Diabetic Ketoacidosis"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, Insulin dose, HbA1c, BMI, Blood pressure, Total cholesterol, Triglycerides, History of severe hypoglycemia, History of diabetic ketoacidosis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "HbA1c at Enrollment",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Diabetes duration",
+        "Insulin dose",
+        "BMI",
+        "Blood pressure",
+        "Total cholesterol",
+        "Triglycerides",
+        "History of severe hypoglycemia",
+        "History of diabetic ketoacidosis"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, duration of type 1 diabetes, A1c, total daily insulin dose, body mass index (BMI), history of severe hypoglycemia, history of diabetic ketoacidosis, presence of microvascular or macrovascular complications, use of concomitant medications, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "HbA1c at Enrollment",
+          "A1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 1 diabetes",
+        "total daily insulin dose",
+        "body mass index (BMI)",
+        "history of severe hypoglycemia",
+        "history of diabetic ketoacidosis",
+        "presence of microvascular or macrovascular complications",
+        "use of concomitant medications",
+        "smoking status"
+      ]
+    }
+  }
+}

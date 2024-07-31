@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT03101514",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, Karnofsky score, tumor location, radiotherapy dose, induction chemotherapy cycles, hemoglobin level, white blood cell count, neutrophil count, platelet count, creatinine level, ALT level, AST level, alkaline phosphatase level, total bilirubin level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Nutritional status",
+          "hemoglobin level"
+        ],
+        [
+          "Quality of life specific to head and neck cancers",
+          "Karnofsky score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Overall quality of life (QOL)"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "tumor location",
+        "radiotherapy dose",
+        "induction chemotherapy cycles",
+        "white blood cell count",
+        "neutrophil count",
+        "platelet count",
+        "creatinine level",
+        "ALT level",
+        "AST level",
+        "alkaline phosphatase level",
+        "total bilirubin level"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Karnofsky score, Hemoglobin, White blood cell count, Neutrophil count, Platelet count, Creatinine, ALT, AST, Alkaline phosphatase, Total bilirubin, Type of head and neck cancer, Radiotherapy dose, Induction chemotherapy cycles,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Nutritional status",
+        "Quality of life specific to head and neck cancers",
+        "Overall quality of life (QOL)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Karnofsky score",
+        "Hemoglobin",
+        "White blood cell count",
+        "Neutrophil count",
+        "Platelet count",
+        "Creatinine",
+        "ALT",
+        "AST",
+        "Alkaline phosphatase",
+        "Total bilirubin",
+        "Type of head and neck cancer",
+        "Radiotherapy dose",
+        "Induction chemotherapy cycles"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Karnofsky score, Region of Enrollment, Tumor site, Tumor stage, Radiotherapy dose, Chemotherapy, Hemoglobin, White blood cells, Neutrophils, Platelets, Creatinine, ALT, AST, Alkaline phosphatase, Total bilirubin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Nutritional status",
+        "Quality of life specific to head and neck cancers",
+        "Overall quality of life (QOL)"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky score",
+        "Tumor site",
+        "Tumor stage",
+        "Radiotherapy dose",
+        "Chemotherapy",
+        "Hemoglobin",
+        "White blood cells",
+        "Neutrophils",
+        "Platelets",
+        "Creatinine",
+        "ALT",
+        "AST",
+        "Alkaline phosphatase",
+        "Total bilirubin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, Karnofsky score, tumor location, tumor stage, radiotherapy dose, chemotherapy regimen, hemoglobin, white blood cells, neutrophils, platelets, creatinine, ALT, AST, alkaline phosphatase, total bilirubin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Nutritional status",
+          "hemoglobin"
+        ],
+        [
+          "Quality of life specific to head and neck cancers",
+          "Karnofsky score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Overall quality of life (QOL)"
+      ],
+      "remaining_candidate_features": [
+        "tumor location",
+        "tumor stage",
+        "radiotherapy dose",
+        "chemotherapy regimen",
+        "white blood cells",
+        "neutrophils",
+        "platelets",
+        "creatinine",
+        "ALT",
+        "AST",
+        "alkaline phosphatase",
+        "total bilirubin"
+      ]
+    }
+  }
+}

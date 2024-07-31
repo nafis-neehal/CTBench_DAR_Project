@@ -1,0 +1,132 @@
+{
+  "trial_id": "NCT03574441",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, history of chronic pain conditions, history of allergies to adhesive tape or dressings, presence of preexisting sensory neurologic deficits, type of epidural catheter dressing used, incidence of cesarean section, presence of intrathecal catheters.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Gestational age"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "history of chronic pain conditions",
+        "history of allergies to adhesive tape or dressings",
+        "presence of preexisting sensory neurologic deficits",
+        "type of epidural catheter dressing used",
+        "incidence of cesarean section",
+        "presence of intrathecal catheters."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Type of Epidural Dressing, Preexisting Sensory Neurologic Deficits, Chronic Pain Conditions, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Gestational age"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Type of Epidural Dressing",
+        "Preexisting Sensory Neurologic Deficits",
+        "Chronic Pain Conditions"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Body Mass Index, Gravidity, Parity, Gestational Age, Previous cesarean section, Previous epidural analgesia, Back pain at enrollment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Gestational age",
+          "Gestational Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Gravidity",
+        "Parity",
+        "Previous cesarean section",
+        "Previous epidural analgesia",
+        "Back pain at enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Body Mass Index (BMI), parity, gestational age, height, weight, ethnicity, race, obstetric history (e.g., previous cesarean section, previous epidural), medical history (e.g., hypertension, diabetes), current medications, ASA physical status classification.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age",
+          "gestational age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index (BMI)",
+        "parity",
+        "height",
+        "weight",
+        "ethnicity",
+        "obstetric history (e.g., previous cesarean section, previous epidural)",
+        "medical history (e.g., hypertension, diabetes)",
+        "current medications",
+        "ASA physical status classification."
+      ]
+    }
+  }
+}

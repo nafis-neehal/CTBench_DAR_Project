@@ -1,0 +1,261 @@
+{
+  "trial_id": "NCT02846779",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, baseline HbA1c, body mass index (BMI), baseline insulin dose, comorbidities, socioeconomic status, medication adherence history, health insurance status, baseline fasting blood glucose levels, race/ethnicity, education level, employment status, smoking status, alcohol use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Hemoglobin A1c",
+          "baseline HbA1c"
+        ],
+        [
+          "Race and Ethnicity Not Collected",
+          "race/ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "At least 1 HbA1c value available",
+        "Short or rapid-acting insulin use",
+        "Number of basal insulin claims",
+        "Use of adjunct oral hypoglycemic",
+        "Hypoglycemia",
+        "Ketoacidosis",
+        "Retinopathy",
+        "Nephropathy",
+        "Neuropathy",
+        "Coronary artery disease",
+        "Hypertension",
+        "Hyperlipidemia",
+        "Congestive heart failure",
+        "Stroke/Transient ischemic attack",
+        "Obesity",
+        "Asthma/COPD",
+        "Cancer",
+        "Liver Disease",
+        "Chronic Kidney Disease",
+        "Depression",
+        "Dementia",
+        "Acute Stress",
+        "Days hospitalized",
+        "Number of Hospitalizations",
+        "Number of Office visits"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "body mass index (BMI)",
+        "baseline insulin dose",
+        "comorbidities",
+        "socioeconomic status",
+        "medication adherence history",
+        "health insurance status",
+        "baseline fasting blood glucose levels",
+        "education level",
+        "employment status",
+        "smoking status",
+        "alcohol use."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Gender, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Basal Insulin Use, Health Insurance Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c",
+          "Baseline HbA1c"
+        ],
+        [
+          "At least 1 HbA1c value available",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Short or rapid-acting insulin use",
+        "Number of basal insulin claims",
+        "Use of adjunct oral hypoglycemic",
+        "Hypoglycemia",
+        "Ketoacidosis",
+        "Retinopathy",
+        "Nephropathy",
+        "Neuropathy",
+        "Coronary artery disease",
+        "Hypertension",
+        "Hyperlipidemia",
+        "Congestive heart failure",
+        "Stroke/Transient ischemic attack",
+        "Obesity",
+        "Asthma/COPD",
+        "Cancer",
+        "Liver Disease",
+        "Chronic Kidney Disease",
+        "Depression",
+        "Dementia",
+        "Acute Stress",
+        "Days hospitalized",
+        "Number of Hospitalizations",
+        "Number of Office visits"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Race/Ethnicity",
+        "Basal Insulin Use",
+        "Health Insurance Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gender, Insurance Type, Diabetes Type, Duration of Diabetes, Basal Insulin Prescription, HbA1c, Blood Pressure, Cholesterol, BMI, Region of Enrollment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "At least 1 HbA1c value available",
+          "HbA1c"
+        ],
+        [
+          "Number of basal insulin claims",
+          "Basal Insulin Prescription"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Hemoglobin A1c",
+        "Short or rapid-acting insulin use",
+        "Use of adjunct oral hypoglycemic",
+        "Hypoglycemia",
+        "Ketoacidosis",
+        "Retinopathy",
+        "Nephropathy",
+        "Neuropathy",
+        "Coronary artery disease",
+        "Hypertension",
+        "Hyperlipidemia",
+        "Congestive heart failure",
+        "Stroke/Transient ischemic attack",
+        "Obesity",
+        "Asthma/COPD",
+        "Cancer",
+        "Liver Disease",
+        "Chronic Kidney Disease",
+        "Depression",
+        "Dementia",
+        "Acute Stress",
+        "Days hospitalized",
+        "Number of Hospitalizations",
+        "Number of Office visits"
+      ],
+      "remaining_candidate_features": [
+        "Insurance Type",
+        "Diabetes Type",
+        "Duration of Diabetes",
+        "Blood Pressure",
+        "Cholesterol",
+        "BMI"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, duration of diabetes, type of diabetes, insulin regimen, HbA1c level, BMI, blood pressure, lipid profile, comorbidities, medication adherence, health insurance type, duration of continuous enrollment, number of prescriptions for basal insulin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race and Ethnicity Not Collected",
+          "race"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c level"
+        ],
+        [
+          "At least 1 HbA1c value available",
+          "HbA1c level"
+        ],
+        [
+          "Number of basal insulin claims",
+          "number of prescriptions for basal insulin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Short or rapid-acting insulin use",
+        "Use of adjunct oral hypoglycemic",
+        "Hypoglycemia",
+        "Ketoacidosis",
+        "Retinopathy",
+        "Nephropathy",
+        "Neuropathy",
+        "Coronary artery disease",
+        "Hypertension",
+        "Hyperlipidemia",
+        "Congestive heart failure",
+        "Stroke/Transient ischemic attack",
+        "Obesity",
+        "Asthma/COPD",
+        "Cancer",
+        "Liver Disease",
+        "Chronic Kidney Disease",
+        "Depression",
+        "Dementia",
+        "Acute Stress",
+        "Days hospitalized",
+        "Number of Hospitalizations",
+        "Number of Office visits"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "duration of diabetes",
+        "type of diabetes",
+        "insulin regimen",
+        "BMI",
+        "blood pressure",
+        "lipid profile",
+        "comorbidities",
+        "medication adherence",
+        "health insurance type"
+      ]
+    }
+  }
+}

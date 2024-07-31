@@ -1,0 +1,217 @@
+{
+  "trial_id": "NCT02813421",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, basal/bolus insulin regimen, frequency of capillary blood glucose tests per day, willingness to wear CGM, informed consent status, comorbid conditions, glucocorticoid use, concurrent medication use, prior CGM use, skin condition at CGM placement site, language proficiency.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Duration of Diabetes (years)",
+          "duration of diabetes"
+        ],
+        [
+          "Frequency of Blood Glucose Monitoring (times/day)",
+          "frequency of capillary blood glucose tests per day"
+        ],
+        [
+          "Daily Basal Insulin (%=percentage of total daily insulin dose that is used for basal insulin)",
+          "basal/bolus insulin regimen"
+        ],
+        [
+          "Comorbid conditions",
+          "comorbid conditions"
+        ],
+        [
+          "Glucocorticoid use",
+          "glucocorticoid use"
+        ],
+        [
+          "Concurrent use of other medications that may affect glycemic control",
+          "concurrent medication use"
+        ],
+        [
+          "Prior CGM use in the past 6 months",
+          "prior CGM use"
+        ],
+        [
+          "The participant has any skin abnormality (e.g. psoriasis, rash, staphylococcus infection) in the area of iPro\u00ae2 placement that has not been resolved at the time of enrollment and would inhibit the participant from wearing the iPro\u00ae2.",
+          "skin condition at CGM placement site"
+        ],
+        [
+          "Non-English or non-Spanish speaking",
+          "language proficiency"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "BMI",
+        "Tanner Stage",
+        "Hemoglobin A1c (%)",
+        "Mean glucose (mg/dL)",
+        "Age of Diagnosis (years)",
+        "Daily Insulin dose (u/kg/day)",
+        "Episodes of DKA",
+        "Population total number of episodes of significant hypoglycemia"
+      ],
+      "remaining_candidate_features": [
+        "willingness to wear CGM",
+        "informed consent status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Diabetes Duration, Basal/Bolus Insulin Regimen, Frequency of Capillary Blood Glucose Tests, Willingness to Wear CGM, Compliance with Study Protocol,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Duration of Diabetes (years)",
+          "Diabetes Duration"
+        ],
+        [
+          "Frequency of Blood Glucose Monitoring (times/day)",
+          "Frequency of Capillary Blood Glucose Tests"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "BMI",
+        "Tanner Stage",
+        "Hemoglobin A1c (%)",
+        "Mean glucose (mg/dL)",
+        "Age of Diagnosis (years)",
+        "Daily Insulin dose (u/kg/day)",
+        "Daily Basal Insulin (%=percentage of total daily insulin dose that is used for basal insulin)",
+        "Episodes of DKA",
+        "Population total number of episodes of significant hypoglycemia"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Basal/Bolus Insulin Regimen",
+        "Willingness to Wear CGM",
+        "Compliance with Study Protocol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Diabetes Duration, Insulin Dose, HbA1c, BMI, Blood Pressure, Total Daily Dose of Insulin, Number of Injections per Day,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Duration of Diabetes (years)",
+          "Diabetes Duration"
+        ],
+        [
+          "Hemoglobin A1c (%)",
+          "HbA1c"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Daily Insulin dose (u/kg/day)",
+          "Insulin Dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Tanner Stage",
+        "Mean glucose (mg/dL)",
+        "Frequency of Blood Glucose Monitoring (times/day)",
+        "Age of Diagnosis (years)",
+        "Daily Basal Insulin (%=percentage of total daily insulin dose that is used for basal insulin)",
+        "Episodes of DKA",
+        "Population total number of episodes of significant hypoglycemia"
+      ],
+      "remaining_candidate_features": [
+        "Blood Pressure",
+        "Total Daily Dose of Insulin",
+        "Number of Injections per Day"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, duration of diabetes, type of insulin regimen, average daily insulin dose, HbA1c, body mass index (BMI), blood pressure, lipid profile, history of diabetic ketoacidosis, presence of microvascular complications, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Duration of Diabetes (years)",
+          "duration of diabetes"
+        ],
+        [
+          "Daily Insulin dose (u/kg/day)",
+          "average daily insulin dose"
+        ],
+        [
+          "Hemoglobin A1c (%)",
+          "HbA1c"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Episodes of DKA",
+          "history of diabetic ketoacidosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Tanner Stage",
+        "Mean glucose (mg/dL)",
+        "Frequency of Blood Glucose Monitoring (times/day)",
+        "Age of Diagnosis (years)",
+        "Daily Basal Insulin (%=percentage of total daily insulin dose that is used for basal insulin)",
+        "Population total number of episodes of significant hypoglycemia"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure",
+        "lipid profile",
+        "presence of microvascular complications",
+        "smoking status"
+      ]
+    }
+  }
+}

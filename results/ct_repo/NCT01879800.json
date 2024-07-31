@@ -1,0 +1,159 @@
+{
+  "trial_id": "NCT01879800",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, vascular risk factors (hypertension, diabetes mellitus or impaired fasting glucose, dyslipidemia, obesity), baseline depression score (PHQ-8), baseline anxiety score (GAD-7), baseline quality of life score (WHOQOL-Physical), language proficiency (English speaking).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Categorical",
+          "vascular risk factors (hypertension, diabetes mellitus or impaired fasting glucose, dyslipidemia, obesity)"
+        ],
+        [
+          "On Antidepressant medication",
+          "baseline depression score (PHQ-8)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Completed College",
+        "Employed"
+      ],
+      "remaining_candidate_features": [
+        "baseline anxiety score (GAD-7)",
+        "baseline quality of life score (WHOQOL-Physical)",
+        "language proficiency (English speaking)."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Blood Pressure, Diabetes Status, Cholesterol Levels, Body Mass Index, Depression Score (PHQ-8), Anxiety Score (GAD-7), ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Completed College",
+        "Employed",
+        "On Antidepressant medication"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Blood Pressure",
+        "Diabetes Status",
+        "Cholesterol Levels",
+        "Body Mass Index",
+        "Depression Score (PHQ-8)",
+        "Anxiety Score (GAD-7)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Vascular disease risk factors, Depression symptoms, Anxiety symptoms, Blood pressure, Blood glucose, Lipid profile, Body Mass Index, Illness self-management, Quality of life.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Completed College",
+        "Employed",
+        "On Antidepressant medication"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Vascular disease risk factors",
+        "Depression symptoms",
+        "Anxiety symptoms",
+        "Blood pressure",
+        "Blood glucose",
+        "Lipid profile",
+        "Body Mass Index",
+        "Illness self-management",
+        "Quality of life."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, employment status, marital status, body mass index (BMI), smoking status, medical comorbidities (hypertension, diabetes, hypercholesterolemia), medication use, PHQ-8 score, GAD-7 score, illness duration, number of vascular risk factors.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Completed College",
+          "education level"
+        ],
+        [
+          "Employed",
+          "employment status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "On Antidepressant medication"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "marital status",
+        "body mass index (BMI)",
+        "smoking status",
+        "medical comorbidities (hypertension, diabetes, hypercholesterolemia)",
+        "medication use",
+        "PHQ-8 score",
+        "GAD-7 score",
+        "illness duration",
+        "number of vascular risk factors."
+      ]
+    }
+  }
+}

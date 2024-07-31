@@ -1,0 +1,193 @@
+{
+  "trial_id": "NCT05061992",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, liver biopsy status, history of cirrhosis complications, ultrasound/CT/MRI findings, Fibroscan liver stiffness score, APRI score, presence of esophageal varices, hemoglobin A1C level, prior lactulose use, history of hepatic encephalopathy, pregnancy status, language proficiency, cognitive status, history of liver transplant, presence of metastatic solid malignancy or blood malignancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Short Form-8 Health Survey (SF-8)",
+          "Short Form-8 Health Survey (SF-8)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Animal Naming Test",
+        "Sleep Quality",
+        "Activity Impairment",
+        "Participants Who Fell in Past 90 Days"
+      ],
+      "remaining_candidate_features": [
+        "liver biopsy status",
+        "history of cirrhosis complications",
+        "ultrasound/CT/MRI findings",
+        "Fibroscan liver stiffness score",
+        "APRI score",
+        "presence of esophageal varices",
+        "hemoglobin A1C level",
+        "prior lactulose use",
+        "history of hepatic encephalopathy",
+        "pregnancy status",
+        "language proficiency",
+        "cognitive status",
+        "history of liver transplant",
+        "presence of metastatic solid malignancy or blood malignancy."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis of cirrhosis, History of cirrhosis complication, Ultrasound/CT/MRI findings, Fibroscan liver stiffness score, Laboratory testing (AST/platelet ratio index), Presence of esophageal varices, Hemoglobin A1C,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Short Form-8 Health Survey (SF-8)",
+        "Animal Naming Test",
+        "Sleep Quality",
+        "Activity Impairment",
+        "Participants Who Fell in Past 90 Days"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diagnosis of cirrhosis",
+        "History of cirrhosis complication",
+        "Ultrasound/CT/MRI findings",
+        "Fibroscan liver stiffness score",
+        "Laboratory testing (AST/platelet ratio index)",
+        "Presence of esophageal varices",
+        "Hemoglobin A1C"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cirrhosis diagnosis duration, Child-Pugh score, Model for End-Stage Liver Disease (MELD) score, Presence of ascites, Presence of esophageal varices, History of variceal bleeding, History of hepatic encephalopathy, SF-8 score at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Short Form-8 Health Survey (SF-8)",
+          "SF-8 score at baseline."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Animal Naming Test",
+        "Sleep Quality",
+        "Activity Impairment",
+        "Participants Who Fell in Past 90 Days"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Cirrhosis diagnosis duration",
+        "Child-Pugh score",
+        "Model for End-Stage Liver Disease (MELD) score",
+        "Presence of ascites",
+        "Presence of esophageal varices",
+        "History of variceal bleeding",
+        "History of hepatic encephalopathy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), cirrhosis etiology, duration of cirrhosis, presence of ascites, variceal bleeding, or hepatic encephalopathy, liver biopsy results, ultrasound/CT/MRI findings, Fibroscan liver stiffness score, APRI score, presence of esophageal varices, hemoglobin A1C, history of lactulose use, history of HE, history of liver transplant, history of malignancy, cognitive function at baseline, sleep quality at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Short Form-8 Health Survey (SF-8)",
+          "Short Form-8 Health Survey (SF-8)"
+        ],
+        [
+          "Sleep Quality",
+          "sleep quality at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Animal Naming Test",
+        "Activity Impairment",
+        "Participants Who Fell in Past 90 Days"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "cirrhosis etiology",
+        "duration of cirrhosis",
+        "presence of ascites",
+        "variceal bleeding",
+        "or hepatic encephalopathy",
+        "liver biopsy results",
+        "ultrasound/CT/MRI findings",
+        "Fibroscan liver stiffness score",
+        "APRI score",
+        "presence of esophageal varices",
+        "hemoglobin A1C",
+        "history of lactulose use",
+        "history of HE",
+        "history of liver transplant",
+        "history of malignancy",
+        "cognitive function at baseline"
+      ]
+    }
+  }
+}

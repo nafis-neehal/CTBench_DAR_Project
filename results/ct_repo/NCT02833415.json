@@ -1,0 +1,173 @@
+{
+  "trial_id": "NCT02833415",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, Body Mass Index (BMI), Visceral Adipose Tissue (VAT) volume, History of abdominal fat quantification, Presence of type 2 diabetes mellitus, Kidney function, Liver function, Frequency of urinary tract infections, Blood donation history, Ability to give informed consent, Tolerance to MRI, Presence of metal implants, Claustrophobia status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Visceral Fat",
+          "Visceral Adipose Tissue (VAT) volume"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Hemoglobin A1C"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "History of abdominal fat quantification",
+        "Presence of type 2 diabetes mellitus",
+        "Kidney function",
+        "Liver function",
+        "Frequency of urinary tract infections",
+        "Blood donation history",
+        "Ability to give informed consent",
+        "Tolerance to MRI",
+        "Presence of metal implants",
+        "Claustrophobia status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Visceral Adipose Tissue Volume, Liver Fat Content, Fasting Plasma Glucose, Insulin Sensitivity, Systolic Blood Pressure, Diastolic Blood Pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Visceral Fat",
+          "Visceral Adipose Tissue Volume"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Hemoglobin A1C"
+      ],
+      "remaining_candidate_features": [
+        "Liver Fat Content",
+        "Fasting Plasma Glucose",
+        "Insulin Sensitivity",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Visceral Adipose Tissue, Waist Circumference, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Triglycerides, HDL Cholesterol, LDL Cholesterol.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Visceral Fat",
+          "Visceral Adipose Tissue"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Hemoglobin A1C"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Waist Circumference",
+        "Fasting Plasma Glucose",
+        "Diastolic Blood Pressure",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, body weight, visceral adipose tissue (VAT) measurement, history of type 2 diabetes mellitus, chronic kidney disease, chronic liver disease, history of urinary tract infections, blood donation history, presence of metal implants, claustrophobia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Visceral Fat",
+          "visceral adipose tissue (VAT) measurement"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Hemoglobin A1C"
+      ],
+      "remaining_candidate_features": [
+        "body weight",
+        "history of type 2 diabetes mellitus",
+        "chronic kidney disease",
+        "chronic liver disease",
+        "history of urinary tract infections",
+        "blood donation history",
+        "presence of metal implants",
+        "claustrophobia."
+      ]
+    }
+  }
+}

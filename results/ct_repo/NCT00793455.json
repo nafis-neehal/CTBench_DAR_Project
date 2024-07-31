@@ -1,0 +1,154 @@
+{
+  "trial_id": "NCT00793455",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, socioeconomic status, education level, health insurance status, baseline health status, previous colorectal cancer screening history, physician's recommendation date, time since last screening order, primary care provider, significant life stress indicators.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Insurance Status",
+          "health insurance status"
+        ],
+        [
+          "Colorectal Cancer (CRC) screening history",
+          "previous colorectal cancer screening history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Number of visits in past 2 years"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "socioeconomic status",
+        "education level",
+        "baseline health status",
+        "physician's recommendation date",
+        "time since last screening order",
+        "primary care provider",
+        "significant life stress indicators."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Time since screening order, Type of screening test ordered, Socioeconomic status, Education level, Health literacy, Access to healthcare,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of visits in past 2 years",
+        "Colorectal Cancer (CRC) screening history",
+        "Insurance Status"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Time since screening order",
+        "Type of screening test ordered",
+        "Socioeconomic status",
+        "Education level",
+        "Health literacy",
+        "Access to healthcare"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Primary Care Physician, Colorectal Cancer Screening Order Date, Previous Colorectal Cancer Screening History, Life Stress Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Colorectal Cancer (CRC) screening history",
+          "Previous Colorectal Cancer Screening History"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of visits in past 2 years",
+        "Insurance Status"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Primary Care Physician",
+        "Colorectal Cancer Screening Order Date",
+        "Life Stress Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, income, occupation, marital status, smoking status, body mass index (BMI), medical comorbidities, prior cancer screening history, time since screening order, type of screening test ordered.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Colorectal Cancer (CRC) screening history",
+          "prior cancer screening history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Number of visits in past 2 years",
+        "Insurance Status"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "ethnicity",
+        "education level",
+        "income",
+        "occupation",
+        "marital status",
+        "smoking status",
+        "body mass index (BMI)",
+        "medical comorbidities",
+        "time since screening order",
+        "type of screening test ordered."
+      ]
+    }
+  }
+}

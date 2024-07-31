@@ -1,0 +1,182 @@
+{
+  "trial_id": "NCT00283244",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG Performance Status, Absolute Neutrophil Count (ANC), platelet count, hemoglobin level, aspartate aminotransferase (AST) level, alanine aminotransferase (ALT) level, alkaline phosphatase level, total bilirubin level, serum creatinine level, prior treatment history, presence of brain metastases, measurable disease status by RECIST criteria, ability to give informed consent.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Cancer Stage (TNM)",
+        "Smoking history",
+        "Histology",
+        "Cumulative Illness Rating scale for Geriatrics (CIRS-G)"
+      ],
+      "remaining_candidate_features": [
+        "Absolute Neutrophil Count (ANC)",
+        "platelet count",
+        "hemoglobin level",
+        "aspartate aminotransferase (AST) level",
+        "alanine aminotransferase (ALT) level",
+        "alkaline phosphatase level",
+        "total bilirubin level",
+        "serum creatinine level",
+        "prior treatment history",
+        "presence of brain metastases",
+        "measurable disease status by RECIST criteria",
+        "ability to give informed consent."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Absolute Neutrophil Count (ANC), Platelet Count, Hemoglobin Level, Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), Alkaline Phosphatase, Total Bilirubin, Serum Creatinine, Prior Chemotherapy, Presence of Brain Metastases, Measurable Disease by RECIST Criteria,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Cancer Stage (TNM)",
+        "Smoking history",
+        "Histology",
+        "Cumulative Illness Rating scale for Geriatrics (CIRS-G)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Absolute Neutrophil Count (ANC)",
+        "Platelet Count",
+        "Hemoglobin Level",
+        "Aspartate Aminotransferase (AST)",
+        "Alanine Aminotransferase (ALT)",
+        "Alkaline Phosphatase",
+        "Total Bilirubin",
+        "Serum Creatinine",
+        "Prior Chemotherapy",
+        "Presence of Brain Metastases",
+        "Measurable Disease by RECIST Criteria"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histologic or cytologic diagnosis of stage NSCLC, Absolute Neutrophil Count, Platelets, Hemoglobin, Aspartate aminotransferase, Alanine aminotransferase, Alkaline phosphatase, Total Bilirubin, Serum Creatinine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Histology",
+          "Histologic or cytologic diagnosis of stage NSCLC"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Cancer Stage (TNM)",
+        "Smoking history",
+        "Cumulative Illness Rating scale for Geriatrics (CIRS-G)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Absolute Neutrophil Count",
+        "Platelets",
+        "Hemoglobin",
+        "Aspartate aminotransferase",
+        "Alanine aminotransferase",
+        "Alkaline phosphatase",
+        "Total Bilirubin",
+        "Serum Creatinine."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ECOG Performance Status, histologic diagnosis, stage of NSCLC, absolute neutrophil count, platelet count, hemoglobin, aspartate aminotransferase, alanine aminotransferase, alkaline phosphatase, total bilirubin, serum creatinine, prior treatment in adjuvant or neoadjuvant setting, presence of brain metastases, measurable disease by RECIST criteria.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Histology",
+          "histologic diagnosis"
+        ],
+        [
+          "Cancer Stage (TNM)",
+          "stage of NSCLC"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Smoking history",
+        "Cumulative Illness Rating scale for Geriatrics (CIRS-G)"
+      ],
+      "remaining_candidate_features": [
+        "absolute neutrophil count",
+        "platelet count",
+        "hemoglobin",
+        "aspartate aminotransferase",
+        "alanine aminotransferase",
+        "alkaline phosphatase",
+        "total bilirubin",
+        "serum creatinine",
+        "prior treatment in adjuvant or neoadjuvant setting",
+        "presence of brain metastases",
+        "measurable disease by RECIST criteria."
+      ]
+    }
+  }
+}

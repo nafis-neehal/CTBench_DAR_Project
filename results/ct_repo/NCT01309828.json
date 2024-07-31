@@ -1,0 +1,245 @@
+{
+  "trial_id": "NCT01309828",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, baseline systolic blood pressure, baseline diastolic blood pressure, estimated glomerular filtration rate (eGFR), history of myocardial infarction, history of heart failure, history of unstable angina, history of coronary artery bypass graft, history of percutaneous coronary intervention, history of hypertensive encephalopathy, history of cerebrovascular accident, history of transient ischemic attack, presence of cardiac conduction defects, presence of left ventricular outflow obstruction, presence of renal artery stenosis, history of cancer, glycosylated hemoglobin A (HbA1c) level, serum potassium level, alanine aminotransferase level, aspartate aminotransferase level, history of drug abuse, history of alcohol abuse, pregnancy status, lactation status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Systolic blood pressure",
+          "baseline systolic blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "baseline diastolic blood pressure"
+        ],
+        [
+          "Estimated glomerular filtration rate (eGFR)",
+          "estimated glomerular filtration rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Weight",
+        "Height",
+        "Body Mass Index (BMI)",
+        "Smoking Classification",
+        "Diabetes Status",
+        "Baseline estimated glomerular filtration rate (eGFR) category",
+        "Systolic blood pressure categories",
+        "Diastolic blood pressure categories"
+      ],
+      "remaining_candidate_features": [
+        "history of myocardial infarction",
+        "history of heart failure",
+        "history of unstable angina",
+        "history of coronary artery bypass graft",
+        "history of percutaneous coronary intervention",
+        "history of hypertensive encephalopathy",
+        "history of cerebrovascular accident",
+        "history of transient ischemic attack",
+        "presence of cardiac conduction defects",
+        "presence of left ventricular outflow obstruction",
+        "presence of renal artery stenosis",
+        "history of cancer",
+        "glycosylated hemoglobin A (HbA1c) level",
+        "serum potassium level",
+        "alanine aminotransferase level",
+        "aspartate aminotransferase level",
+        "history of drug abuse",
+        "history of alcohol abuse",
+        "pregnancy status",
+        "lactation status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR), Glycosylated Hemoglobin (HbA1c), Serum Potassium, Alanine Aminotransferase (ALT), Aspartate Aminotransferase (AST), History of Cardiovascular Events, Duration of Hypertension,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Estimated glomerular filtration rate (eGFR)",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Weight",
+        "Height",
+        "Smoking Classification",
+        "Diabetes Status",
+        "Baseline estimated glomerular filtration rate (eGFR) category",
+        "Systolic blood pressure categories",
+        "Diastolic blood pressure categories"
+      ],
+      "remaining_candidate_features": [
+        "Glycosylated Hemoglobin (HbA1c)",
+        "Serum Potassium",
+        "Alanine Aminotransferase (ALT)",
+        "Aspartate Aminotransferase (AST)",
+        "History of Cardiovascular Events",
+        "Duration of Hypertension"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, History of Hypertension, History of Kidney Disease, Number of Antihypertensive Medications, Duration of Hypertension, Duration of Kidney Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Estimated glomerular filtration rate (eGFR)",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Height",
+        "Smoking Classification",
+        "Diabetes Status",
+        "Baseline estimated glomerular filtration rate (eGFR) category",
+        "Systolic blood pressure categories",
+        "Diastolic blood pressure categories"
+      ],
+      "remaining_candidate_features": [
+        "History of Hypertension",
+        "History of Kidney Disease",
+        "Number of Antihypertensive Medications",
+        "Duration of Hypertension",
+        "Duration of Kidney Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, estimated glomerular filtration rate (eGFR), history of hypertension, history of kidney disease, number of antihypertensive medications, type of antihypertensive medications, duration of hypertension, duration of kidney disease, smoking status, alcohol consumption, medical history (including myocardial infarction, heart failure, unstable angina, coronary artery bypass graft, percutaneous coronary intervention, hypertensive encephalopathy, cerebrovascular accident, transient ischemic attack).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Systolic blood pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "diastolic blood pressure"
+        ],
+        [
+          "Estimated glomerular filtration rate (eGFR)",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Smoking Classification",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Weight",
+        "Height",
+        "Baseline estimated glomerular filtration rate (eGFR) category",
+        "Systolic blood pressure categories",
+        "Diastolic blood pressure categories",
+        "Diabetes Status"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "history of hypertension",
+        "history of kidney disease",
+        "number of antihypertensive medications",
+        "type of antihypertensive medications",
+        "duration of hypertension",
+        "duration of kidney disease",
+        "alcohol consumption",
+        "medical history (including myocardial infarction, heart failure, unstable angina, coronary artery bypass graft, percutaneous coronary intervention, hypertensive encephalopathy, cerebrovascular accident, transient ischemic attack)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "trial_id": "NCT04010227",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type of gastrointestinal cancer, stage of cancer, duration since diagnosis, level of fatigue interference, functional status, psychiatric or cognitive status, phone service availability, hearing ability, caregiver relationship to patient, caregiver burden or distress level, caregiver cohabitation status, frequency of caregiver visits, caregiver age, caregiver psychiatric or cognitive status, caregiver phone service availability, caregiver hearing ability.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Type of gastrointestinal cancer",
+          "type of gastrointestinal cancer"
+        ],
+        [
+          "Time since gastrointestinal cancer diagnosis",
+          "duration since diagnosis"
+        ],
+        [
+          "Fatigue Interference Subscale of Fatigue Symptom Inventory",
+          "level of fatigue interference"
+        ],
+        [
+          "Caregiver's relationship to the patient",
+          "caregiver relationship to patient"
+        ],
+        [
+          "Caregiver lives with the patient",
+          "caregiver cohabitation status"
+        ],
+        [
+          "Short-Form of Zarit Burden Interview",
+          "caregiver burden or distress level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Education",
+        "Household income",
+        "Chemotherapy",
+        "Radiation",
+        "Chemoradiation",
+        "Surgery to remove primary tumor",
+        "Surgery to remove metastases",
+        "Targeted Therapy"
+      ],
+      "remaining_candidate_features": [
+        "stage of cancer",
+        "functional status",
+        "psychiatric or cognitive status",
+        "phone service availability",
+        "hearing ability",
+        "frequency of caregiver visits",
+        "caregiver age",
+        "caregiver psychiatric or cognitive status",
+        "caregiver phone service availability",
+        "caregiver hearing ability"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Type, Stage of Cancer, Fatigue Interference, Caregiver Burden,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Fatigue Interference Subscale of Fatigue Symptom Inventory",
+          "Fatigue Interference"
+        ],
+        [
+          "Short-Form of Zarit Burden Interview",
+          "Caregiver Burden"
+        ],
+        [
+          "Type of gastrointestinal cancer",
+          "Cancer Type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Education",
+        "Household income",
+        "Caregiver's relationship to the patient",
+        "Caregiver lives with the patient",
+        "Time since gastrointestinal cancer diagnosis",
+        "Chemotherapy",
+        "Radiation",
+        "Chemoradiation",
+        "Surgery to remove primary tumor",
+        "Surgery to remove metastases",
+        "Targeted Therapy"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Stage of Cancer"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Diagnosis, Cancer Stage, Fatigue Interference Subscale of Fatigue Symptom Inventory, Short-form of Zarit Burden Interview, Caregiver Burden, Caregiver Distress, Patient Functional Status, Caregiver Age, Caregiver Sex, Caregiver Relationship to Patient.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Fatigue Interference Subscale of Fatigue Symptom Inventory",
+          "Fatigue Interference Subscale of Fatigue Symptom Inventory"
+        ],
+        [
+          "Short-Form of Zarit Burden Interview",
+          "Short-form of Zarit Burden Interview"
+        ],
+        [
+          "Caregiver's relationship to the patient",
+          "Caregiver Relationship to Patient"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Education",
+        "Household income",
+        "Caregiver lives with the patient",
+        "Type of gastrointestinal cancer",
+        "Time since gastrointestinal cancer diagnosis",
+        "Chemotherapy",
+        "Radiation",
+        "Chemoradiation",
+        "Surgery to remove primary tumor",
+        "Surgery to remove metastases",
+        "Targeted Therapy"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Cancer Diagnosis",
+        "Cancer Stage",
+        "Caregiver Burden",
+        "Caregiver Distress",
+        "Patient Functional Status",
+        "Caregiver Age",
+        "Caregiver Sex"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, cancer type, cancer stage, time since diagnosis, functional status, psychiatric history, cognitive impairment, hearing impairment, phone service availability, caregiver relationship, caregiver burden, caregiver distress, living arrangement, language proficiency.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Fatigue Interference Subscale of Fatigue Symptom Inventory",
+          "functional status"
+        ],
+        [
+          "Short-Form of Zarit Burden Interview",
+          "caregiver burden"
+        ],
+        [
+          "Caregiver's relationship to the patient",
+          "caregiver relationship"
+        ],
+        [
+          "Caregiver lives with the patient",
+          "living arrangement"
+        ],
+        [
+          "Type of gastrointestinal cancer",
+          "cancer type"
+        ],
+        [
+          "Time since gastrointestinal cancer diagnosis",
+          "time since diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Education",
+        "Household income",
+        "Chemotherapy",
+        "Radiation",
+        "Chemoradiation",
+        "Surgery to remove primary tumor",
+        "Surgery to remove metastases",
+        "Targeted Therapy"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "cancer stage",
+        "psychiatric history",
+        "cognitive impairment",
+        "hearing impairment",
+        "phone service availability",
+        "caregiver distress",
+        "language proficiency"
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "trial_id": "NCT00283686",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Baseline GFR, Blood Pressure, Diagnosis of ADPKD, Serum Potassium Levels, Urine Albumin-to-Creatinine Ratio, Fasting Serum Glucose, Random Non-Fasting Glucose, History of Hypertension Treatment, History of Diabetes, History of Renal Vascular Disease, History of Angioneurotic Edema, Use of ACE-I or ARB, Use of \u03b2-blocker or Calcium Channel Blocker, Systemic Illness, History of Acute Illness, Life Expectancy, History of Non-Compliance, Presence of Cerebral Aneurysm, Use of Creatine Supplements, Congenital Absence of a Kidney, Known Allergies, Exclusions for MRI.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Chronic Kidney Disease Epidemiology Collaboration (CKD EPI) eGFR (ml/min/m2)",
+          "Baseline GFR"
+        ],
+        [
+          "Age at Diagnosis of autosomal dominant polycystic kidney disease (ADPKD)",
+          "Diagnosis of ADPKD"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Body Mass Index (kg/m2)",
+        "Serum Creatinine (mg/dl)",
+        "PKD Genotype"
+      ],
+      "remaining_candidate_features": [
+        "Blood Pressure",
+        "Serum Potassium Levels",
+        "Urine Albumin-to-Creatinine Ratio",
+        "Fasting Serum Glucose",
+        "Random Non-Fasting Glucose",
+        "History of Hypertension Treatment",
+        "History of Diabetes",
+        "History of Renal Vascular Disease",
+        "History of Angioneurotic Edema",
+        "Use of ACE-I or ARB",
+        "Use of \u03b2-blocker or Calcium Channel Blocker",
+        "Systemic Illness",
+        "History of Acute Illness",
+        "Life Expectancy",
+        "History of Non-Compliance",
+        "Presence of Cerebral Aneurysm",
+        "Use of Creatine Supplements",
+        "Congenital Absence of a Kidney",
+        "Known Allergies",
+        "Exclusions for MRI."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline GFR, Blood Pressure, Serum Potassium, Urine Albumin-to-Creatinine Ratio, Diabetes Status, Use of ACE-I or ARB, History of Hypertension,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Chronic Kidney Disease Epidemiology Collaboration (CKD EPI) eGFR (ml/min/m2)",
+          "Baseline GFR"
+        ],
+        [
+          "Serum Potassium",
+          "Serum Potassium"
+        ],
+        [
+          "Urine Albumin-to-Creatinine Ratio",
+          "Urine Albumin-to-Creatinine Ratio"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age at Diagnosis of autosomal dominant polycystic kidney disease (ADPKD)",
+        "Body Mass Index (kg/m2)",
+        "Serum Creatinine (mg/dl)",
+        "PKD Genotype"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Blood Pressure",
+        "Diabetes Status",
+        "Use of ACE-I or ARB",
+        "History of Hypertension"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate, Diagnosis of Autosomal Dominant Polycystic Kidney Disease, Total Kidney Volume, Urinary Albumin-to-Creatinine Ratio.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (kg/m2)",
+          "Body Mass Index"
+        ],
+        [
+          "Chronic Kidney Disease Epidemiology Collaboration (CKD EPI) eGFR (ml/min/m2)",
+          "Estimated Glomerular Filtration Rate"
+        ],
+        [
+          "Age at Diagnosis of autosomal dominant polycystic kidney disease (ADPKD)",
+          "Diagnosis of Autosomal Dominant Polycystic Kidney Disease"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Serum Creatinine (mg/dl)",
+        "PKD Genotype"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Kidney Volume",
+        "Urinary Albumin-to-Creatinine Ratio."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic and diastolic blood pressure, estimated glomerular filtration rate (eGFR), serum creatinine, potassium levels, presence of hypertension, diabetes, and cardiovascular disease, smoking status, family history of ADPKD, and prior kidney disease-related interventions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body Mass Index (kg/m2)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Serum Creatinine (mg/dl)",
+          "serum creatinine"
+        ],
+        [
+          "Chronic Kidney Disease Epidemiology Collaboration (CKD EPI) eGFR (ml/min/m2)",
+          "estimated glomerular filtration rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Age at Diagnosis of autosomal dominant polycystic kidney disease (ADPKD)",
+        "PKD Genotype"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "systolic and diastolic blood pressure",
+        "potassium levels",
+        "presence of hypertension",
+        "diabetes",
+        "and cardiovascular disease",
+        "smoking status",
+        "family history of ADPKD",
+        "and prior kidney disease-related interventions."
+      ]
+    }
+  }
+}

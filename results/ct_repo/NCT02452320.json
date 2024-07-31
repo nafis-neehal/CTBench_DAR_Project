@@ -1,0 +1,173 @@
+{
+  "trial_id": "NCT02452320",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Baseline pain score, Baseline nausea and vomiting score, Baseline quality of recovery score, Comorbidities, Medication history, Smoking status, Alcohol consumption, Renal function (creatinine clearance), Liver function tests (AST and ALT), Surgical history, Duration of surgery, Type of anesthesia used.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Alcohol consumption > 3 drinks/day",
+          "Alcohol consumption"
+        ],
+        [
+          "Renal impairment (creatinine clearance (CrCl) \u2264 30mL/min adjusted for obesity)",
+          "Renal function (creatinine clearance)"
+        ],
+        [
+          "Abnormal LFTs (AST and ALT) >2x local upper limits of normal",
+          "Liver function tests (AST and ALT)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Height (cm)",
+        "Weight (kg)"
+      ],
+      "remaining_candidate_features": [
+        "Baseline pain score",
+        "Baseline nausea and vomiting score",
+        "Baseline quality of recovery score",
+        "Comorbidities",
+        "Medication history",
+        "Smoking status",
+        "Surgical history",
+        "Duration of surgery",
+        "Type of anesthesia used."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline Liver Function Tests (AST, ALT), Baseline Renal Function (Creatinine Clearance), Alcohol Consumption,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Height (cm)",
+        "Weight (kg)"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Liver Function Tests (AST, ALT)",
+        "Baseline Renal Function (Creatinine Clearance)",
+        "Alcohol Consumption"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Type of Surgery, History of Nausea and Vomiting, History of Pain, History of Opioid Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Height (cm)",
+        "Weight (kg)"
+      ],
+      "remaining_candidate_features": [
+        "Type of Surgery",
+        "History of Nausea and Vomiting",
+        "History of Pain",
+        "History of Opioid Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, ethnicity, smoking status, alcohol consumption, medical history (obesity-related comorbidities), surgical history, medications (analgesics, anti-emetics), ASA physical status classification, duration of surgery, anesthesia type.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Weight (kg)",
+          "weight"
+        ],
+        [
+          "Height (cm)",
+          "height"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "smoking status",
+        "alcohol consumption",
+        "medical history (obesity-related comorbidities)",
+        "surgical history",
+        "medications (analgesics, anti-emetics)",
+        "ASA physical status classification",
+        "duration of surgery",
+        "anesthesia type."
+      ]
+    }
+  }
+}

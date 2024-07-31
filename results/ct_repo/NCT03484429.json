@@ -1,0 +1,227 @@
+{
+  "trial_id": "NCT03484429",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Type of amputation (transfemoral or transtibial), Duration since amputation, Baseline pain score, Beck Depression Inventory score, Presence of systemic infection, Immunocompromised status, Use of immunosuppressive medications, Presence of implanted electronic device, Pregnancy status, Allergy history to skin contact materials and/or anesthetic agent, Mental status, Ability to provide informed consent.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Level of Amputation",
+          "Type of amputation (transfemoral or transtibial)"
+        ],
+        [
+          "Beck Depression Inventory score greater than 20",
+          "Beck Depression Inventory score"
+        ],
+        [
+          "Systemic infection",
+          "Presence of systemic infection"
+        ],
+        [
+          "Immunocompromised or taking immunosuppressive medications",
+          "Immunocompromised status"
+        ],
+        [
+          "Immunocompromised or taking immunosuppressive medications",
+          "Use of immunosuppressive medications"
+        ],
+        [
+          "Implanted electronic device",
+          "Presence of implanted electronic device"
+        ],
+        [
+          "Pregnancy",
+          "Pregnancy status"
+        ],
+        [
+          "Previous allergy to skin contact materials and/or anesthetic agent",
+          "Allergy history to skin contact materials and/or anesthetic agent"
+        ],
+        [
+          "Altered mental status",
+          "Mental status"
+        ],
+        [
+          "Inability to provide informed consent",
+          "Ability to provide informed consent."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Perineural Catheter Infusion",
+        "Taking Opioids Preoperatively",
+        "Indication for Surgery"
+      ],
+      "remaining_candidate_features": [
+        "Duration since amputation",
+        "Baseline pain score"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Amputation (Transfemoral or Transtibial), Duration of Postamputation Pain, Baseline Phantom Limb Pain Score, Baseline Residual Limb Pain Score, Beck Depression Inventory Score, Use of Pain Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Level of Amputation",
+          "Type of Amputation (Transfemoral or Transtibial)"
+        ],
+        [
+          "Taking Opioids Preoperatively",
+          "Use of Pain Medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Perineural Catheter Infusion",
+        "Indication for Surgery"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Postamputation Pain",
+        "Baseline Phantom Limb Pain Score",
+        "Baseline Residual Limb Pain Score",
+        "Beck Depression Inventory Score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Amputation Level, Time Since Amputation, Baseline Phantom Limb Pain Score, Baseline Residual Limb Pain Score, Beck Depression Inventory Score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Level of Amputation",
+          "Amputation Level"
+        ],
+        [
+          "Beck Depression Inventory score greater than 20",
+          "Beck Depression Inventory Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Perineural Catheter Infusion",
+        "Taking Opioids Preoperatively",
+        "Indication for Surgery"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Time Since Amputation",
+        "Baseline Phantom Limb Pain Score",
+        "Baseline Residual Limb Pain Score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), type of amputation (transfemoral or transtibial), duration of postamputation pain, Beck Depression Inventory score, presence of systemic infection, immunocompromised status, presence of implanted electronic device, history of allergy to skin contact materials and/or anesthetic agent, altered mental status, ability to provide informed consent.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race and Ethnicity Not Collected",
+          "race"
+        ],
+        [
+          "Race and Ethnicity Not Collected",
+          "ethnicity"
+        ],
+        [
+          "Level of Amputation",
+          "type of amputation (transfemoral or transtibial)"
+        ],
+        [
+          "Beck Depression Inventory score greater than 20",
+          "Beck Depression Inventory score"
+        ],
+        [
+          "Systemic infection",
+          "presence of systemic infection"
+        ],
+        [
+          "Immunocompromised or taking immunosuppressive medications",
+          "immunocompromised status"
+        ],
+        [
+          "Implanted electronic device",
+          "presence of implanted electronic device"
+        ],
+        [
+          "Previous allergy to skin contact materials and/or anesthetic agent",
+          "history of allergy to skin contact materials and/or anesthetic agent"
+        ],
+        [
+          "Altered mental status",
+          "altered mental status"
+        ],
+        [
+          "Inability to provide informed consent",
+          "ability to provide informed consent."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Perineural Catheter Infusion",
+        "Taking Opioids Preoperatively",
+        "Indication for Surgery"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of postamputation pain"
+      ]
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT02322320",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline disease characteristics, prior treatments, performance status, comorbidities, duration of multiple myeloma, cytogenetic risk status, renal function, liver function, hematologic parameters, prior response to therapy, baseline quality of life scores.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Karnofsky Performance Score (KPS)",
+          "performance status"
+        ],
+        [
+          "Diseae Risk at BMT CTN 0702 Enrollment",
+          "baseline disease characteristics"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "prior treatments",
+        "comorbidities",
+        "duration of multiple myeloma",
+        "cytogenetic risk status",
+        "renal function",
+        "liver function",
+        "hematologic parameters",
+        "prior response to therapy",
+        "baseline quality of life scores."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Previous treatment history, Duration of initial response, Baseline disease characteristics, Performance status, Hemoglobin levels, Platelet count, Creatinine levels, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Karnofsky Performance Score (KPS)",
+          "Performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Diseae Risk at BMT CTN 0702 Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Previous treatment history",
+        "Duration of initial response",
+        "Baseline disease characteristics",
+        "Hemoglobin levels",
+        "Platelet count",
+        "Creatinine levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Multiple Myeloma Diagnosis Duration, Prior Autologous Transplant, Prior Lenalidomide Maintenance Therapy, Baseline M-Protein, Baseline Hemoglobin, Baseline Platelet Count, Baseline Creatinine, Baseline Beta-2 Microglobulin, Baseline Albumin, Baseline LDH, Baseline ISS Stage, Baseline R-ISS Stage, Baseline Cytogenetic Risk Category.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Karnofsky Performance Score (KPS)",
+        "Diseae Risk at BMT CTN 0702 Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Multiple Myeloma Diagnosis Duration",
+        "Prior Autologous Transplant",
+        "Prior Lenalidomide Maintenance Therapy",
+        "Baseline M-Protein",
+        "Baseline Hemoglobin",
+        "Baseline Platelet Count",
+        "Baseline Creatinine",
+        "Baseline Beta-2 Microglobulin",
+        "Baseline Albumin",
+        "Baseline LDH",
+        "Baseline ISS Stage",
+        "Baseline R-ISS Stage",
+        "Baseline Cytogenetic Risk Category"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), performance status, multiple myeloma stage, prior therapies, time from diagnosis to randomization, hematological parameters (e.g., hemoglobin, platelet count, white blood cell count), serum creatinine, serum lactate dehydrogenase (LDH), beta-2 microglobulin, albumin, presence of extramedullary disease, cytogenetic abnormalities, International Staging System (ISS) stage, Revised ISS (R-ISS) stage.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Karnofsky Performance Score (KPS)",
+          "performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Diseae Risk at BMT CTN 0702 Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "multiple myeloma stage",
+        "prior therapies",
+        "time from diagnosis to randomization",
+        "hematological parameters (e.g., hemoglobin, platelet count, white blood cell count)",
+        "serum creatinine",
+        "serum lactate dehydrogenase (LDH)",
+        "beta-2 microglobulin",
+        "albumin",
+        "presence of extramedullary disease",
+        "cytogenetic abnormalities",
+        "International Staging System (ISS) stage",
+        "Revised ISS (R-ISS) stage"
+      ]
+    }
+  }
+}

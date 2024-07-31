@@ -1,0 +1,172 @@
+{
+  "trial_id": "NCT01163721",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), baseline HbA1c, duration of type 2 diabetes mellitus (T2DM), non-insulin antidiabetic therapy, physical activity level, fasting serum glucose, postprandial serum glucose, history of cardiovascular events, history of hypoglycemia, blood pressure, use of weight loss medication, history of major surgery, hospitalization history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Glycosylated hemoglobin (HbA1c)",
+          "baseline HbA1c"
+        ],
+        [
+          "2-hour Postprandial Glucose",
+          "postprandial serum glucose"
+        ],
+        [
+          "Fasting Serum Glucose",
+          "fasting serum glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "body mass index (BMI)",
+        "duration of type 2 diabetes mellitus (T2DM)",
+        "non-insulin antidiabetic therapy",
+        "physical activity level",
+        "history of cardiovascular events",
+        "history of hypoglycemia",
+        "blood pressure",
+        "use of weight loss medication",
+        "history of major surgery",
+        "hospitalization history"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Baseline Fasting Serum Glucose, Baseline Postprandial Serum Glucose, Non-insulin Antidiabetic Therapy, Physical Activity Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Glycosylated hemoglobin (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "2-hour Postprandial Glucose",
+          "Baseline Postprandial Serum Glucose"
+        ],
+        [
+          "Fasting Serum Glucose",
+          "Baseline Fasting Serum Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Body Mass Index",
+        "Duration of Diabetes",
+        "Non-insulin Antidiabetic Therapy",
+        "Physical Activity Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Fasting Serum Glucose, 2-hour Postprandial Serum Glucose, Diabetes duration, Non-insulin antidiabetic therapy, History of cardiovascular event.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Glycosylated hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "2-hour Postprandial Glucose",
+          "2-hour Postprandial Serum Glucose"
+        ],
+        [
+          "Fasting Serum Glucose",
+          "Fasting Serum Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Diabetes duration",
+        "Non-insulin antidiabetic therapy",
+        "History of cardiovascular event."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, type and duration of non-insulin antidiabetic therapy, HbA1c at screening, fasting serum glucose at screening, 2-hour postprandial serum glucose at screening, systolic and diastolic blood pressure, heart rate, history of cardiovascular disease, history of hypertension, history of hypoglycemia, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Glycosylated hemoglobin (HbA1c)",
+          "HbA1c at screening"
+        ],
+        [
+          "2-hour Postprandial Glucose",
+          "2-hour postprandial serum glucose at screening"
+        ],
+        [
+          "Fasting Serum Glucose",
+          "fasting serum glucose at screening"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "ethnicity",
+        "body mass index (BMI)",
+        "duration of type 2 diabetes mellitus",
+        "type and duration of non-insulin antidiabetic therapy",
+        "systolic and diastolic blood pressure",
+        "heart rate",
+        "history of cardiovascular disease",
+        "history of hypertension",
+        "history of hypoglycemia",
+        "smoking status"
+      ]
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "trial_id": "NCT04657003",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, Race, Ethnicity, HbA1c, BMI, Duration of Type 2 Diabetes, Current Diabetes Medications, History of Dietary Efforts to Lose Weight, Baseline Body Weight, Blood Pressure, Fasting Blood Glucose, Lipid Profile, History of Pancreatitis, History of Thyroid Carcinoma, History of Major Depressive Disorder, History of Suicide Attempts",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ],
+        [
+          "Weight",
+          "Baseline Body Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c",
+        "BMI",
+        "Duration of Type 2 Diabetes",
+        "Current Diabetes Medications",
+        "History of Dietary Efforts to Lose Weight",
+        "Blood Pressure",
+        "Fasting Blood Glucose",
+        "Lipid Profile",
+        "History of Pancreatitis",
+        "History of Thyroid Carcinoma",
+        "History of Major Depressive Disorder",
+        "History of Suicide Attempts"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Type 2 Diabetes, Previous Weight Loss Attempts, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Blood Glucose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Baseline HbA1c",
+        "Duration of Type 2 Diabetes",
+        "Previous Weight Loss Attempts",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Blood Glucose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Diabetes Duration, History of Unsuccessful Dietary Efforts, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "HbA1c",
+        "Diabetes Duration",
+        "History of Unsuccessful Dietary Efforts",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, HbA1c, type 2 diabetes duration, history of unsuccessful dietary efforts to lose body weight, current diabetes treatment, fasting SMBG values, history of diabetic retinopathy, history of pancreatitis, history of major depressive disorder, history of suicide attempt.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "HbA1c",
+        "type 2 diabetes duration",
+        "history of unsuccessful dietary efforts to lose body weight",
+        "current diabetes treatment",
+        "fasting SMBG values",
+        "history of diabetic retinopathy",
+        "history of pancreatitis",
+        "history of major depressive disorder",
+        "history of suicide attempt"
+      ]
+    }
+  }
+}

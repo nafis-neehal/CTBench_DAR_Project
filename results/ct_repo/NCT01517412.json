@@ -1,0 +1,221 @@
+{
+  "trial_id": "NCT01517412",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, duration of type 2 diabetes mellitus, baseline HbA1c, baseline fasting plasma glucose, body mass index (BMI), body weight, metformin dose, baseline alanine aminotransferase (ALT) levels, baseline amylase levels, baseline lipase levels, baseline calcitonin levels, history of pancreatitis, family history of medullary thyroid cancer (MTC).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race",
+          "race/ethnicity"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes mellitus"
+        ],
+        [
+          "HbA1c",
+          "baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "baseline fasting plasma glucose"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Metformin Daily Dose",
+          "metformin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity",
+        "Number of Participants with Categorical Body Mass Index (BMI)",
+        "Average 7-point Self-monitored Plasma Glucose (SMPG)",
+        "Randomization Strata of Main Meal of the Day"
+      ],
+      "remaining_candidate_features": [
+        "body weight",
+        "baseline alanine aminotransferase (ALT) levels",
+        "baseline amylase levels",
+        "baseline lipase levels",
+        "baseline calcitonin levels",
+        "history of pancreatitis",
+        "family history of medullary thyroid cancer (MTC)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Fasting Plasma Glucose, Body Mass Index, Duration of Diabetes, Daily Metformin Dose, Systolic Blood Pressure, Diastolic Blood Pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race",
+          "Race/Ethnicity"
+        ],
+        [
+          "HbA1c",
+          "Baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Metformin Daily Dose",
+          "Daily Metformin Dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "Number of Participants with Categorical Body Mass Index (BMI)",
+        "Average 7-point Self-monitored Plasma Glucose (SMPG)",
+        "Randomization Strata of Main Meal of the Day"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Metformin Dose, History of Hypertension, History of Hyperlipidemia,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes Duration"
+        ],
+        [
+          "Metformin Daily Dose",
+          "Metformin Dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Number of Participants with Categorical Body Mass Index (BMI)",
+        "Average 7-point Self-monitored Plasma Glucose (SMPG)",
+        "Randomization Strata of Main Meal of the Day"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "History of Hypertension",
+        "History of Hyperlipidemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, metformin dose, HbA1c at baseline, fasting plasma glucose at baseline, 7-point self-monitored plasma glucose profiles at baseline, body weight at baseline, history of hypertension, history of cardiovascular disease, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c",
+          "HbA1c at baseline"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose at baseline"
+        ],
+        [
+          "Average 7-point Self-monitored Plasma Glucose (SMPG)",
+          "7-point self-monitored plasma glucose profiles at baseline"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "Metformin Daily Dose",
+          "metformin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of Participants with Categorical Body Mass Index (BMI)",
+        "Randomization Strata of Main Meal of the Day"
+      ],
+      "remaining_candidate_features": [
+        "body weight at baseline",
+        "history of hypertension",
+        "history of cardiovascular disease",
+        "smoking status"
+      ]
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "trial_id": "NCT00373425",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Smoking status, Stage of NSCLC, EGFR mutation status, Type of surgery, Use of adjuvant chemotherapy, Performance status, Comorbidities, Previous cancer history, Time from surgery to start of study drug, Baseline lung function, Baseline heart function, Baseline gastrointestinal function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Cigarette Smoking History",
+          "Smoking status"
+        ],
+        [
+          "Extent of Disease at Diagnosis",
+          "Stage of NSCLC"
+        ],
+        [
+          "Epidermal Growth Factor Receptor (EGFR) Mutation Status",
+          "EGFR mutation status"
+        ],
+        [
+          "Adjuvant Chemotherapy",
+          "Use of adjuvant chemotherapy"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "Performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Histology",
+        "EGFR Gene Amplification"
+      ],
+      "remaining_candidate_features": [
+        "Type of surgery",
+        "Comorbidities",
+        "Previous cancer history",
+        "Time from surgery to start of study drug",
+        "Baseline lung function",
+        "Baseline heart function",
+        "Baseline gastrointestinal function"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Smoking Status, Tumor Stage, Histology Type, EGFR Mutation Status, Prior Chemotherapy, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Histology",
+          "Histology Type"
+        ],
+        [
+          "Adjuvant Chemotherapy",
+          "Prior Chemotherapy"
+        ],
+        [
+          "Epidermal Growth Factor Receptor (EGFR) Mutation Status",
+          "EGFR Mutation Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+        "Cigarette Smoking History",
+        "Extent of Disease at Diagnosis",
+        "EGFR Gene Amplification"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Smoking Status",
+        "Tumor Stage"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Smoking History, Histology, Pathological Stage, EGFR Mutation Status, Adjuvant Chemotherapy, Time from Surgery to Randomization,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Cigarette Smoking History",
+          "Smoking History"
+        ],
+        [
+          "Histology",
+          "Histology"
+        ],
+        [
+          "Adjuvant Chemotherapy",
+          "Adjuvant Chemotherapy"
+        ],
+        [
+          "Epidermal Growth Factor Receptor (EGFR) Mutation Status",
+          "EGFR Mutation Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+        "Extent of Disease at Diagnosis",
+        "EGFR Gene Amplification"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Pathological Stage",
+        "Time from Surgery to Randomization"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, smoking history, ECOG performance status, tumor stage, tumor histology, EGFR mutation status, prior chemotherapy, number of chemotherapy cycles, time from surgery to randomization, surgical procedure type.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Cigarette Smoking History",
+          "smoking history"
+        ],
+        [
+          "Histology",
+          "tumor histology"
+        ],
+        [
+          "Adjuvant Chemotherapy",
+          "prior chemotherapy"
+        ],
+        [
+          "Epidermal Growth Factor Receptor (EGFR) Mutation Status",
+          "EGFR mutation status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Extent of Disease at Diagnosis",
+        "EGFR Gene Amplification"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "tumor stage",
+        "number of chemotherapy cycles",
+        "time from surgery to randomization",
+        "surgical procedure type"
+      ]
+    }
+  }
+}

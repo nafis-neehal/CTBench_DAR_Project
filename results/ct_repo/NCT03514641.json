@@ -1,0 +1,239 @@
+{
+  "trial_id": "NCT03514641",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, seated systolic blood pressure (SBP), seated diastolic blood pressure (DBP), number of anti-hypertensive medications, mean 24-hour systolic blood pressure (SBP), history of type 1 diabetes mellitus, history of secondary or malignant hypertension, history of genitourinary tract infections, history of cancer, history of alcohol or illicit drug abuse, history of myocardial infarction, stroke or hospitalization for heart failure, previous exposure to bexagliflozin or EGT0001474, history of hypertensive emergency, history of sodium glucose linked transporter 2 (SGLT2) inhibitor treatment, known intolerance or allergy to SGLT2 inhibitors, pregnancy status, participation in another interventional trial, arm circumference, history of kidney transplant, liver function tests (total bilirubin, alkaline phosphatase, alanine aminotransferase (ALT), aspartate aminotransferase (AST)), estimated glomerular filtration rate (eGFR), HbA1c, urine pregnancy test results.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate (eGFR) Mean",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Ambulatory Blood Pressure Monitoring (ABPM) at baseline",
+          "mean 24-hour systolic blood pressure (SBP)"
+        ],
+        [
+          "Office seated SBP and DBP at baseline",
+          "seated systolic blood pressure (SBP)"
+        ],
+        [
+          "Office seated SBP and DBP at baseline",
+          "seated diastolic blood pressure (DBP)"
+        ],
+        [
+          "Use of any antihypertension medication",
+          "number of anti-hypertensive medications"
+        ],
+        [
+          "History of Diabetes",
+          "history of type 1 diabetes mellitus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Body Mass Index",
+        "Body Weight at Baseline"
+      ],
+      "remaining_candidate_features": [
+        "history of secondary or malignant hypertension",
+        "history of genitourinary tract infections",
+        "history of cancer",
+        "history of alcohol or illicit drug abuse",
+        "history of myocardial infarction",
+        "stroke or hospitalization for heart failure",
+        "previous exposure to bexagliflozin or EGT0001474",
+        "history of hypertensive emergency",
+        "history of sodium glucose linked transporter 2 (SGLT2) inhibitor treatment",
+        "known intolerance or allergy to SGLT2 inhibitors",
+        "pregnancy status",
+        "participation in another interventional trial",
+        "arm circumference",
+        "history of kidney transplant",
+        "liver function tests (total bilirubin, alkaline phosphatase, alanine aminotransferase (ALT), aspartate aminotransferase (AST))",
+        "HbA1c",
+        "urine pregnancy test results"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, eGFR, Number of antihypertensive medications, 24-hour mean systolic blood pressure, 24-hour mean diastolic blood pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate (eGFR) Mean",
+          "eGFR"
+        ],
+        [
+          "Use of any antihypertension medication",
+          "Number of antihypertensive medications"
+        ],
+        [
+          "Office seated SBP and DBP at baseline",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Office seated SBP and DBP at baseline",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Ambulatory Blood Pressure Monitoring (ABPM) at baseline",
+          "24-hour mean systolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Body Weight at Baseline",
+        "History of Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "HbA1c",
+        "24-hour mean diastolic blood pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Number of Anti-Hypertensive Medications, HbA1c, eGFR, History of Diabetes, History of Cardiovascular Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "History of Diabetes",
+          "History of Diabetes"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate (eGFR) Mean",
+          "eGFR"
+        ],
+        [
+          "Office seated SBP and DBP at baseline",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Office seated SBP and DBP at baseline",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Use of any antihypertension medication",
+          "Number of Anti-Hypertensive Medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Body Weight at Baseline",
+        "Ambulatory Blood Pressure Monitoring (ABPM) at baseline"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "History of Hypertension",
+        "HbA1c",
+        "History of Cardiovascular Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), office seated systolic blood pressure (SBP), office seated diastolic blood pressure (DBP), mean 24-hour SBP, mean 24-hour DBP, number of anti-hypertensive medications, duration of hypertension, history of diabetes, history of cardiovascular disease, smoking status, estimated glomerular filtration rate (eGFR), hemoglobin A1c (HbA1c), liver function tests (total bilirubin, alkaline phosphatase, alanine aminotransferase (ALT), aspartate aminotransferase (AST)).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "History of Diabetes",
+          "history of diabetes"
+        ],
+        [
+          "Use of any antihypertension medication",
+          "number of anti-hypertensive medications"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate (eGFR) Mean",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Ambulatory Blood Pressure Monitoring (ABPM) at baseline",
+          "mean 24-hour SBP"
+        ],
+        [
+          "Office seated SBP and DBP at baseline",
+          "office seated systolic blood pressure (SBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Body Weight at Baseline"
+      ],
+      "remaining_candidate_features": [
+        "mean 24-hour DBP",
+        "duration of hypertension",
+        "history of cardiovascular disease",
+        "smoking status",
+        "hemoglobin A1c (HbA1c)",
+        "liver function tests (total bilirubin, alkaline phosphatase, alanine aminotransferase (ALT), aspartate aminotransferase (AST))"
+      ]
+    }
+  }
+}

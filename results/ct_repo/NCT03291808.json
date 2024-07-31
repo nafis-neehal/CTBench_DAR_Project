@@ -1,0 +1,201 @@
+{
+  "trial_id": "NCT03291808",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, asthma control test score, frequency of rescue inhaler use, frequency of nocturnal asthma awakenings, history of emergency department/hospital visits for asthma, history of prednisone use for asthma, internet access, completion of asthma diary cards, completion of weight loss diary cards.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Asthma Control Test (ACT)",
+          "asthma control test score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Forced Expiratory Vital Capacity %",
+        "Forced Vital Capacity %",
+        "Forced Expiratory Vital Capacity/Forced vital capacity",
+        "Asthma Symptom Utility Index",
+        "ASUI",
+        "Marks Asthma Quality of Life Questionnaire",
+        "Standard Brief activity survey (SBAS)",
+        "SF-36 Short form Survey Instrument",
+        "Impact of Weight on Quality of Life-Lite",
+        "Treatment Motivation and Readiness (TRE-MORE)",
+        "Systemic corticosteroids"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "BMI",
+        "frequency of rescue inhaler use",
+        "frequency of nocturnal asthma awakenings",
+        "history of emergency department/hospital visits for asthma",
+        "history of prednisone use for asthma",
+        "internet access",
+        "completion of asthma diary cards",
+        "completion of weight loss diary cards"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Asthma Control Test Score, Use of rescue inhaler, Nocturnal asthma awakening frequency, Emergency Department/hospital visit for asthma, Prednisone course for asthma,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Asthma Control Test (ACT)",
+          "Asthma Control Test Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Forced Expiratory Vital Capacity %",
+        "Forced Vital Capacity %",
+        "Forced Expiratory Vital Capacity/Forced vital capacity",
+        "Asthma Symptom Utility Index",
+        "ASUI",
+        "Marks Asthma Quality of Life Questionnaire",
+        "Standard Brief activity survey (SBAS)",
+        "SF-36 Short form Survey Instrument",
+        "Impact of Weight on Quality of Life-Lite",
+        "Treatment Motivation and Readiness (TRE-MORE)",
+        "Systemic corticosteroids"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Use of rescue inhaler",
+        "Nocturnal asthma awakening frequency",
+        "Emergency Department/hospital visit for asthma",
+        "Prednisone course for asthma"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Asthma Control Test Score, Rescue Inhaler Use, Nocturnal Asthma Awakening, Emergency Department/Hospital Visit or Prednisone Course for Asthma, Duration of Asthma, Duration of Obesity, Comorbidities, Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Asthma Control Test (ACT)",
+          "Asthma Control Test Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Forced Expiratory Vital Capacity %",
+        "Forced Vital Capacity %",
+        "Forced Expiratory Vital Capacity/Forced vital capacity",
+        "Asthma Symptom Utility Index",
+        "ASUI",
+        "Marks Asthma Quality of Life Questionnaire",
+        "Standard Brief activity survey (SBAS)",
+        "SF-36 Short forrm Survey Instrument",
+        "Impact of Weight on Quality of Life-Lite",
+        "Treatment Motivation and Readiness (TRE-MORE)",
+        "Systemic corticosteroids"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Rescue Inhaler Use",
+        "Nocturnal Asthma Awakening",
+        "Emergency Department/Hospital Visit or Prednisone Course for Asthma",
+        "Duration of Asthma",
+        "Duration of Obesity",
+        "Comorbidities",
+        "Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, asthma duration, asthma medication use, asthma control test score, rescue inhaler use, nocturnal asthma awakening frequency, emergency department/hospital visit history, prednisone course history, smoking status, comorbidities, prior weight loss attempts, prior weight loss surgery.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Asthma Control Test (ACT)",
+          "asthma control test score"
+        ],
+        [
+          "Systemic corticosteroids",
+          "prednisone course history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Forced Expiratory Vital Capacity %",
+        "Forced Vital Capacity %",
+        "Forced Expiratory Vital Capacity/Forced vital capacity",
+        "Asthma Symptom Utility Index",
+        "ASUI",
+        "Marks Asthma Quality of Life Questionnaire",
+        "Standard Brief activity survey (SBAS)",
+        "SF-36 Short form Survey Instrument",
+        "Impact of Weight on Quality of Life-Lite",
+        "Treatment Motivation and Readiness (TRE-MORE)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "asthma duration",
+        "asthma medication use",
+        "rescue inhaler use",
+        "nocturnal asthma awakening frequency",
+        "emergency department/hospital visit history",
+        "smoking status",
+        "comorbidities",
+        "prior weight loss attempts",
+        "prior weight loss surgery"
+      ]
+    }
+  }
+}

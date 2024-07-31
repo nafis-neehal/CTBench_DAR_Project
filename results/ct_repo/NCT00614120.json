@@ -1,0 +1,174 @@
+{
+  "trial_id": "NCT00614120",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, baseline HbA1c, body mass index (BMI), prior oral antidiabetic drug (OAD) use, liver function, renal function, cardiovascular disease history, retinopathy status, hypoglycaemia history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Previous OAD treatment",
+          "prior oral antidiabetic drug (OAD) use"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "baseline HbA1c",
+        "liver function",
+        "renal function",
+        "cardiovascular disease history",
+        "retinopathy status",
+        "hypoglycaemia history"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Previous Oral Antidiabetic Drug (OAD) Use, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Previous OAD treatment",
+          "Previous Oral Antidiabetic Drug (OAD) Use"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of diabetes",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Baseline HbA1c",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Previous cardiovascular disease (CVD) event, Glycated hemoglobin, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, eGFR, Diabetic Retinopathy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Previous OAD treatment",
+          "Previous cardiovascular disease (CVD) event"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Duration of diabetes",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diabetes Diagnosis Duration",
+        "Glycated hemoglobin",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "eGFR",
+        "Diabetic Retinopathy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, duration of diabetes, HbA1c, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, lipid profile, smoking status, medical history (including cardiovascular disease, retinopathy, maculopathy), use of oral antidiabetic drugs, use of other medications (e.g., antihypertensives, lipid-lowering agents).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Previous OAD treatment",
+          "use of oral antidiabetic drugs"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "HbA1c",
+        "fasting plasma glucose",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "lipid profile",
+        "smoking status",
+        "medical history (including cardiovascular disease, retinopathy, maculopathy)",
+        "use of other medications (e.g., antihypertensives, lipid-lowering agents)"
+      ]
+    }
+  }
+}

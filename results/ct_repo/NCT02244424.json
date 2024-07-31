@@ -1,0 +1,208 @@
+{
+  "trial_id": "NCT02244424",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age of mother, income level, education level, ethnicity, marital status, infant age, infant birth weight, infant gestational age, maternal responsiveness, feeding style, feeding practices, access to web and cell phone, primary caretaker status, frequency of infant feeding by mother.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age of mother"
+        ],
+        [
+          "Marital Status",
+          "marital status"
+        ],
+        [
+          "Infant age at enrollment",
+          "infant age"
+        ],
+        [
+          "Birth weight (kg)",
+          "infant birth weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Highest level of education completed",
+        "Employment Status",
+        "Infant sex",
+        "Birth length (cm)",
+        "Infant Baseline weight (kg)",
+        "Infant Baseline length (cm)",
+        "Breastfeeding status at baseline",
+        "Solid feeding status at baseline"
+      ],
+      "remaining_candidate_features": [
+        "income level",
+        "education level",
+        "ethnicity",
+        "infant gestational age",
+        "maternal responsiveness",
+        "feeding style",
+        "feeding practices",
+        "access to web and cell phone",
+        "primary caretaker status",
+        "frequency of infant feeding by mother."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Family Income, Birth Weight, Gestational Age, Feeding Frequency, Maternal Responsiveness, Feeding Style, Feeding Practices, Access to Technology, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Birth weight (kg)",
+          "Birth Weight"
+        ],
+        [
+          "Infant age at enrollment",
+          "Gestational Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Marital Status",
+        "Highest level of education completed",
+        "Employment Status",
+        "Infant sex",
+        "Birth length (cm)",
+        "Infant Baseline weight (kg)",
+        "Infant Baseline length (cm)",
+        "Breastfeeding status at baseline",
+        "Solid feeding status at baseline"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Family Income",
+        "Feeding Frequency",
+        "Maternal Responsiveness",
+        "Feeding Style",
+        "Feeding Practices",
+        "Access to Technology"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Teen Mom Status, Low-Income Status, Family Income, Gestational Age, Birth Weight, Infant Age, Breastfeeding Status, Maternal Responsiveness, Feeding Style, Feeding Practices,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Birth weight (kg)",
+          "Birth Weight"
+        ],
+        [
+          "Infant age at enrollment",
+          "Infant Age"
+        ],
+        [
+          "Breastfeeding status at baseline",
+          "Breastfeeding Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Marital Status",
+        "Highest level of education completed",
+        "Employment Status",
+        "Infant sex",
+        "Birth length (cm)",
+        "Infant Baseline weight (kg)",
+        "Infant Baseline length (cm)",
+        "Solid feeding status at baseline"
+      ],
+      "remaining_candidate_features": [
+        "Teen Mom Status",
+        "Low-Income Status",
+        "Family Income",
+        "Gestational Age",
+        "Maternal Responsiveness",
+        "Feeding Style",
+        "Feeding Practices"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, education level, income, marital status, parity, gestational age, birth weight, breastfeeding status, infant age, maternal BMI, depression screening score, feeding style, maternal responsiveness score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Marital Status",
+          "marital status"
+        ],
+        [
+          "Highest level of education completed",
+          "education level"
+        ],
+        [
+          "Birth weight (kg)",
+          "birth weight"
+        ],
+        [
+          "Infant age at enrollment",
+          "infant age"
+        ],
+        [
+          "Breastfeeding status at baseline",
+          "breastfeeding status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Employment Status",
+        "Infant sex",
+        "Birth length (cm)",
+        "Infant Baseline weight (kg)",
+        "Infant Baseline length (cm)",
+        "Solid feeding status at baseline"
+      ],
+      "remaining_candidate_features": [
+        "income",
+        "parity",
+        "gestational age",
+        "maternal BMI",
+        "depression screening score",
+        "feeding style",
+        "maternal responsiveness score"
+      ]
+    }
+  }
+}

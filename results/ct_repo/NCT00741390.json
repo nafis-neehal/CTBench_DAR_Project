@@ -1,0 +1,143 @@
+{
+  "trial_id": "NCT00741390",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type of diabetes (Type 1 or Type 2), duration of diabetes, current self-monitoring of blood glucose practices, history of poor blood circulation, presence of skin conditions on fingers, history of bleeding disorders, presence of neuropathy or other conditions affecting sensation in the hands, self-reported blood-borne infections, pregnancy status, employment status with BD, J&J, Roche, or the Clinical Site, participation in another study, ability to read and follow study instructions in English.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Diabetes Type",
+          "type of diabetes (Type 1 or Type 2)"
+        ],
+        [
+          "Years Since Diagnosis",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Blood Glucose Meter Brand"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "current self-monitoring of blood glucose practices",
+        "history of poor blood circulation",
+        "presence of skin conditions on fingers",
+        "history of bleeding disorders",
+        "presence of neuropathy or other conditions affecting sensation in the hands",
+        "self-reported blood-borne infections",
+        "pregnancy status",
+        "employment status with BD",
+        "J&J",
+        "Roche",
+        "or the Clinical Site",
+        "participation in another study",
+        "ability to read and follow study instructions in English."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Diabetes, Duration of Diabetes, Frequency of Blood Glucose Monitoring,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diabetes Type",
+          "Type of Diabetes"
+        ],
+        [
+          "Years Since Diagnosis",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Blood Glucose Meter Brand"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Frequency of Blood Glucose Monitoring"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Type, Diabetes Duration, HbA1c, BMI, Blood Glucose Monitoring Frequency,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Diabetes Type",
+          "Diabetes Type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Blood Glucose Meter Brand",
+        "Years Since Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Diabetes Duration",
+        "HbA1c",
+        "BMI",
+        "Blood Glucose Monitoring Frequency"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, diabetes type (Type 1 or Type 2), duration of diabetes, frequency of self-monitoring of blood glucose, history of poor blood circulation, presence of skin conditions on fingers, history of bleeding disorders, presence of neuropathy or other conditions affecting sensation in hands, presence of blood-borne infections.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Diabetes Type",
+          "diabetes type (Type 1 or Type 2)"
+        ],
+        [
+          "Years Since Diagnosis",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Blood Glucose Meter Brand"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "frequency of self-monitoring of blood glucose",
+        "history of poor blood circulation",
+        "presence of skin conditions on fingers",
+        "history of bleeding disorders",
+        "presence of neuropathy or other conditions affecting sensation in hands",
+        "presence of blood-borne infections."
+      ]
+    }
+  }
+}

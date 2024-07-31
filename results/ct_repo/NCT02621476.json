@@ -1,0 +1,205 @@
+{
+  "trial_id": "NCT02621476",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, baseline medication adherence, type of diabetes, duration of diabetes, comorbid conditions, socioeconomic status, health care system affiliation, baseline use of mail order pharmacy, baseline CVD risk factor levels (e.g., blood pressure, cholesterol), baseline medication regimen (e.g., types and number of medications).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Has Mail Order Incentive",
+          "baseline use of mail order pharmacy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Has Secure Messaging",
+        "Had Oral Diabetes Mellitus (DM) Drug Fill",
+        "Had Oral Dyslipidemia (DL) Drug Fill",
+        "Had Oral Hypertension (HT) Drug Fill",
+        "Total Number of Oral Cardiovascular Disease (CVD) Drug Fills",
+        "Total Number of Oral HT Drug Fills",
+        "Total Number of Oral DM Drug Fills",
+        "# of classes of Oral CVD Drugs",
+        "# of drug classes poorly adherent to",
+        "% of Oral CVD drug classes poorly adherent to",
+        "Diabetes Identification"
+      ],
+      "remaining_candidate_features": [
+        "baseline medication adherence",
+        "type of diabetes",
+        "duration of diabetes",
+        "comorbid conditions",
+        "socioeconomic status",
+        "health care system affiliation",
+        "baseline CVD risk factor levels (e.g., blood pressure, cholesterol)",
+        "baseline medication regimen (e.g., types and number of medications)."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline medication adherence, Type of CVD risk factor medications, Duration of diabetes, Baseline HbA1c, Blood pressure, Cholesterol, Triglycerides,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Has Mail Order Incentive",
+        "Has Secure Messaging",
+        "Had Oral Diabetes Mellitus (DM) Drug Fill",
+        "Had Oral Dyslipidemia (DL) Drug Fill",
+        "Had Oral Hypertension (HT) Drug Fill",
+        "Total Number of Oral Cardiovascular Disease (CVD) Drug Fills",
+        "Total Number of Oral HT Drug Fills",
+        "Total Number of Oral DM Drug Fills",
+        "# of classes of Oral CVD Drugs",
+        "# of drug classes poorly adherent to",
+        "% of Oral CVD drug classes poorly adherent to",
+        "Diabetes Identification"
+      ],
+      "remaining_candidate_features": [
+        "Baseline medication adherence",
+        "Type of CVD risk factor medications",
+        "Duration of diabetes",
+        "Baseline HbA1c",
+        "Blood pressure",
+        "Cholesterol",
+        "Triglycerides"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Existing Cardiovascular Disease, Baseline HbA1c, Blood Pressure, Total Cholesterol, BMI,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Has Mail Order Incentive",
+        "Has Secure Messaging",
+        "Had Oral Diabetes Mellitus (DM) Drug Fill",
+        "Had Oral Dyslipidemia (DL) Drug Fill",
+        "Had Oral Hypertension (HT) Drug Fill",
+        "Total Number of Oral Cardiovascular Disease (CVD) Drug Fills",
+        "Total Number of Oral HT Drug Fills",
+        "Total Number of Oral DM Drug Fills",
+        "# of classes of Oral CVD Drugs",
+        "# of drug classes poorly adherent to",
+        "% of Oral CVD drug classes poorly adherent to",
+        "Diabetes Identification"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Diagnosis Duration",
+        "Existing Cardiovascular Disease",
+        "Baseline HbA1c",
+        "Blood Pressure",
+        "Total Cholesterol",
+        "BMI"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, diabetes duration, body mass index (BMI), hemoglobin A1c (HbA1c), systolic blood pressure, low-density lipoprotein (LDL) cholesterol, medication adherence rate, number of prescribed medications, comorbidities (e.g., hypertension, hyperlipidemia), health literacy, insurance type, income level, education level, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Has Mail Order Incentive",
+        "Has Secure Messaging",
+        "Had Oral Diabetes Mellitus (DM) Drug Fill",
+        "Had Oral Dyslipidemia (DL) Drug Fill",
+        "Had Oral Hypertension (HT) Drug Fill",
+        "Total Number of Oral Cardiovascular Disease (CVD) Drug Fills",
+        "Total Number of Oral HT Drug Fills",
+        "Total Number of Oral DM Drug Fills",
+        "# of classes of Oral CVD Drugs",
+        "# of drug classes poorly adherent to",
+        "% of Oral CVD drug classes poorly adherent to",
+        "Diabetes Identification"
+      ],
+      "remaining_candidate_features": [
+        "diabetes duration",
+        "body mass index (BMI)",
+        "hemoglobin A1c (HbA1c)",
+        "systolic blood pressure",
+        "low-density lipoprotein (LDL) cholesterol",
+        "medication adherence rate",
+        "number of prescribed medications",
+        "comorbidities (e.g., hypertension, hyperlipidemia)",
+        "health literacy",
+        "insurance type",
+        "income level",
+        "education level",
+        "marital status"
+      ]
+    }
+  }
+}

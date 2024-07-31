@@ -1,0 +1,442 @@
+{
+  "trial_id": "NCT02402062",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, ECOG performance status, Histological diagnosis, Ki67 assessment, Disease stage (unresectable or metastatic), Prior somatostatin analogue treatment, Documented disease progression, Measurable disease per RECIST, Ability to swallow medication, Life expectancy, Serum AST levels, Serum ALT levels, Total serum bilirubin, Serum albumin, Absolute neutrophil count, Platelet count, Hemoglobin level, Creatinine clearance, Cardiac function (12-lead ECG, Echocardiogram/MUGA), Informed consent status, Compliance with study procedures.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "ECOG PS",
+          "ECOG performance status"
+        ],
+        [
+          "Ki-67 index",
+          "Ki67 assessment"
+        ],
+        [
+          "Somatostanine analogues prior the trial",
+          "Prior somatostatin analogue treatment"
+        ],
+        [
+          "Absolute neutrophil count",
+          "Absolute neutrophil count"
+        ],
+        [
+          "Platelet count",
+          "Platelet count"
+        ],
+        [
+          "Haemoglobin",
+          "Hemoglobin level"
+        ],
+        [
+          "Aspartate AST (SGOT)",
+          "Serum AST levels"
+        ],
+        [
+          "Alanine transaminase ALT (SGPT)",
+          "Serum ALT levels"
+        ],
+        [
+          "Total bilirubin",
+          "Total serum bilirubin"
+        ],
+        [
+          "Albumin",
+          "Serum albumin"
+        ],
+        [
+          "Creatinine",
+          "Creatinine clearance"
+        ],
+        [
+          "Electrocardiogram (ECG)",
+          "Cardiac function (12-lead ECG, Echocardiogram/MUGA)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Left ventricular ejection fraction (LVEF)",
+        "Abbreviated Charlson comorbidity index",
+        "Peripheral arterial disease",
+        "Diabetes",
+        "Tumor histological grade",
+        "Mitosis 10 HPF",
+        "Primary tumor surgery",
+        "Tumor stage at diagnosis",
+        "Tumor relapse location",
+        "Baseline concomitant medication",
+        "Weight",
+        "Height",
+        "Body mass index (BMI)",
+        "Body surface area (BSA)",
+        "Blood pressure systolic (BPs)",
+        "Blood pressure diastolic (BPd)",
+        "White blood cells",
+        "Absolute Lymphocytes count",
+        "Sodium blood levels",
+        "Potassium blood levels",
+        "Calcium blood levels",
+        "Magnesium blood levels",
+        "Glucose",
+        "AST (SGOT)/ ALT (SGPT) (baseline)",
+        "Gamma-glutamyltransferase (GGT)",
+        "Alkaline phosphatase (AP)",
+        "Lactate dehydrogenase (LDH)",
+        "CG a tumor marker",
+        "Enolase 1",
+        "Time between diagnosis (anatomical pathology) and treatment initiation in months",
+        "Time between diagnosis (anatomical pathology) and surgery in months",
+        "Time between diagnosis (anatomical pathology) and CT relapse in months"
+      ],
+      "remaining_candidate_features": [
+        "Histological diagnosis",
+        "Disease stage (unresectable or metastatic)",
+        "Documented disease progression",
+        "Measurable disease per RECIST",
+        "Ability to swallow medication",
+        "Life expectancy",
+        "Informed consent status",
+        "Compliance with study procedures."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Histological grade (Ki67 assessment), Disease stage (unresectable or metastatic), Prior treatments (somatostatin analogues), Baseline organ function (AST, ALT, bilirubin, albumin, ANC, platelets, hemoglobin, creatinine clearance), Cardiac function (LVEF), Life expectancy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "ECOG PS",
+          "ECOG performance status"
+        ],
+        [
+          "Left ventricular ejection fraction (LVEF)",
+          "Cardiac function (LVEF)"
+        ],
+        [
+          "Ki-67 index",
+          "Histological grade (Ki67 assessment)"
+        ],
+        [
+          "Somatostanine analogues prior the trial",
+          "Prior treatments (somatostatin analogues)"
+        ],
+        [
+          "Aspartate AST (SGOT)",
+          "Baseline organ function (AST, ALT, bilirubin, albumin, ANC, platelets, hemoglobin, creatinine clearance)"
+        ],
+        [
+          "Alanine transaminase ALT (SGPT)",
+          "Baseline organ function (AST, ALT, bilirubin, albumin, ANC, platelets, hemoglobin, creatinine clearance)"
+        ],
+        [
+          "Total bilirubin",
+          "Baseline organ function (AST, ALT, bilirubin, albumin, ANC, platelets, hemoglobin, creatinine clearance)"
+        ],
+        [
+          "Albumin",
+          "Baseline organ function (AST, ALT, bilirubin, albumin, ANC, platelets, hemoglobin, creatinine clearance)"
+        ],
+        [
+          "Absolute neutrophil count",
+          "Baseline organ function (AST, ALT, bilirubin, albumin, ANC, platelets, hemoglobin, creatinine clearance)"
+        ],
+        [
+          "Platelet count",
+          "Baseline organ function (AST, ALT, bilirubin, albumin, ANC, platelets, hemoglobin, creatinine clearance)"
+        ],
+        [
+          "Haemoglobin",
+          "Baseline organ function (AST, ALT, bilirubin, albumin, ANC, platelets, hemoglobin, creatinine clearance)"
+        ],
+        [
+          "Creatinine",
+          "Baseline organ function (AST, ALT, bilirubin, albumin, ANC, platelets, hemoglobin, creatinine clearance)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Electrocardiogram (ECG)",
+        "Abbreviated Charlson comorbidity index",
+        "Peripheral arterial disease",
+        "Diabetes",
+        "Tumor histological grade",
+        "Mitosis 10 HPF",
+        "Primary tumor surgery",
+        "Tumor stage at diagnosis",
+        "Tumor relapse location",
+        "Baseline concomitant medication",
+        "Weight",
+        "Height",
+        "Body mass index (BMI)",
+        "Body surface area (BSA)",
+        "Blood pressure systolic (BPs)",
+        "Blood pressure diastolic (BPd)",
+        "White blood cells",
+        "Absolute Lymphocytes count",
+        "Sodium blood levels",
+        "Potassium blood levels",
+        "Calcium blood levels",
+        "Magnesium blood levels",
+        "Glucose",
+        "AST (SGOT)/ ALT (SGPT) (baseline)",
+        "Gamma-glutamyltransferase (GGT)",
+        "Alkaline phosphatase (AP)",
+        "Lactate dehydrogenase (LDH)",
+        "CG a tumor marker",
+        "Enolase 1",
+        "Time between diagnosis (anatomical pathology) and treatment initiation in months",
+        "Time between diagnosis (anatomical pathology) and surgery in months",
+        "Time between diagnosis (anatomical pathology) and CT relapse in months"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Disease stage (unresectable or metastatic)",
+        "Life expectancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, ECOG Performance Status, Ki67 Index, Presence of Metastatic Disease, Prior Somatostatin Analogues, Prior Interferon Treatment, Life Expectancy, Serum Aspartate Transaminase, Serum Alanine Transaminase, Total Serum Bilirubin, Serum Albumin, Absolute Neutrophil Count, Platelets, Hemoglobin, Creatinine Clearance, Cardiac Function (LVEF), Prior Chemotherapy, Prior Radiation Therapy, Prior Surgery.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "ECOG PS",
+          "ECOG Performance Status"
+        ],
+        [
+          "Ki-67 index",
+          "Ki67 Index"
+        ],
+        [
+          "Somatostanine analogues prior the trial",
+          "Prior Somatostatin Analogues"
+        ],
+        [
+          "Left ventricular ejection fraction (LVEF)",
+          "Cardiac Function (LVEF)"
+        ],
+        [
+          "Aspartate AST (SGOT)",
+          "Serum Aspartate Transaminase"
+        ],
+        [
+          "Alanine transaminase ALT (SGPT)",
+          "Serum Alanine Transaminase"
+        ],
+        [
+          "Total bilirubin",
+          "Total Serum Bilirubin"
+        ],
+        [
+          "Albumin",
+          "Serum Albumin"
+        ],
+        [
+          "Absolute neutrophil count",
+          "Absolute Neutrophil Count"
+        ],
+        [
+          "Platelet count",
+          "Platelets"
+        ],
+        [
+          "Haemoglobin",
+          "Hemoglobin"
+        ],
+        [
+          "Creatinine",
+          "Creatinine Clearance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Electrocardiogram (ECG)",
+        "Abbreviated Charlson comorbidity index",
+        "Peripheral arterial disease",
+        "Diabetes",
+        "Tumor histological grade",
+        "Mitosis 10 HPF",
+        "Primary tumor surgery",
+        "Tumor stage at diagnosis",
+        "Tumor relapse location",
+        "Baseline concomitant medication",
+        "Weight",
+        "Height",
+        "Body mass index (BMI)",
+        "Body surface area (BSA)",
+        "Blood pressure systolic (BPs)",
+        "Blood pressure diastolic (BPd)",
+        "White blood cells",
+        "Absolute Lymphocytes count",
+        "Sodium blood levels",
+        "Potassium blood levels",
+        "Calcium blood levels",
+        "Magnesium blood levels",
+        "Glucose",
+        "AST (SGOT)/ ALT (SGPT) (baseline)",
+        "Gamma-glutamyltransferase (GGT)",
+        "Alkaline phosphatase (AP)",
+        "Lactate dehydrogenase (LDH)",
+        "CG a tumor marker",
+        "Enolase 1",
+        "Time between diagnosis (anatomical pathology) and treatment initiation in months",
+        "Time between diagnosis (anatomical pathology) and surgery in months",
+        "Time between diagnosis (anatomical pathology) and CT relapse in months"
+      ],
+      "remaining_candidate_features": [
+        "Presence of Metastatic Disease",
+        "Prior Interferon Treatment",
+        "Life Expectancy",
+        "Prior Chemotherapy",
+        "Prior Radiation Therapy",
+        "Prior Surgery."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ECOG performance status, Ki67 assessment, presence of metastatic disease, prior somatostatin analogue treatment, life expectancy, serum AST, serum ALT, total serum bilirubin, serum albumin, absolute neutrophil count, platelets, hemoglobin, creatinine clearance, cardiac function (ECG, LVEF), history of hypertension, history of cardiac dysrhythmias.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "ECOG PS",
+          "ECOG performance status"
+        ],
+        [
+          "Ki-67 index",
+          "Ki67 assessment"
+        ],
+        [
+          "Somatostanine analogues prior the trial",
+          "prior somatostatin analogue treatment"
+        ],
+        [
+          "Aspartate AST (SGOT)",
+          "serum AST"
+        ],
+        [
+          "Alanine transaminase ALT (SGPT)",
+          "serum ALT"
+        ],
+        [
+          "Total bilirubin",
+          "total serum bilirubin"
+        ],
+        [
+          "Albumin",
+          "serum albumin"
+        ],
+        [
+          "Absolute neutrophil count",
+          "absolute neutrophil count"
+        ],
+        [
+          "Platelet count",
+          "platelets"
+        ],
+        [
+          "Haemoglobin",
+          "hemoglobin"
+        ],
+        [
+          "Creatinine",
+          "creatinine clearance"
+        ],
+        [
+          "Electrocardiogram (ECG)",
+          "cardiac function (ECG, LVEF)"
+        ],
+        [
+          "Left ventricular ejection fraction (LVEF)",
+          "cardiac function (ECG, LVEF)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Abbreviated Charlson comorbidity index",
+        "Peripheral arterial disease",
+        "Diabetes",
+        "Tumor histological grade",
+        "Mitosis 10 HPF",
+        "Primary tumor surgery",
+        "Tumor stage at diagnosis",
+        "Tumor relapse location",
+        "Baseline concomitant medication",
+        "Weight",
+        "Height",
+        "Body mass index (BMI)",
+        "Body surface area (BSA)",
+        "Blood pressure systolic (BPs)",
+        "Blood pressure diastolic (BPd)",
+        "White blood cells",
+        "Absolute Lymphocytes count",
+        "Sodium blood levels",
+        "Potassium blood levels",
+        "Calcium blood levels",
+        "Magnesium blood levels",
+        "Glucose",
+        "AST (SGOT)/ ALT (SGPT) (baseline)",
+        "Gamma-glutamyltransferase (GGT)",
+        "Alkaline phosphatase (AP)",
+        "Lactate dehydrogenase (LDH)",
+        "CG a tumor marker",
+        "Enolase 1",
+        "Time between diagnosis (anatomical pathology) and treatment initiation in months",
+        "Time between diagnosis (anatomical pathology) and surgery in months",
+        "Time between diagnosis (anatomical pathology) and CT relapse in months"
+      ],
+      "remaining_candidate_features": [
+        "presence of metastatic disease",
+        "life expectancy",
+        "history of hypertension",
+        "history of cardiac dysrhythmias."
+      ]
+    }
+  }
+}

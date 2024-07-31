@@ -1,0 +1,185 @@
+{
+  "trial_id": "NCT01414114",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline intact PTH (iPTH) levels, baseline corrected calcium levels, baseline hemoglobin levels, baseline serum transaminases (ALT, AST) levels, duration of hemodialysis, baseline systolic blood pressure, baseline diastolic blood pressure, baseline serum magnesium levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Parathyroid Hormone (PTH)",
+          "baseline intact PTH (iPTH) levels"
+        ],
+        [
+          "Corrected Calcium",
+          "baseline corrected calcium levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity",
+        "Parathyroid Hormone Category",
+        "Phosphorus"
+      ],
+      "remaining_candidate_features": [
+        "baseline hemoglobin levels",
+        "baseline serum transaminases (ALT, AST) levels",
+        "duration of hemodialysis",
+        "baseline systolic blood pressure",
+        "baseline diastolic blood pressure",
+        "baseline serum magnesium levels"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline intact PTH (iPTH), Corrected calcium, Hemoglobin, Serum transaminases (ALT, AST), Dialysis adequacy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race",
+          "Race/Ethnicity"
+        ],
+        [
+          "Parathyroid Hormone (PTH)",
+          "Baseline intact PTH (iPTH)"
+        ],
+        [
+          "Corrected Calcium",
+          "Corrected calcium"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "Parathyroid Hormone Category",
+        "Phosphorus"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Hemoglobin",
+        "Serum transaminases (ALT, AST)",
+        "Dialysis adequacy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemodialysis vintage, Screening intact PTH, Corrected calcium, Phosphorus, Albumin, Hemoglobin, Serum transaminases (ALT, AST), Postdialysis systolic blood pressure, Postdialysis diastolic blood pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race",
+          "Race/Ethnicity"
+        ],
+        [
+          "Parathyroid Hormone (PTH)",
+          "Screening intact PTH"
+        ],
+        [
+          "Corrected Calcium",
+          "Corrected calcium"
+        ],
+        [
+          "Phosphorus",
+          "Phosphorus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "Parathyroid Hormone Category"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Hemodialysis vintage",
+        "Albumin",
+        "Hemoglobin",
+        "Serum transaminases (ALT, AST)",
+        "Postdialysis systolic blood pressure",
+        "Postdialysis diastolic blood pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of hemodialysis, duration of CKD-MBD, history of parathyroidectomy, history of vitamin D supplementation, baseline intact PTH (iPTH), corrected calcium, phosphorus, alkaline phosphatase, hemoglobin, serum transaminases (ALT, AST), systolic and diastolic blood pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Parathyroid Hormone (PTH)",
+          "baseline intact PTH (iPTH)"
+        ],
+        [
+          "Corrected Calcium",
+          "corrected calcium"
+        ],
+        [
+          "Phosphorus",
+          "phosphorus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Parathyroid Hormone Category"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of hemodialysis",
+        "duration of CKD-MBD",
+        "history of parathyroidectomy",
+        "history of vitamin D supplementation",
+        "alkaline phosphatase",
+        "hemoglobin",
+        "serum transaminases (ALT, AST)",
+        "systolic and diastolic blood pressure."
+      ]
+    }
+  }
+}

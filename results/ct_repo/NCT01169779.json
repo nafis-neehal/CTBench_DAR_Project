@@ -1,0 +1,267 @@
+{
+  "trial_id": "NCT01169779",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 2 diabetes mellitus, baseline HbA1c, fasting plasma glucose (FPG), body weight, body mass index (BMI), use of metformin, use of sulfonylurea, blood pressure (systolic and diastolic), history of cardiovascular disease, renal function (creatinine levels), liver function tests (amylase and lipase levels), presence of diabetic retinopathy, presence of macular edema, history of pancreatitis, history of thyroid cancer, history of metabolic acidosis, hemoglobin levels, neutrophil count, platelet count, calcitonin levels, hepatitis B and C status, history of drug or alcohol abuse, history of gastrointestinal disease, allergic reactions to GLP-1 agonists or metacresol.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose (FPG)"
+        ],
+        [
+          "Body Weight",
+          "body weight"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Metformin Daily Dose",
+          "use of metformin"
+        ],
+        [
+          "Number of Patients With Sulfonylurea use at Baseline",
+          "use of sulfonylurea"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "2-Hour Postprandial Plasma Glucose (PPG)",
+        "Glucose Excursion",
+        "Duration of Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure (systolic and diastolic)",
+        "history of cardiovascular disease",
+        "renal function (creatinine levels)",
+        "liver function tests (amylase and lipase levels)",
+        "presence of diabetic retinopathy",
+        "presence of macular edema",
+        "history of pancreatitis",
+        "history of thyroid cancer",
+        "history of metabolic acidosis",
+        "hemoglobin levels",
+        "neutrophil count",
+        "platelet count",
+        "calcitonin levels",
+        "hepatitis B and C status",
+        "history of drug or alcohol abuse",
+        "history of gastrointestinal disease",
+        "allergic reactions to GLP-1 agonists or metacresol"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Fasting Plasma Glucose, 2-hour Postprandial Plasma Glucose, Body Weight, BMI, Duration of Diabetes, Use of Metformin, Use of Sulfonylurea,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "2-Hour Postprandial Plasma Glucose (PPG)",
+          "2-hour Postprandial Plasma Glucose"
+        ],
+        [
+          "Body Weight",
+          "Body Weight"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Metformin Daily Dose",
+          "Use of Metformin"
+        ],
+        [
+          "Number of Patients With Sulfonylurea use at Baseline",
+          "Use of Sulfonylurea"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Glucose Excursion"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Fasting Plasma Glucose, 2-hour Postprandial Plasma Glucose, Glucose Excursion During Standardized Meal Test, Metformin Dose, Sulfonylurea Use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "2-Hour Postprandial Plasma Glucose (PPG)",
+          "2-hour Postprandial Plasma Glucose"
+        ],
+        [
+          "Glucose Excursion",
+          "Glucose Excursion During Standardized Meal Test"
+        ],
+        [
+          "Body Weight",
+          "Body Mass Index"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Metformin Daily Dose",
+          "Metformin Dose"
+        ],
+        [
+          "Number of Patients With Sulfonylurea use at Baseline",
+          "Sulfonylurea Use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Duration of Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diabetes Diagnosis Duration",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), weight, height, duration of type 2 diabetes mellitus, HbA1c at screening, fasting plasma glucose (FPG) at screening, systolic blood pressure (SBP), diastolic blood pressure (DBP), history of hypertension, history of cardiovascular disease, history of myocardial infarction, history of stroke, history of heart failure, history of pancreatitis, history of thyroid cancer, history of medullary thyroid cancer, history of multiple endocrine neoplasia syndromes, history of metabolic acidosis, history of diabetic ketoacidosis, history of hemoglobinopathy, history of hemolytic anemia, history of drug or alcohol abuse, history of smoking, use of oral antidiabetic agents, use of insulin, use of antihypertensive agents, use of lipid-lowering agents, use of antiplatelet agents, use of anticoagulants.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Body Weight",
+          "weight"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes mellitus"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c at screening"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose (FPG) at screening"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "2-Hour Postprandial Plasma Glucose (PPG)",
+        "Glucose Excursion",
+        "Metformin Daily Dose",
+        "Number of Patients With Sulfonylurea use at Baseline"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "height",
+        "systolic blood pressure (SBP)",
+        "diastolic blood pressure (DBP)",
+        "history of hypertension",
+        "history of cardiovascular disease",
+        "history of myocardial infarction",
+        "history of stroke",
+        "history of heart failure",
+        "history of pancreatitis",
+        "history of thyroid cancer",
+        "history of medullary thyroid cancer",
+        "history of multiple endocrine neoplasia syndromes",
+        "history of metabolic acidosis",
+        "history of diabetic ketoacidosis",
+        "history of hemoglobinopathy",
+        "history of hemolytic anemia",
+        "history of drug or alcohol abuse",
+        "history of smoking",
+        "use of oral antidiabetic agents",
+        "use of insulin",
+        "use of antihypertensive agents",
+        "use of lipid-lowering agents",
+        "use of antiplatelet agents",
+        "use of anticoagulants"
+      ]
+    }
+  }
+}

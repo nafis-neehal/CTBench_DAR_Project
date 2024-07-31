@@ -1,0 +1,149 @@
+{
+  "trial_id": "NCT01911897",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline systolic blood pressure (SBP), baseline diastolic blood pressure (DBP), number of antihypertensive medications, presence of diuretic therapy, history of intolerance to diuretics, history of ineffectiveness of diuretics, history of contraindications to diuretics, presence of baroreflex failure, presence of autonomic neuropathy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Systolic Office Blood Pressure",
+          "baseline systolic blood pressure (SBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "24-Hour Ambulatory Blood Pressure (Systolic Blood Pressure)"
+      ],
+      "remaining_candidate_features": [
+        "baseline diastolic blood pressure (DBP)",
+        "number of antihypertensive medications",
+        "presence of diuretic therapy",
+        "history of intolerance to diuretics",
+        "history of ineffectiveness of diuretics",
+        "history of contraindications to diuretics",
+        "presence of baroreflex failure",
+        "presence of autonomic neuropathy."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Number of Antihypertensive Medications, Duration of Hypertension,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic Office Blood Pressure",
+          "Baseline Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "24-Hour Ambulatory Blood Pressure (Systolic Blood Pressure)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline Diastolic Blood Pressure",
+        "Number of Antihypertensive Medications",
+        "Duration of Hypertension"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Systolic Blood Pressure, Diastolic Blood Pressure, Number of Anti-Hypertensive Medications, History of Diuretic Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic Office Blood Pressure",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "24-Hour Ambulatory Blood Pressure (Systolic Blood Pressure)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diastolic Blood Pressure",
+        "Number of Anti-Hypertensive Medications",
+        "History of Diuretic Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), office cuff systolic blood pressure (SBP), number of anti-hypertensive medications, history of diuretic use, history of intolerance or ineffectiveness to diuretics, history of contraindications to diuretics.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Systolic Office Blood Pressure",
+          "office cuff systolic blood pressure (SBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "24-Hour Ambulatory Blood Pressure (Systolic Blood Pressure)"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "number of anti-hypertensive medications",
+        "history of diuretic use",
+        "history of intolerance or ineffectiveness to diuretics",
+        "history of contraindications to diuretics."
+      ]
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "trial_id": "NCT01921322",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 2 diabetes, baseline glycosylated hemoglobin (A1C), baseline blood glucose levels, insulin regimen prior to study, hospitalization status, willingness to follow protocol, ability to provide informed consent.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "A1C (%)",
+          "baseline glycosylated hemoglobin (A1C)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Height (cm)",
+        "Weight (kg)",
+        "BMI (kg/m2)"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "duration of type 2 diabetes",
+        "baseline blood glucose levels",
+        "insulin regimen prior to study",
+        "hospitalization status",
+        "willingness to follow protocol",
+        "ability to provide informed consent."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, Body Mass Index, Blood Pressure, Total Cholesterol, Triglycerides, eGFR,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "A1C (%)",
+          "Baseline HbA1c"
+        ],
+        [
+          "BMI (kg/m2)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height (cm)",
+        "Weight (kg)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Duration of Diabetes",
+        "Daily Insulin Dose",
+        "Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "eGFR"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, Insulin treatment, Glycosylated hemoglobin, Blood glucose, Body Mass Index,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "A1C (%)",
+          "Glycosylated hemoglobin"
+        ],
+        [
+          "BMI (kg/m2)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Height (cm)",
+        "Weight (kg)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diabetes duration",
+        "Insulin treatment",
+        "Blood glucose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, duration of type 2 diabetes, insulin dose, A1C, body mass index (BMI), blood pressure, lipid profile, history of diabetes-related complications, smoking status, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "A1C (%)",
+          "A1C"
+        ],
+        [
+          "BMI (kg/m2)",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Height (cm)",
+        "Weight (kg)"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 2 diabetes",
+        "insulin dose",
+        "blood pressure",
+        "lipid profile",
+        "history of diabetes-related complications",
+        "smoking status",
+        "concomitant medications."
+      ]
+    }
+  }
+}

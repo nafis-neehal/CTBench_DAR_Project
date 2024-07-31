@@ -1,0 +1,176 @@
+{
+  "trial_id": "NCT02620774",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), type of diabetes (Type 1 or Type 2), duration of diabetes, severity of wound infection (Grade 2 or 3), kidney function (creatinine clearance), history of hypersensitivity to antibiotics, pregnancy status, alcohol consumption, tobacco use, use of prescription or nonprescription drugs, use of dietary supplements, use of hormonal contraception, use of hormone replacement therapy, urine drug screen results.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "pregnancy status"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Creatinine clearance",
+          "kidney function (creatinine clearance)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "type of diabetes (Type 1 or Type 2)",
+        "duration of diabetes",
+        "severity of wound infection (Grade 2 or 3)",
+        "history of hypersensitivity to antibiotics",
+        "alcohol consumption",
+        "tobacco use",
+        "use of prescription or nonprescription drugs",
+        "use of dietary supplements",
+        "use of hormonal contraception",
+        "use of hormone replacement therapy",
+        "urine drug screen results."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Diabetes (Type 1 or Type 2), Duration of Diabetes, Presence of Lower Limb Wound Infection, Kidney Function (Creatinine Clearance), Concomitant Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Creatinine clearance",
+          "Kidney Function (Creatinine Clearance)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Height",
+        "Weight",
+        "Body Mass Index"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Type of Diabetes (Type 1 or Type 2)",
+        "Duration of Diabetes",
+        "Presence of Lower Limb Wound Infection",
+        "Concomitant Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Type, Diabetes Duration, Wound Infection Grade, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Creatinine Clearance,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Creatinine clearance",
+          "Creatinine Clearance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diabetes Type",
+        "Diabetes Duration",
+        "Wound Infection Grade",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), diabetes type (Type 1 or Type 2), wound infection grade, creatinine clearance, history of hypersensitivity to \u03b2-lactam antibiotics, history of regular alcohol consumption, use of tobacco- or nicotine-containing products, use of prescription or nonprescription drugs, vitamins, or dietary supplements.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Creatinine clearance",
+          "creatinine clearance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "diabetes type (Type 1 or Type 2)",
+        "wound infection grade",
+        "history of hypersensitivity to \u03b2-lactam antibiotics",
+        "history of regular alcohol consumption",
+        "use of tobacco- or nicotine-containing products",
+        "use of prescription or nonprescription drugs",
+        "vitamins",
+        "or dietary supplements."
+      ]
+    }
+  }
+}

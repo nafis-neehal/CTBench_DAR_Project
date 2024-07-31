@@ -1,0 +1,179 @@
+{
+  "trial_id": "NCT03292874",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Prostate Specific Antigen (PSA) level, Clinical stage, Gleason score, Primary management strategy (Active Surveillance), Previous treatment history for prostate cancer, Contraindications for gadolinium enhanced MRI",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "PSA",
+          "Prostate Specific Antigen (PSA) level"
+        ],
+        [
+          "Stage",
+          "Clinical stage"
+        ],
+        [
+          "Histologic Grade",
+          "Gleason score"
+        ],
+        [
+          "No. prior biopsies",
+          "Previous treatment history for prostate cancer"
+        ],
+        [
+          "No. positive cores on prostate biopsy",
+          "Primary management strategy (Active Surveillance)"
+        ],
+        [
+          "Categorical",
+          "Contraindications for gadolinium enhanced MRI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Prostate Specific Antigen (PSA) level, Clinical stage, Gleason score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "PSA",
+          "Prostate Specific Antigen (PSA) level"
+        ],
+        [
+          "Stage",
+          "Clinical stage"
+        ],
+        [
+          "Histologic Grade",
+          "Gleason score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "No. positive cores on prostate biopsy",
+        "No. prior biopsies"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Prostate Specific Antigen, Gleason Score, Clinical Stage, Body Mass Index, Family History of Prostate Cancer, Prior Biopsy History, Prior Prostate Cancer Treatment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "PSA",
+          "Prostate Specific Antigen"
+        ],
+        [
+          "Histologic Grade",
+          "Gleason Score"
+        ],
+        [
+          "Stage",
+          "Clinical Stage"
+        ],
+        [
+          "No. prior biopsies",
+          "Prior Biopsy History"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "No. positive cores on prostate biopsy"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Family History of Prostate Cancer",
+        "Prior Prostate Cancer Treatment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), prostate specific antigen (PSA) level, clinical stage, Gleason score, time since diagnosis, prior biopsy history, family history of prostate cancer.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "PSA",
+          "prostate specific antigen (PSA) level"
+        ],
+        [
+          "Histologic Grade",
+          "Gleason score"
+        ],
+        [
+          "Stage",
+          "clinical stage"
+        ],
+        [
+          "No. prior biopsies",
+          "prior biopsy history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "No. positive cores on prostate biopsy"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "time since diagnosis",
+        "family history of prostate cancer"
+      ]
+    }
+  }
+}

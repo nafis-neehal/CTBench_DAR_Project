@@ -1,0 +1,267 @@
+{
+  "trial_id": "NCT02759146",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type of solid tumor cancer, stage of cancer, type of therapy (chemotherapy, hormonal therapy, or targeted therapy), baseline fatigue severity, ability to perform basic activities of daily living (ADLs), language proficiency (English), access to a telephone, hearing ability, exclusion criteria status (major mental illness, nursing home residency, bedridden status, current reflexology or meditative practices, deep vein thrombosis, painful foot neuropathy).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Brief Fatigue Inventory Severity of Fatigue (BFI, worst fatigue)",
+          "baseline fatigue severity"
+        ],
+        [
+          "Number of comorbid conditions",
+          "type of solid tumor cancer"
+        ],
+        [
+          "Living arrangement",
+          "stage of cancer"
+        ],
+        [
+          "Education",
+          "type of therapy (chemotherapy, hormonal therapy, or targeted therapy)"
+        ],
+        [
+          "Employment",
+          "ability to perform basic activities of daily living (ADLs)"
+        ],
+        [
+          "Income",
+          "language proficiency (English)"
+        ],
+        [
+          "Social Support (MSPSS)",
+          "access to a telephone"
+        ],
+        [
+          "PROMIS physical function",
+          "hearing ability"
+        ],
+        [
+          "PROMIS sleep disturbance",
+          "exclusion criteria status (major mental illness, nursing home residency, bedridden status, current reflexology or meditative practices, deep vein thrombosis, painful foot neuropathy)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Patient-caregiver relationship",
+        "Number of Complimentary and Alternative Medicine (CAM) therapies used",
+        "Brief Fatigue Inventory Severity of Fatigue (BFI, worst fatigue)",
+        "Fatigue interference (BFI)",
+        "Summed severity of other symptoms (MDASI)",
+        "Symptom interference (MDASI)",
+        "Patient Reported Outcomes Measurement Information System (PROMIS) depression",
+        "PROMIS anxiety",
+        "Attentional function index",
+        "Long Term Quality of Life (LTQL) spirituality",
+        "PROMIS fatigue",
+        "PROMIS pain interference",
+        "PROMIS pain intensity",
+        "Satisfaction with participation in social roles",
+        "Caregiver burden",
+        "PROMIS- Fatigue Number"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Type, Stage of Cancer, Type of Therapy (Chemotherapy, Hormonal Therapy, Targeted Therapy), Baseline Fatigue Severity, Ability to Perform ADLs, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Brief Fatigue Inventory Severity of Fatigue (BFI, worst fatigue)",
+          "Baseline Fatigue Severity"
+        ],
+        [
+          "Ability to Perform ADLs",
+          "Ability to Perform ADLs"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of comorbid conditions",
+        "Patient-caregiver relationship",
+        "Living arrangement",
+        "Number of Complimentary and Alternative Medicine (CAM) therapies used",
+        "Education",
+        "Employment",
+        "Income",
+        "Fatigue interference (BFI)",
+        "Summed severity of other symptoms (MDASI)",
+        "Symptom interference (MDASI)",
+        "Patient Reported Outcomes Measurement Information System (PROMIS) depression",
+        "PROMIS anxiety",
+        "Attentional function index",
+        "Long Term Quality of Life (LTQL) spirituality",
+        "Social Support (MSPSS)",
+        "PROMIS physical function",
+        "PROMIS sleep disturbance",
+        "PROMIS fatigue",
+        "PROMIS pain interference",
+        "PROMIS pain intensity",
+        "Satisfaction with participation in social roles",
+        "Caregiver burden",
+        "PROMIS- Fatigue Number"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Cancer Type",
+        "Stage of Cancer",
+        "Type of Therapy (Chemotherapy, Hormonal Therapy, Targeted Therapy)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Diagnosis, Chemotherapy, Hormonal Therapy, Targeted Therapy, Fatigue Severity, ADLs,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Brief Fatigue Inventory Severity of Fatigue (BFI, worst fatigue)",
+          "Fatigue Severity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of comorbid conditions",
+        "Patient-caregiver relationship",
+        "Living arrangement",
+        "Number of Complimentary and Alternative Medicine (CAM) therapies used",
+        "Education",
+        "Employment",
+        "Income",
+        "Fatigue interference (BFI)",
+        "Summed severity of other symptoms (MDASI)",
+        "Symptom interference (MDASI)",
+        "Patient Reported Outcomes Measurement Information System (PROMIS) depression",
+        "PROMIS anxiety",
+        "Attentional function index",
+        "Long Term Quality of Life (LTQL) spirituality",
+        "Social Support (MSPSS)",
+        "PROMIS physical function",
+        "PROMIS sleep disturbance",
+        "PROMIS fatigue",
+        "PROMIS pain interference",
+        "PROMIS pain intensity",
+        "Satisfaction with participation in social roles",
+        "Caregiver burden",
+        "PROMIS- Fatigue Number"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Cancer Diagnosis",
+        "Chemotherapy",
+        "Hormonal Therapy",
+        "Targeted Therapy",
+        "ADLs"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, cancer type, cancer stage, treatment type, performance status, fatigue severity, comorbidities, prior symptom management strategies, education level, marital status, employment status, income level, race, ethnicity.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Number of comorbid conditions",
+          "comorbidities"
+        ],
+        [
+          "Education",
+          "education level"
+        ],
+        [
+          "Employment",
+          "employment status"
+        ],
+        [
+          "Income",
+          "income level"
+        ],
+        [
+          "Brief Fatigue Inventory Severity of Fatigue (BFI, worst fatigue)",
+          "fatigue severity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Patient-caregiver relationship",
+        "Living arrangement",
+        "Number of Complimentary and Alternative Medicine (CAM) therapies used",
+        "Fatigue interference (BFI)",
+        "Summed severity of other symptoms (MDASI)",
+        "Symptom interference (MDASI)",
+        "Patient Reported Outcomes Measurement Information System (PROMIS) depression",
+        "PROMIS anxiety",
+        "Attentional function index",
+        "Long Term Quality of Life (LTQL) spirituality",
+        "Social Support (MSPSS)",
+        "PROMIS physical function",
+        "PROMIS sleep disturbance",
+        "PROMIS fatigue",
+        "PROMIS pain interference",
+        "PROMIS pain intensity",
+        "Satisfaction with participation in social roles",
+        "Caregiver burden",
+        "PROMIS- Fatigue Number"
+      ],
+      "remaining_candidate_features": [
+        "cancer type",
+        "cancer stage",
+        "treatment type",
+        "performance status",
+        "prior symptom management strategies",
+        "marital status",
+        "ethnicity."
+      ]
+    }
+  }
+}

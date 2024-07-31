@@ -1,0 +1,167 @@
+{
+  "trial_id": "NCT00912197",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Weight, Dietary Fiber Intake, Smoking Status, Medical History (endocrine, gastrointestinal, kidney, liver, cardiovascular, pancreatitis, cancer), Hydrogen Production Status, Antibiotic Use, Participation in Other Research Studies, Blood Donation History, Anaemia Status, Hypertension Status, Pregnancy/Breastfeeding Status, Substance Abuse History, Diet Type, Use of Prebiotic/Probiotic/Symbiotic Supplements, Exercise Level, Presence of Metallic/Electronic Implants, Claustrophobia, Depression Status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "waist:hip ratio (WHR)"
+      ],
+      "remaining_candidate_features": [
+        "Weight",
+        "Dietary Fiber Intake",
+        "Smoking Status",
+        "Medical History (endocrine, gastrointestinal, kidney, liver, cardiovascular, pancreatitis, cancer)",
+        "Hydrogen Production Status",
+        "Antibiotic Use",
+        "Participation in Other Research Studies",
+        "Blood Donation History",
+        "Anaemia Status",
+        "Hypertension Status",
+        "Pregnancy/Breastfeeding Status",
+        "Substance Abuse History",
+        "Diet Type",
+        "Use of Prebiotic/Probiotic/Symbiotic Supplements",
+        "Exercise Level",
+        "Presence of Metallic/Electronic Implants",
+        "Claustrophobia",
+        "Depression Status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Dietary Fiber Intake, Smoking Status, Weight Stability, Hydrogen Production Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "waist:hip ratio (WHR)"
+      ],
+      "remaining_candidate_features": [
+        "Dietary Fiber Intake",
+        "Smoking Status",
+        "Weight Stability",
+        "Hydrogen Production Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Body Weight, Waist Circumference, Hip Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Habitual Dietary Fibre Intake, Energy Intake at Baseline, Physical Activity Level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "waist:hip ratio (WHR)"
+      ],
+      "remaining_candidate_features": [
+        "Body Weight",
+        "Waist Circumference",
+        "Hip Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Habitual Dietary Fibre Intake",
+        "Energy Intake at Baseline",
+        "Physical Activity Level."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, habitual dietary fibre intake, smoking status, medical history (endocrine disease, gastrointestinal disease, kidney or liver diseases, cardiovascular disease, pancreatitis, cancer), use of antibiotics, participation in other research studies, blood donation, anaemia, hypertension, pregnancy or breastfeeding status, substance abuse, diet type (vegan), use of prebiotic, probiotic or symbiotic food items/supplements, exercise level, presence of metallic or electronic implants, claustrophobia, depression status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "waist:hip ratio (WHR)"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "habitual dietary fibre intake",
+        "smoking status",
+        "medical history (endocrine disease, gastrointestinal disease, kidney or liver diseases, cardiovascular disease, pancreatitis, cancer)",
+        "use of antibiotics",
+        "participation in other research studies",
+        "blood donation",
+        "anaemia",
+        "hypertension",
+        "pregnancy or breastfeeding status",
+        "substance abuse",
+        "diet type (vegan)",
+        "use of prebiotic",
+        "probiotic or symbiotic food items/supplements",
+        "exercise level",
+        "presence of metallic or electronic implants",
+        "claustrophobia",
+        "depression status"
+      ]
+    }
+  }
+}

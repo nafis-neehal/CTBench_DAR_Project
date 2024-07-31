@@ -1,0 +1,239 @@
+{
+  "trial_id": "NCT00118040",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, white blood cell count, platelet count, hemoglobin level, bilirubin level, AST level, creatinine level, serum calcium level, amylase level, sodium level, potassium level, chloride level, CO2 level, TSH level, T4 level, pregnancy status, history of soy supplement use, history of NSAID use, history of thyroid medication use, history of allergic reactions to soy-based products, presence of uncontrolled concurrent illness, history of prior pelvic irradiation, history of concurrent systemic cancer treatment, history of other investigational agent use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "white blood cell count",
+          "WBC \">= 3000/mm^3\""
+        ],
+        [
+          "platelet count",
+          "Platelets \">= 100,000mm^3\""
+        ],
+        [
+          "hemoglobin level",
+          "Hemoglobin \">= 10 g/dL\""
+        ],
+        [
+          "bilirubin level",
+          "Bilirubin \"=< 1.4 mg/dl\""
+        ],
+        [
+          "AST level",
+          "AST \"=< 3x normal\""
+        ],
+        [
+          "creatinine level",
+          "Creatinine \"=< 2.0mg/dl\""
+        ],
+        [
+          "serum calcium level",
+          "Serum calcium \"=< 10.2 mg/dl\""
+        ],
+        [
+          "amylase level",
+          "Amylase \"=< 3 x normal\""
+        ],
+        [
+          "sodium level",
+          "Na \">= 125 and =< 155 mmol/L\""
+        ],
+        [
+          "potassium level",
+          "K \">= 3.2 and =< 6 mmol/L\""
+        ],
+        [
+          "chloride level",
+          "Cl \">= 85 and =< 114 mmol/L\""
+        ],
+        [
+          "CO2 level",
+          "CO2 \">= 11 mEQ/dL\""
+        ],
+        [
+          "TSH level",
+          "TSH within 1.3 x the upper range of normal"
+        ],
+        [
+          "T4 level",
+          "normal T4"
+        ],
+        [
+          "pregnancy status",
+          "Females of child-bearing potential must have a negative pregnancy test"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "history of soy supplement use",
+        "history of NSAID use",
+        "history of thyroid medication use",
+        "history of allergic reactions to soy-based products",
+        "presence of uncontrolled concurrent illness",
+        "history of prior pelvic irradiation",
+        "history of concurrent systemic cancer treatment",
+        "history of other investigational agent use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, ECOG performance status, White blood cell count, Platelet count, Hemoglobin level, Bilirubin level, AST level, Creatinine level, Serum calcium level, Amylase level, Sodium level, Potassium level, Chloride level, CO2 level, TSH level, T4 level, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "White blood cell count",
+        "Platelet count",
+        "Hemoglobin level",
+        "Bilirubin level",
+        "AST level",
+        "Creatinine level",
+        "Serum calcium level",
+        "Amylase level",
+        "Sodium level",
+        "Potassium level",
+        "Chloride level",
+        "CO2 level",
+        "TSH level",
+        "T4 level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Body Mass Index, Hemoglobin, Platelet Count, White Blood Cell Count, Bilirubin, Aspartate Aminotransferase, Creatinine, Serum Calcium, Amylase, Sodium, Potassium, Chloride, CO2, Thyroid-Stimulating Hormone, Free Thyroxine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Body Mass Index",
+        "Hemoglobin",
+        "Platelet Count",
+        "White Blood Cell Count",
+        "Bilirubin",
+        "Aspartate Aminotransferase",
+        "Creatinine",
+        "Serum Calcium",
+        "Amylase",
+        "Sodium",
+        "Potassium",
+        "Chloride",
+        "CO2",
+        "Thyroid-Stimulating Hormone",
+        "Free Thyroxine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, histologic diagnosis, clinical stage, presence of recurrent disease, WBC count, platelet count, hemoglobin level, bilirubin level, AST level, creatinine level, serum calcium level, amylase level, sodium level, potassium level, chloride level, CO2 level, TSH level, T4 level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "histologic diagnosis",
+        "clinical stage",
+        "presence of recurrent disease",
+        "WBC count",
+        "platelet count",
+        "hemoglobin level",
+        "bilirubin level",
+        "AST level",
+        "creatinine level",
+        "serum calcium level",
+        "amylase level",
+        "sodium level",
+        "potassium level",
+        "chloride level",
+        "CO2 level",
+        "TSH level",
+        "T4 level"
+      ]
+    }
+  }
+}

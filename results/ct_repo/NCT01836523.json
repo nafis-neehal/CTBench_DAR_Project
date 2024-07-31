@@ -1,0 +1,158 @@
+{
+  "trial_id": "NCT01836523",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Duration of Type 1 Diabetes, Basal Insulin Dose, Bolus Insulin Dose, Total Daily Insulin Dose, HbA1c, Body Weight, Blood Pressure, Presence of Retinopathy, Presence of Neuropathy, Calcitonin Level, Family History of Medullary Thyroid Carcinoma, History of Pancreatitis, History of Malignant Neoplasm",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Gender"
+        ],
+        [
+          "Glycosylated haemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Body weight",
+          "Body Weight"
+        ],
+        [
+          "Total daily actual insulin dose - Multiple daily injections",
+          "Total Daily Insulin Dose"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Duration of Type 1 Diabetes",
+        "Basal Insulin Dose",
+        "Bolus Insulin Dose",
+        "Blood Pressure",
+        "Presence of Retinopathy",
+        "Presence of Neuropathy",
+        "Calcitonin Level",
+        "Family History of Medullary Thyroid Carcinoma",
+        "History of Pancreatitis",
+        "History of Malignant Neoplasm"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Insulin Regimen (Basal Bolus or CSII), Total Daily Insulin Dose, Body Weight, Systolic Blood Pressure, Diastolic Blood Pressure, History of Retinopathy, History of Neuropathy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex: Female"
+        ],
+        [
+          "Glycosylated haemoglobin (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Body weight",
+          "Body Weight"
+        ],
+        [
+          "Total daily actual insulin dose - Multiple daily injections",
+          "Total Daily Insulin Dose"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Duration of Diabetes",
+        "Insulin Regimen (Basal Bolus or CSII)",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Retinopathy",
+        "History of Neuropathy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Total Daily Insulin Dose, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Retinopathy, History of Neuropathy, History of Cardiovascular Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex: Female"
+        ],
+        [
+          "Glycosylated haemoglobin (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Body weight",
+          "Body Mass Index"
+        ],
+        [
+          "Total daily actual insulin dose - Multiple daily injections",
+          "Total Daily Insulin Dose"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Male",
+        "Region of Enrollment",
+        "Diabetes Diagnosis Duration",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Retinopathy",
+        "History of Neuropathy",
+        "History of Cardiovascular Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, duration of type 1 diabetes, BMI, HbA1c, total daily insulin dose, type of insulin therapy (basal-bolus or CSII), systolic and diastolic blood pressure, history of diabetic complications (retinopathy, neuropathy, nephropathy), smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "Glycosylated haemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Body weight",
+          "BMI"
+        ],
+        [
+          "Total daily actual insulin dose - Multiple daily injections",
+          "total daily insulin dose"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "duration of type 1 diabetes",
+        "type of insulin therapy (basal-bolus or CSII)",
+        "systolic and diastolic blood pressure",
+        "history of diabetic complications (retinopathy, neuropathy, nephropathy)",
+        "smoking status"
+      ]
+    }
+  }
+}

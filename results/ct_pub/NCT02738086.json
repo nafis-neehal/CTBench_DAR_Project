@@ -1,0 +1,193 @@
+{
+  "trial_id": "NCT02738086",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Duration since amputation, Type of lower limb amputation, Type 2 Diabetes Mellitus status, Peripheral Artery Disease status, Ambulatory status using a lower limb prosthesis, English proficiency, Baseline physical activity level, Comorbid conditions, Medication use, Baseline cardiovascular health, Baseline blood pressure, Baseline infection status, Cognitive status, Recent cerebral vascular accident history, Presence of lower extremity wound or ulcer.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Gender"
+        ],
+        [
+          "Time since amputation",
+          "Duration since amputation"
+        ],
+        [
+          "Amputation level",
+          "Type of lower limb amputation"
+        ],
+        [
+          "Functional Comorbidity Index score",
+          "Comorbid conditions"
+        ],
+        [
+          "Mini-Mental Status Examination",
+          "Cognitive status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI",
+        "Geriatric Depression Scale",
+        "Chakrabarty Grade score"
+      ],
+      "remaining_candidate_features": [
+        "Type 2 Diabetes Mellitus status",
+        "Peripheral Artery Disease status",
+        "Ambulatory status using a lower limb prosthesis",
+        "English proficiency",
+        "Baseline physical activity level",
+        "Medication use",
+        "Baseline cardiovascular health",
+        "Baseline blood pressure",
+        "Baseline infection status",
+        "Recent cerebral vascular accident history",
+        "Presence of lower extremity wound or ulcer."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Duration since amputation, Type of amputation, Type 2 Diabetes Mellitus status, Peripheral Artery Disease status, Ambulatory status, BMI, Blood pressure, Smoking status, Medication use, Baseline physical activity level, Comorbid conditions, Prosthesis use, Cardiovascular health status, Education level, Employment status, Marital status, Living situation",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Time since amputation",
+          "Duration since amputation"
+        ],
+        [
+          "Amputation level",
+          "Type of amputation"
+        ],
+        [
+          "Functional Comorbidity Index score",
+          "Comorbid conditions"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Geriatric Depression Scale",
+        "Mini-Mental Status Examination",
+        "Chakrabarty Grade score"
+      ],
+      "remaining_candidate_features": [
+        "Race",
+        "Type 2 Diabetes Mellitus status",
+        "Peripheral Artery Disease status",
+        "Ambulatory status",
+        "Blood pressure",
+        "Smoking status",
+        "Medication use",
+        "Baseline physical activity level",
+        "Prosthesis use",
+        "Cardiovascular health status",
+        "Education level",
+        "Employment status",
+        "Marital status",
+        "Living situation"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnicity, Amputation level, Diabetes duration, Comorbidities, BMI, Prosthetic use, Ambulatory status, Prior physical activity level, Self-efficacy for physical activity, Depression, Anxiety.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Time since amputation",
+          "Amputation level"
+        ],
+        [
+          "Functional Comorbidity Index score",
+          "Comorbidities"
+        ],
+        [
+          "Geriatric Depression Scale",
+          "Depression"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Amputation level",
+        "Mini-Mental Status Examination",
+        "Chakrabarty Grade score"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "Diabetes duration",
+        "Prosthetic use",
+        "Ambulatory status",
+        "Prior physical activity level",
+        "Self-efficacy for physical activity",
+        "Anxiety"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), type of amputation (unilateral/bilateral, above/below knee), duration since amputation, comorbidities (diabetes, peripheral artery disease), ambulation status, prosthetic use, prior physical activity level, smoking status, medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Time since amputation",
+          "duration since amputation"
+        ],
+        [
+          "Amputation level",
+          "type of amputation (unilateral/bilateral, above/below knee)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Geriatric Depression Scale",
+        "Mini-Mental Status Examination",
+        "Chakrabarty Grade score",
+        "Functional Comorbidity Index score"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "comorbidities (diabetes, peripheral artery disease)",
+        "ambulation status",
+        "prosthetic use",
+        "prior physical activity level",
+        "smoking status",
+        "medication use"
+      ]
+    }
+  }
+}

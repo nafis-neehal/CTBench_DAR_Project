@@ -1,0 +1,149 @@
+{
+  "trial_id": "NCT04392167",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, history of Barrett's Esophagus, history of endoscopic eradication therapy (EET), presence of dysplastic Barrett's Esophagus, presence of non-dysplastic Barrett's Esophagus, normal asymptomatic control status, ability to provide informed consent.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Stage of Barrett's Esophagus",
+          "history of Barrett's Esophagus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "history of endoscopic eradication therapy (EET)",
+        "presence of dysplastic Barrett's Esophagus",
+        "presence of non-dysplastic Barrett's Esophagus",
+        "normal asymptomatic control status",
+        "ability to provide informed consent."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of Barrett's Esophagus, Current Barrett's Esophagus Status, Prior Endoscopic Eradication Therapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Stage of Barrett's Esophagus",
+          "Current Barrett's Esophagus Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "History of Barrett's Esophagus",
+        "Prior Endoscopic Eradication Therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Barrett's Esophagus diagnosis, Dysplastic or non-dysplastic Barrett's Esophagus, History of endoscopic eradication therapy, Prior esophageal surgery,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Stage of Barrett's Esophagus",
+          "Dysplastic or non-dysplastic Barrett's Esophagus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Barrett's Esophagus diagnosis",
+        "History of endoscopic eradication therapy",
+        "Prior esophageal surgery"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, history of dysplastic or non-dysplastic Barrett's Esophagus, history of endoscopic eradication therapy (EET), presence of dysplastic or non-dysplastic Barrett's Esophagus at enrollment, length of Barrett's Esophagus, prior esophageal surgery (uncomplicated nissen fundoplication), presence of other gastrointestinal conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Stage of Barrett's Esophagus",
+          "history of dysplastic or non-dysplastic Barrett's Esophagus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "smoking status",
+        "history of endoscopic eradication therapy (EET)",
+        "presence of dysplastic or non-dysplastic Barrett's Esophagus at enrollment",
+        "length of Barrett's Esophagus",
+        "prior esophageal surgery (uncomplicated nissen fundoplication)",
+        "presence of other gastrointestinal conditions."
+      ]
+    }
+  }
+}

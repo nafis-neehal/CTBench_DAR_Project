@@ -1,0 +1,149 @@
+{
+  "trial_id": "NCT02863445",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, weight, menstrual cycle regularity, progesterone level, liver function, renal function, thyroid function, presence of metabolic disorders, smoking status, recent use of hormonal contraception, current use of drugs that interfere with metabolism of sex steroids, pregnancy status, breastfeeding status, weight stability.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Weight (lbs)",
+          "weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Nulligravid"
+      ],
+      "remaining_candidate_features": [
+        "menstrual cycle regularity",
+        "progesterone level",
+        "liver function",
+        "renal function",
+        "thyroid function",
+        "presence of metabolic disorders",
+        "smoking status",
+        "recent use of hormonal contraception",
+        "current use of drugs that interfere with metabolism of sex steroids",
+        "pregnancy status",
+        "breastfeeding status",
+        "weight stability."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Weight, Regularity of Menstrual Cycle, Baseline Progesterone Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Weight (lbs)",
+          "Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Nulligravid"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Regularity of Menstrual Cycle",
+        "Baseline Progesterone Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, BMI, Weight, Region of Enrollment, Menstrual cycle regularity, Progesterone level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Weight (lbs)",
+          "Weight"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Nulligravid"
+      ],
+      "remaining_candidate_features": [
+        "Menstrual cycle regularity",
+        "Progesterone level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, BMI, weight, progesterone level, menstrual cycle regularity, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Weight (lbs)",
+          "weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Nulligravid"
+      ],
+      "remaining_candidate_features": [
+        "progesterone level",
+        "menstrual cycle regularity",
+        "smoking status."
+      ]
+    }
+  }
+}

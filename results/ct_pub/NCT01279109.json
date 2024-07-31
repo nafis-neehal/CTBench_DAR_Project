@@ -1,0 +1,193 @@
+{
+  "trial_id": "NCT01279109",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, race/ethnicity, language spoken, weeks of pregnancy at enrollment, prenatal care status, geographic location (Middle Tennessee), willingness to sign medical information release form, previous enrollment in weight-related research programs",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race",
+          "race/ethnicity"
+        ],
+        [
+          "Language preference",
+          "language spoken"
+        ],
+        [
+          "Weeks of pregnancy at enrollment",
+          "weeks of pregnancy at enrollment"
+        ],
+        [
+          "Prenatal care status",
+          "prenatal care status"
+        ],
+        [
+          "Geographic location",
+          "geographic location (Middle Tennessee)"
+        ],
+        [
+          "Willingness to sign medical information release form",
+          "willingness to sign medical information release form"
+        ],
+        [
+          "Previous enrollment in weight-related research programs",
+          "previous enrollment in weight-related research programs"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Condition",
+        "Baseline weight",
+        "Education",
+        "WIC recipient",
+        "Country of origin",
+        "Smoked cigarettes while pregnant",
+        "Marital status",
+        "Self-reported food insecurity",
+        "Prior deliveries"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Race/Ethnicity, Language, Gestational age at enrollment, Prenatal care status, Anticipated residence duration, Willingness to sign medical information release form, Previous enrollment in weight-related research programs",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race",
+          "Race/Ethnicity"
+        ],
+        [
+          "Language preference",
+          "Language"
+        ],
+        [
+          "Prior deliveries",
+          "Gestational age at enrollment"
+        ],
+        [
+          "Condition",
+          "Prenatal care status"
+        ],
+        [
+          "Country of origin",
+          "Anticipated residence duration"
+        ],
+        [
+          "Willingness to sign medical information release form",
+          "Willingness to sign medical information release form"
+        ],
+        [
+          "Smoked cigarettes while pregnant",
+          "Previous enrollment in weight-related research programs"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Baseline weight",
+        "Education",
+        "WIC recipient",
+        "Marital status",
+        "Self-reported food insecurity"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Race, Ethnicity, Gestational age, Pre-pregnancy BMI, Education, Marital status, Employment, Household income, Insurance type, Prenatal care provider, Gestational weight gain at 28 weeks, Gestational weight gain at 36 weeks.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Education",
+          "Education"
+        ],
+        [
+          "Marital status",
+          "Marital status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Condition",
+        "Baseline weight",
+        "Language preference",
+        "WIC recipient",
+        "Country of origin",
+        "Smoked cigarettes while pregnant",
+        "Self-reported food insecurity",
+        "Prior deliveries"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "Gestational age",
+        "Pre-pregnancy BMI",
+        "Employment",
+        "Household income",
+        "Insurance type",
+        "Prenatal care provider",
+        "Gestational weight gain at 28 weeks",
+        "Gestational weight gain at 36 weeks"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, race, ethnicity, gestational age, language spoken, parity, gravidity, body mass index (BMI), weight, height, medical history, obstetric history, prenatal care status, geographic location.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Condition",
+          "gestational age"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Language preference",
+          "language spoken"
+        ],
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Baseline weight",
+          "weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Education",
+        "WIC recipient",
+        "Country of origin",
+        "Smoked cigarettes while pregnant",
+        "Marital status",
+        "Self-reported food insecurity",
+        "Prior deliveries"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "parity",
+        "gravidity",
+        "body mass index (BMI)",
+        "height",
+        "medical history",
+        "obstetric history",
+        "prenatal care status",
+        "geographic location"
+      ]
+    }
+  }
+}

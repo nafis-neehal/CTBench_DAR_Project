@@ -1,0 +1,175 @@
+{
+  "trial_id": "NCT02641522",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, ethnicity, duration of Type 1 Diabetes, baseline C-peptide levels, presence of diabetes-related autoantibodies, body mass index (BMI), blood pressure, heart rate, baseline IL-6 levels, baseline p-STAT3 levels, white blood cell count, lymphocyte count, platelet count, hemoglobin levels, neutrophil count, liver enzyme levels (ALT, AST), total bilirubin levels, history of infections (e.g., TB, EBV, CMV), history of malignancy, cardiovascular disease status, renal function, pulmonary function, gastrointestinal function, dyslipidemia status, pregnancy status, use of birth control, history of vaccine receipt, prior use of investigational drugs or immune-modulating biologics.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "duration of Type 1 Diabetes",
+        "baseline C-peptide levels",
+        "presence of diabetes-related autoantibodies",
+        "body mass index (BMI)",
+        "blood pressure",
+        "heart rate",
+        "baseline IL-6 levels",
+        "baseline p-STAT3 levels",
+        "white blood cell count",
+        "lymphocyte count",
+        "platelet count",
+        "hemoglobin levels",
+        "neutrophil count",
+        "liver enzyme levels (ALT, AST)",
+        "total bilirubin levels",
+        "history of infections (e.g., TB, EBV, CMV)",
+        "history of malignancy",
+        "cardiovascular disease status",
+        "renal function",
+        "pulmonary function",
+        "gastrointestinal function",
+        "dyslipidemia status",
+        "pregnancy status",
+        "use of birth control",
+        "history of vaccine receipt",
+        "prior use of investigational drugs or immune-modulating biologics"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Baseline C-peptide level, Diabetes-related autoantibodies, Hemoglobin, White blood count, Lymphocyte count, Platelet count, Neutrophil count, Liver enzymes (ALT, AST), Total bilirubin,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diabetes Diagnosis Duration",
+        "Baseline C-peptide level",
+        "Diabetes-related autoantibodies",
+        "Hemoglobin",
+        "White blood count",
+        "Lymphocyte count",
+        "Platelet count",
+        "Neutrophil count",
+        "Liver enzymes (ALT, AST)",
+        "Total bilirubin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Duration, Peak Stimulated C-peptide Level, BMI, Autoantibody Status, Insulin Dose, HbA1c, Blood Pressure, Lipid Profile.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Duration",
+        "Peak Stimulated C-peptide Level",
+        "BMI",
+        "Autoantibody Status",
+        "Insulin Dose",
+        "HbA1c",
+        "Blood Pressure",
+        "Lipid Profile"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 1 diabetes, HbA1c, peak stimulated C-peptide level, diabetes-related autoantibody status, history of severe hypoglycemia, insulin dose, presence of microvascular complications, presence of macrovascular complications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of type 1 diabetes",
+        "HbA1c",
+        "peak stimulated C-peptide level",
+        "diabetes-related autoantibody status",
+        "history of severe hypoglycemia",
+        "insulin dose",
+        "presence of microvascular complications",
+        "presence of macrovascular complications"
+      ]
+    }
+  }
+}

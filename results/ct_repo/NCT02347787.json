@@ -1,0 +1,318 @@
+{
+  "trial_id": "NCT02347787",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, Race, Ethnicity, Body Mass Index (BMI), Systolic Blood Pressure (SBP), Hemoglobin A1c (HgBA1c), Smoking status, Insurance status, Socioeconomic status, Duration of chronic conditions, Number of chronic conditions, ZIP code of residence, Previous healthcare utilization, Baseline Short Form Health Survey (SF-12) Physical Component Score (PCS).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ],
+        [
+          "Chronic Disease Prevalence - Obesity",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Chronic Disease Prevalence - Hypertension",
+          "Systolic Blood Pressure (SBP)"
+        ],
+        [
+          "Chronic Disease Prevalence - Diabetes",
+          "Hemoglobin A1c (HgBA1c)"
+        ],
+        [
+          "Chronic Disease Prevalence - Tobacco Dependence",
+          "Smoking status"
+        ],
+        [
+          "Short Form Health Survey (SF-12)",
+          "Baseline Short Form Health Survey (SF-12) Physical Component Score (PCS)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Employed",
+        "Household Income",
+        "Trauma History",
+        "Low Social Support",
+        "Short Grit Scale (Grit-S)",
+        "Adult Attachment Questionnaire (AAQ)",
+        "Delayed Health Need",
+        "Unmet health Need",
+        "Lack of Basic needs",
+        "Alcohol Overuse",
+        "Drug Use",
+        "Patient Activation Measure (PAM)",
+        "Perceived Stress Scale (PSS)",
+        "Single Item Literacy Screener (SILS)",
+        "ER visits in prior 12 months",
+        "Admissions in prior 12 months",
+        "Selected Condition",
+        "Hypertension",
+        "Diabetes",
+        "Obesity - Baseline Clinical Parameters",
+        "Obesity - Health Goal",
+        "Tobacco Use"
+      ],
+      "remaining_candidate_features": [
+        "Insurance status",
+        "Socioeconomic status",
+        "Duration of chronic conditions",
+        "Number of chronic conditions",
+        "ZIP code of residence",
+        "Previous healthcare utilization"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Smoking Status, Insurance Status, Socioeconomic Status, Number of Chronic Conditions,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Chronic Disease Prevalence - Hypertension",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Chronic Disease Prevalence - Obesity",
+          "Body Mass Index"
+        ],
+        [
+          "Chronic Disease Prevalence - Diabetes",
+          "HbA1c"
+        ],
+        [
+          "Chronic Disease Prevalence - Tobacco Dependence",
+          "Smoking Status"
+        ],
+        [
+          "Insurance Status",
+          "Insurance Status"
+        ],
+        [
+          "Socioeconomic Status",
+          "Socioeconomic Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Employed",
+        "Household Income",
+        "Trauma History",
+        "Low Social Support",
+        "Short Grit Scale (Grit-S)",
+        "Adult Attachment Questionnaire (AAQ)",
+        "Delayed Health Need",
+        "Unmet health Need",
+        "Lack of Basic needs",
+        "Alcohol Overuse",
+        "Drug Use",
+        "Short Form Health Survey (SF-12)",
+        "Patient Activation Measure (PAM)",
+        "Perceived Stress Scale (PSS)",
+        "Single Item Literacy Screener (SILS)",
+        "ER visits in prior 12 months",
+        "Admissions in prior 12 months",
+        "Selected Condition",
+        "Hypertension",
+        "Diabetes",
+        "Obesity - Baseline Clinical Parameters",
+        "Obesity - Health Goal",
+        "Tobacco Use"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diastolic Blood Pressure",
+        "Number of Chronic Conditions"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Tobacco Use, Insurance Status, Number of Chronic Conditions, Most Recent Value of Poorly Controlled Condition.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Short Form Health Survey (SF-12)",
+          "Short Form Health Survey (SF-12)"
+        ],
+        [
+          "Chronic Disease Prevalence - Hypertension",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Chronic Disease Prevalence - Obesity",
+          "Body Mass Index"
+        ],
+        [
+          "Chronic Disease Prevalence - Diabetes",
+          "HbA1c"
+        ],
+        [
+          "Chronic Disease Prevalence - Tobacco Dependence",
+          "Tobacco Use"
+        ],
+        [
+          "Insurance Status",
+          "Insurance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Employed",
+        "Household Income",
+        "Trauma History",
+        "Low Social Support",
+        "Short Grit Scale (Grit-S)",
+        "Adult Attachment Questionnaire (AAQ)",
+        "Delayed Health Need",
+        "Unmet health Need",
+        "Lack of Basic needs",
+        "Alcohol Overuse",
+        "Drug Use",
+        "Patient Activation Measure (PAM)",
+        "Perceived Stress Scale (PSS)",
+        "Single Item Literacy Screener (SILS)",
+        "ER visits in prior 12 months",
+        "Admissions in prior 12 months",
+        "Selected Condition",
+        "Hypertension",
+        "Diabetes",
+        "Obesity - Baseline Clinical Parameters",
+        "Obesity - Health Goal"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diastolic Blood Pressure",
+        "Number of Chronic Conditions",
+        "Most Recent Value of Poorly Controlled Condition."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, systolic blood pressure, HbA1c, smoking status, insurance status, number of chronic conditions, duration of chronic conditions, medication adherence, education level, employment status, income level, ZIP code of residence, practice site.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Chronic Disease Prevalence - Obesity",
+          "BMI"
+        ],
+        [
+          "Chronic Disease Prevalence - Hypertension",
+          "systolic blood pressure"
+        ],
+        [
+          "Chronic Disease Prevalence - Diabetes",
+          "HbA1c"
+        ],
+        [
+          "Chronic Disease Prevalence - Tobacco Dependence",
+          "smoking status"
+        ],
+        [
+          "Short Form Health Survey (SF-12)",
+          "Short Form Health Survey (SF-12)"
+        ],
+        [
+          "Household Income",
+          "income level"
+        ],
+        [
+          "Employed",
+          "employment status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Trauma History",
+        "Low Social Support",
+        "Short Grit Scale (Grit-S)",
+        "Adult Attachment Questionnaire (AAQ)",
+        "Delayed Health Need",
+        "Unmet health Need",
+        "Lack of Basic needs",
+        "Alcohol Overuse",
+        "Drug Use",
+        "Patient Activation Measure (PAM)",
+        "Perceived Stress Scale (PSS)",
+        "Single Item Literacy Screener (SILS)",
+        "ER visits in prior 12 months",
+        "Admissions in prior 12 months",
+        "Selected Condition",
+        "Hypertension",
+        "Diabetes",
+        "Obesity - Baseline Clinical Parameters",
+        "Obesity - Health Goal",
+        "Tobacco Use"
+      ],
+      "remaining_candidate_features": [
+        "insurance status",
+        "number of chronic conditions",
+        "duration of chronic conditions",
+        "medication adherence",
+        "education level",
+        "ZIP code of residence",
+        "practice site"
+      ]
+    }
+  }
+}

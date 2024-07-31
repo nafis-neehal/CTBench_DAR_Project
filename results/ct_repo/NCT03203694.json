@@ -1,0 +1,150 @@
+{
+  "trial_id": "NCT03203694",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, BMI, Duration of Diabetes, Baseline Blood Pressure, Baseline Blood Glucose Levels, Baseline Insulin Levels, Physical Activity Level, Smoking Status, Alcohol Consumption, Medication Use, Baseline Leg Blood Flow, Comorbidities (e.g., hypertension, dyslipidemia).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Duration of Diabetes",
+        "Baseline Blood Pressure",
+        "Baseline Blood Glucose Levels",
+        "Baseline Insulin Levels",
+        "Physical Activity Level",
+        "Smoking Status",
+        "Alcohol Consumption",
+        "Medication Use",
+        "Baseline Leg Blood Flow",
+        "Comorbidities (e.g., hypertension, dyslipidemia)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of Diabetes, Baseline Physical Activity Level, Hemoglobin A1c, Fasting Glucose, Insulin Sensitivity,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Duration of Diabetes",
+        "Baseline Physical Activity Level",
+        "Hemoglobin A1c",
+        "Fasting Glucose",
+        "Insulin Sensitivity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Diabetes duration, Systolic Blood Pressure, Diastolic Blood Pressure, Insulin-stimulated Leg Blood Flow,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes duration",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Insulin-stimulated Leg Blood Flow"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, diabetes duration, HbA1c, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, alcohol consumption, medical history (cardiovascular disease, renal disease, hepatic disease, cancer, autoimmune disease), medication use (antihypertensive, lipid-lowering, glucose-lowering).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "diabetes duration",
+        "HbA1c",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "smoking status",
+        "alcohol consumption",
+        "medical history (cardiovascular disease, renal disease, hepatic disease, cancer, autoimmune disease)",
+        "medication use (antihypertensive, lipid-lowering, glucose-lowering)"
+      ]
+    }
+  }
+}

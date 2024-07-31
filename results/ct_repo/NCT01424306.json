@@ -1,0 +1,171 @@
+{
+  "trial_id": "NCT01424306",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Gender, Weight stability, Maximum lifetime weight, History of chronic inflammatory diseases, History of autoimmune diseases, History of metabolic diseases, Presence of phenylketonuria, Presence of hereditary fructose intolerance, Presence of fructose malabsorption, Presence of malabsorption syndromes, Alcohol consumption, Smoking status, Recreational drug use, Medication intake, Presence of anemia, Pregnancy status, Breastfeeding status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Fasting glucose",
+        "Physical activity",
+        "Estimated total calorie requirement"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Weight stability",
+        "Maximum lifetime weight",
+        "History of chronic inflammatory diseases",
+        "History of autoimmune diseases",
+        "History of metabolic diseases",
+        "Presence of phenylketonuria",
+        "Presence of hereditary fructose intolerance",
+        "Presence of fructose malabsorption",
+        "Presence of malabsorption syndromes",
+        "Alcohol consumption",
+        "Smoking status",
+        "Recreational drug use",
+        "Medication intake",
+        "Presence of anemia",
+        "Pregnancy status",
+        "Breastfeeding status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Weight Stability, Alcohol Consumption, Smoking Status, Medication Use, Baseline Fasting Plasma C-reactive Protein, Baseline Fasting Plasma Interleukin-6,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Fasting glucose",
+        "Physical activity",
+        "Estimated total calorie requirement"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Weight Stability",
+        "Alcohol Consumption",
+        "Smoking Status",
+        "Medication Use",
+        "Baseline Fasting Plasma C-reactive Protein",
+        "Baseline Fasting Plasma Interleukin-6"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Weight, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Fasting Plasma Insulin, Lipid Profile, Smoking Status, Family History of Cardiovascular Disease,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Fasting glucose",
+        "Physical activity",
+        "Estimated total calorie requirement"
+      ],
+      "remaining_candidate_features": [
+        "Weight",
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "Fasting Plasma Insulin",
+        "Lipid Profile",
+        "Smoking Status",
+        "Family History of Cardiovascular Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, ethnicity, smoking status, alcohol consumption, medical history, medication use, dietary habits, physical activity level, fasting plasma glucose, fasting plasma insulin, blood pressure, lipid profile.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Fasting glucose",
+          "fasting plasma glucose"
+        ],
+        [
+          "Physical activity",
+          "physical activity level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Estimated total calorie requirement"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "ethnicity",
+        "smoking status",
+        "alcohol consumption",
+        "medical history",
+        "medication use",
+        "dietary habits",
+        "fasting plasma insulin",
+        "blood pressure",
+        "lipid profile"
+      ]
+    }
+  }
+}

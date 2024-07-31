@@ -1,0 +1,177 @@
+{
+  "trial_id": "NCT04347291",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Ethnicity, Duration of Diabetes, Baseline Glycemic Control (HbA1c), Medication Adherence, Diabetes Self-efficacy, Physical Activity Level, Diet Quality, Diabetes Distress, Psychosocial Well-being, Type of Diabetes Medication, Mobile Phone Usage, Support Person Involvement, Support Person's Age, Support Person's Gender, Support Person's Relationship to Patient.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ],
+        [
+          "Hemoglobin A1c (patient participants)",
+          "Baseline Glycemic Control (HbA1c)"
+        ],
+        [
+          "Diabetes distress (patient participants)",
+          "Diabetes Distress"
+        ],
+        [
+          "Psychosocial well-being (patient participants)",
+          "Psychosocial Well-being"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes",
+        "Medication Adherence",
+        "Diabetes Self-efficacy",
+        "Physical Activity Level",
+        "Diet Quality",
+        "Type of Diabetes Medication",
+        "Mobile Phone Usage",
+        "Support Person Involvement",
+        "Support Person's Age",
+        "Support Person's Gender",
+        "Support Person's Relationship to Patient"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Diabetes Medication Adherence, Diabetes Self-efficacy, Diabetes Distress, Psychosocial Well-being,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Hemoglobin A1c (patient participants)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Diabetes distress (patient participants)",
+          "Diabetes Distress"
+        ],
+        [
+          "Psychosocial well-being (patient participants)",
+          "Psychosocial Well-being"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Duration of Diabetes",
+        "Diabetes Medication Adherence",
+        "Diabetes Self-efficacy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, HbA1c, BMI, Blood Pressure, Diabetes Medication, Support Person Involvement, Diabetes Self-efficacy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Hemoglobin A1c (patient participants)",
+          "HbA1c"
+        ],
+        [
+          "Diabetes distress (patient participants)",
+          "Diabetes Distress"
+        ],
+        [
+          "Psychosocial well-being (patient participants)",
+          "Psychosocial Well-being"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diabetes Duration",
+        "BMI",
+        "Blood Pressure",
+        "Diabetes Medication",
+        "Support Person Involvement",
+        "Diabetes Self-efficacy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, employment status, marital status, duration of diabetes, type of diabetes medication, comorbidities, body mass index (BMI), smoking status, mobile phone proficiency, diabetes self-efficacy, social support, quality of life, depression, anxiety.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Hemoglobin A1c (patient participants)",
+          "duration of diabetes"
+        ],
+        [
+          "Diabetes distress (patient participants)",
+          "depression"
+        ],
+        [
+          "Psychosocial well-being (patient participants)",
+          "quality of life"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "education level",
+        "employment status",
+        "marital status",
+        "type of diabetes medication",
+        "comorbidities",
+        "body mass index (BMI)",
+        "smoking status",
+        "mobile phone proficiency",
+        "diabetes self-efficacy",
+        "social support",
+        "anxiety"
+      ]
+    }
+  }
+}

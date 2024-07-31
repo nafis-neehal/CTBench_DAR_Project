@@ -1,0 +1,165 @@
+{
+  "trial_id": "NCT00549302",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline blood pressure, baseline pulmonary arterial pressure, baseline heart rate, baseline oxygen saturation, baseline 6-minute walk distance, baseline WHO functional class, baseline NT-proBNP levels, baseline echocardiographic parameters, baseline concomitant medications, baseline comorbid conditions, smoking status, baseline renal function, baseline liver function, baseline body mass index (BMI).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Weight",
+        "Ethnicity",
+        "Etiology",
+        "Current Bosentan Use"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "baseline blood pressure",
+        "baseline pulmonary arterial pressure",
+        "baseline heart rate",
+        "baseline oxygen saturation",
+        "baseline 6-minute walk distance",
+        "baseline WHO functional class",
+        "baseline NT-proBNP levels",
+        "baseline echocardiographic parameters",
+        "baseline concomitant medications",
+        "baseline comorbid conditions",
+        "smoking status",
+        "baseline renal function",
+        "baseline liver function",
+        "baseline body mass index (BMI)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Pulmonary Arterial Pressure, Baseline 6-Minute Walk Distance, Baseline WHO Functional Class, Baseline NT-proBNP Levels, Baseline Right Atrial Pressure, Baseline Cardiac Index, Baseline Pulmonary Vascular Resistance,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Race",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Ethnicity",
+        "Etiology",
+        "Current Bosentan Use"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Baseline Pulmonary Arterial Pressure",
+        "Baseline 6-Minute Walk Distance",
+        "Baseline WHO Functional Class",
+        "Baseline NT-proBNP Levels",
+        "Baseline Right Atrial Pressure",
+        "Baseline Cardiac Index",
+        "Baseline Pulmonary Vascular Resistance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulmonary Arterial Pressure, Pulmonary Vascular Resistance, Six-Minute Walk Distance, World Health Organization Functional Class.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Race",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Ethnicity",
+        "Etiology",
+        "Current Bosentan Use"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Pulmonary Arterial Pressure",
+        "Pulmonary Vascular Resistance",
+        "Six-Minute Walk Distance",
+        "World Health Organization Functional Class"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic pulmonary artery pressure, diastolic pulmonary artery pressure, mean pulmonary artery pressure, pulmonary vascular resistance, cardiac output, right atrial pressure, New York Heart Association (NYHA) functional class, World Health Organization (WHO) functional class, 6-minute walk distance, Borg dyspnea score, time since diagnosis of pulmonary arterial hypertension (PAH), previous PAH therapy, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Weight",
+        "Etiology",
+        "Current Bosentan Use"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "body mass index (BMI)",
+        "systolic pulmonary artery pressure",
+        "diastolic pulmonary artery pressure",
+        "mean pulmonary artery pressure",
+        "pulmonary vascular resistance",
+        "cardiac output",
+        "right atrial pressure",
+        "New York Heart Association (NYHA) functional class",
+        "World Health Organization (WHO) functional class",
+        "6-minute walk distance",
+        "Borg dyspnea score",
+        "time since diagnosis of pulmonary arterial hypertension (PAH)",
+        "previous PAH therapy",
+        "concomitant medications."
+      ]
+    }
+  }
+}

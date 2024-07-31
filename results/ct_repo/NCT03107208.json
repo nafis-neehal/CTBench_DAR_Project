@@ -1,0 +1,166 @@
+{
+  "trial_id": "NCT03107208",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 1 diabetes, initial blood glucose level, initial venous pH, initial serum bicarbonate concentration, presence of ketonemia or ketonuria, prior DKA episodes, use of continuous glucose monitor, baseline insulin regimen, weight, height, body mass index (BMI), ethnicity, race, socioeconomic status, family history of diabetes.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Diabetic patient status",
+          "duration of type 1 diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "initial blood glucose level",
+        "initial venous pH",
+        "initial serum bicarbonate concentration",
+        "presence of ketonemia or ketonuria",
+        "prior DKA episodes",
+        "baseline insulin regimen",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "socioeconomic status",
+        "family history of diabetes"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Duration of Diabetes, Baseline Blood Glucose Levels, Venous pH, Serum Bicarbonate Concentration, Presence of Ketonemia or Ketonuria,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Diabetic patient status",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Blood Glucose Levels",
+        "Venous pH",
+        "Serum Bicarbonate Concentration",
+        "Presence of Ketonemia or Ketonuria"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, BMI, Blood glucose, pH, Bicarbonate level, Ketonemia, Ketonuria, Insulin dose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diabetic patient status",
+          "Diabetes duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Blood glucose",
+        "pH",
+        "Bicarbonate level",
+        "Ketonemia",
+        "Ketonuria",
+        "Insulin dose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, BMI, duration of type 1 diabetes, HbA1c, serum glucose concentration, venous pH, serum bicarbonate concentration, presence of ketonemia or ketonuria, history of DKA, insulin regimen prior to DKA, presence of co-morbidities (e.g. chronic renal disease, chronic liver disease, chronic lung disease).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Diabetic patient status",
+          "duration of type 1 diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "BMI",
+        "HbA1c",
+        "serum glucose concentration",
+        "venous pH",
+        "serum bicarbonate concentration",
+        "presence of ketonemia or ketonuria",
+        "history of DKA",
+        "insulin regimen prior to DKA",
+        "presence of co-morbidities (e.g. chronic renal disease, chronic liver disease, chronic lung disease)"
+      ]
+    }
+  }
+}

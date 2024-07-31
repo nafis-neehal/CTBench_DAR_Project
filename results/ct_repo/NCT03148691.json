@@ -1,0 +1,155 @@
+{
+  "trial_id": "NCT03148691",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, clinical diagnosis of seborrheic keratosis, number of target lesions, location of target lesions (trunk, extremities, face), lesion size (length, width, thickness), general health status, complete blood count results, chemistry results, pregnancy status (for women of childbearing potential), use of systemic therapies (retinoids, corticosteroids, anti-metabolites), use of topical therapies (LASER, light or other energy-based therapy, liquid nitrogen, electrodesiccation, curettage, imiquimod, 5-Fluorouracil, ingenol mebutate, hydrogen peroxide, retinoids, microdermabrasion, superficial chemical peels, corticosteroids, antibiotics), presence of cutaneous malignancy, sunburn status, presence of pre-malignancy, body art status, excessive tan status, history of sensitivity to study medication ingredients, current skin disease or condition, participation in another therapeutic investigational drug trial.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "clinical diagnosis of seborrheic keratosis",
+        "number of target lesions",
+        "location of target lesions (trunk, extremities, face)",
+        "lesion size (length, width, thickness)",
+        "general health status",
+        "complete blood count results",
+        "chemistry results",
+        "pregnancy status (for women of childbearing potential)",
+        "use of systemic therapies (retinoids, corticosteroids, anti-metabolites)",
+        "use of topical therapies (LASER, light or other energy-based therapy, liquid nitrogen, electrodesiccation, curettage, imiquimod, 5-Fluorouracil, ingenol mebutate, hydrogen peroxide, retinoids, microdermabrasion, superficial chemical peels, corticosteroids, antibiotics)",
+        "presence of cutaneous malignancy",
+        "sunburn status",
+        "presence of pre-malignancy",
+        "body art status",
+        "excessive tan status",
+        "history of sensitivity to study medication ingredients",
+        "current skin disease or condition",
+        "participation in another therapeutic investigational drug trial"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Number of Target Lesions, Lesion Size (Length, Width, Thickness), Physician's Lesion Assessment, Chemistry and Complete Blood Count Results,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Number of Target Lesions",
+        "Lesion Size (Length, Width, Thickness)",
+        "Physician's Lesion Assessment",
+        "Chemistry and Complete Blood Count Results"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Physician's Lesion Assessment, Lesion length, Lesion width, Lesion thickness,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Physician's Lesion Assessment",
+        "Lesion length",
+        "Lesion width",
+        "Lesion thickness"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, weight, height, body mass index (BMI), duration of seborrheic keratosis, number of target lesions, lesion size (length, width, thickness), Physician's Lesion Assessment, presence of comorbidities, concomitant medications, smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "duration of seborrheic keratosis",
+        "number of target lesions",
+        "lesion size (length, width, thickness)",
+        "Physician's Lesion Assessment",
+        "presence of comorbidities",
+        "concomitant medications",
+        "smoking status",
+        "alcohol consumption"
+      ]
+    }
+  }
+}

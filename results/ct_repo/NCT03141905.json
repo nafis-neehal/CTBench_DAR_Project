@@ -1,0 +1,174 @@
+{
+  "trial_id": "NCT03141905",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, baseline renal function, blood pressure, medication use (RAS blockers, diuretics, Metformin, NSAIDs), comorbid conditions (e.g., diabetes, hypertension), duration of chronic kidney disease, smoking status, body mass index (BMI), baseline laboratory values (e.g., serum creatinine, eGFR).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "eGFR",
+          "baseline renal function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure",
+        "medication use (RAS blockers, diuretics, Metformin, NSAIDs)",
+        "comorbid conditions (e.g., diabetes, hypertension)",
+        "duration of chronic kidney disease",
+        "smoking status",
+        "body mass index (BMI)",
+        "baseline laboratory values (e.g., serum creatinine, eGFR)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Renal Function, Use of RAS Blockers, Use of Diuretics, Use of Metformin, Use of NSAIDs, Baseline Blood Pressure, Baseline Body Mass Index,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "eGFR",
+          "Baseline Renal Function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Use of RAS Blockers",
+        "Use of Diuretics",
+        "Use of Metformin",
+        "Use of NSAIDs",
+        "Baseline Blood Pressure",
+        "Baseline Body Mass Index"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Race/Ethnicity, Customized, Region of Enrollment, Chronic Kidney Disease Stage, Estimated Glomerular Filtration Rate (eGFR), Blood Pressure, Diabetes Status, Cardiovascular Disease History, RAS Blocker Use, Diuretic Use, Metformin Use, NSAID Use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "eGFR",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "Chronic Kidney Disease Stage",
+        "Blood Pressure",
+        "Diabetes Status",
+        "Cardiovascular Disease History",
+        "RAS Blocker Use",
+        "Diuretic Use",
+        "Metformin Use",
+        "NSAID Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), blood pressure, estimated glomerular filtration rate (eGFR), serum creatinine, albuminuria, comorbidities (e.g., diabetes, hypertension, cardiovascular disease), medication use (RAS blockers, diuretics, Metformin, NSAID), history of AKI, duration of CKD, presence of cardiovascular disease, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "eGFR",
+          "estimated glomerular filtration rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "blood pressure",
+        "serum creatinine",
+        "albuminuria",
+        "comorbidities (e.g., diabetes, hypertension, cardiovascular disease)",
+        "medication use (RAS blockers, diuretics, Metformin, NSAID)",
+        "history of AKI",
+        "duration of CKD",
+        "presence of cardiovascular disease",
+        "smoking status."
+      ]
+    }
+  }
+}

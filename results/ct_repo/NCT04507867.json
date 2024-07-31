@@ -1,0 +1,404 @@
+{
+  "trial_id": "NCT04507867",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, BMI, Oxygen Saturation, Presence of Diabetes Mellitus, Presence of Hypertension, Presence of Cardiovascular Disease, Tolerance to Oral Feeding, Baseline Inflammatory Markers, Baseline Nutritional Status, Baseline Respiratory Distress, Baseline Oxygen Requirement",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Oxygen Saturation",
+          "Oxygen Saturation"
+        ],
+        [
+          "Diabetes Mellitus 2",
+          "Presence of Diabetes Mellitus"
+        ],
+        [
+          "Cardiovascular Disease and/or Hypertension",
+          "Presence of Hypertension"
+        ],
+        [
+          "Cardiovascular Disease and/or Hypertension",
+          "Presence of Cardiovascular Disease"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Overweight",
+        "Obesity Type I-II",
+        "Hyperlipidemia",
+        "Number of Participants with Gastrointestinal Disease",
+        "Total Risk Factors",
+        "Number of Participants with Dyspnea",
+        "Nausea and Vomiting",
+        "Hyposmia",
+        "Dysgeusia",
+        "Number of Participants with Headache",
+        "Number of Participants with Myalgia",
+        "Number of Participants with Diarrhea",
+        "Number of Participants with Anorexia",
+        "Total of symptoms",
+        "Bristol scale \"normal\" (T3-4)",
+        "Number of defecations",
+        "Number of Participants with Abdominal Distension",
+        "Breathing Frequency",
+        "Resting Heart Rate",
+        "Body Temperature (\u00baC)",
+        "Liters of Supplemental Oxygen",
+        "qSOFA Score",
+        "MNA (Mini Nutritional Assessment) Score",
+        "Hydric Balance",
+        "Antihypertensive medication",
+        "Antidiabetics medication",
+        "Antilipids medication",
+        "Antibiotics medication",
+        "Antiacids",
+        "NSAIDs medication",
+        "Hemoglobin",
+        "Mean Corpuscular Hemoglobin Concentration",
+        "Platelets",
+        "Leukocytes",
+        "Neutrophils",
+        "Glycemia",
+        "Total cholesterol",
+        "Triglycerides",
+        "AST",
+        "ALT",
+        "Albumin",
+        "Ferritin",
+        "Fibrinogen",
+        "CRP",
+        "D dimer",
+        "Serum Creatinine",
+        "Urea",
+        "Blood urea nitrogen (BUN)",
+        "Glomerular filtration rate (GFR)",
+        "Procalcitonin",
+        "basal energy intake"
+      ],
+      "remaining_candidate_features": [
+        "Tolerance to Oral Feeding",
+        "Baseline Inflammatory Markers",
+        "Baseline Nutritional Status",
+        "Baseline Respiratory Distress",
+        "Baseline Oxygen Requirement"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Oxygen Saturation, Comorbidities (Type 2 Diabetes Mellitus, Hypertension, Overweight/Obesity), Baseline Inflammatory Markers, Baseline Nutritional Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Oxygen Saturation",
+          "Oxygen Saturation"
+        ],
+        [
+          "Diabetes Mellitus 2",
+          "Comorbidities (Type 2 Diabetes Mellitus, Hypertension, Overweight/Obesity)"
+        ],
+        [
+          "Hypertension",
+          "Comorbidities (Type 2 Diabetes Mellitus, Hypertension, Overweight/Obesity)"
+        ],
+        [
+          "Overweight",
+          "Comorbidities (Type 2 Diabetes Mellitus, Hypertension, Overweight/Obesity)"
+        ],
+        [
+          "Obesity Type I-II",
+          "Comorbidities (Type 2 Diabetes Mellitus, Hypertension, Overweight/Obesity)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Hyperlipidemia",
+        "Number of Participants with Gastrointestinal Disease",
+        "Total Risk Factors",
+        "Number of Participants with Dyspnea",
+        "Nausea and Vomiting",
+        "Hyposmia",
+        "Dysgeusia",
+        "Number of Participants with Headache",
+        "Number of Participants with Myalgia",
+        "Number of Participants with Diarrhea",
+        "Number of Participants with Anorexia",
+        "Total of symptoms",
+        "Bristol scale \"normal\" (T3-4)",
+        "Number of defecations",
+        "Number of Participants with Abdominal Distension",
+        "Breathing Frequency",
+        "Resting Heart Rate",
+        "Body Temperature (\u00baC)",
+        "Liters of Supplemental Oxygen",
+        "qSOFA Score",
+        "MNA (Mini Nutritional Assessment) Score",
+        "Hydric Balance",
+        "Antihypertensive medication",
+        "Antidiabetics medication",
+        "Antilipids medication",
+        "Antibiotics medication",
+        "Antiacids",
+        "NSAIDs medication",
+        "Hemoglobin",
+        "Mean Corpuscular Hemoglobin Concentration",
+        "Platelets",
+        "Leukocytes",
+        "Neutrophils",
+        "Glycemia",
+        "Total cholesterol",
+        "Triglycerides",
+        "AST",
+        "ALT",
+        "Albumin",
+        "Ferritin",
+        "Fibrinogen",
+        "CRP",
+        "D dimer",
+        "Serum Creatinine",
+        "Urea",
+        "Blood urea nitrogen (BUN)",
+        "Glomerular filtration rate (GFR)",
+        "Procalcitonin",
+        "basal energy intake"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Baseline Inflammatory Markers",
+        "Baseline Nutritional Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Comorbidities (Diabetes Mellitus, Hypertension, Overweight or Obesity), Oxygen Saturation, Respiratory Distress, Cardiovascular Disease, Inflammation Markers.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Diabetes Mellitus 2",
+          "Comorbidities (Diabetes Mellitus, Hypertension, Overweight or Obesity)"
+        ],
+        [
+          "Hypertension",
+          "Comorbidities (Diabetes Mellitus, Hypertension, Overweight or Obesity)"
+        ],
+        [
+          "Overweight",
+          "Comorbidities (Diabetes Mellitus, Hypertension, Overweight or Obesity)"
+        ],
+        [
+          "Obesity Type I-II",
+          "Comorbidities (Diabetes Mellitus, Hypertension, Overweight or Obesity)"
+        ],
+        [
+          "Oxygen Saturation",
+          "Oxygen Saturation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Cardiovascular Disease and/or Hypertension",
+        "Hyperlipidemia",
+        "Number of Participants with Gastrointestinal Disease",
+        "Total Risk Factors",
+        "Number of Participants with Dyspnea",
+        "Nausea and Vomiting",
+        "Hyposmia",
+        "Dysgeusia",
+        "Number of Participants with Headache",
+        "Number of Participants with Myalgia",
+        "Number of Participants with Diarrhea",
+        "Number of Participants with Anorexia",
+        "Total of symptoms",
+        "Bristol scale \"normal\" (T3-4)",
+        "Number of defecations",
+        "Number of Participants with Abdominal Distension",
+        "Breathing Frequency",
+        "Resting Heart Rate",
+        "Body Temperature (\u00baC)",
+        "Liters of Supplemental Oxygen",
+        "qSOFA Score",
+        "MNA (Mini Nutritional Assessment) Score",
+        "Hydric Balance",
+        "Antihypertensive medication",
+        "Antidiabetics medication",
+        "Antilipids medication",
+        "Antibiotics medication",
+        "Antiacids",
+        "NSAIDs medication",
+        "Hemoglobin",
+        "Mean Corpuscular Hemoglobin Concentration",
+        "Platelets",
+        "Leukocytes",
+        "Neutrophils",
+        "Glycemia",
+        "Total cholesterol",
+        "Triglycerides",
+        "AST",
+        "ALT",
+        "Albumin",
+        "Ferritin",
+        "Fibrinogen",
+        "CRP",
+        "D dimer",
+        "Serum Creatinine",
+        "Urea",
+        "Blood urea nitrogen (BUN)",
+        "Glomerular filtration rate (GFR)",
+        "Procalcitonin",
+        "basal energy intake"
+      ],
+      "remaining_candidate_features": [
+        "Respiratory Distress",
+        "Cardiovascular Disease",
+        "Inflammation Markers."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, comorbidities (diabetes mellitus 2, hypertension, cardiovascular disease), oxygen saturation, respiratory distress, nutritional status, laboratory values (inflammatory markers, etc.), medical history, medication use, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Diabetes Mellitus 2",
+          "comorbidities (diabetes mellitus 2, hypertension, cardiovascular disease)"
+        ],
+        [
+          "Cardiovascular Disease and/or Hypertension",
+          "comorbidities (diabetes mellitus 2, hypertension, cardiovascular disease)"
+        ],
+        [
+          "Oxygen Saturation",
+          "oxygen saturation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Overweight",
+        "Obesity Type I-II",
+        "Hyperlipidemia",
+        "Number of Participants with Gastrointestinal Disease",
+        "Total Risk Factors",
+        "Number of Participants with Dyspnea",
+        "Nausea and Vomiting",
+        "Hyposmia",
+        "Dysgeusia",
+        "Number of Participants with Headache",
+        "Number of Participants with Myalgia",
+        "Number of Participants with Diarrhea",
+        "Number of Participants with Anorexia",
+        "Total of symptoms",
+        "Bristol scale \"normal\" (T3-4)",
+        "Number of defecations",
+        "Number of Participants with Abdominal Distension",
+        "Breathing Frequency",
+        "Resting Heart Rate",
+        "Body Temperature (\u00baC)",
+        "Liters of Supplemental Oxygen",
+        "qSOFA Score",
+        "MNA (Mini Nutritional Assessment) Score",
+        "Hydric Balance",
+        "Antihypertensive medication",
+        "Antidiabetics medication",
+        "Antilipids medication",
+        "Antibiotics medication",
+        "Antiacids",
+        "NSAIDs medication",
+        "Hemoglobin",
+        "Mean Corpuscular Hemoglobin Concentration",
+        "Platelets",
+        "Leukocytes",
+        "Neutrophils",
+        "Glycemia",
+        "Total cholesterol",
+        "Triglycerides",
+        "AST",
+        "ALT",
+        "Albumin",
+        "Ferritin",
+        "Fibrinogen",
+        "CRP",
+        "D dimer",
+        "Serum Creatinine",
+        "Urea",
+        "Blood urea nitrogen (BUN)",
+        "Glomerular filtration rate (GFR)",
+        "Procalcitonin",
+        "basal energy intake"
+      ],
+      "remaining_candidate_features": [
+        "respiratory distress",
+        "nutritional status",
+        "laboratory values (inflammatory markers, etc.)",
+        "medical history",
+        "medication use",
+        "smoking status"
+      ]
+    }
+  }
+}

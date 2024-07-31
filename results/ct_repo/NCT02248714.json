@@ -1,0 +1,221 @@
+{
+  "trial_id": "NCT02248714",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), fasting plasma glucose (FPG), 2-hour postprandial glucose (2hPG), hemoglobin A1c (HbA1c), liver function tests (ALT, T-Bil), renal function tests, history of cardiovascular disease, presence of chronic complications, presence of acute complications, presence of chronic consumptive diseases, drug hypersensitivity, gestational status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose (FPG)"
+        ],
+        [
+          "2-h Plasma Glucose (2h-PG)",
+          "2-hour postprandial glucose (2hPG)"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "hemoglobin A1c (HbA1c)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol (TC)",
+        "Triglycerides",
+        "High Density Lipoprotein Cholesterol(HDL-c)",
+        "Low Density Lipoprotein Cholesterol(LDL-c)",
+        "Glycated Albumin (GA)",
+        "Homeostasis Model Assessments of Insulin Resistance (HOMA-IR)",
+        "Incremental AUC of Postprandial Blood Glucose (AUCpp)",
+        "Standard Deviation of Blood Glucose (SDBG)",
+        "Mean Amplitude of Glycaemic Excursions (MAGE)",
+        "Glucose Coefficient of Variation(CV)"
+      ],
+      "remaining_candidate_features": [
+        "liver function tests (ALT, T-Bil)",
+        "renal function tests",
+        "history of cardiovascular disease",
+        "presence of chronic complications",
+        "presence of acute complications",
+        "presence of chronic consumptive diseases",
+        "drug hypersensitivity",
+        "gestational status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Fasting Plasma Glucose, 2-hour Postload Glucose, HbA1c, Liver Function Tests (ALT, T-Bil), Renal Function Tests, Cardiovascular Disease History,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "2-h Plasma Glucose (2h-PG)",
+          "2-hour Postload Glucose"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol (TC)",
+        "Triglycerides",
+        "High Density Lipoprotein Cholesterol(HDL-c)",
+        "Low Density Lipoprotein Cholesterol(LDL-c)",
+        "Glycated Albumin (GA)",
+        "Homeostasis Model Assessments of Insulin Resistance (HOMA-IR)",
+        "Incremental AUC of Postprandial Blood Glucose (AUCpp)",
+        "Standard Deviation of Blood Glucose (SDBG)",
+        "Mean Amplitude of Glycaemic Excursions (MAGE)",
+        "Glucose Coefficient of Variation(CV)"
+      ],
+      "remaining_candidate_features": [
+        "Liver Function Tests (ALT, T-Bil)",
+        "Renal Function Tests",
+        "Cardiovascular Disease History"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Fasting Plasma Glucose, HbA1c, Duration of Diabetes,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol (TC)",
+        "Triglycerides",
+        "High Density Lipoprotein Cholesterol(HDL-c)",
+        "Low Density Lipoprotein Cholesterol(LDL-c)",
+        "2-h Plasma Glucose (2h-PG)",
+        "Glycated Albumin (GA)",
+        "Homeostasis Model Assessments of Insulin Resistance (HOMA-IR)",
+        "Incremental AUC of Postprandial Blood Glucose (AUCpp)",
+        "Standard Deviation of Blood Glucose (SDBG)",
+        "Mean Amplitude of Glycaemic Excursions (MAGE)",
+        "Glucose Coefficient of Variation(CV)"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, FPG, 2hPG, HbA1c, duration of diabetes, medical history, concomitant medications, smoking status, alcohol consumption, physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "FPG"
+        ],
+        [
+          "2-h Plasma Glucose (2h-PG)",
+          "2hPG"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol (TC)",
+        "Triglycerides",
+        "High Density Lipoprotein Cholesterol(HDL-c)",
+        "Low Density Lipoprotein Cholesterol(LDL-c)",
+        "Glycated Albumin (GA)",
+        "Homeostasis Model Assessments of Insulin Resistance (HOMA-IR)",
+        "Incremental AUC of Postprandial Blood Glucose (AUCpp)",
+        "Standard Deviation of Blood Glucose (SDBG)",
+        "Mean Amplitude of Glycaemic Excursions (MAGE)",
+        "Glucose Coefficient of Variation(CV)"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "medical history",
+        "concomitant medications",
+        "smoking status",
+        "alcohol consumption",
+        "physical activity level"
+      ]
+    }
+  }
+}

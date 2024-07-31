@@ -1,0 +1,188 @@
+{
+  "trial_id": "NCT03439189",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Baseline HVPG, Child-Pugh Score, ALT levels, AST levels, Creatinine clearance, Use of NSBB, Use of nitrates, Use of diuretics, Use of lactulose, Use of rifaximin, Use of statins, History of decompensating event, Alpha-fetoprotein levels, QTcF interval, HbA1c levels, Presence of diabetes, History of cardiac arrhythmias, History of malignancies, HIV status, Use of controlled substances, Pregnancy status, Prior liver transplant.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "Body Mass Index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Compensated (Liver disease)"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Baseline HVPG",
+        "Child-Pugh Score",
+        "ALT levels",
+        "AST levels",
+        "Creatinine clearance",
+        "Use of NSBB",
+        "Use of nitrates",
+        "Use of diuretics",
+        "Use of lactulose",
+        "Use of rifaximin",
+        "Use of statins",
+        "History of decompensating event",
+        "Alpha-fetoprotein levels",
+        "QTcF interval",
+        "HbA1c levels",
+        "Presence of diabetes",
+        "History of cardiac arrhythmias",
+        "History of malignancies",
+        "HIV status",
+        "Use of controlled substances",
+        "Pregnancy status",
+        "Prior liver transplant"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Child-Pugh Score, ALT, AST, Creatinine Clearance, HVPG, Alpha-fetoprotein, HbA1c, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Compensated (Liver disease)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Child-Pugh Score",
+        "ALT",
+        "AST",
+        "Creatinine Clearance",
+        "HVPG",
+        "Alpha-fetoprotein",
+        "HbA1c"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Diabetes Status, Cirrhosis Status, Hepatic Venous Pressure Gradient, Model for End-Stage Liver Disease Score, Child-Pugh Score, Aspartate Aminotransferase, Alanine Aminotransferase, Creatinine Clearance, Alpha-fetoprotein.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Compensated (Liver disease)",
+          "Cirrhosis Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diabetes Status",
+        "Hepatic Venous Pressure Gradient",
+        "Model for End-Stage Liver Disease Score",
+        "Child-Pugh Score",
+        "Aspartate Aminotransferase",
+        "Alanine Aminotransferase",
+        "Creatinine Clearance",
+        "Alpha-fetoprotein"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), cirrhosis status (compensated or decompensated), Child-Pugh score, HVPG, ALT, AST, creatinine clearance, presence of diabetes, presence of hypertension, smoking status, alcohol consumption, medical history (including liver disease, cardiac arrhythmias, malignancies), concomitant medications (including NSBB, nitrates, diuretics, lactulose, rifaximin, statins).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Compensated (Liver disease)",
+          "cirrhosis status (compensated or decompensated)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Child-Pugh score",
+        "HVPG",
+        "ALT",
+        "AST",
+        "creatinine clearance",
+        "presence of diabetes",
+        "presence of hypertension",
+        "smoking status",
+        "alcohol consumption",
+        "medical history (including liver disease, cardiac arrhythmias, malignancies)",
+        "concomitant medications (including NSBB, nitrates, diuretics, lactulose, rifaximin, statins)"
+      ]
+    }
+  }
+}

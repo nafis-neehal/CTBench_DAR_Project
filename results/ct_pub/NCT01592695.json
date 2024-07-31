@@ -1,0 +1,232 @@
+{
+  "trial_id": "NCT01592695",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, smoking history (e.g., number of cigarettes per day, years of smoking), primary care location (Iowa City VAMC or Coralville Clinic), rural residence status, willingness to quit smoking, access to telephone, stable residence, depressive symptoms, alcohol use, weight status, comorbid conditions (e.g., psychiatric disorders).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Female",
+          "gender"
+        ],
+        [
+          "Cigarettes smoked per day",
+          "smoking history (e.g., number of cigarettes per day, years of smoking)"
+        ],
+        [
+          "Readiness to quit smoking",
+          "willingness to quit smoking"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age range",
+        "Racial or ethnic minority",
+        "High school or less education",
+        "Fair or poor self-rated health",
+        "Married",
+        "Employed for wages outside home",
+        "Annual household income\u2009<\u2009$25",
+        "000",
+        "Age of smoking initiation",
+        "Years as regular smoker",
+        "Prior quit attempts lasting\u2009\u2265\u200924 h",
+        "Other smokers in household",
+        "n (%)",
+        "Nicotine dependence"
+      ],
+      "remaining_candidate_features": [
+        "primary care location (Iowa City VAMC or Coralville Clinic)",
+        "rural residence status",
+        "access to telephone",
+        "stable residence",
+        "depressive symptoms",
+        "alcohol use",
+        "weight status",
+        "comorbid conditions (e.g., psychiatric disorders)."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Education, Employment status, Marital status, Smoking history (e.g., number of cigarettes per day, years of smoking), Previous quit attempts, Comorbid conditions (e.g., depressive symptoms, alcohol use), Access to healthcare, Access to telephone, Residence stability, Use of nicotine replacement therapy, Use of other pharmacotherapy for smoking cessation, Baseline depressive symptoms, Baseline alcohol use, Baseline weight, Baseline BMI",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Female",
+          "Sex"
+        ],
+        [
+          "Racial or ethnic minority",
+          "Race"
+        ],
+        [
+          "High school or less education",
+          "Education"
+        ],
+        [
+          "Married",
+          "Marital status"
+        ],
+        [
+          "Employed for wages outside home",
+          "Employment status"
+        ],
+        [
+          "Cigarettes smoked per day",
+          "Smoking history (e.g., number of cigarettes per day, years of smoking)"
+        ],
+        [
+          "Prior quit attempts lasting\u2009\u2265\u200924 h",
+          "Previous quit attempts"
+        ],
+        [
+          "Nicotine dependence",
+          "Use of nicotine replacement therapy"
+        ],
+        [
+          "Readiness to quit smoking",
+          "Baseline depressive symptoms"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age range",
+        "Fair or poor self-rated health",
+        "Annual household income\u2009<\u2009$25",
+        "000",
+        "Age of smoking initiation",
+        "Years as regular smoker",
+        "Other smokers in household",
+        "n (%)"
+      ],
+      "remaining_candidate_features": [
+        "Comorbid conditions (e.g., depressive symptoms, alcohol use)",
+        "Access to healthcare",
+        "Access to telephone",
+        "Residence stability",
+        "Use of other pharmacotherapy for smoking cessation",
+        "Baseline alcohol use",
+        "Baseline weight",
+        "Baseline BMI"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Veteran status, Education, Employment, Marital status, BMI, Smoking history, Nicotine dependence, Previous quit attempts, Depression symptoms, Alcohol use, Weight gain.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Female",
+          "Sex"
+        ],
+        [
+          "High school or less education",
+          "Education"
+        ],
+        [
+          "Married",
+          "Marital status"
+        ],
+        [
+          "Employed for wages outside home",
+          "Employment"
+        ],
+        [
+          "Cigarettes smoked per day",
+          "Smoking history"
+        ],
+        [
+          "Nicotine dependence",
+          "Nicotine dependence"
+        ],
+        [
+          "Prior quit attempts lasting\u2009\u2265\u200924 h",
+          "Previous quit attempts"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age range",
+        "Racial or ethnic minority",
+        "Fair or poor self-rated health",
+        "Annual household income\u2009<\u2009$25",
+        "000",
+        "Age of smoking initiation",
+        "Years as regular smoker",
+        "Other smokers in household",
+        "n (%)",
+        "Readiness to quit smoking"
+      ],
+      "remaining_candidate_features": [
+        "Veteran status",
+        "BMI",
+        "Depression symptoms",
+        "Alcohol use",
+        "Weight gain"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, veteran status, smoking history, nicotine dependence, depressive symptoms, alcohol use, body mass index, medical comorbidities, prior quit attempts, motivation to quit, self-efficacy to quit.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Female",
+          "sex"
+        ],
+        [
+          "Racial or ethnic minority",
+          "race"
+        ],
+        [
+          "Nicotine dependence",
+          "nicotine dependence"
+        ],
+        [
+          "Prior quit attempts lasting\u2009\u2265\u200924 h",
+          "prior quit attempts"
+        ],
+        [
+          "Readiness to quit smoking",
+          "motivation to quit"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age range",
+        "High school or less education",
+        "Fair or poor self-rated health",
+        "Married",
+        "Employed for wages outside home",
+        "Annual household income\u2009<\u2009$25",
+        "000",
+        "Cigarettes smoked per day",
+        "Age of smoking initiation",
+        "Years as regular smoker",
+        "Other smokers in household",
+        "n (%)"
+      ],
+      "remaining_candidate_features": [
+        "veteran status",
+        "ethnicity",
+        "depressive symptoms",
+        "alcohol use",
+        "body mass index",
+        "medical comorbidities",
+        "self-efficacy to quit"
+      ]
+    }
+  }
+}

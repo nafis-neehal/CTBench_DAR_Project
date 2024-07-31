@@ -1,0 +1,150 @@
+{
+  "trial_id": "NCT01498640",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Race, Baseline degree of contracture, Duration of Dupuytren's Disease, Previous treatments for Dupuytren's Disease, Presence of palpable cord, Use of anticoagulant medication, Comorbid conditions, Hand dominance, Baseline range of motion.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Baseline degree of contracture",
+        "Duration of Dupuytren's Disease",
+        "Previous treatments for Dupuytren's Disease",
+        "Presence of palpable cord",
+        "Use of anticoagulant medication",
+        "Comorbid conditions",
+        "Hand dominance",
+        "Baseline range of motion"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Degree of Contracture at Baseline, Range of Motion at Baseline, Previous Treatment Response, Duration Since Last Treatment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Degree of Contracture at Baseline",
+        "Range of Motion at Baseline",
+        "Previous Treatment Response",
+        "Duration Since Last Treatment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Previous Dupuytren's contracture treatment, Joint(s) affected, Degree of contracture at baseline, Range of motion at baseline, Presence of palpable cord.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Previous Dupuytren's contracture treatment",
+        "Joint(s) affected",
+        "Degree of contracture at baseline",
+        "Range of motion at baseline",
+        "Presence of palpable cord."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of Dupuytren's disease, number of previous treatments, previous treatment response, joint(s) affected, degree of contracture at baseline, range of motion at baseline, presence of palpable cord, comorbidities, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of Dupuytren's disease",
+        "number of previous treatments",
+        "previous treatment response",
+        "joint(s) affected",
+        "degree of contracture at baseline",
+        "range of motion at baseline",
+        "presence of palpable cord",
+        "comorbidities",
+        "concomitant medications"
+      ]
+    }
+  }
+}

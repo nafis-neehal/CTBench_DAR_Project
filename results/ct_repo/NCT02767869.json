@@ -1,0 +1,251 @@
+{
+  "trial_id": "NCT02767869",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, waist circumference, high density lipoprotein (HDL) levels, fasting glucose levels, triglyceride levels, blood pressure, body mass index (BMI), total cholesterol levels, low density lipoprotein (LDL) levels, informed consent status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Waist circumference",
+          "waist circumference"
+        ],
+        [
+          "High-density lipoprotein-cholesterol (HDL-C)",
+          "high density lipoprotein (HDL) levels"
+        ],
+        [
+          "Glucose 0'",
+          "fasting glucose levels"
+        ],
+        [
+          "Triglycerides",
+          "triglyceride levels"
+        ],
+        [
+          "Body mass index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Low-density lipoprotein-cholesterol (LDL-C)",
+          "low density lipoprotein (LDL) levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Body weight",
+        "Systolic blood pressure",
+        "Diastolic blood pressure",
+        "Glucose 120'",
+        "Cholesterol",
+        "Area under the curve (AUC) glucose",
+        "Area under the curve (AUC) insulin",
+        "Very low-density lipoprotein (VLDL)",
+        "Total insulin secretion",
+        "First phase of insulin secretion",
+        "Insulin sensitivity"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure",
+        "total cholesterol levels",
+        "informed consent status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Waist Circumference, High Density Lipoprotein (HDL) Levels, Fasting Glucose Levels, Triglycerides Levels, Blood Pressure, Body Mass Index,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Waist circumference",
+          "Waist Circumference"
+        ],
+        [
+          "High-density lipoprotein-cholesterol (HDL-C)",
+          "High Density Lipoprotein (HDL) Levels"
+        ],
+        [
+          "Glucose 0'",
+          "Fasting Glucose Levels"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides Levels"
+        ],
+        [
+          "Body mass index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Body weight",
+        "Systolic blood pressure",
+        "Diastolic blood pressure",
+        "Glucose 120'",
+        "Cholesterol",
+        "Low-density lipoprotein-cholesterol (LDL-C)",
+        "Area under the curve (AUC) glucose",
+        "Area under the curve (AUC) insulin",
+        "Very low-density lipoprotein (VLDL)",
+        "Total insulin secretion",
+        "First phase of insulin secretion",
+        "Insulin sensitivity"
+      ],
+      "remaining_candidate_features": [
+        "Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Waist Circumference, BMI, Fasting Glucose, Triglycerides, HDL-C, Blood Pressure, Insulin Sensitivity, Insulin Secretion,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Waist circumference",
+          "Waist Circumference"
+        ],
+        [
+          "Body mass index (BMI)",
+          "BMI"
+        ],
+        [
+          "Glucose 0'",
+          "Fasting Glucose"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "High-density lipoprotein-cholesterol (HDL-C)",
+          "HDL-C"
+        ],
+        [
+          "Systolic blood pressure",
+          "Blood Pressure"
+        ],
+        [
+          "Total insulin secretion",
+          "Insulin Secretion"
+        ],
+        [
+          "Insulin sensitivity",
+          "Insulin Sensitivity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Body weight",
+        "Diastolic blood pressure",
+        "Glucose 120'",
+        "Cholesterol",
+        "Low-density lipoprotein-cholesterol (LDL-C)",
+        "Area under the curve (AUC) glucose",
+        "Area under the curve (AUC) insulin",
+        "Very low-density lipoprotein (VLDL)",
+        "First phase of insulin secretion"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, waist circumference, body mass index, high density lipoprotein, fasting glucose, triglycerides, blood pressure, total cholesterol, low density lipoprotein.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Waist circumference",
+          "waist circumference"
+        ],
+        [
+          "Body mass index (BMI)",
+          "body mass index"
+        ],
+        [
+          "High-density lipoprotein-cholesterol (HDL-C)",
+          "high density lipoprotein"
+        ],
+        [
+          "Glucose 0'",
+          "fasting glucose"
+        ],
+        [
+          "Triglycerides",
+          "triglycerides"
+        ],
+        [
+          "Systolic blood pressure",
+          "blood pressure"
+        ],
+        [
+          "Total insulin secretion",
+          "total insulin secretion"
+        ],
+        [
+          "Low-density lipoprotein-cholesterol (LDL-C)",
+          "low density lipoprotein"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Body weight",
+        "Diastolic blood pressure",
+        "Glucose 120'",
+        "Cholesterol",
+        "Area under the curve (AUC) glucose",
+        "Area under the curve (AUC) insulin",
+        "Very low-density lipoprotein (VLDL)",
+        "First phase of insulin secretion",
+        "Insulin sensitivity"
+      ],
+      "remaining_candidate_features": [
+        "total cholesterol"
+      ]
+    }
+  }
+}

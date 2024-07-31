@@ -1,0 +1,205 @@
+{
+  "trial_id": "NCT00412932",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, mean seated systolic blood pressure (MSSBP), mean seated diastolic blood pressure (MSDBP), mean daytime systolic blood pressure (SBP), mean daytime diastolic blood pressure (DBP), history of stroke or transient ischemic attack (TIA), history of myocardial infarction, angina, coronary angioplasty, coronary artery bypass graft, or heart failure, presence of severe hypertension, presence of secondary hypertension, type of diabetes, plasma glucose levels, evidence of symptomatic resting bradycardia, presence of congestive heart failure, presence of hemodynamically significant cardiac valvular disease, presence of heart block, presence of Wolff-Parkinson-White Syndrome, presence of Sick Sinus Syndrome, presence of an accessory bypass tract, presence of atrial fibrillation, presence of atrial flutter, presence of any arrhythmia requiring medication, serum creatinine levels, other abnormal laboratory values.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Baseline 24-hour ambulatory systolic blood pressure",
+          "mean daytime systolic blood pressure (SBP)"
+        ],
+        [
+          "Baseline 24-hour ambulatory diastolic blood pressure",
+          "mean daytime diastolic blood pressure (DBP)"
+        ],
+        [
+          "Baseline systolic blood pressure",
+          "mean seated systolic blood pressure (MSSBP)"
+        ],
+        [
+          "Baseline diastolic blood pressure",
+          "mean seated diastolic blood pressure (MSDBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Baseline stage of hypertension",
+        "Baseline heart rate"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "history of stroke or transient ischemic attack (TIA)",
+        "history of myocardial infarction",
+        "angina",
+        "coronary angioplasty",
+        "coronary artery bypass graft",
+        "or heart failure",
+        "presence of severe hypertension",
+        "presence of secondary hypertension",
+        "type of diabetes",
+        "plasma glucose levels",
+        "evidence of symptomatic resting bradycardia",
+        "presence of congestive heart failure",
+        "presence of hemodynamically significant cardiac valvular disease",
+        "presence of heart block",
+        "presence of Wolff-Parkinson-White Syndrome",
+        "presence of Sick Sinus Syndrome",
+        "presence of an accessory bypass tract",
+        "presence of atrial fibrillation",
+        "presence of atrial flutter",
+        "presence of any arrhythmia requiring medication",
+        "serum creatinine levels",
+        "other abnormal laboratory values."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Mean Seated Systolic Blood Pressure (MSSBP), Mean Seated Diastolic Blood Pressure (MSDBP), Mean Daytime Systolic Blood Pressure (SBP), Mean Daytime Diastolic Blood Pressure (DBP), Serum Creatinine, Type of Diabetes, History of Cardiovascular Events,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Baseline 24-hour ambulatory systolic blood pressure",
+          "Mean Daytime Systolic Blood Pressure (SBP)"
+        ],
+        [
+          "Baseline 24-hour ambulatory diastolic blood pressure",
+          "Mean Daytime Diastolic Blood Pressure (DBP)"
+        ],
+        [
+          "Baseline systolic blood pressure",
+          "Mean Seated Systolic Blood Pressure (MSSBP)"
+        ],
+        [
+          "Baseline diastolic blood pressure",
+          "Mean Seated Diastolic Blood Pressure (MSDBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Baseline stage of hypertension",
+        "Baseline heart rate"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Serum Creatinine",
+        "Type of Diabetes",
+        "History of Cardiovascular Events"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Cardiovascular Disease, Diabetes Status, Creatinine Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Baseline 24-hour ambulatory systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Baseline diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Baseline systolic blood pressure",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Baseline stage of hypertension",
+        "Baseline 24-hour ambulatory diastolic blood pressure",
+        "Baseline heart rate"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "History of Cardiovascular Disease",
+        "Diabetes Status",
+        "Creatinine Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, medical history (including hypertension, diabetes, cardiovascular disease), concomitant medications, smoking status, serum creatinine, plasma glucose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Baseline 24-hour ambulatory systolic blood pressure",
+          "systolic blood pressure (SBP)"
+        ],
+        [
+          "Baseline 24-hour ambulatory diastolic blood pressure",
+          "diastolic blood pressure (DBP)"
+        ],
+        [
+          "Baseline systolic blood pressure",
+          "systolic blood pressure (SBP)"
+        ],
+        [
+          "Baseline diastolic blood pressure",
+          "diastolic blood pressure (DBP)"
+        ],
+        [
+          "Baseline heart rate",
+          "heart rate"
+        ],
+        [
+          "Serum Creatinine",
+          "serum creatinine"
+        ],
+        [
+          "Plasma glucose",
+          "plasma glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Baseline stage of hypertension"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "race",
+        "ethnicity",
+        "body mass index (BMI)",
+        "medical history (including hypertension, diabetes, cardiovascular disease)",
+        "concomitant medications",
+        "smoking status"
+      ]
+    }
+  }
+}

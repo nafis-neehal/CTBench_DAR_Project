@@ -1,0 +1,228 @@
+{
+  "trial_id": "NCT02927262",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, presence of FLT3/ITD mutation, serum creatinine, glomerular filtration rate (GFR), serum total bilirubin, serum aspartate aminotransferase (AST), serum alanine aminotransferase (ALT), serum potassium, serum magnesium, absolute neutrophil count (ANC), platelet count, prior use of investigational agents, time from last cycle of consolidation, presence of extramedullary disease, history of central nervous system involvement, history of infections, history of cardiovascular conditions, prior malignancies, use of concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Use of FLT3-inhibitors",
+          "prior use of investigational agents"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Age (<60 or \u226560 years)",
+        "Geographic Region",
+        "Presence of MRD"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "presence of FLT3/ITD mutation",
+        "serum creatinine",
+        "glomerular filtration rate (GFR)",
+        "serum total bilirubin",
+        "serum aspartate aminotransferase (AST)",
+        "serum alanine aminotransferase (ALT)",
+        "serum potassium",
+        "serum magnesium",
+        "absolute neutrophil count (ANC)",
+        "platelet count",
+        "time from last cycle of consolidation",
+        "presence of extramedullary disease",
+        "history of central nervous system involvement",
+        "history of infections",
+        "history of cardiovascular conditions",
+        "prior malignancies",
+        "use of concomitant medications"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Serum Creatinine, Serum Total Bilirubin, Serum AST, Serum ALT, Serum Potassium, Serum Magnesium, Absolute Neutrophil Count (ANC), Platelet Count, FLT3/ITD Mutation Status, Time from Last Consolidation Cycle,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Geographic Region",
+          "Region of Enrollment"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Serum Creatinine",
+          "Serum Creatinine"
+        ],
+        [
+          "Serum Total Bilirubin",
+          "Serum Total Bilirubin"
+        ],
+        [
+          "Serum AST",
+          "Serum AST"
+        ],
+        [
+          "Serum ALT",
+          "Serum ALT"
+        ],
+        [
+          "Serum Potassium",
+          "Serum Potassium"
+        ],
+        [
+          "Serum Magnesium",
+          "Serum Magnesium"
+        ],
+        [
+          "Absolute Neutrophil Count (ANC)",
+          "Absolute Neutrophil Count (ANC)"
+        ],
+        [
+          "Platelet Count",
+          "Platelet Count"
+        ],
+        [
+          "FLT3/ITD Mutation Status",
+          "FLT3/ITD Mutation Status"
+        ],
+        [
+          "Use of FLT3-inhibitors",
+          "Use of FLT3-inhibitors"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Age (<60 or \u226560 years)",
+        "Presence of MRD"
+      ],
+      "remaining_candidate_features": [
+        "Time from Last Consolidation Cycle"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, FLT3/ITD mutation status, ECOG performance status, Serum creatinine, Serum total bilirubin, Serum aspartate aminotransferase (AST), Serum alanine aminotransferase (ALT), Absolute neutrophil count (ANC), Platelet count, Hemoglobin, White blood cell count.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Geographic Region",
+          "Region of Enrollment"
+        ],
+        [
+          "Use of FLT3-inhibitors",
+          "FLT3/ITD mutation status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Age (<60 or \u226560 years)",
+        "Presence of MRD"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "Serum creatinine",
+        "Serum total bilirubin",
+        "Serum aspartate aminotransferase (AST)",
+        "Serum alanine aminotransferase (ALT)",
+        "Absolute neutrophil count (ANC)",
+        "Platelet count",
+        "Hemoglobin",
+        "White blood cell count"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, FLT3/ITD mutation status, AML subtype, prior therapy, time from diagnosis to randomization, time from last cycle of consolidation to randomization, serum creatinine, serum total bilirubin, serum AST, serum ALT, serum potassium, serum magnesium, absolute neutrophil count, platelet count.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Use of FLT3-inhibitors",
+          "FLT3/ITD mutation status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Age (<60 or \u226560 years)",
+        "Geographic Region",
+        "Presence of MRD"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "AML subtype",
+        "prior therapy",
+        "time from diagnosis to randomization",
+        "time from last cycle of consolidation to randomization",
+        "serum creatinine",
+        "serum total bilirubin",
+        "serum AST",
+        "serum ALT",
+        "serum potassium",
+        "serum magnesium",
+        "absolute neutrophil count",
+        "platelet count"
+      ]
+    }
+  }
+}

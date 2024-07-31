@@ -1,0 +1,207 @@
+{
+  "trial_id": "NCT04116229",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), race, ethnicity, native language, history of diabetes, current psychotropic medication use, history of neurological illness, history of substance or alcohol misuse, history of mental illness, current binge eating disorder, magnetic resonance imaging contraindications, pregnancy status, lactation status, tobacco use within past month, weight.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "HbA1c",
+        "Fasting glucose",
+        "Fasting plasma insulin",
+        "Homeostatic measure of insulin resistance (HOMA-IR)",
+        "Fasting plasma free fatty acid (FFA)",
+        "Fasting plasma C-reactive protein (CRP)",
+        "Fasting plasma monocyte chemoattractant protein-1 (MCP-1)",
+        "Fasting plasma tumor necrosis factor-alpha (TNF-alpha)",
+        "Fasting plasma adiponectin",
+        "Fasting plasma interleukin-10 (IL-10)",
+        "Fasting plasma leptin",
+        "Fasting plasma ghrelin"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "native language",
+        "history of diabetes",
+        "current psychotropic medication use",
+        "history of neurological illness",
+        "history of substance or alcohol misuse",
+        "history of mental illness",
+        "current binge eating disorder",
+        "magnetic resonance imaging contraindications",
+        "pregnancy status",
+        "lactation status",
+        "tobacco use within past month",
+        "weight"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Cognitive Function Scores, Brain Inflammation Metrics, Plasma Inflammatory Markers,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "HbA1c",
+        "Fasting glucose",
+        "Fasting plasma insulin",
+        "Homeostatic measure of insulin resistance (HOMA-IR)",
+        "Fasting plasma free fatty acid (FFA)",
+        "Fasting plasma C-reactive protein (CRP)",
+        "Fasting plasma monocyte chemoattractant protein-1 (MCP-1)",
+        "Fasting plasma tumor necrosis factor-alpha (TNF-alpha)",
+        "Fasting plasma adiponectin",
+        "Fasting plasma interleukin-10 (IL-10)",
+        "Fasting plasma leptin",
+        "Fasting plasma ghrelin"
+      ],
+      "remaining_candidate_features": [
+        "Cognitive Function Scores",
+        "Brain Inflammation Metrics",
+        "Plasma Inflammatory Markers"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Lipid Profile, Education Level, Smoking Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting glucose",
+          "Fasting Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "HbA1c",
+        "Fasting plasma insulin",
+        "Homeostatic measure of insulin resistance (HOMA-IR)",
+        "Fasting plasma free fatty acid (FFA)",
+        "Fasting plasma C-reactive protein (CRP)",
+        "Fasting plasma monocyte chemoattractant protein-1 (MCP-1)",
+        "Fasting plasma tumor necrosis factor-alpha (TNF-alpha)",
+        "Fasting plasma adiponectin",
+        "Fasting plasma interleukin-10 (IL-10)",
+        "Fasting plasma leptin",
+        "Fasting plasma ghrelin"
+      ],
+      "remaining_candidate_features": [
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Lipid Profile",
+        "Education Level",
+        "Smoking Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, weight, height, education level, smoking status, medical history (diabetes, neurological illness, mental illness, substance/alcohol misuse), medication use (psychotropic), cognitive function (baseline NIH Toolbox Cognitive Battery scores).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "HbA1c",
+        "Fasting glucose",
+        "Fasting plasma insulin",
+        "Homeostatic measure of insulin resistance (HOMA-IR)",
+        "Fasting plasma free fatty acid (FFA)",
+        "Fasting plasma C-reactive protein (CRP)",
+        "Fasting plasma monocyte chemoattractant protein-1 (MCP-1)",
+        "Fasting plasma tumor necrosis factor-alpha (TNF-alpha)",
+        "Fasting plasma adiponectin",
+        "Fasting plasma interleukin-10 (IL-10)",
+        "Fasting plasma leptin",
+        "Fasting plasma ghrelin"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "education level",
+        "smoking status",
+        "medical history (diabetes, neurological illness, mental illness, substance/alcohol misuse)",
+        "medication use (psychotropic)",
+        "cognitive function (baseline NIH Toolbox Cognitive Battery scores)"
+      ]
+    }
+  }
+}

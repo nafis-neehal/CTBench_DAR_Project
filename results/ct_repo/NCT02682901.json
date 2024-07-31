@@ -1,0 +1,237 @@
+{
+  "trial_id": "NCT02682901",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, HbA1c levels, anti-diabetes regimen, C-peptide levels, blood pressure, presence of diabetic retinopathy, presence of diabetic nephropathy, renal function (BUN and serum creatinine levels), liver function (AST, ALT, SGPT, SGOT levels), thyroid function (TSH levels), history of macrovascular events, history of infections, history of major surgeries, history of cancer, history of heart failure, history of alcohol or substance abuse, pregnancy status, hypersensitivity to formulation components, use of herbal supplements, use of erectile dysfunction drugs, blood donation history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "blood pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Body Mass Index",
+        "Percent Body Fat",
+        "Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c levels",
+        "anti-diabetes regimen",
+        "C-peptide levels",
+        "presence of diabetic retinopathy",
+        "presence of diabetic nephropathy",
+        "renal function (BUN and serum creatinine levels)",
+        "liver function (AST, ALT, SGPT, SGOT levels)",
+        "thyroid function (TSH levels)",
+        "history of macrovascular events",
+        "history of infections",
+        "history of major surgeries",
+        "history of cancer",
+        "history of heart failure",
+        "history of alcohol or substance abuse",
+        "pregnancy status",
+        "hypersensitivity to formulation components",
+        "use of herbal supplements",
+        "use of erectile dysfunction drugs",
+        "blood donation history"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Blood Pressure, Heart Rate, C-peptide Level, BMI, Diabetic Retinopathy, Diabetic Nephropathy, Peripheral Neuropathy, Autonomic Neuropathy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Heart Rate",
+          "Heart Rate"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height",
+        "Weight",
+        "Percent Body Fat",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline HbA1c",
+        "Blood Pressure",
+        "C-peptide Level",
+        "Diabetic Retinopathy",
+        "Diabetic Nephropathy",
+        "Peripheral Neuropathy",
+        "Autonomic Neuropathy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, C-peptide level, History of macrovascular events, History of autonomic neuropathy, History of gastroparesis, History of diabetic retinopathy, History of diabetic nephropathy, History of peripheral neuropathy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes Diagnosis Duration"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Height",
+        "Weight",
+        "Percent Body Fat",
+        "Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c",
+        "C-peptide level",
+        "History of macrovascular events",
+        "History of autonomic neuropathy",
+        "History of gastroparesis",
+        "History of diabetic retinopathy",
+        "History of diabetic nephropathy",
+        "History of peripheral neuropathy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, hemoglobin A1c (HbA1c), systolic and diastolic blood pressure, heart rate, C-peptide level, history of hypertension, history of macrovascular events, history of autonomic neuropathy, history of gastroparesis, history of diabetic retinopathy, history of diabetic nephropathy, history of thyroid disease, history of cancer, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "Heart Rate",
+          "heart rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Percent Body Fat",
+        "Diastolic Blood Pressure"
+      ],
+      "remaining_candidate_features": [
+        "hemoglobin A1c (HbA1c)",
+        "C-peptide level",
+        "history of hypertension",
+        "history of macrovascular events",
+        "history of autonomic neuropathy",
+        "history of gastroparesis",
+        "history of diabetic retinopathy",
+        "history of diabetic nephropathy",
+        "history of thyroid disease",
+        "history of cancer",
+        "smoking status"
+      ]
+    }
+  }
+}

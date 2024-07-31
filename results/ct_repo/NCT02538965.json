@@ -1,0 +1,191 @@
+{
+  "trial_id": "NCT02538965",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, Karnofsky score, Lansky score, left ventricular ejection fraction (LVEF), creatinine clearance, total bilirubin, aspartate aminotransferase (AST), alanine transaminase (ALT), history of graft-versus-host disease (GVHD), prior chemotherapy attempts, prior radiation therapy, prior donor lymphocyte infusion (DLI), history of systemic infections, HIV status, prior malignancies, cardiac disorders, organ dysfunction, pregnancy status, use of contraceptive methods.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Number of Prior Systemic Anti-Cancer Regimens",
+          "prior chemotherapy attempts"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Age Categories",
+        "Peripheral Blood Smear Blasts",
+        "White Blood Cell Count",
+        "Bone Marrow (BM) Myeloblasts Count",
+        "Number of Participants With at Least One Cytogenetic Abnormality"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky score",
+        "Lansky score",
+        "left ventricular ejection fraction (LVEF)",
+        "creatinine clearance",
+        "total bilirubin",
+        "aspartate aminotransferase (AST)",
+        "alanine transaminase (ALT)",
+        "history of graft-versus-host disease (GVHD)",
+        "prior radiation therapy",
+        "prior donor lymphocyte infusion (DLI)",
+        "history of systemic infections",
+        "HIV status",
+        "prior malignancies",
+        "cardiac disorders",
+        "organ dysfunction",
+        "pregnancy status",
+        "use of contraceptive methods"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Number of Prior Induction Attempts, Karnofsky/Lansky Performance Score, Left Ventricular Ejection Fraction (LVEF), Creatinine Clearance, Total Bilirubin, Aspartate Aminotransferase (AST), Alanine Transaminase (ALT), History of Graft-versus-Host Disease (GVHD), Prior Radiation Therapy, Prior Donor Lymphocyte Infusion (DLI),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Number of Prior Systemic Anti-Cancer Regimens",
+          "Number of Prior Induction Attempts"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age Categories",
+        "Peripheral Blood Smear Blasts",
+        "White Blood Cell Count",
+        "Bone Marrow (BM) Myeloblasts Count",
+        "Number of Participants With at Least One Cytogenetic Abnormality"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Karnofsky/Lansky Performance Score",
+        "Left Ventricular Ejection Fraction (LVEF)",
+        "Creatinine Clearance",
+        "Total Bilirubin",
+        "Aspartate Aminotransferase (AST)",
+        "Alanine Transaminase (ALT)",
+        "History of Graft-versus-Host Disease (GVHD)",
+        "Prior Radiation Therapy",
+        "Prior Donor Lymphocyte Infusion (DLI)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity Not Collected, Region of Enrollment, Karnofsky score, Lansky score, Resting left ventricular ejection fraction, Prior chemotherapy, Prior radiation therapy, Prior stem cell infusion, Graft-versus-host disease, Renal function, Liver function, Reproductive education, Pregnancy status, Contraception method.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Number of Prior Systemic Anti-Cancer Regimens",
+          "Prior chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Age Categories",
+        "Peripheral Blood Smear Blasts",
+        "White Blood Cell Count",
+        "Bone Marrow (BM) Myeloblasts Count",
+        "Number of Participants With at Least One Cytogenetic Abnormality"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Karnofsky score",
+        "Lansky score",
+        "Resting left ventricular ejection fraction",
+        "Prior radiation therapy",
+        "Prior stem cell infusion",
+        "Graft-versus-host disease",
+        "Renal function",
+        "Liver function",
+        "Reproductive education",
+        "Pregnancy status",
+        "Contraception method"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, Karnofsky score, Lansky score, resting left ventricular ejection fraction (LVEF), creatinine clearance, total bilirubin, aspartate aminotransferase (AST), alanine transaminase (ALT), prior induction attempts, time since last chemotherapy, radiation therapy, stem cell infusion, donor lymphocyte infusion, graft-versus-host disease status, prior lenalidomide treatment, prior biologic antineoplastic agents, prior cytotoxic chemotherapy, presence of Down syndrome, French-American-British classification (FAB) type M3 leukemia, isolated central nervous system (CNS) involvement or extramedullary relapse.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Number of Prior Systemic Anti-Cancer Regimens",
+          "prior induction attempts"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Age Categories",
+        "Peripheral Blood Smear Blasts",
+        "White Blood Cell Count",
+        "Bone Marrow (BM) Myeloblasts Count",
+        "Number of Participants With at Least One Cytogenetic Abnormality"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky score",
+        "Lansky score",
+        "resting left ventricular ejection fraction (LVEF)",
+        "creatinine clearance",
+        "total bilirubin",
+        "aspartate aminotransferase (AST)",
+        "alanine transaminase (ALT)",
+        "time since last chemotherapy",
+        "radiation therapy",
+        "stem cell infusion",
+        "donor lymphocyte infusion",
+        "graft-versus-host disease status",
+        "prior lenalidomide treatment",
+        "prior biologic antineoplastic agents",
+        "prior cytotoxic chemotherapy",
+        "presence of Down syndrome",
+        "French-American-British classification (FAB) type M3 leukemia",
+        "isolated central nervous system (CNS) involvement or extramedullary relapse."
+      ]
+    }
+  }
+}

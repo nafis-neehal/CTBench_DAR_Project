@@ -1,0 +1,286 @@
+{
+  "trial_id": "NCT03273387",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Baseline Right Ventricular Ejection Fraction (RVEF), Baseline Pulmonary Arterial Pressure, Baseline 6-Minute Walk Distance, Baseline NT-proBNP levels, Baseline WHO Functional Class, Baseline use of pulmonary arterial hypertension medications, Baseline renal function (eGFR), Baseline liver function tests, Smoking status, Baseline comorbidities (e.g., diabetes, hypertension).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "WHO Functional Class",
+          "Baseline WHO Functional Class"
+        ],
+        [
+          "Glomerular Filtration Rate",
+          "Baseline renal function (eGFR)"
+        ],
+        [
+          "RV ejection fraction",
+          "Baseline Right Ventricular Ejection Fraction (RVEF)"
+        ],
+        [
+          "mean pulmonary arterial pressure",
+          "Baseline Pulmonary Arterial Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "onset of diagnosis to study",
+        "SF-36 Functional Capacity",
+        "Phosphodiesterase-5 inhibitor",
+        "Prostacyclin analogue (beraprost)",
+        "beta blocker",
+        "ACE-inhibitor",
+        "Angiotensin receptor II blocker",
+        "Warfarin",
+        "spironolactone",
+        "furosemide",
+        "digoxin",
+        "mean Right atrial pressure",
+        "LV end diastolic pressure",
+        "RV end diastolic volume",
+        "RV end systolic volume",
+        "LV end diastolic volume",
+        "LV end systolic volume",
+        "LV ejection fraction",
+        "Native T1 anteroseptal",
+        "Native T1 septal",
+        "Native T1 inferoseptal",
+        "Native T1 Lateral"
+      ],
+      "remaining_candidate_features": [
+        "Baseline 6-Minute Walk Distance",
+        "Baseline NT-proBNP levels",
+        "Baseline use of pulmonary arterial hypertension medications",
+        "Baseline liver function tests",
+        "Smoking status",
+        "Baseline comorbidities (e.g., diabetes, hypertension)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Right Ventricular Ejection Fraction, Left Ventricular Ejection Fraction, Serum Creatinine, eGFR, Pulmonary Arterial Hypertension Duration, Baseline Medication Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Right Ventricular Ejection Fraction",
+          "Right Ventricular Ejection Fraction"
+        ],
+        [
+          "Left Ventricular Ejection Fraction",
+          "Left Ventricular Ejection Fraction"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "onset of diagnosis to study",
+        "SF-36 Functional Capacity",
+        "WHO Functional Class",
+        "Glomerular Filtration Rate",
+        "Body Mass Index",
+        "Phosphodiesterase-5 inhibitor",
+        "Prostacyclin analogue (beraprost)",
+        "beta blocker",
+        "ACE-inhibitor",
+        "Angiotensin receptor II blocker",
+        "Warfarin",
+        "spironolactone",
+        "furosemide",
+        "digoxin",
+        "mean Right atrial pressure",
+        "mean pulmonary arterial pressure",
+        "LV end diastolic pressure",
+        "RV end diastolic volume",
+        "RV end systolic volume",
+        "LV end diastolic volume",
+        "LV end systolic volume",
+        "Native T1 anteroseptal",
+        "Native T1 septal",
+        "Native T1 inferoseptal",
+        "Native T1 Lateral"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Serum Creatinine",
+        "Pulmonary Arterial Hypertension Duration",
+        "Baseline Medication Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Right Ventricular Ejection Fraction, Pulmonary Arterial Pressure, Cardiac Output, Pulmonary Vascular Resistance, World Health Organization Functional Class, Six-Minute Walk Distance, N-Terminal Pro-B-Type Natriuretic Peptide,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "WHO Functional Class",
+          "World Health Organization Functional Class"
+        ],
+        [
+          "RV ejection fraction",
+          "Right Ventricular Ejection Fraction"
+        ],
+        [
+          "mean pulmonary arterial pressure",
+          "Pulmonary Arterial Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "onset of diagnosis to study",
+        "SF-36 Functional Capacity",
+        "Glomerular Filtration Rate",
+        "Body Mass Index",
+        "Phosphodiesterase-5 inhibitor",
+        "Prostacyclin analogue (beraprost)",
+        "beta blocker",
+        "ACE-inhibitor",
+        "Angiotensin receptor II blocker",
+        "Warfarin",
+        "spironolactone",
+        "furosemide",
+        "digoxin",
+        "mean Right atrial pressure",
+        "LV end diastolic pressure",
+        "RV end diastolic volume",
+        "RV end systolic volume",
+        "LV end diastolic volume",
+        "LV end systolic volume",
+        "LV ejection fraction",
+        "Native T1 anteroseptal",
+        "Native T1 septal",
+        "Native T1 inferoseptal",
+        "Native T1 Lateral"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Cardiac Output",
+        "Pulmonary Vascular Resistance",
+        "Six-Minute Walk Distance",
+        "N-Terminal Pro-B-Type Natriuretic Peptide"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index, race, ethnicity, smoking status, New York Heart Association functional class, 6-minute walk distance, World Health Organization functional class, systolic blood pressure, diastolic blood pressure, heart rate, serum creatinine, estimated glomerular filtration rate, left ventricular ejection fraction, right ventricular ejection fraction at baseline, pulmonary artery pressure, pulmonary vascular resistance, cardiac output, medical history (including hypertension, diabetes, hyperlipidemia), concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index"
+        ],
+        [
+          "WHO Functional Class",
+          "World Health Organization functional class"
+        ],
+        [
+          "Glomerular Filtration Rate",
+          "estimated glomerular filtration rate"
+        ],
+        [
+          "LV ejection fraction",
+          "left ventricular ejection fraction"
+        ],
+        [
+          "RV ejection fraction",
+          "right ventricular ejection fraction at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "onset of diagnosis to study",
+        "SF-36 Functional Capacity",
+        "Phosphodiesterase-5 inhibitor",
+        "Prostacyclin analogue (beraprost)",
+        "beta blocker",
+        "ACE-inhibitor",
+        "Angiotensin receptor II blocker",
+        "Warfarin",
+        "spironolactone",
+        "furosemide",
+        "digoxin",
+        "mean Right atrial pressure",
+        "mean pulmonary arterial pressure",
+        "LV end diastolic pressure",
+        "RV end diastolic volume",
+        "RV end systolic volume",
+        "Native T1 anteroseptal",
+        "Native T1 septal",
+        "Native T1 inferoseptal",
+        "Native T1 Lateral"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "smoking status",
+        "New York Heart Association functional class",
+        "6-minute walk distance",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "serum creatinine",
+        "pulmonary artery pressure",
+        "pulmonary vascular resistance",
+        "cardiac output",
+        "medical history (including hypertension, diabetes, hyperlipidemia)",
+        "concomitant medications."
+      ]
+    }
+  }
+}

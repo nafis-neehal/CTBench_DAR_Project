@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT00266695",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, baseline visual acuity, HbA1c levels, blood pressure, body mass index (BMI), previous treatments for diabetic retinopathy, duration since completion of B7A-MC-MBCM study, baseline severity of diabetic retinopathy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Visual Acuity (VA) Score",
+          "baseline visual acuity"
+        ],
+        [
+          "Blood Pressure",
+          "blood pressure"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diabetes Type",
+        "Number of Diabetic Retinopathy (DR) Study Eyes Per Participant"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c levels",
+        "previous treatments for diabetic retinopathy",
+        "duration since completion of B7A-MC-MBCM study",
+        "baseline severity of diabetic retinopathy"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Visual Acuity, Duration of Diabetes, HbA1c, Blood Pressure, Prior Treatment for Diabetic Retinopathy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Blood Pressure",
+          "Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diabetes Type",
+        "Body Mass Index",
+        "Number of Diabetic Retinopathy (DR) Study Eyes Per Participant",
+        "Visual Acuity (VA) Score"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Visual Acuity",
+        "HbA1c",
+        "Prior Treatment for Diabetic Retinopathy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, Previous cardiovascular disease (CVD) event, Glycated hemoglobin, Blood pressure, Cholesterol, Triglycerides,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes duration"
+        ],
+        [
+          "Blood Pressure",
+          "Blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Diabetes Type",
+        "Body Mass Index",
+        "Number of Diabetic Retinopathy (DR) Study Eyes Per Participant",
+        "Visual Acuity (VA) Score"
+      ],
+      "remaining_candidate_features": [
+        "Previous cardiovascular disease (CVD) event",
+        "Glycated hemoglobin",
+        "Cholesterol",
+        "Triglycerides"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, duration of diabetes, type of diabetes, HbA1c, blood pressure, body mass index (BMI), smoking status, diabetic retinopathy severity, visual acuity, prior diabetic retinopathy treatments, prior ruboxistaurin exposure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Diabetes Type",
+          "type of diabetes"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Visual Acuity (VA) Score",
+          "visual acuity"
+        ],
+        [
+          "Blood Pressure",
+          "blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Number of Diabetic Retinopathy (DR) Study Eyes Per Participant"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "HbA1c",
+        "smoking status",
+        "diabetic retinopathy severity",
+        "prior diabetic retinopathy treatments",
+        "prior ruboxistaurin exposure"
+      ]
+    }
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "trial_id": "NCT01785849",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of hemodialysis, baseline PTH levels, baseline calcium levels, baseline phosphate levels, baseline vitamin D levels, history of parathyroidectomy, history of kidney transplant, comorbid conditions, medication use, baseline weight, baseline height, baseline blood pressure, baseline hemoglobin levels, baseline albumin levels, baseline creatinine levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "Time since initiation of dialysis",
+          "duration of hemodialysis"
+        ],
+        [
+          "History of kidney transplant",
+          "history of kidney transplant"
+        ],
+        [
+          "History of cinacalcet use",
+          "medication use"
+        ],
+        [
+          "Parathyroid hormone",
+          "baseline PTH levels"
+        ],
+        [
+          "Albumin-corrected calcium",
+          "baseline calcium levels"
+        ],
+        [
+          "Phosphate",
+          "baseline phosphate levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Primary cause of end-stage renal disease",
+        "Hemodiafiltration dialysis mode",
+        "Dialysate calcium",
+        "Fibroblast growth factor 23",
+        "Bone-specific alkaline phosphatase",
+        "Collagen type I cross-linked C-telopeptide"
+      ],
+      "remaining_candidate_features": [
+        "baseline vitamin D levels",
+        "history of parathyroidectomy",
+        "comorbid conditions",
+        "baseline weight",
+        "baseline height",
+        "baseline blood pressure",
+        "baseline hemoglobin levels",
+        "baseline albumin levels",
+        "baseline creatinine levels"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Duration of hemodialysis, Baseline PTH levels, Serum calcium, Serum phosphorus, Serum albumin, Hemoglobin, Use of vitamin D analogs, Use of phosphate binders, History of parathyroidectomy, History of kidney transplant, Comorbid conditions (e.g., diabetes, cardiovascular disease), Baseline weight, Baseline blood pressure",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Time since initiation of dialysis",
+          "Duration of hemodialysis"
+        ],
+        [
+          "History of kidney transplant",
+          "History of kidney transplant"
+        ],
+        [
+          "History of cinacalcet use",
+          "Use of vitamin D analogs"
+        ],
+        [
+          "Parathyroid hormone",
+          "Baseline PTH levels"
+        ],
+        [
+          "Albumin-corrected calcium",
+          "Serum calcium"
+        ],
+        [
+          "Phosphate",
+          "Serum phosphorus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Primary cause of end-stage renal disease",
+        "Hemodiafiltration dialysis mode",
+        "Dialysate calcium",
+        "Fibroblast growth factor 23",
+        "Bone-specific alkaline phosphatase",
+        "Collagen type I cross-linked C-telopeptide"
+      ],
+      "remaining_candidate_features": [
+        "Serum albumin",
+        "Hemoglobin",
+        "Use of phosphate binders",
+        "History of parathyroidectomy",
+        "Comorbid conditions (e.g., diabetes, cardiovascular disease)",
+        "Baseline weight",
+        "Baseline blood pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Race, Ethnicity, Body Mass Index (BMI), Hemodialysis vintage, Dialysis adequacy, Calcium levels, Phosphorus levels, Intact parathyroid hormone (PTH) levels, Vitamin D levels, Aluminum levels, Concomitant medications, Comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Time since initiation of dialysis",
+          "Hemodialysis vintage"
+        ],
+        [
+          "Dialysate calcium",
+          "Calcium levels"
+        ],
+        [
+          "Phosphate",
+          "Phosphorus levels"
+        ],
+        [
+          "Parathyroid hormone",
+          "Intact parathyroid hormone (PTH) levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Primary cause of end-stage renal disease",
+        "History of kidney transplant",
+        "History of cinacalcet use",
+        "Hemodiafiltration dialysis mode",
+        "Albumin-corrected calcium",
+        "Fibroblast growth factor 23",
+        "Bone-specific alkaline phosphatase",
+        "Collagen type I cross-linked C-telopeptide"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "Body Mass Index (BMI)",
+        "Dialysis adequacy",
+        "Vitamin D levels",
+        "Aluminum levels",
+        "Concomitant medications",
+        "Comorbidities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of hemodialysis, dialysis adequacy (e.g., Kt/V), serum calcium, phosphorus, and intact parathyroid hormone (PTH) levels at baseline, medical history (e.g., diabetes, hypertension), concomitant medications (e.g., vitamin D, phosphate binders), and prior parathyroidectomy or kidney transplant.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Time since initiation of dialysis",
+          "duration of hemodialysis"
+        ],
+        [
+          "History of kidney transplant",
+          "prior parathyroidectomy or kidney transplant"
+        ],
+        [
+          "History of cinacalcet use",
+          "concomitant medications (e.g., vitamin D, phosphate binders)"
+        ],
+        [
+          "Albumin-corrected calcium",
+          "serum calcium"
+        ],
+        [
+          "Phosphate",
+          "phosphorus"
+        ],
+        [
+          "Parathyroid hormone",
+          "intact parathyroid hormone (PTH) levels at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Primary cause of end-stage renal disease",
+        "Hemodiafiltration dialysis mode",
+        "Dialysate calcium",
+        "Fibroblast growth factor 23",
+        "Bone-specific alkaline phosphatase",
+        "Collagen type I cross-linked C-telopeptide"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "dialysis adequacy (e.g., Kt/V)",
+        "medical history (e.g., diabetes, hypertension)"
+      ]
+    }
+  }
+}

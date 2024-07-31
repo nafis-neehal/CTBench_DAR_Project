@@ -1,0 +1,272 @@
+{
+  "trial_id": "NCT03038620",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Waist circumference, Triglycerides level, HDL cholesterol level, Blood pressure, Fasting glucose level, History of diabetes mellitus, History of pancreatitis, History of gallbladder disease, Kidney function (eGFR), History of endocrinologic disorders, Medication history, Participation in weight reduction programs, History of psychiatric disorders, History of suicidal behavior, Alcohol or narcotics abuse, Contraceptive use in females of childbearing potential.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "BMI"
+        ],
+        [
+          "Waist Circumference (cm)",
+          "Waist circumference"
+        ],
+        [
+          "Triglycerides (mg/dL)",
+          "Triglycerides level"
+        ],
+        [
+          "Fasting Blood Glucose",
+          "Fasting glucose level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Total Adipose tissue",
+        "Visceral Adipose Tissue",
+        "Abdominal Adipose Tissue",
+        "Lower Body Adipose Tissue",
+        "Liver Fat",
+        "Total Body Lean Tissue",
+        "Fasting Insulin",
+        "C-reactive Protein (mg/L)",
+        "N-terminal prohormone of brain natriuretic peptide (NT-proBNP) (pg/mL)",
+        "Number of Participants with Hypertension",
+        "Number of Participants with Hyperlipidemia",
+        "Number of Participants with Prediabetes",
+        "Systolic blood pressure (mmHg)",
+        "Diastolic blood pressure (mmHg)",
+        "Weight (kg)",
+        "Height (m)",
+        "Baseline kcal/day"
+      ],
+      "remaining_candidate_features": [
+        "HDL cholesterol level",
+        "Blood pressure",
+        "History of diabetes mellitus",
+        "History of pancreatitis",
+        "History of gallbladder disease",
+        "Kidney function (eGFR)",
+        "History of endocrinologic disorders",
+        "Medication history",
+        "Participation in weight reduction programs",
+        "History of psychiatric disorders",
+        "History of suicidal behavior",
+        "Alcohol or narcotics abuse",
+        "Contraceptive use in females of childbearing potential."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Triglycerides, HDL Cholesterol, Blood Pressure, Fasting Glucose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "Body Mass Index"
+        ],
+        [
+          "Waist Circumference (cm)",
+          "Waist Circumference"
+        ],
+        [
+          "Triglycerides (mg/dL)",
+          "Triglycerides"
+        ],
+        [
+          "Fasting Blood Glucose",
+          "Fasting Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Total Adipose tissue",
+        "Visceral Adipose Tissue",
+        "Abdominal Adipose Tissue",
+        "Lower Body Adipose Tissue",
+        "Liver Fat",
+        "Total Body Lean Tissue",
+        "Fasting Insulin",
+        "C-reactive Protein (mg/L)",
+        "N-terminal prohormone of brain natriuretic peptide (NT-proBNP) (pg/mL)",
+        "Number of Participants with Hypertension",
+        "Number of Participants with Hyperlipidemia",
+        "Number of Participants with Prediabetes",
+        "Systolic blood pressure (mmHg)",
+        "Diastolic blood pressure (mmHg)",
+        "Weight (kg)",
+        "Height (m)",
+        "Baseline kcal/day"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "HDL Cholesterol",
+        "Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Triglycerides, HDL Cholesterol, Fasting Glucose, Metabolic Syndrome Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Triglycerides (mg/dL)",
+          "Triglycerides"
+        ],
+        [
+          "Fasting Blood Glucose",
+          "Fasting Glucose"
+        ],
+        [
+          "Systolic blood pressure (mmHg)",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure (mmHg)",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Waist Circumference (cm)",
+          "Waist Circumference"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Total Adipose tissue",
+        "Visceral Adipose Tissue",
+        "Abdominal Adipose Tissue",
+        "Lower Body Adipose Tissue",
+        "Liver Fat",
+        "Total Body Lean Tissue",
+        "Fasting Insulin",
+        "C-reactive Protein (mg/L)",
+        "N-terminal prohormone of brain natriuretic peptide (NT-proBNP) (pg/mL)",
+        "Number of Participants with Hypertension",
+        "Number of Participants with Hyperlipidemia",
+        "Number of Participants with Prediabetes",
+        "Weight (kg)",
+        "Height (m)",
+        "Baseline kcal/day"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "HDL Cholesterol",
+        "Metabolic Syndrome Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, waist circumference, triglycerides, HDL cholesterol, blood pressure, fasting glucose, medical history (diabetes, cardiovascular disease, etc.), smoking status, alcohol consumption, medication use (anti-diabetes, anti-hypertensive, etc.), family medical history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "BMI"
+        ],
+        [
+          "Waist Circumference (cm)",
+          "waist circumference"
+        ],
+        [
+          "Triglycerides (mg/dL)",
+          "triglycerides"
+        ],
+        [
+          "Systolic blood pressure (mmHg)",
+          "blood pressure"
+        ],
+        [
+          "Fasting Blood Glucose",
+          "fasting glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Total Adipose tissue",
+        "Visceral Adipose Tissue",
+        "Abdominal Adipose Tissue",
+        "Lower Body Adipose Tissue",
+        "Liver Fat",
+        "Total Body Lean Tissue",
+        "Fasting Insulin",
+        "C-reactive Protein (mg/L)",
+        "N-terminal prohormone of brain natriuretic peptide (NT-proBNP) (pg/mL)",
+        "Number of Participants with Hypertension",
+        "Number of Participants with Hyperlipidemia",
+        "Number of Participants with Prediabetes",
+        "Diastolic blood pressure (mmHg)",
+        "Weight (kg)",
+        "Height (m)",
+        "Baseline kcal/day"
+      ],
+      "remaining_candidate_features": [
+        "HDL cholesterol",
+        "medical history (diabetes, cardiovascular disease, etc.)",
+        "smoking status",
+        "alcohol consumption",
+        "medication use (anti-diabetes, anti-hypertensive, etc.)",
+        "family medical history."
+      ]
+    }
+  }
+}

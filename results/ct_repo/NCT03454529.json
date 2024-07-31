@@ -1,0 +1,220 @@
+{
+  "trial_id": "NCT03454529",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race/ethnicity, body mass index (BMI), performance status (ECOG), hormone receptor status (ER, PR, HER2neu), clinical stage of breast cancer, white blood cell count (WBC), platelet count (Plt), hemoglobin (HgB), aspartate aminotransferase (AST), alanine aminotransferase (ALT), creatinine, bilirubin, creatine kinase (CPK), history of previous or concurrent malignancy, gastrointestinal disorder status, current use of statins or fibrates, hypersensitivity to statins, central nervous system (CNS) diseases, psychiatric diseases, infection status, cardiac failure status, anticoagulant or antiplatelet therapy status, mitral/tricuspid valvopathy or valvular prosthesis status, angina status, arterial hypertension status, atrial fibrillation status, myocardial infarction history, lactation status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "Estrogen Receptor Status",
+          "hormone receptor status (ER, PR, HER2neu)"
+        ],
+        [
+          "Progesterone Receptor Status",
+          "hormone receptor status (ER, PR, HER2neu)"
+        ],
+        [
+          "HER2 Status",
+          "hormone receptor status (ER, PR, HER2neu)"
+        ],
+        [
+          "Tumor Stage",
+          "clinical stage of breast cancer"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "performance status (ECOG)",
+        "white blood cell count (WBC)",
+        "platelet count (Plt)",
+        "hemoglobin (HgB)",
+        "aspartate aminotransferase (AST)",
+        "alanine aminotransferase (ALT)",
+        "creatinine",
+        "bilirubin",
+        "creatine kinase (CPK)",
+        "history of previous or concurrent malignancy",
+        "gastrointestinal disorder status",
+        "current use of statins or fibrates",
+        "hypersensitivity to statins",
+        "central nervous system (CNS) diseases",
+        "psychiatric diseases",
+        "infection status",
+        "cardiac failure status",
+        "anticoagulant or antiplatelet therapy status",
+        "mitral/tricuspid valvopathy or valvular prosthesis status",
+        "angina status",
+        "arterial hypertension status",
+        "atrial fibrillation status",
+        "myocardial infarction history",
+        "lactation status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Tumor Stage, Estrogen Receptor (ER) Status, Progesterone Receptor (PR) Status, HER2 Status, Performance Status (ECOG), White Blood Cell Count, Platelet Count, Hemoglobin Level, Aspartate Aminotransferase (AST) Level, Alanine Aminotransferase (ALT) Level, Creatinine Level, Bilirubin Level, Creatine Kinase (CPK) Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Estrogen Receptor Status",
+          "Estrogen Receptor (ER) Status"
+        ],
+        [
+          "Progesterone Receptor Status",
+          "Progesterone Receptor (PR) Status"
+        ],
+        [
+          "HER2 Status",
+          "HER2 Status"
+        ],
+        [
+          "Tumor Stage",
+          "Tumor Stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Performance Status (ECOG)",
+        "White Blood Cell Count",
+        "Platelet Count",
+        "Hemoglobin Level",
+        "Aspartate Aminotransferase (AST) Level",
+        "Alanine Aminotransferase (ALT) Level",
+        "Creatinine Level",
+        "Bilirubin Level",
+        "Creatine Kinase (CPK) Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Menopausal Status, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Performance Status (ECOG), Tumor Stage, Tumor Grade, ER Status, PR Status, HER2neu Status, Ki-67 Expression at Baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Estrogen Receptor Status",
+          "ER Status"
+        ],
+        [
+          "Progesterone Receptor Status",
+          "PR Status"
+        ],
+        [
+          "HER2 Status",
+          "HER2neu Status"
+        ],
+        [
+          "Tumor Stage",
+          "Tumor Stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "Menopausal Status",
+        "Body Mass Index",
+        "Performance Status (ECOG)",
+        "Tumor Grade",
+        "Ki-67 Expression at Baseline"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), performance status (ECOG), menopausal status, hormone receptor status (ER, PR), HER2neu status, clinical stage, tumor size, tumor grade, histologic subtype, prior statin use, prior breast cancer therapy, comorbidities (e.g., diabetes, hypertension), smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Estrogen Receptor Status",
+          "hormone receptor status (ER, PR)"
+        ],
+        [
+          "HER2 Status",
+          "HER2neu status"
+        ],
+        [
+          "Tumor Stage",
+          "clinical stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Progesterone Receptor Status"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "performance status (ECOG)",
+        "menopausal status",
+        "tumor size",
+        "tumor grade",
+        "histologic subtype",
+        "prior statin use",
+        "prior breast cancer therapy",
+        "comorbidities (e.g., diabetes, hypertension)",
+        "smoking status",
+        "alcohol consumption"
+      ]
+    }
+  }
+}

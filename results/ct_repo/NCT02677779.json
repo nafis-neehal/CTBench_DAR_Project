@@ -1,0 +1,185 @@
+{
+  "trial_id": "NCT02677779",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, ulcer size, ulcer duration, HbA1c levels, presence of peripheral neuropathy, presence of peripheral arterial disease, previous ulcer history, smoking status, body mass index (BMI), blood pressure, cholesterol levels, renal function, medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Diabetes duration",
+          "duration of diabetes"
+        ],
+        [
+          "HbA1c",
+          "HbA1c levels"
+        ],
+        [
+          "Duration of ulcer",
+          "ulcer duration"
+        ],
+        [
+          "Ulcer area",
+          "ulcer size"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "presence of peripheral neuropathy",
+        "presence of peripheral arterial disease",
+        "previous ulcer history",
+        "smoking status",
+        "blood pressure",
+        "cholesterol levels",
+        "renal function",
+        "medication use."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Ulcer Area, Texas Score, Percentage of Ulcer Area Covered by Fibrin/Necrosis,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diabetes duration",
+          "Duration of Diabetes"
+        ],
+        [
+          "Ulcer area",
+          "Ulcer Area"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Mass Index",
+        "HbA1c",
+        "Duration of ulcer"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Texas Score",
+        "Percentage of Ulcer Area Covered by Fibrin/Necrosis"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Type, Region of Enrollment, Ulcer Area, Texas Score, HbA1c, Blood Pressure, Body Mass Index, Duration of Diabetes,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Ulcer area",
+          "Ulcer Area"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diabetes duration",
+        "Duration of ulcer"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Type",
+        "Texas Score",
+        "Blood Pressure",
+        "Duration of Diabetes"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), duration of diabetes, HbA1c level, ulcer duration, ulcer area, Texas score, presence of peripheral artery disease, presence of neuropathy, previous ulcer treatment, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Diabetes duration",
+          "duration of diabetes"
+        ],
+        [
+          "HbA1c",
+          "HbA1c level"
+        ],
+        [
+          "Duration of ulcer",
+          "ulcer duration"
+        ],
+        [
+          "Ulcer area",
+          "ulcer area"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Texas score",
+        "presence of peripheral artery disease",
+        "presence of neuropathy",
+        "previous ulcer treatment",
+        "smoking status"
+      ]
+    }
+  }
+}

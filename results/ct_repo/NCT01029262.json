@@ -1,0 +1,200 @@
+{
+  "trial_id": "NCT01029262",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline hemoglobin level, baseline red blood cell transfusion requirement, Eastern Cooperative Oncology Group (ECOG) Performance Status, baseline erythropoietin level, baseline creatinine clearance, baseline absolute neutrophil count (ANC), baseline platelet count, baseline aspartate aminotransferase (AST) level, baseline alanine aminotransferase (ALT) level, history of prior cancer, history of deep venous thrombosis (DVT) or pulmonary embolus (PE), presence of significant neuropathy, presence of significant active cardiac disease, HIV status, Hepatitis C status, Hepatitis B status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Hemoglobin",
+          "baseline hemoglobin level"
+        ],
+        [
+          "Packed RBC (pRBC) Transfusion Burden",
+          "baseline red blood cell transfusion requirement"
+        ],
+        [
+          "Prior Erythropoiesis-stimulating Agent (ESA) Treatment",
+          "baseline erythropoietin level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "International Prognostic Scoring System (IPSS) Investigator Determined",
+        "World Health Organization Classification 2008 of MDS by Central Review",
+        "Gene Expression Signature"
+      ],
+      "remaining_candidate_features": [
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+        "baseline creatinine clearance",
+        "baseline absolute neutrophil count (ANC)",
+        "baseline platelet count",
+        "baseline aspartate aminotransferase (AST) level",
+        "baseline alanine aminotransferase (ALT) level",
+        "history of prior cancer",
+        "history of deep venous thrombosis (DVT) or pulmonary embolus (PE)",
+        "presence of significant neuropathy",
+        "presence of significant active cardiac disease",
+        "HIV status",
+        "Hepatitis C status",
+        "Hepatitis B status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Hemoglobin, Baseline Red Blood Cell Transfusion Requirement, ECOG Performance Status, Baseline Erythropoietin Level, Baseline Platelet Count, Baseline Neutrophil Count, Baseline Creatinine Clearance, Baseline AST, Baseline ALT, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Packed RBC (pRBC) Transfusion Burden",
+          "Baseline Red Blood Cell Transfusion Requirement"
+        ],
+        [
+          "Hemoglobin",
+          "Baseline Hemoglobin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "International Prognostic Scoring System (IPSS) Investigator Determined",
+        "World Health Organization Classification 2008 of MDS by Central Review",
+        "Prior Erythropoiesis-stimulating Agent (ESA) Treatment",
+        "Gene Expression Signature"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "ECOG Performance Status",
+        "Baseline Erythropoietin Level",
+        "Baseline Platelet Count",
+        "Baseline Neutrophil Count",
+        "Baseline Creatinine Clearance",
+        "Baseline AST",
+        "Baseline ALT"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Hemoglobin, Red Blood Cell Transfusion Dependence, Bone Marrow Blasts, Cytogenetic Abnormalities, Prior ESA Use, Prior Chemotherapy Use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Prior Erythropoiesis-stimulating Agent (ESA) Treatment",
+          "Prior ESA Use"
+        ],
+        [
+          "Hemoglobin",
+          "Hemoglobin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Packed RBC (pRBC) Transfusion Burden",
+        "International Prognostic Scoring System (IPSS) Investigator Determined",
+        "World Health Organization Classification 2008 of MDS by Central Review",
+        "Gene Expression Signature"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "ECOG Performance Status",
+        "Red Blood Cell Transfusion Dependence",
+        "Bone Marrow Blasts",
+        "Cytogenetic Abnormalities",
+        "Prior Chemotherapy Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), ECOG Performance Status, MDS risk category, karyotype, hemoglobin level, absolute neutrophil count (ANC), platelet count, creatinine clearance, aspartate aminotransferase (AST) level, alanine aminotransferase (ALT) level, erythropoietin level, prior ESA use, prior transfusion history, comorbidities (e.g., hypertension, diabetes, cardiovascular disease).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Packed RBC (pRBC) Transfusion Burden",
+          "prior transfusion history"
+        ],
+        [
+          "International Prognostic Scoring System (IPSS) Investigator Determined",
+          "MDS risk category"
+        ],
+        [
+          "Prior Erythropoiesis-stimulating Agent (ESA) Treatment",
+          "prior ESA use"
+        ],
+        [
+          "Hemoglobin",
+          "hemoglobin level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "World Health Organization Classification 2008 of MDS by Central Review",
+        "Gene Expression Signature"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "ECOG Performance Status",
+        "karyotype",
+        "absolute neutrophil count (ANC)",
+        "platelet count",
+        "creatinine clearance",
+        "aspartate aminotransferase (AST) level",
+        "alanine aminotransferase (ALT) level",
+        "erythropoietin level",
+        "comorbidities (e.g., hypertension, diabetes, cardiovascular disease)"
+      ]
+    }
+  }
+}

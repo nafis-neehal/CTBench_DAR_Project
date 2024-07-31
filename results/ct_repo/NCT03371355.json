@@ -1,0 +1,280 @@
+{
+  "trial_id": "NCT03371355",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, body mass index (BMI), baseline fasting triglycerides level, baseline hemoglobin A1c (HbA1c), baseline hepatic fat fraction (HFF), duration of Type 2 diabetes mellitus, use of oral antidiabetic therapy, history of hepatic steatosis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Fasting Triglycerides (TG)",
+          "baseline fasting triglycerides level"
+        ],
+        [
+          "Hemoglobin A1C (HbA1C)",
+          "baseline hemoglobin A1c (HbA1c)"
+        ],
+        [
+          "Hepatic Fat Fraction (HFF)",
+          "baseline hepatic fat fraction (HFF)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Angiopoietin Like 3 (ANGPTL3)",
+        "Total Cholesterol (TC)",
+        "Non- High density lipoprotein cholesterol (Non-HDL-C)",
+        "High density lipoprotein cholesterol (HDL-C)",
+        "Low Density Lipoprotein Cholesterol (LDL-C)",
+        "Very Low Density Lipoprotein Cholesterol (VLDL-C)",
+        "Apolipoprotein CIII (ApoCIII)",
+        "Apolipoprotein A1 (ApoA1)",
+        "Apolipoprotein B (ApoB)",
+        "Apolipoprotein B48 (ApoB-48)",
+        "Apolipoprotein B100 (ApoB-100)",
+        "Lipoprotein-a (Lp[a])",
+        "Free Fatty Acid (FFA)",
+        "Insulin",
+        "Plasma Glucose",
+        "Homeostatic Model Assessment of Insulin Resistance (HOMA-IR)",
+        "Fructosamine",
+        "Glycated Albumin",
+        "Subcutaneous Adipose Tissue (SAT)",
+        "Visceral Adipose Tissue (VAT)",
+        "Fatty Liver Index (FLI)",
+        "Body Weight",
+        "Waist to Hip Ratio"
+      ],
+      "remaining_candidate_features": [
+        "duration of Type 2 diabetes mellitus",
+        "use of oral antidiabetic therapy",
+        "history of hepatic steatosis."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Plasma Triglycerides, Hepatic Fat Fraction, Hemoglobin A1c, Duration of Type 2 Diabetes, Use of Oral Antidiabetic Therapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting Triglycerides (TG)",
+          "Plasma Triglycerides"
+        ],
+        [
+          "Hemoglobin A1C (HbA1C)",
+          "Hemoglobin A1c"
+        ],
+        [
+          "Hepatic Fat Fraction (HFF)",
+          "Hepatic Fat Fraction"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Angiopoietin Like 3 (ANGPTL3)",
+        "Total Cholesterol (TC)",
+        "Non- High density lipoprotein cholesterol (Non-HDL-C)",
+        "High density lipoprotein cholesterol (HDL-C)",
+        "Low Density Lipoprotein Cholesterol (LDL-C)",
+        "Very Low Density Lipoprotein Cholesterol (VLDL-C)",
+        "Apolipoprotein CIII (ApoCIII)",
+        "Apolipoprotein A1 (ApoA1)",
+        "Apolipoprotein B (ApoB)",
+        "Apolipoprotein B48 (ApoB-48)",
+        "Apolipoprotein B100 (ApoB-100)",
+        "Lipoprotein-a (Lp[a])",
+        "Free Fatty Acid (FFA)",
+        "Insulin",
+        "Plasma Glucose",
+        "Homeostatic Model Assessment of Insulin Resistance (HOMA-IR)",
+        "Fructosamine",
+        "Glycated Albumin",
+        "Subcutaneous Adipose Tissue (SAT)",
+        "Visceral Adipose Tissue (VAT)",
+        "Fatty Liver Index (FLI)",
+        "Body Weight",
+        "Waist to Hip Ratio"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Duration of Type 2 Diabetes",
+        "Use of Oral Antidiabetic Therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Fasting Triglycerides, Liver Fat Fraction, Diabetes Duration, History of Cardiovascular Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Hemoglobin A1C (HbA1C)",
+          "HbA1c"
+        ],
+        [
+          "Fasting Triglycerides (TG)",
+          "Fasting Triglycerides"
+        ],
+        [
+          "Hepatic Fat Fraction (HFF)",
+          "Liver Fat Fraction"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Angiopoietin Like 3 (ANGPTL3)",
+        "Total Cholesterol (TC)",
+        "Non- High density lipoprotein cholesterol (Non-HDL-C)",
+        "High density lipoprotein cholesterol (HDL-C)",
+        "Low Density Lipoprotein Cholesterol (LDL-C)",
+        "Very Low Density Lipoprotein Cholesterol (VLDL-C)",
+        "Apolipoprotein CIII (ApoCIII)",
+        "Apolipoprotein A1 (ApoA1)",
+        "Apolipoprotein B (ApoB)",
+        "Apolipoprotein B48 (ApoB-48)",
+        "Apolipoprotein B100 (ApoB-100)",
+        "Lipoprotein-a (Lp[a])",
+        "Free Fatty Acid (FFA)",
+        "Insulin",
+        "Plasma Glucose",
+        "Homeostatic Model Assessment of Insulin Resistance (HOMA-IR)",
+        "Fructosamine",
+        "Glycated Albumin",
+        "Subcutaneous Adipose Tissue (SAT)",
+        "Visceral Adipose Tissue (VAT)",
+        "Fatty Liver Index (FLI)",
+        "Body Weight",
+        "Waist to Hip Ratio"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diabetes Duration",
+        "History of Cardiovascular Disease."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), weight, height, plasma triglycerides (TG) level, hemoglobin A1c (HbA1c) level, hepatic fat fraction (HFF), history of oral antidiabetic therapy, duration of Type 2 diabetes mellitus, history of hypertriglyceridemia, history of nonalcoholic fatty liver disease (NAFLD).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Fasting Triglycerides (TG)",
+          "plasma triglycerides (TG) level"
+        ],
+        [
+          "Hemoglobin A1C (HbA1C)",
+          "hemoglobin A1c (HbA1c) level"
+        ],
+        [
+          "Hepatic Fat Fraction (HFF)",
+          "hepatic fat fraction (HFF)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Angiopoietin Like 3 (ANGPTL3)",
+        "Total Cholesterol (TC)",
+        "Non- High density lipoprotein cholesterol (Non-HDL-C)",
+        "High density lipoprotein cholesterol (HDL-C)",
+        "Low Density Lipoprotein Cholesterol (LDL-C)",
+        "Very Low Density Lipoprotein Cholesterol (VLDL-C)",
+        "Apolipoprotein CIII (ApoCIII)",
+        "Apolipoprotein A1 (ApoA1)",
+        "Apolipoprotein B (ApoB)",
+        "Apolipoprotein B48 (ApoB-48)",
+        "Apolipoprotein B100 (ApoB-100)",
+        "Lipoprotein-a (Lp[a])",
+        "Free Fatty Acid (FFA)",
+        "Insulin",
+        "Plasma Glucose",
+        "Homeostatic Model Assessment of Insulin Resistance (HOMA-IR)",
+        "Fructosamine",
+        "Glycated Albumin",
+        "Subcutaneous Adipose Tissue (SAT)",
+        "Visceral Adipose Tissue (VAT)",
+        "Fatty Liver Index (FLI)",
+        "Body Weight",
+        "Waist to Hip Ratio"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "history of oral antidiabetic therapy",
+        "duration of Type 2 diabetes mellitus",
+        "history of hypertriglyceridemia",
+        "history of nonalcoholic fatty liver disease (NAFLD)."
+      ]
+    }
+  }
+}

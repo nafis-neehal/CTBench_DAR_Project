@@ -1,0 +1,196 @@
+{
+  "trial_id": "NCT03781726",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, body mass index (BMI), estimated glomerular filtration rate (eGFR), history of diabetes, history of hypertension, duration of renal failure, prior dialysis treatment, panel reactive antibody (PRA) level, HCV status, HBV status, HIV status, history of liver disease, history of immunosuppressant sensitivity, pregnancy status, use of birth control, history of non-renal solid organ transplant.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Kidney disease etiology",
+        "On dialysis at baseline",
+        "Time from consent to transplant",
+        "Time spent on waitlist at time of consent"
+      ],
+      "remaining_candidate_features": [
+        "estimated glomerular filtration rate (eGFR)",
+        "history of diabetes",
+        "history of hypertension",
+        "duration of renal failure",
+        "prior dialysis treatment",
+        "panel reactive antibody (PRA) level",
+        "HCV status",
+        "HBV status",
+        "HIV status",
+        "history of liver disease",
+        "history of immunosuppressant sensitivity",
+        "pregnancy status",
+        "use of birth control",
+        "history of non-renal solid organ transplant."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Estimated Glomerular Filtration Rate (eGFR), History of HIV, HCV RNA status, HBV surface antigen status, Primary renal disease, Prior non-renal solid organ transplant, Panel Reactive Antibody (PRA) level, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Kidney disease etiology",
+          "Primary renal disease"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "On dialysis at baseline",
+        "Time from consent to transplant",
+        "Time spent on waitlist at time of consent",
+        "BMI"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "History of HIV",
+        "HCV RNA status",
+        "HBV surface antigen status",
+        "Prior non-renal solid organ transplant",
+        "Panel Reactive Antibody (PRA) level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Body Mass Index, eGFR, History of Hepatitis C, History of HIV, History of HBV, History of Liver Disease, History of Kidney Transplant, Calculated Panel Reactive Antibody (cPRA), Kidney Donor Profile Index (KDPI),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Kidney disease etiology",
+        "On dialysis at baseline",
+        "Time from consent to transplant",
+        "Time spent on waitlist at time of consent"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Region of Enrollment",
+        "eGFR",
+        "History of Hepatitis C",
+        "History of HIV",
+        "History of HBV",
+        "History of Liver Disease",
+        "History of Kidney Transplant",
+        "Calculated Panel Reactive Antibody (cPRA)",
+        "Kidney Donor Profile Index (KDPI)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), eGFR, medical history (including diabetes, hypertension, cardiovascular disease), prior kidney transplant, dialysis duration, HCV genotype, HCV viral load, liver function tests, HBV and HIV serostatus, cPRA, KDPI, donor and recipient cytomegalovirus (CMV) serostatus, history of malignancy, concomitant medications, and smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Kidney disease etiology",
+          "medical history (including diabetes, hypertension, cardiovascular disease)"
+        ],
+        [
+          "On dialysis at baseline",
+          "dialysis duration"
+        ],
+        [
+          "Time spent on waitlist at time of consent",
+          "prior kidney transplant"
+        ],
+        [
+          "cPRA",
+          "cPRA"
+        ],
+        [
+          "KDPI",
+          "KDPI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Time from consent to transplant"
+      ],
+      "remaining_candidate_features": [
+        "eGFR",
+        "HCV genotype",
+        "HCV viral load",
+        "liver function tests",
+        "HBV and HIV serostatus",
+        "donor and recipient cytomegalovirus (CMV) serostatus",
+        "history of malignancy",
+        "concomitant medications",
+        "smoking status"
+      ]
+    }
+  }
+}

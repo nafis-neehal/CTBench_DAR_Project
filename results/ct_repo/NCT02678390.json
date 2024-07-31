@@ -1,0 +1,177 @@
+{
+  "trial_id": "NCT02678390",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Fasting Blood Glucose, HbA1c, Blood Pressure, Lipid Profile, Physical Activity Level, Medication Use, Health Status (Healthy or Prediabetic)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Plasma glucose",
+          "Fasting Blood Glucose"
+        ],
+        [
+          "Glycated hemoglobin",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Total body fat",
+        "Ketones",
+        "Triglycerides",
+        "Free Fatty acids",
+        "Insulin"
+      ],
+      "remaining_candidate_features": [
+        "Blood Pressure",
+        "Lipid Profile",
+        "Physical Activity Level",
+        "Medication Use",
+        "Health Status (Healthy or Prediabetic)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Body Mass Index, Fasting Blood Glucose, HbA1c, Blood Pressure, Lipid Profile, Physical Activity Level, Medication Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Plasma glucose",
+          "Fasting Blood Glucose"
+        ],
+        [
+          "Glycated hemoglobin",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Total body fat",
+        "Ketones",
+        "Triglycerides",
+        "Free Fatty acids",
+        "Insulin"
+      ],
+      "remaining_candidate_features": [
+        "Blood Pressure",
+        "Lipid Profile",
+        "Physical Activity Level",
+        "Medication Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Fasting Blood Glucose, HbA1c, Body Mass Index, Region of Enrollment, Prediabetes Status, Structured Physical Activity Status, Dyslipidemia Status, Hypertension Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Plasma glucose",
+          "Fasting Blood Glucose"
+        ],
+        [
+          "Glycated hemoglobin",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Total body fat",
+        "Ketones",
+        "Triglycerides",
+        "Free Fatty acids",
+        "Insulin"
+      ],
+      "remaining_candidate_features": [
+        "Prediabetes Status",
+        "Structured Physical Activity Status",
+        "Dyslipidemia Status",
+        "Hypertension Status."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), fasting blood glucose, HbA1c, systolic blood pressure, diastolic blood pressure, lipid profile (triglycerides, total cholesterol, HDL, LDL), physical activity level, medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Plasma glucose",
+          "fasting blood glucose"
+        ],
+        [
+          "Glycated hemoglobin",
+          "HbA1c"
+        ],
+        [
+          "Triglycerides",
+          "lipid profile (triglycerides, total cholesterol, HDL, LDL)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Total body fat",
+        "Ketones",
+        "Free Fatty acids",
+        "Insulin"
+      ],
+      "remaining_candidate_features": [
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "physical activity level",
+        "medication use."
+      ]
+    }
+  }
+}

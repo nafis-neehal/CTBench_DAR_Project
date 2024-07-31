@@ -1,0 +1,201 @@
+{
+  "trial_id": "NCT01484873",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, History of craniopharyngioma or other hypothalamic lesion, Time since treatment completion, HgbA1C, Renal function, History of gall stones, History of pancreatitis, History of alcoholism, Family history of medullary carcinoma of the thyroid, Family history of MEN type 2, History of gastroparesis, History of allergic reactions to medications, Comorbidities, Current medications, Pregnancy status, History of severe hypoglycemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Gender"
+        ],
+        [
+          "Weight",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Resting energy expenditure",
+        "Satiety",
+        "Insulin AUC",
+        "Gastric emptying half life"
+      ],
+      "remaining_candidate_features": [
+        "History of craniopharyngioma or other hypothalamic lesion",
+        "Time since treatment completion",
+        "HgbA1C",
+        "Renal function",
+        "History of gall stones",
+        "History of pancreatitis",
+        "History of alcoholism",
+        "Family history of medullary carcinoma of the thyroid",
+        "Family history of MEN type 2",
+        "History of gastroparesis",
+        "History of allergic reactions to medications",
+        "Comorbidities",
+        "Current medications",
+        "Pregnancy status",
+        "History of severe hypoglycemia"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, History of craniopharyngioma or other hypothalamic lesion, Time since last treatment, HbA1c, Use of diabetes medications, Renal function, History of gall stones, History of pancreatitis, History of gastroparesis, Use of warfarin,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Weight",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Resting energy expenditure",
+        "Satiety",
+        "Insulin AUC",
+        "Gastric emptying half life"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "History of craniopharyngioma or other hypothalamic lesion",
+        "Time since last treatment",
+        "HbA1c",
+        "Use of diabetes medications",
+        "Renal function",
+        "History of gall stones",
+        "History of pancreatitis",
+        "History of gastroparesis",
+        "Use of warfarin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Hypothalamic lesion type, Time since treatment, Pituitary hormone deficiencies, HbA1c, Fasting glucose, Insulin use, Metformin use, Other diabetes medications, History of gallstones, History of pancreatitis, Family history of medullary carcinoma of the thyroid or MEN type 2.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex: Female"
+        ],
+        [
+          "Weight",
+          "BMI"
+        ],
+        [
+          "Categorical",
+          "Hypothalamic lesion type"
+        ],
+        [
+          "Region of Enrollment",
+          "Time since treatment"
+        ],
+        [
+          "Insulin AUC",
+          "Insulin use"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "History of gall stones",
+          "History of gallstones"
+        ],
+        [
+          "History of pancreatitis",
+          "History of pancreatitis"
+        ],
+        [
+          "Family history of medullary carcinoma of the thyroid or MEN type 2",
+          "Family history of medullary carcinoma of the thyroid or MEN type 2."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Resting energy expenditure",
+        "Satiety",
+        "Gastric emptying half life"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Pituitary hormone deficiencies",
+        "Fasting glucose",
+        "Metformin use",
+        "Other diabetes medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, HgbA1C, history of craniopharyngioma or other brain lesion, time since treatment, pituitary deficiencies, menopausal status, use of metformin, history of diabetes, history of kidney disease, history of gallstones, history of pancreatitis, history of alcoholism, family history of medullary carcinoma of the thyroid or MEN type 2, history of gastroparesis or other gastric motility problems, history of allergic reaction to exenatide or other medication components, use of warfarin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "Weight",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Resting energy expenditure",
+        "Satiety",
+        "Insulin AUC",
+        "Gastric emptying half life"
+      ],
+      "remaining_candidate_features": [
+        "HgbA1C",
+        "history of craniopharyngioma or other brain lesion",
+        "time since treatment",
+        "pituitary deficiencies",
+        "menopausal status",
+        "use of metformin",
+        "history of diabetes",
+        "history of kidney disease",
+        "history of gallstones",
+        "history of pancreatitis",
+        "history of alcoholism",
+        "family history of medullary carcinoma of the thyroid or MEN type 2",
+        "history of gastroparesis or other gastric motility problems",
+        "history of allergic reaction to exenatide or other medication components",
+        "use of warfarin."
+      ]
+    }
+  }
+}

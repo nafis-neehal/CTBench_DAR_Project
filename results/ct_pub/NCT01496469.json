@@ -1,0 +1,234 @@
+{
+  "trial_id": "NCT01496469",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline systolic blood pressure (SBP), baseline diastolic blood pressure (DBP), serum uric acid (sUA) level, number of antihypertensive medications, history of myocardial infarction, history of heart failure, history of unstable angina, history of coronary artery bypass graft, history of percutaneous coronary intervention, history of congestive heart failure, history of hypertensive encephalopathy, history of cerebrovascular accident, history of transient ischemic attack, type of diabetes mellitus, glycosylated hemoglobin (HbA1c) level, history of hepatitis B, history of hepatitis C, history of human immunodeficiency virus (HIV) infection, alanine aminotransferase (ALT) level, aspartate aminotransferase (AST) level, estimated glomerular filtration rate (eGFR), history of alcoholism, history of illicit drug abuse, history of cancer, upper arm circumference, work shift hours, baseline 24-hour ambulatory blood pressure monitoring (ABPM) reading quality.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "Renal function",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Baseline sUA",
+          "serum uric acid (sUA) level"
+        ],
+        [
+          "BP medication",
+          "number of antihypertensive medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Height",
+        "Weight",
+        "BMI",
+        "Smoking history",
+        "Alcohol history",
+        "BP medication type"
+      ],
+      "remaining_candidate_features": [
+        "baseline systolic blood pressure (SBP)",
+        "baseline diastolic blood pressure (DBP)",
+        "history of myocardial infarction",
+        "history of heart failure",
+        "history of unstable angina",
+        "history of coronary artery bypass graft",
+        "history of percutaneous coronary intervention",
+        "history of congestive heart failure",
+        "history of hypertensive encephalopathy",
+        "history of cerebrovascular accident",
+        "history of transient ischemic attack",
+        "type of diabetes mellitus",
+        "glycosylated hemoglobin (HbA1c) level",
+        "history of hepatitis B",
+        "history of hepatitis C",
+        "history of human immunodeficiency virus (HIV) infection",
+        "alanine aminotransferase (ALT) level",
+        "aspartate aminotransferase (AST) level",
+        "history of alcoholism",
+        "history of illicit drug abuse",
+        "history of cancer",
+        "upper arm circumference",
+        "work shift hours",
+        "baseline 24-hour ambulatory blood pressure monitoring (ABPM) reading quality"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Uric Acid Level, Number of Antihypertensive Medications, eGFR, History of Cardiovascular Events, Smoking Status, Alcohol Consumption, ALT, AST, HbA1c",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Baseline sUA",
+          "Serum Uric Acid Level"
+        ],
+        [
+          "BP medication",
+          "Number of Antihypertensive Medications"
+        ],
+        [
+          "Renal function",
+          "eGFR"
+        ],
+        [
+          "Alcohol history",
+          "Alcohol Consumption"
+        ],
+        [
+          "Smoking history",
+          "Smoking Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "Height",
+        "Weight",
+        "BP medication type"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Cardiovascular Events",
+        "ALT",
+        "AST",
+        "HbA1c"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Race, Ethnicity, BMI, Systolic BP, Diastolic BP, Heart Rate, Serum Uric Acid, eGFR, History of Hypertension, History of Hyperuricemia, Antihypertensive Medication Use, Number of Antihypertensive Medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Ethnicity",
+          "Ethnicity"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Renal function",
+          "eGFR"
+        ],
+        [
+          "Baseline sUA",
+          "Serum Uric Acid"
+        ],
+        [
+          "BP medication",
+          "Antihypertensive Medication Use"
+        ],
+        [
+          "BP medication type",
+          "Number of Antihypertensive Medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Smoking history",
+        "Alcohol history"
+      ],
+      "remaining_candidate_features": [
+        "Systolic BP",
+        "Diastolic BP",
+        "Heart Rate",
+        "History of Hypertension",
+        "History of Hyperuricemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), serum uric acid (sUA) level, number of antihypertensive medications, duration of hypertension, smoking status, history of cardiovascular disease, history of diabetes, estimated glomerular filtration rate (eGFR).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Baseline sUA",
+          "serum uric acid (sUA) level"
+        ],
+        [
+          "BP medication",
+          "number of antihypertensive medications"
+        ],
+        [
+          "Renal function",
+          "estimated glomerular filtration rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Smoking history",
+        "Alcohol history",
+        "BP medication type"
+      ],
+      "remaining_candidate_features": [
+        "systolic blood pressure (SBP)",
+        "diastolic blood pressure (DBP)",
+        "duration of hypertension",
+        "smoking status",
+        "history of cardiovascular disease",
+        "history of diabetes"
+      ]
+    }
+  }
+}

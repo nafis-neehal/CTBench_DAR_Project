@@ -1,0 +1,164 @@
+{
+  "trial_id": "NCT04474704",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age, singleton pregnancy, language proficiency (English or Spanish), physical and mental ability to understand informed consent, willingness to participate, diagnosis of preeclampsia with severe features, exclusion of multiple gestation, exclusion of prisoners, exclusion of chronic renal insufficiency, exclusion of epilepsy, exclusion of known cardiovascular disease, exclusion of contraindications to magnesium sulfate use, exclusion of eclampsia or HELLP syndrome.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age at delivery",
+          "gestational age"
+        ],
+        [
+          "Sex: Female",
+          "singleton pregnancy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Nulliparity",
+        "BMI at delivery"
+      ],
+      "remaining_candidate_features": [
+        "language proficiency (English or Spanish)",
+        "physical and mental ability to understand informed consent",
+        "willingness to participate",
+        "diagnosis of preeclampsia with severe features",
+        "exclusion of multiple gestation",
+        "exclusion of prisoners",
+        "exclusion of chronic renal insufficiency",
+        "exclusion of epilepsy",
+        "exclusion of known cardiovascular disease",
+        "exclusion of contraindications to magnesium sulfate use",
+        "exclusion of eclampsia or HELLP syndrome."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational Age, Continuous, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Proteinuria, Serum Creatinine, Platelet Count, Liver Enzymes,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Gestational age at delivery",
+          "Gestational Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Nulliparity",
+        "BMI at delivery"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Proteinuria",
+        "Serum Creatinine",
+        "Platelet Count",
+        "Liver Enzymes"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gestational Age, Parity, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Proteinuria, Creatinine, Platelet Count, Liver Enzymes, Antihypertensive Medication Use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age at delivery",
+          "Gestational Age"
+        ],
+        [
+          "Nulliparity",
+          "Parity"
+        ],
+        [
+          "BMI at delivery",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Proteinuria",
+        "Creatinine",
+        "Platelet Count",
+        "Liver Enzymes",
+        "Antihypertensive Medication Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, gestational age at delivery, parity, body mass index (BMI), systolic and diastolic blood pressure at enrollment, presence of chronic hypertension, presence of diabetes, singleton or multiple pregnancy, ACOG criteria for severe preeclampsia, use of antihypertensive medications, use of corticosteroids, mode of delivery.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "singleton or multiple pregnancy"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Nulliparity",
+          "parity"
+        ],
+        [
+          "BMI at delivery",
+          "body mass index (BMI)"
+        ],
+        [
+          "Gestational age at delivery",
+          "gestational age at delivery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "systolic and diastolic blood pressure at enrollment",
+        "presence of chronic hypertension",
+        "presence of diabetes",
+        "ACOG criteria for severe preeclampsia",
+        "use of antihypertensive medications",
+        "use of corticosteroids",
+        "mode of delivery"
+      ]
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "trial_id": "NCT03565666",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 1 diabetes, type of insulin therapy (pump or multiple daily injections), HbA1c level, average number of SMBG meter tests daily, use of CGM, pregnancy status, renal function (eGFR), history of coronary artery disease, EKG findings, history of congestive heart failure, history of TIA or stroke, history of diabetic ketoacidosis, history of severe hypoglycemia, mental health status, use of electrically powered implants, history of allergy to adhesive or tape, history of eating disorders, use of SGLT2 inhibitors, use of GLP1, pramlintide, or metformin, use of steroids, history of inappropriate insulin administration.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "pregnancy status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "duration of type 1 diabetes",
+        "type of insulin therapy (pump or multiple daily injections)",
+        "HbA1c level",
+        "average number of SMBG meter tests daily",
+        "use of CGM",
+        "renal function (eGFR)",
+        "history of coronary artery disease",
+        "EKG findings",
+        "history of congestive heart failure",
+        "history of TIA or stroke",
+        "history of diabetic ketoacidosis",
+        "history of severe hypoglycemia",
+        "mental health status",
+        "use of electrically powered implants",
+        "history of allergy to adhesive or tape",
+        "history of eating disorders",
+        "use of SGLT2 inhibitors",
+        "use of GLP1",
+        "pramlintide",
+        "or metformin",
+        "use of steroids",
+        "history of inappropriate insulin administration"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, HbA1c, Insulin Delivery Method (Pump or MDI), Daily Insulin Dose, Frequency of SMBG or CGM Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes",
+        "HbA1c",
+        "Insulin Delivery Method (Pump or MDI)",
+        "Daily Insulin Dose",
+        "Frequency of SMBG or CGM Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Duration, Insulin Pump Use, Multiple Daily Injections, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Daily Insulin Dose, CGM Glucose Values.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Duration",
+        "Insulin Pump Use",
+        "Multiple Daily Injections",
+        "HbA1c",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Daily Insulin Dose",
+        "CGM Glucose Values"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, duration of type 1 diabetes, HbA1c level, BMI, insulin pump or MDI use, SMBG or CGM use, history of severe hypoglycemia, history of DKA, presence of microvascular or macrovascular complications, smoking status, alcohol use, concomitant medications, comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 1 diabetes",
+        "HbA1c level",
+        "BMI",
+        "insulin pump or MDI use",
+        "SMBG or CGM use",
+        "history of severe hypoglycemia",
+        "history of DKA",
+        "presence of microvascular or macrovascular complications",
+        "smoking status",
+        "alcohol use",
+        "concomitant medications",
+        "comorbidities"
+      ]
+    }
+  }
+}

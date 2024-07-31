@@ -1,0 +1,195 @@
+{
+  "trial_id": "NCT01631747",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Ethnicity, Socioeconomic status, Body mass index (BMI), Gestational age at randomization, Blood pressure, Fasting glucose, Insulin, HbA1c, Lipids, C-reactive protein, Diet, Physical activity, Sleep, Stress, Height, Weight, Percent body fat, Smoking status, History of bariatric surgery, History of alcohol or drug abuse, Access to internet and/or smartphone, Ability to attend intervention/follow-up visits, Commitment to self-monitoring data collection, Ability to complete intervention program, Condition limiting walking or following diet recommendations, Fluency in English.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ],
+        [
+          "Gestational Age at Randomization",
+          "Gestational age at randomization"
+        ],
+        [
+          "Pre-pregnancy BMI",
+          "Body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Socioeconomic status",
+        "Blood pressure",
+        "Fasting glucose",
+        "Insulin",
+        "HbA1c",
+        "Lipids",
+        "C-reactive protein",
+        "Diet",
+        "Physical activity",
+        "Sleep",
+        "Stress",
+        "Height",
+        "Weight",
+        "Percent body fat",
+        "Smoking status",
+        "History of bariatric surgery",
+        "History of alcohol or drug abuse",
+        "Access to internet and/or smartphone",
+        "Ability to attend intervention/follow-up visits",
+        "Commitment to self-monitoring data collection",
+        "Ability to complete intervention program",
+        "Condition limiting walking or following diet recommendations",
+        "Fluency in English"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Ethnicity, Race, Body Mass Index, Gestational Age at Randomization, Blood Pressure, Fasting Glucose, Insulin, HbA1c, Lipids, C-reactive Protein, Diet, Physical Activity, Sleep, Stress, Parity, Socioeconomic Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race"
+        ],
+        [
+          "Gestational Age at Randomization",
+          "Gestational Age at Randomization"
+        ],
+        [
+          "Pre-pregnancy BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Blood Pressure",
+        "Fasting Glucose",
+        "Insulin",
+        "HbA1c",
+        "Lipids",
+        "C-reactive Protein",
+        "Diet",
+        "Physical Activity",
+        "Sleep",
+        "Stress",
+        "Parity",
+        "Socioeconomic Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Ethnicity (NIH/OMB), Region of Enrollment, Pre-pregnancy BMI, Gestational Age at Randomization, Singleton Viable Pregnancy, History of Prior Pregnancy, Weight Gain from Reported Prepregnancy Weight to Baseline Visit.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Pre-pregnancy BMI",
+          "Pre-pregnancy BMI"
+        ],
+        [
+          "Gestational Age at Randomization",
+          "Gestational Age at Randomization"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Singleton Viable Pregnancy",
+        "History of Prior Pregnancy",
+        "Weight Gain from Reported Prepregnancy Weight to Baseline Visit."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, socioeconomic status, parity, prepregnancy BMI, gestational age at randomization, singleton or twin pregnancy, fetal heartbeat, weight, height, percent body fat, blood pressure, fasting glucose, insulin, HbA1c, lipids, C-reactive protein, diet, physical activity, sleep, stress.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Gestational Age at Randomization",
+          "gestational age at randomization"
+        ],
+        [
+          "Pre-pregnancy BMI",
+          "prepregnancy BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "socioeconomic status",
+        "parity",
+        "singleton or twin pregnancy",
+        "fetal heartbeat",
+        "weight",
+        "height",
+        "percent body fat",
+        "blood pressure",
+        "fasting glucose",
+        "insulin",
+        "HbA1c",
+        "lipids",
+        "C-reactive protein",
+        "diet",
+        "physical activity",
+        "sleep",
+        "stress"
+      ]
+    }
+  }
+}

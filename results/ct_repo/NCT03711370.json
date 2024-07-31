@@ -1,0 +1,139 @@
+{
+  "trial_id": "NCT03711370",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age of mother, Age of infant, Feeding mode, Percentage of bottle-feeding, Responsibility for infant feeding, Pediatrician attendance, Use of stainless-steel bottles, Gestational age at birth, Birth weight, Maternal smoking status during pregnancy, Medical conditions affecting oral feeding, Growth history, Weight-for-length percentile, Developmental delay status, Current use of opaque bottles",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age of mother"
+        ],
+        [
+          "Age",
+          "Age of infant"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Feeding mode",
+        "Percentage of bottle-feeding",
+        "Responsibility for infant feeding",
+        "Pediatrician attendance",
+        "Use of stainless-steel bottles",
+        "Gestational age at birth",
+        "Birth weight",
+        "Maternal smoking status during pregnancy",
+        "Medical conditions affecting oral feeding",
+        "Growth history",
+        "Weight-for-length percentile",
+        "Developmental delay status",
+        "Current use of opaque bottles"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Infant Age, Infant Weight, Infant Length, Feeding Mode, Maternal Age, Maternal Education, Maternal Employment Status, Maternal Pre-pregnancy BMI,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Infant Age",
+        "Infant Weight",
+        "Infant Length",
+        "Feeding Mode",
+        "Maternal Age",
+        "Maternal Education",
+        "Maternal Employment Status",
+        "Maternal Pre-pregnancy BMI"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nMaternal Age, Continuous, Infant Age, Continuous, Maternal Race/Ethnicity, Customized, Region of Enrollment, Infant Birth Weight, Gestational Age, Maternal Education Level, Feeding Mode at Enrollment, Infant Weight-for-length Z-scores at Enrollment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Maternal Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "Maternal Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "Infant Age",
+        "Infant Birth Weight",
+        "Gestational Age",
+        "Maternal Education Level",
+        "Feeding Mode at Enrollment",
+        "Infant Weight-for-length Z-scores at Enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, gestational age, birth weight, weight for length percentile, maternal age, maternal smoking status during pregnancy, medical history, feeding mode at baseline, number of feedings per day, average feeding volume per feeding.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Age",
+          "maternal age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "gestational age",
+        "birth weight",
+        "weight for length percentile",
+        "maternal smoking status during pregnancy",
+        "medical history",
+        "feeding mode at baseline",
+        "number of feedings per day",
+        "average feeding volume per feeding."
+      ]
+    }
+  }
+}

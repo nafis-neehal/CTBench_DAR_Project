@@ -1,0 +1,266 @@
+{
+  "trial_id": "NCT01865448",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, Body Mass Index (BMI), Baseline levels of pro-resolving mediators, Baseline levels of proinflammatory mediators, Medication use, Smoking status, Dietary habits, Physical activity level, Medical history, Baseline inflammatory markers, Baseline lipid profile, Baseline glucose levels, Baseline blood pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI) (kg/m^2)",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Sum of proinflammatory mediators",
+          "Baseline levels of proinflammatory mediators"
+        ],
+        [
+          "Sum of proresolving mediators",
+          "Baseline levels of pro-resolving mediators"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Weight (Kg)",
+        "Waist circumference (cm)",
+        "15-HETE",
+        "12 -HETE",
+        "8-HETE",
+        "5-HETE",
+        "TXB2",
+        "PGE2",
+        "LTB4",
+        "17-HDOHE",
+        "14-HDOHE",
+        "7-HDOHE",
+        "4-HDOHE",
+        "RVD2",
+        "PD1",
+        "Proresolution index",
+        "C-reactive Protein (CRP) (mg/dl)",
+        "Adiponectin (ng/ml)",
+        "Resistin (ng/ml)",
+        "Tnf alpha (ng/ml)",
+        "Interleukin-6 (ng/ml)",
+        "Leptin (ng/ml)",
+        "7SMAR1",
+        "7RMAR1"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Medication use",
+        "Smoking status",
+        "Dietary habits",
+        "Physical activity level",
+        "Medical history",
+        "Baseline inflammatory markers",
+        "Baseline lipid profile",
+        "Baseline glucose levels",
+        "Baseline blood pressure"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Baseline inflammatory markers, Baseline pro-resolving mediators, Baseline proinflammatory mediators, Region of Enrollment, Adherence to weight-loss program,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI) (kg/m^2)",
+          "Body Mass Index"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Sum of proinflammatory mediators",
+          "Baseline proinflammatory mediators"
+        ],
+        [
+          "Sum of proresolving mediators",
+          "Baseline pro-resolving mediators"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight (Kg)",
+        "Waist circumference (cm)",
+        "15-HETE",
+        "12 -HETE",
+        "8-HETE",
+        "5-HETE",
+        "TXB2",
+        "PGE2",
+        "LTB4",
+        "17-HDOHE",
+        "14-HDOHE",
+        "7-HDOHE",
+        "4-HDOHE",
+        "RVD2",
+        "PD1",
+        "Proresolution index",
+        "C-reactive Protein (CRP) (mg/dl)",
+        "Adiponectin (ng/ml)",
+        "Resistin (ng/ml)",
+        "Tnf alpha (ng/ml)",
+        "Interleukin-6 (ng/ml)",
+        "Leptin (ng/ml)",
+        "7SMAR1",
+        "7RMAR1"
+      ],
+      "remaining_candidate_features": [
+        "Baseline inflammatory markers",
+        "Adherence to weight-loss program"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Region of Enrollment, Weight, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Triglycerides, HDL Cholesterol, LDL Cholesterol.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI) (kg/m^2)",
+          "Body Mass Index"
+        ],
+        [
+          "Weight (Kg)",
+          "Weight"
+        ],
+        [
+          "Waist circumference (cm)",
+          "Waist Circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "15-HETE",
+        "12 -HETE",
+        "8-HETE",
+        "5-HETE",
+        "TXB2",
+        "PGE2",
+        "LTB4",
+        "17-HDOHE",
+        "14-HDOHE",
+        "7-HDOHE",
+        "4-HDOHE",
+        "RVD2",
+        "PD1",
+        "Sum of proinflammatory mediators",
+        "Sum of proresolving mediators",
+        "Proresolution index",
+        "C-reactive Protein (CRP) (mg/dl)",
+        "Adiponectin (ng/ml)",
+        "Resistin (ng/ml)",
+        "Tnf alpha (ng/ml)",
+        "Interleukin-6 (ng/ml)",
+        "Leptin (ng/ml)",
+        "7SMAR1",
+        "7RMAR1"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Glucose",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Sex, Body Mass Index, Weight, Height, Waist Circumference, Hip Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Smoking Status, Medical History (including diabetes, cancer, immune disorders, inflammatory disease), Concomitant Medications, PronoKal Method Adherence.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI) (kg/m^2)",
+          "Body Mass Index"
+        ],
+        [
+          "Weight (Kg)",
+          "Weight"
+        ],
+        [
+          "Waist circumference (cm)",
+          "Waist Circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "15-HETE",
+        "12 -HETE",
+        "8-HETE",
+        "5-HETE",
+        "TXB2",
+        "PGE2",
+        "LTB4",
+        "17-HDOHE",
+        "14-HDOHE",
+        "7-HDOHE",
+        "4-HDOHE",
+        "RVD2",
+        "PD1",
+        "Sum of proinflammatory mediators",
+        "Sum of proresolving mediators",
+        "Proresolution index",
+        "C-reactive Protein (CRP) (mg/dl)",
+        "Adiponectin (ng/ml)",
+        "Resistin (ng/ml)",
+        "Tnf alpha (ng/ml)",
+        "Interleukin-6 (ng/ml)",
+        "Leptin (ng/ml)",
+        "7SMAR1",
+        "7RMAR1"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Height",
+        "Hip Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Heart Rate",
+        "Smoking Status",
+        "Medical History (including diabetes, cancer, immune disorders, inflammatory disease)",
+        "Concomitant Medications",
+        "PronoKal Method Adherence."
+      ]
+    }
+  }
+}

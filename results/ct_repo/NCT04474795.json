@@ -1,0 +1,172 @@
+{
+  "trial_id": "NCT04474795",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, years of experience, professional role (RN, LPN, BSN, community health worker), baseline diabetes knowledge, baseline attitudes towards diabetes care, baseline self-efficacy in providing diabetes education",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Education/Training",
+          "professional role (RN, LPN, BSN, community health worker)"
+        ],
+        [
+          "GDM knowledge score",
+          "baseline diabetes knowledge"
+        ],
+        [
+          "Self-Efficacy to Provide Diabetes Education Scale",
+          "baseline self-efficacy in providing diabetes education"
+        ],
+        [
+          "Diabetes Attitudes Scale",
+          "baseline attitudes towards diabetes care"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Specialty",
+        "Intention to Recommend Diabetes Prevention Measures"
+      ],
+      "remaining_candidate_features": [
+        "years of experience"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Professional Role, Years of Experience, Baseline Diabetes Knowledge, Baseline Attitudes towards Diabetes Care, Baseline Self-efficacy in Diabetes Education, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Education/Training",
+          "Professional Role"
+        ],
+        [
+          "GDM knowledge score",
+          "Baseline Diabetes Knowledge"
+        ],
+        [
+          "Self-Efficacy to Provide Diabetes Education Scale",
+          "Baseline Self-efficacy in Diabetes Education"
+        ],
+        [
+          "Diabetes Attitudes Scale",
+          "Baseline Attitudes towards Diabetes Care"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Specialty",
+        "Intention to Recommend Diabetes Prevention Measures"
+      ],
+      "remaining_candidate_features": [
+        "Years of Experience"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nRole in Maternal Child Health Care, Professional Degree, Years of Experience, Previous Diabetes Education,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Education/Training",
+          "Professional Degree"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age",
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Specialty",
+        "GDM knowledge score",
+        "Self-Efficacy to Provide Diabetes Education Scale",
+        "Diabetes Attitudes Scale",
+        "Intention to Recommend Diabetes Prevention Measures"
+      ],
+      "remaining_candidate_features": [
+        "Role in Maternal Child Health Care",
+        "Years of Experience",
+        "Previous Diabetes Education"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, occupation (nurse, community health worker, etc.), years of experience in maternal child health care, previous training in gestational diabetes care, baseline diabetes knowledge, attitudes towards gestational diabetes care, baseline self-efficacy to provide diabetes education.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Education/Training",
+          "previous training in gestational diabetes care"
+        ],
+        [
+          "Self-Efficacy to Provide Diabetes Education Scale",
+          "baseline self-efficacy to provide diabetes education"
+        ],
+        [
+          "Diabetes Attitudes Scale",
+          "attitudes towards gestational diabetes care"
+        ],
+        [
+          "GDM knowledge score",
+          "baseline diabetes knowledge"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Specialty",
+        "Intention to Recommend Diabetes Prevention Measures"
+      ],
+      "remaining_candidate_features": [
+        "occupation (nurse, community health worker, etc.)",
+        "years of experience in maternal child health care"
+      ]
+    }
+  }
+}

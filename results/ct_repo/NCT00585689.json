@@ -1,0 +1,183 @@
+{
+  "trial_id": "NCT00585689",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, serum creatinine, creatinine clearance, granulocyte count, platelet count, hemoglobin level, AST level, ALT level, alkaline phosphatase level, bilirubin level, presence of pre-existing peripheral neuropathy, prior malignancy history, presence of bacterial infection, pregnancy status, use of contraceptive method.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Performance Status (ECOG)",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Clinical Disease Stage",
+        "Hydronephrosis Present",
+        "Angiolymphatic Invasion Present",
+        "Adjacent Carcinoma in Situ Present",
+        "Mixed Histological Features Present"
+      ],
+      "remaining_candidate_features": [
+        "serum creatinine",
+        "creatinine clearance",
+        "granulocyte count",
+        "platelet count",
+        "hemoglobin level",
+        "AST level",
+        "ALT level",
+        "alkaline phosphatase level",
+        "bilirubin level",
+        "presence of pre-existing peripheral neuropathy",
+        "prior malignancy history",
+        "presence of bacterial infection",
+        "pregnancy status",
+        "use of contraceptive method."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, ECOG Performance Status, Serum Creatinine, Creatinine Clearance, Granulocyte Count, Platelet Count, Hemoglobin Level, AST, ALT, Alkaline Phosphatase, Bilirubin Level, Pre-existing Peripheral Neuropathy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Performance Status (ECOG)",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Clinical Disease Stage",
+        "Hydronephrosis Present",
+        "Angiolymphatic Invasion Present",
+        "Adjacent Carcinoma in Situ Present",
+        "Mixed Histological Features Present"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Serum Creatinine",
+        "Creatinine Clearance",
+        "Granulocyte Count",
+        "Platelet Count",
+        "Hemoglobin Level",
+        "AST",
+        "ALT",
+        "Alkaline Phosphatase",
+        "Bilirubin Level",
+        "Pre-existing Peripheral Neuropathy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Serum Creatinine, Granulocyte Count, Platelet Count, Hemoglobin, AST, ALT, Alkaline Phosphatase, Bilirubin, Peripheral Neuropathy, Prior Malignancy, Prior Surgery, Prior Radiotherapy, Prior Chemotherapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Performance Status (ECOG)",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Clinical Disease Stage",
+        "Hydronephrosis Present",
+        "Angiolymphatic Invasion Present",
+        "Adjacent Carcinoma in Situ Present",
+        "Mixed Histological Features Present"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Serum Creatinine",
+        "Granulocyte Count",
+        "Platelet Count",
+        "Hemoglobin",
+        "AST",
+        "ALT",
+        "Alkaline Phosphatase",
+        "Bilirubin",
+        "Peripheral Neuropathy",
+        "Prior Malignancy",
+        "Prior Surgery",
+        "Prior Radiotherapy",
+        "Prior Chemotherapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, performance status (ECOG), histological subtype of urothelial carcinoma, tumor stage (T2-4, N0, M0 or Tany, N1-3, M0), serum creatinine, creatinine clearance, granulocyte count, platelet count, hemoglobin, AST, ALT, alkaline phosphatase, bilirubin, presence of peripheral neuropathy, prior surgery, reproductive status (for women).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Performance Status (ECOG)",
+          "performance status (ECOG)"
+        ],
+        [
+          "Clinical Disease Stage",
+          "tumor stage (T2-4, N0, M0 or Tany, N1-3, M0)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Hydronephrosis Present",
+        "Angiolymphatic Invasion Present",
+        "Adjacent Carcinoma in Situ Present",
+        "Mixed Histological Features Present"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "histological subtype of urothelial carcinoma",
+        "serum creatinine",
+        "creatinine clearance",
+        "granulocyte count",
+        "platelet count",
+        "hemoglobin",
+        "AST",
+        "ALT",
+        "alkaline phosphatase",
+        "bilirubin",
+        "presence of peripheral neuropathy",
+        "prior surgery",
+        "reproductive status (for women)"
+      ]
+    }
+  }
+}

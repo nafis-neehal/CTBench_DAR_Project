@@ -1,0 +1,215 @@
+{
+  "trial_id": "NCT00069784",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, fasting plasma glucose (FPG), postprandial plasma glucose (PPG), glycated hemoglobin (HbA1c), body mass index (BMI), previous myocardial infarction (MI), previous stroke, previous coronary revascularization, previous carotid revascularization, previous peripheral arterial revascularization, angina with documented ischemic changes, unstable angina with documented ischemic changes, microalbuminuria, clinical albuminuria, left ventricular hypertrophy, significant stenosis on angiography, ankle-brachial index, serum creatinine, alanine aminotransferase (ALT), aspartate aminotransferase (AST), heart failure classification, history of coronary artery bypass grafting (CABG), use of systemic corticosteroids, use of niacin, history of cancer, history of hypersensitivity to investigational products, history of heart transplant, HIV status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex/Gender",
+          "sex"
+        ],
+        [
+          "Fasting Plasma Glucose",
+          "fasting plasma glucose (FPG)"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "glycated hemoglobin (HbA1c)"
+        ],
+        [
+          "Baseline Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Any previous cardiovascular event",
+          "previous myocardial infarction (MI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Baseline Weight",
+        "Diabetes diagnosis at time of screening",
+        "Duration of diabetes for established diabetes patients"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "postprandial plasma glucose (PPG)",
+        "previous stroke",
+        "previous coronary revascularization",
+        "previous carotid revascularization",
+        "previous peripheral arterial revascularization",
+        "angina with documented ischemic changes",
+        "unstable angina with documented ischemic changes",
+        "microalbuminuria",
+        "clinical albuminuria",
+        "left ventricular hypertrophy",
+        "significant stenosis on angiography",
+        "ankle-brachial index",
+        "serum creatinine",
+        "alanine aminotransferase (ALT)",
+        "aspartate aminotransferase (AST)",
+        "heart failure classification",
+        "history of coronary artery bypass grafting (CABG)",
+        "use of systemic corticosteroids",
+        "use of niacin",
+        "history of cancer",
+        "history of hypersensitivity to investigational products",
+        "history of heart transplant",
+        "HIV status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Fasting Plasma Glucose (FPG), Postprandial Plasma Glucose (PPG), Glycated Hemoglobin (HbA1c), Body Mass Index (BMI), Blood Pressure, Previous Cardiovascular Disease (CVD) Event, Microalbuminuria, Left Ventricular Hypertrophy, Ankle-Brachial Index, Serum Creatinine, Alanine Aminotransferase (ALT), Aspartate Aminotransferase (AST), Use of Antidiabetic Drugs, Use of Lipid-Lowering Drugs, Use of Antihypertensive Drugs, Smoking Status, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Fasting Plasma Glucose",
+          "Fasting Plasma Glucose (FPG)"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "Glycated Hemoglobin (HbA1c)"
+        ],
+        [
+          "Baseline Body Mass Index",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Any previous cardiovascular event",
+          "Previous Cardiovascular Disease (CVD) Event"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Baseline Weight",
+        "Diabetes diagnosis at time of screening",
+        "Duration of diabetes for established diabetes patients"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Postprandial Plasma Glucose (PPG)",
+        "Blood Pressure",
+        "Microalbuminuria",
+        "Left Ventricular Hypertrophy",
+        "Ankle-Brachial Index",
+        "Serum Creatinine",
+        "Alanine Aminotransferase (ALT)",
+        "Aspartate Aminotransferase (AST)",
+        "Use of Antidiabetic Drugs",
+        "Use of Lipid-Lowering Drugs",
+        "Use of Antihypertensive Drugs",
+        "Smoking Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Existing Cardiovascular Disease, Baseline HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, eGFR, Microalbuminuria, Ankle-Brachial Index.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Any previous cardiovascular event",
+          "Existing Cardiovascular Disease"
+        ],
+        [
+          "Diabetes diagnosis at time of screening",
+          "Diabetes Diagnosis Duration"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Baseline Body Mass Index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Baseline Weight",
+        "Duration of diabetes for established diabetes patients",
+        "Fasting Plasma Glucose"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol",
+        "eGFR",
+        "Microalbuminuria",
+        "Ankle-Brachial Index"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, body mass index (BMI), smoking status, systolic blood pressure, diastolic blood pressure, fasting plasma glucose (FPG), postprandial plasma glucose (PPG), glycated hemoglobin (HbA1c), total cholesterol, high-density lipoprotein (HDL) cholesterol, low-density lipoprotein (LDL) cholesterol, triglycerides, history of myocardial infarction, history of stroke, history of coronary, carotid or peripheral arterial revascularization, presence of angina, presence of microalbuminuria or clinical albuminuria, presence of left ventricular hypertrophy, presence of significant stenosis on angiography of coronary, carotid, or lower extremity arteries, ankle-brachial index.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex/Gender",
+          "sex"
+        ],
+        [
+          "Baseline Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Any previous cardiovascular event",
+          "history of myocardial infarction"
+        ],
+        [
+          "Diabetes diagnosis at time of screening",
+          "fasting plasma glucose (FPG)"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "glycated hemoglobin (HbA1c)"
+        ],
+        [
+          "Fasting Plasma Glucose",
+          "fasting plasma glucose (FPG)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Baseline Weight",
+        "Duration of diabetes for established diabetes patients"
+      ],
+      "remaining_candidate_features": [
+        "age",
+        "smoking status",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "postprandial plasma glucose (PPG)",
+        "total cholesterol",
+        "high-density lipoprotein (HDL) cholesterol",
+        "low-density lipoprotein (LDL) cholesterol",
+        "triglycerides",
+        "history of stroke",
+        "history of coronary",
+        "carotid or peripheral arterial revascularization",
+        "presence of angina",
+        "presence of microalbuminuria or clinical albuminuria",
+        "presence of left ventricular hypertrophy",
+        "presence of significant stenosis on angiography of coronary",
+        "carotid",
+        "or lower extremity arteries",
+        "ankle-brachial index."
+      ]
+    }
+  }
+}

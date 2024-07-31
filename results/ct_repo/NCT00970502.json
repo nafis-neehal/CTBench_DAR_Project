@@ -1,0 +1,208 @@
+{
+  "trial_id": "NCT00970502",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, Karnofsky performance status, prior radiation, prior surgery, prior chemotherapy, organ function, bone marrow function, histological type of cancer, site of cancer, smoking status, alcohol use, comorbidities, baseline laboratory values (e.g., liver function tests, renal function tests), baseline pulmonary function, baseline cardiac function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "ECOG Performance Status",
+          "Karnofsky performance status"
+        ],
+        [
+          "Histology",
+          "histological type of cancer"
+        ],
+        [
+          "Primary Site",
+          "site of cancer"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Tobacco use",
+        "pack-years",
+        "Recurrent vs secondary primary",
+        "Primary tumor classification",
+        "Lymph node status"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "prior radiation",
+        "prior surgery",
+        "prior chemotherapy",
+        "organ function",
+        "bone marrow function",
+        "smoking status",
+        "alcohol use",
+        "comorbidities",
+        "baseline laboratory values (e.g., liver function tests, renal function tests)",
+        "baseline pulmonary function",
+        "baseline cardiac function."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Karnofsky performance status, Prior radiation, Prior surgery, Prior chemotherapy, Organ function, Bone marrow function,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Histology",
+          "Histologically or cytologically confirmed diagnosis"
+        ],
+        [
+          "ECOG Performance Status",
+          "Karnofsky performance status"
+        ],
+        [
+          "Prior radiation",
+          "Prior radiation"
+        ],
+        [
+          "Prior surgery",
+          "Prior surgery"
+        ],
+        [
+          "Prior chemotherapy",
+          "Prior chemotherapy"
+        ],
+        [
+          "Organ function",
+          "Intact organ function"
+        ],
+        [
+          "Bone marrow function",
+          "Intact bone marrow function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Tobacco use",
+        "pack-years",
+        "Recurrent vs secondary primary",
+        "Primary Site",
+        "Primary tumor classification",
+        "Lymph node status"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Karnofsky Performance Status, Prior Radiation, Prior Surgery, Prior Chemotherapy, Histology, Tumor Site, Time Since Initial Diagnosis, Time Since Last Treatment, ECOG Performance Status, Weight, Height, Body Surface Area, Hemoglobin, White Blood Cell Count, Platelet Count, Creatinine, Bilirubin, AST, ALT, Alkaline Phosphatase.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Histology",
+          "Histology"
+        ],
+        [
+          "ECOG Performance Status",
+          "Karnofsky Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Tobacco use",
+        "pack-years",
+        "Recurrent vs secondary primary",
+        "Primary Site",
+        "Primary tumor classification",
+        "Lymph node status"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Prior Radiation",
+        "Prior Surgery",
+        "Prior Chemotherapy",
+        "Tumor Site",
+        "Time Since Initial Diagnosis",
+        "Time Since Last Treatment",
+        "ECOG Performance Status",
+        "Weight",
+        "Height",
+        "Body Surface Area",
+        "Hemoglobin",
+        "White Blood Cell Count",
+        "Platelet Count",
+        "Creatinine",
+        "Bilirubin",
+        "AST",
+        "ALT",
+        "Alkaline Phosphatase"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, Karnofsky performance status, histological diagnosis, tumor location, prior treatment (radiation, surgery, chemotherapy), organ function (renal, hepatic, bone marrow), comorbidities (intercurrent illness, pulmonary dysfunction, cardiomyopathy, coronary artery disease).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "ECOG Performance Status",
+          "Karnofsky performance status"
+        ],
+        [
+          "Histology",
+          "histological diagnosis"
+        ],
+        [
+          "Primary Site",
+          "tumor location"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Tobacco use",
+        "pack-years",
+        "Recurrent vs secondary primary",
+        "Primary tumor classification",
+        "Lymph node status"
+      ],
+      "remaining_candidate_features": [
+        "prior treatment (radiation, surgery, chemotherapy)",
+        "organ function (renal, hepatic, bone marrow)",
+        "comorbidities (intercurrent illness, pulmonary dysfunction, cardiomyopathy, coronary artery disease)"
+      ]
+    }
+  }
+}

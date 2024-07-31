@@ -1,0 +1,180 @@
+{
+  "trial_id": "NCT02804750",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), baseline cortisol levels, duration of Cushing's syndrome, presence of type 2 diabetes mellitus, presence of impaired glucose tolerance, presence of hypertension, baseline blood pressure, baseline glucose levels, renal function (e.g., creatinine levels), thyroid function (e.g., TSH levels).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Hypertension",
+          "presence of hypertension"
+        ],
+        [
+          "Impaired Glucose Tolerance (IGT) / Type-2 Diabetes Mellitus (T2DM)",
+          "presence of type 2 diabetes mellitus"
+        ],
+        [
+          "Impaired Glucose Tolerance (IGT) / Type-2 Diabetes Mellitus (T2DM)",
+          "presence of impaired glucose tolerance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "baseline cortisol levels",
+        "duration of Cushing's syndrome",
+        "baseline blood pressure",
+        "baseline glucose levels",
+        "renal function (e.g., creatinine levels)",
+        "thyroid function (e.g., TSH levels)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type 2 Diabetes Mellitus Status, Impaired Glucose Tolerance Status, Hypertension Status, Baseline Cortisol Levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hypertension",
+          "Hypertension Status"
+        ],
+        [
+          "Impaired Glucose Tolerance (IGT) / Type-2 Diabetes Mellitus (T2DM)",
+          "Type 2 Diabetes Mellitus Status"
+        ],
+        [
+          "Impaired Glucose Tolerance (IGT) / Type-2 Diabetes Mellitus (T2DM)",
+          "Impaired Glucose Tolerance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline Cortisol Levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes Status, Hypertension Status, Glucose Tolerance Status, Cortisol Levels, Duration of Cushing's Syndrome.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hypertension",
+          "Hypertension Status"
+        ],
+        [
+          "Impaired Glucose Tolerance (IGT) / Type-2 Diabetes Mellitus (T2DM)",
+          "Diabetes Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Glucose Tolerance Status",
+        "Cortisol Levels",
+        "Duration of Cushing's Syndrome."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of Cushing's syndrome, type of Cushing's syndrome (e.g., pituitary, adrenal, ectopic), presence of type 2 diabetes mellitus, impaired glucose tolerance, hypertension, history of hypothyroidism or hyperthyroidism, renal function (e.g., estimated glomerular filtration rate), prior treatments for Cushing's syndrome.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Hypertension",
+          "hypertension"
+        ],
+        [
+          "Impaired Glucose Tolerance (IGT) / Type-2 Diabetes Mellitus (T2DM)",
+          "presence of type 2 diabetes mellitus"
+        ],
+        [
+          "Impaired Glucose Tolerance (IGT) / Type-2 Diabetes Mellitus (T2DM)",
+          "impaired glucose tolerance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of Cushing's syndrome",
+        "type of Cushing's syndrome (e.g., pituitary, adrenal, ectopic)",
+        "history of hypothyroidism or hyperthyroidism",
+        "renal function (e.g., estimated glomerular filtration rate)",
+        "prior treatments for Cushing's syndrome"
+      ]
+    }
+  }
+}

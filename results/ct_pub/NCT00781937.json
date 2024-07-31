@@ -1,0 +1,187 @@
+{
+  "trial_id": "NCT00781937",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), baseline weight, blood pressure, lipid profile, presence of co-morbidities (e.g., hypertension, dyslipidaemia), thyroid stimulating hormone (TSH) levels, history of weight loss attempts, history of medication use, history of psychiatric disorders, history of eating disorders, history of pancreatitis, history of obesity-related surgeries, Patient Health Questionnaire-9 (PHQ-9) score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age at screening",
+          "Age"
+        ],
+        [
+          "Men/women",
+          "gender"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Weight",
+          "baseline weight"
+        ],
+        [
+          "Comorbidities present (Hypertension, Dyslipidemia)",
+          "presence of co-morbidities (e.g., hypertension, dyslipidaemia)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Waist circumference"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure",
+        "lipid profile",
+        "thyroid stimulating hormone (TSH) levels",
+        "history of weight loss attempts",
+        "history of medication use",
+        "history of psychiatric disorders",
+        "history of eating disorders",
+        "history of pancreatitis",
+        "history of obesity-related surgeries",
+        "Patient Health Questionnaire-9 (PHQ-9) score"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, BMI, Waist circumference, Systolic blood pressure, Diastolic blood pressure, Fasting glucose, Total cholesterol, LDL cholesterol, HDL cholesterol, Triglycerides, Previous weight loss attempts, Co-morbidities (e.g., hypertension, dyslipidemia), Medication use, Smoking status, Physical activity level, Dietary habits, History of psychiatric disorders, PHQ-9 score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age at screening",
+          "Age"
+        ],
+        [
+          "Men/women",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Comorbidities present (Hypertension, Dyslipidemia)",
+          "Co-morbidities (e.g., hypertension, dyslipidemia)"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Waist circumference",
+          "Waist circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Systolic blood pressure",
+        "Diastolic blood pressure",
+        "Fasting glucose",
+        "Total cholesterol",
+        "LDL cholesterol",
+        "HDL cholesterol",
+        "Triglycerides",
+        "Previous weight loss attempts",
+        "Medication use",
+        "Smoking status",
+        "Physical activity level",
+        "Dietary habits",
+        "History of psychiatric disorders",
+        "PHQ-9 score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, BMI, BMI Category, Waist circumference, Systolic Blood Pressure, Diastolic blood pressure, Total cholesterol, Smoking history, Co-morbidities, Previous weight loss attempts, Dietary habits, Physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age at screening",
+          "Age"
+        ],
+        [
+          "Men/women",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Ethnic Origin"
+        ],
+        [
+          "Comorbidities present (Hypertension, Dyslipidemia)",
+          "Co-morbidities"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Waist circumference",
+          "Waist circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "BMI Category",
+        "Systolic Blood Pressure",
+        "Diastolic blood pressure",
+        "Total cholesterol",
+        "Smoking history",
+        "Previous weight loss attempts",
+        "Dietary habits",
+        "Physical activity level."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Sex, Body Mass Index (BMI), Weight, Height, Waist Circumference, Hip Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Fasting Plasma Glucose, Fasting Lipid Profile, Thyroid Stimulating Hormone (TSH) level, History of Hypertension, History of Dyslipidaemia, History of other co-morbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age at screening",
+          "Age"
+        ],
+        [
+          "Men/women",
+          "Sex"
+        ],
+        [
+          "Comorbidities present (Hypertension, Dyslipidemia)",
+          "History of Hypertension"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "BMI",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Waist circumference",
+          "Waist Circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race"
+      ],
+      "remaining_candidate_features": [
+        "Height",
+        "Hip Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Heart Rate",
+        "Fasting Plasma Glucose",
+        "Fasting Lipid Profile",
+        "Thyroid Stimulating Hormone (TSH) level",
+        "History of Dyslipidaemia",
+        "History of other co-morbidities."
+      ]
+    }
+  }
+}

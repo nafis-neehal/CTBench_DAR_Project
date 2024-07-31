@@ -1,0 +1,159 @@
+{
+  "trial_id": "NCT04114071",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, physical activity level, health conditions, ability to read text messages, access to a mobile phone, mobile phone capability to download Fitbit app, participation in other PA promotion programs, language proficiency, exercise contraindications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "hemoglobin A1c",
+        "weight",
+        "Steps per day"
+      ],
+      "remaining_candidate_features": [
+        "physical activity level",
+        "health conditions",
+        "ability to read text messages",
+        "access to a mobile phone",
+        "mobile phone capability to download Fitbit app",
+        "participation in other PA promotion programs",
+        "language proficiency",
+        "exercise contraindications"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Objective weekly MVPA minutes, Adherence to MVPA guidelines at baseline, Objective average daily steps,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Steps per day",
+          "Objective average daily steps"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "hemoglobin A1c",
+        "weight"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Objective weekly MVPA minutes",
+        "Adherence to MVPA guidelines at baseline"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Objective weekly MVPA minutes, Adherence to MVPA guidelines at baseline, Objective average daily steps, Mobile phone ownership, Access to Fitbit app,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Steps per day",
+          "Objective average daily steps"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "hemoglobin A1c",
+        "weight"
+      ],
+      "remaining_candidate_features": [
+        "Objective weekly MVPA minutes",
+        "Adherence to MVPA guidelines at baseline",
+        "Mobile phone ownership",
+        "Access to Fitbit app"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, BMI, physical activity level, mobile phone ownership, access to Fitbit app, ability to read text messages, presence of chronic conditions (hypertension, diabetes), contraindication to exercise, primary care provider permission.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "hemoglobin A1c",
+        "weight",
+        "Steps per day"
+      ],
+      "remaining_candidate_features": [
+        "physical activity level",
+        "mobile phone ownership",
+        "access to Fitbit app",
+        "ability to read text messages",
+        "presence of chronic conditions (hypertension, diabetes)",
+        "contraindication to exercise",
+        "primary care provider permission."
+      ]
+    }
+  }
+}

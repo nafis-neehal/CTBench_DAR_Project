@@ -1,0 +1,165 @@
+{
+  "trial_id": "NCT04069702",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, stage of colorectal cancer, baseline pain score, language proficiency, vision status, hearing status, mental health status, medical history, cognitive status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Pain Right Now",
+          "baseline pain score"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "stage of colorectal cancer",
+        "language proficiency",
+        "vision status",
+        "hearing status",
+        "mental health status",
+        "medical history",
+        "cognitive status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Pain Score, Stage of Cancer, Visual Acuity, Hearing Ability, Cognitive Function,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Pain Right Now",
+          "Pain Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Stage of Cancer",
+        "Visual Acuity",
+        "Hearing Ability",
+        "Cognitive Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Stage, Pain Intensity, Pain Interference, Pain Catastrophizing, Pain Self-Efficacy, Anxiety, Depression, Sleep Quality, Fatigue.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Pain Right Now",
+          "Pain Intensity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Cancer Stage",
+        "Pain Interference",
+        "Pain Catastrophizing",
+        "Pain Self-Efficacy",
+        "Anxiety",
+        "Depression",
+        "Sleep Quality",
+        "Fatigue"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, ethnicity, diagnosis date, cancer stage, pain duration, pain intensity, analgesic use, comorbidities, performance status, quality of life, pain catastrophizing, pain self-efficacy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Pain Right Now",
+          "pain intensity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "diagnosis date",
+        "cancer stage",
+        "pain duration",
+        "analgesic use",
+        "comorbidities",
+        "performance status",
+        "quality of life",
+        "pain catastrophizing",
+        "pain self-efficacy"
+      ]
+    }
+  }
+}

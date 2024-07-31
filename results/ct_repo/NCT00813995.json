@@ -1,0 +1,156 @@
+{
+  "trial_id": "NCT00813995",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline hemoglobin A1c (A1C), duration of Type 2 Diabetes Mellitus, body mass index (BMI), baseline metformin dose, renal function (e.g., serum creatinine), liver function tests (e.g., ALT, AST), fasting plasma glucose, blood pressure, lipid profile (e.g., total cholesterol, LDL, HDL, triglycerides), race/ethnicity, smoking status, alcohol use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "baseline hemoglobin A1c (A1C)"
+        ],
+        [
+          "Fasting Plasma Glucose",
+          "fasting plasma glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "2-hour Post-meal Glucose"
+      ],
+      "remaining_candidate_features": [
+        "duration of Type 2 Diabetes Mellitus",
+        "body mass index (BMI)",
+        "baseline metformin dose",
+        "renal function (e.g., serum creatinine)",
+        "liver function tests (e.g., ALT, AST)",
+        "blood pressure",
+        "lipid profile (e.g., total cholesterol, LDL, HDL, triglycerides)",
+        "race/ethnicity",
+        "smoking status",
+        "alcohol use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Fasting Plasma Glucose, Use of Antidiabetic Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose",
+          "Fasting Plasma Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "2-hour Post-meal Glucose"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "Body Mass Index",
+        "Use of Antidiabetic Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, Body Mass Index, HbA1c, Blood pressure, Previous cardiovascular disease (CVD) event,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "2-hour Post-meal Glucose",
+        "Fasting Plasma Glucose"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Ethnicity (NIH/OMB)",
+        "Diabetes duration",
+        "Body Mass Index",
+        "Blood pressure",
+        "Previous cardiovascular disease (CVD) event"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, metformin dose, hemoglobin A1c (A1C) at baseline, fasting plasma glucose at baseline, systolic and diastolic blood pressure, history of hypertension, history of cardiovascular disease, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "hemoglobin A1c (A1C) at baseline"
+        ],
+        [
+          "Fasting Plasma Glucose",
+          "fasting plasma glucose at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "2-hour Post-meal Glucose"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "body mass index (BMI)",
+        "duration of diabetes",
+        "metformin dose",
+        "systolic and diastolic blood pressure",
+        "history of hypertension",
+        "history of cardiovascular disease",
+        "smoking status"
+      ]
+    }
+  }
+}

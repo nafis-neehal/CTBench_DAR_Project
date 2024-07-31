@@ -1,0 +1,180 @@
+{
+  "trial_id": "NCT02348658",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, weight, body mass index (BMI), systolic blood pressure, history of drug use, history of alcohol use, gastrointestinal disease history, cancer history, hepatitis B surface antigen (HBsAg) status, hepatitis C virus (HCV) antibody status, human immunodeficiency virus (HIV) antibody/antigen status, syphilis serology, hemoglobin value, electrocardiogram (ECG) results, alanine aminotransferase (ALT) levels, aspartate aminotransferase (AST) levels, peripheral venous access quality, recent blood collection history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Region of Enrollment",
+        "Height",
+        "Smoking Classification",
+        "Alcohol Classification",
+        "Caffeine Classification"
+      ],
+      "remaining_candidate_features": [
+        "systolic blood pressure",
+        "history of drug use",
+        "history of alcohol use",
+        "gastrointestinal disease history",
+        "cancer history",
+        "hepatitis B surface antigen (HBsAg) status",
+        "hepatitis C virus (HCV) antibody status",
+        "human immunodeficiency virus (HIV) antibody/antigen status",
+        "syphilis serology",
+        "hemoglobin value",
+        "electrocardiogram (ECG) results",
+        "alanine aminotransferase (ALT) levels",
+        "aspartate aminotransferase (AST) levels",
+        "peripheral venous access quality",
+        "recent blood collection history"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Alanine Aminotransferase (ALT), Aspartate Aminotransferase (AST), Ethnicity, Region of Enrollment, Weight,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Height",
+        "Smoking Classification",
+        "Alcohol Classification",
+        "Caffeine Classification"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hemoglobin",
+        "Alanine Aminotransferase (ALT)",
+        "Aspartate Aminotransferase (AST)",
+        "Ethnicity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Electrolyte levels, Liver function tests, Renal function tests, Hemoglobin, ECG findings.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "ECG findings",
+          "ECG findings"
+        ],
+        [
+          "Hemoglobin",
+          "Hemoglobin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Smoking Classification",
+        "Alcohol Classification",
+        "Caffeine Classification"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Heart Rate",
+        "Electrolyte levels",
+        "Liver function tests",
+        "Renal function tests"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, body mass index (BMI), weight, systolic blood pressure, diastolic blood pressure, heart rate, medical history, concomitant medications, smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex/Gender",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Smoking Classification",
+          "smoking status"
+        ],
+        [
+          "Alcohol Classification",
+          "alcohol consumption"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Height",
+        "Caffeine Classification"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "medical history",
+        "concomitant medications"
+      ]
+    }
+  }
+}

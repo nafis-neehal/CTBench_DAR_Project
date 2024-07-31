@@ -1,0 +1,159 @@
+{
+  "trial_id": "NCT04432727",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, diagnosis of unilateral breast cancer-related lymphedema, ability to give informed consent, ability to comply with study protocol, ability to receive text messages, previous in-home use of PCD, recent phase-one CDT, ability to be fit for PCD garments, history of heart failure, history of acute venous disease, presence of active skin or limb infection/inflammatory disease, current cancer treatment status, pregnancy status, ability to receive cell phone connection.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Height",
+        "BMI",
+        "Dominant Hand"
+      ],
+      "remaining_candidate_features": [
+        "diagnosis of unilateral breast cancer-related lymphedema",
+        "ability to give informed consent",
+        "ability to comply with study protocol",
+        "ability to receive text messages",
+        "previous in-home use of PCD",
+        "recent phase-one CDT",
+        "ability to be fit for PCD garments",
+        "history of heart failure",
+        "history of acute venous disease",
+        "presence of active skin or limb infection/inflammatory disease",
+        "current cancer treatment status",
+        "pregnancy status",
+        "ability to receive cell phone connection."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Arm Girth, Quality of Life (QOL) Scores, Symptom Assessment Scores, Compliance with Device Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Weight",
+        "Height",
+        "Dominant Hand"
+      ],
+      "remaining_candidate_features": [
+        "Arm Girth",
+        "Quality of Life (QOL) Scores",
+        "Symptom Assessment Scores",
+        "Compliance with Device Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Breast Cancer Diagnosis, Lymphedema Diagnosis, Arm Girth, Quality of Life, Symptom Assessment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Height",
+        "BMI",
+        "Dominant Hand"
+      ],
+      "remaining_candidate_features": [
+        "Breast Cancer Diagnosis",
+        "Lymphedema Diagnosis",
+        "Arm Girth",
+        "Quality of Life",
+        "Symptom Assessment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of lymphedema, stage of lymphedema, affected limb, previous lymphedema treatment, comorbidities, cancer treatment history, current medications, arm girth, quality of life (QOL) score, symptom assessment score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Weight",
+        "Height",
+        "Dominant Hand"
+      ],
+      "remaining_candidate_features": [
+        "duration of lymphedema",
+        "stage of lymphedema",
+        "affected limb",
+        "previous lymphedema treatment",
+        "comorbidities",
+        "cancer treatment history",
+        "current medications",
+        "arm girth",
+        "quality of life (QOL) score",
+        "symptom assessment score."
+      ]
+    }
+  }
+}

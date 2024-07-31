@@ -1,0 +1,164 @@
+{
+  "trial_id": "NCT02355821",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, menopausal status, blood pressure (systolic and diastolic), T-score from X-Ray densitometry, history of antihypertensive therapy, body mass index (BMI), history of cardiovascular disease, history of diabetes mellitus, liver function, kidney function, thyroid function, alcohol and drug use, history of gastrointestinal surgery, history of hormone-replacement therapy, history of bone fractures, presence of secondary hypertension, presence of severe heart failure, presence of heart rhythm disorders, participation in other clinical studies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Bone resorption marker (collagen type 1 C-telopeptide)",
+          "T-score from X-Ray densitometry"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "menopausal status",
+        "blood pressure (systolic and diastolic)",
+        "history of antihypertensive therapy",
+        "body mass index (BMI)",
+        "history of cardiovascular disease",
+        "history of diabetes mellitus",
+        "liver function",
+        "kidney function",
+        "thyroid function",
+        "alcohol and drug use",
+        "history of gastrointestinal surgery",
+        "history of hormone-replacement therapy",
+        "history of bone fractures",
+        "presence of secondary hypertension",
+        "presence of severe heart failure",
+        "presence of heart rhythm disorders",
+        "participation in other clinical studies."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Baseline Collagen Type 1 C-telopeptide, Lumbar Spine T-score, Femur T-score, Duration of Hypertension, Previous Antihypertensive Therapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Bone resorption marker (collagen type 1 C-telopeptide)",
+          "Baseline Collagen Type 1 C-telopeptide"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Lumbar Spine T-score",
+        "Femur T-score",
+        "Duration of Hypertension",
+        "Previous Antihypertensive Therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Postmenopausal Status, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Osteopenia Status, Bone Mineral Density, History of Arterial Hypertension, Duration of Hypertension, Current Antihypertensive Therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Bone resorption marker (collagen type 1 C-telopeptide)",
+          "Bone Mineral Density"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Postmenopausal Status",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Osteopenia Status",
+        "History of Arterial Hypertension",
+        "Duration of Hypertension",
+        "Current Antihypertensive Therapy."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, postmenopausal status, systolic and diastolic blood pressure, body mass index (BMI), osteopenia severity (T-score), history of hypertension, history of osteoporosis, history of fractures, smoking status, alcohol consumption, comorbidities (diabetes, cardiovascular disease, kidney disease, liver disease, thyroid disease), medication use (antihypertensive therapy, hormone replacement therapy, corticosteroids), menopausal symptoms (hot flushes, nights sweat, vaginal dryness).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Bone resorption marker (collagen type 1 C-telopeptide)",
+          "osteopenia severity (T-score)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "postmenopausal status",
+        "systolic and diastolic blood pressure",
+        "body mass index (BMI)",
+        "history of hypertension",
+        "history of osteoporosis",
+        "history of fractures",
+        "smoking status",
+        "alcohol consumption",
+        "comorbidities (diabetes, cardiovascular disease, kidney disease, liver disease, thyroid disease)",
+        "medication use (antihypertensive therapy, hormone replacement therapy, corticosteroids)",
+        "menopausal symptoms (hot flushes, nights sweat, vaginal dryness)"
+      ]
+    }
+  }
+}

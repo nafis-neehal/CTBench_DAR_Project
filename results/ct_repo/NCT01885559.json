@@ -1,0 +1,192 @@
+{
+  "trial_id": "NCT01885559",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Baseline GFR, Blood Pressure, Diagnosis of ADPKD, Serum Potassium Levels, Urine Albumin-to-Creatinine Ratio, Fasting Serum Glucose, Random Non-Fasting Glucose, History of Hypertension Treatment, History of Angioneurotic Edema, Use of ACE-I or ARB, Use of \u03b2-blocker or Calcium Channel Blocker, Systemic Illness, Hospitalization History, Life Expectancy, History of Non-Compliance, Presence of Cerebral Aneurysm, Use of Creatine Supplements, Congenital Absence of a Kidney, Known Allergies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Chronic Kidney Disease Epidemiology Collaboration (CKD EPI) eGFR (ml/min/m^2)",
+          "Baseline GFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "PKD Genotype",
+        "Age at Diagnosis of Autosomal Dominant Polycystic Kidney Disease (yrs)",
+        "Body Mass Index (kg/m2)",
+        "Serum Creatinine (mg/dl)"
+      ],
+      "remaining_candidate_features": [
+        "Blood Pressure",
+        "Diagnosis of ADPKD",
+        "Serum Potassium Levels",
+        "Urine Albumin-to-Creatinine Ratio",
+        "Fasting Serum Glucose",
+        "Random Non-Fasting Glucose",
+        "History of Hypertension Treatment",
+        "History of Angioneurotic Edema",
+        "Use of ACE-I or ARB",
+        "Use of \u03b2-blocker or Calcium Channel Blocker",
+        "Systemic Illness",
+        "Hospitalization History",
+        "Life Expectancy",
+        "History of Non-Compliance",
+        "Presence of Cerebral Aneurysm",
+        "Use of Creatine Supplements",
+        "Congenital Absence of a Kidney",
+        "Known Allergies"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline eGFR, Blood Pressure, Serum Potassium, Urine Albumin-to-Creatinine Ratio, Diabetes Status, Use of Antihypertensive Medication, Family History of ADPKD,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Chronic Kidney Disease Epidemiology Collaboration (CKD EPI) eGFR (ml/min/m^2)",
+          "Baseline eGFR"
+        ],
+        [
+          "Serum Potassium",
+          "Serum Potassium"
+        ],
+        [
+          "Urine Albumin-to-Creatinine Ratio",
+          "Urine Albumin-to-Creatinine Ratio"
+        ]
+      ],
+      "remaining_reference_features": [
+        "PKD Genotype",
+        "Age at Diagnosis of Autosomal Dominant Polycystic Kidney Disease (yrs)",
+        "Body Mass Index (kg/m2)",
+        "Serum Creatinine (mg/dl)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Blood Pressure",
+        "Diabetes Status",
+        "Use of Antihypertensive Medication",
+        "Family History of ADPKD"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate, Urine Albumin-to-Creatinine Ratio, Serum Potassium, History of Hypertension, History of Diabetes, Family History of ADPKD.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (kg/m2)",
+          "Body Mass Index"
+        ],
+        [
+          "Chronic Kidney Disease Epidemiology Collaboration (CKD EPI) eGFR (ml/min/m^2)",
+          "Estimated Glomerular Filtration Rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "PKD Genotype",
+        "Age at Diagnosis of Autosomal Dominant Polycystic Kidney Disease (yrs)",
+        "Serum Creatinine (mg/dl)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Urine Albumin-to-Creatinine Ratio",
+        "Serum Potassium",
+        "History of Hypertension",
+        "History of Diabetes",
+        "Family History of ADPKD."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic and diastolic blood pressure, estimated glomerular filtration rate (eGFR), serum creatinine, serum potassium, spot urine albumin-to-creatinine ratio, fasting serum glucose, history of hypertension, history of diabetes, history of cardiovascular disease, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body Mass Index (kg/m2)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Serum Creatinine (mg/dl)",
+          "serum creatinine"
+        ],
+        [
+          "Chronic Kidney Disease Epidemiology Collaboration (CKD EPI) eGFR (ml/min/m^2)",
+          "estimated glomerular filtration rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "PKD Genotype",
+        "Age at Diagnosis of Autosomal Dominant Polycystic Kidney Disease (yrs)"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "systolic and diastolic blood pressure",
+        "serum potassium",
+        "spot urine albumin-to-creatinine ratio",
+        "fasting serum glucose",
+        "history of hypertension",
+        "history of diabetes",
+        "history of cardiovascular disease",
+        "smoking status"
+      ]
+    }
+  }
+}

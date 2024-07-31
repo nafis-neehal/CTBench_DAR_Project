@@ -1,0 +1,213 @@
+{
+  "trial_id": "NCT02471183",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, etiology of PAH, WHO functional class, 6-minute walk distance (6MWD), background oral PAH therapy, hemodynamic diagnosis of PAH, duration and dose stability of inhaled treprostinil treatment, pregnancy status (for women of childbearing potential), history of hospitalization, history of obstructive or restrictive lung disease, presence of pulmonary veno-occlusive disease (PVOD), hemoglobin levels, thyroid function, hepatic function, blood pressure, history of myocardial infarction, left-sided heart disease, left ventricular function, presence of pericardial effusion, renal function, use of investigational drugs, previous use of selexipag, ability to comply with study requirements, participation in cardio-pulmonary rehabilitation, presence of psychotic or addictive disorders, life expectancy, lactation or pregnancy status, hypersensitivity to drug excipients.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Etiology of pulmonary arterial hypertension (PAH)",
+          "etiology of PAH"
+        ],
+        [
+          "World Health Organization Functional class (WHO FC)",
+          "WHO functional class"
+        ],
+        [
+          "Time since initial inhaled treprostinil",
+          "duration and dose stability of inhaled treprostinil treatment"
+        ],
+        [
+          "Treprostinil stable dose",
+          "duration and dose stability of inhaled treprostinil treatment"
+        ],
+        [
+          "PAH-specific therapy at baseline",
+          "background oral PAH therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "6-minute walk distance (6MWD)",
+        "hemodynamic diagnosis of PAH",
+        "pregnancy status (for women of childbearing potential)",
+        "history of hospitalization",
+        "history of obstructive or restrictive lung disease",
+        "presence of pulmonary veno-occlusive disease (PVOD)",
+        "hemoglobin levels",
+        "thyroid function",
+        "hepatic function",
+        "blood pressure",
+        "history of myocardial infarction",
+        "left-sided heart disease",
+        "left ventricular function",
+        "presence of pericardial effusion",
+        "renal function",
+        "use of investigational drugs",
+        "previous use of selexipag",
+        "ability to comply with study requirements",
+        "participation in cardio-pulmonary rehabilitation",
+        "presence of psychotic or addictive disorders",
+        "life expectancy",
+        "lactation or pregnancy status",
+        "hypersensitivity to drug excipients"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, WHO functional class, 6-minute walk distance (6MWD), Hemodynamic parameters (e.g., pulmonary arterial pressure), Background PAH therapy, Duration of inhaled treprostinil treatment, Systolic blood pressure, Diastolic blood pressure, Heart rate,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Etiology of pulmonary arterial hypertension (PAH)",
+          "Hemodynamic parameters (e.g., pulmonary arterial pressure)"
+        ],
+        [
+          "World Health Organization Functional class (WHO FC)",
+          "WHO functional class"
+        ],
+        [
+          "Time since initial inhaled treprostinil",
+          "Duration of inhaled treprostinil treatment"
+        ],
+        [
+          "Treprostinil stable dose",
+          "Background PAH therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "PAH-specific therapy at baseline"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "6-minute walk distance (6MWD)",
+        "Systolic blood pressure",
+        "Diastolic blood pressure",
+        "Heart rate"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, WHO Functional Class, 6-minute walk distance, Hemoglobin, Creatinine, Liver enzymes, Left ventricular ejection fraction, Pulmonary artery pressure, Pulmonary capillary wedge pressure, Cardiac output, Pulmonary vascular resistance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "World Health Organization Functional class (WHO FC)",
+          "WHO Functional Class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Etiology of pulmonary arterial hypertension (PAH)",
+        "Time since initial inhaled treprostinil",
+        "Treprostinil stable dose",
+        "PAH-specific therapy at baseline"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "6-minute walk distance",
+        "Hemoglobin",
+        "Creatinine",
+        "Liver enzymes",
+        "Left ventricular ejection fraction",
+        "Pulmonary artery pressure",
+        "Pulmonary capillary wedge pressure",
+        "Cardiac output",
+        "Pulmonary vascular resistance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, etiology of PAH, WHO functional class, 6-minute walk distance, hemodynamic diagnosis of PAH, background oral PAH therapy, sitting systolic blood pressure, hemoglobin, thyroid function, liver function, renal function, left ventricular function, pericardial effusion, body mass index.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Etiology of pulmonary arterial hypertension (PAH)",
+          "etiology of PAH"
+        ],
+        [
+          "World Health Organization Functional class (WHO FC)",
+          "WHO functional class"
+        ],
+        [
+          "Treprostinil stable dose",
+          "Time since initial inhaled treprostinil"
+        ],
+        [
+          "PAH-specific therapy at baseline",
+          "background oral PAH therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Time since initial inhaled treprostinil"
+      ],
+      "remaining_candidate_features": [
+        "6-minute walk distance",
+        "hemodynamic diagnosis of PAH",
+        "sitting systolic blood pressure",
+        "hemoglobin",
+        "thyroid function",
+        "liver function",
+        "renal function",
+        "left ventricular function",
+        "pericardial effusion",
+        "body mass index"
+      ]
+    }
+  }
+}

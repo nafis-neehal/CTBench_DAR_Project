@@ -1,0 +1,175 @@
+{
+  "trial_id": "NCT01643382",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, baseline blood glucose levels, HbA1c levels, body mass index (BMI), duration of end stage renal disease, previous dialysis duration, type of dialysis, comorbid conditions (e.g., hypertension, cardiovascular disease), immunosuppressive regimen, donor characteristics (e.g., age, cause of death), baseline renal function (e.g., serum creatinine, glomerular filtration rate).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Duration diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Hemoglobin A1C",
+          "HbA1c levels"
+        ],
+        [
+          "Duration dialysis",
+          "previous dialysis duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Preoperative diabetic regimen"
+      ],
+      "remaining_candidate_features": [
+        "baseline blood glucose levels",
+        "body mass index (BMI)",
+        "duration of end stage renal disease",
+        "type of dialysis",
+        "comorbid conditions (e.g., hypertension, cardiovascular disease)",
+        "immunosuppressive regimen",
+        "donor characteristics (e.g., age, cause of death)",
+        "baseline renal function (e.g., serum creatinine, glomerular filtration rate)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Blood Pressure, eGFR, History of Cardiovascular Disease,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Duration diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Hemoglobin A1C",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Duration dialysis",
+        "Preoperative diabetic regimen"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Blood Pressure",
+        "eGFR",
+        "History of Cardiovascular Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (NIH/OMB), Diabetes duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin A1c, Estimated Glomerular Filtration Rate, History of Cardiovascular Disease,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Duration diabetes",
+          "Diabetes duration"
+        ],
+        [
+          "Hemoglobin A1C",
+          "Hemoglobin A1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Duration dialysis",
+        "Preoperative diabetic regimen"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Estimated Glomerular Filtration Rate",
+        "History of Cardiovascular Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, body mass index (BMI), duration of diabetes, type of diabetes, hemoglobin A1c (HbA1c), estimated glomerular filtration rate (eGFR), serum creatinine, blood urea nitrogen (BUN), albuminuria, hypertension, cardiovascular disease, smoking status, prior cardiovascular events, medication use (e.g., insulin, oral hypoglycemics, antihypertensives, statins).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Duration diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Hemoglobin A1C",
+          "hemoglobin A1c (HbA1c)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Duration dialysis",
+        "Preoperative diabetic regimen"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "type of diabetes",
+        "estimated glomerular filtration rate (eGFR)",
+        "serum creatinine",
+        "blood urea nitrogen (BUN)",
+        "albuminuria",
+        "hypertension",
+        "cardiovascular disease",
+        "smoking status",
+        "prior cardiovascular events",
+        "medication use (e.g., insulin, oral hypoglycemics, antihypertensives, statins)"
+      ]
+    }
+  }
+}

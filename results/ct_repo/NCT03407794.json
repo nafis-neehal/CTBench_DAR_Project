@@ -1,0 +1,139 @@
+{
+  "trial_id": "NCT03407794",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Smoking status, Cancer history, Thyroid disease history, Diabetes status, Medication use, Weight loss diet status, Antibiotic use, Autoimmune disease history, Regular consumption of fermented vegetables, Blood pressure status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Education: Some college",
+        "College degree",
+        "Graduate degree"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Smoking status",
+        "Cancer history",
+        "Thyroid disease history",
+        "Diabetes status",
+        "Medication use",
+        "Weight loss diet status",
+        "Antibiotic use",
+        "Autoimmune disease history",
+        "Regular consumption of fermented vegetables",
+        "Blood pressure status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Smoking Status, Medication Use, Blood Pressure, C-reactive Protein, Gastrointestinal Microbiome Diversity,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Education: Some college",
+        "College degree",
+        "Graduate degree"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Smoking Status",
+        "Medication Use",
+        "Blood Pressure",
+        "C-reactive Protein",
+        "Gastrointestinal Microbiome Diversity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, BMI, Region of Enrollment, Smoking Status, History of Cancer, Thyroid Disease, Diabetes, Hypertension, Autoimmune Disease, Medication Use, Diet, Antibiotic Use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Education: Some college",
+        "College degree",
+        "Graduate degree"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Smoking Status",
+        "History of Cancer",
+        "Thyroid Disease",
+        "Diabetes",
+        "Hypertension",
+        "Autoimmune Disease",
+        "Medication Use",
+        "Diet",
+        "Antibiotic Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, BMI, smoking status, medical history (cancer, thyroid disease, diabetes, autoimmune disease), medication use (psychotic, depression, weight loss, antibiotics), diet (weight loss, fad diet, regular consumption of fermented vegetables), hypertension status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Education: Some college",
+        "College degree",
+        "Graduate degree"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "smoking status",
+        "medical history (cancer, thyroid disease, diabetes, autoimmune disease)",
+        "medication use (psychotic, depression, weight loss, antibiotics)",
+        "diet (weight loss, fad diet, regular consumption of fermented vegetables)",
+        "hypertension status."
+      ]
+    }
+  }
+}

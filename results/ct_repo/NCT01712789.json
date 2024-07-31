@@ -1,0 +1,207 @@
+{
+  "trial_id": "NCT01712789",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline disease characteristics, prior treatments, duration of multiple myeloma, performance status, renal function, liver function, hematologic parameters, ECOG performance status, comorbidities, baseline laboratory values, prior response to treatment, cytogenetic abnormalities, baseline biomarkers.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Time since diagnosis",
+          "duration of multiple myeloma"
+        ],
+        [
+          "Renal Function (Cockcroft Gault Creatinine Clearance)",
+          "renal function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Beta 2 Microglobulin",
+        "Serum Light Chain Type",
+        "Serum Heavy Chain Type",
+        "Corrected Serum Calcium"
+      ],
+      "remaining_candidate_features": [
+        "baseline disease characteristics",
+        "prior treatments",
+        "performance status",
+        "liver function",
+        "hematologic parameters",
+        "comorbidities",
+        "baseline laboratory values",
+        "prior response to treatment",
+        "cytogenetic abnormalities",
+        "baseline biomarkers"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Prior lines of therapy, Refractory or relapsed status, Prior treatment with lenalidomide and bortezomib, Measurable disease status, Baseline hematologic parameters, Baseline renal function, Baseline liver function, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Renal Function (Cockcroft Gault Creatinine Clearance)",
+          "Baseline renal function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+        "Time since diagnosis",
+        "Beta 2 Microglobulin",
+        "Serum Light Chain Type",
+        "Serum Heavy Chain Type",
+        "Corrected Serum Calcium"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Prior lines of therapy",
+        "Refractory or relapsed status",
+        "Prior treatment with lenalidomide and bortezomib",
+        "Measurable disease status",
+        "Baseline hematologic parameters",
+        "Baseline liver function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Multiple Myeloma Diagnosis Duration, Prior Anti-Myeloma Therapy, ECOG Performance Status, Hemoglobin, Platelet Count, Serum Creatinine, Serum Calcium, Serum M-Protein, Urine M-Protein, Bone Marrow Plasma Cells,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Time since diagnosis",
+          "Multiple Myeloma Diagnosis Duration"
+        ],
+        [
+          "Serum Light Chain Type",
+          "Serum M-Protein"
+        ],
+        [
+          "Serum Heavy Chain Type",
+          "Urine M-Protein"
+        ],
+        [
+          "Renal Function (Cockcroft Gault Creatinine Clearance)",
+          "Serum Creatinine"
+        ],
+        [
+          "Corrected Serum Calcium",
+          "Serum Calcium"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Beta 2 Microglobulin"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Prior Anti-Myeloma Therapy",
+        "Hemoglobin",
+        "Platelet Count",
+        "Bone Marrow Plasma Cells"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, multiple myeloma diagnosis duration, number of prior treatment lines, prior treatment regimens, time since last treatment, lenalidomide and bortezomib treatment history, alkylator therapy history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "Eastern Cooperative Oncology Group (ECOG) performance status"
+        ],
+        [
+          "Time since diagnosis",
+          "multiple myeloma diagnosis duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Beta 2 Microglobulin",
+        "Serum Light Chain Type",
+        "Serum Heavy Chain Type",
+        "Renal Function (Cockcroft Gault Creatinine Clearance)",
+        "Corrected Serum Calcium"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "number of prior treatment lines",
+        "prior treatment regimens",
+        "time since last treatment",
+        "lenalidomide and bortezomib treatment history",
+        "alkylator therapy history."
+      ]
+    }
+  }
+}

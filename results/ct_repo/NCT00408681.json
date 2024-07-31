@@ -1,0 +1,227 @@
+{
+  "trial_id": "NCT00408681",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline disease characteristics, prior treatments, duration of GVHD, severity of GVHD, renal function (creatinine clearance), presence of denuded mucosa, stool volume, presence of hemorrhage, psychological status, compliance potential.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Mucosal denudation",
+          "presence of denuded mucosa"
+        ],
+        [
+          "Graft-versus-host disease (GVHD) prophylaxis regimen",
+          "severity of GVHD"
+        ],
+        [
+          "Agents given to treat GVHD more than 3 days before enrollment in the study",
+          "prior treatments"
+        ],
+        [
+          "Renal function (creatinine clearance)",
+          "renal function (creatinine clearance)"
+        ],
+        [
+          "Agents given to treat GVHD within 3 days before or after enrollment",
+          "duration of GVHD"
+        ],
+        [
+          "Agents given to prevent GVHD at the time of enrollment",
+          "baseline disease characteristics"
+        ],
+        [
+          "Presence of any cause of intestinal symptoms or ulceration other than GVHD",
+          "presence of hemorrhage"
+        ],
+        [
+          "Psychological status",
+          "psychological status"
+        ],
+        [
+          "Compliance potential",
+          "compliance potential"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Indication for transplantation",
+        "Type of pretransplant conditioning regimen",
+        "Interval from transplantation to start of study product administration"
+      ],
+      "remaining_candidate_features": [
+        "stool volume"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline creatinine clearance, Baseline stool volume, Presence of denuded mucosa, Prior treatment for acute GVHD,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Mucosal denudation",
+          "Presence of denuded mucosa"
+        ],
+        [
+          "Agents given to treat GVHD more than 3 days before enrollment in the study",
+          "Prior treatment for acute GVHD"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Indication for transplantation",
+        "Type of pretransplant conditioning regimen",
+        "Graft-versus-host disease (GVHD) prophylaxis regimen",
+        "Agents given to prevent GVHD at the time of enrollment",
+        "Interval from transplantation to start of study product administration",
+        "Agents given to treat GVHD within 3 days before or after enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline creatinine clearance",
+        "Baseline stool volume"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Underlying Malignancy, Donor Type, Graft Source, Conditioning Regimen, GVHD Prophylaxis, Time from Transplant to GVHD Onset, GVHD Severity, Prior GVHD Treatment, Performance Status, Serum Creatinine, Bilirubin, Albumin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Type of pretransplant conditioning regimen",
+          "Conditioning Regimen"
+        ],
+        [
+          "Graft-versus-host disease (GVHD) prophylaxis regimen",
+          "GVHD Prophylaxis"
+        ],
+        [
+          "Mucosal denudation",
+          "GVHD Severity"
+        ],
+        [
+          "Agents given to treat GVHD more than 3 days before enrollment in the study",
+          "Prior GVHD Treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Indication for transplantation",
+        "Agents given to prevent GVHD at the time of enrollment",
+        "Interval from transplantation to start of study product administration",
+        "Agents given to treat GVHD within 3 days before or after enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Underlying Malignancy",
+        "Donor Type",
+        "Graft Source",
+        "Time from Transplant to GVHD Onset",
+        "Performance Status",
+        "Serum Creatinine",
+        "Bilirubin",
+        "Albumin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, weight, height, body mass index (BMI), race, ethnicity, Karnofsky performance status, disease diagnosis, time from transplant to GVHD diagnosis, prior treatment for GVHD, severity of GVHD, presence of denuded mucosa, estimated creatinine clearance, presence of secondary malignancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Mucosal denudation",
+          "presence of denuded mucosa"
+        ],
+        [
+          "Indication for transplantation",
+          "disease diagnosis"
+        ],
+        [
+          "Interval from transplantation to start of study product administration",
+          "time from transplant to GVHD diagnosis"
+        ],
+        [
+          "Agents given to treat GVHD more than 3 days before enrollment in the study",
+          "prior treatment for GVHD"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Type of pretransplant conditioning regimen",
+        "Graft-versus-host disease (GVHD) prophylaxis regimen",
+        "Agents given to prevent GVHD at the time of enrollment",
+        "Agents given to treat GVHD within 3 days before or after enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "Karnofsky performance status",
+        "severity of GVHD",
+        "estimated creatinine clearance",
+        "presence of secondary malignancy"
+      ]
+    }
+  }
+}

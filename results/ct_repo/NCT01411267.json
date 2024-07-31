@@ -1,0 +1,181 @@
+{
+  "trial_id": "NCT01411267",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, diagnosis (AML, ALL, or ambiguous lineage leukemia), percentage of blasts in bone marrow, MLL gene rearrangement status, hyperdiploidy status, Karnofsky/Lansky performance score, prior chemotherapy, prior hematopoietic stem cell transplant, renal function (creatinine clearance or serum creatinine), hepatic function (total bilirubin, conjugated bilirubin, ALT), cardiac function (shortening fraction, ejection fraction), pregnancy status (for females of childbearing potential), breastfeeding status, use of contraception (for males and females of childbearing potential), presence of CNS disease, cardiovascular disease history, infection status, concurrent medication use (CYP3A4 and 5 inhibitors and inducers).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "# Patients with Prior HSCT",
+          "prior hematopoietic stem cell transplant"
+        ],
+        [
+          "FLT3/ITD+ (FLT3-internal tandem duplication mutation)",
+          "prior chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "diagnosis (AML, ALL, or ambiguous lineage leukemia)",
+        "percentage of blasts in bone marrow",
+        "MLL gene rearrangement status",
+        "hyperdiploidy status",
+        "Karnofsky/Lansky performance score",
+        "renal function (creatinine clearance or serum creatinine)",
+        "hepatic function (total bilirubin, conjugated bilirubin, ALT)",
+        "cardiac function (shortening fraction, ejection fraction)",
+        "pregnancy status (for females of childbearing potential)",
+        "breastfeeding status",
+        "use of contraception (for males and females of childbearing potential)",
+        "presence of CNS disease",
+        "cardiovascular disease history",
+        "infection status",
+        "concurrent medication use (CYP3A4 and 5 inhibitors and inducers)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis (AML, ALL, or ambiguous lineage), Percentage of Blasts in Bone Marrow, Karnofsky/Lansky Performance Status, Prior Hematopoietic Stem Cell Transplant, Renal Function (Creatinine Clearance or GFR), Hepatic Function (Total Bilirubin, ALT), Cardiac Function (Shortening Fraction or Ejection Fraction), Prior FLT3 Inhibitor Use, Prior Chemotherapy, Prior Radiotherapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "# Patients with Prior HSCT",
+          "Prior Hematopoietic Stem Cell Transplant"
+        ],
+        [
+          "FLT3/ITD+ (FLT3-internal tandem duplication mutation)",
+          "Prior FLT3 Inhibitor Use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diagnosis (AML, ALL, or ambiguous lineage)",
+        "Percentage of Blasts in Bone Marrow",
+        "Karnofsky/Lansky Performance Status",
+        "Renal Function (Creatinine Clearance or GFR)",
+        "Hepatic Function (Total Bilirubin, ALT)",
+        "Cardiac Function (Shortening Fraction or Ejection Fraction)",
+        "Prior Chemotherapy",
+        "Prior Radiotherapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky/Lansky Performance Status, Diagnosis (ALL/AML), Relapse Status, Prior Treatment (chemotherapy, radiation, HSCT), Organ Function (renal, hepatic), Cardiac Function (shortening fraction, ejection fraction), Infection Status, Concomitant Medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "# Patients with Prior HSCT",
+          "Prior Treatment (chemotherapy, radiation, HSCT)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "FLT3/ITD+ (FLT3-internal tandem duplication mutation)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Karnofsky/Lansky Performance Status",
+        "Diagnosis (ALL/AML)",
+        "Relapse Status",
+        "Organ Function (renal, hepatic)",
+        "Cardiac Function (shortening fraction, ejection fraction)",
+        "Infection Status",
+        "Concomitant Medications."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, Karnofsky/Lansky performance score, diagnosis (ALL or AML), relapse/refractory status, prior treatment (chemotherapy, immunotherapy, radiotherapy, hematopoietic stem cell transplant), FLT3 inhibitor use, creatinine clearance, serum creatinine, total bilirubin, alanine transaminase (ALT), shortening fraction, ejection fraction, cardiac history (myocardial infarction, angina, arrhythmias, heart block, hypertension), infection status, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "# Patients with Prior HSCT",
+          "prior treatment (chemotherapy, immunotherapy, radiotherapy, hematopoietic stem cell transplant)"
+        ],
+        [
+          "FLT3/ITD+ (FLT3-internal tandem duplication mutation)",
+          "FLT3 inhibitor use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "Karnofsky/Lansky performance score",
+        "diagnosis (ALL or AML)",
+        "relapse/refractory status",
+        "creatinine clearance",
+        "serum creatinine",
+        "total bilirubin",
+        "alanine transaminase (ALT)",
+        "shortening fraction",
+        "ejection fraction",
+        "cardiac history (myocardial infarction, angina, arrhythmias, heart block, hypertension)",
+        "infection status",
+        "concomitant medications"
+      ]
+    }
+  }
+}

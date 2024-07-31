@@ -1,0 +1,210 @@
+{
+  "trial_id": "NCT01447914",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, ECOG performance status, Absolute neutrophil count (ANC), Total white blood cell count (WBC), Hemoglobin level, Platelet count, Total bilirubin, AST (SGOT) level, ALT (SGPT) level, Serum creatinine, Creatinine clearance (CrCl), Cardiac function status, HIV status, Prior lines of therapy, Time since last therapy, Type of prior therapies, Measurable disease status, Free light chain level, Monoclonal protein level, Bone marrow plasma cell percentage, Presence of end-organ damage, History of radiation therapy, History of major surgery, Contraception use, Pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Prior Stem Cell Transplantation (SCT)",
+          "Prior lines of therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "Absolute neutrophil count (ANC)",
+        "Total white blood cell count (WBC)",
+        "Hemoglobin level",
+        "Platelet count",
+        "Total bilirubin",
+        "AST (SGOT) level",
+        "ALT (SGPT) level",
+        "Serum creatinine",
+        "Creatinine clearance (CrCl)",
+        "Cardiac function status",
+        "HIV status",
+        "Time since last therapy",
+        "Type of prior therapies",
+        "Measurable disease status",
+        "Free light chain level",
+        "Monoclonal protein level",
+        "Bone marrow plasma cell percentage",
+        "Presence of end-organ damage",
+        "History of radiation therapy",
+        "History of major surgery",
+        "Contraception use",
+        "Pregnancy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Absolute Neutrophil Count (ANC), White Blood Cell Count (WBC), Hemoglobin, Platelet Count, Total Bilirubin, AST (SGOT), ALT (SGPT), Serum Creatinine, Creatinine Clearance (CrCl), Cardiac Function, HIV Status, Prior Lines of Therapy, Type of Myeloma, Monoclonal Protein Level, Bone Marrow Plasma Cells, End-organ Damage,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Prior Stem Cell Transplantation (SCT)",
+          "Prior Lines of Therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Absolute Neutrophil Count (ANC)",
+        "White Blood Cell Count (WBC)",
+        "Hemoglobin",
+        "Platelet Count",
+        "Total Bilirubin",
+        "AST (SGOT)",
+        "ALT (SGPT)",
+        "Serum Creatinine",
+        "Creatinine Clearance (CrCl)",
+        "Cardiac Function",
+        "HIV Status",
+        "Type of Myeloma",
+        "Monoclonal Protein Level",
+        "Bone Marrow Plasma Cells",
+        "End-organ Damage"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior Lines of Therapy, Time Since Last Therapy, Serum Monoclonal Protein Level, Urinary M-Protein Excretion, Involved Free Light Chain Level, Hemoglobin, Absolute Neutrophil Count, Platelet Count, Total Bilirubin, AST, ALT, Serum Creatinine, Creatinine Clearance, NYHA Class.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Prior Stem Cell Transplantation (SCT)",
+          "Prior Lines of Therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Time Since Last Therapy",
+        "Serum Monoclonal Protein Level",
+        "Urinary M-Protein Excretion",
+        "Involved Free Light Chain Level",
+        "Hemoglobin",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Total Bilirubin",
+        "AST",
+        "ALT",
+        "Serum Creatinine",
+        "Creatinine Clearance",
+        "NYHA Class"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, Karnofsky performance status, number of prior lines of therapy, time since diagnosis, time since last therapy, serum monoclonal protein level, urinary M-protein excretion, involved free light chain level, free light chain ratio, hemoglobin, absolute neutrophil count, total white blood cell count, platelet count, total bilirubin, AST, ALT, serum creatinine, creatinine clearance, NYHA class, cardiac history, prior radiation therapy, prior surgery.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Prior Stem Cell Transplantation (SCT)",
+          "number of prior lines of therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "Karnofsky performance status",
+        "time since diagnosis",
+        "time since last therapy",
+        "serum monoclonal protein level",
+        "urinary M-protein excretion",
+        "involved free light chain level",
+        "free light chain ratio",
+        "hemoglobin",
+        "absolute neutrophil count",
+        "total white blood cell count",
+        "platelet count",
+        "total bilirubin",
+        "AST",
+        "ALT",
+        "serum creatinine",
+        "creatinine clearance",
+        "NYHA class",
+        "cardiac history",
+        "prior radiation therapy",
+        "prior surgery"
+      ]
+    }
+  }
+}

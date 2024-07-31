@@ -1,0 +1,188 @@
+{
+  "trial_id": "NCT03875092",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ECOG performance status, smoking status, tumor histology, stage of disease at diagnosis, prior treatments, baseline organ function, presence of CNS metastases, baseline peripheral neuropathy grade, history of autoimmune disease, history of hypersensitivity reactions, HIV status, HBV status, HCV status, history of substance abuse, baseline infection status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Programmed Cell Death-Ligand 1 (PD-L1) Tumor Expression Level: Tumor Proportion Score (TPS)",
+          "tumor histology"
+        ],
+        [
+          "Taxane Chemotherapy",
+          "prior treatments"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Geographic Region"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "smoking status",
+        "stage of disease at diagnosis",
+        "baseline organ function",
+        "presence of CNS metastases",
+        "baseline peripheral neuropathy grade",
+        "history of autoimmune disease",
+        "history of hypersensitivity reactions",
+        "HIV status",
+        "HBV status",
+        "HCV status",
+        "history of substance abuse",
+        "baseline infection status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Smoking Status, Histology Type, Tumor Stage, Prior Treatments, Organ Function Markers,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Geographic Region",
+          "Region of Enrollment"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Programmed Cell Death-Ligand 1 (PD-L1) Tumor Expression Level: Tumor Proportion Score (TPS)",
+        "Taxane Chemotherapy"
+      ],
+      "remaining_candidate_features": [
+        "Smoking Status",
+        "Histology Type",
+        "Tumor Stage",
+        "Prior Treatments",
+        "Organ Function Markers"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology, Smoking Status, Prior Radiotherapy, Prior Systemic Therapy, Tumor Stage, Tumor Size, Number of Metastatic Sites, Presence of Brain Metastases, LDH Level, Albumin Level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Geographic Region",
+          "Region of Enrollment"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Programmed Cell Death-Ligand 1 (PD-L1) Tumor Expression Level: Tumor Proportion Score (TPS)",
+        "Taxane Chemotherapy"
+      ],
+      "remaining_candidate_features": [
+        "Histology",
+        "Smoking Status",
+        "Prior Radiotherapy",
+        "Prior Systemic Therapy",
+        "Tumor Stage",
+        "Tumor Size",
+        "Number of Metastatic Sites",
+        "Presence of Brain Metastases",
+        "LDH Level",
+        "Albumin Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, smoking history, histological subtype of squamous NSCLC, number and location of metastatic sites, prior radiation therapy, prior systemic therapy, tumor PD-L1 expression, lactate dehydrogenase (LDH) level, albumin level, creatinine clearance, hemoglobin level, white blood cell count, platelet count.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Programmed Cell Death-Ligand 1 (PD-L1) Tumor Expression Level: Tumor Proportion Score (TPS)",
+          "tumor PD-L1 expression"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Taxane Chemotherapy",
+        "Geographic Region"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "smoking history",
+        "histological subtype of squamous NSCLC",
+        "number and location of metastatic sites",
+        "prior radiation therapy",
+        "prior systemic therapy",
+        "lactate dehydrogenase (LDH) level",
+        "albumin level",
+        "creatinine clearance",
+        "hemoglobin level",
+        "white blood cell count",
+        "platelet count"
+      ]
+    }
+  }
+}

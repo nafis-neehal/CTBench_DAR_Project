@@ -1,0 +1,214 @@
+{
+  "trial_id": "NCT01362140",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, hemoglobin level, transferrin saturation, serum ferritin, serum folate, RBC folate, vitamin B12, Eastern Cooperative Oncology Group (ECOG) performance status, serum creatinine level, total bilirubin, alanine aminotransferase (ALT), aspartate aminotransferase (AST), serum endogenous erythropoietin (EPO) level, history of thrombosis, history of malignancies, history of seizure disorder, history of myocardial infarction, blood pressure, presence of systemic infection or chronic inflammatory disease, history of ethanol abuse, pregnancy status, use of contraception, previous use of erythropoiesis-stimulating agent (ESA) therapy, transfusion history, previous chemotherapy or radiation therapy, HIV status, hepatitis B and C status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "IPSS Risk Category",
+          "IPSS Risk Category"
+        ],
+        [
+          "World Health Organization (WHO) Classification of MDS",
+          "World Health Organization (WHO) Classification of MDS"
+        ],
+        [
+          "Hemoglobin",
+          "hemoglobin level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Time since MDS Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "transferrin saturation",
+        "serum ferritin",
+        "serum folate",
+        "RBC folate",
+        "vitamin B12",
+        "Eastern Cooperative Oncology Group (ECOG) performance status",
+        "serum creatinine level",
+        "total bilirubin",
+        "alanine aminotransferase (ALT)",
+        "aspartate aminotransferase (AST)",
+        "serum endogenous erythropoietin (EPO) level",
+        "history of thrombosis",
+        "history of malignancies",
+        "history of seizure disorder",
+        "history of myocardial infarction",
+        "blood pressure",
+        "presence of systemic infection or chronic inflammatory disease",
+        "history of ethanol abuse",
+        "pregnancy status",
+        "use of contraception",
+        "previous use of erythropoiesis-stimulating agent (ESA) therapy",
+        "transfusion history",
+        "previous chemotherapy or radiation therapy",
+        "HIV status",
+        "hepatitis B and C status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemoglobin level, Transferrin saturation, Serum ferritin, Serum folate, Vitamin B12, ECOG performance status, MDS subtype,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "IPSS Risk Category",
+          "IPSS Risk Category"
+        ],
+        [
+          "World Health Organization (WHO) Classification of MDS",
+          "MDS subtype"
+        ],
+        [
+          "Hemoglobin",
+          "Hemoglobin level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Time since MDS Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Transferrin saturation",
+        "Serum ferritin",
+        "Serum folate",
+        "Vitamin B12",
+        "ECOG performance status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, MDS Risk Category, ECOG Performance Status, Hemoglobin Level, Transferrin Saturation, Serum Ferritin, Serum Folate, Vitamin B12, Red Blood Cell Transfusion History, Bone Marrow Cytogenetic Analysis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "IPSS Risk Category",
+          "MDS Risk Category"
+        ],
+        [
+          "World Health Organization (WHO) Classification of MDS",
+          "Bone Marrow Cytogenetic Analysis"
+        ],
+        [
+          "Hemoglobin",
+          "Hemoglobin Level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Time since MDS Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "ECOG Performance Status",
+        "Transferrin Saturation",
+        "Serum Ferritin",
+        "Serum Folate",
+        "Vitamin B12",
+        "Red Blood Cell Transfusion History"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), ECOG performance status score, IPSS risk category, WHO MDS classification, hemoglobin level, transferrin saturation (Tsat), serum ferritin, serum folate, vitamin B12, history of malignancies, history of thrombosis, history of cardiac disease, history of seizure disorder.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "IPSS Risk Category",
+          "IPSS risk category"
+        ],
+        [
+          "World Health Organization (WHO) Classification of MDS",
+          "WHO MDS classification"
+        ],
+        [
+          "Hemoglobin",
+          "hemoglobin level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Time since MDS Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "ECOG performance status score",
+        "transferrin saturation (Tsat)",
+        "serum ferritin",
+        "serum folate",
+        "vitamin B12",
+        "history of malignancies",
+        "history of thrombosis",
+        "history of cardiac disease",
+        "history of seizure disorder"
+      ]
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "trial_id": "NCT00100789",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Performance status (Zubrod score), Disease characteristics (histologically or cytologically confirmed squamous cell carcinoma of the head and neck), Disease status (recurrent, persistent, or newly diagnosed metastatic), Measurable or non-measurable disease, History of CNS metastasis, Organ function status (serious organ dysfunction, serious comorbid conditions), History of hypersensitivity reaction to products containing polysorbate 80, Presence of active infection requiring systemic antibiotic therapy, Sensory neuropathy status, History of other malignancies within the past 5 years, Pregnancy or nursing status, Use of effective contraception, Prior chemotherapy for recurrent or newly diagnosed metastatic disease, Time since prior induction or adjuvant chemotherapy, Prior use of gemcitabine or taxanes, Time since prior radiotherapy, Concurrent therapy for SCCHN.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Performance Status",
+          "Performance status (Zubrod score)"
+        ],
+        [
+          "Disease Status",
+          "Disease status (recurrent, persistent, or newly diagnosed metastatic)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Primary Site"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Disease characteristics (histologically or cytologically confirmed squamous cell carcinoma of the head and neck)",
+        "Measurable or non-measurable disease",
+        "History of CNS metastasis",
+        "Organ function status (serious organ dysfunction, serious comorbid conditions)",
+        "History of hypersensitivity reaction to products containing polysorbate 80",
+        "Presence of active infection requiring systemic antibiotic therapy",
+        "Sensory neuropathy status",
+        "History of other malignancies within the past 5 years",
+        "Pregnancy or nursing status",
+        "Use of effective contraception",
+        "Prior chemotherapy for recurrent or newly diagnosed metastatic disease",
+        "Time since prior induction or adjuvant chemotherapy",
+        "Prior use of gemcitabine or taxanes",
+        "Time since prior radiotherapy",
+        "Concurrent therapy for SCCHN."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Performance Status (Zubrod), Disease Stage, Prior Chemotherapy, Prior Radiotherapy, Prior Surgery, Hematopoietic Function, Hepatic Function, Renal Function, Comorbid Conditions, Sensory Neuropathy Grade,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Performance Status",
+          "Performance Status (Zubrod)"
+        ],
+        [
+          "Disease Status",
+          "Disease Stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Primary Site"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Prior Chemotherapy",
+        "Prior Radiotherapy",
+        "Prior Surgery",
+        "Hematopoietic Function",
+        "Hepatic Function",
+        "Renal Function",
+        "Comorbid Conditions",
+        "Sensory Neuropathy Grade"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Performance Status, Life Expectancy, Hematopoietic Function, Hepatic Function, Renal Function, History of Hypersensitivity Reaction, History of Serious Organ Dysfunction, History of Serious Comorbid Conditions, History of Symptomatic Sensory Neuropathy, History of Other Malignancy, Prior Chemotherapy, Prior Radiotherapy, Prior Surgery.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Performance Status",
+          "Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Primary Site",
+        "Disease Status"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Life Expectancy",
+        "Hematopoietic Function",
+        "Hepatic Function",
+        "Renal Function",
+        "History of Hypersensitivity Reaction",
+        "History of Serious Organ Dysfunction",
+        "History of Serious Comorbid Conditions",
+        "History of Symptomatic Sensory Neuropathy",
+        "History of Other Malignancy",
+        "Prior Chemotherapy",
+        "Prior Radiotherapy",
+        "Prior Surgery"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, Zubrod performance status, histology of head and neck cancer, disease stage, presence of metastases, prior chemotherapy, prior radiotherapy, prior surgery, comorbid conditions, history of hypersensitivity reaction to products containing polysorbate 80, presence of symptomatic sensory neuropathy, presence of other malignancies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Performance Status",
+          "Zubrod performance status"
+        ],
+        [
+          "Disease Status",
+          "disease stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Primary Site"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "sex",
+        "histology of head and neck cancer",
+        "presence of metastases",
+        "prior chemotherapy",
+        "prior radiotherapy",
+        "prior surgery",
+        "comorbid conditions",
+        "history of hypersensitivity reaction to products containing polysorbate 80",
+        "presence of symptomatic sensory neuropathy",
+        "presence of other malignancies."
+      ]
+    }
+  }
+}

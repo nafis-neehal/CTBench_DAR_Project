@@ -1,0 +1,234 @@
+{
+  "trial_id": "NCT00454194",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ECOG performance status, histology type, stage of disease, prior chemotherapy regimens, presence of brain metastasis, absolute neutrophil count, platelet count, hemoglobin level, total bilirubin level, creatinine clearance, AST level, ALT level, INR/PT/PTT, presence of significant infection, HIV status, history of bleeding diathesis or coagulopathy, presence of nonhealing wounds or ulcers, history of significant traumatic injury, history of second primary malignancy, ability to swallow pills, blood pressure, history of angina pectoris, history of congestive heart failure, history of myocardial infarction, presence of cardiac arrhythmia, presence of diabetes mellitus, history of active hemoptysis, prior radiotherapy, prior surgery, prior immunotherapy, prior hormonal therapy, prior investigational agents, concurrent use of antiretroviral therapy, concurrent use of steroids, concurrent use of therapeutic anticoagulation, concurrent use of Hypericum perforatum (St. John's wort), concurrent use of grapefruit or grapefruit juice, concurrent use of prophylactic colony-stimulating factors.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Stage",
+          "stage of disease"
+        ],
+        [
+          "Prior Bevacizumab",
+          "prior chemotherapy regimens"
+        ],
+        [
+          "Histology",
+          "histology type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "presence of brain metastasis",
+        "absolute neutrophil count",
+        "platelet count",
+        "hemoglobin level",
+        "total bilirubin level",
+        "creatinine clearance",
+        "AST level",
+        "ALT level",
+        "INR/PT/PTT",
+        "presence of significant infection",
+        "HIV status",
+        "history of bleeding diathesis or coagulopathy",
+        "presence of nonhealing wounds or ulcers",
+        "history of significant traumatic injury",
+        "history of second primary malignancy",
+        "ability to swallow pills",
+        "blood pressure",
+        "history of angina pectoris",
+        "history of congestive heart failure",
+        "history of myocardial infarction",
+        "presence of cardiac arrhythmia",
+        "presence of diabetes mellitus",
+        "history of active hemoptysis",
+        "prior radiotherapy",
+        "prior surgery",
+        "prior immunotherapy",
+        "prior hormonal therapy",
+        "prior investigational agents",
+        "concurrent use of antiretroviral therapy",
+        "concurrent use of steroids",
+        "concurrent use of therapeutic anticoagulation",
+        "concurrent use of Hypericum perforatum (St. John's wort)",
+        "concurrent use of grapefruit or grapefruit juice",
+        "concurrent use of prophylactic colony-stimulating factors"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Stage of disease, Histology type, Prior chemotherapy regimen, Brain metastasis status, Absolute neutrophil count, Platelet count, Hemoglobin, Total bilirubin, Creatinine clearance, AST, ALT, INR, PT/PTT,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Stage",
+          "Stage of disease"
+        ],
+        [
+          "Histology",
+          "Histology type"
+        ],
+        [
+          "Prior Bevacizumab",
+          "Prior chemotherapy regimen"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Brain metastasis status",
+        "Absolute neutrophil count",
+        "Platelet count",
+        "Hemoglobin",
+        "Total bilirubin",
+        "Creatinine clearance",
+        "AST",
+        "ALT",
+        "INR",
+        "PT/PTT"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology, Stage of Disease, Number of Prior Chemotherapy Regimens, Best Response to Prior Chemotherapy, Time Since Last Chemotherapy, Presence of Brain Metastases, Presence of Pleural Effusion, Hemoglobin, Absolute Neutrophil Count, Platelet Count, Creatinine Clearance, Total Bilirubin, AST, ALT, INR.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Stage",
+          "Stage of Disease"
+        ],
+        [
+          "Prior Bevacizumab",
+          "Number of Prior Chemotherapy Regimens"
+        ],
+        [
+          "Histology",
+          "Histology"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Best Response to Prior Chemotherapy",
+        "Time Since Last Chemotherapy",
+        "Presence of Brain Metastases",
+        "Presence of Pleural Effusion",
+        "Hemoglobin",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Creatinine Clearance",
+        "Total Bilirubin",
+        "AST",
+        "ALT",
+        "INR"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, smoking history, histology, stage of disease, number of prior chemotherapy regimens, presence of brain metastases, presence of pleural effusions, prior radiotherapy, prior surgery, absolute neutrophil count, platelet count, hemoglobin, total bilirubin, creatinine clearance, AST, ALT, INR, PT/PTT.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Stage",
+          "stage of disease"
+        ],
+        [
+          "Prior Bevacizumab",
+          "prior radiotherapy"
+        ],
+        [
+          "Histology",
+          "histology"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "smoking history",
+        "number of prior chemotherapy regimens",
+        "presence of brain metastases",
+        "presence of pleural effusions",
+        "prior surgery",
+        "absolute neutrophil count",
+        "platelet count",
+        "hemoglobin",
+        "total bilirubin",
+        "creatinine clearance",
+        "AST",
+        "ALT",
+        "INR",
+        "PT/PTT"
+      ]
+    }
+  }
+}

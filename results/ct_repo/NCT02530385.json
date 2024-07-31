@@ -1,0 +1,151 @@
+{
+  "trial_id": "NCT02530385",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, baseline insulin resistance, baseline glucose levels, baseline lipid profile, dietary habits, physical activity level, medical history, medication use, smoking status, alcohol consumption, socioeconomic status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "baseline insulin resistance",
+        "baseline glucose levels",
+        "baseline lipid profile",
+        "dietary habits",
+        "physical activity level",
+        "medical history",
+        "medication use",
+        "smoking status",
+        "alcohol consumption",
+        "socioeconomic status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline Insulin Resistance, Baseline Glucose Uptake, Region of Enrollment, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Baseline Insulin Resistance",
+        "Baseline Glucose Uptake"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Insulin Resistance, Fasting Glucose, Fasting Insulin, HbA1c, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Lipid Profile,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Insulin Resistance",
+        "Fasting Glucose",
+        "Fasting Insulin",
+        "HbA1c",
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Lipid Profile"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, waist circumference, hip circumference, blood pressure, fasting glucose, fasting insulin, HbA1c, lipid profile, medical history, medication use, smoking status, dietary habits, physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "weight",
+        "height",
+        "waist circumference",
+        "hip circumference",
+        "blood pressure",
+        "fasting glucose",
+        "fasting insulin",
+        "HbA1c",
+        "lipid profile",
+        "medical history",
+        "medication use",
+        "smoking status",
+        "dietary habits",
+        "physical activity level"
+      ]
+    }
+  }
+}

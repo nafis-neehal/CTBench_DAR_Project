@@ -1,0 +1,187 @@
+{
+  "trial_id": "NCT03676465",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, HbA1c level, duration of diabetes, insulin regimen, use of CGM, use of Fitbit, use of Companion Medical inPen, medication stability, English proficiency, mental status, internet access, pregnancy status, history of diabetic ketoacidosis, alcohol or drug abuse history, psychiatric history, skin condition, use of acetaminophen, use of long-acting insulin, use of closed-loop insulin pump, comorbidities, history of severe hypoglycemia, use of devices with electromagnetic compatibility issues, active enrollment in another clinical trial.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Family Communication Inventory",
+          "Family Communication Inventory Questionnaire"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Frequency scale"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c level",
+        "duration of diabetes",
+        "insulin regimen",
+        "use of CGM",
+        "use of Fitbit",
+        "use of Companion Medical inPen",
+        "medication stability",
+        "English proficiency",
+        "mental status",
+        "internet access",
+        "pregnancy status",
+        "history of diabetic ketoacidosis",
+        "alcohol or drug abuse history",
+        "psychiatric history",
+        "skin condition",
+        "use of acetaminophen",
+        "use of long-acting insulin",
+        "use of closed-loop insulin pump",
+        "comorbidities",
+        "history of severe hypoglycemia",
+        "use of devices with electromagnetic compatibility issues",
+        "active enrollment in another clinical trial."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, HbA1c, Duration of Diabetes, Insulin Regimen, Use of Continuous Glucose Monitor (CGM), Use of Insulin Pump, Daily Insulin Dose, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Frequency of Hypoglycemic Events, Frequency of Diabetic Ketoacidosis Events,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Family Communication Inventory",
+          "Family Communication Inventory Questionnaire"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Frequency scale"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c",
+        "Duration of Diabetes",
+        "Insulin Regimen",
+        "Use of Insulin Pump",
+        "Daily Insulin Dose",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Frequency of Hypoglycemic Events",
+        "Frequency of Diabetic Ketoacidosis Events"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, BMI, Insulin Dose, Parent/Guardian Participation, Family Communication Inventory Questionnaire.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Family Communication Inventory",
+          "Family Communication Inventory Questionnaire"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Frequency scale"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diabetes Diagnosis Duration",
+        "HbA1c",
+        "BMI",
+        "Insulin Dose",
+        "Parent/Guardian Participation"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, duration of type 1 diabetes, HbA1c, insulin regimen, BMI, parental education level, family structure, adolescent's cognitive ability, English proficiency.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Family Communication Inventory",
+          "Family Communication Inventory Questionnaire"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Frequency scale"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 1 diabetes",
+        "HbA1c",
+        "insulin regimen",
+        "BMI",
+        "parental education level",
+        "family structure",
+        "adolescent's cognitive ability",
+        "English proficiency."
+      ]
+    }
+  }
+}

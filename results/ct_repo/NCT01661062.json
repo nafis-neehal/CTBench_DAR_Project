@@ -1,0 +1,151 @@
+{
+  "trial_id": "NCT01661062",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, diagnosis of squamous cell carcinoma, treatment recommendation (definitive radiation therapy with concurrent chemotherapy), prior surgical resection status, treatment course duration (at least 30 radiation fractions), informed consent status, history of prior radiation to the head or neck.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Disease Site",
+          "diagnosis of squamous cell carcinoma"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "T Stage",
+        "N Stage",
+        "Pre-Treatment Weight"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "treatment recommendation (definitive radiation therapy with concurrent chemotherapy)",
+        "prior surgical resection status",
+        "treatment course duration (at least 30 radiation fractions)",
+        "informed consent status",
+        "history of prior radiation to the head or neck."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Tumor Stage, Tumor Location, Smoking Status, Alcohol Use, Baseline Salivary Flow Rate, Baseline Swallowing Function, Quality of Life Scores,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Disease Site",
+          "Tumor Location"
+        ]
+      ],
+      "remaining_reference_features": [
+        "T Stage",
+        "N Stage",
+        "Pre-Treatment Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Tumor Stage",
+        "Smoking Status",
+        "Alcohol Use",
+        "Baseline Salivary Flow Rate",
+        "Baseline Swallowing Function",
+        "Quality of Life Scores"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Tumor stage, Tumor location, Radiation treatment plan, Prior chemotherapy, Prior surgical resection, Salivary flow rate, Quality of life score",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Disease Site",
+          "Tumor location"
+        ]
+      ],
+      "remaining_reference_features": [
+        "T Stage",
+        "N Stage",
+        "Pre-Treatment Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Tumor stage",
+        "Radiation treatment plan",
+        "Prior chemotherapy",
+        "Prior surgical resection",
+        "Salivary flow rate",
+        "Quality of life score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, weight, height, body mass index (BMI), Karnofsky performance status, tumor stage, tumor location, prior chemotherapy, prior surgical resection, radiation therapy dose and fractionation, salivary flow rate at baseline, quality of life scores at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Disease Site",
+          "tumor location"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "T Stage",
+        "N Stage",
+        "Pre-Treatment Weight"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "Karnofsky performance status",
+        "tumor stage",
+        "prior chemotherapy",
+        "prior surgical resection",
+        "radiation therapy dose and fractionation",
+        "salivary flow rate at baseline",
+        "quality of life scores at baseline."
+      ]
+    }
+  }
+}

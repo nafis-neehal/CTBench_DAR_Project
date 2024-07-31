@@ -1,0 +1,165 @@
+{
+  "trial_id": "NCT03152591",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, weight, height, waist circumference, fasting glucose levels, fasting insulin levels, lipid profile, blood pressure, menstrual history, hirsutism score, androgen levels, ethnicity, smoking status, alcohol consumption, physical activity level, dietary habits, medical history, medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "menstrual history"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Average fasting free testosterone",
+          "androgen levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Average fasting total testosterone",
+        "Sex hormone binding globulin (SHBG)",
+        "Free androgen Index"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "weight",
+        "height",
+        "waist circumference",
+        "fasting glucose levels",
+        "fasting insulin levels",
+        "lipid profile",
+        "blood pressure",
+        "hirsutism score",
+        "smoking status",
+        "alcohol consumption",
+        "physical activity level",
+        "dietary habits",
+        "medical history",
+        "medication use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Weight Stability, Baseline Fasting Free Testosterone, Contraception Method,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Average fasting free testosterone",
+          "Baseline Fasting Free Testosterone"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Average fasting total testosterone",
+        "Sex hormone binding globulin (SHBG)",
+        "Free androgen Index"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Weight Stability",
+        "Contraception Method"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, BMI, Race/Ethnicity, Customized, Region of Enrollment, PCOS diagnosis duration, Hirsutism score, Menstrual cycle regularity, Fasting glucose, Fasting insulin, Lipid profile, Waist circumference, Hip circumference, Waist-to-hip ratio,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Average fasting total testosterone",
+        "Average fasting free testosterone",
+        "Sex hormone binding globulin (SHBG)",
+        "Free androgen Index"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Region of Enrollment",
+        "PCOS diagnosis duration",
+        "Hirsutism score",
+        "Menstrual cycle regularity",
+        "Fasting glucose",
+        "Fasting insulin",
+        "Lipid profile",
+        "Waist circumference",
+        "Hip circumference",
+        "Waist-to-hip ratio"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, body mass index (BMI), weight, height, waist circumference, hip circumference, body fat percentage, systolic blood pressure, diastolic blood pressure, heart rate, menstrual cycle regularity, hirsutism score, fasting glucose, fasting insulin, lipid profile, testosterone levels, contraceptive use, medical history, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Average fasting free testosterone",
+          "testosterone levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Average fasting total testosterone",
+        "Sex hormone binding globulin (SHBG)",
+        "Free androgen Index"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "weight",
+        "height",
+        "waist circumference",
+        "hip circumference",
+        "body fat percentage",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "menstrual cycle regularity",
+        "hirsutism score",
+        "fasting glucose",
+        "fasting insulin",
+        "lipid profile",
+        "contraceptive use",
+        "medical history",
+        "concomitant medications"
+      ]
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "trial_id": "NCT01923363",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Weight, Gender, Central line access, Language (English or Spanish), Hepatic function, Seizure history, Hematologic history, Pregnancy status, Allergy history to beta-lactams or tazobactam.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Total Bilirubin",
+        "ICU Status",
+        "Acute Physiologic Assessment and Chronic Health Evaluation (APACHE) II Score",
+        "Sequential Organ Failure Assessment (SOFA) Score"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Central line access",
+        "Language (English or Spanish)",
+        "Hepatic function",
+        "Seizure history",
+        "Hematologic history",
+        "Pregnancy status",
+        "Allergy history to beta-lactams or tazobactam."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Weight, Hepatic Function (Child-Pugh Classification), Seizure Disorder History, Hematologic Disorder History, Pregnancy Status, Allergy or Contraindication to Beta-lactams or Tazobactam, Central Line Access,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Total Bilirubin",
+        "ICU Status",
+        "Acute Physiologic Assessment and Chronic Health Evaluation (APACHE) II Score",
+        "Sequential Organ Failure Assessment (SOFA) Score"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Hepatic Function (Child-Pugh Classification)",
+        "Seizure Disorder History",
+        "Hematologic Disorder History",
+        "Pregnancy Status",
+        "Allergy or Contraindication to Beta-lactams or Tazobactam",
+        "Central Line Access"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Weight, Region of Enrollment, Language, Central Line Access, Hepatic Impairment, Seizure Disorder, Hematologic Disorder, Pregnancy, Allergy to Beta-lactams or Tazobactam.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Total Bilirubin",
+        "ICU Status",
+        "Acute Physiologic Assessment and Chronic Health Evaluation (APACHE) II Score",
+        "Sequential Organ Failure Assessment (SOFA) Score"
+      ],
+      "remaining_candidate_features": [
+        "Language",
+        "Central Line Access",
+        "Hepatic Impairment",
+        "Seizure Disorder",
+        "Hematologic Disorder",
+        "Pregnancy",
+        "Allergy to Beta-lactams or Tazobactam."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, BMI, height, ethnicity, language, presence of central line access, presence of suspected or confirmed infection(s), medical history (hepatic impairment, seizure disorder, hematologic disorder), pregnancy status, allergy status to beta-lactams or tazobactam.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Total Bilirubin",
+        "ICU Status",
+        "Acute Physiologic Assessment and Chronic Health Evaluation (APACHE) II Score",
+        "Sequential Organ Failure Assessment (SOFA) Score"
+      ],
+      "remaining_candidate_features": [
+        "height",
+        "ethnicity",
+        "language",
+        "presence of central line access",
+        "presence of suspected or confirmed infection(s)",
+        "medical history (hepatic impairment, seizure disorder, hematologic disorder)",
+        "pregnancy status",
+        "allergy status to beta-lactams or tazobactam."
+      ]
+    }
+  }
+}

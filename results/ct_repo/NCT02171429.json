@@ -1,0 +1,255 @@
+{
+  "trial_id": "NCT02171429",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline Mayo Clinic Score (MCS), duration of ulcerative colitis, prior corticosteroid use, prior immunosuppressant use, baseline hemoglobin levels, baseline platelet count, baseline absolute neutrophil count, baseline absolute lymphocyte count, baseline serum creatinine, baseline ALT levels, baseline AST levels, baseline alkaline phosphatase levels, baseline total bilirubin levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Mayo Clinic Score (MCS) \u22649 or \u226510 at Baseline",
+          "baseline Mayo Clinic Score (MCS)"
+        ],
+        [
+          "Baseline Treatment: None",
+          "prior corticosteroid use"
+        ],
+        [
+          "Corticosteroids (CS) or Immunosuppressants (IS) Alone",
+          "prior immunosuppressant use"
+        ],
+        [
+          "Hemoglobin <8 g/dL",
+          "baseline hemoglobin levels"
+        ],
+        [
+          "Platelet count <100,000/uL",
+          "baseline platelet count"
+        ],
+        [
+          "Absolute neutrophil count <1500/uL",
+          "baseline absolute neutrophil count"
+        ],
+        [
+          "Absolute lymphocyte count <500/uL",
+          "baseline absolute lymphocyte count"
+        ],
+        [
+          "Serum creatinine >2 x upper limit of normal (ULN)",
+          "baseline serum creatinine"
+        ],
+        [
+          "ALT or AST >3 x ULN",
+          "baseline ALT levels"
+        ],
+        [
+          "ALT or AST >3 x ULN",
+          "baseline AST levels"
+        ],
+        [
+          "Alkaline phosphatase >3 x ULN",
+          "baseline alkaline phosphatase levels"
+        ],
+        [
+          "Total bilirubin >2.5 x ULN",
+          "baseline total bilirubin levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Disease Location",
+        "Nancy Histological Index (NHI) Score of \u22641 or >1",
+        "or Missing",
+        "at Baseline"
+      ],
+      "remaining_candidate_features": [
+        "duration of ulcerative colitis"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Ulcerative Colitis, Baseline Mayo Clinic Score (MCS), Prior corticosteroid use, Prior immunosuppressant use, Concomitant UC therapy, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Platelet count, Serum creatinine, ALT, AST, Alkaline phosphatase, Total bilirubin,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Mayo Clinic Score (MCS) \u22649 or \u226510 at Baseline",
+          "Baseline Mayo Clinic Score (MCS)"
+        ],
+        [
+          "Corticosteroids (CS) or Immunosuppressants (IS) Alone",
+          "Prior corticosteroid use"
+        ],
+        [
+          "or Both CS and IS",
+          "Prior immunosuppressant use"
+        ],
+        [
+          "Platelet count <100,000/uL",
+          "Platelet count"
+        ],
+        [
+          "Serum creatinine >2 x upper limit of normal (ULN)",
+          "Serum creatinine"
+        ],
+        [
+          "ALT or AST >3 x ULN or alkaline phosphatase >3 x ULN or total bilirubin >2.5 x ULN",
+          "ALT"
+        ],
+        [
+          "ALT or AST >3 x ULN or alkaline phosphatase >3 x ULN or total bilirubin >2.5 x ULN",
+          "AST"
+        ],
+        [
+          "ALT or AST >3 x ULN or alkaline phosphatase >3 x ULN or total bilirubin >2.5 x ULN",
+          "Alkaline phosphatase"
+        ],
+        [
+          "ALT or AST >3 x ULN or alkaline phosphatase >3 x ULN or total bilirubin >2.5 x ULN",
+          "Total bilirubin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Disease Location",
+        "Baseline Treatment: None",
+        "Nancy Histological Index (NHI) Score of \u22641 or >1",
+        "or Missing",
+        "at Baseline"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Duration of Ulcerative Colitis",
+        "Concomitant UC therapy",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hemoglobin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Ulcerative Colitis Duration, Prior Corticosteroid Use, Prior Immunomodulator Use, Prior Aminosalicylate Use, MCS at Baseline, Endoscopic Index at Baseline, C-Reactive Protein at Baseline, Fecal Calprotectin at Baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Mayo Clinic Score (MCS) \u22649 or \u226510 at Baseline",
+          "MCS at Baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Disease Location",
+        "Baseline Treatment: None",
+        "Corticosteroids (CS) or Immunosuppressants (IS) Alone",
+        "or Both CS and IS",
+        "Nancy Histological Index (NHI) Score of \u22641 or >1",
+        "or Missing",
+        "at Baseline"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Ulcerative Colitis Duration",
+        "Prior Corticosteroid Use",
+        "Prior Immunomodulator Use",
+        "Prior Aminosalicylate Use",
+        "Endoscopic Index at Baseline",
+        "C-Reactive Protein at Baseline",
+        "Fecal Calprotectin at Baseline"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), smoking status, duration of ulcerative colitis, Mayo Clinic Score (MCS) at baseline, prior corticosteroid and/or immunosuppressant treatment, concomitant medications, colonoscopy findings, laboratory values (e.g., complete blood count, liver function tests, renal function tests).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Mayo Clinic Score (MCS) \u22649 or \u226510 at Baseline",
+          "Mayo Clinic Score (MCS) at baseline"
+        ],
+        [
+          "Baseline Treatment: None",
+          "prior corticosteroid and/or immunosuppressant treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Disease Location",
+        "Corticosteroids (CS) or Immunosuppressants (IS) Alone",
+        "or Both CS and IS",
+        "Nancy Histological Index (NHI) Score of \u22641 or >1",
+        "or Missing",
+        "at Baseline"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "smoking status",
+        "duration of ulcerative colitis",
+        "concomitant medications",
+        "colonoscopy findings",
+        "laboratory values (e.g., complete blood count, liver function tests, renal function tests)"
+      ]
+    }
+  }
+}

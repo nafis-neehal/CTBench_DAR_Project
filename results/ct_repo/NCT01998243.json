@@ -1,0 +1,230 @@
+{
+  "trial_id": "NCT01998243",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Comorbidities, Previous Medical Treatments, Type of Bariatric Surgery (Sleeve Resection or Gastric Bypass), Weight Loss Percentage, Hospital Stay Duration, Complication Rates, Medication Use, Smoking Status, Alcohol Use, Psychiatric History, Previous Surgical History, Adherence to Treatment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Starting body mass index (starting BMI)",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Starting body mass index (starting BMI) > 50 (\"kg/m^2\")",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Weight before surgery (Kg)",
+          "Weight Loss Percentage"
+        ],
+        [
+          "Surgery (sleeve resection (LSG)or gastric bypass (LGBP)",
+          "Type of Bariatric Surgery (Sleeve Resection or Gastric Bypass)"
+        ],
+        [
+          "Total weight loss (TWL)",
+          "Weight Loss Percentage"
+        ],
+        [
+          "Postsurgical Morbidity on Both Arms of the Study",
+          "Complication Rates"
+        ],
+        [
+          "Hospital Stay Duration",
+          "Hospital Stay Duration"
+        ],
+        [
+          "Psychiatric diseases (depression, bulimia etc)",
+          "Psychiatric History"
+        ],
+        [
+          "Past history of gastric surgery ,antireflux surgery or any other type of bariatric surgery",
+          "Previous Surgical History"
+        ],
+        [
+          "Slight adherence to previous medical treatments",
+          "Adherence to Treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Americam Society of Anestesiologist Physical Status Classification System (ASA) ; ASA score III;",
+        "Starting weight (kg)",
+        "Excess weight loss (EWL) before surgery",
+        "Excess Body Mass Index Loss (EBMIL) before surgery (excess BMI loss)",
+        "Percentage of Failure of Intragastric Balloon",
+        "Operation time (hours)",
+        "ICU (hours) intensive care unit"
+      ],
+      "remaining_candidate_features": [
+        "Comorbidities",
+        "Previous Medical Treatments",
+        "Medication Use",
+        "Smoking Status",
+        "Alcohol Use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Comorbidities, Previous weight loss attempts, Type of bariatric surgery, Baseline weight, Baseline BMI, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Starting weight (kg)",
+          "Baseline weight"
+        ],
+        [
+          "Starting body mass index (starting BMI)",
+          "Baseline BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Americam Society of Anestesiologist Physical Status Classification System (ASA) ; ASA score III;",
+        "Starting body mass index (starting BMI) > 50 (\"kg/m^2\")",
+        "Total weight loss (TWL)",
+        "Weight before surgery (Kg)",
+        "BMI before surgery(\"kg/m^2\")",
+        "Excess weight loss (EWL) before surgery",
+        "Excess Body Mass Index Loss (EBMIL) before surgery (excess BMI loss)",
+        "Surgery (sleeve resection (LSG)or gastric bypass (LGBP), total body weight loss (TBWL) > 10%, Percentage of Failure of Intragastric Balloon, Operation time (hours), ICU (hours) intensive care unit"
+      ],
+      "remaining_candidate_features": [
+        "Comorbidities",
+        "Previous weight loss attempts",
+        "Type of bariatric surgery"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Comorbidities, Previous weight loss attempts, Duration of obesity, Waist circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting glucose, Lipid profile, Liver function tests.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Americam Society of Anestesiologist Physical Status Classification System (ASA); ASA score III;",
+        "Starting weight (kg)",
+        "Starting body mass index (starting BMI)",
+        "Starting body mass index (starting BMI) > 50 (\"kg/m^2\")",
+        "Total weight loss (TWL)",
+        "Weight before surgery (Kg)",
+        "BMI before surgery(\"kg/m^2\")",
+        "Excess weight loss (EWL) before surgery",
+        "Excess Body Mass Index Loss (EBMIL) before surgery (excess BMI loss)",
+        "Surgery (sleeve resection (LSG)or gastric bypass (LGBP), total body weight loss (TBWL) > 10%, Percentage of Failure of Intragastric Balloon, Operation time (hours), ICU (hours) intensive care unit"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Comorbidities",
+        "Previous weight loss attempts",
+        "Duration of obesity",
+        "Waist circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting glucose",
+        "Lipid profile",
+        "Liver function tests."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, comorbidities, type of bariatric surgery, history of conventional medical treatment, history of psychiatric diseases, history of gastric or duodenal ulcer disease, history of esophagitis, history of inflammatory bowel diseases, history of gastric surgery, history of antireflux surgery, history of bariatric surgery, smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Starting body mass index (starting BMI)",
+          "BMI"
+        ],
+        [
+          "Starting weight (kg)",
+          "weight"
+        ],
+        [
+          "Surgery (sleeve resection (LSG)or gastric bypass (LGBP)",
+          "type of bariatric surgery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Americam Society of Anestesiologist Physical Status Classification System (ASA) ; ASA score III",
+        "Starting body mass index (starting BMI) > 50 (\"kg/m^2\")",
+        "Total weight loss (TWL)",
+        "Weight before surgery (Kg)",
+        "BMI before surgery(\"kg/m^2\")",
+        "Excess weight loss (EWL) before surgery",
+        "Excess Body Mass Index Loss (EBMIL) before surgery (excess BMI loss)",
+        "total body weight loss (TBWL) > 10%",
+        "Percentage of Failure of Intragastric Balloon",
+        "Operation time (hours)",
+        "ICU (hours) intensive care unit"
+      ],
+      "remaining_candidate_features": [
+        "height",
+        "comorbidities",
+        "history of conventional medical treatment",
+        "history of psychiatric diseases",
+        "history of gastric or duodenal ulcer disease",
+        "history of esophagitis",
+        "history of inflammatory bowel diseases",
+        "history of gastric surgery",
+        "history of antireflux surgery",
+        "history of bariatric surgery",
+        "smoking status",
+        "alcohol consumption"
+      ]
+    }
+  }
+}

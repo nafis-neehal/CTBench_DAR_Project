@@ -1,0 +1,184 @@
+{
+  "trial_id": "NCT00126737",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, diagnosis of osteoarthritis, knee radiograph grade, functional class, body mass index (BMI)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Kellgren-Lawrence Classification",
+          "knee radiograph grade"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Duration of OA",
+        "Coexisting Disease",
+        "WOMAC Function",
+        "WOMAC Stiffness",
+        "WOMAC Pain",
+        "WIQ Total Score",
+        "SF-36 Physical Composite Score",
+        "6 Minute Walk",
+        "3-Minute Walk Stair Climb And Descend"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "diagnosis of osteoarthritis",
+        "functional class"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, BMI, Kellgren and Lawrence grade, American Arthritis Association functional class, Baseline pain score, Duration of osteoarthritis, Comorbid conditions, Medication use, Physical activity level, Knee range of motion, Weight, Height, Waist circumference, Hip circumference, Blood pressure, Cholesterol levels, Glucose levels, Smoking status, Alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Duration of OA",
+          "Duration of osteoarthritis"
+        ],
+        [
+          "Kellgren-Lawrence Classification",
+          "Kellgren and Lawrence grade"
+        ],
+        [
+          "Coexisting Disease",
+          "Comorbid conditions"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "WOMAC Function",
+        "WOMAC Stiffness",
+        "WOMAC Pain",
+        "WIQ Total Score",
+        "SF-36 Physical Composite Score",
+        "6 Minute Walk",
+        "3-Minute Walk Stair Climb And Descend"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "American Arthritis Association functional class",
+        "Baseline pain score",
+        "Medication use",
+        "Physical activity level",
+        "Knee range of motion",
+        "Weight",
+        "Height",
+        "Waist circumference",
+        "Hip circumference",
+        "Blood pressure",
+        "Cholesterol levels",
+        "Glucose levels",
+        "Smoking status",
+        "Alcohol consumption"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, BMI, Knee radiographs of Kellgren and Lawrence grade, American Arthritis Association functional class, Body mass index, WOMAC Function, Physical Scale SF-36v, Mental Scale SF-36v, Pain intensity, Duration of osteoarthritis, Comorbidities, Medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Kellgren-Lawrence Classification",
+          "Knee radiographs of Kellgren and Lawrence grade"
+        ],
+        [
+          "BMI",
+          "Body mass index"
+        ],
+        [
+          "WOMAC Function",
+          "WOMAC Function"
+        ],
+        [
+          "SF-36 Physical Composite Score",
+          "Physical Scale SF-36v"
+        ],
+        [
+          "Duration of OA",
+          "Duration of osteoarthritis"
+        ],
+        [
+          "Coexisting Disease",
+          "Comorbidities"
+        ]
+      ],
+      "remaining_reference_features": [
+        "WOMAC Stiffness",
+        "WOMAC Pain",
+        "WIQ Total Score",
+        "6 Minute Walk",
+        "3-Minute Walk Stair Climb And Descend"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "American Arthritis Association functional class",
+        "Mental Scale SF-36v",
+        "Pain intensity",
+        "Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index, American Arthritis Association functional class, Kellgren and Lawrence grade, duration of osteoarthritis, pain severity at baseline, WOMAC Function, Physical Scale SF-36v, Mental Scale SF-36v.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Kellgren-Lawrence Classification",
+          "Kellgren and Lawrence grade"
+        ],
+        [
+          "BMI",
+          "body mass index"
+        ],
+        [
+          "WOMAC Function",
+          "WOMAC Function"
+        ],
+        [
+          "SF-36 Physical Composite Score",
+          "Physical Scale SF-36v"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Duration of OA",
+        "Coexisting Disease",
+        "WOMAC Stiffness",
+        "WOMAC Pain",
+        "WIQ Total Score",
+        "6 Minute Walk",
+        "3-Minute Walk Stair Climb And Descend"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "American Arthritis Association functional class",
+        "duration of osteoarthritis",
+        "pain severity at baseline",
+        "Mental Scale SF-36v."
+      ]
+    }
+  }
+}

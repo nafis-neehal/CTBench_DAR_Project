@@ -1,0 +1,159 @@
+{
+  "trial_id": "NCT03479697",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, systolic blood pressure, diastolic blood pressure, body weight, cardiovascular risk score, history of cardiovascular disease, medication use, seizure disorder status, pregnancy status, hearing impairment status, substance use (recreational drugs, alcohol, energy drinks), thyroid medication use, participation in other research studies, prior use of brainwave optimization or HIRREM.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "body weight",
+        "cardiovascular risk score",
+        "history of cardiovascular disease",
+        "medication use",
+        "seizure disorder status",
+        "pregnancy status",
+        "hearing impairment status",
+        "substance use (recreational drugs, alcohol, energy drinks)",
+        "thyroid medication use",
+        "participation in other research studies",
+        "prior use of brainwave optimization or HIRREM"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Cardiovascular Risk Score, Use of Hypertension Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Cardiovascular Risk Score",
+        "Use of Hypertension Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Systolic Blood Pressure, Diastolic Blood Pressure, Cardiovascular Risk Score, Body Mass Index, History of Cardiovascular Disease, History of Hypertension Treatment, Antihypertensive Medication Use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Cardiovascular Risk Score",
+        "Body Mass Index",
+        "History of Cardiovascular Disease",
+        "History of Hypertension Treatment",
+        "Antihypertensive Medication Use."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), weight, systolic BP, diastolic BP, cardiovascular risk score, history of atherosclerotic cardiovascular disease, history of hypertension, use of antihypertensive medications, history of seizure disorder, history of thyroid disease, use of thyroid medications, history of recreational drug use, history of alcohol use, history of energy drink use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "weight",
+        "systolic BP",
+        "diastolic BP",
+        "cardiovascular risk score",
+        "history of atherosclerotic cardiovascular disease",
+        "history of hypertension",
+        "use of antihypertensive medications",
+        "history of seizure disorder",
+        "history of thyroid disease",
+        "use of thyroid medications",
+        "history of recreational drug use",
+        "history of alcohol use",
+        "history of energy drink use"
+      ]
+    }
+  }
+}

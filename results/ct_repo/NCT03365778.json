@@ -1,0 +1,158 @@
+{
+  "trial_id": "NCT03365778",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type of glaucoma (high-risk ocular hypertension, primary open-angle glaucoma, pseudo-exfoliation glaucoma), current glaucoma treatment (number and type of eye drops), baseline intraocular pressure, previous ocular surgeries, duration of glaucoma diagnosis, baseline visual acuity, baseline optic nerve status, baseline visual field status, educational level, understanding of glaucoma and its treatments.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Type of Ophthalmologist",
+          "type of glaucoma (high-risk ocular hypertension, primary open-angle glaucoma, pseudo-exfoliation glaucoma)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "current glaucoma treatment (number and type of eye drops)",
+        "baseline intraocular pressure",
+        "previous ocular surgeries",
+        "duration of glaucoma diagnosis",
+        "baseline visual acuity",
+        "baseline optic nerve status",
+        "baseline visual field status",
+        "educational level",
+        "understanding of glaucoma and its treatments."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Glaucoma, Number of Glaucoma Medications, Intraocular Pressure, Duration of Glaucoma,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Type of Ophthalmologist"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Type of Glaucoma",
+        "Number of Glaucoma Medications",
+        "Intraocular Pressure",
+        "Duration of Glaucoma"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Glaucoma diagnosis, Intraocular pressure, Number of glaucoma medications, Visual field mean deviation, Best-corrected visual acuity.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Type of Ophthalmologist"
+      ],
+      "remaining_candidate_features": [
+        "Glaucoma diagnosis",
+        "Intraocular pressure",
+        "Number of glaucoma medications",
+        "Visual field mean deviation",
+        "Best-corrected visual acuity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, marital status, employment status, medical history (including high-risk ocular hypertension, primary open-angle glaucoma, or pseudo-exfoliation glaucoma), current medications (including glaucoma eye drops), intraocular pressure, visual acuity, number of previous eye surgeries, duration of glaucoma diagnosis, number of glaucoma medications used, prior knowledge of SLT.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Type of Ophthalmologist"
+      ],
+      "remaining_candidate_features": [
+        "education level",
+        "marital status",
+        "employment status",
+        "medical history (including high-risk ocular hypertension, primary open-angle glaucoma, or pseudo-exfoliation glaucoma)",
+        "current medications (including glaucoma eye drops)",
+        "intraocular pressure",
+        "visual acuity",
+        "number of previous eye surgeries",
+        "duration of glaucoma diagnosis",
+        "number of glaucoma medications used",
+        "prior knowledge of SLT."
+      ]
+    }
+  }
+}

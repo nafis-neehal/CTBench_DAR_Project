@@ -1,0 +1,189 @@
+{
+  "trial_id": "NCT02946034",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, HCV genotype, estimated glomerular filtration rate (eGFR), presence of chronic kidney disease, presence of chronic hepatitis C, baseline urine TNF-alpha levels, baseline urine IL-6 levels, baseline plasma TNF-alpha levels, baseline plasma IP-10 levels, baseline plasma IFN-gamma levels, baseline plasma IL-6 levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Hepatitis C genotype",
+          "HCV genotype"
+        ],
+        [
+          "Baseline estimated glomerular filtration rate (eGFR)",
+          "estimated glomerular filtration rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Hypertension",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "presence of chronic kidney disease",
+        "presence of chronic hepatitis C",
+        "baseline urine TNF-alpha levels",
+        "baseline urine IL-6 levels",
+        "baseline plasma TNF-alpha levels",
+        "baseline plasma IP-10 levels",
+        "baseline plasma IFN-gamma levels",
+        "baseline plasma IL-6 levels."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, HCV Genotype, Estimated Glomerular Filtration Rate (eGFR), Baseline Urine Tumor Necrosis Factor (TNF)-Alpha, Baseline Urine Interleukin (IL)-6, Baseline Plasma Tumor Necrosis Factor (TNF)-Alpha, Baseline Plasma Interferon Gamma-induced Protein 10 (IP-10), Baseline Plasma Interferon (IFN)-Gamma, Baseline Plasma Interleukin (IL)-6,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Hepatitis C genotype",
+          "HCV Genotype"
+        ],
+        [
+          "Baseline estimated glomerular filtration rate (eGFR)",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Hypertension",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Baseline Urine Tumor Necrosis Factor (TNF)-Alpha",
+        "Baseline Urine Interleukin (IL)-6",
+        "Baseline Plasma Tumor Necrosis Factor (TNF)-Alpha",
+        "Baseline Plasma Interferon Gamma-induced Protein 10 (IP-10)",
+        "Baseline Plasma Interferon (IFN)-Gamma",
+        "Baseline Plasma Interleukin (IL)-6"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Race/Ethnicity, Customized, Region of Enrollment, Estimated glomerular filtration rate, Hepatitis C virus genotype, Hepatitis C virus RNA level, Chronic kidney disease stage, History of kidney transplant, History of cancer, History of cardiovascular disease, History of pulmonary disease, History of depression or psychiatric disease,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Hepatitis C genotype",
+          "Hepatitis C virus genotype"
+        ],
+        [
+          "Baseline estimated glomerular filtration rate (eGFR)",
+          "Estimated glomerular filtration rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Hypertension",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Hepatitis C virus RNA level",
+        "Chronic kidney disease stage",
+        "History of kidney transplant",
+        "History of cancer",
+        "History of cardiovascular disease",
+        "History of pulmonary disease",
+        "History of depression or psychiatric disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, estimated glomerular filtration rate, HCV genotype, HCV RNA level, presence of diabetes, presence of hypertension, history of cardiovascular disease, history of pulmonary disease, history of cancer, history of kidney transplant, presence of depression or psychiatric disease, presence of cryoglobulinemic vasculitis, use of rituximab, steroids or plasmapheresis, presence of uremia, need for renal replacement therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Hepatitis C genotype",
+          "HCV genotype"
+        ],
+        [
+          "Baseline estimated glomerular filtration rate (eGFR)",
+          "estimated glomerular filtration rate"
+        ],
+        [
+          "Hypertension",
+          "presence of hypertension"
+        ],
+        [
+          "Diabetes",
+          "presence of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "body mass index",
+        "HCV RNA level",
+        "history of cardiovascular disease",
+        "history of pulmonary disease",
+        "history of cancer",
+        "history of kidney transplant",
+        "presence of depression or psychiatric disease",
+        "presence of cryoglobulinemic vasculitis",
+        "use of rituximab",
+        "steroids or plasmapheresis",
+        "presence of uremia",
+        "need for renal replacement therapy"
+      ]
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "trial_id": "NCT02087774",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, baseline physical fitness level, baseline heart rate, baseline 75-foot laps completed in 2 minutes, parental consent status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "75 foot laps completed",
+          "baseline 75-foot laps completed in 2 minutes"
+        ],
+        [
+          "After exercise- heart rate",
+          "baseline heart rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Grade level"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "baseline physical fitness level",
+        "parental consent status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline physical fitness level, Baseline heart rate,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "75 foot laps completed",
+          "Baseline physical fitness level"
+        ],
+        [
+          "After exercise- heart rate",
+          "Baseline heart rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment",
+        "Grade level"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Grade Level, Body Mass Index, Baseline 75 Foot Laps Completed in 2 Minutes, Baseline After-Exercise Heart Rate",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Grade level",
+          "Grade Level"
+        ],
+        [
+          "75 foot laps completed",
+          "Baseline 75 Foot Laps Completed in 2 Minutes"
+        ],
+        [
+          "After exercise- heart rate",
+          "Baseline After-Exercise Heart Rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, grade level, body mass index (BMI), height, weight, ethnicity, parental education level, household income, physical activity level at baseline, 75 foot laps completed in 2 minutes at baseline, after-exercise heart rate at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Grade level",
+          "grade level"
+        ],
+        [
+          "75 foot laps completed",
+          "75 foot laps completed in 2 minutes at baseline"
+        ],
+        [
+          "After exercise- heart rate",
+          "after-exercise heart rate at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "height",
+        "weight",
+        "ethnicity",
+        "parental education level",
+        "household income",
+        "physical activity level at baseline"
+      ]
+    }
+  }
+}

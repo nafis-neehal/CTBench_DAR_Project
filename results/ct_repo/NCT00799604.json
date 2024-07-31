@@ -1,0 +1,184 @@
+{
+  "trial_id": "NCT00799604",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline systolic blood pressure (SBP), history of hypertension, type of cardiac surgery, use of cardiopulmonary bypass, pre-anesthesia baseline SBP, presence of comorbid conditions, prior antihypertensive therapy, body mass index (BMI), renal function, liver function, heart rate, and smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Screening Blood Pressure",
+          "baseline systolic blood pressure (SBP)"
+        ],
+        [
+          "Screening Heart Rate",
+          "heart rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "history of hypertension",
+        "type of cardiac surgery",
+        "use of cardiopulmonary bypass",
+        "pre-anesthesia baseline SBP",
+        "presence of comorbid conditions",
+        "prior antihypertensive therapy",
+        "body mass index (BMI)",
+        "renal function",
+        "liver function",
+        "smoking status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of Hypertension, Baseline Systolic Blood Pressure, Type of Cardiac Surgery, Use of Cardiopulmonary Bypass, Pre-anesthesia Baseline SBP,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Screening Blood Pressure",
+          "Baseline Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height",
+        "Weight",
+        "Screening Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "History of Hypertension",
+        "Type of Cardiac Surgery",
+        "Use of Cardiopulmonary Bypass",
+        "Pre-anesthesia Baseline SBP"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Cardiac Surgery Type, Pre-anesthesia Baseline SBP.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Pre-anesthesia Baseline SBP"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height",
+        "Weight",
+        "Screening Blood Pressure",
+        "Screening Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Diastolic Blood Pressure",
+        "History of Hypertension",
+        "Cardiac Surgery Type"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, weight, height, body mass index (BMI), history of hypertension, history of cardiac surgery, pre-anesthesia baseline systolic blood pressure (SBP), pre-anesthesia baseline diastolic blood pressure (DBP), heart rate, left ventricular ejection fraction (LVEF), cardiac rhythm, use of beta blockers, use of angiotensin-converting enzyme (ACE) inhibitors, use of angiotensin receptor blockers (ARBs), use of calcium channel blockers, use of diuretics, use of other antihypertensive medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Screening Blood Pressure",
+          "pre-anesthesia baseline systolic blood pressure (SBP)"
+        ],
+        [
+          "Screening Heart Rate",
+          "heart rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "history of hypertension",
+        "history of cardiac surgery",
+        "pre-anesthesia baseline diastolic blood pressure (DBP)",
+        "left ventricular ejection fraction (LVEF)",
+        "cardiac rhythm",
+        "use of beta blockers",
+        "use of angiotensin-converting enzyme (ACE) inhibitors",
+        "use of angiotensin receptor blockers (ARBs)",
+        "use of calcium channel blockers",
+        "use of diuretics",
+        "use of other antihypertensive medications."
+      ]
+    }
+  }
+}

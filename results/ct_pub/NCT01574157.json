@@ -1,0 +1,235 @@
+{
+  "trial_id": "NCT01574157",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body weight, Serum bicarbonate level, Estimated glomerular filtration rate (eGFR), Urinary albumin:creatinine ratio, Serum potassium level, Systolic blood pressure, Diastolic blood pressure, Diabetes mellitus status, Stage of chronic kidney disease (CKD), Use of antihypertensive agents, History of congestive heart failure, Fluid overload status, Chronic gastrointestinal disorder status, Chronic immunosuppressive therapy status, Participation in other interventional research studies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Systolic BP",
+          "Systolic blood pressure"
+        ],
+        [
+          "eGFR",
+          "Estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Urinary ACR",
+          "Urinary albumin:creatinine ratio"
+        ],
+        [
+          "Serum total CO2",
+          "Serum bicarbonate level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "White",
+        "Hispanic",
+        "Coronary artery disease",
+        "Hypertension",
+        "Body mass index",
+        "Protein intake",
+        "Metformin use",
+        "Gabapentin use",
+        "Insulin use",
+        "Medication acid load",
+        "Total CO2 \u226423 mEq/L",
+        "Serum anion gap",
+        "Serum lactate",
+        "Urinary NH4+",
+        "Urinary TA",
+        "Urine pH"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Body weight",
+        "Serum potassium level",
+        "Diastolic blood pressure",
+        "Diabetes mellitus status",
+        "Stage of chronic kidney disease (CKD)",
+        "Use of antihypertensive agents",
+        "History of congestive heart failure",
+        "Fluid overload status",
+        "Chronic gastrointestinal disorder status",
+        "Chronic immunosuppressive therapy status",
+        "Participation in other interventional research studies."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, BMI, Diabetes duration, Serum bicarbonate, eGFR, Urinary albumin:creatinine ratio, Serum potassium, Systolic blood pressure, Diastolic blood pressure, Use of antihypertensive agents, History of congestive heart failure, Chronic gastrointestinal disorder, Chronic immunosuppressive therapy",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Systolic BP",
+          "Systolic blood pressure"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Urinary ACR",
+          "Urinary albumin:creatinine ratio"
+        ],
+        [
+          "Serum total CO2",
+          "Serum bicarbonate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "White",
+        "Hispanic",
+        "Coronary artery disease",
+        "Hypertension",
+        "Protein intake",
+        "Metformin use",
+        "Gabapentin use",
+        "Insulin use",
+        "Medication acid load",
+        "Total CO2 \u226423 mEq/L",
+        "Serum anion gap",
+        "Serum lactate",
+        "Urinary NH4+",
+        "Urinary TA",
+        "Urine pH"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Race",
+        "Diabetes duration",
+        "Serum potassium",
+        "Diastolic blood pressure",
+        "Use of antihypertensive agents",
+        "History of congestive heart failure",
+        "Chronic gastrointestinal disorder",
+        "Chronic immunosuppressive therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, Diabetes duration, eGFR, Serum bicarbonate, Urinary albumin:creatinine ratio, Systolic Blood Pressure, Diastolic blood pressure, Body weight, Antihypertensive agents, History of congestive heart failure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Urinary ACR",
+          "Urinary albumin:creatinine ratio"
+        ],
+        [
+          "Systolic BP",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "White",
+        "Hispanic",
+        "Coronary artery disease",
+        "Hypertension",
+        "Body mass index",
+        "Protein intake",
+        "Metformin use",
+        "Gabapentin use",
+        "Insulin use",
+        "Medication acid load",
+        "Serum total CO2",
+        "Total CO2 \u226423 mEq/L",
+        "Serum anion gap",
+        "Serum lactate",
+        "Urinary NH4+",
+        "Urinary TA",
+        "Urine pH"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Ethnic Origin",
+        "Diabetes duration",
+        "Serum bicarbonate",
+        "Diastolic blood pressure",
+        "Body weight",
+        "Antihypertensive agents",
+        "History of congestive heart failure."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, lean body weight, serum bicarbonate level, estimated glomerular filtration rate, urinary albumin:creatinine ratio, systolic blood pressure, diastolic blood pressure, number of antihypertensive agents, history of congestive heart failure, history of gastrointestinal disorders, history of immunosuppressive therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index",
+          "body mass index"
+        ],
+        [
+          "Systolic BP",
+          "systolic blood pressure"
+        ],
+        [
+          "eGFR",
+          "estimated glomerular filtration rate"
+        ],
+        [
+          "Urinary ACR",
+          "urinary albumin:creatinine ratio"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "White",
+        "Hispanic",
+        "Coronary artery disease",
+        "Hypertension",
+        "Protein intake",
+        "Metformin use",
+        "Gabapentin use",
+        "Insulin use",
+        "Medication acid load",
+        "Serum total CO2",
+        "Total CO2 \u226423 mEq/L",
+        "Serum anion gap",
+        "Serum lactate",
+        "Urinary NH4+",
+        "Urinary TA",
+        "Urine pH"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "race",
+        "ethnicity",
+        "lean body weight",
+        "serum bicarbonate level",
+        "diastolic blood pressure",
+        "number of antihypertensive agents",
+        "history of congestive heart failure",
+        "history of gastrointestinal disorders",
+        "history of immunosuppressive therapy"
+      ]
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "trial_id": "NCT03595384",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), CDC pre-diabetes risk score, Baseline physical activity level, Baseline diet-related measures, Resting blood pressure, Mobility status, Language proficiency (English or Spanish)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Family history of diabetes",
+        "Country of origin"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "CDC pre-diabetes risk score",
+        "Baseline physical activity level",
+        "Baseline diet-related measures",
+        "Resting blood pressure",
+        "Mobility status",
+        "Language proficiency (English or Spanish)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Ethnicity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, CDC pre-diabetes risk score, Baseline physical activity level, Baseline dietary habits,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Region of Enrollment",
+        "Family history of diabetes",
+        "Country of origin"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "CDC pre-diabetes risk score",
+        "Baseline physical activity level",
+        "Baseline dietary habits"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Ethnicity (Hispanic/Latino), Region of Enrollment, Body Mass Index, CDC Pre-diabetes Risk Score, Systolic Blood Pressure, Diastolic Blood Pressure, Self-reported Physical Activity Level at Baseline, Dietary Habits at Baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (Hispanic/Latino)"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Family history of diabetes",
+        "Country of origin"
+      ],
+      "remaining_candidate_features": [
+        "CDC Pre-diabetes Risk Score",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Self-reported Physical Activity Level at Baseline",
+        "Dietary Habits at Baseline"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, gender, ethnicity, BMI, CDC pre-diabetes risk score, resting blood pressure, mobility status, English/Spanish language proficiency, education level, occupation, marital status, household income, smoking status, medical history, medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Family history of diabetes",
+        "Country of origin"
+      ],
+      "remaining_candidate_features": [
+        "CDC pre-diabetes risk score",
+        "resting blood pressure",
+        "mobility status",
+        "English/Spanish language proficiency",
+        "education level",
+        "occupation",
+        "marital status",
+        "household income",
+        "smoking status",
+        "medical history",
+        "medication use"
+      ]
+    }
+  }
+}

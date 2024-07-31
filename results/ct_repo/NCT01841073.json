@@ -1,0 +1,174 @@
+{
+  "trial_id": "NCT01841073",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, BMI, fasting plasma glucose, 2-hour plasma glucose, body weight stability, written consent status, presence of major metabolic disease, pregnancy status, gastrointestinal health, hemoglobin levels, history of drug or alcohol abuse.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "body weight stability"
+        ],
+        [
+          "Haemoglobin A1c",
+          "hemoglobin levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose",
+        "2-hour plasma glucose",
+        "written consent status",
+        "presence of major metabolic disease",
+        "pregnancy status",
+        "gastrointestinal health",
+        "history of drug or alcohol abuse."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Fasting Plasma Glucose, 2-hour Plasma Glucose, Insulin Sensitivity, Weight, Waist Circumference, Blood Pressure, Dietary Intake, Physical Activity Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Haemoglobin A1c"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Fasting Plasma Glucose",
+        "2-hour Plasma Glucose",
+        "Insulin Sensitivity",
+        "Waist Circumference",
+        "Blood Pressure",
+        "Dietary Intake",
+        "Physical Activity Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, Fasting Plasma Glucose, 2-h Plasma Glucose, Weight, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Insulin Sensitivity, HbA1c, Lipid Profile,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "Haemoglobin A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Fasting Plasma Glucose",
+        "2-h Plasma Glucose",
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Insulin Sensitivity",
+        "Lipid Profile"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, fasting plasma glucose, 2-h plasma glucose, weight, height, waist circumference, hip circumference, blood pressure, lipid profile, HbA1c, medical history, medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Haemoglobin A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose",
+        "2-h plasma glucose",
+        "height",
+        "waist circumference",
+        "hip circumference",
+        "blood pressure",
+        "lipid profile",
+        "medical history",
+        "medication use"
+      ]
+    }
+  }
+}

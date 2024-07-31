@@ -1,0 +1,185 @@
+{
+  "trial_id": "NCT02984995",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ECOG performance status, duration of AML, prior treatments, FLT3-ITD mutation status, white blood cell count, hemoglobin level, platelet count, bone marrow blast percentage, peripheral blood blast percentage, presence of comorbidities, liver function tests, renal function tests.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "race"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "FLT3-ITD Status",
+          "FLT3-ITD mutation status"
+        ],
+        [
+          "Response to Prior Therapy",
+          "prior treatments"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "BMI"
+      ],
+      "remaining_candidate_features": [
+        "duration of AML",
+        "white blood cell count",
+        "hemoglobin level",
+        "platelet count",
+        "bone marrow blast percentage",
+        "peripheral blood blast percentage",
+        "presence of comorbidities",
+        "liver function tests",
+        "renal function tests"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Duration of AML, Prior AML Therapy, FLT3-ITD Mutation Status, Baseline Bone Marrow Blast Percentage, Baseline Peripheral Blood Blast Percentage, Hemoglobin Level, Platelet Count, White Blood Cell Count,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "FLT3-ITD Status",
+          "FLT3-ITD Mutation Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "BMI",
+        "Response to Prior Therapy"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Duration of AML",
+        "Prior AML Therapy",
+        "Baseline Bone Marrow Blast Percentage",
+        "Baseline Peripheral Blood Blast Percentage",
+        "Hemoglobin Level",
+        "Platelet Count",
+        "White Blood Cell Count"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Ethnicity (Japanese), ECOG Performance Status, FLT3-ITD mutation status, Prior AML therapy, Relapsed or refractory AML status, Bone marrow blast percentage, Peripheral blood blast percentage, White blood cell count, Hemoglobin level, Platelet count.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (Japanese)"
+        ],
+        [
+          "FLT3-ITD Status",
+          "FLT3-ITD mutation status"
+        ],
+        [
+          "Response to Prior Therapy",
+          "Prior AML therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "BMI"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Relapsed or refractory AML status",
+        "Bone marrow blast percentage",
+        "Peripheral blood blast percentage",
+        "White blood cell count",
+        "Hemoglobin level",
+        "Platelet count"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG Performance Status, FLT3-ITD mutation status, prior AML therapy, time since initial AML diagnosis, time since last AML treatment, number of prior AML relapses, bone marrow blast percentage, peripheral blood blast percentage, white blood cell count, hemoglobin level, platelet count.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "FLT3-ITD Status",
+          "FLT3-ITD mutation status"
+        ],
+        [
+          "Response to Prior Therapy",
+          "prior AML therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "BMI"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ECOG Performance Status",
+        "time since initial AML diagnosis",
+        "time since last AML treatment",
+        "number of prior AML relapses",
+        "bone marrow blast percentage",
+        "peripheral blood blast percentage",
+        "white blood cell count",
+        "hemoglobin level",
+        "platelet count"
+      ]
+    }
+  }
+}

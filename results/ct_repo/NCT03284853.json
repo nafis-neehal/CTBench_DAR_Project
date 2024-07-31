@@ -1,0 +1,161 @@
+{
+  "trial_id": "NCT03284853",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, diagnosis (OAG or OHT), baseline intraocular pressure (IOP), best corrected visual acuity, use of ocular hypotensive medications, central corneal thickness, systemic health conditions, prior ocular surgeries, prior ocular trauma, history of ocular infections or inflammations, use of systemic medications affecting IOP, pregnancy status, contraceptive use, social security affiliation (for subjects in France).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Region of Enrollment",
+          "social security affiliation (for subjects in France)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "diagnosis (OAG or OHT)",
+        "baseline intraocular pressure (IOP)",
+        "best corrected visual acuity",
+        "use of ocular hypotensive medications",
+        "central corneal thickness",
+        "systemic health conditions",
+        "prior ocular surgeries",
+        "prior ocular trauma",
+        "history of ocular infections or inflammations",
+        "use of systemic medications affecting IOP",
+        "pregnancy status",
+        "contraceptive use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure, Best Corrected Visual Acuity, Central Corneal Thickness, Use of Ocular Hypotensive Medications, History of Ocular Surgery, History of Ocular Trauma,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline Intraocular Pressure",
+        "Best Corrected Visual Acuity",
+        "Central Corneal Thickness",
+        "Use of Ocular Hypotensive Medications",
+        "History of Ocular Surgery",
+        "History of Ocular Trauma"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Best Corrected Visual Acuity, Central Corneal Thickness, Mean Diurnal Intraocular Pressure, Number of Ocular Hypotensive Medications, Diagnosis of Open Angle Glaucoma or Ocular Hypertension.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Best Corrected Visual Acuity",
+        "Central Corneal Thickness",
+        "Mean Diurnal Intraocular Pressure",
+        "Number of Ocular Hypotensive Medications",
+        "Diagnosis of Open Angle Glaucoma or Ocular Hypertension."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, best corrected visual acuity, mean central corneal thickness, diagnosis (OAG or OHT), number of ocular hypotensive medications used prior to screening, previous glaucoma treatment, refractive error, spherical equivalent, cylindrical power, axis, IOP at screening and qualification visits, medical history, concomitant medications, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "best corrected visual acuity",
+        "mean central corneal thickness",
+        "diagnosis (OAG or OHT)",
+        "number of ocular hypotensive medications used prior to screening",
+        "previous glaucoma treatment",
+        "refractive error",
+        "spherical equivalent",
+        "cylindrical power",
+        "axis",
+        "IOP at screening and qualification visits",
+        "medical history",
+        "concomitant medications",
+        "smoking status"
+      ]
+    }
+  }
+}

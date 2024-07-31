@@ -1,0 +1,257 @@
+{
+  "trial_id": "NCT03834168",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Blood pressure, Body Mass Index (BMI), Ethnicity (African-American or white), Gender, Hematocrit levels, Serum sodium levels, Serum potassium levels, Liver function tests, Smoking status, Use of non-steroid anti-inflammatory medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Ethnicity (African-American or white)"
+        ],
+        [
+          "Hematocrit",
+          "Hematocrit levels"
+        ],
+        [
+          "Serum Electrolytes",
+          "Serum sodium levels"
+        ],
+        [
+          "Serum Electrolytes",
+          "Serum potassium levels"
+        ],
+        [
+          "Liver Function",
+          "Liver function tests"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Hip circumference",
+        "Waist circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Heart rate",
+        "Fasting Glucose",
+        "Renal Function",
+        "Serum Calcium",
+        "Hematological Parameters",
+        "Hemoglobin",
+        "Mean Corpuscular Volume (MCV)",
+        "Mean Corpuscular Hemoglobin (MCH)",
+        "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+        "Red Cell Distribution Width (RDW)",
+        "Mean Platelet Volume (MPV)"
+      ],
+      "remaining_candidate_features": [
+        "Blood pressure",
+        "Gender",
+        "Smoking status",
+        "Use of non-steroid anti-inflammatory medications."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hematocrit, Serum Sodium, Serum Potassium, Liver Function Tests, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Hematocrit",
+          "Hematocrit"
+        ],
+        [
+          "Serum Electrolytes",
+          "Serum Sodium"
+        ],
+        [
+          "Serum Electrolytes",
+          "Serum Potassium"
+        ],
+        [
+          "Liver Function",
+          "Liver Function Tests"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Hip circumference",
+        "Waist circumference",
+        "Heart rate",
+        "Fasting Glucose",
+        "Renal Function",
+        "Serum Calcium",
+        "Hematological Parameters",
+        "Hemoglobin",
+        "Mean Corpuscular Volume (MCV)",
+        "Mean Corpuscular Hemoglobin (MCH)",
+        "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+        "Red Cell Distribution Width (RDW)",
+        "Mean Platelet Volume (MPV)"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Self-Identified Ethnicity,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Hip circumference",
+        "Waist circumference",
+        "Heart rate",
+        "Fasting Glucose",
+        "Renal Function",
+        "Serum Electrolytes",
+        "Serum Calcium",
+        "Liver Function",
+        "Hematological Parameters",
+        "Hemoglobin",
+        "Hematocrit",
+        "Mean Corpuscular Volume (MCV)",
+        "Mean Corpuscular Hemoglobin (MCH)",
+        "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+        "Red Cell Distribution Width (RDW)",
+        "Mean Platelet Volume (MPV)"
+      ],
+      "remaining_candidate_features": [
+        "Self-Identified Ethnicity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, body mass index, blood pressure, hematocrit, serum sodium, serum potassium, liver function tests, history of hypertension, history of cardiovascular disease, history of renal disease, history of liver disease, diabetes status, use of glucose-lowering medications, use of vasoactive medications, use of diuretic medications, atrial fibrillation status, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index"
+        ],
+        [
+          "Hematocrit",
+          "hematocrit"
+        ],
+        [
+          "Serum Electrolytes",
+          "serum sodium"
+        ],
+        [
+          "Serum Electrolytes",
+          "serum potassium"
+        ],
+        [
+          "Liver Function",
+          "liver function tests"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Hip circumference",
+        "Waist circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Heart rate",
+        "Fasting Glucose",
+        "Renal Function",
+        "Serum Calcium",
+        "Hematological Parameters",
+        "Hemoglobin",
+        "Mean Corpuscular Volume (MCV)",
+        "Mean Corpuscular Hemoglobin (MCH)",
+        "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+        "Red Cell Distribution Width (RDW)",
+        "Mean Platelet Volume (MPV)"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure",
+        "history of hypertension",
+        "history of cardiovascular disease",
+        "history of renal disease",
+        "history of liver disease",
+        "diabetes status",
+        "use of glucose-lowering medications",
+        "use of vasoactive medications",
+        "use of diuretic medications",
+        "atrial fibrillation status",
+        "smoking status."
+      ]
+    }
+  }
+}

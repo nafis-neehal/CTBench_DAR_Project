@@ -1,0 +1,163 @@
+{
+  "trial_id": "NCT00110214",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race/ethnicity, ECOG performance status, Gleason score, baseline PSA level, presence of measurable disease, presence of non-measurable disease, prior hormonal therapy, prior radiation therapy, prior surgery, use of bisphosphonates, history of hypertension, history of bleeding events, history of thrombotic events, baseline ANC, baseline platelet count, baseline creatinine, baseline bilirubin, baseline AST, urine protein to creatinine ratio.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Prior history of arterial events",
+          "history of thrombotic events"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "24-month predicted survival probability"
+      ],
+      "remaining_candidate_features": [
+        "race/ethnicity",
+        "ECOG performance status",
+        "Gleason score",
+        "baseline PSA level",
+        "presence of measurable disease",
+        "presence of non-measurable disease",
+        "prior hormonal therapy",
+        "prior radiation therapy",
+        "prior surgery",
+        "use of bisphosphonates",
+        "history of hypertension",
+        "history of bleeding events",
+        "baseline ANC",
+        "baseline platelet count",
+        "baseline creatinine",
+        "baseline bilirubin",
+        "baseline AST",
+        "urine protein to creatinine ratio"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Gleason score, PSA level, ECOG performance status, Hemoglobin, White blood cell count, Platelet count, Creatinine, Bilirubin, AST, Prior treatment history,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Male",
+          "Sex: Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Prior history of arterial events",
+          "Prior treatment history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "24-month predicted survival probability"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Gleason score",
+        "PSA level",
+        "ECOG performance status",
+        "Hemoglobin",
+        "White blood cell count",
+        "Platelet count",
+        "Creatinine",
+        "Bilirubin",
+        "AST"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, ECOG Performance Status, Gleason Sum, PSA at Baseline, Hemoglobin, Lymph Node Involvement, Bone Metastases, Visceral Metastases, Prior Hormone Therapy, Prior Radiation Therapy, Prior Bisphosphonate Therapy, Prior Surgery, Region of Enrollment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "24-month predicted survival probability",
+        "Prior history of arterial events"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Gleason Sum",
+        "PSA at Baseline",
+        "Hemoglobin",
+        "Lymph Node Involvement",
+        "Bone Metastases",
+        "Visceral Metastases",
+        "Prior Hormone Therapy",
+        "Prior Radiation Therapy",
+        "Prior Bisphosphonate Therapy",
+        "Prior Surgery"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, race, ECOG performance status, Gleason sum, PSA level, presence of measurable disease, number of target lesions, sum of longest diameters of target lesions, presence of bone metastases, presence of visceral metastases, prior therapy (hormonal, chemotherapy, radiation), duration of androgen deprivation therapy, time since progression, ANC, platelet count, creatinine, bilirubin, AST, urine protein to creatinine ratio.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "Male"
+        ],
+        [
+          "Prior history of arterial events",
+          "prior therapy (hormonal, chemotherapy, radiation)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "24-month predicted survival probability"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ECOG performance status",
+        "Gleason sum",
+        "PSA level",
+        "presence of measurable disease",
+        "number of target lesions",
+        "sum of longest diameters of target lesions",
+        "presence of bone metastases",
+        "presence of visceral metastases",
+        "duration of androgen deprivation therapy",
+        "time since progression",
+        "ANC",
+        "platelet count",
+        "creatinine",
+        "bilirubin",
+        "AST",
+        "urine protein to creatinine ratio"
+      ]
+    }
+  }
+}

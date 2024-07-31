@@ -1,0 +1,196 @@
+{
+  "trial_id": "NCT01945060",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, weight, height, body mass index (BMI), duration of diabetes, HbA1c level, insulin pump usage duration, carbohydrate ratio, insulin sensitivity factor (ISF), target glucose, heart rate, fasting glucose, two-hour OGTT glucose, random glucose, C-peptide level, presence of islet cell autoantibodies, presence of GAD65 autoantibodies, hematocrit level, history of diabetic complications, history of severe hypoglycemia, history of diabetic ketoacidosis, mental status, cognitive function, medication usage, exercise capability, skin condition, psychiatric history, pregnancy status, use of birth control.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "diabetes duration [y]",
+          "duration of diabetes"
+        ],
+        [
+          "HbA1c [%]",
+          "HbA1c level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Total daily insulin [U]"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "insulin pump usage duration",
+        "carbohydrate ratio",
+        "insulin sensitivity factor (ISF)",
+        "target glucose",
+        "heart rate",
+        "fasting glucose",
+        "two-hour OGTT glucose",
+        "random glucose",
+        "C-peptide level",
+        "presence of islet cell autoantibodies",
+        "presence of GAD65 autoantibodies",
+        "hematocrit level",
+        "history of diabetic complications",
+        "history of severe hypoglycemia",
+        "history of diabetic ketoacidosis",
+        "mental status",
+        "cognitive function",
+        "medication usage",
+        "exercise capability",
+        "skin condition",
+        "psychiatric history",
+        "pregnancy status",
+        "use of birth control"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, HbA1c, Insulin Pump Use Duration, Baseline Blood Glucose, Body Weight, Height, BMI, Heart Rate,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "diabetes duration [y]",
+          "Duration of Diabetes"
+        ],
+        [
+          "HbA1c [%]",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Total daily insulin [U]"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Insulin Pump Use Duration",
+        "Baseline Blood Glucose",
+        "Body Weight",
+        "Height",
+        "BMI",
+        "Heart Rate"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Duration, Insulin Pump Experience, HbA1c, BMI, Total Daily Insulin Dose, Carbohydrate Ratio, Insulin Sensitivity Factor, Target Glucose, History of Severe Hypoglycemia, History of Diabetic Ketoacidosis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "diabetes duration [y]",
+          "Diabetes Duration"
+        ],
+        [
+          "HbA1c [%]",
+          "HbA1c"
+        ],
+        [
+          "Total daily insulin [U]",
+          "Total Daily Insulin Dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Insulin Pump Experience",
+        "BMI",
+        "Carbohydrate Ratio",
+        "Insulin Sensitivity Factor",
+        "Target Glucose",
+        "History of Severe Hypoglycemia",
+        "History of Diabetic Ketoacidosis"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, body mass index (BMI), duration of type 1 diabetes, HbA1c, insulin pump type, insulin dosage, carbohydrate ratio, insulin sensitivity factor, target glucose, heart rate at rest, heart rate during exercise, systolic blood pressure, diastolic blood pressure, hematocrit, presence of diabetic complications (retinopathy, nephropathy, neuropathy).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "diabetes duration [y]",
+          "duration of type 1 diabetes"
+        ],
+        [
+          "HbA1c [%]",
+          "HbA1c"
+        ],
+        [
+          "Total daily insulin [U]",
+          "insulin dosage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "insulin pump type",
+        "carbohydrate ratio",
+        "insulin sensitivity factor",
+        "target glucose",
+        "heart rate at rest",
+        "heart rate during exercise",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "hematocrit",
+        "presence of diabetic complications (retinopathy, nephropathy, neuropathy)"
+      ]
+    }
+  }
+}

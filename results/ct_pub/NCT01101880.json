@@ -1,0 +1,209 @@
+{
+  "trial_id": "NCT01101880",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, serum creatinine, estimated glomerular filtration rate (GFR), serum bilirubin, aspartate transferase (AST), alanine transferase (ALT), alkaline phosphatase, pregnancy status, prior treatment history, type of hematologic malignancy, percentage of blasts in bone marrow or peripheral blood.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "Median Age (Range)",
+          "Age"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "serum creatinine",
+          "serum creatinine"
+        ],
+        [
+          "estimated glomerular filtration rate (GFR)",
+          "estimated glomerular filtration rate (GFR)"
+        ],
+        [
+          "serum bilirubin",
+          "serum bilirubin"
+        ],
+        [
+          "aspartate transferase (AST)",
+          "aspartate transferase (AST)"
+        ],
+        [
+          "alanine transferase (ALT)",
+          "alanine transferase (ALT)"
+        ],
+        [
+          "alkaline phosphatase",
+          "alkaline phosphatase"
+        ],
+        [
+          "pregnancy status",
+          "pregnancy status"
+        ],
+        [
+          "prior treatment history",
+          "prior treatment history"
+        ],
+        [
+          "type of hematologic malignancy",
+          "type of hematologic malignancy"
+        ],
+        [
+          "percentage of blasts in bone marrow or peripheral blood",
+          "percentage of blasts in bone marrow or peripheral blood"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Cytogenetics",
+        "Missing",
+        "Antecedent hematological disorder (AHD)",
+        "Flt3 ITD mutation",
+        "Median WBC \u00d7 109/L",
+        "Median Peripheral Blast %"
+      ],
+      "remaining_candidate_features": [
+        "race"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, ECOG Performance Status, Serum creatinine, Serum bilirubin, AST/ALT levels, Alkaline phosphatase levels, Diagnosis subtype, Percentage of blasts in bone marrow or peripheral blood, Prior treatment history, Concomitant medications, Pregnancy status, Contraceptive use, Infection status, Organ function status, Psychiatric history, Secondary malignancy history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "Median Age (Range)",
+          "Age"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Serum creatinine",
+          "Serum creatinine"
+        ],
+        [
+          "Serum bilirubin",
+          "Serum bilirubin"
+        ],
+        [
+          "AST/ALT levels",
+          "AST/ALT levels"
+        ],
+        [
+          "Alkaline phosphatase levels",
+          "Alkaline phosphatase levels"
+        ],
+        [
+          "Antecedent hematological disorder (AHD)",
+          "Prior treatment history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Cytogenetics",
+        "Missing",
+        "Flt3 ITD mutation",
+        "Median WBC \u00d7 109/L",
+        "Median Peripheral Blast %"
+      ],
+      "remaining_candidate_features": [
+        "Race",
+        "Diagnosis subtype",
+        "Percentage of blasts in bone marrow or peripheral blood",
+        "Concomitant medications",
+        "Pregnancy status",
+        "Contraceptive use",
+        "Infection status",
+        "Organ function status",
+        "Psychiatric history",
+        "Secondary malignancy history"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, ECOG Performance Status, Diagnosis, Cytogenetic risk group, White blood cell count, Hemoglobin, Platelet count, Serum creatinine, Serum bilirubin, AST/ALT, Alkaline phosphatase, Prior therapy, Comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "Cytogenetics",
+          "Cytogenetic risk group"
+        ],
+        [
+          "Median Age (Range)",
+          "Age"
+        ],
+        [
+          "Median WBC \u00d7 109/L",
+          "White blood cell count"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Missing",
+        "Antecedent hematological disorder (AHD)",
+        "Flt3 ITD mutation",
+        "Median Peripheral Blast %"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Diagnosis",
+        "Hemoglobin",
+        "Platelet count",
+        "Serum creatinine",
+        "Serum bilirubin",
+        "AST/ALT",
+        "Alkaline phosphatase",
+        "Prior therapy",
+        "Comorbidities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, serum creatinine, serum bilirubin, AST, ALT, alkaline phosphatase, diagnosis (AML, MDS, MPN), cytogenetics (11q23, del(5q), inv(16), t(15;17), t(8;21)), prior therapy (hydroxyurea, imides, hypomethylating agents).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "Cytogenetics",
+          "cytogenetics (11q23, del(5q), inv(16), t(15;17), t(8;21)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Missing",
+        "Antecedent hematological disorder (AHD)",
+        "Flt3 ITD mutation",
+        "Median Age (Range)",
+        "Median WBC \u00d7 109/L",
+        "Median Peripheral Blast %"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "race",
+        "ethnicity",
+        "ECOG performance status",
+        "serum creatinine",
+        "serum bilirubin",
+        "AST",
+        "ALT",
+        "alkaline phosphatase",
+        "diagnosis (AML, MDS, MPN)",
+        "prior therapy (hydroxyurea, imides, hypomethylating agents)"
+      ]
+    }
+  }
+}

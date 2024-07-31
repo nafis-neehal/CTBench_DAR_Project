@@ -1,0 +1,242 @@
+{
+  "trial_id": "NCT01222494",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI percentile, DSM-IV psychiatric diagnosis, antipsychotic medication use, other psychotropic medication use, prescription medication use, assent and consent status, IQ, substance abuse history, dyskinesia history, stimulant medication dosage, suicidality, primary diagnosis of depression.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI) Percentile",
+          "BMI percentile"
+        ],
+        [
+          "Primary Diagnosis",
+          "DSM-IV psychiatric diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height",
+        "Weight",
+        "DEXA-Measured Body Composition",
+        "Proton Density Fat Fraction (PDFF)",
+        "Carotid Intima Media Thickness",
+        "Body Mass Index (BMI)",
+        "Body Mass Index (BMI) Z-Score",
+        "Waist Circumference",
+        "Baseline Fasting Laboratory Values",
+        "Aberrant Behavior Checklist (ABC)",
+        "Child Behavior Checklist (CBCL)"
+      ],
+      "remaining_candidate_features": [
+        "antipsychotic medication use",
+        "other psychotropic medication use",
+        "prescription medication use",
+        "assent and consent status",
+        "IQ",
+        "substance abuse history",
+        "dyskinesia history",
+        "stimulant medication dosage",
+        "suicidality",
+        "primary diagnosis of depression"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, DSM-IV psychiatric diagnosis, Current antipsychotic medication use, Duration of antipsychotic treatment, Baseline DEXA-measured adiposity, Baseline PDFF, Baseline CIMT, Systolic Blood Pressure, Diastolic Blood Pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Primary Diagnosis",
+          "DSM-IV psychiatric diagnosis"
+        ],
+        [
+          "DEXA-Measured Body Composition",
+          "Baseline DEXA-measured adiposity"
+        ],
+        [
+          "Proton Density Fat Fraction (PDFF)",
+          "Baseline PDFF"
+        ],
+        [
+          "Carotid Intima Media Thickness",
+          "Baseline CIMT"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Height",
+        "Weight",
+        "Body Mass Index (BMI) Percentile",
+        "Body Mass Index (BMI) Z-Score",
+        "Waist Circumference",
+        "Baseline Fasting Laboratory Values",
+        "Aberrant Behavior Checklist (ABC)",
+        "Child Behavior Checklist (CBCL)"
+      ],
+      "remaining_candidate_features": [
+        "Current antipsychotic medication use",
+        "Duration of antipsychotic treatment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, BMI, Psychiatric Diagnosis, Antipsychotic Medication Use, Duration of Antipsychotic Medication Use, Dose of Antipsychotic Medication, Comorbid Medical Conditions, Family History of Obesity, Family History of Diabetes, Family History of Cardiovascular Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Primary Diagnosis",
+          "Psychiatric Diagnosis"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Height",
+        "Weight",
+        "DEXA-Measured Body Composition",
+        "Proton Density Fat Fraction (PDFF)",
+        "Carotid Intima Media Thickness",
+        "Body Mass Index (BMI) Percentile",
+        "Body Mass Index (BMI) Z-Score",
+        "Waist Circumference",
+        "Baseline Fasting Laboratory Values",
+        "Aberrant Behavior Checklist (ABC)",
+        "Child Behavior Checklist (CBCL)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Antipsychotic Medication Use",
+        "Duration of Antipsychotic Medication Use",
+        "Dose of Antipsychotic Medication",
+        "Comorbid Medical Conditions",
+        "Family History of Obesity",
+        "Family History of Diabetes",
+        "Family History of Cardiovascular Disease."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, ethnicity, BMI, BMI percentile, psychiatric diagnosis, antipsychotic medication use, duration of antipsychotic treatment, type of antipsychotic medication, other psychotropic medication use, medical history, IQ, family history of obesity or metabolic syndrome.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Body Mass Index (BMI) Percentile",
+          "BMI percentile"
+        ],
+        [
+          "Primary Diagnosis",
+          "psychiatric diagnosis"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "DEXA-Measured Body Composition",
+          "DEXA-measured adiposity"
+        ],
+        [
+          "Proton Density Fat Fraction (PDFF)",
+          "Proton Density Fat Fraction (PDFF)"
+        ],
+        [
+          "Carotid Intima Media Thickness",
+          "Carotid Artery Intima Media Thickness (CIMT)"
+        ],
+        [
+          "IQ",
+          "IQ"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Body Mass Index (BMI) Z-Score",
+        "Waist Circumference",
+        "Baseline Fasting Laboratory Values",
+        "Aberrant Behavior Checklist (ABC)",
+        "Child Behavior Checklist (CBCL)"
+      ],
+      "remaining_candidate_features": [
+        "antipsychotic medication use",
+        "duration of antipsychotic treatment",
+        "type of antipsychotic medication",
+        "other psychotropic medication use",
+        "medical history",
+        "family history of obesity or metabolic syndrome"
+      ]
+    }
+  }
+}

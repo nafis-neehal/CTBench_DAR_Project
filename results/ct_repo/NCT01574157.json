@@ -1,0 +1,273 @@
+{
+  "trial_id": "NCT01574157",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body weight, Serum bicarbonate level, Estimated glomerular filtration rate (eGFR), Urinary albumin:creatinine ratio, Serum potassium level, Systolic blood pressure, Diastolic blood pressure, Diabetes mellitus status, Stage of chronic kidney disease (CKD), Use of antihypertensive agents, History of congestive heart failure, Presence of significant fluid overload, Chronic gastrointestinal disorder status, Chronic immunosuppressive therapy status, Participation in other interventional research studies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Estimated glomerular filtration rate",
+          "Estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic blood pressure"
+        ],
+        [
+          "Lean body weight",
+          "Body weight"
+        ],
+        [
+          "Congestive heart failure",
+          "History of congestive heart failure"
+        ],
+        [
+          "Serum potassium",
+          "Serum potassium level"
+        ],
+        [
+          "Urinary albumin/creatinine",
+          "Urinary albumin:creatinine ratio"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Use of angiotensin converting enzyme-inhibitor (ACE-I) or angiotensin receptor blocker (ARB)",
+        "Serum total carbon dioxide (CO2)",
+        "Hemoglobin A1c",
+        "Urinary pH",
+        "Urinary ammonium",
+        "Urinary titratable acids",
+        "Urinary transforming growth factor-B1/creatinine",
+        "Urinary kidney injury molecule-1/creatinine",
+        "Urinary fibronectin/creatinine",
+        "Urinary neutrophil gelatinase-associated lipocalin/creatinine"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Serum bicarbonate level",
+        "Diastolic blood pressure",
+        "Diabetes mellitus status",
+        "Stage of chronic kidney disease (CKD)",
+        "Use of antihypertensive agents",
+        "Presence of significant fluid overload",
+        "Chronic gastrointestinal disorder status",
+        "Chronic immunosuppressive therapy status",
+        "Participation in other interventional research studies."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Bicarbonate, Serum Potassium, Estimated Glomerular Filtration Rate (eGFR), Urinary Albumin:Creatinine Ratio, Diabetes Duration,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Estimated glomerular filtration rate",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Lean body weight",
+          "Body Mass Index"
+        ],
+        [
+          "Serum potassium",
+          "Serum Potassium"
+        ],
+        [
+          "Urinary albumin/creatinine",
+          "Urinary Albumin:Creatinine Ratio"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Total body weight",
+        "Congestive heart failure",
+        "Serum total carbon dioxide (CO2)",
+        "Hemoglobin A1c",
+        "Urinary pH",
+        "Urinary ammonium",
+        "Urinary titratable acids",
+        "Urinary transforming growth factor-B1/creatinine",
+        "Urinary kidney injury molecule-1/creatinine",
+        "Urinary fibronectin/creatinine",
+        "Urinary neutrophil gelatinase-associated lipocalin/creatinine"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diastolic Blood Pressure",
+        "Serum Bicarbonate",
+        "Diabetes Duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, eGFR, Serum bicarbonate, Urinary albumin:creatinine ratio, Systolic blood pressure, Diastolic blood pressure, Body mass index, Antihypertensive medication use, History of congestive heart failure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Estimated glomerular filtration rate",
+          "eGFR"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic blood pressure"
+        ],
+        [
+          "Lean body weight",
+          "Body mass index"
+        ],
+        [
+          "Congestive heart failure",
+          "History of congestive heart failure"
+        ],
+        [
+          "Serum potassium",
+          "Serum potassium"
+        ],
+        [
+          "Urinary albumin/creatinine",
+          "Urinary albumin:creatinine ratio"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Use of angiotensin converting enzyme-inhibitor (ACE-I) or angiotensin receptor blocker (ARB)",
+        "Total body weight",
+        "Serum total carbon dioxide (CO2)",
+        "Hemoglobin A1c",
+        "Urinary pH",
+        "Urinary ammonium",
+        "Urinary titratable acids",
+        "Urinary transforming growth factor-B1/creatinine",
+        "Urinary kidney injury molecule-1/creatinine",
+        "Urinary fibronectin/creatinine",
+        "Urinary neutrophil gelatinase-associated lipocalin/creatinine"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diabetes duration",
+        "Serum bicarbonate",
+        "Diastolic blood pressure",
+        "Antihypertensive medication use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, lean body weight, serum bicarbonate level, estimated glomerular filtration rate (eGFR), urinary albumin:creatinine ratio, systolic blood pressure, diastolic blood pressure, number of antihypertensive agents, history of congestive heart failure, history of chronic gastrointestinal disorder, history of immunosuppressive therapy, presence of diabetes complications, duration of diabetes, duration of chronic kidney disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Estimated glomerular filtration rate",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Systolic blood pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Lean body weight",
+          "lean body weight"
+        ],
+        [
+          "Serum total carbon dioxide (CO2)",
+          "serum bicarbonate level"
+        ],
+        [
+          "Urinary albumin/creatinine",
+          "urinary albumin:creatinine ratio"
+        ],
+        [
+          "Congestive heart failure",
+          "history of congestive heart failure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Use of angiotensin converting enzyme-inhibitor (ACE-I) or angiotensin receptor blocker (ARB)",
+        "Total body weight",
+        "Serum potassium",
+        "Hemoglobin A1c",
+        "Urinary pH",
+        "Urinary ammonium",
+        "Urinary titratable acids",
+        "Urinary transforming growth factor-B1/creatinine",
+        "Urinary kidney injury molecule-1/creatinine",
+        "Urinary fibronectin/creatinine",
+        "Urinary neutrophil gelatinase-associated lipocalin/creatinine"
+      ],
+      "remaining_candidate_features": [
+        "body mass index",
+        "diastolic blood pressure",
+        "number of antihypertensive agents",
+        "history of chronic gastrointestinal disorder",
+        "history of immunosuppressive therapy",
+        "presence of diabetes complications",
+        "duration of diabetes",
+        "duration of chronic kidney disease"
+      ]
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "trial_id": "NCT02111980",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, medical history, type of cardiac implantable electronic device (CIED), duration of CIED implantation, reason for CIED removal or replacement, baseline CIED settings, baseline heart rate, baseline blood pressure, baseline cardiac function, comorbid conditions, medication use, smoking status, alcohol use, body mass index (BMI).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Coronary Artery Disease",
+        "Atrial Fibrillation",
+        "Diabetes Mellitus",
+        "Hypertension",
+        "Ejection Fraction"
+      ],
+      "remaining_candidate_features": [
+        "medical history",
+        "type of cardiac implantable electronic device (CIED)",
+        "duration of CIED implantation",
+        "reason for CIED removal or replacement",
+        "baseline CIED settings",
+        "baseline heart rate",
+        "baseline blood pressure",
+        "baseline cardiac function",
+        "comorbid conditions",
+        "medication use",
+        "smoking status",
+        "alcohol use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Type of cardiac device (pacemaker or ICD), Duration of device implantation, Indication for device removal, Baseline device settings (pacing mode, pacing polarity, base rate, max tracking rate, AV delay, battery capacity, pacing impedance, shock impedance, P & R wave measurements, capture threshold), Comorbid conditions (e.g., cardiomyopathy, cardiac arrhythmia, heart failure, chronic thromboembolic pulmonary hypertension), Medication use, Smoking status, BMI, Blood pressure, Heart rate.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Coronary Artery Disease",
+        "Atrial Fibrillation",
+        "Diabetes Mellitus",
+        "Hypertension",
+        "Ejection Fraction"
+      ],
+      "remaining_candidate_features": [
+        "Type of cardiac device (pacemaker or ICD)",
+        "Duration of device implantation",
+        "Indication for device removal",
+        "Baseline device settings (pacing mode, pacing polarity, base rate, max tracking rate, AV delay, battery capacity, pacing impedance, shock impedance, P & R wave measurements, capture threshold)",
+        "Comorbid conditions (e.g., cardiomyopathy, cardiac arrhythmia, heart failure, chronic thromboembolic pulmonary hypertension)",
+        "Medication use",
+        "Smoking status",
+        "Blood pressure",
+        "Heart rate"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Pacemaker/ICD type, Pacemaker/ICD manufacturer, Pacemaker/ICD model, Pacemaker/ICD implant date, Pacemaker/ICD battery life, Pacemaker/ICD programming, Underlying cardiac condition, Comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI",
+        "Coronary Artery Disease",
+        "Atrial Fibrillation",
+        "Diabetes Mellitus",
+        "Hypertension",
+        "Ejection Fraction"
+      ],
+      "remaining_candidate_features": [
+        "Pacemaker/ICD type",
+        "Pacemaker/ICD manufacturer",
+        "Pacemaker/ICD model",
+        "Pacemaker/ICD implant date",
+        "Pacemaker/ICD battery life",
+        "Pacemaker/ICD programming",
+        "Underlying cardiac condition",
+        "Comorbidities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, body mass index (BMI), medical history (cardiomyopathy, cardiac arrhythmia, heart failure, chronic thromboembolic pulmonary hypertension), pacemaker/ICD type and model, pacemaker/ICD settings prior to RF scanning, temporary pacemaker usage.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Coronary Artery Disease",
+        "Atrial Fibrillation",
+        "Diabetes Mellitus",
+        "Hypertension",
+        "Ejection Fraction"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "medical history (cardiomyopathy, cardiac arrhythmia, heart failure, chronic thromboembolic pulmonary hypertension)",
+        "pacemaker/ICD type and model",
+        "pacemaker/ICD settings prior to RF scanning",
+        "temporary pacemaker usage."
+      ]
+    }
+  }
+}

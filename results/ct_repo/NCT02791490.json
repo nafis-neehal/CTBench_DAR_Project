@@ -1,0 +1,166 @@
+{
+  "trial_id": "NCT02791490",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), baseline hemoglobin A1C (A1C), duration of Type 2 diabetes mellitus (T2DM), prior anti-hyperglycemic agent (AHA) use, baseline fasting plasma glucose, baseline renal function (e.g., serum creatinine), baseline liver function (e.g., ALT, AST), baseline lipid profile (e.g., total cholesterol, LDL, HDL, triglycerides), baseline blood pressure, race/ethnicity, smoking status, concomitant medications, medical history (e.g., cardiovascular disease, hypertension).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Hemoglobin A1C (%)",
+          "baseline hemoglobin A1C (A1C)"
+        ],
+        [
+          "Fasting Plasma Glucose",
+          "baseline fasting plasma glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of Type 2 diabetes mellitus (T2DM)",
+        "prior anti-hyperglycemic agent (AHA) use",
+        "baseline renal function (e.g., serum creatinine)",
+        "baseline liver function (e.g., ALT, AST)",
+        "baseline lipid profile (e.g., total cholesterol, LDL, HDL, triglycerides)",
+        "baseline blood pressure",
+        "race/ethnicity",
+        "smoking status",
+        "concomitant medications",
+        "medical history (e.g., cardiovascular disease, hypertension)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Baseline Metformin Dose, Concomitant Medications, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Hemoglobin A1C (%)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose",
+          "Fasting Plasma Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Duration of Diabetes",
+        "Baseline Metformin Dose",
+        "Concomitant Medications",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hemoglobin A1C, Diabetes Duration, Previous Anti-Hyperglycemic Agent Use, Systolic Blood Pressure, Diastolic Blood Pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Hemoglobin A1C (%)",
+          "Hemoglobin A1C"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Fasting Plasma Glucose"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Diabetes Duration",
+        "Previous Anti-Hyperglycemic Agent Use",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, hemoglobin A1C (A1C) at screening, fasting plasma glucose at screening, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including history of myocardial infarction, unstable angina, arterial revascularization, stroke, transient ischemic attack, NYHA functional class III-IV heart failure, or severe peripheral vascular disease), current medications (including anti-hyperglycemic agents, antihypertensive agents, and lipid-lowering agents).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Hemoglobin A1C (%)",
+          "hemoglobin A1C (A1C) at screening"
+        ],
+        [
+          "Fasting Plasma Glucose",
+          "fasting plasma glucose at screening"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of type 2 diabetes mellitus",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "medical history (including history of myocardial infarction, unstable angina, arterial revascularization, stroke, transient ischemic attack, NYHA functional class III-IV heart failure, or severe peripheral vascular disease)",
+        "current medications (including anti-hyperglycemic agents, antihypertensive agents, and lipid-lowering agents)"
+      ]
+    }
+  }
+}

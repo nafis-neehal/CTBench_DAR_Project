@@ -1,0 +1,173 @@
+{
+  "trial_id": "NCT00587158",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline serum calcium levels, baseline serum 25(OH)vitamin D levels, type of kidney transplant (first or second, deceased or living donor), baseline bone density (spine and hip), baseline parathyroid hormone levels, baseline renal function (e.g., serum creatinine, glomerular filtration rate), presence of normocalcemia or hypocalcemia, baseline immunosuppressive regimen, history of diabetes, history of hyperparathyroidism.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "First transplant",
+          "type of kidney transplant (first or second, deceased or living donor)"
+        ],
+        [
+          "Diabetes",
+          "history of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Cause of End-Stage Renal Disease",
+        "Living kidney donor",
+        "Degree of interstitial fibrosis"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "baseline serum calcium levels",
+        "baseline serum 25(OH)vitamin D levels",
+        "baseline bone density (spine and hip)",
+        "baseline parathyroid hormone levels",
+        "baseline renal function (e.g., serum creatinine, glomerular filtration rate)",
+        "presence of normocalcemia or hypocalcemia",
+        "baseline immunosuppressive regimen",
+        "history of hyperparathyroidism"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Serum Calcium Levels, Serum 25(OH) Vitamin D Levels, Type of Donor (Deceased or Living), Number of Previous Transplants,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "First transplant",
+          "Number of Previous Transplants"
+        ],
+        [
+          "Living kidney donor",
+          "Type of Donor (Deceased or Living)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diabetes",
+        "Cause of End-Stage Renal Disease",
+        "Degree of interstitial fibrosis"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Serum Calcium Levels",
+        "Serum 25(OH) Vitamin D Levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Kidney Transplant Type, Donor Type, Pre-transplant Parathyroid Hormone Level, Pre-transplant Calcium Level, Pre-transplant Vitamin D Level, Immunosuppressive Regimen.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "First transplant",
+          "Kidney Transplant Type"
+        ],
+        [
+          "Living kidney donor",
+          "Donor Type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diabetes",
+        "Cause of End-Stage Renal Disease",
+        "Degree of interstitial fibrosis"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Pre-transplant Parathyroid Hormone Level",
+        "Pre-transplant Calcium Level",
+        "Pre-transplant Vitamin D Level",
+        "Immunosuppressive Regimen."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), serum calcium levels, serum 25(OH)vitamin D concentration, kidney function (eGFR or creatinine clearance), time since transplantation, type of transplant (deceased donor or living donor), immunosuppressive regimen, history of diabetes, history of hyperparathyroidism.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Diabetes",
+          "history of diabetes"
+        ],
+        [
+          "First transplant",
+          "type of transplant (deceased donor or living donor)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Cause of End-Stage Renal Disease",
+        "Living kidney donor",
+        "Degree of interstitial fibrosis"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "body mass index (BMI)",
+        "serum calcium levels",
+        "serum 25(OH)vitamin D concentration",
+        "kidney function (eGFR or creatinine clearance)",
+        "time since transplantation",
+        "immunosuppressive regimen",
+        "history of hyperparathyroidism."
+      ]
+    }
+  }
+}

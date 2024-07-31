@@ -1,0 +1,198 @@
+{
+  "trial_id": "NCT04352660",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline intraocular pressure (IOP), duration of glaucoma, type of glaucoma, previous glaucoma medications, visual acuity, central corneal thickness, lens status (phakic/pseudophakic/aphakic), cup-to-disc ratio, systemic comorbidities (e.g., diabetes, hypertension), race/ethnicity, smoking status, baseline bleb appearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Diagnosis",
+          "type of glaucoma"
+        ],
+        [
+          "Visual Acuity",
+          "visual acuity"
+        ],
+        [
+          "Preoperative Intraocular Pressure",
+          "baseline intraocular pressure (IOP)"
+        ],
+        [
+          "Number of Medications",
+          "previous glaucoma medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Preoperative Visual Field Mean Deviation",
+        "Preoperative Pattern Standard Deviation",
+        "IOP Goal"
+      ],
+      "remaining_candidate_features": [
+        "duration of glaucoma",
+        "central corneal thickness",
+        "lens status (phakic/pseudophakic/aphakic)",
+        "cup-to-disc ratio",
+        "systemic comorbidities (e.g., diabetes, hypertension)",
+        "smoking status",
+        "baseline bleb appearance."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure (IOP), Type of Glaucoma, Duration of Glaucoma, Previous Glaucoma Medications, Baseline Visual Acuity, Baseline Central Corneal Thickness,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Diagnosis",
+          "Type of Glaucoma"
+        ],
+        [
+          "Preoperative Intraocular Pressure",
+          "Baseline Intraocular Pressure (IOP)"
+        ],
+        [
+          "Visual Acuity",
+          "Baseline Visual Acuity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Preoperative Visual Field Mean Deviation",
+        "Preoperative Pattern Standard Deviation",
+        "IOP Goal",
+        "Number of Medications"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Duration of Glaucoma",
+        "Previous Glaucoma Medications",
+        "Baseline Central Corneal Thickness"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diagnosis of open angle glaucoma, Previous glaucoma surgery, Best corrected visual acuity, Intraocular pressure, Cup-to-disc ratio, Visual field mean deviation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Diagnosis",
+          "Diagnosis of open angle glaucoma"
+        ],
+        [
+          "Preoperative Visual Field Mean Deviation",
+          "Visual field mean deviation."
+        ],
+        [
+          "Preoperative Intraocular Pressure",
+          "Intraocular pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Visual Acuity",
+        "Preoperative Pattern Standard Deviation",
+        "IOP Goal",
+        "Number of Medications"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Previous glaucoma surgery",
+        "Best corrected visual acuity",
+        "Cup-to-disc ratio"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, medical history of glaucoma, duration of glaucoma, previous glaucoma treatment, best-corrected visual acuity, refractive error, central corneal thickness, cup-to-disc ratio, number of glaucoma medications used, intraocular pressure at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Diagnosis",
+          "medical history of glaucoma"
+        ],
+        [
+          "Visual Acuity",
+          "best-corrected visual acuity"
+        ],
+        [
+          "Preoperative Intraocular Pressure",
+          "intraocular pressure at baseline"
+        ],
+        [
+          "Number of Medications",
+          "number of glaucoma medications used"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Preoperative Visual Field Mean Deviation",
+        "Preoperative Pattern Standard Deviation",
+        "IOP Goal"
+      ],
+      "remaining_candidate_features": [
+        "body mass index",
+        "duration of glaucoma",
+        "previous glaucoma treatment",
+        "refractive error",
+        "central corneal thickness",
+        "cup-to-disc ratio"
+      ]
+    }
+  }
+}

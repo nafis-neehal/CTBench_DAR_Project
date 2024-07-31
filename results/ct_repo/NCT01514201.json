@@ -1,0 +1,181 @@
+{
+  "trial_id": "NCT01514201",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, Karnofsky/Lansky performance score, absolute neutrophil count, platelet count, hemoglobin level, total bilirubin level, alanine aminotransferase (ALT) level, albumin level, creatinine clearance or serum creatinine level, pregnancy status (for females of childbearing potential), prior therapy received, ability to swallow oral medications, presence of disseminated disease, presence of active seizures or history of seizures, significant unrelated systemic illness, ability to return for follow-up visits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "pregnancy status (for females of childbearing potential)"
+        ],
+        [
+          "Male",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky/Lansky performance score",
+        "absolute neutrophil count",
+        "platelet count",
+        "hemoglobin level",
+        "total bilirubin level",
+        "alanine aminotransferase (ALT) level",
+        "albumin level",
+        "creatinine clearance or serum creatinine level",
+        "prior therapy received",
+        "ability to swallow oral medications",
+        "presence of disseminated disease",
+        "presence of active seizures or history of seizures",
+        "significant unrelated systemic illness",
+        "ability to return for follow-up visits"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky/Lansky Performance Score, Absolute Neutrophil Count, Platelet Count, Hemoglobin Level, Total Bilirubin, Alanine Aminotransferase (ALT), Albumin Level, Creatinine Clearance/GFR, Serum Creatinine,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky/Lansky Performance Score",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Hemoglobin Level",
+        "Total Bilirubin",
+        "Alanine Aminotransferase (ALT)",
+        "Albumin Level",
+        "Creatinine Clearance/GFR",
+        "Serum Creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky Performance Status, Lansky Performance Score, Histology, Tumor Location, Prior Surgery, Prior Steroid Use, Absolute Neutrophil Count, Platelet Count, Hemoglobin, Total Bilirubin, ALT, Albumin, Creatinine Clearance, Serum Creatinine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky Performance Status",
+        "Lansky Performance Score",
+        "Histology",
+        "Tumor Location",
+        "Prior Surgery",
+        "Prior Steroid Use",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Hemoglobin",
+        "Total Bilirubin",
+        "ALT",
+        "Albumin",
+        "Creatinine Clearance",
+        "Serum Creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, Karnofsky performance score, Lansky performance score, weight, height, body mass index, race, ethnicity, histologic diagnosis, tumor location, prior surgery, prior steroid use, absolute neutrophil count, platelet count, hemoglobin, total bilirubin, alanine aminotransferase, albumin, creatinine clearance, serum creatinine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky performance score",
+        "Lansky performance score",
+        "weight",
+        "height",
+        "body mass index",
+        "histologic diagnosis",
+        "tumor location",
+        "prior surgery",
+        "prior steroid use",
+        "absolute neutrophil count",
+        "platelet count",
+        "hemoglobin",
+        "total bilirubin",
+        "alanine aminotransferase",
+        "albumin",
+        "creatinine clearance",
+        "serum creatinine"
+      ]
+    }
+  }
+}

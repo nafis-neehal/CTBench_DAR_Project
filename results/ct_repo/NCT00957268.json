@@ -1,0 +1,212 @@
+{
+  "trial_id": "NCT00957268",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, weight, body mass index (BMI), fasting plasma glucose level, 2-hour plasma glucose level, random plasma glucose level, glycated hemoglobin (HbA1c), fasting serum C-peptide concentration, concomitant metformin use, concomitant statin or antihypertensive drug use, urine test result for substances of abuse, clinical chemistry results, hematology results, complete urinalysis results, hepatitis B surface antigen (HBsAg) test result, hepatitis C virus antibody (anti-HCV) test result, human immunodeficiency virus (HIV) history, hemoglobin value, systolic blood pressure, diastolic blood pressure, alanine aminotransferase (ALT) level, aspartate aminotransferase (AST) level, serum creatinine level, creatinine clearance (CrCl), history of abdominal surgery, history of thoracic or nonperipheral vascular surgery, 12-lead electrocardiogram (ECG) result, history of cancer, pregnancy status, lactation status, alcohol consumption, caffeine consumption, xanthine consumption, grapefruit juice consumption, Seville-type orange consumption, tobacco use, nutraceutical preparation use, use of specific medications (ketoconazole, fluconazole, gemfibrozil, rifampin, carbamazepine), peripheral venous access, medical history of type 1 diabetes, medical history of secondary forms of diabetes.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Smoking Status",
+          "tobacco use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose level",
+        "2-hour plasma glucose level",
+        "random plasma glucose level",
+        "glycated hemoglobin (HbA1c)",
+        "fasting serum C-peptide concentration",
+        "concomitant metformin use",
+        "concomitant statin or antihypertensive drug use",
+        "urine test result for substances of abuse",
+        "clinical chemistry results",
+        "hematology results",
+        "complete urinalysis results",
+        "hepatitis B surface antigen (HBsAg) test result",
+        "hepatitis C virus antibody (anti-HCV) test result",
+        "human immunodeficiency virus (HIV) history",
+        "hemoglobin value",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "alanine aminotransferase (ALT) level",
+        "aspartate aminotransferase (AST) level",
+        "serum creatinine level",
+        "creatinine clearance (CrCl)",
+        "history of abdominal surgery",
+        "history of thoracic or nonperipheral vascular surgery",
+        "12-lead electrocardiogram (ECG) result",
+        "history of cancer",
+        "pregnancy status",
+        "lactation status",
+        "alcohol consumption",
+        "caffeine consumption",
+        "xanthine consumption",
+        "grapefruit juice consumption",
+        "Seville-type orange consumption",
+        "nutraceutical preparation use",
+        "use of specific medications (ketoconazole, fluconazole, gemfibrozil, rifampin, carbamazepine)",
+        "peripheral venous access",
+        "medical history of type 1 diabetes",
+        "medical history of secondary forms of diabetes"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Fasting Plasma Glucose, HbA1c, Fasting Serum C-peptide, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Creatinine, Alanine Aminotransferase (ALT), Aspartate Aminotransferase (AST), Creatinine Clearance (CrCl), ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Smoking Status"
+      ],
+      "remaining_candidate_features": [
+        "Fasting Plasma Glucose",
+        "HbA1c",
+        "Fasting Serum C-peptide",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Serum Creatinine",
+        "Alanine Aminotransferase (ALT)",
+        "Aspartate Aminotransferase (AST)",
+        "Creatinine Clearance (CrCl)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Fasting Plasma Glucose, Duration of Diabetes, C-peptide Concentration, Metformin Use, Statin Use, Antihypertensive Use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Smoking Status"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "HbA1c",
+        "Fasting Plasma Glucose",
+        "Duration of Diabetes",
+        "C-peptide Concentration",
+        "Metformin Use",
+        "Statin Use",
+        "Antihypertensive Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, weight, body mass index (BMI), fasting plasma glucose level, 2-hour plasma glucose level, random plasma glucose level, glycated hemoglobin (HbA1c), fasting serum C-peptide concentration, metformin use, statin use, antihypertensive drug use, systolic blood pressure, diastolic blood pressure, alanine aminotransferase (ALT) level, aspartate aminotransferase (AST) level, serum creatinine level, creatinine clearance (CrCl), medical history of diabetes, medical history of other significant diseases.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Height",
+        "Smoking Status"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose level",
+        "2-hour plasma glucose level",
+        "random plasma glucose level",
+        "glycated hemoglobin (HbA1c)",
+        "fasting serum C-peptide concentration",
+        "metformin use",
+        "statin use",
+        "antihypertensive drug use",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "alanine aminotransferase (ALT) level",
+        "aspartate aminotransferase (AST) level",
+        "serum creatinine level",
+        "creatinine clearance (CrCl)",
+        "medical history of diabetes",
+        "medical history of other significant diseases."
+      ]
+    }
+  }
+}

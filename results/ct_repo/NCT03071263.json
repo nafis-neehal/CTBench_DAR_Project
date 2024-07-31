@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT03071263",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, baseline blood pressure, number of antihypertensive medications, baseline kidney function (eGFR), baseline serum potassium level, history of cardiovascular events, history of renal transplant, history of cancer, presence of heart rhythm abnormalities, alcohol use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "Baseline central laboratory serum potassium",
+          "baseline serum potassium level"
+        ],
+        [
+          "Baseline eGFR",
+          "baseline kidney function (eGFR)"
+        ],
+        [
+          "Systolic blood pressure as measured using automated office blood pressure device (AOBP SBP)",
+          "baseline blood pressure"
+        ],
+        [
+          "Antihypertensive Medications at Baseline",
+          "number of antihypertensive medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "history of cardiovascular events",
+        "history of renal transplant",
+        "history of cancer",
+        "presence of heart rhythm abnormalities",
+        "alcohol use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Blood Pressure, Number of Antihypertensive Medications, Baseline eGFR, Serum Potassium Levels, History of Cardiovascular Events, Duration of Chronic Kidney Disease,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Baseline eGFR",
+          "Baseline eGFR"
+        ],
+        [
+          "Baseline central laboratory serum potassium",
+          "Serum Potassium Levels"
+        ],
+        [
+          "Antihypertensive Medications at Baseline",
+          "Number of Antihypertensive Medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Systolic blood pressure as measured using automated office blood pressure device (AOBP SBP)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Baseline Blood Pressure",
+        "History of Cardiovascular Events",
+        "Duration of Chronic Kidney Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Blood Pressure, Serum Potassium, Number of Antihypertensive Medications, Duration of Hypertension, History of Cardiovascular Disease,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Baseline eGFR",
+          "eGFR"
+        ],
+        [
+          "Baseline central laboratory serum potassium",
+          "Serum Potassium"
+        ],
+        [
+          "Antihypertensive Medications at Baseline",
+          "Number of Antihypertensive Medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Systolic blood pressure as measured using automated office blood pressure device (AOBP SBP)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Blood Pressure",
+        "Duration of Hypertension",
+        "History of Cardiovascular Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, eGFR, serum potassium level, number of antihypertensive medications, duration of hypertension, duration of CKD, history of cardiovascular disease, history of diabetes, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Baseline central laboratory serum potassium",
+          "serum potassium level"
+        ],
+        [
+          "Baseline eGFR",
+          "eGFR"
+        ],
+        [
+          "Systolic blood pressure as measured using automated office blood pressure device (AOBP SBP)",
+          "systolic blood pressure"
+        ],
+        [
+          "Antihypertensive Medications at Baseline",
+          "number of antihypertensive medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "diastolic blood pressure",
+        "duration of hypertension",
+        "duration of CKD",
+        "history of cardiovascular disease",
+        "history of diabetes",
+        "smoking status"
+      ]
+    }
+  }
+}

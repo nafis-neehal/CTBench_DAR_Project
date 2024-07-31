@@ -1,0 +1,257 @@
+{
+  "trial_id": "NCT03127852",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Primary Chronic Disease (Heart Failure, COPD, CKD, Uncontrolled Hypertension), Comorbidities (e.g., Diabetes), Smoking History, Ejection Fraction (for HF patients), Spirometry Results (FEV1, FEV1/FVC ratio for COPD patients), eGFR (for CKD patients), Blood Pressure (for Hypertension patients), Language Proficiency, Ability to Use Telemonitoring System",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "SF-36 (Physical Component)",
+          "Quality of Life as Measured by SF-36"
+        ],
+        [
+          "Smoking History",
+          "Smoking History"
+        ],
+        [
+          "Ejection Fraction (for HF patients)",
+          "Ejection Fraction (for HF patients)"
+        ],
+        [
+          "Spirometry Results (FEV1, FEV1/FVC ratio for COPD patients)",
+          "Spirometry Results (FEV1, FEV1/FVC ratio for COPD patients)"
+        ],
+        [
+          "eGFR (for CKD patients)",
+          "eGFR (for CKD patients)"
+        ],
+        [
+          "Blood Pressure (for Hypertension patients)",
+          "Blood Pressure (for Hypertension patients)"
+        ],
+        [
+          "Language Proficiency",
+          "Patient or their caregiver speaks and reads English adequately to provide informed consent and understand the text prompts in the application."
+        ],
+        [
+          "Ability to Use Telemonitoring System",
+          "Ability to comply with using the telemonitoring system (e.g, able to stand on the weight scale, able to answer symptom questions, etc.)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Highest Education Achieved",
+        "Comfort with Smartphone",
+        "SF-36 (Mental Component)",
+        "HADS (Anxiety)",
+        "HADS (Depression)",
+        "SEMCD6",
+        "Hospital visits",
+        "ED visits",
+        "Clinic visits",
+        "Family physician visits",
+        "SCHFI (Maintenance)",
+        "SCHFI (Management)",
+        "SCHFI (Confidence)",
+        "MLHFQ (Total)",
+        "MLHFQ (Physical)",
+        "MLHFQ (Emotional)"
+      ],
+      "remaining_candidate_features": [
+        "Primary Chronic Disease (Heart Failure, COPD, CKD, Uncontrolled Hypertension)",
+        "Comorbidities (e.g., Diabetes)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Primary Chronic Disease Diagnosis, Ejection Fraction (for HF patients), Spirometry Results (for COPD patients), Estimated Glomerular Filtration Rate (eGFR) (for CKD patients), Blood Pressure, Smoking History, Pack-Years, Diabetes Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Highest Education Achieved",
+        "Comfort with Smartphone",
+        "SF-36 (Physical Component)",
+        "SF-36 (Mental Component)",
+        "HADS (Anxiety)",
+        "HADS (Depression)",
+        "SEMCD6",
+        "Hospital visits",
+        "ED visits",
+        "Clinic visits",
+        "Family physician visits",
+        "SCHFI (Maintenance)",
+        "SCHFI (Management)",
+        "SCHFI (Confidence)",
+        "MLHFQ (Total)",
+        "MLHFQ (Physical)",
+        "MLHFQ (Emotional)"
+      ],
+      "remaining_candidate_features": [
+        "Primary Chronic Disease Diagnosis",
+        "Ejection Fraction (for HF patients)",
+        "Spirometry Results (for COPD patients)",
+        "Estimated Glomerular Filtration Rate (eGFR) (for CKD patients)",
+        "Blood Pressure",
+        "Smoking History",
+        "Pack-Years",
+        "Diabetes Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Primary Chronic Disease, Comorbidities, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, FEV1, Smoking History, Pack-Years, Alpha-1 Antitrypsin Deficiency, Spirometric Diagnosis of COPD, GOLD Stage, Ejection Fraction, Diabetes Status, Hemoglobin A1c.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Highest Education Achieved",
+        "Comfort with Smartphone",
+        "SF-36 (Physical Component)",
+        "SF-36 (Mental Component)",
+        "HADS (Anxiety)",
+        "HADS (Depression)",
+        "SEMCD6",
+        "Hospital visits",
+        "ED visits",
+        "Clinic visits",
+        "Family physician visits",
+        "SCHFI (Maintenance)",
+        "SCHFI (Management)",
+        "SCHFI (Confidence)",
+        "MLHFQ (Total)",
+        "MLHFQ (Physical)",
+        "MLHFQ (Emotional)"
+      ],
+      "remaining_candidate_features": [
+        "Primary Chronic Disease",
+        "Comorbidities",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "eGFR",
+        "FEV1",
+        "Smoking History",
+        "Pack-Years",
+        "Alpha-1 Antitrypsin Deficiency",
+        "Spirometric Diagnosis of COPD",
+        "GOLD Stage",
+        "Ejection Fraction",
+        "Diabetes Status",
+        "Hemoglobin A1c."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, smoking status, medical history (including comorbidities and previous hospitalizations), medication use, blood pressure, heart rate, spirometry results (for COPD patients), ejection fraction (for HF patients), estimated glomerular filtration rate (for CKD patients), hemoglobin A1c (for diabetes patients), New York Heart Association (NYHA) functional class (for HF patients), GOLD stage (for COPD patients), Charlson Comorbidity Index, SF-36 scores at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "SF-36 (Physical Component)",
+          "SF-36 scores at baseline"
+        ],
+        [
+          "SF-36 (Mental Component)",
+          "SF-36 scores at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Highest Education Achieved",
+        "Comfort with Smartphone",
+        "HADS (Anxiety)",
+        "HADS (Depression)",
+        "SEMCD6",
+        "Hospital visits",
+        "ED visits",
+        "Clinic visits",
+        "Family physician visits",
+        "SCHFI (Maintenance)",
+        "SCHFI (Management)",
+        "SCHFI (Confidence)",
+        "MLHFQ (Total)",
+        "MLHFQ (Physical)",
+        "MLHFQ (Emotional)"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index",
+        "smoking status",
+        "medical history (including comorbidities and previous hospitalizations)",
+        "medication use",
+        "blood pressure",
+        "heart rate",
+        "spirometry results (for COPD patients)",
+        "ejection fraction (for HF patients)",
+        "estimated glomerular filtration rate (for CKD patients)",
+        "hemoglobin A1c (for diabetes patients)",
+        "New York Heart Association (NYHA) functional class (for HF patients)",
+        "GOLD stage (for COPD patients)",
+        "Charlson Comorbidity Index"
+      ]
+    }
+  }
+}

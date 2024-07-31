@@ -1,0 +1,161 @@
+{
+  "trial_id": "NCT00560391",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG Performance Status, prior therapies for multiple myeloma, time since last multiple myeloma treatment, time since bone marrow transplant, baseline hematology parameters, baseline chemistry parameters, presence of relapsed or refractory disease, history of cardiac disease, corrected QT interval, history of pleural effusion, history of coagulation or platelet function disorder, history of gastrointestinal toxicities, history of psychiatric conditions, history of hypersensitivity reactions to thalidomide.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "International Staging System (ISS)",
+          "ECOG Performance Status"
+        ],
+        [
+          "Time from diagnosis to first dosing",
+          "time since last multiple myeloma treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Durie-Salmon Staging System"
+      ],
+      "remaining_candidate_features": [
+        "prior therapies for multiple myeloma",
+        "time since bone marrow transplant",
+        "baseline hematology parameters",
+        "baseline chemistry parameters",
+        "presence of relapsed or refractory disease",
+        "history of cardiac disease",
+        "corrected QT interval",
+        "history of pleural effusion",
+        "history of coagulation or platelet function disorder",
+        "history of gastrointestinal toxicities",
+        "history of psychiatric conditions",
+        "history of hypersensitivity reactions to thalidomide"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Previous therapies for multiple myeloma, Time since last multiple myeloma treatment, Bone marrow transplant history, Baseline hematology parameters, Baseline chemistry parameters,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "International Staging System (ISS)",
+        "Durie-Salmon Staging System",
+        "Time from diagnosis to first dosing"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG Performance Status",
+        "Previous therapies for multiple myeloma",
+        "Time since last multiple myeloma treatment",
+        "Bone marrow transplant history",
+        "Baseline hematology parameters",
+        "Baseline chemistry parameters"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior MM therapy, Time since last MM treatment, Bone marrow transplant status, Hematology and chemistry parameters at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Time from diagnosis to first dosing",
+          "Time since last MM treatment"
+        ],
+        [
+          "Hematology and chemistry parameters at baseline",
+          "Hematology and chemistry parameters at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "International Staging System (ISS)",
+        "Durie-Salmon Staging System"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Prior MM therapy",
+        "Bone marrow transplant status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG Performance Status, number of prior therapies for multiple myeloma, time since diagnosis, time since last MM treatment, bone marrow transplant status, hematology parameters (e.g. hemoglobin, white blood cell count, platelet count), chemistry parameters (e.g. creatinine, bilirubin, AST, ALT), presence of comorbidities (e.g. cardiac disease, gastrointestinal toxicities, coagulation disorders).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Time from diagnosis to first dosing",
+          "time since diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "International Staging System (ISS)",
+        "Durie-Salmon Staging System"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "number of prior therapies for multiple myeloma",
+        "time since last MM treatment",
+        "bone marrow transplant status",
+        "hematology parameters (e.g. hemoglobin, white blood cell count, platelet count)",
+        "chemistry parameters (e.g. creatinine, bilirubin, AST, ALT)",
+        "presence of comorbidities (e.g. cardiac disease, gastrointestinal toxicities, coagulation disorders)"
+      ]
+    }
+  }
+}

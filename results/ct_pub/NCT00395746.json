@@ -1,0 +1,155 @@
+{
+  "trial_id": "NCT00395746",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, duration of diabetes, baseline HbA1c, baseline fasting plasma glucose, use of sulfonylurea, diet/exercise regimen, history of diabetes-related complications, concomitant medications, smoking status, blood pressure, lipid profile.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "baseline HbA1c"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "baseline fasting plasma glucose",
+        "use of sulfonylurea",
+        "diet/exercise regimen",
+        "history of diabetes-related complications",
+        "concomitant medications",
+        "smoking status",
+        "blood pressure",
+        "lipid profile"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, BMI, Duration of diabetes, HbA1c, Fasting plasma glucose, Blood pressure, Lipid profile, Smoking status, Concomitant medications, Previous cardiovascular events, Renal function (eGFR), Liver function tests, Physical activity level, Diet and exercise adherence.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Fasting plasma glucose",
+        "Blood pressure",
+        "Lipid profile",
+        "Smoking status",
+        "Concomitant medications",
+        "Previous cardiovascular events",
+        "Renal function (eGFR)",
+        "Liver function tests",
+        "Physical activity level",
+        "Diet and exercise adherence"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, BMI, Duration of diabetes, HbA1c, Fasting plasma glucose, Insulin regimen, Total daily insulin dose, Sulfonylurea regimen, Total daily sulfonylurea dose, History of cardiovascular disease, History of hypertension, History of dyslipidemia, Smoking history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Fasting plasma glucose",
+        "Insulin regimen",
+        "Total daily insulin dose",
+        "Sulfonylurea regimen",
+        "Total daily sulfonylurea dose",
+        "History of cardiovascular disease",
+        "History of hypertension",
+        "History of dyslipidemia",
+        "Smoking history"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, duration of diabetes, HbA1c at screening, type and dose of sulfonylurea, diabetes treatment history, comorbidities, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c at screening"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "type and dose of sulfonylurea",
+        "diabetes treatment history",
+        "comorbidities",
+        "smoking status"
+      ]
+    }
+  }
+}

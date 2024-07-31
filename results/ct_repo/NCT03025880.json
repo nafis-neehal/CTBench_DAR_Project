@@ -1,0 +1,211 @@
+{
+  "trial_id": "NCT03025880",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, histological/cytological confirmation of breast cancer, hormone receptor status, HER2 status, performance status (ECOG), prior treatments (anthracyclines, taxanes, hormone therapy), measurable lesion status, organ function (bone marrow, hepatic, renal, coagulation), life expectancy, pregnancy status, contraception use, compliance with study procedures.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) status",
+          "performance status (ECOG)"
+        ],
+        [
+          "Histopathologic Type",
+          "histological/cytological confirmation of breast cancer"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Menopause Status",
+        "Type of Disease for Cohort Purposes",
+        "Ki67 cut-off 20%",
+        "Histologic Grade"
+      ],
+      "remaining_candidate_features": [
+        "hormone receptor status",
+        "HER2 status",
+        "prior treatments (anthracyclines, taxanes, hormone therapy)",
+        "measurable lesion status",
+        "organ function (bone marrow, hepatic, renal, coagulation)",
+        "life expectancy",
+        "pregnancy status",
+        "contraception use",
+        "compliance with study procedures."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, ECOG Performance Status, Histological Subtype, Hormone Receptor Status, HER2 Status, Prior Treatments (Anthracyclines, Taxanes, Hormone Therapy), Measurable Disease at Baseline, Absolute Neutrophil Count (ANC), Platelet Count, Hemoglobin Level, Serum Total Bilirubin, Alkaline Phosphatase, AST, ALT, Albumin, Serum Creatinine, Creatinine Clearance, INR, PT, aPTT,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Histopathologic Type",
+          "Histological Subtype"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Menopause Status",
+        "Type of Disease for Cohort Purposes",
+        "Ki67 cut-off 20%",
+        "Histologic Grade"
+      ],
+      "remaining_candidate_features": [
+        "Hormone Receptor Status",
+        "HER2 Status",
+        "Prior Treatments (Anthracyclines, Taxanes, Hormone Therapy)",
+        "Measurable Disease at Baseline",
+        "Absolute Neutrophil Count (ANC)",
+        "Platelet Count",
+        "Hemoglobin Level",
+        "Serum Total Bilirubin",
+        "Alkaline Phosphatase",
+        "AST",
+        "ALT",
+        "Albumin",
+        "Serum Creatinine",
+        "Creatinine Clearance",
+        "INR",
+        "PT",
+        "aPTT"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Eastern Cooperative Oncology Group (ECOG) Performance Status, Histological type of breast cancer (Luminal A, Luminal B, Triple Negative), ER status, PR status, HER2 status, Ki67 status, Number of prior lines of chemotherapy, Number of prior lines of hormone therapy, Presence of visceral metastases, Presence of bone metastases, Presence of liver metastases, Presence of lung metastases, Baseline ECOG Performance Status, Baseline ANC, Baseline Platelets, Baseline Hemoglobin, Baseline Serum Creatinine, Baseline Albumin, Baseline AST, Baseline ALT, Baseline Alkaline Phosphatase, Baseline Total Bilirubin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) status",
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status"
+        ],
+        [
+          "Histopathologic Type",
+          "Histological type of breast cancer (Luminal A, Luminal B, Triple Negative)"
+        ],
+        [
+          "Ki67 cut-off 20%",
+          "Ki67 status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Menopause Status",
+        "Type of Disease for Cohort Purposes",
+        "Histologic Grade"
+      ],
+      "remaining_candidate_features": [
+        "ER status",
+        "PR status",
+        "HER2 status",
+        "Number of prior lines of chemotherapy",
+        "Number of prior lines of hormone therapy",
+        "Presence of visceral metastases",
+        "Presence of bone metastases",
+        "Presence of liver metastases",
+        "Presence of lung metastases",
+        "Baseline ECOG Performance Status",
+        "Baseline ANC",
+        "Baseline Platelets",
+        "Baseline Hemoglobin",
+        "Baseline Serum Creatinine",
+        "Baseline Albumin",
+        "Baseline AST",
+        "Baseline ALT",
+        "Baseline Alkaline Phosphatase",
+        "Baseline Total Bilirubin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, hormone receptor status, HER2 status, tumor subtype (luminal A, luminal B, triple negative), prior anthracycline and taxane treatment, prior hormone therapy, number of prior lines of therapy, presence of metastases, measurable lesion size, Ki67 expression, ER expression, PgR expression.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) status",
+          "ECOG performance status"
+        ],
+        [
+          "Ki67 cut-off 20%",
+          "Ki67 expression"
+        ],
+        [
+          "Histopathologic Type",
+          "tumor subtype (luminal A, luminal B, triple negative)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Menopause Status",
+        "Type of Disease for Cohort Purposes",
+        "Histologic Grade"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "hormone receptor status",
+        "HER2 status",
+        "prior anthracycline and taxane treatment",
+        "prior hormone therapy",
+        "number of prior lines of therapy",
+        "presence of metastases",
+        "measurable lesion size",
+        "ER expression",
+        "PgR expression"
+      ]
+    }
+  }
+}

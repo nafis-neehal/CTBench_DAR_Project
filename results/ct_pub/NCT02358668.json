@@ -1,0 +1,313 @@
+{
+  "trial_id": "NCT02358668",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, ethnicity, fasting plasma glucose (FPG), 2-hour plasma glucose (PG) during 75 gram OGTT, HbA1c, history of gestational diabetes, family history of diabetes in first degree relative, triglyceride levels, blood pressure (BP), high-density lipoprotein (HDL) cholesterol, waist circumference, use of anti-hypertensive agents, use of lipid-lowering drugs, estimated glomerular filtration rate (eGFR), history of cardiovascular disease, history of eating disorder, pregnancy status, gastrointestinal disease status, use of dietary supplements affecting glucose or galactose metabolism, use of investigational products within 30 days.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex (Male)",
+          "sex"
+        ],
+        [
+          "Triglyceride",
+          "triglyceride levels"
+        ],
+        [
+          "HDL-cholesterol",
+          "high-density lipoprotein (HDL) cholesterol"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Impaired fasting glucose",
+          "fasting plasma glucose (FPG)"
+        ],
+        [
+          "Impaired glucose tolerance",
+          "2-hour plasma glucose (PG) during 75 gram OGTT"
+        ],
+        [
+          "Waist",
+          "waist circumference"
+        ],
+        [
+          "Hypertension",
+          "blood pressure (BP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight",
+        "BMI",
+        "Systolic blood pressure",
+        "Diastolic blood pressure",
+        "Total cholesterol",
+        "LDL-cholesterol",
+        "Fructosamine",
+        "Dyslipidemia",
+        "Obesity",
+        "Both impaired fasting glucose and impaired glucose tolerance",
+        "Normal glucose tolerance and HbA1c 5.7%-6.4%",
+        "1-h AUC post-prandial",
+        "2-h AUC post-prandial",
+        "3-h AUC post-prandial",
+        "72-h AUC post-prandial",
+        "Mean blood glucose",
+        "Mean post-meal maximum glucose",
+        "mean amplitude of glucose excursion",
+        "cofficient of variation %",
+        "SD"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "history of gestational diabetes",
+        "family history of diabetes in first degree relative",
+        "use of anti-hypertensive agents",
+        "use of lipid-lowering drugs",
+        "estimated glomerular filtration rate (eGFR)",
+        "history of cardiovascular disease",
+        "history of eating disorder",
+        "pregnancy status",
+        "gastrointestinal disease status",
+        "use of dietary supplements affecting glucose or galactose metabolism",
+        "use of investigational products within 30 days."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Ethnicity, BMI, Waist circumference, Fasting plasma glucose (FPG), 2-hour postload glucose (PG), HbA1c, History of gestational diabetes, Family history of diabetes, Components of metabolic syndrome (triglycerides, blood pressure, HDL cholesterol), Use of antihypertensive agents, Use of lipid-lowering drugs, Estimated glomerular filtration rate (eGFR)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex (Male)",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Waist",
+          "Waist circumference"
+        ],
+        [
+          "Triglyceride",
+          "Components of metabolic syndrome (triglycerides, blood pressure, HDL cholesterol)"
+        ],
+        [
+          "Systolic blood pressure",
+          "Components of metabolic syndrome (triglycerides, blood pressure, HDL cholesterol)"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Components of metabolic syndrome (triglycerides, blood pressure, HDL cholesterol)"
+        ],
+        [
+          "HDL-cholesterol",
+          "Components of metabolic syndrome (triglycerides, blood pressure, HDL cholesterol)"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Impaired fasting glucose",
+          "Fasting plasma glucose (FPG)"
+        ],
+        [
+          "Impaired glucose tolerance",
+          "2-hour postload glucose (PG)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight",
+        "Total cholesterol",
+        "LDL-cholesterol",
+        "Fructosamine",
+        "Hypertension",
+        "Dyslipidemia",
+        "Obesity",
+        "Both impaired fasting glucose and impaired glucose tolerance",
+        "Normal glucose tolerance and HbA1c 5.7%-6.4%",
+        "1-h AUC post-prandial",
+        "2-h AUC post-prandial",
+        "3-h AUC post-prandial",
+        "72-h AUC post-prandial",
+        "Mean blood glucose",
+        "Mean post-meal maximum glucose",
+        "mean amplitude of glucose excursion",
+        "cofficient of variation %",
+        "SD"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "History of gestational diabetes",
+        "Family history of diabetes",
+        "Use of antihypertensive agents",
+        "Use of lipid-lowering drugs",
+        "Estimated glomerular filtration rate (eGFR)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnicity, BMI, Waist circumference, Fasting plasma glucose, 2-hour postprandial glucose, HbA1c, Family history of diabetes, History of gestational diabetes, Blood pressure, Triglyceride, HDL cholesterol, Lipid-lowering treatment, Anti-hypertensive treatment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex (Male)",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Waist",
+          "Waist circumference"
+        ],
+        [
+          "Systolic blood pressure",
+          "Blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Blood pressure"
+        ],
+        [
+          "Triglyceride",
+          "Triglyceride"
+        ],
+        [
+          "HDL-cholesterol",
+          "HDL cholesterol"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight",
+        "Total cholesterol",
+        "LDL-cholesterol",
+        "Fructosamine",
+        "Hypertension",
+        "Dyslipidemia",
+        "Obesity",
+        "Impaired fasting glucose",
+        "Impaired glucose tolerance",
+        "Both impaired fasting glucose and impaired glucose tolerance",
+        "Normal glucose tolerance and HbA1c 5.7%-6.4%",
+        "1-h AUC post-prandial",
+        "2-h AUC post-prandial",
+        "3-h AUC post-prandial",
+        "72-h AUC post-prandial",
+        "Mean blood glucose",
+        "Mean post-meal maximum glucose",
+        "mean amplitude of glucose excursion",
+        "cofficient of variation %",
+        "SD"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "Fasting plasma glucose",
+        "2-hour postprandial glucose",
+        "Family history of diabetes",
+        "History of gestational diabetes",
+        "Lipid-lowering treatment",
+        "Anti-hypertensive treatment."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, fasting plasma glucose (FPG), 2-hour postprandial glucose (PPG), hemoglobin A1c (HbA1c), triglycerides, high-density lipoprotein (HDL) cholesterol, low-density lipoprotein (LDL) cholesterol, waist circumference, family history of diabetes, history of gestational diabetes, history of hypertension, history of hyperlipidaemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex (Male)",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Systolic blood pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "diastolic blood pressure"
+        ],
+        [
+          "LDL-cholesterol",
+          "low-density lipoprotein (LDL) cholesterol"
+        ],
+        [
+          "Triglyceride",
+          "triglycerides"
+        ],
+        [
+          "HDL-cholesterol",
+          "high-density lipoprotein (HDL) cholesterol"
+        ],
+        [
+          "HbA1c",
+          "hemoglobin A1c (HbA1c)"
+        ],
+        [
+          "Waist",
+          "waist circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight",
+        "Total cholesterol",
+        "Fructosamine",
+        "Hypertension",
+        "Dyslipidemia",
+        "Obesity",
+        "Impaired fasting glucose",
+        "Impaired glucose tolerance",
+        "Both impaired fasting glucose and impaired glucose tolerance",
+        "Normal glucose tolerance and HbA1c 5.7%-6.4%",
+        "1-h AUC post-prandial",
+        "2-h AUC post-prandial",
+        "3-h AUC post-prandial",
+        "72-h AUC post-prandial",
+        "Mean blood glucose",
+        "Mean post-meal maximum glucose",
+        "mean amplitude of glucose excursion",
+        "cofficient of variation %",
+        "SD"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "fasting plasma glucose (FPG)",
+        "2-hour postprandial glucose (PPG)",
+        "family history of diabetes",
+        "history of gestational diabetes",
+        "history of hypertension",
+        "history of hyperlipidaemia"
+      ]
+    }
+  }
+}

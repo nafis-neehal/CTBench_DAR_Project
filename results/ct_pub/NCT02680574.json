@@ -1,0 +1,199 @@
+{
+  "trial_id": "NCT02680574",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, estimated glomerular filtration rate (eGFR), baseline hemoglobin level, serum ferritin level, transferrin saturation (TSAT), current erythropoiesis-stimulating agents (ESA) therapy, history of hypertension, history of heart failure, history of acute coronary syndrome, history of stroke, hypersensitivity to study drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Female sex",
+          "gender"
+        ],
+        [
+          "Race or ethnic group",
+          "race"
+        ],
+        [
+          "Estimated GFR",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Hemoglobin",
+          "baseline hemoglobin level"
+        ],
+        [
+          "Disease history",
+          "history of hypertension"
+        ],
+        [
+          "Blood pressure",
+          "history of heart failure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Hispanic ethnic group",
+        "Serum potassium",
+        "Supplemental iron use"
+      ],
+      "remaining_candidate_features": [
+        "serum ferritin level",
+        "transferrin saturation (TSAT)",
+        "current erythropoiesis-stimulating agents (ESA) therapy",
+        "history of acute coronary syndrome",
+        "history of stroke",
+        "hypersensitivity to study drugs."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Ethnicity, Body Mass Index (BMI), Duration of Chronic Kidney Disease (CKD), Baseline Hemoglobin (Hb) levels, Serum Ferritin, Transferrin Saturation (TSAT), Estimated Glomerular Filtration Rate (eGFR), Blood Pressure (Systolic and Diastolic), History of Cardiovascular Disease, Use of Erythropoiesis-Stimulating Agents (ESA), Concomitant Medications, Smoking Status, History of Hypertension, History of Heart Failure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Female sex",
+          "Sex"
+        ],
+        [
+          "Race or ethnic group",
+          "Race"
+        ],
+        [
+          "Hispanic ethnic group",
+          "Ethnicity"
+        ],
+        [
+          "Estimated GFR",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ],
+        [
+          "Disease history",
+          "History of Cardiovascular Disease"
+        ],
+        [
+          "Hemoglobin",
+          "Baseline Hemoglobin (Hb) levels"
+        ],
+        [
+          "Blood pressure",
+          "Blood Pressure (Systolic and Diastolic)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Serum potassium",
+        "Supplemental iron use"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index (BMI)",
+        "Duration of Chronic Kidney Disease (CKD)",
+        "Serum Ferritin",
+        "Transferrin Saturation (TSAT)",
+        "Use of Erythropoiesis-Stimulating Agents (ESA)",
+        "Concomitant Medications",
+        "Smoking Status",
+        "History of Hypertension",
+        "History of Heart Failure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Race, Ethnicity, Body Mass Index (BMI), Estimated Glomerular Filtration Rate (eGFR), Hemoglobin, Serum Ferritin, Transferrin Saturation (TSAT), History of Cardiovascular Disease, History of Hypertension, History of Heart Failure, New York Heart Association (NYHA) Class, History of Red Blood Cell Transfusion, History of Erythropoiesis-Stimulating Agents (ESA) Therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Female sex",
+          "Sex"
+        ],
+        [
+          "Race or ethnic group",
+          "Race"
+        ],
+        [
+          "Hispanic ethnic group",
+          "Ethnicity"
+        ],
+        [
+          "Estimated GFR",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ],
+        [
+          "Hemoglobin",
+          "Hemoglobin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Disease history",
+        "Blood pressure",
+        "Serum potassium",
+        "Supplemental iron use"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index (BMI)",
+        "Serum Ferritin",
+        "Transferrin Saturation (TSAT)",
+        "History of Cardiovascular Disease",
+        "History of Hypertension",
+        "History of Heart Failure",
+        "New York Heart Association (NYHA) Class",
+        "History of Red Blood Cell Transfusion",
+        "History of Erythropoiesis-Stimulating Agents (ESA) Therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), estimated glomerular filtration rate (eGFR), hemoglobin (Hb) level, serum ferritin level, transferrin saturation (TSAT), erythropoiesis-stimulating agent (ESA) dose, duration of CKD, comorbidities (e.g., hypertension, heart failure, coronary artery disease).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Female sex",
+          "sex"
+        ],
+        [
+          "Race or ethnic group",
+          "race"
+        ],
+        [
+          "Hispanic ethnic group",
+          "ethnicity"
+        ],
+        [
+          "Estimated GFR",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Hemoglobin",
+          "hemoglobin (Hb) level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Disease history",
+        "Blood pressure",
+        "Serum potassium",
+        "Supplemental iron use"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "serum ferritin level",
+        "transferrin saturation (TSAT)",
+        "erythropoiesis-stimulating agent (ESA) dose",
+        "duration of CKD",
+        "comorbidities (e.g., hypertension, heart failure, coronary artery disease)."
+      ]
+    }
+  }
+}

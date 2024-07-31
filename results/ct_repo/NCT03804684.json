@@ -1,0 +1,151 @@
+{
+  "trial_id": "NCT03804684",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, intraocular pressure, mean deviation, spherical refraction, cylinder correction, history of intraocular surgery, history of systemic conditions affecting visual function, history of medication affecting visual function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Mild to Moderate Glaucoma",
+          "mean deviation"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Number of eyes analyzed"
+      ],
+      "remaining_candidate_features": [
+        "intraocular pressure",
+        "spherical refraction",
+        "cylinder correction",
+        "history of intraocular surgery",
+        "history of systemic conditions affecting visual function",
+        "history of medication affecting visual function."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Intraocular Pressure, Mean Deviation, Spherical Refraction, Cylinder Correction,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Mild to Moderate Glaucoma",
+        "Number of eyes analyzed"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Intraocular Pressure",
+        "Mean Deviation",
+        "Spherical Refraction",
+        "Cylinder Correction"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Refractive Error, Intraocular Pressure, Mean Deviation, Pattern Standard Deviation, Visual Acuity.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Mild to Moderate Glaucoma",
+          "Mean Deviation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Number of eyes analyzed"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Refractive Error",
+        "Intraocular Pressure",
+        "Pattern Standard Deviation",
+        "Visual Acuity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, spherical refraction, cylinder correction, intraocular pressure, mean deviation, presence of glaucoma (mild or moderate), history of systemic condition known to affect visual function, history of medication known to affect visual function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Mild to Moderate Glaucoma",
+          "presence of glaucoma (mild or moderate)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Number of eyes analyzed"
+      ],
+      "remaining_candidate_features": [
+        "spherical refraction",
+        "cylinder correction",
+        "intraocular pressure",
+        "mean deviation",
+        "history of systemic condition known to affect visual function",
+        "history of medication known to affect visual function."
+      ]
+    }
+  }
+}

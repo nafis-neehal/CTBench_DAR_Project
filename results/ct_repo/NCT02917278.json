@@ -1,0 +1,181 @@
+{
+  "trial_id": "NCT02917278",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, dialysis shift schedule, baseline nutritional status, baseline quality of life measures, baseline systolic blood pressure, baseline blood biochemistries, baseline renal function, baseline electrolyte balance, baseline dialysis compliance, baseline fluid retention, baseline sleep quality, baseline dietary intake.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race and Ethnicity Not Collected",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "kg/m^2",
+        "Years on Dialysis"
+      ],
+      "remaining_candidate_features": [
+        "dialysis shift schedule",
+        "baseline nutritional status",
+        "baseline quality of life measures",
+        "baseline systolic blood pressure",
+        "baseline blood biochemistries",
+        "baseline renal function",
+        "baseline electrolyte balance",
+        "baseline dialysis compliance",
+        "baseline fluid retention",
+        "baseline sleep quality",
+        "baseline dietary intake."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Blood Urea Nitrogen (BUN), Serum Creatinine, Serum Albumin, Hemoglobin, Dialysis vintage, Dietary protein intake, Quality of Life measures,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Years on Dialysis",
+          "Dialysis vintage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "kg/m^2"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Blood Urea Nitrogen (BUN)",
+        "Serum Creatinine",
+        "Serum Albumin",
+        "Hemoglobin",
+        "Dietary protein intake",
+        "Quality of Life measures"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Dialysis vintage, Albumin, Hemoglobin, Kt/V, Phosphorus, Calcium, Parathyroid hormone, Interdialytic weight gain,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race and Ethnicity Not Collected",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Years on Dialysis",
+          "Dialysis vintage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "kg/m^2"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Albumin",
+        "Hemoglobin",
+        "Kt/V",
+        "Phosphorus",
+        "Calcium",
+        "Parathyroid hormone",
+        "Interdialytic weight gain"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, body mass index (BMI), dialysis vintage, comorbidities (e.g., diabetes, hypertension), serum albumin, normalized protein catabolic rate (nPCR), urea reduction ratio (URR), systolic blood pressure, diastolic blood pressure, hemoglobin, electrolyte levels (e.g., potassium, sodium), fluid retention, sleep quality, quality of life scores, dietary intake data.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race and Ethnicity Not Collected",
+          "race"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Years on Dialysis",
+          "dialysis vintage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "kg/m^2"
+      ],
+      "remaining_candidate_features": [
+        "comorbidities (e.g., diabetes, hypertension)",
+        "serum albumin",
+        "normalized protein catabolic rate (nPCR)",
+        "urea reduction ratio (URR)",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "hemoglobin",
+        "electrolyte levels (e.g., potassium, sodium)",
+        "fluid retention",
+        "sleep quality",
+        "quality of life scores",
+        "dietary intake data."
+      ]
+    }
+  }
+}

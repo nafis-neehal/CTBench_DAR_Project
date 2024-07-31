@@ -1,0 +1,211 @@
+{
+  "trial_id": "NCT01847313",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), HbA1c levels, estimated glomerular filtration rate (eGFR), presence of microalbuminuria, use of renin-angiotensin system antagonist, duration of diabetes, baseline kidney function, baseline inflammation markers, baseline MCP-1:Creatinine ratio in urine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c",
+          "HbA1c levels"
+        ],
+        [
+          "Estimated glomerular filtration rate",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Urinary albumin excretion rate",
+          "presence of microalbuminuria"
+        ],
+        [
+          "MCP-1:Creatinine Ratio in Urine",
+          "baseline MCP-1:Creatinine ratio in urine"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Systolic blood pressure",
+        "Diastolic Blood Pressure",
+        "sCD163:creatinine ratio in urine",
+        "sCD163 in serum"
+      ],
+      "remaining_candidate_features": [
+        "use of renin-angiotensin system antagonist",
+        "baseline kidney function",
+        "baseline inflammation markers"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, HbA1c, Estimated Glomerular Filtration Rate (eGFR), Microalbuminuria, Use of renin-angiotensin system antagonist,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Estimated glomerular filtration rate",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Duration of diabetes",
+        "Systolic blood pressure",
+        "Diastolic Blood Pressure",
+        "Urinary albumin excretion rate",
+        "MCP-1:Creatinine Ratio in Urine",
+        "sCD163:creatinine ratio in urine",
+        "sCD163 in serum"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Microalbuminuria",
+        "Use of renin-angiotensin system antagonist"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, HbA1c, eGFR, Duration of Diabetes, History of Cardiovascular Disease, Systolic Blood Pressure, Diastolic Blood Pressure, Urinary Albumin-to-Creatinine Ratio, Estimated Glomerular Filtration Rate.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Estimated glomerular filtration rate",
+          "eGFR"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Duration of diabetes",
+        "Urinary albumin excretion rate",
+        "MCP-1:Creatinine Ratio in Urine",
+        "sCD163:creatinine ratio in urine",
+        "sCD163 in serum"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes",
+        "History of Cardiovascular Disease",
+        "Urinary Albumin-to-Creatinine Ratio",
+        "Estimated Glomerular Filtration Rate."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, HbA1c, eGFR, duration of diabetes, history of hypertension, history of cardiovascular disease, smoking status, use of renin-angiotensin system antagonists, use of other diabetes medications, presence of microalbuminuria, presence of proliferative diabetic retinopathy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Estimated glomerular filtration rate",
+          "eGFR"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Urinary albumin excretion rate",
+          "presence of microalbuminuria"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Systolic blood pressure",
+        "Diastolic Blood Pressure",
+        "MCP-1:Creatinine Ratio in Urine",
+        "sCD163:creatinine ratio in urine",
+        "sCD163 in serum"
+      ],
+      "remaining_candidate_features": [
+        "history of hypertension",
+        "history of cardiovascular disease",
+        "smoking status",
+        "use of renin-angiotensin system antagonists",
+        "use of other diabetes medications",
+        "presence of proliferative diabetic retinopathy"
+      ]
+    }
+  }
+}

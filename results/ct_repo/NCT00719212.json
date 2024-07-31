@@ -1,0 +1,197 @@
+{
+  "trial_id": "NCT00719212",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, histological subtype of ovarian cancer, prior treatment regimens, time since last platinum-based chemotherapy, CA 125 levels, organ and bone marrow function, HgbA1c levels, fasting blood glucose levels, coagulation parameters (INR, APTT), presence of measurable disease, presence of non-measurable disease with biochemical recurrence, resolution of prior therapy toxic effects, and adequate organ function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Eastern Cooperative Oncology Group Performance Status (ECOG PS)",
+          "ECOG performance status"
+        ],
+        [
+          "Histopathologic Type",
+          "histological subtype of ovarian cancer"
+        ],
+        [
+          "Number of prior therapies",
+          "prior treatment regimens"
+        ],
+        [
+          "CA 125 status",
+          "CA 125 levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Time from initial diagnosis to registration",
+        "Origin of tumor",
+        "Stage at First Diagnosis (International Federation of Gynecology and Obstetrics (FIGO) )",
+        "Histologic Grade (G)"
+      ],
+      "remaining_candidate_features": [
+        "time since last platinum-based chemotherapy",
+        "organ and bone marrow function",
+        "HgbA1c levels",
+        "fasting blood glucose levels",
+        "coagulation parameters (INR, APTT)",
+        "presence of measurable disease",
+        "presence of non-measurable disease with biochemical recurrence",
+        "resolution of prior therapy toxic effects",
+        "and adequate organ function."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, ECOG performance status, Baseline CA-125 levels, Prior chemotherapy regimen, Time since last platinum-based chemotherapy, Measurable disease status, Organ and bone marrow function, Coagulation parameters, Diabetes status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Eastern Cooperative Oncology Group Performance Status (ECOG PS)",
+          "ECOG performance status"
+        ],
+        [
+          "CA 125 status",
+          "Baseline CA-125 levels"
+        ],
+        [
+          "Number of prior therapies",
+          "Prior chemotherapy regimen"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Time from initial diagnosis to registration",
+        "Origin of tumor",
+        "Stage at First Diagnosis (International Federation of Gynecology and Obstetrics (FIGO) )",
+        "Histopathologic Type",
+        "Histologic Grade (G)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Time since last platinum-based chemotherapy",
+        "Measurable disease status",
+        "Organ and bone marrow function",
+        "Coagulation parameters",
+        "Diabetes status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, ECOG Performance Status, Platinum-free Interval, Number of Prior Chemotherapy Regimens, CA-125 Level, Histological Subtype, Grade of Disease, Presence of Measurable Disease, Presence of Ascites, Diabetes Status, HbA1c Level, Fasting Blood Glucose Level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Eastern Cooperative Oncology Group Performance Status (ECOG PS)",
+          "ECOG Performance Status"
+        ],
+        [
+          "Number of prior therapies",
+          "Number of Prior Chemotherapy Regimens"
+        ],
+        [
+          "CA 125 status",
+          "CA-125 Level"
+        ],
+        [
+          "Histopathologic Type",
+          "Histological Subtype"
+        ],
+        [
+          "Histologic Grade (G)",
+          "Grade of Disease"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Time from initial diagnosis to registration",
+        "Origin of tumor",
+        "Stage at First Diagnosis (International Federation of Gynecology and Obstetrics (FIGO) )"
+      ],
+      "remaining_candidate_features": [
+        "Platinum-free Interval",
+        "Presence of Measurable Disease",
+        "Presence of Ascites",
+        "Diabetes Status",
+        "HbA1c Level",
+        "Fasting Blood Glucose Level."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, ECOG performance status, histological subtype of ovarian cancer, prior treatment regimens, time to recurrence, CA 125 levels, measurable disease status, platinum sensitivity status, diabetes status, HgbA1c levels, fasting blood glucose levels, International Normalized Ratio (INR), Activated ProThrombin Time (APTT).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Eastern Cooperative Oncology Group Performance Status (ECOG PS)",
+          "ECOG performance status"
+        ],
+        [
+          "Histopathologic Type",
+          "histological subtype of ovarian cancer"
+        ],
+        [
+          "Number of prior therapies",
+          "prior treatment regimens"
+        ],
+        [
+          "CA 125 status",
+          "CA 125 levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Time from initial diagnosis to registration",
+        "Origin of tumor",
+        "Stage at First Diagnosis (International Federation of Gynecology and Obstetrics (FIGO) )",
+        "Histologic Grade (G)"
+      ],
+      "remaining_candidate_features": [
+        "time to recurrence",
+        "measurable disease status",
+        "platinum sensitivity status",
+        "diabetes status",
+        "HgbA1c levels",
+        "fasting blood glucose levels",
+        "International Normalized Ratio (INR)",
+        "Activated ProThrombin Time (APTT)"
+      ]
+    }
+  }
+}

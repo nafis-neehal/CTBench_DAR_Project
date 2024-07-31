@@ -1,0 +1,294 @@
+{
+  "trial_id": "NCT00486525",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Stage of breast cancer, Time since completion of cancer treatment, Hemoglobin level, Physical activity level, Prior yoga or related activity participation, Comorbid conditions (e.g., diabetes, COPD, hypertension), Use of medications with immunological consequences, Ability to participate in yoga intervention, History of other cancers, Mental health status, Visual or auditory problems, Cardiovascular history, Alcohol or drug abuse history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Cancer Stage",
+          "Stage of breast cancer"
+        ],
+        [
+          "Time since treatment",
+          "Time since completion of cancer treatment"
+        ],
+        [
+          "Hemoglobin level",
+          "Hemoglobin level"
+        ],
+        [
+          "Physical activity level",
+          "Physical activity level"
+        ],
+        [
+          "CES-D depressive symptoms",
+          "Mental health status"
+        ],
+        [
+          "Usage of Tamoxifen/Aromatase Inhibitors",
+          "Use of medications with immunological consequences"
+        ],
+        [
+          "History of other cancers",
+          "History of other cancers"
+        ],
+        [
+          "Significant visual or auditory problems",
+          "Visual or auditory problems"
+        ],
+        [
+          "Notable serious cardiovascular history",
+          "Cardiovascular history"
+        ],
+        [
+          "Alcohol or drug abuse",
+          "Alcohol or drug abuse history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "BMI",
+        "SAD",
+        "Ethnicity",
+        "CHAMPS activity",
+        "MFSI-SF Fatigue",
+        "SF-36 Vitality",
+        "Marital Status",
+        "Education level",
+        "Employment Status",
+        "Income level",
+        "Type of Treatment",
+        "HER2 Receptor Status",
+        "Progesterone Receptor Status",
+        "Estrogen Receptor Status",
+        "Post-menopausal",
+        "Time since diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Prior yoga or related activity participation",
+        "Comorbid conditions (e.g., diabetes, COPD, hypertension)",
+        "Ability to participate in yoga intervention"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Cancer Stage, Time Since Completion of Cancer Treatment, Hemoglobin Level, Physical Activity Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Cancer Stage",
+          "Cancer Stage"
+        ],
+        [
+          "Time since treatment",
+          "Time Since Completion of Cancer Treatment"
+        ],
+        [
+          "Hemoglobin \u2265 10 g/dL",
+          "Hemoglobin Level"
+        ],
+        [
+          "Physical Activity Level",
+          "Physical Activity Level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "BMI",
+        "SAD",
+        "CES-D depressive symptoms",
+        "Usage of Cardiac Medication",
+        "CHAMPS activity",
+        "MFSI-SF Fatigue",
+        "SF-36 Vitality",
+        "Marital Status",
+        "Education level",
+        "Employment Status",
+        "Income level",
+        "Type of Treatment",
+        "HER2 Receptor Status",
+        "Progesterone Receptor Status",
+        "Estrogen Receptor Status",
+        "Usage of Tamoxifen/Aromatase Inhibitors",
+        "Post-menopausal",
+        "Time since diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hemoglobin, History of Breast Cancer, Time Since Cancer Treatment, Prior Surgery, Adjuvant Therapy, Radiotherapy, History of Inflammatory Breast Cancer, History of Diabetes, History of Chronic Obstructive Pulmonary Disease, History of Uncontrolled Hypertension, History of Liver or Kidney Failure, History of Symptomatic Ischemic Heart Disease, History of Significant Visual or Auditory Problems, History of Mental Disorder or Cognitive Impairment, History of Notable Serious Cardiovascular History.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "CES-D depressive symptoms",
+          "CES-D"
+        ],
+        [
+          "MFSI-SF Fatigue",
+          "MFSI-SF Fatigue"
+        ],
+        [
+          "SF-36 Vitality",
+          "SF-36"
+        ],
+        [
+          "Cancer Stage",
+          "History of Breast Cancer"
+        ],
+        [
+          "Usage of Tamoxifen/Aromatase Inhibitors",
+          "Time Since Cancer Treatment"
+        ],
+        [
+          "Time since treatment",
+          "Time Since Cancer Treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "SAD",
+        "CHAMPS activity",
+        "Marital Status",
+        "Education level",
+        "Employment Status",
+        "Income level",
+        "Type of Treatment",
+        "HER2 Receptor Status",
+        "Progesterone Receptor Status",
+        "Estrogen Receptor Status",
+        "Post-menopausal",
+        "Time since diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Hemoglobin",
+        "Prior Surgery",
+        "Adjuvant Therapy",
+        "Radiotherapy",
+        "History of Inflammatory Breast Cancer",
+        "History of Diabetes",
+        "History of Chronic Obstructive Pulmonary Disease",
+        "History of Uncontrolled Hypertension",
+        "History of Liver or Kidney Failure",
+        "History of Symptomatic Ischemic Heart Disease",
+        "History of Significant Visual or Auditory Problems",
+        "History of Mental Disorder or Cognitive Impairment",
+        "History of Notable Serious Cardiovascular History."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), hemoglobin level, stage of breast cancer, time since cancer treatment, type of cancer treatment, physical activity level, history of inflammatory breast cancer, history of other medical conditions (e.g., diabetes, chronic obstructive pulmonary disease, hypertension, liver or kidney failure, ischemic heart disease), history of mental disorder or cognitive impairment, history of breast or other cancer, use of medications with major immunological consequences.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "ethnicity",
+          "ethnicity"
+        ],
+        [
+          "CES-D depressive symptoms",
+          "CES-D"
+        ],
+        [
+          "MFSI-SF Fatigue",
+          "MFSI-SF Fatigue"
+        ],
+        [
+          "SF-36 Vitality",
+          "SF-36"
+        ],
+        [
+          "Cancer Stage",
+          "stage of breast cancer"
+        ],
+        [
+          "Usage of Tamoxifen/Aromatase Inhibitors",
+          "use of medications with major immunological consequences."
+        ],
+        [
+          "Time since treatment",
+          "time since cancer treatment"
+        ],
+        [
+          "Type of Treatment",
+          "type of cancer treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "SAD",
+        "CHAMPS activity",
+        "Marital Status",
+        "Education level",
+        "Employment Status",
+        "Income level",
+        "HER2 Receptor Status",
+        "Progesterone Receptor Status",
+        "Estrogen Receptor Status",
+        "Post-menopausal",
+        "Time since diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "hemoglobin level",
+        "physical activity level",
+        "history of inflammatory breast cancer",
+        "history of other medical conditions (e.g., diabetes, chronic obstructive pulmonary disease, hypertension, liver or kidney failure, ischemic heart disease)",
+        "history of mental disorder or cognitive impairment",
+        "history of breast or other cancer"
+      ]
+    }
+  }
+}

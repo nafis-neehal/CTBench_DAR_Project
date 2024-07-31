@@ -1,0 +1,156 @@
+{
+  "trial_id": "NCT02969031",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, primary language, cancer type, cancer stage, duration of diagnosis, treatment history, oncologist's years of experience, oncologist's board certification status, patient-reported communication satisfaction, patient-reported quality of life, patient-reported anxiety levels, patient-reported depression levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Previous Training",
+          "oncologist's board certification status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Religion",
+        "Social vs. Technical Inclination"
+      ],
+      "remaining_candidate_features": [
+        "primary language",
+        "cancer type",
+        "cancer stage",
+        "duration of diagnosis",
+        "treatment history",
+        "oncologist's years of experience",
+        "patient-reported communication satisfaction",
+        "patient-reported quality of life",
+        "patient-reported anxiety levels",
+        "patient-reported depression levels"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Type, Cancer Stage, Duration of Metastatic Cancer, Previous Cancer Treatments, Patient-Reported Quality of Life, Patient-Reported Communication Satisfaction, Oncologist Experience Level, Oncologist Communication Training History,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Previous Training",
+          "Oncologist Communication Training History"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Religion",
+        "Social vs. Technical Inclination"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Cancer Type",
+        "Cancer Stage",
+        "Duration of Metastatic Cancer",
+        "Previous Cancer Treatments",
+        "Patient-Reported Quality of Life",
+        "Patient-Reported Communication Satisfaction",
+        "Oncologist Experience Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Diagnosis, Oncologist's Years of Experience, Patient's Education Level, Patient's Marital Status, Patient's Employment Status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Religion",
+        "Previous Training",
+        "Social vs. Technical Inclination"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Cancer Diagnosis",
+        "Oncologist's Years of Experience",
+        "Patient's Education Level",
+        "Patient's Marital Status",
+        "Patient's Employment Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, cancer type, cancer stage, time since diagnosis, prior treatment, current treatment, performance status, education level, income level, marital status, employment status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Religion",
+        "Previous Training",
+        "Social vs. Technical Inclination"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "cancer type",
+        "cancer stage",
+        "time since diagnosis",
+        "prior treatment",
+        "current treatment",
+        "performance status",
+        "education level",
+        "income level",
+        "marital status",
+        "employment status"
+      ]
+    }
+  }
+}

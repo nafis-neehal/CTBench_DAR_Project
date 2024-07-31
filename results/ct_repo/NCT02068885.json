@@ -1,0 +1,182 @@
+{
+  "trial_id": "NCT02068885",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Weight, Gender, Medical clearance status, Academic and social clearance status, Willingness to comply with CORI and SORI checks, Food allergies or aversions, Willingness to eat in the dining hall, Willingness to abstain from alcohol, Change in body weight in the prior year, Adherence to a special diet, Adherence to a vigorous physical activity regimen, Chronic use of medication or dietary supplements, Smoking status, Baseline alcohol consumption, History of binge drinking, Physician diagnosis of major medical/psychiatric illness or eating disorder, Abnormal HgA1c, TSH, BUN, creatinine, Hematocrit, ALT levels, Plans for vacation during the study, Menstrual cycle regularity, Change in birth control medication, Pregnancy or lactation status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Total Energy Expenditure",
+          "Total Energy Expenditure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Weight",
+        "Gender",
+        "Medical clearance status",
+        "Academic and social clearance status",
+        "Willingness to comply with CORI and SORI checks",
+        "Food allergies or aversions",
+        "Willingness to eat in the dining hall",
+        "Willingness to abstain from alcohol",
+        "Change in body weight in the prior year",
+        "Adherence to a special diet",
+        "Adherence to a vigorous physical activity regimen",
+        "Chronic use of medication or dietary supplements",
+        "Smoking status",
+        "Baseline alcohol consumption",
+        "History of binge drinking",
+        "Physician diagnosis of major medical/psychiatric illness or eating disorder",
+        "Abnormal HgA1c",
+        "TSH",
+        "BUN",
+        "creatinine",
+        "Hematocrit",
+        "ALT levels",
+        "Plans for vacation during the study",
+        "Menstrual cycle regularity",
+        "Change in birth control medication",
+        "Pregnancy or lactation status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Weight, Height, Baseline Total Energy Expenditure, Baseline Dietary Intake, Baseline Physical Activity Level, Hemoglobin A1c, Thyroid-Stimulating Hormone (TSH), Blood Urea Nitrogen (BUN), Creatinine, Hematocrit, Alanine Aminotransferase (ALT),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Total Energy Expenditure",
+          "Baseline Total Energy Expenditure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Weight",
+        "Height",
+        "Baseline Dietary Intake",
+        "Baseline Physical Activity Level",
+        "Hemoglobin A1c",
+        "Thyroid-Stimulating Hormone (TSH)",
+        "Blood Urea Nitrogen (BUN)",
+        "Creatinine",
+        "Hematocrit",
+        "Alanine Aminotransferase (ALT)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Weight, Medical History, Medication Use, Smoking Status, Alcohol Consumption, Menstrual Cycle Regularity, Birth Control Medication Use, Pregnancy/Lactation History,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Total Energy Expenditure",
+          "Total Energy Expenditure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Weight",
+        "Medical History",
+        "Medication Use",
+        "Smoking Status",
+        "Alcohol Consumption",
+        "Menstrual Cycle Regularity",
+        "Birth Control Medication Use",
+        "Pregnancy/Lactation History"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, ethnicity, race, occupation (student, faculty, staff, community-based), medical history (diabetes, cardiovascular disease), medication use, smoking status, alcohol consumption, physical activity level, menstrual cycle regularity (females), birth control medication use (females), pregnancy/lactation history (females).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Total Energy Expenditure",
+          "Total Energy Expenditure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "weight",
+        "height",
+        "ethnicity",
+        "race",
+        "occupation (student, faculty, staff, community-based)",
+        "medical history (diabetes, cardiovascular disease)",
+        "medication use",
+        "smoking status",
+        "alcohol consumption",
+        "physical activity level",
+        "menstrual cycle regularity (females)",
+        "birth control medication use (females)",
+        "pregnancy/lactation history (females)"
+      ]
+    }
+  }
+}

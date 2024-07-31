@@ -1,0 +1,233 @@
+{
+  "trial_id": "NCT02278471",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Baseline systolic blood pressure, Baseline LDL cholesterol, Current use of anti-hypertensive medications, Baseline potassium levels, Estimated creatinine clearance, History of liver disease, History of cancer, History of coronary heart disease or stroke, Insulin-dependent diabetes, Use of medications that interact with statins, Comorbidities limiting lifespan, Ability to provide consent.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Gender"
+        ],
+        [
+          "Blood pressure",
+          "Baseline systolic blood pressure"
+        ],
+        [
+          "Cholesterol",
+          "Baseline LDL cholesterol"
+        ],
+        [
+          "Current medication use",
+          "Current use of anti-hypertensive medications"
+        ],
+        [
+          "Diabetes Mellitus",
+          "Insulin-dependent diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Body mass index",
+        "Hypertension of stage >2",
+        "Predicted 10-yr risk of cardiovascular disease",
+        "Current smoking",
+        "Triglycerides",
+        "Annual household income"
+      ],
+      "remaining_candidate_features": [
+        "Baseline potassium levels",
+        "Estimated creatinine clearance",
+        "History of liver disease",
+        "History of cancer",
+        "History of coronary heart disease or stroke",
+        "Use of medications that interact with statins",
+        "Comorbidities limiting lifespan",
+        "Ability to provide consent."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, LDL Cholesterol, HDL Cholesterol, Total Cholesterol, Triglycerides, Smoking status, Alcohol use, Physical activity level, Medication use, Medical history, Renal function (creatinine clearance), Liver function (alanine aminotransferase level)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Cholesterol",
+          "LDL Cholesterol"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "Current smoking",
+          "Smoking status"
+        ],
+        [
+          "Current medication use",
+          "Medication use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Hypertension of stage >2",
+        "Diabetes Mellitus",
+        "Predicted 10-yr risk of cardiovascular disease",
+        "Annual household income"
+      ],
+      "remaining_candidate_features": [
+        "Diastolic Blood Pressure",
+        "HDL Cholesterol",
+        "Total Cholesterol",
+        "Alcohol use",
+        "Physical activity level",
+        "Medical history",
+        "Renal function (creatinine clearance)",
+        "Liver function (alanine aminotransferase level)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, Systolic Blood Pressure, Diastolic Blood Pressure, LDL Cholesterol, History of Coronary Heart Disease, History of Stroke, History of Cancer, History of Liver Disease, History of Renal Disease, Diabetes Status, Current Smoking Status, BMI, Waist Circumference.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Ethnic Origin"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Hypertension of stage >2",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diabetes Mellitus",
+          "Diabetes Status"
+        ],
+        [
+          "Current smoking",
+          "Current Smoking Status"
+        ],
+        [
+          "Blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Cholesterol",
+          "LDL Cholesterol"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Predicted 10-yr risk of cardiovascular disease",
+        "Current medication use",
+        "Triglycerides",
+        "Annual household income"
+      ],
+      "remaining_candidate_features": [
+        "History of Coronary Heart Disease",
+        "History of Stroke",
+        "History of Cancer",
+        "History of Liver Disease",
+        "History of Renal Disease",
+        "Waist Circumference"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, systolic blood pressure, diastolic blood pressure, LDL cholesterol, high-density lipoprotein cholesterol, triglycerides, estimated creatinine clearance, potassium level, history of smoking, history of diabetes, history of hypertension, use of anti-hypertensive medications, use of lipid-lowering medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Body mass index",
+          "body mass index"
+        ],
+        [
+          "Hypertension of stage >2",
+          "history of hypertension"
+        ],
+        [
+          "Diabetes Mellitus",
+          "history of diabetes"
+        ],
+        [
+          "Current smoking",
+          "history of smoking"
+        ],
+        [
+          "Current medication use",
+          "use of anti-hypertensive medications"
+        ],
+        [
+          "Blood pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Cholesterol",
+          "LDL cholesterol"
+        ],
+        [
+          "Triglycerides",
+          "triglycerides"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Predicted 10-yr risk of cardiovascular disease",
+        "Annual household income"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "diastolic blood pressure",
+        "high-density lipoprotein cholesterol",
+        "estimated creatinine clearance",
+        "potassium level",
+        "use of lipid-lowering medications"
+      ]
+    }
+  }
+}

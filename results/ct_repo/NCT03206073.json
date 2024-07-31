@@ -1,0 +1,202 @@
+{
+  "trial_id": "NCT03206073",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, ECOG performance status, histopathological confirmation of colorectal carcinoma, prior treatment history (oxaliplatin, irinotecan, fluorouracil, cetuximab, panitumumab), microsatellite stability status, presence of measurable disease by RECIST 1.1 criteria, organ and marrow function (leukocytes, absolute neutrophil count, platelets, total bilirubin, hemoglobin, AST/ALT, creatinine), body weight, willingness to undergo tumor biopsy, use of contraception, post-menopausal status, history of autoimmune disease, history of cardiovascular disease, HIV status, history of chronic immunodeficiency, history of active infection (tuberculosis, hepatitis B, hepatitis C), use of immunosuppressive medication, breastfeeding status, history of hypersensitivity reactions, QT interval, history of interstitial lung disease or pneumonitis, history of seizures, history of leptomeningeal carcinomatosis, presence of unhealed surgical wounds, presence of severe inflammatory skin conditions, tumor location, presence of ascites, pericardial and/or pleural effusions, history of organ transplant, history of severe systemic reaction to previous vaccination with vaccinia, pulse oximetry oxygen saturation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Categorical",
+          "ECOG performance status"
+        ],
+        [
+          "Region of Enrollment",
+          "body weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "histopathological confirmation of colorectal carcinoma",
+        "prior treatment history (oxaliplatin, irinotecan, fluorouracil, cetuximab, panitumumab)",
+        "microsatellite stability status",
+        "presence of measurable disease by RECIST 1.1 criteria",
+        "organ and marrow function (leukocytes, absolute neutrophil count, platelets, total bilirubin, hemoglobin, AST/ALT, creatinine)",
+        "willingness to undergo tumor biopsy",
+        "use of contraception",
+        "post-menopausal status",
+        "history of autoimmune disease",
+        "history of cardiovascular disease",
+        "HIV status",
+        "history of chronic immunodeficiency",
+        "history of active infection (tuberculosis, hepatitis B, hepatitis C)",
+        "use of immunosuppressive medication",
+        "breastfeeding status",
+        "history of hypersensitivity reactions",
+        "QT interval",
+        "history of interstitial lung disease or pneumonitis",
+        "history of seizures",
+        "history of leptomeningeal carcinomatosis",
+        "presence of unhealed surgical wounds",
+        "presence of severe inflammatory skin conditions",
+        "tumor location",
+        "presence of ascites",
+        "pericardial and/or pleural effusions",
+        "history of organ transplant",
+        "history of severe systemic reaction to previous vaccination with vaccinia",
+        "pulse oximetry oxygen saturation"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, KRAS Mutation Status, Microsatellite Stability Status, Prior Chemotherapy Regimens, Number of Metastatic Sites, Baseline Tumor Measurements, Hemoglobin, Leukocytes, Absolute Neutrophil Count, Platelets, Total Bilirubin, AST/ALT, Creatinine, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG Performance Status",
+        "KRAS Mutation Status",
+        "Microsatellite Stability Status",
+        "Prior Chemotherapy Regimens",
+        "Number of Metastatic Sites",
+        "Baseline Tumor Measurements",
+        "Hemoglobin",
+        "Leukocytes",
+        "Absolute Neutrophil Count",
+        "Platelets",
+        "Total Bilirubin",
+        "AST/ALT",
+        "Creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Body Mass Index, Hemoglobin, Absolute Neutrophil Count, Platelet Count, Total Bilirubin, Aspartate Aminotransferase, Alanine Aminotransferase, Creatinine, Eastern Cooperative Oncology Group (ECOG) Performance Status, Prior Chemotherapy Regimens, Prior Radiation Therapy, Prior Surgery, Tumor Microsatellite Instability Status, Tumor KRAS Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Body Mass Index",
+        "Hemoglobin",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Total Bilirubin",
+        "Aspartate Aminotransferase",
+        "Alanine Aminotransferase",
+        "Creatinine",
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+        "Prior Chemotherapy Regimens",
+        "Prior Radiation Therapy",
+        "Prior Surgery",
+        "Tumor Microsatellite Instability Status",
+        "Tumor KRAS Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, histopathological confirmation of Colorectal Carcinoma, prior oxaliplatin- and irinotecan-containing, fluorouracil-based, chemotherapeutic regimen, KRAS wild type tumor, microsatellite-stable (MSS) or microsatellite-high, number of metastatic disease sites, measurable disease by RECIST 1.1 criteria, leukocytes, absolute neutrophil count, platelets, total bilirubin, hemoglobin, AST, ALT, creatinine, creatinine clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "histopathological confirmation of Colorectal Carcinoma",
+        "prior oxaliplatin- and irinotecan-containing",
+        "fluorouracil-based",
+        "chemotherapeutic regimen",
+        "KRAS wild type tumor",
+        "microsatellite-stable (MSS) or microsatellite-high",
+        "number of metastatic disease sites",
+        "measurable disease by RECIST 1.1 criteria",
+        "leukocytes",
+        "absolute neutrophil count",
+        "platelets",
+        "total bilirubin",
+        "hemoglobin",
+        "AST",
+        "ALT",
+        "creatinine",
+        "creatinine clearance"
+      ]
+    }
+  }
+}

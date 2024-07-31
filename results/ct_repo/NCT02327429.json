@@ -1,0 +1,149 @@
+{
+  "trial_id": "NCT02327429",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline hemoglobin A1C, treatment type (lifestyle, oral hypoglycemic medications, insulin), duration of diabetes, ability to read and write Chinese or English, presence of severe gastrointestinal or renal problems.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Age at Immigration",
+        "Years in North America",
+        "Acculturation score"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "baseline hemoglobin A1C",
+        "treatment type (lifestyle, oral hypoglycemic medications, insulin)",
+        "ability to read and write Chinese or English",
+        "presence of severe gastrointestinal or renal problems."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity, Body Mass Index, Baseline Hemoglobin A1C, Duration of Diabetes, Type of Diabetes Treatment, Dietary Intake (Energy, Carbohydrate, Protein, Total Fat, Saturated Fat, Dietary Fibre, Added Sucrose, Sodium, Calcium, Cholesterol),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Duration of diabetes",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Age at Immigration",
+        "Years in North America",
+        "Acculturation score"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "Body Mass Index",
+        "Baseline Hemoglobin A1C",
+        "Type of Diabetes Treatment",
+        "Dietary Intake (Energy, Carbohydrate, Protein, Total Fat, Saturated Fat, Dietary Fibre, Added Sucrose, Sodium, Calcium, Cholesterol)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Ethnicity (Chinese), Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Duration of diabetes",
+          "Diabetes Diagnosis Duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age at Immigration",
+        "Years in North America",
+        "Acculturation score"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity (Chinese)",
+        "Baseline HbA1c",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ethnicity, body mass index (BMI), duration of diabetes, type of diabetes treatment, hemoglobin A1C, systolic blood pressure, diastolic blood pressure, smoking status, education level, occupation, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Age at Immigration",
+        "Years in North America",
+        "Acculturation score"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "ethnicity",
+        "body mass index (BMI)",
+        "type of diabetes treatment",
+        "hemoglobin A1C",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "smoking status",
+        "education level",
+        "occupation",
+        "marital status"
+      ]
+    }
+  }
+}

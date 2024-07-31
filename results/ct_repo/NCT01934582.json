@@ -1,0 +1,161 @@
+{
+  "trial_id": "NCT01934582",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, weight, height, baseline pulmonary arterial hypertension severity, baseline medication use, baseline liver function tests, baseline kidney function tests, baseline hemoglobin levels, baseline hematocrit levels, baseline platelet count, baseline white blood cell count, baseline blood pressure, baseline heart rate, baseline respiratory rate, baseline oxygen saturation, baseline exercise capacity (e.g., 6-minute walk distance), baseline quality of life score, baseline treprostinil dose, baseline concomitant medications, baseline comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "baseline pulmonary arterial hypertension severity",
+        "baseline medication use",
+        "baseline liver function tests",
+        "baseline kidney function tests",
+        "baseline hemoglobin levels",
+        "baseline hematocrit levels",
+        "baseline platelet count",
+        "baseline white blood cell count",
+        "baseline blood pressure",
+        "baseline heart rate",
+        "baseline respiratory rate",
+        "baseline oxygen saturation",
+        "baseline exercise capacity (e.g., 6-minute walk distance)",
+        "baseline quality of life score",
+        "baseline treprostinil dose",
+        "baseline concomitant medications",
+        "baseline comorbidities"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline Pulmonary Arterial Hypertension Severity, Concomitant Medications, Duration of Treprostinil Therapy, Baseline Treprostinil Dose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Baseline Pulmonary Arterial Hypertension Severity",
+        "Concomitant Medications",
+        "Duration of Treprostinil Therapy",
+        "Baseline Treprostinil Dose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Weight, Height, Body Mass Index, Pulmonary Arterial Hypertension Diagnosis Duration,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Weight",
+        "Height",
+        "Body Mass Index",
+        "Pulmonary Arterial Hypertension Diagnosis Duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), pulmonary arterial hypertension (PAH) diagnosis duration, World Health Organization (WHO) functional class, 6-minute walk distance (6MWD), systolic pulmonary artery pressure (sPAP), cardiac output, mean right atrial pressure (mRAP), N-terminal pro-brain natriuretic peptide (NT-proBNP), creatinine, liver function tests (LFTs), concurrent medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "pulmonary arterial hypertension (PAH) diagnosis duration",
+        "World Health Organization (WHO) functional class",
+        "6-minute walk distance (6MWD)",
+        "systolic pulmonary artery pressure (sPAP)",
+        "cardiac output",
+        "mean right atrial pressure (mRAP)",
+        "N-terminal pro-brain natriuretic peptide (NT-proBNP)",
+        "creatinine",
+        "liver function tests (LFTs)",
+        "concurrent medications."
+      ]
+    }
+  }
+}

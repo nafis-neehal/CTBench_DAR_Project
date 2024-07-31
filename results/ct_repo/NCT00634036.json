@@ -1,0 +1,273 @@
+{
+  "trial_id": "NCT00634036",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), asthma duration, baseline FEV1, baseline leptin levels, baseline adiponectin levels, smoking history, inhaled corticosteroid dose, comorbidities, medication use, baseline airway reactivity (PC20), baseline B-type natriuretic peptide (BNP) levels, pregnancy status, use of contraception, history of asthma exacerbations, history of upper respiratory infections, sleep apnea status, electrocardiogram (ECG) abnormalities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Age asthma onset",
+          "asthma duration"
+        ],
+        [
+          "FEV1 (% predicted before bronchodilator use)",
+          "baseline FEV1"
+        ],
+        [
+          "Asthma exacerbation in last 12 months",
+          "history of asthma exacerbations"
+        ],
+        [
+          "Inhaled corticosteroid",
+          "inhaled corticosteroid dose"
+        ],
+        [
+          "Oral steroids in last 12 months",
+          "medication use"
+        ],
+        [
+          "B-type natriuretic peptide (BNP) >400 pg/mL",
+          "baseline B-type natriuretic peptide (BNP) levels"
+        ],
+        [
+          "Women of childbearing potential using oral contraceptives who are not willing to use a second method of contraception during the study",
+          "use of contraception"
+        ],
+        [
+          "Pregnant or lactating",
+          "pregnancy status"
+        ],
+        [
+          "Clinically significant abnormalities present on screening 12-lead electrocardiogram",
+          "electrocardiogram (ECG) abnormalities"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Seasonal allergies",
+        "Gastroesophageal Reflux Disease (GERD)",
+        "Depression",
+        "Oral steroids in last 12 months",
+        "Long acting beta agonist",
+        "Short acting beta agonist",
+        "Exhaled Nitric Oxide",
+        "Immunoglobulin E",
+        "Juniper Asthma Control",
+        "FVC (% predicted before bronchodilator use)",
+        "FEV1/FVC (% predicted before bronchodilator use)",
+        "FEV1 (% predicted after bronchodilator use)",
+        "FVC (% predicted after bronchodilator use)",
+        "FEV1/FVC (% predicted after bronchodilator use)"
+      ],
+      "remaining_candidate_features": [
+        "baseline leptin levels",
+        "baseline adiponectin levels",
+        "smoking history",
+        "comorbidities",
+        "baseline airway reactivity (PC20)",
+        "history of upper respiratory infections",
+        "sleep apnea status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Asthma duration, Baseline FEV1, Methacholine PC20, Inhaled corticosteroid dose, Systolic Blood Pressure, Diastolic Blood Pressure, Leptin levels, Adiponectin levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "FEV1 (% predicted before bronchodilator use)",
+          "Baseline FEV1"
+        ],
+        [
+          "Inhaled corticosteroid",
+          "Inhaled corticosteroid dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Age asthma onset",
+        "Seasonal allergies",
+        "Gastroesophageal Reflux Disease (GERD)",
+        "Depression",
+        "Asthma exacerbation in last 12 months",
+        "Oral steroids in last 12 months",
+        "Long acting beta agonist",
+        "Short acting beta agonist",
+        "Exhaled Nitric Oxide",
+        "Immunoglobulin E",
+        "Juniper Asthma Control",
+        "FVC (% predicted before bronchodilator use)",
+        "FEV1/FVC (% predicted before bronchodilator use)",
+        "FEV1 (% predicted after bronchodilator use)",
+        "FVC (% predicted after bronchodilator use)",
+        "FEV1/FVC (% predicted after bronchodilator use)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Asthma duration",
+        "Methacholine PC20",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Leptin levels",
+        "Adiponectin levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, FEV1, Asthma Control Questionnaire (ACQ) score, Methacholine challenge test PC20, Inhaled corticosteroid dose, Weekly weights, B-type natriuretic peptide (BNP) level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "FEV1 (% predicted before bronchodilator use)",
+          "FEV1"
+        ],
+        [
+          "Inhaled corticosteroid",
+          "Inhaled corticosteroid dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Age asthma onset",
+        "Seasonal allergies",
+        "Gastroesophageal Reflux Disease (GERD)",
+        "Depression",
+        "Asthma exacerbation in last 12 months",
+        "Oral steroids in last 12 months",
+        "Long acting beta agonist",
+        "Short acting beta agonist",
+        "Exhaled Nitric Oxide",
+        "Immunoglobulin E",
+        "Juniper Asthma Control",
+        "FVC (% predicted before bronchodilator use)",
+        "FEV1/FVC (% predicted before bronchodilator use)",
+        "FEV1 (% predicted after bronchodilator use)",
+        "FVC (% predicted after bronchodilator use)",
+        "FEV1/FVC (% predicted after bronchodilator use)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Asthma Control Questionnaire (ACQ) score",
+        "Methacholine challenge test PC20",
+        "Weekly weights",
+        "B-type natriuretic peptide (BNP) level."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, smoking history, duration of asthma, FEV1, PC20, inhaled corticosteroid dose, leptin levels, adiponectin levels, B-type natriuretic peptide levels, liver enzymes, serum creatinine, electrocardiogram results.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index"
+        ],
+        [
+          "FEV1 (% predicted before bronchodilator use)",
+          "FEV1"
+        ],
+        [
+          "Inhaled corticosteroid",
+          "inhaled corticosteroid dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Age asthma onset",
+        "Seasonal allergies",
+        "Gastroesophageal Reflux Disease (GERD)",
+        "Depression",
+        "Asthma exacerbation in last 12 months",
+        "Oral steroids in last 12 months",
+        "Long acting beta agonist",
+        "Short acting beta agonist",
+        "Exhaled Nitric Oxide",
+        "Immunoglobulin E",
+        "Juniper Asthma Control",
+        "FVC (% predicted before bronchodilator use)",
+        "FEV1/FVC (% predicted before bronchodilator use)",
+        "FEV1 (% predicted after bronchodilator use)",
+        "FVC (% predicted after bronchodilator use)",
+        "FEV1/FVC (% predicted after bronchodilator use)"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "smoking history",
+        "duration of asthma",
+        "PC20",
+        "leptin levels",
+        "adiponectin levels",
+        "B-type natriuretic peptide levels",
+        "liver enzymes",
+        "serum creatinine",
+        "electrocardiogram results."
+      ]
+    }
+  }
+}

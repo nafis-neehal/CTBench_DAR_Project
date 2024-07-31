@@ -1,0 +1,202 @@
+{
+  "trial_id": "NCT04796779",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 1 diabetes, total daily insulin dose (TDD), body weight, type of insulin used (lispro or aspart), history of severe hypoglycemic events, history of diabetic ketoacidosis (DKA) events, presence of chronic renal disease, presence of adrenal insufficiency, adequacy of hypothyroidism treatment, use of oral or injectable steroids, adhesive intolerance, plans for blood transfusions or erythropoietin injections, current use of closed-loop systems, participation in other trials, employment status related to the trial.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Diabetes Duration",
+          "duration of type 1 diabetes"
+        ],
+        [
+          "Insulin Modality",
+          "type of insulin used (lispro or aspart)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Glycosylated Hemoglobin (HbA1c) at Randomization",
+        "Annual Household Income",
+        "Parent Education"
+      ],
+      "remaining_candidate_features": [
+        "total daily insulin dose (TDD)",
+        "body weight",
+        "history of severe hypoglycemic events",
+        "history of diabetic ketoacidosis (DKA) events",
+        "presence of chronic renal disease",
+        "presence of adrenal insufficiency",
+        "adequacy of hypothyroidism treatment",
+        "use of oral or injectable steroids",
+        "adhesive intolerance",
+        "plans for blood transfusions or erythropoietin injections",
+        "current use of closed-loop systems",
+        "participation in other trials",
+        "employment status related to the trial"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Total Daily Insulin Dose, Body Weight, HbA1c, Frequency of Severe Hypoglycemic Events, Frequency of Diabetic Ketoacidosis (DKA) Events, Type of Insulin Used,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diabetes Duration",
+          "Duration of Diabetes"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c) at Randomization",
+          "HbA1c"
+        ],
+        [
+          "Insulin Modality",
+          "Type of Insulin Used"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Annual Household Income",
+        "Parent Education"
+      ],
+      "remaining_candidate_features": [
+        "Total Daily Insulin Dose",
+        "Body Weight",
+        "Frequency of Severe Hypoglycemic Events",
+        "Frequency of Diabetic Ketoacidosis (DKA) Events"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Insulin Dose, Body Weight, HbA1c, Parent/Guardian Education Level, Parent/Guardian Income Level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diabetes Duration",
+          "Diabetes Diagnosis Duration"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c) at Randomization",
+          "HbA1c"
+        ],
+        [
+          "Insulin Modality",
+          "Insulin Dose"
+        ],
+        [
+          "Annual Household Income",
+          "Parent/Guardian Income Level"
+        ],
+        [
+          "Parent Education",
+          "Parent/Guardian Education Level"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Body Weight"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, body mass index (BMI), duration of type 1 diabetes, total daily insulin dose (TDD), hemoglobin A1c (HbA1c), type of insulin used, carbohydrate ratio, frequency of blood glucose monitoring, history of severe hypoglycemic events, history of diabetic ketoacidosis (DKA) events, presence of hypothyroidism, presence of adrenal insufficiency, presence of chronic renal disease, use of oral or injectable steroids, parent/guardian education level, parent/guardian proficiency in English.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Diabetes Duration",
+          "duration of type 1 diabetes"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c) at Randomization",
+          "hemoglobin A1c (HbA1c)"
+        ],
+        [
+          "Insulin Modality",
+          "type of insulin used"
+        ],
+        [
+          "Parent Education",
+          "parent/guardian education level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Annual Household Income"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "total daily insulin dose (TDD)",
+        "carbohydrate ratio",
+        "frequency of blood glucose monitoring",
+        "history of severe hypoglycemic events",
+        "history of diabetic ketoacidosis (DKA) events",
+        "presence of hypothyroidism",
+        "presence of adrenal insufficiency",
+        "presence of chronic renal disease",
+        "use of oral or injectable steroids",
+        "parent/guardian proficiency in English."
+      ]
+    }
+  }
+}

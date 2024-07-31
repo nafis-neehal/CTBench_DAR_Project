@@ -1,0 +1,202 @@
+{
+  "trial_id": "NCT03557658",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), Child-Pugh score, smoking status, venous access adequacy, general health status, history of drug or latex allergy, alcohol or drug test results, blood donation history, investigational drug exposure history, SGLT2 inhibitor exposure history, probenecid or rifampin exposure history, electrocardiogram (ECG) results, HIV status, vaccination history, estimated glomerular filtration rate (eGFR), renal function, organ transplant history, male contraception use, female contraception use, pregnancy test results, grapefruit consumption history, platelet count, complete blood count (CBC) test results, history of febrile illness, hepatocellular carcinoma, acute liver disease, hepatic encephalopathy, biliary liver cirrhosis, acute medical illness history, alcoholic hepatitis history, gastrointestinal disease history, ascites presence, surgical portosystemic shunt history, systolic blood pressure (SBP), diastolic blood pressure (DBP), vitamin or supplement use history, caffeine and methylxanthine consumption history, prescription or over-the-counter (OTC) drug use history, liver disease or injury history, alanine aminotransferase (ALT) levels, aspartate aminotransferase (AST) levels, serum bilirubin levels, hepatitis B virus (HBV) infection status, hepatitis C virus (HCV) infection status, prescription medication use history, hepatic function stability, other serious medical conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Child-Pugh Total Score",
+          "Child-Pugh score"
+        ],
+        [
+          "Smoking Status",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Pack Years of Cigarette Smoking"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "venous access adequacy",
+        "general health status",
+        "history of drug or latex allergy",
+        "alcohol or drug test results",
+        "blood donation history",
+        "investigational drug exposure history",
+        "SGLT2 inhibitor exposure history",
+        "probenecid or rifampin exposure history",
+        "electrocardiogram (ECG) results",
+        "HIV status",
+        "vaccination history",
+        "estimated glomerular filtration rate (eGFR)",
+        "renal function",
+        "organ transplant history",
+        "male contraception use",
+        "female contraception use",
+        "pregnancy test results",
+        "grapefruit consumption history",
+        "platelet count",
+        "complete blood count (CBC) test results",
+        "history of febrile illness",
+        "hepatocellular carcinoma",
+        "acute liver disease",
+        "hepatic encephalopathy",
+        "biliary liver cirrhosis",
+        "acute medical illness history",
+        "alcoholic hepatitis history",
+        "gastrointestinal disease history",
+        "ascites presence",
+        "surgical portosystemic shunt history",
+        "systolic blood pressure (SBP)",
+        "diastolic blood pressure (DBP)",
+        "vitamin or supplement use history",
+        "caffeine and methylxanthine consumption history",
+        "prescription or over-the-counter (OTC) drug use history",
+        "liver disease or injury history",
+        "alanine aminotransferase (ALT) levels",
+        "aspartate aminotransferase (AST) levels",
+        "serum bilirubin levels",
+        "hepatitis B virus (HBV) infection status",
+        "hepatitis C virus (HCV) infection status",
+        "prescription medication use history",
+        "hepatic function stability",
+        "other serious medical conditions"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Child-Pugh Score, eGFR, Systolic Blood Pressure, Diastolic Blood Pressure, Smoking Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Child-Pugh Total Score",
+          "Child-Pugh Score"
+        ],
+        [
+          "Smoking Status",
+          "Smoking Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Pack Years of Cigarette Smoking"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "eGFR",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Diabetes Diagnosis Duration, Hepatic Impairment Status, Child-Pugh Score, Estimated Glomerular Filtration Rate, Systolic Blood Pressure, Diastolic Blood Pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Child-Pugh Total Score",
+          "Child-Pugh Score"
+        ],
+        [
+          "Smoking Status",
+          "Smoking Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Pack Years of Cigarette Smoking"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Diabetes Diagnosis Duration",
+        "Hepatic Impairment Status",
+        "Estimated Glomerular Filtration Rate",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, body mass index (BMI), smoking status, Child-Pugh score, type 2 diabetes mellitus status, estimated glomerular filtration rate (eGFR), alanine aminotransferase (ALT), aspartate aminotransferase (AST), serum bilirubin, electrocardiogram (ECG) parameters (heart rate, QRS, QTc), systolic blood pressure (SBP), diastolic blood pressure (DBP).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Child-Pugh Total Score",
+          "Child-Pugh score"
+        ],
+        [
+          "Smoking Status",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Pack Years of Cigarette Smoking"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "body mass index (BMI)",
+        "type 2 diabetes mellitus status",
+        "estimated glomerular filtration rate (eGFR)",
+        "alanine aminotransferase (ALT)",
+        "aspartate aminotransferase (AST)",
+        "serum bilirubin",
+        "electrocardiogram (ECG) parameters (heart rate, QRS, QTc)",
+        "systolic blood pressure (SBP)",
+        "diastolic blood pressure (DBP)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "trial_id": "NCT02694562",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, ECOG performance status, Child-Pugh classification, Tumor burden in liver, Number of prior chemotherapy lines, Presence of bilobar disease, White Blood Cell (WBC) count, Absolute neutrophil count, International Normalized Ratio (INR), Partial Thromboplastin Time (PTT), Platelet count, Blood bilirubin level, Aspartate Aminotransferase (AST) level, Alanine Aminotransferase (ALT) level, Serum creatinine level, Hemoglobin level, Alkaline phosphatase level, Coronary artery disease status, Electrocardiogram (ECG) results, Infection status, Anticoagulation status, Expected survival.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Score",
+          "ECOG performance status"
+        ],
+        [
+          "Child Pugh",
+          "Child-Pugh classification"
+        ],
+        [
+          "Previous Lines of Chemotherapy",
+          "Number of prior chemotherapy lines"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Classification of Malignant Tumours (TNM) Stage",
+        "History of Radiotherapy",
+        "History of Surgical Therapy",
+        "History of Systemic Therapy"
+      ],
+      "remaining_candidate_features": [
+        "Tumor burden in liver",
+        "Presence of bilobar disease",
+        "White Blood Cell (WBC) count",
+        "Absolute neutrophil count",
+        "International Normalized Ratio (INR)",
+        "Partial Thromboplastin Time (PTT)",
+        "Platelet count",
+        "Blood bilirubin level",
+        "Aspartate Aminotransferase (AST) level",
+        "Alanine Aminotransferase (ALT) level",
+        "Serum creatinine level",
+        "Hemoglobin level",
+        "Alkaline phosphatase level",
+        "Coronary artery disease status",
+        "Electrocardiogram (ECG) results",
+        "Infection status",
+        "Anticoagulation status",
+        "Expected survival"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Child-Pugh classification, Tumor burden, Previous chemotherapy regimens, White Blood Cell (WBC) count, Absolute neutrophil count, Platelet count, Blood bilirubin, Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), Serum creatinine, Hemoglobin, Alkaline phosphatase, Electrocardiogram (ECG) results,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Score",
+          "ECOG performance status"
+        ],
+        [
+          "Child Pugh",
+          "Child-Pugh classification"
+        ],
+        [
+          "Previous Lines of Chemotherapy",
+          "Previous chemotherapy regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Classification of Malignant Tumours (TNM) Stage",
+        "History of Radiotherapy",
+        "History of Surgical Therapy",
+        "History of Systemic Therapy"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Tumor burden",
+        "White Blood Cell (WBC) count",
+        "Absolute neutrophil count",
+        "Platelet count",
+        "Blood bilirubin",
+        "Aspartate Aminotransferase (AST)",
+        "Alanine Aminotransferase (ALT)",
+        "Serum creatinine",
+        "Hemoglobin",
+        "Alkaline phosphatase",
+        "Electrocardiogram (ECG) results"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Child-Pugh Classification, Liver Tumor Burden, Number of Prior Chemotherapy Regimens, Prior Chemotherapy Agents, Baseline Tumor Size, Baseline Laboratory Values (WBC, ANC, INR, PTT, Platelet Count, Bilirubin, AST, ALT, Creatinine, Hemoglobin, Alkaline Phosphatase).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Score",
+          "ECOG Performance Status"
+        ],
+        [
+          "Child Pugh",
+          "Child-Pugh Classification"
+        ],
+        [
+          "Previous Lines of Chemotherapy",
+          "Number of Prior Chemotherapy Regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Classification of Malignant Tumours (TNM) Stage",
+        "History of Radiotherapy",
+        "History of Surgical Therapy",
+        "History of Systemic Therapy"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Liver Tumor Burden",
+        "Prior Chemotherapy Agents",
+        "Baseline Tumor Size",
+        "Baseline Laboratory Values (WBC, ANC, INR, PTT, Platelet Count, Bilirubin, AST, ALT, Creatinine, Hemoglobin, Alkaline Phosphatase)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ECOG performance status, Child-Pugh classification, tumor size, tumor location, number of tumors, liver tumor burden, prior chemotherapy regimens, prior surgical interventions, WBC count, absolute neutrophil count, INR, PTT, platelet count, blood bilirubin, AST, ALT, serum creatinine, hemoglobin, alkaline phosphatase, QT interval, presence of coronary artery disease, presence of myocardial infarction, presence of infections, presence of bleeding disorders, expected survival.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Score",
+          "ECOG performance status"
+        ],
+        [
+          "Child Pugh",
+          "Child-Pugh classification"
+        ],
+        [
+          "History of Systemic Therapy",
+          "prior chemotherapy regimens"
+        ],
+        [
+          "Previous Lines of Chemotherapy",
+          "prior chemotherapy regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Classification of Malignant Tumours (TNM) Stage",
+        "History of Radiotherapy",
+        "History of Surgical Therapy"
+      ],
+      "remaining_candidate_features": [
+        "tumor size",
+        "tumor location",
+        "number of tumors",
+        "liver tumor burden",
+        "prior surgical interventions",
+        "WBC count",
+        "absolute neutrophil count",
+        "INR",
+        "PTT",
+        "platelet count",
+        "blood bilirubin",
+        "AST",
+        "ALT",
+        "serum creatinine",
+        "hemoglobin",
+        "alkaline phosphatase",
+        "QT interval",
+        "presence of coronary artery disease",
+        "presence of myocardial infarction",
+        "presence of infections",
+        "presence of bleeding disorders",
+        "expected survival"
+      ]
+    }
+  }
+}

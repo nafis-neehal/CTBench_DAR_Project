@@ -1,0 +1,196 @@
+{
+  "trial_id": "NCT02325466",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type 2 diabetes duration, ankle-brachial index, toe-brachial index, prior surgical or percutaneous intervention of the peripheral arteries, residual stenoses, systolic blood pressure, diastolic blood pressure, history of severe liver disease, history of obstructive liver disease, end-stage renal disease, hemoglobin levels, infection status, anemia status, polycythemia vera status, Waldenstrom's macroglobulinemia status, hypersensitivity or allergic reactions to aspirin, concomitant use of anticoagulants or antiplatelet drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Blood viscosity 300 s^-1",
+          "ankle-brachial index"
+        ],
+        [
+          "Blood viscosity 5 s^-1",
+          "toe-brachial index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Hematocrit",
+        "Fibrinogen",
+        "Fasting glucose",
+        "Hemoglobin A1c"
+      ],
+      "remaining_candidate_features": [
+        "type 2 diabetes duration",
+        "prior surgical or percutaneous intervention of the peripheral arteries",
+        "residual stenoses",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "history of severe liver disease",
+        "history of obstructive liver disease",
+        "end-stage renal disease",
+        "hemoglobin levels",
+        "infection status",
+        "anemia status",
+        "polycythemia vera status",
+        "Waldenstrom's macroglobulinemia status",
+        "hypersensitivity or allergic reactions to aspirin",
+        "concomitant use of anticoagulants or antiplatelet drugs."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Type 2 Diabetes, Ankle-Brachial Index, Toe-Brachial Index, Prior Peripheral Artery Intervention, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin A1c, Cholesterol Levels, Triglycerides, Smoking Status, Medication Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Hemoglobin A1c",
+          "Hemoglobin A1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Hematocrit",
+        "Fibrinogen",
+        "Fasting glucose",
+        "Blood viscosity 300 s^-1",
+        "Blood viscosity 5 s^-1"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Duration of Type 2 Diabetes",
+        "Ankle-Brachial Index",
+        "Toe-Brachial Index",
+        "Prior Peripheral Artery Intervention",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Cholesterol Levels",
+        "Triglycerides",
+        "Smoking Status",
+        "Medication Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, Peripheral artery disease duration, Ankle-brachial index, Toe-brachial index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Body Mass Index, Low-density lipoprotein cholesterol, High-density lipoprotein cholesterol, Triglycerides, Estimated glomerular filtration rate.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Hematocrit",
+        "Fibrinogen",
+        "Fasting glucose",
+        "Blood viscosity 300 s^-1",
+        "Blood viscosity 5 s^-1"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diabetes duration",
+        "Peripheral artery disease duration",
+        "Ankle-brachial index",
+        "Toe-brachial index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Body Mass Index",
+        "Low-density lipoprotein cholesterol",
+        "High-density lipoprotein cholesterol",
+        "Triglycerides",
+        "Estimated glomerular filtration rate"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index, type 2 diabetes duration, peripheral artery disease duration, ankle-brachial index, toe-brachial index, systolic blood pressure, diastolic blood pressure, hemoglobin A1c, low-density lipoprotein cholesterol, high-density lipoprotein cholesterol, triglycerides, creatinine, estimated glomerular filtration rate, history of smoking, history of hypertension, history of hyperlipidemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Hemoglobin A1c",
+          "hemoglobin A1c"
+        ],
+        [
+          "Blood viscosity 300 s^-1",
+          "ankle-brachial index"
+        ],
+        [
+          "Blood viscosity 5 s^-1",
+          "toe-brachial index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Hematocrit",
+        "Fibrinogen",
+        "Fasting glucose"
+      ],
+      "remaining_candidate_features": [
+        "body mass index",
+        "type 2 diabetes duration",
+        "peripheral artery disease duration",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "low-density lipoprotein cholesterol",
+        "high-density lipoprotein cholesterol",
+        "triglycerides",
+        "creatinine",
+        "estimated glomerular filtration rate",
+        "history of smoking",
+        "history of hypertension",
+        "history of hyperlipidemia"
+      ]
+    }
+  }
+}

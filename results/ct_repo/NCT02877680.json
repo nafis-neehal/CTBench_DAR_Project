@@ -1,0 +1,217 @@
+{
+  "trial_id": "NCT02877680",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, HbA1c levels, parent education level, family income, mobile device usage, language fluency, comorbid conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Glycemic control - HbA1c",
+          "HbA1c levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Adherence to Diabetes Regimen (Objective) - Blood Glucose Monitoring Frequency",
+        "Diabetes Family Impact - Diabetes Family Impact Scale (DFIS)",
+        "Parent-report",
+        "Family Impact - Pediatric Quality of Life Family Impact Module (Peds QL-FI)",
+        "Family Communication - Helping for Health Inventory (HHI)",
+        "Parent report",
+        "Adolescent report",
+        "Diabetes Family Conflict Scale-Revised (DCFS)",
+        "Diabetes Family Conflict Scale-Revised (DFCS)",
+        "Adolescent-report",
+        "Problem Areas in Diabetes-Teen (PAID-T)",
+        "Adolescent Self-report",
+        "Self-Management - Diabetes Self-Management Profile (DSMP)",
+        "Diabetes Strengths and Resilience Measure (DSTAR)",
+        "Adolescent Quality of Life - The MIND-Youth Questionnaire",
+        "Adolescent self-report"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "parent education level",
+        "family income",
+        "mobile device usage",
+        "language fluency",
+        "comorbid conditions"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, HbA1c, Insulin Regimen, Parent Education Level, Family Income,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Glycemic control - HbA1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Adherence to Diabetes Regimen (Objective) - Blood Glucose Monitoring Frequency",
+        "Diabetes Family Impact - Diabetes Family Impact Scale (DFIS)",
+        "Parent-report",
+        "Family Impact - Pediatric Quality of Life Family Impact Module (Peds QL-FI)",
+        "Family Communication - Helping for Health Inventory (HHI)",
+        "Parent report",
+        "Adolescent report",
+        "Diabetes Family Conflict Scale-Revised (DCFS)",
+        "Diabetes Family Conflict Scale-Revised (DFCS)",
+        "Adolescent-report",
+        "Problem Areas in Diabetes-Teen (PAID-T)",
+        "Adolescent Self-report",
+        "Self-Management - Diabetes Self-Management Profile (DSMP)",
+        "Diabetes Strengths and Resilience Measure (DSTAR)",
+        "Adolescent Quality of Life - The MIND-Youth Questionnaire",
+        "Adolescent self-report"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "Insulin Regimen",
+        "Parent Education Level",
+        "Family Income"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Parent Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Parent-Adolescent Relationship Quality, Family Conflict, Parental Self-Efficacy, Adolescent Self-Care Independence,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Glycemic control - HbA1c",
+          "Baseline HbA1c"
+        ],
+        [
+          "Family Communication - Helping for Health Inventory (HHI)",
+          "Parent-Adolescent Relationship Quality"
+        ],
+        [
+          "Diabetes Family Conflict Scale-Revised (DCFS)",
+          "Family Conflict"
+        ],
+        [
+          "Adolescent Self-report",
+          "Adolescent Self-Care Independence"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Adherence to Diabetes Regimen (Objective) - Blood Glucose Monitoring Frequency",
+        "Diabetes Family Impact - Diabetes Family Impact Scale (DFIS)",
+        "Parent-report",
+        "Family Impact - Pediatric Quality of Life Family Impact Module (Peds QL-FI)",
+        "Parent report",
+        "Adolescent report",
+        "Diabetes Family Conflict Scale-Revised (DFCS)",
+        "Problem Areas in Diabetes-Teen (PAID-T)",
+        "Adolescent Self-report",
+        "Self-Management - Diabetes Self-Management Profile (DSMP)",
+        "Diabetes Strengths and Resilience Measure (DSTAR)",
+        "Adolescent Quality of Life - The MIND-Youth Questionnaire",
+        "Adolescent self-report"
+      ],
+      "remaining_candidate_features": [
+        "Parent Gender",
+        "Diabetes Diagnosis Duration",
+        "Parental Self-Efficacy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, duration of type 1 diabetes, HbA1c level, parental education level, family structure (single parent vs. two-parent household), adolescent's insulin regimen, frequency of blood glucose monitoring, parental mobile device type, data plan details.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Glycemic control - HbA1c",
+          "HbA1c level"
+        ],
+        [
+          "Adherence to Diabetes Regimen (Objective) - Blood Glucose Monitoring Frequency",
+          "frequency of blood glucose monitoring"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Diabetes Family Impact - Diabetes Family Impact Scale (DFIS)",
+        "Parent-report",
+        "Family Impact - Pediatric Quality of Life Family Impact Module (Peds QL-FI)",
+        "Family Communication - Helping for Health Inventory (HHI)",
+        "Parent report",
+        "Adolescent report",
+        "Diabetes Family Conflict Scale-Revised (DCFS)",
+        "Diabetes Family Conflict Scale-Revised (DFCS)",
+        "Adolescent-report",
+        "Problem Areas in Diabetes-Teen (PAID-T)",
+        "Adolescent Self-report",
+        "Self-Management - Diabetes Self-Management Profile (DSMP)",
+        "Diabetes Strengths and Resilience Measure (DSTAR)",
+        "Adolescent Quality of Life - The MIND-Youth Questionnaire",
+        "Adolescent self-report"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 1 diabetes",
+        "parental education level",
+        "family structure (single parent vs. two-parent household)",
+        "adolescent's insulin regimen",
+        "parental mobile device type",
+        "data plan details"
+      ]
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "trial_id": "NCT00683020",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ethnicity, language spoken, duration of diabetes, number of clinic visits in the preceding 24 months, type of diabetes treatment, baseline SF-12 Physical Component Summary score, baseline SF-12 Mental Component Summary score, phone type (touch tone), geographic location (SF Bay Area).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Language",
+          "language spoken"
+        ],
+        [
+          "Diabetes Duration",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Birth Place",
+        "Language Concordance with Primary Care Provider",
+        "Educational Attainment",
+        "Health Literacy",
+        "Employment Status",
+        "Annual Household Income",
+        "Financial Class - Insurance Type",
+        "Insulin Treatment",
+        "Hemoglobin A1c",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Low-density Lipoprotein"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "number of clinic visits in the preceding 24 months",
+        "type of diabetes treatment",
+        "baseline SF-12 Physical Component Summary score",
+        "baseline SF-12 Mental Component Summary score",
+        "phone type (touch tone)",
+        "geographic location (SF Bay Area)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Language, Region of Enrollment, Diabetes Diagnosis Duration, Number of Clinic Visits in Preceding 24 Months,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Language",
+          "Language"
+        ],
+        [
+          "Diabetes Duration",
+          "Diabetes Diagnosis Duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Birth Place",
+        "Language Concordance with Primary Care Provider",
+        "Educational Attainment",
+        "Health Literacy",
+        "Employment Status",
+        "Annual Household Income",
+        "Financial Class - Insurance Type",
+        "Insulin Treatment",
+        "Hemoglobin A1c",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Low-density Lipoprotein"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Region of Enrollment",
+        "Number of Clinic Visits in Preceding 24 Months"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Language Spoken, Clinic Location, Prior Clinic Visits,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Language",
+          "Language Spoken"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Birth Place",
+        "Language Concordance with Primary Care Provider",
+        "Educational Attainment",
+        "Health Literacy",
+        "Employment Status",
+        "Annual Household Income",
+        "Financial Class - Insurance Type",
+        "Diabetes Duration",
+        "Insulin Treatment",
+        "Hemoglobin A1c",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Low-density Lipoprotein"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Region of Enrollment",
+        "Diabetes Diagnosis Duration",
+        "Clinic Location",
+        "Prior Clinic Visits"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ethnicity, language spoken, diabetes duration, diabetes treatment regimen, comorbidities, body mass index (BMI), blood pressure, hemoglobin A1c (HbA1c), low-density lipoprotein (LDL) cholesterol, smoking status, education level, income level, health literacy, SF-12 Health Survey scores at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Language",
+          "language spoken"
+        ],
+        [
+          "Educational Attainment",
+          "education level"
+        ],
+        [
+          "Health Literacy",
+          "health literacy"
+        ],
+        [
+          "Annual Household Income",
+          "income level"
+        ],
+        [
+          "Diabetes Duration",
+          "diabetes duration"
+        ],
+        [
+          "Hemoglobin A1c",
+          "hemoglobin A1c (HbA1c)"
+        ],
+        [
+          "Low-density Lipoprotein",
+          "low-density lipoprotein (LDL) cholesterol"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Birth Place",
+        "Language Concordance with Primary Care Provider",
+        "Employment Status",
+        "Financial Class - Insurance Type",
+        "Insulin Treatment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "diabetes treatment regimen",
+        "comorbidities",
+        "body mass index (BMI)",
+        "blood pressure",
+        "smoking status",
+        "SF-12 Health Survey scores at baseline."
+      ]
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "trial_id": "NCT02448563",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, readiness to change, language proficiency, live birth status, depression status (PHQ-9 and EPDS scores), previous enrollment in similar programs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index (BMI)",
+          "BMI"
+        ],
+        [
+          "Sex: Female",
+          "live birth status"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "readiness to change"
+        ],
+        [
+          "language proficiency",
+          "English-speaking"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Weight",
+        "Waist circumference",
+        "Breastfeeding"
+      ],
+      "remaining_candidate_features": [
+        "depression status (PHQ-9 and EPDS scores)",
+        "previous enrollment in similar programs."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Depression Scores (PHQ-9, EPDS), Pre-natal BMI, Post-partum BMI, Attendance at Group Sessions, Barriers to Attendance,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body mass index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Weight",
+        "Waist circumference",
+        "Breastfeeding"
+      ],
+      "remaining_candidate_features": [
+        "Depression Scores (PHQ-9, EPDS)",
+        "Pre-natal BMI",
+        "Post-partum BMI",
+        "Attendance at Group Sessions",
+        "Barriers to Attendance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, BMI, Gestational Age, Parity, Pre-pregnancy BMI, Postpartum Depression Status, Region of Enrollment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Body mass index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Waist circumference",
+        "Breastfeeding"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age",
+        "Parity",
+        "Pre-pregnancy BMI",
+        "Postpartum Depression Status",
+        "Region of Enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, BMI, parity, gestational age at delivery, mode of delivery, breastfeeding status, education level, income, marital status, employment status, medical history (e.g., hypertension, diabetes), medication use, smoking status, physical activity level, dietary habits, depression scores (PHQ-9, EPDS).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body mass index (BMI)",
+          "BMI"
+        ],
+        [
+          "Breastfeeding",
+          "breastfeeding status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Weight",
+        "Waist circumference"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "parity",
+        "gestational age at delivery",
+        "mode of delivery",
+        "education level",
+        "income",
+        "marital status",
+        "employment status",
+        "medical history (e.g., hypertension, diabetes)",
+        "medication use",
+        "smoking status",
+        "physical activity level",
+        "dietary habits",
+        "depression scores (PHQ-9, EPDS)"
+      ]
+    }
+  }
+}

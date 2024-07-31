@@ -1,0 +1,127 @@
+{
+  "trial_id": "NCT03396874",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Karnofsky performance status, PSA level, prior definitive therapy (prostatectomy or radiation therapy), time since definitive therapy, histopathological type of prostate cancer, ability to understand and sign informed consent.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky performance status",
+        "PSA level",
+        "prior definitive therapy (prostatectomy or radiation therapy)",
+        "time since definitive therapy",
+        "histopathological type of prostate cancer",
+        "ability to understand and sign informed consent."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky performance status, PSA levels, Time since definitive therapy, Type of definitive therapy (prostatectomy or radiation therapy),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Karnofsky performance status",
+        "PSA levels",
+        "Time since definitive therapy",
+        "Type of definitive therapy (prostatectomy or radiation therapy)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Karnofsky Performance Status, PSA level, Time since definitive therapy, Type of definitive therapy, Gleason score at diagnosis, Prostate cancer stage at diagnosis, Prior hormone therapy, Prior chemotherapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Male",
+          "Sex: Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky Performance Status",
+        "PSA level",
+        "Time since definitive therapy",
+        "Type of definitive therapy",
+        "Gleason score at diagnosis",
+        "Prostate cancer stage at diagnosis",
+        "Prior hormone therapy",
+        "Prior chemotherapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Karnofsky performance status, PSA level, time since definitive therapy, type of definitive therapy, histopathological Gleason score, presence of metastatic disease, prior treatments for prostate cancer.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky performance status",
+        "PSA level",
+        "time since definitive therapy",
+        "type of definitive therapy",
+        "histopathological Gleason score",
+        "presence of metastatic disease",
+        "prior treatments for prostate cancer."
+      ]
+    }
+  }
+}

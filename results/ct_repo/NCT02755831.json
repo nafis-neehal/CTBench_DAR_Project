@@ -1,0 +1,140 @@
+{
+  "trial_id": "NCT02755831",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age at enrollment, prepregnancy BMI, chronic hypertension status, pregestational diabetes status, twin gestation status, history of preeclampsia, history of eclampsia, history of fetal growth restriction, Apnea Hypopnea Index (AHI) at baseline, smoking status, race/ethnicity, parity, socioeconomic status, baseline sleep study results.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Pre-Pregnancy BMI",
+          "prepregnancy BMI"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race/ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "gestational age at enrollment",
+        "chronic hypertension status",
+        "pregestational diabetes status",
+        "twin gestation status",
+        "history of preeclampsia",
+        "history of eclampsia",
+        "history of fetal growth restriction",
+        "Apnea Hypopnea Index (AHI) at baseline",
+        "smoking status",
+        "parity",
+        "socioeconomic status",
+        "baseline sleep study results"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational Age at Enrollment, Prepregnancy BMI, Chronic Hypertension, Pregestational Diabetes, Twin Gestation, History of Preeclampsia, History of Eclampsia, History of Fetal Growth Restriction,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Pre-Pregnancy BMI",
+          "Prepregnancy BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age at Enrollment",
+        "Chronic Hypertension",
+        "Pregestational Diabetes",
+        "Twin Gestation",
+        "History of Preeclampsia",
+        "History of Eclampsia",
+        "History of Fetal Growth Restriction"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gestational Age at Enrollment, BMI, Pre-pregnancy BMI, Chronic Hypertension, Pregestational Diabetes, Twin Gestation, History of Prior Pregnancy Affected by Preeclampsia, Eclampsia or Fetal Growth Restriction,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Pre-Pregnancy BMI",
+          "Pre-pregnancy BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age at Enrollment",
+        "BMI",
+        "Chronic Hypertension",
+        "Pregestational Diabetes",
+        "Twin Gestation",
+        "History of Prior Pregnancy Affected by Preeclampsia",
+        "Eclampsia or Fetal Growth Restriction"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, prepregnancy BMI, gestational age at enrollment, parity, history of prior pregnancy affected by preeclampsia, eclampsia or fetal growth restriction, chronic hypertension, pregestational diabetes, twin gestation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Pre-Pregnancy BMI",
+          "prepregnancy BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "gestational age at enrollment",
+        "parity",
+        "history of prior pregnancy affected by preeclampsia",
+        "eclampsia or fetal growth restriction",
+        "chronic hypertension",
+        "pregestational diabetes",
+        "twin gestation."
+      ]
+    }
+  }
+}

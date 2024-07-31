@@ -1,0 +1,307 @@
+{
+  "trial_id": "NCT02248688",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, gender, baseline body weight, baseline ghrelin hormone levels, history of previous weight loss attempts, anesthesia risk assessment, mental competence, history of major surgery, history of radiation therapy, history of embolization, history of portal venous hypertension, serum creatinine levels, pregnancy status, history of bleeding disorders, allergy status, participation in other studies, history of allergic reactions to iodinated contrast, baseline gastric emptying study results, medication use (anti-coagulants, antiplatelet drugs, NSAIDs, steroids), history of gastrointestinal complaints, history of peptic ulcer disease, gastrointestinal bleeding status, anesthesia care or general surgery contraindications, secondary causes of obesity, substance abuse or alcoholism status, compliance with previous medical care, psychiatric disorder status, mesenteric atherosclerotic disease status, hiatal hernia status, aortic disease status, comorbidity status (cancer, peripheral arterial disease, cardiovascular disease), baseline EGD results, CT Angiogram results for left gastric artery anatomy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Weight",
+          "baseline body weight"
+        ],
+        [
+          "Ghrelin",
+          "baseline ghrelin hormone levels"
+        ],
+        [
+          "Blood Urea Nitrogen (BUN)/Creatinine",
+          "serum creatinine levels"
+        ],
+        [
+          "Urine Pregnancy Test (only if female of child-bearing potential)",
+          "pregnancy status"
+        ],
+        [
+          "Complete blood count (CBC)",
+          "gastrointestinal bleeding status"
+        ],
+        [
+          "Nuclear Medicine: Gastric Emptying Study",
+          "baseline gastric emptying study results"
+        ],
+        [
+          "Computed Tomography (CT) Angiogram",
+          "CT Angiogram results for left gastric artery anatomy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Cholecystokinin",
+        "Leptin",
+        "Hemoglobin-A1c (HgA1c)",
+        "Prothrombin Time/Partial Thromboplastin Time (PT/PTT)",
+        "Upper Endoscopy",
+        "Stool Guaiac",
+        "Short Form (SF)-36v2 Questionnaire",
+        "Physical Component Summary (PCS)",
+        "Short Form (SF)-36 Version 2 Questionnaire Mental Component Summary (MCS)"
+      ],
+      "remaining_candidate_features": [
+        "history of previous weight loss attempts",
+        "anesthesia risk assessment",
+        "mental competence",
+        "history of major surgery",
+        "history of radiation therapy",
+        "history of embolization",
+        "history of portal venous hypertension",
+        "history of bleeding disorders",
+        "allergy status",
+        "participation in other studies",
+        "history of allergic reactions to iodinated contrast",
+        "medication use (anti-coagulants, antiplatelet drugs, NSAIDs, steroids)",
+        "history of gastrointestinal complaints",
+        "history of peptic ulcer disease",
+        "anesthesia care or general surgery contraindications",
+        "secondary causes of obesity",
+        "substance abuse or alcoholism status",
+        "compliance with previous medical care",
+        "psychiatric disorder status",
+        "mesenteric atherosclerotic disease status",
+        "hiatal hernia status",
+        "aortic disease status",
+        "comorbidity status (cancer, peripheral arterial disease, cardiovascular disease)",
+        "baseline EGD results"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Baseline Ghrelin Hormone Levels, Previous Weight Loss Attempts, Anesthesia Risk,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Ghrelin",
+          "Baseline Ghrelin Hormone Levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Weight",
+        "Cholecystokinin",
+        "Leptin",
+        "Hemoglobin-A1c (HgA1c)",
+        "Urine Pregnancy Test (only if female of child-bearing potential)",
+        "Complete blood count (CBC)",
+        "Blood Urea Nitrogen (BUN)/Creatinine",
+        "Prothrombin Time/Partial Thromboplastin Time (PT/PTT)",
+        "Computed Tomography (CT) Angiogram",
+        "Upper Endoscopy",
+        "Stool Guaiac",
+        "Nuclear Medicine: Gastric Emptying Study",
+        "Short Form (SF)-36v2 Questionnaire",
+        "Physical Component Summary (PCS)",
+        "Short Form (SF)-36 Version 2 Questionnaire Mental Component Summary (MCS)"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Previous Weight Loss Attempts",
+        "Anesthesia Risk"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Comorbidities, History of Previous Weight Loss Attempts, History of Previous Surgical Procedures, Anesthesia Risk, Serum Creatinine, History of Kidney Problems, History of Bleeding Disorder, Allergy to Embolic Agents, History of Upper Gastrointestinal Complaints, History of Peptic Ulcer Disease, History of Gastrointestinal Bleeding, Use of Anti-coagulants or Antiplatelet Drugs, Use of NSAID or Steroid Medications, History of Substance Abuse or Alcoholism, Psychiatric Disorders, Mental/Cognitive Impairment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Serum Creatinine",
+          "Serum Creatinine"
+        ],
+        [
+          "Computed Tomography (CT) Angiogram",
+          "CT Angiogram"
+        ],
+        [
+          "Nuclear Medicine: Gastric Emptying Study",
+          "Abnormal baseline gastric emptying study"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Weight",
+        "Cholecystokinin",
+        "Ghrelin",
+        "Leptin",
+        "Hemoglobin-A1c (HgA1c)",
+        "Urine Pregnancy Test (only if female of child-bearing potential)",
+        "Complete blood count (CBC)",
+        "Blood Urea Nitrogen (BUN)/Creatinine",
+        "Prothrombin Time/Partial Thromboplastin Time (PT/PTT)",
+        "Upper Endoscopy",
+        "Stool Guaiac",
+        "Short Form (SF)-36v2 Questionnaire",
+        "Physical Component Summary (PCS)",
+        "Short Form (SF)-36 Version 2 Questionnaire Mental Component Summary (MCS)"
+      ],
+      "remaining_candidate_features": [
+        "Comorbidities",
+        "History of Previous Weight Loss Attempts",
+        "History of Previous Surgical Procedures",
+        "Anesthesia Risk",
+        "History of Kidney Problems",
+        "History of Bleeding Disorder",
+        "Allergy to Embolic Agents",
+        "History of Upper Gastrointestinal Complaints",
+        "History of Peptic Ulcer Disease",
+        "History of Gastrointestinal Bleeding",
+        "Use of Anti-coagulants or Antiplatelet Drugs",
+        "Use of NSAID or Steroid Medications",
+        "History of Substance Abuse or Alcoholism",
+        "Psychiatric Disorders",
+        "Mental/Cognitive Impairment."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, ethnicity, race, comorbidities (e.g. diabetes, hypertension, cardiovascular disease), smoking status, alcohol consumption, medical history (e.g. previous surgeries, radiation therapy), medication use (e.g. anti-coagulants, antiplatelet drugs, NSAIDs, steroids), anesthesia risk, quality of life metrics (e.g. SF-36, EQ-5D), gastric emptying study results, EGD results, CT Angiogram results, serum creatinine levels, platelet count, history of bleeding disorders, allergy status, mental health status (e.g. depression, anxiety), substance abuse history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Computed Tomography (CT) Angiogram",
+          "CT Angiogram results"
+        ],
+        [
+          "Upper Endoscopy",
+          "EGD results"
+        ],
+        [
+          "Stool Guaiac",
+          "gastric emptying study results"
+        ],
+        [
+          "Blood Urea Nitrogen (BUN)/Creatinine",
+          "serum creatinine levels"
+        ],
+        [
+          "Complete blood count (CBC)",
+          "platelet count"
+        ],
+        [
+          "Short Form (SF)-36v2 Questionnaire",
+          "quality of life metrics (e.g. SF-36, EQ-5D)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Cholecystokinin",
+        "Ghrelin",
+        "Leptin",
+        "Hemoglobin-A1c (HgA1c)",
+        "Prothrombin Time/Partial Thromboplastin Time (PT/PTT)",
+        "Nuclear Medicine: Gastric Emptying Study",
+        "Physical Component Summary (PCS)",
+        "Short Form (SF)-36 Version 2 Questionnaire Mental Component Summary (MCS)",
+        "Urine Pregnancy Test (only if female of child-bearing potential)"
+      ],
+      "remaining_candidate_features": [
+        "height",
+        "ethnicity",
+        "comorbidities (e.g. diabetes, hypertension, cardiovascular disease)",
+        "smoking status",
+        "alcohol consumption",
+        "medical history (e.g. previous surgeries, radiation therapy)",
+        "medication use (e.g. anti-coagulants, antiplatelet drugs, NSAIDs, steroids)",
+        "anesthesia risk",
+        "history of bleeding disorders",
+        "allergy status",
+        "mental health status (e.g. depression, anxiety)",
+        "substance abuse history"
+      ]
+    }
+  }
+}

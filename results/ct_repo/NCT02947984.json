@@ -1,0 +1,151 @@
+{
+  "trial_id": "NCT02947984",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Histological documentation of benign meningioma, Imaging studies (CT and/or MRI), Karnofsky performance status, Prior cranial irradiation, Concurrent primary cancer, Other cancer controlled < 3 years, Pregnancy status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Radiation Indication",
+          "Prior cranial irradiation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Tumor Location",
+        "Smoking Status",
+        "Co-morbidities",
+        "Gross Tumor Volume",
+        "Clinical Target Volume"
+      ],
+      "remaining_candidate_features": [
+        "Histological documentation of benign meningioma",
+        "Imaging studies (CT and/or MRI)",
+        "Karnofsky performance status",
+        "Concurrent primary cancer",
+        "Other cancer controlled < 3 years",
+        "Pregnancy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Karnofsky Performance Status, Tumor Size, Tumor Location, Prior Surgery, Time Since Diagnosis,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Tumor Location",
+          "Tumor Location"
+        ],
+        [
+          "Karnofsky Performance Status",
+          "Karnofsky Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Smoking Status",
+        "Co-morbidities",
+        "Radiation Indication",
+        "Gross Tumor Volume",
+        "Clinical Target Volume"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Tumor Size",
+        "Prior Surgery",
+        "Time Since Diagnosis"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Karnofsky Performance Status, Histological Documentation of Benign Meningioma, Residual or Recurrent Intracranial Tumor, Prior Cranial Irradiation, Concurrent Primary Cancer.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Tumor Location",
+        "Smoking Status",
+        "Co-morbidities",
+        "Radiation Indication",
+        "Gross Tumor Volume",
+        "Clinical Target Volume"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky Performance Status",
+        "Histological Documentation of Benign Meningioma",
+        "Residual or Recurrent Intracranial Tumor",
+        "Prior Cranial Irradiation",
+        "Concurrent Primary Cancer."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, Karnofsky performance status, histological meningioma subtype, tumor size, tumor location, time since initial diagnosis, time since previous surgery, number of previous surgeries, presence of neurological symptoms, prior treatment with chemotherapy or hormone therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Tumor Location",
+          "tumor location"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Smoking Status",
+        "Co-morbidities",
+        "Radiation Indication",
+        "Gross Tumor Volume",
+        "Clinical Target Volume"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky performance status",
+        "histological meningioma subtype",
+        "tumor size",
+        "time since initial diagnosis",
+        "time since previous surgery",
+        "number of previous surgeries",
+        "presence of neurological symptoms",
+        "prior treatment with chemotherapy or hormone therapy."
+      ]
+    }
+  }
+}

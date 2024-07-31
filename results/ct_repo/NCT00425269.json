@@ -1,0 +1,154 @@
+{
+  "trial_id": "NCT00425269",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, waist circumference, family history of diabetes, sedentary physical activity, fasting plasma glucose value, plasma glucose 2 hours after oral glucose tolerance test, type 2 diabetes diagnosis duration, medication status for type 2 diabetes, pregnancy status, history of heart attack or stroke, participation in organized physical exercise.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Years of residence in Norway",
+        "Years of education"
+      ],
+      "remaining_candidate_features": [
+        "waist circumference",
+        "family history of diabetes",
+        "sedentary physical activity",
+        "fasting plasma glucose value",
+        "plasma glucose 2 hours after oral glucose tolerance test",
+        "type 2 diabetes diagnosis duration",
+        "medication status for type 2 diabetes",
+        "pregnancy status",
+        "history of heart attack or stroke",
+        "participation in organized physical exercise."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Family History of Diabetes, Sedentary Physical Activity, Fasting Plasma Glucose, 2-hour Plasma Glucose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Years of residence in Norway",
+        "Years of education"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Waist Circumference",
+        "Family History of Diabetes",
+        "Sedentary Physical Activity",
+        "Fasting Plasma Glucose",
+        "2-hour Plasma Glucose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Ethnicity (Pakistani), Region of Enrollment, Body Mass Index, Waist Circumference, Family History of Diabetes, Sedentary Physical Activity,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Years of residence in Norway",
+        "Years of education"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity (Pakistani)",
+        "Waist Circumference",
+        "Family History of Diabetes",
+        "Sedentary Physical Activity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ethnicity, BMI, waist circumference, family history of diabetes, physical activity level, smoking status, education level, occupation, marital status, number of children, duration of stay in Norway, language proficiency in Norwegian.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Years of residence in Norway",
+          "duration of stay in Norway"
+        ],
+        [
+          "Years of education",
+          "education level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "waist circumference",
+        "family history of diabetes",
+        "physical activity level",
+        "smoking status",
+        "occupation",
+        "marital status",
+        "number of children",
+        "language proficiency in Norwegian"
+      ]
+    }
+  }
+}

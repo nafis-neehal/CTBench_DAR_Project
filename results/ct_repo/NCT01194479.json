@@ -1,0 +1,146 @@
+{
+  "trial_id": "NCT01194479",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Duration of Type 1 Diabetes, Frequency of Hypoglycemic Episodes, HbA1c Levels, Insulin Regimen, Use of Continuous Glucose Monitoring, Baseline Glucagon Levels, Baseline Epinephrine Levels, Baseline Norepinephrine Levels, Smoking Status, Physical Activity Level, Concomitant Medications",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI, kg/m^2)",
+          "BMI"
+        ],
+        [
+          "HbA1c (%)",
+          "HbA1c Levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Weight (kg)",
+        "HbA1c (mmol/mol)"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Duration of Type 1 Diabetes",
+        "Frequency of Hypoglycemic Episodes",
+        "Insulin Regimen",
+        "Baseline Glucagon Levels",
+        "Baseline Epinephrine Levels",
+        "Baseline Norepinephrine Levels",
+        "Smoking Status",
+        "Physical Activity Level",
+        "Concomitant Medications"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Duration of Diabetes, Frequency of Hypoglycemic Episodes, Baseline Glucagon Levels, Baseline Epinephrine Levels, Baseline Norepinephrine Levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI, kg/m^2)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight (kg)",
+        "HbA1c (%)",
+        "HbA1c (mmol/mol)"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes",
+        "Frequency of Hypoglycemic Episodes",
+        "Baseline Glucagon Levels",
+        "Baseline Epinephrine Levels",
+        "Baseline Norepinephrine Levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes duration, BMI, HbA1c, Insulin dose, History of hypoglycemia, Autonomic function, Cardiovascular disease history, Liver disease history, Kidney disease history, Neurological disorder history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI, kg/m^2)",
+          "BMI"
+        ],
+        [
+          "HbA1c (%)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight (kg)",
+        "HbA1c (mmol/mol)"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes duration",
+        "Insulin dose",
+        "History of hypoglycemia",
+        "Autonomic function",
+        "Cardiovascular disease history",
+        "Liver disease history",
+        "Kidney disease history",
+        "Neurological disorder history"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, BMI, duration of diabetes, HbA1c, frequency of hypoglycemic episodes per week, presence of diabetes complications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Body Mass Index (BMI, kg/m^2)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Weight (kg)",
+        "HbA1c (%)",
+        "HbA1c (mmol/mol)"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "duration of diabetes",
+        "HbA1c",
+        "frequency of hypoglycemic episodes per week",
+        "presence of diabetes complications."
+      ]
+    }
+  }
+}

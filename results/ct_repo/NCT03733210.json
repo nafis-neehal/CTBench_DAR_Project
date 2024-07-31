@@ -1,0 +1,179 @@
+{
+  "trial_id": "NCT03733210",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, hemoglobin level, white blood cell count, platelet count, serum creatinine level, T stage of cancer, subsite within the head and neck, history of recurrent disease or new primary, history of myocardial infarction, history of cerebrovascular accident, history of congestive heart failure, history of significant liver disease, history of unstable angina, history of bilateral neck dissection, history of infusion reactions to monoclonal antibody therapies, pregnancy status, breastfeeding status, magnesium level, potassium level, use of class IA or class III antiarrhythmic agents, history of interstitial pneumonitis, history of pulmonary fibrosis, history of severe renal disease, hypersensitivity to deferoxamine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "hemoglobin level",
+        "white blood cell count",
+        "platelet count",
+        "serum creatinine level",
+        "T stage of cancer",
+        "subsite within the head and neck",
+        "history of recurrent disease or new primary",
+        "history of myocardial infarction",
+        "history of cerebrovascular accident",
+        "history of congestive heart failure",
+        "history of significant liver disease",
+        "history of unstable angina",
+        "history of bilateral neck dissection",
+        "history of infusion reactions to monoclonal antibody therapies",
+        "pregnancy status",
+        "breastfeeding status",
+        "magnesium level",
+        "potassium level",
+        "use of class IA or class III antiarrhythmic agents",
+        "history of interstitial pneumonitis",
+        "history of pulmonary fibrosis",
+        "history of severe renal disease",
+        "hypersensitivity to deferoxamine."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemoglobin, White blood cell count, Platelet count, Serum creatinine, Tumor stage, Subsite within head and neck, History of recurrent disease, History of new primary,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Hemoglobin",
+        "White blood cell count",
+        "Platelet count",
+        "Serum creatinine",
+        "Tumor stage",
+        "Subsite within head and neck",
+        "History of recurrent disease",
+        "History of new primary"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hemoglobin, White Blood Cell Count, Platelet Count, Serum Creatinine, Tumor Stage, Subsite of Head and Neck Cancer, History of Recurrent Disease or New Primary, History of Infusion Reactions to Monoclonal Antibody Therapies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Hemoglobin",
+        "White Blood Cell Count",
+        "Platelet Count",
+        "Serum Creatinine",
+        "Tumor Stage",
+        "Subsite of Head and Neck Cancer",
+        "History of Recurrent Disease or New Primary",
+        "History of Infusion Reactions to Monoclonal Antibody Therapies."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, Eastern Cooperative Oncology Group (ECOG) performance status, tumor stage, tumor subsite, hemoglobin, white blood cell count, platelet count, serum creatinine, medical history (including myocardial infarction, cerebrovascular accident, congestive heart failure, liver disease, angina), history of infusion reactions, history of bilateral neck dissection, pregnancy status, breastfeeding status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "smoking status",
+        "Eastern Cooperative Oncology Group (ECOG) performance status",
+        "tumor stage",
+        "tumor subsite",
+        "hemoglobin",
+        "white blood cell count",
+        "platelet count",
+        "serum creatinine",
+        "medical history (including myocardial infarction, cerebrovascular accident, congestive heart failure, liver disease, angina)",
+        "history of infusion reactions",
+        "history of bilateral neck dissection",
+        "pregnancy status",
+        "breastfeeding status"
+      ]
+    }
+  }
+}

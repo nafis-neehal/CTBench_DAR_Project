@@ -1,0 +1,170 @@
+{
+  "trial_id": "NCT01102231",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, smoking history, tumor stage, histology type, prior treatments, organ function tests, baseline tumor measurements",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "ECOG Performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Stage",
+          "tumor stage"
+        ],
+        [
+          "Histological subtype",
+          "histology type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Smoker",
+        "Unresectability cause"
+      ],
+      "remaining_candidate_features": [
+        "smoking history",
+        "prior treatments",
+        "organ function tests",
+        "baseline tumor measurements"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Tumor stage, Histology type, Smoking status, Body Mass Index, Baseline organ function,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "ECOG Performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Stage",
+          "Tumor stage"
+        ],
+        [
+          "Histological subtype",
+          "Histology type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Smoker",
+        "Unresectability cause"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Smoking status",
+        "Body Mass Index",
+        "Baseline organ function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, ECOG Performance Status, Histology (Non-squamous), Stage (III), Measurable Disease (RECIST 1.1), Prior Cancer History, Prior Chest Radiation Therapy, Prior Therapy with EGFR Inhibitors, Prior Allergic Reaction to Monoclonal Antibodies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Stage",
+          "Stage (III)"
+        ],
+        [
+          "Histological subtype",
+          "Histology (Non-squamous)"
+        ],
+        [
+          "ECOG Performance status",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Smoker",
+        "Unresectability cause"
+      ],
+      "remaining_candidate_features": [
+        "Measurable Disease (RECIST 1.1)",
+        "Prior Cancer History",
+        "Prior Chest Radiation Therapy",
+        "Prior Therapy with EGFR Inhibitors",
+        "Prior Allergic Reaction to Monoclonal Antibodies."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, smoking history, tumor histology, tumor stage, tumor size, number of metastatic sites, prior cancer history, prior therapy, organ function (renal, hepatic, hematologic).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "ECOG Performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Histological subtype",
+          "tumor histology"
+        ],
+        [
+          "Stage",
+          "tumor stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Smoker",
+        "Unresectability cause"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "smoking history",
+        "tumor size",
+        "number of metastatic sites",
+        "prior cancer history",
+        "prior therapy",
+        "organ function (renal, hepatic, hematologic)."
+      ]
+    }
+  }
+}

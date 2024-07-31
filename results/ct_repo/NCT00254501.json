@@ -1,0 +1,206 @@
+{
+  "trial_id": "NCT00254501",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type of diabetes (Type I or Type II), duration of diabetes, baseline Hemoglobin A-1C, health insurance type, medication use, comorbid conditions, socioeconomic status, education level, employment status, baseline self-care behaviors.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Years since diabetes diagnosis",
+          "duration of diabetes"
+        ],
+        [
+          "On glucose-lowering therapy",
+          "medication use"
+        ],
+        [
+          "Education categories",
+          "education level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Income categories",
+        "Hypertension",
+        "Dyslipidemia",
+        "Depression",
+        "On oral agents",
+        "On insulin",
+        "On other diabetes medications",
+        "Used diabetic supplies"
+      ],
+      "remaining_candidate_features": [
+        "type of diabetes (Type I or Type II)",
+        "baseline Hemoglobin A-1C",
+        "health insurance type",
+        "comorbid conditions",
+        "socioeconomic status",
+        "employment status",
+        "baseline self-care behaviors."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Type of Diabetes (Type I or Type II), Duration of Diabetes, Baseline Hemoglobin A-1C, Health Insurance Status, Educational Level, Employment Status, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Medication Adherence,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Education categories",
+          "Educational Level"
+        ],
+        [
+          "Years since diabetes diagnosis",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Income categories",
+        "Hypertension",
+        "Dyslipidemia",
+        "Depression",
+        "On glucose-lowering therapy",
+        "On oral agents",
+        "On insulin",
+        "On other diabetes medications",
+        "Used diabetic supplies"
+      ],
+      "remaining_candidate_features": [
+        "Type of Diabetes (Type I or Type II)",
+        "Baseline Hemoglobin A-1C",
+        "Health Insurance Status",
+        "Employment Status",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Medication Adherence"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gender, Diabetes Type, Region of Enrollment, Diabetes Duration, HbA1c, Body Mass Index, Blood Pressure, Employment Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Years since diabetes diagnosis",
+          "Diabetes Duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Education categories",
+        "Income categories",
+        "Hypertension",
+        "Dyslipidemia",
+        "Depression",
+        "On glucose-lowering therapy",
+        "On oral agents",
+        "On insulin",
+        "On other diabetes medications",
+        "Used diabetic supplies"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Diabetes Type",
+        "Region of Enrollment",
+        "HbA1c",
+        "Body Mass Index",
+        "Blood Pressure",
+        "Employment Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, employment status, duration of diabetes, type of diabetes (Type I or Type II), baseline Hemoglobin A-1C, body mass index (BMI), blood pressure, lipid profile, smoking status, comorbidities (e.g., hypertension, cardiovascular disease), current medications, health insurance type, education level, income level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Education categories",
+          "education level"
+        ],
+        [
+          "Income categories",
+          "income level"
+        ],
+        [
+          "Hypertension",
+          "comorbidities (e.g., hypertension, cardiovascular disease)"
+        ],
+        [
+          "Years since diabetes diagnosis",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Dyslipidemia",
+        "Depression",
+        "On glucose-lowering therapy",
+        "On oral agents",
+        "On insulin",
+        "On other diabetes medications",
+        "Used diabetic supplies"
+      ],
+      "remaining_candidate_features": [
+        "employment status",
+        "type of diabetes (Type I or Type II)",
+        "baseline Hemoglobin A-1C",
+        "body mass index (BMI)",
+        "blood pressure",
+        "lipid profile",
+        "smoking status",
+        "current medications",
+        "health insurance type"
+      ]
+    }
+  }
+}

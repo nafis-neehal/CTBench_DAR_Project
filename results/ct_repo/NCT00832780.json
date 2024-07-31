@@ -1,0 +1,146 @@
+{
+  "trial_id": "NCT00832780",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, histologic type of lung cancer, stage of lung cancer, number of lesions, lesion size, Zubrod performance status, prior therapy, primary tumor control status, pregnancy status, comorbid conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "pregnancy status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "histologic type of lung cancer",
+        "stage of lung cancer",
+        "number of lesions",
+        "lesion size",
+        "Zubrod performance status",
+        "prior therapy",
+        "primary tumor control status",
+        "comorbid conditions."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Performance Status, Tumor Size, Number of Lesions, Primary Tumor Control Status, Prior Therapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Performance Status",
+        "Tumor Size",
+        "Number of Lesions",
+        "Primary Tumor Control Status",
+        "Prior Therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Zubrod Performance Status, Tumor Size, Number of Lesions, Primary Tumor Status, Prior Radiation Therapy, Prior Therapy Toxicity, Co-morbid Conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Zubrod Performance Status",
+        "Tumor Size",
+        "Number of Lesions",
+        "Primary Tumor Status",
+        "Prior Radiation Therapy",
+        "Prior Therapy Toxicity",
+        "Co-morbid Conditions"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, Zubrod performance status, histologic type of non-small cell lung cancer, tumor size, number of lesions, presence of metastatic disease, primary tumor site, time since diagnosis, prior therapy, co-morbid conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Zubrod performance status",
+        "histologic type of non-small cell lung cancer",
+        "tumor size",
+        "number of lesions",
+        "presence of metastatic disease",
+        "primary tumor site",
+        "time since diagnosis",
+        "prior therapy",
+        "co-morbid conditions"
+      ]
+    }
+  }
+}

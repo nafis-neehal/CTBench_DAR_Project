@@ -1,0 +1,323 @@
+{
+  "trial_id": "NCT02546544",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, histological or cytological confirmation of Ewing sarcoma, number of relapses, refractory disease status, prior chemotherapy-related toxicity grade, life expectancy, WHO performance score, ability to take oral medication, compliance with protocol, tumour biopsy accessibility, tumour progression documentation, measurable lesion on CT scan, cardiac ejection fraction, fasting glucose level, haemoglobin level, absolute neutrophil count, platelet count, direct bilirubin level, serum alanine aminotransferase level, aspartate aminotransferase level, alkaline phosphatase level, creatine phosphokinase level, serum creatinine level, potassium level, magnesium level, calcium level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "WHO performance status",
+          "WHO performance score"
+        ],
+        [
+          "Histology - Ewing Sarcoma",
+          "histological or cytological confirmation of Ewing sarcoma"
+        ],
+        [
+          "Number of lines of previous treatment",
+          "number of relapses"
+        ],
+        [
+          "Prior chemotherapy",
+          "prior chemotherapy-related toxicity grade"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Primary site",
+        "Disease stage at screening - Metastatic",
+        "Sites of metastases",
+        "Time since most recent relapse/progression (days)",
+        "Prior radiotherapy",
+        "Prior surgery"
+      ],
+      "remaining_candidate_features": [
+        "refractory disease status",
+        "life expectancy",
+        "ability to take oral medication",
+        "compliance with protocol",
+        "tumour biopsy accessibility",
+        "tumour progression documentation",
+        "measurable lesion on CT scan",
+        "cardiac ejection fraction",
+        "fasting glucose level",
+        "haemoglobin level",
+        "absolute neutrophil count",
+        "platelet count",
+        "direct bilirubin level",
+        "serum alanine aminotransferase level",
+        "aspartate aminotransferase level",
+        "alkaline phosphatase level",
+        "creatine phosphokinase level",
+        "serum creatinine level",
+        "potassium level",
+        "magnesium level",
+        "calcium level"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, WHO performance score, Disease stage at diagnosis, Number of prior relapses, Prior treatments received, Tumor size, Tumor location, Hemoglobin, Absolute neutrophil count, Platelet count, Bilirubin, Serum alanine aminotransferase, Aspartate aminotransferase, Alkaline phosphatase, Creatinine, Potassium, Magnesium, Calcium, Cardiac ejection fraction, Fasting glucose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "WHO performance status",
+          "WHO performance score"
+        ],
+        [
+          "Histology - Ewing Sarcoma",
+          "Disease stage at diagnosis"
+        ],
+        [
+          "Number of lines of previous treatment",
+          "Number of prior relapses"
+        ],
+        [
+          "Prior radiotherapy",
+          "Prior treatments received"
+        ],
+        [
+          "Hemoglobin",
+          "Hemoglobin"
+        ],
+        [
+          "Absolute neutrophil count",
+          "Absolute neutrophil count"
+        ],
+        [
+          "Platelet count",
+          "Platelet count"
+        ],
+        [
+          "Bilirubin",
+          "Bilirubin"
+        ],
+        [
+          "Serum alanine aminotransferase",
+          "Serum alanine aminotransferase"
+        ],
+        [
+          "Aspartate aminotransferase",
+          "Aspartate aminotransferase"
+        ],
+        [
+          "Alkaline phosphatase",
+          "Alkaline phosphatase"
+        ],
+        [
+          "Creatinine",
+          "Creatinine"
+        ],
+        [
+          "Potassium",
+          "Potassium"
+        ],
+        [
+          "Magnesium",
+          "Magnesium"
+        ],
+        [
+          "Calcium",
+          "Calcium"
+        ],
+        [
+          "Cardiac ejection fraction",
+          "Cardiac ejection fraction"
+        ],
+        [
+          "Fasting glucose",
+          "Fasting glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Primary site",
+        "Disease stage at screening - Metastatic",
+        "Sites of metastases",
+        "Time since most recent relapse/progression (days)",
+        "Prior chemotherapy",
+        "Prior surgery"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Tumor size",
+        "Tumor location"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Performance Status (WHO), Body Mass Index, Cardiac Ejection Fraction, Fasting Glucose, Haemoglobin, Absolute Neutrophil Count, Platelet Count, Direct Bilirubin, Serum Alanine Aminotransferase, Aspartate Aminotransferase, Alkaline Phosphatase, Creatine Phosphokinase, Serum Creatinine, Potassium, Magnesium, Calcium.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "WHO performance status",
+          "Performance Status (WHO)"
+        ],
+        [
+          "Cardiac Ejection Fraction",
+          "Cardiac Ejection Fraction"
+        ],
+        [
+          "Fasting Glucose",
+          "Fasting Glucose"
+        ],
+        [
+          "Haemoglobin",
+          "Haemoglobin"
+        ],
+        [
+          "Absolute Neutrophil Count",
+          "Absolute Neutrophil Count"
+        ],
+        [
+          "Platelet Count",
+          "Platelet Count"
+        ],
+        [
+          "Direct Bilirubin",
+          "Direct Bilirubin"
+        ],
+        [
+          "Serum Alanine Aminotransferase",
+          "Serum Alanine Aminotransferase"
+        ],
+        [
+          "Aspartate Aminotransferase",
+          "Aspartate Aminotransferase"
+        ],
+        [
+          "Alkaline Phosphatase",
+          "Alkaline Phosphatase"
+        ],
+        [
+          "Creatine Phosphokinase",
+          "Creatine Phosphokinase"
+        ],
+        [
+          "Serum Creatinine",
+          "Serum Creatinine"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Histology - Ewing Sarcoma",
+        "Primary site",
+        "Disease stage at screening - Metastatic",
+        "Sites of metastases",
+        "Number of lines of previous treatment",
+        "Time since most recent relapse/progression (days)",
+        "Prior radiotherapy",
+        "Prior chemotherapy",
+        "Prior surgery"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Potassium",
+        "Magnesium",
+        "Calcium"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ECOG performance status, histological diagnosis, EWSR1 status, relapse/refractory status, number of prior therapies, time since initial diagnosis, time since last progression, presence of metastases, sites of metastases, cardiac ejection fraction, fasting glucose level, haemoglobin, absolute neutrophil count, platelet count, bilirubin, ALT, AST, alkaline phosphatase, CPK, serum creatinine, potassium, magnesium, calcium levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "WHO performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Histology - Ewing Sarcoma",
+          "histological diagnosis"
+        ],
+        [
+          "Disease stage at screening - Metastatic",
+          "relapse/refractory status"
+        ],
+        [
+          "Sites of metastases",
+          "sites of metastases"
+        ],
+        [
+          "Number of lines of previous treatment",
+          "number of prior therapies"
+        ],
+        [
+          "Time since most recent relapse/progression (days)",
+          "time since last progression"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Primary site",
+        "Prior radiotherapy",
+        "Prior chemotherapy",
+        "Prior surgery"
+      ],
+      "remaining_candidate_features": [
+        "EWSR1 status",
+        "time since initial diagnosis",
+        "presence of metastases",
+        "cardiac ejection fraction",
+        "fasting glucose level",
+        "haemoglobin",
+        "absolute neutrophil count",
+        "platelet count",
+        "bilirubin",
+        "ALT",
+        "AST",
+        "alkaline phosphatase",
+        "CPK",
+        "serum creatinine",
+        "potassium",
+        "magnesium",
+        "calcium levels"
+      ]
+    }
+  }
+}

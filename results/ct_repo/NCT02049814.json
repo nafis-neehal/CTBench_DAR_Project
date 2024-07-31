@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT02049814",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), duration of type 2 diabetes mellitus (T2DM), baseline glycosylated hemoglobin (HbA1c) levels, baseline hemoglobin levels, serum creatinine levels, estimated glomerular filtration rate (eGFR), liver function tests (alanine aminotransferase (ALT) and aspartate aminotransferase (AST)), history of cardiovascular disease, presence of proliferative retinopathy or macular degeneration, history of hypoglycemia, history of ketoacidosis or hyperosmotic status/coma, use of systemic glucocorticoid treatment, presence of hematopathy, history of drug abuse or alcoholism, participation in another clinical study within the past 90 days, pregnancy or lactation status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Height",
+        "Baseline Systolic Blood Pressure (SBP)",
+        "Baseline Diastolic Blood Pressure (DBP)",
+        "Baseline Pulse",
+        "Baseline Temperature",
+        "Baseline Weight"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 2 diabetes mellitus (T2DM)",
+        "baseline glycosylated hemoglobin (HbA1c) levels",
+        "baseline hemoglobin levels",
+        "serum creatinine levels",
+        "estimated glomerular filtration rate (eGFR)",
+        "liver function tests (alanine aminotransferase (ALT) and aspartate aminotransferase (AST))",
+        "history of cardiovascular disease",
+        "presence of proliferative retinopathy or macular degeneration",
+        "history of hypoglycemia",
+        "history of ketoacidosis or hyperosmotic status/coma",
+        "use of systemic glucocorticoid treatment",
+        "presence of hematopathy",
+        "history of drug abuse or alcoholism",
+        "participation in another clinical study within the past 90 days",
+        "pregnancy or lactation status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Metformin Dose, Serum Creatinine, Estimated Glomerular Filtration Rate (eGFR), Hemoglobin Levels, Liver Function Tests (ALT, AST),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Height",
+        "Baseline Systolic Blood Pressure (SBP)",
+        "Baseline Diastolic Blood Pressure (DBP)",
+        "Baseline Pulse",
+        "Baseline Temperature",
+        "Baseline Weight"
+      ],
+      "remaining_candidate_features": [
+        "Baseline HbA1c",
+        "Duration of Diabetes",
+        "Daily Metformin Dose",
+        "Serum Creatinine",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "Hemoglobin Levels",
+        "Liver Function Tests (ALT, AST)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Body Mass Index, Duration of Diabetes, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Serum Creatinine, eGFR.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline Systolic Blood Pressure (SBP)",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Baseline Diastolic Blood Pressure (DBP)",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Height",
+        "Baseline Pulse",
+        "Baseline Temperature",
+        "Baseline Weight"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes",
+        "HbA1c",
+        "Fasting Plasma Glucose",
+        "Hemoglobin",
+        "Serum Creatinine",
+        "eGFR."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), duration of type 2 diabetes mellitus, glycosylated hemoglobin (HbA1c) concentration, metformin dose, hemoglobin levels, serum creatinine levels, estimated glomerular filtration rate (eGFR).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Baseline Weight",
+          "hemoglobin levels"
+        ],
+        [
+          "Baseline Systolic Blood Pressure (SBP)",
+          "serum creatinine levels"
+        ],
+        [
+          "Baseline Diastolic Blood Pressure (DBP)",
+          "estimated glomerular filtration rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Height",
+        "Baseline Pulse",
+        "Baseline Temperature"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 2 diabetes mellitus",
+        "glycosylated hemoglobin (HbA1c) concentration",
+        "metformin dose"
+      ]
+    }
+  }
+}

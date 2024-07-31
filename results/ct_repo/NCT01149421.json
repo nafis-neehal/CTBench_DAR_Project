@@ -1,0 +1,224 @@
+{
+  "trial_id": "NCT01149421",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, body mass index (BMI), baseline HbA1c, baseline systolic blood pressure (SBP), baseline diastolic blood pressure (DBP), duration of type 2 diabetes, use of oral antihyperglycemic medications, use of antihypertensive medications, heart rate, smoking status, alcohol use, physical activity level, medical history (including cardiovascular events, hypertension, and other comorbidities).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "baseline HbA1c"
+        ],
+        [
+          "Mean Systolic Blood Pressure (SBP)",
+          "baseline systolic blood pressure (SBP)"
+        ],
+        [
+          "Mean Diastolic Blood Pressure (DBP)",
+          "baseline diastolic blood pressure (DBP)"
+        ],
+        [
+          "Mean Heart Rate (HR)",
+          "heart rate"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Body Weight"
+      ],
+      "remaining_candidate_features": [
+        "use of oral antihyperglycemic medications",
+        "use of antihypertensive medications",
+        "smoking status",
+        "alcohol use",
+        "physical activity level",
+        "medical history (including cardiovascular events, hypertension, and other comorbidities)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Glycosylated hemoglobin (HbA1c), Mean blood pressure, Use of oral diabetes medications, Use of antihypertensive medications, Weight, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "Glycosylated hemoglobin (HbA1c)"
+        ],
+        [
+          "Mean Systolic Blood Pressure (SBP)",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Mean Diastolic Blood Pressure (DBP)",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Mean Heart Rate (HR)",
+          "Heart Rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body Weight",
+        "Duration of Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Mean blood pressure",
+        "Use of oral diabetes medications",
+        "Use of antihypertensive medications",
+        "Weight"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, Body Mass Index, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Antihypertensive medication use, Oral antihyperglycemic medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Mean Systolic Blood Pressure (SBP)",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Mean Diastolic Blood Pressure (DBP)",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Mean Heart Rate (HR)",
+          "Heart Rate"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Antihypertensive medication use",
+        "Oral antihyperglycemic medication use."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), glycosylated hemoglobin (HbA1c), mean blood pressure, heart rate, type 2 diabetes duration, oral antihyperglycemic medications, antihypertensive medications, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "glycosylated hemoglobin (HbA1c)"
+        ],
+        [
+          "Mean Systolic Blood Pressure (SBP)",
+          "mean blood pressure"
+        ],
+        [
+          "Mean Heart Rate (HR)",
+          "heart rate"
+        ],
+        [
+          "Duration of Diabetes",
+          "type 2 diabetes duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Body Weight",
+        "Mean Diastolic Blood Pressure (DBP)"
+      ],
+      "remaining_candidate_features": [
+        "oral antihyperglycemic medications",
+        "antihypertensive medications",
+        "smoking status."
+      ]
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "trial_id": "NCT00679289",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, ECOG performance status, Hemoglobin levels, Platelet count, Neutrophil count, International normalized ratio (INR), Serum creatinine levels, Serum total bilirubin levels, Aspartate aminotransferase (AST) levels, Alanine aminotransferase (ALT) levels, Prior treatment history, Presence of metastatic brain disease, Autoimmune-related conditions, Serious medical illnesses, HIV status, Hepatitis B status, Hepatitis C status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body Mass Index"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "ECOG performance status",
+        "Hemoglobin levels",
+        "Platelet count",
+        "Neutrophil count",
+        "International normalized ratio (INR)",
+        "Serum creatinine levels",
+        "Serum total bilirubin levels",
+        "Aspartate aminotransferase (AST) levels",
+        "Alanine aminotransferase (ALT) levels",
+        "Prior treatment history",
+        "Presence of metastatic brain disease",
+        "Autoimmune-related conditions",
+        "Serious medical illnesses",
+        "HIV status",
+        "Hepatitis B status",
+        "Hepatitis C status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Hemoglobin, Platelets, Neutrophils, International normalized ratio (INR), Serum creatinine, Serum total bilirubin, Aspartate aminotransferase (AST), Alanine aminotransferase (ALT), Prior treatment history, Metastatic brain disease status, Autoimmune-related conditions,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body Mass Index"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG performance status",
+        "Hemoglobin",
+        "Platelets",
+        "Neutrophils",
+        "International normalized ratio (INR)",
+        "Serum creatinine",
+        "Serum total bilirubin",
+        "Aspartate aminotransferase (AST)",
+        "Alanine aminotransferase (ALT)",
+        "Prior treatment history",
+        "Metastatic brain disease status",
+        "Autoimmune-related conditions"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological Type of Melanoma, Number of Metastatic Sites, Lactate Dehydrogenase (LDH) Level, Prior Systemic Therapy for Melanoma, Time from Initial Diagnosis to Study Entry.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Body Mass Index"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG Performance Status",
+        "Histological Type of Melanoma",
+        "Number of Metastatic Sites",
+        "Lactate Dehydrogenase (LDH) Level",
+        "Prior Systemic Therapy for Melanoma",
+        "Time from Initial Diagnosis to Study Entry"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, histological type of melanoma, number of metastatic sites, lactate dehydrogenase (LDH) level, hemoglobin, platelets, neutrophils, international normalized ratio, serum creatinine, serum total bilirubin, aspartate aminotransferase/alanine aminotransferase, prior systemic therapy for metastatic melanoma, time from initial diagnosis to metastatic disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Body Mass Index"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "histological type of melanoma",
+        "number of metastatic sites",
+        "lactate dehydrogenase (LDH) level",
+        "hemoglobin",
+        "platelets",
+        "neutrophils",
+        "international normalized ratio",
+        "serum creatinine",
+        "serum total bilirubin",
+        "aspartate aminotransferase/alanine aminotransferase",
+        "prior systemic therapy for metastatic melanoma",
+        "time from initial diagnosis to metastatic disease"
+      ]
+    }
+  }
+}

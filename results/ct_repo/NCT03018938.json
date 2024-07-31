@@ -1,0 +1,155 @@
+{
+  "trial_id": "NCT03018938",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), duration of type 2 diabetes, baseline HbA1c, fasting plasma glucose, use of oral anti-hyperglycemic medications, blood pressure, lipid profile, renal function, liver function, smoking status, alcohol consumption, physical activity level, history of cardiovascular disease, family history of diabetes.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "body mass index (BMI)",
+        "duration of type 2 diabetes",
+        "fasting plasma glucose",
+        "use of oral anti-hyperglycemic medications",
+        "blood pressure",
+        "lipid profile",
+        "renal function",
+        "liver function",
+        "smoking status",
+        "alcohol consumption",
+        "physical activity level",
+        "history of cardiovascular disease",
+        "family history of diabetes"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Blood Pressure, Use of Oral Anti-Hyperglycemic Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "Body Mass Index",
+        "Blood Pressure",
+        "Use of Oral Anti-Hyperglycemic Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (Chinese), Region of Enrollment, Diabetes duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Lipid profile, Previous anti-hyperglycemic medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity (Chinese)",
+        "Diabetes duration",
+        "Body Mass Index",
+        "Fasting Plasma Glucose",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Lipid profile",
+        "Previous anti-hyperglycemic medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), duration of diabetes, HbA1c at screening, fasting plasma glucose (FPG) at screening, systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, smoking status, medical history (including hypertension, dyslipidemia, cardiovascular disease), concomitant medications, oral anti-hyperglycemic medications (OAMs) used prior to study entry.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "HbA1c at screening"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of diabetes",
+        "fasting plasma glucose (FPG) at screening",
+        "systolic blood pressure (SBP)",
+        "diastolic blood pressure (DBP)",
+        "heart rate",
+        "smoking status",
+        "medical history (including hypertension, dyslipidemia, cardiovascular disease)",
+        "concomitant medications",
+        "oral anti-hyperglycemic medications (OAMs) used prior to study entry."
+      ]
+    }
+  }
+}

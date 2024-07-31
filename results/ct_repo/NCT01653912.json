@@ -1,0 +1,161 @@
+{
+  "trial_id": "NCT01653912",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, performance status (ECOG score), histological or cytological confirmation of serous ovarian cancer, pregnancy status, prior treatment-related toxicities, organ system function, diabetes status, prior response to platinum-based therapy, progression criteria (RECIST v1.1 or GCIG CA 125), number of prior therapies, presence of radiologically measurable disease, history of other malignancies, pre-existing medical or psychiatric disorders, use of prohibited medications, prior chemotherapy or radiotherapy, contraindications to carboplatin and/or paclitaxel, history of hypersensitivity reactions, prior use of AKT-targeting drugs, gastrointestinal conditions, history of bleeding, recent major surgery, infection status, systemic diseases, presence of brain metastases or leptomeningeal disease, QTcF interval, ECG abnormalities, history of myocardial infarction or acute coronary syndromes, heart failure classification (NYHA), pregnancy or lactation status, HIV status, HBV status, HCV status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "performance status (ECOG score)",
+        "histological or cytological confirmation of serous ovarian cancer",
+        "pregnancy status",
+        "prior treatment-related toxicities",
+        "organ system function",
+        "diabetes status",
+        "prior response to platinum-based therapy",
+        "progression criteria (RECIST v1.1 or GCIG CA 125)",
+        "number of prior therapies",
+        "presence of radiologically measurable disease",
+        "history of other malignancies",
+        "pre-existing medical or psychiatric disorders",
+        "use of prohibited medications",
+        "prior chemotherapy or radiotherapy",
+        "contraindications to carboplatin and/or paclitaxel",
+        "history of hypersensitivity reactions",
+        "prior use of AKT-targeting drugs",
+        "gastrointestinal conditions",
+        "history of bleeding",
+        "recent major surgery",
+        "infection status",
+        "systemic diseases",
+        "presence of brain metastases or leptomeningeal disease",
+        "QTcF interval",
+        "ECG abnormalities",
+        "history of myocardial infarction or acute coronary syndromes",
+        "heart failure classification (NYHA)",
+        "pregnancy or lactation status",
+        "HIV status",
+        "HBV status",
+        "HCV status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Performance Status, Histological Type, Prior Platinum-based Therapy Response, Time to Progression After Last Platinum-based Therapy, Number of Prior Therapies, Measurable Disease per RECIST 1.1, Organ Function Parameters, ECOG Score, Prior Treatment-related Toxicities, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Performance Status",
+        "Histological Type",
+        "Prior Platinum-based Therapy Response",
+        "Time to Progression After Last Platinum-based Therapy",
+        "Number of Prior Therapies",
+        "Measurable Disease per RECIST 1.1",
+        "Organ Function Parameters",
+        "ECOG Score",
+        "Prior Treatment-related Toxicities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, BMI, Diabetes Diagnosis, Prior Platinum-based Therapy, Prior Non-platinum-based Therapy, Number of Prior Therapies, Time Since Last Platinum-based Therapy, CA-125 Level, Radiologically Measurable Disease, Prior History of Malignancy, History of Myocardial Infarction, NYHA Functional Classification System.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "BMI",
+        "Diabetes Diagnosis",
+        "Prior Platinum-based Therapy",
+        "Prior Non-platinum-based Therapy",
+        "Number of Prior Therapies",
+        "Time Since Last Platinum-based Therapy",
+        "CA-125 Level",
+        "Radiologically Measurable Disease",
+        "Prior History of Malignancy",
+        "History of Myocardial Infarction",
+        "NYHA Functional Classification System."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, histological type of ovarian cancer, number of prior chemotherapy regimens, time since last platinum-based therapy, presence of measurable disease, presence of symptoms, type 2 diabetes status, prior treatment-related toxicities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "sex"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "ECOG performance status",
+        "histological type of ovarian cancer",
+        "number of prior chemotherapy regimens",
+        "time since last platinum-based therapy",
+        "presence of measurable disease",
+        "presence of symptoms",
+        "type 2 diabetes status",
+        "prior treatment-related toxicities."
+      ]
+    }
+  }
+}

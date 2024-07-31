@@ -1,0 +1,156 @@
+{
+  "trial_id": "NCT02309112",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, cancer stage, tumor type, treatment type (chemotherapy, radiotherapy, hormone therapy, active surveillance), internet access, transportation access, language fluency, physical limitations, psychological status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Stage of Cancer Diagnosis",
+          "cancer stage"
+        ],
+        [
+          "Tumour Location",
+          "tumor type"
+        ],
+        [
+          "Types of Conventional Treatment",
+          "treatment type (chemotherapy, radiotherapy, hormone therapy, active surveillance)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "internet access",
+        "transportation access",
+        "language fluency",
+        "physical limitations",
+        "psychological status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Cancer Type, Cancer Stage, Current Treatment Type, Internet Access, Transportation Access, English Fluency,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Tumour Location",
+          "Cancer Type"
+        ],
+        [
+          "Stage of Cancer Diagnosis",
+          "Cancer Stage"
+        ],
+        [
+          "Types of Conventional Treatment",
+          "Current Treatment Type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Internet Access",
+        "Transportation Access",
+        "English Fluency"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Cancer Diagnosis, Cancer Stage, Treatment Type, Quality of Life Score, Internet Access, Transportation Availability, English Fluency",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Stage of Cancer Diagnosis",
+          "Cancer Stage"
+        ],
+        [
+          "Types of Conventional Treatment",
+          "Treatment Type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Tumour Location"
+      ],
+      "remaining_candidate_features": [
+        "Cancer Diagnosis",
+        "Quality of Life Score",
+        "Internet Access",
+        "Transportation Availability",
+        "English Fluency"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, cancer diagnosis, cancer stage, type of conventional treatment, internet access, transportation access, English language fluency, physical limitations, history of yoga practice, psychological disturbances.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Stage of Cancer Diagnosis",
+          "cancer stage"
+        ],
+        [
+          "Types of Conventional Treatment",
+          "type of conventional treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Tumour Location"
+      ],
+      "remaining_candidate_features": [
+        "cancer diagnosis",
+        "internet access",
+        "transportation access",
+        "English language fluency",
+        "physical limitations",
+        "history of yoga practice",
+        "psychological disturbances."
+      ]
+    }
+  }
+}

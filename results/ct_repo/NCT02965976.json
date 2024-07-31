@@ -1,0 +1,170 @@
+{
+  "trial_id": "NCT02965976",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, history of gastrointestinal dysmotility, history of previous gastric or duodenal surgery, history of duodenal ulcer or duodenal fibrosis, presence of uncontrolled intercurrent illness, allergy to botulinum toxin and/or egg, pregnancy or nursing status, ability to follow protocol requirements.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Diabetes Status",
+          "history of gastrointestinal dysmotility"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Neoadjuvant Chemotherapy Status",
+        "Self Reported Smoking Status"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "history of previous gastric or duodenal surgery",
+        "history of duodenal ulcer or duodenal fibrosis",
+        "presence of uncontrolled intercurrent illness",
+        "allergy to botulinum toxin and/or egg",
+        "pregnancy or nursing status",
+        "ability to follow protocol requirements."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, History of gastrointestinal dysmotility, History of previous gastric or duodenal surgery, History of duodenal ulcer or duodenal fibrosis, Uncontrolled intercurrent illness, Allergy to botulinum toxin and/or egg, Pregnancy status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Neoadjuvant Chemotherapy Status",
+        "Self Reported Smoking Status",
+        "Diabetes Status"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "History of gastrointestinal dysmotility",
+        "History of previous gastric or duodenal surgery",
+        "History of duodenal ulcer or duodenal fibrosis",
+        "Uncontrolled intercurrent illness",
+        "Allergy to botulinum toxin and/or egg",
+        "Pregnancy status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Esophageal Carcinoma Stage, Prior Gastrointestinal Surgery, Prior Duodenal Ulcer or Duodenal Fibrosis, History of Gastrointestinal Dysmotility, History of Uncontrolled Inter-current Illness,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Neoadjuvant Chemotherapy Status",
+        "Self Reported Smoking Status",
+        "Diabetes Status"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG Performance Status",
+        "Esophageal Carcinoma Stage",
+        "Prior Gastrointestinal Surgery",
+        "Prior Duodenal Ulcer or Duodenal Fibrosis",
+        "History of Gastrointestinal Dysmotility",
+        "History of Uncontrolled Inter-current Illness"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), ECOG performance status, tumor stage, tumor location, history of gastrointestinal symptoms, history of previous abdominal surgery, comorbidities (e.g. diabetes, hypertension, cardiovascular disease), medication use (e.g. promotility agents, anticholinergic antispasmodic agents, narcotics), smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Neoadjuvant Chemotherapy Status",
+          "tumor stage"
+        ],
+        [
+          "Self Reported Smoking Status",
+          "smoking status"
+        ],
+        [
+          "Diabetes Status",
+          "comorbidities (e.g. diabetes, hypertension, cardiovascular disease)"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "tumor location",
+        "history of gastrointestinal symptoms",
+        "history of previous abdominal surgery",
+        "medication use (e.g. promotility agents, anticholinergic antispasmodic agents, narcotics)",
+        "alcohol consumption."
+      ]
+    }
+  }
+}

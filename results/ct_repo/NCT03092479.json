@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT03092479",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI at baseline, type of bariatric surgery, time since surgery, baseline health-related quality of life (HRQoL) scores, comorbid conditions, medication use, socioeconomic status, education level, smoking status, alcohol use, physical activity level, dietary habits, psychological status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI at baseline"
+        ],
+        [
+          "Surgery Type",
+          "type of bariatric surgery"
+        ],
+        [
+          "Months from Surgery to Enrollment",
+          "time since surgery"
+        ],
+        [
+          "Baseline Questionnaire Scores - Quality of Life",
+          "baseline health-related quality of life (HRQoL) scores"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Initial Psychosocial Clearance Light",
+        "Baseline Questionnaire Scores - Mental Health",
+        "Baseline Questionnaire Scores - EES",
+        "Baseline Questionnaire Scores - Diet and Exercise"
+      ],
+      "remaining_candidate_features": [
+        "comorbid conditions",
+        "medication use",
+        "socioeconomic status",
+        "education level",
+        "smoking status",
+        "alcohol use",
+        "physical activity level",
+        "dietary habits",
+        "psychological status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Type of Bariatric Surgery, Time Since Surgery, Baseline Health-Related Quality of Life (HRQoL) Scores,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Surgery Type",
+          "Type of Bariatric Surgery"
+        ],
+        [
+          "Months from Surgery to Enrollment",
+          "Time Since Surgery"
+        ],
+        [
+          "Baseline Questionnaire Scores - Quality of Life",
+          "Baseline Health-Related Quality of Life (HRQoL) Scores"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Initial Psychosocial Clearance Light",
+        "Baseline Questionnaire Scores - Mental Health",
+        "Baseline Questionnaire Scores - EES",
+        "Baseline Questionnaire Scores - Diet and Exercise"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Type of Bariatric Surgery, Time Since Surgery, Pre-Surgery BMI, Pre-Surgery Comorbidities,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Surgery Type",
+          "Type of Bariatric Surgery"
+        ],
+        [
+          "Months from Surgery to Enrollment",
+          "Time Since Surgery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Initial Psychosocial Clearance Light",
+        "Baseline Questionnaire Scores - Quality of Life",
+        "Baseline Questionnaire Scores - Mental Health",
+        "Baseline Questionnaire Scores - EES",
+        "Baseline Questionnaire Scores - Diet and Exercise"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Pre-Surgery BMI",
+        "Pre-Surgery Comorbidities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, type of bariatric surgery, time since surgery, comorbidities (e.g. diabetes, hypertension, sleep apnea), smoking status, education level, employment status, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Surgery Type",
+          "type of bariatric surgery"
+        ],
+        [
+          "Months from Surgery to Enrollment",
+          "time since surgery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Initial Psychosocial Clearance Light",
+        "Baseline Questionnaire Scores - Quality of Life",
+        "Baseline Questionnaire Scores - Mental Health",
+        "Baseline Questionnaire Scores - EES",
+        "Baseline Questionnaire Scores - Diet and Exercise"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "comorbidities (e.g. diabetes, hypertension, sleep apnea)",
+        "smoking status",
+        "education level",
+        "employment status",
+        "marital status"
+      ]
+    }
+  }
+}

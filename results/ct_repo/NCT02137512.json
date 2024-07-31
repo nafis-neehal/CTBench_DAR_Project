@@ -1,0 +1,206 @@
+{
+  "trial_id": "NCT02137512",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, HbA1c, total daily insulin dose, insulin pump usage duration, hypoglycemia awareness score, internet and cell phone access, living situation, mental status and cognition, use of insulin-to-carbohydrate ratio, history of diabetic ketoacidosis, history of severe hypoglycemia, history of seizure disorder, coronary artery disease, heart failure, cardiac arrhythmia, cystic fibrosis, liver function test results, renal function test results, presence of gastroparesis, stability on medications, thyroid disease status, alcohol or drug abuse history, presence of infectious processes, recent injuries or significant medical disorders, current use of specific medications and supplements.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Diabetes duration",
+          "duration of diabetes"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Daily total insulin dose",
+          "total daily insulin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body-mass index (BMI)",
+        "Daily basal insulin"
+      ],
+      "remaining_candidate_features": [
+        "insulin pump usage duration",
+        "hypoglycemia awareness score",
+        "internet and cell phone access",
+        "living situation",
+        "mental status and cognition",
+        "use of insulin-to-carbohydrate ratio",
+        "history of diabetic ketoacidosis",
+        "history of severe hypoglycemia",
+        "history of seizure disorder",
+        "coronary artery disease",
+        "heart failure",
+        "cardiac arrhythmia",
+        "cystic fibrosis",
+        "liver function test results",
+        "renal function test results",
+        "presence of gastroparesis",
+        "stability on medications",
+        "thyroid disease status",
+        "alcohol or drug abuse history",
+        "presence of infectious processes",
+        "recent injuries or significant medical disorders",
+        "current use of specific medications and supplements"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Total Daily Insulin Dose, Insulin Pump Use Duration, Hypoglycemia Awareness, Internet and Cell Phone Access, Living Situation,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diabetes duration",
+          "Duration of Diabetes"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Daily total insulin dose",
+          "Total Daily Insulin Dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Body-mass index (BMI)",
+        "Daily basal insulin"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Insulin Pump Use Duration",
+        "Hypoglycemia Awareness",
+        "Internet and Cell Phone Access",
+        "Living Situation"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Duration, HbA1c, Total Daily Insulin, Insulin-to-Carbohydrate Ratio, Hypoglycemia Awareness, Body Mass Index, Region of Enrollment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Diabetes duration",
+          "Diabetes Duration"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Daily total insulin dose",
+          "Total Daily Insulin"
+        ],
+        [
+          "Body-mass index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Daily basal insulin"
+      ],
+      "remaining_candidate_features": [
+        "Insulin-to-Carbohydrate Ratio",
+        "Hypoglycemia Awareness"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 1 diabetes, HbA1c, total daily insulin dose, insulin-to-carbohydrate ratio, Clarke Hypoglycemia Awareness score, history of severe hypoglycemia, history of diabetic ketoacidosis, presence of microvascular or macrovascular complications, use of concomitant medications, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Diabetes duration",
+          "duration of type 1 diabetes"
+        ],
+        [
+          "Body-mass index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Daily total insulin dose",
+          "total daily insulin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Daily basal insulin"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "insulin-to-carbohydrate ratio",
+        "Clarke Hypoglycemia Awareness score",
+        "history of severe hypoglycemia",
+        "history of diabetic ketoacidosis",
+        "presence of microvascular or macrovascular complications",
+        "use of concomitant medications",
+        "smoking status"
+      ]
+    }
+  }
+}

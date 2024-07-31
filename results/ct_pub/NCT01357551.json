@@ -1,0 +1,244 @@
+{
+  "trial_id": "NCT01357551",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, blood pressure, serum creatinine levels, liver function, hemoglobin A1c, history of angina or coronary ischemia, pregnancy status, breastfeeding status, birth control use, transplant status, presence of pacemaker or defibrillator, psychiatric illness status, alcohol use, substance abuse, recent weight loss, enrollment in weight loss program, ability to stand for measurements, history of weight loss surgery, cancer remission status, use of appetite suppressants or weight loss medication, transportation reliability, telephone access.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "Weight",
+          "recent weight loss"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Education (High School Graduate)",
+        "Current Tobacco user",
+        "Employment status",
+        "BMI>35",
+        "Weight loss during initiation phase",
+        "waist circumference",
+        "energy intake",
+        "total calories from fat",
+        "total calories from carbohydrates",
+        "total calories from protein",
+        "time spent walking",
+        "time spent doing moderate-intensity physical activity",
+        "time spent doing vigorous-intensity physical activity",
+        "total physical activity"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure",
+        "serum creatinine levels",
+        "liver function",
+        "hemoglobin A1c",
+        "history of angina or coronary ischemia",
+        "pregnancy status",
+        "breastfeeding status",
+        "birth control use",
+        "transplant status",
+        "presence of pacemaker or defibrillator",
+        "psychiatric illness status",
+        "alcohol use",
+        "substance abuse",
+        "enrollment in weight loss program",
+        "ability to stand for measurements",
+        "history of weight loss surgery",
+        "cancer remission status",
+        "use of appetite suppressants or weight loss medication",
+        "transportation reliability",
+        "telephone access"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, BMI, Blood pressure, Serum creatinine, Liver function, Hemoglobin A1c, History of unstable angina, Pregnancy status, History of transplant, Presence of pacemaker or defibrillator, History of dementia or severe psychiatric illness, History of alcohol or substance abuse, Recent weight loss, Enrollment in weight loss program, History of weight loss surgery, Cancer remission status, Use of appetite suppressants or weight loss medication, Transportation and telephone access",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "Recent weight loss"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Education (High School Graduate)",
+        "Current Tobacco user",
+        "Employment status",
+        "BMI>35",
+        "Weight loss during initiation phase",
+        "waist circumference",
+        "energy intake",
+        "total calories from fat",
+        "total calories from carbohydrates",
+        "total calories from protein",
+        "time spent walking",
+        "time spent doing moderate-intensity physical activity",
+        "time spent doing vigorous-intensity physical activity",
+        "total physical activity"
+      ],
+      "remaining_candidate_features": [
+        "Blood pressure",
+        "Serum creatinine",
+        "Liver function",
+        "Hemoglobin A1c",
+        "History of unstable angina",
+        "Pregnancy status",
+        "History of transplant",
+        "Presence of pacemaker or defibrillator",
+        "History of dementia or severe psychiatric illness",
+        "History of alcohol or substance abuse",
+        "Enrollment in weight loss program",
+        "History of weight loss surgery",
+        "Cancer remission status",
+        "Use of appetite suppressants or weight loss medication",
+        "Transportation and telephone access"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, BMI, Ethnicity, Education, Employment, Marital status, Income, Diabetes status, Hypertension status, Dyslipidemia status, Smoking status, Physical activity level, Medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Education (High School Graduate)",
+          "Education"
+        ],
+        [
+          "Employment status",
+          "Employment"
+        ],
+        [
+          "Current Tobacco user",
+          "Smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Weight",
+        "BMI>35",
+        "Weight loss during initiation phase",
+        "waist circumference",
+        "energy intake",
+        "total calories from fat",
+        "total calories from carbohydrates",
+        "total calories from protein",
+        "time spent walking",
+        "time spent doing moderate-intensity physical activity",
+        "time spent doing vigorous-intensity physical activity",
+        "total physical activity"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "Marital status",
+        "Income",
+        "Diabetes status",
+        "Hypertension status",
+        "Dyslipidemia status",
+        "Physical activity level",
+        "Medication use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, weight, height, systolic blood pressure, diastolic blood pressure, hemoglobin A1c, serum creatinine, liver function tests, history of diabetes, history of hypertension, history of dyslipidemia, history of arthritis, medication use, physical functioning, health-related quality of life.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "hemoglobin A1c",
+          "Hemoglobin A1c"
+        ],
+        [
+          "serum creatinine",
+          "Serum creatinine"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Education (High School Graduate)",
+        "Current Tobacco user",
+        "Employment status",
+        "BMI>35",
+        "Weight loss during initiation phase",
+        "waist circumference",
+        "energy intake",
+        "total calories from fat",
+        "total calories from carbohydrates",
+        "total calories from protein",
+        "time spent walking",
+        "time spent doing moderate-intensity physical activity",
+        "time spent doing vigorous-intensity physical activity",
+        "total physical activity"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "height",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "liver function tests",
+        "history of diabetes",
+        "history of hypertension",
+        "history of dyslipidemia",
+        "history of arthritis",
+        "medication use",
+        "physical functioning",
+        "health-related quality of life."
+      ]
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "trial_id": "NCT00201825",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, ECOG Performance Status, Stage of Disease, Smoking History, Prior Treatments, Measurable Disease (RECIST criteria), Life Expectancy, Organ Function, Random Blood Sugar Levels",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "ECOG (Eastern Cooperative Oncology Group)",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Histology"
+      ],
+      "remaining_candidate_features": [
+        "Stage of Disease",
+        "Smoking History",
+        "Prior Treatments",
+        "Measurable Disease (RECIST criteria)",
+        "Life Expectancy",
+        "Organ Function",
+        "Random Blood Sugar Levels"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Region of Enrollment, Smoking Status, Stage of Disease, Baseline Tumor Measurements, Organ Function Parameters,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "ECOG (Eastern Cooperative Oncology Group)",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Histology"
+      ],
+      "remaining_candidate_features": [
+        "Smoking Status",
+        "Stage of Disease",
+        "Baseline Tumor Measurements",
+        "Organ Function Parameters"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, ECOG Performance Status, Histology, Smoking Status, Stage of Disease, Measurable Disease, Life Expectancy, Organ Function, Prior Radiotherapy, Prior Surgery.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "ECOG (Eastern Cooperative Oncology Group)",
+          "ECOG Performance Status"
+        ],
+        [
+          "Histology",
+          "Histology"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Smoking Status",
+        "Stage of Disease",
+        "Measurable Disease",
+        "Life Expectancy",
+        "Organ Function",
+        "Prior Radiotherapy",
+        "Prior Surgery"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, histological subtype of NSCLC, smoking history, number of metastatic sites, presence of brain metastases, prior radiotherapy, prior surgery, body mass index, serum albumin level, random blood sugar level, creatinine clearance, bilirubin level, aspartate aminotransferase level, alanine aminotransferase level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "ECOG (Eastern Cooperative Oncology Group)",
+          "ECOG performance status"
+        ],
+        [
+          "Histology",
+          "histological subtype of NSCLC"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "smoking history",
+        "number of metastatic sites",
+        "presence of brain metastases",
+        "prior radiotherapy",
+        "prior surgery",
+        "body mass index",
+        "serum albumin level",
+        "random blood sugar level",
+        "creatinine clearance",
+        "bilirubin level",
+        "aspartate aminotransferase level",
+        "alanine aminotransferase level"
+      ]
+    }
+  }
+}

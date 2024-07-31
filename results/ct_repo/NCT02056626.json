@@ -1,0 +1,143 @@
+{
+  "trial_id": "NCT02056626",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "age, gender, systolic blood pressure, renal function, pregnancy status, current medication use, illicit drug use",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Mean systolic blood pressure",
+          "systolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Number of participants taking other antihypertensives"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "renal function",
+        "pregnancy status",
+        "current medication use",
+        "illicit drug use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Renal Function, Use of Beta-blockers, Use of Illicit Drugs, Pregnancy Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Mean systolic blood pressure",
+          "Baseline Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Number of participants taking other antihypertensives"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline Diastolic Blood Pressure",
+        "Renal Function",
+        "Use of Beta-blockers",
+        "Use of Illicit Drugs",
+        "Pregnancy Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Systolic Blood Pressure, Diastolic Blood Pressure, Renal Function,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Mean systolic blood pressure",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Number of participants taking other antihypertensives"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diastolic Blood Pressure",
+        "Renal Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, systolic blood pressure, diastolic blood pressure, body mass index, renal function, medical history of hypertension, duration of hypertension, current antihypertensive medication use, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Mean systolic blood pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Number of participants taking other antihypertensives",
+          "current antihypertensive medication use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "race",
+        "diastolic blood pressure",
+        "body mass index",
+        "renal function",
+        "medical history of hypertension",
+        "duration of hypertension",
+        "smoking status"
+      ]
+    }
+  }
+}

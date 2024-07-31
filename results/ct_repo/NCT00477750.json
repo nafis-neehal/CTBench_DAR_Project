@@ -1,0 +1,217 @@
+{
+  "trial_id": "NCT00477750",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, life expectancy, ANC, bilirubin, alkaline phosphatase, AST, creatinine, platelet count, pregnancy status, history of peripheral neuropathy, history of serious medical conditions, history of psychiatric illness, history of other active malignancy, history of hypersensitivity to thalidomide, HIV status, hepatitis status, history of deep vein thrombosis, ability to take daily prophylactic acetylsalicylic acid, prior radiotherapy for multiple myeloma, prior lenalidomide use, concurrent steroid use, concurrent investigational therapy use, concurrent warfarin use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Parameter of Hematologic Response - Serum M-spike >= 1g/dL",
+          "Parameter of Hematologic Response - Serum M-spike >= 1g/dL"
+        ],
+        [
+          "Parameter of Hematologic Response - Serum Immunoglobulin Free Light Chain >= 10mg/dL",
+          "Parameter of Hematologic Response - Serum Immunoglobulin Free Light Chain >= 10mg/dL"
+        ],
+        [
+          "Parameter of Hematologic Response - Urine M-spike >= 200 mg/24 hours",
+          "Parameter of Hematologic Response - Urine M-spike >= 200 mg/24 hours"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Durie-Salmon Stage at Diagnosis",
+        "Parameter of Hematologic Response - None (non-secretory myeloma, bone marrow only)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "life expectancy",
+        "ANC",
+        "bilirubin",
+        "alkaline phosphatase",
+        "AST",
+        "creatinine",
+        "platelet count",
+        "pregnancy status",
+        "history of peripheral neuropathy",
+        "history of serious medical conditions",
+        "history of psychiatric illness",
+        "history of other active malignancy",
+        "history of hypersensitivity to thalidomide",
+        "HIV status",
+        "hepatitis status",
+        "history of deep vein thrombosis",
+        "ability to take daily prophylactic acetylsalicylic acid",
+        "prior radiotherapy for multiple myeloma",
+        "prior lenalidomide use",
+        "concurrent steroid use",
+        "concurrent investigational therapy use",
+        "concurrent warfarin use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Life expectancy, ANC, Bilirubin, Alkaline phosphatase, AST, Creatinine, Platelet count, Serum monoclonal protein, Urine protein monoclonal light chain, Serum free light chains, Monoclonal bone marrow plasmacytosis,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Parameter of Hematologic Response - Serum M-spike >= 1g/dL",
+          "Serum monoclonal protein"
+        ],
+        [
+          "Parameter of Hematologic Response - Serum Immunoglobulin Free Light Chain >= 10mg/dL",
+          "Serum free light chains"
+        ],
+        [
+          "Parameter of Hematologic Response - Urine M-spike >= 200 mg/24 hours",
+          "Urine protein monoclonal light chain"
+        ],
+        [
+          "Parameter of Hematologic Response - None (non-secretory myeloma, bone marrow only)",
+          "Monoclonal bone marrow plasmacytosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Durie-Salmon Stage at Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG performance status",
+        "Life expectancy",
+        "ANC",
+        "Bilirubin",
+        "Alkaline phosphatase",
+        "AST",
+        "Creatinine",
+        "Platelet count"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Hemoglobin, Platelet Count, Absolute Neutrophil Count, Creatinine, Bilirubin, Alkaline Phosphatase, AST, Serum Monoclonal Protein, Urine Protein Monoclonal Light Chain, Serum Free Light Chains, Kappa/Lambda Ratio, Bone Marrow Plasmacytosis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Parameter of Hematologic Response - Serum M-spike >= 1g/dL",
+          "Serum Monoclonal Protein"
+        ],
+        [
+          "Parameter of Hematologic Response - Serum Immunoglobulin Free Light Chain >= 10mg/dL",
+          "Serum Free Light Chains"
+        ],
+        [
+          "Parameter of Hematologic Response - Urine M-spike >= 200 mg/24 hours",
+          "Urine Protein Monoclonal Light Chain"
+        ],
+        [
+          "Parameter of Hematologic Response - None (non-secretory myeloma, bone marrow only)",
+          "Bone Marrow Plasmacytosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Durie-Salmon Stage at Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG Performance Status",
+        "Hemoglobin",
+        "Platelet Count",
+        "Absolute Neutrophil Count",
+        "Creatinine",
+        "Bilirubin",
+        "Alkaline Phosphatase",
+        "AST",
+        "Kappa/Lambda Ratio"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, life expectancy, ANC, bilirubin, alkaline phosphatase, AST, creatinine, platelet count, serum monoclonal protein, urine protein monoclonal light chain, serum free light chains, \u03ba/\u03bb ratio, bone marrow plasmacytosis, prior malignancy, prior radiotherapy, prior lenalidomide, concurrent steroids, concurrent illness.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Parameter of Hematologic Response - Serum M-spike >= 1g/dL",
+          "serum monoclonal protein"
+        ],
+        [
+          "Parameter of Hematologic Response - Serum Immunoglobulin Free Light Chain >= 10mg/dL",
+          "serum free light chains"
+        ],
+        [
+          "Parameter of Hematologic Response - Urine M-spike >= 200 mg/24 hours",
+          "urine protein monoclonal light chain"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Durie-Salmon Stage at Diagnosis",
+        "Parameter of Hematologic Response - None (non-secretory myeloma, bone marrow only)"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ECOG performance status",
+        "life expectancy",
+        "ANC",
+        "bilirubin",
+        "alkaline phosphatase",
+        "AST",
+        "creatinine",
+        "platelet count",
+        "\u03ba/\u03bb ratio",
+        "bone marrow plasmacytosis",
+        "prior malignancy",
+        "prior radiotherapy",
+        "prior lenalidomide",
+        "concurrent steroids",
+        "concurrent illness"
+      ]
+    }
+  }
+}

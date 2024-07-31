@@ -1,0 +1,199 @@
+{
+  "trial_id": "NCT03136055",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, performance status (ECOG), histology type (small cell or large cell), primary tumor site, number of prior chemotherapy regimens, measurable disease status (RECIST 1.1), baseline biopsy status, absolute neutrophil count (ANC), platelet count, hemoglobin level, serum creatinine, creatinine clearance (CrCl), serum total bilirubin, direct bilirubin, aspartate aminotransferase (AST), alanine aminotransferase (ALT), albumin level, International Normalized Ratio (INR), Prothrombin Time (PT), Activated Partial Thromboplastin Time (aPTT), pregnancy test result (for females of childbearing potential), method of contraception (for males and females of childbearing potential), life expectancy, organ function status, history of autoimmune disease, history of pneumonitis/interstitial lung disease, infection status, psychiatric or substance abuse history, HIV status, Hepatitis B status, Hepatitis C status, prior anti-PD-1/PD-L1/PD-L2 therapy, prior live vaccine administration.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Received prior platinum-based therapy"
+      ],
+      "remaining_candidate_features": [
+        "performance status (ECOG)",
+        "histology type (small cell or large cell)",
+        "primary tumor site",
+        "number of prior chemotherapy regimens",
+        "measurable disease status (RECIST 1.1)",
+        "baseline biopsy status",
+        "absolute neutrophil count (ANC)",
+        "platelet count",
+        "hemoglobin level",
+        "serum creatinine",
+        "creatinine clearance (CrCl)",
+        "serum total bilirubin",
+        "direct bilirubin",
+        "aspartate aminotransferase (AST)",
+        "alanine aminotransferase (ALT)",
+        "albumin level",
+        "International Normalized Ratio (INR)",
+        "Prothrombin Time (PT)",
+        "Activated Partial Thromboplastin Time (aPTT)",
+        "pregnancy test result (for females of childbearing potential)",
+        "method of contraception (for males and females of childbearing potential)",
+        "life expectancy",
+        "organ function status",
+        "history of autoimmune disease",
+        "history of pneumonitis/interstitial lung disease",
+        "infection status",
+        "psychiatric or substance abuse history",
+        "HIV status",
+        "Hepatitis B status",
+        "Hepatitis C status",
+        "prior anti-PD-1/PD-L1/PD-L2 therapy",
+        "prior live vaccine administration."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological Subtype, Prior Chemotherapy Regimens, Baseline Tumor Burden, Baseline Organ Function (e.g., ANC, Platelets, Hemoglobin, Serum Creatinine, Total Bilirubin, AST, ALT, Albumin),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Received prior platinum-based therapy"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG Performance Status",
+        "Histological Subtype",
+        "Prior Chemotherapy Regimens",
+        "Baseline Tumor Burden",
+        "Baseline Organ Function (e.g., ANC, Platelets, Hemoglobin, Serum Creatinine, Total Bilirubin, AST, ALT, Albumin)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological diagnosis, Prior systemic chemotherapy, Number of prior systemic chemotherapy regimens, Time from diagnosis to first systemic chemotherapy, Time from last systemic chemotherapy to progression, Presence of liver metastases, Presence of lung metastases, Presence of bone metastases, Presence of other metastases, Baseline tumor biopsy result, Baseline LDH level, Baseline albumin level, Baseline ANC, Baseline platelet count, Baseline hemoglobin, Baseline creatinine, Baseline bilirubin, Baseline AST, Baseline ALT, Baseline INR or PT, Baseline aPTT.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Received prior platinum-based therapy",
+          "Prior systemic chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Histological diagnosis",
+        "Number of prior systemic chemotherapy regimens",
+        "Time from diagnosis to first systemic chemotherapy",
+        "Time from last systemic chemotherapy to progression",
+        "Presence of liver metastases",
+        "Presence of lung metastases",
+        "Presence of bone metastases",
+        "Presence of other metastases",
+        "Baseline tumor biopsy result",
+        "Baseline LDH level",
+        "Baseline albumin level",
+        "Baseline ANC",
+        "Baseline platelet count",
+        "Baseline hemoglobin",
+        "Baseline creatinine",
+        "Baseline bilirubin",
+        "Baseline AST",
+        "Baseline ALT",
+        "Baseline INR or PT",
+        "Baseline aPTT"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, Eastern Cooperative Oncology Group (ECOG) Performance Status, histological type of neuroendocrine carcinoma, primary tumor site, number of prior chemotherapy regimens, presence of metastases, life expectancy, absolute neutrophil count (ANC), platelets, hemoglobin, serum creatinine, serum total bilirubin, aspartate aminotransferase (AST), alanine aminotransferase (ALT), albumin, International Normalized Ratio (INR) or Prothrombin Time (PT), Activated Partial Thromboplastin Time (aPTT).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Received prior platinum-based therapy"
+      ],
+      "remaining_candidate_features": [
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+        "histological type of neuroendocrine carcinoma",
+        "primary tumor site",
+        "number of prior chemotherapy regimens",
+        "presence of metastases",
+        "life expectancy",
+        "absolute neutrophil count (ANC)",
+        "platelets",
+        "hemoglobin",
+        "serum creatinine",
+        "serum total bilirubin",
+        "aspartate aminotransferase (AST)",
+        "alanine aminotransferase (ALT)",
+        "albumin",
+        "International Normalized Ratio (INR) or Prothrombin Time (PT)",
+        "Activated Partial Thromboplastin Time (aPTT)"
+      ]
+    }
+  }
+}

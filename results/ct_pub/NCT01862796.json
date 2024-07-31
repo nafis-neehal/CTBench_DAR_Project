@@ -1,0 +1,227 @@
+{
+  "trial_id": "NCT01862796",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, gender, weight, height, body fat percentage, muscle mass, eating behaviors, mood, desire to change eating patterns, medical history, physical examination results, blood test results, urine test results, smoking status, alcohol consumption, medication use, pregnancy status, lactation status, psychiatric history, weight stability.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "PFAT",
+          "body fat percentage"
+        ],
+        [
+          "FFM",
+          "muscle mass"
+        ],
+        [
+          "WMEN",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/ethnicity",
+        "Sex",
+        "Education",
+        "SSS",
+        "FM",
+        "Waist"
+      ],
+      "remaining_candidate_features": [
+        "eating behaviors",
+        "mood",
+        "desire to change eating patterns",
+        "medical history",
+        "physical examination results",
+        "blood test results",
+        "urine test results",
+        "smoking status",
+        "alcohol consumption",
+        "medication use",
+        "pregnancy status",
+        "lactation status",
+        "psychiatric history",
+        "weight stability"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, BMI, Weight, Height, Body fat percentage, Muscle mass, Blood pressure, Blood glucose levels, Cholesterol levels, Triglyceride levels, Eating behaviors, Mood, Desire to change eating patterns, Physical activity level, Smoking status, Alcohol consumption, Medication use, Medical history, Weight stability",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "Height",
+          "Height"
+        ],
+        [
+          "PFAT",
+          "Body fat percentage"
+        ],
+        [
+          "FFM",
+          "Muscle mass"
+        ],
+        [
+          "WMEN",
+          "Weight stability"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/ethnicity",
+        "Education",
+        "SSS",
+        "FM",
+        "Waist"
+      ],
+      "remaining_candidate_features": [
+        "Blood pressure",
+        "Blood glucose levels",
+        "Cholesterol levels",
+        "Triglyceride levels",
+        "Eating behaviors",
+        "Mood",
+        "Desire to change eating patterns",
+        "Physical activity level",
+        "Smoking status",
+        "Alcohol consumption",
+        "Medication use",
+        "Medical history"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, BMI, Education, Employment, Marital status, Ethnicity, Income, Weight, Height, Body fat percentage, Waist circumference, Systolic BP, Diastolic BP, Fasting glucose, Lipid profile, Dietary habits, Eating behaviors, Mood, Desire to change eating patterns.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Education",
+          "Education"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "Height",
+          "Height"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/ethnicity",
+        "SSS",
+        "PFAT",
+        "FM",
+        "FFM",
+        "Waist",
+        "WMEN"
+      ],
+      "remaining_candidate_features": [
+        "Employment",
+        "Marital status",
+        "Ethnicity",
+        "Income",
+        "Body fat percentage",
+        "Waist circumference",
+        "Systolic BP",
+        "Diastolic BP",
+        "Fasting glucose",
+        "Lipid profile",
+        "Dietary habits",
+        "Eating behaviors",
+        "Mood",
+        "Desire to change eating patterns."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, body fat percentage, muscle mass, eating behaviors, mood, desire to change eating patterns.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "PFAT",
+          "body fat percentage"
+        ],
+        [
+          "FFM",
+          "muscle mass"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/ethnicity",
+        "Education",
+        "SSS",
+        "FM",
+        "Waist",
+        "WMEN"
+      ],
+      "remaining_candidate_features": [
+        "eating behaviors",
+        "mood",
+        "desire to change eating patterns."
+      ]
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "trial_id": "NCT00328562",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Smoking status, Performance status (e.g., ECOG score), Histological subtype of NSCLC, Stage of cancer, Presence of brain metastases, FEV1, Previous treatments, Comorbidities, Baseline tumor size, Baseline symptom severity, Baseline quality of life, Baseline laboratory values (e.g., blood counts, liver function tests).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Smoking status",
+        "Performance status (e.g., ECOG score)",
+        "Histological subtype of NSCLC",
+        "Stage of cancer",
+        "Presence of brain metastases",
+        "FEV1",
+        "Previous treatments",
+        "Comorbidities",
+        "Baseline tumor size",
+        "Baseline symptom severity",
+        "Baseline quality of life",
+        "Baseline laboratory values (e.g., blood counts, liver function tests)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Stage, Presence of Brain Metastases, Forced Expiratory Volume in 1 Second (FEV1), ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Cancer Stage",
+        "Presence of Brain Metastases",
+        "Forced Expiratory Volume in 1 Second (FEV1)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology, Stage of Disease, Presence of Brain Metastases, FEV1, Oxygen Dependence, Prior Thoracic Radiation Therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Histology",
+        "Stage of Disease",
+        "Presence of Brain Metastases",
+        "FEV1",
+        "Oxygen Dependence",
+        "Prior Thoracic Radiation Therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, smoking history, Eastern Cooperative Oncology Group (ECOG) performance status, histological subtype of NSCLC, tumor stage, presence of brain metastases, prior chemotherapy or radiation therapy, FEV1, oxygen saturation, presence of underlying lung disease, comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "smoking history",
+        "Eastern Cooperative Oncology Group (ECOG) performance status",
+        "histological subtype of NSCLC",
+        "tumor stage",
+        "presence of brain metastases",
+        "prior chemotherapy or radiation therapy",
+        "FEV1",
+        "oxygen saturation",
+        "presence of underlying lung disease",
+        "comorbidities"
+      ]
+    }
+  }
+}

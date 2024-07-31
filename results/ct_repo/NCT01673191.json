@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT01673191",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Duration of Diabetes Mellitus, Type of Diabetes Mellitus (Type I or II), Duration since Cataract Surgery, Baseline Best Corrected Visual Acuity, Baseline Central Retinal Thickness, Baseline Intraocular Pressure, Presence of Other Ocular Diseases, Prior Use of Steroidal Medication, Blood Pressure, HbA1c Levels, Body Mass Index (BMI), Concomitant Medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Best Corrected Visual Acuity",
+          "Baseline Best Corrected Visual Acuity"
+        ],
+        [
+          "Central Retinal Thickness",
+          "Baseline Central Retinal Thickness"
+        ],
+        [
+          "Intraocular Pressure",
+          "Baseline Intraocular Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Duration of Diabetes Mellitus",
+        "Type of Diabetes Mellitus (Type I or II)",
+        "Duration since Cataract Surgery",
+        "Presence of Other Ocular Diseases",
+        "Prior Use of Steroidal Medication",
+        "Blood Pressure",
+        "HbA1c Levels",
+        "Body Mass Index (BMI)",
+        "Concomitant Medications"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Diabetes (Type I or II), Duration of Diabetes, Baseline Best Corrected Visual Acuity, Baseline Central Retinal Thickness, Baseline Intraocular Pressure, Time Since Cataract Surgery,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Best Corrected Visual Acuity",
+          "Baseline Best Corrected Visual Acuity"
+        ],
+        [
+          "Central Retinal Thickness",
+          "Baseline Central Retinal Thickness"
+        ],
+        [
+          "Intraocular Pressure",
+          "Baseline Intraocular Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Type of Diabetes (Type I or II)",
+        "Duration of Diabetes",
+        "Time Since Cataract Surgery"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gender, Diabetes Type, Duration of Diabetes, HbA1c, Blood Pressure, BMI, History of Cataract Surgery, Macular Edema Duration, Best Corrected Visual Acuity, Central Retinal Thickness, Intraocular Pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Best Corrected Visual Acuity",
+          "Best Corrected Visual Acuity"
+        ],
+        [
+          "Central Retinal Thickness",
+          "Central Retinal Thickness"
+        ],
+        [
+          "Intraocular Pressure",
+          "Intraocular Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Diabetes Type",
+        "Duration of Diabetes",
+        "HbA1c",
+        "Blood Pressure",
+        "BMI",
+        "History of Cataract Surgery",
+        "Macular Edema Duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, duration of diabetes, type of diabetes, HbA1c level, blood pressure, body mass index, smoking status, history of cataract surgery, time since cataract surgery, best corrected visual acuity at baseline, central retinal thickness at baseline, intraocular pressure at baseline, presence of other ocular diseases, use of systemic medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Best Corrected Visual Acuity",
+          "best corrected visual acuity at baseline"
+        ],
+        [
+          "Central Retinal Thickness",
+          "central retinal thickness at baseline"
+        ],
+        [
+          "Intraocular Pressure",
+          "intraocular pressure at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "duration of diabetes",
+        "type of diabetes",
+        "HbA1c level",
+        "blood pressure",
+        "body mass index",
+        "smoking status",
+        "history of cataract surgery",
+        "time since cataract surgery",
+        "presence of other ocular diseases",
+        "use of systemic medications"
+      ]
+    }
+  }
+}

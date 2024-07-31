@@ -1,0 +1,171 @@
+{
+  "trial_id": "NCT01686828",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Serum total testosterone levels, Prostate-specific antigen (PSA) levels, International Prostate Symptom Score (IPSS), Hematocrit levels, Blood pressure, Sperm concentration, History of drug or alcohol abuse, Weight.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Fasting Glucose",
+        "Percentage Body Fat",
+        "Percentage Lean Mass"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Serum total testosterone levels",
+        "Prostate-specific antigen (PSA) levels",
+        "International Prostate Symptom Score (IPSS)",
+        "Hematocrit levels",
+        "Blood pressure",
+        "Sperm concentration",
+        "History of drug or alcohol abuse"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Serum total testosterone, Prostate-specific antigen (PSA), International Prostate Symptom Score (IPSS), Hematocrit,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Fasting Glucose",
+        "Percentage Body Fat",
+        "Percentage Lean Mass"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Serum total testosterone",
+        "Prostate-specific antigen (PSA)",
+        "International Prostate Symptom Score (IPSS)",
+        "Hematocrit"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin, Total Testosterone, Sex Hormone-Binding Globulin, Free Testosterone, Estradiol, Lipid Profile.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting Glucose",
+          "Fasting Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)",
+        "Weight",
+        "Percentage Body Fat",
+        "Percentage Lean Mass"
+      ],
+      "remaining_candidate_features": [
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Insulin",
+        "Total Testosterone",
+        "Sex Hormone-Binding Globulin",
+        "Free Testosterone",
+        "Estradiol",
+        "Lipid Profile"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), weight, prostate-specific antigen (PSA), serum total testosterone, International Prostate Symptom Score (IPSS), hematocrit, systolic and diastolic blood pressure, sperm concentration, reproductive history, medical history (including diabetes, hypertension, and other systemic illnesses), medication use (including statins, glucocorticoids, and anticoagulants).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Weight",
+          "weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Fasting Glucose",
+        "Percentage Body Fat",
+        "Percentage Lean Mass"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "prostate-specific antigen (PSA)",
+        "serum total testosterone",
+        "International Prostate Symptom Score (IPSS)",
+        "hematocrit",
+        "systolic and diastolic blood pressure",
+        "sperm concentration",
+        "reproductive history",
+        "medical history (including diabetes, hypertension, and other systemic illnesses)",
+        "medication use (including statins, glucocorticoids, and anticoagulants)"
+      ]
+    }
+  }
+}

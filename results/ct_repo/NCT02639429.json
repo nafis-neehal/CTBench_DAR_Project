@@ -1,0 +1,187 @@
+{
+  "trial_id": "NCT02639429",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Gestational age, Bishop score, Parity, Singleton gestation, Cephalic presentation, Intact fetal membranes, Presence of pregnancy-related hypertensive disorders, Presence of diabetes, Duration of labor, Oxytocin use, Number of participants with a need for cesarean delivery.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational Age",
+          "Gestational age"
+        ],
+        [
+          "Body Mass index",
+          "BMI"
+        ],
+        [
+          "Bishop score",
+          "Bishop score"
+        ],
+        [
+          "Number of participants with hypertensive disease",
+          "Presence of pregnancy-related hypertensive disorders"
+        ],
+        [
+          "Number of participants with diabetes in pregnancy",
+          "Presence of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Number of participants who are married",
+        "Number of participants who had prenatal care",
+        "Number of participants with government subsidized insurance"
+      ],
+      "remaining_candidate_features": [
+        "Parity",
+        "Singleton gestation",
+        "Cephalic presentation",
+        "Intact fetal membranes",
+        "Duration of labor",
+        "Oxytocin use",
+        "Number of participants with a need for cesarean delivery."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, BMI, Continuous, Gestational Age, Continuous, Bishop Score, Continuous, Parity, Race/Ethnicity, Customized, Region of Enrollment, Singleton Gestation, Cephalic Presentation, Intact Fetal Membranes,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational Age",
+          "Gestational Age"
+        ],
+        [
+          "Body Mass index",
+          "BMI"
+        ],
+        [
+          "Bishop score",
+          "Bishop Score"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Number of participants who are married",
+        "Number of participants who had prenatal care",
+        "Number of participants with government subsidized insurance",
+        "Number of participants with hypertensive disease",
+        "Number of participants with diabetes in pregnancy"
+      ],
+      "remaining_candidate_features": [
+        "Parity",
+        "Singleton Gestation",
+        "Cephalic Presentation",
+        "Intact Fetal Membranes"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, BMI, Parity, Gestational Age, Bishop Score, Fetal Presentation, Fetal Heart Rate Tracing, Obstetric Complications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational Age",
+          "Gestational Age"
+        ],
+        [
+          "Body Mass index",
+          "BMI"
+        ],
+        [
+          "Bishop score",
+          "Bishop Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Number of participants who are married",
+        "Number of participants who had prenatal care",
+        "Number of participants with government subsidized insurance",
+        "Number of participants with hypertensive disease",
+        "Number of participants with diabetes in pregnancy"
+      ],
+      "remaining_candidate_features": [
+        "Parity",
+        "Fetal Presentation",
+        "Fetal Heart Rate Tracing",
+        "Obstetric Complications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, BMI, parity, gestational age, Bishop score, fetal presentation, fetal anomalies, singleton/multiple gestation, presence of intact fetal membranes, medical history of hypertensive disorders, diabetes, previous cesarean delivery.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational Age",
+          "gestational age"
+        ],
+        [
+          "Body Mass index",
+          "BMI"
+        ],
+        [
+          "Bishop score",
+          "Bishop score"
+        ],
+        [
+          "Number of participants with hypertensive disease",
+          "medical history of hypertensive disorders"
+        ],
+        [
+          "Number of participants with diabetes in pregnancy",
+          "diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Number of participants who are married",
+        "Number of participants who had prenatal care",
+        "Number of participants with government subsidized insurance"
+      ],
+      "remaining_candidate_features": [
+        "parity",
+        "fetal presentation",
+        "fetal anomalies",
+        "singleton/multiple gestation",
+        "presence of intact fetal membranes",
+        "previous cesarean delivery"
+      ]
+    }
+  }
+}

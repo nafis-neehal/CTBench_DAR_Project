@@ -1,0 +1,197 @@
+{
+  "trial_id": "NCT01452269",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Primary Language (ASL), Cardiovascular Disease History, Heart Condition, Chest Pain, Dizziness, Weight Loss Surgery History, Pregnancy Status, Breastfeeding Status, Willingness to Follow Healthy Dietary Pattern, Willingness to Abstain from Weight Loss Medications, Willingness to Attend Group Sessions, Ability to Provide Written Informed Consent, Ability to See and Interact with Computer-Based Questionnaires.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Region of Enrollment",
+          "Primary Language (ASL)"
+        ],
+        [
+          "Cardiovascular Disease History",
+          "Cardiovascular Disease History"
+        ],
+        [
+          "Heart Condition",
+          "Heart Condition"
+        ],
+        [
+          "Chest Pain",
+          "Chest Pain"
+        ],
+        [
+          "Dizziness",
+          "Dizziness"
+        ],
+        [
+          "Weight Loss Surgery History",
+          "Weight Loss Surgery History"
+        ],
+        [
+          "Pregnancy Status",
+          "Pregnancy Status"
+        ],
+        [
+          "Breastfeeding Status",
+          "Breastfeeding Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Became Deaf age 3 or younger"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index (BMI)",
+        "Willingness to Follow Healthy Dietary Pattern",
+        "Willingness to Abstain from Weight Loss Medications",
+        "Willingness to Attend Group Sessions",
+        "Ability to Provide Written Informed Consent",
+        "Ability to See and Interact with Computer-Based Questionnaires."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Objective weekly MVPA minutes, Adherence to MVPA guidelines at baseline, Objective average daily steps,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Became Deaf age 3 or younger"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Objective weekly MVPA minutes",
+        "Adherence to MVPA guidelines at baseline",
+        "Objective average daily steps"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Self-reported physical activity, Dietary habits, Deafness-related characteristics,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Became Deaf age 3 or younger"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Self-reported physical activity",
+        "Dietary habits",
+        "Deafness-related characteristics"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, race, ethnicity, education level, income, occupation, marital status, number of children, primary healthcare provider, cardiovascular disease history, heart condition, chest pain, dizziness, weight loss surgery history, pregnancy status, breastfeeding status, ASL proficiency, years of using ASL, use of other languages, smoking status, alcohol consumption, medical conditions, medications, physical activity level at baseline, dietary habits at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Became Deaf age 3 or younger"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "education level",
+        "income",
+        "occupation",
+        "marital status",
+        "number of children",
+        "primary healthcare provider",
+        "cardiovascular disease history",
+        "heart condition",
+        "chest pain",
+        "dizziness",
+        "weight loss surgery history",
+        "pregnancy status",
+        "breastfeeding status",
+        "ASL proficiency",
+        "years of using ASL",
+        "use of other languages",
+        "smoking status",
+        "alcohol consumption",
+        "medical conditions",
+        "medications",
+        "physical activity level at baseline",
+        "dietary habits at baseline"
+      ]
+    }
+  }
+}

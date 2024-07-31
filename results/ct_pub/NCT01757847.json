@@ -1,0 +1,185 @@
+{
+  "trial_id": "NCT01757847",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, attendance rate of MOVE! program sessions, baseline Binge Eating Scale (BES) score, medical history, psychiatric history, substance abuse history, current medications, history of bariatric surgery, participation in psychotherapy, previous treatment with ACT, suicidal ideation history, psychosocial stability.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "Binge Eating Scale score",
+          "baseline Binge Eating Scale (BES) score"
+        ],
+        [
+          "Weight",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Branch of Service",
+        "Education",
+        "Dutch Eating Behavior Questionnaire emotional",
+        "Dutch Eating Behavior Questionnaire external",
+        "Dutch Eating Behavior Questionnaire restraint",
+        "Obesity Related Well-Being Scale 97",
+        "Acceptance and Action Questionnaire for Weight-Related Difficulties"
+      ],
+      "remaining_candidate_features": [
+        "attendance rate of MOVE! program sessions",
+        "medical history",
+        "psychiatric history",
+        "substance abuse history",
+        "current medications",
+        "history of bariatric surgery",
+        "participation in psychotherapy",
+        "previous treatment with ACT",
+        "suicidal ideation history",
+        "psychosocial stability"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, BMI, Attendance of MOVE! program sessions, Medical history, Psychiatric history, Substance abuse history, Suicidal ideation history, Previous treatments for obesity, Previous treatments for binge eating, Current medications, Employment status, Housing stability.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Weight",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex",
+        "Race",
+        "Branch of Service",
+        "Education",
+        "Binge Eating Scale score",
+        "Dutch Eating Behavior Questionnaire emotional",
+        "Dutch Eating Behavior Questionnaire external",
+        "Dutch Eating Behavior Questionnaire restraint",
+        "Obesity Related Well-Being Scale 97",
+        "Acceptance and Action Questionnaire for Weight-Related Difficulties"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Attendance of MOVE! program sessions",
+        "Medical history",
+        "Psychiatric history",
+        "Substance abuse history",
+        "Suicidal ideation history",
+        "Previous treatments for obesity",
+        "Previous treatments for binge eating",
+        "Current medications",
+        "Employment status",
+        "Housing stability"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnicity, BMI, Education, Employment, Marital status, Number of children, History of mental health treatment, History of weight loss attempts, Current medications, Binge eating frequency, Binge eating severity, Depression symptoms, Anxiety symptoms.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Education",
+          "Education"
+        ],
+        [
+          "Weight",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Branch of Service",
+        "Binge Eating Scale score",
+        "Dutch Eating Behavior Questionnaire emotional",
+        "Dutch Eating Behavior Questionnaire external",
+        "Dutch Eating Behavior Questionnaire restraint",
+        "Obesity Related Well-Being Scale 97",
+        "Acceptance and Action Questionnaire for Weight-Related Difficulties"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "Employment",
+        "Marital status",
+        "Number of children",
+        "History of mental health treatment",
+        "History of weight loss attempts",
+        "Current medications",
+        "Binge eating frequency",
+        "Binge eating severity",
+        "Depression symptoms",
+        "Anxiety symptoms"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, ethnicity, education level, employment status, marital status, medical history (e.g., diabetes, hypertension), psychiatric history (e.g., depression, anxiety), MOVE! program attendance, weight loss history, binge eating frequency and severity, quality of life, physical activity level, medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Education",
+          "education level"
+        ],
+        [
+          "Binge Eating Scale score",
+          "binge eating frequency and severity"
+        ],
+        [
+          "Weight",
+          "weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Branch of Service",
+        "Dutch Eating Behavior Questionnaire emotional",
+        "Dutch Eating Behavior Questionnaire external",
+        "Dutch Eating Behavior Questionnaire restraint",
+        "Obesity Related Well-Being Scale 97",
+        "Acceptance and Action Questionnaire for Weight-Related Difficulties"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "height",
+        "ethnicity",
+        "employment status",
+        "marital status",
+        "medical history (e.g., diabetes, hypertension)",
+        "psychiatric history (e.g., depression, anxiety)",
+        "MOVE! program attendance",
+        "weight loss history",
+        "quality of life",
+        "physical activity level",
+        "medication use"
+      ]
+    }
+  }
+}

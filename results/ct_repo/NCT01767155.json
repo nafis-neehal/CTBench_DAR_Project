@@ -1,0 +1,172 @@
+{
+  "trial_id": "NCT01767155",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, histological type of endometrial cancer, FIGO stage, disease status (advanced, recurrent, metastatic), prior chemotherapeutic regimen, ECOG performance status, hematologic function, hepatic function, renal function, cardiac function (LVEF), prior red blood cell transfusion, history of myocardial infarction, history of acute inflammatory heart disease, history of unstable angina, history of uncontrolled arrhythmia, concomitant use of prohibited therapy, prior radiotherapy, prior anthracycline-based chemotherapy, concomitant anticancer therapy, history of serious co-morbidity, presence of brain metastasis, pregnancy status, hypersensitivity to peptide drugs, number of prior cytotoxic chemotherapy regimens, prior treatment with AEZS-108, use of LHRH agonist or antagonist, history of other malignancies, ability to give informed consent, availability for study visits/procedures.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "ECOG (Eastern Cooperative Oncology Group) PS (Performance Status)",
+          "ECOG performance status"
+        ],
+        [
+          "Stage of endometrial cancer at study entry",
+          "FIGO stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "histological type of endometrial cancer",
+        "disease status (advanced, recurrent, metastatic)",
+        "prior chemotherapeutic regimen",
+        "hematologic function",
+        "hepatic function",
+        "renal function",
+        "cardiac function (LVEF)",
+        "prior red blood cell transfusion",
+        "history of myocardial infarction",
+        "history of acute inflammatory heart disease",
+        "history of unstable angina",
+        "history of uncontrolled arrhythmia",
+        "concomitant use of prohibited therapy",
+        "prior radiotherapy",
+        "prior anthracycline-based chemotherapy",
+        "concomitant anticancer therapy",
+        "history of serious co-morbidity",
+        "presence of brain metastasis",
+        "pregnancy status",
+        "hypersensitivity to peptide drugs",
+        "number of prior cytotoxic chemotherapy regimens",
+        "prior treatment with AEZS-108",
+        "use of LHRH agonist or antagonist",
+        "history of other malignancies",
+        "ability to give informed consent",
+        "availability for study visits/procedures"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Hematologic Function, Hepatic Function, Renal Function, Left Ventricular Ejection Fraction (LVEF), Prior Chemotherapy Regimen, Tumor Stage, Tumor Receptor Expression,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "ECOG (Eastern Cooperative Oncology Group) PS (Performance Status)",
+          "ECOG Performance Status"
+        ],
+        [
+          "Stage of endometrial cancer at study entry",
+          "Tumor Stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Hematologic Function",
+        "Hepatic Function",
+        "Renal Function",
+        "Left Ventricular Ejection Fraction (LVEF)",
+        "Prior Chemotherapy Regimen",
+        "Tumor Receptor Expression"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Eastern Cooperative Oncology Group (ECOG) Performance Status, Histological Type of Endometrial Cancer, FIGO Stage, Number of Prior Chemotherapy Regimens, Time Since Last Progression, LHRH Receptor Expression Status, Prior Platinum and Taxane Therapy, Prior Radiotherapy, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "ECOG (Eastern Cooperative Oncology Group) PS (Performance Status)",
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status"
+        ],
+        [
+          "Stage of endometrial cancer at study entry",
+          "FIGO Stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "Histological Type of Endometrial Cancer",
+        "Number of Prior Chemotherapy Regimens",
+        "Time Since Last Progression",
+        "LHRH Receptor Expression Status",
+        "Prior Platinum and Taxane Therapy",
+        "Prior Radiotherapy",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, ECOG performance status, FIGO stage, histological type of endometrial cancer, prior chemotherapy regimens, time since last treatment, LHRH receptor expression, left ventricular ejection fraction, presence of measurable or non-measurable disease, number of metastatic sites, prior radiotherapy, prior hormone therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "ECOG (Eastern Cooperative Oncology Group) PS (Performance Status)",
+          "ECOG performance status"
+        ],
+        [
+          "Stage of endometrial cancer at study entry",
+          "FIGO stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "histological type of endometrial cancer",
+        "prior chemotherapy regimens",
+        "time since last treatment",
+        "LHRH receptor expression",
+        "left ventricular ejection fraction",
+        "presence of measurable or non-measurable disease",
+        "number of metastatic sites",
+        "prior radiotherapy",
+        "prior hormone therapy"
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "trial_id": "NCT00975000",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration since kidney transplant, estimated glomerular filtration rate (eGFR), corrected total serum calcium, intact parathyroid hormone (iPTH) levels, history of seizures, use of bisphosphonates, use of vitamin D metabolites, use of calcium supplements, use of phosphate binders, use of thiazide diuretics, history of acute kidney injury (AKI).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate (eGFR)",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Corrected Total Serum Calcium",
+          "corrected total serum calcium"
+        ],
+        [
+          "Intact Parathyroid Hormone",
+          "intact parathyroid hormone (iPTH) levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Stratification Factor: Albumin-corrected Calcium Level",
+        "Serum Phosphorus"
+      ],
+      "remaining_candidate_features": [
+        "duration since kidney transplant",
+        "history of seizures",
+        "use of bisphosphonates",
+        "use of vitamin D metabolites",
+        "use of calcium supplements",
+        "use of phosphate binders",
+        "use of thiazide diuretics",
+        "history of acute kidney injury (AKI)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Time Since Kidney Transplant, Estimated Glomerular Filtration Rate (eGFR), Corrected Total Serum Calcium, Intact Parathyroid Hormone (iPTH), Use of Cinacalcet Pre-Transplant, Use of Bisphosphonates, Use of Vitamin D Metabolites, Use of Calcium Supplements, Use of Phosphate Binders, Use of Thiazide Diuretics, History of Seizures,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Corrected Total Serum Calcium",
+          "Corrected Total Serum Calcium"
+        ],
+        [
+          "Intact Parathyroid Hormone",
+          "Intact Parathyroid Hormone (iPTH)"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate (eGFR)",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Stratification Factor: Albumin-corrected Calcium Level",
+        "Serum Phosphorus"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Time Since Kidney Transplant",
+        "Use of Cinacalcet Pre-Transplant",
+        "Use of Bisphosphonates",
+        "Use of Vitamin D Metabolites",
+        "Use of Calcium Supplements",
+        "Use of Phosphate Binders",
+        "Use of Thiazide Diuretics",
+        "History of Seizures"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Kidney Transplant Duration, eGFR, Corrected Total Serum Calcium, iPTH, Phosphorus, Albumin, Parathyroid Gland Size, Bone Mineral Density.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Corrected Total Serum Calcium",
+          "Corrected Total Serum Calcium"
+        ],
+        [
+          "Intact Parathyroid Hormone",
+          "iPTH"
+        ],
+        [
+          "Serum Phosphorus",
+          "Phosphorus"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate (eGFR)",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Stratification Factor: Albumin-corrected Calcium Level"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Kidney Transplant Duration",
+        "Albumin",
+        "Parathyroid Gland Size",
+        "Bone Mineral Density"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of kidney transplant, type of kidney transplant (first or repeat), MDRD estimated glomerular filtration rate (eGFR), corrected total serum calcium, iPTH, history of parathyroidectomy, history of seizures, use of bisphosphonates, use of vitamin D metabolites or analogues, use of calcium supplements, use of phosphate binders, use of thiazide diuretic.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Corrected Total Serum Calcium",
+          "corrected total serum calcium"
+        ],
+        [
+          "Intact Parathyroid Hormone",
+          "iPTH"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate (eGFR)",
+          "MDRD estimated glomerular filtration rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Stratification Factor: Albumin-corrected Calcium Level",
+        "Serum Phosphorus"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "duration of kidney transplant",
+        "type of kidney transplant (first or repeat)",
+        "history of parathyroidectomy",
+        "history of seizures",
+        "use of bisphosphonates",
+        "use of vitamin D metabolites or analogues",
+        "use of calcium supplements",
+        "use of phosphate binders",
+        "use of thiazide diuretic."
+      ]
+    }
+  }
+}

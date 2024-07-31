@@ -1,0 +1,187 @@
+{
+  "trial_id": "NCT04074317",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, duration of T1D diagnosis, insulin regimen stability, plasma C-peptide level, HbA1c level, body mass index (BMI), fasting serum triglyceride concentration, renal function (serum creatinine), hepatic function (serum ALT, AST, and albumin), hematocrit value, hemoglobin value, blood pressure readings, ECG abnormalities, history of cardiovascular events, history of cerebrovascular events, history of malignancy, history of major surgical operations, history of seizure disorder, bleeding disorder status, platelet count, history of allergies or hypersensitivity, history of hepatitis B, hepatitis C, or HIV, concurrent illness status, drug abuse test results, substance or alcohol abuse history, participation in other investigational drug studies, blood donation history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "duration of T1D diagnosis",
+        "insulin regimen stability",
+        "plasma C-peptide level",
+        "HbA1c level",
+        "fasting serum triglyceride concentration",
+        "renal function (serum creatinine)",
+        "hepatic function (serum ALT, AST, and albumin)",
+        "hematocrit value",
+        "hemoglobin value",
+        "blood pressure readings",
+        "ECG abnormalities",
+        "history of cardiovascular events",
+        "history of cerebrovascular events",
+        "history of malignancy",
+        "history of major surgical operations",
+        "history of seizure disorder",
+        "bleeding disorder status",
+        "platelet count",
+        "history of allergies or hypersensitivity",
+        "history of hepatitis B",
+        "hepatitis C",
+        "or HIV",
+        "concurrent illness status",
+        "drug abuse test results",
+        "substance or alcohol abuse history",
+        "participation in other investigational drug studies",
+        "blood donation history"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Duration of Diabetes, HbA1c, Fasting Serum Triglycerides, Systolic Blood Pressure, Diastolic Blood Pressure, Plasma C-peptide Level, Hematocrit, Hemoglobin,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "HbA1c",
+        "Fasting Serum Triglycerides",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Plasma C-peptide Level",
+        "Hematocrit",
+        "Hemoglobin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Diagnosis Duration, BMI, HbA1c, Plasma C-peptide, Fasting Serum Triglyceride, Systolic Blood Pressure, Diastolic Blood Pressure, Hematocrit, Hemoglobin, Region of Enrollment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Diagnosis Duration",
+        "HbA1c",
+        "Plasma C-peptide",
+        "Fasting Serum Triglyceride",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hematocrit",
+        "Hemoglobin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, HbA1c, plasma C-peptide level, fasting serum triglyceride concentration, systolic and diastolic BP, hematocrit, hemoglobin, serum creatinine, ALT, AST, serum albumin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c",
+        "plasma C-peptide level",
+        "fasting serum triglyceride concentration",
+        "systolic and diastolic BP",
+        "hematocrit",
+        "hemoglobin",
+        "serum creatinine",
+        "ALT",
+        "AST",
+        "serum albumin"
+      ]
+    }
+  }
+}

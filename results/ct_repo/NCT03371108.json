@@ -1,0 +1,212 @@
+{
+  "trial_id": "NCT03371108",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), HbA1c levels, duration of diabetes, prior insulin use, concomitant medications, adherence to diet and exercise regimen, baseline anti-insulin antibody status, thyroid function (TSH and free T4 levels), liver function tests, history of diabetic complications, history of severe concomitant diseases, history of substance use disorder, history of infections, history of hypersensitivity to insulin glargine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI) \u226445 kg/m^2",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c (%)",
+          "HbA1c levels"
+        ],
+        [
+          "Duration of Diabetes (Years)",
+          "duration of diabetes"
+        ],
+        [
+          "AIA result",
+          "baseline anti-insulin antibody status"
+        ],
+        [
+          "Thyroid Disease",
+          "thyroid function (TSH and free T4 levels)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "NAb result",
+        "Weight (kg)"
+      ],
+      "remaining_candidate_features": [
+        "prior insulin use",
+        "concomitant medications",
+        "adherence to diet and exercise regimen",
+        "liver function tests",
+        "history of diabetic complications",
+        "history of severe concomitant diseases",
+        "history of substance use disorder",
+        "history of infections",
+        "history of hypersensitivity to insulin glargine."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Duration of Diabetes, Daily Insulin Dose, Concomitant Medications, Baseline Anti-Insulin Antibodies,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI) \u226445 kg/m^2",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c (%)",
+          "HbA1c"
+        ],
+        [
+          "Duration of Diabetes (Years)",
+          "Duration of Diabetes"
+        ],
+        [
+          "AIA result",
+          "Baseline Anti-Insulin Antibodies"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "NAb result",
+        "Thyroid Disease",
+        "Weight (kg)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Daily Insulin Dose",
+        "Concomitant Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, BMI, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, Insulin Dose, Concomitant Medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI) \u226445 kg/m^2",
+          "BMI"
+        ],
+        [
+          "HbA1c (%)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "AIA result",
+        "Duration of Diabetes (Years)",
+        "NAb result",
+        "Thyroid Disease",
+        "Weight (kg)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diabetes Diagnosis Duration",
+        "Fasting Plasma Glucose",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol",
+        "Insulin Dose",
+        "Concomitant Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), HbA1c, type 2 diabetes mellitus duration, insulin treatment history, oral anti-diabetic medication use, concomitant medication use, thyroid medication use, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI) \u226445 kg/m^2",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c (%)",
+          "HbA1c"
+        ],
+        [
+          "Thyroid Disease",
+          "thyroid medication use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "AIA result",
+        "Duration of Diabetes (Years)",
+        "NAb result",
+        "Weight (kg)"
+      ],
+      "remaining_candidate_features": [
+        "type 2 diabetes mellitus duration",
+        "insulin treatment history",
+        "oral anti-diabetic medication use",
+        "concomitant medication use",
+        "smoking status"
+      ]
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "trial_id": "NCT02417415",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, diagnosis (Parkinson Disease, Multiple System Atrophy, Pure Autonomic Failure), baseline systolic blood pressure, presence of supine hypertension, ability to provide informed consent, exclusion criteria (pregnancy, significant cardiac illness, significant renal illness, significant hepatic illness, contraindications to pressor agents, clinically significant abnormalities in clinical testing, clinically significant abnormalities in mental testing, clinically significant abnormalities in laboratory testing).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Diagnosis",
+          "diagnosis (Parkinson Disease, Multiple System Atrophy, Pure Autonomic Failure)"
+        ],
+        [
+          "Systolic BP",
+          "baseline systolic blood pressure"
+        ],
+        [
+          "supine",
+          "presence of supine hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "BMI",
+        "Disease Duration",
+        "Medical history of essential hypertension",
+        "Heat intolerance",
+        "upright",
+        "Heart rate",
+        "Plasma norepinephrine"
+      ],
+      "remaining_candidate_features": [
+        "ability to provide informed consent",
+        "exclusion criteria (pregnancy, significant cardiac illness, significant renal illness, significant hepatic illness, contraindications to pressor agents, clinically significant abnormalities in clinical testing, clinically significant abnormalities in mental testing, clinically significant abnormalities in laboratory testing)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Type of Autonomic Failure, Duration of Autonomic Failure, Use of Antihypertensive Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Systolic BP",
+          "Baseline Systolic Blood Pressure"
+        ],
+        [
+          "Diagnosis",
+          "Type of Autonomic Failure"
+        ],
+        [
+          "Disease Duration",
+          "Duration of Autonomic Failure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI",
+        "Medical history of essential hypertension",
+        "Heat intolerance",
+        "supine",
+        "upright",
+        "Heart rate",
+        "Plasma norepinephrine"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Baseline Diastolic Blood Pressure",
+        "Use of Antihypertensive Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Diagnosis of Autonomic Failure, Type of Autonomic Failure, Duration of Autonomic Failure, Supine Systolic Blood Pressure, Supine Diastolic Blood Pressure, Orthostatic Hypotension, Medications for Hypertension,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Diagnosis",
+          "Diagnosis of Autonomic Failure"
+        ],
+        [
+          "Disease Duration",
+          "Duration of Autonomic Failure"
+        ],
+        [
+          "Systolic BP",
+          "Supine Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "BMI",
+        "Medical history of essential hypertension",
+        "Heat intolerance",
+        "supine",
+        "upright",
+        "Heart rate",
+        "Plasma norepinephrine"
+      ],
+      "remaining_candidate_features": [
+        "Type of Autonomic Failure",
+        "Supine Diastolic Blood Pressure",
+        "Orthostatic Hypotension",
+        "Medications for Hypertension"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index, diagnosis (Parkinson Disease, Multiple System Atrophy, Pure Autonomic Failure), duration of autonomic failure, supine systolic blood pressure, orthostatic hypotension severity, comorbidities (cardiac, renal, hepatic illness), medications (pressor agents), laboratory test results (renal, hepatic function).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index"
+        ],
+        [
+          "Diagnosis",
+          "diagnosis (Parkinson Disease, Multiple System Atrophy, Pure Autonomic Failure)"
+        ],
+        [
+          "Disease Duration",
+          "duration of autonomic failure"
+        ],
+        [
+          "Systolic BP",
+          "supine systolic blood pressure"
+        ],
+        [
+          "Medical history of essential hypertension",
+          "comorbidities (cardiac, renal, hepatic illness)"
+        ],
+        [
+          "supine",
+          "supine systolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Heat intolerance",
+        "upright",
+        "Heart rate",
+        "Plasma norepinephrine"
+      ],
+      "remaining_candidate_features": [
+        "orthostatic hypotension severity",
+        "medications (pressor agents)",
+        "laboratory test results (renal, hepatic function)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "trial_id": "NCT02441946",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, menopausal status, tumor size, hormone receptor status, HER2 status, organ function, prior therapy history, lymph node involvement",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "menopausal status"
+        ],
+        [
+          "Ki67 at Baseline",
+          "hormone receptor status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status"
+      ],
+      "remaining_candidate_features": [
+        "tumor size",
+        "HER2 status",
+        "organ function",
+        "prior therapy history",
+        "lymph node involvement"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Tumor Size, Hormone Receptor Status, HER2 Status, Menopausal Status, Baseline Ki67 Expression, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Ki67 at Baseline",
+          "Baseline Ki67 Expression"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Tumor Size",
+        "Hormone Receptor Status",
+        "HER2 Status",
+        "Menopausal Status",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Menopausal Status, Hormone Receptor Status, HER2 Status, Tumor Size, Ki67 Expression, Histological Grade, Body Mass Index, Region of Enrollment",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ki67 at Baseline",
+          "Ki67 Expression"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status"
+      ],
+      "remaining_candidate_features": [
+        "Menopausal Status",
+        "Hormone Receptor Status",
+        "HER2 Status",
+        "Tumor Size",
+        "Histological Grade",
+        "Body Mass Index"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, menopausal status, body mass index (BMI), performance status, tumor size, tumor grade, hormone receptor status, HER2 status, prior breast cancer history, prior breast surgery, prior radiation therapy, prior chemotherapy, prior hormone therapy, comorbidities, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "performance status"
+        ],
+        [
+          "Ki67 at Baseline",
+          "tumor size"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "menopausal status",
+        "body mass index (BMI)",
+        "tumor grade",
+        "hormone receptor status",
+        "HER2 status",
+        "prior breast cancer history",
+        "prior breast surgery",
+        "prior radiation therapy",
+        "prior chemotherapy",
+        "prior hormone therapy",
+        "comorbidities",
+        "smoking status"
+      ]
+    }
+  }
+}

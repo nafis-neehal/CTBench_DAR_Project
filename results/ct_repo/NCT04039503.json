@@ -1,0 +1,179 @@
+{
+  "trial_id": "NCT04039503",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, baseline HbA1c, insulin glargine dose, use of metformin, weight, estimated glomerular filtration rate (eGFR), history of cardiovascular disease, history of pancreatitis, history of diabetic retinopathy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Hemoglobin A1c",
+          "baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of type 2 diabetes",
+        "insulin glargine dose",
+        "use of metformin",
+        "weight",
+        "estimated glomerular filtration rate (eGFR)",
+        "history of cardiovascular disease",
+        "history of pancreatitis",
+        "history of diabetic retinopathy"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Use of Metformin, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Duration of Diabetes",
+        "Daily Insulin Dose",
+        "Use of Metformin",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Estimated Glomerular Filtration Rate (eGFR)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, Body Mass Index, HbA1c, Insulin Dose, Metformin Use, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, eGFR, History of Cardiovascular Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Duration",
+        "Body Mass Index",
+        "Insulin Dose",
+        "Metformin Use",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "eGFR",
+        "History of Cardiovascular Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose at screening, insulin glargine dose at screening, metformin use at screening, weight, systolic blood pressure, diastolic blood pressure, heart rate, medical history, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c at screening"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of type 2 diabetes",
+        "fasting plasma glucose at screening",
+        "insulin glargine dose at screening",
+        "metformin use at screening",
+        "weight",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "medical history",
+        "concomitant medications"
+      ]
+    }
+  }
+}

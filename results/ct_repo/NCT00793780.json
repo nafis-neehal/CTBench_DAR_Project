@@ -1,0 +1,165 @@
+{
+  "trial_id": "NCT00793780",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Duration of Schizophrenia/Schizoaffective Disorder, Antipsychotic Medication Type, Antipsychotic Medication Dose, Duration on Current Antipsychotic Medication, Symptomatic Stability, Liver Function Tests, Pregnancy Status, Sensitivity to Naltrexone, Use of Weight-affecting Medications, Presence of Polycystic Ovary Syndrome, Insulin Treatment Status, Use of Hormone Treatments.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Pregnancy Status"
+        ],
+        [
+          "Diagnosis",
+          "Duration of Schizophrenia/Schizoaffective Disorder"
+        ],
+        [
+          "Liver Function Tests",
+          "Liver Function Tests"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "PANSS Total Score",
+        "Diabetes",
+        "Years of education"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Antipsychotic Medication Type",
+        "Antipsychotic Medication Dose",
+        "Duration on Current Antipsychotic Medication",
+        "Symptomatic Stability",
+        "Sensitivity to Naltrexone",
+        "Use of Weight-affecting Medications",
+        "Presence of Polycystic Ovary Syndrome",
+        "Insulin Treatment Status",
+        "Use of Hormone Treatments."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Duration of Schizophrenia/Schizoaffective Disorder, Antipsychotic Medication Type and Dosage, Weight Change in the Past Year,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Diagnosis",
+        "PANSS Total Score",
+        "Diabetes",
+        "Years of education"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Duration of Schizophrenia/Schizoaffective Disorder",
+        "Antipsychotic Medication Type and Dosage",
+        "Weight Change in the Past Year"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Diagnosis of Schizophrenia or Schizoaffective Disorder, Duration of Illness, Antipsychotic Medication, Dose of Antipsychotic Medication, Symptom Severity,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Diagnosis",
+          "Diagnosis of Schizophrenia or Schizoaffective Disorder"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "PANSS Total Score",
+        "Diabetes",
+        "Years of education"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Duration of Illness",
+        "Antipsychotic Medication",
+        "Dose of Antipsychotic Medication",
+        "Symptom Severity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, BMI, weight, height, schizophrenia diagnosis (schizophrenia vs. schizoaffective disorder), duration of illness, antipsychotic medication use, dose and duration of antipsychotic medication, symptom severity, medical comorbidities, smoking status, alcohol use, substance use history, menopausal status, education level, employment status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "menopausal status"
+        ],
+        [
+          "Diagnosis",
+          "schizophrenia diagnosis (schizophrenia vs. schizoaffective disorder)"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Years of education",
+          "education level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "PANSS Total Score",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "weight",
+        "height",
+        "duration of illness",
+        "antipsychotic medication use",
+        "dose and duration of antipsychotic medication",
+        "symptom severity",
+        "medical comorbidities",
+        "smoking status",
+        "alcohol use",
+        "substance use history",
+        "employment status"
+      ]
+    }
+  }
+}

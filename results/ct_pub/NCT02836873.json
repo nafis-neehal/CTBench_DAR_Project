@@ -1,0 +1,233 @@
+{
+  "trial_id": "NCT02836873",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, HbA1c, eGFR, body mass index (BMI), anti-diabetic medication regimen, hypertension medication status, hyperlipidemia medication status, liver function tests (total bilirubin, alkaline phosphatase, ALT, AST), history of cardiovascular events (MI, stroke, heart failure, unstable angina), NYHA class, corrected serum calcium, blood pressure (systolic and diastolic), fasting blood glucose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Anti-diabetic Treatment Type",
+          "anti-diabetic medication regimen"
+        ],
+        [
+          "SBP",
+          "blood pressure (systolic and diastolic)"
+        ],
+        [
+          "Fasting plasma glucose",
+          "fasting blood glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Country of Investigational Site",
+        "Body Weight",
+        "Subjects in eGFR Sub-group at Baseline",
+        "eGFR by Sub-group",
+        "UACR Group",
+        "Duration of Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "hypertension medication status",
+        "hyperlipidemia medication status",
+        "liver function tests (total bilirubin, alkaline phosphatase, ALT, AST)",
+        "history of cardiovascular events (MI, stroke, heart failure, unstable angina)",
+        "NYHA class",
+        "corrected serum calcium"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, BMI, Duration of diabetes, HbA1c, eGFR, Blood pressure, Anti-diabetic medication use, History of cardiovascular events, Liver function tests, History of genitourinary infections, History of alcohol or drug abuse, Serum creatinine, Total bilirubin, Alkaline phosphatase, ALT, AST, Fasting blood glucose, History of renal replacement therapy, History of renal transplantation",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Anti-diabetic Treatment Type",
+          "Anti-diabetic medication use"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of diabetes"
+        ],
+        [
+          "Fasting plasma glucose",
+          "Fasting blood glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Country of Investigational Site",
+        "Body Weight",
+        "SBP",
+        "Subjects in eGFR Sub-group at Baseline",
+        "eGFR by Sub-group",
+        "UACR Group"
+      ],
+      "remaining_candidate_features": [
+        "Blood pressure",
+        "History of cardiovascular events",
+        "Liver function tests",
+        "History of genitourinary infections",
+        "History of alcohol or drug abuse",
+        "Serum creatinine",
+        "Total bilirubin",
+        "Alkaline phosphatase",
+        "ALT",
+        "AST",
+        "History of renal replacement therapy",
+        "History of renal transplantation"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Race, BMI, Duration of diabetes, HbA1c, eGFR, History of hypertension, History of hyperlipidemia, History of cardiovascular disease, Medications for hypertension or hyperlipidemia, History of cancer, History of genitourinary tract infection, History of alcohol or illicit drug abuse.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Country of Investigational Site",
+        "Body Weight",
+        "SBP",
+        "Fasting plasma glucose",
+        "Subjects in eGFR Sub-group at Baseline",
+        "eGFR by Sub-group",
+        "UACR Group",
+        "Anti-diabetic Treatment Type"
+      ],
+      "remaining_candidate_features": [
+        "History of hypertension",
+        "History of hyperlipidemia",
+        "History of cardiovascular disease",
+        "Medications for hypertension or hyperlipidemia",
+        "History of cancer",
+        "History of genitourinary tract infection",
+        "History of alcohol or illicit drug abuse."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, HbA1c, eGFR, systolic blood pressure, diastolic blood pressure, history of hypertension, history of hyperlipidemia, type of anti-diabetic medication, duration of diabetes, history of cardiovascular disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "SBP",
+          "systolic blood pressure"
+        ],
+        [
+          "Anti-diabetic Treatment Type",
+          "type of anti-diabetic medication"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Country of Investigational Site",
+        "Body Weight",
+        "Fasting plasma glucose",
+        "Subjects in eGFR Sub-group at Baseline",
+        "eGFR by Sub-group",
+        "UACR Group"
+      ],
+      "remaining_candidate_features": [
+        "diastolic blood pressure",
+        "history of hypertension",
+        "history of hyperlipidemia",
+        "history of cardiovascular disease"
+      ]
+    }
+  }
+}

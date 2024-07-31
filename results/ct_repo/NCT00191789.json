@@ -1,0 +1,185 @@
+{
+  "trial_id": "NCT00191789",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, Karnofsky Performance Status (KPS), tumor size, hormone receptor status, HER2 status, lymph node involvement, prior treatments, comorbidities, baseline laboratory values (e.g., hemoglobin, white blood cell count, liver function tests, renal function tests).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Karnofsky Performance Status Scale",
+          "Karnofsky Performance Status (KPS)"
+        ],
+        [
+          "Hormone Receptor Status",
+          "hormone receptor status"
+        ],
+        [
+          "Human Epidermal Growth Factor Receptor 2 (HER-2) Status",
+          "HER2 status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diagnosis",
+        "Disease Stage",
+        "Menopausal Status",
+        "Body Surface Area",
+        "Height",
+        "Largest Lesion Size",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "gender",
+        "tumor size",
+        "lymph node involvement",
+        "prior treatments",
+        "comorbidities",
+        "baseline laboratory values (e.g., hemoglobin, white blood cell count, liver function tests, renal function tests)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky Performance Status, Tumor Size, Lymph Node Status, Hormone Receptor Status, HER2 Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Karnofsky Performance Status Scale",
+          "Karnofsky Performance Status"
+        ],
+        [
+          "Hormone Receptor Status",
+          "Hormone Receptor Status"
+        ],
+        [
+          "Human Epidermal Growth Factor Receptor 2 (HER-2) Status",
+          "HER2 Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diagnosis",
+        "Disease Stage",
+        "Menopausal Status",
+        "Body Surface Area",
+        "Height",
+        "Largest Lesion Size",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Tumor Size",
+        "Lymph Node Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Karnofsky Performance Status, Breast Cancer Stage, Tumor Size, Estrogen Receptor Status, Progesterone Receptor Status, Human Epidermal Growth Factor Receptor 2 Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Karnofsky Performance Status Scale",
+          "Karnofsky Performance Status"
+        ],
+        [
+          "Disease Stage",
+          "Breast Cancer Stage"
+        ],
+        [
+          "Human Epidermal Growth Factor Receptor 2 (HER-2) Status",
+          "Human Epidermal Growth Factor Receptor 2 Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diagnosis",
+        "Hormone Receptor Status",
+        "Menopausal Status",
+        "Body Surface Area",
+        "Height",
+        "Largest Lesion Size",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Gender",
+        "Tumor Size",
+        "Estrogen Receptor Status",
+        "Progesterone Receptor Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, Karnofsky Performance Status (KPS), tumor size, tumor stage, hormone receptor status, HER2 status, menopausal status, prior breast cancer therapy, comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Karnofsky Performance Status Scale",
+          "Karnofsky Performance Status (KPS)"
+        ],
+        [
+          "Hormone Receptor Status",
+          "hormone receptor status"
+        ],
+        [
+          "Human Epidermal Growth Factor Receptor 2 (HER-2) Status",
+          "HER2 status"
+        ],
+        [
+          "Menopausal Status",
+          "menopausal status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Diagnosis",
+        "Disease Stage",
+        "Body Surface Area",
+        "Height",
+        "Largest Lesion Size",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "tumor size",
+        "tumor stage",
+        "prior breast cancer therapy",
+        "comorbidities"
+      ]
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "trial_id": "NCT03541174",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, baseline systolic blood pressure (SiSBP), baseline diastolic blood pressure (SiDBP), number of antihypertensive medications, duration of hypertension, body mass index (BMI), smoking status, history of cardiovascular disease, renal function (e.g., serum creatinine, estimated glomerular filtration rate), presence of sleep apnea, adherence to antihypertensive therapy, baseline heart rate, baseline cholesterol levels, baseline glucose levels, baseline liver function tests.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "Body Mass Index at Screening Visit",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "baseline systolic blood pressure (SiSBP)",
+        "baseline diastolic blood pressure (SiDBP)",
+        "number of antihypertensive medications",
+        "duration of hypertension",
+        "smoking status",
+        "history of cardiovascular disease",
+        "renal function (e.g., serum creatinine, estimated glomerular filtration rate)",
+        "presence of sleep apnea",
+        "adherence to antihypertensive therapy",
+        "baseline heart rate",
+        "baseline cholesterol levels",
+        "baseline glucose levels",
+        "baseline liver function tests"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Mean Sitting Systolic Blood Pressure (SiSBP), Mean Sitting Diastolic Blood Pressure (SiDBP), Number of Antihypertensive Medications, Duration of Hypertension, Baseline Renal Function, Baseline Cardiac Disease History,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Body Mass Index at Screening Visit"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Mean Sitting Systolic Blood Pressure (SiSBP)",
+        "Mean Sitting Diastolic Blood Pressure (SiDBP)",
+        "Number of Antihypertensive Medications",
+        "Duration of Hypertension",
+        "Baseline Renal Function",
+        "Baseline Cardiac Disease History"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Number of Antihypertensive Medications, Duration of Hypertension, History of Cardiovascular Disease, History of Diabetes, History of Kidney Disease, History of Hyperlipidemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index at Screening Visit",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Number of Antihypertensive Medications",
+        "Duration of Hypertension",
+        "History of Cardiovascular Disease",
+        "History of Diabetes",
+        "History of Kidney Disease",
+        "History of Hyperlipidemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of hypertension, number of background antihypertensive medications, classes of background antihypertensive medications, mean sitting systolic blood pressure (SiSBP) at screening, mean sitting diastolic blood pressure (SiDBP) at screening, history of cardiovascular disease, history of kidney disease, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index at Screening Visit",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "duration of hypertension",
+        "number of background antihypertensive medications",
+        "classes of background antihypertensive medications",
+        "mean sitting systolic blood pressure (SiSBP) at screening",
+        "mean sitting diastolic blood pressure (SiDBP) at screening",
+        "history of cardiovascular disease",
+        "history of kidney disease",
+        "smoking status"
+      ]
+    }
+  }
+}

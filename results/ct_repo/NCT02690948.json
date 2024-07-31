@@ -1,0 +1,192 @@
+{
+  "trial_id": "NCT02690948",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, absolute neutrophil count (ANC), platelet count, hemoglobin level, serum creatinine, creatinine clearance, serum total bilirubin, direct bilirubin, aspartate aminotransferase (AST), alanine aminotransferase (ALT), albumin level, international normalized ratio (INR), prothrombin time (PT), activated partial thromboplastin time (aPTT), pregnancy status (for females of childbearing potential), use of contraception (for both males and females of childbearing potential), history of prior treatments (e.g., chemotherapy, monoclonal antibodies, radiation therapy), presence of measurable disease based on RECIST version 1.1, history of additional malignancies, history of CNS metastases, history of autoimmune disease, history of non-infectious pneumonitis, history of active infections, history of psychiatric or substance abuse disorders, HIV status, Hepatitis B status, Hepatitis C status, history of receiving live vaccines.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "pregnancy status (for females of childbearing potential)"
+        ],
+        [
+          "Male",
+          "use of contraception (for both males and females of childbearing potential)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "ECOG performance status",
+        "absolute neutrophil count (ANC)",
+        "platelet count",
+        "hemoglobin level",
+        "serum creatinine",
+        "creatinine clearance",
+        "serum total bilirubin",
+        "direct bilirubin",
+        "aspartate aminotransferase (AST)",
+        "alanine aminotransferase (ALT)",
+        "albumin level",
+        "international normalized ratio (INR)",
+        "prothrombin time (PT)",
+        "activated partial thromboplastin time (aPTT)",
+        "history of prior treatments (e.g., chemotherapy, monoclonal antibodies, radiation therapy)",
+        "presence of measurable disease based on RECIST version 1.1",
+        "history of additional malignancies",
+        "history of CNS metastases",
+        "history of autoimmune disease",
+        "history of non-infectious pneumonitis",
+        "history of active infections",
+        "history of psychiatric or substance abuse disorders",
+        "HIV status",
+        "Hepatitis B status",
+        "Hepatitis C status",
+        "history of receiving live vaccines"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Absolute Neutrophil Count (ANC), Platelet Count, Hemoglobin Level, Serum Creatinine, Serum Total Bilirubin, Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), Albumin Level, International Normalized Ratio (INR), Activated Partial Thromboplastin Time (aPTT), ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG Performance Status",
+        "Absolute Neutrophil Count (ANC)",
+        "Platelet Count",
+        "Hemoglobin Level",
+        "Serum Creatinine",
+        "Serum Total Bilirubin",
+        "Aspartate Aminotransferase (AST)",
+        "Alanine Aminotransferase (ALT)",
+        "Albumin Level",
+        "International Normalized Ratio (INR)",
+        "Activated Partial Thromboplastin Time (aPTT)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Absolute Neutrophil Count, Platelets, Hemoglobin, Serum Creatinine, Serum Total Bilirubin, Aspartate Aminotransferase, Alanine Aminotransferase, Albumin, International Normalized Ratio, Activated Partial Thromboplastin Time, Histologically-proven Basal Cell Carcinoma, Measurable Disease, Eastern Cooperative Oncology Group Performance Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG Performance Status",
+        "Absolute Neutrophil Count",
+        "Platelets",
+        "Hemoglobin",
+        "Serum Creatinine",
+        "Serum Total Bilirubin",
+        "Aspartate Aminotransferase",
+        "Alanine Aminotransferase",
+        "Albumin",
+        "International Normalized Ratio",
+        "Activated Partial Thromboplastin Time",
+        "Histologically-proven Basal Cell Carcinoma",
+        "Measurable Disease",
+        "Eastern Cooperative Oncology Group Performance Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG Performance Status, histological subtype of basal cell carcinoma, presence of nodal or distant metastases, prior treatment with vismodegib or smoothened inhibitor, absolute neutrophil count, platelets, hemoglobin, serum creatinine, serum total bilirubin, AST, ALT, albumin, INR or PT, aPTT.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "histological subtype of basal cell carcinoma",
+        "presence of nodal or distant metastases",
+        "prior treatment with vismodegib or smoothened inhibitor",
+        "absolute neutrophil count",
+        "platelets",
+        "hemoglobin",
+        "serum creatinine",
+        "serum total bilirubin",
+        "AST",
+        "ALT",
+        "albumin",
+        "INR or PT",
+        "aPTT"
+      ]
+    }
+  }
+}

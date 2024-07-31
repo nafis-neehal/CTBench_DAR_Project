@@ -1,0 +1,181 @@
+{
+  "trial_id": "NCT01499082",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline HbA1c, duration of diabetes, body mass index (BMI), fasting plasma glucose, prior insulin regimen, concomitant medications, history of hypoglycemia, renal function, liver function, blood pressure, lipid profile, race/ethnicity, smoking status, physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Basal Insulin Daily Dose",
+        "Total Insulin Daily Dose"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose",
+        "prior insulin regimen",
+        "concomitant medications",
+        "history of hypoglycemia",
+        "renal function",
+        "liver function",
+        "blood pressure",
+        "lipid profile",
+        "race/ethnicity",
+        "smoking status",
+        "physical activity level."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Daily Insulin Dose, Frequency of Hypoglycemia,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Basal Insulin Daily Dose",
+        "Total Insulin Daily Dose"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Daily Insulin Dose",
+        "Frequency of Hypoglycemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, HbA1c, BMI, Blood Pressure, Total Cholesterol, Triglycerides, LDL-C, HDL-C, Previous Cardiovascular Disease, Insulin Dose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes Duration"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Basal Insulin Daily Dose",
+        "Total Insulin Daily Dose"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "LDL-C",
+        "HDL-C",
+        "Previous Cardiovascular Disease",
+        "Insulin Dose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c at baseline, fasting plasma glucose at baseline, insulin dose at baseline, type of mealtime insulin used, history of diabetic complications, history of hypoglycemia, concomitant medications, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Glycated Hemoglobin A1c (HbA1c)",
+          "HbA1c at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Basal Insulin Daily Dose",
+        "Total Insulin Daily Dose"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "fasting plasma glucose at baseline",
+        "insulin dose at baseline",
+        "type of mealtime insulin used",
+        "history of diabetic complications",
+        "history of hypoglycemia",
+        "concomitant medications",
+        "smoking status"
+      ]
+    }
+  }
+}

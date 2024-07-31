@@ -1,0 +1,180 @@
+{
+  "trial_id": "NCT03208192",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, ASA physical status, Total bilirubin, Presence of cirrhosis, Type of liver lesion (benign or malignant), Type of liver resection (segmental or major), Presence of jaundice, CTP score for cirrhosis, Difficulty index.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Body mass index (BMI)",
+          "BMI"
+        ],
+        [
+          "Physical status classification system (ASA)",
+          "ASA physical status"
+        ],
+        [
+          "Malignant/benign lesions",
+          "Type of liver lesion (benign or malignant)"
+        ],
+        [
+          "Difficulty index score (IWATE Criteria) Low\\Intermediate\\Advanced\\Expert",
+          "Difficulty index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Tumor size (mm)",
+        "Postero-superior segments"
+      ],
+      "remaining_candidate_features": [
+        "Total bilirubin",
+        "Presence of cirrhosis",
+        "Type of liver resection (segmental or major)",
+        "Presence of jaundice",
+        "CTP score for cirrhosis"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, ASA physical status, Total bilirubin, Presence of cirrhosis, Type of liver lesion (benign or malignant), Type of liver resection (segmental or major),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body mass index (BMI)",
+          "BMI"
+        ],
+        [
+          "Physical status classification system (ASA)",
+          "ASA physical status"
+        ],
+        [
+          "Malignant/benign lesions",
+          "Type of liver lesion (benign or malignant)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Tumor size (mm)",
+        "Postero-superior segments",
+        "Difficulty index score (IWATE Criteria) Low\\Intermediate\\Advanced\\Expert"
+      ],
+      "remaining_candidate_features": [
+        "Total bilirubin",
+        "Presence of cirrhosis",
+        "Type of liver resection (segmental or major)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, ASA physical status, Total bilirubin, Cirrhosis status, Tumor type, Tumor size, Liver function, Coagulation profile, Previous abdominal surgery,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body mass index (BMI)",
+          "BMI"
+        ],
+        [
+          "Physical status classification system (ASA)",
+          "ASA physical status"
+        ],
+        [
+          "Malignant/benign lesions",
+          "Tumor type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Tumor size (mm)",
+        "Postero-superior segments",
+        "Difficulty index score (IWATE Criteria) Low\\Intermediate\\Advanced\\Expert"
+      ],
+      "remaining_candidate_features": [
+        "Total bilirubin",
+        "Cirrhosis status",
+        "Tumor size",
+        "Liver function",
+        "Coagulation profile",
+        "Previous abdominal surgery"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Gender, BMI, ASA physical status, Total bilirubin, CTP score, Tumor type (benign/malignant), Tumor size, Liver function, Presence of cirrhosis, Previous liver resection, Difficulty index score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Body mass index (BMI)",
+          "BMI"
+        ],
+        [
+          "Physical status classification system (ASA)",
+          "ASA physical status"
+        ],
+        [
+          "Malignant/benign lesions",
+          "Tumor type (benign/malignant)"
+        ],
+        [
+          "Difficulty index score (IWATE Criteria) Low\\Intermediate\\Advanced\\Expert",
+          "Difficulty index score."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Tumor size (mm)",
+        "Postero-superior segments"
+      ],
+      "remaining_candidate_features": [
+        "Total bilirubin",
+        "CTP score",
+        "Tumor size",
+        "Liver function",
+        "Presence of cirrhosis",
+        "Previous liver resection"
+      ]
+    }
+  }
+}

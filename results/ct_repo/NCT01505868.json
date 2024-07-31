@@ -1,0 +1,210 @@
+{
+  "trial_id": "NCT01505868",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, baseline testosterone level, baseline PSA level, presence of visceral metastases, presence of lytic bone metastases, size of lymphadenopathy, size of tumor mass in the prostate/pelvis, baseline lactate dehydrogenase (LDH) level, baseline carcinoembryonic antigen (CEA) level, time to castrate-resistant progression, prior androgen ablative therapies, prior chemotherapy treatments, Eastern Cooperative Oncology Group (ECOG) performance status, absolute neutrophil count (ANC), platelet count, total bilirubin level, serum glutamic-pyruvic transaminase (SGPT) level, serum glutamic oxaloacetic transaminase (SGOT) level, creatinine clearance, presence of peripheral neuropathy, presence of urinary obstruction, presence of intercurrent illness, history of hypersensitivity reactions, presence of active second malignancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status",
+          "Eastern Cooperative Oncology Group (ECOG) performance status"
+        ],
+        [
+          "Prostate-specific antigen (PSA)",
+          "baseline PSA level"
+        ],
+        [
+          "Bone metastases",
+          "presence of lytic bone metastases"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "baseline testosterone level",
+        "presence of visceral metastases",
+        "size of lymphadenopathy",
+        "size of tumor mass in the prostate/pelvis",
+        "baseline lactate dehydrogenase (LDH) level",
+        "baseline carcinoembryonic antigen (CEA) level",
+        "time to castrate-resistant progression",
+        "prior androgen ablative therapies",
+        "prior chemotherapy treatments",
+        "absolute neutrophil count (ANC)",
+        "platelet count",
+        "total bilirubin level",
+        "serum glutamic-pyruvic transaminase (SGPT) level",
+        "serum glutamic oxaloacetic transaminase (SGOT) level",
+        "creatinine clearance",
+        "presence of peripheral neuropathy",
+        "presence of urinary obstruction",
+        "presence of intercurrent illness",
+        "history of hypersensitivity reactions",
+        "presence of active second malignancy"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histologic Evidence of Prostate Adenocarcinoma, Presence of Anaplastic Features, Castration-Resistant Prostate Cancer Status, Metastatic Disease Status, Prior Androgen Ablative Therapies, Prior Chemotherapy, Progressive Disease Status, Peripheral Neuropathy Grade, Absolute Neutrophil Count, Platelet Count, Total Bilirubin, Serum Glutamic-Pyruvic Transaminase (SGPT), Serum Glutamic Oxaloacetic Transaminase (SGOT), Creatinine Clearance,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Prostate-specific antigen (PSA)",
+        "Bone metastases"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Histologic Evidence of Prostate Adenocarcinoma",
+        "Presence of Anaplastic Features",
+        "Castration-Resistant Prostate Cancer Status",
+        "Metastatic Disease Status",
+        "Prior Androgen Ablative Therapies",
+        "Prior Chemotherapy",
+        "Progressive Disease Status",
+        "Peripheral Neuropathy Grade",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Total Bilirubin",
+        "Serum Glutamic-Pyruvic Transaminase (SGPT)",
+        "Serum Glutamic Oxaloacetic Transaminase (SGOT)",
+        "Creatinine Clearance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, PSA Level, Testosterone Level, Number of Metastatic Sites, Presence of Bone Metastases, Presence of Visceral Metastases, Prior Chemotherapy, Prior Hormonal Therapy, Prior Radiation Therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Prostate-specific antigen (PSA)",
+          "PSA Level"
+        ],
+        [
+          "Bone metastases",
+          "Presence of Bone Metastases"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Testosterone Level",
+        "Number of Metastatic Sites",
+        "Presence of Visceral Metastases",
+        "Prior Chemotherapy",
+        "Prior Hormonal Therapy",
+        "Prior Radiation Therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, histologic evidence of prostate adenocarcinoma, anaplastic features, castration levels of testosterone, metastatic disease, prior treatment with androgen ablative therapies, prior treatment with chemotherapy, number of prior systemic cytotoxic chemotherapies, response to prior docetaxel-based therapy, presence of peripheral neuropathy, absolute neutrophil count, platelets, total bilirubin, serum glutamic-pyruvic transaminase, serum glutamic oxaloacetic transaminase, creatinine clearance, PSA level, lactate dehydrogenase, carcinoembryonic antigen.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Prostate-specific antigen (PSA)",
+          "PSA level"
+        ],
+        [
+          "Bone metastases",
+          "metastatic disease"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "histologic evidence of prostate adenocarcinoma",
+        "anaplastic features",
+        "castration levels of testosterone",
+        "prior treatment with androgen ablative therapies",
+        "prior treatment with chemotherapy",
+        "number of prior systemic cytotoxic chemotherapies",
+        "response to prior docetaxel-based therapy",
+        "presence of peripheral neuropathy",
+        "absolute neutrophil count",
+        "platelets",
+        "total bilirubin",
+        "serum glutamic-pyruvic transaminase",
+        "serum glutamic oxaloacetic transaminase",
+        "creatinine clearance",
+        "lactate dehydrogenase",
+        "carcinoembryonic antigen"
+      ]
+    }
+  }
+}

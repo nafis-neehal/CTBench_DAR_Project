@@ -1,0 +1,242 @@
+{
+  "trial_id": "NCT02790437",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, body mass index (BMI), duration of kidney failure, previous desensitization attempts, type of donor (live or deceased), baseline Donor Specific Antibodies (DSAs) levels, baseline crossmatch test result, comorbid conditions (e.g., diabetes, hypertension), previous treatments (e.g., IVIg), baseline kidney function (e.g., serum creatinine, glomerular filtration rate), baseline hemoglobin levels, history of thrombotic events, HIV status, HBV status, HCV status, tuberculosis status, CMV status, EBV status, NYHA classification for cardiac function, COPD status, use of contraception (for women of child-bearing age).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Patient age",
+          "Age"
+        ],
+        [
+          "Female",
+          "gender"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Deceased Donor",
+          "type of donor (live or deceased)"
+        ],
+        [
+          "Crossmatch positive",
+          "baseline crossmatch test result"
+        ],
+        [
+          "Pre\u2010dose DSA",
+          "baseline Donor Specific Antibodies (DSAs) levels"
+        ],
+        [
+          "HIV status",
+          "HIV status"
+        ],
+        [
+          "HBV status",
+          "HBV status"
+        ],
+        [
+          "HCV status",
+          "HCV status"
+        ],
+        [
+          "CMV status",
+          "CMV status"
+        ],
+        [
+          "EBV status",
+          "EBV status"
+        ],
+        [
+          "NYHA classification for cardiac function",
+          "NYHA classification for cardiac function"
+        ],
+        [
+          "COPD status",
+          "COPD status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region",
+        "Time on dialysis prior to imlifidase transplantation",
+        "Total CIT",
+        "Re\u2010transplants",
+        "cPRA",
+        "Pre\u2010transplant DSA",
+        "DGF",
+        "DGF duration"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of kidney failure",
+        "previous desensitization attempts",
+        "comorbid conditions (e.g., diabetes, hypertension)",
+        "previous treatments (e.g., IVIg)",
+        "baseline kidney function (e.g., serum creatinine, glomerular filtration rate)",
+        "baseline hemoglobin levels",
+        "history of thrombotic events",
+        "use of contraception (for women of child-bearing age)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, BMI, Duration on transplant waitlist, Previous desensitization attempts, Type of donor (live or deceased), Crossmatch test result, Presence of Donor Specific Antibodies (DSAs), HIV status, HBV status, HCV status, Tuberculosis status, Hemoglobin level, Cardiac function (NYHA grade), History of thrombotic events, Peripheral vascular disease status, Hypercoagulable conditions, Allergy/sensitivity to IdeS, ImmunoCap anti-IdeS IgE status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Patient age",
+          "Age"
+        ],
+        [
+          "Female",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Time on dialysis prior to imlifidase transplantation",
+          "Duration on transplant waitlist"
+        ],
+        [
+          "Deceased Donor",
+          "Type of donor (live or deceased)"
+        ],
+        [
+          "Crossmatch positive",
+          "Crossmatch test result"
+        ],
+        [
+          "Pre\u2010dose DSA",
+          "Presence of Donor Specific Antibodies (DSAs)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region",
+        "Total CIT",
+        "Re\u2010transplants",
+        "cPRA",
+        "Pre\u2010transplant DSA",
+        "DGF",
+        "DGF duration"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Previous desensitization attempts",
+        "HIV status",
+        "HBV status",
+        "HCV status",
+        "Tuberculosis status",
+        "Hemoglobin level",
+        "Cardiac function (NYHA grade)",
+        "History of thrombotic events",
+        "Peripheral vascular disease status",
+        "Hypercoagulable conditions",
+        "Allergy/sensitivity to IdeS",
+        "ImmunoCap anti-IdeS IgE status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, BMI, Diabetes duration, HbA1c, Insulin regimen, Total daily insulin dose, Existing CVD, Strong family history of CVD, eGFR, Diabetic retinopathy, Neuropathy, Antihypertensive drugs, Statin, Antiplatelet drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Patient age",
+          "Age"
+        ],
+        [
+          "Female",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Ethnic Origin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region",
+        "Time on dialysis prior to imlifidase transplantation",
+        "Deceased Donor",
+        "Total CIT",
+        "Re\u2010transplants",
+        "cPRA",
+        "Crossmatch positive",
+        "Pre\u2010dose DSA",
+        "Pre\u2010transplant DSA",
+        "DGF",
+        "DGF duration"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Diabetes duration",
+        "HbA1c",
+        "Insulin regimen",
+        "Total daily insulin dose",
+        "Existing CVD",
+        "Strong family history of CVD",
+        "eGFR",
+        "Diabetic retinopathy",
+        "Neuropathy",
+        "Antihypertensive drugs",
+        "Statin",
+        "Antiplatelet drugs"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), serum creatinine, estimated glomerular filtration rate (eGFR), hemoglobin, presence of comorbidities (e.g., diabetes, hypertension), previous desensitization attempts, number of human leukocyte antigen (HLA) mismatches, panel reactive antibody (PRA) score, donor-specific antibody (DSA) levels, crossmatch test results, kidney disease etiology.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Patient age",
+          "Age"
+        ],
+        [
+          "Female",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Crossmatch positive",
+          "crossmatch test results"
+        ],
+        [
+          "Pre\u2010dose DSA",
+          "donor-specific antibody (DSA) levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region",
+        "Time on dialysis prior to imlifidase transplantation",
+        "Deceased Donor",
+        "Total CIT",
+        "Re\u2010transplants",
+        "cPRA",
+        "Pre\u2010transplant DSA",
+        "DGF",
+        "DGF duration"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "serum creatinine",
+        "estimated glomerular filtration rate (eGFR)",
+        "hemoglobin",
+        "presence of comorbidities (e.g., diabetes, hypertension)",
+        "previous desensitization attempts",
+        "number of human leukocyte antigen (HLA) mismatches",
+        "panel reactive antibody (PRA) score",
+        "kidney disease etiology"
+      ]
+    }
+  }
+}

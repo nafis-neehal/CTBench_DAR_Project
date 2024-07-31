@@ -1,0 +1,211 @@
+{
+  "trial_id": "NCT03299244",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of hemodialysis, baseline serum intact parathyroid hormone (PTH) levels, baseline serum calcium levels, baseline serum phosphate levels, use of vitamin D sterols, use of calcium supplements, use of phosphate binders, dialysate calcium concentration, history of parathyroidectomy, history of kidney transplant, history of myocardial infarction, history of coronary angioplasty, history of coronary arterial bypass grafting, serum albumin levels, serum magnesium levels, serum transaminase levels (ALT, AST).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Stratification Factor: Screening Intact Parathyroid Hormone (iPTH)",
+          "baseline serum intact parathyroid hormone (PTH) levels"
+        ],
+        [
+          "Stratification Factor: Screening Corrected Calcium (cCa)",
+          "baseline serum calcium levels"
+        ],
+        [
+          "Intact Parathyroid Hormone Level",
+          "baseline serum intact parathyroid hormone (PTH) levels"
+        ],
+        [
+          "Corrected Calcium Level",
+          "baseline serum calcium levels"
+        ],
+        [
+          "Phosphorus Level",
+          "baseline serum phosphate levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Stratification Factor: Country/Region",
+        "Corrected Calcium Phosphorus Product (cCa x P)"
+      ],
+      "remaining_candidate_features": [
+        "duration of hemodialysis",
+        "use of vitamin D sterols",
+        "use of calcium supplements",
+        "use of phosphate binders",
+        "dialysate calcium concentration",
+        "history of parathyroidectomy",
+        "history of kidney transplant",
+        "history of myocardial infarction",
+        "history of coronary angioplasty",
+        "history of coronary arterial bypass grafting",
+        "serum albumin levels",
+        "serum magnesium levels",
+        "serum transaminase levels (ALT, AST)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline Serum Intact Parathyroid Hormone (PTH), Baseline Serum Calcium, Baseline Serum Phosphorus, Baseline Serum Albumin, Baseline Serum Magnesium, Baseline Serum Transaminase (ALT, AST), Use of Vitamin D Sterols, Use of Calcium Supplements, Use of Phosphate Binders,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Stratification Factor: Country/Region",
+          "Region of Enrollment"
+        ],
+        [
+          "Stratification Factor: Screening Intact Parathyroid Hormone (iPTH)",
+          "Baseline Serum Intact Parathyroid Hormone (PTH)"
+        ],
+        [
+          "Stratification Factor: Screening Corrected Calcium (cCa)",
+          "Baseline Serum Calcium"
+        ],
+        [
+          "Corrected Calcium Level",
+          "Baseline Serum Calcium"
+        ],
+        [
+          "Phosphorus Level",
+          "Baseline Serum Phosphorus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Intact Parathyroid Hormone Level",
+        "Corrected Calcium Phosphorus Product (cCa x P)"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Hemodialysis",
+        "Baseline Serum Albumin",
+        "Baseline Serum Magnesium",
+        "Baseline Serum Transaminase (ALT, AST)",
+        "Use of Vitamin D Sterols",
+        "Use of Calcium Supplements",
+        "Use of Phosphate Binders"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Female, Region of Enrollment, Hemodialysis vintage, Dialysate calcium concentration, Kt/V, Urea reduction ratio, Serum intact parathyroid hormone, Serum calcium, Vitamin D sterol use, Calcium supplement use, Phosphate binder use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Female"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Stratification Factor: Country/Region",
+          "Region of Enrollment"
+        ],
+        [
+          "Stratification Factor: Screening Intact Parathyroid Hormone (iPTH)",
+          "Serum intact parathyroid hormone"
+        ],
+        [
+          "Stratification Factor: Screening Corrected Calcium (cCa)",
+          "Serum calcium"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Intact Parathyroid Hormone Level",
+        "Corrected Calcium Level",
+        "Phosphorus Level",
+        "Corrected Calcium Phosphorus Product (cCa x P)"
+      ],
+      "remaining_candidate_features": [
+        "Hemodialysis vintage",
+        "Dialysate calcium concentration",
+        "Kt/V",
+        "Urea reduction ratio",
+        "Vitamin D sterol use",
+        "Calcium supplement use",
+        "Phosphate binder use."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of hemodialysis, Kt/V, urea reduction ratio, dialysate calcium concentration, serum intact parathyroid hormone (PTH) level, serum calcium level, vitamin D sterol use, calcium supplement use, phosphate binder use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Stratification Factor: Screening Intact Parathyroid Hormone (iPTH)",
+          "serum intact parathyroid hormone (PTH) level"
+        ],
+        [
+          "Stratification Factor: Screening Corrected Calcium (cCa)",
+          "serum calcium level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Stratification Factor: Country/Region",
+        "Intact Parathyroid Hormone Level",
+        "Corrected Calcium Level",
+        "Phosphorus Level",
+        "Corrected Calcium Phosphorus Product (cCa x P)"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "duration of hemodialysis",
+        "Kt/V",
+        "urea reduction ratio",
+        "dialysate calcium concentration",
+        "vitamin D sterol use",
+        "calcium supplement use",
+        "phosphate binder use"
+      ]
+    }
+  }
+}

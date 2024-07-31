@@ -1,0 +1,226 @@
+{
+  "trial_id": "NCT02258373",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 1 diabetes, HbA1c level, insulin pump use duration, history of severe hypoglycemia, history of diabetic ketoacidosis (DKA), estimated glomerular filtration rate (GFR), thyroid function test results, presence of significant medical or psychiatric disorders, cognitive function, use of non-insulin drugs for glucose control, use of systemic beta blockers, use of oral corticosteroids, pregnancy status, participation in other intervention studies, adhesive allergy, percentage of time with CGM values <60 mg/dl during run-in phase.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Diabetes Duration",
+          "duration of type 1 diabetes"
+        ],
+        [
+          "Central Laboratory HbA1c Value",
+          "HbA1c level"
+        ],
+        [
+          "CGM Use Before Study",
+          "percentage of time with CGM values <60 mg/dl during run-in phase"
+        ],
+        [
+          "Clarke Hypoglycemia Unawareness Survey Total Score",
+          "history of severe hypoglycemia"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "BMI",
+        "Annual Household Income ($)",
+        "Highest Education",
+        "Insurance",
+        "Self-reported BGM Testing"
+      ],
+      "remaining_candidate_features": [
+        "insulin pump use duration",
+        "history of diabetic ketoacidosis (DKA)",
+        "estimated glomerular filtration rate (GFR)",
+        "thyroid function test results",
+        "presence of significant medical or psychiatric disorders",
+        "cognitive function",
+        "use of non-insulin drugs for glucose control",
+        "use of systemic beta blockers",
+        "use of oral corticosteroids",
+        "pregnancy status",
+        "participation in other intervention studies",
+        "adhesive allergy"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Type 1 Diabetes, Baseline HbA1c, Insulin Pump Use Duration, Frequency of Severe Hypoglycemia, Frequency of Diabetic Ketoacidosis (DKA) Events, Estimated Glomerular Filtration Rate (eGFR), Thyroid Function Test Results, Use of Non-Insulin Glucose Control Medications, Use of Systemic Beta Blockers, Use of Oral Corticosteroids, Pregnancy Status, Cognitive Function, Psychiatric History,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diabetes Duration",
+          "Duration of Type 1 Diabetes"
+        ],
+        [
+          "Central Laboratory HbA1c Value",
+          "Baseline HbA1c"
+        ],
+        [
+          "Clarke Hypoglycemia Unawareness Survey Total Score",
+          "Frequency of Severe Hypoglycemia"
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI",
+        "Annual Household Income ($)",
+        "Highest Education",
+        "Insurance",
+        "CGM Use Before Study",
+        "Self-reported BGM Testing"
+      ],
+      "remaining_candidate_features": [
+        "Insulin Pump Use Duration",
+        "Frequency of Diabetic Ketoacidosis (DKA) Events",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "Thyroid Function Test Results",
+        "Use of Non-Insulin Glucose Control Medications",
+        "Use of Systemic Beta Blockers",
+        "Use of Oral Corticosteroids",
+        "Pregnancy Status",
+        "Cognitive Function",
+        "Psychiatric History"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Duration, HbA1c, Insulin Pump Use, History of Severe Hypoglycemia, History of DKA, Estimated Glomerular Filtration Rate, Thyroid Function Test Results, BMI, Blood Pressure, Lipid Profile.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Diabetes Duration",
+          "Diabetes Duration"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Central Laboratory HbA1c Value",
+          "HbA1c"
+        ],
+        [
+          "Clarke Hypoglycemia Unawareness Survey Total Score",
+          "History of Severe Hypoglycemia"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Annual Household Income ($)",
+        "Highest Education",
+        "Insurance",
+        "CGM Use Before Study",
+        "Self-reported BGM Testing"
+      ],
+      "remaining_candidate_features": [
+        "Insulin Pump Use",
+        "History of DKA",
+        "Estimated Glomerular Filtration Rate",
+        "Thyroid Function Test Results",
+        "Blood Pressure",
+        "Lipid Profile"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, type 1 diabetes duration, HbA1c, insulin pump type, insulin regimen, body mass index (BMI), history of severe hypoglycemia, history of DKA, estimated Glomerular Filtration Rate (GFR), thyroid function test results, cognitive function, psychiatric history, pregnancy status, birth control method.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Diabetes Duration",
+          "type 1 diabetes duration"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Central Laboratory HbA1c Value",
+          "HbA1c"
+        ],
+        [
+          "Clarke Hypoglycemia Unawareness Survey Total Score",
+          "history of severe hypoglycemia"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Annual Household Income ($)",
+        "Highest Education",
+        "Insurance",
+        "CGM Use Before Study",
+        "Self-reported BGM Testing"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "insulin pump type",
+        "insulin regimen",
+        "history of DKA",
+        "estimated Glomerular Filtration Rate (GFR)",
+        "thyroid function test results",
+        "cognitive function",
+        "psychiatric history",
+        "pregnancy status",
+        "birth control method"
+      ]
+    }
+  }
+}

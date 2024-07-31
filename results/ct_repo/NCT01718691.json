@@ -1,0 +1,334 @@
+{
+  "trial_id": "NCT01718691",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, histopathological subtype of lymphoma, presence of B symptoms, bulky disease status, serum LDH levels, beta 2 microglobulin levels, number of regional lymph nodes > 3 cm, symptomatic splenomegaly, intracranial pressure, pleural effusion/ascites retention, neutrophil count, platelet count, AST levels, ALT levels, total bilirubin levels, serum creatinine levels, arterial partial pressure of oxygen (PaO2), electrocardiogram findings, left ventricular ejection fraction (LVEF).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Performance status (ECOG scale)",
+          "ECOG performance status"
+        ],
+        [
+          "Diagnosis (WHO classification)",
+          "histopathological subtype of lymphoma"
+        ],
+        [
+          "B symptoms (fever)",
+          "presence of B symptoms"
+        ],
+        [
+          "Lactate dehydrogenase (LDH)",
+          "serum LDH levels"
+        ],
+        [
+          "Beta 2 microglobulin",
+          "beta 2 microglobulin levels"
+        ],
+        [
+          "Number of lymph node regions",
+          "number of regional lymph nodes > 3 cm"
+        ],
+        [
+          "Symptomatic splenomegaly",
+          "symptomatic splenomegaly"
+        ],
+        [
+          "Pleural effusion/ascites retention",
+          "pleural effusion/ascites retention"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Clinical stage (Ann Arbor staging classification)",
+        "Number of extranodal lesions",
+        "Tumor diameter (1)",
+        "Tumor diameter (2)",
+        "C-reactive protein (CRP)",
+        "Hepatomegaly",
+        "Splenomegaly",
+        "Enlarged kidney",
+        "B symptoms (night sweats)",
+        "B symptoms (weight loss)",
+        "Pressure symptoms",
+        "Bone marrow invasion",
+        "Chromosome abnormality",
+        "Previous medical history",
+        "Concomitant disease",
+        "FLIPI risk category",
+        "IPI risk category"
+      ],
+      "remaining_candidate_features": [
+        "bulky disease status",
+        "intracranial pressure",
+        "neutrophil count",
+        "platelet count",
+        "AST levels",
+        "ALT levels",
+        "total bilirubin levels",
+        "serum creatinine levels",
+        "arterial partial pressure of oxygen (PaO2)",
+        "electrocardiogram findings",
+        "left ventricular ejection fraction (LVEF)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Neutrophil Count, Platelet Count, AST, ALT, Total Bilirubin, Serum Creatinine, PaO2, LVEF, LDH, Beta 2 Microglobulin, B Symptoms, Measurable Lesion Size, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Performance status (ECOG scale)",
+          "ECOG Performance Status"
+        ],
+        [
+          "Lactate dehydrogenase (LDH)",
+          "LDH"
+        ],
+        [
+          "Beta 2 microglobulin",
+          "Beta 2 Microglobulin"
+        ],
+        [
+          "B symptoms (fever)",
+          "B Symptoms"
+        ],
+        [
+          "B symptoms (night sweats)",
+          "B Symptoms"
+        ],
+        [
+          "B symptoms (weight loss)",
+          "B Symptoms"
+        ],
+        [
+          "Symptomatic splenomegaly",
+          "B Symptoms"
+        ],
+        [
+          "Pleural effusion/ascites retention",
+          "B Symptoms"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diagnosis (WHO classification)",
+        "Clinical stage (Ann Arbor staging classification)",
+        "Number of lymph node regions",
+        "Number of extranodal lesions",
+        "Tumor diameter (1)",
+        "Tumor diameter (2)",
+        "C-reactive protein (CRP)",
+        "Hepatomegaly",
+        "Splenomegaly",
+        "Enlarged kidney",
+        "Pressure symptoms",
+        "Bone marrow invasion",
+        "Chromosome abnormality",
+        "Previous medical history",
+        "Concomitant disease",
+        "FLIPI risk category",
+        "IPI risk category"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Neutrophil Count",
+        "Platelet Count",
+        "AST",
+        "ALT",
+        "Total Bilirubin",
+        "Serum Creatinine",
+        "PaO2",
+        "LVEF",
+        "Measurable Lesion Size"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological Subtype, Bulky Disease, B Symptoms, Elevated Serum LDH or Beta 2 Microglobulin, Number of Regional Lymph Nodes, Symptomatic Splenomegaly, Intracranial Pressure, Pleural Effusion/Ascites Retention, Neutrophil Count, Platelet Count, Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), Total Bilirubin, Serum Creatinine, Arterial Partial Pressure of Oxygen (PaO2), Left Ventricular Ejection Fraction (LVEF).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Performance status (ECOG scale)",
+          "ECOG Performance Status"
+        ],
+        [
+          "Diagnosis (WHO classification)",
+          "Histological Subtype"
+        ],
+        [
+          "Number of lymph node regions",
+          "Number of Regional Lymph Nodes"
+        ],
+        [
+          "Lactate dehydrogenase (LDH)",
+          "Elevated Serum LDH or Beta 2 Microglobulin"
+        ],
+        [
+          "Beta 2 microglobulin",
+          "Elevated Serum LDH or Beta 2 Microglobulin"
+        ],
+        [
+          "B symptoms (fever)",
+          "B Symptoms"
+        ],
+        [
+          "B symptoms (night sweats)",
+          "B Symptoms"
+        ],
+        [
+          "B symptoms (weight loss)",
+          "B Symptoms"
+        ],
+        [
+          "Symptomatic splenomegaly",
+          "Symptomatic Splenomegaly"
+        ],
+        [
+          "Pleural effusion/ascites retention",
+          "Pleural Effusion/Ascites Retention"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Clinical stage (Ann Arbor staging classification)",
+        "Number of extranodal lesions",
+        "Tumor diameter (1)",
+        "Tumor diameter (2)",
+        "C-reactive protein (CRP)",
+        "Hepatomegaly",
+        "Splenomegaly",
+        "Enlarged kidney",
+        "Pressure symptoms",
+        "Bone marrow invasion",
+        "Chromosome abnormality",
+        "Previous medical history",
+        "Concomitant disease",
+        "FLIPI risk category",
+        "IPI risk category"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Bulky Disease",
+        "Intracranial Pressure",
+        "Neutrophil Count",
+        "Platelet Count",
+        "Aspartate Aminotransferase (AST)",
+        "Alanine Aminotransferase (ALT)",
+        "Total Bilirubin",
+        "Serum Creatinine",
+        "Arterial Partial Pressure of Oxygen (PaO2)",
+        "Left Ventricular Ejection Fraction (LVEF)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ECOG performance status, histopathological diagnosis (small lymphocytic lymphoma, splenic marginal zone B-cell lymphoma, lymphoplasmacytic lymphoma, extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue, nodal marginal zone B-cell lymphoma, follicular lymphoma, mantle cell lymphoma), presence of B symptoms, bulky disease, elevated serum LDH or beta 2 microglobulin, number of regional lymph nodes, presence of symptomatic splenomegaly, intracranial pressure, pleural effusion/ascites retention, neutrophil count, platelet count, AST, ALT, total bilirubin, serum creatinine, PaO2, LVEF.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Performance status (ECOG scale)",
+          "ECOG performance status"
+        ],
+        [
+          "Diagnosis (WHO classification)",
+          "histopathological diagnosis (small lymphocytic lymphoma, splenic marginal zone B-cell lymphoma, lymphoplasmacytic lymphoma, extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue, nodal marginal zone B-cell lymphoma, follicular lymphoma, mantle cell lymphoma)"
+        ],
+        [
+          "B symptoms (fever)",
+          "presence of B symptoms"
+        ],
+        [
+          "Lactate dehydrogenase (LDH)",
+          "elevated serum LDH or beta 2 microglobulin"
+        ],
+        [
+          "Beta 2 microglobulin",
+          "elevated serum LDH or beta 2 microglobulin"
+        ],
+        [
+          "Splenomegaly",
+          "presence of symptomatic splenomegaly"
+        ],
+        [
+          "Pleural effusion/ascites retention",
+          "pleural effusion/ascites retention"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Clinical stage (Ann Arbor staging classification)",
+        "Number of lymph node regions",
+        "Number of extranodal lesions",
+        "Tumor diameter (1)",
+        "Tumor diameter (2)",
+        "C-reactive protein (CRP)",
+        "Hepatomegaly",
+        "Enlarged kidney",
+        "B symptoms (night sweats)",
+        "B symptoms (weight loss)",
+        "Symptomatic splenomegaly",
+        "Pressure symptoms",
+        "Bone marrow invasion",
+        "Chromosome abnormality",
+        "Previous medical history",
+        "Concomitant disease",
+        "FLIPI risk category",
+        "IPI risk category"
+      ],
+      "remaining_candidate_features": [
+        "bulky disease",
+        "number of regional lymph nodes",
+        "intracranial pressure",
+        "neutrophil count",
+        "platelet count",
+        "AST",
+        "ALT",
+        "total bilirubin",
+        "serum creatinine",
+        "PaO2",
+        "LVEF."
+      ]
+    }
+  }
+}

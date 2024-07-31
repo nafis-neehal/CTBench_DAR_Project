@@ -1,0 +1,247 @@
+{
+  "trial_id": "NCT00819182",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, menopausal status, breast cancer status, hot flash frequency, hot flash severity, hot flash bother, general health status, geographic location, language proficiency, history of other cancers, time since completion of cancer treatment, psychiatric history, cognitive status, previous participation in related studies, breathing difficulties.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Menopausal status",
+          "menopausal status"
+        ],
+        [
+          "24-hour hot flash frequency",
+          "hot flash frequency"
+        ],
+        [
+          "24-hour hot flash severity",
+          "hot flash severity"
+        ],
+        [
+          "Hot flash bother",
+          "hot flash bother"
+        ],
+        [
+          "Comorbid conditions",
+          "general health status"
+        ],
+        [
+          "Strata",
+          "breast cancer status"
+        ],
+        [
+          "Geographic location",
+          "geographic location"
+        ],
+        [
+          "Language proficiency",
+          "language proficiency"
+        ],
+        [
+          "History of other cancers",
+          "history of other cancers"
+        ],
+        [
+          "Years since last menses",
+          "time since completion of cancer treatment"
+        ],
+        [
+          "Known psychiatric disorders or cognitive impairments",
+          "psychiatric history"
+        ],
+        [
+          "Known psychiatric disorders or cognitive impairments",
+          "cognitive status"
+        ],
+        [
+          "Participation in our previous pilot study evaluating our control condition",
+          "previous participation in related studies"
+        ],
+        [
+          "Self-reported difficulties with normal everyday breathing",
+          "breathing difficulties"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body mass index",
+        "Years of education",
+        "Concurrent medications",
+        "Past hot flash therapies tried",
+        "Current hot flash therapies",
+        "Electronic hot flash diary days",
+        "Ethnicity",
+        "Marital",
+        "Employment",
+        "Difficulty paying for basics",
+        "Smoker",
+        "Use of SERM or AI"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Breast cancer status, Menopausal status, Hot flash frequency, Hot flash severity, Hot flash bother, Hot flash interference in daily life, Perceived control over hot flashes, Mood disturbances, Sleep disturbances, Intervention adherence, Adverse events",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Menopausal status",
+          "Menopausal status"
+        ],
+        [
+          "24-hour hot flash frequency",
+          "Hot flash frequency"
+        ],
+        [
+          "24-hour hot flash severity",
+          "Hot flash severity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body mass index",
+        "Years of education",
+        "Concurrent medications",
+        "Comorbid conditions",
+        "Past hot flash therapies tried",
+        "Current hot flash therapies",
+        "Years since last menses",
+        "Electronic hot flash diary days",
+        "Ethnicity",
+        "Marital",
+        "Employment",
+        "Difficulty paying for basics",
+        "Smoker",
+        "Use of SERM or AI",
+        "Strata"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Breast cancer status",
+        "Hot flash bother",
+        "Hot flash interference in daily life",
+        "Perceived control over hot flashes",
+        "Mood disturbances",
+        "Sleep disturbances",
+        "Intervention adherence",
+        "Adverse events"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Menopausal status, Breast cancer history, Hot flash frequency, Hot flash severity, Hot flash bother, Sleep disturbances, Mood disturbances, Perceived control over hot flashes.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Menopausal status",
+          "Menopausal status"
+        ],
+        [
+          "24-hour hot flash frequency",
+          "Hot flash frequency"
+        ],
+        [
+          "24-hour hot flash severity",
+          "Hot flash severity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body mass index",
+        "Years of education",
+        "Concurrent medications",
+        "Comorbid conditions",
+        "Past hot flash therapies tried",
+        "Current hot flash therapies",
+        "Years since last menses",
+        "Electronic hot flash diary days",
+        "Ethnicity",
+        "Marital",
+        "Employment",
+        "Difficulty paying for basics",
+        "Smoker",
+        "Current hot flash therapies",
+        "Use of SERM or AI",
+        "Strata"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Breast cancer history",
+        "Hot flash bother",
+        "Sleep disturbances",
+        "Mood disturbances",
+        "Perceived control over hot flashes."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, education level, marital status, employment status, menopausal status, breast cancer status, time since menopause, body mass index, smoking status, history of hormone replacement therapy, history of antidepressant use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index",
+          "body mass index"
+        ],
+        [
+          "Years of education",
+          "education level"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Marital",
+          "marital status"
+        ],
+        [
+          "Employment",
+          "employment status"
+        ],
+        [
+          "Menopausal status",
+          "menopausal status"
+        ],
+        [
+          "Years since last menses",
+          "time since menopause"
+        ],
+        [
+          "Smoker",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Concurrent medications",
+        "Comorbid conditions",
+        "Past hot flash therapies tried",
+        "Current hot flash therapies",
+        "Electronic hot flash diary days",
+        "24-hour hot flash frequency",
+        "24-hour hot flash severity",
+        "Difficulty paying for basics",
+        "Use of SERM or AI",
+        "Strata"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "breast cancer status",
+        "history of hormone replacement therapy",
+        "history of antidepressant use"
+      ]
+    }
+  }
+}

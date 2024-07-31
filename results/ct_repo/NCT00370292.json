@@ -1,0 +1,232 @@
+{
+  "trial_id": "NCT00370292",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, ECOG Performance Status, Creatinine Clearance, Histological or Cytological Confirmation of NSCLC, Stage of NSCLC (IIIB or IV), Prior Radiation Therapy, Presence of Brain Metastasis, Cardiac Disease History, Use of Aspirin or NSAIDs, Presence of Third-Space Fluid Collections",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Eastern Cooperative Oncology Group Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Creatinine Clearance (CrCl) greater than or equal to 45 milliliters per min (mL/min)",
+          "Creatinine Clearance"
+        ],
+        [
+          "Histopathological Grade",
+          "Histological or Cytological Confirmation of NSCLC"
+        ],
+        [
+          "Disease Stages",
+          "Stage of NSCLC (IIIB or IV)"
+        ],
+        [
+          "Previous Anti-Tumor Treatment",
+          "Prior Radiation Therapy"
+        ],
+        [
+          "Presence of clinically relevant third-space fluid collections not controllable",
+          "Presence of Third-Space Fluid Collections"
+        ],
+        [
+          "Significant cardiac disease",
+          "Cardiac Disease History"
+        ],
+        [
+          "Inability to interrupt Aspirin at doses of greater than 1.3 grams/day or non-steroidal anti-inflammatory agents for a 5-day period.",
+          "Use of Aspirin or NSAIDs"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Race/Ethnicity",
+        "Tumor Type",
+        "Blood Pressure",
+        "Body Surface Area (BSA)",
+        "Body Temperature",
+        "Heart Rate",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Presence of Brain Metastasis"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Performance Status (ECOG), Creatinine Clearance (CrCl), Prior Radiation Therapy, Presence of Brain Metastasis,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Eastern Cooperative Oncology Group Performance Status",
+          "Performance Status (ECOG)"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Disease Stages",
+        "Histopathological Grade",
+        "Previous Anti-Tumor Treatment",
+        "Previous Surgery",
+        "Tumor Type",
+        "Blood Pressure",
+        "Body Surface Area (BSA)",
+        "Body Temperature",
+        "Heart Rate",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Creatinine Clearance (CrCl)",
+        "Prior Radiation Therapy",
+        "Presence of Brain Metastasis"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological Type of NSCLC, Stage of NSCLC, Prior Chemotherapy, Prior Radiotherapy, Creatinine Clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Disease Stages",
+          "Stage of NSCLC"
+        ],
+        [
+          "Previous Anti-Tumor Treatment",
+          "Prior Chemotherapy"
+        ],
+        [
+          "Previous Surgery",
+          "Prior Radiotherapy"
+        ],
+        [
+          "Tumor Type",
+          "Histological Type of NSCLC"
+        ],
+        [
+          "Creatinine Clearance (CrCl)",
+          "Creatinine Clearance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Histopathological Grade",
+        "Blood Pressure",
+        "Body Surface Area (BSA)",
+        "Body Temperature",
+        "Heart Rate",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Age"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, histological type of NSCLC, disease stage, presence of brain metastasis, prior chemotherapy, prior radiation therapy, creatinine clearance, presence of cardiac disease, presence of third-space fluid collections.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Disease Stages",
+          "disease stage"
+        ],
+        [
+          "Previous Anti-Tumor Treatment",
+          "prior chemotherapy"
+        ],
+        [
+          "Previous Surgery",
+          "prior radiation therapy"
+        ],
+        [
+          "Tumor Type",
+          "histological type of NSCLC"
+        ],
+        [
+          "Creatinine Clearance (CrCl)",
+          "creatinine clearance"
+        ],
+        [
+          "Significant cardiac disease",
+          "presence of cardiac disease"
+        ],
+        [
+          "Presence of clinically relevant third-space fluid collections not controllable",
+          "presence of third-space fluid collections."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Histopathological Grade",
+        "Blood Pressure",
+        "Body Surface Area (BSA)",
+        "Body Temperature",
+        "Heart Rate",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "presence of brain metastasis"
+      ]
+    }
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "trial_id": "NCT02352974",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, duration of diabetes, fasting C-peptide levels, GADA levels, pregnancy status, use of contraception, history of immunosuppressant therapy, history of inflammatory drug use, history of anti-diabetic medication use, history of Vitamin D use, history of anaemia, history of epilepsy or head trauma, history of acute reaction to vaccines, participation in other clinical trials, history of alcohol or drug abuse, presence of significant illness other than diabetes, HIV or hepatitis status, lactation status, ability to comply with study protocol, presence of associated serious disease or condition.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "pregnancy status"
+        ],
+        [
+          "Type 1 diabetes duration",
+          "duration of diabetes"
+        ],
+        [
+          "GADA (Antibodies to GAD with molecular mass 65,000)",
+          "GADA levels"
+        ],
+        [
+          "Fasting C-peptide",
+          "fasting C-peptide levels"
+        ],
+        [
+          "Male",
+          "use of contraception"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Weight",
+        "BMI",
+        "Weighted C-peptide",
+        "90-minute C-peptide",
+        "HbA1c",
+        "Average insulin dose/kg/24 h",
+        "IDAA1c"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "history of immunosuppressant therapy",
+        "history of inflammatory drug use",
+        "history of anti-diabetic medication use",
+        "history of Vitamin D use",
+        "history of anaemia",
+        "history of epilepsy or head trauma",
+        "history of acute reaction to vaccines",
+        "participation in other clinical trials",
+        "history of alcohol or drug abuse",
+        "presence of significant illness other than diabetes",
+        "HIV or hepatitis status",
+        "lactation status",
+        "ability to comply with study protocol",
+        "presence of associated serious disease or condition"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, Baseline C-peptide, HbA1c, Insulin Dose, BMI, Blood Pressure, GADA levels, Vitamin D levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Type 1 diabetes duration",
+          "Diabetes Duration"
+        ],
+        [
+          "GADA (Antibodies to GAD with molecular mass 65,000)",
+          "GADA levels"
+        ],
+        [
+          "Fasting C-peptide",
+          "Baseline C-peptide"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Weight",
+        "Weighted C-peptide",
+        "90-minute C-peptide",
+        "Average insulin dose/kg/24 h",
+        "IDAA1c"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Blood Pressure",
+        "Insulin Dose",
+        "Vitamin D levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Fasting C-peptide, GADA, BMI, Insulin Dose, HbA1c, Vitamin D level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Type 1 diabetes duration",
+          "Diabetes Diagnosis Duration"
+        ],
+        [
+          "GADA (Antibodies to GAD with molecular mass 65,000)",
+          "GADA"
+        ],
+        [
+          "Fasting C-peptide",
+          "Fasting C-peptide"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Weight",
+        "Weighted C-peptide",
+        "90-minute C-peptide",
+        "Average insulin dose/kg/24 h",
+        "IDAA1c"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Insulin Dose",
+        "Vitamin D level."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, diabetes duration, fasting C-peptide, GADA levels, body mass index (BMI), HbA1c, insulin dose, presence of other autoimmune diseases, medical history, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Type 1 diabetes duration",
+          "diabetes duration"
+        ],
+        [
+          "Fasting C-peptide",
+          "fasting C-peptide"
+        ],
+        [
+          "GADA (Antibodies to GAD with molecular mass 65,000)",
+          "GADA levels"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Average insulin dose/kg/24 h",
+          "insulin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Weight",
+        "Weighted C-peptide",
+        "90-minute C-peptide",
+        "IDAA1c"
+      ],
+      "remaining_candidate_features": [
+        "presence of other autoimmune diseases",
+        "medical history",
+        "concomitant medications."
+      ]
+    }
+  }
+}

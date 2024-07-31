@@ -1,0 +1,184 @@
+{
+  "trial_id": "NCT02367066",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), HbA1c levels, fasting plasma glucose levels, duration of Type 2 Diabetes Mellitus, use of metformin, liver function tests (AST, ALT), clinical chemistry, haematology, urinalysis results, presence of other clinically significant diseases or disorders.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c",
+          "HbA1c levels"
+        ],
+        [
+          "T2DM disease duration",
+          "duration of Type 2 Diabetes Mellitus"
+        ],
+        [
+          "Current Metformin Daily Dose",
+          "use of metformin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose levels",
+        "liver function tests (AST, ALT)",
+        "clinical chemistry",
+        "haematology",
+        "urinalysis results",
+        "presence of other clinically significant diseases or disorders."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Fasting Plasma Glucose, HbA1c, Duration of Diabetes, Metformin Dose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Current Metformin Daily Dose",
+          "Metformin Dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height",
+        "T2DM disease duration"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Fasting Plasma Glucose",
+        "Duration of Diabetes"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, HbA1c, Fasting Plasma Glucose, Duration of Diabetes, Metformin Dose, Region of Enrollment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "T2DM disease duration",
+          "Duration of Diabetes"
+        ],
+        [
+          "Current Metformin Daily Dose",
+          "Metformin Dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Fasting Plasma Glucose",
+        "Region of Enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index, HbA1c, fasting plasma glucose, duration of type 2 diabetes mellitus, metformin dose, history of diabetic complications, smoking status, alcohol consumption, medical history, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "T2DM disease duration",
+          "duration of type 2 diabetes mellitus"
+        ],
+        [
+          "Current Metformin Daily Dose",
+          "metformin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "fasting plasma glucose",
+        "history of diabetic complications",
+        "smoking status",
+        "alcohol consumption",
+        "medical history",
+        "concomitant medications."
+      ]
+    }
+  }
+}

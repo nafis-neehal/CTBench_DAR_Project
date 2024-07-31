@@ -1,0 +1,227 @@
+{
+  "trial_id": "NCT01672294",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, relationship to patient, duration of caregiving, caregiver's health status, caregiver's employment status, caregiver's education level, patient's diagnosis, patient's disease stage, patient's health status, living situation, socioeconomic status, previous caregiving experience.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Dyad Relationship",
+          "relationship to patient"
+        ],
+        [
+          "Primary Diagnosis of Veteran",
+          "patient's diagnosis"
+        ],
+        [
+          "Education",
+          "caregiver's education level"
+        ],
+        [
+          "Employment",
+          "caregiver's employment status"
+        ],
+        [
+          "Self-rated Quality of Health",
+          "caregiver's health status"
+        ],
+        [
+          "Years of caregiving given or received",
+          "duration of caregiving"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Finances",
+        "Number of Hours patient requires assistance"
+      ],
+      "remaining_candidate_features": [
+        "patient's disease stage",
+        "patient's health status",
+        "living situation",
+        "socioeconomic status",
+        "previous caregiving experience."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Caregiver relationship to patient, Caregiver employment status, Caregiver education level, Caregiver health status, Caregiver duration of caregiving, Patient diagnosis, Patient health status, Patient duration of illness,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Dyad Relationship",
+          "Caregiver relationship to patient"
+        ],
+        [
+          "Primary Diagnosis of Veteran",
+          "Patient diagnosis"
+        ],
+        [
+          "Education",
+          "Caregiver education level"
+        ],
+        [
+          "Employment",
+          "Caregiver employment status"
+        ],
+        [
+          "Self-rated Quality of Health",
+          "Caregiver health status"
+        ],
+        [
+          "Years of caregiving given or received",
+          "Caregiver duration of caregiving"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Finances",
+        "Number of Hours patient requires assistance"
+      ],
+      "remaining_candidate_features": [
+        "Patient health status",
+        "Patient duration of illness"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Relationship to Patient, Region of Enrollment, Patient Diagnosis, Caregiver Burden, Caregiver Depression, Caregiver Anxiety, Caregiver Anticipatory Grief, Patient Quality of Life",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Dyad Relationship",
+          "Relationship to Patient"
+        ],
+        [
+          "Primary Diagnosis of Veteran",
+          "Patient Diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Education",
+        "Finances",
+        "Employment",
+        "Self-rated Quality of Health",
+        "Years of caregiving given or received",
+        "Number of Hours patient requires assistance"
+      ],
+      "remaining_candidate_features": [
+        "Caregiver Burden",
+        "Caregiver Depression",
+        "Caregiver Anxiety",
+        "Caregiver Anticipatory Grief",
+        "Patient Quality of Life"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, relationship to patient, caregiver role duration, caregiver burden, patient diagnosis, disease severity, patient quality of life, caregiver anxiety, caregiver depression, anticipatory grief, caregiver education level, caregiver employment status, caregiver income level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Dyad Relationship",
+          "relationship to patient"
+        ],
+        [
+          "Primary Diagnosis of Veteran",
+          "patient diagnosis"
+        ],
+        [
+          "Education",
+          "caregiver education level"
+        ],
+        [
+          "Employment",
+          "caregiver employment status"
+        ],
+        [
+          "Finances",
+          "caregiver income level"
+        ],
+        [
+          "Years of caregiving given or received",
+          "caregiver role duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Self-rated Quality of Health",
+        "Number of Hours patient requires assistance"
+      ],
+      "remaining_candidate_features": [
+        "disease severity",
+        "patient quality of life",
+        "caregiver burden",
+        "caregiver anxiety",
+        "caregiver depression",
+        "anticipatory grief"
+      ]
+    }
+  }
+}

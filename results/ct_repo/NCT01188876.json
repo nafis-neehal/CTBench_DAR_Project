@@ -1,0 +1,179 @@
+{
+  "trial_id": "NCT01188876",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG Performance Status, histologic subtype, number of prior chemotherapy regimens, measurable lesion status, baseline laboratory values, life expectancy, vitamin B12 and folic acid levels, prior platinum-containing regimen, presence of significant ascites and/or pleural effusions, pregnancy test results, QTc interval, history of prior malignancy, cardiac disease status, hypercalcemia status, diabetes mellitus status, peripheral neuropathy grade, psychiatric history, prior investigational study participation, history of anaphylactic shock to platinum chemotherapy, use of ibuprofen, planned interval cytoreductive surgery, recurrence/progression timing after platinum regimen.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Histology Subtype",
+          "histologic subtype"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Primary Site"
+      ],
+      "remaining_candidate_features": [
+        "number of prior chemotherapy regimens",
+        "measurable lesion status",
+        "baseline laboratory values",
+        "life expectancy",
+        "vitamin B12 and folic acid levels",
+        "prior platinum-containing regimen",
+        "presence of significant ascites and/or pleural effusions",
+        "pregnancy test results",
+        "QTc interval",
+        "history of prior malignancy",
+        "cardiac disease status",
+        "hypercalcemia status",
+        "diabetes mellitus status",
+        "peripheral neuropathy grade",
+        "psychiatric history",
+        "prior investigational study participation",
+        "history of anaphylactic shock to platinum chemotherapy",
+        "use of ibuprofen",
+        "planned interval cytoreductive surgery",
+        "recurrence/progression timing after platinum regimen"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, ECOG Performance Status, Histologic Subtype, Number of Prior Chemotherapy Regimens, Measurable Disease Status, Baseline Laboratory Values, Life Expectancy, Vitamin B12 and Folic Acid Supplementation, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Histology Subtype",
+          "Histologic Subtype"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Primary Site"
+      ],
+      "remaining_candidate_features": [
+        "Number of Prior Chemotherapy Regimens",
+        "Measurable Disease Status",
+        "Baseline Laboratory Values",
+        "Life Expectancy",
+        "Vitamin B12 and Folic Acid Supplementation"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histologic Subtype, Number of Prior Chemotherapy Regimens, Platinum-Free Interval, Baseline CA125, Baseline Hemoglobin, Baseline Platelet Count, Baseline Creatinine Clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Histology Subtype",
+          "Histologic Subtype"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Primary Site"
+      ],
+      "remaining_candidate_features": [
+        "Number of Prior Chemotherapy Regimens",
+        "Platinum-Free Interval",
+        "Baseline CA125",
+        "Baseline Hemoglobin",
+        "Baseline Platelet Count",
+        "Baseline Creatinine Clearance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG Performance Status, histologic subtype, platinum-free interval, number of prior chemotherapy regimens, presence of measurable lesions, presence of ascites and/or pleural effusions, QTc interval, laboratory values (e.g. hemoglobin, platelet count, creatinine, etc.).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Histology Subtype",
+          "histologic subtype"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Primary Site"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "platinum-free interval",
+        "number of prior chemotherapy regimens",
+        "presence of measurable lesions",
+        "presence of ascites and/or pleural effusions",
+        "QTc interval",
+        "laboratory values (e.g. hemoglobin, platelet count, creatinine, etc.)"
+      ]
+    }
+  }
+}

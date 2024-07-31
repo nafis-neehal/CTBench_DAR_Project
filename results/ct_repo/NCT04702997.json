@@ -1,0 +1,179 @@
+{
+  "trial_id": "NCT04702997",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline eGFR, baseline UACR, systolic blood pressure, diastolic blood pressure, use of ACE inhibitors or ARBs, hematuria status, history of eGFR decline, body mass index, serum albumin, BNP level, HbA1c level, history of cardiac disease, history of malignancy, COVID-19 diagnosis history, prior participation in clinical studies, pregnancy status, breastfeeding status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Baseline estimated glomerular filtration rate (eGFR)",
+          "baseline eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "baseline UACR",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "use of ACE inhibitors or ARBs",
+        "hematuria status",
+        "history of eGFR decline",
+        "body mass index",
+        "serum albumin",
+        "BNP level",
+        "HbA1c level",
+        "history of cardiac disease",
+        "history of malignancy",
+        "COVID-19 diagnosis history",
+        "prior participation in clinical studies",
+        "pregnancy status",
+        "breastfeeding status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline eGFR, Urine Albumin to Creatinine Ratio (UACR), Systolic Blood Pressure, Diastolic Blood Pressure, Hematuria, Use of ACEi/ARB, Diabetes status, Serum Albumin, Body Mass Index,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Baseline estimated glomerular filtration rate (eGFR)",
+          "Baseline eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Urine Albumin to Creatinine Ratio (UACR)",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hematuria",
+        "Use of ACEi/ARB",
+        "Diabetes status",
+        "Serum Albumin",
+        "Body Mass Index"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Urine Albumin to Creatinine Ratio, Systolic Blood Pressure, Diastolic Blood Pressure, Hematuria, Body Mass Index, History of Cardiovascular Disease, History of Diabetes, History of Malignancy, Use of Angiotensin-Converting Enzyme Inhibitor and/or Angiotensin II Receptor Blocker.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Baseline estimated glomerular filtration rate (eGFR)",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Urine Albumin to Creatinine Ratio",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hematuria",
+        "Body Mass Index",
+        "History of Cardiovascular Disease",
+        "History of Diabetes",
+        "History of Malignancy",
+        "Use of Angiotensin-Converting Enzyme Inhibitor and/or Angiotensin II Receptor Blocker."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, eGFR, urine albumin to creatinine ratio (UACR), hematuria, history of diabetes, history of hypertension, history of cardiovascular disease, history of malignancy, smoking status, use of angiotensin-converting enzyme inhibitor (ACEi) and/or angiotensin II receptor blocker (ARB), use of other medications for CKD.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Baseline estimated glomerular filtration rate (eGFR)",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "urine albumin to creatinine ratio (UACR)",
+        "hematuria",
+        "history of diabetes",
+        "history of hypertension",
+        "history of cardiovascular disease",
+        "history of malignancy",
+        "smoking status",
+        "use of angiotensin-converting enzyme inhibitor (ACEi) and/or angiotensin II receptor blocker (ARB)",
+        "use of other medications for CKD."
+      ]
+    }
+  }
+}

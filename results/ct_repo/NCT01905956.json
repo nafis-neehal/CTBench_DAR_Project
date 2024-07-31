@@ -1,0 +1,212 @@
+{
+  "trial_id": "NCT01905956",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Gender, Baseline body weight, Physical activity level, Health status, Dietary habits, Use of weight loss products, Gastrointestinal health, History of bariatric surgery",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "Baseline body weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Height",
+        "Waist Circumference",
+        "Hip Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Physical activity level",
+        "Health status",
+        "Dietary habits",
+        "Use of weight loss products",
+        "Gastrointestinal health",
+        "History of bariatric surgery"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline Body Weight, Physical Activity Level, Dietary Habits, Gastrointestinal Health Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Weight",
+          "Baseline Body Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment",
+        "Height",
+        "Waist Circumference",
+        "Hip Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "Physical Activity Level",
+        "Dietary Habits",
+        "Gastrointestinal Health Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Baseline Body Weight, Waist Circumference, Hip Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Weight",
+          "Baseline Body Weight"
+        ],
+        [
+          "Waist Circumference",
+          "Waist Circumference"
+        ],
+        [
+          "Hip Circumference",
+          "Hip Circumference"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race/Ethnicity",
+        "Height",
+        "Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "Fasting Glucose",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, ethnicity, smoking status, physical activity level, diet type, comorbidities, medications, waist circumference, hip circumference, body fat percentage, systolic blood pressure, diastolic blood pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Waist Circumference",
+          "waist circumference"
+        ],
+        [
+          "Hip Circumference",
+          "hip circumference"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "diastolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Heart Rate"
+      ],
+      "remaining_candidate_features": [
+        "smoking status",
+        "physical activity level",
+        "diet type",
+        "comorbidities",
+        "medications",
+        "body fat percentage"
+      ]
+    }
+  }
+}

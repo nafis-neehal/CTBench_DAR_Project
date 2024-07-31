@@ -1,0 +1,181 @@
+{
+  "trial_id": "NCT02911701",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age at delivery, blood pressure at baseline, body mass index (BMI), race/ethnicity, parity, type of hypertensive disorder, liver function tests (AST, ALT), serum creatinine, platelet count, history of chronic hypertension, history of preeclampsia, use of antihypertensive medications, mode of delivery, duration of labor, pain scores, use of epidural anesthesia, postpartum hemorrhage, breastfeeding status, smoking status, alcohol use, comorbid conditions (e.g., diabetes, renal disease).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "mode of delivery",
+          "mode of delivery"
+        ],
+        [
+          "Parity",
+          "parity"
+        ],
+        [
+          "chronic hypertension requiring treatment",
+          "history of chronic hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "need for IV Antihypertensives before delivery"
+      ],
+      "remaining_candidate_features": [
+        "gestational age at delivery",
+        "blood pressure at baseline",
+        "body mass index (BMI)",
+        "type of hypertensive disorder",
+        "liver function tests (AST, ALT)",
+        "serum creatinine",
+        "platelet count",
+        "history of preeclampsia",
+        "use of antihypertensive medications",
+        "duration of labor",
+        "pain scores",
+        "use of epidural anesthesia",
+        "postpartum hemorrhage",
+        "breastfeeding status",
+        "smoking status",
+        "alcohol use",
+        "comorbid conditions (e.g., diabetes, renal disease)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational Age at Delivery, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Creatinine, AST (Aspartate Aminotransferase), ALT (Alanine Aminotransferase), Platelet Count, Hemoglobin, Type of Hypertensive Disorder,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "mode of delivery",
+        "Parity",
+        "chronic hypertension requiring treatment",
+        "need for IV Antihypertensives before delivery"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age at Delivery",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Serum Creatinine",
+        "AST (Aspartate Aminotransferase)",
+        "ALT (Alanine Aminotransferase)",
+        "Platelet Count",
+        "Hemoglobin",
+        "Type of Hypertensive Disorder"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gestational Age at Delivery, Parity, Body Mass Index, Systolic Blood Pressure at Enrollment, Diastolic Blood Pressure at Enrollment, Proteinuria at Enrollment, Serum Creatinine at Enrollment, AST at Enrollment, ALT at Enrollment, History of Chronic Hypertension, History of Preeclampsia, HELLP Syndrome or Eclampsia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Parity",
+          "Parity"
+        ],
+        [
+          "chronic hypertension requiring treatment",
+          "History of Chronic Hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "mode of delivery",
+        "need for IV Antihypertensives before delivery"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age at Delivery",
+        "Body Mass Index",
+        "Systolic Blood Pressure at Enrollment",
+        "Diastolic Blood Pressure at Enrollment",
+        "Proteinuria at Enrollment",
+        "Serum Creatinine at Enrollment",
+        "AST at Enrollment",
+        "ALT at Enrollment",
+        "History of Preeclampsia",
+        "HELLP Syndrome or Eclampsia."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, race, ethnicity, body mass index (BMI), gestational age at delivery, parity, history of hypertension, history of preeclampsia, severity of preeclampsia, presence of HELLP syndrome or eclampsia, serum creatinine, AST, ALT, platelet count, systolic and diastolic blood pressure at enrollment, use of antihypertensive medications during pregnancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Parity",
+          "parity"
+        ],
+        [
+          "chronic hypertension requiring treatment",
+          "history of hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "mode of delivery",
+        "need for IV Antihypertensives before delivery"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "gestational age at delivery",
+        "history of preeclampsia",
+        "severity of preeclampsia",
+        "presence of HELLP syndrome or eclampsia",
+        "serum creatinine",
+        "AST",
+        "ALT",
+        "platelet count",
+        "systolic and diastolic blood pressure at enrollment",
+        "use of antihypertensive medications during pregnancy."
+      ]
+    }
+  }
+}

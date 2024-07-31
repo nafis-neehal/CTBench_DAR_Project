@@ -1,0 +1,201 @@
+{
+  "trial_id": "NCT02137512",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 1 diabetes, HbA1c level, total daily insulin dose, insulin pump usage duration, hypoglycemia awareness score, internet and cell phone access, living situation (with significant other or family member), mental status and cognition, use of insulin-to-carbohydrate ratio, history of diabetic ketoacidosis, history of severe hypoglycemia, history of seizure disorder, history of coronary artery disease or heart failure, history of cardiac arrhythmia, presence of cystic fibrosis, liver function test results, renal function test results, presence of gastroparesis, stability on antihypertensive/thyroid/anti-depressant/lipid-lowering medication, thyroid disease status, alcohol or recreational drug use, presence of infectious process, recent injury or muscular disorder, use of specific medications (e.g., acetaminophen, blood glucose-lowering medications, beta blockers, glucocorticoids).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Age range",
+          "Age"
+        ],
+        [
+          "Diabetes duration",
+          "duration of type 1 diabetes"
+        ],
+        [
+          "A1C",
+          "HbA1c level"
+        ],
+        [
+          "Daily total insulin",
+          "total daily insulin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Body-mass index",
+        "Daily basal insulin"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "insulin pump usage duration",
+        "hypoglycemia awareness score",
+        "internet and cell phone access",
+        "living situation (with significant other or family member)",
+        "mental status and cognition",
+        "use of insulin-to-carbohydrate ratio",
+        "history of diabetic ketoacidosis",
+        "history of severe hypoglycemia",
+        "history of seizure disorder",
+        "history of coronary artery disease or heart failure",
+        "history of cardiac arrhythmia",
+        "presence of cystic fibrosis",
+        "liver function test results",
+        "renal function test results",
+        "presence of gastroparesis",
+        "stability on antihypertensive/thyroid/anti-depressant/lipid-lowering medication",
+        "thyroid disease status",
+        "alcohol or recreational drug use",
+        "presence of infectious process",
+        "recent injury or muscular disorder",
+        "use of specific medications (e.g., acetaminophen, blood glucose-lowering medications, beta blockers, glucocorticoids)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Duration of diabetes, HbA1c, Total daily insulin dose, Insulin pump usage duration, Hypoglycemia awareness, Internet and cell phone access, Living situation, Mental status and cognition, Contraception use (for females), Clarke Hypoglycemia Awareness score, History of diabetic ketoacidosis, History of severe hypoglycemia, History of cardiac conditions, History of seizure disorder, Renal function, Liver function, Thyroid function, Medication use, Alcohol or drug abuse history, Recent injuries or medical conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Age range",
+          "Sex"
+        ],
+        [
+          "Diabetes duration",
+          "Duration of diabetes"
+        ],
+        [
+          "A1C",
+          "HbA1c"
+        ],
+        [
+          "Daily total insulin",
+          "Total daily insulin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Body-mass index",
+        "Daily basal insulin"
+      ],
+      "remaining_candidate_features": [
+        "Insulin pump usage duration",
+        "Hypoglycemia awareness",
+        "Internet and cell phone access",
+        "Living situation",
+        "Mental status and cognition",
+        "Contraception use (for females)",
+        "Clarke Hypoglycemia Awareness score",
+        "History of diabetic ketoacidosis",
+        "History of severe hypoglycemia",
+        "History of cardiac conditions",
+        "History of seizure disorder",
+        "Renal function",
+        "Liver function",
+        "Thyroid function",
+        "Medication use",
+        "Alcohol or drug abuse history",
+        "Recent injuries or medical conditions"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Diabetes duration, HbA1c, Total daily insulin dose, Insulin-to-carbohydrate ratio, Hypoglycemia awareness, BMI, History of severe hypoglycemia, History of diabetic ketoacidosis, Presence of cardiovascular disease, Presence of thyroid disease, Presence of renal disease, Presence of liver disease, Presence of gastroparesis, Use of antihypertensive medication, Use of thyroid hormone replacement, Use of lipid-lowering medication, Use of antidepressant medication.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Diabetes duration",
+          "Diabetes duration"
+        ],
+        [
+          "A1C",
+          "HbA1c"
+        ],
+        [
+          "Daily total insulin",
+          "Total daily insulin dose"
+        ],
+        [
+          "Body-mass index",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age range",
+        "Race",
+        "Daily basal insulin"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Insulin-to-carbohydrate ratio",
+        "Hypoglycemia awareness",
+        "History of severe hypoglycemia",
+        "History of diabetic ketoacidosis",
+        "Presence of cardiovascular disease",
+        "Presence of thyroid disease",
+        "Presence of renal disease",
+        "Presence of liver disease",
+        "Presence of gastroparesis",
+        "Use of antihypertensive medication",
+        "Use of thyroid hormone replacement",
+        "Use of lipid-lowering medication",
+        "Use of antidepressant medication"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 1 diabetes, HbA1c, total daily insulin dose, insulin-to-carbohydrate ratio, Clarke Hypoglycemia Awareness score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Age range",
+          "Age \">=18 to <70 years\""
+        ],
+        [
+          "Diabetes duration",
+          "duration of type 1 diabetes"
+        ],
+        [
+          "Body-mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "A1C",
+          "HbA1c"
+        ],
+        [
+          "Daily total insulin",
+          "total daily insulin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Daily basal insulin"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "race",
+        "ethnicity",
+        "insulin-to-carbohydrate ratio",
+        "Clarke Hypoglycemia Awareness score."
+      ]
+    }
+  }
+}

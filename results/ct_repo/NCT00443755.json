@@ -1,0 +1,216 @@
+{
+  "trial_id": "NCT00443755",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, fasting glucose concentration, Body Mass Index (BMI), presence of Type 2 Diabetes or impaired fasting glucose, lifestyle modification status, baseline insulin sensitivity, baseline levels of thrombotic and inflammatory cardiovascular disease biomarkers, serum creatinine levels, history of cardiovascular disease, liver disease, kidney failure, active endocrinopathies, chronic disease status, anemia status, history of alcoholism or substance abuse, chronic neurological disease status, medication use, allergy status, presence of pacemakers or aneurysm clips, claustrophobia status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Fasting Blood Glucose",
+          "fasting glucose concentration"
+        ],
+        [
+          "Glucose Infusion Rate (GIR)",
+          "baseline insulin sensitivity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Fat-Free Mass",
+        "Body Fat",
+        "Glycosylated Hemoglobin (HbA1c)",
+        "Insulin level",
+        "Lipid Profile",
+        "Fibrinogen",
+        "Plasminogen Activator Inhibitor 1 (PAI-1)",
+        "C-Reactive Protein (CRP)",
+        "Interleukin-6 (IL-6)",
+        "Tumor Necrosis Factor-alpha (TNF-\u03b1)",
+        "Adiponectin"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "presence of Type 2 Diabetes or impaired fasting glucose",
+        "lifestyle modification status",
+        "baseline levels of thrombotic and inflammatory cardiovascular disease biomarkers",
+        "serum creatinine levels",
+        "history of cardiovascular disease",
+        "liver disease",
+        "kidney failure",
+        "active endocrinopathies",
+        "chronic disease status",
+        "anemia status",
+        "history of alcoholism or substance abuse",
+        "chronic neurological disease status",
+        "medication use",
+        "allergy status",
+        "presence of pacemakers or aneurysm clips",
+        "claustrophobia status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Fasting Glucose, Serum Creatinine,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting Blood Glucose",
+          "Fasting Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Fat-Free Mass",
+        "Body Fat",
+        "Glycosylated Hemoglobin (HbA1c)",
+        "Glucose Infusion Rate (GIR)",
+        "Insulin level",
+        "Lipid Profile",
+        "Fibrinogen",
+        "Plasminogen Activator Inhibitor 1 (PAI-1)",
+        "C-Reactive Protein (CRP)",
+        "Interleukin-6 (IL-6)",
+        "Tumor Necrosis Factor-alpha (TNF-\u03b1)",
+        "Adiponectin"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Serum Creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Fasting Glucose Concentration, Insulin Sensitivity, History of Cardiovascular Disease, History of Liver Disease, History of Kidney Failure, History of Endocrinopathies, History of Debilitating Chronic Disease, History of Anemia, History of Undiagnosed Illness, History of Alcoholism, History of Substance Abuse, History of Chronic Neurological Diseases, History of Myopathies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting Blood Glucose",
+          "Fasting Glucose Concentration"
+        ],
+        [
+          "Glucose Infusion Rate (GIR)",
+          "Insulin Sensitivity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Fat-Free Mass",
+        "Body Fat",
+        "Glycosylated Hemoglobin (HbA1c)",
+        "Insulin level",
+        "Lipid Profile",
+        "Fibrinogen",
+        "Plasminogen Activator Inhibitor 1 (PAI-1)",
+        "C-Reactive Protein (CRP)",
+        "Interleukin-6 (IL-6)",
+        "Tumor Necrosis Factor-alpha (TNF-\u03b1)",
+        "Adiponectin"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "History of Cardiovascular Disease",
+        "History of Liver Disease",
+        "History of Kidney Failure",
+        "History of Endocrinopathies",
+        "History of Debilitating Chronic Disease",
+        "History of Anemia",
+        "History of Undiagnosed Illness",
+        "History of Alcoholism",
+        "History of Substance Abuse",
+        "History of Chronic Neurological Diseases",
+        "History of Myopathies"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), fasting glucose concentration, history of type 2 diabetes, history of impaired fasting glucose, use of lifestyle modification to manage diabetes, presence of metabolic syndrome, serum creatinine level, history of cardiovascular disease, history of liver disease, history of kidney failure, history of endocrinopathies, history of chronic disease, history of anemia, history of alcoholism, history of substance abuse, history of neurological diseases, history of myopathies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Fasting Blood Glucose",
+          "fasting glucose concentration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Fat-Free Mass",
+        "Body Fat",
+        "Glycosylated Hemoglobin (HbA1c)",
+        "Glucose Infusion Rate (GIR)",
+        "Insulin level",
+        "Lipid Profile",
+        "Fibrinogen",
+        "Plasminogen Activator Inhibitor 1 (PAI-1)",
+        "C-Reactive Protein (CRP)",
+        "Interleukin-6 (IL-6)",
+        "Tumor Necrosis Factor-alpha (TNF-\u03b1)",
+        "Adiponectin"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "history of type 2 diabetes",
+        "history of impaired fasting glucose",
+        "use of lifestyle modification to manage diabetes",
+        "presence of metabolic syndrome",
+        "serum creatinine level",
+        "history of cardiovascular disease",
+        "history of liver disease",
+        "history of kidney failure",
+        "history of endocrinopathies",
+        "history of chronic disease",
+        "history of anemia",
+        "history of alcoholism",
+        "history of substance abuse",
+        "history of neurological diseases",
+        "history of myopathies"
+      ]
+    }
+  }
+}

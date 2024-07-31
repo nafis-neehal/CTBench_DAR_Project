@@ -1,0 +1,184 @@
+{
+  "trial_id": "NCT01945138",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), baseline blood glucose levels, duration of chronic pancreatitis, baseline HbA1c, baseline insulin requirements, history of previous surgeries, medication use, comorbid conditions, smoking status, alcohol use, physical activity level, dietary habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index (BMI) at Transplant",
+          "body mass index (BMI)"
+        ],
+        [
+          "hemoglobin A1c (A1c)",
+          "baseline HbA1c"
+        ],
+        [
+          "Fasting Blood Glucose (BG)",
+          "baseline blood glucose levels"
+        ],
+        [
+          "Etiology of Chronic Pancreatitis (CP)",
+          "duration of chronic pancreatitis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Weight at Transplant",
+        "Fasting C-Peptide",
+        "Peak Mixed Meal Tolerance Test (MMTT) C-peptide",
+        "Islet Yield",
+        "Days on drip"
+      ],
+      "remaining_candidate_features": [
+        "baseline insulin requirements",
+        "history of previous surgeries",
+        "medication use",
+        "comorbid conditions",
+        "smoking status",
+        "alcohol use",
+        "physical activity level",
+        "dietary habits."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Blood Glucose, Baseline HbA1c, Body Mass Index, Duration of Chronic Pancreatitis,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI) at Transplant",
+          "Body Mass Index"
+        ],
+        [
+          "hemoglobin A1c (A1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Fasting Blood Glucose (BG)",
+          "Baseline Blood Glucose"
+        ],
+        [
+          "Etiology of Chronic Pancreatitis (CP)",
+          "Duration of Chronic Pancreatitis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight at Transplant",
+        "Fasting C-Peptide",
+        "Peak Mixed Meal Tolerance Test (MMTT) C-peptide",
+        "Islet Yield",
+        "Days on drip"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Region of Enrollment, Islet Auto-Transplantation, Total Pancreatectomy, Pre-Transplant HbA1c, Pre-Transplant Insulin Requirements, Duration of Chronic Pancreatitis,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight at Transplant",
+        "Body Mass Index (BMI) at Transplant",
+        "hemoglobin A1c (A1c)",
+        "Fasting Blood Glucose (BG)",
+        "Fasting C-Peptide",
+        "Peak Mixed Meal Tolerance Test (MMTT) C-peptide",
+        "Islet Yield",
+        "Days on drip",
+        "Etiology of Chronic Pancreatitis (CP)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Islet Auto-Transplantation",
+        "Total Pancreatectomy",
+        "Pre-Transplant HbA1c",
+        "Pre-Transplant Insulin Requirements",
+        "Duration of Chronic Pancreatitis"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), duration of chronic pancreatitis, history of diabetes, HbA1c, fasting C-peptide, insulin requirement, presence of exocrine insufficiency, psychiatric history, corticosteroid use, acetaminophen use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI) at Transplant",
+          "body mass index (BMI)"
+        ],
+        [
+          "hemoglobin A1c (A1c)",
+          "HbA1c"
+        ],
+        [
+          "Fasting C-Peptide",
+          "fasting C-peptide"
+        ],
+        [
+          "Etiology of Chronic Pancreatitis (CP)",
+          "duration of chronic pancreatitis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Weight at Transplant",
+        "Fasting Blood Glucose (BG)",
+        "Peak Mixed Meal Tolerance Test (MMTT) C-peptide",
+        "Islet Yield",
+        "Days on drip"
+      ],
+      "remaining_candidate_features": [
+        "history of diabetes",
+        "insulin requirement",
+        "presence of exocrine insufficiency",
+        "psychiatric history",
+        "corticosteroid use",
+        "acetaminophen use."
+      ]
+    }
+  }
+}

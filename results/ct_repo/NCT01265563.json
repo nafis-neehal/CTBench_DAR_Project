@@ -1,0 +1,191 @@
+{
+  "trial_id": "NCT01265563",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, estimated GFR, presence of proteinuria, current medical treatment (low dose aspirin, diuretics, beta-blockers, ARBs, ACE-I, glipizide, insulin, statins), glycosylated hemoglobin (HbA1C), systolic blood pressure, diastolic blood pressure, history of intolerance to ACE-I and ARBs, history of intolerance to investigational supplements, history of intolerance to iodinated radiologic contrast material, presence of non-diabetic renal disease, history of solid organ transplantation, presence of hepatitis virus or HIV infections, use of excluded medications, presence of active coronary artery disease or cerebral vascular disease, hepatic function (total bilirubin, liver enzymes ALT and AST), presence of active malignancy, history of drug or alcohol dependency, presence of psychiatric or neurological conditions, willingness to practice birth control, participation in another clinical study, planned move or surgery, planned radiographic studies utilizing iodine-based contrast material.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Systolic BP",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic BP",
+          "diastolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "BMI"
+      ],
+      "remaining_candidate_features": [
+        "estimated GFR",
+        "presence of proteinuria",
+        "current medical treatment (low dose aspirin, diuretics, beta-blockers, ARBs, ACE-I, glipizide, insulin, statins)",
+        "glycosylated hemoglobin (HbA1C)",
+        "history of intolerance to ACE-I and ARBs",
+        "history of intolerance to investigational supplements",
+        "history of intolerance to iodinated radiologic contrast material",
+        "presence of non-diabetic renal disease",
+        "history of solid organ transplantation",
+        "presence of hepatitis virus or HIV infections",
+        "use of excluded medications",
+        "presence of active coronary artery disease or cerebral vascular disease",
+        "hepatic function (total bilirubin, liver enzymes ALT and AST)",
+        "presence of active malignancy",
+        "history of drug or alcohol dependency",
+        "presence of psychiatric or neurological conditions",
+        "willingness to practice birth control",
+        "participation in another clinical study",
+        "planned move or surgery",
+        "planned radiographic studies utilizing iodine-based contrast material"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR), Glycosylated Hemoglobin (HbA1C), Duration of Diabetes, Use of Antihypertensive Medications, Use of Antihyperglycemic Medications, Use of Lipid-lowering Medications, Urinary Albumin Excretion,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Systolic BP",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic BP",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "Glycosylated Hemoglobin (HbA1C)",
+        "Duration of Diabetes",
+        "Use of Antihypertensive Medications",
+        "Use of Antihyperglycemic Medications",
+        "Use of Lipid-lowering Medications",
+        "Urinary Albumin Excretion"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Estimated Glomerular Filtration Rate, Systolic Blood Pressure, Diastolic Blood Pressure, Glycosylated Hemoglobin, Total Cholesterol, Triglycerides, Low-Density Lipoprotein, High-Density Lipoprotein, Body Mass Index, Urinary Albumin Excretion.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Systolic BP",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic BP",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diabetes Diagnosis Duration",
+        "Estimated Glomerular Filtration Rate",
+        "Glycosylated Hemoglobin",
+        "Total Cholesterol",
+        "Triglycerides",
+        "Low-Density Lipoprotein",
+        "High-Density Lipoprotein",
+        "Urinary Albumin Excretion"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, estimated glomerular filtration rate (eGFR), systolic and diastolic blood pressure, glycosylated hemoglobin (HbA1C), low-density lipoprotein (LDL) cholesterol, high-density lipoprotein (HDL) cholesterol, triglycerides, urinary albumin excretion, smoking status, medical history (hypertension, hypercholesterolemia).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Systolic BP",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "Diastolic BP",
+          "systolic and diastolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "duration of diabetes",
+        "estimated glomerular filtration rate (eGFR)",
+        "glycosylated hemoglobin (HbA1C)",
+        "low-density lipoprotein (LDL) cholesterol",
+        "high-density lipoprotein (HDL) cholesterol",
+        "triglycerides",
+        "urinary albumin excretion",
+        "smoking status",
+        "medical history (hypertension, hypercholesterolemia)"
+      ]
+    }
+  }
+}

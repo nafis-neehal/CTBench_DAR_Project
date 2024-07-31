@@ -1,0 +1,186 @@
+{
+  "trial_id": "NCT03546270",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, systolic blood pressure, diastolic blood pressure, body mass index (BMI), duration of menopause, baseline physical activity level, muscle strength, aerobic capacity",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Systolic BP",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic BP",
+          "diastolic blood pressure"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Handgrip strength",
+          "muscle strength"
+        ],
+        [
+          "VO2max",
+          "aerobic capacity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Body weight",
+        "Fat-free mass",
+        "Fat mass",
+        "Body fat",
+        "AIx",
+        "AIx@75",
+        "AP",
+        "crPWV",
+        "Heart rate"
+      ],
+      "remaining_candidate_features": [
+        "duration of menopause",
+        "baseline physical activity level"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, BMI, Systolic BP, Diastolic BP, Menopausal status, Exercise frequency, Smoking status, Medication use, Hormone therapy use",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Systolic BP",
+          "Systolic BP"
+        ],
+        [
+          "Diastolic BP",
+          "Diastolic BP"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Body weight",
+        "Fat-free mass",
+        "Fat mass",
+        "Body fat",
+        "AIx",
+        "AIx@75",
+        "AP",
+        "crPWV",
+        "Heart rate",
+        "Handgrip strength",
+        "VO2max"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Menopausal status",
+        "Exercise frequency",
+        "Smoking status",
+        "Medication use",
+        "Hormone therapy use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Menopausal status, Body mass index, Systolic blood pressure, Diastolic blood pressure, Regular exercise habits, Smoking status, Medication use, Hormone therapy use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "Body mass index"
+        ],
+        [
+          "Systolic BP",
+          "Systolic blood pressure"
+        ],
+        [
+          "Diastolic BP",
+          "Diastolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Body weight",
+        "Fat-free mass",
+        "Fat mass",
+        "Body fat",
+        "AIx",
+        "AIx@75",
+        "AP",
+        "crPWV",
+        "Heart rate",
+        "Handgrip strength",
+        "VO2max"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Menopausal status",
+        "Regular exercise habits",
+        "Smoking status",
+        "Medication use",
+        "Hormone therapy use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, body mass index, systolic blood pressure, diastolic blood pressure, menopausal status, smoking status, medication use, hormone therapy use, regular exercise habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "BMI",
+          "body mass index"
+        ],
+        [
+          "Systolic BP",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic BP",
+          "diastolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Body weight",
+        "Fat-free mass",
+        "Fat mass",
+        "Body fat",
+        "AIx",
+        "AIx@75",
+        "AP",
+        "crPWV",
+        "Heart rate",
+        "Handgrip strength",
+        "VO2max"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "menopausal status",
+        "smoking status",
+        "medication use",
+        "hormone therapy use",
+        "regular exercise habits"
+      ]
+    }
+  }
+}

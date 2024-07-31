@@ -1,0 +1,198 @@
+{
+  "trial_id": "NCT02532855",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline hemoglobin A1c (A1C), duration of type 2 diabetes mellitus, baseline renal function (e.g., estimated glomerular filtration rate), body mass index (BMI), baseline use of metformin, baseline use of sulfonylurea, history of cardiovascular disease, baseline liver function tests, baseline lipid profile, baseline blood pressure, smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Hemoglobin A1C",
+          "baseline hemoglobin A1c (A1C)"
+        ],
+        [
+          "Background Antihyperglycemic Agent (AHA)",
+          "baseline use of metformin"
+        ],
+        [
+          "Background Antihyperglycemic Agent (AHA)",
+          "baseline use of sulfonylurea"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Fasting Plasma Glucose (FPG)",
+        "Incremental 2-hour Postprandial Glucose Excursion (PPGE)",
+        "2-hr Postprandial Glucose",
+        "Glucagon Area Under the Curve (AUC0-120 minutes)",
+        "Insulin AUC0-120 minutes",
+        "Insulin AUC0-120 minutes to Glucagon AUC0-120 minutes Ratio"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 2 diabetes mellitus",
+        "baseline renal function (e.g., estimated glomerular filtration rate)",
+        "body mass index (BMI)",
+        "history of cardiovascular disease",
+        "baseline liver function tests",
+        "baseline lipid profile",
+        "baseline blood pressure",
+        "smoking status",
+        "alcohol consumption."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Blood Pressure, Renal Function (eGFR), Use of Sulfonylurea,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Hemoglobin A1C",
+          "Baseline HbA1c"
+        ],
+        [
+          "Background Antihyperglycemic Agent (AHA)",
+          "Use of Sulfonylurea"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Fasting Plasma Glucose (FPG)",
+        "Incremental 2-hour Postprandial Glucose Excursion (PPGE)",
+        "2-hr Postprandial Glucose",
+        "Glucagon Area Under the Curve (AUC0-120 minutes)",
+        "Insulin AUC0-120 minutes",
+        "Insulin AUC0-120 minutes to Glucagon AUC0-120 minutes Ratio"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Duration of Diabetes",
+        "Body Mass Index",
+        "Blood Pressure",
+        "Renal Function (eGFR)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, eGFR, History of Cardiovascular Disease, Sulfonylurea Use, Metformin Dose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Hemoglobin A1C",
+          "HbA1c"
+        ],
+        [
+          "Background Antihyperglycemic Agent (AHA)",
+          "Sulfonylurea Use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Fasting Plasma Glucose (FPG)",
+        "Incremental 2-hour Postprandial Glucose Excursion (PPGE)",
+        "2-hr Postprandial Glucose",
+        "Glucagon Area Under the Curve (AUC0-120 minutes)",
+        "Insulin AUC0-120 minutes",
+        "Insulin AUC0-120 minutes to Glucagon AUC0-120 minutes Ratio"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diabetes Diagnosis Duration",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "eGFR",
+        "History of Cardiovascular Disease",
+        "Metformin Dose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, hemoglobin A1c (A1C) at baseline, fasting plasma glucose at baseline, systolic blood pressure at baseline, diastolic blood pressure at baseline, estimated glomerular filtration rate (eGFR) at baseline, history of hypertension, history of cardiovascular disease, history of myocardial infarction, history of stroke, history of heart failure, smoking status, use of sulfonylurea at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Hemoglobin A1C",
+          "hemoglobin A1c (A1C) at baseline"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose at baseline"
+        ],
+        [
+          "Background Antihyperglycemic Agent (AHA)",
+          "use of sulfonylurea at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Incremental 2-hour Postprandial Glucose Excursion (PPGE)",
+        "2-hr Postprandial Glucose",
+        "Glucagon Area Under the Curve (AUC0-120 minutes)",
+        "Insulin AUC0-120 minutes",
+        "Insulin AUC0-120 minutes to Glucagon AUC0-120 minutes Ratio"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "duration of type 2 diabetes mellitus",
+        "systolic blood pressure at baseline",
+        "diastolic blood pressure at baseline",
+        "estimated glomerular filtration rate (eGFR) at baseline",
+        "history of hypertension",
+        "history of cardiovascular disease",
+        "history of myocardial infarction",
+        "history of stroke",
+        "history of heart failure",
+        "smoking status"
+      ]
+    }
+  }
+}

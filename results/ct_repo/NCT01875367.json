@@ -1,0 +1,249 @@
+{
+  "trial_id": "NCT01875367",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, performance status (ECOG), HER2 status, prior treatments (chemotherapy, hormonal therapy), duration of trastuzumab treatment, disease progression status, bone marrow function, liver function, kidney function, cardiac function (LVEF), presence of brain metastases, history of other malignancies, hypersensitivity to trastuzumab, dyspnea status, heart disease history, pregnancy status, contraceptive use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status",
+          "performance status (ECOG)"
+        ],
+        [
+          "Time with IV trastuzumab for metastasis at registration",
+          "duration of trastuzumab treatment"
+        ],
+        [
+          "Treatment/s combined with IV-trastuzumab at registration",
+          "prior treatments (chemotherapy, hormonal therapy)"
+        ],
+        [
+          "Metastases 1 at diagnosis",
+          "disease progression status"
+        ],
+        [
+          "Bone metastases at registration",
+          "bone marrow function"
+        ],
+        [
+          "Other anti Human Epidermal growth factor Receptor 2 (HER-2) therapy at registration",
+          "HER2 status"
+        ],
+        [
+          "Proper cardiac function (LVEF within normal limits the center, measured by echocardiography or MUGA)",
+          "cardiac function (LVEF)"
+        ],
+        [
+          "Presence of any concomitant serious systemic disease that is incompatible with the study (at the discretion of the investigator)",
+          "presence of brain metastases"
+        ],
+        [
+          "The patient is pregnant or lactating. Women of childbearing potential should undergo pregnancy testing blood or urine within 14 days prior to inclusion as institutional rules and use a non-hormonal contraceptive suitable: intrauterine device, barrier method (condom or diaphragm) also used in conjunction with spermicidal cream, total abstinence or surgical sterilization, during treatment with the study drugs and for 6 months following the end of treatment.",
+          "pregnancy status"
+        ],
+        [
+          "The patient is pregnant or lactating. Women of childbearing potential should undergo pregnancy testing blood or urine within 14 days prior to inclusion as institutional rules and use a non-hormonal contraceptive suitable: intrauterine device, barrier method (condom or diaphragm) also used in conjunction with spermicidal cream, total abstinence or surgical sterilization, during treatment with the study drugs and for 6 months following the end of treatment.",
+          "contraceptive use."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Menopausal status",
+        "Estrogen Receptor",
+        "Progesterone Receptor",
+        "Administration route at registration",
+        "Visceral metastases at registration",
+        "Skin/soft tissue/lymph nodes metastases at registration",
+        "Median of prior treatment lines at registration",
+        "Prior treatment lines at registration"
+      ],
+      "remaining_candidate_features": [
+        "liver function",
+        "kidney function",
+        "history of other malignancies",
+        "hypersensitivity to trastuzumab",
+        "dyspnea status",
+        "heart disease history"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, HER2 status, Previous treatments, Performance status (ECOG), Cardiac function (LVEF), Bone marrow function, Liver function, Kidney function, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status",
+          "Performance status (ECOG)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Menopausal status",
+        "Estrogen Receptor",
+        "Progesterone Receptor",
+        "Time with IV trastuzumab for metastasis at registration",
+        "Treatment/s combined with IV-trastuzumab at registration",
+        "Other anti Human Epidermal growth factor Receptor 2 (HER-2) therapy at registration",
+        "Administration route at registration",
+        "Metastases 1 at diagnosis",
+        "Visceral metastases at registration",
+        "Bone metastases at registration",
+        "Skin/soft tissue/lymph nodes metastases at registration",
+        "Median of prior treatment lines at registration",
+        "Prior treatment lines at registration"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "HER2 status",
+        "Previous treatments",
+        "Cardiac function (LVEF)",
+        "Bone marrow function",
+        "Liver function",
+        "Kidney function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Region of Enrollment, Performance Status (ECOG), HER2 Status, Breast Cancer Stage, Previous Trastuzumab Treatment, Previous Chemotherapy Treatment, Previous Hormonal Therapy Treatment, LVEF, Cardiac Function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status",
+          "Performance Status (ECOG)"
+        ],
+        [
+          "Time with IV trastuzumab for metastasis at registration",
+          "Previous Trastuzumab Treatment"
+        ],
+        [
+          "Treatment/s combined with IV-trastuzumab at registration",
+          "Previous Chemotherapy Treatment"
+        ],
+        [
+          "Other anti Human Epidermal growth factor Receptor 2 (HER-2) therapy at registration",
+          "Previous Hormonal Therapy Treatment"
+        ],
+        [
+          "Proper cardiac function (LVEF within normal limits the center, measured by echocardiography or MUGA)",
+          "LVEF"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Menopausal status",
+        "Estrogen Receptor",
+        "Progesterone Receptor",
+        "Administration route at registration",
+        "Metastases 1 at diagnosis",
+        "Visceral metastases at registration",
+        "Bone metastases at registration",
+        "Skin/soft tissue/lymph nodes metastases at registration",
+        "Median of prior treatment lines at registration",
+        "Prior treatment lines at registration"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "HER2 Status",
+        "Breast Cancer Stage",
+        "Cardiac Function."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, HER2 status, breast cancer stage, prior chemotherapy or hormonal therapy, time since diagnosis, time since last progression, LVEF, cardiac history, comorbidities, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) performance status",
+          "ECOG performance status"
+        ],
+        [
+          "Time with IV trastuzumab for metastasis at registration",
+          "time since diagnosis"
+        ],
+        [
+          "Treatment/s combined with IV-trastuzumab at registration",
+          "prior chemotherapy or hormonal therapy"
+        ],
+        [
+          "Proper cardiac function (LVEF within normal limits the center, measured by echocardiography or MUGA)",
+          "LVEF"
+        ],
+        [
+          "Heart disease or serious medical pathological prevent trastuzumab administration: documented history of congestive cardiac insufficiency (CCI), high-risk arrhythmias uncontrolled angina requiring medication, clinically significant valvular disease, history of myocardial infarction or evidence of transmural infarction on ECG or hypertension poorly controlled",
+          "cardiac history"
+        ],
+        [
+          "Presence of any concomitant serious systemic disease that is incompatible with the study (at the discretion of the investigator)",
+          "comorbidities"
+        ],
+        [
+          "Concomitant administration, or in the 4 weeks prior to study entry, of other experimental treatment",
+          "concomitant medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Menopausal status",
+        "Estrogen Receptor",
+        "Progesterone Receptor",
+        "Other anti Human Epidermal growth factor Receptor 2 (HER-2) therapy at registration",
+        "Administration route at registration",
+        "Metastases 1 at diagnosis",
+        "Visceral metastases at registration",
+        "Bone metastases at registration",
+        "Skin/soft tissue/lymph nodes metastases at registration",
+        "Median of prior treatment lines at registration",
+        "Prior treatment lines at registration"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "HER2 status",
+        "breast cancer stage",
+        "time since last progression"
+      ]
+    }
+  }
+}

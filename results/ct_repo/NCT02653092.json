@@ -1,0 +1,193 @@
+{
+  "trial_id": "NCT02653092",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Body Mass Index (BMI), Menstrual cycle regularity, Prolactin levels, Thyroid stimulating hormone levels, Hemoglobin A1c, Hemoglobin levels, Dietary fat intake, Fasting triglycerides levels, Use of contraception, History of chronic disease affecting hormone production, metabolism, or clearance, Use of medications known to alter or interact with reproductive hormones or insulin metabolism, Use of reproductive hormones within 3 months of enrollment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Hormones",
+          "Prolactin levels"
+        ],
+        [
+          "Hormones",
+          "Thyroid stimulating hormone levels"
+        ],
+        [
+          "Hormones",
+          "Hemoglobin A1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Menstrual cycle regularity",
+        "Hemoglobin levels",
+        "Dietary fat intake",
+        "Fasting triglycerides levels",
+        "Use of contraception",
+        "History of chronic disease affecting hormone production",
+        "metabolism",
+        "or clearance",
+        "Use of medications known to alter or interact with reproductive hormones or insulin metabolism",
+        "Use of reproductive hormones within 3 months of enrollment."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Menstrual Cycle Regularity, Prolactin Levels, Thyroid Stimulating Hormone Levels, Hemoglobin A1c, Fasting Triglycerides, Dietary Fat Intake,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Hormones",
+          "Prolactin Levels"
+        ],
+        [
+          "Hormones",
+          "Thyroid Stimulating Hormone Levels"
+        ],
+        [
+          "Hormones",
+          "Hemoglobin A1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Menstrual Cycle Regularity",
+        "Fasting Triglycerides",
+        "Dietary Fat Intake"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, BMI, Region of Enrollment, Menstrual cycle regularity, Hemoglobin A1c, Fasting triglycerides, Dietary fat consumption, History of chronic disease, Use of reproductive hormones, Prolactin levels, Thyroid stimulating hormone levels, Hemoglobin levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Hormones"
+      ],
+      "remaining_candidate_features": [
+        "Menstrual cycle regularity",
+        "Hemoglobin A1c",
+        "Fasting triglycerides",
+        "Dietary fat consumption",
+        "History of chronic disease",
+        "Use of reproductive hormones",
+        "Prolactin levels",
+        "Thyroid stimulating hormone levels",
+        "Hemoglobin levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), weight, height, body fat percentage, waist circumference, hip circumference, blood pressure, heart rate, fasting glucose, hemoglobin A1c, fasting insulin, lipid profile (triglycerides, total cholesterol, HDL, LDL), prolactin, thyroid stimulating hormone, menstrual cycle characteristics (length, regularity), reproductive hormone levels (LH, FSH, estradiol, progesterone), dietary habits (calorie intake, macronutrient composition), physical activity level, medical history (chronic diseases, medications), smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Hormones",
+          "reproductive hormone levels (LH, FSH, estradiol, progesterone)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body fat percentage",
+        "waist circumference",
+        "hip circumference",
+        "blood pressure",
+        "heart rate",
+        "fasting glucose",
+        "hemoglobin A1c",
+        "fasting insulin",
+        "lipid profile (triglycerides, total cholesterol, HDL, LDL)",
+        "prolactin",
+        "thyroid stimulating hormone",
+        "menstrual cycle characteristics (length, regularity)",
+        "dietary habits (calorie intake, macronutrient composition)",
+        "physical activity level",
+        "medical history (chronic diseases, medications)",
+        "smoking status",
+        "alcohol consumption"
+      ]
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "trial_id": "NCT04374500",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, Body Mass Index (BMI), Blood Pressure, Smoking Status, Medication Use, Alcohol Consumption, Caffeine Consumption, Coronary Artery Disease Status, Angina Pectoris Status, Coronary Stenosis, Ejection Fraction, Renal Function (Creatinine Levels)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Male",
+          "Sex"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Blood Pressure"
+        ],
+        [
+          "Leptin",
+          "Leptin"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Age",
+        "Sex: Female",
+        "tPA antigen",
+        "Heart rate"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Body Mass Index (BMI)",
+        "Smoking Status",
+        "Medication Use",
+        "Alcohol Consumption",
+        "Caffeine Consumption",
+        "Coronary Artery Disease Status",
+        "Angina Pectoris Status",
+        "Coronary Stenosis",
+        "Ejection Fraction",
+        "Renal Function (Creatinine Levels)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Body Mass Index, Smoking Status, Alcohol Consumption, Medication Use, Systolic Blood Pressure, Diastolic Blood Pressure, Endogenous Leptin Levels, Coronary Artery Disease Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Leptin",
+          "Endogenous Leptin Levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Region of Enrollment",
+        "tPA antigen",
+        "Heart rate"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Smoking Status",
+        "Alcohol Consumption",
+        "Medication Use",
+        "Diastolic Blood Pressure",
+        "Coronary Artery Disease Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Smoking Status, History of Cardiovascular Disease, Leptin Levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Leptin",
+          "Leptin Levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Region of Enrollment",
+        "tPA antigen",
+        "Heart rate"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Diastolic Blood Pressure",
+        "Smoking Status",
+        "History of Cardiovascular Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medication use, history of coronary artery disease, history of diabetes mellitus, creatinine level, ejection fraction, New York Heart Association (NYHA) class.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "sex"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Heart rate",
+          "heart rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Region of Enrollment",
+        "tPA antigen",
+        "Leptin"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "diastolic blood pressure",
+        "smoking status",
+        "medication use",
+        "history of coronary artery disease",
+        "history of diabetes mellitus",
+        "creatinine level",
+        "ejection fraction",
+        "New York Heart Association (NYHA) class."
+      ]
+    }
+  }
+}

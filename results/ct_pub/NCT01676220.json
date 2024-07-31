@@ -1,0 +1,203 @@
+{
+  "trial_id": "NCT01676220",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 2 diabetes mellitus, baseline HbA1c, body mass index (BMI), concomitant non-insulin antihyperglycemic medications, history of nocturnal hypoglycemia, blood pressure, lipid profile, renal function (e.g., serum creatinine), liver function tests (e.g., ALT, AST), fasting plasma glucose, race/ethnicity, smoking status, physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "gender"
+        ],
+        [
+          "Racial Group",
+          "race/ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes mellitus"
+        ],
+        [
+          "HbA1c",
+          "baseline HbA1c"
+        ],
+        [
+          "Concomitant antihyperglycaemic medication use",
+          "concomitant non-insulin antihyperglycemic medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight",
+        "Estimagted GFR",
+        "Duration of Basal Insulin",
+        "Prior Basal Insulin Dose"
+      ],
+      "remaining_candidate_features": [
+        "history of nocturnal hypoglycemia",
+        "blood pressure",
+        "lipid profile",
+        "renal function (e.g., serum creatinine)",
+        "liver function tests (e.g., ALT, AST)",
+        "fasting plasma glucose",
+        "smoking status",
+        "physical activity level"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Duration of diabetes, HbA1c, BMI, Weight, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting plasma glucose, Non-insulin antihyperglycemic drugs, History of diabetic retinopathy, Smoking status, Cholesterol, Triglycerides, Serum creatinine",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "Racial Group",
+          "Race"
+        ],
+        [
+          "Body Weight",
+          "Weight"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of diabetes"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Concomitant antihyperglycaemic medication use",
+          "Non-insulin antihyperglycemic drugs"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Estimagted GFR",
+        "Duration of Basal Insulin",
+        "Prior Basal Insulin Dose"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting plasma glucose",
+        "History of diabetic retinopathy",
+        "Smoking status",
+        "Cholesterol",
+        "Triglycerides",
+        "Serum creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, Diabetes duration, BMI, HbA1c, Non-insulin antidiabetic therapy, History of hypoglycemia, History of cardiovascular disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "Racial Group",
+          "Ethnic Origin"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes duration"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Concomitant antihyperglycaemic medication use",
+          "Non-insulin antidiabetic therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight",
+        "Estimagted GFR",
+        "Duration of Basal Insulin",
+        "Prior Basal Insulin Dose"
+      ],
+      "remaining_candidate_features": [
+        "History of hypoglycemia",
+        "History of cardiovascular disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at baseline, fasting plasma glucose at baseline, systolic blood pressure at baseline, diastolic blood pressure at baseline, non-insulin antidiabetic therapy at baseline, history of hypertension, history of cardiovascular disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "Racial Group",
+          "race"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "HbA1c",
+          "HbA1c at baseline"
+        ],
+        [
+          "Concomitant antihyperglycaemic medication use",
+          "non-insulin antidiabetic therapy at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight",
+        "Estimagted GFR",
+        "Duration of Basal Insulin",
+        "Prior Basal Insulin Dose"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "fasting plasma glucose at baseline",
+        "systolic blood pressure at baseline",
+        "diastolic blood pressure at baseline",
+        "history of hypertension",
+        "history of cardiovascular disease."
+      ]
+    }
+  }
+}

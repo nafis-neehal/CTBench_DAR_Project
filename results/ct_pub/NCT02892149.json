@@ -1,0 +1,204 @@
+{
+  "trial_id": "NCT02892149",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, duration of dialysis, type of dialysis (peritoneal or hemodialysis), baseline hemoglobin levels, serum ferritin levels, transferrin saturation (TSAT), baseline blood pressure, history of cardiovascular events, baseline erythropoiesis-stimulating agent dose, baseline kidney function, comorbid conditions (e.g., diabetes, hypertension), body mass index (BMI), baseline medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Time since Dialysis started",
+          "duration of dialysis"
+        ],
+        [
+          "Type of dialysis",
+          "type of dialysis (peritoneal or hemodialysis)"
+        ],
+        [
+          "Hemoglobin",
+          "baseline hemoglobin levels"
+        ],
+        [
+          "Cardiovascular Disease",
+          "history of cardiovascular events"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "serum ferritin levels",
+        "transferrin saturation (TSAT)",
+        "baseline blood pressure",
+        "baseline erythropoiesis-stimulating agent dose",
+        "baseline kidney function",
+        "comorbid conditions (e.g., diabetes, hypertension)",
+        "body mass index (BMI)",
+        "baseline medication use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Duration of dialysis, Type of dialysis (peritoneal or hemodialysis), Baseline hemoglobin, Serum ferritin, Transferrin saturation (TSAT), Blood pressure, History of cardiovascular disease, Erythropoiesis-stimulating agent dose, Concomitant medications, Body mass index (BMI), Serum creatinine, Serum albumin, Parathyroid hormone (PTH) levels, Iron supplementation status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Time since Dialysis started",
+          "Duration of dialysis"
+        ],
+        [
+          "Type of dialysis",
+          "Type of dialysis (peritoneal or hemodialysis)"
+        ],
+        [
+          "Cardiovascular Disease",
+          "History of cardiovascular disease"
+        ],
+        [
+          "Hemoglobin",
+          "Baseline hemoglobin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Serum ferritin",
+        "Transferrin saturation (TSAT)",
+        "Blood pressure",
+        "Erythropoiesis-stimulating agent dose",
+        "Concomitant medications",
+        "Body mass index (BMI)",
+        "Serum creatinine",
+        "Serum albumin",
+        "Parathyroid hormone (PTH) levels",
+        "Iron supplementation status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Race, Ethnicity, Body Mass Index (BMI), Dialysis type, Dialysis duration, Hemoglobin, Ferritin, Transferrin saturation (TSAT), Erythropoiesis-stimulating agent (ESA) dose, ESA type, Comorbidities (e.g. hypertension, heart failure, coronary artery disease), Medications (e.g. antihypertensives, antiplatelet agents).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Ethnicity",
+          "Ethnicity"
+        ],
+        [
+          "Time since Dialysis started",
+          "Dialysis duration"
+        ],
+        [
+          "Type of dialysis",
+          "Dialysis type"
+        ],
+        [
+          "Hemoglobin",
+          "Hemoglobin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diabetes",
+        "Cardiovascular Disease"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index (BMI)",
+        "Ferritin",
+        "Transferrin saturation (TSAT)",
+        "Erythropoiesis-stimulating agent (ESA) dose",
+        "ESA type",
+        "Comorbidities (e.g. hypertension, heart failure, coronary artery disease)",
+        "Medications (e.g. antihypertensives, antiplatelet agents)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of dialysis, type of dialysis (peritoneal or hemodialysis), duration of erythropoiesis-stimulating agent therapy, hemoglobin level, serum ferritin level, transferrin saturation (TSAT), systolic and diastolic blood pressure, New York Heart Association (NYHA) class, history of cardiovascular disease, history of heart failure, history of stroke or transient ischemic attack.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Time since Dialysis started",
+          "duration of dialysis"
+        ],
+        [
+          "Type of dialysis",
+          "type of dialysis (peritoneal or hemodialysis)"
+        ],
+        [
+          "Cardiovascular Disease",
+          "history of cardiovascular disease"
+        ],
+        [
+          "Hemoglobin",
+          "hemoglobin level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of erythropoiesis-stimulating agent therapy",
+        "serum ferritin level",
+        "transferrin saturation (TSAT)",
+        "systolic and diastolic blood pressure",
+        "New York Heart Association (NYHA) class",
+        "history of heart failure",
+        "history of stroke or transient ischemic attack."
+      ]
+    }
+  }
+}

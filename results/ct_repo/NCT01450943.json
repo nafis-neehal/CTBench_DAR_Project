@@ -1,0 +1,177 @@
+{
+  "trial_id": "NCT01450943",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, HbA1c level, Ankle-Brachial Pressure Index (ABPI) / Ankle-Arm Index (AAI), duration of diabetes, duration of ulcer, ulcer size, presence of non-target ulcers, presence of infection, pregnancy status, lactation status, nutritional status (albumin level), serum creatinine level, liver function tests (LFTs), history of drug use, history of alcohol use, history of cancer, history of HIV/AIDS, history of bleeding disorders, history of connective tissue diseases, history of Charcot foot, history of exposure to Dermagraft or Oasis, porcine allergy, cow product allergy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "pregnancy status"
+        ],
+        [
+          "Sex: Female",
+          "lactation status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "BMI"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "HbA1c level",
+        "Ankle-Brachial Pressure Index (ABPI) / Ankle-Arm Index (AAI)",
+        "duration of diabetes",
+        "duration of ulcer",
+        "ulcer size",
+        "presence of non-target ulcers",
+        "presence of infection",
+        "nutritional status (albumin level)",
+        "serum creatinine level",
+        "liver function tests (LFTs)",
+        "history of drug use",
+        "history of alcohol use",
+        "history of cancer",
+        "history of HIV/AIDS",
+        "history of bleeding disorders",
+        "history of connective tissue diseases",
+        "history of Charcot foot",
+        "history of exposure to Dermagraft or Oasis",
+        "porcine allergy",
+        "cow product allergy"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Duration of Diabetes, HbA1c, Ankle-Brachial Pressure Index (ABPI), Ulcer Size, Ulcer Duration,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "HbA1c",
+        "Ankle-Brachial Pressure Index (ABPI)",
+        "Ulcer Size",
+        "Ulcer Duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Ankle-Brachial Pressure Index (ABPI) / Ankle-Arm Index (AAI), Ulcer Size, Ulcer Duration, Body Mass Index, Albumin Level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Diabetes Diagnosis Duration",
+        "HbA1c",
+        "Ankle-Brachial Pressure Index (ABPI) / Ankle-Arm Index (AAI)",
+        "Ulcer Size",
+        "Ulcer Duration",
+        "Albumin Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), diabetes type (Type 1 or Type 2), HbA1c, Ankle-Brachial Pressure Index (ABPI)/Ankle-Arm Index (AAI), toe-arm index, ulcer size, ulcer duration, ulcer location, presence of comorbidities (e.g., hypertension, cardiovascular disease, peripheral artery disease), smoking status, albumin level, serum creatinine, liver function tests (LFTs).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "diabetes type (Type 1 or Type 2)",
+        "HbA1c",
+        "Ankle-Brachial Pressure Index (ABPI)/Ankle-Arm Index (AAI)",
+        "toe-arm index",
+        "ulcer size",
+        "ulcer duration",
+        "ulcer location",
+        "presence of comorbidities (e.g., hypertension, cardiovascular disease, peripheral artery disease)",
+        "smoking status",
+        "albumin level",
+        "serum creatinine",
+        "liver function tests (LFTs)"
+      ]
+    }
+  }
+}

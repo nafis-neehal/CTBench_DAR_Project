@@ -1,0 +1,173 @@
+{
+  "trial_id": "NCT04724291",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, upper GI symptoms (epigastric pain/burning, bloating, heart-burn, excessive belching, nausea/vomiting, anemia, weight loss), indication for EGD (unexplained anemia, hematemesis, upper abdominal or chest pain, dyspepsia, GERD, suspected ulcers, unexplained weight loss, gastric biopsy), ability to speak English, ability to understand and sign consent form, ability to undergo standard outpatient endoscopy, ASA status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "BMI is greater than or equal to 38",
+          "BMI"
+        ],
+        [
+          "Reasons for EGD Referral",
+          "indication for EGD (unexplained anemia, hematemesis, upper abdominal or chest pain, dyspepsia, GERD, suspected ulcers, unexplained weight loss, gastric biopsy)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Medical History",
+        "Medications"
+      ],
+      "remaining_candidate_features": [
+        "upper GI symptoms (epigastric pain/burning, bloating, heart-burn, excessive belching, nausea, vomiting, anemia, weight loss)",
+        "ability to speak English",
+        "ability to understand and sign consent form",
+        "ability to undergo standard outpatient endoscopy",
+        "ASA status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, BMI, Upper GI Symptoms, Indication for EGD,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Reasons for EGD Referral",
+          "Indication for EGD"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Medical History",
+        "Medications"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Upper GI Symptoms"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Indication for Upper Endoscopy, Upper GI Symptoms, ASA Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Reasons for EGD Referral",
+          "Indication for Upper Endoscopy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Medical History",
+        "Medications"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Upper GI Symptoms",
+        "ASA Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), American Society of Anesthesiologists (ASA) status, presence of comorbidities (e.g., diabetes, hypertension, cardiovascular disease), smoking status, alcohol consumption, history of gastrointestinal surgery, history of gastrointestinal disease (e.g., gastritis, gastric ulcer, gastric cancer), symptoms (e.g., epigastric pain, bloating, heartburn, nausea, vomiting), indication for EGD, use of medications (e.g., antacids, sucralfate, Maalox), presence of anemia, presence of hematemesis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Medical History",
+          "presence of comorbidities (e.g., diabetes, hypertension, cardiovascular disease)"
+        ],
+        [
+          "Medications",
+          "use of medications (e.g., antacids, sucralfate, Maalox)"
+        ],
+        [
+          "Reasons for EGD Referral",
+          "indication for EGD"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "American Society of Anesthesiologists (ASA) status",
+        "smoking status",
+        "alcohol consumption",
+        "history of gastrointestinal surgery",
+        "history of gastrointestinal disease (e.g., gastritis, gastric ulcer, gastric cancer)",
+        "symptoms (e.g., epigastric pain, bloating, heartburn, nausea, vomiting)",
+        "presence of anemia",
+        "presence of hematemesis"
+      ]
+    }
+  }
+}

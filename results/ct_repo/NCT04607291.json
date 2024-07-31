@@ -1,0 +1,171 @@
+{
+  "trial_id": "NCT04607291",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, insurance status, previous colorectal cancer screening history, socioeconomic status, education level, race/ethnicity, health literacy, access to healthcare services, comorbidities, family history of colorectal cancer, employment status, marital status, geographic location.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Insurance Status",
+          "insurance status"
+        ],
+        [
+          "Screening Eligibility",
+          "previous colorectal cancer screening history"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "geographic location"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "socioeconomic status",
+        "education level",
+        "health literacy",
+        "access to healthcare services",
+        "comorbidities",
+        "family history of colorectal cancer",
+        "employment status",
+        "marital status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Insurance Status, Previous Colorectal Cancer Screening, Socioeconomic Status, Region of Enrollment, Access to Healthcare Services,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Insurance Status",
+          "Insurance Status"
+        ],
+        [
+          "Screening Eligibility",
+          "Previous Colorectal Cancer Screening"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Socioeconomic Status",
+        "Access to Healthcare Services"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Insurance Status, Primary Care Practice, History of Colorectal Cancer Screening, Family History of Colorectal Cancer, Body Mass Index, Comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Insurance Status",
+          "Insurance Status"
+        ],
+        [
+          "Screening Eligibility",
+          "History of Colorectal Cancer Screening"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Primary Care Practice",
+        "Family History of Colorectal Cancer",
+        "Body Mass Index",
+        "Comorbidities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, insurance status (Medicaid, Medicaid/Medicare, uninsured), primary care practice, gaps in care clients, CRC screening history, CRC risk status, symptoms of CRC, prescription for CRC screening, colonoscopy history, fecal test history, polyp history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Insurance Status",
+          "insurance status (Medicaid, Medicaid/Medicare, uninsured)"
+        ],
+        [
+          "Screening Eligibility",
+          "CRC screening history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "primary care practice",
+        "gaps in care clients",
+        "CRC risk status",
+        "symptoms of CRC",
+        "prescription for CRC screening",
+        "colonoscopy history",
+        "fecal test history",
+        "polyp history"
+      ]
+    }
+  }
+}

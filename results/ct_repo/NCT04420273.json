@@ -1,0 +1,147 @@
+{
+  "trial_id": "NCT04420273",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, vision status, language proficiency, recent screening mammogram history, self-perception of melanoma risk, willingness to perform SSE, willingness to complete monthly surveys, home internet access, phone capability, access to mailing services, willingness to share electronic health records, contact information.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "skin type",
+          "self-perception of melanoma risk"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "vision status",
+        "language proficiency",
+        "recent screening mammogram history",
+        "willingness to perform SSE",
+        "willingness to complete monthly surveys",
+        "home internet access",
+        "phone capability",
+        "access to mailing services",
+        "willingness to share electronic health records",
+        "contact information"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Vision status, Internet access, Self-perception of melanoma risk, Willingness to perform SSE, Willingness to complete monthly surveys, Willingness to provide contact information,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "skin type"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Vision status",
+        "Internet access",
+        "Self-perception of melanoma risk",
+        "Willingness to perform SSE",
+        "Willingness to complete monthly surveys",
+        "Willingness to provide contact information"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, History of Mammogram, Self-perceived Melanoma Risk, Ability to Read English, Vision, Access to Internet and Mobile Phone, Access to Federal Express or US Postal Service Express Mail.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "skin type"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "History of Mammogram",
+        "Self-perceived Melanoma Risk",
+        "Ability to Read English",
+        "Vision",
+        "Access to Internet and Mobile Phone",
+        "Access to Federal Express or US Postal Service Express Mail."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, marital status, occupation, history of melanoma, family history of melanoma, history of skin cancer, history of screening mammogram, self-perceived melanoma risk, ability to read English, vision, access to internet and phone, access to Federal Express or US Postal Service Express Mail.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "skin type"
+      ],
+      "remaining_candidate_features": [
+        "education level",
+        "marital status",
+        "occupation",
+        "history of melanoma",
+        "family history of melanoma",
+        "history of skin cancer",
+        "history of screening mammogram",
+        "self-perceived melanoma risk",
+        "ability to read English",
+        "vision",
+        "access to internet and phone",
+        "access to Federal Express or US Postal Service Express Mail."
+      ]
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "trial_id": "NCT02582814",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, HbA1c, Total daily insulin dose, Method of insulin administration (MDI or CSII), Duration of insulin use, C-peptide levels, eGFR, Hemoglobin levels, AST levels, ALT levels, Serum total bilirubin, Hepatitis B surface antigen status, Anti-hepatitis C virus antibody status, Free T4 levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "C-peptide",
+          "C-peptide levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Duration of T1DM"
+      ],
+      "remaining_candidate_features": [
+        "Total daily insulin dose",
+        "Method of insulin administration (MDI or CSII)",
+        "Duration of insulin use",
+        "eGFR",
+        "Hemoglobin levels",
+        "AST levels",
+        "ALT levels",
+        "Serum total bilirubin",
+        "Hepatitis B surface antigen status",
+        "Anti-hepatitis C virus antibody status",
+        "Free T4 levels"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Total Daily Insulin Dose, Duration of Diabetes, eGFR, Systolic Blood Pressure, Diastolic Blood Pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Duration of T1DM",
+        "C-peptide"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Total Daily Insulin Dose",
+        "Duration of Diabetes",
+        "eGFR",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Insulin Dose, HbA1c, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, Hemoglobin, AST, ALT, Serum Total Bilirubin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "C-peptide",
+          "C-peptide"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Duration of T1DM"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diabetes Diagnosis Duration",
+        "Insulin Dose",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "eGFR",
+        "Hemoglobin",
+        "AST",
+        "ALT",
+        "Serum Total Bilirubin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, HbA1c, total daily insulin dose, C-peptide, method of insulin administration, duration of insulin use, duration of T1DM, history of DKA, history of hospital admission for glycemic control, history of malignancy, AST, ALT, serum total bilirubin, eGFR, hemoglobin, presence of hepatitis B surface antigen or anti-hepatitis C virus antibody, free T4.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "C-peptide",
+          "C-peptide"
+        ],
+        [
+          "Duration of T1DM",
+          "duration of T1DM"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "total daily insulin dose",
+        "method of insulin administration",
+        "duration of insulin use",
+        "history of DKA",
+        "history of hospital admission for glycemic control",
+        "history of malignancy",
+        "AST",
+        "ALT",
+        "serum total bilirubin",
+        "eGFR",
+        "hemoglobin",
+        "presence of hepatitis B surface antigen or anti-hepatitis C virus antibody",
+        "free T4"
+      ]
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "trial_id": "NCT02342639",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, baseline eGFR, baseline serum TMAO levels, baseline urine TMAO levels, baseline inflammatory markers, medical history, medication use, body mass index (BMI), dietary habits, smoking status, alcohol consumption, baseline stool bacterial content.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "Race",
+          "race/ethnicity"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "eGFR",
+          "baseline eGFR"
+        ],
+        [
+          "Trimethylamine N-oxide",
+          "baseline serum TMAO levels"
+        ],
+        [
+          "C-reactive protein",
+          "baseline inflammatory markers"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diabetes (type 1/2)",
+        "Etiology of CKD",
+        "P-cresol sulfate",
+        "Indoxyl sulfate",
+        "Kynurenic acid",
+        "Deoxycholic acid",
+        "IL-6",
+        "Proteinuria"
+      ],
+      "remaining_candidate_features": [
+        "baseline urine TMAO levels",
+        "medical history",
+        "medication use",
+        "dietary habits",
+        "smoking status",
+        "alcohol consumption",
+        "baseline stool bacterial content."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, eGFR, BMI, Blood pressure, Serum creatinine, History of infections, Medication use, History of liver disease, History of pancreatic insufficiency, History of inflammatory bowel disease, History of C-diff infection, Bowel structure abnormalities, Organ transplant history, Dialysis status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diabetes (type 1/2)",
+        "Etiology of CKD",
+        "Trimethylamine N-oxide",
+        "P-cresol sulfate",
+        "Indoxyl sulfate",
+        "Kynurenic acid",
+        "Deoxycholic acid",
+        "C-reactive protein",
+        "IL-6",
+        "Proteinuria"
+      ],
+      "remaining_candidate_features": [
+        "Blood pressure",
+        "Serum creatinine",
+        "History of infections",
+        "Medication use",
+        "History of liver disease",
+        "History of pancreatic insufficiency",
+        "History of inflammatory bowel disease",
+        "History of C-diff infection",
+        "Bowel structure abnormalities",
+        "Organ transplant history",
+        "Dialysis status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, BMI, eGFR, Diabetes, Hypertension, History of CVD, Smoking history, Medications, Serum creatinine, Albuminuria, Hemoglobin, Inflammatory markers.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Diabetes (type 1/2)",
+          "Diabetes"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ],
+        [
+          "C-reactive protein",
+          "Inflammatory markers"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Etiology of CKD",
+        "Trimethylamine N-oxide",
+        "P-cresol sulfate",
+        "Indoxyl sulfate",
+        "Kynurenic acid",
+        "Deoxycholic acid",
+        "IL-6",
+        "Proteinuria"
+      ],
+      "remaining_candidate_features": [
+        "Ethnic Origin",
+        "Hypertension",
+        "History of CVD",
+        "Smoking history",
+        "Medications",
+        "Serum creatinine",
+        "Albuminuria",
+        "Hemoglobin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), eGFR, serum creatinine, blood urea nitrogen (BUN), hemoglobin, albumin, systolic and diastolic blood pressure, medical history (e.g., diabetes, hypertension, cardiovascular disease), current medications, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Diabetes (type 1/2)",
+          "medical history (e.g., diabetes, hypertension, cardiovascular disease)"
+        ],
+        [
+          "eGFR",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Etiology of CKD",
+        "Trimethylamine N-oxide",
+        "P-cresol sulfate",
+        "Indoxyl sulfate",
+        "Kynurenic acid",
+        "Deoxycholic acid",
+        "C-reactive protein",
+        "IL-6",
+        "Proteinuria"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "serum creatinine",
+        "blood urea nitrogen (BUN)",
+        "hemoglobin",
+        "albumin",
+        "systolic and diastolic blood pressure",
+        "current medications",
+        "smoking status"
+      ]
+    }
+  }
+}

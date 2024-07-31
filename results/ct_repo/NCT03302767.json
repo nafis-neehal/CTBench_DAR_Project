@@ -1,0 +1,160 @@
+{
+  "trial_id": "NCT03302767",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Type of Cancer, Stage of Cancer, Treatment Type (chemotherapy, radiotherapy, immunotherapy), Employment Status at Diagnosis, Duration of Treatment, Socioeconomic Status, Marital Status, Education Level, Living Situation, Baseline Quality of Life Scores, Baseline Cognitive Function Scores, Baseline Professional Recovery Scores.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Marital Status",
+          "Marital Status"
+        ],
+        [
+          "PROFESSIONAL STATUS",
+          "Employment Status at Diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "SOCIO-PROFESSIONAL CATEGORY"
+      ],
+      "remaining_candidate_features": [
+        "Type of Cancer",
+        "Stage of Cancer",
+        "Treatment Type (chemotherapy, radiotherapy, immunotherapy)",
+        "Duration of Treatment",
+        "Socioeconomic Status",
+        "Education Level",
+        "Living Situation",
+        "Baseline Quality of Life Scores",
+        "Baseline Cognitive Function Scores",
+        "Baseline Professional Recovery Scores."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Type of Cancer, Treatment Type, Professional Activity Status, Quality of Life Baseline Score, Cognitive Complaints Baseline Score, Professional Recovery Baseline Score, Region of Enrollment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "PROFESSIONAL STATUS",
+          "Professional Activity Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Marital Status",
+        "SOCIO-PROFESSIONAL CATEGORY"
+      ],
+      "remaining_candidate_features": [
+        "Type of Cancer",
+        "Treatment Type",
+        "Quality of Life Baseline Score",
+        "Cognitive Complaints Baseline Score",
+        "Professional Recovery Baseline Score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Cancer Diagnosis, Professional Activity at Diagnosis, Type of Cancer, Treatment Type, Time Since Diagnosis, Quality of Life Scores, Cognitive Complaints Scores, Professional Recovery Scale Scores",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "PROFESSIONAL STATUS",
+          "Professional Activity at Diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Marital Status",
+        "SOCIO-PROFESSIONAL CATEGORY"
+      ],
+      "remaining_candidate_features": [
+        "Cancer Diagnosis",
+        "Type of Cancer",
+        "Treatment Type",
+        "Time Since Diagnosis",
+        "Quality of Life Scores",
+        "Cognitive Complaints Scores",
+        "Professional Recovery Scale Scores"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, cancer type, time since diagnosis, treatment type, employment status at diagnosis, education level, marital status, living situation, number of dependents, comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Marital Status",
+          "marital status"
+        ],
+        [
+          "PROFESSIONAL STATUS",
+          "employment status at diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "SOCIO-PROFESSIONAL CATEGORY"
+      ],
+      "remaining_candidate_features": [
+        "cancer type",
+        "time since diagnosis",
+        "treatment type",
+        "education level",
+        "living situation",
+        "number of dependents",
+        "comorbidities"
+      ]
+    }
+  }
+}

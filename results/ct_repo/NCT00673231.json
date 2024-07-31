@@ -1,0 +1,155 @@
+{
+  "trial_id": "NCT00673231",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline HbA1c levels, duration of diabetes, body mass index (BMI), insulin dose, concomitant oral antidiabetic drugs, renal function (e.g., eGFR), blood pressure, lipid profile (e.g., LDL, HDL, triglycerides), race/ethnicity, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "HbA1C",
+          "baseline HbA1c levels"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Fasting plasma glucose"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "duration of diabetes",
+        "insulin dose",
+        "concomitant oral antidiabetic drugs",
+        "renal function (e.g., eGFR)",
+        "blood pressure",
+        "lipid profile (e.g., LDL, HDL, triglycerides)",
+        "smoking status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Body Mass Index, Renal Function (eGFR),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1C",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Fasting plasma glucose"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Region of Enrollment",
+        "Duration of Diabetes",
+        "Daily Insulin Dose",
+        "Renal Function (eGFR)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, Insulin dose, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1C",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Fasting plasma glucose"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Region of Enrollment",
+        "Diabetes duration",
+        "Insulin dose",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c level, fasting plasma glucose level, insulin dose, type of insulin, oral antidiabetic drug use, systolic blood pressure, diastolic blood pressure, history of cardiovascular disease, history of renal disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1C",
+          "HbA1c level"
+        ],
+        [
+          "Fasting plasma glucose",
+          "fasting plasma glucose level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "ethnicity",
+        "duration of type 2 diabetes",
+        "insulin dose",
+        "type of insulin",
+        "oral antidiabetic drug use",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "history of cardiovascular disease",
+        "history of renal disease"
+      ]
+    }
+  }
+}

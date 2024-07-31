@@ -1,0 +1,148 @@
+{
+  "trial_id": "NCT00417079",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race/ethnicity, ECOG performance status, prior Taxotere\u00ae dose, prior treatments (surgery, radiation, chemotherapy), PSA levels, presence of visceral or soft tissue metastatic lesions, life expectancy, organ function (laboratory results), history of other malignancies, concurrent medical conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Prostatic Specific Antigen PSA",
+          "PSA levels"
+        ],
+        [
+          "Measurable disease",
+          "presence of visceral or soft tissue metastatic lesions"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Region of Enrollment",
+        "Extent of disease",
+        "Tumor Location: number of sites involved"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "sex",
+        "race/ethnicity",
+        "prior Taxotere\u00ae dose",
+        "prior treatments (surgery, radiation, chemotherapy)",
+        "life expectancy",
+        "organ function (laboratory results)",
+        "history of other malignancies",
+        "concurrent medical conditions."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, PSA levels, Previous Taxotere treatment, Extent of disease progression, Prior radiotherapy, Life expectancy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex/Gender",
+          "Sex: Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Prostatic Specific Antigen PSA",
+          "PSA levels"
+        ],
+        [
+          "Extent of disease",
+          "Extent of disease progression"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Measurable disease",
+        "Tumor Location: number of sites involved"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Previous Taxotere treatment",
+        "Prior radiotherapy",
+        "Life expectancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, ECOG Performance Status, Prior Taxotere-containing regimen, Prior hormone therapy, PSA level, Number of metastatic lesions, Life expectancy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex/Gender",
+          "Sex: Male"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Prostatic Specific Antigen PSA",
+          "PSA level"
+        ],
+        [
+          "Measurable disease",
+          "Number of metastatic lesions"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Extent of disease",
+        "Tumor Location: number of sites involved"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Prior Taxotere-containing regimen",
+        "Prior hormone therapy",
+        "Life expectancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, ECOG performance status, life expectancy, prostate cancer history (duration, Gleason score, prior treatments), PSA levels, number and location of metastatic lesions, prior Taxotere dose and duration, surgical or hormone-induced castration status, comorbidities, laboratory results (hematology, biochemistry, liver and kidney function).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Prostatic Specific Antigen PSA",
+          "PSA levels"
+        ],
+        [
+          "Measurable disease",
+          "number and location of metastatic lesions"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Region of Enrollment",
+        "Extent of disease",
+        "Tumor Location: number of sites involved"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "race",
+        "ethnicity",
+        "life expectancy",
+        "prostate cancer history (duration, Gleason score, prior treatments)",
+        "prior Taxotere dose and duration",
+        "surgical or hormone-induced castration status",
+        "comorbidities",
+        "laboratory results (hematology, biochemistry, liver and kidney function)"
+      ]
+    }
+  }
+}

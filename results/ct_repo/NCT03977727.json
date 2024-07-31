@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT03977727",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of Type 1 Diabetes Mellitus, current use of Medtronic MiniMed 670G system, HbA1c levels, BMI, history of myocardial infarction or stroke, New York Heart Association (NYHA) classification, blood pressure, liver function (ALT levels), renal function (eGFR), history of ketoacidosis, presence of malignant neoplasms, history of severe hypoglycemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "duration of Type 1 Diabetes Mellitus",
+        "current use of Medtronic MiniMed 670G system",
+        "HbA1c levels",
+        "history of myocardial infarction or stroke",
+        "New York Heart Association (NYHA) classification",
+        "blood pressure",
+        "liver function (ALT levels)",
+        "renal function (eGFR)",
+        "history of ketoacidosis",
+        "presence of malignant neoplasms",
+        "history of severe hypoglycemia"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR), History of Severe Hypoglycemia,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "Baseline HbA1c",
+        "Daily Insulin Dose",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "History of Severe Hypoglycemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, BMI, Insulin Dose, History of Hypoglycemia, History of Ketoacidosis, Presence of Malignant Neoplasms, Presence of Proliferative Retinopathy or Maculopathy, History of Cardiovascular Disease, Blood Pressure, eGFR, Liver Function Tests.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Diagnosis Duration",
+        "HbA1c",
+        "Insulin Dose",
+        "History of Hypoglycemia",
+        "History of Ketoacidosis",
+        "Presence of Malignant Neoplasms",
+        "Presence of Proliferative Retinopathy or Maculopathy",
+        "History of Cardiovascular Disease",
+        "Blood Pressure",
+        "eGFR",
+        "Liver Function Tests"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, HbA1c, type 1 diabetes mellitus duration, insulin dose, insulin infusion set type, Medtronic MiniMed 670G system usage duration, basal-bolus regimen experience, rapid acting insulin analogue usage duration, meal test results, SMPG profiles, auto mode feature usage percentage, concomitant medications, blood pressure, ALT, eGFR, history of ketoacidosis, history of severe hypoglycemia, history of myocardial infarction, history of stroke, history of hospitalization for unstable angina or transient ischemic attack.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c",
+        "type 1 diabetes mellitus duration",
+        "insulin dose",
+        "insulin infusion set type",
+        "Medtronic MiniMed 670G system usage duration",
+        "basal-bolus regimen experience",
+        "rapid acting insulin analogue usage duration",
+        "meal test results",
+        "SMPG profiles",
+        "auto mode feature usage percentage",
+        "concomitant medications",
+        "blood pressure",
+        "ALT",
+        "eGFR",
+        "history of ketoacidosis",
+        "history of severe hypoglycemia",
+        "history of myocardial infarction",
+        "history of stroke",
+        "history of hospitalization for unstable angina or transient ischemic attack."
+      ]
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "trial_id": "NCT02024750",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Duration of Diabetes, Baseline Hemoglobin A1c, Baseline Quality of Life (Child), Baseline Quality of Life (Parent), Socioeconomic Status, Education Level of Parents, Family Structure, Frequency of Blood Glucose Monitoring, Insulin Regimen, Comorbid Conditions, Access to Healthcare Services, Previous Diabetes Education, Motivation Levels for Self-Management, Language Proficiency.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Baseline A1c",
+          "Baseline Hemoglobin A1c"
+        ],
+        [
+          "Baseline Child Quality of Life (QOL)",
+          "Baseline Quality of Life (Child)"
+        ],
+        [
+          "Baseline Parent Quality of Life (QOL)",
+          "Baseline Quality of Life (Parent)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Clinical Site",
+        "Relationship to child: Mother",
+        "Insulin pump use",
+        "Baseline Parent Fear of Hypoglycemia (FOH)"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes",
+        "Socioeconomic Status",
+        "Education Level of Parents",
+        "Family Structure",
+        "Frequency of Blood Glucose Monitoring",
+        "Insulin Regimen",
+        "Comorbid Conditions",
+        "Access to Healthcare Services",
+        "Previous Diabetes Education",
+        "Motivation Levels for Self-Management",
+        "Language Proficiency"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Quality of Life (Child), Quality of Life (Parent),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Baseline A1c",
+          "Baseline HbA1c"
+        ],
+        [
+          "Baseline Child Quality of Life (QOL)",
+          "Quality of Life (Child)"
+        ],
+        [
+          "Baseline Parent Quality of Life (QOL)",
+          "Quality of Life (Parent)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Clinical Site",
+        "Relationship to child: Mother",
+        "Insulin pump use",
+        "Baseline Parent Fear of Hypoglycemia (FOH)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Duration of Diabetes"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Parent-Child Relationship, HbA1c, BMI, Insulin Dose, Quality of Life,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Clinical Site",
+          "Region of Enrollment"
+        ],
+        [
+          "Relationship to child: Mother",
+          "Parent-Child Relationship"
+        ],
+        [
+          "Baseline A1c",
+          "HbA1c"
+        ],
+        [
+          "Baseline Child Quality of Life (QOL)",
+          "Quality of Life"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Insulin pump use",
+        "Baseline Parent Quality of Life (QOL)",
+        "Baseline Parent Fear of Hypoglycemia (FOH)"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Diagnosis Duration",
+        "BMI",
+        "Insulin Dose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, duration of diabetes, language spoken at home, family structure (single parent vs. two-parent household), parental education level, household income, insurance type, diabetes treatment regimen, frequency of blood glucose monitoring, history of diabetes-related hospitalizations, baseline Hemoglobin A1c, baseline child and parent quality of life scores.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Baseline A1c",
+          "baseline Hemoglobin A1c"
+        ],
+        [
+          "Baseline Child Quality of Life (QOL)",
+          "baseline child and parent quality of life scores"
+        ],
+        [
+          "Baseline Parent Quality of Life (QOL)",
+          "baseline child and parent quality of life scores"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Clinical Site",
+        "Relationship to child: Mother",
+        "Insulin pump use",
+        "Baseline Parent Fear of Hypoglycemia (FOH)"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "language spoken at home",
+        "family structure (single parent vs. two-parent household)",
+        "parental education level",
+        "household income",
+        "insurance type",
+        "diabetes treatment regimen",
+        "frequency of blood glucose monitoring",
+        "history of diabetes-related hospitalizations"
+      ]
+    }
+  }
+}

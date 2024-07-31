@@ -1,0 +1,210 @@
+{
+  "trial_id": "NCT00113074",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Smoking history (number of cigarettes per day), Blood pressure (systolic and diastolic), Use of antihypertensive medications, Access to a telephone, History of cardiovascular disease, History of myocardial infarction, History of stroke, History of unstable angina, History of coronary artery bypass grafting, History of angioplasty/stent, Cardiac dysrhythmia, History of hyperthyroidism, History of pheochromocytoma, History of congestive heart failure, ECG evidence of atrioventricular block, History of liver failure, History of kidney failure, Current substance abuse, Presence of psychiatric condition, Chronic obstructive pulmonary disease, Peripheral vascular disease, Pulmonary hypertension, Congenital heart disease, Valvular heart disease, Current medication use, Pregnancy status, Physical activity routine, Ability to engage in moderate intensity exercise.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Blood pressure (systolic and diastolic)"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Blood pressure (systolic and diastolic)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body Mass Index"
+      ],
+      "remaining_candidate_features": [
+        "Smoking history (number of cigarettes per day)",
+        "Use of antihypertensive medications",
+        "Access to a telephone",
+        "History of cardiovascular disease",
+        "History of myocardial infarction",
+        "History of stroke",
+        "History of unstable angina",
+        "History of coronary artery bypass grafting",
+        "History of angioplasty/stent",
+        "Cardiac dysrhythmia",
+        "History of hyperthyroidism",
+        "History of pheochromocytoma",
+        "History of congestive heart failure",
+        "ECG evidence of atrioventricular block",
+        "History of liver failure",
+        "History of kidney failure",
+        "Current substance abuse",
+        "Presence of psychiatric condition",
+        "Chronic obstructive pulmonary disease",
+        "Peripheral vascular disease",
+        "Pulmonary hypertension",
+        "Congenital heart disease",
+        "Valvular heart disease",
+        "Current medication use",
+        "Pregnancy status",
+        "Physical activity routine",
+        "Ability to engage in moderate intensity exercise."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Smoking status, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, Number of cigarettes smoked per day, Duration of smoking, Use of antihypertensive medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Smoking status",
+        "Number of cigarettes smoked per day",
+        "Duration of smoking",
+        "Use of antihypertensive medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Smoking Status, Number of Cigarettes Smoked per Day, History of Cardiovascular Disease, Antihypertensive Medication Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Smoking Status",
+        "Number of Cigarettes Smoked per Day",
+        "History of Cardiovascular Disease",
+        "Antihypertensive Medication Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking history (pack-years), systolic and diastolic blood pressure, heart rate, lipid profile, glucose levels, medical history (cardiovascular disease, hypertension, hyperlipidemia, diabetes), medication use (antihypertensive, lipid-lowering, anti-diabetic), physical activity level, dietary habits, education level, occupation, income level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "smoking history (pack-years)",
+        "heart rate",
+        "lipid profile",
+        "glucose levels",
+        "medical history (cardiovascular disease, hypertension, hyperlipidemia, diabetes)",
+        "medication use (antihypertensive, lipid-lowering, anti-diabetic)",
+        "physical activity level",
+        "dietary habits",
+        "education level",
+        "occupation",
+        "income level"
+      ]
+    }
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "trial_id": "NCT04864249",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age at delivery, diagnosis of gestational hypertension or pre-eclampsia, enrollment in postpartum blood pressure remote monitoring program, willingness to undergo randomization, willingness to use the SNOO, baseline blood pressure, baseline weight, baseline mood assessment, baseline sleep quality, baseline sleep duration.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age at delivery",
+          "gestational age at delivery"
+        ],
+        [
+          "Type of hypertensive disorder",
+          "diagnosis of gestational hypertension or pre-eclampsia"
+        ],
+        [
+          "Mean arterial pressure at postpartum enrollment",
+          "baseline blood pressure"
+        ],
+        [
+          "Weight at postpartum enrollment in kg",
+          "baseline weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Partner status",
+        "Annual household income",
+        "Insurance status during pregnancy",
+        "Other children also living at home",
+        "Smoking within the past 2 years",
+        "Pre-delivery diagnosis of depression",
+        "Ever breastfeed",
+        "Mode of delivery",
+        "Blood loss during delivery",
+        "Neonatal birthweight",
+        "Gestational age at diagnosis of hypertensive disorder",
+        "Mean arterial pressure at first prenatal visit",
+        "Systolic blood pressure at first prenatal visit",
+        "Diastolic blood pressure at first prenatal visit",
+        "Weight in kg at first prenatal visit",
+        "Body Mass Index in kg/m^2 at first prenatal visit",
+        "Mean arterial pressure on Labor and Delivery admission",
+        "Systolic blood pressure on Labor and Delivery admission",
+        "Diastolic blood pressure on Labor and Delivery admission",
+        "Weight on Labor and Delivery admission in kg",
+        "Body Mass Index on Labor and Delivery admission in kg/m^2",
+        "Systolic blood pressure at postpartum enrollment",
+        "Diastolic blood pressure at postpartum enrollment",
+        "Number of participants on antihypertensive medication(s) at postpartum enrollment",
+        "Number of participants with Stage 1+ hypertension or on antihypertensive medication(s)",
+        "Body Mass Index at postpartum enrollment in kg/m^2"
+      ],
+      "remaining_candidate_features": [
+        "enrollment in postpartum blood pressure remote monitoring program",
+        "willingness to undergo randomization",
+        "willingness to use the SNOO",
+        "baseline mood assessment",
+        "baseline sleep quality",
+        "baseline sleep duration"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Pre-pregnancy BMI, Gestational Age at Delivery, Baseline Blood Pressure, Sleep Quality, Mood Assessments, Parity,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Gestational age at delivery",
+          "Gestational Age at Delivery"
+        ],
+        [
+          "Body Mass Index in kg/m^2 at first prenatal visit",
+          "Pre-pregnancy BMI"
+        ],
+        [
+          "Mean arterial pressure at postpartum enrollment",
+          "Baseline Blood Pressure"
+        ],
+        [
+          "Pre-delivery diagnosis of depression",
+          "Mood Assessments"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Partner status",
+        "Annual household income",
+        "Insurance status during pregnancy",
+        "Other children also living at home",
+        "Smoking within the past 2 years",
+        "Ever breastfeed",
+        "Mode of delivery",
+        "Blood loss during delivery",
+        "Neonatal birthweight",
+        "Type of hypertensive disorder",
+        "Gestational age at diagnosis of hypertensive disorder",
+        "Mean arterial pressure at first prenatal visit",
+        "Systolic blood pressure at first prenatal visit",
+        "Diastolic blood pressure at first prenatal visit",
+        "Weight in kg at first prenatal visit",
+        "Body Mass Index in kg/m^2 at first prenatal visit",
+        "Mean arterial pressure on Labor and Delivery admission",
+        "Systolic blood pressure on Labor and Delivery admission",
+        "Diastolic blood pressure on Labor and Delivery admission",
+        "Weight on Labor and Delivery admission in kg",
+        "Body Mass Index on Labor and Delivery admission in kg/m^2",
+        "Systolic blood pressure at postpartum enrollment",
+        "Diastolic blood pressure at postpartum enrollment",
+        "Number of participants on antihypertensive medication(s) at postpartum enrollment",
+        "Number of participants with Stage 1+ hypertension or on antihypertensive medication(s)",
+        "Weight at postpartum enrollment in kg",
+        "Body Mass Index at postpartum enrollment in kg/m^2"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Sleep Quality",
+        "Parity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gestational Age, Parity, BMI, Ethnicity, History of Hypertension, History of Pre-Eclampsia, History of Gestational Diabetes, History of Cardiac Disease, History of Kidney Disease, History of Liver Disease,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ],
+        [
+          "Gestational age at delivery",
+          "Gestational Age"
+        ],
+        [
+          "Type of hypertensive disorder",
+          "History of Hypertension"
+        ],
+        [
+          "Type of hypertensive disorder",
+          "History of Pre-Eclampsia"
+        ],
+        [
+          "Diagnosis of pre-gestational diabetes",
+          "History of Gestational Diabetes"
+        ],
+        [
+          "Diagnosis of cardiac disease",
+          "History of Cardiac Disease"
+        ],
+        [
+          "Diagnosis of kidney disease",
+          "History of Kidney Disease"
+        ],
+        [
+          "Diagnosis of liver disease",
+          "History of Liver Disease"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Partner status",
+        "Annual household income",
+        "Insurance status during pregnancy",
+        "Other children also living at home",
+        "Smoking within the past 2 years",
+        "Pre-delivery diagnosis of depression",
+        "Ever breastfeed",
+        "Mode of delivery",
+        "Blood loss during delivery",
+        "Neonatal birthweight",
+        "Gestational age at diagnosis of hypertensive disorder",
+        "Mean arterial pressure at first prenatal visit",
+        "Systolic blood pressure at first prenatal visit",
+        "Diastolic blood pressure at first prenatal visit",
+        "Weight in kg at first prenatal visit",
+        "Body Mass Index in kg/m^2 at first prenatal visit",
+        "Mean arterial pressure on Labor and Delivery admission",
+        "Systolic blood pressure on Labor and Delivery admission",
+        "Diastolic blood pressure on Labor and Delivery admission",
+        "Weight on Labor and Delivery admission in kg",
+        "Body Mass Index on Labor and Delivery admission in kg/m^2",
+        "Mean arterial pressure at postpartum enrollment",
+        "Systolic blood pressure at postpartum enrollment",
+        "Diastolic blood pressure at postpartum enrollment",
+        "Number of participants on antihypertensive medication(s) at postpartum enrollment",
+        "Number of participants with Stage 1+ hypertension or on antihypertensive medication(s)",
+        "Weight at postpartum enrollment in kg",
+        "Body Mass Index at postpartum enrollment in kg/m^2"
+      ],
+      "remaining_candidate_features": [
+        "Parity",
+        "BMI"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, gestational age at delivery, parity, body mass index, diagnosis of gestational hypertension or pre-eclampsia, severity of hypertension, mode of delivery, infant birth weight, infant sex.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age at delivery",
+          "gestational age at delivery"
+        ],
+        [
+          "Mode of delivery",
+          "mode of delivery"
+        ],
+        [
+          "Neonatal birthweight",
+          "infant birth weight"
+        ],
+        [
+          "Type of hypertensive disorder",
+          "diagnosis of gestational hypertension or pre-eclampsia"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Partner status",
+        "Annual household income",
+        "Insurance status during pregnancy",
+        "Other children also living at home",
+        "Smoking within the past 2 years",
+        "Pre-delivery diagnosis of depression",
+        "Ever breastfeed",
+        "Blood loss during delivery",
+        "Gestational age at diagnosis of hypertensive disorder",
+        "Mean arterial pressure at first prenatal visit",
+        "Systolic blood pressure at first prenatal visit",
+        "Diastolic blood pressure at first prenatal visit",
+        "Weight in kg at first prenatal visit",
+        "Body Mass Index in kg/m^2 at first prenatal visit",
+        "Mean arterial pressure on Labor and Delivery admission",
+        "Systolic blood pressure on Labor and Delivery admission",
+        "Diastolic blood pressure on Labor and Delivery admission",
+        "Weight on Labor and Delivery admission in kg",
+        "Body Mass Index on Labor and Delivery admission in kg/m^2",
+        "Mean arterial pressure at postpartum enrollment",
+        "Systolic blood pressure at postpartum enrollment",
+        "Diastolic blood pressure at postpartum enrollment",
+        "Number of participants on antihypertensive medication(s) at postpartum enrollment",
+        "Number of participants with Stage 1+ hypertension or on antihypertensive medication(s)",
+        "Weight at postpartum enrollment in kg",
+        "Body Mass Index at postpartum enrollment in kg/m^2"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "parity",
+        "body mass index",
+        "severity of hypertension",
+        "infant sex."
+      ]
+    }
+  }
+}

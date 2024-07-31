@@ -1,0 +1,171 @@
+{
+  "trial_id": "NCT01398358",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, baseline BMI Z-score, socioeconomic status, parental education level, household income, baseline self-regulation skills, baseline physical activity levels, baseline dietary habits, family health history, number of siblings, parental BMI.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "Body Mass Index Z-score (BMI z-score)",
+          "baseline BMI Z-score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "socioeconomic status",
+        "parental education level",
+        "household income",
+        "baseline self-regulation skills",
+        "baseline physical activity levels",
+        "baseline dietary habits",
+        "family health history",
+        "number of siblings",
+        "parental BMI"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline BMI Z-score, Parental Education Level, Household Income, Baseline Physical Activity Level, Baseline Dietary Intake, Baseline Emotional and Behavioral Self-Regulation, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index Z-score (BMI z-score)",
+          "Baseline BMI Z-score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Parental Education Level",
+        "Household Income",
+        "Baseline Physical Activity Level",
+        "Baseline Dietary Intake",
+        "Baseline Emotional and Behavioral Self-Regulation"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Parent's Education Level, Family Income, Child's Weight Status, Child's Dietary Habits, Child's Physical Activity Level, Parent's Self-Efficacy, Parent's Emotional Regulation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index Z-score (BMI z-score)",
+          "Child's Weight Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Parent's Education Level",
+        "Family Income",
+        "Child's Dietary Habits",
+        "Child's Physical Activity Level",
+        "Parent's Self-Efficacy",
+        "Parent's Emotional Regulation"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, socioeconomic status, parental education level, household income, child's weight, height, body mass index (BMI), waist circumference, blood pressure, dietary habits, physical activity level, sleep duration, parental BMI, parental weight-related behaviors.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body Mass Index Z-score (BMI z-score)",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "socioeconomic status",
+        "parental education level",
+        "household income",
+        "child's weight",
+        "height",
+        "waist circumference",
+        "blood pressure",
+        "dietary habits",
+        "physical activity level",
+        "sleep duration",
+        "parental BMI",
+        "parental weight-related behaviors"
+      ]
+    }
+  }
+}

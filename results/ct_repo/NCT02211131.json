@@ -1,0 +1,172 @@
+{
+  "trial_id": "NCT02211131",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ECOG performance status, serum lactate dehydrogenase (LDH) levels, prior systemic anticancer therapies, prior regional anticancer therapies, prior radiation anticancer therapies, measurable disease status, injectable lesion size, hematologic function, hepatic function, renal function, coagulation function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Stratification Factor: Disease Stage",
+          "measurable disease status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Stratification Factor: Planned Adjuvant Therapy"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "serum lactate dehydrogenase (LDH) levels",
+        "prior systemic anticancer therapies",
+        "prior regional anticancer therapies",
+        "prior radiation anticancer therapies",
+        "injectable lesion size",
+        "hematologic function",
+        "hepatic function",
+        "renal function",
+        "coagulation function."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Serum lactate dehydrogenase (LDH) levels, Hematologic function, Hepatic function, Renal function, Coagulation function, Prior systemic anticancer therapies, Measurable disease status, Injectable lesion size,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Stratification Factor: Disease Stage",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Stratification Factor: Planned Adjuvant Therapy"
+      ],
+      "remaining_candidate_features": [
+        "Serum lactate dehydrogenase (LDH) levels",
+        "Hematologic function",
+        "Hepatic function",
+        "Renal function",
+        "Coagulation function",
+        "Prior systemic anticancer therapies",
+        "Measurable disease status",
+        "Injectable lesion size"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Serum LDH, Histologically Confirmed Diagnosis of Melanoma, Stage of Melanoma, Prior Systemic, Regional and Radiation Anticancer Therapies, Measurable Disease, Number of Injectible Lesions, Diameter of Injectible Lesions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Stratification Factor: Disease Stage",
+          "Stage of Melanoma"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Stratification Factor: Planned Adjuvant Therapy"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "ECOG Performance Status",
+        "Serum LDH",
+        "Histologically Confirmed Diagnosis of Melanoma",
+        "Prior Systemic",
+        "Regional and Radiation Anticancer Therapies",
+        "Measurable Disease",
+        "Number of Injectible Lesions",
+        "Diameter of Injectible Lesions"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, serum LDH level, histological diagnosis, stage of melanoma, number and size of injectable lesions, prior systemic, regional, and radiation anticancer therapies, time since prior therapies, hematologic, hepatic, renal, and coagulation organ function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Stratification Factor: Disease Stage",
+          "stage of melanoma"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Stratification Factor: Planned Adjuvant Therapy"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "serum LDH level",
+        "histological diagnosis",
+        "number and size of injectable lesions",
+        "prior systemic",
+        "regional",
+        "and radiation anticancer therapies",
+        "time since prior therapies",
+        "hematologic",
+        "hepatic",
+        "renal",
+        "and coagulation organ function."
+      ]
+    }
+  }
+}

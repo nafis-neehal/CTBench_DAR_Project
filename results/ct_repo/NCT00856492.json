@@ -1,0 +1,207 @@
+{
+  "trial_id": "NCT00856492",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, menopausal status, Zubrod performance status, granulocyte count, ANC, platelet count, hemoglobin level, serum creatinine level, bilirubin level, ALT level, AST level, alkaline phosphatase level, urine protein:creatinine ratio, pregnancy status, QTc interval by EKG, LVEF by MUGA or ECHO, NYHA class, history of stroke or cardiac events, blood pressure, history of other malignancies, peripheral neuropathy grade, prior tyrosine kinase inhibitor use, prior chemotherapy, radiotherapy, or biologic therapy, prior hormonal therapy, use of CYP3A4 inhibitors or inducers, concurrent therapy for breast cancer, concurrent brachytherapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Hormone receptor status",
+          "menopausal status"
+        ],
+        [
+          "Inflammatory Breast Cancer (IBC) or Non-IBC Locally Advanced Breast Cancer (LABC)",
+          "Zubrod performance status"
+        ],
+        [
+          "Breast cancer stage",
+          "history of other malignancies"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "granulocyte count",
+        "ANC",
+        "platelet count",
+        "hemoglobin level",
+        "serum creatinine level",
+        "bilirubin level",
+        "ALT level",
+        "AST level",
+        "alkaline phosphatase level",
+        "urine protein:creatinine ratio",
+        "pregnancy status",
+        "QTc interval by EKG",
+        "LVEF by MUGA or ECHO",
+        "NYHA class",
+        "history of stroke or cardiac events",
+        "blood pressure",
+        "peripheral neuropathy grade",
+        "prior tyrosine kinase inhibitor use",
+        "prior chemotherapy",
+        "radiotherapy",
+        "or biologic therapy",
+        "prior hormonal therapy",
+        "use of CYP3A4 inhibitors or inducers",
+        "concurrent therapy for breast cancer",
+        "concurrent brachytherapy"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Menopausal status, Hormone receptor status, HER2/neu status, Zubrod performance status, Granulocyte count, ANC, Platelet count, Hemoglobin, Serum creatinine, Bilirubin, ALT, AST, Alkaline phosphatase, Urine protein:creatinine ratio, QTc by EKG, LVEF by MUGA or ECHO, NYHA class, History of cardiac events, Peripheral neuropathy, Prior chemotherapy, Prior radiotherapy, Prior biologic therapy, Prior hormonal therapy, Concurrent CYP3A4 inhibitors, Concurrent CYP3A4 inducers, Concurrent bisphosphonates, Concurrent brachytherapy",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Hormone receptor status",
+          "Hormone receptor status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Inflammatory Breast Cancer (IBC) or Non-IBC Locally Advanced Breast Cancer (LABC)",
+        "Breast cancer stage"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Menopausal status",
+        "HER2/neu status",
+        "Zubrod performance status",
+        "Granulocyte count",
+        "ANC",
+        "Platelet count",
+        "Hemoglobin",
+        "Serum creatinine",
+        "Bilirubin",
+        "ALT",
+        "AST",
+        "Alkaline phosphatase",
+        "Urine protein:creatinine ratio",
+        "QTc by EKG",
+        "LVEF by MUGA or ECHO",
+        "NYHA class",
+        "History of cardiac events",
+        "Peripheral neuropathy",
+        "Prior chemotherapy",
+        "Prior radiotherapy",
+        "Prior biologic therapy",
+        "Prior hormonal therapy",
+        "Concurrent CYP3A4 inhibitors",
+        "Concurrent CYP3A4 inducers",
+        "Concurrent bisphosphonates",
+        "Concurrent brachytherapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Menopausal Status, Zubrod Performance Status, Granulocyte Count, ANC, Platelet Count, Hemoglobin, Serum Creatinine, Bilirubin, ALT, AST, Alkaline Phosphatase, Urine Protein:Creatinine Ratio, LVEF, QTc, NYHA Class, Peripheral Neuropathy, HER2/Neu Status, Hormone Receptor Status, Breast Cancer Stage.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Hormone receptor status",
+          "Hormone Receptor Status"
+        ],
+        [
+          "Breast cancer stage",
+          "Breast Cancer Stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Inflammatory Breast Cancer (IBC) or Non-IBC Locally Advanced Breast Cancer (LABC)"
+      ],
+      "remaining_candidate_features": [
+        "Menopausal Status",
+        "Zubrod Performance Status",
+        "Granulocyte Count",
+        "ANC",
+        "Platelet Count",
+        "Hemoglobin",
+        "Serum Creatinine",
+        "Bilirubin",
+        "ALT",
+        "AST",
+        "Alkaline Phosphatase",
+        "Urine Protein:Creatinine Ratio",
+        "LVEF",
+        "QTc",
+        "NYHA Class",
+        "Peripheral Neuropathy",
+        "HER2/Neu Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, menopausal status, Zubrod performance status, HER2/neu status, hormone receptor status, granulocyte count, ANC, platelet count, hemoglobin, serum creatinine, bilirubin, ALT, AST, alkaline phosphatase, urine protein:creatinine ratio, QTc, LVEF, NYHA class cardiac function, peripheral neuropathy grade.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Hormone receptor status",
+          "hormone receptor status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Inflammatory Breast Cancer (IBC) or Non-IBC Locally Advanced Breast Cancer (LABC)",
+        "Breast cancer stage"
+      ],
+      "remaining_candidate_features": [
+        "menopausal status",
+        "Zubrod performance status",
+        "HER2/neu status",
+        "granulocyte count",
+        "ANC",
+        "platelet count",
+        "hemoglobin",
+        "serum creatinine",
+        "bilirubin",
+        "ALT",
+        "AST",
+        "alkaline phosphatase",
+        "urine protein:creatinine ratio",
+        "QTc",
+        "LVEF",
+        "NYHA class cardiac function",
+        "peripheral neuropathy grade"
+      ]
+    }
+  }
+}

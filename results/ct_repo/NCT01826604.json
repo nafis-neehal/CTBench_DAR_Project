@@ -1,0 +1,162 @@
+{
+  "trial_id": "NCT01826604",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Hemoglobin level, Estimated blood loss, Duration of surgery, Time from skin incision to delivery, Postoperative length of stay, Intra-operative anti-emetic requirements, Postoperative anti-emetic requirements, Hospital readmission, Emergency room visits, Complication rate",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Gravidity",
+        "Subcutaneous thickness",
+        "Chorioamnionitis",
+        "Group beta streptococcus colonization",
+        "Low transverse-skin incision",
+        "Low transverse-Uterine incision",
+        "Tobacco Use"
+      ],
+      "remaining_candidate_features": [
+        "Hemoglobin level",
+        "Estimated blood loss",
+        "Duration of surgery",
+        "Time from skin incision to delivery",
+        "Postoperative length of stay",
+        "Intra-operative anti-emetic requirements",
+        "Postoperative anti-emetic requirements",
+        "Hospital readmission",
+        "Emergency room visits",
+        "Complication rate"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, BMI, Continuous, Gestational Age at Delivery, Parity, Gravidity, Race/Ethnicity, Customized, Hemoglobin, Estimated Blood Loss, Duration of Surgery, Length of Stay, Postoperative Anti-emetic Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Gravidity",
+          "Gravidity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Subcutaneous thickness",
+        "Chorioamnionitis",
+        "Group beta streptococcus colonization",
+        "Low transverse-skin incision",
+        "Low transverse-Uterine incision",
+        "Tobacco Use"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age at Delivery",
+        "Parity",
+        "Race/Ethnicity",
+        "Hemoglobin",
+        "Estimated Blood Loss",
+        "Duration of Surgery",
+        "Length of Stay",
+        "Postoperative Anti-emetic Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, BMI, Gestational Age, Parity, Previous Cesarean Section, Preoperative Hemoglobin, Estimated Blood Loss, Intraoperative Anti-emetic Requirements.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Gravidity",
+        "Subcutaneous thickness",
+        "Chorioamnionitis",
+        "Group beta streptococcus colonization",
+        "Low transverse-skin incision",
+        "Low transverse-Uterine incision",
+        "Tobacco Use"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age",
+        "Parity",
+        "Previous Cesarean Section",
+        "Preoperative Hemoglobin",
+        "Estimated Blood Loss",
+        "Intraoperative Anti-emetic Requirements."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, BMI, gestational age, parity, history of previous cesarean section, presence of comorbidities (e.g. hypertension, diabetes), smoking status, ethnicity, socioeconomic status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Chorioamnionitis",
+          "presence of comorbidities (e.g. hypertension, diabetes)"
+        ],
+        [
+          "Tobacco Use",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Gravidity",
+        "Subcutaneous thickness",
+        "Group beta streptococcus colonization",
+        "Low transverse-skin incision",
+        "Low transverse-Uterine incision"
+      ],
+      "remaining_candidate_features": [
+        "gestational age",
+        "parity",
+        "history of previous cesarean section",
+        "ethnicity",
+        "socioeconomic status"
+      ]
+    }
+  }
+}

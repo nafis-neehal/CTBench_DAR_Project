@@ -1,0 +1,234 @@
+{
+  "trial_id": "NCT01454401",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Type of Diabetes (Type I or Type II), Age of wounds, Wound area, Texas degree of wounds, Perfusion status (toe pressure, transcutaneous oxygen measurement, palpable foot pulse), HbA1c level, Adequate off-loading, Hemoglobin level, Presence of dementia, Pregnancy or nursing status, Blood donation tolerance, Presence of hemophilia, sickle cell anemia, severe thrombocytopenia, leukemia or blood dyscrasias, Dialysis status, Clinical signs of infection, Necrosis of the wound, Change in ulcer area during run-in period, Recent blood vessel reconstruction, Participation in other clinical wound healing studies, Compliance with study protocol during run-in period.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Diabetes",
+          "Type of Diabetes (Type I or Type II)"
+        ],
+        [
+          "Ulcer duration (weeks)",
+          "Age of wounds"
+        ],
+        [
+          "Ulcer area",
+          "Wound area"
+        ],
+        [
+          "Wagner classification",
+          "Texas degree of wounds"
+        ],
+        [
+          "Biochemistry Haemoglobin",
+          "Hemoglobin level"
+        ],
+        [
+          "HbA1c",
+          "HbA1c level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Body Mass Index (kg/m2)",
+        "Presence of neuropathy",
+        "Biochemistry"
+      ],
+      "remaining_candidate_features": [
+        "Perfusion status (toe pressure, transcutaneous oxygen measurement, palpable foot pulse)",
+        "Adequate off-loading",
+        "Presence of dementia",
+        "Pregnancy or nursing status",
+        "Blood donation tolerance",
+        "Presence of hemophilia",
+        "sickle cell anemia",
+        "severe thrombocytopenia",
+        "leukemia or blood dyscrasias",
+        "Dialysis status",
+        "Clinical signs of infection",
+        "Necrosis of the wound",
+        "Change in ulcer area during run-in period",
+        "Recent blood vessel reconstruction",
+        "Participation in other clinical wound healing studies",
+        "Compliance with study protocol during run-in period."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Type (Type I or Type II), Duration of Diabetes, HbA1c, Wound Age, Wound Area, Perfusion Status, Off-loading Method, Hemoglobin Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Diabetes",
+          "Diabetes Type (Type I or Type II)"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Ulcer duration (weeks)",
+          "Wound Age"
+        ],
+        [
+          "Ulcer area",
+          "Wound Area"
+        ],
+        [
+          "Biochemistry Haemoglobin",
+          "Hemoglobin Level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Body Mass Index (kg/m2)",
+        "Presence of neuropathy",
+        "Wagner classification",
+        "Biochemistry"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Duration of Diabetes",
+        "Perfusion Status",
+        "Off-loading Method"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Diabetes Type, Diabetes Duration, HbA1c, Wound Area, Wound Age, Texas Degree, Perfusion Status, Toe Pressure, Transcutaneous Oxygen Measurement, Palpable Foot Pulse,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Diabetes",
+          "Diabetes Type"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Ulcer area",
+          "Wound Area"
+        ],
+        [
+          "Ulcer duration (weeks)",
+          "Wound Age"
+        ],
+        [
+          "Wagner classification",
+          "Texas Degree"
+        ],
+        [
+          "Biochemistry Haemoglobin",
+          "Biochemistry Haemoglobin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Body Mass Index (kg/m2)",
+        "Presence of neuropathy",
+        "Biochemistry"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Duration",
+        "Perfusion Status",
+        "Toe Pressure",
+        "Transcutaneous Oxygen Measurement",
+        "Palpable Foot Pulse"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, type of diabetes, duration of diabetes, wound age, wound area, Texas degree, perfusion status, HbA1c, body mass index (BMI), smoking status, presence of peripheral artery disease, presence of neuropathy, ankle-brachial index (ABI), toe pressure, TcPO2, palpable foot pulse.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Diabetes",
+          "type of diabetes"
+        ],
+        [
+          "Ulcer duration (weeks)",
+          "wound age"
+        ],
+        [
+          "Ulcer area",
+          "wound area"
+        ],
+        [
+          "Wagner classification",
+          "Texas degree"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Body Mass Index (kg/m2)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Presence of neuropathy",
+          "presence of neuropathy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Presence of neuropathy",
+        "Biochemistry Haemoglobin",
+        "Biochemistry"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "perfusion status",
+        "smoking status",
+        "presence of peripheral artery disease",
+        "ankle-brachial index (ABI)",
+        "toe pressure",
+        "TcPO2",
+        "palpable foot pulse"
+      ]
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "trial_id": "NCT00338949",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Duration of Schizophrenia, Current Antipsychotic Medication, Baseline Insulin Sensitivity Index, Baseline Visceral Fat Mass, Smoking Status, Alcohol Use, Physical Activity Level, Family History of Diabetes, Blood Pressure, Lipid Profile, Fasting Glucose Levels, Waist Circumference, Ethnicity, Socioeconomic Status, Medication Adherence.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "BMI",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Baseline Antipsychotic",
+          "Current Antipsychotic Medication"
+        ],
+        [
+          "Insulin sensitivity index",
+          "Baseline Insulin Sensitivity Index"
+        ],
+        [
+          "Central visceral fat volume by CT",
+          "Baseline Visceral Fat Mass"
+        ],
+        [
+          "Smoking Status",
+          "Smoking Status"
+        ],
+        [
+          "Family Diabetes Mellitus History",
+          "Family History of Diabetes"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "PANSS Total Score"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Schizophrenia",
+        "Alcohol Use",
+        "Physical Activity Level",
+        "Blood Pressure",
+        "Lipid Profile",
+        "Fasting Glucose Levels",
+        "Waist Circumference",
+        "Socioeconomic Status",
+        "Medication Adherence"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Baseline Insulin Sensitivity Index, Baseline Visceral Fat Mass, Current Antipsychotic Therapy, Duration of Schizophrenia,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline Antipsychotic",
+          "Current Antipsychotic Therapy"
+        ],
+        [
+          "Insulin sensitivity index",
+          "Baseline Insulin Sensitivity Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Family Diabetes Mellitus History",
+        "Smoking Status",
+        "PANSS Total Score",
+        "Central visceral fat volume by CT"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Waist Circumference",
+        "Baseline Visceral Fat Mass",
+        "Duration of Schizophrenia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis of schizophrenia or schizoaffective disorder, Duration of illness, BMI, Waist circumference, Fasting glucose, Fasting insulin, HbA1c, Lipid profile, Antipsychotic medication use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Baseline Antipsychotic",
+          "Antipsychotic medication use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Family Diabetes Mellitus History",
+        "Smoking Status",
+        "PANSS Total Score",
+        "Central visceral fat volume by CT",
+        "Insulin sensitivity index"
+      ],
+      "remaining_candidate_features": [
+        "Diagnosis of schizophrenia or schizoaffective disorder",
+        "Duration of illness",
+        "Waist circumference",
+        "Fasting glucose",
+        "Fasting insulin",
+        "HbA1c",
+        "Lipid profile"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), waist circumference, hip circumference, systolic blood pressure, diastolic blood pressure, fasting glucose, fasting insulin, hemoglobin A1c (HbA1c), lipid profile, diagnosis of schizophrenia or schizoaffective disorder, duration of illness, current antipsychotic medication, dose of current antipsychotic medication, duration of current antipsychotic medication treatment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Baseline Antipsychotic",
+          "current antipsychotic medication"
+        ],
+        [
+          "Insulin sensitivity index",
+          "fasting insulin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Family Diabetes Mellitus History",
+        "Smoking Status",
+        "PANSS Total Score",
+        "Central visceral fat volume by CT"
+      ],
+      "remaining_candidate_features": [
+        "waist circumference",
+        "hip circumference",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "fasting glucose",
+        "hemoglobin A1c (HbA1c)",
+        "lipid profile",
+        "diagnosis of schizophrenia or schizoaffective disorder",
+        "duration of illness",
+        "dose of current antipsychotic medication",
+        "duration of current antipsychotic medication treatment."
+      ]
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "trial_id": "NCT02496884",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, body mass index (BMI), baseline pain score, creatinine clearance (CrCl), hemoglobin, platelet count, absolute neutrophil count, AST levels, ALT levels, alkaline phosphatase levels, total bilirubin levels, creatine kinase levels, use of SSRIs, history of alcohol or drug abuse, presence of severe or uncontrolled depression, presence of significant neurological or psychiatric disorders, presence of other severe pain conditions, history of malignancy, presence of unstable cardiovascular disease, pregnancy status, history of hypersensitivity to \u03b12\u03b4 ligands, ECG abnormalities, risk of suicide, compliance likelihood, prior participation in investigational studies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Baseline Average Daily Pain Score (ADPS)",
+          "baseline pain score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "creatinine clearance (CrCl)",
+        "hemoglobin",
+        "platelet count",
+        "absolute neutrophil count",
+        "AST levels",
+        "ALT levels",
+        "alkaline phosphatase levels",
+        "total bilirubin levels",
+        "creatine kinase levels",
+        "use of SSRIs",
+        "history of alcohol or drug abuse",
+        "presence of severe or uncontrolled depression",
+        "presence of significant neurological or psychiatric disorders",
+        "presence of other severe pain conditions",
+        "history of malignancy",
+        "presence of unstable cardiovascular disease",
+        "pregnancy status",
+        "history of hypersensitivity to \u03b12\u03b4 ligands",
+        "ECG abnormalities",
+        "risk of suicide",
+        "compliance likelihood",
+        "prior participation in investigational studies"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Estimated Creatinine Clearance (CrCl), Widespread Pain Index (WPI), Symptom Severity (SS) Scale Score, Average Daily Pain Score, Use of Contraception,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Baseline Average Daily Pain Score (ADPS)",
+          "Average Daily Pain Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Estimated Creatinine Clearance (CrCl)",
+        "Widespread Pain Index (WPI)",
+        "Symptom Severity (SS) Scale Score",
+        "Use of Contraception"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Estimated Creatinine Clearance, Fibromyalgia Duration, Widespread Pain Index, Symptom Severity Scale Score, Average Daily Pain Score, History of Chronic Kidney Disease, History of Depression.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Baseline Average Daily Pain Score (ADPS)",
+          "Average Daily Pain Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Estimated Creatinine Clearance",
+        "Fibromyalgia Duration",
+        "Widespread Pain Index",
+        "Symptom Severity Scale Score",
+        "History of Chronic Kidney Disease",
+        "History of Depression"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), creatinine clearance (CrCl), fibromyalgia duration, widespread pain index (WPI), symptom severity (SS) scale score, average daily pain score, Columbia-Suicide Severity Rating Scale (C-SSRS) score, alanine aminotransferase (ALT), aspartate aminotransferase (AST), hemoglobin, platelet count, absolute neutrophil count, alkaline phosphatase, total bilirubin, creatine kinase.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Baseline Average Daily Pain Score (ADPS)",
+          "average daily pain score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "creatinine clearance (CrCl)",
+        "fibromyalgia duration",
+        "widespread pain index (WPI)",
+        "symptom severity (SS) scale score",
+        "Columbia-Suicide Severity Rating Scale (C-SSRS) score",
+        "alanine aminotransferase (ALT)",
+        "aspartate aminotransferase (AST)",
+        "hemoglobin",
+        "platelet count",
+        "absolute neutrophil count",
+        "alkaline phosphatase",
+        "total bilirubin",
+        "creatine kinase"
+      ]
+    }
+  }
+}

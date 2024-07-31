@@ -1,0 +1,206 @@
+{
+  "trial_id": "NCT01192412",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age, pre-existing hypertension, gestational hypertension, diastolic blood pressure, systolic blood pressure, use of antihypertensive therapy, proteinuria, live foetus status, multiple gestation status, foetal anomaly status, prior participation in CHIPS, use of ACE inhibitor, contraindications to trial arms, plan to terminate pregnancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Weeks of gestation",
+          "gestational age"
+        ],
+        [
+          "Type of nonproteinuric hypertension",
+          "pre-existing hypertension"
+        ],
+        [
+          "Type of nonproteinuric hypertension",
+          "gestational hypertension"
+        ],
+        [
+          "Prior blood pressure \u2265160 mm Hg systolic or \u2265110 mm Hg diastolic during this pregnancy",
+          "systolic blood pressure"
+        ],
+        [
+          "Antihypertensive medication at enrollment",
+          "use of antihypertensive therapy"
+        ],
+        [
+          "Blood pressure within 1 wk before randomization",
+          "diastolic blood pressure"
+        ],
+        [
+          "Gestational diabetes at enrollment",
+          "proteinuria"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Gender",
+        "Body-mass index",
+        "Cigarette smoking during this pregnancy",
+        "Nulliparous",
+        "Currently monitoring blood pressure at home"
+      ],
+      "remaining_candidate_features": [
+        "live foetus status",
+        "multiple gestation status",
+        "foetal anomaly status",
+        "prior participation in CHIPS",
+        "use of ACE inhibitor",
+        "contraindications to trial arms",
+        "plan to terminate pregnancy."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational Age, Continuous, Pre-existing Hypertension, Gestational Hypertension, Diastolic Blood Pressure, Systolic Blood Pressure, Proteinuria, Use of Antihypertensive Therapy, Live Foetus Confirmation,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Weeks of gestation",
+          "Gestational Age"
+        ],
+        [
+          "Type of nonproteinuric hypertension",
+          "Pre-existing Hypertension"
+        ],
+        [
+          "Type of nonproteinuric hypertension",
+          "Gestational Hypertension"
+        ],
+        [
+          "Blood pressure within 1 wk before randomization",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Prior blood pressure \u2265160 mm Hg systolic or \u2265110 mm Hg diastolic during this pregnancy",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Proteinuria",
+          "Proteinuria"
+        ],
+        [
+          "Antihypertensive medication at enrollment",
+          "Use of Antihypertensive Therapy"
+        ],
+        [
+          "Blood pressure within 1 wk before randomization",
+          "Live Foetus Confirmation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Gender",
+        "Body-mass index",
+        "Cigarette smoking during this pregnancy",
+        "Nulliparous",
+        "Currently monitoring blood pressure at home",
+        "Gestational diabetes at enrollment"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gestation at Randomization, Parity, Ethnicity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Proteinuria, Pre-existing Hypertension, Antihypertensive Therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body-mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Weeks of gestation",
+          "Gestation at Randomization"
+        ],
+        [
+          "Type of nonproteinuric hypertension",
+          "Pre-existing Hypertension"
+        ],
+        [
+          "Antihypertensive medication at enrollment",
+          "Antihypertensive Therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Gender",
+        "Cigarette smoking during this pregnancy",
+        "Nulliparous",
+        "Prior blood pressure \u2265160 mm Hg systolic or \u2265110 mm Hg diastolic during this pregnancy",
+        "Blood pressure within 1 wk before randomization",
+        "Currently monitoring blood pressure at home",
+        "Gestational diabetes at enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Parity",
+        "Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Proteinuria"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, body mass index (BMI), parity, gestational age at randomization, systolic blood pressure (sBP) at randomization, diastolic blood pressure (dBP) at randomization, presence of pre-existing hypertension, presence of proteinuria, use of antihypertensive therapy at randomization.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body-mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Nulliparous",
+          "parity"
+        ],
+        [
+          "Weeks of gestation",
+          "gestational age at randomization"
+        ],
+        [
+          "Prior blood pressure \u2265160 mm Hg systolic or \u2265110 mm Hg diastolic during this pregnancy",
+          "systolic blood pressure (sBP) at randomization"
+        ],
+        [
+          "Antihypertensive medication at enrollment",
+          "use of antihypertensive therapy at randomization"
+        ],
+        [
+          "Blood pressure within 1 wk before randomization",
+          "diastolic blood pressure (dBP) at randomization"
+        ],
+        [
+          "Type of nonproteinuric hypertension",
+          "presence of pre-existing hypertension"
+        ],
+        [
+          "Gestational diabetes at enrollment",
+          "presence of proteinuria"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Gender",
+        "Cigarette smoking during this pregnancy",
+        "Currently monitoring blood pressure at home"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity"
+      ]
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "trial_id": "NCT02796170",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Duration of Type 2 Diabetes, Hemoglobin A1c (HbA1c), Estimated Glomerular Filtration Rate (eGFR), Blood Pressure (Systolic and Diastolic), Use of RAAS blocking drugs, Liver Function Tests (AST, ALT, Total Bilirubin), History of Cardiovascular Events, Congestive Heart Failure Status, Pregnancy/Breastfeeding Status, Use of SGLT-2 inhibitors, Use of Sulfonylurea drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "BMI",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "HbA1c",
+          "Hemoglobin A1c (HbA1c)"
+        ],
+        [
+          "Estimated glomerular filtration rate (eGFR)",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ],
+        [
+          "Average Systolic Blood pressure",
+          "Blood Pressure (Systolic and Diastolic)"
+        ],
+        [
+          "Average Diastolic blood pressure",
+          "Blood Pressure (Systolic and Diastolic)"
+        ],
+        [
+          "Sulfonylurea",
+          "Use of Sulfonylurea drugs"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight",
+        "Average Heart Rate",
+        "Total Cholesterol",
+        "HDL Cholesterol",
+        "Triglycerides",
+        "LDL Cholesterol",
+        "B-blockers",
+        "Calcium antagonists",
+        "angiotensin converting enzyme (ACE)-I/ angiotensin receptor blocker (ARB)",
+        "Statins",
+        "Diuretics",
+        "Metformin",
+        "Glucagon-like peptide-1 (GLP-1)/Dipeptidyl Peptidase-4 (DPP-4)",
+        "Insulin"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Type 2 Diabetes",
+        "Use of RAAS blocking drugs",
+        "Liver Function Tests (AST, ALT, Total Bilirubin)",
+        "History of Cardiovascular Events",
+        "Congestive Heart Failure Status",
+        "Pregnancy/Breastfeeding Status",
+        "Use of SGLT-2 inhibitors"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Blood Pressure, Estimated Glomerular Filtration Rate (eGFR), Use of RAAS blocking drugs,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "HbA1c",
+          "Baseline HbA1c"
+        ],
+        [
+          "Estimated glomerular filtration rate (eGFR)",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race (NIH/OMB)",
+        "Weight",
+        "BMI",
+        "Average Systolic Blood pressure",
+        "Average Diastolic blood pressure",
+        "Average Heart Rate",
+        "Total Cholesterol",
+        "HDL Cholesterol",
+        "Triglycerides",
+        "LDL Cholesterol",
+        "B-blockers",
+        "Calcium antagonists",
+        "angiotensin converting enzyme (ACE)-I/ angiotensin receptor blocker (ARB)",
+        "Statins",
+        "Diuretics",
+        "Metformin",
+        "Sulfonylurea",
+        "Glucagon-like peptide-1 (GLP-1)/Dipeptidyl Peptidase-4 (DPP-4)",
+        "Insulin"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Blood Pressure",
+        "Use of RAAS blocking drugs"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, HbA1c, Blood Pressure, eGFR, BMI, History of Cardiovascular Disease, Use of RAAS Blocking Drugs, Use of Sulfonylurea.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Estimated glomerular filtration rate (eGFR)",
+          "eGFR"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Sulfonylurea",
+          "Use of Sulfonylurea"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Weight",
+        "Average Systolic Blood pressure",
+        "Average Diastolic blood pressure",
+        "Average Heart Rate",
+        "Total Cholesterol",
+        "HDL Cholesterol",
+        "Triglycerides",
+        "LDL Cholesterol",
+        "B-blockers",
+        "Calcium antagonists",
+        "angiotensin converting enzyme (ACE)-I/ angiotensin receptor blocker (ARB)",
+        "Statins",
+        "Diuretics",
+        "Metformin",
+        "Glucagon-like peptide-1 (GLP-1)/Dipeptidyl Peptidase-4 (DPP-4)",
+        "Insulin"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Duration",
+        "Blood Pressure",
+        "History of Cardiovascular Disease",
+        "Use of RAAS Blocking Drugs"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, hemoglobin A1c, estimated glomerular filtration rate (eGFR), systolic blood pressure, diastolic blood pressure, heart rate, history of hypertension, history of cardiovascular disease, use of RAAS blocking drugs, use of antihypertensive medications, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c",
+          "hemoglobin A1c"
+        ],
+        [
+          "Estimated glomerular filtration rate (eGFR)",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Average Systolic Blood pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Average Diastolic blood pressure",
+          "diastolic blood pressure"
+        ],
+        [
+          "Average Heart Rate",
+          "heart rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Weight",
+        "Total Cholesterol",
+        "HDL Cholesterol",
+        "Triglycerides",
+        "LDL Cholesterol",
+        "B-blockers",
+        "Calcium antagonists",
+        "angiotensin converting enzyme (ACE)-I/ angiotensin receptor blocker (ARB)",
+        "Statins",
+        "Diuretics",
+        "Metformin",
+        "Sulfonylurea",
+        "Glucagon-like peptide-1 (GLP-1)/Dipeptidyl Peptidase-4 (DPP-4)",
+        "Insulin"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "duration of type 2 diabetes",
+        "history of hypertension",
+        "history of cardiovascular disease",
+        "use of RAAS blocking drugs",
+        "use of antihypertensive medications",
+        "smoking status"
+      ]
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "trial_id": "NCT03922945",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, History of weight loss attempts, Contraception use (for females), Type 1 diabetes status, Congenital heart disease status, ECG results, Physical exam results, Vital signs, Laboratory results, Hepatic function, Renal function (GFR), Thyroid function (TSH levels), Genetic or endocrine origin of obesity, Psychiatric history (bipolar disorder, psychosis, depression, suicidal behavior or ideation), Weight stability, History of bariatric surgery, Glaucoma or intraocular pressure status, Smoking status, Current medication use (anticonvulsants, antidepressants, MAOIs, lithium, levodopa, dopamine receptor agonists, carbonic anhydrase inhibitors, insulin, SFUs, GLP-1 agonists, SGLT-1 inhibitors, SGLT-2 inhibitors, systemic steroids, hyperactivity disorder treatment, weight loss medications or supplements).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Contraception use (for females)"
+        ],
+        [
+          "BMI Categories",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "History of weight loss attempts",
+        "Type 1 diabetes status",
+        "Congenital heart disease status",
+        "ECG results",
+        "Physical exam results",
+        "Vital signs",
+        "Laboratory results",
+        "Hepatic function",
+        "Renal function (GFR)",
+        "Thyroid function (TSH levels)",
+        "Genetic or endocrine origin of obesity",
+        "Psychiatric history (bipolar disorder, psychosis, depression, suicidal behavior or ideation)",
+        "Weight stability",
+        "History of bariatric surgery",
+        "Glaucoma or intraocular pressure status",
+        "Smoking status",
+        "Current medication use (anticonvulsants, antidepressants, MAOIs, lithium, levodopa, dopamine receptor agonists, carbonic anhydrase inhibitors, insulin, SFUs, GLP-1 agonists, SGLT-1 inhibitors, SGLT-2 inhibitors, systemic steroids, hyperactivity disorder treatment, weight loss medications or supplements)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin, Lipid Profile, Waist Circumference, Physical Activity Level, Dietary Intake,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI Categories",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Glucose",
+        "Fasting Insulin",
+        "Lipid Profile",
+        "Waist Circumference",
+        "Physical Activity Level",
+        "Dietary Intake"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Lipid Profile, Insulin Sensitivity, Tanner Stage, Pubertal Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI Categories",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Glucose",
+        "Lipid Profile",
+        "Insulin Sensitivity",
+        "Tanner Stage",
+        "Pubertal Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, BMI, body composition, systolic and diastolic blood pressure, heart rate, waist circumference, hip circumference, lipid profile, glucose levels, insulin levels, medical history, concomitant medications, smoking status, menstrual status (for females).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "BMI Categories",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body composition",
+        "systolic and diastolic blood pressure",
+        "heart rate",
+        "waist circumference",
+        "hip circumference",
+        "lipid profile",
+        "glucose levels",
+        "insulin levels",
+        "medical history",
+        "concomitant medications",
+        "smoking status",
+        "menstrual status (for females)"
+      ]
+    }
+  }
+}

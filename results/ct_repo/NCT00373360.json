@@ -1,0 +1,207 @@
+{
+  "trial_id": "NCT00373360",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, diagnosis of PAH subtype, WHO functional class, duration of intravenous epoprostenol therapy, dose of epoprostenol, presence of central intravenous catheter, concurrent pulmonary hypertension therapies, mental and physical capability to administer Remodulin, baseline 6-minute walk test distance, baseline quality of life scores, baseline treatment satisfaction scores, Child-Pugh classification for hepatic dysfunction, history of central venous line infection, history of parenchymal lung disease, history of left-sided heart disease, presence of musculoskeletal disorders, blood pressure, renal function, presence of active infection, use of investigational drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "PAH Etiology",
+          "diagnosis of PAH subtype"
+        ],
+        [
+          "World Health Organization (WHO) Functional Classification for PAH",
+          "WHO functional class"
+        ],
+        [
+          "Six minute walk distance",
+          "baseline 6-minute walk test distance"
+        ],
+        [
+          "Epoprostenol dose",
+          "dose of epoprostenol"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "duration of intravenous epoprostenol therapy",
+        "presence of central intravenous catheter",
+        "concurrent pulmonary hypertension therapies",
+        "mental and physical capability to administer Remodulin",
+        "baseline quality of life scores",
+        "baseline treatment satisfaction scores",
+        "Child-Pugh classification for hepatic dysfunction",
+        "history of central venous line infection",
+        "history of parenchymal lung disease",
+        "history of left-sided heart disease",
+        "presence of musculoskeletal disorders",
+        "blood pressure",
+        "renal function",
+        "presence of active infection",
+        "use of investigational drugs."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, WHO Functional Class, Duration of PAH diagnosis, Baseline 6-minute walk distance, Type of PAH, Baseline epoprostenol dose, Central intravenous catheter status, Concomitant PAH medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "PAH Etiology",
+          "Type of PAH"
+        ],
+        [
+          "World Health Organization (WHO) Functional Classification for PAH",
+          "WHO Functional Class"
+        ],
+        [
+          "Six minute walk distance",
+          "Baseline 6-minute walk distance"
+        ],
+        [
+          "Epoprostenol dose",
+          "Baseline epoprostenol dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Duration of PAH diagnosis",
+        "Central intravenous catheter status",
+        "Concomitant PAH medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, WHO Functional Class, Duration of PAH diagnosis, Duration of epoprostenol therapy, Dose of epoprostenol at baseline, 6MWD at baseline, Borg Dyspnea Index at baseline,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "World Health Organization (WHO) Functional Classification for PAH",
+          "WHO Functional Class"
+        ],
+        [
+          "Six minute walk distance",
+          "6MWD at baseline"
+        ],
+        [
+          "Epoprostenol dose",
+          "Dose of epoprostenol at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "PAH Etiology"
+      ],
+      "remaining_candidate_features": [
+        "Duration of PAH diagnosis",
+        "Duration of epoprostenol therapy",
+        "Borg Dyspnea Index at baseline"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), WHO functional class, duration of PAH diagnosis, duration of epoprostenol therapy, type of PAH (idiopathic, familial, associated with collagen vascular disease, etc.), presence of comorbidities (e.g. liver disease, hypertension, etc.), use of concomitant medications (e.g. oxygen, vasodilators, diuretics, etc.).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "PAH Etiology",
+          "type of PAH (idiopathic, familial, associated with collagen vascular disease, etc.)"
+        ],
+        [
+          "World Health Organization (WHO) Functional Classification for PAH",
+          "WHO functional class"
+        ],
+        [
+          "Epoprostenol dose",
+          "duration of epoprostenol therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Six minute walk distance"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "duration of PAH diagnosis",
+        "presence of comorbidities (e.g. liver disease, hypertension, etc.)",
+        "use of concomitant medications (e.g. oxygen, vasodilators, diuretics, etc.)"
+      ]
+    }
+  }
+}

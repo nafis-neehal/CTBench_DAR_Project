@@ -1,0 +1,286 @@
+{
+  "trial_id": "NCT02915029",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ethnicity, body mass index (BMI), diabetes status, microalbuminuria status, household size, pregnancy status, life expectancy, dialysis status, renal transplant status, malignancy status, visual impairment status, informed consent status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Diabetes status",
+          "diabetes status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Patient Activation Measure - Total Score",
+        "Patient activation level >3",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "HbA1c",
+        "Hypertension",
+        "High School Graduate",
+        "Serum Total Protein",
+        "Serum Cholesterol",
+        "Serum LDL Cholesterol",
+        "Serum HDL Cholesterol",
+        "Serum Triglycerides",
+        "eGFR",
+        "UACR",
+        "hsCRP",
+        "KDQOL-SP",
+        "KDQOL-EKD",
+        "KDQOL-BKD",
+        "KDQOL-SF12 Physical Score",
+        "KDQOL-SF12 Mental",
+        "Morisky Score"
+      ],
+      "remaining_candidate_features": [
+        "microalbuminuria status",
+        "household size",
+        "pregnancy status",
+        "life expectancy",
+        "dialysis status",
+        "renal transplant status",
+        "malignancy status",
+        "visual impairment status",
+        "informed consent status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes Diagnosis Duration, Microalbuminuria,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Patient Activation Measure - Total Score",
+        "Patient activation level >3",
+        "HbA1c",
+        "Hypertension",
+        "Diabetes status",
+        "High School Graduate",
+        "BMI",
+        "Serum Total Protein",
+        "Serum Cholesterol",
+        "Serum LDL Cholesterol",
+        "Serum HDL Cholesterol",
+        "Serum Triglycerides",
+        "eGFR",
+        "UACR",
+        "hsCRP",
+        "KDQOL-SP",
+        "KDQOL-EKD",
+        "KDQOL-BKD",
+        "KDQOL-SF12 Physical Score",
+        "KDQOL-SF12 Mental",
+        "Morisky Score"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Diabetes Diagnosis Duration",
+        "Microalbuminuria"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR), Urine Albumin-to-Creatinine Ratio (UACR), Hemoglobin A1c (HbA1c),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "HbA1c",
+          "Hemoglobin A1c (HbA1c)"
+        ],
+        [
+          "eGFR",
+          "Estimated Glomerular Filtration Rate (eGFR)"
+        ],
+        [
+          "UACR",
+          "Urine Albumin-to-Creatinine Ratio (UACR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Patient Activation Measure - Total Score",
+        "Patient activation level >3",
+        "Hypertension",
+        "Diabetes status",
+        "High School Graduate",
+        "BMI",
+        "Serum Total Protein",
+        "Serum Cholesterol",
+        "Serum LDL Cholesterol",
+        "Serum HDL Cholesterol",
+        "Serum Triglycerides",
+        "hsCRP",
+        "KDQOL-SP",
+        "KDQOL-EKD",
+        "KDQOL-BKD",
+        "KDQOL-SF12 Physical Score",
+        "KDQOL-SF12 Mental",
+        "Morisky Score"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Diagnosis Duration",
+        "Body Mass Index"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ethnicity, body mass index (BMI), diabetes duration, presence of microalbuminuria, systolic blood pressure, diastolic blood pressure, estimated glomerular filtration rate (eGFR), serum creatinine, hemoglobin A1c (HbA1c), low-density lipoprotein (LDL) cholesterol, high-density lipoprotein (HDL) cholesterol, triglycerides, smoking status, presence of hypertension, presence of cardiovascular disease, education level, employment status, household income.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Diabetes status",
+          "diabetes duration"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "diastolic blood pressure"
+        ],
+        [
+          "eGFR",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "HbA1c",
+          "hemoglobin A1c (HbA1c)"
+        ],
+        [
+          "Serum LDL Cholesterol",
+          "low-density lipoprotein (LDL) cholesterol"
+        ],
+        [
+          "Serum HDL Cholesterol",
+          "high-density lipoprotein (HDL) cholesterol"
+        ],
+        [
+          "Serum Triglycerides",
+          "triglycerides"
+        ],
+        [
+          "Hypertension",
+          "presence of hypertension"
+        ],
+        [
+          "High School Graduate",
+          "education level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Patient Activation Measure - Total Score",
+        "Patient activation level >3",
+        "Serum Total Protein",
+        "Serum Cholesterol",
+        "UACR",
+        "hsCRP",
+        "KDQOL-SP",
+        "KDQOL-EKD",
+        "KDQOL-BKD",
+        "KDQOL-SF12 Physical Score",
+        "KDQOL-SF12 Mental",
+        "Morisky Score"
+      ],
+      "remaining_candidate_features": [
+        "presence of microalbuminuria",
+        "serum creatinine",
+        "smoking status",
+        "presence of cardiovascular disease",
+        "employment status",
+        "household income"
+      ]
+    }
+  }
+}

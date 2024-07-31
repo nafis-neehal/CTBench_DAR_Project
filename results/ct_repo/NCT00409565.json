@@ -1,0 +1,228 @@
+{
+  "trial_id": "NCT00409565",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ethnicity, ECOG performance status, absolute neutrophil count, platelet count, total bilirubin, AST(SGOT)/ALT(SGPT) levels, creatinine levels, creatinine clearance, urine protein creatinine ratio, history of hypertension, history of thrombosis, history of major tumor-related bleeding, history of gross hemoptysis, history of prior malignancy, history of serious cardiac conditions, history of CNS cerebrovascular ischemia or stroke, history of serious infection, history of severe infusion reaction to monoclonal antibodies, HIV status, pregnancy status, prior treatment history, baseline tumor tissue availability for EGFR determination.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Primary disease site",
+        "Recurrent disease",
+        "Prior radiation",
+        "Prior surgery",
+        "Prior chemotherapy"
+      ],
+      "remaining_candidate_features": [
+        "absolute neutrophil count",
+        "platelet count",
+        "total bilirubin",
+        "AST(SGOT)/ALT(SGPT) levels",
+        "creatinine levels",
+        "creatinine clearance",
+        "urine protein creatinine ratio",
+        "history of hypertension",
+        "history of thrombosis",
+        "history of major tumor-related bleeding",
+        "history of gross hemoptysis",
+        "history of prior malignancy",
+        "history of serious cardiac conditions",
+        "history of CNS cerebrovascular ischemia or stroke",
+        "history of serious infection",
+        "history of severe infusion reaction to monoclonal antibodies",
+        "HIV status",
+        "pregnancy status",
+        "prior treatment history",
+        "baseline tumor tissue availability for EGFR determination."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Absolute neutrophil count, Platelet count, Total bilirubin, AST(SGOT)/ALT(SGPT), Creatinine, Urine Protein Creatinine (UPC) ratio, Baseline tumor tissue availability, History of hypertension, History of thrombosis, History of major tumor-related bleeding, History of prior severe infusion reaction to a monoclonal antibody, History of prior malignancy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Primary disease site",
+        "Recurrent disease",
+        "Prior radiation",
+        "Prior surgery",
+        "Prior chemotherapy",
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Absolute neutrophil count",
+        "Platelet count",
+        "Total bilirubin",
+        "AST(SGOT)/ALT(SGPT)",
+        "Creatinine",
+        "Urine Protein Creatinine (UPC) ratio",
+        "Baseline tumor tissue availability",
+        "History of hypertension",
+        "History of thrombosis",
+        "History of major tumor-related bleeding",
+        "History of prior severe infusion reaction to a monoclonal antibody",
+        "History of prior malignancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology, Tumor Stage, Prior Chemotherapy, Prior Radiation Therapy, Prior Biologic/Targeted Therapy, Baseline Hemoglobin, Baseline Platelet Count, Baseline Creatinine, Baseline Urine Protein Creatinine Ratio, Baseline EGFR Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Prior chemotherapy",
+          "Prior Chemotherapy"
+        ],
+        [
+          "Prior radiation",
+          "Prior Radiation Therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Primary disease site",
+        "Recurrent disease",
+        "Prior surgery"
+      ],
+      "remaining_candidate_features": [
+        "Histology",
+        "Tumor Stage",
+        "Prior Biologic/Targeted Therapy",
+        "Baseline Hemoglobin",
+        "Baseline Platelet Count",
+        "Baseline Creatinine",
+        "Baseline Urine Protein Creatinine Ratio",
+        "Baseline EGFR Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, Karnofsky performance score, histological type of head and neck cancer, tumor stage, prior treatment history, number of prior chemotherapy regimens, number of prior biologic/targeted agents, presence of metastatic disease, presence of recurrent disease, measurable disease, absolute neutrophil count, platelet count, total bilirubin, AST(SGOT), ALT(SGPT), creatinine, creatinine clearance, urine protein creatinine ratio, EGFR determination.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Primary disease site",
+          "histological type of head and neck cancer"
+        ],
+        [
+          "Recurrent disease",
+          "presence of recurrent disease"
+        ],
+        [
+          "Prior radiation",
+          "prior treatment history"
+        ],
+        [
+          "Prior chemotherapy",
+          "number of prior chemotherapy regimens"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Prior surgery"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky performance score",
+        "tumor stage",
+        "number of prior biologic/targeted agents",
+        "presence of metastatic disease",
+        "measurable disease",
+        "absolute neutrophil count",
+        "platelet count",
+        "total bilirubin",
+        "AST(SGOT)",
+        "ALT(SGPT)",
+        "creatinine",
+        "creatinine clearance",
+        "urine protein creatinine ratio",
+        "EGFR determination."
+      ]
+    }
+  }
+}

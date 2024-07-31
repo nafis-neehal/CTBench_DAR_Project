@@ -1,0 +1,248 @@
+{
+  "trial_id": "NCT03185455",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, chronic hypertension, gestational hypertension, preeclampsia, ability to speak and read English, access to a cell phone with unlimited text message capabilities, number of participants excluded due to lack of cell phone access.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Chronic hypertension without antihypertensive medication",
+          "chronic hypertension"
+        ],
+        [
+          "Gestational hypertension/preeclampsia without severe features",
+          "gestational hypertension"
+        ],
+        [
+          "Preeclampsia with severe features",
+          "preeclampsia"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Medicaid Insurance",
+        "Body Mass Index",
+        "Nulliparous",
+        "Pregestational diabetes",
+        "Gestational diabetes",
+        "Chronic hypertension with antihypertensive medication",
+        "Renal disease",
+        "Gestational age at diagnosis",
+        "Gestational age at delivery",
+        "Hemolysis Elevated Liver Enzymes Low Platelet syndrome",
+        "Superimposed preeclampsia",
+        "Eclampsia",
+        "Induction of labor",
+        "Cesarean delivery in labor",
+        "Planned cesarean delivery",
+        "Magnesium sulfate use",
+        "Live birth",
+        "Discharged on oral antihypertensive medication",
+        "Postpartum discharge day",
+        "Breastfeeding"
+      ],
+      "remaining_candidate_features": [
+        "ability to speak and read English",
+        "access to a cell phone with unlimited text message capabilities",
+        "number of participants excluded due to lack of cell phone access."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Type of Hypertensive Disorder (chronic hypertension, gestational hypertension, preeclampsia), Access to Cell Phone with Unlimited Text Message Capabilities, Baseline Blood Pressure, Parity, Socioeconomic Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Gestational hypertension/preeclampsia without severe features",
+          "Type of Hypertensive Disorder (chronic hypertension, gestational hypertension, preeclampsia)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Medicaid Insurance",
+        "Body Mass Index",
+        "Nulliparous",
+        "Pregestational diabetes",
+        "Gestational diabetes",
+        "Chronic hypertension without antihypertensive medication",
+        "Chronic hypertension with antihypertensive medication",
+        "Renal disease",
+        "Gestational age at diagnosis",
+        "Gestational age at delivery",
+        "Preeclampsia with severe features",
+        "Hemolysis Elevated Liver Enzymes Low Platelet syndrome",
+        "Superimposed preeclampsia",
+        "Eclampsia",
+        "Induction of labor",
+        "Cesarean delivery in labor",
+        "Planned cesarean delivery",
+        "Magnesium sulfate use",
+        "Live birth",
+        "Discharged on oral antihypertensive medication",
+        "Postpartum discharge day",
+        "Breastfeeding"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Access to Cell Phone with Unlimited Text Message Capabilities",
+        "Baseline Blood Pressure",
+        "Parity",
+        "Socioeconomic Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Gestational Hypertension, Chronic Hypertension, Preeclampsia, Parity, Body Mass Index, Highest Blood Pressure During Pregnancy, Antihypertensive Medication Use During Pregnancy, Postpartum Visit Attendance History.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Gestational hypertension/preeclampsia without severe features",
+          "Gestational Hypertension"
+        ],
+        [
+          "Chronic hypertension without antihypertensive medication",
+          "Chronic Hypertension"
+        ],
+        [
+          "Preeclampsia with severe features",
+          "Preeclampsia"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Medicaid Insurance",
+        "Nulliparous",
+        "Pregestational diabetes",
+        "Gestational diabetes",
+        "Chronic hypertension with antihypertensive medication",
+        "Renal disease",
+        "Gestational age at diagnosis",
+        "Gestational age at delivery",
+        "Hemolysis Elevated Liver Enzymes Low Platelet syndrome",
+        "Superimposed preeclampsia",
+        "Eclampsia",
+        "Induction of labor",
+        "Cesarean delivery in labor",
+        "Planned cesarean delivery",
+        "Magnesium sulfate use",
+        "Live birth",
+        "Discharged on oral antihypertensive medication",
+        "Postpartum discharge day",
+        "Breastfeeding"
+      ],
+      "remaining_candidate_features": [
+        "Parity",
+        "Highest Blood Pressure During Pregnancy",
+        "Antihypertensive Medication Use During Pregnancy",
+        "Postpartum Visit Attendance History."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, gestational age at delivery, type of hypertension (chronic, gestational, preeclampsia), parity, body mass index (BMI), smoking status, medical comorbidities (e.g. diabetes, kidney disease), medication use (e.g. antihypertensives, steroids), education level, socioeconomic status, access to healthcare, cell phone ownership and unlimited text message capabilities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Gestational age at delivery",
+          "gestational age at delivery"
+        ],
+        [
+          "Chronic hypertension without antihypertensive medication",
+          "type of hypertension (chronic, gestational, preeclampsia)"
+        ],
+        [
+          "Chronic hypertension with antihypertensive medication",
+          "medication use (e.g. antihypertensives, steroids)"
+        ],
+        [
+          "Pregestational diabetes",
+          "medical comorbidities (e.g. diabetes, kidney disease)"
+        ],
+        [
+          "Gestational diabetes",
+          "medical comorbidities (e.g. diabetes, kidney disease)"
+        ],
+        [
+          "Renal disease",
+          "medical comorbidities (e.g. diabetes, kidney disease)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Medicaid Insurance",
+        "Nulliparous",
+        "Gestational age at diagnosis",
+        "Gestational hypertension/preeclampsia without severe features",
+        "Preeclampsia with severe features",
+        "Hemolysis Elevated Liver Enzymes Low Platelet syndrome",
+        "Superimposed preeclampsia",
+        "Eclampsia",
+        "Induction of labor",
+        "Cesarean delivery in labor",
+        "Planned cesarean delivery",
+        "Magnesium sulfate use",
+        "Live birth",
+        "Discharged on oral antihypertensive medication",
+        "Postpartum discharge day",
+        "Breastfeeding"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "parity",
+        "smoking status",
+        "education level",
+        "socioeconomic status",
+        "access to healthcare",
+        "cell phone ownership and unlimited text message capabilities."
+      ]
+    }
+  }
+}

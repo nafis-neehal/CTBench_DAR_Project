@@ -1,0 +1,193 @@
+{
+  "trial_id": "NCT00085540",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race/ethnicity, Karnofsky performance status, prior therapies, tumor type, WBC count, absolute neutrophil count, platelet count, hemoglobin level, SGOT level, bilirubin level, creatinine level, history of cardiac conditions, history of other malignancies, presence of active infection, pregnancy status, use of effective contraception, prior radiotherapy, prior surgical resection, prior use of enzyme-inducing antiepileptic drugs (EIAEDs), prior use of other specific medications (e.g., interferon, thalidomide, vincristine, nitrosoureas, procarbazine, isotretinoin, non-cytotoxic therapy, valproic acid, hydrochlorothiazide).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "Karnofsky Performance Status Scale (KPS)",
+          "Karnofsky performance status"
+        ],
+        [
+          "Histology",
+          "tumor type"
+        ],
+        [
+          "Prior Radiotherapy",
+          "prior radiotherapy"
+        ],
+        [
+          "Prior chemotherapy regimens",
+          "prior therapies"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "race/ethnicity",
+        "WBC count",
+        "absolute neutrophil count",
+        "platelet count",
+        "hemoglobin level",
+        "SGOT level",
+        "bilirubin level",
+        "creatinine level",
+        "history of cardiac conditions",
+        "history of other malignancies",
+        "presence of active infection",
+        "pregnancy status",
+        "use of effective contraception",
+        "prior surgical resection",
+        "prior use of enzyme-inducing antiepileptic drugs (EIAEDs)",
+        "prior use of other specific medications (e.g., interferon, thalidomide, vincristine, nitrosoureas, procarbazine, isotretinoin, non-cytotoxic therapy, valproic acid, hydrochlorothiazide)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky Performance Status, White Blood Cell Count, Absolute Neutrophil Count, Platelet Count, Hemoglobin, SGOT, Bilirubin, Creatinine, History of Cardiac Conditions, Prior Therapies, Tumor Type, Tumor Progression Evidence,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex: Female"
+        ],
+        [
+          "Karnofsky Performance Status Scale (KPS)",
+          "Karnofsky Performance Status"
+        ],
+        [
+          "Histology",
+          "Tumor Type"
+        ],
+        [
+          "Prior Radiotherapy",
+          "Prior Therapies"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Prior chemotherapy regimens"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "White Blood Cell Count",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Hemoglobin",
+        "SGOT",
+        "Bilirubin",
+        "Creatinine",
+        "History of Cardiac Conditions",
+        "Tumor Progression Evidence"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky Performance Status, Histological diagnosis, Tumor location, Prior radiotherapy, Prior chemotherapy, Prior surgery, EIAEDs use, WBC count, Absolute neutrophil count, Platelet count, Hemoglobin, SGOT, Bilirubin, Creatinine,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex: Female"
+        ],
+        [
+          "Karnofsky Performance Status Scale (KPS)",
+          "Karnofsky Performance Status"
+        ],
+        [
+          "Histology",
+          "Histological diagnosis"
+        ],
+        [
+          "Prior Radiotherapy",
+          "Prior radiotherapy"
+        ],
+        [
+          "Prior chemotherapy regimens",
+          "Prior chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Tumor location",
+        "Prior surgery",
+        "EIAEDs use",
+        "WBC count",
+        "Absolute neutrophil count",
+        "Platelet count",
+        "Hemoglobin",
+        "SGOT",
+        "Bilirubin",
+        "Creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, Karnofsky performance status, histological diagnosis, tumor location, prior therapy (including radiotherapy, chemotherapy, and surgery), time since diagnosis, time since prior therapy, presence of neurological symptoms, ECOG performance status, serum creatinine, serum bilirubin, SGOT, WBC count, absolute neutrophil count, platelet count, hemoglobin, blood pressure, cardiac ejection fraction, QTc interval.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "Karnofsky Performance Status Scale (KPS)",
+          "Karnofsky performance status"
+        ],
+        [
+          "Histology",
+          "histological diagnosis"
+        ],
+        [
+          "Prior Radiotherapy",
+          "prior therapy (including radiotherapy, chemotherapy, and surgery)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Prior chemotherapy regimens"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "tumor location",
+        "time since diagnosis",
+        "time since prior therapy",
+        "presence of neurological symptoms",
+        "ECOG performance status",
+        "serum creatinine",
+        "serum bilirubin",
+        "SGOT",
+        "WBC count",
+        "absolute neutrophil count",
+        "platelet count",
+        "hemoglobin",
+        "blood pressure",
+        "cardiac ejection fraction",
+        "QTc interval"
+      ]
+    }
+  }
+}

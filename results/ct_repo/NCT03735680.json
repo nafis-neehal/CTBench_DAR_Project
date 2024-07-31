@@ -1,0 +1,152 @@
+{
+  "trial_id": "NCT03735680",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, tumor type, tumor stage, prior treatments, performance status, liver function, renal function, life expectancy, biopsy confirmation, surgical resection status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Patients receiving pegsitacianine (ONM-100)",
+          "biopsy confirmation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "tumor type",
+        "tumor stage",
+        "prior treatments",
+        "performance status",
+        "liver function",
+        "renal function",
+        "life expectancy",
+        "surgical resection status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Tumor Type, Tumor Stage, Liver Function (Child-Pugh score), Life Expectancy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Patients receiving pegsitacianine (ONM-100)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Tumor Type",
+        "Tumor Stage",
+        "Liver Function (Child-Pugh score)",
+        "Life Expectancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Tumor type, Tumor stage, Prior cancer treatment, Prior surgery, Performance status, Body Mass Index,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Patients receiving pegsitacianine (ONM-100)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Tumor type",
+        "Tumor stage",
+        "Prior cancer treatment",
+        "Prior surgery",
+        "Performance status",
+        "Body Mass Index"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), tumor type, tumor stage, prior cancer treatment, surgical procedure, comorbidities, liver function tests, Child-Pugh score, life expectancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Patients receiving pegsitacianine (ONM-100)",
+          "tumor type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "tumor stage",
+        "prior cancer treatment",
+        "surgical procedure",
+        "comorbidities",
+        "liver function tests",
+        "Child-Pugh score",
+        "life expectancy."
+      ]
+    }
+  }
+}

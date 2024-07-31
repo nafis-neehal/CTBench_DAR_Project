@@ -1,0 +1,169 @@
+{
+  "trial_id": "NCT00741819",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, PAH diagnosis category, baseline six-minute walk distance (6MWD), current Ventavis dose, use of background therapy (endothelin receptor antagonist or phosphodiesterase-5-inhibitor), previous right heart catheterization results, previous echocardiography results.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Pulmonary Arterial Hypertension (PAH) etiology",
+          "PAH diagnosis category"
+        ],
+        [
+          "Six-minute walk distance (6MWD)",
+          "baseline six-minute walk distance (6MWD)"
+        ],
+        [
+          "Background PAH therapy",
+          "use of background therapy (endothelin receptor antagonist or phosphodiesterase-5-inhibitor)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "N-terminal prohormone brain natriuretic peptide (NT-proBNP)"
+      ],
+      "remaining_candidate_features": [
+        "current Ventavis dose",
+        "previous right heart catheterization results",
+        "previous echocardiography results."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline six-minute walk distance (6MWD), PAH diagnosis category, Background therapy usage, Duration of Ventavis therapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Pulmonary Arterial Hypertension (PAH) etiology",
+          "PAH diagnosis category"
+        ],
+        [
+          "Background PAH therapy",
+          "Background therapy usage"
+        ],
+        [
+          "Six-minute walk distance (6MWD)",
+          "Baseline six-minute walk distance (6MWD)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "N-terminal prohormone brain natriuretic peptide (NT-proBNP)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Ventavis therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, PAH diagnosis, Six-minute walk distance, Background therapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Pulmonary Arterial Hypertension (PAH) etiology",
+          "PAH diagnosis"
+        ],
+        [
+          "Background PAH therapy",
+          "Background therapy"
+        ],
+        [
+          "Six-minute walk distance (6MWD)",
+          "Six-minute walk distance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "N-terminal prohormone brain natriuretic peptide (NT-proBNP)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), PAH etiology (idiopathic/familial, associated with unrepaired or repaired congenital systemic-to-pulmonary shunts, associated with collagen vascular disease, associated with HIV, associated with appetite suppressant/toxin use), six-minute walk distance (6MWD), background therapy (endothelin receptor antagonist, phosphodiesterase-5-inhibitor, or both), duration of PAH diagnosis, duration of Ventavis treatment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Pulmonary Arterial Hypertension (PAH) etiology",
+          "PAH etiology (idiopathic/familial, associated with unrepaired or repaired congenital systemic-to-pulmonary shunts, associated with collagen vascular disease, associated with HIV, associated with appetite suppressant/toxin use)"
+        ],
+        [
+          "Six-minute walk distance (6MWD)",
+          "six-minute walk distance (6MWD)"
+        ],
+        [
+          "Background PAH therapy",
+          "background therapy (endothelin receptor antagonist, phosphodiesterase-5-inhibitor, or both)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "N-terminal prohormone brain natriuretic peptide (NT-proBNP)"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "duration of PAH diagnosis",
+        "duration of Ventavis treatment."
+      ]
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "trial_id": "NCT01607879",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, histological confirmation of prostate cancer, presence of metastases, baseline muscle mass, baseline strength, baseline body composition, cognitive status, neuromuscular disorder status, ability to give informed consent.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "histological confirmation of prostate cancer"
+        ],
+        [
+          "Categorical",
+          "presence of metastases"
+        ],
+        [
+          "Categorical",
+          "cognitive status"
+        ],
+        [
+          "Categorical",
+          "neuromuscular disorder status"
+        ],
+        [
+          "Categorical",
+          "ability to give informed consent."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "baseline muscle mass",
+        "baseline strength",
+        "baseline body composition"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Lean Body Mass, Baseline Muscle Strength, Prostate Cancer Stage, Baseline PSA Levels, Duration of Prostate Cancer Diagnosis, Baseline Physical Activity Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Lean Body Mass",
+        "Baseline Muscle Strength",
+        "Prostate Cancer Stage",
+        "Baseline PSA Levels",
+        "Duration of Prostate Cancer Diagnosis",
+        "Baseline Physical Activity Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Prostate Cancer Stage, Gleason Score, Body Mass Index, Lean Body Mass, Muscle Strength, Androgen Deprivation Therapy Duration,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Prostate Cancer Stage",
+        "Gleason Score",
+        "Body Mass Index",
+        "Lean Body Mass",
+        "Muscle Strength",
+        "Androgen Deprivation Therapy Duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, height, weight, body mass index (BMI), prostate-specific antigen (PSA) level, Gleason score, cancer stage, duration of ADT, comorbidities, medication use, smoking status, alcohol consumption, physical activity level, dietary habits, lean body mass, muscle strength, functional performance, quality of life.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "height",
+        "weight",
+        "body mass index (BMI)",
+        "prostate-specific antigen (PSA) level",
+        "Gleason score",
+        "cancer stage",
+        "duration of ADT",
+        "comorbidities",
+        "medication use",
+        "smoking status",
+        "alcohol consumption",
+        "physical activity level",
+        "dietary habits",
+        "lean body mass",
+        "muscle strength",
+        "functional performance",
+        "quality of life"
+      ]
+    }
+  }
+}

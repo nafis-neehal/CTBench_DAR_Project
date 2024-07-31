@@ -1,0 +1,183 @@
+{
+  "trial_id": "NCT00654745",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, fasting plasma glucose, casual plasma glucose, two-hour plasma glucose, systolic blood pressure (SBP), diastolic blood pressure (DBP), glycosylated hemoglobin A1c (HbA1c), use of oral antidiabetic agents, use of Byetta (exenatide), pregnancy status, lactation status, use of contraception.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Mean 24-hour ambulatory systolic blood pressure",
+          "systolic blood pressure (SBP)"
+        ],
+        [
+          "Mean 24-hour ambulatory diastolic blood pressure",
+          "diastolic blood pressure (DBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Stage of hypertension",
+        "Body mass index",
+        "Pulse rate",
+        "Seated Diastolic Blood Pressure",
+        "Seated Systolic Blood Pressure",
+        "Years with diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "fasting plasma glucose",
+        "casual plasma glucose",
+        "two-hour plasma glucose",
+        "glycosylated hemoglobin A1c (HbA1c)",
+        "use of oral antidiabetic agents",
+        "use of Byetta (exenatide)",
+        "pregnancy status",
+        "lactation status",
+        "use of contraception."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Type 2 Diabetes, Baseline HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Current Antihypertensive Therapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Mean 24-hour ambulatory systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Mean 24-hour ambulatory diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Years with diabetes",
+          "Duration of Type 2 Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Stage of hypertension",
+        "Body mass index",
+        "Pulse rate",
+        "Seated Diastolic Blood Pressure",
+        "Seated Systolic Blood Pressure"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Region of Enrollment",
+        "Baseline HbA1c",
+        "Fasting Plasma Glucose",
+        "Current Antihypertensive Therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, HbA1c, Blood pressure, BMI, Antidiabetic medication use, Antihypertensive medication use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Years with diabetes",
+          "Diabetes duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Stage of hypertension",
+        "Mean 24-hour ambulatory diastolic blood pressure",
+        "Mean 24-hour ambulatory systolic blood pressure",
+        "Pulse rate",
+        "Seated Diastolic Blood Pressure",
+        "Seated Systolic Blood Pressure"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Region of Enrollment",
+        "HbA1c",
+        "Blood pressure",
+        "Antidiabetic medication use",
+        "Antihypertensive medication use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, duration of hypertension, glycosylated hemoglobin A1c (HbA1c), fasting plasma glucose, oral antidiabetic agent(s) use, Byetta (exenatide) use, current antihypertensive therapy, mean seated office blood pressure, daytime ambulatory blood pressure monitoring (ABPM) parameters.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Years with diabetes",
+          "duration of type 2 diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Stage of hypertension",
+        "Mean 24-hour ambulatory diastolic blood pressure",
+        "Mean 24-hour ambulatory systolic blood pressure",
+        "Pulse rate",
+        "Seated Diastolic Blood Pressure",
+        "Seated Systolic Blood Pressure"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "duration of hypertension",
+        "glycosylated hemoglobin A1c (HbA1c)",
+        "fasting plasma glucose",
+        "oral antidiabetic agent(s) use",
+        "Byetta (exenatide) use",
+        "current antihypertensive therapy",
+        "mean seated office blood pressure",
+        "daytime ambulatory blood pressure monitoring (ABPM) parameters."
+      ]
+    }
+  }
+}

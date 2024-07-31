@@ -1,0 +1,172 @@
+{
+  "trial_id": "NCT03811093",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Body Mass Index (BMI), Baseline Body Fat Percentage, Baseline Body Circumference Measurements, Baseline Weight of Body Fat, Medical History, Medication Use, Smoking Status, Physical Activity Level, Dietary Habits, Baseline Health Conditions",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Percentage Body Fat",
+          "Baseline Body Fat Percentage"
+        ],
+        [
+          "Body Circumference Measurements",
+          "Baseline Body Circumference Measurements"
+        ],
+        [
+          "Weight of Body Fat",
+          "Baseline Weight of Body Fat"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index (BMI)",
+        "Medical History",
+        "Medication Use",
+        "Smoking Status",
+        "Physical Activity Level",
+        "Dietary Habits",
+        "Baseline Health Conditions"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Baseline Body Fat Percentage, Baseline Body Circumference Measurements, Baseline Weight of Body Fat",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Percentage Body Fat",
+          "Baseline Body Fat Percentage"
+        ],
+        [
+          "Body Circumference Measurements",
+          "Baseline Body Circumference Measurements"
+        ],
+        [
+          "Weight of Body Fat",
+          "Baseline Weight of Body Fat"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Hip Circumference, Body Fat Percentage, Systolic Blood Pressure, Diastolic Blood Pressure.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Percentage Body Fat",
+          "Body Fat Percentage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Body Circumference Measurements",
+        "Weight of Body Fat"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Waist Circumference",
+        "Hip Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), weight, height, body fat percentage at baseline, waist circumference, hip circumference, abdominal fat percentage, cellulite severity, medical history (hypertension, heart disease, cancer, etc.), medication use (isotretinoin, tetracycline, St. John's Wort, etc.), smoking status, physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Percentage Body Fat",
+          "body fat percentage at baseline"
+        ],
+        [
+          "Body Circumference Measurements",
+          "waist circumference"
+        ],
+        [
+          "Weight of Body Fat",
+          "weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "height",
+        "hip circumference",
+        "abdominal fat percentage",
+        "cellulite severity",
+        "medical history (hypertension, heart disease, cancer, etc.)",
+        "medication use (isotretinoin, tetracycline, St. John's Wort, etc.)",
+        "smoking status",
+        "physical activity level."
+      ]
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "trial_id": "NCT03646162",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, ECOG performance status, duration of androgen deprivation therapy, frequency of hot flashes at baseline, serum total testosterone concentration, liver enzyme levels (ALT, AST), total bilirubin levels, serum creatinine levels, BMI, history of thrombotic events, history of myocardial infarction, compliance with electronic data capture, use of acceptable contraception methods.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Moderate to Severe Hot Flashes",
+          "frequency of hot flashes at baseline"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "duration of androgen deprivation therapy",
+        "serum total testosterone concentration",
+        "liver enzyme levels (ALT, AST)",
+        "total bilirubin levels",
+        "serum creatinine levels",
+        "history of thrombotic events",
+        "history of myocardial infarction",
+        "compliance with electronic data capture",
+        "use of acceptable contraception methods."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Duration of androgen deprivation therapy, Frequency of hot flashes, Serum total testosterone concentration, Body Mass Index, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Moderate to Severe Hot Flashes",
+          "Frequency of hot flashes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "Duration of androgen deprivation therapy",
+        "Serum total testosterone concentration",
+        "Body Mass Index"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prostate Cancer Diagnosis Duration, Androgen Deprivation Therapy Duration, Hot Flash Frequency, Hot Flash Severity, Body Mass Index, Serum Total Testosterone Concentration.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Moderate to Severe Hot Flashes",
+          "Hot Flash Severity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Prostate Cancer Diagnosis Duration",
+        "Androgen Deprivation Therapy Duration",
+        "Hot Flash Frequency",
+        "Body Mass Index",
+        "Serum Total Testosterone Concentration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, ECOG performance status, BMI, prostate cancer stage, duration of androgen deprivation therapy, serum total testosterone concentration, history of hot flashes, average daily frequency of hot flashes at baseline, use of concomitant medications for hot flashes.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Moderate to Severe Hot Flashes",
+          "average daily frequency of hot flashes at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "ECOG performance status",
+        "BMI",
+        "prostate cancer stage",
+        "duration of androgen deprivation therapy",
+        "serum total testosterone concentration",
+        "history of hot flashes",
+        "use of concomitant medications for hot flashes"
+      ]
+    }
+  }
+}

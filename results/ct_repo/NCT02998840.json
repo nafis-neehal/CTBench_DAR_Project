@@ -1,0 +1,179 @@
+{
+  "trial_id": "NCT02998840",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, medical history, physical examination results, vital signs, systolic blood pressure, diastolic blood pressure, hypertension stage, treatment history, use of antihypertensive treatments, ability to comprehend and comply with procedures, informed consent status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "medical history",
+          "medical history"
+        ],
+        [
+          "physical examination results",
+          "physical examination results"
+        ],
+        [
+          "vital signs",
+          "vital signs"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "BMI",
+        "BMI Category",
+        "Smoking History"
+      ],
+      "remaining_candidate_features": [
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "hypertension stage",
+        "treatment history",
+        "use of antihypertensive treatments",
+        "ability to comprehend and comply with procedures",
+        "informed consent status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Body Mass Index, Smoking Status, Alcohol Consumption, Physical Activity Level, Family History of Hypertension, Baseline Creatinine Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Weight",
+        "BMI Category",
+        "Smoking History"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Baseline Systolic Blood Pressure",
+        "Baseline Diastolic Blood Pressure",
+        "Smoking Status",
+        "Alcohol Consumption",
+        "Physical Activity Level",
+        "Family History of Hypertension",
+        "Baseline Creatinine Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Duration of Hypertension, Current Smoking Status, History of Cardiovascular Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Weight",
+        "BMI Category",
+        "Smoking History"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Hypertension",
+        "Duration of Hypertension",
+        "Current Smoking Status",
+        "History of Cardiovascular Disease."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), arm circumference, systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, medical history (including cardiovascular disease, renal disease, diabetes, hypertension), concomitant medications, smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Smoking History",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Weight",
+        "BMI Category"
+      ],
+      "remaining_candidate_features": [
+        "arm circumference",
+        "systolic blood pressure (SBP)",
+        "diastolic blood pressure (DBP)",
+        "heart rate",
+        "medical history (including cardiovascular disease, renal disease, diabetes, hypertension)",
+        "concomitant medications",
+        "alcohol consumption"
+      ]
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "trial_id": "NCT01725815",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Race/Ethnicity, Socioeconomic Status, Education Level, Employment Status, Marital Status, Type of Serious Mental Illness, Duration of Serious Mental Illness, Type of Chronic Medical Condition, Duration of Chronic Medical Condition, Baseline Health-Related Quality of Life (HRQOL), Medication Use, Smoking Status, Alcohol Use, Physical Activity Level, Body Mass Index (BMI), Blood Pressure, Cholesterol Levels, Blood Glucose Levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Medical Diagnosis",
+          "Type of Chronic Medical Condition"
+        ],
+        [
+          "Primary Mental Diagnosis",
+          "Type of Serious Mental Illness"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Total annual Income",
+        "Insurance status"
+      ],
+      "remaining_candidate_features": [
+        "Socioeconomic Status",
+        "Education Level",
+        "Employment Status",
+        "Marital Status",
+        "Duration of Serious Mental Illness",
+        "Duration of Chronic Medical Condition",
+        "Baseline Health-Related Quality of Life (HRQOL)",
+        "Medication Use",
+        "Smoking Status",
+        "Alcohol Use",
+        "Physical Activity Level",
+        "Body Mass Index (BMI)",
+        "Blood Pressure",
+        "Cholesterol Levels",
+        "Blood Glucose Levels"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Serious Mental Illness, Type of Chronic Medical Condition, Baseline Health Related Quality of Life (HRQOL),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Primary Mental Diagnosis",
+          "Type of Serious Mental Illness"
+        ],
+        [
+          "Medical Diagnosis",
+          "Type of Chronic Medical Condition"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Total annual Income",
+        "Insurance status"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Health Related Quality of Life (HRQOL)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Serious Mental Illness Diagnosis, Chronic Medical Condition, Cognitive Impairment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Medical Diagnosis",
+          "Chronic Medical Condition"
+        ],
+        [
+          "Primary Mental Diagnosis",
+          "Serious Mental Illness Diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Total annual Income",
+        "Insurance status"
+      ],
+      "remaining_candidate_features": [
+        "Cognitive Impairment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, employment status, marital status, living situation, smoking status, body mass index (BMI), medical comorbidity count, SMI diagnosis, duration of SMI, medication adherence, healthcare utilization, HRQOL at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Medical Diagnosis",
+          "medical comorbidity count"
+        ],
+        [
+          "Primary Mental Diagnosis",
+          "SMI diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Total annual Income",
+        "Insurance status"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "education level",
+        "employment status",
+        "marital status",
+        "living situation",
+        "smoking status",
+        "body mass index (BMI)",
+        "duration of SMI",
+        "medication adherence",
+        "healthcare utilization",
+        "HRQOL at baseline."
+      ]
+    }
+  }
+}

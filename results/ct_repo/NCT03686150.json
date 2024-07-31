@@ -1,0 +1,180 @@
+{
+  "trial_id": "NCT03686150",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), asthma severity, baseline serum 25(OH) D level, race/ethnicity, history of asthma medication use, baseline lung function (e.g., FEV1), socioeconomic status, dietary vitamin D intake, physical activity level, baseline calcium levels, baseline parathyroid hormone levels, baseline kidney function, baseline liver function, history of vitamin D supplementation, language spoken (English or Spanish).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Baseline Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Baseline 25(OH)D",
+          "baseline serum 25(OH) D level"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race/ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "BMI percentile",
+        "Rural-Urban Commuting Area (RUCA) codes",
+        "Baseline 25(OH)D level > 100 ng/mL"
+      ],
+      "remaining_candidate_features": [
+        "asthma severity",
+        "history of asthma medication use",
+        "baseline lung function (e.g., FEV1)",
+        "socioeconomic status",
+        "dietary vitamin D intake",
+        "physical activity level",
+        "baseline calcium levels",
+        "baseline parathyroid hormone levels",
+        "baseline kidney function",
+        "baseline liver function",
+        "history of vitamin D supplementation",
+        "language spoken (English or Spanish)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline Serum 25(OH) D Level, Asthma Severity, Use of Asthma Medication,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Baseline Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline 25(OH)D",
+          "Baseline Serum 25(OH) D Level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "BMI percentile",
+        "Rural-Urban Commuting Area (RUCA) codes",
+        "Baseline 25(OH)D level > 100 ng/mL"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Asthma Severity",
+        "Use of Asthma Medication"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Serum 25(OH) D level, Asthma Control Questionnaire score, Forced Expiratory Volume in 1 second (FEV1), Parent-reported asthma symptoms,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Baseline Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Baseline 25(OH)D",
+          "Serum 25(OH) D level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "BMI percentile",
+        "Rural-Urban Commuting Area (RUCA) codes",
+        "Baseline 25(OH)D level > 100 ng/mL"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Asthma Control Questionnaire score",
+        "Forced Expiratory Volume in 1 second (FEV1)",
+        "Parent-reported asthma symptoms"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index, race, ethnicity, asthma severity, duration of asthma, serum 25(OH) D level, calcium levels, creatinine levels, parathyroid hormone levels, liver function tests, spot urine calcium/creatinine ratio, asthma medication use, comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Baseline Body Mass Index (BMI)",
+          "body mass index"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Baseline 25(OH)D",
+          "serum 25(OH) D level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "BMI percentile",
+        "Rural-Urban Commuting Area (RUCA) codes",
+        "Baseline 25(OH)D level > 100 ng/mL"
+      ],
+      "remaining_candidate_features": [
+        "asthma severity",
+        "duration of asthma",
+        "calcium levels",
+        "creatinine levels",
+        "parathyroid hormone levels",
+        "liver function tests",
+        "spot urine calcium/creatinine ratio",
+        "asthma medication use",
+        "comorbidities"
+      ]
+    }
+  }
+}

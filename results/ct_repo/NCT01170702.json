@@ -1,0 +1,160 @@
+{
+  "trial_id": "NCT01170702",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, ASA classification, type of incision, type of anesthetic received, eligibility for intrathecal morphine, history of chronic pain, history of diabetes mellitus, prior epidural placement, opioid consumption in the past year, use of NSAIDs, medical therapies resulting in opioid tolerance, cesarean delivery after failed vaginal trial of labor.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Estimated Gestational Age (EGA)",
+        "# previous Cesarean deliveries",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "ASA classification",
+        "type of incision",
+        "type of anesthetic received",
+        "eligibility for intrathecal morphine",
+        "history of chronic pain",
+        "history of diabetes mellitus",
+        "prior epidural placement",
+        "opioid consumption in the past year",
+        "use of NSAIDs",
+        "medical therapies resulting in opioid tolerance",
+        "cesarean delivery after failed vaginal trial of labor."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, ASA Physical Status Classification, Type of Cesarean Delivery Incision, Eligibility for Spinal Anesthetic, Eligibility for Intrathecal Morphine,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Estimated Gestational Age (EGA)",
+        "# previous Cesarean deliveries"
+      ],
+      "remaining_candidate_features": [
+        "ASA Physical Status Classification",
+        "Type of Cesarean Delivery Incision",
+        "Eligibility for Spinal Anesthetic",
+        "Eligibility for Intrathecal Morphine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, ASA Status, BMI, Parity, Gestational Age, History of Chronic Pain, History of Diabetes Mellitus, Previous Cesarean Delivery, Type of Anesthesia, Incision Type,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "BMI"
+        ],
+        [
+          "Estimated Gestational Age (EGA)",
+          "Gestational Age"
+        ],
+        [
+          "# previous Cesarean deliveries",
+          "Previous Cesarean Delivery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "ASA Status",
+        "Parity",
+        "History of Chronic Pain",
+        "History of Diabetes Mellitus",
+        "Type of Anesthesia",
+        "Incision Type"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, BMI, ASA classification, parity, gestational age, history of chronic pain, history of diabetes mellitus, type of cesarean delivery, prior epidural placement, medical therapies for pain tolerance, NSAIDs use, opioid use, pain scores at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "BMI"
+        ],
+        [
+          "Estimated Gestational Age (EGA)",
+          "gestational age"
+        ],
+        [
+          "# previous Cesarean deliveries",
+          "parity"
+        ],
+        [
+          "Race/Ethnicity",
+          "history of chronic pain"
+        ],
+        [
+          "Sex: Female",
+          "history of diabetes mellitus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ASA classification",
+        "type of cesarean delivery",
+        "prior epidural placement",
+        "medical therapies for pain tolerance",
+        "NSAIDs use",
+        "opioid use",
+        "pain scores at baseline"
+      ]
+    }
+  }
+}

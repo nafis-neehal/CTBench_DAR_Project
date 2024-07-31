@@ -1,0 +1,186 @@
+{
+  "trial_id": "NCT04073056",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, gender, baseline pain score, comorbidities, medication use, duration of surgery, ASA physical status classification, history of substance abuse, baseline opioid use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Existence of preexisting pain",
+          "baseline pain score"
+        ],
+        [
+          "Recreational drug use",
+          "history of substance abuse"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Pre Non-analgesic Meds",
+        "Pre Analgesic Meds",
+        "Preop Systolic Blood Pressure (BP)",
+        "Preop Diastolic BP",
+        "Preop Mean Arterial Pressure (MAP)",
+        "Preop Heart Rate (HR)",
+        "Preop Respiratory Rate (RR)",
+        "Preop Oxygen Saturation (SpO2)"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "comorbidities",
+        "medication use",
+        "duration of surgery",
+        "ASA physical status classification",
+        "baseline opioid use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, ASA Physical Status Classification, History of substance abuse, Chronic opioid use, Coagulopathy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "History of substance abuse",
+          "History of substance abuse"
+        ],
+        [
+          "Chronic opioid use",
+          "Chronic opioid use"
+        ],
+        [
+          "Coagulopathy",
+          "Coagulopathy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Existence of preexisting pain",
+        "Pre Non-analgesic Meds",
+        "Pre Analgesic Meds",
+        "Recreational drug use",
+        "Preop Systolic Blood Pressure (BP)",
+        "Preop Diastolic BP",
+        "Preop Mean Arterial Pressure (MAP)",
+        "Preop Heart Rate (HR)",
+        "Preop Respiratory Rate (RR)",
+        "Preop Oxygen Saturation (SpO2)"
+      ],
+      "remaining_candidate_features": [
+        "ASA Physical Status Classification"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, ASA Classification, History of Substance Abuse, History of Chronic Opioid Use, Coagulopathy Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "History of substance abuse",
+          "History of Substance Abuse"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Existence of preexisting pain",
+        "Pre Non-analgesic Meds",
+        "Pre Analgesic Meds",
+        "Recreational drug use",
+        "Preop Systolic Blood Pressure (BP)",
+        "Preop Diastolic BP",
+        "Preop Mean Arterial Pressure (MAP)",
+        "Preop Heart Rate (HR)",
+        "Preop Respiratory Rate (RR)",
+        "Preop Oxygen Saturation (SpO2)"
+      ],
+      "remaining_candidate_features": [
+        "ASA Classification",
+        "History of Chronic Opioid Use",
+        "Coagulopathy Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, ASA classification, history of substance abuse, history of chronic opioid use, coagulation status, presence of local infection.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Recreational drug use",
+          "history of substance abuse"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Existence of preexisting pain",
+        "Pre Non-analgesic Meds",
+        "Pre Analgesic Meds",
+        "Preop Systolic Blood Pressure (BP)",
+        "Preop Diastolic BP",
+        "Preop Mean Arterial Pressure (MAP)",
+        "Preop Heart Rate (HR)",
+        "Preop Respiratory Rate (RR)",
+        "Preop Oxygen Saturation (SpO2)"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "weight",
+        "height",
+        "ASA classification",
+        "history of chronic opioid use",
+        "coagulation status",
+        "presence of local infection."
+      ]
+    }
+  }
+}

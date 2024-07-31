@@ -1,0 +1,191 @@
+{
+  "trial_id": "NCT02769481",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, body mass index (BMI), duration of type 2 diabetes mellitus (T2DM), baseline HbA1c, baseline fasting plasma glucose, baseline blood pressure, baseline cholesterol levels, concomitant medications, history of cardiovascular disease, renal function, liver function, smoking status, physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Body Weight at Baseline",
+        "Systolic Blood Pressure at Baseline",
+        "Systolic Blood Pressure Categories"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 2 diabetes mellitus (T2DM)",
+        "baseline HbA1c",
+        "baseline fasting plasma glucose",
+        "baseline blood pressure",
+        "baseline cholesterol levels",
+        "concomitant medications",
+        "history of cardiovascular disease",
+        "renal function",
+        "liver function",
+        "smoking status",
+        "physical activity level"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Blood Pressure, Cholesterol, Use of Blood Pressure Medications, Use of Cholesterol Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Height",
+        "Body Weight at Baseline",
+        "Systolic Blood Pressure at Baseline",
+        "Systolic Blood Pressure Categories"
+      ],
+      "remaining_candidate_features": [
+        "Baseline HbA1c",
+        "Duration of Diabetes",
+        "Blood Pressure",
+        "Cholesterol",
+        "Use of Blood Pressure Medications",
+        "Use of Cholesterol Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, Body Mass Index, HbA1c, Blood pressure, Cholesterol, Triglycerides, Previous cardiovascular disease (CVD) event,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Height",
+        "Body Weight at Baseline",
+        "Systolic Blood Pressure at Baseline",
+        "Systolic Blood Pressure Categories"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes duration",
+        "HbA1c",
+        "Blood pressure",
+        "Cholesterol",
+        "Triglycerides",
+        "Previous cardiovascular disease (CVD) event"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, duration of diabetes, HbA1c at baseline, fasting plasma glucose at baseline, systolic blood pressure at baseline, diastolic blood pressure at baseline, LDL cholesterol at baseline, HDL cholesterol at baseline, triglycerides at baseline, history of cardiovascular disease, history of hypertension, history of dyslipidemia, current smoking status, metformin dose at baseline, other oral diabetes medications at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Systolic Blood Pressure at Baseline",
+          "systolic blood pressure at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Body Weight at Baseline",
+        "Systolic Blood Pressure Categories"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "HbA1c at baseline",
+        "fasting plasma glucose at baseline",
+        "diastolic blood pressure at baseline",
+        "LDL cholesterol at baseline",
+        "HDL cholesterol at baseline",
+        "triglycerides at baseline",
+        "history of cardiovascular disease",
+        "history of hypertension",
+        "history of dyslipidemia",
+        "current smoking status",
+        "metformin dose at baseline",
+        "other oral diabetes medications at baseline"
+      ]
+    }
+  }
+}

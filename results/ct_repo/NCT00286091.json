@@ -1,0 +1,170 @@
+{
+  "trial_id": "NCT00286091",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Race, Ethnicity, Body Mass Index (BMI), Baseline PSA level, Total testosterone level, Duration of androgen-deprivation therapy (ADT), Prior orchiectomy status, PSA doubling time, Gleason score, ECOG performance status, Prior treatments for prostate cancer, Comorbid conditions, Smoking status, Alcohol use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Prostate-Specific Antigen (PSA) Doubling Time",
+          "PSA doubling time"
+        ],
+        [
+          "Prostate-Specific Antigen (PSA) \u2265 8.0 ng/mL",
+          "Baseline PSA level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Prior Chemotherapy Regimens"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "Body Mass Index (BMI)",
+        "Total testosterone level",
+        "Duration of androgen-deprivation therapy (ADT)",
+        "Prior orchiectomy status",
+        "Gleason score",
+        "Prior treatments for prostate cancer",
+        "Comorbid conditions",
+        "Smoking status",
+        "Alcohol use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline PSA level, Testosterone level, Duration of androgen-deprivation therapy, Prostate cancer stage, Prior treatments,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Prostate-Specific Antigen (PSA) Doubling Time",
+          "Baseline PSA level"
+        ],
+        [
+          "Prostate-Specific Antigen (PSA) \u2265 8.0 ng/mL",
+          "Baseline PSA level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+        "Prior Chemotherapy Regimens"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Testosterone level",
+        "Duration of androgen-deprivation therapy",
+        "Prostate cancer stage",
+        "Prior treatments"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, PSA value, Total testosterone level, Time since bilateral orchiectomy, Time since start of ADT, Prior chemotherapy, Prior radiotherapy, ECOG performance status, Bone pain at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG)Pperformance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Prostate-Specific Antigen (PSA) Doubling Time",
+          "PSA value"
+        ],
+        [
+          "Prostate-Specific Antigen (PSA) \u2265 8.0 ng/mL",
+          "PSA value"
+        ],
+        [
+          "Prior Chemotherapy Regimens",
+          "Prior chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Total testosterone level",
+        "Time since bilateral orchiectomy",
+        "Time since start of ADT",
+        "Prior radiotherapy",
+        "Bone pain at baseline."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, race, ethnicity, body mass index (BMI), prostate-specific antigen (PSA) value, PSA doubling time, total testosterone level, duration of androgen-deprivation therapy (ADT), type of ADT (bilateral orchiectomy or GnRH agonist/antagonist), presence of lymph node metastases.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Prostate-Specific Antigen (PSA) Doubling Time",
+          "PSA doubling time"
+        ],
+        [
+          "Prostate-Specific Antigen (PSA) \u2265 8.0 ng/mL",
+          "prostate-specific antigen (PSA) value"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+        "Prior Chemotherapy Regimens"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "total testosterone level",
+        "duration of androgen-deprivation therapy (ADT)",
+        "type of ADT (bilateral orchiectomy or GnRH agonist/antagonist)",
+        "presence of lymph node metastases."
+      ]
+    }
+  }
+}

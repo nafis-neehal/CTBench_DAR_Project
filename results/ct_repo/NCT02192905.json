@@ -1,0 +1,190 @@
+{
+  "trial_id": "NCT02192905",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, smartphone usage, internet connectivity, primary care physician clearance, gender, baseline weight, baseline problem-solving skills, frequency of smartphone use, previous use of weight loss mobile apps, Facebook account activity, Gmail account status, mental health status, pregnancy status, history of bariatric surgery, medication affecting weight, consent status, prisoner status, language proficiency, diabetes status, willingness to be audiotaped, mobility status, medical conditions affecting lifestyle changes.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Weight",
+          "baseline weight"
+        ],
+        [
+          "Social-Problem Solving Inventory-Revised",
+          "baseline problem-solving skills"
+        ],
+        [
+          "Facebook Use",
+          "Facebook account activity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "smartphone usage",
+        "internet connectivity",
+        "primary care physician clearance",
+        "gender",
+        "frequency of smartphone use",
+        "previous use of weight loss mobile apps",
+        "Gmail account status",
+        "mental health status",
+        "pregnancy status",
+        "history of bariatric surgery",
+        "medication affecting weight",
+        "consent status",
+        "prisoner status",
+        "language proficiency",
+        "diabetes status",
+        "willingness to be audiotaped",
+        "mobility status",
+        "medical conditions affecting lifestyle changes"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Smartphone Usage, Internet Connectivity, Weight,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "Facebook Use",
+          "Smartphone Usage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Social-Problem Solving Inventory-Revised"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Internet Connectivity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Body Mass Index, Android Smartphone User, Internet Connectivity, Primary Care Physician Clearance, Facebook Account, Gmail Account, Problem-Solving Skills, Weight Loss at 8 and 16 weeks,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Facebook Use",
+          "Facebook Account"
+        ],
+        [
+          "Social-Problem Solving Inventory-Revised",
+          "Problem-Solving Skills"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Android Smartphone User",
+        "Internet Connectivity",
+        "Primary Care Physician Clearance",
+        "Gmail Account",
+        "Weight Loss at 8 and 16 weeks"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, race, ethnicity, education level, occupation, smartphone model and type, internet connectivity, Facebook and Gmail account usage, problem-solving skills, weight loss history, medical history (including diabetes, bariatric surgery, medication affecting weight), PCP written clearance, Android software version.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Social-Problem Solving Inventory-Revised",
+          "problem-solving skills"
+        ],
+        [
+          "Facebook Use",
+          "Facebook and Gmail account usage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "height",
+        "education level",
+        "occupation",
+        "smartphone model and type",
+        "internet connectivity",
+        "weight loss history",
+        "medical history (including diabetes, bariatric surgery, medication affecting weight)",
+        "PCP written clearance",
+        "Android software version."
+      ]
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "trial_id": "NCT02413320",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, ECOG Performance Status, hormone receptor status, HER-2 status, tumor stage, leukocyte count, absolute neutrophil count, platelet count, total bilirubin, AST(SGOT)/ALT(SPGT) levels, creatinine levels, creatinine clearance, serum albumin, left ventricular ejection fraction (LVEF), breast and axillary imaging results, presence of clinically/radiologically abnormal axillary lymph nodes, neuropathy grade, history of allergic reactions to study compounds, presence of uncontrolled intercurrent illness, pregnancy/nursing status, history of concomitant or previous malignancies, cardiac function status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Lymph node status",
+          "presence of clinically/radiologically abnormal axillary lymph nodes"
+        ],
+        [
+          "T stage",
+          "tumor stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "hormone receptor status",
+        "HER-2 status",
+        "leukocyte count",
+        "absolute neutrophil count",
+        "platelet count",
+        "total bilirubin",
+        "AST(SGOT)/ALT(SPGT) levels",
+        "creatinine levels",
+        "creatinine clearance",
+        "serum albumin",
+        "left ventricular ejection fraction (LVEF)",
+        "breast and axillary imaging results",
+        "neuropathy grade",
+        "history of allergic reactions to study compounds",
+        "presence of uncontrolled intercurrent illness",
+        "pregnancy/nursing status",
+        "history of concomitant or previous malignancies",
+        "cardiac function status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Tumor Stage, Hormone Receptor Status, HER-2 Status, Leukocyte Count, Absolute Neutrophil Count, Platelet Count, Total Bilirubin, AST(SGOT)/ALT(SPGT) Levels, Creatinine Levels, Creatinine Clearance, Serum Albumin, Left Ventricular Ejection Fraction (LVEF), Breast and Axillary Imaging Results, Pathological Confirmation of Disease,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Lymph node status",
+        "T stage"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "ECOG Performance Status",
+        "Tumor Stage",
+        "Hormone Receptor Status",
+        "HER-2 Status",
+        "Leukocyte Count",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Total Bilirubin",
+        "AST(SGOT)/ALT(SPGT) Levels",
+        "Creatinine Levels",
+        "Creatinine Clearance",
+        "Serum Albumin",
+        "Left Ventricular Ejection Fraction (LVEF)",
+        "Breast and Axillary Imaging Results",
+        "Pathological Confirmation of Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Menopausal Status, Body Mass Index, ECOG Performance Status, Tumor Stage, Tumor Size, Lymph Node Status, Estrogen Receptor Status, Progesterone Receptor Status, HER2 Status, Ki-67 Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Lymph node status",
+          "Lymph Node Status"
+        ],
+        [
+          "T stage",
+          "Tumor Stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "Menopausal Status",
+        "Body Mass Index",
+        "ECOG Performance Status",
+        "Tumor Size",
+        "Estrogen Receptor Status",
+        "Progesterone Receptor Status",
+        "HER2 Status",
+        "Ki-67 Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, ECOG Performance Status, tumor stage, tumor size, hormone receptor status, HER-2 status, menopausal status, prior breast cancer, prior chemotherapy, prior radiation therapy, prior hormone therapy, LVEF, serum albumin, creatinine clearance, AST, ALT, total bilirubin, leukocytes, absolute neutrophil count, platelets.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "menopausal status"
+        ],
+        [
+          "Lymph node status",
+          "tumor stage"
+        ],
+        [
+          "T stage",
+          "tumor size"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "ECOG Performance Status",
+        "hormone receptor status",
+        "HER-2 status",
+        "prior breast cancer",
+        "prior chemotherapy",
+        "prior radiation therapy",
+        "prior hormone therapy",
+        "LVEF",
+        "serum albumin",
+        "creatinine clearance",
+        "AST",
+        "ALT",
+        "total bilirubin",
+        "leukocytes",
+        "absolute neutrophil count",
+        "platelets"
+      ]
+    }
+  }
+}

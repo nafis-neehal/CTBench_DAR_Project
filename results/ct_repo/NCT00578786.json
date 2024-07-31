@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT00578786",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline pulmonary arterial hypertension severity, baseline liver function tests (LFTs), baseline renal function, baseline cardiovascular status, baseline use of PAH medications, baseline use of contraception (for females of childbearing potential), history of alcohol or drug abuse, compliance with previous medical regimens, participation in other clinical studies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Pulmonary Arterial Hypertension Stratification",
+          "baseline pulmonary arterial hypertension severity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "baseline liver function tests (LFTs)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "6-Minute Walk Distance (6MWD)",
+        "World Heath Organization (WHO) Class",
+        "Borg Dyspnea Index (BDI)"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "baseline renal function",
+        "baseline cardiovascular status",
+        "baseline use of PAH medications",
+        "baseline use of contraception (for females of childbearing potential)",
+        "history of alcohol or drug abuse",
+        "compliance with previous medical regimens",
+        "participation in other clinical studies."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Pulmonary Arterial Hypertension (PAH) Severity, Baseline Liver Function Tests (LFTs), Baseline Cardiovascular Health, Baseline Renal Function, Baseline Hematologic Health, Baseline Gastrointestinal Health, Baseline Immunologic Health, Baseline Endocrine Health, Baseline Metabolic Health, Baseline Central Nervous System Health, Compliance with Previous Medical Regimens, History of Alcohol or Drug Abuse, Participation in Other Clinical Studies",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Pulmonary Arterial Hypertension Stratification",
+          "Baseline Pulmonary Arterial Hypertension (PAH) Severity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "6-Minute Walk Distance (6MWD)",
+        "World Heath Organization (WHO) Class",
+        "Borg Dyspnea Index (BDI)",
+        "Body Mass Index (BMI)"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Region of Enrollment",
+        "Baseline Liver Function Tests (LFTs)",
+        "Baseline Cardiovascular Health",
+        "Baseline Renal Function",
+        "Baseline Hematologic Health",
+        "Baseline Gastrointestinal Health",
+        "Baseline Immunologic Health",
+        "Baseline Endocrine Health",
+        "Baseline Metabolic Health",
+        "Baseline Central Nervous System Health",
+        "Compliance with Previous Medical Regimens",
+        "History of Alcohol or Drug Abuse",
+        "Participation in Other Clinical Studies"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulmonary Arterial Hypertension Diagnosis Duration, World Health Organization Functional Class, Six-Minute Walk Distance, N-terminal pro-brain natriuretic peptide,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Pulmonary Arterial Hypertension Stratification",
+          "Pulmonary Arterial Hypertension Diagnosis Duration"
+        ],
+        [
+          "6-Minute Walk Distance (6MWD)",
+          "Six-Minute Walk Distance"
+        ],
+        [
+          "World Heath Organization (WHO) Class",
+          "World Health Organization Functional Class"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Borg Dyspnea Index (BDI)"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "N-terminal pro-brain natriuretic peptide"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), medical history (including PAH diagnosis and duration), New York Heart Association (NYHA) functional class, 6-minute walk distance, pulmonary artery pressure, cardiac output, pulmonary vascular resistance, World Health Organization (WHO) functional class, concomitant medications, liver function tests (LFTs) at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "6-Minute Walk Distance (6MWD)",
+          "6-minute walk distance"
+        ],
+        [
+          "World Heath Organization (WHO) Class",
+          "World Health Organization (WHO) functional class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Pulmonary Arterial Hypertension Stratification",
+        "Borg Dyspnea Index (BDI)"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "ethnicity",
+        "weight",
+        "height",
+        "medical history (including PAH diagnosis and duration)",
+        "New York Heart Association (NYHA) functional class",
+        "pulmonary artery pressure",
+        "cardiac output",
+        "pulmonary vascular resistance",
+        "concomitant medications",
+        "liver function tests (LFTs) at baseline"
+      ]
+    }
+  }
+}

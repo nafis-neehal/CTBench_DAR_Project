@@ -1,0 +1,187 @@
+{
+  "trial_id": "NCT02643966",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, breast density, prior digital mammography report, family history of BRCA mutation, history of chest radiation therapy, recent mammogram history, signs or symptoms of breast disease, pregnancy status, lactation status, breast implant status, recent breast surgery or biopsy history, prior or current malignancy history, recent screening MRI or 99mTc-sestamibi imaging, consent status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Breast Density",
+          "breast density"
+        ],
+        [
+          "Prior breast imaging",
+          "prior digital mammography report"
+        ],
+        [
+          "Personal history of breast cancer",
+          "prior or current malignancy history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Menopause status",
+        "Tyrer-Cuzick Risk Model 8.0 Available",
+        "estrogen/progesterone use",
+        "endocrine therapy use",
+        "BMI"
+      ],
+      "remaining_candidate_features": [
+        "family history of BRCA mutation",
+        "history of chest radiation therapy",
+        "recent mammogram history",
+        "signs or symptoms of breast disease",
+        "pregnancy status",
+        "lactation status",
+        "breast implant status",
+        "recent breast surgery or biopsy history",
+        "recent screening MRI or 99mTc-sestamibi imaging",
+        "consent status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Family history of breast cancer, Previous breast biopsy, Breast density, Hormone replacement therapy use, Menopausal status, BMI, Prior mammography results",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Breast Density",
+          "Breast density"
+        ],
+        [
+          "Prior breast imaging",
+          "Prior mammography results"
+        ],
+        [
+          "Menopause status",
+          "Menopausal status"
+        ],
+        [
+          "Personal history of breast cancer",
+          "Family history of breast cancer"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "Tyrer-Cuzick Risk Model 8.0 Available",
+        "estrogen/progesterone use",
+        "endocrine therapy use"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Previous breast biopsy",
+        "Hormone replacement therapy use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, Family history of breast cancer, Prior breast biopsy or surgery, Prior breast cancer, Menopausal status, Hormone replacement therapy, Body mass index (BMI), Breast density.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Breast Density",
+          "Breast density"
+        ],
+        [
+          "Prior breast imaging",
+          "Prior breast biopsy or surgery"
+        ],
+        [
+          "Menopause status",
+          "Menopausal status"
+        ],
+        [
+          "Personal history of breast cancer",
+          "Prior breast cancer"
+        ],
+        [
+          "BMI",
+          "Body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Tyrer-Cuzick Risk Model 8.0 Available",
+        "estrogen/progesterone use",
+        "endocrine therapy use"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Ethnic Origin",
+        "Family history of breast cancer",
+        "Hormone replacement therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, body mass index (BMI), family history of breast cancer, prior breast biopsy or surgery, prior breast cancer diagnosis, menopausal status, hormone replacement therapy (HRT) use, breast density category, prior screening mammography results.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Breast Density",
+          "breast density category"
+        ],
+        [
+          "Prior breast imaging",
+          "prior screening mammography results"
+        ],
+        [
+          "Menopause status",
+          "menopausal status"
+        ],
+        [
+          "Personal history of breast cancer",
+          "prior breast cancer diagnosis"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Tyrer-Cuzick Risk Model 8.0 Available",
+        "estrogen/progesterone use",
+        "endocrine therapy use"
+      ],
+      "remaining_candidate_features": [
+        "family history of breast cancer",
+        "prior breast biopsy or surgery",
+        "hormone replacement therapy (HRT) use"
+      ]
+    }
+  }
+}

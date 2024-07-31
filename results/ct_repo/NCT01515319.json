@@ -1,0 +1,177 @@
+{
+  "trial_id": "NCT01515319",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, medical history, physical examination results, 12 lead ECG results, clinical laboratory test results, hepatitis B surface antigen (HBsAg) status, hepatitis C antibody status, HIV I and II test results, drug abuse test results, alcohol test results, smoking status, contraception use, informed consent status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "gender"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "BMI"
+        ],
+        [
+          "Height (cm)",
+          "physical examination results"
+        ],
+        [
+          "Weight (kg)",
+          "clinical laboratory test results"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Race (NIH/OMB)",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "medical history",
+        "12 lead ECG results",
+        "hepatitis B surface antigen (HBsAg) status",
+        "hepatitis C antibody status",
+        "HIV I and II test results",
+        "drug abuse test results",
+        "alcohol test results",
+        "smoking status",
+        "contraception use",
+        "informed consent status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Body Mass Index, Medical History, Physical Examination Results, 12 Lead ECG Results, Clinical Laboratory Test Results, Hepatitis B Surface Antigen Status, Hepatitis C Antibody Status, HIV Status, Drug and Alcohol Test Results, Smoking Status, Contraception Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Race (NIH/OMB)",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Height (cm)",
+        "Weight (kg)"
+      ],
+      "remaining_candidate_features": [
+        "Medical History",
+        "Physical Examination Results",
+        "12 Lead ECG Results",
+        "Clinical Laboratory Test Results",
+        "Hepatitis B Surface Antigen Status",
+        "Hepatitis C Antibody Status",
+        "HIV Status",
+        "Drug and Alcohol Test Results",
+        "Smoking Status",
+        "Contraception Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, BMI, Region of Enrollment, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Waist Circumference, Hip Circumference, Waist-to-Hip Ratio, Fasting Glucose, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "BMI"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Race (NIH/OMB)",
+        "Race/Ethnicity",
+        "Height (cm)",
+        "Weight (kg)"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Heart Rate",
+        "Waist Circumference",
+        "Hip Circumference",
+        "Waist-to-Hip Ratio",
+        "Fasting Glucose",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, ethnicity, medical history, smoking status, alcohol consumption, concomitant medications, laboratory test results (e.g. liver function tests, renal function tests, complete blood count), ECG results, vital signs (e.g. blood pressure, heart rate), physical examination findings, SCOFF questionnaire scores, DEBQ scores.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "sex"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "BMI"
+        ],
+        [
+          "Weight (kg)",
+          "weight"
+        ],
+        [
+          "Height (cm)",
+          "height"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Race (NIH/OMB)",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "medical history",
+        "smoking status",
+        "alcohol consumption",
+        "concomitant medications",
+        "laboratory test results (e.g. liver function tests, renal function tests, complete blood count)",
+        "ECG results",
+        "vital signs (e.g. blood pressure, heart rate)",
+        "physical examination findings",
+        "SCOFF questionnaire scores",
+        "DEBQ scores."
+      ]
+    }
+  }
+}

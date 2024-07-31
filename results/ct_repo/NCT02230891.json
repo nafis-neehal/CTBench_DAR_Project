@@ -1,0 +1,197 @@
+{
+  "trial_id": "NCT02230891",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Blood Pressure, Hemoglobin A1c, Troponin T levels, Left Ventricular Hypertrophy, Coronary or Cerebrovascular Arterial Disease, Systolic BP, Estimated 10-year HF risk, Renal function (eGFR), Serum potassium levels, History of hypertension, History of diabetes, History of obesity, History of metabolic syndrome, History of atrial fibrillation, History of COPD, Current medication use, Left ventricular ejection fraction, Valvular function, Right ventricular function, Liver function (ALT, AST, bilirubin), Alcohol consumption, Drug use, Mental/psychological status, Immunosuppressed condition, Pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Baseline troponin",
+          "Troponin T levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "N-terminal (NT)-pro hormone BNP (NT-proBNP)",
+        "Pulse wave velocity (PWV)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Blood Pressure",
+        "Hemoglobin A1c",
+        "Left Ventricular Hypertrophy",
+        "Coronary or Cerebrovascular Arterial Disease",
+        "Systolic BP",
+        "Estimated 10-year HF risk",
+        "Renal function (eGFR)",
+        "Serum potassium levels",
+        "History of hypertension",
+        "History of diabetes",
+        "History of obesity",
+        "History of metabolic syndrome",
+        "History of atrial fibrillation",
+        "History of COPD",
+        "Current medication use",
+        "Left ventricular ejection fraction",
+        "Valvular function",
+        "Right ventricular function",
+        "Liver function (ALT, AST, bilirubin)",
+        "Alcohol consumption",
+        "Drug use",
+        "Mental/psychological status",
+        "Immunosuppressed condition",
+        "Pregnancy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin A1c, Troponin T, Left Ventricular Hypertrophy, Coronary or Cerebrovascular Arterial Disease, Estimated Glomerular Filtration Rate (eGFR), Metabolic Syndrome,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Baseline troponin",
+          "Troponin T"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "N-terminal (NT)-pro hormone BNP (NT-proBNP)",
+        "Pulse wave velocity (PWV)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hemoglobin A1c",
+        "Left Ventricular Hypertrophy",
+        "Coronary or Cerebrovascular Arterial Disease",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "Metabolic Syndrome"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes Status, Hypertension Status, Troponin T, Estimated 10-year Heart Failure Risk, Left Ventricular Hypertrophy Status, Coronary or Cerebrovascular Arterial Disease Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Sex: Female",
+          "Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Baseline troponin",
+          "Troponin T"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "N-terminal (NT)-pro hormone BNP (NT-proBNP)",
+        "Pulse wave velocity (PWV)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Diabetes Status",
+        "Hypertension Status",
+        "Estimated 10-year Heart Failure Risk",
+        "Left Ventricular Hypertrophy Status",
+        "Coronary or Cerebrovascular Arterial Disease Status."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, heart rate, troponin T level, estimated 10-year heart failure risk, left ventricular hypertrophy, coronary or cerebrovascular arterial disease, history of hypertension, history of diabetes mellitus, history of metabolic syndrome, history of obesity, use of medications for hypertension, diabetes, or cardiovascular disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Baseline troponin",
+          "troponin T level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "N-terminal (NT)-pro hormone BNP (NT-proBNP)",
+        "Pulse wave velocity (PWV)"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "estimated 10-year heart failure risk",
+        "left ventricular hypertrophy",
+        "coronary or cerebrovascular arterial disease",
+        "history of hypertension",
+        "history of diabetes mellitus",
+        "history of metabolic syndrome",
+        "history of obesity",
+        "use of medications for hypertension",
+        "diabetes",
+        "or cardiovascular disease."
+      ]
+    }
+  }
+}

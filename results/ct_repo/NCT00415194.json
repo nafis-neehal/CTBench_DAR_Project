@@ -1,0 +1,161 @@
+{
+  "trial_id": "NCT00415194",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, performance status, liver function tests, kidney function tests, blood cell counts, prior treatment history, presence of metastasis, type of head and neck cancer, use of non-steroidal anti-inflammatory drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "performance status"
+        ],
+        [
+          "Previously Treated for Head and Neck Cancer (HNC)",
+          "prior treatment history"
+        ],
+        [
+          "Distant Metastasis",
+          "presence of metastasis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Prior Treatment with Platinum-Based Therapy",
+        "Primary Site of Disease"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "liver function tests",
+        "kidney function tests",
+        "blood cell counts",
+        "type of head and neck cancer",
+        "use of non-steroidal anti-inflammatory drugs."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Performance Status, Liver Function Tests, Kidney Function Tests, Blood Cell Counts, Region of Enrollment, Previous Cancer Treatment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Previously Treated for Head and Neck Cancer (HNC)",
+          "Previous Cancer Treatment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Prior Treatment with Platinum-Based Therapy",
+        "Distant Metastasis",
+        "Primary Site of Disease"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Liver Function Tests",
+        "Kidney Function Tests",
+        "Blood Cell Counts"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Performance Status, Head and Neck Cancer Stage, Prior Treatment for Cancer, Liver Function, Kidney Function, Blood Cell Count,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Previously Treated for Head and Neck Cancer (HNC)",
+          "Prior Treatment for Cancer"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Prior Treatment with Platinum-Based Therapy",
+        "Distant Metastasis",
+        "Primary Site of Disease"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Head and Neck Cancer Stage",
+        "Liver Function",
+        "Kidney Function",
+        "Blood Cell Count"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, performance status, cancer type, cancer stage, presence of metastases, liver function, kidney function, blood cell count, prior cancer treatment, presence of serious illnesses, use of non-steroidal anti-inflammatory drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Previously Treated for Head and Neck Cancer (HNC)",
+          "prior cancer treatment"
+        ],
+        [
+          "Distant Metastasis",
+          "presence of metastases"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Prior Treatment with Platinum-Based Therapy",
+        "Primary Site of Disease"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "cancer type",
+        "cancer stage",
+        "liver function",
+        "kidney function",
+        "blood cell count",
+        "presence of serious illnesses",
+        "use of non-steroidal anti-inflammatory drugs."
+      ]
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "trial_id": "NCT04946552",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Fasting Plasma Glucose (FPG), Hemoglobin A1c, General Health Status, Presence of Hypertension, Cardiac or Pulmonary Disease, History of Type 1 or Type 2 Diabetes, Hepatic Disease, Use of Anti-Obesity Medications, Use of Anti-Hyperglycemic Medications, Neurological Injury or Illness, Psychiatric Medication Use, Pregnancy or Lactation Status, Claustrophobia, Recent Radiopharmaceutical Use, Radiation Exposure History, History of IV Drug Use, Motor Problems, Chronic Pain, Recent Blood Donation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Weight",
+        "Systolic Blood Pressure (BP)",
+        "Diastolic BP",
+        "Insulin Sensitivity Index (ISI) Score using the Matsuda Index",
+        "Study Group"
+      ],
+      "remaining_candidate_features": [
+        "Fasting Plasma Glucose (FPG)",
+        "Hemoglobin A1c",
+        "General Health Status",
+        "Presence of Hypertension",
+        "Cardiac or Pulmonary Disease",
+        "History of Type 1 or Type 2 Diabetes",
+        "Hepatic Disease",
+        "Use of Anti-Obesity Medications",
+        "Use of Anti-Hyperglycemic Medications",
+        "Neurological Injury or Illness",
+        "Psychiatric Medication Use",
+        "Pregnancy or Lactation Status",
+        "Claustrophobia",
+        "Recent Radiopharmaceutical Use",
+        "Radiation Exposure History",
+        "History of IV Drug Use",
+        "Motor Problems",
+        "Chronic Pain",
+        "Recent Blood Donation"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Fasting Plasma Glucose, Hemoglobin A1c, Percent Body Fat, Percent Body Water,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Percent Body Fat",
+          "Percent Body Fat"
+        ],
+        [
+          "Percent Body Water",
+          "Percent Body Water"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Weight",
+        "Systolic Blood Pressure (BP)",
+        "Diastolic BP",
+        "Insulin Sensitivity Index (ISI) Score using the Matsuda Index",
+        "Study Group"
+      ],
+      "remaining_candidate_features": [
+        "Fasting Plasma Glucose",
+        "Hemoglobin A1c"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Region of Enrollment, Diabetes Status, Hypertension Status, Cardiovascular Disease Status, Smoking Status, Family History of Cardiovascular Disease, Waist Circumference, Hip Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Hemoglobin A1c.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Systolic Blood Pressure (BP)",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic BP",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Weight",
+        "Insulin Sensitivity Index (ISI) Score using the Matsuda Index",
+        "Study Group"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diabetes Status",
+        "Hypertension Status",
+        "Cardiovascular Disease Status",
+        "Smoking Status",
+        "Family History of Cardiovascular Disease",
+        "Waist Circumference",
+        "Hip Circumference",
+        "Fasting Plasma Glucose",
+        "Hemoglobin A1c."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, fasting plasma glucose, hemoglobin A1c, blood pressure, heart rate, percent body fat, percent body water.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Systolic Blood Pressure (BP)",
+          "blood pressure"
+        ],
+        [
+          "Diastolic BP",
+          "blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Insulin Sensitivity Index (ISI) Score using the Matsuda Index",
+        "Study Group"
+      ],
+      "remaining_candidate_features": [
+        "height",
+        "fasting plasma glucose",
+        "hemoglobin A1c",
+        "heart rate",
+        "percent body fat",
+        "percent body water"
+      ]
+    }
+  }
+}

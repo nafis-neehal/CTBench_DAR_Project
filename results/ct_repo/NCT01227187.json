@@ -1,0 +1,226 @@
+{
+  "trial_id": "NCT01227187",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Baseline Platelet Count, Baseline Partial Thromboplastin Time (PTT), Baseline International Normalized Ratio (INR), Systolic Blood Pressure (SBP), History of Bleeding Diathesis, History of Cerebrovascular Accident (CVA), Use of Anticoagulant Medications (Ticlid, Plavix, Warfarin), Pregnancy Status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Platelets",
+          "Baseline Platelet Count"
+        ],
+        [
+          "Partial thromboplastin time",
+          "Baseline Partial Thromboplastin Time (PTT)"
+        ],
+        [
+          "International Normalized Ratio",
+          "Baseline International Normalized Ratio (INR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Height",
+        "Weight",
+        "Diabetes",
+        "Congestive heart failure",
+        "WBC",
+        "Red blood cells",
+        "Hemoglobin",
+        "Hematocrit",
+        "BUN",
+        "Creatinine",
+        "Prothrombin time"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure (SBP)",
+        "History of Bleeding Diathesis",
+        "History of Cerebrovascular Accident (CVA)",
+        "Use of Anticoagulant Medications (Ticlid, Plavix, Warfarin)",
+        "Pregnancy Status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Platelet Count, Baseline Partial Thromboplastin Time (PTT), Baseline International Normalized Ratio (INR), Systolic Blood Pressure, Diastolic Blood Pressure, History of Bleeding Diathesis, History of Cerebrovascular Accident (CVA), Use of Anticoagulant Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Platelets",
+          "Platelet Count"
+        ],
+        [
+          "Partial thromboplastin time",
+          "Baseline Partial Thromboplastin Time (PTT)"
+        ],
+        [
+          "International Normalized Ratio",
+          "Baseline International Normalized Ratio (INR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Diabetes",
+        "Congestive heart failure",
+        "WBC",
+        "Red blood cells",
+        "Hemoglobin",
+        "Hematocrit",
+        "BUN",
+        "Creatinine",
+        "Prothrombin time"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Bleeding Diathesis",
+        "History of Cerebrovascular Accident (CVA)",
+        "Use of Anticoagulant Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemodialysis duration, History of bleeding diathesis, History of CVA, Systolic Blood Pressure, Platelet count, Baseline PTT, INR,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Platelets",
+          "Platelet count"
+        ],
+        [
+          "Partial thromboplastin time",
+          "Baseline PTT"
+        ],
+        [
+          "International Normalized Ratio",
+          "INR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Diabetes",
+        "Congestive heart failure",
+        "WBC",
+        "Red blood cells",
+        "Hemoglobin",
+        "Hematocrit",
+        "BUN",
+        "Creatinine",
+        "Prothrombin time"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Hemodialysis duration",
+        "History of bleeding diathesis",
+        "History of CVA",
+        "Systolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, body mass index (BMI), race, ethnicity, duration of ESRD, duration of hemodialysis, comorbidities (e.g., diabetes, hypertension), medications (e.g., anticoagulants, antiplatelet agents), platelet count, systolic blood pressure (SBP), baseline PTT, international normalized ratio (INR).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Diabetes",
+          "comorbidities (e.g., diabetes, hypertension)"
+        ],
+        [
+          "Platelets",
+          "platelet count"
+        ],
+        [
+          "Partial thromboplastin time",
+          "baseline PTT"
+        ],
+        [
+          "International Normalized Ratio",
+          "international normalized ratio (INR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Congestive heart failure",
+        "WBC",
+        "Red blood cells",
+        "Hemoglobin",
+        "Hematocrit",
+        "BUN",
+        "Creatinine",
+        "Prothrombin time"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "ethnicity",
+        "duration of ESRD",
+        "duration of hemodialysis",
+        "medications (e.g., anticoagulants, antiplatelet agents)",
+        "systolic blood pressure (SBP)"
+      ]
+    }
+  }
+}

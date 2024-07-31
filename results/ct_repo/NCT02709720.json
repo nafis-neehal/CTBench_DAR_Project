@@ -1,0 +1,258 @@
+{
+  "trial_id": "NCT02709720",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Performance status, Life expectancy, Renal function (creatinine, creatinine clearance), Hematologic function (hemoglobin, neutrophils, platelets), Hepatic function (bilirubin, transaminases), Lung function (FEV1, DLCO), Weight loss, Presence of measurable lesion on CT, Mediastinal lymph node involvement, Proportion of normal lung exposed to >20 Gy RT (V20), History of other malignancies, Previous treatments (anticancer drugs, surgery, thoracic radiotherapy), Comorbidities, Sensory neuropathy grade, Pregnancy status, Contraceptive measures, Psychological and sociological factors, Geographical factors, History of neurological or psychiatric disorders.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "ECOG",
+          "Performance status"
+        ],
+        [
+          "Weight",
+          "Weight loss"
+        ],
+        [
+          "Histology",
+          "Mediastinal lymph node involvement"
+        ],
+        [
+          "Stage",
+          "Presence of measurable lesion on CT"
+        ],
+        [
+          "Respiratory functional tests",
+          "Lung function (FEV1, DLCO)"
+        ],
+        [
+          "Compliance",
+          "Psychological and sociological factors"
+        ],
+        [
+          "Region of Enrollment",
+          "Geographical factors"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Smoking status",
+        "Body mass index",
+        "Stage T",
+        "Stage N",
+        "Stage M",
+        "Electrocardiogram",
+        "Cycles"
+      ],
+      "remaining_candidate_features": [
+        "Life expectancy",
+        "Renal function (creatinine, creatinine clearance)",
+        "Hematologic function (hemoglobin, neutrophils, platelets)",
+        "Hepatic function (bilirubin, transaminases)",
+        "Proportion of normal lung exposed to >20 Gy RT (V20)",
+        "History of other malignancies",
+        "Previous treatments (anticancer drugs, surgery, thoracic radiotherapy)",
+        "Comorbidities",
+        "Sensory neuropathy grade",
+        "Pregnancy status",
+        "Contraceptive measures",
+        "History of neurological or psychiatric disorders."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Performance Status, Life Expectancy, Renal Function (Creatinine, Creatinine Clearance), Hematologic Function (Hemoglobin, Neutrophils, Platelets), Hepatic Function (Bilirubin, Transaminases), Lung Function (FEV1, DLCO), Weight Loss, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Performance Status",
+          "ECOG"
+        ],
+        [
+          "Renal Function (Creatinine, Creatinine Clearance)",
+          "Right renal function: creatinine \u2264 1.5 mg / dl or creatinine clearance > 60 ml / min"
+        ],
+        [
+          "Hematologic Function (Hemoglobin, Neutrophils, Platelets)",
+          "Right hematologic function: hemoglobin > 10 g / dl, neutrophils \u2265 1500 / mm3 and platelets \u2265 100,000 / mm3"
+        ],
+        [
+          "Hepatic Function (Bilirubin, Transaminases)",
+          "Right hepatic function: bilirubin \u2264 1.5 times the upper limit of each center, transaminases \u2264 2.5 above the normal limit"
+        ],
+        [
+          "Lung Function (FEV1, DLCO)",
+          "Right lung function without bronchodilators: defined by a forced expiratory volume in 1 second (FEV1) > 50% of predicted normal volume and lung diffusing capacity for carbon monoxide (DLCO) > 40% of predicted normal"
+        ],
+        [
+          "Weight Loss",
+          "Weight loss > 10% in the 3 months prior to study entry"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Smoking status",
+        "Body mass index",
+        "Weight",
+        "Histology",
+        "Stage",
+        "Stage T",
+        "Stage N",
+        "Stage M",
+        "Electrocardiogram",
+        "Respiratory functional tests",
+        "Compliance",
+        "Cycles"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Life Expectancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Performance Status, Histology, Stage, Smoking Status, Pack Years, FEV1, DLCO, Baseline PET-CT, Baseline CT, Hemoglobin, Neutrophils, Platelets, Creatinine, Bilirubin, Transaminases.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Histology",
+          "Histology"
+        ],
+        [
+          "Stage",
+          "Stage"
+        ],
+        [
+          "Performance Status",
+          "ECOG"
+        ],
+        [
+          "Respiratory functional tests",
+          "FEV1"
+        ],
+        [
+          "Respiratory functional tests",
+          "DLCO"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Smoking status",
+        "Body mass index",
+        "Weight",
+        "Stage T",
+        "Stage N",
+        "Stage M",
+        "Electrocardiogram",
+        "Compliance",
+        "Cycles"
+      ],
+      "remaining_candidate_features": [
+        "Smoking Status",
+        "Pack Years",
+        "Baseline PET-CT",
+        "Baseline CT",
+        "Hemoglobin",
+        "Neutrophils",
+        "Platelets",
+        "Creatinine",
+        "Bilirubin",
+        "Transaminases"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, performance status, histological type of NSCLC, stage of disease, presence of mediastinal lymph nodes, number and size of measurable lesions, life expectancy, renal function, hematologic function, hepatic function, lung function, proportion of normal lung exposed to RT (V20), weight, presence of comorbidities, history of other malignancies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "ECOG",
+          "performance status"
+        ],
+        [
+          "Histology",
+          "histological type of NSCLC"
+        ],
+        [
+          "Stage",
+          "stage of disease"
+        ],
+        [
+          "Respiratory functional tests",
+          "lung function"
+        ],
+        [
+          "Weight",
+          "weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Smoking status",
+        "Body mass index",
+        "Stage T",
+        "Stage N",
+        "Stage M",
+        "Electrocardiogram",
+        "Compliance",
+        "Cycles"
+      ],
+      "remaining_candidate_features": [
+        "presence of mediastinal lymph nodes",
+        "number and size of measurable lesions",
+        "life expectancy",
+        "renal function",
+        "hematologic function",
+        "hepatic function",
+        "proportion of normal lung exposed to RT (V20)",
+        "presence of comorbidities",
+        "history of other malignancies."
+      ]
+    }
+  }
+}

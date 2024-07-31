@@ -1,0 +1,191 @@
+{
+  "trial_id": "NCT02328755",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, Karnofsky performance status, total bilirubin, AST levels, ALT levels, GFR, lung function tests (DLCO, FEV1, FVC), ejection fraction, cytogenetic risk, molecular risk, prior induction attempts, antecedent MDS, organ function criteria, contraception use, informed consent status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Cytogenic risk",
+          "cytogenetic risk"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Hematopoietic Cell Transplantation-Comorbidity Index (HCT-CI)CT-Cl",
+        "Disease Status at HCT",
+        "Disease Risk Score",
+        "Time to HCT from AML Diagnosis",
+        "Donor Type",
+        "Human Leukocyte Antigen match",
+        "Donor Source"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky performance status",
+        "total bilirubin",
+        "AST levels",
+        "ALT levels",
+        "GFR",
+        "lung function tests (DLCO, FEV1, FVC)",
+        "ejection fraction",
+        "molecular risk",
+        "prior induction attempts",
+        "antecedent MDS",
+        "organ function criteria",
+        "contraception use",
+        "informed consent status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky Performance Status, Total Bilirubin, AST, ALT, GFR, Lung function tests (DLCO, FEV1, FVC), Ejection fraction, Prior chemotherapy treatment, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Hematopoietic Cell Transplantation-Comorbidity Index (HCT-CI)CT-Cl",
+        "Disease Status at HCT",
+        "Cytogenic risk",
+        "Disease Risk Score",
+        "Time to HCT from AML Diagnosis",
+        "Donor Type",
+        "Human Leukocyte Antigen match",
+        "Donor Source"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Karnofsky Performance Status",
+        "Total Bilirubin",
+        "AST",
+        "ALT",
+        "GFR",
+        "Lung function tests (DLCO, FEV1, FVC)",
+        "Ejection fraction",
+        "Prior chemotherapy treatment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Karnofsky Performance Status, Acute Myeloid Leukemia (AML) diagnosis duration, Prior treatment regimens, Cytogenetic risk, Molecular risk, Hematopoietic Cell Transplant (HCT) type, Donor type, Conditioning regimen, Graft-versus-host disease (GVHD) prophylaxis, Prior infections, Organ function (renal, hepatic, pulmonary, cardiac),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Cytogenic risk",
+          "Cytogenetic risk"
+        ],
+        [
+          "Donor Type",
+          "Donor type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Hematopoietic Cell Transplantation-Comorbidity Index (HCT-CI)CT-Cl",
+        "Disease Status at HCT",
+        "Disease Risk Score",
+        "Time to HCT from AML Diagnosis",
+        "Human Leukocyte Antigen match",
+        "Donor Source"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky Performance Status",
+        "Acute Myeloid Leukemia (AML) diagnosis duration",
+        "Prior treatment regimens",
+        "Molecular risk",
+        "Hematopoietic Cell Transplant (HCT) type",
+        "Conditioning regimen",
+        "Graft-versus-host disease (GVHD) prophylaxis",
+        "Prior infections",
+        "Organ function (renal, hepatic, pulmonary, cardiac)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, Karnofsky performance status, AML subtype, cytogenetic risk, molecular risk, prior treatment regimens, time from diagnosis to HCT, time from prior remission to relapse, number of prior induction attempts, presence of antecedent MDS, organ function (total bilirubin, AST, ALT, GFR, lung function tests, ejection fraction).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Cytogenic risk",
+          "cytogenetic risk"
+        ],
+        [
+          "Time to HCT from AML Diagnosis",
+          "time from diagnosis to HCT"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Hematopoietic Cell Transplantation-Comorbidity Index (HCT-CI)CT-Cl",
+        "Disease Status at HCT",
+        "Disease Risk Score",
+        "Donor Type",
+        "Human Leukocyte Antigen match",
+        "Donor Source"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky performance status",
+        "AML subtype",
+        "molecular risk",
+        "prior treatment regimens",
+        "time from prior remission to relapse",
+        "number of prior induction attempts",
+        "presence of antecedent MDS",
+        "organ function (total bilirubin, AST, ALT, GFR, lung function tests, ejection fraction)"
+      ]
+    }
+  }
+}

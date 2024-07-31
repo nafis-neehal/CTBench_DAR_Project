@@ -1,0 +1,181 @@
+{
+  "trial_id": "NCT00403481",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, body mass index (BMI), baseline systolic blood pressure (SBP), baseline diastolic blood pressure (DBP), duration of Type II diabetes, use of hypoglycemic agents, smoking status, alcohol consumption, baseline kidney function (e.g., serum creatinine), baseline lipid profile (e.g., cholesterol levels), baseline heart rate, baseline HbA1c levels, baseline medication use (e.g., antihypertensives, statins).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Diastolic BP",
+          "baseline diastolic blood pressure (DBP)"
+        ],
+        [
+          "Systolic BP",
+          "baseline systolic blood pressure (SBP)"
+        ],
+        [
+          "Heart rate",
+          "baseline heart rate"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of Type II diabetes",
+        "use of hypoglycemic agents",
+        "smoking status",
+        "alcohol consumption",
+        "baseline kidney function (e.g., serum creatinine)",
+        "baseline lipid profile (e.g., cholesterol levels)",
+        "baseline HbA1c levels",
+        "baseline medication use (e.g., antihypertensives, statins)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Mean Seated Systolic Blood Pressure (MSSBP), Mean Seated Diastolic Blood Pressure (MSDBP), Mean Daytime Systolic Blood Pressure (SBP), Mean Daytime Diastolic Blood Pressure (DBP), Use of Hypoglycemic Agents, Duration of Type II Diabetes,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic BP",
+          "Mean Seated Systolic Blood Pressure (MSSBP)"
+        ],
+        [
+          "Diastolic BP",
+          "Mean Seated Diastolic Blood Pressure (MSDBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Heart rate"
+      ],
+      "remaining_candidate_features": [
+        "Mean Daytime Systolic Blood Pressure (SBP)",
+        "Mean Daytime Diastolic Blood Pressure (DBP)",
+        "Use of Hypoglycemic Agents",
+        "Duration of Type II Diabetes"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, HbA1c, Blood pressure, Total Cholesterol, Triglycerides, BMI, eGFR, History of cardiovascular disease, History of hypertension, History of hyperlipidemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Diastolic BP",
+        "Heart rate",
+        "Systolic BP"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes duration",
+        "HbA1c",
+        "Blood pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "BMI",
+        "eGFR",
+        "History of cardiovascular disease",
+        "History of hypertension",
+        "History of hyperlipidemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of hypertension, duration of type II diabetes, type of hypoglycemic agents used, mean seated systolic blood pressure (MSSBP), mean seated diastolic blood pressure (MSDBP), mean daytime systolic blood pressure, mean daytime diastolic blood pressure, history of cardiovascular disease, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Systolic BP",
+          "mean seated systolic blood pressure (MSSBP)"
+        ],
+        [
+          "Diastolic BP",
+          "mean seated diastolic blood pressure (MSDBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Heart rate"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "duration of hypertension",
+        "duration of type II diabetes",
+        "type of hypoglycemic agents used",
+        "mean daytime systolic blood pressure",
+        "mean daytime diastolic blood pressure",
+        "history of cardiovascular disease",
+        "smoking status"
+      ]
+    }
+  }
+}

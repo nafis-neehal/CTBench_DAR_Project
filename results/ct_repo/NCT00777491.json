@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT00777491",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, weight, performance status, body surface area, white blood cell count, absolute neutrophil count, platelet count, hemoglobin level, serum creatinine, serum bilirubin, creatinine clearance, history of previous systemic chemotherapy, history of previous pelvic radiation therapy, history of other malignancies, presence of severe co-morbidities, pregnancy status, history of allergic reactions to study drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Zubrod Performance Status",
+          "performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "T Stage"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "body surface area",
+        "white blood cell count",
+        "absolute neutrophil count",
+        "platelet count",
+        "hemoglobin level",
+        "serum creatinine",
+        "serum bilirubin",
+        "creatinine clearance",
+        "history of previous systemic chemotherapy",
+        "history of previous pelvic radiation therapy",
+        "history of other malignancies",
+        "presence of severe co-morbidities",
+        "pregnancy status",
+        "history of allergic reactions to study drugs."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Performance Status, White Blood Cell Count, Absolute Neutrophil Count, Platelet Count, Hemoglobin, Serum Creatinine, Serum Bilirubin, Creatinine Clearance, History of Prior Malignancy, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Zubrod Performance Status",
+          "Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "T Stage"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "White Blood Cell Count",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Hemoglobin",
+        "Serum Creatinine",
+        "Serum Bilirubin",
+        "Creatinine Clearance",
+        "History of Prior Malignancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Zubrod Performance Status, Body Mass Index, Hemoglobin, White Blood Cell Count, Absolute Neutrophil Count, Platelets, Serum Creatinine, Serum Bilirubin, Creatinine Clearance, History of Prior Malignancy, History of Cardiovascular Disease, History of Chronic Obstructive Pulmonary Disease, History of Hepatic Insufficiency.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Zubrod Performance Status",
+          "Zubrod Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "T Stage"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Hemoglobin",
+        "White Blood Cell Count",
+        "Absolute Neutrophil Count",
+        "Platelets",
+        "Serum Creatinine",
+        "Serum Bilirubin",
+        "Creatinine Clearance",
+        "History of Prior Malignancy",
+        "History of Cardiovascular Disease",
+        "History of Chronic Obstructive Pulmonary Disease",
+        "History of Hepatic Insufficiency"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, Zubrod Performance Status, body mass index (BMI), smoking status, history of prior malignancies, time from diagnosis to surgery, tumor stage, tumor grade, presence of hydronephrosis, presence of lymph node involvement, presence of distant metastases, serum creatinine, serum bilirubin, creatinine clearance, hemoglobin, white blood cell count, absolute neutrophil count, platelet count.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Zubrod Performance Status",
+          "Zubrod Performance Status"
+        ],
+        [
+          "T Stage",
+          "tumor stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "smoking status",
+        "history of prior malignancies",
+        "time from diagnosis to surgery",
+        "tumor grade",
+        "presence of hydronephrosis",
+        "presence of lymph node involvement",
+        "presence of distant metastases",
+        "serum creatinine",
+        "serum bilirubin",
+        "creatinine clearance",
+        "hemoglobin",
+        "white blood cell count",
+        "absolute neutrophil count",
+        "platelet count"
+      ]
+    }
+  }
+}

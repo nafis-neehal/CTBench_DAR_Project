@@ -1,0 +1,167 @@
+{
+  "trial_id": "NCT00859469",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, histological subtype (epithelial, sarcomatoid, or mixed), disease stage (pleural or peritoneal), measurable disease status, performance status (ECOG), prior treatments (chemotherapy, radiation therapy, pleurodesis), presence of pleural effusions or ascites, estimated life expectancy, presence of active infection, pregnancy status, presence of serious concomitant systemic disorders, presence of a second malignancy, use of investigational agents.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Pathologic Subtype",
+          "histological subtype (epithelial, sarcomatoid, or mixed)"
+        ],
+        [
+          "Prior chemotherapy regimens",
+          "prior treatments (chemotherapy, radiation therapy, pleurodesis)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Primary Site"
+      ],
+      "remaining_candidate_features": [
+        "disease stage (pleural or peritoneal)",
+        "measurable disease status",
+        "performance status (ECOG)",
+        "presence of pleural effusions or ascites",
+        "estimated life expectancy",
+        "presence of active infection",
+        "pregnancy status",
+        "presence of serious concomitant systemic disorders",
+        "presence of a second malignancy",
+        "use of investigational agents."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Performance Status (ECOG), Histological Subtype, Disease Stage, Measurable Disease Presence, Prior Systemic Chemotherapy, Prior Radiation Therapy, Estimated Life Expectancy, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Pathologic Subtype",
+          "Histological Subtype"
+        ],
+        [
+          "Prior chemotherapy regimens",
+          "Prior Systemic Chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment",
+        "Primary Site"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Performance Status (ECOG)",
+        "Disease Stage",
+        "Measurable Disease Presence",
+        "Prior Radiation Therapy",
+        "Estimated Life Expectancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological subtype, Measurable disease, Prior systemic chemotherapy, Prior radiation therapy, Prior pleurodesis, Estimated life expectancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Pathologic Subtype",
+          "Histological subtype"
+        ],
+        [
+          "Prior chemotherapy regimens",
+          "Prior systemic chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Primary Site"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ECOG Performance Status",
+        "Measurable disease",
+        "Prior radiation therapy",
+        "Prior pleurodesis",
+        "Estimated life expectancy."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, performance status (ECOG), histological subtype (epithelial, sarcomatoid, or mixed), disease stage, presence of pleural effusions or ascites, prior systemic chemotherapy, prior radiation therapy, presence of measurable disease, number and size of measurable lesions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Pathologic Subtype",
+          "histological subtype (epithelial, sarcomatoid, or mixed)"
+        ],
+        [
+          "Prior chemotherapy regimens",
+          "prior systemic chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Primary Site"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "performance status (ECOG)",
+        "disease stage",
+        "presence of pleural effusions or ascites",
+        "prior radiation therapy",
+        "presence of measurable disease",
+        "number and size of measurable lesions."
+      ]
+    }
+  }
+}

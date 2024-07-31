@@ -1,0 +1,221 @@
+{
+  "trial_id": "NCT03485950",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline absolute neutrophil count (ANC), baseline temperature, type of malignancy, history of hematopoietic stem cell transplantation, renal function (creatinine clearance), liver function (AST, ALT, total bilirubin), HIV status, prior antibiotic use, history of hypersensitivity or allergic reactions to antibiotics, baseline severity of illness, baseline infection status (bacterial, fungal, viral).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Type of Hematological malignancy",
+          "type of malignancy"
+        ],
+        [
+          "History of Bone Marrow Transplant (BMT) within 1 year",
+          "history of hematopoietic stem cell transplantation"
+        ],
+        [
+          "Temperature at baseline",
+          "baseline temperature"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Temperature at initial presentation",
+        "Site of Microorganisms",
+        "Organism of positive culture",
+        "Microbiology Documentation",
+        "Bacterial Pathogen Causing Documented Infection"
+      ],
+      "remaining_candidate_features": [
+        "baseline absolute neutrophil count (ANC)",
+        "renal function (creatinine clearance)",
+        "liver function (AST, ALT, total bilirubin)",
+        "HIV status",
+        "prior antibiotic use",
+        "history of hypersensitivity or allergic reactions to antibiotics",
+        "baseline severity of illness",
+        "baseline infection status (bacterial, fungal, viral)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Malignancy, Absolute Neutrophil Count (ANC), Fever Temperature, Hospitalization Status, Renal Function (Creatinine Clearance), Liver Function (AST, ALT, Total Bilirubin), HIV Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Type of Hematological malignancy",
+          "Type of Malignancy"
+        ],
+        [
+          "Temperature at initial presentation",
+          "Fever Temperature"
+        ]
+      ],
+      "remaining_reference_features": [
+        "History of Bone Marrow Transplant (BMT) within 1 year",
+        "Site of Microorganisms",
+        "Organism of positive culture",
+        "Temperature at baseline",
+        "Microbiology Documentation",
+        "Bacterial Pathogen Causing Documented Infection"
+      ],
+      "remaining_candidate_features": [
+        "Absolute Neutrophil Count (ANC)",
+        "Hospitalization Status",
+        "Renal Function (Creatinine Clearance)",
+        "Liver Function (AST, ALT, Total Bilirubin)",
+        "HIV Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Neutropenic fever, Absolute Neutrophil Count (ANC), Body Temperature, Malignancy, Hematopoietic Stem Cell Transplantation, Creatinine Clearance (CrCl), Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), Total Bilirubin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Type of Hematological malignancy",
+          "Malignancy"
+        ],
+        [
+          "History of Bone Marrow Transplant (BMT) within 1 year",
+          "Hematopoietic Stem Cell Transplantation"
+        ],
+        [
+          "Temperature at initial presentation",
+          "Body Temperature"
+        ],
+        [
+          "Absolute Neutrophil Count (ANC)",
+          "Absolute Neutrophil Count (ANC)"
+        ],
+        [
+          "Aspartate Aminotransferase (AST)",
+          "Aspartate Aminotransferase (AST)"
+        ],
+        [
+          "Alanine Aminotransferase (ALT)",
+          "Alanine Aminotransferase (ALT)"
+        ],
+        [
+          "Total Bilirubin",
+          "Total Bilirubin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Site of Microorganisms",
+        "Organism of positive culture",
+        "Temperature at baseline",
+        "Microbiology Documentation",
+        "Bacterial Pathogen Causing Documented Infection"
+      ],
+      "remaining_candidate_features": [
+        "Neutropenic fever",
+        "Creatinine Clearance (CrCl)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), absolute neutrophil count (ANC), temperature, type of cancer, time since cancer diagnosis, type of hematopoietic stem cell transplantation, duration of neutropenia, prior antibiotic use, comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Type of Hematological malignancy",
+          "type of cancer"
+        ],
+        [
+          "Temperature at initial presentation",
+          "temperature"
+        ],
+        [
+          "History of Bone Marrow Transplant (BMT) within 1 year",
+          "type of hematopoietic stem cell transplantation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Site of Microorganisms",
+        "Organism of positive culture",
+        "Temperature at baseline",
+        "Microbiology Documentation",
+        "Bacterial Pathogen Causing Documented Infection"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "absolute neutrophil count (ANC)",
+        "time since cancer diagnosis",
+        "duration of neutropenia",
+        "prior antibiotic use",
+        "comorbidities"
+      ]
+    }
+  }
+}

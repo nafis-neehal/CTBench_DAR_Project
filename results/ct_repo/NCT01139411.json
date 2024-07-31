@@ -1,0 +1,181 @@
+{
+  "trial_id": "NCT01139411",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline BMI, socioeconomic status, parental BMI, ethnicity, physical activity level, dietary habits, psychological well-being, family medical history, parental involvement level, education level of parents.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index (kg/m^2)",
+          "baseline BMI"
+        ],
+        [
+          "Parent modeling 1: Dietary Choices (WCSS)",
+          "dietary habits"
+        ],
+        [
+          "Parent modeling 3: Physical Activity (WCSS)",
+          "physical activity level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Parent modeling 2: Self-monitoring (WCSS)",
+        "Parent modeling 4: Weight and Body Concerns",
+        "Communication 1: Negative weight-related comments",
+        "Communication 2: Observed parent-adolescent communication quality"
+      ],
+      "remaining_candidate_features": [
+        "socioeconomic status",
+        "parental BMI",
+        "ethnicity",
+        "psychological well-being",
+        "family medical history",
+        "parental involvement level",
+        "education level of parents"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Parental Involvement, Baseline z-BMI, Socioeconomic Status, Physical Activity Level, Dietary Habits,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (kg/m^2)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment",
+        "Parent modeling 1: Dietary Choices (WCSS)",
+        "Parent modeling 2: Self-monitoring (WCSS)",
+        "Parent modeling 3: Physical Activity (WCSS)",
+        "Parent modeling 4: Weight and Body Concerns",
+        "Communication 1: Negative weight-related comments",
+        "Communication 2: Observed parent-adolescent communication quality"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Parental Involvement",
+        "Baseline z-BMI",
+        "Socioeconomic Status",
+        "Physical Activity Level",
+        "Dietary Habits"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Parent/Guardian Participation, Region of Enrollment, Baseline z-BMI, Parent BMI, Adolescent Age, Pubertal Status, Ethnicity/Race, Family Structure, Socioeconomic Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (kg/m^2)",
+          "Baseline z-BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Parent modeling 1: Dietary Choices (WCSS)",
+        "Parent modeling 2: Self-monitoring (WCSS)",
+        "Parent modeling 3: Physical Activity (WCSS)",
+        "Parent modeling 4: Weight and Body Concerns",
+        "Communication 1: Negative weight-related comments",
+        "Communication 2: Observed parent-adolescent communication quality"
+      ],
+      "remaining_candidate_features": [
+        "Parent/Guardian Participation",
+        "Parent BMI",
+        "Adolescent Age",
+        "Pubertal Status",
+        "Ethnicity/Race",
+        "Family Structure",
+        "Socioeconomic Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, ethnicity, height, weight, z-BMI, body fat percentage, parent's BMI, parent's weight, household income, education level, marital status, family structure, adolescent's pubertal stage, adolescent's dieting history, adolescent's physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (kg/m^2)",
+          "z-BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Parent modeling 1: Dietary Choices (WCSS)",
+        "Parent modeling 2: Self-monitoring (WCSS)",
+        "Parent modeling 3: Physical Activity (WCSS)",
+        "Parent modeling 4: Weight and Body Concerns",
+        "Communication 1: Negative weight-related comments",
+        "Communication 2: Observed parent-adolescent communication quality"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "height",
+        "weight",
+        "body fat percentage",
+        "parent's BMI",
+        "parent's weight",
+        "household income",
+        "education level",
+        "marital status",
+        "family structure",
+        "adolescent's pubertal stage",
+        "adolescent's dieting history",
+        "adolescent's physical activity level"
+      ]
+    }
+  }
+}

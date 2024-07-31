@@ -1,0 +1,207 @@
+{
+  "trial_id": "NCT01864603",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, HIV status, Tuberculosis status, Hypertension status, Diabetes status, Maternal health status, Socioeconomic status, Education level, Employment status, Marital status, Residency duration, Access to healthcare, ART adherence, PrEP usage, Community population size, Distance to health center, Community leader commitment, Transportation accessibility.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Marital Status",
+          "Marital status"
+        ],
+        [
+          "Education",
+          "Education level"
+        ],
+        [
+          "Occupation",
+          "Employment status"
+        ],
+        [
+          "Stable residents",
+          "Residency duration"
+        ],
+        [
+          "Residents living with HIV",
+          "HIV status"
+        ],
+        [
+          "Residents with prevalent hypertension",
+          "Hypertension status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Marital status - polygamous marriage",
+        "Household wealth index quintile"
+      ],
+      "remaining_candidate_features": [
+        "Tuberculosis status",
+        "Diabetes status",
+        "Maternal health status",
+        "Socioeconomic status",
+        "Access to healthcare",
+        "ART adherence",
+        "PrEP usage",
+        "Community population size",
+        "Distance to health center",
+        "Community leader commitment",
+        "Transportation accessibility"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, HIV Status, Tuberculosis Status, Hypertension Status, Diabetes Status, Maternal Child Health Status, Cost Effectiveness, ART Adherence, PrEP Adherence, Community Health Campaign Participation,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Residents living with HIV",
+          "HIV Status"
+        ],
+        [
+          "Residents with prevalent hypertension",
+          "Hypertension Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Marital Status",
+        "Marital status - polygamous marriage",
+        "Education",
+        "Occupation",
+        "Household wealth index quintile",
+        "Stable residents"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Tuberculosis Status",
+        "Diabetes Status",
+        "Maternal Child Health Status",
+        "Cost Effectiveness",
+        "ART Adherence",
+        "PrEP Adherence",
+        "Community Health Campaign Participation"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gender, Region of Enrollment, Community of Residence, HIV Status, CD4 Cell Count, Viral Load, History of Antiretroviral Therapy, Hypertension Status, Diabetes Status, Tuberculosis Status, Maternal Child Health Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Residents living with HIV",
+          "HIV Status"
+        ],
+        [
+          "Residents with prevalent hypertension",
+          "Hypertension Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Marital Status",
+        "Marital status - polygamous marriage",
+        "Education",
+        "Occupation",
+        "Household wealth index quintile",
+        "Stable residents"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Community of Residence",
+        "CD4 Cell Count",
+        "Viral Load",
+        "History of Antiretroviral Therapy",
+        "Diabetes Status",
+        "Tuberculosis Status",
+        "Maternal Child Health Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Sex, Ethnicity, Education level, Occupation, Marital status, Household income, Residence duration, HIV status, CD4 cell count, Viral load, History of ART, History of tuberculosis, History of hypertension, History of diabetes, Maternal and child health indicators, Health insurance status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Marital Status",
+          "Marital status"
+        ],
+        [
+          "Education",
+          "Education level"
+        ],
+        [
+          "Occupation",
+          "Occupation"
+        ],
+        [
+          "Stable residents",
+          "Residence duration"
+        ],
+        [
+          "Residents living with HIV",
+          "HIV status"
+        ],
+        [
+          "Residents with prevalent hypertension",
+          "History of hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Marital status - polygamous marriage",
+        "Household wealth index quintile"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "Household income",
+        "CD4 cell count",
+        "Viral load",
+        "History of ART",
+        "History of tuberculosis",
+        "History of diabetes",
+        "Maternal and child health indicators",
+        "Health insurance status"
+      ]
+    }
+  }
+}

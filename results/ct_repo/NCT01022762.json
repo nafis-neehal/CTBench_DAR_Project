@@ -1,0 +1,172 @@
+{
+  "trial_id": "NCT01022762",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), fasting glucose, HbA1c, duration of diabetes, lipid profile, blood pressure, smoking status, physical activity level, dietary habits, family history of diabetes, baseline insulin levels, baseline C-peptide levels, previous insulin use, previous lipid-lowering agent use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of diagnosed diabetes",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "fasting glucose",
+        "HbA1c",
+        "lipid profile",
+        "blood pressure",
+        "smoking status",
+        "physical activity level",
+        "dietary habits",
+        "family history of diabetes",
+        "baseline insulin levels",
+        "baseline C-peptide levels",
+        "previous insulin use",
+        "previous lipid-lowering agent use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Fasting glucose, HbA1c, Self-monitored plasma glucose (SMPG), Number of main meals per day,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Duration of diagnosed diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Fasting glucose",
+        "Self-monitored plasma glucose (SMPG)",
+        "Number of main meals per day"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity (Chinese), Region of Enrollment, Body Mass Index, Fasting Plasma Glucose, HbA1c, Lipid Profile, Diabetes Duration,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of diagnosed diabetes",
+          "Diabetes Duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity (Chinese)",
+        "Fasting Plasma Glucose",
+        "HbA1c",
+        "Lipid Profile"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), duration of diabetes, HbA1c, fasting glucose, lipid profiles, blood pressure, smoking status, medical history (e.g., hypertension, cardiovascular disease), concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of diagnosed diabetes",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c",
+        "fasting glucose",
+        "lipid profiles",
+        "blood pressure",
+        "smoking status",
+        "medical history (e.g., hypertension, cardiovascular disease)",
+        "concomitant medications"
+      ]
+    }
+  }
+}

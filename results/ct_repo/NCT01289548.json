@@ -1,0 +1,153 @@
+{
+  "trial_id": "NCT01289548",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), baseline renal function (e.g., serum creatinine, glomerular filtration rate), blood pressure, comorbidities (e.g., diabetes, hypertension), duration of end-stage kidney disease, ABO blood type, panel reactive antibody (PRA) level, history of previous surgeries, medication use, smoking status, alcohol use, donor characteristics (e.g., age, gender, BMI, renal function).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body mass index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Cold ischemic time",
+          "duration of end-stage kidney disease"
+        ],
+        [
+          "Relationship",
+          "donor characteristics (e.g., age, gender, BMI, renal function)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "baseline renal function (e.g., serum creatinine, glomerular filtration rate)",
+        "blood pressure",
+        "comorbidities (e.g., diabetes, hypertension)",
+        "ABO blood type",
+        "panel reactive antibody (PRA) level",
+        "history of previous surgeries",
+        "medication use",
+        "smoking status",
+        "alcohol use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline Plasma Creatinine, Baseline Urinary Output, Baseline Plasma NGAL, Blood Type, PRA Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body mass index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Cold ischemic time",
+        "Relationship"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Baseline Plasma Creatinine",
+        "Baseline Urinary Output",
+        "Baseline Plasma NGAL",
+        "Blood Type",
+        "PRA Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes, History of Cardiovascular Disease, Estimated Glomerular Filtration Rate,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body mass index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Cold ischemic time",
+        "Relationship"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Diabetes",
+        "History of Cardiovascular Disease",
+        "Estimated Glomerular Filtration Rate"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index, ethnicity, medical history (diabetes, hypertension, cardiovascular disease), smoking status, duration of dialysis, type of dialysis, PRA level, ABO blood type, donor-recipient relationship, donor age, donor sex, donor body mass index, donor medical history (diabetes, hypertension, cardiovascular disease).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index (BMI)",
+          "body mass index"
+        ],
+        [
+          "Relationship",
+          "donor-recipient relationship"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Cold ischemic time"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "ethnicity",
+        "medical history (diabetes, hypertension, cardiovascular disease)",
+        "smoking status",
+        "duration of dialysis",
+        "type of dialysis",
+        "PRA level",
+        "ABO blood type",
+        "donor age",
+        "donor sex",
+        "donor body mass index",
+        "donor medical history (diabetes, hypertension, cardiovascular disease)"
+      ]
+    }
+  }
+}

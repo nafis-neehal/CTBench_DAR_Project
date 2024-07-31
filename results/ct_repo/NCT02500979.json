@@ -1,0 +1,231 @@
+{
+  "trial_id": "NCT02500979",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), duration of type 1 diabetes mellitus (T1DM), baseline insulin regimen, baseline HbA1c, history of severe hypoglycemia, history of diabetic ketoacidosis, history of hospitalization for glycemic control, use of other medications affecting glucose metabolism, pregnancy status, breastfeeding status, hepatitis C virus antibody (HCV Ab) status, hepatitis B virus surface antigen (HBsAg) status, hepatitis B virus core antibody (anti-Hbc) status, human immunodeficiency virus 1/2 antibody (HIV-1/2 Ab) status, history of alcohol or drug abuse, history of major surgery or blood transfusion, participation in other clinical studies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 1 diabetes mellitus (T1DM)"
+        ],
+        [
+          "Baseline Insulin",
+          "baseline insulin regimen"
+        ],
+        [
+          "Baseline A1c",
+          "baseline HbA1c"
+        ],
+        [
+          "Pregnancy",
+          "pregnancy status"
+        ],
+        [
+          "Breast feeding",
+          "breastfeeding status"
+        ],
+        [
+          "Hepatitis C virus antibody (HCV Ab)",
+          "hepatitis C virus antibody (HCV Ab) status"
+        ],
+        [
+          "Hepatitis B virus surface antigen (HBsAg)",
+          "hepatitis B virus surface antigen (HBsAg) status"
+        ],
+        [
+          "Hepatitis B virus core antibody (anti-Hbc)",
+          "hepatitis B virus core antibody (anti-Hbc) status"
+        ],
+        [
+          "Human immunodeficiency virus 1/2 antibody (HIV-1/2 Ab)",
+          "human immunodeficiency virus 1/2 antibody (HIV-1/2 Ab) status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height",
+        "Renal Status Category",
+        "Baseline Fasting Glucose",
+        "Baseline C-peptide"
+      ],
+      "remaining_candidate_features": [
+        "history of severe hypoglycemia",
+        "history of diabetic ketoacidosis",
+        "history of hospitalization for glycemic control",
+        "use of other medications affecting glucose metabolism",
+        "history of alcohol or drug abuse",
+        "history of major surgery or blood transfusion",
+        "participation in other clinical studies."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, History of Severe Hypoglycemia, History of Diabetic Ketoacidosis,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Baseline A1c",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height",
+        "Current Administration of Insulin",
+        "Renal Status Category",
+        "Baseline Fasting Glucose",
+        "Baseline C-peptide",
+        "Baseline Insulin"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Daily Insulin Dose",
+        "History of Severe Hypoglycemia",
+        "History of Diabetic Ketoacidosis"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Duration of Diabetes, HbA1c, Insulin Dose, History of Hypoglycemia, History of Gastroparesis, History of Diabetic Ketoacidosis, History of Hospitalization for Glycemic Control.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height",
+        "Current Administration of Insulin",
+        "Renal Status Category",
+        "Baseline Fasting Glucose",
+        "Baseline A1c",
+        "Baseline C-peptide",
+        "Baseline Insulin"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c",
+        "Insulin Dose",
+        "History of Hypoglycemia",
+        "History of Gastroparesis",
+        "History of Diabetic Ketoacidosis",
+        "History of Hospitalization for Glycemic Control."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, duration of type 1 diabetes, HbA1c, fasting plasma glucose, insulin dose, history of hypoglycemia, history of diabetic ketoacidosis, history of hospitalization for glycemic control, presence of diabetic complications, smoking status, alcohol consumption, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 1 diabetes"
+        ],
+        [
+          "Baseline A1c",
+          "HbA1c"
+        ],
+        [
+          "Baseline Fasting Glucose",
+          "fasting plasma glucose"
+        ],
+        [
+          "Baseline Insulin",
+          "insulin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height",
+        "Current Administration of Insulin",
+        "Renal Status Category",
+        "Baseline C-peptide"
+      ],
+      "remaining_candidate_features": [
+        "history of hypoglycemia",
+        "history of diabetic ketoacidosis",
+        "history of hospitalization for glycemic control",
+        "presence of diabetic complications",
+        "smoking status",
+        "alcohol consumption",
+        "concomitant medications."
+      ]
+    }
+  }
+}

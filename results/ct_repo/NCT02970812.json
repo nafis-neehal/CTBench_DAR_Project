@@ -1,0 +1,162 @@
+{
+  "trial_id": "NCT02970812",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, waist circumference, body mass index (BMI), baseline weight, blood pressure, fasting glucose levels, lipid profile, physical activity level, dietary intake, smoking status, alcohol consumption, medical history, medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Waist circumference",
+          "waist circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "CT visceral fat"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "baseline weight",
+        "blood pressure",
+        "fasting glucose levels",
+        "lipid profile",
+        "physical activity level",
+        "dietary intake",
+        "smoking status",
+        "alcohol consumption",
+        "medical history",
+        "medication use."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Waist Circumference, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Baseline Physical Activity Level, Baseline Dietary Intake,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Waist circumference",
+          "Waist Circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "CT visceral fat"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Baseline Physical Activity Level",
+        "Baseline Dietary Intake"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Waist Circumference, Body Mass Index, Region of Enrollment, Abdominal Obesity Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Waist circumference",
+          "Waist Circumference"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "CT visceral fat"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Abdominal Obesity Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, waist circumference, body mass index, weight, height, aspartate aminotransferase, alanine aminotransferase, serum creatinine, medical history (coronary arterial disease, cerebrovascular disease, cancer, severe lung diseases, severe cerebral trauma, uncontrolled hypertension, psychiatric diseases including eating disorder).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Waist circumference",
+          "waist circumference"
+        ],
+        [
+          "aspartate aminotransferase",
+          "aspartate aminotransferase"
+        ],
+        [
+          "alanine aminotransferase",
+          "alanine aminotransferase"
+        ],
+        [
+          "serum creatinine",
+          "serum creatinine"
+        ],
+        [
+          "Male",
+          "sex"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment",
+        "CT visceral fat"
+      ],
+      "remaining_candidate_features": [
+        "body mass index",
+        "weight",
+        "height",
+        "medical history (coronary arterial disease, cerebrovascular disease, cancer, severe lung diseases, severe cerebral trauma, uncontrolled hypertension, psychiatric diseases including eating disorder)."
+      ]
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "trial_id": "NCT01566695",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ECOG performance status, baseline hemoglobin levels, baseline platelet count, baseline white blood cell count, baseline serum creatinine, baseline liver function tests, prior MDS treatment history, duration of MDS diagnosis, number of prior RBC transfusions, presence of comorbid conditions, baseline iron levels, baseline vitamin B12 levels, baseline folate levels, history of prior cancers, cardiac history, infection status (HIV, HCV, HBV), gastrointestinal history, hypersensitivity history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Hemoglobin",
+          "baseline hemoglobin levels"
+        ],
+        [
+          "Platelet Count",
+          "baseline platelet count"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Myelodysplastic Syndrome (MDS) World Health Organization (WHO) 2008 Classification",
+        "International Prognostic Scoring System (IPSS)",
+        "Average Red Blood Cell Transfusion Requirement (units per 28 days)",
+        "Platelet Transfusion Status"
+      ],
+      "remaining_candidate_features": [
+        "baseline white blood cell count",
+        "baseline serum creatinine",
+        "baseline liver function tests",
+        "prior MDS treatment history",
+        "duration of MDS diagnosis",
+        "number of prior RBC transfusions",
+        "presence of comorbid conditions",
+        "baseline iron levels",
+        "baseline vitamin B12 levels",
+        "baseline folate levels",
+        "history of prior cancers",
+        "cardiac history",
+        "infection status (HIV, HCV, HBV)",
+        "gastrointestinal history",
+        "hypersensitivity history"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Hemoglobin levels, Platelet count, Red blood cell transfusion history, Thrombocytopenia duration, Baseline comorbidities, Prior cancer history, Liver function test results, Kidney function test results,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Hemoglobin",
+          "Hemoglobin levels"
+        ],
+        [
+          "Platelet Count",
+          "Platelet count"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Myelodysplastic Syndrome (MDS) World Health Organization (WHO) 2008 Classification",
+        "International Prognostic Scoring System (IPSS)",
+        "Average Red Blood Cell Transfusion Requirement (units per 28 days)",
+        "Platelet Transfusion Status"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Red blood cell transfusion history",
+        "Thrombocytopenia duration",
+        "Baseline comorbidities",
+        "Prior cancer history",
+        "Liver function test results",
+        "Kidney function test results"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, IPSS Risk Category, MDS Subtype, Red Blood Cell Transfusion Dependence, Thrombocytopenia, Hemoglobin Level, Platelet Count, Bone Marrow Blast Percentage.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "International Prognostic Scoring System (IPSS)",
+          "IPSS Risk Category"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Myelodysplastic Syndrome (MDS) World Health Organization (WHO) 2008 Classification",
+          "MDS Subtype"
+        ],
+        [
+          "Average Red Blood Cell Transfusion Requirement (units per 28 days)",
+          "Red Blood Cell Transfusion Dependence"
+        ],
+        [
+          "Platelet Count",
+          "Platelet Count"
+        ],
+        [
+          "Hemoglobin",
+          "Hemoglobin Level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Platelet Transfusion Status"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Thrombocytopenia",
+        "Bone Marrow Blast Percentage"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), ECOG performance status, IPSS risk category, MDS subtype, duration of MDS, number of RBC transfusions in the 8 weeks prior to randomization, platelet count, hemoglobin level, absolute neutrophil count, creatinine level, bilirubin level, aspartate aminotransferase (AST) level, alanine aminotransferase (ALT) level, lactate dehydrogenase (LDH) level, presence of cytogenetic abnormalities, prior therapies for MDS.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "International Prognostic Scoring System (IPSS)",
+          "IPSS risk category"
+        ],
+        [
+          "Myelodysplastic Syndrome (MDS) World Health Organization (WHO) 2008 Classification",
+          "MDS subtype"
+        ],
+        [
+          "Average Red Blood Cell Transfusion Requirement (units per 28 days)",
+          "number of RBC transfusions in the 8 weeks prior to randomization"
+        ],
+        [
+          "Platelet Count",
+          "platelet count"
+        ],
+        [
+          "Hemoglobin",
+          "hemoglobin level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Platelet Transfusion Status"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "duration of MDS",
+        "absolute neutrophil count",
+        "creatinine level",
+        "bilirubin level",
+        "aspartate aminotransferase (AST) level",
+        "alanine aminotransferase (ALT) level",
+        "lactate dehydrogenase (LDH) level",
+        "presence of cytogenetic abnormalities",
+        "prior therapies for MDS"
+      ]
+    }
+  }
+}

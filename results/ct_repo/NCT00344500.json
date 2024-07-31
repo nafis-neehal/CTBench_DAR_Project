@@ -1,0 +1,269 @@
+{
+  "trial_id": "NCT00344500",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, diagnosis of psychotic disorder, duration of antipsychotic treatment, type of antipsychotic medication, baseline weight, baseline BMI, baseline body fat percentage, inpatient or outpatient status, competency to sign informed consent, presence of medically unstable condition, pregnancy or breastfeeding status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Diagnosis per the Structured Clinical Interview for the Diagnostic and Statistical Manual",
+          "diagnosis of psychotic disorder"
+        ],
+        [
+          "Antipsychotic (Weight Gain Risk)",
+          "type of antipsychotic medication"
+        ],
+        [
+          "Body Weight",
+          "baseline weight"
+        ],
+        [
+          "Body Mass Index",
+          "baseline BMI"
+        ],
+        [
+          "Percent Body Fat",
+          "baseline body fat percentage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Living Situation",
+        "Marital Status",
+        "Education Level",
+        "Occupation",
+        "Medical Comorbidity",
+        "Length of Psychiatric Illness",
+        "Age of Onset of Psychiatric Illness",
+        "Baseline Psychopathology Ratings",
+        "Waist Circumference",
+        "Framingham Hard Coronary Heart Disease",
+        "Blood Pressure",
+        "Laboratory Tests",
+        "Microalbumin/Creatinine"
+      ],
+      "remaining_candidate_features": [
+        "duration of antipsychotic treatment",
+        "inpatient or outpatient status",
+        "competency to sign informed consent",
+        "presence of medically unstable condition",
+        "pregnancy or breastfeeding status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis of psychotic disorders, Duration of antipsychotic treatment, Baseline weight, Baseline BMI, Baseline body fat percentage,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diagnosis per the Structured Clinical Interview for the Diagnostic and Statistical Manual",
+          "Diagnosis of psychotic disorders"
+        ],
+        [
+          "Antipsychotic (Weight Gain Risk)",
+          "Duration of antipsychotic treatment"
+        ],
+        [
+          "Body Weight",
+          "Baseline weight"
+        ],
+        [
+          "Body Mass Index",
+          "Baseline BMI"
+        ],
+        [
+          "Percent Body Fat",
+          "Baseline body fat percentage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Living Situation",
+        "Marital Status",
+        "Education Level",
+        "Occupation",
+        "Medical Comorbidity",
+        "Length of Psychiatric Illness",
+        "Age of Onset of Psychiatric Illness",
+        "Baseline Psychopathology Ratings",
+        "Waist Circumference",
+        "Framingham Hard Coronary Heart Disease",
+        "Blood Pressure",
+        "Laboratory Tests",
+        "Microalbumin/Creatinine"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Diagnosis of psychotic disorders, Duration of antipsychotic medication use, Weight gain since treatment with SGA's,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Diagnosis per the Structured Clinical Interview for the Diagnostic and Statistical Manual",
+          "Diagnosis of psychotic disorders"
+        ],
+        [
+          "Antipsychotic (Weight Gain Risk)",
+          "Weight gain since treatment with SGA's"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Living Situation",
+        "Marital Status",
+        "Education Level",
+        "Occupation",
+        "Medical Comorbidity",
+        "Length of Psychiatric Illness",
+        "Age of Onset of Psychiatric Illness",
+        "Baseline Psychopathology Ratings",
+        "Body Weight",
+        "Waist Circumference",
+        "Percent Body Fat",
+        "Framingham Hard Coronary Heart Disease",
+        "Blood Pressure",
+        "Laboratory Tests",
+        "Microalbumin/Creatinine"
+      ],
+      "remaining_candidate_features": [
+        "Duration of antipsychotic medication use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, diagnosis (psychotic disorders, schizophrenia, schizoaffective disorder, bipolar illness), duration of antipsychotic treatment, type of antipsychotic medication, BMI, body fat percentage, weight, waist circumference, blood pressure, fasting glucose, lipid profile, smoking status, physical activity level, dietary habits, education level, employment status, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Diagnosis per the Structured Clinical Interview for the Diagnostic and Statistical Manual",
+          "diagnosis (psychotic disorders, schizophrenia, schizoaffective disorder, bipolar illness)"
+        ],
+        [
+          "Antipsychotic (Weight Gain Risk)",
+          "type of antipsychotic medication"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Percent Body Fat",
+          "body fat percentage"
+        ],
+        [
+          "Body Weight",
+          "weight"
+        ],
+        [
+          "Waist Circumference",
+          "waist circumference"
+        ],
+        [
+          "Blood Pressure",
+          "blood pressure"
+        ],
+        [
+          "Education Level",
+          "education level"
+        ],
+        [
+          "Occupation",
+          "employment status"
+        ],
+        [
+          "Marital Status",
+          "marital status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Living Situation",
+        "Medical Comorbidity",
+        "Length of Psychiatric Illness",
+        "Age of Onset of Psychiatric Illness",
+        "Baseline Psychopathology Ratings",
+        "Framingham Hard Coronary Heart Disease",
+        "Laboratory Tests",
+        "Microalbumin/Creatinine"
+      ],
+      "remaining_candidate_features": [
+        "duration of antipsychotic treatment",
+        "fasting glucose",
+        "lipid profile",
+        "smoking status",
+        "physical activity level",
+        "dietary habits"
+      ]
+    }
+  }
+}

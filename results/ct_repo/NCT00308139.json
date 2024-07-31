@@ -1,0 +1,166 @@
+{
+  "trial_id": "NCT00308139",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, ethnicity, baseline HbA1c, body mass index (BMI), duration of diabetes, prior antidiabetic medication use, diet and exercise regimen, baseline fasting plasma glucose, baseline postprandial glucose, baseline blood pressure, baseline lipid profile (total cholesterol, LDL, HDL, triglycerides).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Glycosylated hemoglobin (HbA1c)",
+          "baseline HbA1c"
+        ],
+        [
+          "Background Oral Antidiabetic Agent",
+          "prior antidiabetic medication use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "body mass index (BMI)",
+        "duration of diabetes",
+        "diet and exercise regimen",
+        "baseline fasting plasma glucose",
+        "baseline postprandial glucose",
+        "baseline blood pressure",
+        "baseline lipid profile (total cholesterol, LDL, HDL, triglycerides)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Current Antidiabetic Medications, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Glycosylated hemoglobin (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Background Oral Antidiabetic Agent",
+          "Current Antidiabetic Medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Duration of Diabetes",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Diabetes duration, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, Use of oral antidiabetic medications, Use of insulin, Use of antihypertensive medications, Use of lipid-lowering medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Glycosylated hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Background Oral Antidiabetic Agent",
+          "Use of oral antidiabetic medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Diabetes duration",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol",
+        "Use of insulin",
+        "Use of antihypertensive medications",
+        "Use of lipid-lowering medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, hemoglobin A1c (HbA1c) at screening, type of oral antidiabetic medication(s) used, history of hypertension, history of cardiovascular disease, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Glycosylated hemoglobin (HbA1c)",
+          "hemoglobin A1c (HbA1c) at screening"
+        ],
+        [
+          "Background Oral Antidiabetic Agent",
+          "type of oral antidiabetic medication(s) used"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "body mass index (BMI)",
+        "duration of type 2 diabetes mellitus",
+        "history of hypertension",
+        "history of cardiovascular disease",
+        "smoking status."
+      ]
+    }
+  }
+}

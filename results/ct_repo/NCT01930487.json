@@ -1,0 +1,168 @@
+{
+  "trial_id": "NCT01930487",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Diagnosis of open angle glaucoma, Best corrected visual acuity, Caffeine and smoking status, Cardiovascular health status, Renal health status, Pulmonary health status, History of inflammatory eye diseases, History of intraocular trauma, Use of blood thinning medications, Use of dietary supplements.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Study Eye",
+          "Diagnosis of open angle glaucoma"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Diabetes (Type 2)",
+        "Hypertension",
+        "Duration of OAG"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Best corrected visual acuity",
+        "Caffeine and smoking status",
+        "Cardiovascular health status",
+        "Renal health status",
+        "Pulmonary health status",
+        "History of inflammatory eye diseases",
+        "History of intraocular trauma",
+        "Use of blood thinning medications",
+        "Use of dietary supplements."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline visual acuity, Baseline intraocular pressure, Duration of glaucoma diagnosis, Use of glaucoma medications, Smoking status, Caffeine consumption,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Study Eye",
+          "Baseline visual acuity"
+        ],
+        [
+          "Duration of OAG",
+          "Duration of glaucoma diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Diabetes (Type 2)",
+        "Hypertension"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline intraocular pressure",
+        "Use of glaucoma medications",
+        "Smoking status",
+        "Caffeine consumption"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Primary Open Angle Glaucoma Diagnosis Duration, Best Corrected Visual Acuity, Intraocular Pressure, Mean Arterial Pressure, Pulse Pressure, Heart Rate,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Duration of OAG",
+          "Primary Open Angle Glaucoma Diagnosis Duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Diabetes (Type 2)",
+        "Hypertension",
+        "Study Eye"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Best Corrected Visual Acuity",
+        "Intraocular Pressure",
+        "Mean Arterial Pressure",
+        "Pulse Pressure",
+        "Heart Rate"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, smoking history, caffeine consumption, best corrected visual acuity, intraocular pressure, glaucoma severity, duration of glaucoma diagnosis, current glaucoma medications, medical history (cardiovascular, renal, pulmonary, etc.), concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Study Eye",
+          "best corrected visual acuity"
+        ],
+        [
+          "Duration of OAG",
+          "duration of glaucoma diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Diabetes (Type 2)",
+        "Hypertension"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index",
+        "smoking history",
+        "caffeine consumption",
+        "intraocular pressure",
+        "glaucoma severity",
+        "current glaucoma medications",
+        "medical history (cardiovascular, renal, pulmonary, etc.)",
+        "concomitant medications."
+      ]
+    }
+  }
+}

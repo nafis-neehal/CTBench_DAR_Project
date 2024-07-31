@@ -1,0 +1,202 @@
+{
+  "trial_id": "NCT02466776",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Gestational age, Parity, History of previous cesarean delivery, Diabetes status, Hypertension status, Smoking status, Preoperative hemoglobin level, Duration of surgery, Type of anesthesia used",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age at delivery",
+          "Gestational age"
+        ],
+        [
+          "Number of previous cesarean delivery (CD)",
+          "History of previous cesarean delivery"
+        ],
+        [
+          "Diabetes",
+          "Diabetes status"
+        ],
+        [
+          "Hypertensive Disease",
+          "Hypertension status"
+        ],
+        [
+          "Tobacco use",
+          "Smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Married/partner",
+        "College Graduate",
+        "Private Insurance",
+        "Singleton Gestation",
+        "Time since last cesarean delivery (CD)",
+        "Chorioamnionitis"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Parity",
+        "Preoperative hemoglobin level",
+        "Duration of surgery",
+        "Type of anesthesia used"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, BMI, Gestational Age at Delivery, Parity, History of Previous Cesarean Delivery, Diabetes Status, Hypertension Status, Smoking Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age at delivery",
+          "Gestational Age at Delivery"
+        ],
+        [
+          "Number of previous cesarean delivery (CD)",
+          "History of Previous Cesarean Delivery"
+        ],
+        [
+          "Diabetes",
+          "Diabetes Status"
+        ],
+        [
+          "Hypertensive Disease",
+          "Hypertension Status"
+        ],
+        [
+          "Tobacco use",
+          "Smoking Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Married/partner",
+        "College Graduate",
+        "Private Insurance",
+        "Singleton Gestation",
+        "Time since last cesarean delivery (CD)",
+        "Chorioamnionitis"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Parity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Body Mass Index, Gestational Age, Parity, Previous Cesarean Delivery, Hypertension, Diabetes, Smoking Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age at delivery",
+          "Gestational Age"
+        ],
+        [
+          "Number of previous cesarean delivery (CD)",
+          "Previous Cesarean Delivery"
+        ],
+        [
+          "Diabetes",
+          "Diabetes"
+        ],
+        [
+          "Hypertensive Disease",
+          "Hypertension"
+        ],
+        [
+          "Tobacco use",
+          "Smoking Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Married/partner",
+        "College Graduate",
+        "Private Insurance",
+        "Singleton Gestation",
+        "Time since last cesarean delivery (CD)",
+        "Chorioamnionitis"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Parity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, BMI, parity, gestational age, number of previous cesarean deliveries, medical comorbidities (e.g. hypertension, diabetes), smoking status, ethnicity, socioeconomic status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Gestational age at delivery",
+          "gestational age"
+        ],
+        [
+          "Number of previous cesarean delivery (CD)",
+          "number of previous cesarean deliveries"
+        ],
+        [
+          "Diabetes",
+          "medical comorbidities (e.g. hypertension, diabetes)"
+        ],
+        [
+          "Hypertensive Disease",
+          "medical comorbidities (e.g. hypertension, diabetes)"
+        ],
+        [
+          "Tobacco use",
+          "smoking status"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Married/partner",
+        "College Graduate",
+        "Private Insurance",
+        "Singleton Gestation",
+        "Time since last cesarean delivery (CD)",
+        "Chorioamnionitis"
+      ],
+      "remaining_candidate_features": [
+        "parity",
+        "socioeconomic status."
+      ]
+    }
+  }
+}

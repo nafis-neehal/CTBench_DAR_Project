@@ -1,0 +1,243 @@
+{
+  "trial_id": "NCT02003963",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Menstrual Status, BMI Percentile, Language Proficiency, Willingness to Accept Randomization, Pregnancy Status, Mental Health Hospitalization History, Ambulation Ability, Cardiac Health, Cardiovascular Disease History, Musculoskeletal Health, Presence of Implanted Medical Devices, Ability to Complete Baseline Testing, Medical Conditions Affecting Video Game Play, Family History of Epileptic Seizures, Commitment to Study Sessions",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI (percentile)",
+          "BMI Percentile"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Weight",
+        "Height",
+        "BMI (z-score)",
+        "Waist circumference",
+        "Total body fat",
+        "Leg fat",
+        "Gynoid fat",
+        "Android fat",
+        "Trunk fat",
+        "BMC",
+        "BMD trunk",
+        "BMD spine",
+        "BMD leg",
+        "MRI-Visceral adipose tissue",
+        "MRI-Subcutaneous adipose tissue",
+        "MRI-Total adipose tissue",
+        "SBP",
+        "DBP",
+        "Cholesterol",
+        "HDL-C",
+        "LDL-C",
+        "Triglycerides",
+        "Glucose",
+        "Insulin"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Menstrual Status",
+        "Language Proficiency",
+        "Willingness to Accept Randomization",
+        "Pregnancy Status",
+        "Mental Health Hospitalization History",
+        "Ambulation Ability",
+        "Cardiac Health",
+        "Cardiovascular Disease History",
+        "Musculoskeletal Health",
+        "Presence of Implanted Medical Devices",
+        "Ability to Complete Baseline Testing",
+        "Medical Conditions Affecting Video Game Play",
+        "Family History of Epileptic Seizures",
+        "Commitment to Study Sessions"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, BMI, BMI percentile, Ethnicity, Socioeconomic status, Physical activity level, Dietary habits, Blood pressure, Heart rate, Body fat percentage, Visceral fat, Self-confidence, Quality of life, Screen time, Family history of cardiovascular disease, Mental health status, Menstrual status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI (percentile)",
+          "BMI percentile"
+        ],
+        [
+          "Total body fat",
+          "Body fat percentage"
+        ],
+        [
+          "MRI-Visceral adipose tissue",
+          "Visceral fat"
+        ],
+        [
+          "SBP",
+          "Blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Weight",
+        "Height",
+        "BMI (z-score)",
+        "Waist circumference",
+        "Leg fat",
+        "Gynoid fat",
+        "Android fat",
+        "Trunk fat",
+        "BMC",
+        "BMD trunk",
+        "BMD spine",
+        "BMD leg",
+        "MRI-Subcutaneous adipose tissue",
+        "MRI-Total adipose tissue",
+        "DBP",
+        "Cholesterol",
+        "HDL-C",
+        "LDL-C",
+        "Triglycerides",
+        "Glucose",
+        "Insulin"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "BMI",
+        "Ethnicity",
+        "Socioeconomic status",
+        "Physical activity level",
+        "Dietary habits",
+        "Heart rate",
+        "Self-confidence",
+        "Quality of life",
+        "Screen time",
+        "Family history of cardiovascular disease",
+        "Mental health status",
+        "Menstrual status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnicity, BMI, BMI percentile, Menarcheal status, English proficiency, Pregnancy status, History of mental illness, History of cardiac abnormality, History of cardiovascular disease, History of musculoskeletal injuries, Presence of pacemaker or implanted medical device, Family history of epileptic seizures.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI (percentile)",
+          "BMI percentile"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Weight",
+        "Height",
+        "BMI (z-score)",
+        "Waist circumference",
+        "Total body fat",
+        "Leg fat",
+        "Gynoid fat",
+        "Android fat",
+        "Trunk fat",
+        "BMC",
+        "BMD trunk",
+        "BMD spine",
+        "BMD leg",
+        "MRI-Visceral adipose tissue",
+        "MRI-Subcutaneous adipose tissue",
+        "MRI-Total adipose tissue",
+        "SBP",
+        "DBP",
+        "Cholesterol",
+        "HDL-C",
+        "LDL-C",
+        "Triglycerides",
+        "Glucose",
+        "Insulin"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Ethnicity",
+        "BMI",
+        "Menarcheal status",
+        "English proficiency",
+        "Pregnancy status",
+        "History of mental illness",
+        "History of cardiac abnormality",
+        "History of cardiovascular disease",
+        "History of musculoskeletal injuries",
+        "Presence of pacemaker or implanted medical device",
+        "Family history of epileptic seizures"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI percentile, menarcheal status, English language proficiency, randomization acceptance, pregnancy status, history of mental illness, ambulation ability, electrocardiogram results, cardiovascular disease history, musculoskeletal injury history, pacemaker or implanted medical device presence, seizure history, family seizure history, commitment to weekly gaming sessions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI (percentile)",
+          "BMI percentile"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Weight",
+        "Height",
+        "BMI (z-score)",
+        "Waist circumference",
+        "Total body fat",
+        "Leg fat",
+        "Gynoid fat",
+        "Android fat",
+        "Trunk fat",
+        "BMC",
+        "BMD trunk",
+        "BMD spine",
+        "BMD leg",
+        "MRI-Visceral adipose tissue",
+        "MRI-Subcutaneous adipose tissue",
+        "MRI-Total adipose tissue",
+        "SBP",
+        "DBP",
+        "Cholesterol",
+        "HDL-C",
+        "LDL-C",
+        "Triglycerides",
+        "Glucose",
+        "Insulin"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "menarcheal status",
+        "English language proficiency",
+        "randomization acceptance",
+        "pregnancy status",
+        "history of mental illness",
+        "ambulation ability",
+        "electrocardiogram results",
+        "cardiovascular disease history",
+        "musculoskeletal injury history",
+        "pacemaker or implanted medical device presence",
+        "seizure history",
+        "family seizure history",
+        "commitment to weekly gaming sessions."
+      ]
+    }
+  }
+}

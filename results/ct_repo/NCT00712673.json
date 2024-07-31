@@ -1,0 +1,296 @@
+{
+  "trial_id": "NCT00712673",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), duration of type 2 diabetes, baseline HbA1c, fasting plasma glucose (FPG), plasma insulin, C-peptide, glucagon, proinsulin, body weight, beta-cell function (HOMA-beta), fasting plasma insulin (FPI), adiponectin, renal function (creatinine levels), liver function tests (aspartate aminotransferase, alanine aminotransferase, alkaline phosphatase, total bilirubin), blood pressure (systolic and diastolic), history of cardiovascular events, history of gastrointestinal disease, history of pancreatitis, history of drug or alcohol abuse, use of other medications, presence of diabetic retinopathy or macular edema, laboratory findings (hemoglobin, neutrophils, platelets), hepatitis B and C status, pregnancy status in females of childbearing potential.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "gender"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose (FPG)"
+        ],
+        [
+          "Body Weight",
+          "body weight"
+        ],
+        [
+          "Homeostasis Model Assessment for Beta-cell Function (HOMA-beta)",
+          "beta-cell function (HOMA-beta)"
+        ],
+        [
+          "Adiponectin",
+          "adiponectin"
+        ],
+        [
+          "Fasting Plasma Insulin (FPI)",
+          "fasting plasma insulin (FPI)"
+        ],
+        [
+          "C-peptide",
+          "C-peptide"
+        ],
+        [
+          "Glucagon",
+          "glucagon"
+        ],
+        [
+          "Proinsulin",
+          "proinsulin"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "2-hour Postprandial Plasma Glucose (PPG)",
+        "2-hour Postprandial Plasma Insulin (PPI)",
+        "2-hour Postprandial C-peptide",
+        "Fasting Glucagon",
+        "2-hour Postprandial Glucagon",
+        "Fasting Proinsulin",
+        "2-hour Postprandial Proinsulin",
+        "Glucose Excursion",
+        "Duration of Metformin Treatment",
+        "Metformin Daily Dose"
+      ],
+      "remaining_candidate_features": [
+        "renal function (creatinine levels)",
+        "liver function tests (aspartate aminotransferase, alanine aminotransferase, alkaline phosphatase, total bilirubin)",
+        "blood pressure (systolic and diastolic)",
+        "history of cardiovascular events",
+        "history of gastrointestinal disease",
+        "history of pancreatitis",
+        "history of drug or alcohol abuse",
+        "use of other medications",
+        "presence of diabetic retinopathy or macular edema",
+        "laboratory findings (hemoglobin, neutrophils, platelets)",
+        "hepatitis B and C status",
+        "pregnancy status in females of childbearing potential"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Fasting Plasma Glucose, Body Mass Index, Weight Change, Blood Pressure, Plasma Insulin, C-peptide, Glucagon, Proinsulin, Beta-cell Function, Adiponectin,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Body Weight",
+          "Weight Change"
+        ],
+        [
+          "Homeostasis Model Assessment for Beta-cell Function (HOMA-beta)",
+          "Beta-cell Function"
+        ],
+        [
+          "Adiponectin",
+          "Adiponectin"
+        ],
+        [
+          "Fasting Plasma Insulin (FPI)",
+          "Plasma Insulin"
+        ],
+        [
+          "Fasting C-peptide",
+          "C-peptide"
+        ],
+        [
+          "Fasting Glucagon",
+          "Glucagon"
+        ],
+        [
+          "Fasting Proinsulin",
+          "Proinsulin"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "2-hour Postprandial Plasma Glucose (PPG)",
+        "2-hour Postprandial Plasma Insulin (PPI)",
+        "2-hour Postprandial C-peptide",
+        "2-hour Postprandial Glucagon",
+        "2-hour Postprandial Proinsulin",
+        "Glucose Excursion",
+        "Duration of Metformin Treatment",
+        "Metformin Daily Dose"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Region of Enrollment",
+        "Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of Diabetes, Metformin Dose, History of Cardiovascular Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Metformin Daily Dose",
+          "Metformin Dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "2-hour Postprandial Plasma Glucose (PPG)",
+        "Body Weight",
+        "Homeostasis Model Assessment for Beta-cell Function (HOMA-beta)",
+        "Adiponectin",
+        "Fasting Plasma Insulin (FPI)",
+        "2-hour Postprandial Plasma Insulin (PPI)",
+        "Fasting C-peptide",
+        "2-hour Postprandial C-peptide",
+        "Fasting Glucagon",
+        "2-hour Postprandial Glucagon",
+        "Fasting Proinsulin",
+        "2-hour Postprandial Proinsulin",
+        "Glucose Excursion",
+        "Duration of Metformin Treatment"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Cardiovascular Disease."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of type 2 diabetes, HbA1c, fasting plasma glucose (FPG), systolic and diastolic blood pressure, heart rate, medical history (including cardiovascular, hepatic, neurological, endocrine disease, and malignant tumor), smoking status, metformin dose and duration.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose (FPG)"
+        ],
+        [
+          "Body Weight",
+          "weight"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "Metformin Daily Dose",
+          "metformin dose and duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "2-hour Postprandial Plasma Glucose (PPG)",
+        "Homeostasis Model Assessment for Beta-cell Function (HOMA-beta)",
+        "Adiponectin",
+        "Fasting Plasma Insulin (FPI)",
+        "2-hour Postprandial Plasma Insulin (PPI)",
+        "Fasting C-peptide",
+        "2-hour Postprandial C-peptide",
+        "Fasting Glucagon",
+        "2-hour Postprandial Glucagon",
+        "Fasting Proinsulin",
+        "2-hour Postprandial Proinsulin",
+        "Glucose Excursion",
+        "Duration of Metformin Treatment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "height",
+        "systolic and diastolic blood pressure",
+        "heart rate",
+        "medical history (including cardiovascular, hepatic, neurological, endocrine disease, and malignant tumor)",
+        "smoking status"
+      ]
+    }
+  }
+}

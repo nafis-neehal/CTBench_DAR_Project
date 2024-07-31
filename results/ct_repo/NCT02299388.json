@@ -1,0 +1,171 @@
+{
+  "trial_id": "NCT02299388",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, HbA1c levels, baseline blood pressure, duration of Type 2 diabetes, use of antihypertensive medication, body mass index (BMI), serum creatinine levels, serum triglyceride levels, history of cardiovascular disease, smoking status, alcohol use, baseline weight, baseline heart rate.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Categorical",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "HbA1c levels",
+        "baseline blood pressure",
+        "duration of Type 2 diabetes",
+        "use of antihypertensive medication",
+        "body mass index (BMI)",
+        "serum creatinine levels",
+        "serum triglyceride levels",
+        "history of cardiovascular disease",
+        "alcohol use",
+        "baseline weight",
+        "baseline heart rate"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of Diabetes, Use of Antihypertensive Medication, Serum Creatinine, Serum Triglyceride Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Serum Creatinine",
+          "Serum Creatinine"
+        ],
+        [
+          "Serum Triglyceride Level",
+          "Serum Triglyceride Level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Baseline HbA1c",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Duration of Diabetes",
+        "Use of Antihypertensive Medication"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, Triglycerides, Creatinine, History of Hypertension, History of Cardiovascular Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Duration",
+        "HbA1c",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Body Mass Index",
+        "Triglycerides",
+        "Creatinine",
+        "History of Hypertension",
+        "History of Cardiovascular Disease."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), HbA1c, systolic blood pressure, diastolic blood pressure, heart rate, duration of diabetes, duration of hypertension, type of anti-hypertensive medication, number of anti-hypertensive medications, smoking status, history of cardiovascular disease, serum creatinine, serum triglyceride level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "HbA1c",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "duration of diabetes",
+        "duration of hypertension",
+        "type of anti-hypertensive medication",
+        "number of anti-hypertensive medications",
+        "smoking status",
+        "history of cardiovascular disease",
+        "serum creatinine",
+        "serum triglyceride level"
+      ]
+    }
+  }
+}

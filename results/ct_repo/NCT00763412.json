@@ -1,0 +1,223 @@
+{
+  "trial_id": "NCT00763412",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, diagnosis of cystic fibrosis, pancreatic insufficiency status, fasting blood glucose levels, 2-hour glucose levels, weight stability, spirometry performance, liver function status, history of lung or liver transplantation, use of systemic steroids, presence of active ABPA, medications affecting glucose metabolism.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Fasting Glucose",
+          "fasting blood glucose levels"
+        ],
+        [
+          "2 hour glucose",
+          "2-hour glucose levels"
+        ],
+        [
+          "CRP",
+          "CRP"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "BMI",
+        "Wt Z score",
+        "Fat %",
+        "Lean %",
+        "Tanner stage",
+        "FEV 1",
+        "Fasting C-Peptide",
+        "2 hour c-peptide",
+        "Inflammatory marker"
+      ],
+      "remaining_candidate_features": [
+        "diagnosis of cystic fibrosis",
+        "pancreatic insufficiency status",
+        "weight stability",
+        "spirometry performance",
+        "liver function status",
+        "history of lung or liver transplantation",
+        "use of systemic steroids",
+        "presence of active ABPA",
+        "medications affecting glucose metabolism."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Fasting Blood Glucose, 2-hour Postload Glucose, Weight Stability, Pulmonary Function (Spirometry), Pancreatic Insufficiency,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting Glucose",
+          "Fasting Blood Glucose"
+        ],
+        [
+          "2 hour glucose",
+          "2-hour Postload Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Wt Z score",
+        "Fat %",
+        "Lean %",
+        "Tanner stage",
+        "FEV 1",
+        "Fasting C-Peptide",
+        "2 hour c-peptide",
+        "Inflammatory marker",
+        "CRP"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Weight Stability",
+        "Pulmonary Function (Spirometry)",
+        "Pancreatic Insufficiency"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Cystic Fibrosis Diagnosis Duration, Pancreatic Insufficiency, Fasting Blood Glucose, 2-hour Blood Glucose, BMI, Weight, Forced Expiratory Volume in 1 second (FEV1), Systemic Inflammatory Factors.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Fasting Glucose",
+          "Fasting Blood Glucose"
+        ],
+        [
+          "2 hour glucose",
+          "2-hour Blood Glucose"
+        ],
+        [
+          "FEV 1",
+          "Forced Expiratory Volume in 1 second (FEV1)"
+        ],
+        [
+          "Inflammatory marker",
+          "Systemic Inflammatory Factors"
+        ],
+        [
+          "CRP",
+          "CRP"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment",
+        "Wt Z score",
+        "Fat %",
+        "Lean %",
+        "Tanner stage",
+        "Fasting C-Peptide",
+        "2 hour c-peptide"
+      ],
+      "remaining_candidate_features": [
+        "Cystic Fibrosis Diagnosis Duration",
+        "Pancreatic Insufficiency",
+        "Weight"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, BMI, cystic fibrosis diagnosis duration, pancreatic insufficiency severity, fasting blood glucose, 2-hour oral glucose tolerance test results, spirometry results, liver function test results, history of lung or liver transplantation, history of systemic steroid use, history of ABPA, use of medications affecting glucose metabolism.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Fasting Glucose",
+          "fasting blood glucose"
+        ],
+        [
+          "2 hour glucose",
+          "2-hour oral glucose tolerance test results"
+        ],
+        [
+          "CRP",
+          "CRP"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Wt Z score",
+        "Fat %",
+        "Lean %",
+        "Tanner stage",
+        "FEV 1",
+        "Fasting C-Peptide",
+        "2 hour c-peptide",
+        "Inflammatory marker"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "cystic fibrosis diagnosis duration",
+        "pancreatic insufficiency severity",
+        "spirometry results",
+        "liver function test results",
+        "history of lung or liver transplantation",
+        "history of systemic steroid use",
+        "history of ABPA",
+        "use of medications affecting glucose metabolism."
+      ]
+    }
+  }
+}

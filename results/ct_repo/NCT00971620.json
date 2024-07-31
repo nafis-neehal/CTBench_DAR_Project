@@ -1,0 +1,178 @@
+{
+  "trial_id": "NCT00971620",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, medical history, baseline pain score, number of symptomatic leiomyomas, size of leiomyomas, frequency of pain episodes, prior treatments for leiomyomas, use of pain medications, pregnancy status, presence of neuromuscular disorders, presence of infections at injection sites, prior use of botulinum toxin, presence of other chronic pain conditions, blood pressure stability.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Leiomyoma Distribution",
+          "number of symptomatic leiomyomas"
+        ],
+        [
+          "Location of Lesions",
+          "size of leiomyomas"
+        ],
+        [
+          "Volume of Drug Administered",
+          "prior use of botulinum toxin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "medical history",
+        "baseline pain score",
+        "frequency of pain episodes",
+        "prior treatments for leiomyomas",
+        "use of pain medications",
+        "pregnancy status",
+        "presence of neuromuscular disorders",
+        "presence of infections at injection sites",
+        "presence of other chronic pain conditions",
+        "blood pressure stability"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Pain Score, Number of Symptomatic Leiomyomas, Size of Leiomyomas, Duration of Pain, Use of Pain Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Leiomyoma Distribution",
+        "Location of Lesions",
+        "Volume of Drug Administered"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline Pain Score",
+        "Number of Symptomatic Leiomyomas",
+        "Size of Leiomyomas",
+        "Duration of Pain",
+        "Use of Pain Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Pain severity, Duration of pain, Number of painful leiomyomas, Size of leiomyomas, Prior treatments for pain, Quality of life score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Leiomyoma Distribution",
+          "Number of painful leiomyomas"
+        ],
+        [
+          "Location of Lesions",
+          "Size of leiomyomas"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Volume of Drug Administered"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Pain severity",
+        "Duration of pain",
+        "Prior treatments for pain",
+        "Quality of life score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of cutaneous leiomyomas, number and size of leiomyomas, pain severity at baseline, quality of life at baseline, medical history, concomitant medications, prior treatments for cutaneous leiomyomas.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Leiomyoma Distribution",
+          "number and size of leiomyomas"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Location of Lesions",
+        "Volume of Drug Administered"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "duration of cutaneous leiomyomas",
+        "pain severity at baseline",
+        "quality of life at baseline",
+        "medical history",
+        "concomitant medications",
+        "prior treatments for cutaneous leiomyomas"
+      ]
+    }
+  }
+}

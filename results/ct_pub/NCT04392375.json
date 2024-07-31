@@ -1,0 +1,248 @@
+{
+  "trial_id": "NCT04392375",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age, number of fetuses (single or twin), baseline blood pressure (systolic and diastolic), history of hypertension, history of preeclampsia, prior treatment for severe blood pressures, allergy or adverse reaction to Nifedipine, participation in another trial, physician/provider or patient refusal, prior participation in this trial, type of pregnancy (single, twin, triplet or higher).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Maternal age at delivery",
+          "Age"
+        ],
+        [
+          "Gestational age at preeclampsia with severe features diagnosis",
+          "gestational age"
+        ],
+        [
+          "Twin gestation",
+          "number of fetuses (single or twin)"
+        ],
+        [
+          "Chronic hypertension",
+          "history of hypertension"
+        ],
+        [
+          "Preeclampsia diagnostic criteria (Severe blood pressure, Elevated liver function tests (> twice upper limit of normal), Thrombocytopenia (platelets <100\u2009000/\u00b5L), Elevated creatinine (\u22651.1 mg/dL), Neurological symptoms, Right upper quadrant pain)",
+          "prior treatment for severe blood pressures"
+        ],
+        [
+          "Known allergy or adverse reaction to Nifedipine or any medical condition where Nifedipine is contraindicated, such as galactose intolerance, severe gastrointestinal (GI) structure, and GI hypomotility disorder.",
+          "allergy or adverse reaction to Nifedipine"
+        ],
+        [
+          "Participation in another trial that affects the primary outcome without prior approval",
+          "participation in another trial"
+        ],
+        [
+          "Physician/provider or patient refusal",
+          "physician/provider or patient refusal"
+        ],
+        [
+          "Participation in this trial in a prior pregnancy",
+          "prior participation in this trial"
+        ],
+        [
+          "Triplet or higher order pregnancy",
+          "type of pregnancy (single, twin, triplet or higher)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity and race",
+        "Prepregnancy BMI",
+        "BMI at delivery",
+        "Nulliparous",
+        "Chronic hypertension on maintenance medication (beta-blocker)",
+        "Smoking during current pregnancy",
+        "Diabetes (Pregestational type 1, Pregestational type 2, Gestational, diet controlled, Gestational, medication controlled)",
+        "Gestational age at delivery",
+        "category",
+        "Neuraxial anesthesia",
+        "FGR",
+        "Eligible and had in utero exposure to antenatal corticosteroids"
+      ],
+      "remaining_candidate_features": [
+        "baseline blood pressure (systolic and diastolic)",
+        "history of preeclampsia"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Gestational age, Parity, BMI, Race, Ethnicity, Baseline systolic blood pressure, Baseline diastolic blood pressure, History of chronic hypertension, History of preeclampsia in previous pregnancies, Number of fetuses, Use of antihypertensive medications prior to study, Baseline proteinuria levels",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Maternal age at delivery",
+          "Age"
+        ],
+        [
+          "Ethnicity and race",
+          "Race"
+        ],
+        [
+          "Prepregnancy BMI",
+          "BMI"
+        ],
+        [
+          "Nulliparous",
+          "Parity"
+        ],
+        [
+          "Chronic hypertension",
+          "History of chronic hypertension"
+        ],
+        [
+          "Chronic hypertension on maintenance medication (beta-blocker)",
+          "Use of antihypertensive medications prior to study"
+        ],
+        [
+          "Gestational age at preeclampsia with severe features diagnosis",
+          "Gestational age"
+        ],
+        [
+          "Twin gestation",
+          "Number of fetuses"
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI at delivery",
+        "Smoking during current pregnancy",
+        "Diabetes (Pregestational type 1, Pregestational type 2, Gestational, diet controlled, Gestational, medication controlled)",
+        "Preeclampsia diagnostic criteria (Severe blood pressure, Elevated liver function tests (> twice upper limit of normal), Thrombocytopenia (platelets <100\u2009000/\u00b5L), Elevated creatinine (\u22651.1 mg/dL), Neurological symptoms, Right upper quadrant pain)",
+        "Gestational age at delivery",
+        "category",
+        "Neuraxial anesthesia",
+        "FGR",
+        "Eligible and had in utero exposure to antenatal corticosteroids"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "Baseline systolic blood pressure",
+        "Baseline diastolic blood pressure",
+        "History of preeclampsia in previous pregnancies",
+        "Baseline proteinuria levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Gestational age, Parity, BMI, Ethnicity, History of hypertension, History of preeclampsia, Blood pressure at admission, Proteinuria, Urine protein creatinine ratio, Serum creatinine, Platelet count, Liver enzymes.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Maternal age at delivery",
+          "Age"
+        ],
+        [
+          "Ethnicity and race",
+          "Ethnicity"
+        ],
+        [
+          "Prepregnancy BMI",
+          "BMI"
+        ],
+        [
+          "Nulliparous",
+          "Parity"
+        ],
+        [
+          "Chronic hypertension",
+          "History of hypertension"
+        ],
+        [
+          "Gestational age at preeclampsia with severe features diagnosis",
+          "Gestational age"
+        ],
+        [
+          "Preeclampsia diagnostic criteria (Severe blood pressure, Elevated liver function tests (> twice upper limit of normal), Thrombocytopenia (platelets <100\u2009000/\u00b5L), Elevated creatinine (\u22651.1 mg/dL), Neurological symptoms, Right upper quadrant pain)",
+          "Blood pressure at admission"
+        ],
+        [
+          "Serum creatinine",
+          "Serum creatinine"
+        ],
+        [
+          "Platelet count",
+          "Platelet count"
+        ],
+        [
+          "Liver enzymes",
+          "Liver enzymes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI at delivery",
+        "Chronic hypertension on maintenance medication (beta-blocker)",
+        "Smoking during current pregnancy",
+        "Diabetes (Pregestational type 1, Pregestational type 2, Gestational, diet controlled, Gestational, medication controlled)",
+        "Gestational age at delivery",
+        "category",
+        "Neuraxial anesthesia",
+        "Twin gestation",
+        "FGR",
+        "Eligible and had in utero exposure to antenatal corticosteroids"
+      ],
+      "remaining_candidate_features": [
+        "History of preeclampsia",
+        "Proteinuria",
+        "Urine protein creatinine ratio"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, gestational age, parity, body mass index (BMI), systolic and diastolic blood pressure at baseline, presence of chronic hypertension, presence of diabetes, presence of kidney disease, number of fetuses, fetal birth weight, fetal sex.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Maternal age at delivery",
+          "Age"
+        ],
+        [
+          "Ethnicity and race",
+          "race"
+        ],
+        [
+          "Ethnicity and race",
+          "ethnicity"
+        ],
+        [
+          "Prepregnancy BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Gestational age at preeclampsia with severe features diagnosis",
+          "gestational age"
+        ],
+        [
+          "Chronic hypertension",
+          "presence of chronic hypertension"
+        ],
+        [
+          "Diabetes (Pregestational type 1, Pregestational type 2, Gestational, diet controlled, Gestational, medication controlled)",
+          "presence of diabetes"
+        ],
+        [
+          "Twin gestation",
+          "number of fetuses"
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI at delivery",
+        "Nulliparous",
+        "Chronic hypertension on maintenance medication (beta-blocker)",
+        "Smoking during current pregnancy",
+        "Gestational age at delivery",
+        "Preeclampsia diagnostic criteria (Severe blood pressure, Elevated liver function tests (> twice upper limit of normal), Thrombocytopenia (platelets <100\u2009000/\u00b5L), Elevated creatinine (\u22651.1 mg/dL), Neurological symptoms, Right upper quadrant pain)",
+        "category",
+        "Neuraxial anesthesia",
+        "FGR",
+        "Eligible and had in utero exposure to antenatal corticosteroids"
+      ],
+      "remaining_candidate_features": [
+        "systolic and diastolic blood pressure at baseline",
+        "presence of kidney disease",
+        "fetal birth weight",
+        "fetal sex",
+        "parity"
+      ]
+    }
+  }
+}

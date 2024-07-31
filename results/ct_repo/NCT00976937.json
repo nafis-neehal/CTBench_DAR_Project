@@ -1,0 +1,282 @@
+{
+  "trial_id": "NCT00976937",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), duration of type 2 diabetes mellitus, baseline HbA1c, baseline fasting plasma glucose (FPG), baseline body weight, insulin levels, C-peptide levels, glucagon levels, proinsulin levels, homeostatic model assessment of insulin resistance (HOMA-IR), homeostatic model assessment of beta-cell function (HOMA-beta), blood pressure, history of myocardial infarction, history of stroke, history of heart failure, history of pancreatitis, history of metabolic acidosis, hemoglobin levels, neutrophil count, platelet count, liver function tests (ALT, total bilirubin), renal function (creatinine clearance), history of gastrointestinal disease, history of drug or alcohol abuse, presence of diabetic retinopathy or macular edema, presence of hepatitis B or C, calcitonin levels, pregnancy status in females of childbearing potential.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "baseline fasting plasma glucose (FPG)"
+        ],
+        [
+          "Body Weight",
+          "baseline body weight"
+        ],
+        [
+          "Homeostatic Model Assessment of Insulin Resistance (HOMA-IR)",
+          "homeostatic model assessment of insulin resistance (HOMA-IR)"
+        ],
+        [
+          "Homeostatic Model Assessment of Beta-cell Function (HOMA-beta)",
+          "homeostatic model assessment of beta-cell function (HOMA-beta)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "2-hour Postprandial Plasma Glucose (PPG)",
+        "Glucose Excursion",
+        "Fasting Plasma Insulin (FPI)",
+        "2-hour Postprandial Plasma Insulin",
+        "Fasting C-Peptide",
+        "2-hour Postprandial C-peptide",
+        "Fasting Glucagon",
+        "2-hour Postprandial Glucagon",
+        "Fasting Proinsulin",
+        "2-hour Postprandial Proinsulin",
+        "Fasting Proinsulin-to-Insulin Ratio",
+        "2-hour Postprandial Proinsulin-to-Insulin Ratio"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 2 diabetes mellitus",
+        "insulin levels",
+        "C-peptide levels",
+        "glucagon levels",
+        "proinsulin levels",
+        "blood pressure",
+        "history of myocardial infarction",
+        "history of stroke",
+        "history of heart failure",
+        "history of pancreatitis",
+        "history of metabolic acidosis",
+        "hemoglobin levels",
+        "neutrophil count",
+        "platelet count",
+        "liver function tests (ALT, total bilirubin)",
+        "renal function (creatinine clearance)",
+        "history of gastrointestinal disease",
+        "history of drug or alcohol abuse",
+        "presence of diabetic retinopathy or macular edema",
+        "presence of hepatitis B or C",
+        "calcitonin levels",
+        "pregnancy status in females of childbearing potential"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Fasting Plasma Glucose, Insulin, C-peptide, Glucagon, Proinsulin, HOMA-IR, HOMA-beta, Blood Pressure, Total Cholesterol, Triglycerides, Duration of Diabetes,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Homeostatic Model Assessment of Insulin Resistance (HOMA-IR)",
+          "HOMA-IR"
+        ],
+        [
+          "Homeostatic Model Assessment of Beta-cell Function (HOMA-beta)",
+          "HOMA-beta"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight",
+        "2-hour Postprandial Plasma Glucose (PPG)",
+        "Glucose Excursion",
+        "Fasting Plasma Insulin (FPI)",
+        "2-hour Postprandial Plasma Insulin",
+        "Fasting C-Peptide",
+        "2-hour Postprandial C-peptide",
+        "Fasting Glucagon",
+        "2-hour Postprandial Glucagon",
+        "Fasting Proinsulin",
+        "2-hour Postprandial Proinsulin",
+        "Fasting Proinsulin-to-Insulin Ratio",
+        "2-hour Postprandial Proinsulin-to-Insulin Ratio"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Insulin",
+        "C-peptide",
+        "Glucagon",
+        "Proinsulin",
+        "Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Diabetes Duration, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Insulin Resistance, Beta Cell Function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes Duration"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Homeostatic Model Assessment of Insulin Resistance (HOMA-IR)",
+          "Insulin Resistance"
+        ],
+        [
+          "Homeostatic Model Assessment of Beta-cell Function (HOMA-beta)",
+          "Beta Cell Function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Body Weight",
+        "2-hour Postprandial Plasma Glucose (PPG)",
+        "Glucose Excursion",
+        "Fasting Plasma Insulin (FPI)",
+        "2-hour Postprandial Plasma Insulin",
+        "Fasting C-Peptide",
+        "2-hour Postprandial C-peptide",
+        "Fasting Glucagon",
+        "2-hour Postprandial Glucagon",
+        "Fasting Proinsulin",
+        "2-hour Postprandial Proinsulin",
+        "Fasting Proinsulin-to-Insulin Ratio",
+        "2-hour Postprandial Proinsulin-to-Insulin Ratio"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, body mass index (BMI), type 2 diabetes mellitus duration, metformin dose, glycosylated hemoglobin (HbA1c) level, fasting plasma glucose (FPG) level, systolic and diastolic blood pressure, weight, height, ethnicity, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "glycosylated hemoglobin (HbA1c) level"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose (FPG) level"
+        ],
+        [
+          "Body Weight",
+          "weight"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Duration of Diabetes",
+          "type 2 diabetes mellitus duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "2-hour Postprandial Plasma Glucose (PPG)",
+        "Glucose Excursion",
+        "Fasting Plasma Insulin (FPI)",
+        "2-hour Postprandial Plasma Insulin",
+        "Fasting C-Peptide",
+        "2-hour Postprandial C-peptide",
+        "Fasting Glucagon",
+        "2-hour Postprandial Glucagon",
+        "Fasting Proinsulin",
+        "2-hour Postprandial Proinsulin",
+        "Fasting Proinsulin-to-Insulin Ratio",
+        "2-hour Postprandial Proinsulin-to-Insulin Ratio",
+        "Homeostatic Model Assessment of Insulin Resistance (HOMA-IR)",
+        "Homeostatic Model Assessment of Beta-cell Function (HOMA-beta)"
+      ],
+      "remaining_candidate_features": [
+        "metformin dose",
+        "systolic and diastolic blood pressure",
+        "height",
+        "smoking status"
+      ]
+    }
+  }
+}

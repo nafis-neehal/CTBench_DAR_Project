@@ -1,0 +1,202 @@
+{
+  "trial_id": "NCT00191646",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, ethnicity, stage of cancer, histologic subtype, performance status, surgical outcome, time since surgery, baseline CA-125 levels, baseline hemoglobin levels, baseline white blood cell count, baseline platelet count, baseline creatinine levels, baseline liver function tests, prior medical history, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Organ of Origin",
+          "histologic subtype"
+        ],
+        [
+          "Extent of Residual Disease",
+          "surgical outcome"
+        ],
+        [
+          "Zubrod Performance Status",
+          "performance status"
+        ],
+        [
+          "International Federation of Gynecology and Obstetrics (FIGO) Stage at Initial Surgery",
+          "stage of cancer"
+        ],
+        [
+          "Histology",
+          "histologic subtype"
+        ],
+        [
+          "Volume of Residual Tumor Following Debulking Surgery",
+          "surgical outcome"
+        ],
+        [
+          "CA-125 Units per milliliter at Baseline for All Patients",
+          "baseline CA-125 levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "ethnicity",
+        "time since surgery",
+        "baseline hemoglobin levels",
+        "baseline white blood cell count",
+        "baseline platelet count",
+        "baseline creatinine levels",
+        "baseline liver function tests",
+        "prior medical history",
+        "concomitant medications"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Cancer Stage, Histologic Subtype, Performance Status, Baseline CA-125 Levels, Prior Surgery Details,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Organ of Origin",
+          "Prior Surgery Details"
+        ],
+        [
+          "Histology",
+          "Histologic Subtype"
+        ],
+        [
+          "Performance Status",
+          "Performance Status"
+        ],
+        [
+          "CA-125 Units per milliliter at Baseline for All Patients",
+          "Baseline CA-125 Levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Extent of Residual Disease",
+        "Zubrod Performance Status",
+        "International Federation of Gynecology and Obstetrics (FIGO) Stage at Initial Surgery",
+        "Volume of Residual Tumor Following Debulking Surgery"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Region of Enrollment",
+        "Cancer Stage"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Histologic diagnosis, Stage of disease, Performance status, Prior surgery, Time from surgery to enrollment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Histology",
+          "Histologic diagnosis"
+        ],
+        [
+          "International Federation of Gynecology and Obstetrics (FIGO) Stage at Initial Surgery",
+          "Stage of disease"
+        ],
+        [
+          "Organ of Origin",
+          "Prior surgery"
+        ],
+        [
+          "Extent of Residual Disease",
+          "Volume of Residual Tumor Following Debulking Surgery"
+        ],
+        [
+          "Zubrod Performance Status",
+          "Performance status"
+        ],
+        [
+          "Time from surgery to enrollment",
+          "Time from surgery to enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "CA-125 Units per milliliter at Baseline for All Patients"
+      ],
+      "remaining_candidate_features": [
+        "Age"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, performance status, histologic diagnosis, tumor stage, tumor grade, presence of residual disease, surgical outcome, menopausal status, prior hormone replacement therapy, prior abdominal or pelvic radiotherapy, prior malignancies, comorbidities.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "menopausal status"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Organ of Origin",
+          "histologic diagnosis"
+        ],
+        [
+          "Extent of Residual Disease",
+          "presence of residual disease"
+        ],
+        [
+          "Zubrod Performance Status",
+          "performance status"
+        ],
+        [
+          "International Federation of Gynecology and Obstetrics (FIGO) Stage at Initial Surgery",
+          "tumor stage"
+        ],
+        [
+          "Histology",
+          "histologic diagnosis"
+        ],
+        [
+          "Volume of Residual Tumor Following Debulking Surgery",
+          "surgical outcome"
+        ]
+      ],
+      "remaining_reference_features": [
+        "CA-125 Units per milliliter at Baseline for All Patients",
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "tumor grade",
+        "prior hormone replacement therapy",
+        "prior abdominal or pelvic radiotherapy",
+        "prior malignancies",
+        "comorbidities"
+      ]
+    }
+  }
+}

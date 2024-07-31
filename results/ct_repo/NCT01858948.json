@@ -1,0 +1,181 @@
+{
+  "trial_id": "NCT01858948",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Tanner scale stage, Baseline YMRS score, IQ, Pregnancy status, Cardiovascular history, Neurological history, Substance use history, Developmental disorder history, Hematological disorder history, Allergy to fish/seafood, Current use of omega-3 supplements, Baseline BMI, Baseline fasting blood triglycerides levels",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Baseline BMI"
+        ],
+        [
+          "Fasting blood triglyceride levels",
+          "Baseline fasting blood triglycerides levels"
+        ],
+        [
+          "Manic Symptom Severity",
+          "Baseline YMRS score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Tanner scale stage",
+        "IQ",
+        "Pregnancy status",
+        "Cardiovascular history",
+        "Neurological history",
+        "Substance use history",
+        "Developmental disorder history",
+        "Hematological disorder history",
+        "Allergy to fish/seafood",
+        "Current use of omega-3 supplements"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Tanner Scale Stage, Baseline YMRS Score, Body Mass Index (BMI), Fasting Blood Triglycerides Levels, IQ,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Fasting blood triglyceride levels",
+          "Fasting Blood Triglycerides Levels"
+        ],
+        [
+          "Manic Symptom Severity",
+          "Baseline YMRS Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Tanner Scale Stage",
+        "IQ"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Fasting Blood Triglycerides Levels, Systolic Blood Pressure, Diastolic Blood Pressure, Waist Circumference, Hip Circumference, Fasting Glucose, Fasting Insulin, HOMA-IR, Total Cholesterol, HDL Cholesterol, LDL Cholesterol, Triglycerides, YMRS Score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Fasting blood triglyceride levels",
+          "Fasting Blood Triglycerides Levels"
+        ],
+        [
+          "Manic Symptom Severity",
+          "YMRS Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Waist Circumference",
+        "Hip Circumference",
+        "Fasting Glucose",
+        "Fasting Insulin",
+        "HOMA-IR",
+        "Total Cholesterol",
+        "HDL Cholesterol",
+        "LDL Cholesterol",
+        "Triglycerides"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, BMI, Tanner scale stage, YMRS score, IQ, duration of illness, number of previous episodes, concomitant medications, smoking status, family history of metabolic syndrome or cardiovascular disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Fasting blood triglyceride levels",
+          "Fasting Blood Triglycerides Levels"
+        ],
+        [
+          "Manic Symptom Severity",
+          "YMRS score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "Tanner scale stage",
+        "IQ",
+        "duration of illness",
+        "number of previous episodes",
+        "concomitant medications",
+        "smoking status",
+        "family history of metabolic syndrome or cardiovascular disease."
+      ]
+    }
+  }
+}

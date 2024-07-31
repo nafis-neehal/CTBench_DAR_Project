@@ -1,0 +1,289 @@
+{
+  "trial_id": "NCT02723019",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ethnicity, number of cardiometabolic conditions, type of cardiometabolic conditions, presence of behavioral health concerns, type of behavioral health concerns, telephone access, language spoken, baseline hospital utilization, baseline medication adherence, baseline healthcare use, baseline mental health status, baseline life stressors.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Cardiometabolic Conditions",
+          "number of cardiometabolic conditions"
+        ],
+        [
+          "Behavioral Health Concerns",
+          "presence of behavioral health concerns"
+        ],
+        [
+          "Primary Language is Spanish",
+          "language spoken"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Less than High School Education",
+        "Income Less than 30",
+        "000 per year",
+        "Not Employed",
+        "Married or Cohabitating",
+        "Born in Mexico",
+        "Has Some Type of Health Insurance",
+        "LACE Index -Length of Patient Stay in the Hospital",
+        "Acuity of Admission",
+        "Comorbidity",
+        "Emergency Vist",
+        "Hospital Visit Length of Stay in Days",
+        "Patient-Reported Outcomes Measurement Information System Global-10 Health Scale",
+        "Patient Activation Measure (PAM) - 13 Item",
+        "Self-Management Resources for Chronic Disease",
+        "Chronic Illness Resources Survey (CRIS)",
+        "Outpatient Visits Over the Past 3 Months",
+        "Urgent Care/Emergency Department Visits Over the Past 3 Months",
+        "Inpatient Days Over the Past 3 Months"
+      ],
+      "remaining_candidate_features": [
+        "type of cardiometabolic conditions",
+        "type of behavioral health concerns",
+        "telephone access",
+        "baseline hospital utilization",
+        "baseline medication adherence",
+        "baseline healthcare use",
+        "baseline mental health status",
+        "baseline life stressors"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity, Region of Enrollment, Number of Cardiometabolic Conditions, Type of Cardiometabolic Conditions, Behavioral Health Concerns, Body Mass Index, Blood Pressure, Hemoglobin A1c, Cholesterol Levels, Medication Adherence, Hospital Readmission History,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Cardiometabolic Conditions",
+          "Number of Cardiometabolic Conditions"
+        ],
+        [
+          "Behavioral Health Concerns",
+          "Behavioral Health Concerns"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Less than High School Education",
+        "Income Less than 30",
+        "000 per year",
+        "Not Employed",
+        "Married or Cohabitating",
+        "Born in Mexico",
+        "Primary Language is Spanish",
+        "Has Some Type of Health Insurance",
+        "LACE Index -Length of Patient Stay in the Hospital",
+        "Acuity of Admission",
+        "Comorbidity",
+        "Emergency Vist",
+        "Hospital Visit Length of Stay in Days",
+        "Patient-Reported Outcomes Measurement Information System Global-10 Health Scale",
+        "Patient Activation Measure (PAM) - 13 Item",
+        "Self-Management Resources for Chronic Disease",
+        "Chronic Illness Resources Survey (CRIS)",
+        "Outpatient Visits Over the Past 3 Months",
+        "Urgent Care/Emergency Department Visits Over the Past 3 Months",
+        "Inpatient Days Over the Past 3 Months"
+      ],
+      "remaining_candidate_features": [
+        "Type of Cardiometabolic Conditions",
+        "Body Mass Index",
+        "Blood Pressure",
+        "Hemoglobin A1c",
+        "Cholesterol Levels",
+        "Medication Adherence",
+        "Hospital Readmission History"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Ethnicity (Hispanic), Region of Enrollment, Number of Cardiometabolic Conditions, Number of Behavioral Health Concerns, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Lipid Profile, Diabetes Duration,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity (Hispanic)"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Cardiometabolic Conditions",
+          "Number of Cardiometabolic Conditions"
+        ],
+        [
+          "Behavioral Health Concerns",
+          "Number of Behavioral Health Concerns"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Less than High School Education",
+        "Income Less than 30",
+        "000 per year",
+        "Not Employed",
+        "Married or Cohabitating",
+        "Born in Mexico",
+        "Primary Language is Spanish",
+        "Has Some Type of Health Insurance",
+        "LACE Index -Length of Patient Stay in the Hospital",
+        "Acuity of Admission",
+        "Comorbidity",
+        "Emergency Vist",
+        "Hospital Visit Length of Stay in Days",
+        "Patient-Reported Outcomes Measurement Information System Global-10 Health Scale",
+        "Patient Activation Measure (PAM) - 13 Item",
+        "Self-Management Resources for Chronic Disease",
+        "Chronic Illness Resources Survey (CRIS)",
+        "Outpatient Visits Over the Past 3 Months",
+        "Urgent Care/Emergency Department Visits Over the Past 3 Months",
+        "Inpatient Days Over the Past 3 Months"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "HbA1c",
+        "Lipid Profile",
+        "Diabetes Duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ethnicity, language spoken, marital status, education level, employment status, income level, health insurance status, medical comorbidities, medication use, body mass index (BMI), blood pressure, hemoglobin A1c (HbA1c), lipid profile, smoking status, physical activity level, depression symptoms, anxiety symptoms, stress levels, medication adherence, healthcare utilization history, caregiver support.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Primary Language is Spanish",
+          "language spoken"
+        ],
+        [
+          "Married or Cohabitating",
+          "marital status"
+        ],
+        [
+          "Less than High School Education",
+          "education level"
+        ],
+        [
+          "Not Employed",
+          "employment status"
+        ],
+        [
+          "Income Less than 30,000 per year",
+          "income level"
+        ],
+        [
+          "Has Some Type of Health Insurance",
+          "health insurance status"
+        ],
+        [
+          "Cardiometabolic Conditions",
+          "medical comorbidities"
+        ],
+        [
+          "Behavioral Health Concerns",
+          "depression symptoms"
+        ],
+        [
+          "Self-Management Resources for Chronic Disease",
+          "medication adherence"
+        ],
+        [
+          "Outpatient Visits Over the Past 3 Months",
+          "healthcare utilization history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Born in Mexico",
+        "LACE Index -Length of Patient Stay in the Hospital",
+        "Acuity of Admission",
+        "Comorbidity",
+        "Emergency Vist",
+        "Hospital Visit Length of Stay in Days",
+        "Patient-Reported Outcomes Measurement Information System Global-10 Health Scale",
+        "Patient Activation Measure (PAM) - 13 Item",
+        "Chronic Illness Resources Survey (CRIS)",
+        "Urgent Care/Emergency Department Visits Over the Past 3 Months",
+        "Inpatient Days Over the Past 3 Months"
+      ],
+      "remaining_candidate_features": [
+        "medication use",
+        "body mass index (BMI)",
+        "blood pressure",
+        "hemoglobin A1c (HbA1c)",
+        "lipid profile",
+        "smoking status",
+        "physical activity level",
+        "anxiety symptoms",
+        "stress levels",
+        "caregiver support"
+      ]
+    }
+  }
+}

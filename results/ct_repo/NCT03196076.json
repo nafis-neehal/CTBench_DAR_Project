@@ -1,0 +1,177 @@
+{
+  "trial_id": "NCT03196076",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, estimated glomerular filtration rate (GFR), albumin to creatinine ratio, protein to creatinine ratio, dialysis status, kidney transplant status, biopsy-proven kidney disease status, presence of kidney lesion, type of initial imaging (non-contrasted US, CT, or MR), presence of chronic obstructive pulmonary disease (COPD), history of hypersensitivity to sulfur hexafluoride or perflutren lipid, presence of right to left shunt, pulmonary hypertension status, presence of adult respiratory distress syndrome, cardiac disease status, congestive heart failure classification, angina status, arrhythmia status, history of myocardial infarction, blood pressure (systolic and diastolic), intensive care status, neurological disease status, history of cerebrovascular accident or transient ischemic attacks (TIAs), history of invasive procedure on kidney lesion, mental illness status, drug abuse status, pregnancy status, lactation status, obesity status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "estimated glomerular filtration rate (GFR)",
+        "albumin to creatinine ratio",
+        "protein to creatinine ratio",
+        "dialysis status",
+        "kidney transplant status",
+        "biopsy-proven kidney disease status",
+        "presence of kidney lesion",
+        "type of initial imaging (non-contrasted US, CT, or MR)",
+        "presence of chronic obstructive pulmonary disease (COPD)",
+        "history of hypersensitivity to sulfur hexafluoride or perflutren lipid",
+        "presence of right to left shunt",
+        "pulmonary hypertension status",
+        "presence of adult respiratory distress syndrome",
+        "cardiac disease status",
+        "congestive heart failure classification",
+        "angina status",
+        "arrhythmia status",
+        "history of myocardial infarction",
+        "blood pressure (systolic and diastolic)",
+        "intensive care status",
+        "neurological disease status",
+        "history of cerebrovascular accident or transient ischemic attacks (TIAs)",
+        "history of invasive procedure on kidney lesion",
+        "mental illness status",
+        "drug abuse status",
+        "pregnancy status",
+        "lactation status",
+        "obesity status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Estimated Glomerular Filtration Rate (eGFR), Albumin to Creatinine Ratio, Protein to Creatinine Ratio, History of Dialysis, History of Kidney Transplant, Type of Kidney Lesion,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Estimated Glomerular Filtration Rate (eGFR)",
+        "Albumin to Creatinine Ratio",
+        "Protein to Creatinine Ratio",
+        "History of Dialysis",
+        "History of Kidney Transplant",
+        "Type of Kidney Lesion"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Estimated Glomerular Filtration Rate, Albumin to Creatinine Ratio, Protein to Creatinine Ratio, Chronic Kidney Disease Stage, Kidney Lesion Size, Kidney Lesion Location.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Estimated Glomerular Filtration Rate",
+        "Albumin to Creatinine Ratio",
+        "Protein to Creatinine Ratio",
+        "Chronic Kidney Disease Stage",
+        "Kidney Lesion Size",
+        "Kidney Lesion Location"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), estimated glomerular filtration rate (GFR), albumin to creatinine ratio, protein to creatinine ratio, presence of chronic kidney disease (CKD), CKD stage, history of dialysis or kidney transplant, presence of albuminuria/proteinuria, type and size of kidney lesion, number of kidney lesions, presence of comorbidities (e.g., COPD, cardiac disease, neurological disease), history of invasive procedures on kidney lesion.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "estimated glomerular filtration rate (GFR)",
+        "albumin to creatinine ratio",
+        "protein to creatinine ratio",
+        "presence of chronic kidney disease (CKD)",
+        "CKD stage",
+        "history of dialysis or kidney transplant",
+        "presence of albuminuria/proteinuria",
+        "type and size of kidney lesion",
+        "number of kidney lesions",
+        "presence of comorbidities (e.g., COPD, cardiac disease, neurological disease)",
+        "history of invasive procedures on kidney lesion."
+      ]
+    }
+  }
+}

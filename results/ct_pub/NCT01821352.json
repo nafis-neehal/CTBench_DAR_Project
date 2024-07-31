@@ -1,0 +1,145 @@
+{
+  "trial_id": "NCT01821352",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), waist circumference, hip circumference, upper abdomen circumference, medical history, medication use, diet and exercise regimen, baseline weight, baseline body contouring status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Gender",
+          "gender"
+        ],
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Body Weight"
+      ],
+      "remaining_candidate_features": [
+        "waist circumference",
+        "hip circumference",
+        "upper abdomen circumference",
+        "medical history",
+        "medication use",
+        "diet and exercise regimen",
+        "baseline weight",
+        "baseline body contouring status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, BMI, Waist circumference, Hip circumference, Upper abdomen circumference, Medical history, Medication use, Exercise regimen, Diet regimen",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Gender",
+        "Race/Ethnicity",
+        "Body Weight"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Waist circumference",
+        "Hip circumference",
+        "Upper abdomen circumference",
+        "Medical history",
+        "Medication use",
+        "Exercise regimen",
+        "Diet regimen"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, BMI, Waist circumference, Hip circumference, Upper abdomen circumference, Body Mass Index (BMI) category, Ethnic origin, Education, Employment status, Medical history, Medication use, Diet, Exercise habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnic origin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Gender",
+        "Body Weight"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "Waist circumference",
+        "Hip circumference",
+        "Upper abdomen circumference",
+        "Body Mass Index (BMI) category",
+        "Education",
+        "Employment status",
+        "Medical history",
+        "Medication use",
+        "Diet",
+        "Exercise habits"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, weight, height, waist circumference, hip circumference, upper abdomen circumference, medical history, smoking status, physical activity level, diet type, medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Body Weight",
+          "weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "height",
+        "waist circumference",
+        "hip circumference",
+        "upper abdomen circumference",
+        "medical history",
+        "smoking status",
+        "physical activity level",
+        "diet type",
+        "medication use"
+      ]
+    }
+  }
+}

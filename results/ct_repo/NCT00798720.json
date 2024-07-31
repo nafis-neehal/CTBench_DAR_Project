@@ -1,0 +1,243 @@
+{
+  "trial_id": "NCT00798720",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, stage of disease, prior treatments, liver function, kidney function, marrow function, presence of brain metastases, life expectancy, pregnancy status, HIV status, hepatitis status, history of myocardial infarction, history of other malignancies, hypersensitivity to study drugs, pre-existing neuropathy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Disease Stage",
+          "stage of disease"
+        ],
+        [
+          "Prior first-line systemic therapy",
+          "prior treatments"
+        ],
+        [
+          "Prior second-line systemic therapy",
+          "prior treatments"
+        ],
+        [
+          "Normal liver, kidney, and marrow function",
+          "liver function"
+        ],
+        [
+          "Normal liver, kidney, and marrow function",
+          "kidney function"
+        ],
+        [
+          "Normal liver, kidney, and marrow function",
+          "marrow function"
+        ],
+        [
+          "Life expectancy 3 months or more",
+          "life expectancy"
+        ],
+        [
+          "Negative pregnancy test for women of child-bearing potential",
+          "pregnancy status"
+        ],
+        [
+          "HIV positive patients",
+          "HIV status"
+        ],
+        [
+          "Hepatitis infection (HCV or HBV) patients",
+          "hepatitis status"
+        ],
+        [
+          "Myocardial infarction within 6 months prior to enrollment or have NY Heart Association Class III or Class IV heart failure",
+          "history of myocardial infarction"
+        ],
+        [
+          "Previous or current malignancies of other histologies within the past 5 years",
+          "history of other malignancies"
+        ],
+        [
+          "Hypersensitivity to bortezomib, boron, or mannitol",
+          "hypersensitivity to study drugs"
+        ],
+        [
+          "Pre-existing neuropathy grade \">/= 2\"",
+          "pre-existing neuropathy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Histology",
+        "Response to first-line therapy",
+        "Response to second-line therapy",
+        "Prior thoracic radiation therapy"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "presence of brain metastases"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Stage of NSCLC, Prior systemic anti-cancer regimens, Presence of brain metastases, Liver function tests, Kidney function tests, Marrow function tests, Life expectancy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Disease Stage",
+          "Stage of NSCLC"
+        ],
+        [
+          "Prior first-line systemic therapy",
+          "Prior systemic anti-cancer regimens"
+        ],
+        [
+          "Prior second-line systemic therapy",
+          "Prior systemic anti-cancer regimens"
+        ],
+        [
+          "Histology",
+          "Stage of NSCLC"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Response to first-line therapy",
+        "Response to second-line therapy",
+        "Prior thoracic radiation therapy"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Presence of brain metastases",
+        "Liver function tests",
+        "Kidney function tests",
+        "Marrow function tests",
+        "Life expectancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, ECOG Performance Status, Histology, Stage of Disease, Number of Prior Chemotherapy Regimens, Prior Platinum-based Chemotherapy, Presence of Brain Metastases, Life Expectancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Histology",
+          "Histology"
+        ],
+        [
+          "Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Disease Stage",
+          "Stage of Disease"
+        ],
+        [
+          "Prior first-line systemic therapy",
+          "Number of Prior Chemotherapy Regimens"
+        ],
+        [
+          "Prior second-line systemic therapy",
+          "Prior Platinum-based Chemotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Response to first-line therapy",
+        "Response to second-line therapy",
+        "Prior thoracic radiation therapy"
+      ],
+      "remaining_candidate_features": [
+        "Presence of Brain Metastases",
+        "Life Expectancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, NSCLC stage, number of prior systemic anti-cancer regimens, presence of brain metastases, liver function tests, kidney function tests, complete blood count, prior platinum-based chemotherapy, time since last dose of treatment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Performance Status",
+          "ECOG performance status"
+        ],
+        [
+          "Disease Stage",
+          "NSCLC stage"
+        ],
+        [
+          "Prior first-line systemic therapy",
+          "prior platinum-based chemotherapy"
+        ],
+        [
+          "Prior second-line systemic therapy",
+          "number of prior systemic anti-cancer regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Histology",
+        "Response to first-line therapy",
+        "Response to second-line therapy",
+        "Prior thoracic radiation therapy"
+      ],
+      "remaining_candidate_features": [
+        "presence of brain metastases",
+        "liver function tests",
+        "kidney function tests",
+        "complete blood count",
+        "time since last dose of treatment."
+      ]
+    }
+  }
+}

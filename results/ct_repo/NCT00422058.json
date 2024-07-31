@@ -1,0 +1,197 @@
+{
+  "trial_id": "NCT00422058",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), baseline body weight, waist circumference, blood pressure, fasting glucose levels, lipid profile, smoking status, physical activity level, dietary habits, medical history, medication use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Weight",
+          "baseline body weight"
+        ],
+        [
+          "Waist circumference",
+          "waist circumference"
+        ],
+        [
+          "Blood pressure",
+          "blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "HbA1c"
+      ],
+      "remaining_candidate_features": [
+        "fasting glucose levels",
+        "lipid profile",
+        "smoking status",
+        "physical activity level",
+        "dietary habits",
+        "medical history",
+        "medication use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline Body Weight, Systolic Blood Pressure, Diastolic Blood Pressure, Waist Circumference, Fasting Plasma Glucose, Fasting Insulin, Hemoglobin A1c, Lipid Profile,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Weight",
+          "Baseline Body Weight"
+        ],
+        [
+          "Waist circumference",
+          "Waist Circumference"
+        ],
+        [
+          "HbA1c",
+          "Hemoglobin A1c"
+        ],
+        [
+          "Blood pressure",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "Fasting Insulin",
+        "Lipid Profile"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "Fasting Insulin",
+        "Lipid Profile"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Lipid Profile, Duration of Obesity.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "Waist circumference",
+          "Waist Circumference"
+        ],
+        [
+          "Blood pressure",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "HbA1c"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "Lipid Profile",
+        "Duration of Obesity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Sex, Body Mass Index (BMI), Weight, Height, Ethnicity, Smoking Status, Medical History, Concomitant Medications, Systolic and Diastolic Blood Pressure, Heart Rate, Lipid Profile, Glucose Levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "BMI",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity"
+        ],
+        [
+          "Blood pressure",
+          "Systolic and Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Waist circumference",
+        "HbA1c"
+      ],
+      "remaining_candidate_features": [
+        "Height",
+        "Smoking Status",
+        "Medical History",
+        "Concomitant Medications",
+        "Heart Rate",
+        "Lipid Profile",
+        "Glucose Levels"
+      ]
+    }
+  }
+}

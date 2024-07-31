@@ -1,0 +1,210 @@
+{
+  "trial_id": "NCT03371108",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, HbA1c, body mass index (BMI), duration of diabetes, prior insulin use, concomitant medications, baseline anti-insulin antibody status, thyroid function (TSH and free T4), liver function tests, history of diabetic complications, history of alcohol or substance use disorder, history of infections, history of malignancy, history of pancreatitis or pancreatectomy, adherence to diet and exercise regimen.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Previous Expsoure to Insulin or Analogue",
+          "prior insulin use"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Oral Antidiabetic Medication",
+          "concomitant medications"
+        ],
+        [
+          "AIA",
+          "baseline anti-insulin antibody status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Weight",
+        "NAb"
+      ],
+      "remaining_candidate_features": [
+        "thyroid function (TSH and free T4)",
+        "liver function tests",
+        "history of diabetic complications",
+        "history of alcohol or substance use disorder",
+        "history of infections",
+        "history of malignancy",
+        "history of pancreatitis or pancreatectomy",
+        "adherence to diet and exercise regimen."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, BMI, Duration of diabetes, HbA1c, Insulin regimen, Total daily insulin dose, Concomitant medications, History of anti-insulin antibodies, History of diabetic ketoacidosis, History of severe hypoglycemia, History of cardiovascular disease, Liver function tests, Renal function tests, Thyroid function tests, Smoking status, Alcohol use, Substance use disorder history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of diabetes"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "AIA",
+          "History of anti-insulin antibodies"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "Previous Expsoure to Insulin or Analogue",
+        "Weight",
+        "NAb",
+        "Oral Antidiabetic Medication"
+      ],
+      "remaining_candidate_features": [
+        "Insulin regimen",
+        "Total daily insulin dose",
+        "Concomitant medications",
+        "History of diabetic ketoacidosis",
+        "History of severe hypoglycemia",
+        "History of cardiovascular disease",
+        "Liver function tests",
+        "Renal function tests",
+        "Thyroid function tests",
+        "Smoking status",
+        "Alcohol use",
+        "Substance use disorder history."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Race, BMI, HbA1c, Duration of diabetes, Insulin regimen, Total daily insulin dose, Concomitant medications, History of CVD, History of thyroid disease, History of malignancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of diabetes"
+        ],
+        [
+          "Oral Antidiabetic Medication",
+          "Concomitant medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "Previous Expsoure to Insulin or Analogue",
+        "Weight",
+        "AIA",
+        "NAb"
+      ],
+      "remaining_candidate_features": [
+        "Insulin regimen",
+        "Total daily insulin dose",
+        "History of CVD",
+        "History of thyroid disease",
+        "History of malignancy."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, HbA1c, type 2 diabetes mellitus duration, insulin treatment history, concomitant medications, thyroid function tests, liver function tests, hematology tests, chemistry tests.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Previous Expsoure to Insulin or Analogue",
+          "insulin treatment history"
+        ],
+        [
+          "Oral Antidiabetic Medication",
+          "concomitant medications"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Ethnicity",
+        "Weight",
+        "Duration of Diabetes",
+        "AIA",
+        "NAb"
+      ],
+      "remaining_candidate_features": [
+        "type 2 diabetes mellitus duration",
+        "thyroid function tests",
+        "liver function tests",
+        "hematology tests",
+        "chemistry tests"
+      ]
+    }
+  }
+}

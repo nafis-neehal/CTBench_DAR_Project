@@ -1,0 +1,214 @@
+{
+  "trial_id": "NCT04405089",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Education level, Employment status, Marital status, Smoking status, Alcohol use, Medical history, Medication use, Baseline impulsivity score, Baseline compulsivity score, Baseline cognitive function score, Baseline weight, Duration of obesity, Physical activity level, Dietary habits, Socioeconomic status, Ethnicity.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Ethnicity"
+        ],
+        [
+          "Flanker Task Reaction Time",
+          "Baseline impulsivity score"
+        ],
+        [
+          "Set Shifting Task Score",
+          "Baseline compulsivity score"
+        ],
+        [
+          "Unstructured Task Score",
+          "Baseline cognitive function score"
+        ],
+        [
+          "Dot Counting Task Score",
+          "Baseline cognitive function score"
+        ],
+        [
+          "Weight",
+          "Baseline weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Education level",
+        "Employment status",
+        "Marital status",
+        "Smoking status",
+        "Alcohol use",
+        "Medical history",
+        "Medication use",
+        "Duration of obesity",
+        "Physical activity level",
+        "Dietary habits",
+        "Socioeconomic status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Impulsivity Scores, Compulsivity Scores, Reaction Time, Set Shifting Task Score, Dot Counting Task Score, Unstructured Planning Task Score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Flanker Task Reaction Time",
+          "Reaction Time"
+        ],
+        [
+          "Set Shifting Task Score",
+          "Set Shifting Task Score"
+        ],
+        [
+          "Unstructured Task Score",
+          "Unstructured Planning Task Score"
+        ],
+        [
+          "Dot Counting Task Score",
+          "Dot Counting Task Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Impulsivity Scores",
+        "Compulsivity Scores"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, HbA1c, Blood Pressure, Total Cholesterol, Triglycerides, Diabetes Duration, Impulsivity Scores, Compulsivity Scores,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Flanker Task Reaction Time",
+          "Impulsivity Scores"
+        ],
+        [
+          "Set Shifting Task Score",
+          "Compulsivity Scores"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Unstructured Task Score",
+        "Dot Counting Task Score",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Waist Circumference",
+        "HbA1c",
+        "Blood Pressure",
+        "Total Cholesterol",
+        "Triglycerides",
+        "Diabetes Duration"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, race, ethnicity, education level, occupation, marital status, smoking status, medical history (including hypothyroidism, neurological disorders, and metabolic/hormonal disorders), medication use, birth control use (in females of child-bearing potential), history of substance abuse, history of psychological or medical disorders requiring inpatient treatment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Flanker Task Reaction Time",
+          "Flanker Task Reaction Time"
+        ],
+        [
+          "Set Shifting Task Score",
+          "Set Shifting Task Score"
+        ],
+        [
+          "Unstructured Task Score",
+          "Unstructured Task Score"
+        ],
+        [
+          "Dot Counting Task Score",
+          "Dot Counting Task Score"
+        ],
+        [
+          "Weight",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "education level",
+        "occupation",
+        "marital status",
+        "smoking status",
+        "medical history (including hypothyroidism, neurological disorders, and metabolic/hormonal disorders)",
+        "medication use",
+        "birth control use (in females of child-bearing potential)",
+        "history of substance abuse",
+        "history of psychological or medical disorders requiring inpatient treatment."
+      ]
+    }
+  }
+}

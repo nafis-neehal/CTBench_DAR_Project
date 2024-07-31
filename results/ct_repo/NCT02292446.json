@@ -1,0 +1,160 @@
+{
+  "trial_id": "NCT02292446",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, liver function, renal function, spleen size, previous hydroxyurea treatment response, infection status, malignancy history, pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Number of participants resistant or intolerant to hydroxyurea (HU)",
+          "previous hydroxyurea treatment response"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Number of participants' frequency of phlebotomy in 52 weeks prior to screening",
+        "Number of participants' use of prior antineoplastic therapy"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "liver function",
+        "renal function",
+        "spleen size",
+        "infection status",
+        "malignancy history",
+        "pregnancy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Liver function, Renal function, Spleen size, Duration of polycythemia vera, Previous hydroxyurea treatment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Number of participants resistant or intolerant to hydroxyurea (HU)",
+          "Previous hydroxyurea treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of participants' frequency of phlebotomy in 52 weeks prior to screening",
+        "Number of participants' use of prior antineoplastic therapy"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "ECOG performance status",
+        "Liver function",
+        "Renal function",
+        "Spleen size",
+        "Duration of polycythemia vera"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Palpable spleen, Prior hydroxyurea treatment, Duration of polycythemia vera, Spleen size, Hemoglobin, White blood cell count, Platelet count.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Number of participants resistant or intolerant to hydroxyurea (HU)",
+          "Prior hydroxyurea treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of participants' frequency of phlebotomy in 52 weeks prior to screening",
+        "Number of participants' use of prior antineoplastic therapy"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "ECOG performance status",
+        "Palpable spleen",
+        "Duration of polycythemia vera",
+        "Spleen size",
+        "Hemoglobin",
+        "White blood cell count",
+        "Platelet count"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), ECOG performance status, spleen size, prior treatment with hydroxyurea, duration of polycythemia vera, hemoglobin level, white blood cell count, platelet count, liver function tests, renal function tests.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Number of participants resistant or intolerant to hydroxyurea (HU)",
+          "prior treatment with hydroxyurea"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Number of participants' frequency of phlebotomy in 52 weeks prior to screening",
+        "Number of participants' use of prior antineoplastic therapy"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "ECOG performance status",
+        "spleen size",
+        "duration of polycythemia vera",
+        "hemoglobin level",
+        "white blood cell count",
+        "platelet count",
+        "liver function tests",
+        "renal function tests"
+      ]
+    }
+  }
+}

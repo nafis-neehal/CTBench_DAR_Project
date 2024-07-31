@@ -1,0 +1,207 @@
+{
+  "trial_id": "NCT01864564",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Body Mass Index (BMI), Gestational Age at Screening, Parity, Race/Ethnicity, History of Gestational Diabetes, Family History of Diabetes, Smoking Status, Blood Pressure, Fasting Blood Glucose Levels, Hemoglobin A1c, 1,5-Anhydroglucitol Levels, Socioeconomic Status, Education Level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass index at randomization",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Gestational age at Randomization",
+          "Gestational Age at Screening"
+        ],
+        [
+          "Parous",
+          "Parity"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Any Smoking",
+          "Smoking Status"
+        ],
+        [
+          "Hemoglobin A1c at 14-20 weeks",
+          "Hemoglobin A1c"
+        ],
+        [
+          "High School education or greater",
+          "Education Level."
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Region of Enrollment",
+        "Medicaid/no insurance",
+        "Married",
+        "Any alcohol use",
+        "Any drug use",
+        "Hypertension",
+        "Asthma",
+        "Depression"
+      ],
+      "remaining_candidate_features": [
+        "History of Gestational Diabetes",
+        "Family History of Diabetes",
+        "Blood Pressure",
+        "Fasting Blood Glucose Levels",
+        "1,5-Anhydroglucitol Levels",
+        "Socioeconomic Status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Body Mass Index, Gestational Age at Screening, Race/Ethnicity, Customized, Parity, History of Gestational Diabetes, Blood Pressure, Fasting Glucose, Hemoglobin A1c, 1,5-anhydroglucitol Levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass index at randomization",
+          "Body Mass Index"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Parous",
+          "Parity"
+        ],
+        [
+          "Hemoglobin A1c at 14-20 weeks",
+          "Hemoglobin A1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Region of Enrollment",
+        "Medicaid/no insurance",
+        "Married",
+        "High School education or greater",
+        "Any Smoking",
+        "Any alcohol use",
+        "Any drug use",
+        "Hypertension",
+        "Asthma",
+        "Depression",
+        "Gestational age at Randomization"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age at Screening",
+        "History of Gestational Diabetes",
+        "Blood Pressure",
+        "Fasting Glucose",
+        "1",
+        "5-anhydroglucitol Levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Body Mass Index, Gestational Age, Ethnicity (NIH/OMB), Region of Enrollment, Previous history of gestational diabetes, Family history of diabetes, History of hypertension, History of preeclampsia,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass index at randomization",
+          "Body Mass Index"
+        ],
+        [
+          "Gestational age at Randomization",
+          "Gestational Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Medicaid/no insurance",
+        "Married",
+        "High School education or greater",
+        "Parous",
+        "Any Smoking",
+        "Any alcohol use",
+        "Any drug use",
+        "Hypertension",
+        "Asthma",
+        "Depression",
+        "Hemoglobin A1c at 14-20 weeks"
+      ],
+      "remaining_candidate_features": [
+        "Previous history of gestational diabetes",
+        "Family history of diabetes",
+        "History of hypertension",
+        "History of preeclampsia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Body Mass Index (BMI), Gestational Age at Presentation, Parity, Ethnicity, History of Gestational Diabetes, Family History of Diabetes, History of Hypertension, Smoking Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass index at randomization",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Gestational age at Randomization",
+          "Gestational Age at Presentation"
+        ],
+        [
+          "Parous",
+          "Parity"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity"
+        ],
+        [
+          "Any Smoking",
+          "Smoking Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex/Gender",
+        "Region of Enrollment",
+        "Medicaid/no insurance",
+        "Married",
+        "High School education or greater",
+        "Any alcohol use",
+        "Any drug use",
+        "Hypertension",
+        "Asthma",
+        "Depression",
+        "Hemoglobin A1c at 14-20 weeks"
+      ],
+      "remaining_candidate_features": [
+        "History of Gestational Diabetes",
+        "Family History of Diabetes",
+        "History of Hypertension"
+      ]
+    }
+  }
+}

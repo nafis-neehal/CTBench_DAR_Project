@@ -1,0 +1,225 @@
+{
+  "trial_id": "NCT01478971",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, duration on hemodialysis, baseline hemoglobin levels, current Epoetin dose, history of malignancy, pregnancy status, use of birth control, significant medical or psychiatric conditions, prior exposure to investigational agents.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Time on dialysis",
+          "duration on hemodialysis"
+        ],
+        [
+          "Baseline hemoglobin",
+          "baseline hemoglobin levels"
+        ],
+        [
+          "Kidney transplant recipient",
+          "history of malignancy"
+        ],
+        [
+          "Nephrotic syndrome history",
+          "significant medical or psychiatric conditions"
+        ],
+        [
+          "Pregnancy status",
+          "pregnancy status"
+        ],
+        [
+          "Use of birth control",
+          "use of birth control"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Weight",
+        "Current dialysis frequency",
+        "Ferritin",
+        "Transferrin saturation"
+      ],
+      "remaining_candidate_features": [
+        "current Epoetin dose",
+        "prior exposure to investigational agents"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline Hemoglobin Levels, Baseline Epoetin Dose, Body Mass Index, Blood Pressure, Serum Ferritin, Transferrin Saturation, Serum Creatinine, Estimated Glomerular Filtration Rate (eGFR),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Time on dialysis",
+          "Duration of Hemodialysis"
+        ],
+        [
+          "Baseline hemoglobin",
+          "Baseline Hemoglobin Levels"
+        ],
+        [
+          "Ferritin",
+          "Serum Ferritin"
+        ],
+        [
+          "Transferrin saturation",
+          "Transferrin Saturation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Kidney transplant recipient",
+        "Nephrotic syndrome history",
+        "Primary cause of chronic kidney disease",
+        "Current dialysis frequency"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Epoetin Dose",
+        "Body Mass Index",
+        "Blood Pressure",
+        "Serum Creatinine",
+        "Estimated Glomerular Filtration Rate (eGFR)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemoglobin level, Epoetin alfa dose, Dialysis duration, Body weight, Blood pressure, Ferritin level, Transferrin saturation,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Time on dialysis",
+          "Dialysis duration"
+        ],
+        [
+          "Baseline hemoglobin",
+          "Hemoglobin level"
+        ],
+        [
+          "Ferritin",
+          "Ferritin level"
+        ],
+        [
+          "Transferrin saturation",
+          "Transferrin saturation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight",
+        "Kidney transplant recipient",
+        "Nephrotic syndrome history",
+        "Primary cause of chronic kidney disease",
+        "Current dialysis frequency"
+      ],
+      "remaining_candidate_features": [
+        "Epoetin alfa dose",
+        "Body weight",
+        "Blood pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of dialysis, hemoglobin level, Epoetin alfa dose, ferritin level, transferrin saturation, presence of comorbidities (e.g., diabetes, hypertension), history of malignancy, history of ESA intolerance, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Time on dialysis",
+          "duration of dialysis"
+        ],
+        [
+          "Baseline hemoglobin",
+          "hemoglobin level"
+        ],
+        [
+          "Ferritin",
+          "ferritin level"
+        ],
+        [
+          "Transferrin saturation",
+          "transferrin saturation"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Kidney transplant recipient",
+        "Nephrotic syndrome history",
+        "Primary cause of chronic kidney disease",
+        "Current dialysis frequency"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "height",
+        "body mass index (BMI)",
+        "Epoetin alfa dose",
+        "presence of comorbidities (e.g., diabetes, hypertension)",
+        "history of malignancy",
+        "history of ESA intolerance",
+        "concomitant medications"
+      ]
+    }
+  }
+}

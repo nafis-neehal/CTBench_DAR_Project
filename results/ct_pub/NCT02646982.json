@@ -1,0 +1,369 @@
+{
+  "trial_id": "NCT02646982",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, education level, baseline cognitive function (MoCA score), baseline memory function (Wechsler Memory Scale-Revised score), Clinical Dementia Rating scale score, Functional Assessment Questionnaire score, amyloid positivity status, baseline systolic blood pressure (SBP), baseline diastolic blood pressure (DBP), baseline serum creatinine level, baseline potassium level, baseline platelet count, baseline international normalized ratio (INR), history of stroke, history of congestive heart failure, ability to undergo MRI, use of antihypertensive medications, use of lithium, presence of renal disease, presence of hyperkalemia, presence of psychiatric diseases, presence of active medical conditions, decisional capacity to consent, menopausal status in women.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "Years of Education",
+          "education level"
+        ],
+        [
+          "MoCA score",
+          "baseline cognitive function (MoCA score)"
+        ],
+        [
+          "Logical memory",
+          "baseline memory function (Wechsler Memory Scale-Revised score)"
+        ],
+        [
+          "Clinical Dementia Rating (CDR)",
+          "Clinical Dementia Rating scale score"
+        ],
+        [
+          "Functional Activities Questionairre (FAQ) score",
+          "Functional Assessment Questionnaire score"
+        ],
+        [
+          "Sitting systolic BP",
+          "baseline systolic blood pressure (SBP)"
+        ],
+        [
+          "Sitting diastolic BP",
+          "baseline diastolic blood pressure (DBP)"
+        ],
+        [
+          "Creatinine",
+          "baseline serum creatinine level"
+        ],
+        [
+          "Potassium",
+          "baseline potassium level"
+        ],
+        [
+          "Platelets",
+          "baseline platelet count"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "Race",
+        "BMI",
+        "Sitting heart rate",
+        "Standing systolic BP",
+        "Standing diastolic BP",
+        "Standing heart rate",
+        "delayed",
+        "global score",
+        "CDR-SB",
+        "WBC",
+        "Haemoglobin",
+        "Sodium",
+        "Diabetes mellitus",
+        "Heart disease (coronary or valvular)",
+        "Hyperlipidemia",
+        "Depression",
+        "Cholinesterase inhibitors/Memantine",
+        "Cardiovascular drugs",
+        "Antidiabetic drug",
+        "Lipid lowering agent",
+        "Antidepressant use"
+      ],
+      "remaining_candidate_features": [
+        "amyloid positivity status",
+        "baseline international normalized ratio (INR)",
+        "history of stroke",
+        "history of congestive heart failure",
+        "ability to undergo MRI",
+        "use of antihypertensive medications",
+        "use of lithium",
+        "presence of renal disease",
+        "presence of hyperkalemia",
+        "presence of psychiatric diseases",
+        "presence of active medical conditions",
+        "decisional capacity to consent",
+        "menopausal status in women."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Education, Race, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Montreal Cognitive Assessment (MoCA) score, Clinical Dementia Rating (CDR) score, Functional Assessment Questionnaire (FAQ) score, Amyloid positivity, Renal function (Creatinine), Potassium levels, Platelet count, International Normalized Ratio (INR)",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Years of Education",
+          "Education"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Sitting systolic BP",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Sitting diastolic BP",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "MoCA score",
+          "Montreal Cognitive Assessment (MoCA) score"
+        ],
+        [
+          "Clinical Dementia Rating (CDR)",
+          "Clinical Dementia Rating (CDR) score"
+        ],
+        [
+          "Functional Activities Questionairre (FAQ) score",
+          "Functional Assessment Questionnaire (FAQ) score"
+        ],
+        [
+          "Creatinine",
+          "Renal function (Creatinine)"
+        ],
+        [
+          "Potassium",
+          "Potassium levels"
+        ],
+        [
+          "Platelets",
+          "Platelet count"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "Sitting heart rate",
+        "Standing systolic BP",
+        "Standing diastolic BP",
+        "Standing heart rate",
+        "Logical memory",
+        "delayed",
+        "global score",
+        "CDR-SB",
+        "WBC",
+        "Haemoglobin",
+        "Sodium",
+        "Diabetes mellitus",
+        "Heart disease (coronary or valvular)",
+        "Hyperlipidemia",
+        "Depression",
+        "Cholinesterase inhibitors/Memantine",
+        "Cardiovascular drugs",
+        "Antidiabetic drug",
+        "Lipid lowering agent",
+        "Antidepressant use"
+      ],
+      "remaining_candidate_features": [
+        "Amyloid positivity",
+        "International Normalized Ratio (INR)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, Education, MMSE, MoCA, CDR, FAQ, Amyloid positivity, Hypertension history, Diabetes history, Hyperlipidemia history, Smoking history, BMI, Waist circumference, Systolic Blood Pressure, Diastolic blood pressure, Total cholesterol, HDL cholesterol, LDL cholesterol, Triglycerides, eGFR, Albuminuria, APOE genotype.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Ethnicity",
+          "Ethnic Origin"
+        ],
+        [
+          "Years of Education",
+          "Education"
+        ],
+        [
+          "MoCA score",
+          "MoCA"
+        ],
+        [
+          "Clinical Dementia Rating (CDR)",
+          "CDR"
+        ],
+        [
+          "Functional Activities Questionairre (FAQ) score",
+          "FAQ"
+        ],
+        [
+          "Hyperlipidemia",
+          "Hyperlipidemia history"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Sitting systolic BP",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Sitting diastolic BP",
+          "Diastolic blood pressure"
+        ],
+        [
+          "Creatinine",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race",
+        "Sitting heart rate",
+        "Standing systolic BP",
+        "Standing diastolic BP",
+        "Standing heart rate",
+        "Logical memory",
+        "delayed",
+        "global score",
+        "CDR-SB",
+        "WBC",
+        "Haemoglobin",
+        "Platelets",
+        "Sodium",
+        "Potassium",
+        "Diabetes mellitus",
+        "Heart disease (coronary or valvular)",
+        "Depression",
+        "Cholinesterase inhibitors/Memantine",
+        "Cardiovascular drugs",
+        "Antidiabetic drug",
+        "Lipid lowering agent",
+        "Antidepressant use"
+      ],
+      "remaining_candidate_features": [
+        "MMSE",
+        "Amyloid positivity",
+        "Hypertension history",
+        "Diabetes history",
+        "Smoking history",
+        "Waist circumference",
+        "Total cholesterol",
+        "HDL cholesterol",
+        "LDL cholesterol",
+        "Triglycerides",
+        "Albuminuria",
+        "APOE genotype."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), creatinine level, potassium level, platelet count, international normalized ratio (INR), Montreal Cognitive Assessment (MoCA) score, Clinical Dementia Rating scale/Memory sum Box score, Functional Assessment Questionnaire score, Wechsler Memory Scale-Revised (Logical Memory subscale) score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Years of Education",
+          "education level"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Sitting systolic BP",
+          "systolic blood pressure (SBP)"
+        ],
+        [
+          "Sitting diastolic BP",
+          "diastolic blood pressure (DBP)"
+        ],
+        [
+          "MoCA score",
+          "Montreal Cognitive Assessment (MoCA) score"
+        ],
+        [
+          "Clinical Dementia Rating (CDR)",
+          "Clinical Dementia Rating scale/Memory sum Box score"
+        ],
+        [
+          "Functional Activities Questionnaire (FAQ) score",
+          "Functional Assessment Questionnaire score"
+        ],
+        [
+          "Logical memory",
+          "Wechsler Memory Scale-Revised (Logical Memory subscale) score"
+        ],
+        [
+          "Creatinine",
+          "creatinine level"
+        ],
+        [
+          "Potassium",
+          "potassium level"
+        ],
+        [
+          "Platelets",
+          "platelet count"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "Sitting heart rate",
+        "Standing systolic BP",
+        "Standing diastolic BP",
+        "Standing heart rate",
+        "delayed",
+        "global score",
+        "CDR-SB",
+        "WBC",
+        "Haemoglobin",
+        "Sodium",
+        "Diabetes mellitus",
+        "Heart disease (coronary or valvular)",
+        "Hyperlipidemia",
+        "Depression",
+        "Cholinesterase inhibitors/Memantine",
+        "Cardiovascular drugs",
+        "Antidiabetic drug",
+        "Lipid lowering agent",
+        "Antidepressant use"
+      ],
+      "remaining_candidate_features": [
+        "international normalized ratio (INR)"
+      ]
+    }
+  }
+}

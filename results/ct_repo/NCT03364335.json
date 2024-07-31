@@ -1,0 +1,191 @@
+{
+  "trial_id": "NCT03364335",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, BMI, body weight, diet stability, antidepressant use, clinical laboratory test results, renal function (eGFR), HbA1c, blood pressure, history of bariatric surgery, history of infections, chronic inflammatory disease status, metabolic disease status, history of alcohol abuse, history of substance abuse, investigational drug use, blood donation history, life expectancy, cancer history, allergy history, cardiovascular event history, hepatic function (ALT/AST levels), employment status with NuSirt Biopharma.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Weight (kg)",
+          "body weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Waist Circumference"
+      ],
+      "remaining_candidate_features": [
+        "diet stability",
+        "antidepressant use",
+        "clinical laboratory test results",
+        "renal function (eGFR)",
+        "HbA1c",
+        "blood pressure",
+        "history of bariatric surgery",
+        "history of infections",
+        "chronic inflammatory disease status",
+        "metabolic disease status",
+        "history of alcohol abuse",
+        "history of substance abuse",
+        "investigational drug use",
+        "blood donation history",
+        "life expectancy",
+        "cancer history",
+        "allergy history",
+        "cardiovascular event history",
+        "hepatic function (ALT/AST levels)",
+        "employment status with NuSirt Biopharma."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Baseline Weight, Waist Circumference, Fasting Glucose, HbA1c, Lipid Profile, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Weight (kg)",
+          "Baseline Weight"
+        ],
+        [
+          "Waist Circumference",
+          "Waist Circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Glucose",
+        "HbA1c",
+        "Lipid Profile"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Diabetes Status, History of Cardiovascular Disease, History of Hypertension, Lipid Profile, Medication Use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight (kg)",
+        "Waist Circumference"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "HbA1c",
+        "Diabetes Status",
+        "History of Cardiovascular Disease",
+        "History of Hypertension",
+        "Lipid Profile",
+        "Medication Use."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, race, ethnicity, smoking status, medical history (including diabetes, hypertension, cardiovascular disease), concomitant medications, diet, physical activity level, HbA1c, eGFR, liver function tests (ALT/AST), blood pressure, heart rate.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Weight (kg)",
+          "weight"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Waist Circumference"
+      ],
+      "remaining_candidate_features": [
+        "height",
+        "smoking status",
+        "medical history (including diabetes, hypertension, cardiovascular disease)",
+        "concomitant medications",
+        "diet",
+        "physical activity level",
+        "HbA1c",
+        "eGFR",
+        "liver function tests (ALT/AST)",
+        "blood pressure",
+        "heart rate"
+      ]
+    }
+  }
+}

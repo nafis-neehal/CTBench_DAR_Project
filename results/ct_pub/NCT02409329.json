@@ -1,0 +1,302 @@
+{
+  "trial_id": "NCT02409329",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, baseline HbA1c, duration of diabetes, type of diabetes medication (oral/injectable), education level, income level, employment status, health literacy, baseline medication adherence, baseline motivation, baseline behavioral skills, baseline information on diabetes management, cell phone usage frequency, baseline cognitive function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "gender"
+        ],
+        [
+          "Racial/Ethnic Minority",
+          "race/ethnicity"
+        ],
+        [
+          "HbA1c",
+          "baseline HbA1c"
+        ],
+        [
+          "Diabetes Duration",
+          "duration of diabetes"
+        ],
+        [
+          "Insulin Status",
+          "type of diabetes medication (oral/injectable)"
+        ],
+        [
+          "Education",
+          "education level"
+        ],
+        [
+          "Income < $25 000 USD",
+          "income level"
+        ],
+        [
+          "Health Literacy",
+          "health literacy"
+        ],
+        [
+          "Medication Adherence (ARMS-Drev)",
+          "baseline medication adherence"
+        ]
+      ],
+      "remaining_reference_features": [
+        "years",
+        "Education",
+        "\u2264 High school degree/GED",
+        "Homeless",
+        "Uninsured",
+        "Married/Partnered",
+        "taking insulin",
+        "Health Literacy (BHLS)",
+        "Low (< 4 on any item)",
+        "Family/Friend Involvement (FIAD)",
+        "Difference score (helpful \u2013 harmful)",
+        "Diabetes Self-efficacy (PDSMS4)",
+        "Depressive Symptoms (PHQ8)",
+        "Dietary behavior (PDQ)",
+        "Physical Activity (MET-min/week)",
+        "Self-rated health",
+        "Poor/Fair",
+        "ED visits in past year",
+        "Hospitalizations in past year"
+      ],
+      "remaining_candidate_features": [
+        "employment status",
+        "baseline motivation",
+        "baseline behavioral skills",
+        "baseline information on diabetes management",
+        "cell phone usage frequency",
+        "baseline cognitive function."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Education, Employment status, Duration of diabetes, Type of diabetes medication, Baseline HbA1c, BMI, Blood pressure, Smoking status, Health literacy, Medication adherence, Mobile phone usage, Access to healthcare, Socioeconomic status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Racial/Ethnic Minority",
+          "Race"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "Education",
+          "Education"
+        ],
+        [
+          "Diabetes Duration",
+          "Duration of diabetes"
+        ],
+        [
+          "Insulin Status",
+          "Type of diabetes medication"
+        ],
+        [
+          "HbA1c",
+          "Baseline HbA1c"
+        ],
+        [
+          "Health Literacy",
+          "Health literacy"
+        ],
+        [
+          "Medication Adherence",
+          "Medication adherence"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Income < $25 000 USD",
+        "years",
+        "\u2264 High school degree/GED",
+        "Homeless",
+        "Uninsured",
+        "Married/Partnered",
+        "taking insulin",
+        "Health Literacy (BHLS)",
+        "Low (< 4 on any item)",
+        "Family/Friend Involvement (FIAD)",
+        "Difference score (helpful \u2013 harmful)",
+        "Diabetes Self-efficacy (PDSMS4)",
+        "Depressive Symptoms (PHQ8)",
+        "Dietary behavior (PDQ)",
+        "Physical Activity (MET-min/week)",
+        "Self-rated health",
+        "Poor/Fair",
+        "ED visits in past year",
+        "Hospitalizations in past year"
+      ],
+      "remaining_candidate_features": [
+        "Employment status",
+        "BMI",
+        "Blood pressure",
+        "Smoking status",
+        "Mobile phone usage",
+        "Access to healthcare",
+        "Socioeconomic status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnicity, Education, Income, Employment, Diabetes duration, Insulin regimen, Total daily insulin dose, BMI, Waist circumference, Systolic Blood Pressure, Diastolic blood pressure, Total cholesterol, Smoking history, eGFR, Diabetic retinopathy, Neuropathy, Antihypertensive drugs, Statin, Antiplatelet drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Racial/Ethnic Minority",
+          "Ethnicity"
+        ],
+        [
+          "Gender",
+          "Sex"
+        ],
+        [
+          "Income < $25 000 USD",
+          "Income"
+        ],
+        [
+          "Education",
+          "Education"
+        ],
+        [
+          "Diabetes Duration",
+          "Diabetes duration"
+        ],
+        [
+          "Insulin Status",
+          "Insulin regimen"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "years",
+        "\u2264 High school degree/GED",
+        "Homeless",
+        "Uninsured",
+        "Married/Partnered",
+        "taking insulin",
+        "Health Literacy (BHLS)",
+        "Health Literacy",
+        "Low (< 4 on any item)",
+        "Family/Friend Involvement (FIAD)",
+        "Difference score (helpful \u2013 harmful)",
+        "Diabetes Self-efficacy (PDSMS4)",
+        "Depressive Symptoms (PHQ8)",
+        "Dietary behavior (PDQ)",
+        "Physical Activity (MET-min/week)",
+        "Medication Adherence (ARMS-Drev)",
+        "Self-rated health",
+        "Poor/Fair",
+        "ED visits in past year",
+        "Hospitalizations in past year"
+      ],
+      "remaining_candidate_features": [
+        "Employment",
+        "Total daily insulin dose",
+        "BMI",
+        "Waist circumference",
+        "Systolic Blood Pressure",
+        "Diastolic blood pressure",
+        "Total cholesterol",
+        "Smoking history",
+        "eGFR",
+        "Diabetic retinopathy",
+        "Neuropathy",
+        "Antihypertensive drugs",
+        "Statin",
+        "Antiplatelet drugs"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, income, employment status, marital status, duration of diabetes, type of diabetes medication, HbA1c at baseline, body mass index (BMI), blood pressure, smoking status, comorbidities (e.g., hypertension, hyperlipidemia).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "Racial/Ethnic Minority",
+          "race"
+        ],
+        [
+          "Income < $25 000 USD",
+          "income"
+        ],
+        [
+          "Education",
+          "education level"
+        ],
+        [
+          "Married/Partnered",
+          "marital status"
+        ],
+        [
+          "Diabetes Duration",
+          "duration of diabetes"
+        ],
+        [
+          "Insulin Status",
+          "type of diabetes medication"
+        ],
+        [
+          "HbA1c",
+          "HbA1c at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "years",
+        "Education",
+        "\u2264 High school degree/GED",
+        "Homeless",
+        "Uninsured",
+        "Health Literacy (BHLS)",
+        "Health Literacy",
+        "Low (< 4 on any item)",
+        "Family/Friend Involvement (FIAD)",
+        "Difference score (helpful \u2013 harmful)",
+        "Diabetes Self-efficacy (PDSMS4)",
+        "Depressive Symptoms (PHQ8)",
+        "Dietary behavior (PDQ)",
+        "Physical Activity (MET-min/week)",
+        "Medication Adherence (ARMS-Drev)",
+        "Self-rated health",
+        "Poor/Fair",
+        "ED visits in past year",
+        "Hospitalizations in past year"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "employment status",
+        "body mass index (BMI)",
+        "blood pressure",
+        "smoking status",
+        "comorbidities (e.g., hypertension, hyperlipidemia)"
+      ]
+    }
+  }
+}

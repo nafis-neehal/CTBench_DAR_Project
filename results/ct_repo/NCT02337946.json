@@ -1,0 +1,298 @@
+{
+  "trial_id": "NCT02337946",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, ECOG performance status, KRAS status, NRAS status, neutrophil count, white blood cell count, platelet count, hemoglobin level, total bilirubin level, AST level, ALT level, serum creatinine level, presence of liver metastases, life expectancy, prior chemotherapy status, measurable lesion status according to RECIST 1.1, history of radiotherapy, presence of brain metastasis, presence of synchronous or metachronous cancers, presence of body cavity fluid, pregnancy status, active hemorrhage status, use of systemic steroids, history of intestinal resection or colostomy, history of interstitial pulmonary disease, drug hypersensitivity, presence of active infection, presence of intestinal paralysis or gastrointestinal obstruction, active hepatitis B or C status, HIV status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) [Cycle 1]",
+          "ECOG performance status"
+        ],
+        [
+          "Neuroblastoma Rat Sarcoma (NRAS) + Kirsten Rat Sarcoma (KRAS) Testing",
+          "KRAS status"
+        ],
+        [
+          "Neuroblastoma Rat Sarcoma (NRAS) + Kirsten Rat Sarcoma (KRAS) Testing",
+          "NRAS status"
+        ],
+        [
+          "History of Radiotherapy",
+          "history of radiotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Histological Type of Adenocarcinoma",
+        "Information on Primary Lesion: Single",
+        "Multiple or Unknown",
+        "Information on Primary Lesion: Primary Lesion Site",
+        "History of Surgery",
+        "History of Preoperative and/or Postoperative Adjuvant (Adj) Chemotherapy (CT)",
+        "Number of Metastatic Organs at Enrollment",
+        "Type of Metastatic Organs at Enrollment",
+        "Worst Grade of Laboratory Tests/Clinical Findings During Protocol Treatment 1",
+        "Worst Grade of Peripheral Neuropathy During Protocol Treatment 1",
+        "Number of Participants without Curative Resection During Protocol Treatment 1",
+        "Treatment Status for Protocol Treatment 1: Reduced or Not Reduced",
+        "Treatment Status for Protocol Treatment 1: Postponed or Not Postponed"
+      ],
+      "remaining_candidate_features": [
+        "neutrophil count",
+        "white blood cell count",
+        "platelet count",
+        "hemoglobin level",
+        "total bilirubin level",
+        "AST level",
+        "ALT level",
+        "serum creatinine level",
+        "presence of liver metastases",
+        "life expectancy",
+        "prior chemotherapy status",
+        "measurable lesion status according to RECIST 1.1",
+        "presence of brain metastasis",
+        "presence of synchronous or metachronous cancers",
+        "presence of body cavity fluid",
+        "pregnancy status",
+        "active hemorrhage status",
+        "use of systemic steroids",
+        "history of intestinal resection or colostomy",
+        "history of interstitial pulmonary disease",
+        "drug hypersensitivity",
+        "presence of active infection",
+        "presence of intestinal paralysis or gastrointestinal obstruction",
+        "active hepatitis B or C status",
+        "HIV status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, KRAS/NRAS Mutation Status, Neutrophil Count, White Blood Cell Count, Platelet Count, Hemoglobin, Total Bilirubin, AST, ALT, Serum Creatinine, Life Expectancy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) [Cycle 1]",
+          "ECOG Performance Status"
+        ],
+        [
+          "Neuroblastoma Rat Sarcoma (NRAS) + Kirsten Rat Sarcoma (KRAS) Testing",
+          "KRAS/NRAS Mutation Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Histological Type of Adenocarcinoma",
+        "Information on Primary Lesion: Single",
+        "Multiple or Unknown",
+        "Information on Primary Lesion: Primary Lesion Site",
+        "History of Surgery",
+        "History of Radiotherapy",
+        "History of Preoperative and/or Postoperative Adjuvant (Adj) Chemotherapy (CT)",
+        "Number of Metastatic Organs at Enrollment",
+        "Type of Metastatic Organs at Enrollment",
+        "Worst Grade of Laboratory Tests/Clinical Findings During Protocol Treatment 1",
+        "Worst Grade of Peripheral Neuropathy During Protocol Treatment 1",
+        "Number of Participants without Curative Resection During Protocol Treatment 1",
+        "Treatment Status for Protocol Treatment 1: Reduced or Not Reduced",
+        "Treatment Status for Protocol Treatment 1: Postponed or Not Postponed"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Neutrophil Count",
+        "White Blood Cell Count",
+        "Platelet Count",
+        "Hemoglobin",
+        "Total Bilirubin",
+        "AST",
+        "ALT",
+        "Serum Creatinine",
+        "Life Expectancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, KRAS Status, NRAS Status, Tumor Location, Number of Metastatic Sites, Prior Adjuvant Chemotherapy, Neutrophil Count, White Blood Cell Count, Platelet Count, Hemoglobin, Total Bilirubin, AST, ALT, Serum Creatinine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Histological Type of Adenocarcinoma",
+          "Tumor Location"
+        ],
+        [
+          "Number of Metastatic Organs at Enrollment",
+          "Number of Metastatic Sites"
+        ],
+        [
+          "History of Preoperative and/or Postoperative Adjuvant (Adj) Chemotherapy (CT)",
+          "Prior Adjuvant Chemotherapy"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) [Cycle 1]",
+          "ECOG Performance Status"
+        ],
+        [
+          "Neuroblastoma Rat Sarcoma (NRAS) + Kirsten Rat Sarcoma (KRAS) Testing",
+          "KRAS Status"
+        ],
+        [
+          "Neuroblastoma Rat Sarcoma (NRAS) + Kirsten Rat Sarcoma (KRAS) Testing",
+          "NRAS Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Information on Primary Lesion: Single",
+        "Multiple or Unknown",
+        "Information on Primary Lesion: Primary Lesion Site",
+        "History of Surgery",
+        "History of Radiotherapy",
+        "Type of Metastatic Organs at Enrollment",
+        "Worst Grade of Laboratory Tests/Clinical Findings During Protocol Treatment 1",
+        "Worst Grade of Peripheral Neuropathy During Protocol Treatment 1",
+        "Number of Participants without Curative Resection During Protocol Treatment 1",
+        "Treatment Status for Protocol Treatment 1: Reduced or Not Reduced",
+        "Treatment Status for Protocol Treatment 1: Postponed or Not Postponed"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Neutrophil Count",
+        "White Blood Cell Count",
+        "Platelet Count",
+        "Hemoglobin",
+        "Total Bilirubin",
+        "AST",
+        "ALT",
+        "Serum Creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, ECOG performance status, KRAS status, NRAS status, presence of measurable lesions, number of metastatic sites, prior adjuvant chemotherapy, time since diagnosis, hemoglobin, neutrophil count, white blood cell count, platelet count, total bilirubin, AST, ALT, serum creatinine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) [Cycle 1]",
+          "ECOG performance status"
+        ],
+        [
+          "Neuroblastoma Rat Sarcoma (NRAS) + Kirsten Rat Sarcoma (KRAS) Testing",
+          "KRAS status"
+        ],
+        [
+          "Neuroblastoma Rat Sarcoma (NRAS) + Kirsten Rat Sarcoma (KRAS) Testing",
+          "NRAS status"
+        ],
+        [
+          "Number of Metastatic Organs at Enrollment",
+          "number of metastatic sites"
+        ],
+        [
+          "History of Preoperative and/or Postoperative Adjuvant (Adj) Chemotherapy (CT)",
+          "prior adjuvant chemotherapy"
+        ],
+        [
+          "Hemoglobin",
+          "hemoglobin"
+        ],
+        [
+          "Neutrophil count",
+          "neutrophil count"
+        ],
+        [
+          "White blood cell count",
+          "white blood cell count"
+        ],
+        [
+          "Platelet count",
+          "platelet count"
+        ],
+        [
+          "Total bilirubin",
+          "total bilirubin"
+        ],
+        [
+          "AST",
+          "AST"
+        ],
+        [
+          "ALT",
+          "ALT"
+        ],
+        [
+          "Serum creatinine",
+          "serum creatinine"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Histological Type of Adenocarcinoma",
+        "Information on Primary Lesion: Single",
+        "Multiple or Unknown",
+        "Information on Primary Lesion: Primary Lesion Site",
+        "History of Surgery",
+        "History of Radiotherapy",
+        "Number of Participants without Curative Resection During Protocol Treatment 1",
+        "Treatment Status for Protocol Treatment 1: Reduced or Not Reduced",
+        "Treatment Status for Protocol Treatment 1: Postponed or Not Postponed",
+        "Worst Grade of Laboratory Tests/Clinical Findings During Protocol Treatment 1",
+        "Worst Grade of Peripheral Neuropathy During Protocol Treatment 1"
+      ],
+      "remaining_candidate_features": [
+        "presence of measurable lesions",
+        "time since diagnosis"
+      ]
+    }
+  }
+}

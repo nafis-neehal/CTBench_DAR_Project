@@ -1,0 +1,164 @@
+{
+  "trial_id": "NCT02320123",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, type of cancer (breast, lung, or colon), proficiency in English, cognitive function (Mini-Cog score), previous palliative or hospice care experience, primary caregiver identification, caregiver age, caregiver proficiency in English, caregiver competence to give informed consent.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Hospitalized patients with cancer",
+          "type of cancer (breast, lung, or colon)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "proficiency in English",
+        "cognitive function (Mini-Cog score)",
+        "previous palliative or hospice care experience",
+        "primary caregiver identification",
+        "caregiver age",
+        "caregiver proficiency in English",
+        "caregiver competence to give informed consent."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Cancer, Stage of Cancer, Mini-Cog Score, Prior Use of Palliative or Hospice Care,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hospitalized patients with cancer",
+          "Type of Cancer"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical"
+      ],
+      "remaining_candidate_features": [
+        "Stage of Cancer",
+        "Mini-Cog Score",
+        "Prior Use of Palliative or Hospice Care"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Diagnosis, Cancer Stage, Karnofsky Performance Status, Charlson Comorbidity Index, Mini-Cog Score, Caregiver Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hospitalized patients with cancer",
+          "Cancer Diagnosis"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical"
+      ],
+      "remaining_candidate_features": [
+        "Cancer Stage",
+        "Karnofsky Performance Status",
+        "Charlson Comorbidity Index",
+        "Mini-Cog Score",
+        "Caregiver Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, marital status, employment status, income level, insurance status, cancer diagnosis (breast, lung, or colon), cancer stage, comorbidities, Mini-Cog score, clock draw result, proficiency in English, caregiver status, relationship to patient (for caregivers).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Hospitalized patients with cancer",
+          "cancer diagnosis (breast, lung, or colon)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "education level",
+        "marital status",
+        "employment status",
+        "income level",
+        "insurance status",
+        "cancer stage",
+        "comorbidities",
+        "Mini-Cog score",
+        "clock draw result",
+        "proficiency in English",
+        "caregiver status",
+        "relationship to patient (for caregivers)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "trial_id": "NCT01093755",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, life expectancy, baseline levels of inflammatory mediators (e.g., PGE2, COX-2), history of Barrett's Esophagus, history of High Grade Dysplasia (HGD) or Low Grade Dysplasia (LGD), previous ablation treatments (e.g., Photodynamic Therapy, Radiofrequency ablation, endoscopic mucosal resection), liver enzyme levels (ALT, AST, bilirubin, alkaline phosphatase), ability to consent, use of anticoagulation therapy, intolerance to proton pump inhibitors.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "High Grade Dysplasia/Intramucosal Carcinoma",
+          "history of High Grade Dysplasia (HGD) or Low Grade Dysplasia (LGD)"
+        ],
+        [
+          "Barrett's Esophagus segment length",
+          "history of Barrett's Esophagus"
+        ],
+        [
+          "pre-ablation",
+          "previous ablation treatments (e.g., Photodynamic Therapy, Radiofrequency ablation, endoscopic mucosal resection)"
+        ],
+        [
+          "Number undergoing Endoscopic Mucosal Resection",
+          "previous ablation treatments (e.g., Photodynamic Therapy, Radiofrequency ablation, endoscopic mucosal resection)"
+        ],
+        [
+          "liver enzyme levels (ALT, AST, bilirubin, alkaline phosphatase)",
+          "liver enzyme levels (ALT, AST, bilirubin, alkaline phosphatase)"
+        ],
+        [
+          "ability to consent",
+          "ability to consent"
+        ],
+        [
+          "life expectancy",
+          "life expectancy"
+        ],
+        [
+          "use of anticoagulation therapy",
+          "use of anticoagulation therapy"
+        ],
+        [
+          "intolerance to proton pump inhibitors",
+          "intolerance to proton pump inhibitors"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Diaphragmatic Hernia present",
+        "Diaphragmatic Hernia length"
+      ],
+      "remaining_candidate_features": [
+        "baseline levels of inflammatory mediators (e.g., PGE2, COX-2)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Inflammation Biomarker Levels, Baseline COX-2 Gene Expression, History of Barrett's Esophagus, Type of Ablation Therapy Used, Duration Since Last Ablation, Liver Enzyme Levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "High Grade Dysplasia/Intramucosal Carcinoma",
+        "Body Mass Index",
+        "Barrett's Esophagus segment length",
+        "pre-ablation",
+        "Diaphragmatic Hernia present",
+        "Diaphragmatic Hernia length",
+        "Number undergoing Endoscopic Mucosal Resection"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline Inflammation Biomarker Levels",
+        "Baseline COX-2 Gene Expression",
+        "History of Barrett's Esophagus",
+        "Type of Ablation Therapy Used",
+        "Duration Since Last Ablation",
+        "Liver Enzyme Levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, History of Barrett's Esophagus, History of High Grade Dysplasia, History of Low Grade Dysplasia, History of Photodynamic Therapy, History of Radiofrequency ablation, History of Endoscopic Mucosal Resection, Life Expectancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "High Grade Dysplasia/Intramucosal Carcinoma",
+          "History of High Grade Dysplasia"
+        ],
+        [
+          "Number undergoing Endoscopic Mucosal Resection",
+          "History of Endoscopic Mucosal Resection"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Barrett's Esophagus segment length",
+        "pre-ablation",
+        "Diaphragmatic Hernia present",
+        "Diaphragmatic Hernia length"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "History of Barrett's Esophagus",
+        "History of Low Grade Dysplasia",
+        "History of Photodynamic Therapy",
+        "History of Radiofrequency ablation",
+        "Life Expectancy."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, history of Barrett's Esophagus, history of High Grade Dysplasia (HGD) or Low Grade Dysplasia (LGD), type of ablation therapy received, duration of acid suppression therapy prior to enrollment, presence of gastroesophageal reflux disease (GERD) symptoms, use of antacids or histamine-2 (H2) blockers, liver enzyme levels (ALT, AST, bilirubin, alkaline phosphatase).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "High Grade Dysplasia/Intramucosal Carcinoma",
+          "history of High Grade Dysplasia (HGD) or Low Grade Dysplasia (LGD)"
+        ],
+        [
+          "Number undergoing Endoscopic Mucosal Resection",
+          "type of ablation therapy received"
+        ],
+        [
+          "Diaphragmatic Hernia present",
+          "presence of gastroesophageal reflux disease (GERD) symptoms"
+        ],
+        [
+          "Diaphragmatic Hernia length",
+          "duration of acid suppression therapy prior to enrollment"
+        ],
+        [
+          "pre-ablation",
+          "history of Barrett's Esophagus"
+        ],
+        [
+          "Barrett's Esophagus segment length",
+          "use of antacids or histamine-2 (H2) blockers"
+        ],
+        [
+          "Region of Enrollment",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "smoking status",
+        "liver enzyme levels (ALT, AST, bilirubin, alkaline phosphatase)."
+      ]
+    }
+  }
+}

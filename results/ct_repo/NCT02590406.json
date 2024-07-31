@@ -1,0 +1,204 @@
+{
+  "trial_id": "NCT02590406",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, BMI, Waist circumference, FRC (Functional Residual Capacity), Smoking status, Presence of facial hair, Cranio-facial abnormalities, History of asthma, History of COPD, Cardiovascular disease status, Pregnancy status, History of tobacco use, History of GERD or risk of aspiration, Difficulty with intubation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "BMI (m/kg2)",
+          "BMI"
+        ],
+        [
+          "Waist circumference (cm)",
+          "Waist circumference"
+        ],
+        [
+          "FEV1 (liters)",
+          "History of asthma"
+        ],
+        [
+          "FEV1 (liters)",
+          "History of COPD"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Weight (kg)",
+        "Height (m)",
+        "Hip circumference (cm)",
+        "Waist:hip ratio",
+        "Neck Circumference",
+        "Sleep apnea Dx (n)",
+        "CPAP"
+      ],
+      "remaining_candidate_features": [
+        "FRC (Functional Residual Capacity)",
+        "Smoking status",
+        "Presence of facial hair",
+        "Cranio-facial abnormalities",
+        "Cardiovascular disease status",
+        "Pregnancy status",
+        "History of tobacco use",
+        "History of GERD or risk of aspiration",
+        "Difficulty with intubation."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Smoking Status, History of Asthma, History of COPD, History of Cardiovascular Disease,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI (m/kg2)",
+          "Body Mass Index"
+        ],
+        [
+          "Waist circumference (cm)",
+          "Waist Circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Weight (kg)",
+        "Height (m)",
+        "Hip circumference (cm)",
+        "Waist:hip ratio",
+        "Neck Circumference",
+        "FEV1 (liters)",
+        "Sleep apnea Dx (n)",
+        "CPAP"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Smoking Status",
+        "History of Asthma",
+        "History of COPD",
+        "History of Cardiovascular Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Waist Circumference, NYHA Class, History of Asthma, History of COPD, History of Cardiovascular Disease, History of GERD, History of Tobacco Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI (m/kg2)",
+          "BMI"
+        ],
+        [
+          "Waist circumference (cm)",
+          "Waist Circumference"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Weight (kg)",
+        "Height (m)",
+        "Hip circumference (cm)",
+        "Waist:hip ratio",
+        "Neck Circumference",
+        "FEV1 (liters)",
+        "Sleep apnea Dx (n)",
+        "CPAP"
+      ],
+      "remaining_candidate_features": [
+        "NYHA Class",
+        "History of Asthma",
+        "History of COPD",
+        "History of Cardiovascular Disease",
+        "History of GERD",
+        "History of Tobacco Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, waist circumference, weight, height, NYHA class, FEV1, history of asthma, history of COPD, history of cardiovascular disease, history of GERD, history of tobacco use, presence of facial hair, presence of cranio-facial abnormality, pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI (m/kg2)",
+          "BMI"
+        ],
+        [
+          "Waist circumference (cm)",
+          "waist circumference"
+        ],
+        [
+          "Weight (kg)",
+          "weight"
+        ],
+        [
+          "Height (m)",
+          "height"
+        ],
+        [
+          "FEV1 (liters)",
+          "FEV1"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Hip circumference (cm)",
+        "Waist:hip ratio",
+        "Neck Circumference",
+        "Sleep apnea Dx (n)",
+        "CPAP"
+      ],
+      "remaining_candidate_features": [
+        "NYHA class",
+        "history of asthma",
+        "history of COPD",
+        "history of cardiovascular disease",
+        "history of GERD",
+        "history of tobacco use",
+        "presence of facial hair",
+        "presence of cranio-facial abnormality",
+        "pregnancy status."
+      ]
+    }
+  }
+}

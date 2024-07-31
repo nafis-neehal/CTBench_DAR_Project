@@ -1,0 +1,194 @@
+{
+  "trial_id": "NCT02911844",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, menopausal status, pulmonary artery pressure, pulmonary capillary wedge pressure, pulmonary vascular resistance, pulmonary function test results (FEV1/FVC, total lung capacity), hormone levels (FSH), history of PAH, type of PAH (idiopathic, heritable, drug- or toxin-induced, associated with connective tissue disease, congenital heart disease, portal hypertension, or HIV infection), WHO functional class, history of breast cancer, presence of sleep apnea, left-sided valvular disease, ejection fraction, current PAH therapy, use of anticoagulants, platelet count, renal function (creatinine levels), liver function (Child-Pugh class), alcohol consumption history, use of investigational drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Childs-Pugh Class",
+          "liver function (Child-Pugh class)"
+        ],
+        [
+          "World Health Organization functional class",
+          "WHO functional class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "menopausal status",
+        "pulmonary artery pressure",
+        "pulmonary capillary wedge pressure",
+        "pulmonary vascular resistance",
+        "pulmonary function test results (FEV1/FVC, total lung capacity)",
+        "hormone levels (FSH)",
+        "history of PAH",
+        "type of PAH (idiopathic, heritable, drug- or toxin-induced, associated with connective tissue disease, congenital heart disease, portal hypertension, or HIV infection)",
+        "history of breast cancer",
+        "presence of sleep apnea",
+        "left-sided valvular disease",
+        "ejection fraction",
+        "current PAH therapy",
+        "use of anticoagulants",
+        "platelet count",
+        "renal function (creatinine levels)",
+        "alcohol consumption history",
+        "use of investigational drugs"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Mean Pulmonary Artery Pressure, Pulmonary Capillary Wedge Pressure, Pulmonary Vascular Resistance, Forced Expiratory Volume in 1 Second (FEV1), Forced Vital Capacity (FVC), Total Lung Capacity, Follicle-Stimulating Hormone (FSH) Levels, WHO Functional Class, Platelet Count, Creatinine Levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Childs-Pugh Class",
+          "Childs-Pugh Class"
+        ],
+        [
+          "World Health Organization functional class",
+          "WHO Functional Class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "Mean Pulmonary Artery Pressure",
+        "Pulmonary Capillary Wedge Pressure",
+        "Pulmonary Vascular Resistance",
+        "Forced Expiratory Volume in 1 Second (FEV1)",
+        "Forced Vital Capacity (FVC)",
+        "Total Lung Capacity",
+        "Follicle-Stimulating Hormone (FSH) Levels",
+        "Platelet Count",
+        "Creatinine Levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Postmenopausal Status, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulmonary Arterial Hypertension Diagnosis Duration, WHO Functional Class, Six Minute Walk Distance, Tricuspid Annular Plane Systolic Excursion, Plasma Estradiol Levels, Plasma NT-proBNP Level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Childs-Pugh Class",
+          "Childs-Pugh Class"
+        ],
+        [
+          "World Health Organization functional class",
+          "WHO Functional Class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Postmenopausal Status",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Pulmonary Arterial Hypertension Diagnosis Duration",
+        "Six Minute Walk Distance",
+        "Tricuspid Annular Plane Systolic Excursion",
+        "Plasma Estradiol Levels",
+        "Plasma NT-proBNP Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, smoking status, medical history (including hypertension, diabetes, and cardiovascular disease), menopausal status, follicle-stimulating hormone levels, previous PAH therapy, WHO functional class, six-minute walk distance, tricuspid annular plane systolic excursion, stroke volume index, right ventricular fractional area change, NT-proBNP levels, plasma estradiol levels, hematopoietic progenitor cells, pulmonary function test results (FEV1/FVC, total lung capacity), echocardiography results (ejection fraction, left ventricular end-diastolic pressure).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Childs-Pugh Class",
+          "Child-Pugh Class"
+        ],
+        [
+          "World Health Organization functional class",
+          "WHO functional class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index",
+        "smoking status",
+        "medical history (including hypertension, diabetes, and cardiovascular disease)",
+        "menopausal status",
+        "follicle-stimulating hormone levels",
+        "previous PAH therapy",
+        "six-minute walk distance",
+        "tricuspid annular plane systolic excursion",
+        "stroke volume index",
+        "right ventricular fractional area change",
+        "NT-proBNP levels",
+        "plasma estradiol levels",
+        "hematopoietic progenitor cells",
+        "pulmonary function test results (FEV1/FVC, total lung capacity)",
+        "echocardiography results (ejection fraction, left ventricular end-diastolic pressure)"
+      ]
+    }
+  }
+}

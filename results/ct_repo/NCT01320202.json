@@ -1,0 +1,162 @@
+{
+  "trial_id": "NCT01320202",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of hemodialysis, baseline hemoglobin (Hgb), baseline transferrin saturation (TSAT), baseline serum ferritin, epoetin dose, darbepoetin dose, CERA dose, serum albumin, history of IV iron therapy, history of RBC or whole blood transfusion.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "post-dialysis body weight",
+        "height"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "duration of hemodialysis",
+        "baseline hemoglobin (Hgb)",
+        "baseline transferrin saturation (TSAT)",
+        "baseline serum ferritin",
+        "epoetin dose",
+        "darbepoetin dose",
+        "CERA dose",
+        "serum albumin",
+        "history of IV iron therapy",
+        "history of RBC or whole blood transfusion."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline Hemoglobin, Baseline Transferrin Saturation (TSAT), Baseline Serum Ferritin, Erythropoietin Stimulating Agent (ESA) Dose, Serum Albumin,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "post-dialysis body weight",
+        "height"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Hemodialysis",
+        "Baseline Hemoglobin",
+        "Baseline Transferrin Saturation (TSAT)",
+        "Baseline Serum Ferritin",
+        "Erythropoietin Stimulating Agent (ESA) Dose",
+        "Serum Albumin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemoglobin, Transferrin Saturation, Serum Ferritin, Erythropoietin dose, Serum Albumin, Dialysis vintage, Body Mass Index.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "post-dialysis body weight",
+        "height"
+      ],
+      "remaining_candidate_features": [
+        "Hemoglobin",
+        "Transferrin Saturation",
+        "Serum Ferritin",
+        "Erythropoietin dose",
+        "Serum Albumin",
+        "Dialysis vintage",
+        "Body Mass Index."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, weight, height, body mass index (BMI), duration of hemodialysis, type of vascular access, ESA dose and type, IV iron therapy history, serum albumin, transferrin saturation (TSAT), serum ferritin, hemoglobin (Hgb) levels, epoetin, darbepoetin, or CERA dose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "height",
+          "height"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "post-dialysis body weight"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "body mass index (BMI)",
+        "duration of hemodialysis",
+        "type of vascular access",
+        "ESA dose and type",
+        "IV iron therapy history",
+        "serum albumin",
+        "transferrin saturation (TSAT)",
+        "serum ferritin",
+        "hemoglobin (Hgb) levels",
+        "epoetin",
+        "darbepoetin",
+        "or CERA dose."
+      ]
+    }
+  }
+}

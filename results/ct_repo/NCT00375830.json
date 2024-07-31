@@ -1,0 +1,146 @@
+{
+  "trial_id": "NCT00375830",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, cancer stage, type of cancer (breast or prostate), prostate-specific antigen (PSA) levels, ability to comply with study procedures, ability to remain still for imaging, renal function status, presence of metallic implants, pregnancy or nursing status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "cancer stage",
+        "type of cancer (breast or prostate)",
+        "prostate-specific antigen (PSA) levels",
+        "ability to comply with study procedures",
+        "ability to remain still for imaging",
+        "renal function status",
+        "presence of metallic implants",
+        "pregnancy or nursing status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Cancer Stage, Type of Cancer (Breast or Prostate), Prostate-Specific Antigen (PSA) Levels, Renal Function, Presence of Metallic Implants,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Cancer Stage",
+        "Type of Cancer (Breast or Prostate)",
+        "Prostate-Specific Antigen (PSA) Levels",
+        "Renal Function",
+        "Presence of Metallic Implants"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Cancer Type (Breast/Prostate), Cancer Stage, PSA Level, Prior Bone Scan Results,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Cancer Type (Breast/Prostate)",
+        "Cancer Stage",
+        "PSA Level",
+        "Prior Bone Scan Results"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, cancer type (breast or prostate), cancer stage, PSA level, presence of recurrent cancer, renal function, presence of metallic implants, pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Categorical",
+          "cancer type (breast or prostate)"
+        ],
+        [
+          "Categorical",
+          "cancer stage"
+        ],
+        [
+          "Categorical",
+          "PSA level"
+        ],
+        [
+          "Categorical",
+          "presence of recurrent cancer"
+        ],
+        [
+          "Categorical",
+          "renal function"
+        ],
+        [
+          "Categorical",
+          "presence of metallic implants"
+        ],
+        [
+          "Categorical",
+          "pregnancy status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": []
+    }
+  }
+}

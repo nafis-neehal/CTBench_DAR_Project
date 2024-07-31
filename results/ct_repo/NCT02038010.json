@@ -1,0 +1,218 @@
+{
+  "trial_id": "NCT02038010",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ECOG performance status, prior treatments, HER2 status, stage of cancer, baseline laboratory values (hemoglobin, platelet count, absolute neutrophil count, serum bilirubin, AST/SGOT, ALT/SGPT, serum creatinine, fasting plasma glucose), life expectancy, baseline ECG (QT interval).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "T-DM1 Systemic Therapy in Metastatic Setting",
+          "prior treatments"
+        ],
+        [
+          "Hormone Receptor Status",
+          "HER2 status"
+        ],
+        [
+          "Region of Enrollment",
+          "stage of cancer"
+        ],
+        [
+          "baseline laboratory values (hemoglobin, platelet count, absolute neutrophil count, serum bilirubin, AST/SGOT, ALT/SGPT, serum creatinine, fasting plasma glucose)",
+          "baseline laboratory values (hemoglobin, platelet count, absolute neutrophil count, serum bilirubin, AST/SGOT, ALT/SGPT, serum creatinine, fasting plasma glucose)"
+        ],
+        [
+          "baseline ECG (QT interval)",
+          "baseline ECG (QT interval)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "life expectancy"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, HER2 Status, Prior Trastuzumab Treatment, Prior Taxane Treatment, Hemoglobin, Platelet Count, Absolute Neutrophil Count, Serum Bilirubin, AST/SGOT, ALT/SGPT, Serum Creatinine, Fasting Plasma Glucose, Left Ventricular Ejection Fraction (LVEF), QT Interval,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "ECOG Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "T-DM1 Systemic Therapy in Metastatic Setting",
+          "Prior Trastuzumab Treatment"
+        ],
+        [
+          "Hormone Receptor Status",
+          "HER2 Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Prior Taxane Treatment",
+        "Hemoglobin",
+        "Platelet Count",
+        "Absolute Neutrophil Count",
+        "Serum Bilirubin",
+        "AST/SGOT",
+        "ALT/SGPT",
+        "Serum Creatinine",
+        "Fasting Plasma Glucose",
+        "Left Ventricular Ejection Fraction (LVEF)",
+        "QT Interval"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, HER2 Status, Prior Trastuzumab and Taxane Treatment, Eastern Cooperative Oncology Group (ECOG) Performance Status, Hemoglobin, Platelet Count, Absolute Neutrophil Count (ANC), Serum Bilirubin, Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), Serum Creatinine, Fasting Plasma Glucose (FPG), Left Ventricular Ejection Fraction (LVEF), QT Interval Adjusted According to Fridericia (QTcF).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "ECOG Performance Status",
+          "Eastern Cooperative Oncology Group (ECOG) Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "T-DM1 Systemic Therapy in Metastatic Setting",
+        "Hormone Receptor Status"
+      ],
+      "remaining_candidate_features": [
+        "HER2 Status",
+        "Prior Trastuzumab and Taxane Treatment",
+        "Hemoglobin",
+        "Platelet Count",
+        "Absolute Neutrophil Count (ANC)",
+        "Serum Bilirubin",
+        "Aspartate Aminotransferase (AST)",
+        "Alanine Aminotransferase (ALT)",
+        "Serum Creatinine",
+        "Fasting Plasma Glucose (FPG)",
+        "Left Ventricular Ejection Fraction (LVEF)",
+        "QT Interval Adjusted According to Fridericia (QTcF)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, life expectancy, histological confirmation of HER2-positive breast cancer, prior trastuzumab and taxane-based chemotherapy regimen, hemoglobin, platelet count, absolute neutrophil count, serum bilirubin, AST/SGOT and/or ALT/SGPT, serum creatinine, fasting plasma glucose, QT interval, left ventricular ejection fraction, blood pressure, history of cardiac disease or impaired cardiac function, diabetes mellitus, gastrointestinal function or disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "ECOG performance status",
+          "ECOG performance status"
+        ],
+        [
+          "life expectancy",
+          "life expectancy"
+        ],
+        [
+          "T-DM1 Systemic Therapy in Metastatic Setting",
+          "prior trastuzumab and taxane-based chemotherapy regimen"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Hormone Receptor Status"
+      ],
+      "remaining_candidate_features": [
+        "histological confirmation of HER2-positive breast cancer",
+        "hemoglobin",
+        "platelet count",
+        "absolute neutrophil count",
+        "serum bilirubin",
+        "AST/SGOT and/or ALT/SGPT",
+        "serum creatinine",
+        "fasting plasma glucose",
+        "QT interval",
+        "left ventricular ejection fraction",
+        "blood pressure",
+        "history of cardiac disease or impaired cardiac function",
+        "diabetes mellitus",
+        "gastrointestinal function or disease"
+      ]
+    }
+  }
+}

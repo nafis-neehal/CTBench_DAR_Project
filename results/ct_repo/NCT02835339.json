@@ -1,0 +1,159 @@
+{
+  "trial_id": "NCT02835339",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age, BMI, baseline serum magnesium level, renal function, race/ethnicity, blood pressure, parity, history of preeclampsia, medication use, smoking status, alcohol use, comorbid conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "Multiparity",
+          "parity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Baseline Creatinine",
+        "Time to delivery"
+      ],
+      "remaining_candidate_features": [
+        "gestational age",
+        "baseline serum magnesium level",
+        "renal function",
+        "blood pressure",
+        "history of preeclampsia",
+        "medication use",
+        "smoking status",
+        "alcohol use",
+        "comorbid conditions"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Gestational Age, Blood Pressure, Serum Magnesium Levels, Renal Function,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Multiparity",
+        "Baseline Creatinine",
+        "Time to delivery"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age",
+        "Blood Pressure",
+        "Serum Magnesium Levels",
+        "Renal Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, BMI, Gestational Age, Parity, Ethnicity (NIH/OMB), Region of Enrollment, History of Preeclampsia, Systolic Blood Pressure, Diastolic Blood Pressure,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Ethnicity (NIH/OMB)"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Multiparity",
+        "Baseline Creatinine",
+        "Time to delivery"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age",
+        "Parity",
+        "History of Preeclampsia",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, BMI, gestational age, parity, ethnicity, race, height, weight, medical history of hypertension, medical history of diabetes, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Multiparity",
+        "Baseline Creatinine",
+        "Time to delivery"
+      ],
+      "remaining_candidate_features": [
+        "gestational age",
+        "parity",
+        "ethnicity",
+        "height",
+        "weight",
+        "medical history of hypertension",
+        "medical history of diabetes",
+        "smoking status"
+      ]
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "trial_id": "NCT02290106",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, BMI, Waist Circumference, Fasting Glucose, HOMA-IR, 2-hour Glucose, 10-year Cardiovascular Disease Risk, LDL Cholesterol, Creatinine, AST, ALT, Hemoglobin, Triglycerides",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex"
+        ],
+        [
+          "Low density lipoprotein cholesterol (LDL-C, mg/dL)",
+          "LDL Cholesterol"
+        ],
+        [
+          "Fasting glucose (mg/dL)",
+          "Fasting Glucose"
+        ],
+        [
+          "Homeostasis model of insulin resistance (HOMA-IR)",
+          "HOMA-IR"
+        ],
+        [
+          "Liver fat content (hepatic fat fraction, %)",
+          "Liver Fat"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Waist Circumference",
+        "2-hour Glucose",
+        "10-year Cardiovascular Disease Risk",
+        "Creatinine",
+        "AST",
+        "ALT",
+        "Hemoglobin",
+        "Triglycerides"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Body Mass Index, Waist Circumference, Fasting Glucose, HOMA-IR, 2-hour Glucose, 10-year Cardiovascular Disease Risk, LDL Cholesterol, Triglycerides, AST, ALT, Hemoglobin, Creatinine,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Low density lipoprotein cholesterol (LDL-C, mg/dL)",
+          "LDL Cholesterol"
+        ],
+        [
+          "Fasting glucose (mg/dL)",
+          "Fasting Glucose"
+        ],
+        [
+          "Homeostasis model of insulin resistance (HOMA-IR)",
+          "HOMA-IR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Liver fat content (hepatic fat fraction, %)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Waist Circumference",
+        "2-hour Glucose",
+        "10-year Cardiovascular Disease Risk",
+        "Triglycerides",
+        "AST",
+        "ALT",
+        "Hemoglobin",
+        "Creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Male, BMI, Waist Circumference, Fasting Glucose, HOMA-IR, LDL Cholesterol, 10-year Cardiovascular Disease Risk, Triglycerides, AST, ALT, Hemoglobin, Creatinine,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Low density lipoprotein cholesterol (LDL-C, mg/dL)",
+          "LDL Cholesterol"
+        ],
+        [
+          "Fasting glucose (mg/dL)",
+          "Fasting Glucose"
+        ],
+        [
+          "Homeostasis model of insulin resistance (HOMA-IR)",
+          "HOMA-IR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Liver fat content (hepatic fat fraction, %)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Waist Circumference",
+        "10-year Cardiovascular Disease Risk",
+        "Triglycerides",
+        "AST",
+        "ALT",
+        "Hemoglobin",
+        "Creatinine"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, waist circumference, fasting glucose, HOMA-IR, 2-hour glucose, 10-year cardiovascular disease risk, LDL, creatinine, AST, ALT, hemoglobin, triglyceride.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "sex"
+        ],
+        [
+          "Low density lipoprotein cholesterol (LDL-C, mg/dL)",
+          "LDL"
+        ],
+        [
+          "Fasting glucose (mg/dL)",
+          "fasting glucose"
+        ],
+        [
+          "Homeostasis model of insulin resistance (HOMA-IR)",
+          "HOMA-IR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Liver fat content (hepatic fat fraction, %)"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "waist circumference",
+        "2-hour glucose",
+        "10-year cardiovascular disease risk",
+        "creatinine",
+        "AST",
+        "ALT",
+        "hemoglobin",
+        "triglyceride"
+      ]
+    }
+  }
+}

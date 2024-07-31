@@ -1,0 +1,203 @@
+{
+  "trial_id": "NCT03544307",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, menopausal status, blood pressure, resting heart rate, muscular strength, arterial stiffness (pulse wave velocity), blood catecholamines (epinephrine and norepinephrine) levels, presence of cardiovascular, metabolic or renal diseases, physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "menopausal status"
+        ],
+        [
+          "Blood epinephrine levels",
+          "blood catecholamines (epinephrine and norepinephrine) levels"
+        ],
+        [
+          "Blood norepinephrine levels",
+          "blood catecholamines (epinephrine and norepinephrine) levels"
+        ],
+        [
+          "Arterial stiffness",
+          "arterial stiffness (pulse wave velocity)"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "blood pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "blood pressure"
+        ],
+        [
+          "Hand grip strength",
+          "muscular strength"
+        ],
+        [
+          "Leg strength",
+          "muscular strength"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "resting heart rate",
+        "presence of cardiovascular",
+        "metabolic or renal diseases",
+        "physical activity level."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Resting Heart Rate, Muscular Strength, Arterial Stiffness (Pulse Wave Velocity), ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Blood epinephrine levels",
+          "Blood Epinephrine Levels"
+        ],
+        [
+          "Blood norepinephrine levels",
+          "Blood Norepinephrine Levels"
+        ],
+        [
+          "Arterial stiffness",
+          "Arterial Stiffness (Pulse Wave Velocity)"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Hand grip strength",
+        "Leg strength"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Resting Heart Rate",
+        "Muscular Strength"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Menopausal Status, Region of Enrollment, Systolic Blood Pressure, Diastolic Blood Pressure, Resting Heart Rate, Muscular Strength,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Blood epinephrine levels",
+        "Blood norepinephrine levels",
+        "Arterial stiffness",
+        "Hand grip strength",
+        "Leg strength"
+      ],
+      "remaining_candidate_features": [
+        "Menopausal Status",
+        "Resting Heart Rate",
+        "Muscular Strength"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), systolic blood pressure, diastolic blood pressure, resting heart rate, pulse wave velocity, muscular strength, menopausal duration, history of hypertension, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Blood epinephrine levels",
+          "Blood Epinephrine Levels"
+        ],
+        [
+          "Blood norepinephrine levels",
+          "Blood Norepinephrine Levels"
+        ],
+        [
+          "Arterial stiffness",
+          "pulse wave velocity"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "diastolic blood pressure"
+        ],
+        [
+          "Hand grip strength",
+          "muscular strength"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Leg strength"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "resting heart rate",
+        "menopausal duration",
+        "history of hypertension",
+        "smoking status"
+      ]
+    }
+  }
+}

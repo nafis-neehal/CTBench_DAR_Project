@@ -1,0 +1,295 @@
+{
+  "trial_id": "NCT01622257",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, duration of infertility, baseline insulin resistance, baseline serum testosterone level, baseline lipid profile, baseline ovulation rate, baseline clinical pregnancy rate",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Duration of infertility",
+          "duration of infertility"
+        ],
+        [
+          "Total testosterone",
+          "baseline serum testosterone level"
+        ],
+        [
+          "Insulin resistance",
+          "baseline insulin resistance"
+        ],
+        [
+          "Lipid profile",
+          "baseline lipid profile"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Androgenic alopecia",
+        "Acne",
+        "Seborrheic dermatitis",
+        "Menstrual pattern",
+        "Systolic blood pressure",
+        "Diastolic blood pressure",
+        "Serum Follicle-stimulating Hormone (FSH)",
+        "Luteinizing Hormone (LH)",
+        "LH/FSH ratio",
+        "Free testosterone",
+        "Fasting insulin",
+        "Fasting glucose",
+        "Fasting Glucose/Insulin Ratio (GIR)",
+        "Homeostasis Model Assessment of Insulin Resistance (HOMA-IR)",
+        "Quantitative Insulin sensitivity Check Index (QUICKI)",
+        "Total cholesterol",
+        "Low-density lipoprotein (LDL)",
+        "High-density lipoprotein (HDL)",
+        "Triglycerides (TGs)",
+        "Waist to Hip Ratio (WHR)",
+        "Total body fat percent",
+        "Body fat mass",
+        "Fat free mass",
+        "Abdominal fat mass",
+        "Emotion mean score",
+        "Body hair mean score",
+        "Weight mean score",
+        "Menstrual problems mean score",
+        "Infertility mean score"
+      ],
+      "remaining_candidate_features": [
+        "baseline ovulation rate",
+        "baseline clinical pregnancy rate"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Body Mass Index, Ovulation Rate, Insulin Resistance, Serum Testosterone Level, Lipid Profile,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Total testosterone",
+          "Serum Testosterone Level"
+        ],
+        [
+          "Fasting insulin",
+          "Insulin Resistance"
+        ],
+        [
+          "Total cholesterol",
+          "Lipid Profile"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Duration of infertility",
+        "Androgenic alopecia",
+        "Acne",
+        "Seborrheic dermatitis",
+        "Menstrual pattern",
+        "Systolic blood pressure",
+        "Diastolic blood pressure",
+        "Serum Follicle-stimulating Hormone (FSH)",
+        "Luteinizing Hormone (LH)",
+        "LH/FSH ratio",
+        "Free testosterone",
+        "Fasting glucose",
+        "Fasting Glucose/Insulin Ratio (GIR)",
+        "Homeostasis Model Assessment of Insulin Resistance (HOMA-IR)",
+        "Quantitative Insulin sensitivity Check Index (QUICKI)",
+        "Low-density lipoprotein (LDL)",
+        "High-density lipoprotein (HDL)",
+        "Triglycerides (TGs)",
+        "Waist to Hip Ratio (WHR)",
+        "Total body fat percent",
+        "Body fat mass",
+        "Fat free mass",
+        "Abdominal fat mass",
+        "Emotion mean score",
+        "Body hair mean score",
+        "Weight mean score",
+        "Menstrual problems mean score",
+        "Infertility mean score"
+      ],
+      "remaining_candidate_features": [
+        "Ovulation Rate"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, BMI, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin, HOMA-IR, Total Testosterone, Lipid Profile, Duration of Infertility, Previous Ovulation Induction.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Fasting insulin",
+          "Fasting Insulin"
+        ],
+        [
+          "Fasting glucose",
+          "Fasting Glucose"
+        ],
+        [
+          "Homeostasis Model Assessment of Insulin Resistance (HOMA-IR)",
+          "HOMA-IR"
+        ],
+        [
+          "Total testosterone",
+          "Total Testosterone"
+        ],
+        [
+          "Duration of infertility",
+          "Duration of Infertility"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Androgenic alopecia",
+        "Acne",
+        "Seborrheic dermatitis",
+        "Menstrual pattern",
+        "Serum Follicle-stimulating Hormone (FSH)",
+        "Luteinizing Hormone (LH)",
+        "LH/FSH ratio",
+        "Free testosterone",
+        "Fasting Glucose/Insulin Ratio (GIR)",
+        "Quantitative Insulin sensitivity Check Index (QUICKI)",
+        "Total cholesterol",
+        "Low-density lipoprotein (LDL)",
+        "High-density lipoprotein (HDL)",
+        "Triglycerides (TGs)",
+        "Waist to Hip Ratio (WHR)",
+        "Total body fat percent",
+        "Body fat mass",
+        "Fat free mass",
+        "Abdominal fat mass",
+        "Emotion mean score",
+        "Body hair mean score",
+        "Weight mean score",
+        "Menstrual problems mean score",
+        "Infertility mean score"
+      ],
+      "remaining_candidate_features": [
+        "Waist Circumference",
+        "Lipid Profile",
+        "Previous Ovulation Induction."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, BMI, parity, infertility duration, PCOS duration, serum testosterone level, insulin resistance, lipid profile, ovulation rate, menstrual cycle regularity, presence of acne or hirsutism, waist circumference, hip circumference, systolic blood pressure, diastolic blood pressure, smoking history, medical history (cardiovascular, liver, kidney, or respiratory disease, diabetes, uncontrolled hypertension, or malignancy).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Duration of infertility",
+          "infertility duration"
+        ],
+        [
+          "Total testosterone",
+          "serum testosterone level"
+        ],
+        [
+          "Systolic blood pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "diastolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Androgenic alopecia",
+        "Acne",
+        "Seborrheic dermatitis",
+        "Menstrual pattern",
+        "Serum Follicle-stimulating Hormone (FSH)",
+        "Luteinizing Hormone (LH)",
+        "LH/FSH ratio",
+        "Free testosterone",
+        "Fasting insulin",
+        "Fasting glucose",
+        "Fasting Glucose/Insulin Ratio (GIR)",
+        "Homeostasis Model Assessment of Insulin Resistance (HOMA-IR)",
+        "Quantitative Insulin sensitivity Check Index (QUICKI)",
+        "Total cholesterol",
+        "Low-density lipoprotein (LDL)",
+        "High-density lipoprotein (HDL)",
+        "Triglycerides (TGs)",
+        "Waist to Hip Ratio (WHR)",
+        "Total body fat percent",
+        "Body fat mass",
+        "Fat free mass",
+        "Abdominal fat mass",
+        "Emotion mean score",
+        "Body hair mean score",
+        "Weight mean score",
+        "Menstrual problems mean score",
+        "Infertility mean score"
+      ],
+      "remaining_candidate_features": [
+        "parity",
+        "PCOS duration",
+        "insulin resistance",
+        "lipid profile",
+        "ovulation rate",
+        "menstrual cycle regularity",
+        "presence of acne or hirsutism",
+        "waist circumference",
+        "hip circumference",
+        "smoking history",
+        "medical history (cardiovascular, liver, kidney, or respiratory disease, diabetes, uncontrolled hypertension, or malignancy)."
+      ]
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "trial_id": "NCT03100968",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Gestational Age, Parity, Previous Epidural Use, Coexisting Medical Conditions, Baseline Pain Score, Baseline Blood Pressure, Baseline Heart Rate, Baseline Oxygen Saturation, Ethnicity, Height, Weight, Gravidity, History of Spinal Issues",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Height",
+          "Height"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age",
+        "Parity",
+        "Previous Epidural Use",
+        "Coexisting Medical Conditions",
+        "Baseline Pain Score",
+        "Baseline Blood Pressure",
+        "Baseline Heart Rate",
+        "Baseline Oxygen Saturation",
+        "Ethnicity",
+        "Gravidity",
+        "History of Spinal Issues"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Previous spine procedure, Coagulopathy, Platelet count, Scoliosis, Intracranial or spinal mass,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Previous spine procedure",
+        "Coagulopathy",
+        "Platelet count",
+        "Scoliosis",
+        "Intracranial or spinal mass"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Gestational Age, Previous Epidural Experience, Co-morbidities,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age",
+        "Previous Epidural Experience",
+        "Co-morbidities"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, Sex, BMI, Height, Weight, Gestational Age, Parity, Previous Epidural Experience, Co-morbidities (e.g. Hypertension, Diabetes), Medications (e.g. Anticoagulants, Antiplatelets).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Height",
+          "Height"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age",
+        "Parity",
+        "Previous Epidural Experience",
+        "Co-morbidities (e.g. Hypertension, Diabetes)",
+        "Medications (e.g. Anticoagulants, Antiplatelets)"
+      ]
+    }
+  }
+}

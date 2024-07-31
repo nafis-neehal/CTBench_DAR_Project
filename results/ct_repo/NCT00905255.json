@@ -1,0 +1,207 @@
+{
+  "trial_id": "NCT00905255",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body weight, body mass index (BMI), fasting plasma glucose (FPG), glycosylated hemoglobin (HbA1c), blood pressure, history of diabetes duration, prior antidiabetic treatment, renal function (serum creatinine clearance), liver function tests (AST, ALT, ALP, total bilirubin), amylase, lipase, hemoglobin, neutrophil count, platelet count, cardiovascular history, history of pancreatitis, history of gastrointestinal disease, history of drug or alcohol abuse, presence of diabetic retinopathy, presence of macular edema, hepatitis B surface antigen (HBsAg) status, hepatitis C antibody (HCAb) status, pregnancy status in females of childbearing potential.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "gender"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "glycosylated hemoglobin (HbA1c)"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose (FPG)"
+        ],
+        [
+          "Body Weight",
+          "body weight"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "history of diabetes duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure",
+        "prior antidiabetic treatment",
+        "renal function (serum creatinine clearance)",
+        "liver function tests (AST, ALT, ALP, total bilirubin)",
+        "amylase",
+        "lipase",
+        "hemoglobin",
+        "neutrophil count",
+        "platelet count",
+        "cardiovascular history",
+        "history of pancreatitis",
+        "history of gastrointestinal disease",
+        "history of drug or alcohol abuse",
+        "presence of diabetic retinopathy",
+        "presence of macular edema",
+        "hepatitis B surface antigen (HBsAg) status",
+        "hepatitis C antibody (HCAb) status",
+        "pregnancy status in females of childbearing potential"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Fasting Plasma Glucose, Duration of Diabetes, Blood Pressure, Weight, Serum Creatinine, Liver Function Tests (AST, ALT, ALP), Amylase, Lipase, Total Bilirubin, Hemoglobin, Neutrophils, Platelets, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Body Weight",
+          "Weight"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Male",
+        "Region of Enrollment",
+        "Blood Pressure",
+        "Serum Creatinine",
+        "Liver Function Tests (AST, ALT, ALP)",
+        "Amylase",
+        "Lipase",
+        "Total Bilirubin",
+        "Hemoglobin",
+        "Neutrophils",
+        "Platelets"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, History of Diabetes, Duration of Diabetes, Previous Antidiabetic Treatment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "Fasting Plasma Glucose"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "History of Diabetes",
+        "Previous Antidiabetic Treatment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c, fasting plasma glucose (FPG), systolic and diastolic blood pressure, heart rate, medical history (including cardiovascular, hepatic, neurological, endocrine disease, and malignant tumor), concomitant medications, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gender",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Glycosylated Hemoglobin (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Fasting Plasma Glucose (FPG)",
+          "fasting plasma glucose (FPG)"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "systolic and diastolic blood pressure",
+        "heart rate",
+        "medical history (including cardiovascular, hepatic, neurological, endocrine disease, and malignant tumor)",
+        "concomitant medications",
+        "smoking status."
+      ]
+    }
+  }
+}

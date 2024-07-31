@@ -1,0 +1,155 @@
+{
+  "trial_id": "NCT00895921",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), family history of type 2 diabetes mellitus, baseline fasting glucose levels, baseline 2-hour post-load serum glucose levels, baseline insulin levels, smoking status, medication history, mental health status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Glucose Disposition",
+          "baseline 2-hour post-load serum glucose levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Insulin Suppression of Endogenous Glucose Production (EGP)"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "family history of type 2 diabetes mellitus",
+        "baseline fasting glucose levels",
+        "baseline insulin levels",
+        "smoking status",
+        "medication history",
+        "mental health status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Family history of type 2 diabetes mellitus, Baseline glucose levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Glucose Disposition",
+          "Baseline glucose levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Insulin Suppression of Endogenous Glucose Production (EGP)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Family history of type 2 diabetes mellitus"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Family History of Diabetes, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, 2-hour Post-load Serum Glucose, Insulin Sensitivity.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Glucose Disposition",
+          "Insulin Sensitivity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Insulin Suppression of Endogenous Glucose Production (EGP)"
+      ],
+      "remaining_candidate_features": [
+        "Family History of Diabetes",
+        "Body Mass Index",
+        "Waist Circumference",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "2-hour Post-load Serum Glucose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), family history of type 2 diabetes mellitus, 2-hour post-load serum glucose, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, waist circumference, smoking status, language spoken.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Glucose Disposition",
+          "2-hour post-load serum glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Insulin Suppression of Endogenous Glucose Production (EGP)"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "family history of type 2 diabetes mellitus",
+        "fasting plasma glucose",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "waist circumference",
+        "smoking status",
+        "language spoken."
+      ]
+    }
+  }
+}

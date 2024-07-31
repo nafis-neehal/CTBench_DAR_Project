@@ -1,0 +1,296 @@
+{
+  "trial_id": "NCT03326583",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration on hemodialysis, baseline serum potassium level, baseline blood chemistry, baseline stool electrolytes, presence of chronic conditions (e.g., inflammatory bowel disease, liver cirrhosis), use of medications (e.g., immunosuppressive medications, antibiotics), hemoglobin level, pregnancy status, incarceration status, participation in other intervention studies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Hemoglobin",
+          "hemoglobin level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body Mass Index (BMI)",
+        "Diabetes",
+        "Coronary Artery Disease",
+        "HIV",
+        "Heart Failure",
+        "Mean Corpuscular Volume (MCV)",
+        "Whole Blood Count (WBC)",
+        "Blood Urea Nitrogen",
+        "Creatinine",
+        "Sodium",
+        "Potassium",
+        "Bicarbonate",
+        "Calcium",
+        "Phosphate",
+        "Glucose",
+        "Parathyroid hormone (PTH)",
+        "Magnesium",
+        "Total Protein",
+        "Serum Albumin",
+        "Kt/V",
+        "Dialysate potassium",
+        "Dialysate sodium",
+        "Dialysate calcium",
+        "Erythropoietin dose",
+        "Dialysate magnesium",
+        "Doxercalciferol"
+      ],
+      "remaining_candidate_features": [
+        "duration on hemodialysis",
+        "baseline serum potassium level",
+        "baseline blood chemistry",
+        "baseline stool electrolytes",
+        "presence of chronic conditions (e.g., inflammatory bowel disease, liver cirrhosis)",
+        "use of medications (e.g., immunosuppressive medications, antibiotics)",
+        "pregnancy status",
+        "incarceration status",
+        "participation in other intervention studies."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline Serum Potassium Level, Baseline Blood Chemistry, Baseline Stool Electrolytes,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Potassium",
+          "Baseline Serum Potassium Level"
+        ],
+        [
+          "Blood Chemistry",
+          "Baseline Blood Chemistry"
+        ],
+        [
+          "Stool Electrolytes",
+          "Baseline Stool Electrolytes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Body Mass Index (BMI)",
+        "Diabetes",
+        "Coronary Artery Disease",
+        "HIV",
+        "Heart Failure",
+        "Hemoglobin",
+        "Mean Corpuscular Volume (MCV)",
+        "Whole Blood Count (WBC)",
+        "Blood Urea Nitrogen",
+        "Creatinine",
+        "Sodium",
+        "Bicarbonate",
+        "Calcium",
+        "Phosphate",
+        "Glucose",
+        "Parathyroid hormone (PTH)",
+        "Magnesium",
+        "Total Protein",
+        "Serum Albumin",
+        "Kt/V",
+        "Dialysate potassium",
+        "Dialysate sodium",
+        "Dialysate calcium",
+        "Erythropoietin dose",
+        "Dialysate magnesium",
+        "Doxercalciferol"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Hemodialysis"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ESRD duration, Hemodialysis duration, Serum potassium level, Blood urea nitrogen, Creatinine, Hemoglobin, Albumin, Phosphorus, Calcium, Parathyroid hormone, Gut microbiome composition,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin",
+          "Hemoglobin"
+        ],
+        [
+          "Blood Urea Nitrogen",
+          "Blood urea nitrogen"
+        ],
+        [
+          "Creatinine",
+          "Creatinine"
+        ],
+        [
+          "Potassium",
+          "Serum potassium level"
+        ],
+        [
+          "Calcium",
+          "Calcium"
+        ],
+        [
+          "Phosphate",
+          "Phosphorus"
+        ],
+        [
+          "Parathyroid hormone (PTH)",
+          "Parathyroid hormone"
+        ],
+        [
+          "Serum Albumin",
+          "Albumin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Body Mass Index (BMI)",
+        "Diabetes",
+        "Coronary Artery Disease",
+        "HIV",
+        "Heart Failure",
+        "Mean Corpuscular Volume (MCV)",
+        "Whole Blood Count (WBC)",
+        "Sodium",
+        "Bicarbonate",
+        "Glucose",
+        "Magnesium",
+        "Total Protein",
+        "Kt/V",
+        "Dialysate potassium",
+        "Dialysate sodium",
+        "Dialysate calcium",
+        "Erythropoietin dose",
+        "Dialysate magnesium",
+        "Doxercalciferol"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "ESRD duration",
+        "Hemodialysis duration",
+        "Gut microbiome composition"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), hemoglobin, serum creatinine, blood urea nitrogen (BUN), serum potassium level, duration of hemodialysis, comorbidities (e.g., diabetes, hypertension, cardiovascular disease), medications (e.g., potassium-binding resins, beta-blockers, ACE inhibitors), history of kidney transplant, presence of chronic wound infection and osteomyelitis, inflammatory bowel disease, chronic diarrhea, C. difficile infection, liver cirrhosis, chronic active hepatitis, use of immunosuppressive medications, use of prednisone.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Hemoglobin",
+          "hemoglobin"
+        ],
+        [
+          "Blood Urea Nitrogen",
+          "blood urea nitrogen (BUN)"
+        ],
+        [
+          "Creatinine",
+          "serum creatinine"
+        ],
+        [
+          "Potassium",
+          "serum potassium level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Diabetes",
+        "Coronary Artery Disease",
+        "HIV",
+        "Heart Failure",
+        "Mean Corpuscular Volume (MCV)",
+        "Whole Blood Count (WBC)",
+        "Sodium",
+        "Bicarbonate",
+        "Calcium",
+        "Phosphate",
+        "Glucose",
+        "Parathyroid hormone (PTH)",
+        "Magnesium",
+        "Total Protein",
+        "Serum Albumin",
+        "Kt/V",
+        "Dialysate potassium",
+        "Dialysate sodium",
+        "Dialysate calcium",
+        "Erythropoietin dose",
+        "Dialysate magnesium",
+        "Doxercalciferol"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "weight",
+        "height",
+        "duration of hemodialysis",
+        "comorbidities (e.g., diabetes, hypertension, cardiovascular disease)",
+        "medications (e.g., potassium-binding resins, beta-blockers, ACE inhibitors)",
+        "history of kidney transplant",
+        "presence of chronic wound infection and osteomyelitis",
+        "inflammatory bowel disease",
+        "chronic diarrhea",
+        "C. difficile infection",
+        "liver cirrhosis",
+        "chronic active hepatitis",
+        "use of immunosuppressive medications",
+        "use of prednisone"
+      ]
+    }
+  }
+}

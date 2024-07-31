@@ -1,0 +1,157 @@
+{
+  "trial_id": "NCT00977080",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, stage of chronic kidney disease, duration on hemodialysis, prior use of vitamin D receptor activators or cinacalcet, baseline intact parathyroid hormone (iPTH) level, serum total alkaline phosphatase level, calcium level, calcium-phosphorus product (CaxP), presence of parathyroidectomy history, presence of malignancy, presence of liver disease, use of cytochrome P450 inhibitors or inducers, HIV status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "History of parathyroidectomy",
+          "presence of parathyroidectomy history"
+        ],
+        [
+          "History of malignancy",
+          "presence of malignancy"
+        ],
+        [
+          "History of liver disease",
+          "presence of liver disease"
+        ],
+        [
+          "Use of cytochrome P450 inhibitors or inducers",
+          "use of cytochrome P450 inhibitors or inducers"
+        ],
+        [
+          "HIV status",
+          "HIV status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "History of type 1 diabetes mellitus",
+        "History of type 2 diabetes mellitus",
+        "History of angina",
+        "History of coronary artery disease",
+        "History of left ventricular hypertrophy",
+        "History of myocardial infarction"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "stage of chronic kidney disease",
+        "duration on hemodialysis",
+        "prior use of vitamin D receptor activators or cinacalcet",
+        "baseline intact parathyroid hormone (iPTH) level",
+        "serum total alkaline phosphatase level",
+        "calcium level",
+        "calcium-phosphorus product (CaxP)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline iPTH levels, Serum Total Alkaline Phosphatase levels, Serum Calcium levels, Calcium-phosphorus product,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "History of type 1 diabetes mellitus",
+        "History of type 2 diabetes mellitus",
+        "History of angina",
+        "History of coronary artery disease",
+        "History of left ventricular hypertrophy",
+        "History of myocardial infarction"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Duration of Hemodialysis",
+        "Baseline iPTH levels",
+        "Serum Total Alkaline Phosphatase levels",
+        "Serum Calcium levels",
+        "Calcium-phosphorus product"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemodialysis vintage, iPTH level, Serum Total Alkaline Phosphatase level, Calcium level, Calcium-phosphorus product, Vitamin D receptor activator use, Cinacalcet use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "History of type 1 diabetes mellitus",
+        "History of type 2 diabetes mellitus",
+        "History of angina",
+        "History of coronary artery disease",
+        "History of left ventricular hypertrophy",
+        "History of myocardial infarction"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Hemodialysis vintage",
+        "iPTH level",
+        "Serum Total Alkaline Phosphatase level",
+        "Calcium level",
+        "Calcium-phosphorus product",
+        "Vitamin D receptor activator use",
+        "Cinacalcet use."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of hemodialysis, duration of chronic kidney disease, history of vitamin D receptor activators or cinacalcet use, iPTH level, serum total alkaline phosphatase level, calcium level, calcium-phosphorus product, comorbidities (e.g., diabetes, hypertension), concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "History of type 1 diabetes mellitus",
+        "History of type 2 diabetes mellitus",
+        "History of angina",
+        "History of coronary artery disease",
+        "History of left ventricular hypertrophy",
+        "History of myocardial infarction"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "race",
+        "ethnicity",
+        "body mass index (BMI)",
+        "duration of hemodialysis",
+        "duration of chronic kidney disease",
+        "history of vitamin D receptor activators or cinacalcet use",
+        "iPTH level",
+        "serum total alkaline phosphatase level",
+        "calcium level",
+        "calcium-phosphorus product",
+        "comorbidities (e.g., diabetes, hypertension)",
+        "concomitant medications."
+      ]
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "trial_id": "NCT04161131",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, duration of continuous glucose monitor use, clinical diagnosis of type 1 diabetes, language comprehension (English), presence of medical disorders, presence of neurologic disorders, hemoglobin A1c (HbA1c).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Marital Status",
+        "Education",
+        "Annual Family Income",
+        "Currently Using Insulin (%)",
+        "Length of insulin pump use",
+        "Pump Brand",
+        "Currently using CGM",
+        "Length of CGM use",
+        "CGM brand",
+        "Chronic conditions other than diabetes",
+        "Frequency of CGM use in the past month (per participant)"
+      ],
+      "remaining_candidate_features": [
+        "clinical diagnosis of type 1 diabetes",
+        "language comprehension (English)",
+        "presence of medical disorders",
+        "presence of neurologic disorders",
+        "hemoglobin A1c (HbA1c)."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Duration of Diabetes, Baseline HbA1c, Frequency of CGM Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Frequency of CGM use in the past month (per participant)",
+          "Frequency of CGM Use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment",
+        "Marital Status",
+        "Education",
+        "Annual Family Income",
+        "Currently Using Insulin (%)",
+        "Length of insulin pump use",
+        "Pump Brand",
+        "Currently using CGM",
+        "Length of CGM use",
+        "CGM brand",
+        "Chronic conditions other than diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes",
+        "Baseline HbA1c"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Diabetes duration, CGM use, HbA1c, Region of Enrollment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Currently using CGM",
+          "CGM use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Marital Status",
+        "Education",
+        "Annual Family Income",
+        "Currently Using Insulin (%)",
+        "Length of insulin pump use",
+        "Pump Brand",
+        "Length of CGM use",
+        "CGM brand",
+        "Chronic conditions other than diabetes",
+        "Frequency of CGM use in the past month (per participant)"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes duration",
+        "HbA1c"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, duration of type 1 diabetes, duration of continuous glucose monitor use, HbA1c at baseline, body mass index (BMI), ethnicity, education level, employment status, marital status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Marital Status",
+          "marital status"
+        ],
+        [
+          "Education",
+          "education level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Annual Family Income",
+        "Currently Using Insulin (%)",
+        "Length of insulin pump use",
+        "Pump Brand",
+        "Currently using CGM",
+        "Length of CGM use",
+        "CGM brand",
+        "Chronic conditions other than diabetes",
+        "Frequency of CGM use in the past month (per participant)"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 1 diabetes",
+        "HbA1c at baseline",
+        "body mass index (BMI)",
+        "employment status"
+      ]
+    }
+  }
+}

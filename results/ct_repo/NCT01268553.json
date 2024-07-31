@@ -1,0 +1,168 @@
+{
+  "trial_id": "NCT01268553",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline PAH medication (IV epoprostenol, IV treprostinil, SQ treprostinil), duration of PAH diagnosis, baseline mPAP, baseline RAP, NYHA/WHO functional class, baseline 6-minute walk distance, baseline cardiopulmonary exercise test (CPET) results, baseline symptom questionnaire scores, baseline prostanoid dose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "6-minute walk distance",
+          "baseline 6-minute walk distance"
+        ],
+        [
+          "pulmonary vascular resistance",
+          "baseline mPAP"
+        ],
+        [
+          "peak oxygen consumption",
+          "baseline cardiopulmonary exercise test (CPET) results"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "ratio of minute ventilation to CO2 output",
+        "The Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR)"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "baseline PAH medication (IV epoprostenol, IV treprostinil, SQ treprostinil)",
+        "duration of PAH diagnosis",
+        "baseline RAP",
+        "NYHA/WHO functional class",
+        "baseline symptom questionnaire scores",
+        "baseline prostanoid dose"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline 6-minute walk distance, Baseline cardiopulmonary exercise test (CPET) results, Baseline mean pulmonary arterial pressure (mPAP), Baseline right atrial pressure (RAP), Baseline dose of IV/SQ prostanoid, NYHA/WHO functional class,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "6-minute walk distance",
+          "Baseline 6-minute walk distance"
+        ],
+        [
+          "peak oxygen consumption",
+          "Baseline cardiopulmonary exercise test (CPET) results"
+        ]
+      ],
+      "remaining_reference_features": [
+        "pulmonary vascular resistance",
+        "ratio of minute ventilation to CO2 output",
+        "The Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline mean pulmonary arterial pressure (mPAP)",
+        "Baseline right atrial pressure (RAP)",
+        "Baseline dose of IV/SQ prostanoid",
+        "NYHA/WHO functional class"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Pulmonary Arterial Hypertension Diagnosis Duration, NYHA/WHO Functional Class, mPAP, RAP, Prostanoid Dose, Six-Minute Walk Distance, Cardiopulmonary Exercise Test Results, Symptom Questionnaire Scores.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "6-minute walk distance",
+          "Six-Minute Walk Distance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "pulmonary vascular resistance",
+        "peak oxygen consumption",
+        "ratio of minute ventilation to CO2 output",
+        "The Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Pulmonary Arterial Hypertension Diagnosis Duration",
+        "NYHA/WHO Functional Class",
+        "mPAP",
+        "RAP",
+        "Prostanoid Dose",
+        "Cardiopulmonary Exercise Test Results",
+        "Symptom Questionnaire Scores"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), NYHA/WHO functional class, 6-minute walk distance, cardiopulmonary exercise test (CPET) parameters, mean pulmonary artery pressure (mPAP), right atrial pressure (RAP), dose of parenteral prostanoid, duration of PAH treatment, presence of concomitant medical conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "6-minute walk distance",
+          "6-minute walk distance"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "pulmonary vascular resistance",
+        "peak oxygen consumption",
+        "ratio of minute ventilation to CO2 output",
+        "The Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR)"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "race",
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "NYHA/WHO functional class",
+        "cardiopulmonary exercise test (CPET) parameters",
+        "mean pulmonary artery pressure (mPAP)",
+        "right atrial pressure (RAP)",
+        "dose of parenteral prostanoid",
+        "duration of PAH treatment",
+        "presence of concomitant medical conditions."
+      ]
+    }
+  }
+}

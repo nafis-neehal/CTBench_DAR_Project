@@ -1,0 +1,185 @@
+{
+  "trial_id": "NCT01797302",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, serum 25(OH)D concentration, gender, fasting blood glucose, serum calcium, pregnancy status (for post-menarchial girls), presence of hepatic or renal disease, presence of metabolic rickets, presence of malabsorptive disorders, presence of primary hyperparathyroidism, presence of hyperthyroidism, use of anticonvulsants, use of systemic glucocorticoids, use of pharmacologic doses of vitamin D, use of antihypertensives, use of vasoactive drugs, use of antilipidemics, use of metformin, use of antipsychotics, use of other oral insulin regulators, presence of cholelithiasis, presence of urolithiasis, presence of type 1 diabetes, presence of type 2 diabetes, multivitamin use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Serum 25-hydroxyvitamin D (25[OH]D)",
+          "serum 25(OH)D concentration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Obese (BMI > or = 95th percentile)",
+        "Serum parathyroid hormone (PTH)"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "fasting blood glucose",
+        "serum calcium",
+        "pregnancy status (for post-menarchial girls)",
+        "presence of hepatic or renal disease",
+        "presence of metabolic rickets",
+        "presence of malabsorptive disorders",
+        "presence of primary hyperparathyroidism",
+        "presence of hyperthyroidism",
+        "use of anticonvulsants",
+        "use of systemic glucocorticoids",
+        "use of pharmacologic doses of vitamin D",
+        "use of antihypertensives",
+        "use of vasoactive drugs",
+        "use of antilipidemics",
+        "use of metformin",
+        "use of antipsychotics",
+        "use of other oral insulin regulators",
+        "presence of cholelithiasis",
+        "presence of urolithiasis",
+        "presence of type 1 diabetes",
+        "presence of type 2 diabetes",
+        "multivitamin use"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Serum 25(OH)D concentration, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Blood Glucose,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Serum 25-hydroxyvitamin D (25[OH]D)",
+          "Serum 25(OH)D concentration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Obese (BMI > or = 95th percentile)",
+        "Serum parathyroid hormone (PTH)"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Blood Glucose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Vitamin D level, Duration of obesity, Family history of cardiovascular disease,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Serum 25-hydroxyvitamin D (25[OH]D)",
+          "Vitamin D level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Obese (BMI > or = 95th percentile)",
+        "Serum parathyroid hormone (PTH)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Duration of obesity",
+        "Family history of cardiovascular disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, race, ethnicity, serum 25(OH)D concentration, systolic blood pressure, diastolic blood pressure, fasting blood glucose, serum calcium, lipid profile, medical history (hepatic or renal disease, metabolic rickets, malabsorptive disorders, primary hyperparathyroidism, hyperthyroidism, type 1 or type 2 diabetes), medication use (anticonvulsants, systemic glucocorticoids, pharmacologic doses of vitamin D, antihypertensives, vasoactive drugs, antilipidemics, metformin, antipsychotics, or other oral insulin regulators).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Serum 25-hydroxyvitamin D (25[OH]D)",
+          "serum 25(OH)D concentration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Obese (BMI > or = 95th percentile)",
+        "Serum parathyroid hormone (PTH)"
+      ],
+      "remaining_candidate_features": [
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "fasting blood glucose",
+        "serum calcium",
+        "lipid profile",
+        "medical history (hepatic or renal disease, metabolic rickets, malabsorptive disorders, primary hyperparathyroidism, hyperthyroidism, type 1 or type 2 diabetes)",
+        "medication use (anticonvulsants, systemic glucocorticoids, pharmacologic doses of vitamin D, antihypertensives, vasoactive drugs, antilipidemics, metformin, antipsychotics, or other oral insulin regulators)"
+      ]
+    }
+  }
+}

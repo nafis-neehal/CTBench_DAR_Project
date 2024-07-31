@@ -1,0 +1,200 @@
+{
+  "trial_id": "NCT02006979",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), cancer stage, baseline cardiac function (e.g., ejection fraction), baseline blood pressure, baseline heart rate, baseline glucose levels, baseline cholesterol levels, baseline physical activity level, baseline smoking status, baseline medication use, baseline comorbidities (e.g., hypertension, diabetes).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "LVEF",
+          "baseline cardiac function (e.g., ejection fraction)"
+        ],
+        [
+          "Resting HR",
+          "baseline heart rate"
+        ],
+        [
+          "Mean arterial pressure",
+          "baseline blood pressure"
+        ],
+        [
+          "6-month MVPA",
+          "baseline physical activity level"
+        ],
+        [
+          "Current smoking status",
+          "baseline smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body weight",
+        "Hemoglobin",
+        "Cardiac output",
+        "Systemic vascular resistance",
+        "E/A ratio"
+      ],
+      "remaining_candidate_features": [
+        "cancer stage",
+        "baseline glucose levels",
+        "baseline cholesterol levels",
+        "baseline medication use",
+        "baseline comorbidities (e.g., hypertension, diabetes)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Stage, Baseline Cardiac Function, Baseline Blood Pressure, Baseline Blood Glucose, Smoking Status, Baseline Physical Activity Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body mass index",
+          "Baseline Blood Pressure"
+        ],
+        [
+          "Resting HR",
+          "Baseline Cardiac Function"
+        ],
+        [
+          "6-month MVPA",
+          "Baseline Physical Activity Level"
+        ],
+        [
+          "Mean arterial pressure",
+          "Baseline Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body weight",
+        "Hemoglobin",
+        "LVEF",
+        "Cardiac output",
+        "Systemic vascular resistance",
+        "E/A ratio"
+      ],
+      "remaining_candidate_features": [
+        "Cancer Stage",
+        "Baseline Blood Glucose",
+        "Smoking Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Cancer Stage, Chemotherapy Cycle, Oncologist Approval, Ability to Understand and Provide Written Informed Consent,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body weight",
+        "Hemoglobin",
+        "6-month MVPA",
+        "LVEF",
+        "Cardiac output",
+        "Resting HR",
+        "Systemic vascular resistance",
+        "E/A ratio",
+        "Mean arterial pressure",
+        "Body mass index"
+      ],
+      "remaining_candidate_features": [
+        "Cancer Stage",
+        "Chemotherapy Cycle",
+        "Oncologist Approval",
+        "Ability to Understand and Provide Written Informed Consent"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, body mass index, breast cancer stage, chemotherapy cycle, oncologist's approval, ability to exercise, orthopedic limitations, cardiovascular disease history, hypertension status, diabetes status, respiratory disease status, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index",
+          "body mass index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Body weight",
+        "Hemoglobin",
+        "6-month MVPA",
+        "LVEF",
+        "Cardiac output",
+        "Resting HR",
+        "Systemic vascular resistance",
+        "E/A ratio",
+        "Mean arterial pressure"
+      ],
+      "remaining_candidate_features": [
+        "breast cancer stage",
+        "chemotherapy cycle",
+        "oncologist's approval",
+        "ability to exercise",
+        "orthopedic limitations",
+        "cardiovascular disease history",
+        "hypertension status",
+        "diabetes status",
+        "respiratory disease status",
+        "smoking status"
+      ]
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "trial_id": "NCT01736124",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, diagnosis of type 2 diabetes, access to computer and internet, self-management score, presence of informant, exclusion of dementia, exclusion of major medical conditions, exclusion of psychiatric conditions, exclusion of neurological conditions, exclusion of severe vision impairment, exclusion of severe hearing impairment, exclusion of severe fine motor control impairment.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Diabetes Self-Management Questionnaire (DSMQ)",
+          "self-management score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Years of Education",
+        "Site",
+        "Clinical Dementia Rating (CDR) Scale",
+        "Mini-Mental Status Exam (MMSE)",
+        "Hemoglobin A1c (HbA1c)",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Memory Score",
+        "Attention/Executive Functions",
+        "Rivermead Behavioral Memory Prospective Memory (Appointments Subtest)",
+        "Medication Adherence",
+        "Cognitive Self-Report Questionnaire (CSRQ)",
+        "Geriatric Depression Scale",
+        "Short -Test of Functional Health Literacy in Adults"
+      ],
+      "remaining_candidate_features": [
+        "diagnosis of type 2 diabetes",
+        "access to computer and internet",
+        "presence of informant",
+        "exclusion of dementia",
+        "exclusion of major medical conditions",
+        "exclusion of psychiatric conditions",
+        "exclusion of neurological conditions",
+        "exclusion of severe vision impairment",
+        "exclusion of severe hearing impairment",
+        "exclusion of severe fine motor control impairment."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Self-management score, Access to computer and internet,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Diabetes Self-Management Questionnaire (DSMQ)",
+          "Self-management score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Years of Education",
+        "Site",
+        "Clinical Dementia Rating (CDR) Scale",
+        "Mini-Mental Status Exam (MMSE)",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Memory Score",
+        "Attention/Executive Functions",
+        "Rivermead Behavioral Memory Prospective Memory (Appointments Subtest)",
+        "Medication Adherence",
+        "Cognitive Self-Report Questionnaire (CSRQ)",
+        "Geriatric Depression Scale",
+        "Short -Test of Functional Health Literacy in Adults"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Diagnosis Duration",
+        "Access to computer and internet"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Blood Pressure, BMI, Self-management score, Informant availability,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Diabetes Self-Management Questionnaire (DSMQ)",
+          "Self-management score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Years of Education",
+        "Site",
+        "Clinical Dementia Rating (CDR) Scale",
+        "Mini-Mental Status Exam (MMSE)",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Memory Score",
+        "Attention/Executive Functions",
+        "Rivermead Behavioral Memory Prospective Memory (Appointments Subtest)",
+        "Medication Adherence",
+        "Cognitive Self-Report Questionnaire (CSRQ)",
+        "Geriatric Depression Scale",
+        "Short -Test of Functional Health Literacy in Adults"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Diagnosis Duration",
+        "Blood Pressure",
+        "BMI",
+        "Informant availability"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, diabetes duration, HbA1c level, blood pressure, BMI, comorbidities, cognitive impairment status, self-management score, informant availability, computer literacy, vision, hearing, fine motor control.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Years of Education",
+          "education level"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "HbA1c level"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "blood pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "blood pressure"
+        ],
+        [
+          "Diabetes Self-Management Questionnaire (DSMQ)",
+          "self-management score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Site",
+        "Clinical Dementia Rating (CDR) Scale",
+        "Mini-Mental Status Exam (MMSE)",
+        "Memory Score",
+        "Attention/Executive Functions",
+        "Rivermead Behavioral Memory Prospective Memory (Appointments Subtest)",
+        "Medication Adherence",
+        "Cognitive Self-Report Questionnaire (CSRQ)",
+        "Geriatric Depression Scale",
+        "Short -Test of Functional Health Literacy in Adults"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "ethnicity",
+        "diabetes duration",
+        "BMI",
+        "comorbidities",
+        "cognitive impairment status",
+        "informant availability",
+        "computer literacy",
+        "vision",
+        "hearing",
+        "fine motor control"
+      ]
+    }
+  }
+}

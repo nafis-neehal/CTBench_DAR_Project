@@ -1,0 +1,202 @@
+{
+  "trial_id": "NCT02456636",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, rural location status, primary care provider clearance, access to a telephone, household status, history of heart attack, history of stroke, new cancer diagnosis, history of bariatric surgery, pregnancy status, serious medical conditions, end stage renal disease, end stage liver disease, medical contraindications, enrollment in other weight loss studies, relocation plans, primary care clinic continuity, English literacy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Region of Enrollment",
+          "rural location status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race/Ethnicity",
+        "Weight",
+        "kg"
+      ],
+      "remaining_candidate_features": [
+        "primary care provider clearance",
+        "access to a telephone",
+        "household status",
+        "history of heart attack",
+        "history of stroke",
+        "new cancer diagnosis",
+        "history of bariatric surgery",
+        "pregnancy status",
+        "serious medical conditions",
+        "end stage renal disease",
+        "end stage liver disease",
+        "medical contraindications",
+        "enrollment in other weight loss studies",
+        "relocation plans",
+        "primary care clinic continuity",
+        "English literacy"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Waist Circumference, Baseline Weight, Socioeconomic Status, Education Level, Smoking Status, Physical Activity Level, Dietary Intake,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "Weight",
+          "Baseline Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "kg"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Waist Circumference",
+        "Socioeconomic Status",
+        "Education Level",
+        "Smoking Status",
+        "Physical Activity Level",
+        "Dietary Intake"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes Status, History of Cardiovascular Disease, Education Level, Marital Status, Employment Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Weight",
+        "kg"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Diabetes Status",
+        "History of Cardiovascular Disease",
+        "Education Level",
+        "Marital Status",
+        "Employment Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, BMI, weight, height, waist circumference, blood pressure, fasting glucose, lipid profile, smoking status, physical activity level, diet quality, education level, income level, occupation, marital status, number of children, rural location (urban vs. rural, distance from healthcare facility), access to healthcare services, primary care provider, medical comorbidities (e.g. diabetes, hypertension, cardiovascular disease), medications, prior weight loss attempts, weight loss goals.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "kg"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "height",
+        "waist circumference",
+        "blood pressure",
+        "fasting glucose",
+        "lipid profile",
+        "smoking status",
+        "physical activity level",
+        "diet quality",
+        "education level",
+        "income level",
+        "occupation",
+        "marital status",
+        "number of children",
+        "rural location (urban vs. rural, distance from healthcare facility)",
+        "access to healthcare services",
+        "primary care provider",
+        "medical comorbidities (e.g. diabetes, hypertension, cardiovascular disease)",
+        "medications",
+        "prior weight loss attempts",
+        "weight loss goals"
+      ]
+    }
+  }
+}

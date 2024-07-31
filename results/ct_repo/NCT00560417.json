@@ -1,0 +1,189 @@
+{
+  "trial_id": "NCT00560417",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, baseline HbA1c, body mass index (BMI), weight, oral diabetes medication regimen, dose of exenatide, fasting plasma glucose, blood pressure, lipid profile, renal function (e.g., serum creatinine), liver function tests (e.g., ALT, AST), history of severe hypoglycemia, smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Body Weight",
+          "weight"
+        ],
+        [
+          "Hemoglobin A1C",
+          "baseline HbA1c"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Sulfonylurea Group"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "oral diabetes medication regimen",
+        "dose of exenatide",
+        "fasting plasma glucose",
+        "blood pressure",
+        "lipid profile",
+        "renal function (e.g., serum creatinine)",
+        "liver function tests (e.g., ALT, AST)",
+        "history of severe hypoglycemia",
+        "smoking status",
+        "alcohol consumption"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, BMI, Blood Pressure, Concomitant Diabetes Medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Hemoglobin A1C",
+          "Baseline HbA1c"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight",
+        "Sulfonylurea Group"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Daily Insulin Dose",
+        "Blood Pressure",
+        "Concomitant Diabetes Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, Body Mass Index, HbA1c, Exenatide dose, Oral diabetes medication regimen, History of severe hypoglycemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Hemoglobin A1C",
+          "HbA1c"
+        ],
+        [
+          "Duration of Diabetes",
+          "Diabetes duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight",
+        "Sulfonylurea Group"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Exenatide dose",
+        "Oral diabetes medication regimen",
+        "History of severe hypoglycemia."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, hemoglobin A1C (HbA1c) at baseline, fasting plasma glucose at baseline, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, exenatide dose, oral diabetes medication regimen, metformin dose, sulfonylurea dose, thiazolidinedione (TZD) dose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Hemoglobin A1C",
+          "hemoglobin A1C (HbA1c) at baseline"
+        ],
+        [
+          "Sulfonylurea Group",
+          "sulfonylurea dose"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Body Weight"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "ethnicity",
+        "fasting plasma glucose at baseline",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "smoking status",
+        "exenatide dose",
+        "oral diabetes medication regimen",
+        "metformin dose",
+        "thiazolidinedione (TZD) dose"
+      ]
+    }
+  }
+}

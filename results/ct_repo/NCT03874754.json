@@ -1,0 +1,182 @@
+{
+  "trial_id": "NCT03874754",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Cancer diagnosis (type and stage), Duration since cancer treatment completion, Diabetes diagnosis (duration), Hypertension diagnosis (duration), Annual household income, Baseline fatigue level, Physical activity level, Heart rate, Resilience score, Physical well-being score, Mental well-being score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Fatigue",
+          "Baseline fatigue level"
+        ],
+        [
+          "Resilience",
+          "Resilience score"
+        ],
+        [
+          "Physical well-being",
+          "Physical well-being score"
+        ],
+        [
+          "Mental well-being",
+          "Mental well-being score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Cancer diagnosis (type and stage)",
+        "Duration since cancer treatment completion",
+        "Diabetes diagnosis (duration)",
+        "Hypertension diagnosis (duration)",
+        "Annual household income",
+        "Physical activity level",
+        "Heart rate"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Diagnosis Duration, Diabetes Diagnosis Duration, Hypertension Diagnosis Duration, Annual Household Income, Baseline Fatigue Level, Baseline Physical Activity Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Fatigue",
+          "Baseline Fatigue Level"
+        ],
+        [
+          "Physical well-being",
+          "Baseline Physical Activity Level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Resilience",
+        "Mental well-being"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Cancer Diagnosis Duration",
+        "Diabetes Diagnosis Duration",
+        "Hypertension Diagnosis Duration",
+        "Annual Household Income"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes diagnosis duration, Cancer diagnosis duration, Hypertension diagnosis duration, Fatigue level, Annual household income,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Fatigue",
+          "Fatigue level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Resilience",
+        "Physical well-being",
+        "Mental well-being"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Diabetes diagnosis duration",
+        "Cancer diagnosis duration",
+        "Hypertension diagnosis duration",
+        "Annual household income"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, ethnicity, body mass index (BMI), annual household income, cancer type, cancer treatment type, duration since cancer treatment, diabetes type, hypertension type, duration of diabetes and hypertension, fatigue level, presence of comorbidities, psychological disorder history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Fatigue",
+          "fatigue level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Resilience",
+        "Physical well-being",
+        "Mental well-being"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "annual household income",
+        "cancer type",
+        "cancer treatment type",
+        "duration since cancer treatment",
+        "diabetes type",
+        "hypertension type",
+        "duration of diabetes and hypertension",
+        "presence of comorbidities",
+        "psychological disorder history"
+      ]
+    }
+  }
+}

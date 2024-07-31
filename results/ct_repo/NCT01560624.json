@@ -1,0 +1,223 @@
+{
+  "trial_id": "NCT01560624",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body mass index (BMI), baseline 6-minute walk distance (6MWD), pulmonary artery pressure, pulmonary capillary wedge pressure (PCWP), left ventricular end diastolic pressure (LVEDP), CD4 lymphocyte count (for HIV-positive subjects), total lung capacity, forced expiratory volume at 1 second (FEV1), systolic blood pressure, diastolic blood pressure, alanine aminotransferase (ALT) levels, aspartate aminotransferase (AST) levels, creatinine levels, history of essential hypertension, history of diabetes mellitus, history of coronary artery disease, left ventricular ejection fraction, use of PAH-approved oral monotherapy, use of anticoagulants, use of diuretics, history of ischemic heart disease, presence of musculoskeletal disorders, psychiatric condition status, renal function status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "6MWD at Baseline",
+          "baseline 6-minute walk distance (6MWD)"
+        ],
+        [
+          "Etiology of PAH",
+          "use of PAH-approved oral monotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Time since Diagnosis",
+        "WHO Functional Class at Baseline"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "pulmonary artery pressure",
+        "pulmonary capillary wedge pressure (PCWP)",
+        "left ventricular end diastolic pressure (LVEDP)",
+        "CD4 lymphocyte count (for HIV-positive subjects)",
+        "total lung capacity",
+        "forced expiratory volume at 1 second (FEV1)",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "alanine aminotransferase (ALT) levels",
+        "aspartate aminotransferase (AST) levels",
+        "creatinine levels",
+        "history of essential hypertension",
+        "history of diabetes mellitus",
+        "history of coronary artery disease",
+        "left ventricular ejection fraction",
+        "use of anticoagulants",
+        "use of diuretics",
+        "history of ischemic heart disease",
+        "presence of musculoskeletal disorders",
+        "psychiatric condition status",
+        "renal function status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline 6-minute walk distance (6MWD), Pulmonary artery pressure, Pulmonary capillary wedge pressure (PCWP), Left ventricular end diastolic pressure (LVEDP), Total lung capacity, Forced expiratory volume at 1 second (FEV1), HIV status, CD4 lymphocyte count, Body Mass Index (BMI), Systolic Blood Pressure, Diastolic Blood Pressure, Alanine aminotransferase (ALT) levels, Aspartate aminotransferase (AST) levels, Creatinine levels, History of essential hypertension, Diabetes mellitus status, History of coronary artery disease, Use of PAH-approved oral monotherapy, Use of anticoagulants, Use of diuretics, Use of devices to assist walking, Psychiatric condition status, Renal insufficiency status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "6MWD at Baseline",
+          "Baseline 6-minute walk distance (6MWD)"
+        ],
+        [
+          "Etiology of PAH",
+          "Pulmonary artery pressure"
+        ],
+        [
+          "WHO Functional Class at Baseline",
+          "Pulmonary capillary wedge pressure (PCWP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Time since Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Left ventricular end diastolic pressure (LVEDP)",
+        "Total lung capacity",
+        "Forced expiratory volume at 1 second (FEV1)",
+        "HIV status",
+        "CD4 lymphocyte count",
+        "Body Mass Index (BMI)",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Alanine aminotransferase (ALT) levels",
+        "Aspartate aminotransferase (AST) levels",
+        "Creatinine levels",
+        "History of essential hypertension",
+        "Diabetes mellitus status",
+        "History of coronary artery disease",
+        "Use of PAH-approved oral monotherapy",
+        "Use of anticoagulants",
+        "Use of diuretics",
+        "Use of devices to assist walking",
+        "Psychiatric condition status",
+        "Renal insufficiency status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, 6-Minute Walk Distance, Pulmonary Artery Pressure, Pulmonary Capillary Wedge Pressure, Left Ventricular End Diastolic Pressure, Echocardiography Results, Pulmonary Function Test Results, World Health Organization Functional Class.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "6MWD at Baseline",
+          "6-Minute Walk Distance"
+        ],
+        [
+          "WHO Functional Class at Baseline",
+          "World Health Organization Functional Class"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Time since Diagnosis",
+        "Etiology of PAH"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Pulmonary Artery Pressure",
+        "Pulmonary Capillary Wedge Pressure",
+        "Left Ventricular End Diastolic Pressure",
+        "Echocardiography Results",
+        "Pulmonary Function Test Results"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index, systolic blood pressure, diastolic blood pressure, heart rate, 6-minute walk distance, pulmonary artery pressure, pulmonary capillary wedge pressure, left ventricular end diastolic pressure, CD4 lymphocyte count, HIV status, PAH etiology, PAH-approved oral monotherapy, duration of PAH treatment, total lung capacity, forced expiratory volume at 1 second.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "6MWD at Baseline",
+          "6-minute walk distance"
+        ],
+        [
+          "Etiology of PAH",
+          "PAH etiology"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Time since Diagnosis",
+        "WHO Functional Class at Baseline"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "pulmonary artery pressure",
+        "pulmonary capillary wedge pressure",
+        "left ventricular end diastolic pressure",
+        "CD4 lymphocyte count",
+        "HIV status",
+        "PAH-approved oral monotherapy",
+        "duration of PAH treatment",
+        "total lung capacity",
+        "forced expiratory volume at 1 second."
+      ]
+    }
+  }
+}

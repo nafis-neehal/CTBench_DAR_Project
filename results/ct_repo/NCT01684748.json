@@ -1,0 +1,230 @@
+{
+  "trial_id": "NCT01684748",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, blood pressure (systolic and diastolic), gender, weight stability, physical activity level, cholesterol levels, triglyceride levels, renal function (GFR), presence of comorbid conditions, medication use, allergy or hypersensitivity status, pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Systolic blood pressure",
+          "blood pressure (systolic and diastolic)"
+        ],
+        [
+          "Diastolic blood pressure",
+          "blood pressure (systolic and diastolic)"
+        ],
+        [
+          "Total cholesterol",
+          "cholesterol levels"
+        ],
+        [
+          "Triglycerides",
+          "triglyceride levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Body weight",
+        "Body fat",
+        "Total fat mass",
+        "HDL cholesterol",
+        "LDL cholesterol",
+        "Glucose"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "weight stability",
+        "physical activity level",
+        "renal function (GFR)",
+        "presence of comorbid conditions",
+        "medication use",
+        "allergy or hypersensitivity status",
+        "pregnancy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Insulin Sensitivity, Total Cholesterol, Triglycerides, GFR,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Total cholesterol",
+          "Total Cholesterol"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment",
+        "Body weight",
+        "Body fat",
+        "Total fat mass",
+        "HDL cholesterol",
+        "LDL cholesterol",
+        "Glucose"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Insulin Sensitivity",
+        "GFR"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, Glomerular Filtration Rate, Insulin Sensitivity,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Total cholesterol",
+          "Total Cholesterol"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Body weight",
+        "Body fat",
+        "Total fat mass",
+        "HDL cholesterol",
+        "LDL cholesterol",
+        "Glucose"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Glomerular Filtration Rate",
+        "Insulin Sensitivity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), weight, height, systolic blood pressure, diastolic blood pressure, heart rate, waist circumference, hip circumference, glucose levels, lipid profiles, renal function (GFR), medical history (hypertension, diabetes, cardiovascular disease, etc.), medication use, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body weight",
+          "weight"
+        ],
+        [
+          "Body mass index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Systolic blood pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "diastolic blood pressure"
+        ],
+        [
+          "Triglycerides",
+          "lipid profiles"
+        ],
+        [
+          "Total cholesterol",
+          "lipid profiles"
+        ],
+        [
+          "Glucose",
+          "glucose levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Body fat",
+        "Total fat mass",
+        "HDL cholesterol",
+        "LDL cholesterol"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "race",
+        "ethnicity",
+        "height",
+        "heart rate",
+        "waist circumference",
+        "hip circumference",
+        "renal function (GFR)",
+        "medical history (hypertension, diabetes, cardiovascular disease, etc.)",
+        "medication use",
+        "smoking status."
+      ]
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "trial_id": "NCT01576341",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, dialysis status, prior ESA treatment, hemoglobin levels, serum ferritin, transferrin saturation, serum albumin, iron supplementation status, comorbid conditions (e.g., diabetes, hypertension), baseline kidney function (e.g., eGFR), body mass index (BMI), race/ethnicity, duration of CKD, baseline immunosuppressive treatment status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "ESA pre-treatment",
+          "prior ESA treatment"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race/ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "dialysis status",
+        "hemoglobin levels",
+        "serum ferritin",
+        "transferrin saturation",
+        "serum albumin",
+        "iron supplementation status",
+        "comorbid conditions (e.g., diabetes, hypertension)",
+        "baseline kidney function (e.g., eGFR)",
+        "duration of CKD",
+        "baseline immunosuppressive treatment status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Dialysis status, Baseline hemoglobin, Serum albumin, Iron levels, History of Pure Red Cell Aplasia (PRCA), Immunocompromised status, Hepatitis B/C status, HIV status, History of systemic lupus erythematosus, History of congestive heart failure, History of angina pectoris, History of myocardial infarction, History of malignancy, Use of non-EU approved ESA,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Serum albumin",
+          "Serum albumin"
+        ],
+        [
+          "ESA pre-treatment",
+          "Use of non-EU approved ESA"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Height",
+        "Weight",
+        "Body Mass Index (BMI)"
+      ],
+      "remaining_candidate_features": [
+        "Dialysis status",
+        "Baseline hemoglobin",
+        "Iron levels",
+        "History of Pure Red Cell Aplasia (PRCA)",
+        "Immunocompromised status",
+        "Hepatitis B/C status",
+        "HIV status",
+        "History of systemic lupus erythematosus",
+        "History of congestive heart failure",
+        "History of angina pectoris",
+        "History of myocardial infarction",
+        "History of malignancy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Chronic Kidney Disease Stage, Hemoglobin, Iron Status, ESA Treatment Status, Dialysis Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "ESA pre-treatment",
+          "ESA Treatment Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Height",
+        "Weight",
+        "Body Mass Index (BMI)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Chronic Kidney Disease Stage",
+        "Hemoglobin",
+        "Iron Status",
+        "Dialysis Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of CKD, dialysis status, ESA treatment history, iron substitution status, hemoglobin level, serum creatinine level, estimated glomerular filtration rate (eGFR), serum albumin level, medical history (e.g., hypertension, diabetes, cardiovascular disease), concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "ESA pre-treatment",
+          "ESA treatment history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "duration of CKD",
+        "dialysis status",
+        "iron substitution status",
+        "hemoglobin level",
+        "serum creatinine level",
+        "estimated glomerular filtration rate (eGFR)",
+        "serum albumin level",
+        "medical history (e.g., hypertension, diabetes, cardiovascular disease)",
+        "concomitant medications"
+      ]
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "trial_id": "NCT03077204",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Diagnosis (Degenerative Disc Disease, Trauma, Spondylolisthesis, etc.), Number of Levels in ACDF Surgery, Previous Spine Surgery, Smoking Status, Bone Density (Osteopenia/Osteoporosis), Presence of Comorbidities (e.g., diabetes, cardiovascular disease), Medication Use, Baseline Pain Score, Baseline Functional Status, Radiographic Findings (e.g., disc degeneration, spinal stenosis).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Visual Analog Scale",
+          "Baseline Pain Score"
+        ],
+        [
+          "Neck Disability Index",
+          "Baseline Functional Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected"
+      ],
+      "remaining_candidate_features": [
+        "Diagnosis (Degenerative Disc Disease, Trauma, Spondylolisthesis, etc.)",
+        "Number of Levels in ACDF Surgery",
+        "Previous Spine Surgery",
+        "Smoking Status",
+        "Bone Density (Osteopenia/Osteoporosis)",
+        "Presence of Comorbidities (e.g., diabetes, cardiovascular disease)",
+        "Medication Use",
+        "Radiographic Findings (e.g., disc degeneration, spinal stenosis)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis (Degenerative Disc Disease, Trauma, Spondylolisthesis), Smoking Status, Bone Density, Preoperative Pain Score, Preoperative Neurological Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Race and Ethnicity Not Collected",
+        "Visual Analog Scale",
+        "Neck Disability Index"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diagnosis (Degenerative Disc Disease, Trauma, Spondylolisthesis)",
+        "Smoking Status",
+        "Bone Density",
+        "Preoperative Pain Score",
+        "Preoperative Neurological Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Neck Pain, Degenerative Disc Disease, Trauma, Spondylolisthesis, Previous Spine Surgery, Smoker Status,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race and Ethnicity Not Collected",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Visual Analog Scale",
+        "Neck Disability Index"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Neck Pain",
+        "Degenerative Disc Disease",
+        "Trauma",
+        "Spondylolisthesis",
+        "Previous Spine Surgery",
+        "Smoker Status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, weight, height, body mass index (BMI), diagnosis (Degenerative Disc Disease, Trauma, Spondylolisthesis, etc.), number of levels involved, surgical history, medical history (malignancy, infectious disease, etc.), smoking status, medication use, neck pain score, functional status (e.g., Neck Disability Index), radiographic measures (e.g., Cobb angle, disc height).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Neck Disability Index",
+          "functional status (e.g., Neck Disability Index)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race and Ethnicity Not Collected",
+        "Visual Analog Scale"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "diagnosis (Degenerative Disc Disease, Trauma, Spondylolisthesis, etc.)",
+        "number of levels involved",
+        "surgical history",
+        "medical history (malignancy, infectious disease, etc.)",
+        "smoking status",
+        "medication use",
+        "neck pain score",
+        "radiographic measures (e.g., Cobb angle, disc height)"
+      ]
+    }
+  }
+}

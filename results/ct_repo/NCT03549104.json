@@ -1,0 +1,140 @@
+{
+  "trial_id": "NCT03549104",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of type 1 diabetes, insulin therapy type (pump or MDI), baseline fear of hypoglycemia score, baseline glucose control (HbA1c), baseline glucose variability, attendance at diabetes educational program, medical care provider (endocrinologist).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Fear of hypoglycemia",
+          "baseline fear of hypoglycemia score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 1 diabetes",
+        "insulin therapy type (pump or MDI)",
+        "baseline glucose control (HbA1c)",
+        "baseline glucose variability",
+        "attendance at diabetes educational program",
+        "medical care provider (endocrinologist)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Duration of Diabetes, Insulin Delivery Method (Pump or MDI), Baseline HbA1c, Frequency of Hypoglycemia, Fear of Hypoglycemia Score, Diabetes Self-Management Practices, Glucose Variability,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Fear of hypoglycemia",
+          "Fear of Hypoglycemia Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "Insulin Delivery Method (Pump or MDI)",
+        "Baseline HbA1c",
+        "Frequency of Hypoglycemia",
+        "Diabetes Self-Management Practices",
+        "Glucose Variability"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gender, Diabetes duration, Insulin regimen, HbA1c, Fear of hypoglycemia, Glucose variability,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Fear of hypoglycemia",
+          "Fear of hypoglycemia"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Diabetes duration",
+        "Insulin regimen",
+        "HbA1c",
+        "Glucose variability"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, duration of type 1 diabetes, type of insulin therapy (pump or MDI), HbA1c level, history of severe hypoglycemic events, diabetes self-management skills, quality of life, anxiety and depression symptoms.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Fear of hypoglycemia",
+          "history of severe hypoglycemic events"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 1 diabetes",
+        "type of insulin therapy (pump or MDI)",
+        "HbA1c level",
+        "diabetes self-management skills",
+        "quality of life",
+        "anxiety and depression symptoms."
+      ]
+    }
+  }
+}

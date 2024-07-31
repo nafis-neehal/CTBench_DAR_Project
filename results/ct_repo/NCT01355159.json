@@ -1,0 +1,274 @@
+{
+  "trial_id": "NCT01355159",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age, pre-existing hypertension, pre-pregnancy diabetes, twin pregnancy, history of preeclampsia in a previous pregnancy, body mass index (BMI), baseline folic acid intake, fetal heart status, planned birth location.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age (weeks) at recruitment",
+          "gestational age"
+        ],
+        [
+          "Chronic Hypertension",
+          "pre-existing hypertension"
+        ],
+        [
+          "Type 1 Diabetes",
+          "pre-pregnancy diabetes"
+        ],
+        [
+          "Type 2 Diabetes",
+          "pre-pregnancy diabetes"
+        ],
+        [
+          "Twin Pregnancy",
+          "twin pregnancy"
+        ],
+        [
+          "History of Pre-eclampsia",
+          "history of preeclampsia in a previous pregnancy"
+        ],
+        [
+          "Body mass index >=35",
+          "body mass index (BMI)"
+        ],
+        [
+          "Supplementation of FA at randomisation (yes)",
+          "baseline folic acid intake"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Parity",
+        "Pre-pregnancy BMI (kg/m2)",
+        "Education level",
+        "Smoking during pregnancy",
+        "Alcohol during pregnancy",
+        "Supplementation of high dose FA at randomisation (yes)",
+        "Aspirin supplementation at randomisation",
+        "Calcium supplementation at randomisation",
+        "Dietary Folate (\u00b5g) (Mean, SD)",
+        "Visit 2 Compliance",
+        "Prepregnancy Body Mass Index",
+        "Gestational age at recruitment"
+      ],
+      "remaining_candidate_features": [
+        "fetal heart status",
+        "planned birth location."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational Age at Enrollment, Pre-existing Hypertension, Pre-pregnancy Diabetes, Twin Pregnancy, History of Preeclampsia in Previous Pregnancy, Body Mass Index, Race/Ethnicity, Region of Enrollment, Baseline Folic Acid Intake,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age (weeks) at recruitment",
+          "Gestational Age at Enrollment"
+        ],
+        [
+          "Chronic Hypertension",
+          "Pre-existing Hypertension"
+        ],
+        [
+          "Type 1 Diabetes",
+          "Pre-pregnancy Diabetes"
+        ],
+        [
+          "Type 2 Diabetes",
+          "Pre-pregnancy Diabetes"
+        ],
+        [
+          "Twin Pregnancy",
+          "Twin Pregnancy"
+        ],
+        [
+          "History of Pre-eclampsia",
+          "History of Preeclampsia in Previous Pregnancy"
+        ],
+        [
+          "Body mass index >=35",
+          "Body Mass Index"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Supplementation of FA at randomisation (yes)",
+          "Baseline Folic Acid Intake"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Parity",
+        "Pre-pregnancy BMI (kg/m2)",
+        "Education level",
+        "Smoking during pregnancy",
+        "Alcohol during pregnancy",
+        "Supplementation of high dose FA at randomisation (yes)",
+        "Aspirin supplementation at randomisation",
+        "Calcium supplementation at randomisation",
+        "Dietary Folate (\u00b5g) (Mean, SD)",
+        "Visit 2 Compliance",
+        "Prepregnancy Body Mass Index",
+        "Gestational age at recruitment"
+      ],
+      "remaining_candidate_features": []
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gestational Age, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pre-existing Hypertension, Pre-pregnancy Diabetes, Twin Pregnancy, History of Preeclampsia, Folic Acid Supplementation at Baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational age (weeks) at recruitment",
+          "Gestational Age"
+        ],
+        [
+          "Prepregnancy Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Chronic Hypertension",
+          "Pre-existing Hypertension"
+        ],
+        [
+          "Type 1 Diabetes",
+          "Pre-pregnancy Diabetes"
+        ],
+        [
+          "Twin Pregnancy",
+          "Twin Pregnancy"
+        ],
+        [
+          "History of Pre-eclampsia",
+          "History of Preeclampsia"
+        ],
+        [
+          "Supplementation of FA at randomisation (yes)",
+          "Folic Acid Supplementation at Baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Parity",
+        "Pre-pregnancy BMI (kg/m2)",
+        "Education level",
+        "Smoking during pregnancy",
+        "Alcohol during pregnancy",
+        "Supplementation of high dose FA at randomisation (yes)",
+        "Aspirin supplementation at randomisation",
+        "Calcium supplementation at randomisation",
+        "Dietary Folate (\u00b5g) (Mean, SD)",
+        "Visit 2 Compliance",
+        "Type 2 Diabetes",
+        "Body mass index >=35",
+        "Gestational age at recruitment"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, BMI, parity, gestational age at randomization, history of hypertension, history of diabetes, history of preeclampsia, number of fetuses, fetal sex, ethnicity, smoking status, education level, socioeconomic status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Parity",
+          "parity"
+        ],
+        [
+          "Pre-pregnancy BMI (kg/m2)",
+          "BMI"
+        ],
+        [
+          "Gestational age (weeks) at recruitment",
+          "gestational age at randomization"
+        ],
+        [
+          "History of Pre-eclampsia",
+          "history of preeclampsia"
+        ],
+        [
+          "Chronic Hypertension",
+          "history of hypertension"
+        ],
+        [
+          "Type 1 Diabetes",
+          "history of diabetes"
+        ],
+        [
+          "Type 2 Diabetes",
+          "history of diabetes"
+        ],
+        [
+          "Twin Pregnancy",
+          "number of fetuses"
+        ],
+        [
+          "Sex: Female",
+          "fetal sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Smoking during pregnancy",
+          "smoking status"
+        ],
+        [
+          "Education level",
+          "education level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Supplementation of FA at randomisation (yes)",
+        "Supplementation of high dose FA at randomisation (yes)",
+        "Aspirin supplementation at randomisation",
+        "Calcium supplementation at randomisation",
+        "Dietary Folate (\u00b5g) (Mean, SD)",
+        "Visit 2 Compliance",
+        "Body mass index >=35",
+        "Prepregnancy Body Mass Index",
+        "Gestational age at recruitment"
+      ],
+      "remaining_candidate_features": [
+        "socioeconomic status"
+      ]
+    }
+  }
+}

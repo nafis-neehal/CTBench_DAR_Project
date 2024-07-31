@@ -1,0 +1,303 @@
+{
+  "trial_id": "NCT02906579",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, Body Mass Index (BMI), Baseline Blood Pressure, Baseline Heart Rate, Baseline Hemoglobin A1c (HbA1c), Baseline Fasting Blood Glucose, Baseline Serum Insulin, Baseline Cholesterol, Baseline HDL-C, Baseline LDL-C, Baseline Triglycerides, Baseline Gamma Glutamyl Transferase (GGT), Baseline Lactate Dehydrogenase, Baseline Endothelial Function (Reactive Hyperemia Index), Baseline Electrocardiogram (ECG) Findings, Baseline QT Interval Corrected Using Fridericia's Formula (QTcF), Baseline Respiratory Rate, Baseline Temperature, Baseline Weight, Baseline Orthostatic Vital Signs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Study Baseline: Supine systolic blood pressure",
+          "Baseline Blood Pressure"
+        ],
+        [
+          "Study Baseline: Supine diastolic blood pressure",
+          "Baseline Blood Pressure"
+        ],
+        [
+          "Study Baseline: Pulse",
+          "Baseline Heart Rate"
+        ],
+        [
+          "Study Baseline: Cholesterol",
+          "Baseline Cholesterol"
+        ],
+        [
+          "Glucose",
+          "Baseline Fasting Blood Glucose"
+        ],
+        [
+          "HDL-C",
+          "Baseline HDL-C"
+        ],
+        [
+          "LDL-C",
+          "Baseline LDL-C"
+        ],
+        [
+          "Triglycerides",
+          "Baseline Triglycerides"
+        ],
+        [
+          "Study Baseline: Gamma Glutamyl Transferase (GGT) and Lactate Dehydrogenase",
+          "Baseline Gamma Glutamyl Transferase (GGT)"
+        ],
+        [
+          "Study Baseline: Hemoglobin A1c",
+          "Baseline Hemoglobin A1c (HbA1c)"
+        ],
+        [
+          "Study Baseline: Insulin",
+          "Baseline Serum Insulin"
+        ],
+        [
+          "Study Baseline: Respiratory Rate",
+          "Baseline Respiratory Rate"
+        ],
+        [
+          "Study Baseline: Temperature",
+          "Baseline Temperature"
+        ],
+        [
+          "Study Baseline: Weight",
+          "Baseline Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index (BMI)",
+        "Baseline Endothelial Function (Reactive Hyperemia Index)",
+        "Baseline Electrocardiogram (ECG) Findings",
+        "Baseline QT Interval Corrected Using Fridericia's Formula (QTcF)",
+        "Baseline Orthostatic Vital Signs",
+        "Baseline Lactate Dehydrogenase"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Duration of Diabetes, Endothelial Function, Cholesterol, HDL-C, LDL-C, Triglycerides, Glucose, Insulin,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Study Baseline: Supine systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Study Baseline: Supine diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Study Baseline: Cholesterol",
+          "Cholesterol"
+        ],
+        [
+          "Glucose",
+          "Glucose"
+        ],
+        [
+          "HDL-C",
+          "HDL-C"
+        ],
+        [
+          "LDL-C",
+          "LDL-C"
+        ],
+        [
+          "Triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "Study Baseline: Hemoglobin A1c",
+          "HbA1c"
+        ],
+        [
+          "Study Baseline: Insulin",
+          "Insulin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Study Baseline: Pulse",
+        "Study Baseline: Gamma Glutamyl Transferase (GGT) and Lactate Dehydrogenase",
+        "Study Baseline: Respiratory Rate",
+        "Study Baseline: Temperature",
+        "Study Baseline: Weight"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Duration of Diabetes",
+        "Endothelial Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Diabetes Duration, History of Hypertension, Current Medications for Hypertension and Diabetes, Endothelial Function (RHI),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Study Baseline: Supine systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Study Baseline: Supine diastolic blood pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Study Baseline: Hemoglobin A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Study Baseline: Pulse",
+        "Study Baseline: Cholesterol",
+        "Glucose",
+        "HDL-C",
+        "LDL-C",
+        "Triglycerides",
+        "Study Baseline: Gamma Glutamyl Transferase (GGT) and Lactate Dehydrogenase",
+        "Study Baseline: Insulin",
+        "Study Baseline: Respiratory Rate",
+        "Study Baseline: Temperature",
+        "Study Baseline: Weight"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Diabetes Duration",
+        "History of Hypertension",
+        "Current Medications for Hypertension and Diabetes",
+        "Endothelial Function (RHI)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, body mass index, race, ethnicity, smoking status, medical history (diabetes, hypertension, etc.), concomitant medications, systolic and diastolic blood pressure, heart rate, HbA1c, fasting blood glucose, serum insulin, lipid profile (cholesterol, HDL-C, LDL-C, triglycerides), gamma glutamyl transferase, lactate dehydrogenase, hemoglobin, electrocardiogram findings, QT interval corrected using Fridericia's formula.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Study Baseline: Supine systolic blood pressure",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "Study Baseline: Supine diastolic blood pressure",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "Study Baseline: Pulse",
+          "heart rate"
+        ],
+        [
+          "Study Baseline: Cholesterol",
+          "lipid profile (cholesterol, HDL-C, LDL-C, triglycerides)"
+        ],
+        [
+          "Glucose",
+          "fasting blood glucose"
+        ],
+        [
+          "HDL-C",
+          "lipid profile (cholesterol, HDL-C, LDL-C, triglycerides)"
+        ],
+        [
+          "LDL-C",
+          "lipid profile (cholesterol, HDL-C, LDL-C, triglycerides)"
+        ],
+        [
+          "Triglycerides",
+          "lipid profile (cholesterol, HDL-C, LDL-C, triglycerides)"
+        ],
+        [
+          "Study Baseline: Gamma Glutamyl Transferase (GGT) and Lactate Dehydrogenase",
+          "gamma glutamyl transferase"
+        ],
+        [
+          "Study Baseline: Gamma Glutamyl Transferase (GGT) and Lactate Dehydrogenase",
+          "lactate dehydrogenase"
+        ],
+        [
+          "Study Baseline: Hemoglobin A1c",
+          "HbA1c"
+        ],
+        [
+          "Study Baseline: Insulin",
+          "serum insulin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Study Baseline: Respiratory Rate",
+        "Study Baseline: Temperature",
+        "Study Baseline: Weight"
+      ],
+      "remaining_candidate_features": [
+        "body mass index",
+        "smoking status",
+        "medical history (diabetes, hypertension, etc.)",
+        "concomitant medications",
+        "hemoglobin",
+        "electrocardiogram findings",
+        "QT interval corrected using Fridericia's formula."
+      ]
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "trial_id": "NCT00515723",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, BMI, duration of schizophrenia or schizoaffective disorder, type of antipsychotic medication, duration of antipsychotic treatment, baseline glucose levels, baseline lipid profiles, baseline insulin sensitivity, total body fat, total fat-free mass, abdominal adipose tissue mass, smoking status, alcohol use, physical activity level, dietary habits, family history of diabetes, family history of cardiovascular disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "DEXA Total Fat",
+          "total body fat"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Body Weight",
+        "Waist Circumference",
+        "Whole Body Sensitivity"
+      ],
+      "remaining_candidate_features": [
+        "duration of schizophrenia or schizoaffective disorder",
+        "type of antipsychotic medication",
+        "duration of antipsychotic treatment",
+        "baseline glucose levels",
+        "baseline lipid profiles",
+        "baseline insulin sensitivity",
+        "total fat-free mass",
+        "abdominal adipose tissue mass",
+        "smoking status",
+        "alcohol use",
+        "physical activity level",
+        "dietary habits",
+        "family history of diabetes",
+        "family history of cardiovascular disease"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Duration of Antipsychotic Treatment, Type of Antipsychotic Medication, Fasting Glucose, Fasting Insulin, Lipid Profile, Total Body Fat, Total Fat-Free Mass, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "DEXA Total Fat",
+          "Total Body Fat"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight",
+        "Waist Circumference",
+        "Whole Body Sensitivity"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Antipsychotic Treatment",
+        "Type of Antipsychotic Medication",
+        "Fasting Glucose",
+        "Fasting Insulin",
+        "Lipid Profile",
+        "Total Fat-Free Mass"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, HbA1c, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, Duration of Schizophrenia, Duration of Antipsychotic Treatment, Type of Antipsychotic Medication.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "DEXA Total Fat",
+          "DEXA Total Fat"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Weight",
+        "Waist Circumference",
+        "Whole Body Sensitivity"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Fasting Plasma Glucose",
+        "HbA1c",
+        "Total Cholesterol",
+        "Triglycerides",
+        "HDL Cholesterol",
+        "LDL Cholesterol",
+        "Duration of Schizophrenia",
+        "Duration of Antipsychotic Treatment",
+        "Type of Antipsychotic Medication."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of schizophrenia or schizoaffective disorder, duration of antipsychotic treatment, type of antipsychotic medication, smoking status, medical history (including type 2 diabetes mellitus, hyperglycemia, and other relevant conditions), family history of diabetes or cardiovascular disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "DEXA Total Fat",
+          "DEXA Total Fat"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Body Weight",
+        "Waist Circumference",
+        "Whole Body Sensitivity"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "duration of schizophrenia or schizoaffective disorder",
+        "duration of antipsychotic treatment",
+        "type of antipsychotic medication",
+        "smoking status",
+        "medical history (including type 2 diabetes mellitus, hyperglycemia, and other relevant conditions)",
+        "family history of diabetes or cardiovascular disease."
+      ]
+    }
+  }
+}

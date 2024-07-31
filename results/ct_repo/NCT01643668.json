@@ -1,0 +1,203 @@
+{
+  "trial_id": "NCT01643668",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Race/Ethnicity, Disease Type (AML, ALL, MDS), Disease Status at Transplant, Donor Type (related or unrelated), HLA Match Status, Organ Function Tests (e.g., liver function, kidney function), Performance Status (e.g., ECOG score), Prior Treatments, Time from Diagnosis to Transplant, Cytogenetic Risk Group, Comorbidities, Infection Status, GVHD Prophylaxis Regimen",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Diagnosis",
+          "Disease Type (AML, ALL, MDS)"
+        ],
+        [
+          "Disease Stage",
+          "Disease Status at Transplant"
+        ],
+        [
+          "Donor Type",
+          "Donor Type (related or unrelated)"
+        ],
+        [
+          "Cytogenics for patients with AML/MDS",
+          "Cytogenetic Risk Group"
+        ],
+        [
+          "Hematopoietic cell transplantation specific comorbidity index (HCT-CI)",
+          "Comorbidities"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Hematopoietic Cell Transplantation (HCT) Refined Disease Risk Index (DRI)",
+        "ALL Cytogenics",
+        "Cytomegalovirus Serostatus"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "HLA Match Status",
+        "Organ Function Tests (e.g., liver function, kidney function)",
+        "Performance Status (e.g., ECOG score)",
+        "Prior Treatments",
+        "Time from Diagnosis to Transplant",
+        "Infection Status",
+        "GVHD Prophylaxis Regimen"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Disease Type (AML, ALL, MDS), Donor Type (Related, Unrelated), Baseline ANC Count, Baseline Platelet Count, Organ Function Tests,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diagnosis",
+          "Disease Type (AML, ALL, MDS)"
+        ],
+        [
+          "Donor Type",
+          "Donor Type (Related, Unrelated)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Hematopoietic Cell Transplantation (HCT) Refined Disease Risk Index (DRI)",
+        "Disease Stage",
+        "Cytogenics for patients with AML/MDS",
+        "ALL Cytogenics",
+        "Hematopoietic cell transplantation specific comorbidity index (HCT-CI)",
+        "Cytomegalovirus Serostatus"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Baseline ANC Count",
+        "Baseline Platelet Count",
+        "Organ Function Tests"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity (NIH/OMB), Region of Enrollment, Diagnosis (AML, ALL, MDS), Disease Status, Performance Status, Prior Chemotherapy, Prior Radiation, Donor Type (Related, Unrelated), Donor-Recipient Sex Match, Donor-Recipient CMV Match, Donor-Recipient ABO Match.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Diagnosis",
+          "Diagnosis (AML, ALL, MDS)"
+        ],
+        [
+          "Disease Stage",
+          "Disease Status"
+        ],
+        [
+          "Donor Type",
+          "Donor Type (Related, Unrelated)"
+        ],
+        [
+          "Cytomegalovirus Serostatus",
+          "Donor-Recipient CMV Match"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Hematopoietic Cell Transplantation (HCT) Refined Disease Risk Index (DRI)",
+        "Cytogenics for patients with AML/MDS",
+        "ALL Cytogenics",
+        "Hematopoietic cell transplantation specific comorbidity index (HCT-CI)"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity (NIH/OMB)",
+        "Performance Status",
+        "Prior Chemotherapy",
+        "Prior Radiation",
+        "Donor-Recipient Sex Match",
+        "Donor-Recipient ABO Match"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), performance status, disease type (Acute Myeloid Leukemia, Acute Lymphoblastic Leukemia, Myelodysplastic Syndrome), disease status (relapsed, refractory, newly diagnosed), prior treatment (chemotherapy, radiation, stem cell transplantation), comorbidities, organ function (renal, hepatic, cardiac, pulmonary), laboratory values (complete blood count, liver function tests, renal function tests).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Diagnosis",
+          "disease type (Acute Myeloid Leukemia, Acute Lymphoblastic Leukemia, Myelodysplastic Syndrome)"
+        ],
+        [
+          "Disease Stage",
+          "disease status (relapsed, refractory, newly diagnosed)"
+        ],
+        [
+          "Hematopoietic cell transplantation specific comorbidity index (HCT-CI)",
+          "comorbidities"
+        ],
+        [
+          "Donor Type",
+          "prior treatment (chemotherapy, radiation, stem cell transplantation)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Hematopoietic Cell Transplantation (HCT) Refined Disease Risk Index (DRI)",
+        "Cytogenics for patients with AML/MDS",
+        "ALL Cytogenics",
+        "Cytomegalovirus Serostatus"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "performance status",
+        "organ function (renal, hepatic, cardiac, pulmonary)",
+        "laboratory values (complete blood count, liver function tests, renal function tests)"
+      ]
+    }
+  }
+}

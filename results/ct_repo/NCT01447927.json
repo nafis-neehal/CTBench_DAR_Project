@@ -1,0 +1,221 @@
+{
+  "trial_id": "NCT01447927",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, body mass index (BMI), smoking status, alcohol use, duration of Barrett esophagus, presence of low-grade dysplasia, use of proton pump inhibitors (PPIs), hemoglobin levels, leukocyte count, absolute neutrophil count, platelet count, total bilirubin levels, AST (SGOT) levels, ALT (SGPT) levels, creatinine levels, ECOG performance status, history of esophageal carcinoma, history of other cancers, history of erosive esophagitis, history of high-grade dysplasia, history of vitamin B12 deficiency, history of lactic acidosis, history of weight loss diseases, history of allergic reactions to metformin, HIV status, cirrhosis status, NASH status, hepatitis status, metabolic acidosis status, presence of uncontrolled intercurrent illness, family history of hereditary gastrointestinal polyp disorder, chronic alcohol use, kidney disease status, use of weight loss medications, use of medications that may increase metformin levels, use of other oral hypoglycemic agents, use of metformin or contraindicated drugs, receipt of other investigational agents, history of ablation or local therapies, anticipation of elective surgery, planning for elective radiologic studies with iodinated contrast materials.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Performance Score",
+          "ECOG performance status"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Length of Barrett's segment",
+          "duration of Barrett esophagus"
+        ],
+        [
+          "Non-steroidal anti-inflammatory drug (NSAID) use",
+          "use of proton pump inhibitors (PPIs)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "smoking status",
+        "alcohol use",
+        "presence of low-grade dysplasia",
+        "hemoglobin levels",
+        "leukocyte count",
+        "absolute neutrophil count",
+        "platelet count",
+        "total bilirubin levels",
+        "AST (SGOT) levels",
+        "ALT (SGPT) levels",
+        "creatinine levels",
+        "history of esophageal carcinoma",
+        "history of other cancers",
+        "history of erosive esophagitis",
+        "history of high-grade dysplasia",
+        "history of vitamin B12 deficiency",
+        "history of lactic acidosis",
+        "history of weight loss diseases",
+        "history of allergic reactions to metformin",
+        "HIV status",
+        "cirrhosis status",
+        "NASH status",
+        "hepatitis status",
+        "metabolic acidosis status",
+        "presence of uncontrolled intercurrent illness",
+        "family history of hereditary gastrointestinal polyp disorder",
+        "chronic alcohol use",
+        "kidney disease status",
+        "use of weight loss medications",
+        "use of medications that may increase metformin levels",
+        "use of other oral hypoglycemic agents",
+        "use of metformin or contraindicated drugs",
+        "receipt of other investigational agents",
+        "history of ablation or local therapies",
+        "anticipation of elective surgery",
+        "planning for elective radiologic studies with iodinated contrast materials"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Barrett Esophagus Length, Histological Grade of Barrett Esophagus, Hemoglobin, Leukocytes, Absolute Neutrophil Count, Platelets, Total Bilirubin, AST (SGOT), ALT (SGPT), Creatinine, ECOG Performance Status, Proton Pump Inhibitor Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Performance Score",
+          "ECOG Performance Status"
+        ],
+        [
+          "Length of Barrett's segment",
+          "Barrett Esophagus Length"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Mass Index",
+        "Non-steroidal anti-inflammatory drug (NSAID) use"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Histological Grade of Barrett Esophagus",
+        "Hemoglobin",
+        "Leukocytes",
+        "Absolute Neutrophil Count",
+        "Platelets",
+        "Total Bilirubin",
+        "AST (SGOT)",
+        "ALT (SGPT)",
+        "Creatinine",
+        "Proton Pump Inhibitor Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hemoglobin, Leukocytes, Absolute Neutrophil Count, Platelets, Total Bilirubin, AST, ALT, Creatinine, ECOG Performance Status, History of High-Grade Dysplasia or Cancer, History of Esophageal Carcinoma, History of Other Cancer(s), History of Ulcerative Esophagitis, History of Erosive Esophagitis, History of Diabetes Mellitus, History of Vitamin B12 Deficiency or Megaloblastic Anemia, History of Lactic Acidosis, History of Allergic Reactions Attributed to Compounds of Similar Chemical or Biologic Composition to Metformin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Performance Score",
+          "ECOG Performance Status"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Length of Barrett's segment",
+        "Non-steroidal anti-inflammatory drug (NSAID) use"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Hemoglobin",
+        "Leukocytes",
+        "Absolute Neutrophil Count",
+        "Platelets",
+        "Total Bilirubin",
+        "AST",
+        "ALT",
+        "Creatinine",
+        "History of High-Grade Dysplasia or Cancer",
+        "History of Esophageal Carcinoma",
+        "History of Other Cancer(s)",
+        "History of Ulcerative Esophagitis",
+        "History of Erosive Esophagitis",
+        "History of Diabetes Mellitus",
+        "History of Vitamin B12 Deficiency or Megaloblastic Anemia",
+        "History of Lactic Acidosis",
+        "History of Allergic Reactions Attributed to Compounds of Similar Chemical or Biologic Composition to Metformin."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, history of gastroesophageal reflux disease (GERD), duration of Barrett esophagus, length of Barrett esophagus segment, presence of intestinal metaplasia, ECOG performance status, hemoglobin, leukocyte count, absolute neutrophil count, platelet count, total bilirubin, AST (SGOT), ALT (SGPT), creatinine.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Performance Score",
+          "ECOG performance status"
+        ],
+        [
+          "Body Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Length of Barrett's segment",
+          "length of Barrett esophagus segment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Non-steroidal anti-inflammatory drug (NSAID) use"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "smoking status",
+        "history of gastroesophageal reflux disease (GERD)",
+        "duration of Barrett esophagus",
+        "presence of intestinal metaplasia",
+        "hemoglobin",
+        "leukocyte count",
+        "absolute neutrophil count",
+        "platelet count",
+        "total bilirubin",
+        "AST (SGOT)",
+        "ALT (SGPT)",
+        "creatinine"
+      ]
+    }
+  }
+}

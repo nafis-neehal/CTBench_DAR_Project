@@ -1,0 +1,187 @@
+{
+  "trial_id": "NCT03950674",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, smoking status, ECOG performance status, histology type, stage of disease, prior treatments, organ function tests (e.g., liver function, renal function), presence of measurable disease, presence of CNS metastases, baseline tumor burden, comorbid conditions, prior radiation therapy, prior surgery, baseline laboratory values (e.g., hemoglobin, white blood cell count, platelet count), baseline vital signs (e.g., blood pressure, heart rate).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Platinum Chemotherapy",
+          "prior treatments"
+        ],
+        [
+          "Smoking Status",
+          "smoking status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Programmed Cell Death-Ligand 1 (PD-L1) Tumor Status"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "histology type",
+        "stage of disease",
+        "organ function tests (e.g., liver function, renal function)",
+        "presence of measurable disease",
+        "presence of CNS metastases",
+        "baseline tumor burden",
+        "comorbid conditions",
+        "prior radiation therapy",
+        "prior surgery",
+        "baseline laboratory values (e.g., hemoglobin, white blood cell count, platelet count)",
+        "baseline vital signs (e.g., blood pressure, heart rate)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Smoking History, Histology, Stage of Disease, EGFR Mutation Status, ALK Rearrangement Status, Prior Radiation Therapy, Prior Surgery, Baseline Tumor Measurements,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Platinum Chemotherapy",
+          "Prior Radiation Therapy"
+        ],
+        [
+          "Smoking Status",
+          "Smoking History"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Programmed Cell Death-Ligand 1 (PD-L1) Tumor Status"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "ECOG Performance Status",
+        "Histology",
+        "Stage of Disease",
+        "EGFR Mutation Status",
+        "ALK Rearrangement Status",
+        "Prior Surgery",
+        "Baseline Tumor Measurements"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Smoking History, Histology, Tumor Stage, Prior Systemic Therapy, Prior Radiation Therapy, Baseline Efficacy Measures (e.g. Tumor Size, Tumor Markers), Baseline Laboratory Values (e.g. Hemoglobin, Platelet Count, Creatinine Clearance),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Programmed Cell Death-Ligand 1 (PD-L1) Tumor Status",
+          "Baseline Efficacy Measures (e.g. Tumor Size, Tumor Markers)"
+        ],
+        [
+          "Platinum Chemotherapy",
+          "Prior Systemic Therapy"
+        ],
+        [
+          "Smoking Status",
+          "Smoking History"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "ECOG Performance Status",
+        "Histology",
+        "Tumor Stage",
+        "Prior Radiation Therapy",
+        "Baseline Laboratory Values (e.g. Hemoglobin, Platelet Count, Creatinine Clearance)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, smoking history, histology, tumor stage, prior therapy, EGFR or ALK mutation status, measurable disease, life expectancy, organ function.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Programmed Cell Death-Ligand 1 (PD-L1) Tumor Status",
+          "EGFR or ALK mutation status"
+        ],
+        [
+          "Platinum Chemotherapy",
+          "prior therapy"
+        ],
+        [
+          "Smoking Status",
+          "smoking history"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "histology",
+        "tumor stage",
+        "measurable disease",
+        "life expectancy",
+        "organ function"
+      ]
+    }
+  }
+}

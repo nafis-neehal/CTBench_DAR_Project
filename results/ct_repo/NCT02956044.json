@@ -1,0 +1,155 @@
+{
+  "trial_id": "NCT02956044",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, body-mass index (BMI), smoking status, history of drug or alcohol dependence, history of drug allergies, pregnancy status, use of birth control, prior use of anti-diabetic medication, prior use of investigational drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Weight",
+          "body-mass index (BMI)"
+        ],
+        [
+          "history of drug or alcohol dependence",
+          "history of drug or alcohol dependence"
+        ],
+        [
+          "history of drug allergies",
+          "history of drug allergies"
+        ],
+        [
+          "pregnancy status",
+          "pregnancy status"
+        ],
+        [
+          "use of birth control",
+          "use of birth control"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "smoking status",
+        "prior use of anti-diabetic medication",
+        "prior use of investigational drugs"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Smoking Status, History of Drug or Alcohol Dependence, History of Drug Allergy, Pregnancy Status, Use of Birth Control, Prior Use of Anti-diabetic Medication,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Smoking Status",
+        "History of Drug or Alcohol Dependence",
+        "History of Drug Allergy",
+        "Pregnancy Status",
+        "Use of Birth Control",
+        "Prior Use of Anti-diabetic Medication"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Region of Enrollment, Diabetes Diagnosis Duration, Previous anti-diabetic medication use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Region of Enrollment",
+        "Diabetes Diagnosis Duration",
+        "Previous anti-diabetic medication use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), type 2 diabetes mellitus duration, HbA1c level, fasting plasma glucose level, systolic blood pressure, diastolic blood pressure, heart rate, smoking history, medical history, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Weight",
+        "Height"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "type 2 diabetes mellitus duration",
+        "HbA1c level",
+        "fasting plasma glucose level",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "smoking history",
+        "medical history",
+        "concomitant medications."
+      ]
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "trial_id": "NCT03809182",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, Body Mass Index (BMI), American Society of Anesthesiologists (ASA) grade, Baseline glucose levels, Baseline insulin levels, Comorbidities, Medication history, Duration of surgery, Type of anesthesia used",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "ASA physical status II",
+          "American Society of Anesthesiologists (ASA) grade"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Risk score for postoperative nausea and vomiting (PONV) in adults",
+        "Baseline HbA1c"
+      ],
+      "remaining_candidate_features": [
+        "Baseline glucose levels",
+        "Baseline insulin levels",
+        "Comorbidities",
+        "Medication history",
+        "Duration of surgery",
+        "Type of anesthesia used"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Baseline glucose levels, American Society of Anesthesiologists (ASA) grade,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ],
+        [
+          "ASA physical status II",
+          "American Society of Anesthesiologists (ASA) grade"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment",
+        "Risk score for postoperative nausea and vomiting (PONV) in adults",
+        "Baseline HbA1c"
+      ],
+      "remaining_candidate_features": [
+        "Baseline glucose levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, ASA Physical Status, Glucose Intolerance Diagnosis, Sleeve Gastrectomy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "ASA physical status II",
+          "ASA Physical Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Region of Enrollment",
+        "Risk score for postoperative nausea and vomiting (PONV) in adults",
+        "Baseline HbA1c"
+      ],
+      "remaining_candidate_features": [
+        "Glucose Intolerance Diagnosis",
+        "Sleeve Gastrectomy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body mass index (BMI), American Society of Anesthesiologists (ASA) grade, diagnosis of impaired glucose tolerance, baseline glucose levels, history of corticosteroids treatment, history of oral hypoglycemic medication, history of insulin use, allergy to any drug used in the study.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "ASA physical status II",
+          "American Society of Anesthesiologists (ASA) grade"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Risk score for postoperative nausea and vomiting (PONV) in adults",
+        "Baseline HbA1c"
+      ],
+      "remaining_candidate_features": [
+        "diagnosis of impaired glucose tolerance",
+        "baseline glucose levels",
+        "history of corticosteroids treatment",
+        "history of oral hypoglycemic medication",
+        "history of insulin use",
+        "allergy to any drug used in the study."
+      ]
+    }
+  }
+}

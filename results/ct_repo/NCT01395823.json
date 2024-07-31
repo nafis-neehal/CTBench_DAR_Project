@@ -1,0 +1,191 @@
+{
+  "trial_id": "NCT01395823",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, duration of hemodialysis treatment, baseline hemoglobin levels, baseline serum calcium levels, baseline serum phosphorus levels, baseline serum ferritin levels, baseline transferrin saturation (TSAT) levels, baseline EPO dose, baseline IV iron dose, comorbid conditions, baseline Kt/V, use of immunosuppressant medications, history of hematological malignancy, history of sickle cell disease, history of myelodysplasia, history of blood transfusions, history of vitamin D absorption disorders, use of medications affecting vitamin D absorption, allergy to ergocalciferol, previous use of ergocalciferol or cholecalciferol, number of missed dialysis treatments, life expectancy, pregnancy status, planned kidney transplantation, planned switch to peritoneal dialysis, ability to give informed consent.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "25Vit D (ng/mL)",
+          "baseline serum calcium levels"
+        ],
+        [
+          "Epogen Dose",
+          "baseline EPO dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "units/week"
+      ],
+      "remaining_candidate_features": [
+        "duration of hemodialysis treatment",
+        "baseline hemoglobin levels",
+        "baseline serum phosphorus levels",
+        "baseline serum ferritin levels",
+        "baseline transferrin saturation (TSAT) levels",
+        "baseline IV iron dose",
+        "comorbid conditions",
+        "baseline Kt/V",
+        "use of immunosuppressant medications",
+        "history of hematological malignancy",
+        "history of sickle cell disease",
+        "history of myelodysplasia",
+        "history of blood transfusions",
+        "history of vitamin D absorption disorders",
+        "use of medications affecting vitamin D absorption",
+        "allergy to ergocalciferol",
+        "previous use of ergocalciferol or cholecalciferol",
+        "number of missed dialysis treatments",
+        "life expectancy",
+        "pregnancy status",
+        "planned kidney transplantation",
+        "planned switch to peritoneal dialysis",
+        "ability to give informed consent"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline Hemoglobin, Baseline Serum Calcium, Baseline Serum Phosphorus, Baseline Ferritin, Baseline Transferrin Saturation, Baseline Kt/V,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "25Vit D (ng/mL)",
+        "Epogen Dose",
+        "units/week"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Hemodialysis",
+        "Baseline Hemoglobin",
+        "Baseline Serum Calcium",
+        "Baseline Serum Phosphorus",
+        "Baseline Ferritin",
+        "Baseline Transferrin Saturation",
+        "Baseline Kt/V"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemodialysis vintage, Erythropoietin dose, Hemoglobin level, Ferritin level, Transferrin saturation, Calcium level, Phosphorus level, Albumin level, Kt/V,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Epogen Dose",
+          "Erythropoietin dose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "25Vit D (ng/mL)",
+        "units/week"
+      ],
+      "remaining_candidate_features": [
+        "Hemodialysis vintage",
+        "Hemoglobin level",
+        "Ferritin level",
+        "Transferrin saturation",
+        "Calcium level",
+        "Phosphorus level",
+        "Albumin level",
+        "Kt/V"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, weight, height, body mass index (BMI), duration of hemodialysis, duration of EPO treatment, mode of EPO administration (IV or SC), EPO dose at baseline, hemoglobin level at baseline, serum ferritin level at baseline, transferrin saturation (TSAT) at baseline, serum calcium level at baseline, serum phosphorus level at baseline, Kt/V at baseline, comorbidities (e.g. diabetes, hypertension, cardiovascular disease).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Epogen Dose",
+          "EPO dose at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "25Vit D (ng/mL)",
+        "units/week"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "duration of hemodialysis",
+        "duration of EPO treatment",
+        "mode of EPO administration (IV or SC)",
+        "hemoglobin level at baseline",
+        "serum ferritin level at baseline",
+        "transferrin saturation (TSAT) at baseline",
+        "serum calcium level at baseline",
+        "serum phosphorus level at baseline",
+        "Kt/V at baseline",
+        "comorbidities (e.g. diabetes, hypertension, cardiovascular disease)"
+      ]
+    }
+  }
+}

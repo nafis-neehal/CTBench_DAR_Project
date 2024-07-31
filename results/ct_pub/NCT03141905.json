@@ -1,0 +1,227 @@
+{
+  "trial_id": "NCT03141905",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, baseline renal function, blood pressure, medication use (RAS blockers, diuretics, Metformin, NSAIDs), comorbid conditions (e.g., diabetes, hypertension), duration of chronic kidney disease, smoking status, body mass index (BMI), baseline laboratory values (e.g., serum creatinine, eGFR), socioeconomic status, adherence to medication.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "Black",
+          "race/ethnicity"
+        ],
+        [
+          "CKD stage",
+          "baseline renal function"
+        ],
+        [
+          "Hypertension",
+          "blood pressure"
+        ],
+        [
+          "Diabetes",
+          "comorbid conditions (e.g., diabetes, hypertension)"
+        ],
+        [
+          "Smoking ever",
+          "smoking status"
+        ],
+        [
+          "Qualifying medication",
+          "medication use (RAS blockers, diuretics, Metformin, NSAIDs)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Cancer",
+        "Education",
+        "Employment status",
+        "Internet use ever"
+      ],
+      "remaining_candidate_features": [
+        "duration of chronic kidney disease",
+        "body mass index (BMI)",
+        "baseline laboratory values (e.g., serum creatinine, eGFR)",
+        "socioeconomic status",
+        "adherence to medication"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Baseline renal function (eGFR), Blood pressure, Medication use (RAS blockers, diuretics, Metformin, NSAIDs), Comorbid conditions (e.g., diabetes, hypertension), Smoking status, BMI, Duration of CKD, History of acute kidney injury (AKI), Hospitalization history, Socioeconomic status, Education level, Employment status, Access to healthcare services.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Black",
+          "Race"
+        ],
+        [
+          "CKD stage",
+          "Baseline renal function (eGFR)"
+        ],
+        [
+          "Hypertension",
+          "Blood pressure"
+        ],
+        [
+          "Diabetes",
+          "Comorbid conditions (e.g., diabetes, hypertension)"
+        ],
+        [
+          "Smoking ever",
+          "Smoking status"
+        ],
+        [
+          "Education",
+          "Education level"
+        ],
+        [
+          "Employment status",
+          "Employment status"
+        ],
+        [
+          "Qualifying medication",
+          "Medication use (RAS blockers, diuretics, Metformin, NSAIDs)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Cancer",
+        "Internet use ever"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Duration of CKD",
+        "History of acute kidney injury (AKI)",
+        "Hospitalization history",
+        "Socioeconomic status",
+        "Access to healthcare services."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Race, Ethnicity, BMI, Diabetes, Hypertension, Chronic Kidney Disease stage, eGFR, Albuminuria, RAS blocker use, Diuretic use, Metformin use, NSAID use, History of AKI, History of cardiovascular disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Black",
+          "Race"
+        ],
+        [
+          "CKD stage",
+          "Chronic Kidney Disease stage"
+        ],
+        [
+          "Hypertension",
+          "Hypertension"
+        ],
+        [
+          "Diabetes",
+          "Diabetes"
+        ],
+        [
+          "Qualifying medication",
+          "RAS blocker use"
+        ],
+        [
+          "Qualifying medication",
+          "Diuretic use"
+        ],
+        [
+          "Qualifying medication",
+          "Metformin use"
+        ],
+        [
+          "Qualifying medication",
+          "NSAID use"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Cancer",
+        "Smoking ever",
+        "Education",
+        "Employment status",
+        "Internet use ever"
+      ],
+      "remaining_candidate_features": [
+        "Ethnicity",
+        "BMI",
+        "eGFR",
+        "Albuminuria",
+        "History of AKI",
+        "History of cardiovascular disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, estimated glomerular filtration rate (eGFR), serum creatinine, albuminuria, presence of diabetes, presence of hypertension, presence of cardiovascular disease, medication use (RAS blockers, diuretics, Metformin, NSAID), duration of CKD diagnosis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "CKD stage",
+          "duration of CKD diagnosis"
+        ],
+        [
+          "Hypertension",
+          "presence of hypertension"
+        ],
+        [
+          "Diabetes",
+          "presence of diabetes"
+        ],
+        [
+          "Qualifying medication",
+          "medication use (RAS blockers, diuretics, Metformin, NSAID)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Black",
+        "Cancer",
+        "Smoking ever",
+        "Education",
+        "Employment status",
+        "Internet use ever"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "body mass index (BMI)",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "estimated glomerular filtration rate (eGFR)",
+        "serum creatinine",
+        "albuminuria",
+        "presence of cardiovascular disease"
+      ]
+    }
+  }
+}

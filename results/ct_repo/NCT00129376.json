@@ -1,0 +1,224 @@
+{
+  "trial_id": "NCT00129376",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, performance status (Karnofsky index), hormone receptor status, tumour stage, histological diagnosis, life expectancy, electrocardiogram (EKG) results, neutrophil count, platelet count, hemoglobin level, total bilirubin level, AST (SGOT) level, ALT (SGPT) level, alkaline phosphatase level, creatinine level, creatinine clearance, pregnancy test results, contraceptive method usage, previous systemic therapy for breast cancer, previous treatments with anthracyclines or taxanes, previous radiotherapy for breast cancer, presence of bilateral invasive breast cancer, history of motor or sensorial neurotoxicity, history of serious pathologies (e.g., congestive heart failure, angina pectoris, myocardial infarction, uncontrolled hypertension, high-risk arrhythmias), history of neurological or psychiatric impairment, presence of active infection, presence of active peptic ulcer, stability of diabetes mellitus, history of previous or current malignancies other than breast cancer, chronic corticoid treatment status, use of substitutive hormonal therapy, concomitant treatment with other investigational products.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Disease stage (I, IIA, IIB y IIIA)",
+          "tumour stage"
+        ],
+        [
+          "Hormonal receptors (Estrogen Receptor [ER]+/ Progesterone Receptor [PR]+, ER+/PR-, ER-/PR+, ER-/PR-)",
+          "hormone receptor status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Menopausal status",
+        "Median Tumor size",
+        "cm"
+      ],
+      "remaining_candidate_features": [
+        "performance status (Karnofsky index)",
+        "histological diagnosis",
+        "life expectancy",
+        "electrocardiogram (EKG) results",
+        "neutrophil count",
+        "platelet count",
+        "hemoglobin level",
+        "total bilirubin level",
+        "AST (SGOT) level",
+        "ALT (SGPT) level",
+        "alkaline phosphatase level",
+        "creatinine level",
+        "creatinine clearance",
+        "pregnancy test results",
+        "contraceptive method usage",
+        "previous systemic therapy for breast cancer",
+        "previous treatments with anthracyclines or taxanes",
+        "previous radiotherapy for breast cancer",
+        "presence of bilateral invasive breast cancer",
+        "history of motor or sensorial neurotoxicity",
+        "history of serious pathologies (e.g., congestive heart failure, angina pectoris, myocardial infarction, uncontrolled hypertension, high-risk arrhythmias)",
+        "history of neurological or psychiatric impairment",
+        "presence of active infection",
+        "presence of active peptic ulcer",
+        "stability of diabetes mellitus",
+        "history of previous or current malignancies other than breast cancer",
+        "chronic corticoid treatment status",
+        "use of substitutive hormonal therapy",
+        "concomitant treatment with other investigational products"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Hormone Receptor Status, Tumor Stage, Performance Status (Karnofsky index), Left Ventricular Ejection Fraction (LVEF), Neutrophil Count, Platelet Count, Hemoglobin Level, Total Bilirubin, Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), Alkaline Phosphatase, Creatinine Level, Creatinine Clearance,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hormonal receptors (Estrogen Receptor [ER]+/ Progesterone Receptor [PR]+, ER+/PR-, ER-/PR+, ER-/PR-)",
+          "Hormone Receptor Status"
+        ],
+        [
+          "Disease stage (I, IIA, IIB y IIIA)",
+          "Tumor Stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Menopausal status",
+        "Median Tumor size",
+        "cm"
+      ],
+      "remaining_candidate_features": [
+        "Performance Status (Karnofsky index)",
+        "Left Ventricular Ejection Fraction (LVEF)",
+        "Neutrophil Count",
+        "Platelet Count",
+        "Hemoglobin Level",
+        "Total Bilirubin",
+        "Aspartate Aminotransferase (AST)",
+        "Alanine Aminotransferase (ALT)",
+        "Alkaline Phosphatase",
+        "Creatinine Level",
+        "Creatinine Clearance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Karnofsky Performance Status, Menopausal Status, Hormone Receptor Status, Tumor Stage, Tumor Size, Nodal Status, Histological Grade, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Neutrophils, Platelets, Bilirubin, AST, ALT, Alkaline Phosphatase, Creatinine, Creatinine Clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Menopausal status",
+          "Menopausal Status"
+        ],
+        [
+          "Disease stage (I, IIA, IIB y IIIA)",
+          "Tumor Stage"
+        ],
+        [
+          "Hormonal receptors (Estrogen Receptor [ER]+/ Progesterone Receptor [PR]+, ER+/PR-, ER-/PR+, ER-/PR-)",
+          "Hormone Receptor Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Median Tumor size",
+        "cm"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky Performance Status",
+        "Tumor Size",
+        "Nodal Status",
+        "Histological Grade",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Hemoglobin",
+        "Neutrophils",
+        "Platelets",
+        "Bilirubin",
+        "AST",
+        "ALT",
+        "Alkaline Phosphatase",
+        "Creatinine",
+        "Creatinine Clearance"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, Karnofsky performance status, breast cancer stage, hormone receptor status, histological diagnosis, tumor size, nodal status, menopausal status, prior breast surgery, prior breast radiation, prior chemotherapy, prior hormone therapy, comorbidities (e.g. hypertension, diabetes), electrocardiogram results, left ventricular ejection fraction, hemoglobin, neutrophil count, platelet count, bilirubin, aspartate aminotransferase, alanine aminotransferase, alkaline phosphatase, creatinine, creatinine clearance.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Menopausal status",
+          "menopausal status"
+        ],
+        [
+          "Disease stage (I, IIA, IIB y IIIA)",
+          "breast cancer stage"
+        ],
+        [
+          "Hormonal receptors (Estrogen Receptor [ER]+/ Progesterone Receptor [PR]+, ER+/PR-, ER-/PR+, ER-/PR-)",
+          "hormone receptor status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Median Tumor size",
+        "cm"
+      ],
+      "remaining_candidate_features": [
+        "Karnofsky performance status",
+        "histological diagnosis",
+        "tumor size",
+        "nodal status",
+        "prior breast surgery",
+        "prior breast radiation",
+        "prior chemotherapy",
+        "prior hormone therapy",
+        "comorbidities (e.g. hypertension, diabetes)",
+        "electrocardiogram results",
+        "left ventricular ejection fraction",
+        "hemoglobin",
+        "neutrophil count",
+        "platelet count",
+        "bilirubin",
+        "aspartate aminotransferase",
+        "alanine aminotransferase",
+        "alkaline phosphatase",
+        "creatinine",
+        "creatinine clearance"
+      ]
+    }
+  }
+}

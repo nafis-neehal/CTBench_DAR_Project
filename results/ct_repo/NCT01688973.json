@@ -1,0 +1,223 @@
+{
+  "trial_id": "NCT01688973",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Race, Performance status (Zubrod), Histology type, Prior systemic therapy, Prior radiation therapy, White blood cell count, Absolute neutrophil count, Platelet count, Serum bilirubin, Serum glutamic oxaloacetic transaminase (SGOT)/aspartate aminotransferase (AST), Serum glutamic pyruvate transaminase (SGPT)/alanine aminotransferase (ALT), Serum creatinine, Sodium, Potassium, Calcium, History of brain metastases, History of corneal diseases, HIV status, Ability to take oral medications, Pregnancy status, Contraceptive use, Prior malignancy history.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race"
+        ],
+        [
+          "Histologic Type",
+          "Histology type"
+        ],
+        [
+          "Prior Systemic Therapy",
+          "Prior systemic therapy"
+        ],
+        [
+          "Performance Status",
+          "Performance status (Zubrod)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Histologic Grade",
+        "Histologic Subset",
+        "Prior Nephrectomy"
+      ],
+      "remaining_candidate_features": [
+        "Prior radiation therapy",
+        "White blood cell count",
+        "Absolute neutrophil count",
+        "Platelet count",
+        "Serum bilirubin",
+        "Serum glutamic oxaloacetic transaminase (SGOT)/aspartate aminotransferase (AST)",
+        "Serum glutamic pyruvate transaminase (SGPT)/alanine aminotransferase (ALT)",
+        "Serum creatinine",
+        "Sodium",
+        "Potassium",
+        "Calcium",
+        "History of brain metastases",
+        "History of corneal diseases",
+        "HIV status",
+        "Ability to take oral medications",
+        "Pregnancy status",
+        "Contraceptive use",
+        "Prior malignancy history"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Histological Subtype, Measurable Disease Status, Prior Systemic Therapy, Prior Radiation Therapy, Zubrod Performance Status, White Blood Cell Count, Absolute Neutrophil Count, Platelet Count, Serum Bilirubin, Serum Glutamic Oxaloacetic Transaminase (SGOT)/Aspartate Aminotransferase (AST), Serum Glutamic Pyruvate Transaminase (SGPT)/Alanine Aminotransferase (ALT), Serum Creatinine, Sodium, Potassium, Calcium, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Histologic Type",
+          "Histological Subtype"
+        ],
+        [
+          "Prior Systemic Therapy",
+          "Prior Systemic Therapy"
+        ],
+        [
+          "Performance Status",
+          "Zubrod Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Histologic Grade",
+        "Histologic Subset",
+        "Prior Nephrectomy"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Measurable Disease Status",
+        "Prior Radiation Therapy",
+        "White Blood Cell Count",
+        "Absolute Neutrophil Count",
+        "Platelet Count",
+        "Serum Bilirubin",
+        "Serum Glutamic Oxaloacetic Transaminase (SGOT)/Aspartate Aminotransferase (AST)",
+        "Serum Glutamic Pyruvate Transaminase (SGPT)/Alanine Aminotransferase (ALT)",
+        "Serum Creatinine",
+        "Sodium",
+        "Potassium",
+        "Calcium"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Zubrod Performance Status, Prior Systemic Therapy, Prior Radiation Therapy, Prior Surgery, Histology, Metastatic Disease, Measurable Disease, Serum Bilirubin, Serum Creatinine, Sodium, Potassium, Calcium, SGOT/AST, SGPT/ALT, White Blood Cell Count, Absolute Neutrophil Count, Platelet Count.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Performance Status",
+          "Zubrod Performance Status"
+        ],
+        [
+          "Prior Systemic Therapy",
+          "Prior Systemic Therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Histologic Grade",
+        "Histologic Subset",
+        "Histologic Type",
+        "Prior Nephrectomy"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Prior Radiation Therapy",
+        "Prior Surgery",
+        "Histology",
+        "Metastatic Disease",
+        "Measurable Disease",
+        "Serum Bilirubin",
+        "Serum Creatinine",
+        "Sodium",
+        "Potassium",
+        "Calcium",
+        "SGOT/AST",
+        "SGPT/ALT",
+        "White Blood Cell Count",
+        "Absolute Neutrophil Count",
+        "Platelet Count"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, Zubrod performance status, histological subtype of papillary renal cell carcinoma, presence of metastatic disease, number and location of metastatic sites, prior systemic therapy, prior radiation therapy, WBC, ANC, platelet count, serum bilirubin, SGOT/AST, SGPT/ALT, serum creatinine, sodium, potassium, calcium.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Histologic Type",
+          "histological subtype of papillary renal cell carcinoma"
+        ],
+        [
+          "Prior Systemic Therapy",
+          "prior systemic therapy"
+        ],
+        [
+          "Performance Status",
+          "Zubrod performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Histologic Grade",
+        "Histologic Subset",
+        "Prior Nephrectomy"
+      ],
+      "remaining_candidate_features": [
+        "presence of metastatic disease",
+        "number and location of metastatic sites",
+        "prior radiation therapy",
+        "WBC",
+        "ANC",
+        "platelet count",
+        "serum bilirubin",
+        "SGOT/AST",
+        "SGPT/ALT",
+        "serum creatinine",
+        "sodium",
+        "potassium",
+        "calcium"
+      ]
+    }
+  }
+}

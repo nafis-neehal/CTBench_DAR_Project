@@ -1,0 +1,188 @@
+{
+  "trial_id": "NCT01785875",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, baseline intact parathyroid hormone (iPTH) levels, duration of chronic kidney disease (CKD), duration on hemodialysis, baseline blood pressure, baseline laboratory values (e.g., calcium, phosphorus, alkaline phosphatase), medical history, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Parathyroid Hormone (PTH) Level",
+          "baseline intact parathyroid hormone (iPTH) levels"
+        ],
+        [
+          "Phosphorus",
+          "baseline laboratory values (e.g., calcium, phosphorus, alkaline phosphatase)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity",
+        "PTH Concentration",
+        "Corrected Calcium",
+        "Corrected Calcium Phosphorus Product (cCa x P)"
+      ],
+      "remaining_candidate_features": [
+        "duration of chronic kidney disease (CKD)",
+        "duration on hemodialysis",
+        "baseline blood pressure",
+        "medical history",
+        "concomitant medications"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline intact parathyroid hormone (iPTH) levels, Serum calcium levels, Serum phosphorus levels, Blood pressure, History of cardiovascular disease, Concomitant medications,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Parathyroid Hormone (PTH) Level",
+          "Baseline intact parathyroid hormone (iPTH) levels"
+        ],
+        [
+          "Corrected Calcium",
+          "Serum calcium levels"
+        ],
+        [
+          "Phosphorus",
+          "Serum phosphorus levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "PTH Concentration",
+        "Corrected Calcium Phosphorus Product (cCa x P)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Duration of Hemodialysis",
+        "Blood pressure",
+        "History of cardiovascular disease",
+        "Concomitant medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, iPTH, Calcium, Phosphorus, Albumin, Hemoglobin, Dialysis vintage,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Parathyroid Hormone (PTH) Level",
+          "iPTH"
+        ],
+        [
+          "Phosphorus",
+          "Phosphorus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "PTH Concentration",
+        "Corrected Calcium",
+        "Corrected Calcium Phosphorus Product (cCa x P)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Calcium",
+        "Albumin",
+        "Hemoglobin",
+        "Dialysis vintage"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of hemodialysis, duration of CKD, history of parathyroidectomy, baseline iPTH level, baseline calcium level, baseline phosphorus level, baseline vitamin D level, concomitant medications, comorbidities (e.g., diabetes, hypertension, cardiovascular disease).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Parathyroid Hormone (PTH) Level",
+          "baseline iPTH level"
+        ],
+        [
+          "Corrected Calcium",
+          "baseline calcium level"
+        ],
+        [
+          "Phosphorus",
+          "baseline phosphorus level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "PTH Concentration",
+        "Corrected Calcium Phosphorus Product (cCa x P)"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of hemodialysis",
+        "duration of CKD",
+        "history of parathyroidectomy",
+        "baseline vitamin D level",
+        "concomitant medications",
+        "comorbidities (e.g., diabetes, hypertension, cardiovascular disease)"
+      ]
+    }
+  }
+}

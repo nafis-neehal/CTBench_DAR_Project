@@ -1,0 +1,155 @@
+{
+  "trial_id": "NCT00447590",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, gender, history of obesity duration, presence of obesity-related co-morbid conditions, previous weight-reduction attempts, family history of gastrointestinal anomalies, cardiopulmonary disease status, coagulopathy status, hepatic function, history of bariatric surgery, history of intestinal obstruction, history of esophageal disorders, Type I diabetes status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Excess Weight"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "history of obesity duration",
+        "presence of obesity-related co-morbid conditions",
+        "previous weight-reduction attempts",
+        "family history of gastrointestinal anomalies",
+        "cardiopulmonary disease status",
+        "coagulopathy status",
+        "hepatic function",
+        "history of bariatric surgery",
+        "history of intestinal obstruction",
+        "history of esophageal disorders",
+        "Type I diabetes status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Duration of Obesity, Presence of Obesity-related Co-morbid Conditions, Previous Weight-reduction Attempts,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Excess Weight"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Obesity",
+        "Presence of Obesity-related Co-morbid Conditions",
+        "Previous Weight-reduction Attempts"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Comorbidities, Duration of obesity, Previous weight loss attempts,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Excess Weight"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Comorbidities",
+        "Duration of obesity",
+        "Previous weight loss attempts"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, ethnicity, race, co-morbid conditions, history of obesity, previous weight loss attempts, family history of gastrointestinal tract anomalies, cardiopulmonary disease, hepatic insufficiency, cirrhosis, coagulopathy, diabetes type, history of bariatric surgery, history of intestinal obstruction, history of adhesive peritonitis, history of esophageal dysmotility disorders.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Excess Weight"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "race",
+        "co-morbid conditions",
+        "history of obesity",
+        "previous weight loss attempts",
+        "family history of gastrointestinal tract anomalies",
+        "cardiopulmonary disease",
+        "hepatic insufficiency",
+        "cirrhosis",
+        "coagulopathy",
+        "diabetes type",
+        "history of bariatric surgery",
+        "history of intestinal obstruction",
+        "history of adhesive peritonitis",
+        "history of esophageal dysmotility disorders"
+      ]
+    }
+  }
+}

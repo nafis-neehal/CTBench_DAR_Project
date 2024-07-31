@@ -1,0 +1,230 @@
+{
+  "trial_id": "NCT00791479",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race/ethnicity, body mass index (BMI), baseline HbA1c, duration of type 2 diabetes, prior diabetes treatment (diet and exercise only or metformin monotherapy), blood pressure, serum creatinine, alanine transaminase levels, amylase levels, lipase levels, history of cardiovascular events, history of pancreatitis, history of liver disease, history of hypertension, history of gastrointestinal conditions, history of CNS stimulant use, history of endocrine or autoimmune abnormalities, history of malignancy, weight stability.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race/ethnicity"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c",
+          "baseline HbA1c"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "History of metformin",
+          "prior diabetes treatment (diet and exercise only or metformin monotherapy)"
+        ],
+        [
+          "Systolic blood pressure",
+          "blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body weight"
+      ],
+      "remaining_candidate_features": [
+        "serum creatinine",
+        "alanine transaminase levels",
+        "amylase levels",
+        "lipase levels",
+        "history of cardiovascular events",
+        "history of pancreatitis",
+        "history of liver disease",
+        "history of hypertension",
+        "history of gastrointestinal conditions",
+        "history of CNS stimulant use",
+        "history of endocrine or autoimmune abnormalities",
+        "history of malignancy",
+        "weight stability"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, BMI, Duration of diabetes, HbA1c, Fasting plasma glucose, Blood pressure, Serum creatinine, Liver function tests, Amylase, Lipase, History of cardiovascular events, Medication use, Weight, Waist circumference, Smoking status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of diabetes"
+        ],
+        [
+          "Systolic blood pressure",
+          "Blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Blood pressure"
+        ],
+        [
+          "Body weight",
+          "Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "History of metformin"
+      ],
+      "remaining_candidate_features": [
+        "Fasting plasma glucose",
+        "Serum creatinine",
+        "Liver function tests",
+        "Amylase",
+        "Lipase",
+        "History of cardiovascular events",
+        "Medication use",
+        "Waist circumference",
+        "Smoking status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Ethnic Origin, Diabetes duration, BMI, HbA1c, Fasting serum glucose, Insulin regimen, Total daily insulin dose, History of cardiovascular disease, History of hypertension, History of dyslipidemia, Smoking history, Waist circumference, Systolic Blood Pressure, Diastolic blood pressure, Total cholesterol, Triglycerides, HDL cholesterol, LDL cholesterol, eGFR, Medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Ethnic Origin"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Systolic blood pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "Diastolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body weight",
+        "Duration of Diabetes",
+        "History of metformin"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes duration",
+        "Fasting serum glucose",
+        "Insulin regimen",
+        "Total daily insulin dose",
+        "History of cardiovascular disease",
+        "History of hypertension",
+        "History of dyslipidemia",
+        "Smoking history",
+        "Waist circumference",
+        "Total cholesterol",
+        "Triglycerides",
+        "HDL cholesterol",
+        "LDL cholesterol",
+        "eGFR",
+        "Medications"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), weight, height, diabetes duration, HbA1c at screening, fasting plasma glucose, systolic and diastolic blood pressure, heart rate, medical history, concomitant medications, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "HbA1c",
+          "HbA1c at screening"
+        ],
+        [
+          "Systolic blood pressure",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "Diastolic blood pressure",
+          "systolic and diastolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body weight",
+        "Duration of Diabetes",
+        "History of metformin"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "diabetes duration",
+        "fasting plasma glucose",
+        "heart rate",
+        "medical history",
+        "concomitant medications",
+        "smoking status"
+      ]
+    }
+  }
+}

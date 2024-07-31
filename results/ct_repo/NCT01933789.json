@@ -1,0 +1,288 @@
+{
+  "trial_id": "NCT01933789",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, primary diagnosis, comorbid conditions, functional status, duration of illness, number of visits with primary clinician, type of primary clinician, type of interprofessional team members involved, language proficiency, cognitive status, family member involvement in care decisions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Clinician Type",
+          "type of primary clinician"
+        ],
+        [
+          "Clinician's Specialty",
+          "type of interprofessional team members involved"
+        ],
+        [
+          "Patient Self-Assessed Health Status",
+          "functional status"
+        ],
+        [
+          "Preference Regarding Future Discussion with Clinician",
+          "family member involvement in care decisions"
+        ],
+        [
+          "Patient Health Questionnaire (PHQ-8): Eight-Item Scale",
+          "cognitive status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race/Ethnicity",
+        "Competence [Communication & End-of-Life (EOL) Care]",
+        "Patient Education Level",
+        "Patient Average Monthly Income",
+        "Quality of Communication (QOC): Four-Indicator Latent Construct",
+        "Quality of Communication (QOC): Individual QOC Items",
+        "Patient Health Questionnaire (PHQ-8): Two-Indicator Latent Construct",
+        "Generalized Anxiety Disorder (GAD-7): Two-Indicator Latent Construct",
+        "Generalized Anxiety Disorder (GAD-7): Seven-Item Scale",
+        "Choosing Care",
+        "Focus of Care",
+        "Barriers",
+        "Facilitators"
+      ],
+      "remaining_candidate_features": [
+        "primary diagnosis",
+        "comorbid conditions",
+        "duration of illness",
+        "number of visits with primary clinician",
+        "language proficiency"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Primary Diagnosis, Number of Visits with Primary Clinician, Type of Primary Clinician, Presence of Metastatic Cancer, Chronic Obstructive Pulmonary Disease (COPD) Status, Heart Failure Class, Liver Disease Status, Renal Failure Status, Cognitive Function, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Clinician's Specialty",
+          "Type of Primary Clinician"
+        ],
+        [
+          "Primary Diagnosis",
+          "Primary Diagnosis"
+        ],
+        [
+          "Number of Visits with Primary Clinician",
+          "Number of Visits with Primary Clinician"
+        ],
+        [
+          "Presence of Metastatic Cancer",
+          "Presence of Metastatic Cancer"
+        ],
+        [
+          "Chronic Obstructive Pulmonary Disease (COPD) Status",
+          "Chronic Obstructive Pulmonary Disease (COPD) Status"
+        ],
+        [
+          "Heart Failure Class",
+          "Heart Failure Class"
+        ],
+        [
+          "Liver Disease Status",
+          "Liver Disease Status"
+        ],
+        [
+          "Renal Failure Status",
+          "Renal Failure Status"
+        ],
+        [
+          "Cognitive Function",
+          "Cognitive Function"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Clinician Type",
+        "Competence [Communication & End-of-Life (EOL) Care]",
+        "Patient Self-Assessed Health Status",
+        "Patient Education Level",
+        "Patient Average Monthly Income",
+        "Preference Regarding Future Discussion with Clinician",
+        "Quality of Communication (QOC): Four-Indicator Latent Construct",
+        "Quality of Communication (QOC): Individual QOC Items",
+        "Patient Health Questionnaire (PHQ-8): Two-Indicator Latent Construct",
+        "Patient Health Questionnaire (PHQ-8): Eight-Item Scale",
+        "Generalized Anxiety Disorder (GAD-7): Two-Indicator Latent Construct",
+        "Generalized Anxiety Disorder (GAD-7): Seven-Item Scale",
+        "Choosing Care",
+        "Focus of Care",
+        "Barriers",
+        "Facilitators"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Primary Diagnosis, Comorbidities, Functional Status, Quality of Life, Patient-Reported Symptom Burden, Caregiver Burden, Patient-Reported Experience of Care.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Clinician Type",
+        "Clinician's Specialty",
+        "Competence [Communication & End-of-Life (EOL) Care]",
+        "Patient Self-Assessed Health Status",
+        "Patient Education Level",
+        "Patient Average Monthly Income",
+        "Preference Regarding Future Discussion with Clinician",
+        "Quality of Communication (QOC): Four-Indicator Latent Construct",
+        "Quality of Communication (QOC): Individual QOC Items",
+        "Patient Health Questionnaire (PHQ-8): Two-Indicator Latent Construct",
+        "Patient Health Questionnaire (PHQ-8): Eight-Item Scale",
+        "Generalized Anxiety Disorder (GAD-7): Two-Indicator Latent Construct",
+        "Generalized Anxiety Disorder (GAD-7): Seven-Item Scale",
+        "Choosing Care",
+        "Focus of Care",
+        "Barriers",
+        "Facilitators"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Primary Diagnosis",
+        "Comorbidities",
+        "Functional Status",
+        "Quality of Life",
+        "Patient-Reported Symptom Burden",
+        "Caregiver Burden",
+        "Patient-Reported Experience of Care."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, primary diagnosis, comorbidities, performance status, cognitive function, education level, marital status, living situation, primary language, insurance status, Charlson Comorbidity Index, New York Heart Association Class, Child's Class, MELD score, FEV1 values, TLC values, 6MWD, serum albumin level, dialysis dependence, number of hospitalizations in the past year, number of emergency department visits in the past year.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Patient Education Level",
+          "education level"
+        ],
+        [
+          "Clinician's Specialty",
+          "primary diagnosis"
+        ],
+        [
+          "New York Heart Association Class III or IV heart failure",
+          "New York Heart Association Class"
+        ],
+        [
+          "Child's Class C cirrhosis",
+          "Child's Class"
+        ],
+        [
+          "MELD score of >17",
+          "MELD score"
+        ],
+        [
+          "FEV1 values <35% predicted",
+          "FEV1 values"
+        ],
+        [
+          "TLC < 50% predicted",
+          "TLC values"
+        ],
+        [
+          "6MWD <250m",
+          "6MWD"
+        ],
+        [
+          "serum albumin of < 2.5",
+          "serum albumin level"
+        ],
+        [
+          "dialysis-dependent renal failure",
+          "dialysis dependence"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Clinician Type",
+        "Competence [Communication & End-of-Life (EOL) Care]",
+        "Patient Self-Assessed Health Status",
+        "Patient Average Monthly Income",
+        "Preference Regarding Future Discussion with Clinician",
+        "Quality of Communication (QOC): Four-Indicator Latent Construct",
+        "Quality of Communication (QOC): Individual QOC Items",
+        "Patient Health Questionnaire (PHQ-8): Two-Indicator Latent Construct",
+        "Patient Health Questionnaire (PHQ-8): Eight-Item Scale",
+        "Generalized Anxiety Disorder (GAD-7): Two-Indicator Latent Construct",
+        "Generalized Anxiety Disorder (GAD-7): Seven-Item Scale",
+        "Choosing Care",
+        "Focus of Care",
+        "Barriers",
+        "Facilitators"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "comorbidities",
+        "performance status",
+        "cognitive function",
+        "marital status",
+        "living situation",
+        "primary language",
+        "insurance status",
+        "Charlson Comorbidity Index",
+        "number of hospitalizations in the past year",
+        "number of emergency department visits in the past year"
+      ]
+    }
+  }
+}

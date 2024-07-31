@@ -1,0 +1,166 @@
+{
+  "trial_id": "NCT00793455",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, socioeconomic status, education level, insurance status, baseline health status, previous colorectal cancer screening history, physician's specialty, time since screening order, presence of significant life stress.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Colorectal Cancer Screening history",
+          "previous colorectal cancer screening history"
+        ],
+        [
+          "Insurance status",
+          "insurance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of visits in past 2 years",
+        "Previous orders"
+      ],
+      "remaining_candidate_features": [
+        "socioeconomic status",
+        "education level",
+        "baseline health status",
+        "physician's specialty",
+        "time since screening order",
+        "presence of significant life stress"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Education, Employment status, Insurance status, Previous colorectal cancer screening history, Family history of colorectal cancer, Comorbid conditions, Smoking status, Alcohol use, BMI, Primary language, Marital status",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race"
+        ],
+        [
+          "Colorectal Cancer Screening history",
+          "Previous colorectal cancer screening history"
+        ],
+        [
+          "Insurance status",
+          "Insurance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of visits in past 2 years",
+        "Previous orders"
+      ],
+      "remaining_candidate_features": [
+        "Education",
+        "Employment status",
+        "Family history of colorectal cancer",
+        "Comorbid conditions",
+        "Smoking status",
+        "Alcohol use",
+        "BMI",
+        "Primary language",
+        "Marital status"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Race, Education, Insurance type, Primary care physician, Comorbidities, Previous screening history, Life stress.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race"
+        ],
+        [
+          "Colorectal Cancer Screening history",
+          "Previous screening history"
+        ],
+        [
+          "Insurance status",
+          "Insurance type"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of visits in past 2 years",
+        "Previous orders"
+      ],
+      "remaining_candidate_features": [
+        "Education",
+        "Primary care physician",
+        "Comorbidities",
+        "Life stress"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, education level, income, marital status, employment status, medical history (e.g., previous colon cancer, polyps, inflammatory bowel disease), family history of colon cancer, smoking status, body mass index (BMI), comorbidities (e.g., diabetes, hypertension), current medications, prior screening history, time since ordered screening test.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Colorectal Cancer Screening history",
+          "prior screening history"
+        ],
+        [
+          "Previous orders",
+          "time since ordered screening test"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of visits in past 2 years",
+        "Insurance status"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "education level",
+        "income",
+        "marital status",
+        "employment status",
+        "medical history (e.g., previous colon cancer, polyps, inflammatory bowel disease)",
+        "family history of colon cancer",
+        "smoking status",
+        "body mass index (BMI)",
+        "comorbidities (e.g., diabetes, hypertension)",
+        "current medications"
+      ]
+    }
+  }
+}

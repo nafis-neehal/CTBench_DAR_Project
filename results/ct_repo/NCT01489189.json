@@ -1,0 +1,268 @@
+{
+  "trial_id": "NCT01489189",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, type of diabetes (type 1 or type 2), baseline visual acuity, presence of macular edema, prior ocular treatments, blood pressure, glycemic control (HbA1c levels), renal function, history of cardiovascular events, use of anti-hypertensive medications, use of insulin or oral anti-hyperglycemia agents, presence of neovascularization, media clarity, pupillary dilation, cooperation for fundus photography and OCT, history of ocular surgeries, presence of cataract, history of intravitreal anti-VEGF treatment, history of corticosteroid treatment, history of YAG capsulotomy, presence of glaucoma, presence of external ocular infection.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "gender"
+        ],
+        [
+          "Diabetes Type",
+          "type of diabetes (type 1 or type 2)"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "Hemoglobin A1c",
+          "glycemic control (HbA1c levels)"
+        ],
+        [
+          "Arterial Blood Pressure",
+          "blood pressure"
+        ],
+        [
+          "Visual Acuity",
+          "baseline visual acuity"
+        ],
+        [
+          "Presence of Center-Involved Diabetic Macular Edema with Visual Acuity Impairment",
+          "presence of macular edema"
+        ],
+        [
+          "Neovascularization on Clinical Examination",
+          "presence of neovascularization"
+        ],
+        [
+          "Prior anti-VEGF treatment for DME",
+          "history of intravitreal anti-VEGF treatment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Number of study eyes",
+        "Prior Myocardial Infarction",
+        "Prior Stroke",
+        "Optical Coherence Tomography Central Subfield Thickness",
+        "Presence of Center-Involved Diabetic Macular Edema Regardless of Visual Acuity",
+        "Phakic Lens Status on Clinical Exam",
+        "Diabetic Retinopathy Severity",
+        "Prior treatment for diabetic macular edema (DME)",
+        "Prior focal/grid laser treatment for DME"
+      ],
+      "remaining_candidate_features": [
+        "renal function",
+        "history of cardiovascular events",
+        "use of anti-hypertensive medications",
+        "use of insulin or oral anti-hyperglycemia agents",
+        "media clarity",
+        "pupillary dilation",
+        "cooperation for fundus photography and OCT",
+        "history of ocular surgeries",
+        "presence of cataract",
+        "history of corticosteroid treatment",
+        "history of YAG capsulotomy",
+        "presence of glaucoma",
+        "presence of external ocular infection."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline Visual Acuity, HbA1c, Blood Pressure, Prior Panretinal Photocoagulation, Presence of Macular Edema, Renal Function,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c"
+        ],
+        [
+          "Arterial Blood Pressure",
+          "Blood Pressure"
+        ],
+        [
+          "Visual Acuity",
+          "Baseline Visual Acuity"
+        ],
+        [
+          "Presence of Center-Involved Diabetic Macular Edema with Visual Acuity Impairment",
+          "Presence of Macular Edema"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of study eyes",
+        "Diabetes Type",
+        "Prior Myocardial Infarction",
+        "Prior Stroke",
+        "Optical Coherence Tomography Central Subfield Thickness",
+        "Presence of Center-Involved Diabetic Macular Edema Regardless of Visual Acuity",
+        "Neovascularization on Clinical Examination",
+        "Phakic Lens Status on Clinical Exam",
+        "Diabetic Retinopathy Severity",
+        "Prior treatment for diabetic macular edema (DME)",
+        "Prior focal/grid laser treatment for DME",
+        "Prior anti-VEGF treatment for DME"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Region of Enrollment",
+        "Prior Panretinal Photocoagulation",
+        "Renal Function"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Blood Pressure, BMI, Retinopathy Severity, Visual Acuity, Optical Coherence Tomography (OCT) Findings.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Diabetes Type",
+          "Diabetes Diagnosis Duration"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c"
+        ],
+        [
+          "Arterial Blood Pressure",
+          "Blood Pressure"
+        ],
+        [
+          "Visual Acuity",
+          "Visual Acuity"
+        ],
+        [
+          "Optical Coherence Tomography Central Subfield Thickness",
+          "Optical Coherence Tomography (OCT) Findings"
+        ],
+        [
+          "Diabetic Retinopathy Severity",
+          "Retinopathy Severity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of study eyes",
+        "Duration of Diabetes",
+        "Prior Myocardial Infarction",
+        "Prior Stroke",
+        "Presence of Center-Involved Diabetic Macular Edema with Visual Acuity Impairment",
+        "Presence of Center-Involved Diabetic Macular Edema Regardless of Visual Acuity",
+        "Neovascularization on Clinical Examination",
+        "Phakic Lens Status on Clinical Exam",
+        "Prior treatment for diabetic macular edema (DME)",
+        "Prior focal/grid laser treatment for DME",
+        "Prior anti-VEGF treatment for DME"
+      ],
+      "remaining_candidate_features": [
+        "Male",
+        "Region of Enrollment",
+        "BMI"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, diabetes type, diabetes duration, hemoglobin A1c, systolic blood pressure, diastolic blood pressure, body mass index, smoking status, history of myocardial infarction, history of stroke, history of transient ischemic attack, history of congestive heart failure, history of renal disease, best corrected electronic-early treatment diabetic retinopathy study visual acuity letter score, presence of macular edema, presence of vitreous or preretinal hemorrhage.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex/Gender",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Diabetes Type",
+          "diabetes type"
+        ],
+        [
+          "Hemoglobin A1c",
+          "hemoglobin A1c"
+        ],
+        [
+          "Prior Myocardial Infarction",
+          "history of myocardial infarction"
+        ],
+        [
+          "Prior Stroke",
+          "history of stroke"
+        ],
+        [
+          "Arterial Blood Pressure",
+          "systolic blood pressure"
+        ],
+        [
+          "Visual Acuity",
+          "best corrected electronic-early treatment diabetic retinopathy study visual acuity letter score"
+        ],
+        [
+          "Presence of Center-Involved Diabetic Macular Edema with Visual Acuity Impairment",
+          "presence of macular edema"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Number of study eyes",
+        "Duration of Diabetes",
+        "Optical Coherence Tomography Central Subfield Thickness",
+        "Presence of Center-Involved Diabetic Macular Edema Regardless of Visual Acuity",
+        "Neovascularization on Clinical Examination",
+        "Phakic Lens Status on Clinical Exam",
+        "Diabetic Retinopathy Severity",
+        "Prior treatment for diabetic macular edema (DME)",
+        "Prior focal/grid laser treatment for DME",
+        "Prior anti-VEGF treatment for DME"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "diabetes duration",
+        "diastolic blood pressure",
+        "body mass index",
+        "smoking status",
+        "history of transient ischemic attack",
+        "history of congestive heart failure",
+        "history of renal disease",
+        "presence of vitreous or preretinal hemorrhage."
+      ]
+    }
+  }
+}

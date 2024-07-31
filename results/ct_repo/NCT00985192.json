@@ -1,0 +1,184 @@
+{
+  "trial_id": "NCT00985192",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, prior chemotherapy regimens, metastatic sites, hemoglobin level, platelet count, ANC, total bilirubin, AST level, ALT level, creatinine clearance, fasting serum cholesterol, fasting triglycerides, INR, life expectancy, measurable disease status, fasting serum glucose.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) score",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Disease Site"
+      ],
+      "remaining_candidate_features": [
+        "prior chemotherapy regimens",
+        "metastatic sites",
+        "hemoglobin level",
+        "platelet count",
+        "ANC",
+        "total bilirubin",
+        "AST level",
+        "ALT level",
+        "creatinine clearance",
+        "fasting serum cholesterol",
+        "fasting triglycerides",
+        "INR",
+        "life expectancy",
+        "measurable disease status",
+        "fasting serum glucose"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Hemoglobin, Platelet count, Total bilirubin, AST, ALT, Creatinine clearance, Fasting serum cholesterol, Fasting triglycerides, Prior chemotherapy regimens, Metastatic sites,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) score",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Disease Site"
+      ],
+      "remaining_candidate_features": [
+        "Hemoglobin",
+        "Platelet count",
+        "Total bilirubin",
+        "AST",
+        "ALT",
+        "Creatinine clearance",
+        "Fasting serum cholesterol",
+        "Fasting triglycerides",
+        "Prior chemotherapy regimens",
+        "Metastatic sites"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior Chemotherapy or Biological Therapy Regimens, Measurable Disease, ANC, Platelet Count, Hemoglobin, Total Bilirubin, AST, ALT, Creatinine Clearance, Fasting Serum Cholesterol, Fasting Triglycerides, INR.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) score",
+          "ECOG Performance Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Disease Site"
+      ],
+      "remaining_candidate_features": [
+        "Prior Chemotherapy or Biological Therapy Regimens",
+        "Measurable Disease",
+        "ANC",
+        "Platelet Count",
+        "Hemoglobin",
+        "Total Bilirubin",
+        "AST",
+        "ALT",
+        "Creatinine Clearance",
+        "Fasting Serum Cholesterol",
+        "Fasting Triglycerides",
+        "INR"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ECOG performance status, diagnosis (esophageal cancer or stomach cancer), number of prior chemotherapy or biological therapy regimens, presence of measurable disease, presence of metastatic lymph nodes, ANC, platelet count, hemoglobin, total bilirubin, AST, ALT, creatinine clearance, fasting serum cholesterol, fasting triglycerides, INR, life expectancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Eastern Cooperative Oncology Group (ECOG) score",
+          "ECOG performance status"
+        ],
+        [
+          "Disease Site",
+          "diagnosis (esophageal cancer or stomach cancer)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "number of prior chemotherapy or biological therapy regimens",
+        "presence of measurable disease",
+        "presence of metastatic lymph nodes",
+        "ANC",
+        "platelet count",
+        "hemoglobin",
+        "total bilirubin",
+        "AST",
+        "ALT",
+        "creatinine clearance",
+        "fasting serum cholesterol",
+        "fasting triglycerides",
+        "INR",
+        "life expectancy"
+      ]
+    }
+  }
+}

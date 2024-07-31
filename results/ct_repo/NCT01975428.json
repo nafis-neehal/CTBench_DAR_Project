@@ -1,0 +1,174 @@
+{
+  "trial_id": "NCT01975428",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Diagnosis (Diabetes, Hypertension, Cardiac Arrhythmia), Internet access, Participation in Health Comp Disease Management program, English proficiency, Insurance billing history for diagnostic codes, Willingness to use wireless devices, Employment status at Scripps Health, Relationship to other study participants, Pregnancy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Categorical",
+          "Diagnosis (Diabetes, Hypertension, Cardiac Arrhythmia)"
+        ],
+        [
+          "Region of Enrollment",
+          "Employment status at Scripps Health"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Internet access",
+        "Participation in Health Comp Disease Management program",
+        "English proficiency",
+        "Insurance billing history for diagnostic codes",
+        "Willingness to use wireless devices",
+        "Relationship to other study participants",
+        "Pregnancy status."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Blood Glucose Levels, Heart Rhythm, Frequency of Doctor Visits, Health Care Utilization,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Blood Glucose Levels",
+        "Heart Rhythm",
+        "Frequency of Doctor Visits",
+        "Health Care Utilization"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Status, Hypertension Status, Cardiac Arrhythmia Status, Employment Status, Health Insurance Status, Internet Access, Email Access, English Proficiency, Disease Management Program Participation, iPhone Ownership, Wireless Device Experience.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes Status",
+        "Hypertension Status",
+        "Cardiac Arrhythmia Status",
+        "Employment Status",
+        "Health Insurance Status",
+        "Internet Access",
+        "Email Access",
+        "English Proficiency",
+        "Disease Management Program Participation",
+        "iPhone Ownership",
+        "Wireless Device Experience"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, hypertension, and cardiac arrhythmia, history of smoking, alcohol consumption, medical history (comorbidities), medication use, health insurance status, employment status, education level, income level, marital status, number of hospitalizations and emergency department visits in the past year, health-related quality of life, blood pressure, blood glucose, heart rate, and rhythm.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of diabetes",
+        "hypertension",
+        "and cardiac arrhythmia",
+        "history of smoking",
+        "alcohol consumption",
+        "medical history (comorbidities)",
+        "medication use",
+        "health insurance status",
+        "employment status",
+        "education level",
+        "income level",
+        "marital status",
+        "number of hospitalizations and emergency department visits in the past year",
+        "health-related quality of life",
+        "blood pressure",
+        "blood glucose",
+        "heart rate",
+        "and rhythm."
+      ]
+    }
+  }
+}

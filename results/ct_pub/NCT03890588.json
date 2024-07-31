@@ -1,0 +1,221 @@
+{
+  "trial_id": "NCT03890588",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Baseline eGFR, Baseline Blood Pressure, Baseline A1C, Presence of Cardiovascular Disease, 10-year ASCVD Risk, Cancer Status, Hypoglycemia Status, Cognitive Impairment Status, Number of Glycemia Medications, Use of Insulin, Use of Non-Insulin Glycemia Medications, Albumin to Creatinine Ratio (ACR), Use of NSAIDs, Nephrology Visit in Last 12 Months.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "GFR category for CKD",
+          "Baseline eGFR"
+        ],
+        [
+          "AIC",
+          "Baseline A1C"
+        ],
+        [
+          "Hypertension",
+          "Baseline Blood Pressure"
+        ],
+        [
+          "Albumin-to-Creatine Ratio (ACR) category",
+          "Albumin to Creatinine Ratio (ACR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex",
+        "Race",
+        "Ethnicity",
+        "Diabetes",
+        "Hypertension medication used"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Presence of Cardiovascular Disease",
+        "10-year ASCVD Risk",
+        "Cancer Status",
+        "Hypoglycemia Status",
+        "Cognitive Impairment Status",
+        "Number of Glycemia Medications",
+        "Use of Insulin",
+        "Use of Non-Insulin Glycemia Medications",
+        "Use of NSAIDs",
+        "Nephrology Visit in Last 12 Months."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Race, Ethnicity, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, A1C, Albumin to Creatinine Ratio (ACR), Use of ACEI or ARB, Use of NSAIDs, History of cardiovascular disease, Hypertension status, Diabetes status, Medication list, Nephrology visit history",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Ethnicity",
+          "Ethnicity"
+        ],
+        [
+          "GFR category for CKD",
+          "eGFR"
+        ],
+        [
+          "Diabetes",
+          "Diabetes status"
+        ],
+        [
+          "AIC",
+          "A1C"
+        ],
+        [
+          "Hypertension",
+          "Hypertension status"
+        ],
+        [
+          "Albumin-to-Creatine Ratio (ACR) category",
+          "Albumin to Creatinine Ratio (ACR)"
+        ],
+        [
+          "Hypertension medication used",
+          "Use of ACEI or ARB"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "BMI",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Use of NSAIDs",
+        "History of cardiovascular disease",
+        "Medication list",
+        "Nephrology visit history"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Race, Ethnicity, BMI, Diabetes duration, HbA1c, Insulin regimen, Total daily insulin dose, Blood pressure, Total cholesterol, Smoking history, eGFR, Diabetic retinopathy, Neuropathy, Antihypertensive drugs, Statin, Antiplatelet drugs.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "Race",
+          "Race"
+        ],
+        [
+          "Ethnicity",
+          "Ethnicity"
+        ],
+        [
+          "GFR category for CKD",
+          "eGFR"
+        ],
+        [
+          "Diabetes",
+          "Diabetes duration"
+        ],
+        [
+          "AIC",
+          "HbA1c"
+        ],
+        [
+          "Hypertension",
+          "Blood pressure"
+        ],
+        [
+          "Albumin-to-Creatine Ratio (ACR) category",
+          "Albumin-to-Creatine Ratio (ACR) category"
+        ],
+        [
+          "Hypertension medication used",
+          "Antihypertensive drugs"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "BMI",
+        "Insulin regimen",
+        "Total daily insulin dose",
+        "Total cholesterol",
+        "Smoking history",
+        "Diabetic retinopathy",
+        "Neuropathy",
+        "Statin",
+        "Antiplatelet drugs"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (hypertension, diabetes, cardiovascular disease, cancer), current medications, systolic and diastolic blood pressure, estimated glomerular filtration rate (eGFR), glycated hemoglobin (A1C), albumin to creatinine ratio (ACR), angiotensin-converting enzyme inhibitor (ACEI) or angiotensin II receptor blocker (ARB) use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "GFR category for CKD",
+          "estimated glomerular filtration rate (eGFR)"
+        ],
+        [
+          "Diabetes",
+          "medical history (hypertension, diabetes, cardiovascular disease, cancer)"
+        ],
+        [
+          "AIC",
+          "glycated hemoglobin (A1C)"
+        ],
+        [
+          "Hypertension",
+          "medical history (hypertension, diabetes, cardiovascular disease, cancer)"
+        ],
+        [
+          "Albumin-to-Creatine Ratio (ACR) category",
+          "albumin to creatinine ratio (ACR)"
+        ],
+        [
+          "Hypertension medication used",
+          "angiotensin-converting enzyme inhibitor (ACEI) or angiotensin II receptor blocker (ARB) use"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "smoking status",
+        "current medications",
+        "systolic and diastolic blood pressure"
+      ]
+    }
+  }
+}

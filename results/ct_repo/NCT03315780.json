@@ -1,0 +1,159 @@
+{
+  "trial_id": "NCT03315780",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, body weight, body mass index (BMI), fasting blood glucose, duration of type 2 diabetes, diet and exercise regimen, baseline glucose area under the curve (AUC), estimated glomerular filtration rate (eGFR).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "Fasting Blood Glucose",
+          "fasting blood glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Screening HbA1c"
+      ],
+      "remaining_candidate_features": [
+        "body weight",
+        "body mass index (BMI)",
+        "diet and exercise regimen",
+        "baseline glucose area under the curve (AUC)",
+        "estimated glomerular filtration rate (eGFR)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Body Weight, Fasting Blood Glucose, Duration of Diabetes,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Fasting Blood Glucose",
+          "Fasting Blood Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Screening HbA1c"
+      ],
+      "remaining_candidate_features": [
+        "Body Weight"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Fasting Blood Glucose, Duration of Diabetes, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Duration of Diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Fasting Blood Glucose",
+          "Fasting Blood Glucose"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Screening HbA1c"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "HbA1c",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Estimated Glomerular Filtration Rate (eGFR)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, body weight, body mass index (BMI), duration of type 2 diabetes, fasting blood glucose, hemoglobin A1c (HbA1c), estimated glomerular filtration rate (eGFR), medical history, concomitant medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Duration of Diabetes",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "Fasting Blood Glucose",
+          "fasting blood glucose"
+        ],
+        [
+          "Screening HbA1c",
+          "hemoglobin A1c (HbA1c)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body weight",
+        "body mass index (BMI)",
+        "estimated glomerular filtration rate (eGFR)",
+        "medical history",
+        "concomitant medications."
+      ]
+    }
+  }
+}

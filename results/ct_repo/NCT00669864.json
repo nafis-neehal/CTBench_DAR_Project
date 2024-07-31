@@ -1,0 +1,179 @@
+{
+  "trial_id": "NCT00669864",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of diabetes, baseline HbA1c, BMI (Body Mass Index), prior insulin regimen, concomitant oral anti-diabetic drugs (OADs) usage, fasting plasma glucose, postprandial glucose, blood pressure, lipid profile (total cholesterol, LDL, HDL, triglycerides), renal function (serum creatinine, eGFR), liver function tests (ALT, AST).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "BMI",
+          "BMI (Body Mass Index)"
+        ],
+        [
+          "HbA1c",
+          "baseline HbA1c"
+        ],
+        [
+          "Previous treatment",
+          "prior insulin regimen"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "concomitant oral anti-diabetic drugs (OADs) usage",
+        "fasting plasma glucose",
+        "postprandial glucose",
+        "blood pressure",
+        "lipid profile (total cholesterol, LDL, HDL, triglycerides)",
+        "renal function (serum creatinine, eGFR)",
+        "liver function tests (ALT, AST)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Previous Insulin Regimen, Concomitant Oral Anti-diabetic Drugs (OADs),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ],
+        [
+          "HbA1c",
+          "Baseline HbA1c"
+        ],
+        [
+          "Duration of diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "Previous treatment",
+          "Previous Insulin Regimen"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Concomitant Oral Anti-diabetic Drugs (OADs)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (Customized), Region of Enrollment, Diabetes duration, BMI, HbA1c, Basal insulin dose, Type of basal insulin, Use of oral anti-diabetic drugs,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Previous treatment",
+          "Use of oral anti-diabetic drugs"
+        ],
+        [
+          "Duration of diabetes",
+          "Diabetes duration"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Gender",
+        "Region of Enrollment",
+        "Basal insulin dose",
+        "Type of basal insulin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, BMI, duration of diabetes, HbA1c at screening, type and dose of basal insulin, use of oral anti-diabetic drugs, systolic blood pressure, diastolic blood pressure, total cholesterol, LDL cholesterol, HDL cholesterol, triglycerides.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "BMI",
+          "BMI"
+        ],
+        [
+          "Duration of diabetes",
+          "duration of diabetes"
+        ],
+        [
+          "HbA1c",
+          "HbA1c at screening"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Previous treatment",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "type and dose of basal insulin",
+        "use of oral anti-diabetic drugs",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "total cholesterol",
+        "LDL cholesterol",
+        "HDL cholesterol",
+        "triglycerides"
+      ]
+    }
+  }
+}

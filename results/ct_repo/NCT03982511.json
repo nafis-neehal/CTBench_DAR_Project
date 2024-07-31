@@ -1,0 +1,193 @@
+{
+  "trial_id": "NCT03982511",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age of child, gender of child, baseline BMI percentile of child, baseline BMI z-score of child, socioeconomic status of family, parental education level, parental BMI, parental age, parental gender, household income, number of siblings, baseline physical activity level of child, baseline screen time of child, baseline eating behaviors of child, parent-child relationship quality, parent behavior management skills, child self-regulation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age of child"
+        ],
+        [
+          "Sex: Female",
+          "gender of child"
+        ],
+        [
+          "Body Mass Index (BMI) z-score",
+          "baseline BMI z-score of child"
+        ],
+        [
+          "BMI percentile",
+          "baseline BMI percentile of child"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "socioeconomic status of family",
+        "parental education level",
+        "parental BMI",
+        "parental age",
+        "parental gender",
+        "household income",
+        "number of siblings",
+        "baseline physical activity level of child",
+        "baseline screen time of child",
+        "baseline eating behaviors of child",
+        "parent-child relationship quality",
+        "parent behavior management skills",
+        "child self-regulation"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Child BMI Percentile, Child BMI Z-score, Parent-Child Relationship Quality, Parent Behavior Management Skills, Child Self-Regulation, Child Eating Behaviors, Child Physical Activity, Child Screen Media Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI) z-score",
+          "Child BMI Z-score"
+        ],
+        [
+          "BMI percentile",
+          "Child BMI Percentile"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Parent-Child Relationship Quality",
+        "Parent Behavior Management Skills",
+        "Child Self-Regulation",
+        "Child Eating Behaviors",
+        "Child Physical Activity",
+        "Child Screen Media Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Parent-Child Relationship Quality, Parent Behavior Management Skills, Child Self-Regulation, Child Eating Behaviors, Child Physical Activity, Child Screen Media Use, BMI Percentile, BMI Z-score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index (BMI) z-score",
+          "BMI Z-score"
+        ],
+        [
+          "BMI percentile",
+          "BMI Percentile"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Parent-Child Relationship Quality",
+        "Parent Behavior Management Skills",
+        "Child Self-Regulation",
+        "Child Eating Behaviors",
+        "Child Physical Activity",
+        "Child Screen Media Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, socioeconomic status, education level, household income, marital status, number of children in the household, child birth weight, child gestational age, child BMI percentile at baseline, parent BMI, parent age, parent education level, parent employment status, parent stress levels, parent-child relationship quality at baseline, parent behavior management skills at baseline, child eating behaviors at baseline, child physical activity at baseline, child screen media use at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Body Mass Index (BMI) z-score",
+          "child BMI percentile at baseline"
+        ],
+        [
+          "BMI percentile",
+          "child BMI percentile at baseline"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "socioeconomic status",
+        "education level",
+        "household income",
+        "marital status",
+        "number of children in the household",
+        "child birth weight",
+        "child gestational age",
+        "parent BMI",
+        "parent age",
+        "parent education level",
+        "parent employment status",
+        "parent stress levels",
+        "parent-child relationship quality at baseline",
+        "parent behavior management skills at baseline",
+        "child eating behaviors at baseline",
+        "child physical activity at baseline",
+        "child screen media use at baseline"
+      ]
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "trial_id": "NCT01767155",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, histological confirmation of endometrial cancer, FIGO stage, disease status (advanced, recurrent, metastatic), prior chemotherapeutic regimen, ECOG performance status, hematologic function, hepatic function, renal function, cardiac function (LVEF), prior red blood cell transfusion, history of myocardial infarction, history of acute inflammatory heart disease, history of unstable angina, history of uncontrolled arrhythmia, concomitant use of prohibited therapy, prior radiotherapy, prior anthracycline-based chemotherapy, concomitant anticancer therapy, history of serious co-morbidity, presence of brain metastasis, pregnancy status, hypersensitivity to peptide drugs, number of prior cytotoxic chemotherapy regimens, prior treatment with AEZS-108, use of LHRH agonist or antagonist, history of other malignancies, ability to give informed consent, availability for study visits/procedures.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Histology",
+          "histological confirmation of endometrial cancer"
+        ],
+        [
+          "Disease stage",
+          "FIGO stage"
+        ],
+        [
+          "Prior lines of therapy",
+          "prior chemotherapeutic regimen"
+        ],
+        [
+          "ECOG PS",
+          "ECOG performance status"
+        ],
+        [
+          "Prior Radiotherapy",
+          "prior radiotherapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "BMI",
+        "Prior Chemotherapy",
+        "Prior Surgery"
+      ],
+      "remaining_candidate_features": [
+        "disease status (advanced, recurrent, metastatic)",
+        "hematologic function",
+        "hepatic function",
+        "renal function",
+        "cardiac function (LVEF)",
+        "prior red blood cell transfusion",
+        "history of myocardial infarction",
+        "history of acute inflammatory heart disease",
+        "history of unstable angina",
+        "history of uncontrolled arrhythmia",
+        "concomitant use of prohibited therapy",
+        "prior anthracycline-based chemotherapy",
+        "concomitant anticancer therapy",
+        "history of serious co-morbidity",
+        "presence of brain metastasis",
+        "pregnancy status",
+        "hypersensitivity to peptide drugs",
+        "number of prior cytotoxic chemotherapy regimens",
+        "prior treatment with AEZS-108",
+        "use of LHRH agonist or antagonist",
+        "history of other malignancies",
+        "ability to give informed consent",
+        "availability for study visits/procedures"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Race, ECOG performance status, Histological subtype, FIGO stage, Prior chemotherapy regimens, Hematologic function, Hepatic function, Renal function, Cardiac function, Presence of measurable disease, LHRH receptor expression, Concomitant medications, History of myocardial infarction, History of active infection, Brain metastasis, Pregnancy status, Contraception use, Prior use of LHRH agonist or antagonist, Prior treatment with AEZS-108, Prior malignancies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Ethnicity",
+          "Race"
+        ],
+        [
+          "Prior lines of therapy",
+          "Prior chemotherapy regimens"
+        ],
+        [
+          "Prior Chemotherapy",
+          "Prior chemotherapy regimens"
+        ],
+        [
+          "Histology",
+          "Histological subtype"
+        ],
+        [
+          "Disease stage",
+          "FIGO stage"
+        ],
+        [
+          "ECOG PS",
+          "ECOG performance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "BMI",
+        "Prior Surgery",
+        "Prior Radiotherapy"
+      ],
+      "remaining_candidate_features": [
+        "Hematologic function",
+        "Hepatic function",
+        "Renal function",
+        "Cardiac function",
+        "Presence of measurable disease",
+        "LHRH receptor expression",
+        "Concomitant medications",
+        "History of myocardial infarction",
+        "History of active infection",
+        "Brain metastasis",
+        "Pregnancy status",
+        "Contraception use",
+        "Prior use of LHRH agonist or antagonist",
+        "Prior treatment with AEZS-108",
+        "Prior malignancies"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, ECOG performance status, Histological type of endometrial cancer, FIGO stage, Prior chemotherapy regimens, Platinum and taxane therapy, LHRH receptor expression, Hemoglobin, Platelet count, White blood cell count, Creatinine, Bilirubin, AST, ALT, Albumin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "ECOG PS",
+          "ECOG performance status"
+        ],
+        [
+          "Histology",
+          "Histological type of endometrial cancer"
+        ],
+        [
+          "Disease stage",
+          "FIGO stage"
+        ],
+        [
+          "Prior lines of therapy",
+          "Prior chemotherapy regimens"
+        ],
+        [
+          "Prior Chemotherapy",
+          "Platinum and taxane therapy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "BMI",
+        "Prior Surgery",
+        "Prior Radiotherapy"
+      ],
+      "remaining_candidate_features": [
+        "Sex",
+        "LHRH receptor expression",
+        "Hemoglobin",
+        "Platelet count",
+        "White blood cell count",
+        "Creatinine",
+        "Bilirubin",
+        "AST",
+        "ALT",
+        "Albumin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, ECOG performance status, histological type of endometrial cancer, FIGO stage, prior chemotherapy regimens, time since last treatment, LHRH receptor expression, left ventricular ejection fraction (LVEF), hemoglobin, platelet count, creatinine, bilirubin, albumin, AST, ALT.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "ECOG PS",
+          "ECOG performance status"
+        ],
+        [
+          "Histology",
+          "histological type of endometrial cancer"
+        ],
+        [
+          "Disease stage",
+          "FIGO stage"
+        ],
+        [
+          "Prior Chemotherapy",
+          "prior chemotherapy regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity",
+        "BMI",
+        "Prior lines of therapy",
+        "Prior Surgery",
+        "Prior Radiotherapy"
+      ],
+      "remaining_candidate_features": [
+        "time since last treatment",
+        "LHRH receptor expression",
+        "left ventricular ejection fraction (LVEF)",
+        "hemoglobin",
+        "platelet count",
+        "creatinine",
+        "bilirubin",
+        "albumin",
+        "AST",
+        "ALT"
+      ]
+    }
+  }
+}

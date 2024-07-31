@@ -1,0 +1,188 @@
+{
+  "trial_id": "NCT00974259",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, Glasgow Coma Scale (GCS) score, CT scan results, presence of intoxication, time from injury to randomization, language spoken, platelet count, INR, pregnancy status, presence of systemic sepsis, systolic blood pressure, partial pressure of oxygen (paO2), presence of premorbid disabling conditions, prisoner status, religious beliefs regarding blood transfusion, history of previous TBI hospitalization, likelihood of follow-up availability, active drug or alcohol use, ability to give informed consent, participation in other clinical trials.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Glasgow Come Scale-Motor",
+          "Glasgow Coma Scale (GCS) score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Race/Ethnicity",
+        "Injury Type--Closed Head Injury",
+        "Craniectomy"
+      ],
+      "remaining_candidate_features": [
+        "CT scan results",
+        "presence of intoxication",
+        "time from injury to randomization",
+        "language spoken",
+        "platelet count",
+        "INR",
+        "pregnancy status",
+        "presence of systemic sepsis",
+        "systolic blood pressure",
+        "partial pressure of oxygen (paO2)",
+        "presence of premorbid disabling conditions",
+        "prisoner status",
+        "religious beliefs regarding blood transfusion",
+        "history of previous TBI hospitalization",
+        "likelihood of follow-up availability",
+        "active drug or alcohol use",
+        "ability to give informed consent",
+        "participation in other clinical trials."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Glasgow Coma Scale (GCS) score, CT scan findings, Time from injury to randomization, Intracranial pressure (ICP), Coagulopathy status, Blood pressure, Oxygen saturation, Pre-existing medical conditions,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Glasgow Come Scale-Motor",
+          "Glasgow Coma Scale (GCS) score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Injury Type--Closed Head Injury",
+        "Craniectomy"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "CT scan findings",
+        "Time from injury to randomization",
+        "Intracranial pressure (ICP)",
+        "Coagulopathy status",
+        "Blood pressure",
+        "Oxygen saturation",
+        "Pre-existing medical conditions"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Female, Race/Ethnicity, Customized, Region of Enrollment, Glasgow Coma Scale (GCS), Intracranial Pressure (ICP), Partial Pressure of Oxygen in Brain Tissue (pBrO2), Computed Tomography (CT) scan results, Coagulopathy status, Pregnancy status, History of premorbid disabling conditions, History of TBI hospitalization.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Female"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Glasgow Come Scale-Motor",
+          "Glasgow Coma Scale (GCS)"
+        ],
+        [
+          "Injury Type--Closed Head Injury",
+          "Computed Tomography (CT) scan results"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Craniectomy"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Intracranial Pressure (ICP)",
+        "Partial Pressure of Oxygen in Brain Tissue (pBrO2)",
+        "Coagulopathy status",
+        "Pregnancy status",
+        "History of premorbid disabling conditions",
+        "History of TBI hospitalization."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, Glasgow Coma Scale (GCS) score, Injury Severity Score (ISS), Abbreviated Injury Scale (AIS) score, presence of pupillary responses, CT scan findings, presence of systemic sepsis, presence of refractory hypotension, presence of refractory systemic hypoxia, presence of premorbid disabling conditions, history of TBI, history of stroke, brain tumors, chronic use of medication for disabling neurologic or psychiatric disorder, history of suicide attempt, smoking status, alcohol use, drug use.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Glasgow Come Scale-Motor",
+          "Glasgow Coma Scale (GCS) score"
+        ],
+        [
+          "Injury Type--Closed Head Injury",
+          "CT scan findings"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Craniectomy"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "weight",
+        "height",
+        "Injury Severity Score (ISS)",
+        "Abbreviated Injury Scale (AIS) score",
+        "presence of pupillary responses",
+        "presence of systemic sepsis",
+        "presence of refractory hypotension",
+        "presence of refractory systemic hypoxia",
+        "presence of premorbid disabling conditions",
+        "history of TBI",
+        "history of stroke",
+        "brain tumors",
+        "chronic use of medication for disabling neurologic or psychiatric disorder",
+        "history of suicide attempt",
+        "smoking status",
+        "alcohol use",
+        "drug use"
+      ]
+    }
+  }
+}

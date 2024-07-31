@@ -1,0 +1,198 @@
+{
+  "trial_id": "NCT04405245",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Race, Baseline Intraocular Pressure (IOP), Duration of Ocular Hypertension or Open Angle Glaucoma, Baseline Visual Acuity, Cup/Disc Ratio, Use of Prostaglandin Eyedrop, Additional IOP Lowering Eyedrop Usage, Medical History, Concomitant Medications",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race"
+        ],
+        [
+          "Diagnosis",
+          "Duration of Ocular Hypertension or Open Angle Glaucoma"
+        ],
+        [
+          "Study Eye Screening Intraocular Pressure (mmHg)",
+          "Baseline Intraocular Pressure (IOP)"
+        ],
+        [
+          "Cup/disc ratio",
+          "Cup/Disc Ratio"
+        ],
+        [
+          "Randomization Intraocular Pressure (Study Eye)",
+          "Baseline Intraocular Pressure (IOP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Study Eye Screening Corneal Thickness (micrometers)",
+        "Study Eye Baseline Diurnal Mean Intraocular Pressure (mmHg)"
+      ],
+      "remaining_candidate_features": [
+        "Baseline Visual Acuity",
+        "Use of Prostaglandin Eyedrop",
+        "Additional IOP Lowering Eyedrop Usage",
+        "Medical History",
+        "Concomitant Medications"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure (IOP), Cup/Disc Ratio, Visual Field Defect, Duration of Ocular Hypertension or Open Angle Glaucoma, Use of Additional IOP Lowering Eyedrop,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Diagnosis",
+          "Duration of Ocular Hypertension or Open Angle Glaucoma"
+        ],
+        [
+          "Study Eye Screening Intraocular Pressure (mmHg)",
+          "Baseline Intraocular Pressure (IOP)"
+        ],
+        [
+          "Cup/disc ratio of > 0.8 in either eye",
+          "Cup/Disc Ratio"
+        ],
+        [
+          "Severe visual field defect or significant defect (sensitivity of \u2264 10dB) within 10 degrees of fixation in either eye",
+          "Visual Field Defect"
+        ],
+        [
+          "Must be receiving treatment with a stable regimen of topical prostaglandin eyedrop for a minimum of 2 weeks prior to the Screening Visit; may be taking one additional IOP lowering eyedrop",
+          "Use of Additional IOP Lowering Eyedrop"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Randomization Intraocular Pressure (Study Eye)",
+        "Study Eye Screening Corneal Thickness (micrometers)",
+        "Study Eye Baseline Diurnal Mean Intraocular Pressure (mmHg)"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis of OAG or OHT, IOP at Screening Visit, Cup/Disc Ratio, Visual Field Defect, Duration of Glaucoma, Number of IOP Lowering Medications, Best Corrected Visual Acuity.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Diagnosis",
+          "Diagnosis of OAG or OHT"
+        ],
+        [
+          "Study Eye Screening Intraocular Pressure (mmHg)",
+          "IOP at Screening Visit"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Randomization Intraocular Pressure (Study Eye)",
+        "Study Eye Screening Corneal Thickness (micrometers)",
+        "Study Eye Baseline Diurnal Mean Intraocular Pressure (mmHg)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Cup/Disc Ratio",
+        "Visual Field Defect",
+        "Duration of Glaucoma",
+        "Number of IOP Lowering Medications",
+        "Best Corrected Visual Acuity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), diagnosis (OAG or OHT), duration of diagnosis, current IOP-lowering medications, cup/disc ratio, visual field defect, best-corrected visual acuity (BCVA), spherical equivalent refraction, presence of pseudoexfoliation or pigment dispersion component glaucoma, history of angle closure glaucoma or narrow angles, presence of peripheral anterior synechiae (PAS) \u2265 180 degrees by gonioscopy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Diagnosis",
+          "diagnosis (OAG or OHT)"
+        ],
+        [
+          "Study Eye Screening Intraocular Pressure (mmHg)",
+          "current IOP-lowering medications"
+        ],
+        [
+          "Study Eye Baseline Diurnal Mean Intraocular Pressure (mmHg)",
+          "cup/disc ratio"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Randomization Intraocular Pressure (Study Eye)",
+        "Study Eye Screening Corneal Thickness (micrometers)"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "body mass index (BMI)",
+        "duration of diagnosis",
+        "visual field defect",
+        "best-corrected visual acuity (BCVA)",
+        "spherical equivalent refraction",
+        "presence of pseudoexfoliation or pigment dispersion component glaucoma",
+        "history of angle closure glaucoma or narrow angles",
+        "presence of peripheral anterior synechiae (PAS) \u2265 180 degrees by gonioscopy."
+      ]
+    }
+  }
+}

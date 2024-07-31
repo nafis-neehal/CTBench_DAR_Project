@@ -1,0 +1,186 @@
+{
+  "trial_id": "NCT01862796",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, gender, weight, height, body fat percentage, muscle mass, eating behaviors, mood, desire to change eating patterns, medical history, physical examination results, blood test results, urine test results, smoking status, alcohol consumption, medication use, pregnancy status, lactation status, psychiatric history, weight stability.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Height",
+          "height"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "kg",
+        "cm"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "body fat percentage",
+        "muscle mass",
+        "eating behaviors",
+        "mood",
+        "desire to change eating patterns",
+        "medical history",
+        "physical examination results",
+        "blood test results",
+        "urine test results",
+        "smoking status",
+        "alcohol consumption",
+        "medication use",
+        "pregnancy status",
+        "lactation status",
+        "psychiatric history",
+        "weight stability"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Weight Stability, Baseline Adherence Score, Baseline Caloric Intake, Baseline Physical Activity Level, Mood, Eating Behaviors, Desire to Change Eating Patterns,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Weight",
+        "kg",
+        "Height",
+        "cm"
+      ],
+      "remaining_candidate_features": [
+        "Weight Stability",
+        "Baseline Adherence Score",
+        "Baseline Caloric Intake",
+        "Baseline Physical Activity Level",
+        "Mood",
+        "Eating Behaviors",
+        "Desire to Change Eating Patterns"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Weight, Height, Body Composition, Eating Behaviors, Mood, Desire to Change Eating Patterns.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "BMI"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Weight",
+          "Weight"
+        ],
+        [
+          "Height",
+          "Height"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race/Ethnicity",
+        "kg",
+        "cm"
+      ],
+      "remaining_candidate_features": [
+        "Body Composition",
+        "Eating Behaviors",
+        "Mood",
+        "Desire to Change Eating Patterns."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, body fat percentage, muscle mass, eating behaviors, mood, desire to change eating patterns, medical history, laboratory test results.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI (kg/m^2)",
+          "BMI"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Height",
+          "height"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "kg",
+        "cm"
+      ],
+      "remaining_candidate_features": [
+        "body fat percentage",
+        "muscle mass",
+        "eating behaviors",
+        "mood",
+        "desire to change eating patterns",
+        "medical history",
+        "laboratory test results."
+      ]
+    }
+  }
+}

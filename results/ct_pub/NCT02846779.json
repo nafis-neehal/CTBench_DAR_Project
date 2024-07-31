@@ -1,0 +1,233 @@
+{
+  "trial_id": "NCT02846779",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Duration of diabetes, Baseline HbA1c, Body Mass Index (BMI), Socioeconomic status, Baseline insulin regimen, Comorbidities, Medication adherence history, Health insurance status, Baseline blood pressure, Baseline cholesterol levels, Smoking status, Physical activity level, Dietary habits.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Gender"
+        ],
+        [
+          "HbA1c",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Short-or rapid-acting insulin",
+        "No. of basal insulin claims",
+        "Adjunct oral hypoglycemic",
+        "Hypoglycemia",
+        "Ketoacidosis",
+        "Retinopathy",
+        "Nephropathy",
+        "Neuropathy",
+        "Coronary artery disease",
+        "Hypertension",
+        "Hyperlipidemia",
+        "Congestive heart failure",
+        "Stroke or transient ischemic attack",
+        "Obesity",
+        "Asthma or COPD",
+        "Liver disease",
+        "Chronic kidney disease",
+        "Depression",
+        "Dementia",
+        "Acute stress",
+        "Time hospitalized",
+        "number of Hospitalizations",
+        "number of office visits"
+      ],
+      "remaining_candidate_features": [
+        "Duration of diabetes",
+        "Body Mass Index (BMI)",
+        "Socioeconomic status",
+        "Baseline insulin regimen",
+        "Comorbidities",
+        "Medication adherence history",
+        "Health insurance status",
+        "Baseline blood pressure",
+        "Baseline cholesterol levels",
+        "Smoking status",
+        "Physical activity level",
+        "Dietary habits"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Sex, Duration of diabetes, HbA1c, BMI, Insulin regimen, Total daily insulin dose, Previous insulin adherence, Comorbidities, Medication use, Health insurance status, Employment status, Education level, Smoking status, Blood pressure, Cholesterol levels, eGFR, Race/Ethnicity",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Short-or rapid-acting insulin",
+        "No. of basal insulin claims",
+        "Adjunct oral hypoglycemic",
+        "Hypoglycemia",
+        "Ketoacidosis",
+        "Retinopathy",
+        "Nephropathy",
+        "Neuropathy",
+        "Coronary artery disease",
+        "Hypertension",
+        "Hyperlipidemia",
+        "Congestive heart failure",
+        "Stroke or transient ischemic attack",
+        "Obesity",
+        "Asthma or COPD",
+        "Liver disease",
+        "Chronic kidney disease",
+        "Depression",
+        "Dementia",
+        "Acute stress",
+        "Time hospitalized",
+        "number of Hospitalizations",
+        "number of office visits"
+      ],
+      "remaining_candidate_features": [
+        "Duration of diabetes",
+        "BMI",
+        "Insulin regimen",
+        "Total daily insulin dose",
+        "Previous insulin adherence",
+        "Comorbidities",
+        "Medication use",
+        "Health insurance status",
+        "Employment status",
+        "Education level",
+        "Smoking status",
+        "Blood pressure",
+        "Cholesterol levels",
+        "eGFR",
+        "Race/Ethnicity"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Sex, Diabetes type, Insulin regimen, HbA1c, BMI, Comorbidities, Prior insulin use, Prior adherence to insulin therapy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "Sex"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Short-or rapid-acting insulin",
+        "No. of basal insulin claims",
+        "Adjunct oral hypoglycemic",
+        "Hypoglycemia",
+        "Ketoacidosis",
+        "Retinopathy",
+        "Nephropathy",
+        "Neuropathy",
+        "Coronary artery disease",
+        "Hypertension",
+        "Hyperlipidemia",
+        "Congestive heart failure",
+        "Stroke or transient ischemic attack",
+        "Obesity",
+        "Asthma or COPD",
+        "Liver disease",
+        "Chronic kidney disease",
+        "Depression",
+        "Dementia",
+        "Acute stress",
+        "Time hospitalized",
+        "number of Hospitalizations",
+        "number of office visits"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes type",
+        "Insulin regimen",
+        "BMI",
+        "Comorbidities",
+        "Prior insulin use",
+        "Prior adherence to insulin therapy."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, type of insulin, comorbidities, prior adherence to insulin, HbA1c level, blood pressure, lipid profile, smoking status, education level, income level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex",
+          "sex"
+        ],
+        [
+          "HbA1c",
+          "HbA1c level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Short-or rapid-acting insulin",
+        "No. of basal insulin claims",
+        "Adjunct oral hypoglycemic",
+        "Hypoglycemia",
+        "Ketoacidosis",
+        "Retinopathy",
+        "Nephropathy",
+        "Neuropathy",
+        "Coronary artery disease",
+        "Hypertension",
+        "Hyperlipidemia",
+        "Congestive heart failure",
+        "Stroke or transient ischemic attack",
+        "Obesity",
+        "Asthma or COPD",
+        "Liver disease",
+        "Chronic kidney disease",
+        "Depression",
+        "Dementia",
+        "Acute stress",
+        "Time hospitalized",
+        "number of Hospitalizations",
+        "number of office visits"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "body mass index (BMI)",
+        "duration of diabetes",
+        "type of insulin",
+        "comorbidities",
+        "prior adherence to insulin",
+        "blood pressure",
+        "lipid profile",
+        "smoking status",
+        "education level",
+        "income level"
+      ]
+    }
+  }
+}

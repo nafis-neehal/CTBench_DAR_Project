@@ -1,0 +1,186 @@
+{
+  "trial_id": "NCT02589977",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "age, sex, body mass index (BMI), blood pressure, heart rate, left ventricular ejection fraction (LVEF), estimated glomerular filtration rate (eGFR), history of hypertension, use of antihypertensive medications, B-type natriuretic peptide (BNP) levels, myocardial blood flow, myocardial fibrosis, myocardial energy utilization, presence of cardiovascular disease, presence of diabetes mellitus, weight, ability to lie flat for imaging, presence of anemia, contraindications to cardiac magnetic resonance imaging (CMR), contraindications to regadenoson or aminophylline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "BMI",
+          "body mass index (BMI)"
+        ],
+        [
+          "Hypertension",
+          "history of hypertension"
+        ],
+        [
+          "Diabetes",
+          "presence of diabetes mellitus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure",
+        "heart rate",
+        "left ventricular ejection fraction (LVEF)",
+        "estimated glomerular filtration rate (eGFR)",
+        "use of antihypertensive medications",
+        "B-type natriuretic peptide (BNP) levels",
+        "myocardial blood flow",
+        "myocardial fibrosis",
+        "myocardial energy utilization",
+        "presence of cardiovascular disease",
+        "weight",
+        "ability to lie flat for imaging",
+        "presence of anemia",
+        "contraindications to cardiac magnetic resonance imaging (CMR)",
+        "contraindications to regadenoson or aminophylline"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Left Ventricular Ejection Fraction, Estimated Glomerular Filtration Rate, B-type Natriuretic Peptide, Myocardial Fibrosis, Myocardial Blood Flow, Myocardial Energy Utilization,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Hypertension",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Left Ventricular Ejection Fraction",
+        "Estimated Glomerular Filtration Rate",
+        "B-type Natriuretic Peptide",
+        "Myocardial Fibrosis",
+        "Myocardial Blood Flow",
+        "Myocardial Energy Utilization"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Left Ventricular Ejection Fraction, Estimated Glomerular Filtration Rate, History of Hypertension, History of Heart Failure, Diabetes Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hypertension",
+          "History of Hypertension"
+        ],
+        [
+          "Diabetes",
+          "Diabetes Status"
+        ],
+        [
+          "BMI",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [],
+      "remaining_candidate_features": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Left Ventricular Ejection Fraction",
+        "Estimated Glomerular Filtration Rate",
+        "History of Heart Failure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, body mass index, weight, height, systolic blood pressure, diastolic blood pressure, heart rate, ejection fraction, estimated glomerular filtration rate, history of hypertension, history of cardiovascular disease, use of antihypertensive medications, use of cardiac medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Hypertension",
+          "history of hypertension"
+        ],
+        [
+          "BMI",
+          "body mass index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Diabetes"
+      ],
+      "remaining_candidate_features": [
+        "weight",
+        "height",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "ejection fraction",
+        "estimated glomerular filtration rate",
+        "history of cardiovascular disease",
+        "use of antihypertensive medications",
+        "use of cardiac medications"
+      ]
+    }
+  }
+}

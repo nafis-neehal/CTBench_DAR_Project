@@ -1,0 +1,185 @@
+{
+  "trial_id": "NCT02059135",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age, blood pressure (systolic and diastolic), proteinuria levels, platelet count, serum creatinine concentration, liver transaminase levels, presence of cerebral or visual symptoms, history of controlled hypertension, use of antihypertensive medication, presence of HELLP syndrome, urine output, presence of placental abruption, presence of pulmonary edema, fetal heart rate tracing, presence of intractable headache, presence of right upper quadrant abdominal pain or vomiting, umbilical artery Doppler results, biophysical score, presence of oligohydramnios, presence of maternal or fetal conditions precluding expectant management, presence of fetal anomalies, history of maternal alcoholism or drug dependence, diagnosis of epilepsy, use of NSAIDs, use of anticoagulants or antiplatelet agents, presence of pre-existing renal disease, presence of multi-fetal pregnancy, history of Antiphospholipid antibody syndrome, hypersensitivity to goat and goat milk proteins, participation in another interventional clinical trial.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational Age at Randomization",
+          "gestational age"
+        ],
+        [
+          "Type of Preeclampsia",
+          "history of controlled hypertension"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Parity (number of previous live births)"
+      ],
+      "remaining_candidate_features": [
+        "blood pressure (systolic and diastolic)",
+        "proteinuria levels",
+        "platelet count",
+        "serum creatinine concentration",
+        "liver transaminase levels",
+        "presence of cerebral or visual symptoms",
+        "use of antihypertensive medication",
+        "presence of HELLP syndrome",
+        "urine output",
+        "presence of placental abruption",
+        "presence of pulmonary edema",
+        "fetal heart rate tracing",
+        "presence of intractable headache",
+        "presence of right upper quadrant abdominal pain or vomiting",
+        "umbilical artery Doppler results",
+        "biophysical score",
+        "presence of oligohydramnios",
+        "presence of maternal or fetal conditions precluding expectant management",
+        "presence of fetal anomalies",
+        "history of maternal alcoholism or drug dependence",
+        "diagnosis of epilepsy",
+        "use of NSAIDs",
+        "use of anticoagulants or antiplatelet agents",
+        "presence of pre-existing renal disease",
+        "presence of multi-fetal pregnancy",
+        "history of Antiphospholipid antibody syndrome",
+        "hypersensitivity to goat and goat milk proteins",
+        "participation in another interventional clinical trial"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational Age at Enrollment, Blood Pressure, Proteinuria, Platelet Count, Serum Creatinine, Liver Transaminases, Cerebral or Visual Symptoms, History of Hypertension, History of Preeclampsia, Race/Ethnicity, Region of Enrollment,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Gestational Age at Randomization",
+          "Gestational Age at Enrollment"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Type of Preeclampsia",
+        "Parity (number of previous live births)"
+      ],
+      "remaining_candidate_features": [
+        "Blood Pressure",
+        "Proteinuria",
+        "Platelet Count",
+        "Serum Creatinine",
+        "Liver Transaminases",
+        "Cerebral or Visual Symptoms",
+        "History of Hypertension",
+        "History of Preeclampsia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Gestational Age, Maternal Age, Continuous, Maternal Age, Categorical, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Proteinuria, Platelet Count, Serum Creatinine Concentrations, Liver Transaminases, Cerebral or Visual Symptoms.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Maternal Age"
+        ],
+        [
+          "Gestational Age at Randomization",
+          "Gestational Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Type of Preeclampsia",
+        "Parity (number of previous live births)"
+      ],
+      "remaining_candidate_features": [
+        "Categorical",
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Proteinuria",
+        "Platelet Count",
+        "Serum Creatinine Concentrations",
+        "Liver Transaminases",
+        "Cerebral or Visual Symptoms."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, gestational age at randomization, body mass index (BMI), parity, history of preeclampsia, history of hypertension, proteinuria at baseline, platelet count at baseline, serum creatinine at baseline, liver transaminases at baseline, systolic and diastolic blood pressure at baseline.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Gestational Age at Randomization",
+          "gestational age at randomization"
+        ],
+        [
+          "Parity (number of previous live births)",
+          "parity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Type of Preeclampsia"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "history of preeclampsia",
+        "history of hypertension",
+        "proteinuria at baseline",
+        "platelet count at baseline",
+        "serum creatinine at baseline",
+        "liver transaminases at baseline",
+        "systolic and diastolic blood pressure at baseline"
+      ]
+    }
+  }
+}

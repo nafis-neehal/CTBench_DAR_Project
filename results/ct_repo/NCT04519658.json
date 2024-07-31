@@ -1,0 +1,181 @@
+{
+  "trial_id": "NCT04519658",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, body mass index (BMI), baseline seated systolic blood pressure (SBP), baseline seated diastolic blood pressure (DBP), number of antihypertensive agents, compliance to antihypertensive medication regimen, estimated glomerular filtration rate (eGFR), history of chronic heart failure, history of stroke or transient ischemic attack, history of acute coronary syndrome, history of major cardiac surgery, presence of chronic permanent atrial fibrillation, glycosylated hemoglobin (HbA1c) levels, serum potassium levels, HIV status, hepatitis C virus RNA status, hepatitis B surface antigen status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Seated SBP",
+          "baseline seated systolic blood pressure (SBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "baseline seated diastolic blood pressure (DBP)",
+        "number of antihypertensive agents",
+        "compliance to antihypertensive medication regimen",
+        "estimated glomerular filtration rate (eGFR)",
+        "history of chronic heart failure",
+        "history of stroke or transient ischemic attack",
+        "history of acute coronary syndrome",
+        "history of major cardiac surgery",
+        "presence of chronic permanent atrial fibrillation",
+        "glycosylated hemoglobin (HbA1c) levels",
+        "serum potassium levels",
+        "HIV status",
+        "hepatitis C virus RNA status",
+        "hepatitis B surface antigen status",
+        "alcohol consumption"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Seated Systolic Blood Pressure, Seated Diastolic Blood Pressure, Compliance to antihypertensive medication regimen, Number of antihypertensive agents, Estimated glomerular filtration rate (eGFR), Potassium levels,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Seated SBP",
+          "Seated Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Seated Diastolic Blood Pressure",
+        "Compliance to antihypertensive medication regimen",
+        "Number of antihypertensive agents",
+        "Estimated glomerular filtration rate (eGFR)",
+        "Potassium levels"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Number of Antihypertensive Medications, Duration of Hypertension, Estimated Glomerular Filtration Rate, History of Cardiovascular Disease, History of Diabetes, History of Kidney Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Seated SBP",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Diastolic Blood Pressure",
+        "Number of Antihypertensive Medications",
+        "Duration of Hypertension",
+        "Estimated Glomerular Filtration Rate",
+        "History of Cardiovascular Disease",
+        "History of Diabetes",
+        "History of Kidney Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), upper arm circumference, systolic blood pressure (SBP), diastolic blood pressure (DBP), number and type of antihypertensive agents, duration of hypertension, estimated glomerular filtration rate (eGFR), glycosylated hemoglobin, potassium levels, history of cardiovascular disease, history of heart failure, history of stroke or transient ischemic attack, history of chronic kidney disease, smoking status, alcohol consumption.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Seated SBP",
+          "systolic blood pressure (SBP)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "upper arm circumference",
+        "diastolic blood pressure (DBP)",
+        "number and type of antihypertensive agents",
+        "duration of hypertension",
+        "estimated glomerular filtration rate (eGFR)",
+        "glycosylated hemoglobin",
+        "potassium levels",
+        "history of cardiovascular disease",
+        "history of heart failure",
+        "history of stroke or transient ischemic attack",
+        "history of chronic kidney disease",
+        "smoking status",
+        "alcohol consumption"
+      ]
+    }
+  }
+}

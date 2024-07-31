@@ -1,0 +1,180 @@
+{
+  "trial_id": "NCT02540993",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, type 2 diabetes mellitus duration, baseline eGFR, albuminuria (UACR), diabetic retinopathy status, prior treatment with ACEIs or ARBs, serum potassium levels, systolic blood pressure (SBP), diastolic blood pressure (DBP), glycated hemoglobin (HbA1c), history of chronic heart failure, history of stroke or transient ischemic attack, history of acute coronary syndrome, history of hospitalization for heart failure, dialysis history, renal allograft status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Urinary albumin-to-creatinine ratio (UACR)",
+          "albuminuria (UACR)"
+        ],
+        [
+          "Estimated glomerular filtration rate (eGFR)",
+          "baseline eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "type 2 diabetes mellitus duration",
+        "diabetic retinopathy status",
+        "prior treatment with ACEIs or ARBs",
+        "serum potassium levels",
+        "systolic blood pressure (SBP)",
+        "diastolic blood pressure (DBP)",
+        "glycated hemoglobin (HbA1c)",
+        "history of chronic heart failure",
+        "history of stroke or transient ischemic attack",
+        "history of acute coronary syndrome",
+        "history of hospitalization for heart failure",
+        "dialysis history",
+        "renal allograft status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Type 2 Diabetes, Baseline eGFR, Urine Albumin-to-Creatinine Ratio (UACR), Use of ACEI or ARB, Serum Potassium, Systolic Blood Pressure, Diastolic Blood Pressure, Glycated Hemoglobin (HbA1c), ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Urinary albumin-to-creatinine ratio (UACR)",
+          "Urine Albumin-to-Creatinine Ratio (UACR)"
+        ],
+        [
+          "Estimated glomerular filtration rate (eGFR)",
+          "Baseline eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Duration of Type 2 Diabetes",
+        "Use of ACEI or ARB",
+        "Serum Potassium",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Glycated Hemoglobin (HbA1c)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Existing Cardiovascular Disease, Baseline HbA1c, eGFR, Urinary Albumin-to-Creatinine Ratio, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, History of Diabetic Retinopathy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Urinary albumin-to-creatinine ratio (UACR)",
+          "Urinary Albumin-to-Creatinine Ratio"
+        ],
+        [
+          "Estimated glomerular filtration rate (eGFR)",
+          "eGFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diabetes Diagnosis Duration",
+        "Existing Cardiovascular Disease",
+        "Baseline HbA1c",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Body Mass Index",
+        "History of Diabetic Retinopathy."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, duration of chronic kidney disease, estimated glomerular filtration rate (eGFR), urinary albumin-to-creatinine ratio (UACR), systolic blood pressure, diastolic blood pressure, glycated hemoglobin (HbA1c), serum potassium, presence of diabetic retinopathy, history of cardiovascular disease, history of heart failure, use of angiotensin-converting enzyme inhibitors (ACEIs), use of angiotensin receptor blockers (ARBs), use of other antihypertensive medications, use of antiglycemic medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Urinary albumin-to-creatinine ratio (UACR)",
+          "urinary albumin-to-creatinine ratio (UACR)"
+        ],
+        [
+          "Estimated glomerular filtration rate (eGFR)",
+          "estimated glomerular filtration rate (eGFR)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of type 2 diabetes mellitus",
+        "duration of chronic kidney disease",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "glycated hemoglobin (HbA1c)",
+        "serum potassium",
+        "presence of diabetic retinopathy",
+        "history of cardiovascular disease",
+        "history of heart failure",
+        "use of angiotensin-converting enzyme inhibitors (ACEIs)",
+        "use of angiotensin receptor blockers (ARBs)",
+        "use of other antihypertensive medications",
+        "use of antiglycemic medications"
+      ]
+    }
+  }
+}

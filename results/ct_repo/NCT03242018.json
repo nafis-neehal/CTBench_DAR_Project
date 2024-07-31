@@ -1,0 +1,183 @@
+{
+  "trial_id": "NCT03242018",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline HbA1c, estimated glomerular filtration rate (eGFR), duration of Type 2 diabetes, current antidiabetic therapy, blood pressure, body mass index (BMI), history of cardiovascular disease, presence of chronic kidney disease stage 4, baseline renal function, baseline fasting plasma glucose, baseline lipid profile, race/ethnicity, smoking status, baseline hemoglobin levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "baseline HbA1c"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race/ethnicity"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "estimated glomerular filtration rate (eGFR)",
+        "duration of Type 2 diabetes",
+        "current antidiabetic therapy",
+        "body mass index (BMI)",
+        "history of cardiovascular disease",
+        "presence of chronic kidney disease stage 4",
+        "baseline renal function",
+        "baseline fasting plasma glucose",
+        "baseline lipid profile",
+        "smoking status",
+        "baseline hemoglobin levels."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, Use of Antidiabetic Therapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "Body Mass Index",
+        "Diastolic Blood Pressure",
+        "eGFR",
+        "Use of Antidiabetic Therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, HbA1c, eGFR, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of cardiovascular disease, History of kidney disease, Antidiabetic therapy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "Systolic Blood Pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Diabetes duration",
+        "eGFR",
+        "Body Mass Index",
+        "Diastolic Blood Pressure",
+        "History of cardiovascular disease",
+        "History of kidney disease",
+        "Antidiabetic therapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, estimated glomerular filtration rate (eGFR), hemoglobin A1c (HbA1c) at baseline, systolic blood pressure, history of cardiovascular disease, history of kidney disease, current antidiabetic therapy, smoking status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Hemoglobin A1c (HbA1c)",
+          "hemoglobin A1c (HbA1c) at baseline"
+        ],
+        [
+          "Systolic Blood Pressure (SBP)",
+          "systolic blood pressure"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of type 2 diabetes",
+        "estimated glomerular filtration rate (eGFR)",
+        "history of cardiovascular disease",
+        "history of kidney disease",
+        "current antidiabetic therapy",
+        "smoking status"
+      ]
+    }
+  }
+}

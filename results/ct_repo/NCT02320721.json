@@ -1,0 +1,173 @@
+{
+  "trial_id": "NCT02320721",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline HbA1c, duration of type 2 diabetes mellitus, current antidiabetic medications, baseline fasting plasma glucose, body mass index (BMI), renal function (eGFR), cognitive function (MMSE score), history of hypoglycemia events, baseline insulin dose (for those on insulin).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Baseline Glycated Hemoglobin A1c (HbA1c)",
+          "baseline HbA1c"
+        ],
+        [
+          "Duration of Type 2 Diabetes",
+          "duration of type 2 diabetes mellitus"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Randomization strata of insulin",
+        "Age Group"
+      ],
+      "remaining_candidate_features": [
+        "current antidiabetic medications",
+        "baseline fasting plasma glucose",
+        "renal function (eGFR)",
+        "cognitive function (MMSE score)",
+        "history of hypoglycemia events",
+        "baseline insulin dose (for those on insulin)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Basal Insulin Dose, Antidiabetic Medication Use, eGFR, Mini-Mental State Examination (MMSE) Score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Baseline Glycated Hemoglobin A1c (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Duration of Type 2 Diabetes",
+          "Duration of Diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Body Mass Index (BMI)",
+        "Randomization strata of insulin",
+        "Age Group"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Basal Insulin Dose",
+        "Antidiabetic Medication Use",
+        "eGFR",
+        "Mini-Mental State Examination (MMSE) Score"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes duration, HbA1c, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Insulin dose, Antidiabetic medications, Cognitive function (MMSE score), eGFR.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "BMI"
+        ],
+        [
+          "Duration of Type 2 Diabetes",
+          "Diabetes duration"
+        ],
+        [
+          "Baseline Glycated Hemoglobin A1c (HbA1c)",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Randomization strata of insulin",
+        "Age Group"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Insulin dose",
+        "Antidiabetic medications",
+        "Cognitive function (MMSE score)",
+        "eGFR"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (including cardiovascular disease, hypertension, dyslipidemia), current antidiabetic medications, insulin dose and type (if applicable), MMSE score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body Mass Index (BMI)",
+          "body mass index (BMI)"
+        ],
+        [
+          "Duration of Type 2 Diabetes",
+          "duration of type 2 diabetes"
+        ],
+        [
+          "Baseline Glycated Hemoglobin A1c (HbA1c)",
+          "HbA1c at screening"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Randomization strata of insulin",
+        "Age Group"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "ethnicity",
+        "fasting plasma glucose",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "smoking status",
+        "medical history (including cardiovascular disease, hypertension, dyslipidemia)",
+        "current antidiabetic medications",
+        "insulin dose and type (if applicable)",
+        "MMSE score."
+      ]
+    }
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "trial_id": "NCT02841280",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race/ethnicity, baseline systolic blood pressure, baseline diastolic blood pressure, baseline glomerular filtration rate (GFR), use of antihypertensive drugs, presence of diabetes, presence of cardiovascular disease, body mass index (BMI), smoking status, duration of chronic kidney disease (CKD).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "baseline systolic blood pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "baseline diastolic blood pressure"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate",
+          "baseline glomerular filtration rate (GFR)"
+        ],
+        [
+          "Medical History of Diabetes Mellitus",
+          "presence of diabetes"
+        ],
+        [
+          "Current Smoking",
+          "smoking status"
+        ],
+        [
+          "Body-Mass Index",
+          "body mass index (BMI)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Cause of Chronic Kidney Disease",
+        "Height",
+        "Weight",
+        "Hip Circumference",
+        "Waist Circumference",
+        "Waist-to-Hip Ratio",
+        "Pulse Rate"
+      ],
+      "remaining_candidate_features": [
+        "use of antihypertensive drugs",
+        "presence of cardiovascular disease",
+        "duration of chronic kidney disease (CKD)"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Baseline GFR, Use of Antihypertensive Drugs, History of Cardiovascular Events,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Baseline Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Baseline Diastolic Blood Pressure"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate",
+          "Baseline GFR"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Medical History of Diabetes Mellitus",
+        "Cause of Chronic Kidney Disease",
+        "Current Smoking",
+        "Height",
+        "Weight",
+        "Body-Mass Index",
+        "Hip Circumference",
+        "Waist Circumference",
+        "Waist-to-Hip Ratio",
+        "Pulse Rate"
+      ],
+      "remaining_candidate_features": [
+        "Use of Antihypertensive Drugs",
+        "History of Cardiovascular Events"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Calculated glomerular filtration rate, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, Antihypertensive medication use, History of myocardial infarction, History of heart failure hospitalization, History of stroke.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate",
+          "Calculated glomerular filtration rate"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Body-Mass Index",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Medical History of Diabetes Mellitus",
+        "Cause of Chronic Kidney Disease",
+        "Current Smoking",
+        "Height",
+        "Weight",
+        "Hip Circumference",
+        "Waist Circumference",
+        "Waist-to-Hip Ratio",
+        "Pulse Rate"
+      ],
+      "remaining_candidate_features": [
+        "Antihypertensive medication use",
+        "History of myocardial infarction",
+        "History of heart failure hospitalization",
+        "History of stroke."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, weight, height, body mass index (BMI), calculated glomerular filtration rate (GFR), systolic and diastolic blood pressure, number and type of antihypertensive drugs, presence of comorbidities (e.g. diabetes, cardiovascular disease), smoking status, serum creatinine, potassium, and sodium levels.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "Body-Mass Index",
+          "body mass index (BMI)"
+        ],
+        [
+          "Systolic Blood Pressure",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "Diastolic Blood Pressure",
+          "systolic and diastolic blood pressure"
+        ],
+        [
+          "Estimated Glomerular Filtration Rate",
+          "calculated glomerular filtration rate (GFR)"
+        ],
+        [
+          "Current Smoking",
+          "smoking status"
+        ],
+        [
+          "Medical History of Diabetes Mellitus",
+          "presence of comorbidities (e.g. diabetes, cardiovascular disease)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Cause of Chronic Kidney Disease",
+        "Hip Circumference",
+        "Waist Circumference",
+        "Waist-to-Hip Ratio",
+        "Pulse Rate"
+      ],
+      "remaining_candidate_features": [
+        "number and type of antihypertensive drugs",
+        "serum creatinine",
+        "potassium",
+        "sodium levels"
+      ]
+    }
+  }
+}

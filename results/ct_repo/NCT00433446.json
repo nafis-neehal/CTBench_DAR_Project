@@ -1,0 +1,187 @@
+{
+  "trial_id": "NCT00433446",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, sex, race, Zubrod performance status, histological type of prostate cancer, metastatic sites, prior chemotherapy regimens, prior radiotherapy, prostate-specific antigen (PSA) levels, absolute granulocyte count, platelet count, hemoglobin level, creatinine clearance, bilirubin level, aspartate aminotransferase (AST) level, presence of diabetes mellitus, presence of ongoing or active infection, presence of symptomatic congestive heart failure, presence of unstable angina pectoris, presence of cardiac arrhythmia, psychiatric illness status, HIV status, prior malignancy history, time since last surgery, time since last chemotherapy, time since last flutamide or ketoconazole, time since last radiotherapy, time since last bicalutamide or nilutamide, time since last murine or chimeric proteins or human/murine monoclonal antibody, concurrent bisphosphonate therapy status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Baseline PSA (ng/dL)",
+          "prostate-specific antigen (PSA) levels"
+        ],
+        [
+          "Performance Status",
+          "Zubrod performance status"
+        ],
+        [
+          "Prior Taxane Therapy",
+          "prior chemotherapy regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Male"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "histological type of prostate cancer",
+        "metastatic sites",
+        "prior radiotherapy",
+        "absolute granulocyte count",
+        "platelet count",
+        "hemoglobin level",
+        "creatinine clearance",
+        "bilirubin level",
+        "aspartate aminotransferase (AST) level",
+        "presence of diabetes mellitus",
+        "presence of ongoing or active infection",
+        "presence of symptomatic congestive heart failure",
+        "presence of unstable angina pectoris",
+        "presence of cardiac arrhythmia",
+        "psychiatric illness status",
+        "HIV status",
+        "prior malignancy history",
+        "time since last surgery",
+        "time since last chemotherapy",
+        "time since last flutamide or ketoconazole",
+        "time since last radiotherapy",
+        "time since last bicalutamide or nilutamide",
+        "time since last murine or chimeric proteins or human/murine monoclonal antibody",
+        "concurrent bisphosphonate therapy status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Zubrod performance status, Absolute granulocyte count, Platelet count, Hemoglobin, Creatinine clearance, Bilirubin, Aspartate aminotransferase (AST), Prostate-Specific Antigen (PSA) levels, Prior chemotherapy regimen, Prior radiotherapy, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Baseline PSA (ng/dL)",
+          "Prostate-Specific Antigen (PSA) levels"
+        ],
+        [
+          "Performance Status",
+          "Zubrod performance status"
+        ],
+        [
+          "Prior Taxane Therapy",
+          "Prior chemotherapy regimen"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Region of Enrollment",
+        "Absolute granulocyte count",
+        "Platelet count",
+        "Hemoglobin",
+        "Creatinine clearance",
+        "Bilirubin",
+        "Aspartate aminotransferase (AST)",
+        "Prior radiotherapy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, ECOG Performance Status, Race/Ethnicity, Customized, Region of Enrollment, Gleason Score, PSA at Baseline, Hemoglobin at Baseline, Absolute Granulocyte Count at Baseline, Platelet Count at Baseline, Creatinine Clearance at Baseline, Bilirubin at Baseline, AST at Baseline, Prior Chemotherapy Regimens, Prior Hormone Therapy, Time Since Diagnosis, Time Since Metastasis.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Performance Status",
+          "ECOG Performance Status"
+        ],
+        [
+          "Baseline PSA (ng/dL)",
+          "PSA at Baseline"
+        ],
+        [
+          "Prior Taxane Therapy",
+          "Prior Chemotherapy Regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Gleason Score",
+        "Hemoglobin at Baseline",
+        "Absolute Granulocyte Count at Baseline",
+        "Platelet Count at Baseline",
+        "Creatinine Clearance at Baseline",
+        "Bilirubin at Baseline",
+        "AST at Baseline",
+        "Prior Hormone Therapy",
+        "Time Since Diagnosis",
+        "Time Since Metastasis"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, Zubrod performance status, histological type of prostate cancer, Gleason score, metastatic disease sites, prior chemotherapy regimens, prior hormone therapy, time since diagnosis, time since metastatic disease diagnosis, PSA at baseline, hemoglobin, absolute granulocyte count, platelet count, creatinine clearance, bilirubin, aspartate aminotransferase (AST).",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Baseline PSA (ng/dL)",
+          "PSA at baseline"
+        ],
+        [
+          "Performance Status",
+          "Zubrod performance status"
+        ],
+        [
+          "Prior Taxane Therapy",
+          "prior chemotherapy regimens"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "histological type of prostate cancer",
+        "Gleason score",
+        "metastatic disease sites",
+        "prior hormone therapy",
+        "time since diagnosis",
+        "time since metastatic disease diagnosis",
+        "hemoglobin",
+        "absolute granulocyte count",
+        "platelet count",
+        "creatinine clearance",
+        "bilirubin",
+        "aspartate aminotransferase (AST)"
+      ]
+    }
+  }
+}

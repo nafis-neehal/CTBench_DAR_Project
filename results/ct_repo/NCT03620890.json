@@ -1,0 +1,233 @@
+{
+  "trial_id": "NCT03620890",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gestational age, Hemoglobin A1c (HBA1C) level, fasting glucose level, random blood glucose level, number of singleton pregnancies, number of twin pregnancies, prior insulin use, history of major fetal anomalies, presence of diabetic nephropathy, presence of diabetic proliferative retinopathy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Number of maternal participants with HbA1c level greater than 6.5%",
+          "Hemoglobin A1c (HBA1C) level"
+        ],
+        [
+          "Number of maternal participants with diabetes mellitus diagnosed before pregnancy",
+          "fasting glucose level"
+        ],
+        [
+          "Number of maternal participants with diabetes mellitus diagnosed before pregnancy",
+          "random blood glucose level"
+        ],
+        [
+          "Number of maternal participants who used rapid- or short-acting insulin",
+          "prior insulin use"
+        ],
+        [
+          "Number of maternal participants with chronic hypertension",
+          "presence of diabetic nephropathy"
+        ],
+        [
+          "Number of maternal participants with depression or anxiety",
+          "presence of diabetic proliferative retinopathy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Number of maternal participants who had private insurance for prenatal care",
+        "Number of maternal participants who were nulliparous",
+        "Number of maternal participants with body mass index (BMI) greater than 30",
+        "Number of maternal participants with thyroid disease",
+        "Number of maternal participants who smoked during pregnancy",
+        "Number of maternal participants who used alcohol during pregnancy",
+        "Number of maternal participants who used substances during pregnancy",
+        "Number of maternal participants who used aspirin during pregnancy"
+      ],
+      "remaining_candidate_features": [
+        "gestational age",
+        "number of singleton pregnancies",
+        "number of twin pregnancies",
+        "history of major fetal anomalies"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Gestational Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Hemoglobin A1c, Fasting Blood Glucose, Number of Previous Pregnancies, Singleton or Twin Pregnancy, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Number of maternal participants with body mass index (BMI) greater than 30",
+          "Body Mass Index"
+        ],
+        [
+          "Number of maternal participants with HbA1c level greater than 6.5%",
+          "Hemoglobin A1c"
+        ],
+        [
+          "Gestational age \u226420 weeks",
+          "Gestational Age"
+        ],
+        [
+          "Singleton or twin pregnancy",
+          "Singleton or Twin Pregnancy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Number of maternal participants who had private insurance for prenatal care",
+        "Number of maternal participants who were nulliparous",
+        "Number of maternal participants with diabetes mellitus diagnosed before pregnancy",
+        "Number of maternal participants with chronic hypertension",
+        "Number of maternal participants with depression or anxiety",
+        "Number of maternal participants with thyroid disease",
+        "Number of maternal participants who smoked during pregnancy",
+        "Number of maternal participants who used alcohol during pregnancy",
+        "Number of maternal participants who used substances during pregnancy",
+        "Number of maternal participants who used rapid- or short-acting insulin",
+        "Number of maternal participants who used aspirin during pregnancy"
+      ],
+      "remaining_candidate_features": [
+        "Fasting Blood Glucose",
+        "Number of Previous Pregnancies"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Gestational Age, Weeks, Pre-pregnancy BMI, Diabetes Duration, HbA1c, Fasting Blood Glucose, Insulin Dose, Singleton or Twin Pregnancy.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Number of maternal participants with HbA1c level greater than 6.5%",
+          "HbA1c"
+        ],
+        [
+          "Number of maternal participants with diabetes mellitus diagnosed before pregnancy",
+          "Diabetes Duration"
+        ],
+        [
+          "Number of maternal participants who used rapid- or short-acting insulin",
+          "Insulin Dose"
+        ],
+        [
+          "Number of maternal participants with body mass index (BMI) greater than 30",
+          "Pre-pregnancy BMI"
+        ],
+        [
+          "Number of maternal participants who were nulliparous",
+          "Singleton or Twin Pregnancy"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Number of maternal participants who had private insurance for prenatal care",
+        "Number of maternal participants with chronic hypertension",
+        "Number of maternal participants with depression or anxiety",
+        "Number of maternal participants with thyroid disease",
+        "Number of maternal participants who smoked during pregnancy",
+        "Number of maternal participants who used alcohol during pregnancy",
+        "Number of maternal participants who used substances during pregnancy",
+        "Number of maternal participants who used aspirin during pregnancy"
+      ],
+      "remaining_candidate_features": [
+        "Gestational Age",
+        "Weeks",
+        "Fasting Blood Glucose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, body mass index (BMI), gestational age at enrollment, parity, type of diabetes, duration of diabetes, HbA1c at enrollment, fasting glucose at enrollment, random blood glucose at enrollment, insulin dose at enrollment, history of hypertension, history of preeclampsia, history of fetal anomalies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Race/Ethnicity",
+          "ethnicity"
+        ],
+        [
+          "Number of maternal participants with body mass index (BMI) greater than 30",
+          "body mass index (BMI)"
+        ],
+        [
+          "Gestational age \u226420 weeks",
+          "gestational age at enrollment"
+        ],
+        [
+          "Number of maternal participants who were nulliparous",
+          "parity"
+        ],
+        [
+          "Number of maternal participants with diabetes mellitus diagnosed before pregnancy",
+          "type of diabetes"
+        ],
+        [
+          "Number of maternal participants with HbA1c level greater than 6.5%",
+          "HbA1c at enrollment"
+        ],
+        [
+          "Number of maternal participants with chronic hypertension",
+          "history of hypertension"
+        ],
+        [
+          "Number of maternal participants with major fetal anomalies",
+          "history of fetal anomalies"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Number of maternal participants who had private insurance for prenatal care",
+        "Number of maternal participants with depression or anxiety",
+        "Number of maternal participants with thyroid disease",
+        "Number of maternal participants who smoked during pregnancy",
+        "Number of maternal participants who used alcohol during pregnancy",
+        "Number of maternal participants who used substances during pregnancy",
+        "Number of maternal participants who used rapid- or short-acting insulin",
+        "Number of maternal participants who used aspirin during pregnancy"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "fasting glucose at enrollment",
+        "random blood glucose at enrollment",
+        "insulin dose at enrollment",
+        "history of preeclampsia"
+      ]
+    }
+  }
+}

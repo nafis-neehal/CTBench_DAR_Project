@@ -1,0 +1,156 @@
+{
+  "trial_id": "NCT00697346",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, ECOG performance status, type of hematological malignancy, number of prior treatment regimens, prior autologous stem cell transplant status, disease status (relapsed or refractory), measurable disease status, venous access suitability, recovery status from prior treatments, laboratory values at screening.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Body Surface Area"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "ECOG performance status",
+        "type of hematological malignancy",
+        "number of prior treatment regimens",
+        "prior autologous stem cell transplant status",
+        "disease status (relapsed or refractory)",
+        "measurable disease status",
+        "venous access suitability",
+        "recovery status from prior treatments",
+        "laboratory values at screening."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Type of Hematological Malignancy, Prior Treatments, Disease Status (Relapsed/Refractory), Measurable Disease, Venous Access Suitability, Laboratory Values (e.g., Hemoglobin, Platelets, Neutrophils),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Height",
+        "Weight",
+        "Body Surface Area"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Type of Hematological Malignancy",
+        "Prior Treatments",
+        "Disease Status (Relapsed/Refractory)",
+        "Measurable Disease",
+        "Venous Access Suitability",
+        "Laboratory Values (e.g., Hemoglobin, Platelets, Neutrophils)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological or Cytological Confirmed Hematological Malignancy, Number of Prior Regimens, Prior Autologous Stem Cell Transplant, Presence of Radiographically or Clinically Evaluable Disease, Presence of Measurable Disease.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Height",
+        "Weight",
+        "Body Surface Area"
+      ],
+      "remaining_candidate_features": [
+        "ECOG Performance Status",
+        "Histological or Cytological Confirmed Hematological Malignancy",
+        "Number of Prior Regimens",
+        "Prior Autologous Stem Cell Transplant",
+        "Presence of Radiographically or Clinically Evaluable Disease",
+        "Presence of Measurable Disease"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, ECOG performance status, histologically or cytologically confirmed hematological malignancy type, number of prior regimens, radiographically or clinically evaluable disease status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Height",
+        "Weight",
+        "Body Surface Area"
+      ],
+      "remaining_candidate_features": [
+        "ECOG performance status",
+        "histologically or cytologically confirmed hematological malignancy type",
+        "number of prior regimens",
+        "radiographically or clinically evaluable disease status."
+      ]
+    }
+  }
+}

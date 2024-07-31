@@ -1,0 +1,175 @@
+{
+  "trial_id": "NCT05197829",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Type of Diabetes (Type 1 or Type 2), Duration of Diabetes, Baseline HbA1c, History of Hypoglycemia, History of Hyperglycemia, Previous Emergency Room Visits, Language (English or Spanish), Existing Diabetes Center Patient or New Referral, Baseline Diabetes Distress Score, Baseline Problem Areas in Diabetes Score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Type 2 Diabetes",
+          "Type of Diabetes (Type 1 or Type 2)"
+        ],
+        [
+          "Baseline A1c",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "New Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Diabetes",
+        "History of Hypoglycemia",
+        "History of Hyperglycemia",
+        "Previous Emergency Room Visits",
+        "Language (English or Spanish)",
+        "Existing Diabetes Center Patient or New Referral",
+        "Baseline Diabetes Distress Score",
+        "Baseline Problem Areas in Diabetes Score."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Type of Diabetes (Type 1 or Type 2), Reason for Emergency Department Visit (Hypoglycemia or Hyperglycemia), Prior Diabetes Management (Existing Patient or New Referral), Language Proficiency (English or Spanish),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Type 2 Diabetes",
+          "Type of Diabetes (Type 1 or Type 2)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "New Diagnosis",
+        "Baseline A1c"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Reason for Emergency Department Visit (Hypoglycemia or Hyperglycemia)",
+        "Prior Diabetes Management (Existing Patient or New Referral)",
+        "Language Proficiency (English or Spanish)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Type, Duration of Diabetes, HbA1c, Blood Pressure, BMI, History of Hypoglycemia, History of Hyperglycemia,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Type 2 Diabetes",
+          "Diabetes Type"
+        ],
+        [
+          "Baseline A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "New Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Duration of Diabetes",
+        "Blood Pressure",
+        "BMI",
+        "History of Hypoglycemia",
+        "History of Hyperglycemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, diabetes type (type 1 or type 2), duration of diabetes, HbA1c level, BMI, blood pressure, lipid profile, smoking status, comorbidities (e.g., hypertension, cardiovascular disease), medication use (e.g., insulin, oral hypoglycemics), prior diabetes education, prior CGM use, emergency department visit history, hospitalization history, diabetes distress score, problem areas in diabetes score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Type 2 Diabetes",
+          "diabetes type (type 1 or type 2)"
+        ],
+        [
+          "Baseline A1c",
+          "HbA1c level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "New Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "duration of diabetes",
+        "BMI",
+        "blood pressure",
+        "lipid profile",
+        "smoking status",
+        "comorbidities (e.g., hypertension, cardiovascular disease)",
+        "medication use (e.g., insulin, oral hypoglycemics)",
+        "prior diabetes education",
+        "prior CGM use",
+        "emergency department visit history",
+        "hospitalization history",
+        "diabetes distress score",
+        "problem areas in diabetes score"
+      ]
+    }
+  }
+}

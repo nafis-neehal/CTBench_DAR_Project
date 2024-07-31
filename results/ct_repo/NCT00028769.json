@@ -1,0 +1,160 @@
+{
+  "trial_id": "NCT00028769",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Performance status (Zubrod score), Absolute granulocyte count, Platelet count, History of transient ischemic attacks, stroke, or myocardial infarction, History of coronary artery disease, History of thrombophlebitis, History of pulmonary embolus, Prior malignancy history, Prior biologic therapy, Prior cytotoxic chemotherapy, Prior androgen-blockade therapy, Prior neoadjuvant hormonal therapy, Prior radiotherapy, Prior surgery.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Southwestern Oncology Group Performance Status",
+          "Performance status (Zubrod score)"
+        ],
+        [
+          "Previous Prostatectomy",
+          "Prior surgery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Bone Pain Grade (CTC version 2.0)",
+        "Gleason Score"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Absolute granulocyte count",
+        "Platelet count",
+        "History of transient ischemic attacks",
+        "stroke",
+        "or myocardial infarction",
+        "History of coronary artery disease",
+        "History of thrombophlebitis",
+        "History of pulmonary embolus",
+        "Prior malignancy history",
+        "Prior biologic therapy",
+        "Prior cytotoxic chemotherapy",
+        "Prior androgen-blockade therapy",
+        "Prior neoadjuvant hormonal therapy",
+        "Prior radiotherapy"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Performance Status (Zubrod), Absolute Granulocyte Count, Platelet Count, Prior Androgen-Blockade Therapy, Prior Neoadjuvant Hormonal Therapy, Sites of Metastasis (Visceral, Bone),",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Southwestern Oncology Group Performance Status",
+          "Performance Status (Zubrod)"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Bone Pain Grade (CTC version 2.0)",
+        "Previous Prostatectomy",
+        "Gleason Score"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Absolute Granulocyte Count",
+        "Platelet Count",
+        "Prior Androgen-Blockade Therapy",
+        "Prior Neoadjuvant Hormonal Therapy",
+        "Sites of Metastasis (Visceral, Bone)"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Performance Status (Zubrod), Hemoglobin, Absolute Granulocyte Count, Platelet Count, Serum Creatinine, Serum Glutamic Oxaloacetic Transaminase (SGOT), Serum Glutamic Pyruvic Transaminase (SGPT), Prostate-Specific Antigen (PSA), Gleason Score, Clinical Stage, Bone Metastases, Visceral Metastases.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Southwestern Oncology Group Performance Status",
+          "Performance Status (Zubrod)"
+        ],
+        [
+          "Gleason Score",
+          "Gleason Score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Bone Pain Grade (CTC version 2.0)",
+        "Previous Prostatectomy"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "Race/Ethnicity",
+        "Hemoglobin",
+        "Absolute Granulocyte Count",
+        "Platelet Count",
+        "Serum Creatinine",
+        "Serum Glutamic Oxaloacetic Transaminase (SGOT)",
+        "Serum Glutamic Pyruvic Transaminase (SGPT)",
+        "Prostate-Specific Antigen (PSA)",
+        "Clinical Stage",
+        "Bone Metastases",
+        "Visceral Metastases"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, performance status (Zubrod score), prostate-specific antigen (PSA) level, Gleason score, clinical stage, presence of visceral or bone metastases, prior hormone therapy, prior surgery, prior radiotherapy, absolute granulocyte count, platelet count, hemoglobin level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Southwestern Oncology Group Performance Status",
+          "performance status (Zubrod score)"
+        ],
+        [
+          "Gleason Score",
+          "Gleason score"
+        ],
+        [
+          "Previous Prostatectomy",
+          "prior surgery"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Bone Pain Grade (CTC version 2.0)"
+      ],
+      "remaining_candidate_features": [
+        "Age",
+        "prostate-specific antigen (PSA) level",
+        "clinical stage",
+        "presence of visceral or bone metastases",
+        "prior hormone therapy",
+        "prior radiotherapy",
+        "absolute granulocyte count",
+        "platelet count",
+        "hemoglobin level"
+      ]
+    }
+  }
+}

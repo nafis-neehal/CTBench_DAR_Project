@@ -1,0 +1,183 @@
+{
+  "trial_id": "NCT03730662",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, race, ethnicity, baseline HbA1c, duration of type 2 diabetes, body mass index (BMI), weight, cardiovascular risk factors, baseline use of oral antihyperglycemic drugs, history of cardiovascular events, liver function tests (ALT levels), history of pancreatitis, history of diabetic retinopathy, history of gastrointestinal disorders, family history of medullary thyroid carcinoma, history of multiple endocrine neoplasia syndrome type 2.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Hemoglobin A1c",
+          "baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "duration of type 2 diabetes",
+        "body mass index (BMI)",
+        "weight",
+        "cardiovascular risk factors",
+        "baseline use of oral antihyperglycemic drugs",
+        "history of cardiovascular events",
+        "liver function tests (ALT levels)",
+        "history of pancreatitis",
+        "history of diabetic retinopathy",
+        "history of gastrointestinal disorders",
+        "family history of medullary thyroid carcinoma",
+        "history of multiple endocrine neoplasia syndrome type 2"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Body Mass Index, Duration of Diabetes, Blood Pressure, Cholesterol, Triglycerides, Cardiovascular Disease History, Use of Antihyperglycemic Drugs,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Duration of Diabetes",
+        "Blood Pressure",
+        "Cholesterol",
+        "Triglycerides",
+        "Cardiovascular Disease History",
+        "Use of Antihyperglycemic Drugs"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes Duration, History of Cardiovascular Disease, Use of Oral Antihyperglycemic Drugs, Use of Insulin.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Ethnicity (NIH/OMB)"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Diabetes Duration",
+        "History of Cardiovascular Disease",
+        "Use of Oral Antihyperglycemic Drugs",
+        "Use of Insulin"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, heart rate, waist circumference, lipid profile, smoking status, medical history of cardiovascular disease, history of hypertension, history of dyslipidemia, use of antihypertensive medications, use of lipid-lowering medications, use of antiplatelet medications.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Hemoglobin A1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "duration of type 2 diabetes",
+        "fasting plasma glucose",
+        "systolic blood pressure",
+        "diastolic blood pressure",
+        "heart rate",
+        "waist circumference",
+        "lipid profile",
+        "smoking status",
+        "medical history of cardiovascular disease",
+        "history of hypertension",
+        "history of dyslipidemia",
+        "use of antihypertensive medications",
+        "use of lipid-lowering medications",
+        "use of antiplatelet medications"
+      ]
+    }
+  }
+}

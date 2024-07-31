@@ -1,0 +1,183 @@
+{
+  "trial_id": "NCT01365182",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Race/Ethnicity, Body Mass Index (BMI), Duration since prostate cancer treatment, Severity of urinary incontinence, Baseline quality of life, Baseline mood/depression scores, Previous treatments for urinary incontinence, Comorbid conditions, Medication use, Socioeconomic status, Marital status, Education level, Employment status, Physical activity level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "BMI",
+          "Body Mass Index (BMI)"
+        ],
+        [
+          "Marriat Status (Married)",
+          "Marital status"
+        ],
+        [
+          "Education",
+          "Education level"
+        ],
+        [
+          "Employed",
+          "Employment status"
+        ],
+        [
+          "Cancer Stage",
+          "Duration since prostate cancer treatment"
+        ],
+        [
+          "Charlson comorbidity index score",
+          "Comorbid conditions"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Received Surgery",
+        "Received Radiation",
+        "PSA"
+      ],
+      "remaining_candidate_features": [
+        "Severity of urinary incontinence",
+        "Baseline quality of life",
+        "Baseline mood/depression scores",
+        "Previous treatments for urinary incontinence",
+        "Medication use",
+        "Socioeconomic status",
+        "Physical activity level."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Stage of Prostate Cancer, Time Since Completion of Cancer Treatment, Presence of Incontinence Symptoms, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Cancer Stage",
+          "Stage of Prostate Cancer"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Marriat Status (Married)",
+        "Education",
+        "Employed",
+        "Received Surgery",
+        "Received Radiation",
+        "BMI",
+        "PSA",
+        "Charlson comorbidity index score"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Time Since Completion of Cancer Treatment",
+        "Presence of Incontinence Symptoms"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Prostate Cancer Stage, Time Since Cancer Treatment, Incontinence Severity, Quality of Life, Mood,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Male",
+          "Sex: Male"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "Race/Ethnicity"
+        ],
+        [
+          "Cancer Stage",
+          "Prostate Cancer Stage"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Marriat Status (Married)",
+        "Education",
+        "Employed",
+        "Received Surgery",
+        "Received Radiation",
+        "BMI",
+        "PSA",
+        "Charlson comorbidity index score"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Time Since Cancer Treatment",
+        "Incontinence Severity",
+        "Quality of Life",
+        "Mood"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, ethnicity, prostate cancer stage, time since cancer treatment, severity of incontinence symptoms, prior treatments for incontinence, presence of comorbidities, cognitive function, quality of life, mood, adherence to PFME.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Cancer Stage",
+          "prostate cancer stage"
+        ],
+        [
+          "Charlson comorbidity index score",
+          "presence of comorbidities"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Marriat Status (Married)",
+        "Education",
+        "Employed",
+        "Received Surgery",
+        "Received Radiation",
+        "BMI",
+        "PSA"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "time since cancer treatment",
+        "severity of incontinence symptoms",
+        "prior treatments for incontinence",
+        "cognitive function",
+        "quality of life",
+        "mood",
+        "adherence to PFME"
+      ]
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "trial_id": "NCT03689530",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Gender, Ethnicity, Socio-economic status, Baseline BMI, Baseline HbA1c, Education level, Employment status, Health insurance status, Medical history, Baseline physical activity level, Baseline dietary habits, Smoking status, Alcohol consumption, Family history of diabetes.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Gender"
+        ],
+        [
+          "Race/Ethnicity",
+          "Ethnicity"
+        ],
+        [
+          "Highest Education Level",
+          "Education level"
+        ],
+        [
+          "Annual Household Income",
+          "Socio-economic status"
+        ],
+        [
+          "Glycosylated Hemoglobin A1c (HbA1c)",
+          "Baseline HbA1c"
+        ],
+        [
+          "Body Weight",
+          "Baseline BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Self-Rated Health",
+        "Food Insecure",
+        "Low Health Literacy",
+        "Properties of Neighborhood",
+        "Major Depressive Disorder Likely"
+      ],
+      "remaining_candidate_features": [
+        "Employment status",
+        "Health insurance status",
+        "Medical history",
+        "Baseline physical activity level",
+        "Baseline dietary habits",
+        "Smoking status",
+        "Alcohol consumption",
+        "Family history of diabetes"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Socioeconomic Status, Education Level, Employment Status, Baseline Physical Activity Level,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Glycosylated Hemoglobin A1c (HbA1c)",
+          "Baseline HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Highest Education Level",
+        "Annual Household Income",
+        "Self-Rated Health",
+        "Food Insecure",
+        "Low Health Literacy",
+        "Properties of Neighborhood",
+        "Major Depressive Disorder Likely",
+        "Body Weight"
+      ],
+      "remaining_candidate_features": [
+        "Body Mass Index",
+        "Socioeconomic Status",
+        "Education Level",
+        "Employment Status",
+        "Baseline Physical Activity Level"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Glycosylated Hemoglobin A1c (HbA1c), Prior completion of a wellness or diabetes prevention program, Prior diagnosis of prediabetes, Duration of prediabetes diagnosis, Family history of diabetes, History of cardiovascular disease, History of hypertension, History of hyperlipidemia.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Glycosylated Hemoglobin A1c (HbA1c)",
+          "Glycosylated Hemoglobin A1c (HbA1c)"
+        ],
+        [
+          "Body Weight",
+          "Body Mass Index"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Highest Education Level",
+        "Annual Household Income",
+        "Self-Rated Health",
+        "Food Insecure",
+        "Low Health Literacy",
+        "Properties of Neighborhood",
+        "Major Depressive Disorder Likely"
+      ],
+      "remaining_candidate_features": [
+        "Prior completion of a wellness or diabetes prevention program",
+        "Prior diagnosis of prediabetes",
+        "Duration of prediabetes diagnosis",
+        "Family history of diabetes",
+        "History of cardiovascular disease",
+        "History of hypertension",
+        "History of hyperlipidemia"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race/ethnicity, BMI, A1c, prior completion of wellness or diabetes prevention program, prior participation in UPSTART intervention, education level, income level, occupation, marital status, health literacy, access to healthcare, comorbidities, medication use, smoking status, physical activity level, diet quality.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race/ethnicity"
+        ],
+        [
+          "Highest Education Level",
+          "education level"
+        ],
+        [
+          "Annual Household Income",
+          "income level"
+        ],
+        [
+          "Low Health Literacy",
+          "health literacy"
+        ],
+        [
+          "Glycosylated Hemoglobin A1c (HbA1c)",
+          "A1c"
+        ],
+        [
+          "Body Weight",
+          "BMI"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Self-Rated Health",
+        "Food Insecure",
+        "Properties of Neighborhood",
+        "Major Depressive Disorder Likely"
+      ],
+      "remaining_candidate_features": [
+        "prior completion of wellness or diabetes prevention program",
+        "prior participation in UPSTART intervention",
+        "occupation",
+        "marital status",
+        "access to healthcare",
+        "comorbidities",
+        "medication use",
+        "smoking status",
+        "physical activity level",
+        "diet quality"
+      ]
+    }
+  }
+}

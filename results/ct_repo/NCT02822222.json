@@ -1,0 +1,312 @@
+{
+  "trial_id": "NCT02822222",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, systolic blood pressure (SBP), diastolic blood pressure (DBP), body weight, glomerular filtration rate, serum sodium levels, serum potassium levels, total serum magnesium levels, serum uric acid levels, patellar reflex score, history of myocardial infarction, history of congestive heart failure, history of stroke, history of chronic hepatitis, hemoglobin A1C levels, history of malignancy, history of major surgery, presence of malabsorption syndrome, presence of irritable bowel syndrome, history of psychotic disorder, history of alcoholism or drug addiction, positive drug screen, positive breathalyzer test, consumption of caffeinated beverages, current treatment with investigational drug, current treatment with anti-hypertension medication, current treatment with magnesium-containing substances, known hypersensitivity to magnesium, known hypersensitivity to inactive ingredients, pregnancy status, lactation status, arm circumference.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Seated SBP",
+          "systolic blood pressure (SBP)"
+        ],
+        [
+          "Seated DBP",
+          "diastolic blood pressure (DBP)"
+        ],
+        [
+          "Weight",
+          "body weight"
+        ],
+        [
+          "Total Serum Magnesium Concentration",
+          "total serum magnesium levels"
+        ],
+        [
+          "Patellar Reflex Score",
+          "patellar reflex score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Region of Enrollment",
+        "Height",
+        "Heart rate",
+        "Respiration rate",
+        "Temperature",
+        "SBPday",
+        "SBPnight",
+        "SBP24hr",
+        "DBPday",
+        "DBPnight",
+        "DBP24hr",
+        "Total Serum Magnesium AUC",
+        "24-hour urinary magnesium excretion",
+        "12-lead ECG Ventricular Rate",
+        "12-Lead ECG Intervals",
+        "12-Lead ECG Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "glomerular filtration rate",
+        "serum sodium levels",
+        "serum potassium levels",
+        "serum uric acid levels",
+        "history of myocardial infarction",
+        "history of congestive heart failure",
+        "history of stroke",
+        "history of chronic hepatitis",
+        "hemoglobin A1C levels",
+        "history of malignancy",
+        "history of major surgery",
+        "presence of malabsorption syndrome",
+        "presence of irritable bowel syndrome",
+        "history of psychotic disorder",
+        "history of alcoholism or drug addiction",
+        "positive drug screen",
+        "positive breathalyzer test",
+        "consumption of caffeinated beverages",
+        "current treatment with investigational drug",
+        "current treatment with anti-hypertension medication",
+        "current treatment with magnesium-containing substances",
+        "known hypersensitivity to magnesium",
+        "known hypersensitivity to inactive ingredients",
+        "pregnancy status",
+        "lactation status",
+        "arm circumference"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Magnesium, Serum Sodium, Serum Potassium, Serum Uric Acid, Glomerular Filtration Rate, Body Weight, 12-lead ECG Ventricular Rate, 12-lead ECG Intervals, Patellar Reflex Score,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Seated SBP",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Seated DBP",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Total Serum Magnesium Concentration",
+          "Serum Magnesium"
+        ],
+        [
+          "24-hour urinary magnesium excretion",
+          "Serum Magnesium"
+        ],
+        [
+          "12-lead ECG Ventricular Rate",
+          "12-lead ECG Ventricular Rate"
+        ],
+        [
+          "12-Lead ECG Intervals",
+          "12-lead ECG Intervals"
+        ],
+        [
+          "Patellar Reflex Score",
+          "Patellar Reflex Score"
+        ],
+        [
+          "Weight",
+          "Body Weight"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height",
+        "Heart rate",
+        "Respiration rate",
+        "Temperature",
+        "SBPday",
+        "SBPnight",
+        "SBP24hr",
+        "DBPday",
+        "DBPnight",
+        "DBP24hr",
+        "Total Serum Magnesium AUC",
+        "12-Lead ECG Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Serum Sodium",
+        "Serum Potassium",
+        "Serum Uric Acid",
+        "Glomerular Filtration Rate"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Magnesium, Glomerular Filtration Rate, Hemoglobin A1C, Serum Uric Acid, Serum Potassium, Serum Sodium.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Seated SBP",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Seated DBP",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Total Serum Magnesium Concentration",
+          "Serum Magnesium"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Ethnicity (NIH/OMB)",
+        "Race (NIH/OMB)",
+        "Height",
+        "Weight",
+        "Heart rate",
+        "Respiration rate",
+        "Temperature",
+        "SBPday",
+        "SBPnight",
+        "SBP24hr",
+        "DBPday",
+        "DBPnight",
+        "DBP24hr",
+        "Total Serum Magnesium AUC",
+        "24-hour urinary magnesium excretion",
+        "12-lead ECG Ventricular Rate",
+        "12-Lead ECG Intervals",
+        "12-Lead ECG Diagnosis",
+        "Patellar Reflex Score"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Glomerular Filtration Rate",
+        "Hemoglobin A1C",
+        "Serum Uric Acid",
+        "Serum Potassium",
+        "Serum Sodium"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, glomerular filtration rate, serum magnesium, serum potassium, serum sodium, hemoglobin A1C, serum uric acid, patellar reflex score.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Ethnicity (NIH/OMB)",
+          "ethnicity"
+        ],
+        [
+          "Weight",
+          "weight"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "Seated SBP",
+          "systolic blood pressure (SBP)"
+        ],
+        [
+          "Seated DBP",
+          "diastolic blood pressure (DBP)"
+        ],
+        [
+          "Heart rate",
+          "heart rate"
+        ],
+        [
+          "Total Serum Magnesium Concentration",
+          "serum magnesium"
+        ],
+        [
+          "Patellar Reflex Score",
+          "patellar reflex score"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Region of Enrollment",
+        "Body mass index (BMI)",
+        "Respiration rate",
+        "Temperature",
+        "SBPday",
+        "SBPnight",
+        "SBP24hr",
+        "DBPday",
+        "DBPnight",
+        "DBP24hr",
+        "Total Serum Magnesium AUC",
+        "24-hour urinary magnesium excretion",
+        "12-lead ECG Ventricular Rate",
+        "12-Lead ECG Intervals",
+        "12-Lead ECG Diagnosis"
+      ],
+      "remaining_candidate_features": [
+        "body mass index (BMI)",
+        "glomerular filtration rate",
+        "serum potassium",
+        "serum sodium",
+        "hemoglobin A1C",
+        "serum uric acid"
+      ]
+    }
+  }
+}

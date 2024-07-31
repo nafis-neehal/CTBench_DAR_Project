@@ -1,0 +1,183 @@
+{
+  "trial_id": "NCT00940823",
+  "trial_group": "hypertension",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, baseline intraocular pressure (IOP), type of glaucoma, duration of glaucoma, previous glaucoma surgeries, baseline visual acuity, number of glaucoma medications used, presence of conjunctival scarring, presence of neovascular glaucoma, study center location.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Intraocular Pressure",
+          "baseline intraocular pressure (IOP)"
+        ],
+        [
+          "Glaucoma Medication Use",
+          "number of glaucoma medications used"
+        ],
+        [
+          "Prior Ocular Surgeries",
+          "previous glaucoma surgeries"
+        ],
+        [
+          "Mean logMAR (converted) Visual Acuity",
+          "baseline visual acuity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Race (NIH/OMB)",
+        "Prior Laser Therapies"
+      ],
+      "remaining_candidate_features": [
+        "gender",
+        "type of glaucoma",
+        "duration of glaucoma",
+        "presence of conjunctival scarring",
+        "presence of neovascular glaucoma",
+        "study center location."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure (IOP), Glaucoma Medication Use, Visual Acuity, Type of Glaucoma, Duration of Glaucoma, Previous Glaucoma Surgeries,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Intraocular Pressure",
+          "Baseline Intraocular Pressure (IOP)"
+        ],
+        [
+          "Glaucoma Medication Use",
+          "Glaucoma Medication Use"
+        ],
+        [
+          "Mean logMAR (converted) Visual Acuity",
+          "Visual Acuity"
+        ],
+        [
+          "Prior Ocular Surgeries",
+          "Previous Glaucoma Surgeries"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Prior Laser Therapies"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Type of Glaucoma",
+        "Duration of Glaucoma"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis of glaucoma, Intraocular pressure, Visual acuity, Glaucoma medication use, Previous glaucoma surgery,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Intraocular Pressure",
+          "Intraocular pressure"
+        ],
+        [
+          "Glaucoma Medication Use",
+          "Glaucoma medication use"
+        ],
+        [
+          "Visual Acuity",
+          "Visual acuity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Race (NIH/OMB)",
+        "Prior Laser Therapies",
+        "Prior Ocular Surgeries",
+        "Mean logMAR (converted) Visual Acuity"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Diagnosis of glaucoma",
+        "Previous glaucoma surgery"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), medical history (including diabetes, hypertension, and cardiovascular disease), smoking status, glaucoma diagnosis (primary open-angle glaucoma, neovascular glaucoma, etc.), duration of glaucoma, previous glaucoma surgeries, number of glaucoma medications used, best-corrected visual acuity, intraocular pressure, cup-to-disc ratio, central corneal thickness, and visual field mean deviation.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race (NIH/OMB)",
+          "race"
+        ],
+        [
+          "Intraocular Pressure",
+          "intraocular pressure"
+        ],
+        [
+          "Glaucoma Medication Use",
+          "number of glaucoma medications used"
+        ],
+        [
+          "Prior Ocular Surgeries",
+          "previous glaucoma surgeries"
+        ],
+        [
+          "Mean logMAR (converted) Visual Acuity",
+          "best-corrected visual acuity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Prior Laser Therapies"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "medical history (including diabetes, hypertension, and cardiovascular disease)",
+        "smoking status",
+        "glaucoma diagnosis (primary open-angle glaucoma, neovascular glaucoma, etc.)",
+        "duration of glaucoma",
+        "cup-to-disc ratio",
+        "central corneal thickness",
+        "visual field mean deviation"
+      ]
+    }
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "trial_id": "NCT02923674",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, Sex, BMI, Weight stability, Sedentary status, Medical clearance, Informed consent status, Transportation capability, Use of mobility aids, Weight change history, Exercise history, Cognitive function (MoCA score), Bone density (T-score), Arthritis status, Orthopedic surgery history, Blood pressure, Heart disease history, Angina status, Stroke history, Respiratory disease status, Neurological disease status, Hematological disease status, Cancer treatment history, Conduction disorder status, Arrhythmia status, Oxygen saturation (SpO2), Kidney function (eGFR), Liver function, Anemia status, Diabetes control (fasting glucose), Vitamin D levels, Smoking status, Alcohol use, Depression status, Medication use, Participation in other research studies.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Cognitive Status (MoCA) Score",
+          "Cognitive function (MoCA score)"
+        ],
+        [
+          "Resting Seated Blood Pressure--Systolic",
+          "Blood pressure"
+        ],
+        [
+          "Resting Seated Blood Pressure Diastolic",
+          "Blood pressure"
+        ],
+        [
+          "Self-reported comorbidity Hypertension",
+          "Blood pressure"
+        ],
+        [
+          "Self-reported comorbidity Diabetes",
+          "Diabetes control (fasting glucose)"
+        ],
+        [
+          "Self-reported comorbidity Osteoarthritis",
+          "Arthritis status"
+        ],
+        [
+          "Self-reported comorbidity Osteopenia",
+          "Bone density (T-score)"
+        ],
+        [
+          "Anti-hypertensive Medication use",
+          "Medication use"
+        ],
+        [
+          "Cholesterol-lowering Medication use",
+          "Medication use"
+        ],
+        [
+          "Glucose control Medication use",
+          "Medication use"
+        ],
+        [
+          "Anti-depressant/mood Medication use",
+          "Medication use"
+        ],
+        [
+          "Depression (CES-D) Score",
+          "Depression status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Education (>High School)",
+        "Height",
+        "Body Mass",
+        "Waist to Hip Ratio",
+        "Gait Speed",
+        "Short Physical Performance Battery (SPPB) Score",
+        "Expanded Short Physical Performance Battery (eSPPB) Score",
+        "Aerobic fitness",
+        "Self-reported comorbidity Sleep Apnea"
+      ],
+      "remaining_candidate_features": [
+        "Weight stability",
+        "Sedentary status",
+        "Medical clearance",
+        "Informed consent status",
+        "Transportation capability",
+        "Use of mobility aids",
+        "Weight change history",
+        "Exercise history",
+        "Orthopedic surgery history",
+        "Heart disease history",
+        "Angina status",
+        "Stroke history",
+        "Respiratory disease status",
+        "Neurological disease status",
+        "Hematological disease status",
+        "Cancer treatment history",
+        "Conduction disorder status",
+        "Arrhythmia status",
+        "Oxygen saturation (SpO2)",
+        "Kidney function (eGFR)",
+        "Liver function",
+        "Anemia status",
+        "Vitamin D levels",
+        "Smoking status",
+        "Alcohol use",
+        "Participation in other research studies."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Cognitive Function (MoCA score), Bone Density (T-score), Arthritis Status, Joint Replacement History, Resting Hypertension, Heart Disease History, Diabetes Status, Vitamin D Levels, Smoking Status, Alcohol Use, Depression Status, ",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Cognitive Status (MoCA) Score",
+          "Cognitive Function (MoCA score)"
+        ],
+        [
+          "Resting Seated Blood Pressure--Systolic",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Resting Seated Blood Pressure Diastolic",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Self-reported comorbidity Osteoarthritis",
+          "Arthritis Status"
+        ],
+        [
+          "Self-reported comorbidity Diabetes",
+          "Diabetes Status"
+        ],
+        [
+          "Depression (CES-D) Score",
+          "Depression Status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Education (>High School)",
+        "Height",
+        "Body Mass",
+        "Waist to Hip Ratio",
+        "Gait Speed",
+        "Short Physical Performance Battery (SPPB) Score",
+        "Expanded Short Physical Performance Battery (eSPPB) Score",
+        "Aerobic fitness",
+        "Self-reported comorbidity Hypertension",
+        "Self-reported comorbidity Sleep Apnea",
+        "Self-reported comorbidity Osteopenia",
+        "Anti-hypertensive Medication use",
+        "Cholesterol-lowering Medication use",
+        "Glucose control Medication use",
+        "Anti-depressant/mood Medication use"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Bone Density (T-score)",
+        "Joint Replacement History",
+        "Resting Hypertension",
+        "Heart Disease History",
+        "Vitamin D Levels",
+        "Smoking Status",
+        "Alcohol Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Objective weekly MVPA minutes, Adherence to MVPA guidelines at baseline, Objective average daily steps, Sedentary behavior, Weight loss history, Comorbidities, Medication use, Cognitive function, Bone density,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ],
+        [
+          "Region of Enrollment",
+          "Region of Enrollment"
+        ],
+        [
+          "Body Mass Index",
+          "Body Mass Index"
+        ],
+        [
+          "Resting Seated Blood Pressure--Systolic",
+          "Systolic Blood Pressure"
+        ],
+        [
+          "Resting Seated Blood Pressure Diastolic",
+          "Diastolic Blood Pressure"
+        ],
+        [
+          "Cognitive Status (MoCA) Score",
+          "Cognitive function"
+        ],
+        [
+          "Self-reported comorbidity Osteopenia",
+          "Bone density"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Education (>High School)",
+        "Depression (CES-D) Score",
+        "Height",
+        "Body Mass",
+        "Waist to Hip Ratio",
+        "Gait Speed",
+        "Short Physical Performance Battery (SPPB) Score",
+        "Expanded Short Physical Performance Battery (eSPPB) Score",
+        "Aerobic fitness",
+        "Self-reported comorbidity Hypertension",
+        "Self-reported comorbidity Diabetes",
+        "Self-reported comorbidity Sleep Apnea",
+        "Self-reported comorbidity Osteoarthritis",
+        "Anti-hypertensive Medication use",
+        "Cholesterol-lowering Medication use",
+        "Glucose control Medication use",
+        "Anti-depressant/mood Medication use"
+      ],
+      "remaining_candidate_features": [
+        "Objective weekly MVPA minutes",
+        "Adherence to MVPA guidelines at baseline",
+        "Objective average daily steps",
+        "Sedentary behavior",
+        "Weight loss history",
+        "Comorbidities",
+        "Medication use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, weight, height, race, ethnicity, education level, occupation, marital status, smoking status, alcohol consumption, medical history (including diabetes, hypertension, heart disease, stroke, chronic respiratory disease, cancer, musculoskeletal disorders), medication use, physical activity level, sedentary behavior, cognitive function (MoCA score), bone density (T-score), blood pressure, heart rate, oxygen saturation, kidney function (eGFR), liver function, hemoglobin, vitamin D level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Education (>High School)",
+          "education level"
+        ],
+        [
+          "Cognitive Status (MoCA) Score",
+          "cognitive function (MoCA score)"
+        ],
+        [
+          "Body Mass Index",
+          "BMI"
+        ],
+        [
+          "Height",
+          "height"
+        ],
+        [
+          "Resting Seated Blood Pressure--Systolic",
+          "blood pressure"
+        ],
+        [
+          "Resting Seated Blood Pressure Diastolic",
+          "blood pressure"
+        ],
+        [
+          "Self-reported comorbidity Hypertension",
+          "medical history (including diabetes, hypertension, heart disease, stroke, chronic respiratory disease, cancer, musculoskeletal disorders)"
+        ],
+        [
+          "Self-reported comorbidity Diabetes",
+          "medical history (including diabetes, hypertension, heart disease, stroke, chronic respiratory disease, cancer, musculoskeletal disorders)"
+        ],
+        [
+          "Self-reported comorbidity Osteoarthritis",
+          "medical history (including diabetes, hypertension, heart disease, stroke, chronic respiratory disease, cancer, musculoskeletal disorders)"
+        ],
+        [
+          "Self-reported comorbidity Osteopenia",
+          "medical history (including diabetes, hypertension, heart disease, stroke, chronic respiratory disease, cancer, musculoskeletal disorders)"
+        ],
+        [
+          "Anti-hypertensive Medication use",
+          "medication use"
+        ],
+        [
+          "Cholesterol-lowering Medication use",
+          "medication use"
+        ],
+        [
+          "Glucose control Medication use",
+          "medication use"
+        ],
+        [
+          "Anti-depressant/mood Medication use",
+          "medication use"
+        ],
+        [
+          "Bone density (T-score)",
+          "bone density (T-score)"
+        ],
+        [
+          "Oxygen saturation",
+          "oxygen saturation"
+        ],
+        [
+          "Kidney function (eGFR)",
+          "kidney function (eGFR)"
+        ],
+        [
+          "Hemoglobin",
+          "hemoglobin"
+        ],
+        [
+          "Vitamin D level",
+          "vitamin D level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Region of Enrollment",
+        "Waist to Hip Ratio",
+        "Gait Speed",
+        "Short Physical Performance Battery (SPPB) Score",
+        "Expanded Short Physical Performance Battery (eSPPB) Score",
+        "Aerobic fitness",
+        "Self-reported comorbidity Sleep Apnea"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "occupation",
+        "marital status",
+        "smoking status",
+        "alcohol consumption",
+        "physical activity level",
+        "sedentary behavior",
+        "heart rate",
+        "liver function"
+      ]
+    }
+  }
+}

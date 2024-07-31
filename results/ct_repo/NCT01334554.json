@@ -1,0 +1,227 @@
+{
+  "trial_id": "NCT01334554",
+  "trial_group": "obesity",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, Race, Fasting blood glucose, Triglyceride levels, HDL cholesterol, Blood pressure, Waist girth, Fasting insulin, Serum/urine pregnancy test, Use of reliable contraceptive method, History of allergic reactions to sildenafil, Presence of cardiovascular disease, Smoking status, Weight change in the past three months, Pregnancy or breast-feeding status, History of neurological disease, Presence of immunological or hematological disorders, Gastrointestinal impairment, Hepatic function (AST and ALT levels), Renal function (eGFR), History of alcohol or drug abuse, Mental conditions, Compliance with protocol, Use of nitrates, Use of alpha-blocking drugs, Use of protease inhibitors.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Waist circumference",
+          "Waist girth"
+        ],
+        [
+          "HDL",
+          "HDL cholesterol"
+        ],
+        [
+          "triglycerides",
+          "Triglyceride levels"
+        ],
+        [
+          "glucose",
+          "Fasting blood glucose"
+        ],
+        [
+          "insulin",
+          "Fasting insulin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Sex: Female",
+        "Male",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race",
+        "Blood pressure",
+        "Serum/urine pregnancy test",
+        "Use of reliable contraceptive method",
+        "History of allergic reactions to sildenafil",
+        "Presence of cardiovascular disease",
+        "Smoking status",
+        "Weight change in the past three months",
+        "Pregnancy or breast-feeding status",
+        "History of neurological disease",
+        "Presence of immunological or hematological disorders",
+        "Gastrointestinal impairment",
+        "Hepatic function (AST and ALT levels)",
+        "Renal function (eGFR)",
+        "History of alcohol or drug abuse",
+        "Mental conditions",
+        "Compliance with protocol",
+        "Use of nitrates",
+        "Use of alpha-blocking drugs",
+        "Use of protease inhibitors"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Blood Glucose, Triglycerides, HDL Cholesterol, Waist Girth, Fasting Insulin,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Waist circumference",
+          "Waist Girth"
+        ],
+        [
+          "HDL",
+          "HDL Cholesterol"
+        ],
+        [
+          "triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "glucose",
+          "Fasting Blood Glucose"
+        ],
+        [
+          "insulin",
+          "Fasting Insulin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin, Triglycerides, HDL Cholesterol, LDL Cholesterol, Metabolic Syndrome Status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Body mass index",
+          "Body Mass Index"
+        ],
+        [
+          "Waist circumference",
+          "Waist Circumference"
+        ],
+        [
+          "HDL",
+          "HDL Cholesterol"
+        ],
+        [
+          "triglycerides",
+          "Triglycerides"
+        ],
+        [
+          "glucose",
+          "Fasting Glucose"
+        ],
+        [
+          "insulin",
+          "Fasting Insulin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Region of Enrollment",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "LDL Cholesterol",
+        "Metabolic Syndrome Status."
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, race, sex, BMI, waist girth, blood pressure, fasting blood glucose, triglyceride levels, HDL cholesterol, fasting insulin, history of hypertension, history of cardiovascular disease, smoking status, pregnancy status, menopausal status, use of antidiabetic medication, use of blood pressure medication, use of lipid-lowering medication.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Body mass index",
+          "BMI"
+        ],
+        [
+          "Waist circumference",
+          "waist girth"
+        ],
+        [
+          "HDL",
+          "HDL cholesterol"
+        ],
+        [
+          "triglycerides",
+          "triglyceride levels"
+        ],
+        [
+          "glucose",
+          "fasting blood glucose"
+        ],
+        [
+          "insulin",
+          "fasting insulin"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Categorical",
+        "Male",
+        "Height",
+        "Weight"
+      ],
+      "remaining_candidate_features": [
+        "race",
+        "history of hypertension",
+        "history of cardiovascular disease",
+        "smoking status",
+        "pregnancy status",
+        "menopausal status",
+        "use of antidiabetic medication",
+        "use of blood pressure medication",
+        "use of lipid-lowering medication"
+      ]
+    }
+  }
+}

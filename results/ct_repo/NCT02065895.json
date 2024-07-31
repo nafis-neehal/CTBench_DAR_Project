@@ -1,0 +1,134 @@
+{
+  "trial_id": "NCT02065895",
+  "trial_group": "diabetes",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, BMI, HbA1c, duration of Type 1 diabetes, gender, use of continuous glucose monitor, use of continuous subcutaneous insulin infusion pump",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Median duration of diabetes",
+          "duration of Type 1 diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Daily insulin use"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "gender"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Duration of Diabetes, HbA1c, Insulin Pump Use, Continuous Glucose Monitor Use,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Median duration of diabetes",
+          "Duration of Diabetes"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Daily insulin use"
+      ],
+      "remaining_candidate_features": [
+        "Race/Ethnicity",
+        "Body Mass Index",
+        "Insulin Pump Use"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes duration, BMI, HbA1c, Insulin dose, Continuous glucose monitor data,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Median duration of diabetes",
+          "Diabetes duration"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Region of Enrollment",
+        "Daily insulin use"
+      ],
+      "remaining_candidate_features": [
+        "BMI",
+        "Insulin dose"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, BMI, HbA1c, duration of type 1 diabetes, continuous glucose monitor data, continuous subcutaneous insulin infusion pump data, hematocrit.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "HbA1c",
+          "HbA1c"
+        ],
+        [
+          "Median duration of diabetes",
+          "duration of type 1 diabetes"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Sex: Female",
+        "Male",
+        "Region of Enrollment",
+        "Daily insulin use"
+      ],
+      "remaining_candidate_features": [
+        "sex",
+        "BMI",
+        "hematocrit."
+      ]
+    }
+  }
+}

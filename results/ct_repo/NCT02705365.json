@@ -1,0 +1,150 @@
+{
+  "trial_id": "NCT02705365",
+  "trial_group": "cancer",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, smoking status, number of cigarettes smoked per day, years of smoking, previous chest CT scans, primary care provider, community health center location, comorbidities, socioeconomic status, education level, employment status, insurance status.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Insurance",
+          "insurance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race/Ethnicity",
+        "Language",
+        "Clinic Visits Over 3 Years"
+      ],
+      "remaining_candidate_features": [
+        "smoking status",
+        "number of cigarettes smoked per day",
+        "years of smoking",
+        "previous chest CT scans",
+        "primary care provider",
+        "community health center location",
+        "comorbidities",
+        "socioeconomic status",
+        "education level",
+        "employment status"
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Smoking History, Socioeconomic Status, Access to Healthcare, Baseline Lung Health,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Language",
+        "Insurance",
+        "Clinic Visits Over 3 Years"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Smoking History",
+        "Socioeconomic Status",
+        "Access to Healthcare",
+        "Baseline Lung Health"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Smoking Status, Pack Years of Smoking, Medical History of Lung Disease, Family History of Lung Cancer,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race/Ethnicity",
+          "Race/Ethnicity"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Language",
+        "Insurance",
+        "Clinic Visits Over 3 Years"
+      ],
+      "remaining_candidate_features": [
+        "Region of Enrollment",
+        "Smoking Status",
+        "Pack Years of Smoking",
+        "Medical History of Lung Disease",
+        "Family History of Lung Cancer"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "age, sex, race, ethnicity, smoking history (pack-years), smoking status (current, former), medical comorbidities (e.g. COPD, cardiovascular disease), body mass index (BMI), education level, income level, health insurance status, primary care provider, community health center location.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race/Ethnicity",
+          "race"
+        ],
+        [
+          "Insurance",
+          "health insurance status"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Language",
+        "Clinic Visits Over 3 Years"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "smoking history (pack-years)",
+        "smoking status (current, former)",
+        "medical comorbidities (e.g. COPD, cardiovascular disease)",
+        "body mass index (BMI)",
+        "education level",
+        "income level",
+        "primary care provider",
+        "community health center location."
+      ]
+    }
+  }
+}

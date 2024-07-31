@@ -1,0 +1,200 @@
+{
+  "trial_id": "NCT01785849",
+  "trial_group": "chronic kidney disease",
+  "generated-by-gpt4-omni-zs": {
+    "gen-response": "Age, gender, duration of hemodialysis, baseline PTH levels, baseline calcium levels, baseline phosphorus levels, baseline vitamin D levels, baseline alkaline phosphatase levels, baseline serum albumin levels, baseline hemoglobin levels, baseline creatinine levels, baseline blood pressure, history of parathyroidectomy, history of kidney transplant, concomitant medications, comorbid conditions.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "gender"
+        ],
+        [
+          "Parathyroid Hormone (PTH)",
+          "baseline PTH levels"
+        ],
+        [
+          "Phosphorus",
+          "baseline phosphorus levels"
+        ],
+        [
+          "Corrected Calcium",
+          "baseline calcium levels"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Race",
+        "Stratification Factor: Mean Screening Serum Parathyroid Hormone (PTH)",
+        "Stratification Factor: Cinacalcet Use Within 8 Weeks of Randomization",
+        "Stratification Factor: Region",
+        "Corrected Calcium Phosphorus Product (cCa x P)"
+      ],
+      "remaining_candidate_features": [
+        "duration of hemodialysis",
+        "baseline vitamin D levels",
+        "baseline alkaline phosphatase levels",
+        "baseline serum albumin levels",
+        "baseline hemoglobin levels",
+        "baseline creatinine levels",
+        "baseline blood pressure",
+        "history of parathyroidectomy",
+        "history of kidney transplant",
+        "concomitant medications",
+        "comorbid conditions."
+      ]
+    }
+  },
+  "generated-by-gpt4-omni-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline Parathyroid Hormone (PTH) Levels, Serum Calcium, Serum Phosphorus, Alkaline Phosphatase, Vitamin D Levels, History of Parathyroidectomy,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race",
+          "Race/Ethnicity"
+        ],
+        [
+          "Stratification Factor: Region",
+          "Region of Enrollment"
+        ],
+        [
+          "Parathyroid Hormone (PTH)",
+          "Baseline Parathyroid Hormone (PTH) Levels"
+        ],
+        [
+          "Phosphorus",
+          "Serum Phosphorus"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Stratification Factor: Mean Screening Serum Parathyroid Hormone (PTH)",
+        "Stratification Factor: Cinacalcet Use Within 8 Weeks of Randomization",
+        "Corrected Calcium",
+        "Corrected Calcium Phosphorus Product (cCa x P)"
+      ],
+      "remaining_candidate_features": [
+        "Duration of Hemodialysis",
+        "Serum Calcium",
+        "Alkaline Phosphatase",
+        "Vitamin D Levels",
+        "History of Parathyroidectomy"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-ts": {
+    "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemodialysis vintage, Serum intact parathyroid hormone (PTH), Calcium, Phosphorus, Albumin-corrected calcium,",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "Sex: Female"
+        ],
+        [
+          "Male",
+          "Male"
+        ],
+        [
+          "Race",
+          "Race/Ethnicity"
+        ],
+        [
+          "Stratification Factor: Region",
+          "Region of Enrollment"
+        ],
+        [
+          "Parathyroid Hormone (PTH)",
+          "Serum intact parathyroid hormone (PTH)"
+        ],
+        [
+          "Phosphorus",
+          "Phosphorus"
+        ],
+        [
+          "Corrected Calcium",
+          "Calcium"
+        ],
+        [
+          "Corrected Calcium Phosphorus Product (cCa x P)",
+          "Albumin-corrected calcium"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Stratification Factor: Mean Screening Serum Parathyroid Hormone (PTH)",
+        "Stratification Factor: Cinacalcet Use Within 8 Weeks of Randomization"
+      ],
+      "remaining_candidate_features": [
+        "Hemodialysis vintage"
+      ]
+    }
+  },
+  "generated-by-llama3-70b-in-zs": {
+    "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of hemodialysis, duration of chronic kidney disease, history of parathyroidectomy, history of kidney transplant, concomitant medications (e.g. cinacalcet), baseline parathyroid hormone (PTH) level, baseline calcium level, baseline phosphorus level, baseline vitamin D level.",
+    "evaluated-by-gpt4-omni": {
+      "matched_features": [
+        [
+          "Age",
+          "Age"
+        ],
+        [
+          "Sex: Female",
+          "sex"
+        ],
+        [
+          "Race",
+          "race"
+        ],
+        [
+          "Stratification Factor: Cinacalcet Use Within 8 Weeks of Randomization",
+          "concomitant medications (e.g. cinacalcet)"
+        ],
+        [
+          "Parathyroid Hormone (PTH)",
+          "baseline parathyroid hormone (PTH) level"
+        ],
+        [
+          "Phosphorus",
+          "baseline phosphorus level"
+        ],
+        [
+          "Corrected Calcium",
+          "baseline calcium level"
+        ]
+      ],
+      "remaining_reference_features": [
+        "Male",
+        "Stratification Factor: Mean Screening Serum Parathyroid Hormone (PTH)",
+        "Stratification Factor: Region",
+        "Corrected Calcium Phosphorus Product (cCa x P)"
+      ],
+      "remaining_candidate_features": [
+        "ethnicity",
+        "body mass index (BMI)",
+        "duration of hemodialysis",
+        "duration of chronic kidney disease",
+        "history of parathyroidectomy",
+        "history of kidney transplant",
+        "baseline vitamin D level"
+      ]
+    }
+  }
+}
