@@ -55,7 +55,8 @@
         "history of pancreatitis",
         "family history of medullary thyroid cancer (MTC)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of type 2 diabetes, baseline HbA1c, fasting plasma glucose (FPG), body mass index (BMI), total daily basal insulin dose, use of oral anti-diabetic drugs (OADs), blood pressure, renal function (creatinine clearance), amylase levels, lipase levels, alanine aminotransferase (ALT) levels, alkaline phosphatase (AST) levels, calcitonin levels, history of cardiovascular events, history of pancreatitis, family history of medullary thyroid cancer (MTC)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Use of Oral Anti-diabetic Drugs,",
@@ -108,7 +109,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Use of Oral Anti-diabetic Drugs"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Total Daily Basal Insulin Dose, Metformin Use.",
@@ -159,7 +161,8 @@
         "Total Daily Basal Insulin Dose",
         "Metformin Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Total Daily Basal Insulin Dose, Metformin Use."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at baseline, fasting plasma glucose (FPG) at baseline, total daily basal insulin dose at baseline, type of oral anti-diabetic drugs (OADs) at baseline, metformin dose at baseline, systolic and diastolic blood pressure at baseline, history of cardiovascular disease, history of pancreatitis, history of thyroid cancer, creatinine clearance at baseline.",
@@ -219,6 +222,7 @@
         "history of thyroid cancer",
         "creatinine clearance at baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at baseline, fasting plasma glucose (FPG) at baseline, total daily basal insulin dose at baseline, type of oral anti-diabetic drugs (OADs) at baseline, metformin dose at baseline, systolic and diastolic blood pressure at baseline, history of cardiovascular disease, history of pancreatitis, history of thyroid cancer, creatinine clearance at baseline."
   }
 }

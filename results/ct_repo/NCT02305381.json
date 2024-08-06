@@ -42,7 +42,8 @@
         "history of acute coronary or cerebrovascular events",
         "heart failure status (NYHA Class)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, baseline HbA1c, duration of diabetes, body mass index (BMI), baseline insulin dose, use of metformin, renal function (eGFR), history of hypoglycemia, history of pancreatitis, calcitonin levels, history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome 2 (MEN 2), history of acute coronary or cerebrovascular events, heart failure status (NYHA Class)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Basal Insulin Dose, Use of Metformin, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR), History of Severe Hypoglycemia,",
@@ -89,7 +90,8 @@
         "Estimated Glomerular Filtration Rate (eGFR)",
         "History of Severe Hypoglycemia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Basal Insulin Dose, Use of Metformin, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR), History of Severe Hypoglycemia"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Basal Insulin Dose, Metformin Dose, HbA1c, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR.",
@@ -137,7 +139,8 @@
         "BMI",
         "eGFR"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Basal Insulin Dose, Metformin Dose, HbA1c, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (including cardiovascular disease, hypertension, dyslipidemia), concomitant medications, insulin dose, metformin dose, estimated glomerular filtration rate (eGFR).",
@@ -189,6 +192,7 @@
         "metformin dose",
         "estimated glomerular filtration rate (eGFR)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (including cardiovascular disease, hypertension, dyslipidemia), concomitant medications, insulin dose, metformin dose, estimated glomerular filtration rate (eGFR)."
   }
 }

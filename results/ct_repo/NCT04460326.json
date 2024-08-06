@@ -35,7 +35,8 @@
         "expected duration of hospitalization",
         "insulin glargine dosing schedule."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, duration of type 2 diabetes, baseline hemoglobin A1c, baseline blood glucose levels, prior diabetes management regimen, serum creatinine levels, history of gastroparesis or cirrhosis, presence of hyperglycemia during admission, expected duration of hospitalization, insulin glargine dosing schedule."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Baseline Blood Glucose, Insulin Dose, Use of Oral/Injectable Agents, Serum Creatinine,",
@@ -77,7 +78,8 @@
         "Insulin Dose",
         "Serum Creatinine"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Baseline Blood Glucose, Insulin Dose, Use of Oral/Injectable Agents, Serum Creatinine"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hemoglobin A1c, Diabetes Duration, Insulin Dose, History of Hypertension, History of Cardiovascular Disease,",
@@ -116,7 +118,8 @@
         "History of Hypertension",
         "History of Cardiovascular Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Hemoglobin A1c, Diabetes Duration, Insulin Dose, History of Hypertension, History of Cardiovascular Disease"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, type 2 diabetes duration, hemoglobin A1c, prior diabetes treatment, insulin dose, comorbidities, hospitalization duration, serum creatinine, point of care and/or venous blood glucose, English proficiency.",
@@ -152,6 +155,7 @@
         "point of care and/or venous blood glucose",
         "English proficiency."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, type 2 diabetes duration, hemoglobin A1c, prior diabetes treatment, insulin dose, comorbidities, hospitalization duration, serum creatinine, point of care and/or venous blood glucose, English proficiency."
   }
 }

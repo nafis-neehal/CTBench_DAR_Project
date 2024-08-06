@@ -37,7 +37,8 @@
         "race/ethnicity",
         "baseline metformin dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline HbA1c, duration of diabetes, body mass index (BMI), fasting plasma glucose, lipid profile (total cholesterol, LDL cholesterol, HDL cholesterol, triglycerides), blood pressure, concomitant medications, race/ethnicity, baseline metformin dose."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, LDL Cholesterol, HDL Cholesterol, Triglycerides,",
@@ -80,7 +81,8 @@
         "HDL Cholesterol",
         "Triglycerides"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, LDL Cholesterol, HDL Cholesterol, Triglycerides"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, HbA1c, Body Mass Index, Blood pressure, Lipid profile, Metformin dose,",
@@ -115,7 +117,8 @@
         "Lipid profile",
         "Metformin dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, HbA1c, Body Mass Index, Blood pressure, Lipid profile, Metformin dose"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1C at screening, fasting plasma glucose, systolic and diastolic blood pressure, lipid profiles (total cholesterol, LDL-C, HDL-C, triglycerides), metformin dose and duration, history of cardiovascular disease, smoking status.",
@@ -155,6 +158,7 @@
         "history of cardiovascular disease",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1C at screening, fasting plasma glucose, systolic and diastolic blood pressure, lipid profiles (total cholesterol, LDL-C, HDL-C, triglycerides), metformin dose and duration, history of cardiovascular disease, smoking status."
   }
 }

@@ -46,7 +46,8 @@
         "pregnancy status",
         "nursing status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline urinary protein/creatinine ratio, baseline glomerular filtration rate (GFR), history of chronic kidney disease, number of antihypertensive medications, sensitivity to losartan or similar drugs, sensitivity to amlodipine or calcium channel blockers, use of cyclosporine, history of major organ transplantation, pregnancy status, nursing status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Protein/Creatinine Ratio, Baseline Glomerular Filtration Rate (GFR), Chronic Kidney Disease Duration, Blood Pressure, Use of Antihypertensive Medications,",
@@ -95,7 +96,8 @@
         "Blood Pressure",
         "Use of Antihypertensive Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Protein/Creatinine Ratio, Baseline Glomerular Filtration Rate (GFR), Chronic Kidney Disease Duration, Blood Pressure, Use of Antihypertensive Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Urinary Protein/Creatinine Ratio, Glomerular Filtration Rate, Chronic Kidney Disease Duration,",
@@ -153,7 +155,8 @@
       "remaining_candidate_features": [
         "Glomerular Filtration Rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Urinary Protein/Creatinine Ratio, Glomerular Filtration Rate, Chronic Kidney Disease Duration"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, weight, height, body mass index (BMI), race, ethnicity, duration of proteinuria, underlying cause of chronic kidney disease, systolic and diastolic blood pressure, serum creatinine, estimated glomerular filtration rate (eGFR), urinary protein/creatinine ratio at baseline, history of hypertension, history of cardiovascular disease, concomitant medications.",
@@ -221,6 +224,7 @@
         "history of cardiovascular disease",
         "concomitant medications."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, weight, height, body mass index (BMI), race, ethnicity, duration of proteinuria, underlying cause of chronic kidney disease, systolic and diastolic blood pressure, serum creatinine, estimated glomerular filtration rate (eGFR), urinary protein/creatinine ratio at baseline, history of hypertension, history of cardiovascular disease, concomitant medications."
   }
 }

@@ -35,7 +35,8 @@
         "medical or psychiatric conditions",
         "pregnancy or lactation status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, tumor size, stage of breast cancer, absolute neutrophil count, platelet count, creatinine level, total bilirubin level, SGOT/SGPT levels, alkaline phosphatase level, Zubrod Performance status, cardiac ejection fraction, prior chemotherapy or hormonal therapy for breast cancer, active malignancy within the last 5 years, hypersensitivity to Tween 80, medical or psychiatric conditions, pregnancy or lactation status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Tumor Size, Stage of Cancer, Hematopoietic Function (Absolute Neutrophil Count, Platelet Count), Renal Function (Creatinine), Hepatic Function (Total Bilirubin, SGOT/SGPT, Alkaline Phosphatase), Zubrod Performance Status, Cardiac Ejection Fraction,",
@@ -75,7 +76,8 @@
         "Zubrod Performance Status",
         "Cardiac Ejection Fraction"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Tumor Size, Stage of Cancer, Hematopoietic Function (Absolute Neutrophil Count, Platelet Count), Renal Function (Creatinine), Hepatic Function (Total Bilirubin, SGOT/SGPT, Alkaline Phosphatase), Zubrod Performance Status, Cardiac Ejection Fraction"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Zubrod Performance Status, Tumor Size, Stage of Breast Cancer, Estrogen Receptor Status, Progesterone Receptor Status, Human Epidermal Growth Factor Receptor 2 (HER2) Status, Prior Biopsy, Hematopoietic Function, Renal Function, Hepatic Function.",
@@ -116,7 +118,8 @@
         "Renal Function",
         "Hepatic Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Body Mass Index, Zubrod Performance Status, Tumor Size, Stage of Breast Cancer, Estrogen Receptor Status, Progesterone Receptor Status, Human Epidermal Growth Factor Receptor 2 (HER2) Status, Prior Biopsy, Hematopoietic Function, Renal Function, Hepatic Function."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, Zubrod Performance status, tumor size, tumor stage, hormone receptor status, menopausal status, prior biopsy, absolute neutrophil count, platelet count, creatinine level, total bilirubin level, SGOT/SGPT level, alkaline phosphatase level, cardiac ejection fraction.",
@@ -159,6 +162,7 @@
         "alkaline phosphatase level",
         "cardiac ejection fraction"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, Zubrod Performance status, tumor size, tumor stage, hormone receptor status, menopausal status, prior biopsy, absolute neutrophil count, platelet count, creatinine level, total bilirubin level, SGOT/SGPT level, alkaline phosphatase level, cardiac ejection fraction."
   }
 }

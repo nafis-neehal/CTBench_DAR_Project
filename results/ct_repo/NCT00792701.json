@@ -53,7 +53,8 @@
         "prior systemic chemotherapy",
         "prior thoracic radiation therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, smoking history, performance status (Zubrod), tumor stage (IA or IB), type of surgery (lobectomy, bilobectomy, pneumonectomy), complete resection status, mediastinal lymph node sampling, ANC, platelet count, hemoglobin level, serum bilirubin, AST, ALT, serum creatinine, creatinine clearance, prior malignancy history, fertility status, prior systemic chemotherapy, prior thoracic radiation therapy."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Smoking History, Performance Status, Tumor Stage, Tumor Size, Type of Surgery, Lymph Node Status, Hemoglobin, Platelet Count, Serum Bilirubin, AST, ALT, Serum Creatinine,",
@@ -105,7 +106,8 @@
         "ALT",
         "Serum Creatinine"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Smoking History, Performance Status, Tumor Stage, Tumor Size, Type of Surgery, Lymph Node Status, Hemoglobin, Platelet Count, Serum Bilirubin, AST, ALT, Serum Creatinine"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Zubrod Performance Status, Smoking History, Histology, Tumor Size, Number of Mediastinal Lymph Node Stations Sampled, Number of Positive Lymph Nodes, Gene Expression Profile.",
@@ -150,7 +152,8 @@
         "Number of Positive Lymph Nodes",
         "Gene Expression Profile."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Zubrod Performance Status, Smoking History, Histology, Tumor Size, Number of Mediastinal Lymph Node Stations Sampled, Number of Positive Lymph Nodes, Gene Expression Profile."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, Zubrod performance status, smoking history, histology, tumor diameter, stage of disease, number of mediastinal lymph node stations sampled, ANC, platelet count, hemoglobin, serum bilirubin, AST, ALT, serum creatinine, creatinine clearance.",
@@ -202,6 +205,7 @@
         "serum creatinine",
         "creatinine clearance"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, Zubrod performance status, smoking history, histology, tumor diameter, stage of disease, number of mediastinal lymph node stations sampled, ANC, platelet count, hemoglobin, serum bilirubin, AST, ALT, serum creatinine, creatinine clearance."
   }
 }

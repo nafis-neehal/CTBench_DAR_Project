@@ -71,7 +71,8 @@
         "Primary Chronic Disease (Heart Failure, COPD, CKD, Uncontrolled Hypertension)",
         "Comorbidities (e.g., Diabetes)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Primary Chronic Disease (Heart Failure, COPD, CKD, Uncontrolled Hypertension), Comorbidities (e.g., Diabetes), Smoking History, Ejection Fraction (for HF patients), Spirometry Results (FEV1, FEV1/FVC ratio for COPD patients), eGFR (for CKD patients), Blood Pressure (for Hypertension patients), Language Proficiency, Ability to Use Telemonitoring System"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Primary Chronic Disease Diagnosis, Ejection Fraction (for HF patients), Spirometry Results (for COPD patients), Estimated Glomerular Filtration Rate (eGFR) (for CKD patients), Blood Pressure, Smoking History, Pack-Years, Diabetes Status,",
@@ -127,7 +128,8 @@
         "Pack-Years",
         "Diabetes Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Primary Chronic Disease Diagnosis, Ejection Fraction (for HF patients), Spirometry Results (for COPD patients), Estimated Glomerular Filtration Rate (eGFR) (for CKD patients), Blood Pressure, Smoking History, Pack-Years, Diabetes Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Primary Chronic Disease, Comorbidities, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, FEV1, Smoking History, Pack-Years, Alpha-1 Antitrypsin Deficiency, Spirometric Diagnosis of COPD, GOLD Stage, Ejection Fraction, Diabetes Status, Hemoglobin A1c.",
@@ -190,7 +192,8 @@
         "Diabetes Status",
         "Hemoglobin A1c."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Primary Chronic Disease, Comorbidities, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, FEV1, Smoking History, Pack-Years, Alpha-1 Antitrypsin Deficiency, Spirometric Diagnosis of COPD, GOLD Stage, Ejection Fraction, Diabetes Status, Hemoglobin A1c."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, smoking status, medical history (including comorbidities and previous hospitalizations), medication use, blood pressure, heart rate, spirometry results (for COPD patients), ejection fraction (for HF patients), estimated glomerular filtration rate (for CKD patients), hemoglobin A1c (for diabetes patients), New York Heart Association (NYHA) functional class (for HF patients), GOLD stage (for COPD patients), Charlson Comorbidity Index, SF-36 scores at baseline.",
@@ -252,6 +255,7 @@
         "GOLD stage (for COPD patients)",
         "Charlson Comorbidity Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, smoking status, medical history (including comorbidities and previous hospitalizations), medication use, blood pressure, heart rate, spirometry results (for COPD patients), ejection fraction (for HF patients), estimated glomerular filtration rate (for CKD patients), hemoglobin A1c (for diabetes patients), New York Heart Association (NYHA) functional class (for HF patients), GOLD stage (for COPD patients), Charlson Comorbidity Index, SF-36 scores at baseline."
   }
 }

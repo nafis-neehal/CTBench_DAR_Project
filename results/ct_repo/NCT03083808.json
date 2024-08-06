@@ -49,7 +49,8 @@
         "hypersensitivity history",
         "vaccination history"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG Performance Status, histology type, prior treatments, mutation status (EGFR, ALK, ROS1), laboratory values, pregnancy status (for women of childbearing potential), contraception use, time since last PD-1/PD-L1 inhibitor therapy, presence of CNS metastases, history of autoimmune disease, history of pneumonitis, history of immune-related toxicity, infection status, HIV/HBV/HCV status, TB history, hypersensitivity history, vaccination history."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Histology, Smoking Status, Prior Treatment History, PD-1/PD-L1 Inhibitor Response Duration, Laboratory Values (e.g., blood counts, liver function tests), Contraceptive Use,",
@@ -93,7 +94,8 @@
         "Laboratory Values (e.g., blood counts, liver function tests)",
         "Contraceptive Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Histology, Smoking Status, Prior Treatment History, PD-1/PD-L1 Inhibitor Response Duration, Laboratory Values (e.g., blood counts, liver function tests), Contraceptive Use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology, Previous platinum-based chemotherapy, Previous PD-1 or PD-L1 inhibitor therapy, Time from last infusion of PD-1 or PD-L1 inhibitor therapy, Best response to previous PD-1 or PD-L1 inhibitor therapy, Progression-free survival on previous PD-1 or PD-L1 inhibitor therapy.",
@@ -142,7 +144,8 @@
         "Best response to previous PD-1 or PD-L1 inhibitor therapy",
         "Progression-free survival on previous PD-1 or PD-L1 inhibitor therapy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Histology, Previous platinum-based chemotherapy, Previous PD-1 or PD-L1 inhibitor therapy, Time from last infusion of PD-1 or PD-L1 inhibitor therapy, Best response to previous PD-1 or PD-L1 inhibitor therapy, Progression-free survival on previous PD-1 or PD-L1 inhibitor therapy."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG Performance Status, histology, stage of NSCLC, prior therapies, time since last infusion of PD-1 or PD-L1 inhibitor, best response to prior PD-1 or PD-L1 inhibitor, presence of EGFR exon 19 or 21 mutations or ALK or ROS1 gene rearrangements, smoking status.",
@@ -189,6 +192,7 @@
         "best response to prior PD-1 or PD-L1 inhibitor",
         "presence of EGFR exon 19 or 21 mutations or ALK or ROS1 gene rearrangements"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG Performance Status, histology, stage of NSCLC, prior therapies, time since last infusion of PD-1 or PD-L1 inhibitor, best response to prior PD-1 or PD-L1 inhibitor, presence of EGFR exon 19 or 21 mutations or ALK or ROS1 gene rearrangements, smoking status."
   }
 }

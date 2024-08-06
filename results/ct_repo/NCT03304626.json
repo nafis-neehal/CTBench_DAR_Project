@@ -38,7 +38,8 @@
         "mental capacity to consent",
         "pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, primary liver transplant status, time since transplant, baseline liver function tests, baseline renal function tests, baseline glucose levels, baseline HbA1c, use of hypoglycemic agents, presence of advanced fibrosis in graft, ability to take enteral medications, exposure to investigational therapy, use of CYP3A4 inhibitors, mental capacity to consent, pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Time Since Transplant, Baseline Liver Function Tests, Baseline Immunosuppressant Levels, Baseline HbA1c, Baseline Renal Function, Baseline Body Mass Index, Baseline Blood Pressure,",
@@ -76,7 +77,8 @@
         "Baseline Body Mass Index",
         "Baseline Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Time Since Transplant, Baseline Liver Function Tests, Baseline Immunosuppressant Levels, Baseline HbA1c, Baseline Renal Function, Baseline Body Mass Index, Baseline Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes status at transplant, HbA1c at transplant, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Liver function tests, Creatinine, eGFR, Previous liver disease, MELD score at transplant.",
@@ -117,7 +119,8 @@
         "Previous liver disease",
         "MELD score at transplant"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes status at transplant, HbA1c at transplant, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Liver function tests, Creatinine, eGFR, Previous liver disease, MELD score at transplant."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), liver transplant indication, model for end-stage liver disease (MELD) score, graft type, cold ischemia time, warm ischemia time, donor age, donor sex, donor BMI, diabetes history, hypertension history, cardiovascular disease history.",
@@ -161,6 +164,7 @@
         "hypertension history",
         "cardiovascular disease history"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), liver transplant indication, model for end-stage liver disease (MELD) score, graft type, cold ischemia time, warm ischemia time, donor age, donor sex, donor BMI, diabetes history, hypertension history, cardiovascular disease history."
   }
 }

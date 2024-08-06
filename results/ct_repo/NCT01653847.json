@@ -45,7 +45,8 @@
         "medical",
         "or psychiatric conditions."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ethnic background, type of organ recipient, ability to provide informed consent, donor type, panel reactive antibody (PRA) level, history of focal segmental glomerulonephritis (FSGS), presence of significant or active infection, pregnancy or nursing status, history of severe hyperlipidemia, cholesterol level, platelet count, white blood cell (WBC) count, presence of other significant surgical, medical, or psychiatric conditions."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Glomerular Filtration Rate (GFR), Panel Reactive Antibody (PRA) Level, Platelet Count, White Blood Cell (WBC) Count, Cholesterol Levels,",
@@ -96,7 +97,8 @@
       "remaining_candidate_features": [
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Glomerular Filtration Rate (GFR), Panel Reactive Antibody (PRA) Level, Platelet Count, White Blood Cell (WBC) Count, Cholesterol Levels"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity (NIH/OMB), Region of Enrollment, Body Mass Index, History of Diabetes, History of Hypertension, History of Cardiovascular Disease, Serum Creatinine, Estimated Glomerular Filtration Rate (eGFR), Panel Reactive Antibody (PRA), Donor Type (Living or Deceased), Cold Ischemia Time, Warm Ischemia Time.",
@@ -141,7 +143,8 @@
         "Cold Ischemia Time",
         "Warm Ischemia Time"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Ethnicity (NIH/OMB), Region of Enrollment, Body Mass Index, History of Diabetes, History of Hypertension, History of Cardiovascular Disease, Serum Creatinine, Estimated Glomerular Filtration Rate (eGFR), Panel Reactive Antibody (PRA), Donor Type (Living or Deceased), Cold Ischemia Time, Warm Ischemia Time."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, gender, ethnicity, weight, height, body mass index (BMI), serum creatinine, estimated glomerular filtration rate (eGFR), panel reactive antibody (PRA), platelet count, white blood cell (WBC) count, cholesterol level, history of hyperlipidemia, history of infection, history of surgical/medical/psychiatric condition.",
@@ -199,6 +202,7 @@
         "estimated glomerular filtration rate (eGFR)",
         "cholesterol level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ethnicity, weight, height, body mass index (BMI), serum creatinine, estimated glomerular filtration rate (eGFR), panel reactive antibody (PRA), platelet count, white blood cell (WBC) count, cholesterol level, history of hyperlipidemia, history of infection, history of surgical/medical/psychiatric condition."
   }
 }

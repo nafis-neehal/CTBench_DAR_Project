@@ -50,7 +50,8 @@
         "Cardiac history",
         "Pregnancy status (for women)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, BMI, Waist circumference, Smoking history (years and cigarettes per day), Antipsychotic medication type and duration, Presence of dyslipidemia, Hepatic transaminase levels, Thyroid Stimulating Hormone (TSH) levels, Thyroxine4 (T4) levels, Cardiac history, Pregnancy status (for women)"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Waist Circumference, Number of Cigarettes Smoked Daily, Duration of Smoking Habit, Antipsychotic Medication Type and Dosage, Baseline Weight, Baseline Hepatic Transaminase Levels, Baseline Thyroid Stimulating Hormone (TSH) Levels, Baseline Thyroxine (T4) Levels,",
@@ -117,7 +118,8 @@
         "Male",
         "Antipsychotic Medication Type and Dosage"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Waist Circumference, Number of Cigarettes Smoked Daily, Duration of Smoking Habit, Antipsychotic Medication Type and Dosage, Baseline Weight, Baseline Hepatic Transaminase Levels, Baseline Thyroid Stimulating Hormone (TSH) Levels, Baseline Thyroxine (T4) Levels"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Smoking Status, Number of Cigarettes Smoked per Day, Duration of Smoking, Diagnosis of Schizophrenia, Antipsychotic Medication, Duration of Antipsychotic Medication, Dyslipidemia Status.",
@@ -176,7 +178,8 @@
         "Duration of Antipsychotic Medication",
         "Dyslipidemia Status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Waist Circumference, Smoking Status, Number of Cigarettes Smoked per Day, Duration of Smoking, Diagnosis of Schizophrenia, Antipsychotic Medication, Duration of Antipsychotic Medication, Dyslipidemia Status."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, BMI, waist circumference, smoking history (number of cigarettes per day, years of smoking), diagnosis of schizophrenia (duration, severity), antipsychotic medication use (type, dose, duration), presence of dyslipidemia, TSH and T4 levels, hepatic transaminase levels, history of seizure disorder, history of cardiac problems, history of other medical conditions.",
@@ -242,6 +245,7 @@
         "history of cardiac problems",
         "history of other medical conditions."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, BMI, waist circumference, smoking history (number of cigarettes per day, years of smoking), diagnosis of schizophrenia (duration, severity), antipsychotic medication use (type, dose, duration), presence of dyslipidemia, TSH and T4 levels, hepatic transaminase levels, history of seizure disorder, history of cardiac problems, history of other medical conditions."
   }
 }

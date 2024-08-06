@@ -43,7 +43,8 @@
         "renal function (e.g., serum creatinine)",
         "liver function tests (e.g., ALT, AST)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, duration of diabetes, baseline HbA1c, body mass index (BMI), metformin dose, history of pancreatitis, calcitonin levels, family history of medullary thyroid carcinoma, history of malignant neoplasm, baseline fasting plasma glucose, baseline lipid profile, blood pressure, renal function (e.g., serum creatinine), liver function tests (e.g., ALT, AST)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Metformin Dose, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose,",
@@ -88,7 +89,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Metformin Dose, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (Chinese), Region of Enrollment, Diabetes duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol.",
@@ -133,7 +135,8 @@
         "HDL Cholesterol",
         "LDL Cholesterol"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (Chinese), Region of Enrollment, Diabetes duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index, HbA1c, duration of diabetes, metformin dose, history of diabetes complications, smoking status, systolic blood pressure, diastolic blood pressure, heart rate, lipid profile, renal function, liver function.",
@@ -176,6 +179,7 @@
         "renal function",
         "liver function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index, HbA1c, duration of diabetes, metformin dose, history of diabetes complications, smoking status, systolic blood pressure, diastolic blood pressure, heart rate, lipid profile, renal function, liver function."
   }
 }

@@ -35,7 +35,8 @@
         "baseline lifestyle factors (e.g., diet, physical activity)",
         "baseline comorbidities (e.g., diabetes, hyperlipidemia)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, BMI, blood pressure, race/ethnicity, socioeconomic status, family history of hypertension, baseline medication use, baseline lifestyle factors (e.g., diet, physical activity), baseline comorbidities (e.g., diabetes, hyperlipidemia)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Family History of Hypertension, Physical Activity Level, Dietary Habits, Socioeconomic Status,",
@@ -75,7 +76,8 @@
         "Dietary Habits",
         "Socioeconomic Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Family History of Hypertension, Physical Activity Level, Dietary Habits, Socioeconomic Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Provider Type,",
@@ -112,7 +114,8 @@
         "Diastolic Blood Pressure",
         "Provider Type"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Provider Type"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, medical history (e.g., diabetes, kidney disease), medication use, health insurance status, provider type (pediatric vs. family medicine).",
@@ -153,6 +156,7 @@
         "medication use",
         "health insurance status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, medical history (e.g., diabetes, kidney disease), medication use, health insurance status, provider type (pediatric vs. family medicine)."
   }
 }

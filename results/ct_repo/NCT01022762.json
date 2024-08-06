@@ -44,7 +44,8 @@
         "previous insulin use",
         "previous lipid-lowering agent use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), fasting glucose, HbA1c, duration of diabetes, lipid profile, blood pressure, smoking status, physical activity level, dietary habits, family history of diabetes, baseline insulin levels, baseline C-peptide levels, previous insulin use, previous lipid-lowering agent use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Fasting glucose, HbA1c, Self-monitored plasma glucose (SMPG), Number of main meals per day,",
@@ -84,7 +85,8 @@
         "Self-monitored plasma glucose (SMPG)",
         "Number of main meals per day"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, Fasting glucose, HbA1c, Self-monitored plasma glucose (SMPG), Number of main meals per day"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity (Chinese), Region of Enrollment, Body Mass Index, Fasting Plasma Glucose, HbA1c, Lipid Profile, Diabetes Duration,",
@@ -127,7 +129,8 @@
         "HbA1c",
         "Lipid Profile"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Ethnicity (Chinese), Region of Enrollment, Body Mass Index, Fasting Plasma Glucose, HbA1c, Lipid Profile, Diabetes Duration"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), duration of diabetes, HbA1c, fasting glucose, lipid profiles, blood pressure, smoking status, medical history (e.g., hypertension, cardiovascular disease), concomitant medications.",
@@ -167,6 +170,7 @@
         "medical history (e.g., hypertension, cardiovascular disease)",
         "concomitant medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), duration of diabetes, HbA1c, fasting glucose, lipid profiles, blood pressure, smoking status, medical history (e.g., hypertension, cardiovascular disease), concomitant medications."
   }
 }

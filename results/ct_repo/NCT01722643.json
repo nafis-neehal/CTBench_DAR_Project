@@ -31,7 +31,8 @@
         "breastfeeding status",
         "presence of active psychosis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of type 1 diabetes, baseline HbA1c, internet access, living situation, presence of severe medical or psychiatric illness, pregnancy status, breastfeeding status, presence of active psychosis."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Frequency of Blood Glucose Monitoring, Internet Access, Living Situation,",
@@ -69,7 +70,8 @@
         "Internet Access",
         "Living Situation"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Frequency of Blood Glucose Monitoring, Internet Access, Living Situation"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Insulin Dose, BMI, Blood Pressure, Parent-Teen Conflict, Executive Function, Delay Discounting,",
@@ -110,7 +112,8 @@
         "Executive Function",
         "Delay Discounting"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Insulin Dose, BMI, Blood Pressure, Parent-Teen Conflict, Executive Function, Delay Discounting"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, duration of type 1 diabetes, average HbA1c over the past 6 months, most recent HbA1c, BMI, family structure (e.g., single parent, two-parent household), socioeconomic status, education level, access to healthcare, internet proficiency, executive function, delay discounting.",
@@ -153,6 +156,7 @@
         "executive function",
         "delay discounting"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, duration of type 1 diabetes, average HbA1c over the past 6 months, most recent HbA1c, BMI, family structure (e.g., single parent, two-parent household), socioeconomic status, education level, access to healthcare, internet proficiency, executive function, delay discounting."
   }
 }

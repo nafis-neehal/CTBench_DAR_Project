@@ -46,7 +46,8 @@
         "language proficiency",
         "ability to administer medication."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, living situation, ability to communicate by videotelephone, psychiatric history, type of diabetes, speech ability, language proficiency, renal function (GFR), liver function, cancer treatment status, ability to administer medication."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Blood Pressure, Cholesterol, Triglycerides, GFR,",
@@ -89,7 +90,8 @@
         "Triglycerides",
         "GFR"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Blood Pressure, Cholesterol, Triglycerides, GFR"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes duration, Glycated hemoglobin, Blood pressure, Body Mass Index, Previous cardiovascular disease (CVD) event,",
@@ -130,7 +132,8 @@
         "Blood pressure",
         "Previous cardiovascular disease (CVD) event"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Diabetes duration, Glycated hemoglobin, Blood pressure, Body Mass Index, Previous cardiovascular disease (CVD) event"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), duration of diabetes, HbA1c at baseline, systolic blood pressure, diastolic blood pressure, smoking status, comorbidities (heart failure, lung insufficiency, renal disease, liver disease, cancer), medication use (antidiabetic agents, antihypertensive agents, lipid-lowering agents), education level, occupation, living situation (alone or with others).",
@@ -171,6 +174,7 @@
         "occupation",
         "living situation (alone or with others)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), duration of diabetes, HbA1c at baseline, systolic blood pressure, diastolic blood pressure, smoking status, comorbidities (heart failure, lung insufficiency, renal disease, liver disease, cancer), medication use (antidiabetic agents, antihypertensive agents, lipid-lowering agents), education level, occupation, living situation (alone or with others)."
   }
 }

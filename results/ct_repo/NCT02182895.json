@@ -38,7 +38,8 @@
         "hospital admission reason",
         "length of hospital stay"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, body mass index (BMI), duration of diabetes, baseline HbA1c, type and number of non-insulin hypoglycemic agents used at home, renal function (e.g., serum creatinine, eGFR), history of diabetic complications, comorbid conditions, baseline blood glucose levels, hospital admission reason, length of hospital stay."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Blood Pressure, Renal Function, Concomitant Medications,",
@@ -79,7 +80,8 @@
         "Renal Function",
         "Concomitant Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Blood Pressure, Renal Function, Concomitant Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Non-insulin hypoglycemic agents, BMI, Blood Pressure, History of diabetic ketoacidosis or hyperosmolar state, History of pancreatitis or active gallbladder disease.",
@@ -121,7 +123,8 @@
         "History of diabetic ketoacidosis or hyperosmolar state",
         "History of pancreatitis or active gallbladder disease."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Non-insulin hypoglycemic agents, BMI, Blood Pressure, History of diabetic ketoacidosis or hyperosmolar state, History of pancreatitis or active gallbladder disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c at admission, number and type of non-insulin hypoglycemic agents used at home, admission diagnosis, comorbidities, creatinine clearance, liver function tests, history of pancreatitis or gallbladder disease, history of diabetic ketoacidosis or hyperosmolar state.",
@@ -161,6 +164,7 @@
         "history of pancreatitis or gallbladder disease",
         "history of diabetic ketoacidosis or hyperosmolar state"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c at admission, number and type of non-insulin hypoglycemic agents used at home, admission diagnosis, comorbidities, creatinine clearance, liver function tests, history of pancreatitis or gallbladder disease, history of diabetic ketoacidosis or hyperosmolar state."
   }
 }

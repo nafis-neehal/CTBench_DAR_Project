@@ -40,7 +40,8 @@
         "history of cardiovascular events",
         "liver function tests (ALT, AST, total bilirubin)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), hemoglobin A1c (HbA1c) levels, duration of type 2 diabetes mellitus (T2DM), metformin dose, estimated glomerular filtration rate (eGFR), systolic blood pressure, diastolic blood pressure, history of hypertension, history of hyperlipidemia, smoking status, alcohol use, history of cardiovascular events, liver function tests (ALT, AST, total bilirubin)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Blood Pressure, eGFR, Total Cholesterol, Triglycerides, Daily Metformin Dose,",
@@ -83,7 +84,8 @@
         "Triglycerides",
         "Daily Metformin Dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Blood Pressure, eGFR, Total Cholesterol, Triglycerides, Daily Metformin Dose"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin A1c, Metformin Dose, History of Hypertension, History of Hyperlipidemia.",
@@ -126,7 +128,8 @@
         "History of Hypertension",
         "History of Hyperlipidemia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin A1c, Metformin Dose, History of Hypertension, History of Hyperlipidemia."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, history of hypertension, history of hyperlipidemia, history of cardiovascular disease, smoking status, systolic blood pressure, diastolic blood pressure, estimated glomerular filtration rate (eGFR), hemoglobin A1c (HbA1c) level, fasting plasma glucose level, metformin dose.",
@@ -172,6 +175,7 @@
         "fasting plasma glucose level",
         "metformin dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, history of hypertension, history of hyperlipidemia, history of cardiovascular disease, smoking status, systolic blood pressure, diastolic blood pressure, estimated glomerular filtration rate (eGFR), hemoglobin A1c (HbA1c) level, fasting plasma glucose level, metformin dose."
   }
 }

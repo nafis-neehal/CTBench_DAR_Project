@@ -43,7 +43,8 @@
         "Baseline Weight",
         "Baseline Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Duration of Diabetes, Baseline HbA1c, Body Mass Index (BMI), Fasting Plasma Glucose (FPG), Previous Diabetes Treatment, Concomitant Medications, Renal Function (creatinine clearance), Hepatic Function (ALT, AST), History of Retinopathy, History of Cardiovascular Disease, Smoking Status, Alcohol Use, Baseline Weight, Baseline Blood Pressure."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Fasting Plasma Glucose, 7-point Plasma Glucose profiles, Hypoglycemia occurrence, Body weight, Adverse events, ",
@@ -86,7 +87,8 @@
         "Body weight",
         "Adverse events"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Fasting Plasma Glucose, 7-point Plasma Glucose profiles, Hypoglycemia occurrence, Body weight, Adverse events"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, HbA1c, Fasting Plasma Glucose, Duration of Diabetes, History of Hypertension, History of Cardiovascular Disease, History of Dyslipidemia, History of Retinopathy, History of Nephropathy, History of Neuropathy, Current Smoking Status, Region of Enrollment.",
@@ -131,7 +133,8 @@
         "Current Smoking Status",
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, HbA1c, Fasting Plasma Glucose, Duration of Diabetes, History of Hypertension, History of Cardiovascular Disease, History of Dyslipidemia, History of Retinopathy, History of Nephropathy, History of Neuropathy, Current Smoking Status, Region of Enrollment."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c at baseline, fasting plasma glucose (FPG) at baseline, systolic and diastolic blood pressure, lipid profile, smoking status, medical history (including presence of microvascular and macrovascular complications), concomitant medications, and quality of life scores.",
@@ -173,6 +176,7 @@
         "concomitant medications",
         "quality of life scores"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c at baseline, fasting plasma glucose (FPG) at baseline, systolic and diastolic blood pressure, lipid profile, smoking status, medical history (including presence of microvascular and macrovascular complications), concomitant medications, and quality of life scores."
   }
 }

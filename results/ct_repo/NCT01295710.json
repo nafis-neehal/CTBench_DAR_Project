@@ -69,7 +69,8 @@
       "remaining_candidate_features": [
         "disease status (early or intermediate)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, primary disease diagnosis, disease status (early or intermediate), type of stem cell transplantation (peripheral blood or bone marrow), HLA match status, Karnofsky Performance Score, presence of concomitant diseases, infection status, hepatitis B/C status, HIV status, history of concurrent malignancy, hypersensitivity to study drugs."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Primary Disease Diagnosis, Disease Status at Transplant, Type of Stem Cell Transplant (Peripheral Blood or Bone Marrow), HLA Match Status, Karnofsky Performance Score,",
@@ -115,7 +116,8 @@
         "HLA Match Status",
         "Karnofsky Performance Score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Primary Disease Diagnosis, Disease Status at Transplant, Type of Stem Cell Transplant (Peripheral Blood or Bone Marrow), HLA Match Status, Karnofsky Performance Score"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity (NIH/OMB), Region of Enrollment, Karnofsky Performance Score, Primary disease diagnosis, Disease status, HLA-A, -B, -C and -DRBI matched donor, Prior malignancy history, Hepatitis B surfaces antigen, Hepatitis C antibody, HIV status.",
@@ -164,7 +166,8 @@
         "Hepatitis C antibody",
         "HIV status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Ethnicity (NIH/OMB), Region of Enrollment, Karnofsky Performance Score, Primary disease diagnosis, Disease status, HLA-A, -B, -C and -DRBI matched donor, Prior malignancy history, Hepatitis B surfaces antigen, Hepatitis C antibody, HIV status."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, Karnofsky Performance Score, primary disease diagnosis, disease status, HLA-A, -B, -C and -DRBI match, donor type, prior therapies, comorbidities, Hepatitis B and C status, HIV status, history of malignancy.",
@@ -214,6 +217,7 @@
         "HIV status",
         "history of malignancy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, Karnofsky Performance Score, primary disease diagnosis, disease status, HLA-A, -B, -C and -DRBI match, donor type, prior therapies, comorbidities, Hepatitis B and C status, HIV status, history of malignancy."
   }
 }

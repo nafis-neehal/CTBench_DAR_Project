@@ -39,7 +39,8 @@
         "compliance to medical regimens",
         "pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, cognitive neuroscore, anti-epileptic drug use, mood or behavioral drug use, VNS setting, ketogenic or Atkins diet status, liver function, fasting serum glucose, infection status, bleeding diathesis status, history of major surgery, compliance to medical regimens, pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Cognitive Neuroscore, Anti-epileptic drug use, Mood or behavioral drug use, VNS status, Ketogenic or Atkins diet status,",
@@ -86,7 +87,8 @@
         "Eye Involvement"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Cognitive Neuroscore, Anti-epileptic drug use, Mood or behavioral drug use, VNS status, Ketogenic or Atkins diet status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cognitive Neuroscore, Anti-epileptic, Mood or Behavioral Drugs, VNS Setting, Ketogenic or Atkins Diet Ratio, Seizure Frequency, Seizure Severity.",
@@ -128,7 +130,8 @@
         "Seizure Frequency",
         "Seizure Severity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cognitive Neuroscore, Anti-epileptic, Mood or Behavioral Drugs, VNS Setting, Ketogenic or Atkins Diet Ratio, Seizure Frequency, Seizure Severity."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, cognitive neuroscore, presence of VNS, ketogenic or Atkins diet, seizure history, medication use (anti-epileptic, mood or behavioral drugs), medical history (liver disease, diabetes, infections, bleeding diathesis), surgery history, cannabis product use.",
@@ -184,6 +187,7 @@
         "Eye Involvement"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, sex, cognitive neuroscore, presence of VNS, ketogenic or Atkins diet, seizure history, medication use (anti-epileptic, mood or behavioral drugs), medical history (liver disease, diabetes, infections, bleeding diathesis), surgery history, cannabis product use."
   }
 }

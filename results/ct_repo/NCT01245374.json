@@ -40,7 +40,8 @@
         "socioeconomic status",
         "parental education level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, height, weight, duration of previous growth hormone treatment, underlying condition (e.g., growth hormone deficiency, Turner syndrome), previous device used, baseline growth rate, baseline IGF-1 levels, concomitant medications, medical history, socioeconomic status, parental education level."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Growth Hormone Treatment, Underlying Condition (e.g., Growth Hormone Deficiency, Turner Syndrome), Baseline Height, Baseline Weight, Baseline IGF-1 Levels,",
@@ -80,7 +81,8 @@
         "Underlying Condition (e.g., Growth Hormone Deficiency, Turner Syndrome)",
         "Baseline IGF-1 Levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Growth Hormone Treatment, Underlying Condition (e.g., Growth Hormone Deficiency, Turner Syndrome), Baseline Height, Baseline Weight, Baseline IGF-1 Levels"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Parent/Patient Relationship, Region of Enrollment, Growth Hormone Deficiency Duration, Previous Growth Hormone Device, Height, Weight, BMI,",
@@ -121,7 +123,8 @@
         "Parent/Patient Relationship",
         "Previous Growth Hormone Device"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Parent/Patient Relationship, Region of Enrollment, Growth Hormone Deficiency Duration, Previous Growth Hormone Device, Height, Weight, BMI"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, weight, height, body mass index (BMI), diagnosis (Growth Hormone Disorder, Growth Hormone Deficiency in Children, Foetal Growth Problem, Small for Gestational Age, Genetic Disorder, Turner Syndrome, Chronic Kidney Disease, Chronic Renal Insufficiency), duration of growth hormone treatment, previous device used, parent/patient relationship.",
@@ -160,6 +163,7 @@
         "previous device used",
         "parent/patient relationship."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, weight, height, body mass index (BMI), diagnosis (Growth Hormone Disorder, Growth Hormone Deficiency in Children, Foetal Growth Problem, Small for Gestational Age, Genetic Disorder, Turner Syndrome, Chronic Kidney Disease, Chronic Renal Insufficiency), duration of growth hormone treatment, previous device used, parent/patient relationship."
   }
 }

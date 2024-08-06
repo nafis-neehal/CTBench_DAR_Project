@@ -43,7 +43,8 @@
         "Weight",
         "Height"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, BMI, Hemoglobin A1c, Presence of methane on breath sample, Baseline glucose levels, Baseline insulin levels, Baseline cholesterol levels, Baseline LDL levels, Baseline stool methanogen levels, Baseline stool total bacteria levels, Dietary habits, Medication use, Smoking status, History of gastrointestinal surgery, Thyroid function, Weight, Height."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Hemoglobin A1c, Presence of Methane on Breath Sample,",
@@ -78,7 +79,8 @@
         "Race/Ethnicity",
         "Presence of Methane on Breath Sample"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Hemoglobin A1c, Presence of Methane on Breath Sample"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hemoglobin A1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Low Density Lipoprotein (LDL) Levels, Total Cholesterol Levels, Methane Levels on Breath Test.",
@@ -121,7 +123,8 @@
         "Total Cholesterol Levels",
         "Methane Levels on Breath Test."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Hemoglobin A1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Low Density Lipoprotein (LDL) Levels, Total Cholesterol Levels, Methane Levels on Breath Test."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, hemoglobin A1c, presence of methane on breath sample, medical history (diabetes, thyroid disease, inflammatory bowel disease, etc.), medication use (diabetes medications, prokinetic medication, proton pump inhibitor medications, antacids, etc.), smoking status, dietary restrictions, and history of bariatric or intestinal surgery.",
@@ -157,6 +160,7 @@
         "dietary restrictions",
         "and history of bariatric or intestinal surgery."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, hemoglobin A1c, presence of methane on breath sample, medical history (diabetes, thyroid disease, inflammatory bowel disease, etc.), medication use (diabetes medications, prokinetic medication, proton pump inhibitor medications, antacids, etc.), smoking status, dietary restrictions, and history of bariatric or intestinal surgery."
   }
 }

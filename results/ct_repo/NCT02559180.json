@@ -44,7 +44,8 @@
         "smoking status",
         "body mass index (BMI)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline visual acuity, central subfield thickness, history of previous anti-VEGF treatment, duration of diabetic macular edema, presence of other ocular conditions, prior ocular surgeries, baseline intraocular pressure, presence of systemic conditions (e.g., diabetes duration, HbA1c levels), use of systemic medications, race/ethnicity, smoking status, body mass index (BMI)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline Visual Acuity, Central Subfield Thickness, Prior Anti-VEGF Treatment,",
@@ -85,7 +86,8 @@
         "Duration of Diabetes",
         "Prior Anti-VEGF Treatment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline Visual Acuity, Central Subfield Thickness, Prior Anti-VEGF Treatment"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, HbA1c, Best-Corrected Visual Acuity, Central Subfield Thickness, Prior Anti-VEGF Injections, Prior Panretinal Photocoagulation.",
@@ -128,7 +130,8 @@
         "Prior Anti-VEGF Injections",
         "Prior Panretinal Photocoagulation."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Duration, HbA1c, Best-Corrected Visual Acuity, Central Subfield Thickness, Prior Anti-VEGF Injections, Prior Panretinal Photocoagulation."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, duration of diabetes, duration of diabetic macular edema, previous anti-VEGF treatment, best-corrected visual acuity, central subfield thickness, spherical equivalent, axial length, presence of vitreomacular adhesion, presence of epiretinal membrane, history of panretinal photocoagulation, history of cataract surgery, history of glaucoma, history of uveitis, history of corneal transplant or corneal dystrophy.",
@@ -177,6 +180,7 @@
         "history of uveitis",
         "history of corneal transplant or corneal dystrophy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, duration of diabetes, duration of diabetic macular edema, previous anti-VEGF treatment, best-corrected visual acuity, central subfield thickness, spherical equivalent, axial length, presence of vitreomacular adhesion, presence of epiretinal membrane, history of panretinal photocoagulation, history of cataract surgery, history of glaucoma, history of uveitis, history of corneal transplant or corneal dystrophy."
   }
 }

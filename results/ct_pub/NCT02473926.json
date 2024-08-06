@@ -52,7 +52,8 @@
         "life expectancy (active treatment for malignancy)",
         "baseline physical activity level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), duration of type 2 diabetes, baseline physical activity level, blood pressure, cognitive function (Folstein Mini-Mental Status Exam score), history of diabetic foot ulcer, presence of Charcot foot, history of hypoglycemia, hearing impairment, visual impairment, life expectancy (active treatment for malignancy), baseline physical function (ability to hold semi-tandem stance)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Sex, Race, BMI, Duration of diabetes, HbA1c, Blood pressure, Medication use, Physical activity level, Comorbid conditions, Smoking status, Cholesterol levels, Kidney function, Cognitive function, Fall risk, Visual impairment, Hearing impairment",
@@ -124,7 +125,8 @@
         "Cholesterol levels",
         "Kidney function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, Race, BMI, Duration of diabetes, HbA1c, Blood pressure, Medication use, Physical activity level, Comorbid conditions, Smoking status, Cholesterol levels, Kidney function, Cognitive function, Fall risk, Visual impairment, Hearing impairment"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Sex, Ethnic Origin, Diabetes duration, BMI, Waist circumference, Systolic Blood Pressure, Diastolic blood pressure, HbA1c, Total cholesterol, Triglycerides, HDL cholesterol, LDL cholesterol, eGFR, Diabetic retinopathy, Neuropathy, History of CVD, Smoking history.",
@@ -182,7 +184,8 @@
         "History of CVD",
         "Smoking history"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, Ethnic Origin, Diabetes duration, BMI, Waist circumference, Systolic Blood Pressure, Diastolic blood pressure, HbA1c, Total cholesterol, Triglycerides, HDL cholesterol, LDL cholesterol, eGFR, Diabetic retinopathy, Neuropathy, History of CVD, Smoking history."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index, duration of diabetes, hemoglobin A1c, systolic blood pressure, diastolic blood pressure, history of cardiovascular disease, smoking status, Mini-Mental Status Exam score, semi-tandem stance time, presence of diabetic foot ulcer, Charcot foot, asymptomatic hypoglycemia, malignancy status.",
@@ -235,6 +238,7 @@
         "asymptomatic hypoglycemia",
         "malignancy status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index, duration of diabetes, hemoglobin A1c, systolic blood pressure, diastolic blood pressure, history of cardiovascular disease, smoking status, Mini-Mental Status Exam score, semi-tandem stance time, presence of diabetic foot ulcer, Charcot foot, asymptomatic hypoglycemia, malignancy status."
   }
 }

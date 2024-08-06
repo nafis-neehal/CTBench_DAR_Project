@@ -44,7 +44,8 @@
         "duration of CKD",
         "baseline immunosuppressive treatment status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, dialysis status, prior ESA treatment, hemoglobin levels, serum ferritin, transferrin saturation, serum albumin, iron supplementation status, comorbid conditions (e.g., diabetes, hypertension), baseline kidney function (e.g., eGFR), body mass index (BMI), race/ethnicity, duration of CKD, baseline immunosuppressive treatment status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Dialysis status, Baseline hemoglobin, Serum albumin, Iron levels, History of Pure Red Cell Aplasia (PRCA), Immunocompromised status, Hepatitis B/C status, HIV status, History of systemic lupus erythematosus, History of congestive heart failure, History of angina pectoris, History of myocardial infarction, History of malignancy, Use of non-EU approved ESA,",
@@ -98,7 +99,8 @@
         "History of myocardial infarction",
         "History of malignancy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Dialysis status, Baseline hemoglobin, Serum albumin, Iron levels, History of Pure Red Cell Aplasia (PRCA), Immunocompromised status, Hepatitis B/C status, HIV status, History of systemic lupus erythematosus, History of congestive heart failure, History of angina pectoris, History of myocardial infarction, History of malignancy, Use of non-EU approved ESA"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Chronic Kidney Disease Stage, Hemoglobin, Iron Status, ESA Treatment Status, Dialysis Status,",
@@ -138,7 +140,8 @@
         "Iron Status",
         "Dialysis Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Chronic Kidney Disease Stage, Hemoglobin, Iron Status, ESA Treatment Status, Dialysis Status"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of CKD, dialysis status, ESA treatment history, iron substitution status, hemoglobin level, serum creatinine level, estimated glomerular filtration rate (eGFR), serum albumin level, medical history (e.g., hypertension, diabetes, cardiovascular disease), concomitant medications.",
@@ -183,6 +186,7 @@
         "medical history (e.g., hypertension, diabetes, cardiovascular disease)",
         "concomitant medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of CKD, dialysis status, ESA treatment history, iron substitution status, hemoglobin level, serum creatinine level, estimated glomerular filtration rate (eGFR), serum albumin level, medical history (e.g., hypertension, diabetes, cardiovascular disease), concomitant medications."
   }
 }

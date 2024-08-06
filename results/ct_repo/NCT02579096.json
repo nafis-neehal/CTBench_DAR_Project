@@ -47,7 +47,8 @@
         "enrollment in another clinical trial",
         "presence of severe medical conditions."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, history of gout, serum urate level, kidney function (eGFR), history of prior solid organ/hematopoietic transplantation, allergy or intolerance to allopurinol or febuxostat, genetic risk for allopurinol hypersensitivity syndrome (HLA B5801 status), previous therapy with allopurinol or febuxostat, presence of active malignancies, serum uric acid levels, hemoglobin levels, liver function tests (INR, bilirubin, serum albumin), presence of ascites, presence of encephalopathy, current use of specific medications (azathioprine, mercaptopurine, didanosine, cyclophosphamide, probenecid, lesinurad, pegloticase), enrollment in another clinical trial, presence of severe medical conditions."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Serum urate level, History of gout, Chronic Kidney Disease stage, Baseline eGFR, Use of prophylactic medications,",
@@ -87,7 +88,8 @@
         "Baseline eGFR",
         "Use of prophylactic medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Serum urate level, History of gout, Chronic Kidney Disease stage, Baseline eGFR, Use of prophylactic medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Serum Urate Level, eGFR, History of Gout, Chronic Kidney Disease, BMI, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -131,7 +133,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Serum Urate Level, eGFR, History of Gout, Chronic Kidney Disease, BMI, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), serum urate level, estimated glomerular filtration rate (eGFR), history of gout attacks, duration of gout, presence of tophi, kidney disease stage, comorbidities (e.g., hypertension, diabetes, cardiovascular disease), concomitant medications, smoking status.",
@@ -179,6 +182,7 @@
         "concomitant medications",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), serum urate level, estimated glomerular filtration rate (eGFR), history of gout attacks, duration of gout, presence of tophi, kidney disease stage, comorbidities (e.g., hypertension, diabetes, cardiovascular disease), concomitant medications, smoking status."
   }
 }

@@ -38,7 +38,8 @@
         "contraception use",
         "informed consent status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), medical history, physical examination results, 12 lead ECG results, clinical laboratory test results, hepatitis B surface antigen (HBsAg) status, hepatitis C antibody status, HIV status, drug abuse test results, alcohol test results, smoking status, contraception use, informed consent status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Body Mass Index, Blood Pressure, Heart Rate, Fasting Glucose, HbA1c, Liver Function Tests, Renal Function Tests, Lipid Profile, Smoking Status, Alcohol Consumption, Drug Use History, ",
@@ -76,7 +77,8 @@
         "Alcohol Consumption",
         "Drug Use History"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Body Mass Index, Blood Pressure, Heart Rate, Fasting Glucose, HbA1c, Liver Function Tests, Renal Function Tests, Lipid Profile, Smoking Status, Alcohol Consumption, Drug Use History"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Male, BMI, Region of Enrollment, Diabetes Status, Obesity Status, Hepatitis B Surface Antigen, Hepatitis C Antibody, HIV I and II, Drugs of Abuse, Alcohol Tests, Smoking Status, Contraception Use.",
@@ -115,7 +117,8 @@
         "Smoking Status",
         "Contraception Use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, BMI, Region of Enrollment, Diabetes Status, Obesity Status, Hepatitis B Surface Antigen, Hepatitis C Antibody, HIV I and II, Drugs of Abuse, Alcohol Tests, Smoking Status, Contraception Use."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), weight, height, ethnicity, smoking status, medical history, concomitant medications, laboratory test results (e.g. hematology, biochemistry, virology), electrocardiogram (ECG) results, vital signs (e.g. blood pressure, heart rate), diabetes status, obesity status.",
@@ -157,6 +160,7 @@
         "diabetes status",
         "obesity status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), weight, height, ethnicity, smoking status, medical history, concomitant medications, laboratory test results (e.g. hematology, biochemistry, virology), electrocardiogram (ECG) results, vital signs (e.g. blood pressure, heart rate), diabetes status, obesity status."
   }
 }

@@ -46,7 +46,8 @@
         "baseline use of cardiovascular medications (e.g., statins, beta-blockers, ACE inhibitors)",
         "baseline use of antidiabetic medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, body mass index (BMI), duration of type 2 diabetes, baseline HbA1c, history of hypertension, history of dyslipidemia, smoking status, prior myocardial infarction, prior stroke, baseline renal function (e.g., serum creatinine, estimated glomerular filtration rate), baseline urinary albumin/creatinine ratio, baseline use of cardiovascular medications (e.g., statins, beta-blockers, ACE inhibitors), baseline use of antidiabetic medications."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of Type 2 Diabetes, Baseline HbA1c, Body Mass Index, Blood Pressure, Cholesterol Levels, Smoking Status, Prior Cardiovascular Events, Renal Function (eGFR), Use of Cardiovascular Medications,",
@@ -94,7 +95,8 @@
         "Renal Function (eGFR)",
         "Use of Cardiovascular Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, History of Type 2 Diabetes, Baseline HbA1c, Body Mass Index, Blood Pressure, Cholesterol Levels, Smoking Status, Prior Cardiovascular Events, Renal Function (eGFR), Use of Cardiovascular Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, Previous cardiovascular disease (CVD) event, Glycated hemoglobin, Blood pressure, Cholesterol, Triglycerides, Body Mass Index, History of smoking, History of hypertension, History of hyperlipidemia, History of chronic kidney disease, History of peripheral artery disease.",
@@ -145,7 +147,8 @@
         "History of chronic kidney disease",
         "History of peripheral artery disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes duration, Previous cardiovascular disease (CVD) event, Glycated hemoglobin, Blood pressure, Cholesterol, Triglycerides, Body Mass Index, History of smoking, History of hypertension, History of hyperlipidemia, History of chronic kidney disease, History of peripheral artery disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (including history of hypertension, hyperlipidemia, and previous myocardial infarction), duration of type 2 diabetes, HbA1c, fasting plasma glucose, lipid profile, creatinine clearance, left ventricular ejection fraction, Killip class, cardiac biomarkers (Troponin, CK-MB), medication use (including antiplatelet agents, beta blockers, angiotensin-converting enzyme inhibitors, and statins).",
@@ -198,6 +201,7 @@
         "cardiac biomarkers (Troponin, CK-MB)",
         "medication use (including antiplatelet agents, beta blockers, angiotensin-converting enzyme inhibitors, and statins)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (including history of hypertension, hyperlipidemia, and previous myocardial infarction), duration of type 2 diabetes, HbA1c, fasting plasma glucose, lipid profile, creatinine clearance, left ventricular ejection fraction, Killip class, cardiac biomarkers (Troponin, CK-MB), medication use (including antiplatelet agents, beta blockers, angiotensin-converting enzyme inhibitors, and statins)."
   }
 }

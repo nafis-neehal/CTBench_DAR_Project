@@ -52,7 +52,8 @@
         "dietary habits",
         "stool bacterial content."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, baseline eGFR, baseline serum TMAO levels, baseline urine TMAO levels, baseline inflammatory markers, medical history, medication use, body mass index (BMI), blood pressure, smoking status, dietary habits, stool bacterial content."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline eGFR, Baseline Serum TMAO, Baseline Urine TMAO, Baseline Inflammatory Markers, Baseline Stool Bacterial Content,",
@@ -101,7 +102,8 @@
         "Baseline Inflammatory Markers",
         "Baseline Stool Bacterial Content"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline eGFR, Baseline Serum TMAO, Baseline Urine TMAO, Baseline Inflammatory Markers, Baseline Stool Bacterial Content"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Chronic Kidney Disease Duration, Serum Creatinine, Blood Urea Nitrogen, Hemoglobin, Albumin, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes Status, Cardiovascular Disease Status,",
@@ -158,7 +160,8 @@
         "Diastolic Blood Pressure",
         "Cardiovascular Disease Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, eGFR, Chronic Kidney Disease Duration, Serum Creatinine, Blood Urea Nitrogen, Hemoglobin, Albumin, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes Status, Cardiovascular Disease Status"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), eGFR, serum creatinine, blood urea nitrogen (BUN), hemoglobin, albumin, comorbidities (e.g., diabetes, hypertension, cardiovascular disease), medication use (e.g., ACE inhibitors, beta blockers, statins), smoking status, history of cardiovascular events, duration of chronic kidney disease.",
@@ -212,6 +215,7 @@
         "history of cardiovascular events",
         "duration of chronic kidney disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), eGFR, serum creatinine, blood urea nitrogen (BUN), hemoglobin, albumin, comorbidities (e.g., diabetes, hypertension, cardiovascular disease), medication use (e.g., ACE inhibitors, beta blockers, statins), smoking status, history of cardiovascular events, duration of chronic kidney disease."
   }
 }

@@ -41,7 +41,8 @@
         "pregnancy status",
         "disease resectability status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, type of surgery (liver or pancreatic resection), baseline pain levels, baseline quality of life, baseline functional status, platelet count, international normalized ratio (INR), activated partial thromboplastin time (aPTT), presence of fever or infection, history of chronic pain, history of narcotic use, history of neurologic disease, history of major surgery in the past 30 days, use of anticoagulants, presence of bleeding diathesis or coagulopathy, educational level, psychiatric history, language proficiency, pregnancy status, disease resectability status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Surgery (Liver or Pancreas), Platelet Count, International Normalized Ratio (INR), Activated Partial Thromboplastin Time (aPTT), Preoperative Pain Levels, Preoperative Narcotic Use, Coexisting Medical Conditions,",
@@ -82,7 +83,8 @@
         "Preoperative Narcotic Use",
         "Coexisting Medical Conditions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Surgery (Liver or Pancreas), Platelet Count, International Normalized Ratio (INR), Activated Partial Thromboplastin Time (aPTT), Preoperative Pain Levels, Preoperative Narcotic Use, Coexisting Medical Conditions"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, ASA Physical Status Classification, Type of Surgery, Duration of Surgery, Intraoperative Opioid Dose, Preoperative Opioid Use, History of Chronic Pain.",
@@ -123,7 +125,8 @@
         "Preoperative Opioid Use",
         "History of Chronic Pain."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, ASA Physical Status Classification, Type of Surgery, Duration of Surgery, Intraoperative Opioid Dose, Preoperative Opioid Use, History of Chronic Pain."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), American Society of Anesthesiologists (ASA) physical status, cancer type (liver or pancreas), tumor stage, surgical procedure, duration of surgery, coagulation function (platelets, INR, aPTT), history of chronic pain, history of neurologic disease, history of anticoagulant use, educational level, psychiatric history.",
@@ -162,6 +165,7 @@
         "educational level",
         "psychiatric history"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), American Society of Anesthesiologists (ASA) physical status, cancer type (liver or pancreas), tumor stage, surgical procedure, duration of surgery, coagulation function (platelets, INR, aPTT), history of chronic pain, history of neurologic disease, history of anticoagulant use, educational level, psychiatric history."
   }
 }

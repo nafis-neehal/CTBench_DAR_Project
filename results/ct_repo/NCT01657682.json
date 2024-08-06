@@ -38,7 +38,8 @@
         "recovery from non-hematological toxicities",
         "pregnancy status for WOCBP"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ECOG performance status, liver function (bilirubin, ALT, AST), renal function (serum creatinine), prior therapies received, FLT3 mutation status, presence of secondary AML, presence of antecedent MDS/MPN, recovery from non-hematological toxicities, pregnancy status for WOCBP."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Liver Function (Bilirubin, ALT, AST), Renal Function (Serum Creatinine), Prior Therapies, FLT3 Mutation Status, Type of AML (Primary, Secondary, MDS/MPN), Time Since Last Therapy,",
@@ -81,7 +82,8 @@
         "Type of AML (Primary, Secondary, MDS/MPN)",
         "Time Since Last Therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Liver Function (Bilirubin, ALT, AST), Renal Function (Serum Creatinine), Prior Therapies, FLT3 Mutation Status, Type of AML (Primary, Secondary, MDS/MPN), Time Since Last Therapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, FLT3 mutation status, Prior therapy for AML, Number of prior salvage regimens, Presence of antecedent MDS/MPN, White blood cell count, Blast percentage in blood or marrow, Hemoglobin, Platelet count.",
@@ -126,7 +128,8 @@
         "Hemoglobin",
         "Platelet count"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, FLT3 mutation status, Prior therapy for AML, Number of prior salvage regimens, Presence of antecedent MDS/MPN, White blood cell count, Blast percentage in blood or marrow, Hemoglobin, Platelet count."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, AML subtype, FLT3 mutation type, number of prior therapies, prior therapy regimens, time since diagnosis, time since relapse, white blood cell count, absolute neutrophil count, platelet count, hemoglobin level, bone marrow blast percentage, peripheral blood blast percentage, serum creatinine level, bilirubin level, ALT level, AST level.",
@@ -177,6 +180,7 @@
         "ALT level",
         "AST level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, AML subtype, FLT3 mutation type, number of prior therapies, prior therapy regimens, time since diagnosis, time since relapse, white blood cell count, absolute neutrophil count, platelet count, hemoglobin level, bone marrow blast percentage, peripheral blood blast percentage, serum creatinine level, bilirubin level, ALT level, AST level."
   }
 }

@@ -46,7 +46,8 @@
         "gastrointestinal disease",
         "baseline laboratory values"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ECOG performance status, prior surgical castration, presence of pain, prior antiandrogen therapy, prior chemotherapy, exposure to radioisotope therapy, exposure to external beam radiation, presence of central nervous system metastases, spinal cord compression, bilateral hydronephrosis, bladder neck outlet obstruction, history of other malignancies, cardiovascular condition, history of HIV infection, hepatitis B or C status, gastrointestinal disease, baseline laboratory values."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Pain status, Prior surgical castration, Laboratory values at screening,",
@@ -82,7 +83,8 @@
         "Prior surgical castration",
         "Laboratory values at screening"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, ECOG performance status, Pain status, Prior surgical castration, Laboratory values at screening"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior Surgical Castration, Prior Medical Castration, Pain Status, Opioid Use, Metastatic Disease Status, Prostate-Specific Antigen (PSA) Level, Hemoglobin Level, Albumin Level.",
@@ -123,7 +125,8 @@
         "Hemoglobin Level",
         "Albumin Level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Prior Surgical Castration, Prior Medical Castration, Pain Status, Opioid Use, Metastatic Disease Status, Prostate-Specific Antigen (PSA) Level, Hemoglobin Level, Albumin Level."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, ECOG performance status, prostate-specific antigen (PSA) level, Gleason score, time since initial diagnosis, time since metastatic diagnosis, prior therapies, pain status, opioid use, medical history (including cardiovascular conditions, gastrointestinal disease, and other malignancies), laboratory values (including hemoglobin, liver function tests, and renal function tests).",
@@ -168,6 +171,7 @@
         "medical history (including cardiovascular conditions, gastrointestinal disease, and other malignancies)",
         "laboratory values (including hemoglobin, liver function tests, and renal function tests)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, ECOG performance status, prostate-specific antigen (PSA) level, Gleason score, time since initial diagnosis, time since metastatic diagnosis, prior therapies, pain status, opioid use, medical history (including cardiovascular conditions, gastrointestinal disease, and other malignancies), laboratory values (including hemoglobin, liver function tests, and renal function tests)."
   }
 }

@@ -31,7 +31,8 @@
         "willingness to follow protocol",
         "ability to provide informed consent."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of type 2 diabetes, baseline glycosylated hemoglobin (A1C), baseline blood glucose levels, insulin regimen prior to study, hospitalization status, willingness to follow protocol, ability to provide informed consent."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, Body Mass Index, Blood Pressure, Total Cholesterol, Triglycerides, eGFR,",
@@ -75,7 +76,8 @@
         "Triglycerides",
         "eGFR"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, Body Mass Index, Blood Pressure, Total Cholesterol, Triglycerides, eGFR"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, Insulin treatment, Glycosylated hemoglobin, Blood glucose, Body Mass Index,",
@@ -113,7 +115,8 @@
         "Insulin treatment",
         "Blood glucose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, Insulin treatment, Glycosylated hemoglobin, Blood glucose, Body Mass Index"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, duration of type 2 diabetes, insulin dose, A1C, body mass index (BMI), blood pressure, lipid profile, history of diabetes-related complications, smoking status, concomitant medications.",
@@ -151,6 +154,7 @@
         "smoking status",
         "concomitant medications."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, duration of type 2 diabetes, insulin dose, A1C, body mass index (BMI), blood pressure, lipid profile, history of diabetes-related complications, smoking status, concomitant medications."
   }
 }

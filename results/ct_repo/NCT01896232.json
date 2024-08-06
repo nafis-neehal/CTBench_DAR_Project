@@ -48,7 +48,8 @@
         "body mass index (BMI)",
         "comorbid conditions (e.g., diabetes, hypertension)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, duration of chronic kidney disease, duration of secondary hyperparathyroidism, baseline serum parathyroid hormone (PTH) levels, baseline serum calcium levels, baseline serum phosphorus levels, baseline vitamin D levels, duration on hemodialysis, use of calcium supplements, use of vitamin D analogs, use of phosphate binders, body mass index (BMI), comorbid conditions (e.g., diabetes, hypertension)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline Serum Parathyroid Hormone (PTH) Levels, Baseline Serum Calcium Levels, Use of Calcium Supplements,",
@@ -93,7 +94,8 @@
         "Duration of Hemodialysis",
         "Use of Calcium Supplements"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Hemodialysis, Baseline Serum Parathyroid Hormone (PTH) Levels, Baseline Serum Calcium Levels, Use of Calcium Supplements"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Dialysis vintage, Serum parathyroid hormone, Serum calcium, Phosphorus, Albumin, Hemoglobin, Body mass index, History of parathyroidectomy, History of vitamin D therapy, History of calcium supplements.",
@@ -146,7 +148,8 @@
         "History of vitamin D therapy",
         "History of calcium supplements."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Dialysis vintage, Serum parathyroid hormone, Serum calcium, Phosphorus, Albumin, Hemoglobin, Body mass index, History of parathyroidectomy, History of vitamin D therapy, History of calcium supplements."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of hemodialysis, dialysate calcium concentration, serum PTH levels, serum calcium levels, use of calcium supplements, dose of calcium supplements.",
@@ -191,6 +194,7 @@
         "use of calcium supplements",
         "dose of calcium supplements"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of hemodialysis, dialysate calcium concentration, serum PTH levels, serum calcium levels, use of calcium supplements, dose of calcium supplements."
   }
 }

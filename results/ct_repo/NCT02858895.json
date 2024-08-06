@@ -70,7 +70,8 @@
         "time since last treatment",
         "comorbid conditions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, Karnofsky Performance Score (KPS), tumor size, tumor location, prior treatments, time since last treatment, presence of IDH1/IDH2 mutation, life expectancy, MRI findings, comorbid conditions, history of allergies, HIV status, concurrent medical illnesses, previous malignancies."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky Performance Score (KPS), Tumor Size, Number of Prior Recurrences, Prior Treatments, Time Since Initial Diagnosis,",
@@ -121,7 +122,8 @@
         "Tumor Size",
         "Time Since Initial Diagnosis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Karnofsky Performance Score (KPS), Tumor Size, Number of Prior Recurrences, Prior Treatments, Time Since Initial Diagnosis"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Karnofsky Performance Score, Histological diagnosis of glioblastoma, Tumor size, Tumor location, Prior treatments for glioblastoma, Time since initial diagnosis, Time since last recurrence, IDH1/2 mutation status.",
@@ -176,7 +178,8 @@
         "Tumor location",
         "Time since last recurrence"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Karnofsky Performance Score, Histological diagnosis of glioblastoma, Tumor size, Tumor location, Prior treatments for glioblastoma, Time since initial diagnosis, Time since last recurrence, IDH1/2 mutation status."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, Karnofsky Performance Score (KPS), life expectancy, tumor size, tumor location, number of recurrences, time since initial diagnosis, time since last recurrence, prior treatments, IDH1/2 mutation status.",
@@ -231,6 +234,7 @@
         "tumor location",
         "time since last recurrence"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, Karnofsky Performance Score (KPS), life expectancy, tumor size, tumor location, number of recurrences, time since initial diagnosis, time since last recurrence, prior treatments, IDH1/2 mutation status."
   }
 }

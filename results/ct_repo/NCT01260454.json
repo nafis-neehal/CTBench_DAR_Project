@@ -38,7 +38,8 @@
         "baseline blood pressure",
         "history of stroke or myocardial infarction."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline pain score, duration of pulmonary hypertension, duration of treprostinil use, concomitant medications, comorbid conditions, baseline blood pressure, history of stroke or myocardial infarction."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Pain Score, Duration of Pulmonary Hypertension, Concomitant Medications, Baseline Blood Pressure,",
@@ -76,7 +77,8 @@
         "Concomitant Medications",
         "Baseline Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Pain Score, Duration of Pulmonary Hypertension, Concomitant Medications, Baseline Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Pulmonary Hypertension Diagnosis Duration, Treprostinil Infusion Site Pain Duration, Baseline Pain Score, History of Uncontrolled Hypertension, History of Recent Stroke or Myocardial Infarction.",
@@ -113,7 +115,8 @@
         "History of Uncontrolled Hypertension",
         "History of Recent Stroke or Myocardial Infarction."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Pulmonary Hypertension Diagnosis Duration, Treprostinil Infusion Site Pain Duration, Baseline Pain Score, History of Uncontrolled Hypertension, History of Recent Stroke or Myocardial Infarction."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, duration of pulmonary hypertension, duration of treprostinil use, number of previous infusion site changes, average pain score at previous infusion site changes, presence of comorbidities (e.g. hypertension, diabetes), use of concomitant pain medications.",
@@ -149,6 +152,7 @@
         "presence of comorbidities (e.g. hypertension, diabetes)",
         "use of concomitant pain medications."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, duration of pulmonary hypertension, duration of treprostinil use, number of previous infusion site changes, average pain score at previous infusion site changes, presence of comorbidities (e.g. hypertension, diabetes), use of concomitant pain medications."
   }
 }

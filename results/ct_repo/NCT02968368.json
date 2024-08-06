@@ -78,7 +78,8 @@
         "Region of Enrollment"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline hemoglobin (Hb) concentration, baseline ferritin levels, baseline transferrin saturation (TSAT), estimated glomerular filtration rate (eGFR), presence of chronic kidney disease (CKD), use of contraception (for females of childbearing potential), history of renal transplant, liver function tests (ALT, AST), vitamin B12 levels, folic acid levels, presence of significant active bleeding, history of major surgery, participation in other clinical studies, presence of other significant medical conditions."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Hemoglobin (Hb) Concentration, Estimated Glomerular Filtration Rate (eGFR), Ferritin Levels, Transferrin Saturation (TSAT), Body Mass Index (BMI), Systolic Blood Pressure, Diastolic Blood Pressure, Concomitant Medications,",
@@ -117,7 +118,8 @@
         "Diastolic Blood Pressure",
         "Concomitant Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Hemoglobin (Hb) Concentration, Estimated Glomerular Filtration Rate (eGFR), Ferritin Levels, Transferrin Saturation (TSAT), Body Mass Index (BMI), Systolic Blood Pressure, Diastolic Blood Pressure, Concomitant Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Estimated Glomerular Filtration Rate (eGFR), Hemoglobin, Ferritin, Transferrin Saturation (TSAT), Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Chronic Kidney Disease, History of Iron Deficiency Anemia.",
@@ -159,7 +161,8 @@
         "History of Chronic Kidney Disease",
         "History of Iron Deficiency Anemia."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Estimated Glomerular Filtration Rate (eGFR), Hemoglobin, Ferritin, Transferrin Saturation (TSAT), Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Chronic Kidney Disease, History of Iron Deficiency Anemia."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), eGFR, Hb concentration, ferritin level, TSAT, medical history (including CKD, iron deficiency anemia, and other relevant conditions), concomitant medications, and laboratory results (including ALT, AST, vitamin B12, and folate levels).",
@@ -199,6 +202,7 @@
         "concomitant medications",
         "and laboratory results (including ALT, AST, vitamin B12, and folate levels)."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), eGFR, Hb concentration, ferritin level, TSAT, medical history (including CKD, iron deficiency anemia, and other relevant conditions), concomitant medications, and laboratory results (including ALT, AST, vitamin B12, and folate levels)."
   }
 }

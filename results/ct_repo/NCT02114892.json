@@ -58,7 +58,8 @@
       "remaining_candidate_features": [
         "Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, Waist Circumference, High Density Lipoprotein (c-HDL) Levels, Fasting Glucose Levels, Triglycerides Levels, Blood Pressure, Body Mass Index (BMI)"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Waist Circumference, High Density Lipoprotein (c-HDL), Fasting Glucose, Triglycerides, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -121,7 +122,8 @@
         "Insulin sensitivity"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Waist Circumference, High Density Lipoprotein (c-HDL), Fasting Glucose, Triglycerides, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Waist Circumference, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Triglycerides, HDL, LDL, Total Cholesterol.",
@@ -193,7 +195,8 @@
         "Insulin sensitivity"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Waist Circumference, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Triglycerides, HDL, LDL, Total Cholesterol."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index, waist circumference, systolic blood pressure, diastolic blood pressure, fasting glucose, triglycerides, high density lipoprotein, low density lipoprotein, total cholesterol.",
@@ -262,6 +265,7 @@
         "Insulin sensitivity"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index, waist circumference, systolic blood pressure, diastolic blood pressure, fasting glucose, triglycerides, high density lipoprotein, low density lipoprotein, total cholesterol."
   }
 }

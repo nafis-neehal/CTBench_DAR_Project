@@ -50,7 +50,8 @@
         "intraocular pressure",
         "pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, histological subtype, stage of disease, prior surgery, prior radiation therapy, prior chemotherapy, neutrophil count, platelet count, creatinine clearance, total bilirubin, AST levels, ALT levels, presence of brain metastases, cardiac history, presence of gastrointestinal disease, use of CYP3A4/5, CYP2C19, and CYP1A2 inhibitors/inducers, use of oral anticoagulants, history of central serous retinopathy or retinal vein occlusion, intraocular pressure, pregnancy status, ethnicity."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological Subtype, Stage of Disease, Measurable Disease, Prior Surgery, Prior Radiation, Prior Chemotherapy, Neutrophil Count, Platelet Count, Creatinine Clearance, Total Bilirubin, AST, ALT, Alkaline Phosphatase,",
@@ -97,7 +98,8 @@
         "ALT",
         "Alkaline Phosphatase"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Histological Subtype, Stage of Disease, Measurable Disease, Prior Surgery, Prior Radiation, Prior Chemotherapy, Neutrophil Count, Platelet Count, Creatinine Clearance, Total Bilirubin, AST, ALT, Alkaline Phosphatase"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology, KRAS Status, Smoking History, Number of Prior Chemotherapy Regimens, Best Response to Prior Chemotherapy, Time from Diagnosis to Randomization, Baseline Tumor Size, Baseline LDH, Baseline Albumin, Baseline Creatinine Clearance.",
@@ -141,7 +143,8 @@
         "Baseline Albumin",
         "Baseline Creatinine Clearance"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Histology, KRAS Status, Smoking History, Number of Prior Chemotherapy Regimens, Best Response to Prior Chemotherapy, Time from Diagnosis to Randomization, Baseline Tumor Size, Baseline LDH, Baseline Albumin, Baseline Creatinine Clearance."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ECOG performance status, histology, KRAS status, smoking history, stage of disease, number and location of metastases, prior therapy, neutrophil count, platelet count, creatinine clearance, total bilirubin, AST, ALT, ALP.",
@@ -181,6 +184,7 @@
         "ALT",
         "ALP"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ECOG performance status, histology, KRAS status, smoking history, stage of disease, number and location of metastases, prior therapy, neutrophil count, platelet count, creatinine clearance, total bilirubin, AST, ALT, ALP."
   }
 }

@@ -35,7 +35,8 @@
         "pregnancy status",
         "malignancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of diabetes, HbA1c levels, triglyceride levels, serum creatinine levels, history of cardiac events, liver function tests, renal function tests, pregnancy status, malignancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Triglycerides, Serum Creatinine,",
@@ -70,7 +71,8 @@
         "Triglycerides",
         "Serum Creatinine"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Triglycerides, Serum Creatinine"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes duration, HbA1c, Triglycerides, History of cardiovascular disease, History of diabetic retinopathy, Serum creatinine,",
@@ -106,7 +108,8 @@
         "History of diabetic retinopathy",
         "Serum creatinine"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes duration, HbA1c, Triglycerides, History of cardiovascular disease, History of diabetic retinopathy, Serum creatinine"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, duration of type 2 diabetes, HbA1c, triglyceride levels, body mass index (BMI), systolic and diastolic blood pressure, smoking status, history of cardiovascular disease, history of diabetic complications (retinopathy, nephropathy, neuropathy).",
@@ -147,6 +150,7 @@
         "history of cardiovascular disease",
         "history of diabetic complications (retinopathy, nephropathy, neuropathy)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, duration of type 2 diabetes, HbA1c, triglyceride levels, body mass index (BMI), systolic and diastolic blood pressure, smoking status, history of cardiovascular disease, history of diabetic complications (retinopathy, nephropathy, neuropathy)."
   }
 }

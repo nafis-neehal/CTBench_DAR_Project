@@ -33,7 +33,8 @@
         "baseline laboratory values",
         "baseline symptom severity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, medical history, baseline uterine pathology type, baseline uterine pathology size, prior treatments for uterine conditions, baseline vital signs, baseline laboratory values, baseline symptom severity."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Type of pathology (leiomyomas or polyps), Size of pathology,",
@@ -65,7 +66,8 @@
         "Type of pathology (leiomyomas or polyps)",
         "Size of pathology"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Type of pathology (leiomyomas or polyps), Size of pathology"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Region of Enrollment, Body Mass Index, Parity, Previous uterine surgery, Previous hysteroscopic procedures, Uterine size, Number and size of polyps/myomas, Menstrual cycle regularity, Dysmenorrhea, Heavy menstrual bleeding.",
@@ -103,7 +105,8 @@
         "Dysmenorrhea",
         "Heavy menstrual bleeding."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Region of Enrollment, Body Mass Index, Parity, Previous uterine surgery, Previous hysteroscopic procedures, Uterine size, Number and size of polyps/myomas, Menstrual cycle regularity, Dysmenorrhea, Heavy menstrual bleeding."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), parity, history of previous uterine surgery, history of previous pelvic inflammatory disease, presence of symptoms such as abnormal uterine bleeding, pelvic pain, or infertility, size and location of uterine leiomyomas or endometrial polyps, hysteroscopic evaluation findings.",
@@ -142,6 +145,7 @@
         "size and location of uterine leiomyomas or endometrial polyps",
         "hysteroscopic evaluation findings."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), parity, history of previous uterine surgery, history of previous pelvic inflammatory disease, presence of symptoms such as abnormal uterine bleeding, pelvic pain, or infertility, size and location of uterine leiomyomas or endometrial polyps, hysteroscopic evaluation findings."
   }
 }

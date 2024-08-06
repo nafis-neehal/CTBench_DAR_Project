@@ -46,7 +46,8 @@
         "Pregnancy Status",
         "Contraceptive Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, BMI, HbA1c, Duration of Type 2 Diabetes, Pre-treatment with Metformin, Blood Pressure, Lipid Profile, Glomerular Filtration Rate (GFR), Liver Function Tests, Heart Failure Status, History of Pancreatitis, Family History of Medullary Thyroid Carcinoma, Use of Systemic Corticosteroids, Pregnancy Status, Contraceptive Use"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, HbA1c, Duration of Diabetes, Blood Pressure, Cholesterol, Triglycerides, Glomerular Filtration Rate (GFR),",
@@ -87,7 +88,8 @@
         "Triglycerides",
         "Glomerular Filtration Rate (GFR)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, HbA1c, Duration of Diabetes, Blood Pressure, Cholesterol, Triglycerides, Glomerular Filtration Rate (GFR)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, HbA1c, Diabetes Duration, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, Region of Enrollment,",
@@ -132,7 +134,8 @@
         "HDL Cholesterol",
         "LDL Cholesterol"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, HbA1c, Diabetes Duration, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, Region of Enrollment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, BMI, HbA1c, duration of type 2 diabetes, history of cardiovascular disease, smoking status, systolic blood pressure, diastolic blood pressure, heart rate, lipid profile, liver function tests, renal function tests, medication use (including antihypertensive and lipid-lowering agents).",
@@ -178,6 +181,7 @@
         "renal function tests",
         "medication use (including antihypertensive and lipid-lowering agents)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, BMI, HbA1c, duration of type 2 diabetes, history of cardiovascular disease, smoking status, systolic blood pressure, diastolic blood pressure, heart rate, lipid profile, liver function tests, renal function tests, medication use (including antihypertensive and lipid-lowering agents)."
   }
 }

@@ -45,7 +45,8 @@
         "urinalysis results",
         "presence of other clinically significant diseases or disorders."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), HbA1c levels, fasting plasma glucose levels, duration of Type 2 Diabetes Mellitus, use of metformin, liver function tests (AST, ALT), clinical chemistry, haematology, urinalysis results, presence of other clinically significant diseases or disorders."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Fasting Plasma Glucose, HbA1c, Duration of Diabetes, Metformin Dose,",
@@ -88,7 +89,8 @@
         "Fasting Plasma Glucose",
         "Duration of Diabetes"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Fasting Plasma Glucose, HbA1c, Duration of Diabetes, Metformin Dose"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, HbA1c, Fasting Plasma Glucose, Duration of Diabetes, Metformin Dose, Region of Enrollment,",
@@ -133,7 +135,8 @@
         "Fasting Plasma Glucose",
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, HbA1c, Fasting Plasma Glucose, Duration of Diabetes, Metformin Dose, Region of Enrollment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index, HbA1c, fasting plasma glucose, duration of type 2 diabetes mellitus, metformin dose, history of diabetic complications, smoking status, alcohol consumption, medical history, concomitant medications.",
@@ -179,6 +182,7 @@
         "medical history",
         "concomitant medications."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index, HbA1c, fasting plasma glucose, duration of type 2 diabetes mellitus, metformin dose, history of diabetic complications, smoking status, alcohol consumption, medical history, concomitant medications."
   }
 }

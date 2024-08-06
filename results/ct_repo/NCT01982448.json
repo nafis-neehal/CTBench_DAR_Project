@@ -49,7 +49,8 @@
         "hearing status",
         "renal function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ECOG performance status, absolute neutrophil count (ANC), platelet count, bilirubin levels, ALT levels, AST levels, alkaline phosphatase levels, creatinine levels, hemoglobin levels, ER status, PR status, HER2 status, BRCA1/2 status, clinical stage of breast cancer, presence of metastatic disease in lymph nodes, prior history of contralateral breast cancer, use of contraception, history of other malignancies, peripheral neuropathy status, hearing status, renal function."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Tumor Stage, HER2 Status, ER Status, PR Status, BRCA1/2 Mutation Status, ECOG Performance Status, Absolute Neutrophil Count, Platelet Count, Bilirubin, ALT, AST, Alkaline Phosphatase, Creatinine, Hemoglobin, Use of Contraception, Prior History of Contra-lateral Breast Cancer,",
@@ -100,7 +101,8 @@
         "Use of Contraception",
         "Prior History of Contra-lateral Breast Cancer"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Tumor Stage, HER2 Status, ER Status, PR Status, BRCA1/2 Mutation Status, ECOG Performance Status, Absolute Neutrophil Count, Platelet Count, Bilirubin, ALT, AST, Alkaline Phosphatase, Creatinine, Hemoglobin, Use of Contraception, Prior History of Contra-lateral Breast Cancer"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Menopausal Status, ER Status, PR Status, HER2 Status, BRCA1/2 Status, Clinical Stage, Tumor Size, Nodal Status, ECOG Performance Status.",
@@ -143,7 +145,8 @@
         "Tumor Size",
         "ECOG Performance Status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Body Mass Index, Menopausal Status, ER Status, PR Status, HER2 Status, BRCA1/2 Status, Clinical Stage, Tumor Size, Nodal Status, ECOG Performance Status."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, AJCC clinical stage, tumor size, tumor grade, ER status, PR status, HER2 status, BRCA1/2 status, prior history of breast cancer, prior history of other malignancies, laboratory values (ANC, platelet count, bilirubin, ALT, AST, ALK Phos, creatinine, hemoglobin).",
@@ -185,6 +188,7 @@
         "prior history of other malignancies",
         "laboratory values (ANC, platelet count, bilirubin, ALT, AST, ALK Phos, creatinine, hemoglobin)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, AJCC clinical stage, tumor size, tumor grade, ER status, PR status, HER2 status, BRCA1/2 status, prior history of breast cancer, prior history of other malignancies, laboratory values (ANC, platelet count, bilirubin, ALT, AST, ALK Phos, creatinine, hemoglobin)."
   }
 }

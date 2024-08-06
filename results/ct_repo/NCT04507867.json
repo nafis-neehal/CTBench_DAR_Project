@@ -97,7 +97,8 @@
         "Baseline Respiratory Distress",
         "Baseline Oxygen Requirement"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, BMI, Oxygen Saturation, Presence of Diabetes Mellitus, Presence of Hypertension, Presence of Cardiovascular Disease, Tolerance to Oral Feeding, Baseline Inflammatory Markers, Baseline Nutritional Status, Baseline Respiratory Distress, Baseline Oxygen Requirement"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Oxygen Saturation, Comorbidities (Type 2 Diabetes Mellitus, Hypertension, Overweight/Obesity), Baseline Inflammatory Markers, Baseline Nutritional Status,",
@@ -202,7 +203,8 @@
         "Baseline Inflammatory Markers",
         "Baseline Nutritional Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Oxygen Saturation, Comorbidities (Type 2 Diabetes Mellitus, Hypertension, Overweight/Obesity), Baseline Inflammatory Markers, Baseline Nutritional Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Comorbidities (Diabetes Mellitus, Hypertension, Overweight or Obesity), Oxygen Saturation, Respiratory Distress, Cardiovascular Disease, Inflammation Markers.",
@@ -304,7 +306,8 @@
         "Cardiovascular Disease",
         "Inflammation Markers."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, Comorbidities (Diabetes Mellitus, Hypertension, Overweight or Obesity), Oxygen Saturation, Respiratory Distress, Cardiovascular Disease, Inflammation Markers."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, comorbidities (diabetes mellitus 2, hypertension, cardiovascular disease), oxygen saturation, respiratory distress, nutritional status, laboratory values (inflammatory markers, etc.), medical history, medication use, smoking status.",
@@ -399,6 +402,7 @@
         "medication use",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, comorbidities (diabetes mellitus 2, hypertension, cardiovascular disease), oxygen saturation, respiratory distress, nutritional status, laboratory values (inflammatory markers, etc.), medical history, medication use, smoking status."
   }
 }

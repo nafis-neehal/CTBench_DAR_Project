@@ -39,7 +39,8 @@
         "Smoking Status",
         "Concomitant Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, BMI, Baseline HbA1c, GFR, Duration of Type 2 Diabetes, Previous Diabetes Medications, Blood Pressure, Lipid Profile, Renal Function Markers, Liver Function Tests, History of Cardiovascular Events, Smoking Status, Concomitant Medications"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Glomerular Filtration Rate (GFR), Duration of Diabetes, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -78,7 +79,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Glomerular Filtration Rate (GFR), Duration of Diabetes, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Estimated Glomerular Filtration Rate (eGFR), Body Mass Index, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -117,7 +119,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Estimated Glomerular Filtration Rate (eGFR), Body Mass Index, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, BMI, duration of diabetes, GFR, HbA1c, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, history of cardiovascular disease, history of renal disease, smoking status.",
@@ -155,6 +158,7 @@
         "history of renal disease",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, BMI, duration of diabetes, GFR, HbA1c, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, history of cardiovascular disease, history of renal disease, smoking status."
   }
 }

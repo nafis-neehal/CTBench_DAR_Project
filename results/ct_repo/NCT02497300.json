@@ -62,7 +62,8 @@
         "baseline blood pressure",
         "serum potassium levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline eGFR, baseline urine albumin-to-creatinine ratio, baseline blood pressure, serum potassium levels, history of arrhythmia, history of ischemic stroke, history of unstable angina, history of myocardial infarction, presence of diabetes mellitus, cognitive function status, medication history (use of MR antagonist or epithelial sodium channel blocking medication), presence of primary aldosteronism, presence of renal artery stenosis."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Potassium, Estimated Glomerular Filtration Rate (eGFR), Urine Albumin-to-Creatinine Ratio,",
@@ -101,7 +102,8 @@
         "Estimated Glomerular Filtration Rate (eGFR)",
         "Urine Albumin-to-Creatinine Ratio"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Potassium, Estimated Glomerular Filtration Rate (eGFR), Urine Albumin-to-Creatinine Ratio"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Urine Albumin-to-Creatinine Ratio, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Potassium, History of Hypertension, History of Diabetes Mellitus,",
@@ -141,7 +143,8 @@
         "History of Hypertension",
         "History of Diabetes Mellitus"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, eGFR, Urine Albumin-to-Creatinine Ratio, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Potassium, History of Hypertension, History of Diabetes Mellitus"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, smoking status, systolic blood pressure, diastolic blood pressure, heart rate, eGFR, urine albumin-to-creatinine ratio, serum potassium, glycosylated hemoglobin, history of hypertension, history of cardiovascular disease, history of kidney disease.",
@@ -183,6 +186,7 @@
         "history of cardiovascular disease",
         "history of kidney disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, smoking status, systolic blood pressure, diastolic blood pressure, heart rate, eGFR, urine albumin-to-creatinine ratio, serum potassium, glycosylated hemoglobin, history of hypertension, history of cardiovascular disease, history of kidney disease."
   }
 }

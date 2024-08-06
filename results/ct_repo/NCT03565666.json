@@ -46,7 +46,8 @@
         "use of steroids",
         "history of inappropriate insulin administration"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of type 1 diabetes, type of insulin therapy (pump or multiple daily injections), HbA1c level, average number of SMBG meter tests daily, use of CGM, pregnancy status, renal function (eGFR), history of coronary artery disease, EKG findings, history of congestive heart failure, history of TIA or stroke, history of diabetic ketoacidosis, history of severe hypoglycemia, mental health status, use of electrically powered implants, history of allergy to adhesive or tape, history of eating disorders, use of SGLT2 inhibitors, use of GLP1, pramlintide, or metformin, use of steroids, history of inappropriate insulin administration."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, HbA1c, Insulin Delivery Method (Pump or MDI), Daily Insulin Dose, Frequency of SMBG or CGM Use,",
@@ -84,7 +85,8 @@
         "Daily Insulin Dose",
         "Frequency of SMBG or CGM Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, HbA1c, Insulin Delivery Method (Pump or MDI), Daily Insulin Dose, Frequency of SMBG or CGM Use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Duration, Insulin Pump Use, Multiple Daily Injections, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Daily Insulin Dose, CGM Glucose Values.",
@@ -120,7 +122,8 @@
         "Total Daily Insulin Dose",
         "CGM Glucose Values"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes Duration, Insulin Pump Use, Multiple Daily Injections, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Daily Insulin Dose, CGM Glucose Values."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, duration of type 1 diabetes, HbA1c level, BMI, insulin pump or MDI use, SMBG or CGM use, history of severe hypoglycemia, history of DKA, presence of microvascular or macrovascular complications, smoking status, alcohol use, concomitant medications, comorbidities.",
@@ -163,6 +166,7 @@
         "concomitant medications",
         "comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, duration of type 1 diabetes, HbA1c level, BMI, insulin pump or MDI use, SMBG or CGM use, history of severe hypoglycemia, history of DKA, presence of microvascular or macrovascular complications, smoking status, alcohol use, concomitant medications, comorbidities."
   }
 }

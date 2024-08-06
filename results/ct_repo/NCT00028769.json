@@ -39,7 +39,8 @@
         "Prior neoadjuvant hormonal therapy",
         "Prior radiotherapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Performance status (Zubrod score), Absolute granulocyte count, Platelet count, History of transient ischemic attacks, stroke, or myocardial infarction, History of coronary artery disease, History of thrombophlebitis, History of pulmonary embolus, Prior malignancy history, Prior biologic therapy, Prior cytotoxic chemotherapy, Prior androgen-blockade therapy, Prior neoadjuvant hormonal therapy, Prior radiotherapy, Prior surgery."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Performance Status (Zubrod), Absolute Granulocyte Count, Platelet Count, Prior Androgen-Blockade Therapy, Prior Neoadjuvant Hormonal Therapy, Sites of Metastasis (Visceral, Bone),",
@@ -72,7 +73,8 @@
         "Prior Neoadjuvant Hormonal Therapy",
         "Sites of Metastasis (Visceral, Bone)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, Performance Status (Zubrod), Absolute Granulocyte Count, Platelet Count, Prior Androgen-Blockade Therapy, Prior Neoadjuvant Hormonal Therapy, Sites of Metastasis (Visceral, Bone)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Performance Status (Zubrod), Hemoglobin, Absolute Granulocyte Count, Platelet Count, Serum Creatinine, Serum Glutamic Oxaloacetic Transaminase (SGOT), Serum Glutamic Pyruvic Transaminase (SGPT), Prostate-Specific Antigen (PSA), Gleason Score, Clinical Stage, Bone Metastases, Visceral Metastases.",
@@ -112,7 +114,8 @@
         "Bone Metastases",
         "Visceral Metastases"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Performance Status (Zubrod), Hemoglobin, Absolute Granulocyte Count, Platelet Count, Serum Creatinine, Serum Glutamic Oxaloacetic Transaminase (SGOT), Serum Glutamic Pyruvic Transaminase (SGPT), Prostate-Specific Antigen (PSA), Gleason Score, Clinical Stage, Bone Metastases, Visceral Metastases."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, performance status (Zubrod score), prostate-specific antigen (PSA) level, Gleason score, clinical stage, presence of visceral or bone metastases, prior hormone therapy, prior surgery, prior radiotherapy, absolute granulocyte count, platelet count, hemoglobin level.",
@@ -155,6 +158,7 @@
         "platelet count",
         "hemoglobin level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, performance status (Zubrod score), prostate-specific antigen (PSA) level, Gleason score, clinical stage, presence of visceral or bone metastases, prior hormone therapy, prior surgery, prior radiotherapy, absolute granulocyte count, platelet count, hemoglobin level."
   }
 }

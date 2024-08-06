@@ -49,7 +49,8 @@
         "Medication Use",
         "Alcohol Consumption"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity, BMI, Baseline Weight, Baseline Physical Activity Level, Baseline Dietary Intake, Language Preference, Socioeconomic Status, Education Level, Smoking Status, Medical History, Medication Use, Alcohol Consumption, Blood Pressure."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Self-reported Hunger, Meal Satisfaction, Feeling Full After Last Meal,",
@@ -103,7 +104,8 @@
       "remaining_candidate_features": [
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Self-reported Hunger, Meal Satisfaction, Feeling Full After Last Meal"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes Status, Smoking Status, Physical Activity Level, Fruit and Vegetable Intake, Legume Intake, Whole Grain Intake.",
@@ -154,7 +156,8 @@
         "Legume Intake",
         "Whole Grain Intake"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes Status, Smoking Status, Physical Activity Level, Fruit and Vegetable Intake, Legume Intake, Whole Grain Intake."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ethnicity, BMI, weight, height, language spoken, medical history (e.g. diabetes, cardiovascular disease), smoking status, pregnancy status, medication use, physical activity level, dietary habits, education level, occupation, income level.",
@@ -203,6 +206,7 @@
         "occupation",
         "income level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ethnicity, BMI, weight, height, language spoken, medical history (e.g. diabetes, cardiovascular disease), smoking status, pregnancy status, medication use, physical activity level, dietary habits, education level, occupation, income level."
   }
 }

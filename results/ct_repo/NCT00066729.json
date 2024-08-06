@@ -39,7 +39,8 @@
         "expected survival",
         "clinical remission status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, Karnofsky performance scale, CA125 levels, absolute neutrophil count (ANC), platelet count, creatinine levels, alanine aminotransferase (ALT) levels, aspartate aminotransferase (AST) levels, total bilirubin levels, HLA A02 status, stage of cancer at diagnosis, type of cancer (ovarian epithelial, primary peritoneal, or fallopian tube), prior chemotherapy regimens, presence of residual tumor masses, expected survival, and clinical remission status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Karnofsky performance scale, Absolute neutrophil count, Platelet count, Creatinine level, Alanine aminotransferase (ALT) level, Aspartate aminotransferase (AST) level, Total bilirubin level, Stage of cancer at diagnosis, Type of cancer (ovarian, fallopian tube, primary peritoneal), HLA A02 status,",
@@ -77,7 +78,8 @@
         "Type of cancer (ovarian, fallopian tube, primary peritoneal)",
         "HLA A02 status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Karnofsky performance scale, Absolute neutrophil count, Platelet count, Creatinine level, Alanine aminotransferase (ALT) level, Aspartate aminotransferase (AST) level, Total bilirubin level, Stage of cancer at diagnosis, Type of cancer (ovarian, fallopian tube, primary peritoneal), HLA A02 status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Karnofsky Performance Status, HLA A02 Status, Histological Type of Cancer, Stage of Cancer, Number of Prior Chemotherapy Regimens, Time Since Last Chemotherapy, CA125 Level, Absolute Neutrophil Count, Platelet Count, Creatinine Level, Alanine Aminotransferase Level, Aspartate Aminotransferase Level, Total Bilirubin Level.",
@@ -115,7 +117,8 @@
         "Aspartate Aminotransferase Level",
         "Total Bilirubin Level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Karnofsky Performance Status, HLA A02 Status, Histological Type of Cancer, Stage of Cancer, Number of Prior Chemotherapy Regimens, Time Since Last Chemotherapy, CA125 Level, Absolute Neutrophil Count, Platelet Count, Creatinine Level, Alanine Aminotransferase Level, Aspartate Aminotransferase Level, Total Bilirubin Level."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, Karnofsky performance scale, Histology, Stage at diagnosis, Prior chemotherapy regimens, CA125 levels, Absolute neutrophil count (ANC), Platelets, Creatinine, Alanine aminotransferase (ALT), Aspartate aminotransferase (AST), Total bilirubin, HLA A02 status.",
@@ -149,6 +152,7 @@
         "Total bilirubin",
         "HLA A02 status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Karnofsky performance scale, Histology, Stage at diagnosis, Prior chemotherapy regimens, CA125 levels, Absolute neutrophil count (ANC), Platelets, Creatinine, Alanine aminotransferase (ALT), Aspartate aminotransferase (AST), Total bilirubin, HLA A02 status."
   }
 }

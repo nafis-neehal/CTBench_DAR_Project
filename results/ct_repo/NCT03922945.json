@@ -44,7 +44,8 @@
         "Smoking status",
         "Current medication use (anticonvulsants, antidepressants, MAOIs, lithium, levodopa, dopamine receptor agonists, carbonic anhydrase inhibitors, insulin, SFUs, GLP-1 agonists, SGLT-1 inhibitors, SGLT-2 inhibitors, systemic steroids, hyperactivity disorder treatment, weight loss medications or supplements)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, BMI, History of weight loss attempts, Contraception use (for females), Type 1 diabetes status, Congenital heart disease status, ECG results, Physical exam results, Vital signs, Laboratory results, Hepatic function, Renal function (GFR), Thyroid function (TSH levels), Genetic or endocrine origin of obesity, Psychiatric history (bipolar disorder, psychosis, depression, suicidal behavior or ideation), Weight stability, History of bariatric surgery, Glaucoma or intraocular pressure status, Smoking status, Current medication use (anticonvulsants, antidepressants, MAOIs, lithium, levodopa, dopamine receptor agonists, carbonic anhydrase inhibitors, insulin, SFUs, GLP-1 agonists, SGLT-1 inhibitors, SGLT-2 inhibitors, systemic steroids, hyperactivity disorder treatment, weight loss medications or supplements)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin, Lipid Profile, Waist Circumference, Physical Activity Level, Dietary Intake,",
@@ -88,7 +89,8 @@
         "Physical Activity Level",
         "Dietary Intake"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin, Lipid Profile, Waist Circumference, Physical Activity Level, Dietary Intake"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Lipid Profile, Insulin Sensitivity, Tanner Stage, Pubertal Status.",
@@ -132,7 +134,8 @@
         "Tanner Stage",
         "Pubertal Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Lipid Profile, Insulin Sensitivity, Tanner Stage, Pubertal Status."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, BMI, body composition, systolic and diastolic blood pressure, heart rate, waist circumference, hip circumference, lipid profile, glucose levels, insulin levels, medical history, concomitant medications, smoking status, menstrual status (for females).",
@@ -177,6 +180,7 @@
         "smoking status",
         "menstrual status (for females)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, BMI, body composition, systolic and diastolic blood pressure, heart rate, waist circumference, hip circumference, lipid profile, glucose levels, insulin levels, medical history, concomitant medications, smoking status, menstrual status (for females)."
   }
 }

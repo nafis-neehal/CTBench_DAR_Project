@@ -38,7 +38,8 @@
         "prior radiation therapy",
         "baseline quality of life scores"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, clinical stage, performance status, prior chemotherapy regimens, smoking status, weight, height, baseline tumor size, comorbidities, baseline laboratory values (e.g., hemoglobin, white blood cell count, liver function tests), ECOG performance status, race/ethnicity, prior radiation therapy, baseline quality of life scores."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Performance Status, Previous Chemotherapy Regimens, Clinical Stage, Body Mass Index, Smoking Status, Hemoglobin Levels, White Blood Cell Count, Platelet Count, Liver Function Tests, Renal Function Tests,",
@@ -76,7 +77,8 @@
         "Liver Function Tests",
         "Renal Function Tests"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Performance Status, Previous Chemotherapy Regimens, Clinical Stage, Body Mass Index, Smoking Status, Hemoglobin Levels, White Blood Cell Count, Platelet Count, Liver Function Tests, Renal Function Tests"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, ECOG Performance Status, Histological Subtype, Smoking Status, Number of Prior Chemotherapy Regimens, Time Since Initial Diagnosis, Time Since Last Chemotherapy.",
@@ -106,7 +108,8 @@
         "Time Since Initial Diagnosis",
         "Time Since Last Chemotherapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, ECOG Performance Status, Histological Subtype, Smoking Status, Number of Prior Chemotherapy Regimens, Time Since Initial Diagnosis, Time Since Last Chemotherapy."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, performance status, clinical stage, number of prior chemotherapeutic regimens, time since diagnosis, time since last treatment, smoking history, presence of comorbidities.",
@@ -137,6 +140,7 @@
         "smoking history",
         "presence of comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, performance status, clinical stage, number of prior chemotherapeutic regimens, time since diagnosis, time since last treatment, smoking history, presence of comorbidities."
   }
 }

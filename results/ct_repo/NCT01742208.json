@@ -38,7 +38,8 @@
         "use of other medications or supplements",
         "pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of type 1 diabetes mellitus, baseline HbA1c levels, body mass index (BMI), baseline total daily bolus insulin dose, baseline fasting plasma glucose, history of hypoglycemia, history of diabetic ketoacidosis, liver function tests, cardiac history, blood pressure, history of drug or alcohol abuse, use of other medications or supplements, pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Total Daily Insulin Dose, Body Mass Index, Blood Pressure, Liver Function Tests, History of Hypoglycemia, History of Diabetic Ketoacidosis,",
@@ -79,7 +80,8 @@
         "History of Hypoglycemia",
         "History of Diabetic Ketoacidosis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Total Daily Insulin Dose, Body Mass Index, Blood Pressure, Liver Function Tests, History of Hypoglycemia, History of Diabetic Ketoacidosis"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Daily Insulin Dose, BMI, Blood Pressure, Total Cholesterol, eGFR, Diabetic Retinopathy,",
@@ -120,7 +122,8 @@
         "eGFR",
         "Diabetic Retinopathy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Daily Insulin Dose, BMI, Blood Pressure, Total Cholesterol, eGFR, Diabetic Retinopathy"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 1 diabetes mellitus, hemoglobin A1c (HbA1c), fasting plasma glucose, total daily insulin dose, type of insulin used, history of diabetic complications, history of cardiovascular disease, systolic blood pressure, diastolic blood pressure, heart rate.",
@@ -161,6 +164,7 @@
         "diastolic blood pressure",
         "heart rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 1 diabetes mellitus, hemoglobin A1c (HbA1c), fasting plasma glucose, total daily insulin dose, type of insulin used, history of diabetic complications, history of cardiovascular disease, systolic blood pressure, diastolic blood pressure, heart rate."
   }
 }

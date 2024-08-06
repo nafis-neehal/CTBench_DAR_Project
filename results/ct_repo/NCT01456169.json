@@ -56,7 +56,8 @@
         "alcohol use",
         "baseline ambulatory blood pressure monitoring (ABPM) readings."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline systolic blood pressure (SBP), baseline diastolic blood pressure (DBP), body mass index (BMI), race/ethnicity, medical history (e.g., history of myocardial infarction, heart failure, diabetes mellitus), baseline laboratory values (e.g., serum potassium, hemoglobin A1c, estimated glomerular filtration rate), use of antihypertensive medications, smoking status, alcohol use, baseline ambulatory blood pressure monitoring (ABPM) readings."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Body Mass Index, Baseline eGFR, Baseline HbA1c, Number of Antihypertensive Medications,",
@@ -112,7 +113,8 @@
         "Baseline HbA1c",
         "Number of Antihypertensive Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Body Mass Index, Baseline eGFR, Baseline HbA1c, Number of Antihypertensive Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications, Prior Cardiovascular Events, Prior Renal Disease, Prior Diabetes, Prior Hyperlipidemia.",
@@ -171,7 +173,8 @@
         "Prior Diabetes",
         "Prior Hyperlipidemia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications, Prior Cardiovascular Events, Prior Renal Disease, Prior Diabetes, Prior Hyperlipidemia."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (including hypertension, diabetes, cardiovascular disease), concomitant medications, systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, estimated glomerular filtration rate (eGFR), hemoglobin A1c (HbA1c), serum potassium, alanine aminotransferase (ALT), aspartate aminotransferase (AST), upper arm circumference.",
@@ -233,6 +236,7 @@
         "aspartate aminotransferase (AST)",
         "upper arm circumference"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (including hypertension, diabetes, cardiovascular disease), concomitant medications, systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, estimated glomerular filtration rate (eGFR), hemoglobin A1c (HbA1c), serum potassium, alanine aminotransferase (ALT), aspartate aminotransferase (AST), upper arm circumference."
   }
 }

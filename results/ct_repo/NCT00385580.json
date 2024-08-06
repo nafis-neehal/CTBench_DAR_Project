@@ -40,7 +40,8 @@
         "prior treatments for prostate cancer",
         "body mass index (BMI)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, baseline PSA levels, testosterone levels, metastatic disease status, prior androgen deprivation therapy, performance status, comorbid conditions, baseline laboratory values (e.g., liver function tests, renal function tests), prior treatments for prostate cancer, ECOG performance status, race/ethnicity, body mass index (BMI)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline PSA levels, Testosterone levels, Metastatic disease sites, Prior androgen deprivation therapy,",
@@ -74,7 +75,8 @@
         "Metastatic disease sites",
         "Prior androgen deprivation therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, Baseline PSA levels, Testosterone levels, Metastatic disease sites, Prior androgen deprivation therapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Gleason Score, PSA at Screening, Testosterone Level, Number of Metastatic Sites, Prior Androgen Deprivation Therapy.",
@@ -112,7 +114,8 @@
         "Number of Metastatic Sites",
         "Prior Androgen Deprivation Therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Gleason Score, PSA at Screening, Testosterone Level, Number of Metastatic Sites, Prior Androgen Deprivation Therapy."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, prostate-specific antigen (PSA) level, testosterone level, Gleason score, number and location of metastases, prior androgen deprivation therapy, duration of androgen deprivation therapy.",
@@ -154,6 +157,7 @@
         "prior androgen deprivation therapy",
         "duration of androgen deprivation therapy"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, prostate-specific antigen (PSA) level, testosterone level, Gleason score, number and location of metastases, prior androgen deprivation therapy, duration of androgen deprivation therapy."
   }
 }

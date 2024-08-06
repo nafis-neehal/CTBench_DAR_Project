@@ -40,7 +40,8 @@
         "presence of proliferative retinopathy or maculopathy",
         "presence of severe neuropathy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), duration of type 2 diabetes mellitus, glycated hemoglobin (HbA1c) levels, history of severe hypoglycemia, history of cardiovascular disorders, history of respiratory disorders, history of hepatic disorders, history of renal disorders, history of gastrointestinal disorders, history of endocrine disorders (apart from T2DM), history of hematological disorders, history of neurological disorders, history of deep vein thrombosis, presence of proliferative retinopathy or maculopathy, presence of severe neuropathy."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Glycated Hemoglobin (HbA1c), Duration of Diabetes, History of Severe Hypoglycemia,",
@@ -72,7 +73,8 @@
         "Duration of Diabetes",
         "History of Severe Hypoglycemia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Glycated Hemoglobin (HbA1c), Duration of Diabetes, History of Severe Hypoglycemia"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, HbA1c, Duration of Diabetes, History of Hypoglycaemia, Cardiovascular Disease History, Renal Impairment History,",
@@ -105,7 +107,8 @@
         "Cardiovascular Disease History",
         "Renal Impairment History"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, HbA1c, Duration of Diabetes, History of Hypoglycaemia, Cardiovascular Disease History, Renal Impairment History"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), glycated hemoglobin (HbA1c), duration of type 2 diabetes mellitus, history of severe hypoglycaemia, medical history (including cardiovascular, respiratory, hepatic, renal, gastrointestinal, endocrine, hematological, or neurological disorders).",
@@ -134,6 +137,7 @@
         "history of severe hypoglycaemia",
         "medical history (including cardiovascular, respiratory, hepatic, renal, gastrointestinal, endocrine, hematological, or neurological disorders)."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), glycated hemoglobin (HbA1c), duration of type 2 diabetes mellitus, history of severe hypoglycaemia, medical history (including cardiovascular, respiratory, hepatic, renal, gastrointestinal, endocrine, hematological, or neurological disorders)."
   }
 }

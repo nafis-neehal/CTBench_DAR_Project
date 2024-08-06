@@ -102,7 +102,8 @@
         "History of Intraocular Corticosteroid Treatment",
         "External Ocular Infection Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Duration of Diabetes, Type of Diabetes (Type 1 or Type 2), Baseline Visual Acuity, Prior Panretinal Photocoagulation, Blood Pressure, Renal Function Status, History of Insulin Use, History of Oral Anti-Hyperglycemia Agents Use, History of Major Ocular Surgery, Presence of Diabetic Macular Edema, History of Intravitreal Anti-VEGF Treatment, History of Intraocular Corticosteroid Treatment, History of YAG Capsulotomy, Aphakia Status, Glaucoma Status, External Ocular Infection Status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline Visual Acuity, Prior Panretinal Photocoagulation, Blood Pressure, HbA1c, Renal Function,",
@@ -171,7 +172,8 @@
         "Prior focal/grid laser for Diabetic Macular Edema"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline Visual Acuity, Prior Panretinal Photocoagulation, Blood Pressure, HbA1c, Renal Function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, BMI, Visual Acuity Letter Score, Retinopathy Severity Score, Presence of Vitreous Hemorrhage, Presence of Diabetic Macular Edema.",
@@ -242,7 +244,8 @@
         "Presence of Vitreous Hemorrhage",
         "Presence of Diabetic Macular Edema"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, BMI, Visual Acuity Letter Score, Retinopathy Severity Score, Presence of Vitreous Hemorrhage, Presence of Diabetic Macular Edema."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, diabetes type, duration of diabetes, hemoglobin A1c, systolic blood pressure, diastolic blood pressure, body mass index, smoking status, history of hypertension, history of hyperlipidemia, history of cardiovascular disease, history of chronic kidney disease, history of pancreas or kidney transplant, prior panretinal photocoagulation, prior intravitreous anti-vascular endothelial growth factor treatment, prior intraocular corticosteroid treatment, prior major ocular surgery, visual acuity letter score, central retinal thickness, presence of subhyaloid hemorrhage, presence of traction detachment, presence of rhegmatogenous retinal detachment, presence of neovascular glaucoma.",
@@ -325,6 +328,7 @@
         "presence of rhegmatogenous retinal detachment",
         "presence of neovascular glaucoma"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, diabetes type, duration of diabetes, hemoglobin A1c, systolic blood pressure, diastolic blood pressure, body mass index, smoking status, history of hypertension, history of hyperlipidemia, history of cardiovascular disease, history of chronic kidney disease, history of pancreas or kidney transplant, prior panretinal photocoagulation, prior intravitreous anti-vascular endothelial growth factor treatment, prior intraocular corticosteroid treatment, prior major ocular surgery, visual acuity letter score, central retinal thickness, presence of subhyaloid hemorrhage, presence of traction detachment, presence of rhegmatogenous retinal detachment, presence of neovascular glaucoma."
   }
 }

@@ -47,7 +47,8 @@
         "pregnancy status",
         "lactation status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ECOG performance status, prior systemic therapy, absolute neutrophil count (ANC), platelet count, creatinine level, creatinine clearance, total bilirubin, AST/ALT levels, thyroid stimulating hormone (TSH) levels, presence of autoimmune disease, HIV status, hepatitis B status, hepatitis C status, oxygen saturation, corticosteroid use, vaccination status, pregnancy status, lactation status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Prior systemic therapy, Absolute neutrophil count (ANC), Platelet count, Creatinine, Total bilirubin, AST/ALT, Thyroid stimulating hormone (TSH),",
@@ -83,7 +84,8 @@
         "AST/ALT",
         "Thyroid stimulating hormone (TSH)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Prior systemic therapy, Absolute neutrophil count (ANC), Platelet count, Creatinine, Total bilirubin, AST/ALT, Thyroid stimulating hormone (TSH)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior Systemic Therapy, Soft Tissue Sarcoma Histology, Metastatic or Locally Advanced Disease, Absolute Neutrophil Count, Platelet Count, Creatinine, Total Bilirubin, AST/ALT, Thyroid Stimulating Hormone.",
@@ -126,7 +128,8 @@
         "AST/ALT",
         "Thyroid Stimulating Hormone"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Prior Systemic Therapy, Soft Tissue Sarcoma Histology, Metastatic or Locally Advanced Disease, Absolute Neutrophil Count, Platelet Count, Creatinine, Total Bilirubin, AST/ALT, Thyroid Stimulating Hormone."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, life expectancy, number of prior systemic therapies, type of soft tissue sarcoma, tumor size, tumor location, presence of metastases, laboratory values (ANC, platelet count, creatinine, total bilirubin, AST/ALT, TSH), prior therapy toxic effects, time since diagnosis.",
@@ -172,6 +175,7 @@
         "prior therapy toxic effects",
         "time since diagnosis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, life expectancy, number of prior systemic therapies, type of soft tissue sarcoma, tumor size, tumor location, presence of metastases, laboratory values (ANC, platelet count, creatinine, total bilirubin, AST/ALT, TSH), prior therapy toxic effects, time since diagnosis."
   }
 }

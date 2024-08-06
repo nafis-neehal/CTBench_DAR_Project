@@ -49,7 +49,8 @@
         "dietary habits",
         "psychological status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, BMI at baseline, type of bariatric surgery, time since surgery, baseline health-related quality of life (HRQoL) scores, comorbid conditions, medication use, socioeconomic status, education level, smoking status, alcohol use, physical activity level, dietary habits, psychological status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Type of Bariatric Surgery, Time Since Surgery, Baseline Health-Related Quality of Life (HRQoL) Scores,",
@@ -94,7 +95,8 @@
       "remaining_candidate_features": [
         "Race/Ethnicity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Type of Bariatric Surgery, Time Since Surgery, Baseline Health-Related Quality of Life (HRQoL) Scores"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Type of Bariatric Surgery, Time Since Surgery, Pre-Surgery BMI, Pre-Surgery Comorbidities,",
@@ -138,7 +140,8 @@
         "Pre-Surgery BMI",
         "Pre-Surgery Comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, Region of Enrollment, Type of Bariatric Surgery, Time Since Surgery, Pre-Surgery BMI, Pre-Surgery Comorbidities"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, BMI, type of bariatric surgery, time since surgery, comorbidities (e.g. diabetes, hypertension, sleep apnea), smoking status, education level, employment status, marital status.",
@@ -185,6 +188,7 @@
         "employment status",
         "marital status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, BMI, type of bariatric surgery, time since surgery, comorbidities (e.g. diabetes, hypertension, sleep apnea), smoking status, education level, employment status, marital status."
   }
 }

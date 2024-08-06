@@ -59,7 +59,8 @@
         "presence of cardiovascular disease",
         "duration of chronic kidney disease (CKD)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, baseline systolic blood pressure, baseline diastolic blood pressure, baseline glomerular filtration rate (GFR), use of antihypertensive drugs, presence of diabetes, presence of cardiovascular disease, body mass index (BMI), smoking status, duration of chronic kidney disease (CKD)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Baseline GFR, Use of Antihypertensive Drugs, History of Cardiovascular Events,",
@@ -115,7 +116,8 @@
         "Use of Antihypertensive Drugs",
         "History of Cardiovascular Events"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Baseline GFR, Use of Antihypertensive Drugs, History of Cardiovascular Events"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Calculated glomerular filtration rate, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, Antihypertensive medication use, History of myocardial infarction, History of heart failure hospitalization, History of stroke.",
@@ -176,7 +178,8 @@
         "History of heart failure hospitalization",
         "History of stroke."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Calculated glomerular filtration rate, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, Antihypertensive medication use, History of myocardial infarction, History of heart failure hospitalization, History of stroke."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, weight, height, body mass index (BMI), calculated glomerular filtration rate (GFR), systolic and diastolic blood pressure, number and type of antihypertensive drugs, presence of comorbidities (e.g. diabetes, cardiovascular disease), smoking status, serum creatinine, potassium, and sodium levels.",
@@ -243,6 +246,7 @@
         "potassium",
         "sodium levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, weight, height, body mass index (BMI), calculated glomerular filtration rate (GFR), systolic and diastolic blood pressure, number and type of antihypertensive drugs, presence of comorbidities (e.g. diabetes, cardiovascular disease), smoking status, serum creatinine, potassium, and sodium levels."
   }
 }

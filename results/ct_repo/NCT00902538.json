@@ -43,7 +43,8 @@
         "concomitant medications",
         "pregnancy status (for females)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline seated systolic blood pressure (SeSBP), baseline seated diastolic blood pressure (SeDBP), current antihypertensive medication use, duration of hypertension, body mass index (BMI), heart rate, history of cardiovascular events, renal function, liver function tests (AST, ALT, GGT), potassium levels, smoking status, alcohol consumption, concomitant medications, race/ethnicity, pregnancy status (for females)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Seated Systolic Blood Pressure (SeSBP), Baseline Seated Diastolic Blood Pressure (SeDBP), Heart Rate, Existing Cardiovascular Disease, Baseline Antihypertensive Medication Use, Body Mass Index,",
@@ -83,7 +84,8 @@
         "Existing Cardiovascular Disease",
         "Baseline Antihypertensive Medication Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Seated Systolic Blood Pressure (SeSBP), Baseline Seated Diastolic Blood Pressure (SeDBP), Heart Rate, Existing Cardiovascular Disease, Baseline Antihypertensive Medication Use, Body Mass Index"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, History of Cardiovascular Disease, History of Diabetes, History of Kidney Disease, History of Liver Disease, Current Smoker, Current Antihypertensive Medication Use.",
@@ -125,7 +127,8 @@
         "Current Smoker",
         "Current Antihypertensive Medication Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, History of Cardiovascular Disease, History of Diabetes, History of Kidney Disease, History of Liver Disease, Current Smoker, Current Antihypertensive Medication Use."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, body mass index (BMI), systolic blood pressure (SeSBP), diastolic blood pressure (SeDBP), heart rate, medical history (including hypertension, cardiovascular disease, cerebrovascular disease, renal disease, respiratory disease, hepatic disease, gastrointestinal disease, endocrine disease, metabolic disease, haematological disease, oncological disease, neurological disease, psychiatric disease), concomitant medications, duration of hypertension, number of antihypertensive medications used, laboratory values (including AST, ALT, GGT, potassium).",
@@ -164,6 +167,7 @@
         "number of antihypertensive medications used",
         "laboratory values (including AST, ALT, GGT, potassium)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, body mass index (BMI), systolic blood pressure (SeSBP), diastolic blood pressure (SeDBP), heart rate, medical history (including hypertension, cardiovascular disease, cerebrovascular disease, renal disease, respiratory disease, hepatic disease, gastrointestinal disease, endocrine disease, metabolic disease, haematological disease, oncological disease, neurological disease, psychiatric disease), concomitant medications, duration of hypertension, number of antihypertensive medications used, laboratory values (including AST, ALT, GGT, potassium)."
   }
 }

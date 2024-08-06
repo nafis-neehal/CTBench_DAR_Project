@@ -44,7 +44,8 @@
         "Physical activity level",
         "Heart rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Cancer diagnosis (type and stage), Duration since cancer treatment completion, Diabetes diagnosis (duration), Hypertension diagnosis (duration), Annual household income, Baseline fatigue level, Physical activity level, Heart rate, Resilience score, Physical well-being score, Mental well-being score."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Diagnosis Duration, Diabetes Diagnosis Duration, Hypertension Diagnosis Duration, Annual Household Income, Baseline Fatigue Level, Baseline Physical Activity Level,",
@@ -87,7 +88,8 @@
         "Hypertension Diagnosis Duration",
         "Annual Household Income"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Diagnosis Duration, Diabetes Diagnosis Duration, Hypertension Diagnosis Duration, Annual Household Income, Baseline Fatigue Level, Baseline Physical Activity Level"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes diagnosis duration, Cancer diagnosis duration, Hypertension diagnosis duration, Fatigue level, Annual household income,",
@@ -130,7 +132,8 @@
         "Hypertension diagnosis duration",
         "Annual household income"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes diagnosis duration, Cancer diagnosis duration, Hypertension diagnosis duration, Fatigue level, Annual household income"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, body mass index (BMI), annual household income, cancer type, cancer treatment type, duration since cancer treatment, diabetes type, hypertension type, duration of diabetes and hypertension, fatigue level, presence of comorbidities, psychological disorder history.",
@@ -177,6 +180,7 @@
         "presence of comorbidities",
         "psychological disorder history"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, body mass index (BMI), annual household income, cancer type, cancer treatment type, duration since cancer treatment, diabetes type, hypertension type, duration of diabetes and hypertension, fatigue level, presence of comorbidities, psychological disorder history."
   }
 }

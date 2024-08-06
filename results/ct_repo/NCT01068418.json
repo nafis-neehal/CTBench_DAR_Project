@@ -36,7 +36,8 @@
         "Dietary intake",
         "Baseline renin-angiotensin system activity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Creatinine level, 25-hydroxyvitamin D level, BMI, Blood pressure, Gender, Ethnicity, Smoking status, Physical activity level, Dietary intake, Baseline renin-angiotensin system activity"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Serum 25-hydroxyvitamin D, Serum Creatinine,",
@@ -73,7 +74,8 @@
         "Diastolic Blood Pressure",
         "Serum Creatinine"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Serum 25-hydroxyvitamin D, Serum Creatinine"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, 25-hydroxyvitamin D, Creatinine, Parathyroid Hormone, Calcium, Phosphorus,",
@@ -120,7 +122,8 @@
         "Creatinine",
         "Phosphorus"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, 25-hydroxyvitamin D, Creatinine, Parathyroid Hormone, Calcium, Phosphorus"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, BMI, 25-hydroxyvitamin D level, Cr level, systolic blood pressure, diastolic blood pressure, mean arterial blood pressure, heart rate.",
@@ -155,6 +158,7 @@
         "diastolic blood pressure",
         "heart rate"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, BMI, 25-hydroxyvitamin D level, Cr level, systolic blood pressure, diastolic blood pressure, mean arterial blood pressure, heart rate."
   }
 }

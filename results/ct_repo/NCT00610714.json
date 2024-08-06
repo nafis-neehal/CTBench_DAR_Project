@@ -38,7 +38,8 @@
         "disease stage at diagnosis",
         "presence of BRCA mutation"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, prior chemotherapy regimens, baseline tumor size, baseline CA-125 levels, baseline liver function tests, baseline renal function tests, baseline hemoglobin levels, baseline bone marrow reserve, time since last platinum-containing therapy, disease stage at diagnosis, presence of BRCA mutation."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Stage of Ovarian Cancer at Diagnosis, Time Since Last Platinum Therapy, Number of Prior Chemotherapy Regimens, Baseline CA-125 Levels, Performance Status, Hemoglobin Levels, Liver Function Tests, Renal Function Tests, ",
@@ -73,7 +74,8 @@
         "Liver Function Tests",
         "Renal Function Tests"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Stage of Ovarian Cancer at Diagnosis, Time Since Last Platinum Therapy, Number of Prior Chemotherapy Regimens, Baseline CA-125 Levels, Performance Status, Hemoglobin Levels, Liver Function Tests, Renal Function Tests"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, Ethnicity (Customized), Region of Enrollment, ECOG Performance Status, Prior chemotherapy regimens, Time since last platinum-based therapy, CA-125 level, Histological subtype of ovarian cancer.",
@@ -106,7 +108,8 @@
         "Prior chemotherapy regimens",
         "Time since last platinum-based therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Region of Enrollment, ECOG Performance Status, Prior chemotherapy regimens, Time since last platinum-based therapy, CA-125 level, Histological subtype of ovarian cancer."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, time since diagnosis, time since last treatment, number of prior chemotherapy regimens, platinum-free interval, cancer antigen 125 (CA-125) levels, hemoglobin levels, platelet count, white blood cell count, creatinine levels, bilirubin levels, albumin levels, presence of ascites, presence of bowel obstruction.",
@@ -153,6 +156,7 @@
         "presence of ascites",
         "presence of bowel obstruction"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, time since diagnosis, time since last treatment, number of prior chemotherapy regimens, platinum-free interval, cancer antigen 125 (CA-125) levels, hemoglobin levels, platelet count, white blood cell count, creatinine levels, bilirubin levels, albumin levels, presence of ascites, presence of bowel obstruction."
   }
 }

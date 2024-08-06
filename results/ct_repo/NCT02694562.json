@@ -54,7 +54,8 @@
         "Anticoagulation status",
         "Expected survival"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, ECOG performance status, Child-Pugh classification, Tumor burden in liver, Number of prior chemotherapy lines, Presence of bilobar disease, White Blood Cell (WBC) count, Absolute neutrophil count, International Normalized Ratio (INR), Partial Thromboplastin Time (PTT), Platelet count, Blood bilirubin level, Aspartate Aminotransferase (AST) level, Alanine Aminotransferase (ALT) level, Serum creatinine level, Hemoglobin level, Alkaline phosphatase level, Coronary artery disease status, Electrocardiogram (ECG) results, Infection status, Anticoagulation status, Expected survival."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Child-Pugh classification, Tumor burden, Previous chemotherapy regimens, White Blood Cell (WBC) count, Absolute neutrophil count, Platelet count, Blood bilirubin, Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), Serum creatinine, Hemoglobin, Alkaline phosphatase, Electrocardiogram (ECG) results,",
@@ -110,7 +111,8 @@
         "Alkaline phosphatase",
         "Electrocardiogram (ECG) results"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG performance status, Child-Pugh classification, Tumor burden, Previous chemotherapy regimens, White Blood Cell (WBC) count, Absolute neutrophil count, Platelet count, Blood bilirubin, Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), Serum creatinine, Hemoglobin, Alkaline phosphatase, Electrocardiogram (ECG) results"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Child-Pugh Classification, Liver Tumor Burden, Number of Prior Chemotherapy Regimens, Prior Chemotherapy Agents, Baseline Tumor Size, Baseline Laboratory Values (WBC, ANC, INR, PTT, Platelet Count, Bilirubin, AST, ALT, Creatinine, Hemoglobin, Alkaline Phosphatase).",
@@ -159,7 +161,8 @@
         "Baseline Tumor Size",
         "Baseline Laboratory Values (WBC, ANC, INR, PTT, Platelet Count, Bilirubin, AST, ALT, Creatinine, Hemoglobin, Alkaline Phosphatase)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Child-Pugh Classification, Liver Tumor Burden, Number of Prior Chemotherapy Regimens, Prior Chemotherapy Agents, Baseline Tumor Size, Baseline Laboratory Values (WBC, ANC, INR, PTT, Platelet Count, Bilirubin, AST, ALT, Creatinine, Hemoglobin, Alkaline Phosphatase)."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ECOG performance status, Child-Pugh classification, tumor size, tumor location, number of tumors, liver tumor burden, prior chemotherapy regimens, prior surgical interventions, WBC count, absolute neutrophil count, INR, PTT, platelet count, blood bilirubin, AST, ALT, serum creatinine, hemoglobin, alkaline phosphatase, QT interval, presence of coronary artery disease, presence of myocardial infarction, presence of infections, presence of bleeding disorders, expected survival.",
@@ -221,6 +224,7 @@
         "presence of bleeding disorders",
         "expected survival"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ECOG performance status, Child-Pugh classification, tumor size, tumor location, number of tumors, liver tumor burden, prior chemotherapy regimens, prior surgical interventions, WBC count, absolute neutrophil count, INR, PTT, platelet count, blood bilirubin, AST, ALT, serum creatinine, hemoglobin, alkaline phosphatase, QT interval, presence of coronary artery disease, presence of myocardial infarction, presence of infections, presence of bleeding disorders, expected survival."
   }
 }

@@ -36,7 +36,8 @@
         "use of inotropes/pressors",
         "chronic illness status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, infection status, pregnancy status (if applicable), liver function tests (AST, ALT, total bilirubin), serum creatinine, use of neuromuscular blockers, use of prohibited medications or herbal products, use of extracorporeal life support (ECLS), post-cardiac bypass status, use of inotropes/pressors, chronic illness status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), Total Bilirubin, Serum Creatinine, Infection Status, Contraceptive Measures,",
@@ -71,7 +72,8 @@
         "Infection Status",
         "Contraceptive Measures"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), Total Bilirubin, Serum Creatinine, Infection Status, Contraceptive Measures"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Weight, Height, Infection Status, Prior Antibiotic Use,",
@@ -107,7 +109,8 @@
         "Infection Status",
         "Prior Antibiotic Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Weight, Height, Infection Status, Prior Antibiotic Use"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, weight, height, BMI, race, ethnicity, medical history of bacterial infections, medical history of obesity, concomitant medications, serum pregnancy test results, AST, ALT, total bilirubin, serum creatinine.",
@@ -150,6 +153,7 @@
         "total bilirubin",
         "serum creatinine"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, weight, height, BMI, race, ethnicity, medical history of bacterial infections, medical history of obesity, concomitant medications, serum pregnancy test results, AST, ALT, total bilirubin, serum creatinine."
   }
 }

@@ -40,7 +40,8 @@
         "sum of the diameter(s) of the lesion(s)",
         "presence of uncontrolled intercurrent illness."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, diagnosis (type of liver malignancy), history of liver resection, history of cirrhosis, history of fatty liver disease, history of hepatic insufficiency, prior radiation to the upper abdomen, ECOG Performance Status, Child-Turcotte-Pugh (CTP) score, prior liver-directed therapies, allergy to contrast agents, pregnancy status, number of lesions, sum of the diameter(s) of the lesion(s), presence of uncontrolled intercurrent illness."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Child-Turcotte-Pugh (CTP) score, History of liver resection, History of cirrhosis, History of fatty liver disease, History of hepatic insufficiency, Prior radiation to the upper abdomen, Number of liver lesions, Sum of the diameter(s) of the lesion(s),",
@@ -87,7 +88,8 @@
         "Number of liver lesions",
         "Sum of the diameter(s) of the lesion(s)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Child-Turcotte-Pugh (CTP) score, History of liver resection, History of cirrhosis, History of fatty liver disease, History of hepatic insufficiency, Prior radiation to the upper abdomen, Number of liver lesions, Sum of the diameter(s) of the lesion(s)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Child-Turcotte-Pugh score, Liver function tests, Prior liver-directed therapies, Number and size of liver lesions,",
@@ -130,7 +132,8 @@
         "Prior liver-directed therapies",
         "Number and size of liver lesions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Child-Turcotte-Pugh score, Liver function tests, Prior liver-directed therapies, Number and size of liver lesions"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, diagnosis (primary liver malignancy, liver metastasis, HCC, cholangiocarcinoma), ECOG Performance Status, Child-Turcotte-Pugh score, history of liver resection, history of cirrhosis, fatty liver disease, hepatic insufficiency, prior radiation to the upper abdomen, prior liver-directed therapies, number and size of lesions, presence of comorbidities (uncontrolled intercurrent illness, ongoing or active infection, upper GI ulceration or hemorrhage, congestive heart failure, unstable angina pectoris, cardiac arrhythmia, psychiatric illness).",
@@ -168,6 +171,7 @@
         "number and size of lesions",
         "presence of comorbidities (uncontrolled intercurrent illness, ongoing or active infection, upper GI ulceration or hemorrhage, congestive heart failure, unstable angina pectoris, cardiac arrhythmia, psychiatric illness)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, diagnosis (primary liver malignancy, liver metastasis, HCC, cholangiocarcinoma), ECOG Performance Status, Child-Turcotte-Pugh score, history of liver resection, history of cirrhosis, fatty liver disease, hepatic insufficiency, prior radiation to the upper abdomen, prior liver-directed therapies, number and size of lesions, presence of comorbidities (uncontrolled intercurrent illness, ongoing or active infection, upper GI ulceration or hemorrhage, congestive heart failure, unstable angina pectoris, cardiac arrhythmia, psychiatric illness)."
   }
 }

@@ -41,7 +41,8 @@
         "alcohol use",
         "comorbid conditions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gestational age, BMI, baseline serum magnesium level, renal function, race/ethnicity, blood pressure, parity, history of preeclampsia, medication use, smoking status, alcohol use, comorbid conditions."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Gestational Age, Blood Pressure, Serum Magnesium Levels, Renal Function,",
@@ -78,7 +79,8 @@
         "Serum Magnesium Levels",
         "Renal Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Body Mass Index, Gestational Age, Blood Pressure, Serum Magnesium Levels, Renal Function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, BMI, Gestational Age, Parity, Ethnicity (NIH/OMB), Region of Enrollment, History of Preeclampsia, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -116,7 +118,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Gestational Age, Parity, Ethnicity (NIH/OMB), Region of Enrollment, History of Preeclampsia, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, BMI, gestational age, parity, ethnicity, race, height, weight, medical history of hypertension, medical history of diabetes, smoking status.",
@@ -154,6 +157,7 @@
         "medical history of diabetes",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, gestational age, parity, ethnicity, race, height, weight, medical history of hypertension, medical history of diabetes, smoking status."
   }
 }

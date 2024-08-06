@@ -36,7 +36,8 @@
         "pregnancy status",
         "lactation status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ECOG performance status, type of cancer (ovarian, breast, prostate, pancreas, gastric, other solid tumors), BRCA mutation status (BRCA1 or BRCA2), prior treatments (chemotherapy, radiotherapy, surgery), organ function (leukocytes, absolute neutrophil count, platelets, total bilirubin, AST/ALT levels, creatinine levels or creatinine clearance), life expectancy, HER2 status for breast and ovarian cancer patients, concurrent medications, presence of brain metastases, HIV status, use of anticoagulants, pregnancy status, lactation status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Type of Cancer, BRCA Mutation Status, Prior Chemotherapy, Prior Radiotherapy, Platelet Count, Absolute Neutrophil Count, Total Bilirubin, AST/ALT Levels, Creatinine Levels, Life Expectancy,",
@@ -78,7 +79,8 @@
         "Creatinine Levels",
         "Life Expectancy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Type of Cancer, BRCA Mutation Status, Prior Chemotherapy, Prior Radiotherapy, Platelet Count, Absolute Neutrophil Count, Total Bilirubin, AST/ALT Levels, Creatinine Levels, Life Expectancy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, BRCA Mutation Status, Tumor Type, Prior Chemotherapy Regimens, Prior Radiation Therapy, Prior Surgery, Baseline Efficacy Measures (e.g. tumor size, biomarkers), Organ Function (e.g. liver, kidney), Concomitant Medications.",
@@ -120,7 +122,8 @@
         "Organ Function (e.g. liver, kidney)",
         "Concomitant Medications."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, BRCA Mutation Status, Tumor Type, Prior Chemotherapy Regimens, Prior Radiation Therapy, Prior Surgery, Baseline Efficacy Measures (e.g. tumor size, biomarkers), Organ Function (e.g. liver, kidney), Concomitant Medications."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, BRCA mutation status, tumor type, prior therapy, platinum sensitivity, life expectancy, leukocytes, absolute neutrophil count, platelets, total bilirubin, AST, ALT, creatinine, creatinine clearance.",
@@ -164,6 +167,7 @@
         "creatinine",
         "creatinine clearance"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, BRCA mutation status, tumor type, prior therapy, platinum sensitivity, life expectancy, leukocytes, absolute neutrophil count, platelets, total bilirubin, AST, ALT, creatinine, creatinine clearance."
   }
 }

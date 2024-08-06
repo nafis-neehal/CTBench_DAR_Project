@@ -39,7 +39,8 @@
         "prior treatments for prostate cancer",
         "baseline testosterone levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, body weight, height, baseline prostate-specific antigen (PSA) levels, baseline liver function tests, baseline vital signs, medical history, prior treatments for prostate cancer, duration of prostate cancer diagnosis, baseline testosterone levels."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Body Weight, Vital Signs, Liver Function Tests, Duration of Prostate Cancer, Previous Treatments, Baseline PSA Levels, ",
@@ -77,7 +78,8 @@
         "Previous Treatments",
         "Baseline PSA Levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, Body Weight, Vital Signs, Liver Function Tests, Duration of Prostate Cancer, Previous Treatments, Baseline PSA Levels"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, Race/Ethnicity, Customized, Region of Enrollment, Prostate cancer diagnosis duration, Previous treatment for prostate cancer, PSA level, Gleason score, \n\n##Question:\n##Answer:",
@@ -116,7 +118,8 @@
         "Previous treatment for prostate cancer",
         "PSA level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Race/Ethnicity, Region of Enrollment, Prostate cancer diagnosis duration, Previous treatment for prostate cancer, PSA level, Gleason score, ##Question:"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), prostate-specific antigen (PSA) level, Gleason score, prostate cancer stage, duration of prostate cancer, previous prostate cancer treatments, medical history, concomitant medications, vital signs (heart rate, blood pressure, temperature), body weight, liver function tests (aspartate aminotransferase (AST), alanine aminotransferase (ALT), bilirubin).",
@@ -165,6 +168,7 @@
         "vital signs (heart rate, blood pressure, temperature)",
         "liver function tests (aspartate aminotransferase (AST), alanine aminotransferase (ALT), bilirubin)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), prostate-specific antigen (PSA) level, Gleason score, prostate cancer stage, duration of prostate cancer, previous prostate cancer treatments, medical history, concomitant medications, vital signs (heart rate, blood pressure, temperature), body weight, liver function tests (aspartate aminotransferase (AST), alanine aminotransferase (ALT), bilirubin)."
   }
 }

@@ -54,7 +54,8 @@
         "contraindications to trial arms",
         "plan to terminate pregnancy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gestational age, pre-existing hypertension, gestational hypertension, diastolic blood pressure, systolic blood pressure, use of antihypertensive therapy, proteinuria, live foetus status, multiple gestation status, foetal anomaly status, prior participation in CHIPS, use of ACE inhibitor, contraindications to trial arms, plan to terminate pregnancy."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Gestational Age, Continuous, Pre-existing Hypertension, Gestational Hypertension, Diastolic Blood Pressure, Systolic Blood Pressure, Proteinuria, Use of Antihypertensive Therapy, Live Foetus Confirmation,",
@@ -106,7 +107,8 @@
         "Gestational diabetes at enrollment"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, Gestational Age, Pre-existing Hypertension, Gestational Hypertension, Diastolic Blood Pressure, Systolic Blood Pressure, Proteinuria, Use of Antihypertensive Therapy, Live Foetus Confirmation"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gestation at Randomization, Parity, Ethnicity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Proteinuria, Pre-existing Hypertension, Antihypertensive Therapy.",
@@ -149,7 +151,8 @@
         "Diastolic Blood Pressure",
         "Proteinuria"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gestation at Randomization, Parity, Ethnicity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Proteinuria, Pre-existing Hypertension, Antihypertensive Therapy."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, body mass index (BMI), parity, gestational age at randomization, systolic blood pressure (sBP) at randomization, diastolic blood pressure (dBP) at randomization, presence of pre-existing hypertension, presence of proteinuria, use of antihypertensive therapy at randomization.",
@@ -201,6 +204,7 @@
         "race",
         "ethnicity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, body mass index (BMI), parity, gestational age at randomization, systolic blood pressure (sBP) at randomization, diastolic blood pressure (dBP) at randomization, presence of pre-existing hypertension, presence of proteinuria, use of antihypertensive therapy at randomization."
   }
 }

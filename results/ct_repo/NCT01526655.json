@@ -43,7 +43,8 @@
         "Physical disability status",
         "Mental disability status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Performance status (WHO), DNA profile (diploid), Proficiency in Swedish, Informed consent status, Type of hysterectomy (robot assisted laparoscopic or abdominal), FIGO stage, Grade of endometrial carcinoma, Eligibility for spinal anesthesia, Physical disability status, Mental disability status, Psychiatric disease status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, WHO performance status, FIGO stage, DNA profile,",
@@ -91,7 +92,8 @@
       "remaining_candidate_features": [
         "Race/Ethnicity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, WHO performance status, FIGO stage, DNA profile"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Performance Status (WHO), Body Mass Index, Comorbidities, Previous abdominal surgery, Tumor stage, Tumor grade, DNA ploidy,",
@@ -138,7 +140,8 @@
         "Tumor grade",
         "DNA ploidy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Performance Status (WHO), Body Mass Index, Comorbidities, Previous abdominal surgery, Tumor stage, Tumor grade, DNA ploidy"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, WHO performance status, FIGO stage, tumor grade, DNA ploidy, body mass index (BMI), comorbidities, previous abdominal surgery, smoking status, American Society of Anesthesiologists (ASA) physical status classification.",
@@ -186,6 +189,7 @@
         "tumor grade",
         "DNA ploidy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, WHO performance status, FIGO stage, tumor grade, DNA ploidy, body mass index (BMI), comorbidities, previous abdominal surgery, smoking status, American Society of Anesthesiologists (ASA) physical status classification."
   }
 }

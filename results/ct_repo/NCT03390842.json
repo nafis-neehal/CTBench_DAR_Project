@@ -41,7 +41,8 @@
         "baseline body mass index (BMI)",
         "baseline blood pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline blood bicarbonate level, baseline serum calcium level, baseline kidney function (e.g., eGFR), history of chronic kidney disease, history of metabolic acidosis, concomitant medications, baseline body mass index (BMI), baseline blood pressure."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Blood bicarbonate level, Serum calcium level, History of gastrointestinal disorders, Use of renal replacement therapy,",
@@ -87,7 +88,8 @@
         "Region of Enrollment",
         "Serum calcium level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Blood bicarbonate level, Serum calcium level, History of gastrointestinal disorders, Use of renal replacement therapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Blood Bicarbonate Level, Serum Calcium Level, Estimated Glomerular Filtration Rate, Diabetic Gastroparesis, History of Bowel Obstruction, Swallowing Disorders, Severe Gastrointestinal Disorders, Inflammatory Bowel Disease, Major Gastrointestinal Surgery, Active Gastric/Duodenal Ulcers.",
@@ -136,7 +138,8 @@
         "Major Gastrointestinal Surgery",
         "Active Gastric/Duodenal Ulcers."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Blood Bicarbonate Level, Serum Calcium Level, Estimated Glomerular Filtration Rate, Diabetic Gastroparesis, History of Bowel Obstruction, Swallowing Disorders, Severe Gastrointestinal Disorders, Inflammatory Bowel Disease, Major Gastrointestinal Surgery, Active Gastric/Duodenal Ulcers."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), blood bicarbonate level, serum calcium level, estimated glomerular filtration rate (eGFR), chronic kidney disease (CKD) stage, history of diabetic gastroparesis, bowel obstruction, swallowing disorders, severe gastrointestinal disorders, inflammatory bowel disease, major gastrointestinal surgery, active gastric/duodenal ulcers, history of acute kidney injury, history of renal replacement therapy.",
@@ -185,6 +188,7 @@
         "history of acute kidney injury",
         "history of renal replacement therapy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), blood bicarbonate level, serum calcium level, estimated glomerular filtration rate (eGFR), chronic kidney disease (CKD) stage, history of diabetic gastroparesis, bowel obstruction, swallowing disorders, severe gastrointestinal disorders, inflammatory bowel disease, major gastrointestinal surgery, active gastric/duodenal ulcers, history of acute kidney injury, history of renal replacement therapy."
   }
 }

@@ -35,7 +35,8 @@
         "medication use",
         "baseline quality of life (QOL) score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of spinal cord injury, level of spinal cord injury, baseline fasting glucose, baseline fasting insulin, baseline HOMA score, baseline bone turnover markers, baseline muscle gene expression levels, body mass index (BMI), comorbid conditions, medication use, baseline quality of life (QOL) score."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Spinal Cord Injury, Baseline Fasting Glucose, Baseline Fasting Insulin, Baseline HOMA Score, Baseline Bone Turnover Markers,",
@@ -72,7 +73,8 @@
         "Baseline HOMA Score",
         "Baseline Bone Turnover Markers"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Spinal Cord Injury, Baseline Fasting Glucose, Baseline Fasting Insulin, Baseline HOMA Score, Baseline Bone Turnover Markers"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Level of Spinal Cord Injury, Duration of Spinal Cord Injury, Body Mass Index, Fasting Glucose, Fasting Insulin, HOMA Score, Osteocalcin.",
@@ -111,7 +113,8 @@
         "HOMA Score",
         "Osteocalcin"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Level of Spinal Cord Injury, Duration of Spinal Cord Injury, Body Mass Index, Fasting Glucose, Fasting Insulin, HOMA Score, Osteocalcin."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), duration of spinal cord injury, American Spinal Injury Association (ASIA) Impairment Scale (AIS) classification, level of spinal cord injury, presence of comorbidities (e.g., diabetes, hypertension, cardiovascular disease), smoking status, physical activity level, medication use (e.g., anti-osteoporosis, diabetes medications).",
@@ -144,6 +147,7 @@
         "physical activity level",
         "medication use (e.g., anti-osteoporosis, diabetes medications)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), duration of spinal cord injury, American Spinal Injury Association (ASIA) Impairment Scale (AIS) classification, level of spinal cord injury, presence of comorbidities (e.g., diabetes, hypertension, cardiovascular disease), smoking status, physical activity level, medication use (e.g., anti-osteoporosis, diabetes medications)."
   }
 }

@@ -32,7 +32,8 @@
         "history of severe hypoglycemia",
         "history of emergency room visits or hospitalizations due to poor glucose control."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of type 1 diabetes, baseline HbA1c, body mass index (BMI), total daily insulin dose, type of insulin pump used, history of severe hypoglycemia, history of emergency room visits or hospitalizations due to poor glucose control."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, Type of Insulin Pump Used, Frequency of Hypoglycemia, Frequency of Hyperglycemia,",
@@ -71,7 +72,8 @@
         "Frequency of Hypoglycemia",
         "Frequency of Hyperglycemia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, Type of Insulin Pump Used, Frequency of Hypoglycemia, Frequency of Hyperglycemia"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, Insulin pump usage duration, Current insulin dose, HbA1c, Body Mass Index, Blood pressure, Total daily insulin dose,",
@@ -108,7 +110,8 @@
         "Blood pressure",
         "Total daily insulin dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, Insulin pump usage duration, Current insulin dose, HbA1c, Body Mass Index, Blood pressure, Total daily insulin dose"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, duration of type 1 diabetes, duration of insulin pump therapy, type of insulin pump used, average daily insulin dose, body mass index (BMI), HbA1c at baseline, fasting plasma glucose at baseline, history of severe hypoglycemia, history of diabetic ketoacidosis.",
@@ -149,6 +152,7 @@
         "history of severe hypoglycemia",
         "history of diabetic ketoacidosis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, duration of type 1 diabetes, duration of insulin pump therapy, type of insulin pump used, average daily insulin dose, body mass index (BMI), HbA1c at baseline, fasting plasma glucose at baseline, history of severe hypoglycemia, history of diabetic ketoacidosis."
   }
 }

@@ -39,7 +39,8 @@
         "physician years in practice",
         "physician specialty"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, type of cancer, stage of cancer, duration since diagnosis, treatment history, performance status, quality of life score, caregiver relationship to patient, caregiver age, caregiver gender, physician years in practice, physician specialty, physician gender."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Cancer, Stage of Cancer, Quality of Life, Caregiver Status, Physician Specialty, Physician Years in Practice,",
@@ -77,7 +78,8 @@
         "Physician Specialty",
         "Physician Years in Practice"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Cancer, Stage of Cancer, Quality of Life, Caregiver Status, Physician Specialty, Physician Years in Practice"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Diagnosis, Time Since Diagnosis, Type of Cancer, Performance Status, Caregiver Status,",
@@ -114,7 +116,8 @@
         "Performance Status",
         "Caregiver Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Diagnosis, Time Since Diagnosis, Type of Cancer, Performance Status, Caregiver Status"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, education level, occupation, marital status, cancer type, cancer stage, time since diagnosis, prior treatment, performance status, quality of life, caregiver burden, relationship to patient (for caregivers).",
@@ -152,6 +155,7 @@
         "caregiver burden",
         "relationship to patient (for caregivers)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, education level, occupation, marital status, cancer type, cancer stage, time since diagnosis, prior treatment, performance status, quality of life, caregiver burden, relationship to patient (for caregivers)."
   }
 }

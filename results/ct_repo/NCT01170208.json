@@ -66,7 +66,8 @@
         "insulin regimen (type and dosage)",
         "use of other diabetes agents"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, type of diabetes (Type 1 or Type 2), duration of diabetes, baseline HgbA1c, insulin regimen (type and dosage), use of other diabetes agents, body mass index (BMI), history of hypoglycemia, cardiovascular disease history, renal function (serum creatinine level or eGFR), liver function (AST and ALT levels), presence of anemia, cancer history, pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Type, Baseline HbA1c, Total Daily Insulin Dose, Body Mass Index, Blood Pressure, Duration of Diabetes, Number of Hypoglycemic Episodes, Use of Other Diabetes Agents,",
@@ -108,7 +109,8 @@
         "Number of Hypoglycemic Episodes",
         "Use of Other Diabetes Agents"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Type, Baseline HbA1c, Total Daily Insulin Dose, Body Mass Index, Blood Pressure, Duration of Diabetes, Number of Hypoglycemic Episodes, Use of Other Diabetes Agents"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Type, Duration of Diabetes, HbA1c, Insulin Dose, BMI, History of Hypoglycemia, Cardiovascular Disease History, Renal Disease History, Liver Disease History, Cancer History.",
@@ -169,7 +171,8 @@
         "Duration of Diabetes",
         "Insulin Dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes Type, Duration of Diabetes, HbA1c, Insulin Dose, BMI, History of Hypoglycemia, Cardiovascular Disease History, Renal Disease History, Liver Disease History, Cancer History."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, type of diabetes (type 1 or type 2), HgbA1c, insulin regimen, total daily insulin dose, insulin/carbohydrate ratio, history of hypoglycemic episodes, history of cardiovascular disease, history of renal disease, history of liver disease, history of cancer, use of other diabetes agents.",
@@ -214,6 +217,7 @@
         "history of cancer",
         "use of other diabetes agents."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, type of diabetes (type 1 or type 2), HgbA1c, insulin regimen, total daily insulin dose, insulin/carbohydrate ratio, history of hypoglycemic episodes, history of cardiovascular disease, history of renal disease, history of liver disease, history of cancer, use of other diabetes agents."
   }
 }

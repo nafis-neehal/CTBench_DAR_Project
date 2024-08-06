@@ -41,7 +41,8 @@
         "baseline physical exam results",
         "baseline laboratory investigation results."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, type of diabetes (Type I or II), DUSS score, DFI wound score, number of ulcers, ulcer size, use of birth control (for females of childbearing age), surgical sterility status (for females), menopausal status (for females), baseline blood collection results, baseline physical exam results, baseline laboratory investigation results."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Diabetes (Type I or II), Duration of Diabetes, DUSS Score, Number of Ulcers, Ulcer Area, Use of Antibiotics, Use of Immunosuppressive Agents, Body Temperature,",
@@ -85,7 +86,8 @@
         "Use of Immunosuppressive Agents",
         "Body Temperature"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Diabetes (Type I or II), Duration of Diabetes, DUSS Score, Number of Ulcers, Ulcer Area, Use of Antibiotics, Use of Immunosuppressive Agents, Body Temperature"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Type, Diabetes Duration, Body Mass Index, HbA1c, DUSS Score, DFI Wound Score, Ulcer Area, Ulcer Duration, History of Previous Ulceration, History of Previous Amputation.",
@@ -133,7 +135,8 @@
         "History of Previous Ulceration",
         "History of Previous Amputation"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Type, Diabetes Duration, Body Mass Index, HbA1c, DUSS Score, DFI Wound Score, Ulcer Area, Ulcer Duration, History of Previous Ulceration, History of Previous Amputation."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, diabetes type (I or II), duration of diabetes, body mass index (BMI), DUSS score, DFI wound score, ulcer size, ulcer location, number of ulcers, hemoglobin A1c (HbA1c) level, creatinine level, albumin level, white blood cell (WBC) count, medical history (including comorbidities), current medications, smoking status.",
@@ -179,6 +182,7 @@
         "current medications",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, diabetes type (I or II), duration of diabetes, body mass index (BMI), DUSS score, DFI wound score, ulcer size, ulcer location, number of ulcers, hemoglobin A1c (HbA1c) level, creatinine level, albumin level, white blood cell (WBC) count, medical history (including comorbidities), current medications, smoking status."
   }
 }

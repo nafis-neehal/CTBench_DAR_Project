@@ -34,7 +34,8 @@
         "presence of uncontrolled intercurrent illness",
         "pregnancy status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, clinical stage of breast cancer, tumor size (T1-T3), nodal status (positive or negative), margin status (microscopically positive or negative), systemic therapy status (pre- or post-mastectomy), history of other malignancies, HIV status, presence of uncontrolled intercurrent illness, pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Tumor Stage, Nodal Status, Margin Status, Systemic Therapy Use,",
@@ -64,7 +65,8 @@
         "Margin Status",
         "Systemic Therapy Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Tumor Stage, Nodal Status, Margin Status, Systemic Therapy Use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Breast Cancer Stage, Tumor Size, Number of Positive Axillary Nodes, Systemic Therapy, Radiation Therapy, Body Mass Index, Region of Enrollment.",
@@ -97,7 +99,8 @@
         "Body Mass Index",
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Breast Cancer Stage, Tumor Size, Number of Positive Axillary Nodes, Systemic Therapy, Radiation Therapy, Body Mass Index, Region of Enrollment."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (including diabetes, hypertension, cardiovascular disease), breast cancer stage, tumor size, number of positive nodes, surgical margins, systemic therapy received, radiation therapy dose and fractionation, time from mastectomy to radiation therapy, and Charlson Comorbidity Index.",
@@ -136,6 +139,7 @@
         "time from mastectomy to radiation therapy",
         "Charlson Comorbidity Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (including diabetes, hypertension, cardiovascular disease), breast cancer stage, tumor size, number of positive nodes, surgical margins, systemic therapy received, radiation therapy dose and fractionation, time from mastectomy to radiation therapy, and Charlson Comorbidity Index."
   }
 }

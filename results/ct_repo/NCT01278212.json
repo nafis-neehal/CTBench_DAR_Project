@@ -48,7 +48,8 @@
         "history and physical exam status",
         "bilateral mammogram status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, stage of breast cancer, histological type of tumor, surgical treatment type, margin status, tumor focality, axillary staging status, adjuvant therapy type, hormone receptor status, HER2 receptor status, history of non-breast malignancies, residence location, financial/transportation hardship status, history and physical exam status, bilateral mammogram status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Race/Ethnicity, Customized, Region of Enrollment, Tumor Stage, Histological Type, Surgical Margins Status, Axillary Staging, Hormone Receptor Status, HER2 Receptor Status, History of Non-breast Malignancies, Socioeconomic Status, Distance from Radiation Facility,",
@@ -93,7 +94,8 @@
         "Socioeconomic Status",
         "Distance from Radiation Facility"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Race/Ethnicity, Region of Enrollment, Tumor Stage, Histological Type, Surgical Margins Status, Axillary Staging, Hormone Receptor Status, HER2 Receptor Status, History of Non-breast Malignancies, Socioeconomic Status, Distance from Radiation Facility"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, BMI, Menopausal Status, Family History of Breast Cancer, History of Non-Breast Malignancies, ER Status, PR Status, HER2 Status, Tumor Size, Nodal Status, Surgical Margins, Adjuvant Chemotherapy, Adjuvant Hormone Therapy.",
@@ -138,7 +140,8 @@
         "Adjuvant Chemotherapy",
         "Adjuvant Hormone Therapy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, BMI, Menopausal Status, Family History of Breast Cancer, History of Non-Breast Malignancies, ER Status, PR Status, HER2 Status, Tumor Size, Nodal Status, Surgical Margins, Adjuvant Chemotherapy, Adjuvant Hormone Therapy."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, marital status, education level, occupation, income, residence location (Appalachian/rural vs. urban), distance from radiation facility, breast cancer stage, tumor size, tumor type (ductal carcinoma in situ or invasive adenocarcinoma), hormone receptor status (ER/PR), HER2 receptor status, axillary node status, surgical margins, history of non-breast malignancies, history of breast cancer, family history of breast cancer.",
@@ -191,6 +194,7 @@
         "history of breast cancer",
         "family history of breast cancer"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, marital status, education level, occupation, income, residence location (Appalachian/rural vs. urban), distance from radiation facility, breast cancer stage, tumor size, tumor type (ductal carcinoma in situ or invasive adenocarcinoma), hormone receptor status (ER/PR), HER2 receptor status, axillary node status, surgical margins, history of non-breast malignancies, history of breast cancer, family history of breast cancer."
   }
 }

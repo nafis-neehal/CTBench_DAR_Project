@@ -32,7 +32,8 @@
         "baseline blood pressure",
         "ASA (American Society of Anesthesiologists) physical status classification."
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, gender, type of surgery, smoking status, comorbidities (e.g., hypertension, diabetes), baseline pulmonary function tests, baseline oxygen saturation, baseline heart rate, baseline blood pressure, ASA (American Society of Anesthesiologists) physical status classification."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Type of Surgery, Duration of Surgery, Preoperative Pulmonary Function, Preoperative Comorbidities,",
@@ -66,7 +67,8 @@
         "Preoperative Pulmonary Function",
         "Preoperative Comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, Type of Surgery, Duration of Surgery, Preoperative Pulmonary Function, Preoperative Comorbidities"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Type of surgery,",
@@ -98,7 +100,8 @@
         "Region of Enrollment",
         "Type of surgery"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, Region of Enrollment, Type of surgery"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, weight, height, ethnicity, smoking status, medical history (e.g., hypertension, diabetes, cardiovascular disease), surgical procedure, American Society of Anesthesiologists (ASA) physical status classification.",
@@ -132,6 +135,7 @@
         "surgical procedure",
         "American Society of Anesthesiologists (ASA) physical status classification."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, weight, height, ethnicity, smoking status, medical history (e.g., hypertension, diabetes, cardiovascular disease), surgical procedure, American Society of Anesthesiologists (ASA) physical status classification."
   }
 }

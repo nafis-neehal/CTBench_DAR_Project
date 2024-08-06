@@ -42,7 +42,8 @@
         "history of prior invasive malignancy",
         "immune suppression status in HIV-positive patients."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, HIV status, ECOG performance status, disease stage, renal function (serum creatinine, creatinine clearance), hepatic function (bilirubin levels), hematological function (absolute neutrophil count, platelet count), prior treatment history, presence of other medical conditions (ischemic heart disease, myocardial infarction, congestive heart failure), pregnancy status, contraception use, history of prior invasive malignancy, and immune suppression status in HIV-positive patients."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, HIV status, ECOG performance status, Serum creatinine, Creatinine clearance, Bilirubin, Absolute neutrophil count, Platelet count, Left ventricular ejection fraction,",
@@ -86,7 +87,8 @@
         "Platelet count",
         "Left ventricular ejection fraction"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, HIV status, ECOG performance status, Serum creatinine, Creatinine clearance, Bilirubin, Absolute neutrophil count, Platelet count, Left ventricular ejection fraction"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, HIV Status, ECOG Performance Status, Histologic Diagnosis, Disease Stage, Prior Treatment, Hepatitis B Status, Creatinine Clearance, Bilirubin, Absolute Neutrophil Count, Platelet Count.",
@@ -136,7 +138,8 @@
         "Absolute Neutrophil Count",
         "Platelet Count"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, HIV Status, ECOG Performance Status, Histologic Diagnosis, Disease Stage, Prior Treatment, Hepatitis B Status, Creatinine Clearance, Bilirubin, Absolute Neutrophil Count, Platelet Count."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, HIV status, hepatitis B status, disease stage, histologic diagnosis, presence of c-MYC, presence of Burkitt lymphoma, presence of diffuse large B-cell lymphoma, presence of plasmablastic lymphoma.",
@@ -181,6 +184,7 @@
         "presence of diffuse large B-cell lymphoma",
         "presence of plasmablastic lymphoma."
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, HIV status, hepatitis B status, disease stage, histologic diagnosis, presence of c-MYC, presence of Burkitt lymphoma, presence of diffuse large B-cell lymphoma, presence of plasmablastic lymphoma."
   }
 }

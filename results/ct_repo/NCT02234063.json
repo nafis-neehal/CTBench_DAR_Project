@@ -41,7 +41,8 @@
         "terminal illness status",
         "planned residency status during study period."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, self-identified race/ethnicity, history of hypertension, patient status at participating site, exclusion of chronic kidney disease, exclusion of diabetes, pregnancy status, cognitive status, terminal illness status, planned residency status during study period."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Blood Pressure, Family History of Kidney Disease, Baseline Urine Protein Excretion, Baseline Systolic Blood Pressure, ",
@@ -85,7 +86,8 @@
         "Family History of Kidney Disease",
         "Baseline Urine Protein Excretion"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Blood Pressure, Family History of Kidney Disease, Baseline Urine Protein Excretion, Baseline Systolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hypertension duration, Systolic Blood Pressure, Diastolic Blood Pressure, Urine Protein Excretion, eGFR, Diabetes status,",
@@ -131,7 +133,8 @@
         "eGFR",
         "Diabetes status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Hypertension duration, Systolic Blood Pressure, Diastolic Blood Pressure, Urine Protein Excretion, eGFR, Diabetes status"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ancestry, body mass index, systolic blood pressure, diastolic blood pressure, urine protein excretion, estimated glomerular filtration rate, medical history (hypertension, diabetes, cardiovascular disease), medication use (antihypertensive, lipid-lowering, etc.), smoking status, family history of kidney disease, education level, income level.",
@@ -185,6 +188,7 @@
         "smoking status",
         "family history of kidney disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ancestry, body mass index, systolic blood pressure, diastolic blood pressure, urine protein excretion, estimated glomerular filtration rate, medical history (hypertension, diabetes, cardiovascular disease), medication use (antihypertensive, lipid-lowering, etc.), smoking status, family history of kidney disease, education level, income level."
   }
 }

@@ -40,7 +40,8 @@
         "Baseline Brown Adipose Tissue Activity",
         "Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Body Mass Index (BMI), Menstrual Cycle Regularity, Baseline Estrogen Levels, Baseline Brown Adipose Tissue Activity, Blood Pressure, Bone Density (T scores), Thyroid Function, Physical Activity Level"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Menstrual Cycle Regularity, Baseline Brown Adipose Tissue Activity, Baseline Energy Expenditure,",
@@ -73,7 +74,8 @@
         "Baseline Brown Adipose Tissue Activity",
         "Baseline Energy Expenditure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Body Mass Index, Menstrual Cycle Regularity, Baseline Brown Adipose Tissue Activity, Baseline Energy Expenditure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Body Mass Index, Menstrual Cycle Status, Region of Enrollment, \n\n##Question:\n(No question provided)\n\n##Answer:\n(No answer provided)\n\n##Question:\n(No question provided)\n\n##Answer:\n(No answer provided)",
@@ -104,7 +106,8 @@
         "Menstrual Cycle Status",
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Body Mass Index, Menstrual Cycle Status, Region of Enrollment, ##Question:\n(No question provided)\n\n\n(No answer provided)\n\n##Question:\n(No question provided)\n\n\n(No answer provided)"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index, weight, height, body composition, menstrual cycle regularity, parity, smoking status, medical history (including thyroid dysfunction, hypertension, osteopenia, osteoporosis), medication use (including hormonal contraceptive or menopausal therapy), physical activity level.",
@@ -144,6 +147,7 @@
         "medication use (including hormonal contraceptive or menopausal therapy)",
         "physical activity level."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index, weight, height, body composition, menstrual cycle regularity, parity, smoking status, medical history (including thyroid dysfunction, hypertension, osteopenia, osteoporosis), medication use (including hormonal contraceptive or menopausal therapy), physical activity level."
   }
 }

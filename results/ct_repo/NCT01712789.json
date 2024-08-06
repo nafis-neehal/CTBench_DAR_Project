@@ -50,7 +50,8 @@
         "cytogenetic abnormalities",
         "baseline biomarkers"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline disease characteristics, prior treatments, duration of multiple myeloma, performance status, renal function, liver function, hematologic parameters, ECOG performance status, comorbidities, baseline laboratory values, prior response to treatment, cytogenetic abnormalities, baseline biomarkers."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Prior lines of therapy, Refractory or relapsed status, Prior treatment with lenalidomide and bortezomib, Measurable disease status, Baseline hematologic parameters, Baseline renal function, Baseline liver function, ",
@@ -95,7 +96,8 @@
         "Baseline hematologic parameters",
         "Baseline liver function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Prior lines of therapy, Refractory or relapsed status, Prior treatment with lenalidomide and bortezomib, Measurable disease status, Baseline hematologic parameters, Baseline renal function, Baseline liver function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Multiple Myeloma Diagnosis Duration, Prior Anti-Myeloma Therapy, ECOG Performance Status, Hemoglobin, Platelet Count, Serum Creatinine, Serum Calcium, Serum M-Protein, Urine M-Protein, Bone Marrow Plasma Cells,",
@@ -153,7 +155,8 @@
         "Platelet Count",
         "Bone Marrow Plasma Cells"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Multiple Myeloma Diagnosis Duration, Prior Anti-Myeloma Therapy, ECOG Performance Status, Hemoglobin, Platelet Count, Serum Creatinine, Serum Calcium, Serum M-Protein, Urine M-Protein, Bone Marrow Plasma Cells"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, multiple myeloma diagnosis duration, number of prior treatment lines, prior treatment regimens, time since last treatment, lenalidomide and bortezomib treatment history, alkylator therapy history.",
@@ -202,6 +205,7 @@
         "lenalidomide and bortezomib treatment history",
         "alkylator therapy history."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, multiple myeloma diagnosis duration, number of prior treatment lines, prior treatment regimens, time since last treatment, lenalidomide and bortezomib treatment history, alkylator therapy history."
   }
 }

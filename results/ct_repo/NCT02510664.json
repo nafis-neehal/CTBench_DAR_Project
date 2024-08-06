@@ -50,7 +50,8 @@
       "remaining_candidate_features": [
         "duration of diabetes diagnosis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of diabetes diagnosis, primary caregiver involvement, secondary caregiver involvement, fluency in English, presence of serious mental illness or developmental disability."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Primary Caregiver Involvement, Secondary Caregiver Involvement,",
@@ -101,7 +102,8 @@
         "Primary Caregiver Involvement",
         "Secondary Caregiver Involvement"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Primary Caregiver Involvement, Secondary Caregiver Involvement"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Parent-Adolescent Relationship Quality, HbA1c, Blood Glucose Monitoring Frequency, Insulin Dose, BMI, Diabetes Management Self-Efficacy, Diabetes Distress.",
@@ -158,7 +160,8 @@
         "Diabetes Management Self-Efficacy",
         "Diabetes Distress"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Parent-Adolescent Relationship Quality, HbA1c, Blood Glucose Monitoring Frequency, Insulin Dose, BMI, Diabetes Management Self-Efficacy, Diabetes Distress."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, duration of type 1 diabetes, insulin regimen, hemoglobin A1c (HbA1c) level, body mass index (BMI), parental education level, family income, primary caregiver's relationship to the adolescent (e.g., mother, father, other).",
@@ -209,6 +212,7 @@
         "family income",
         "primary caregiver's relationship to the adolescent (e.g., mother, father, other)."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, duration of type 1 diabetes, insulin regimen, hemoglobin A1c (HbA1c) level, body mass index (BMI), parental education level, family income, primary caregiver's relationship to the adolescent (e.g., mother, father, other)."
   }
 }

@@ -39,7 +39,8 @@
         "Baseline liver function",
         "Baseline mental health status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Body Mass Index (BMI), American Society of Anesthesiologists (ASA) classification, Baseline respiratory function, Baseline cerebral tissue oxygenation, Comorbidities, Medication history, Smoking status, Alcohol use, Baseline renal function, Baseline cardiovascular function, Baseline neuromuscular function, Baseline liver function, Baseline mental health status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, American Society of Anesthesiologists (ASA) classification, Baseline respiratory function, Baseline cerebral tissue oxygenation, Baseline renal function, Baseline cardiovascular function,",
@@ -75,7 +76,8 @@
         "Baseline renal function",
         "Baseline cardiovascular function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, American Society of Anesthesiologists (ASA) classification, Baseline respiratory function, Baseline cerebral tissue oxygenation, Baseline renal function, Baseline cardiovascular function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, ASA Class, Region of Enrollment, History of Chronic Obstructive Pulmonary Disease, History of Congestive Heart Failure, History of Renal Insufficiency, History of Psychiatric Illness,",
@@ -114,7 +116,8 @@
         "History of Renal Insufficiency",
         "History of Psychiatric Illness"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, ASA Class, Region of Enrollment, History of Chronic Obstructive Pulmonary Disease, History of Congestive Heart Failure, History of Renal Insufficiency, History of Psychiatric Illness"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, American Society of Anaesthesiologists class, weight, height, medical history, smoking status, chronic medication use, serum creatinine, glomerular filtration rate, urine output, GOLD classification, presence of comorbidities (e.g. hypertension, diabetes, cardiovascular disease).",
@@ -162,6 +165,7 @@
         "GOLD classification",
         "presence of comorbidities (e.g. hypertension, diabetes, cardiovascular disease)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, American Society of Anaesthesiologists class, weight, height, medical history, smoking status, chronic medication use, serum creatinine, glomerular filtration rate, urine output, GOLD classification, presence of comorbidities (e.g. hypertension, diabetes, cardiovascular disease)."
   }
 }

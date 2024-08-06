@@ -50,7 +50,8 @@
         "Blood pressure",
         "Arrhythmia status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Body Mass Index (BMI), Estimated Glomerular Filtration Rate (eGFR), Hemoglobin levels, Serum potassium levels, Weight, Walking distance, Presence of diabetes, Presence of anemia, Presence of hyperkalemia, HIV status, Liver disease status, COPD status, Mobility status, Institutionalization status, Use of immunosuppressive medications, Malignancy status, Cardiac pacemaker status, Participation in other trials, Language proficiency, Recent hospitalization for cardiac events, Blood pressure, Arrhythmia status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Estimated Glomerular Filtration Rate (eGFR), Hemoglobin, Serum Potassium, 6-minute walking distance, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -95,7 +96,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Estimated Glomerular Filtration Rate (eGFR), Hemoglobin, Serum Potassium, 6-minute walking distance, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Chronic Kidney Disease Duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Potassium Level, 6-minute Walking Distance.",
@@ -139,7 +141,8 @@
         "Potassium Level",
         "6-minute Walking Distance"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, eGFR, Chronic Kidney Disease Duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Potassium Level, 6-minute Walking Distance."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, estimated glomerular filtration rate, 6-minute walking distance, hemoglobin, potassium level, systolic blood pressure, diastolic blood pressure, history of diabetes, history of cardiovascular disease, history of malignancy, smoking status.",
@@ -185,6 +188,7 @@
         "history of malignancy",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, estimated glomerular filtration rate, 6-minute walking distance, hemoglobin, potassium level, systolic blood pressure, diastolic blood pressure, history of diabetes, history of cardiovascular disease, history of malignancy, smoking status."
   }
 }

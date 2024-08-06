@@ -31,7 +31,8 @@
         "renal function",
         "liver function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline body weight, baseline HbA1c, duration of type 2 diabetes, baseline metformin dose, renal function, liver function"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Total Body Weight, Renal Function, Liver Function,",
@@ -71,7 +72,8 @@
         "Renal Function",
         "Liver Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Total Body Weight, Renal Function, Liver Function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes duration, Body Mass Index, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, \n\n##Question:\n(No question provided)\n\n##Answer:\n(No answer provided)\n\n##Question:\n(No question provided)\n\n##Answer:\n(No answer provided)\n\n##Question:\n##Answer:\nAge, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes duration, Body Mass Index, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -106,7 +108,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Diabetes duration, Body Mass Index, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, ##Question:\n(No question provided)\n\n\n(No answer provided)\n\n##Question:\n(No question provided)\n\n\n(No answer provided)\n\n##Question:\n\nAge"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), HbA1c, duration of type 2 diabetes, metformin dose, systolic blood pressure, diastolic blood pressure, heart rate, waist circumference, hip circumference, body fat percentage, fasting plasma glucose, lipid profile, renal function, liver function.",
@@ -152,6 +155,7 @@
         "renal function",
         "liver function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), HbA1c, duration of type 2 diabetes, metformin dose, systolic blood pressure, diastolic blood pressure, heart rate, waist circumference, hip circumference, body fat percentage, fasting plasma glucose, lipid profile, renal function, liver function."
   }
 }

@@ -45,7 +45,8 @@
         "orthopedic status",
         "language proficiency"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, cancer stage at diagnosis, time since completion of chemotherapy, baseline physical activity level, baseline quality of life, smartphone ownership, ability to ambulate, cognitive status, visual status, orthopedic status, language proficiency."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Time since chemotherapy completion, Baseline physical activity level, Quality of life score, Body Mass Index, Comorbidities, ",
@@ -90,7 +91,8 @@
         "Body Mass Index",
         "Comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Time since chemotherapy completion, Baseline physical activity level, Quality of life score, Body Mass Index, Comorbidities"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Cancer Stage, Months since chemotherapy completion, Body Mass Index, Self-reported physical activity, Quality of Life score,",
@@ -129,7 +131,8 @@
         "Self-reported physical activity",
         "Quality of Life score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Cancer Stage, Months since chemotherapy completion, Body Mass Index, Self-reported physical activity, Quality of Life score"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, education level, employment status, marital status, body mass index (BMI), cancer stage, chemotherapy regimen, time since diagnosis, time since completion of chemotherapy, prior exercise habits, current physical activity level, quality of life scores, cognitive function, orthopedic or visual impairments, smartphone ownership and proficiency.",
@@ -183,6 +186,7 @@
         "orthopedic or visual impairments",
         "smartphone ownership and proficiency"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, education level, employment status, marital status, body mass index (BMI), cancer stage, chemotherapy regimen, time since diagnosis, time since completion of chemotherapy, prior exercise habits, current physical activity level, quality of life scores, cognitive function, orthopedic or visual impairments, smartphone ownership and proficiency."
   }
 }

@@ -55,7 +55,8 @@
         "alcohol use",
         "concomitant medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline systolic blood pressure, baseline diastolic blood pressure, body mass index (BMI), history of antihypertensive treatment, renal function (e.g., serum creatinine), liver function (e.g., alanine aminotransferase, aspartate aminotransferase), potassium levels, history of diabetes, history of cardiovascular events, smoking status, alcohol use, concomitant medications."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Baseline Heart Rate, Baseline Body Mass Index, Baseline Serum Potassium, Baseline Serum Creatinine, Baseline Fasting Glucose, Baseline HbA1c, Baseline Total Cholesterol, Baseline LDL Cholesterol, Baseline HDL Cholesterol, Baseline Triglycerides,",
@@ -113,7 +114,8 @@
         "Baseline HDL Cholesterol",
         "Baseline Triglycerides"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Baseline Heart Rate, Baseline Body Mass Index, Baseline Serum Potassium, Baseline Serum Creatinine, Baseline Fasting Glucose, Baseline HbA1c, Baseline Total Cholesterol, Baseline LDL Cholesterol, Baseline HDL Cholesterol, Baseline Triglycerides"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications, Prior Cardiovascular Events.",
@@ -166,7 +168,8 @@
         "Number of Antihypertensive Medications",
         "Prior Cardiovascular Events"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications, Prior Cardiovascular Events."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including hypertension, diabetes, cardiovascular disease), concomitant medications, smoking status, alcohol consumption, laboratory values (including serum creatinine, potassium, alanine aminotransferase, aspartate aminotransferase).",
@@ -220,6 +223,7 @@
         "alcohol consumption",
         "laboratory values (including serum creatinine, potassium, alanine aminotransferase, aspartate aminotransferase)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including hypertension, diabetes, cardiovascular disease), concomitant medications, smoking status, alcohol consumption, laboratory values (including serum creatinine, potassium, alanine aminotransferase, aspartate aminotransferase)."
   }
 }

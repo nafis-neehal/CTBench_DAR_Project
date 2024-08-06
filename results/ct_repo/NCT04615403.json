@@ -33,7 +33,8 @@
         "medication use",
         "baseline ocular health status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline intraocular pressure, best spectacle corrected visual acuity, duration of open-angle glaucoma or ocular hypertension, previous ocular surgeries, medical history, medication use, baseline ocular health status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Best Spectacle Corrected Visual Acuity, Type of Glaucoma, Duration of Glaucoma, Previous Ocular Surgeries, Compliance to Follow-up Visits,",
@@ -69,7 +70,8 @@
         "Previous Ocular Surgeries",
         "Compliance to Follow-up Visits"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Best Spectacle Corrected Visual Acuity, Type of Glaucoma, Duration of Glaucoma, Previous Ocular Surgeries, Compliance to Follow-up Visits"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Best Spectacle Corrected Visual Acuity, Intraocular Pressure, Glaucoma Diagnosis Duration, Previous Glaucoma Surgery,",
@@ -104,7 +106,8 @@
         "Glaucoma Diagnosis Duration",
         "Previous Glaucoma Surgery"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Best Spectacle Corrected Visual Acuity, Intraocular Pressure, Glaucoma Diagnosis Duration, Previous Glaucoma Surgery"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, best spectacle corrected visual acuity, intraocular pressure, number of glaucoma medications, duration of glaucoma diagnosis, previous glaucoma surgery, presence of systemic diseases (e.g., diabetes, hypertension), smoking status.",
@@ -141,6 +144,7 @@
         "presence of systemic diseases (e.g., diabetes, hypertension)",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, best spectacle corrected visual acuity, intraocular pressure, number of glaucoma medications, duration of glaucoma diagnosis, previous glaucoma surgery, presence of systemic diseases (e.g., diabetes, hypertension), smoking status."
   }
 }

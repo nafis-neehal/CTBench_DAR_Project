@@ -37,7 +37,8 @@
         "echocardiography results",
         "presence of comorbid conditions (e.g., sleep apnea, renal insufficiency, anemia, left-sided heart disease, systemic hypertension, parenchymal lung disease)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body weight, body mass index (BMI), PAH etiology (idiopathic/heritable, associated with repaired congenital systemic-to-pulmonary shunts, associated with collagen vascular disease, associated with HIV), baseline 6-minute walk distance, medical history, physical exam findings, routine blood test results, right heart catheterization results, echocardiography results, presence of comorbid conditions (e.g., sleep apnea, renal insufficiency, anemia, left-sided heart disease, systemic hypertension, parenchymal lung disease)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline 6-minute walk distance, PAH etiology, Baseline hemodynamic parameters, Baseline echocardiography parameters, Baseline biomarkers,",
@@ -75,7 +76,8 @@
         "Baseline echocardiography parameters",
         "Baseline biomarkers"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline 6-minute walk distance, PAH etiology, Baseline hemodynamic parameters, Baseline echocardiography parameters, Baseline biomarkers"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, 6-minute walk distance, World Health Organization functional class, Pulmonary arterial hypertension etiology,",
@@ -116,7 +118,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, 6-minute walk distance, World Health Organization functional class, Pulmonary arterial hypertension etiology"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body weight, body mass index, PAH etiology (idiopathic/heritable, associated with repaired congenital systemic-to-pulmonary shunts, associated with collagen vascular disease, associated with HIV), baseline 6-minute walk distance, systolic blood pressure, diastolic blood pressure, heart rate, New York Heart Association functional class, World Health Organization functional class.",
@@ -155,6 +158,7 @@
         "heart rate",
         "New York Heart Association functional class"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body weight, body mass index, PAH etiology (idiopathic/heritable, associated with repaired congenital systemic-to-pulmonary shunts, associated with collagen vascular disease, associated with HIV), baseline 6-minute walk distance, systolic blood pressure, diastolic blood pressure, heart rate, New York Heart Association functional class, World Health Organization functional class."
   }
 }

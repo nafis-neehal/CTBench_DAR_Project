@@ -50,7 +50,8 @@
         "baseline laboratory values",
         "baseline echocardiographic parameters"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, baseline pulmonary arterial hypertension (PAH) severity, baseline exercise capacity, baseline functional class, baseline hemodynamic parameters, baseline use of PAH-specific therapies, baseline comorbidities, baseline HIV status, baseline conventional therapy for PAH, baseline laboratory values, baseline vital signs, baseline echocardiographic parameters."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline PAH severity, HIV status, Concomitant PAH therapy, Duration of PAH diagnosis,",
@@ -92,7 +93,8 @@
         "Region of Enrollment",
         "Concomitant PAH therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline PAH severity, HIV status, Concomitant PAH therapy, Duration of PAH diagnosis"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulmonary Arterial Hypertension (PAH) diagnosis duration, World Health Organization (WHO) functional class, Six-minute walk distance, Borg dyspnea index,",
@@ -136,7 +138,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulmonary Arterial Hypertension (PAH) diagnosis duration, World Health Organization (WHO) functional class, Six-minute walk distance, Borg dyspnea index"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), medical history of pulmonary arterial hypertension, HIV status, conventional therapy for PAH, duration of PAH diagnosis, New York Heart Association (NYHA) functional class, six-minute walk distance (6MWD) at baseline, mean pulmonary arterial pressure (mPAP) at baseline, cardiac output at baseline, pulmonary vascular resistance (PVR) at baseline.",
@@ -190,6 +193,7 @@
         "cardiac output at baseline",
         "pulmonary vascular resistance (PVR) at baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), medical history of pulmonary arterial hypertension, HIV status, conventional therapy for PAH, duration of PAH diagnosis, New York Heart Association (NYHA) functional class, six-minute walk distance (6MWD) at baseline, mean pulmonary arterial pressure (mPAP) at baseline, cardiac output at baseline, pulmonary vascular resistance (PVR) at baseline."
   }
 }

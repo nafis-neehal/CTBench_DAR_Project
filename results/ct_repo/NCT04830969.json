@@ -50,7 +50,8 @@
         "medication use",
         "presence of other medical conditions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), number of natural teeth, baseline probing pocket depth (PD), baseline clinical attachment level (CAL), diabetes status (HbA1c levels), oral hygiene habits, medication use, smoking status, presence of other medical conditions."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Number of Natural Teeth, Clinical Attachment Level (CAL), Probing Depth (PD), Glycated Hemoglobin (HbA1c), Oral Microbiome Profile,",
@@ -105,7 +106,8 @@
         "Number of Natural Teeth",
         "Oral Microbiome Profile"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Number of Natural Teeth, Clinical Attachment Level (CAL), Probing Depth (PD), Glycated Hemoglobin (HbA1c), Oral Microbiome Profile"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Periodontal disease severity, Number of natural teeth, CAL, PD.",
@@ -159,7 +161,8 @@
         "CAL",
         "PD."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Periodontal disease severity, Number of natural teeth, CAL, PD."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), diabetes duration, HbA1c level, smoking status, medical history (including presence of comorbidities), periodontal disease severity, number of natural teeth, CAL, PD, oral hygiene habits, use of medications (including non-steroidal anti-inflammatory drugs and immunosuppressive agents), history of periodontal treatment.",
@@ -214,6 +217,7 @@
         "use of medications (including non-steroidal anti-inflammatory drugs and immunosuppressive agents)",
         "history of periodontal treatment."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), diabetes duration, HbA1c level, smoking status, medical history (including presence of comorbidities), periodontal disease severity, number of natural teeth, CAL, PD, oral hygiene habits, use of medications (including non-steroidal anti-inflammatory drugs and immunosuppressive agents), history of periodontal treatment."
   }
 }

@@ -33,7 +33,8 @@
         "technical capability of using masked CGM",
         "willingness to perform SMBG tests per day."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of diabetes, HbA1c level, number of insulin injections per day, number of self-monitoring blood glucose (SMBG) tests per week, technical capability of using masked CGM, willingness to perform SMBG tests per day."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Number of SMBG tests per week, Daily Insulin Dose,",
@@ -72,7 +73,8 @@
         "Number of SMBG tests per week",
         "Daily Insulin Dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Number of SMBG tests per week, Daily Insulin Dose"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, Insulin Dose, HbA1c, Diabetes Duration, Body Mass Index, SMBG Frequency, Insulin Injection Frequency,",
@@ -108,7 +110,8 @@
         "SMBG Frequency",
         "Insulin Injection Frequency"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Insulin Dose, HbA1c, Diabetes Duration, Body Mass Index, SMBG Frequency, Insulin Injection Frequency"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, duration of diabetes, HbA1c, insulin dose, number of daily insulin injections, body mass index (BMI), smoking status, comorbidities, prior diabetes treatment, SMBG frequency.",
@@ -147,6 +150,7 @@
         "prior diabetes treatment",
         "SMBG frequency."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, duration of diabetes, HbA1c, insulin dose, number of daily insulin injections, body mass index (BMI), smoking status, comorbidities, prior diabetes treatment, SMBG frequency."
   }
 }

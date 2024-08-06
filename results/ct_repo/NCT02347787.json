@@ -75,7 +75,8 @@
         "ZIP code of residence",
         "Previous healthcare utilization"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, Race, Ethnicity, Body Mass Index (BMI), Systolic Blood Pressure (SBP), Hemoglobin A1c (HgBA1c), Smoking status, Insurance status, Socioeconomic status, Duration of chronic conditions, Number of chronic conditions, ZIP code of residence, Previous healthcare utilization, Baseline Short Form Health Survey (SF-12) Physical Component Score (PCS)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Smoking Status, Insurance Status, Socioeconomic Status, Number of Chronic Conditions,",
@@ -153,7 +154,8 @@
         "Diastolic Blood Pressure",
         "Number of Chronic Conditions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Smoking Status, Insurance Status, Socioeconomic Status, Number of Chronic Conditions"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Tobacco Use, Insurance Status, Number of Chronic Conditions, Most Recent Value of Poorly Controlled Condition.",
@@ -230,7 +232,8 @@
         "Number of Chronic Conditions",
         "Most Recent Value of Poorly Controlled Condition."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Tobacco Use, Insurance Status, Number of Chronic Conditions, Most Recent Value of Poorly Controlled Condition."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, BMI, systolic blood pressure, HbA1c, smoking status, insurance status, number of chronic conditions, duration of chronic conditions, medication adherence, education level, employment status, income level, ZIP code of residence, practice site.",
@@ -313,6 +316,7 @@
         "ZIP code of residence",
         "practice site"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, BMI, systolic blood pressure, HbA1c, smoking status, insurance status, number of chronic conditions, duration of chronic conditions, medication adherence, education level, employment status, income level, ZIP code of residence, practice site."
   }
 }

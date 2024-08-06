@@ -47,7 +47,8 @@
         "serum albumin",
         "history of cardiovascular disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, dialysis duration, baseline hemoglobin levels, baseline ferritin levels, baseline transferrin saturation (TSat), comorbid conditions, baseline ESA dose, baseline iron supplementation, Kt/V, body mass index (BMI), blood pressure, serum creatinine, serum albumin, history of cardiovascular disease, diabetes status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Dialysis, Baseline Hemoglobin, Ferritin, Transferrin Saturation, Kt/V, ",
@@ -91,7 +92,8 @@
         "Transferrin Saturation",
         "Kt/V"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Dialysis, Baseline Hemoglobin, Ferritin, Transferrin Saturation, Kt/V"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Dialysis vintage, ESA dose at baseline, Hemoglobin at baseline, Ferritin at baseline, TSat at baseline, Kt/V at baseline,",
@@ -138,7 +140,8 @@
         "TSat at baseline",
         "Kt/V at baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Dialysis vintage, ESA dose at baseline, Hemoglobin at baseline, Ferritin at baseline, TSat at baseline, Kt/V at baseline"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of end-stage renal disease, duration of dialysis, type of dialysis, ESA treatment history, iron stores (Ferritin, TSat), Kt/V, comorbidities (e.g. cardiac disability, HIV, leukemia), history of coronary bypass, history of bone marrow suppression.",
@@ -186,6 +189,7 @@
         "history of coronary bypass",
         "history of bone marrow suppression."
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of end-stage renal disease, duration of dialysis, type of dialysis, ESA treatment history, iron stores (Ferritin, TSat), Kt/V, comorbidities (e.g. cardiac disability, HIV, leukemia), history of coronary bypass, history of bone marrow suppression."
   }
 }

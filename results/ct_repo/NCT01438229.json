@@ -54,7 +54,8 @@
         "presence of renovascular hypertension",
         "presence of other renal disorders."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline systolic blood pressure, baseline diastolic blood pressure, number of antihypertensive medications, presence of type 2 diabetes, eGFR, history of renal artery intervention, presence of renal artery atherosclerosis, renal artery dimensions, presence of renovascular hypertension, presence of other renal disorders."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Number of Antihypertensive Medications, eGFR, History of Renal Artery Intervention,",
@@ -111,7 +112,8 @@
       "remaining_candidate_features": [
         "History of Renal Artery Intervention"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Number of Antihypertensive Medications, eGFR, History of Renal Artery Intervention"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Number of Antihypertensive Medications, Diabetes Status, eGFR, Renal Artery Anatomy,",
@@ -172,7 +174,8 @@
         "Diabetes Status",
         "Renal Artery Anatomy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Number of Antihypertensive Medications, Diabetes Status, eGFR, Renal Artery Anatomy"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, type 2 diabetes status, number of antihypertensive medications, office systolic blood pressure, office diastolic blood pressure, eGFR, serum creatinine, potassium levels, history of cardiovascular disease, history of kidney disease, smoking status.",
@@ -232,6 +235,7 @@
         "history of kidney disease",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, type 2 diabetes status, number of antihypertensive medications, office systolic blood pressure, office diastolic blood pressure, eGFR, serum creatinine, potassium levels, history of cardiovascular disease, history of kidney disease, smoking status."
   }
 }

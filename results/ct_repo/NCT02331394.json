@@ -31,7 +31,8 @@
         "language proficiency (English or French)",
         "concurrent medications (anti-convulsants, anti-coagulants, immunosuppressive medications)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, stage of cancer, life expectancy, liver function tests (ALT, AST, ALP, Bilirubin), language proficiency (English or French), concurrent medications (anti-convulsants, anti-coagulants, immunosuppressive medications)"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Life expectancy, Liver function tests (ALT, AST, ALP, Bilirubin), ",
@@ -65,7 +66,8 @@
         "Life expectancy",
         "Liver function tests (ALT, AST, ALP, Bilirubin)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG performance status, Life expectancy, Liver function tests (ALT, AST, ALP, Bilirubin)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, ECOG performance status, Cancer stage, Life expectancy,",
@@ -97,7 +99,8 @@
         "Cancer stage",
         "Life expectancy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, ECOG performance status, Cancer stage, Life expectancy"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, NSCLC stage, life expectancy, presence of brain metastases, liver function tests (ALT, AST, ALP, bilirubin), use of TKIs, anti-convulsants, Coumadin or related anti-coagulant, lithium, immunosuppressive medications, quality of life scores, symptom severity scores.",
@@ -139,6 +142,7 @@
         "quality of life scores",
         "symptom severity scores"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, NSCLC stage, life expectancy, presence of brain metastases, liver function tests (ALT, AST, ALP, bilirubin), use of TKIs, anti-convulsants, Coumadin or related anti-coagulant, lithium, immunosuppressive medications, quality of life scores, symptom severity scores."
   }
 }

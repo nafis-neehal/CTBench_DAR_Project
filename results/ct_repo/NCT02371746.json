@@ -37,7 +37,8 @@
         "central corneal thickness",
         "cup-to-disc ratio."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline intraocular pressure (IOP), duration of ocular hypertension or glaucoma, prior use of topical prostaglandin analogs (PGA), medical history, concomitant medications, visual acuity, central corneal thickness, cup-to-disc ratio."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure (IOP), Duration of Glaucoma or Ocular Hypertension, Prior Glaucoma Medications,",
@@ -75,7 +76,8 @@
         "Duration of Glaucoma or Ocular Hypertension",
         "Prior Glaucoma Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Intraocular Pressure (IOP), Duration of Glaucoma or Ocular Hypertension, Prior Glaucoma Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diagnosis (Ocular Hypertension or Open Angle Glaucoma), Current topical PGA treatment, IOP at baseline, History of eye surgery, History of glaucoma related surgery.",
@@ -111,7 +113,8 @@
         "History of eye surgery",
         "History of glaucoma related surgery."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diagnosis (Ocular Hypertension or Open Angle Glaucoma), Current topical PGA treatment, IOP at baseline, History of eye surgery, History of glaucoma related surgery."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), medical history (including diabetes, hypertension, and cardiovascular disease), smoking status, duration of ocular hypertension or open-angle glaucoma diagnosis, current medications (including topical PGA), baseline intraocular pressure (IOP), best-corrected visual acuity, cup-to-disc ratio, central corneal thickness, and prior eye surgeries or procedures.",
@@ -154,6 +157,7 @@
         "central corneal thickness",
         "prior eye surgeries or procedures"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), medical history (including diabetes, hypertension, and cardiovascular disease), smoking status, duration of ocular hypertension or open-angle glaucoma diagnosis, current medications (including topical PGA), baseline intraocular pressure (IOP), best-corrected visual acuity, cup-to-disc ratio, central corneal thickness, and prior eye surgeries or procedures."
   }
 }

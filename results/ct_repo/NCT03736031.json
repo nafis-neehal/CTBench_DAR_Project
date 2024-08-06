@@ -32,7 +32,8 @@
         "baseline PHQ-9 score",
         "baseline FACIT-Pal score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ethnicity, cancer diagnosis type, duration of cancer diagnosis, healthcare facility (TTUHSC El Paso or UMC El Paso), baseline PHQ-9 score, baseline FACIT-Pal score."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Type, Cancer Stage, Socioeconomic Status, Baseline PHQ-9 Score, Baseline FACIT-Pal Score, ",
@@ -71,7 +72,8 @@
         "Baseline PHQ-9 Score",
         "Baseline FACIT-Pal Score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Type, Cancer Stage, Socioeconomic Status, Baseline PHQ-9 Score, Baseline FACIT-Pal Score"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity (Hispanic), Region of Enrollment, Cancer Diagnosis,",
@@ -106,7 +108,8 @@
       "remaining_candidate_features": [
         "Cancer Diagnosis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Ethnicity (Hispanic), Region of Enrollment, Cancer Diagnosis"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ethnicity, education level, marital status, employment status, income level, cancer diagnosis, cancer stage, comorbidities, prior palliative care experience, prior healthcare utilization, quality of life, symptom burden, functional status, social support.",
@@ -151,6 +154,7 @@
         "functional status",
         "social support"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ethnicity, education level, marital status, employment status, income level, cancer diagnosis, cancer stage, comorbidities, prior palliative care experience, prior healthcare utilization, quality of life, symptom burden, functional status, social support."
   }
 }

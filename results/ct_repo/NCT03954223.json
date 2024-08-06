@@ -43,7 +43,8 @@
         "Mental health status",
         "Participation in previous weight management programs."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, BMI, BMI percentile, Ethnicity, Socioeconomic status, Baseline dietary intake, Baseline physical activity level, Baseline fasting glucose, Baseline insulin levels, Baseline HbA1c, Baseline lipid profile, Baseline blood pressure, Family history of obesity, Family history of diabetes, Medication use, Mental health status, Participation in previous weight management programs."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, HbA1c, Waist Circumference, Physical Activity Level, Dietary Intake,",
@@ -81,7 +82,8 @@
         "Physical Activity Level",
         "Dietary Intake"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, HbA1c, Waist Circumference, Physical Activity Level, Dietary Intake"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, BMI, BMI Percentile, Parent/Guardian Participation,",
@@ -115,7 +117,8 @@
         "BMI Percentile",
         "Parent/Guardian Participation"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, BMI, BMI Percentile, Parent/Guardian Participation"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, BMI, BMI percentile, weight, height, waist circumference, hip circumference, body fat percentage, family history of obesity, medical history of obesity-related comorbidities, medication use, dietary habits, physical activity level, socioeconomic status, parental BMI, parental education level.",
@@ -160,6 +163,7 @@
         "parental BMI",
         "parental education level"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, BMI, BMI percentile, weight, height, waist circumference, hip circumference, body fat percentage, family history of obesity, medical history of obesity-related comorbidities, medication use, dietary habits, physical activity level, socioeconomic status, parental BMI, parental education level."
   }
 }

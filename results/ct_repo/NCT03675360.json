@@ -42,7 +42,8 @@
         "socioeconomic status",
         "ethnicity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, baseline HbA1c, body mass index (BMI), blood pressure, fasting glucose, lipid profile (total cholesterol, LDL, HDL, triglycerides), renal function (eGFR), liver function tests, dietary intake, physical activity level, alcohol consumption, smoking status, medical history, medication use, socioeconomic status, ethnicity."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR), Self-reported liver disease, Self-reported thyroid disease, Self-reported gout, Self-reported cancer history, Hemoglobin level, Self-reported history of intensive care unit stay due to COVID-19, Alcohol consumption,",
@@ -91,7 +92,8 @@
         "Self-reported history of intensive care unit stay due to COVID-19",
         "Alcohol consumption"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR), Self-reported liver disease, Self-reported thyroid disease, Self-reported gout, Self-reported cancer history, Hemoglobin level, Self-reported history of intensive care unit stay due to COVID-19, Alcohol consumption"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Diabetes Duration, History of Cardiovascular Disease, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, eGFR,",
@@ -135,7 +137,8 @@
         "Triglycerides",
         "eGFR"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, HbA1c, Diabetes Duration, History of Cardiovascular Disease, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, eGFR"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), race, ethnicity, HbA1c, estimated glomerular filtration rate (eGFR), history of liver disease, history of thyroid disease, history of gout, history of cancer, history of anemia, history of blood donation or transfusion, history of HIV, history of COVID-19, nut allergy, pregnancy status, breastfeeding status, alcohol consumption, smoking status.",
@@ -185,6 +188,7 @@
         "alcohol consumption",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), race, ethnicity, HbA1c, estimated glomerular filtration rate (eGFR), history of liver disease, history of thyroid disease, history of gout, history of cancer, history of anemia, history of blood donation or transfusion, history of HIV, history of COVID-19, nut allergy, pregnancy status, breastfeeding status, alcohol consumption, smoking status."
   }
 }

@@ -74,7 +74,8 @@
         "dyspnea status",
         "heart disease history"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, performance status (ECOG), HER2 status, prior treatments (chemotherapy, hormonal therapy), duration of trastuzumab treatment, disease progression status, bone marrow function, liver function, kidney function, cardiac function (LVEF), presence of brain metastases, history of other malignancies, hypersensitivity to trastuzumab, dyspnea status, heart disease history, pregnancy status, contraceptive use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, HER2 status, Previous treatments, Performance status (ECOG), Cardiac function (LVEF), Bone marrow function, Liver function, Kidney function, ",
@@ -122,7 +123,8 @@
         "Liver function",
         "Kidney function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, HER2 status, Previous treatments, Performance status (ECOG), Cardiac function (LVEF), Bone marrow function, Liver function, Kidney function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Region of Enrollment, Performance Status (ECOG), HER2 Status, Breast Cancer Stage, Previous Trastuzumab Treatment, Previous Chemotherapy Treatment, Previous Hormonal Therapy Treatment, LVEF, Cardiac Function.",
@@ -177,7 +179,8 @@
         "Breast Cancer Stage",
         "Cardiac Function."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Region of Enrollment, Performance Status (ECOG), HER2 Status, Breast Cancer Stage, Previous Trastuzumab Treatment, Previous Chemotherapy Treatment, Previous Hormonal Therapy Treatment, LVEF, Cardiac Function."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, HER2 status, breast cancer stage, prior chemotherapy or hormonal therapy, time since diagnosis, time since last progression, LVEF, cardiac history, comorbidities, concomitant medications.",
@@ -244,6 +247,7 @@
         "breast cancer stage",
         "time since last progression"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, HER2 status, breast cancer stage, prior chemotherapy or hormonal therapy, time since diagnosis, time since last progression, LVEF, cardiac history, comorbidities, concomitant medications."
   }
 }

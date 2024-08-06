@@ -44,7 +44,8 @@
         "duration of CKD",
         "healthcare utilization (e.g., number of PCP visits)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, baseline eGFR, comorbid conditions (e.g., diabetes, hypertension), medication use, smoking status, body mass index (BMI), blood pressure, cholesterol levels, socioeconomic status, duration of CKD, healthcare utilization (e.g., number of PCP visits)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline eGFR, History of Kidney Transplant, Receiving Maintenance Dialysis, Recent Outpatient Nephrology Visit, Baseline eGFR less than 15ml/min, Expected Survival less than 6 months,",
@@ -87,7 +88,8 @@
         "Baseline eGFR less than 15ml/min",
         "Expected Survival less than 6 months"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline eGFR, History of Kidney Transplant, Receiving Maintenance Dialysis, Recent Outpatient Nephrology Visit, Baseline eGFR less than 15ml/min, Expected Survival less than 6 months"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Diabetes status, Hypertension status, Cardiovascular disease status, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Lipid profile, Smoking status,",
@@ -139,7 +141,8 @@
         "Lipid profile",
         "Smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, eGFR, Diabetes status, Hypertension status, Cardiovascular disease status, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Lipid profile, Smoking status"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (diabetes, hypertension, cardiovascular disease), eGFR, CKD stage, blood pressure, lipid profile, hemoglobin, albuminuria, serum creatinine, comorbidities (heart failure, cancer, COPD), medication use (ACE inhibitors, ARBs, beta blockers, diuretics), prior nephrology visit, prior hospitalization, health insurance status.",
@@ -196,6 +199,7 @@
         "prior hospitalization",
         "health insurance status"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (diabetes, hypertension, cardiovascular disease), eGFR, CKD stage, blood pressure, lipid profile, hemoglobin, albuminuria, serum creatinine, comorbidities (heart failure, cancer, COPD), medication use (ACE inhibitors, ARBs, beta blockers, diuretics), prior nephrology visit, prior hospitalization, health insurance status."
   }
 }

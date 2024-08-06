@@ -33,7 +33,8 @@
         "willingness to sign medical information release form",
         "prior enrollment in weight-related research programs."
       ]
-    }
+    },
+    "processed-gen-response": "Age, race/ethnicity, language spoken, weeks of pregnancy at enrollment, prenatal care status, geographic location, willingness to sign medical information release form, prior enrollment in weight-related research programs."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Ethnicity, Race, Gestational Age at Enrollment, Body Mass Index, Baseline Weight, Socioeconomic Status, Education Level, Parity, Smoking Status, Pre-existing Medical Conditions,",
@@ -69,7 +70,8 @@
         "Smoking Status",
         "Pre-existing Medical Conditions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Ethnicity, Race, Gestational Age at Enrollment, Body Mass Index, Baseline Weight, Socioeconomic Status, Education Level, Parity, Smoking Status, Pre-existing Medical Conditions"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gestational Age, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Pre-pregnancy Weight, Height, Parity, Education Level,",
@@ -102,7 +104,8 @@
         "Parity",
         "Education Level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gestational Age, Race/Ethnicity, Region of Enrollment, Body Mass Index, Pre-pregnancy Weight, Height, Parity, Education Level"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, race, ethnicity, language, gestational age, parity, body mass index (BMI), weight, height, medical history, obstetric history, socioeconomic status, education level, marital status, insurance status.",
@@ -146,6 +149,7 @@
         "marital status",
         "insurance status"
       ]
-    }
+    },
+    "processed-gen-response": "age, race, ethnicity, language, gestational age, parity, body mass index (BMI), weight, height, medical history, obstetric history, socioeconomic status, education level, marital status, insurance status."
   }
 }

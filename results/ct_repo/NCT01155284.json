@@ -63,7 +63,8 @@
         "use of thiazolidinediones",
         "significant medical conditions."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of diabetes diagnosis, presence of diabetes-related autoantibodies, ability to swallow study capsules, compliance with intensive diabetes management, compliance with study visits and protocol, use of GLP-1R agonist or DPP-4 inhibitor, use of PPI, use of oral hypoglycemic agent, use of thiazolidinediones, renal function (GFR), history of hypersensitivity to study drugs, hepatic function, history of pancreatitis or gallbladder disease, significant medical conditions."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Blood Pressure, C-peptide levels, Diabetes-related autoantibodies,",
@@ -111,7 +112,8 @@
         "Blood Pressure",
         "Diabetes-related autoantibodies"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Blood Pressure, C-peptide levels, Diabetes-related autoantibodies"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, BMI, HbA1c, Insulin Dose, Autoantibody Status, C-peptide AUC at Baseline,",
@@ -163,7 +165,8 @@
         "Region of Enrollment",
         "BMI"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Duration, BMI, HbA1c, Insulin Dose, Autoantibody Status, C-peptide AUC at Baseline"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), duration of diabetes, presence of diabetes-related autoantibodies (GAD, IA-2, insulin), HbA1c, fasting C-peptide, estimated glomerular filtration rate (eGFR), history of pancreatitis or gallbladder disease, history of hypersensitivity reaction to sitagliptin or lansoprazole.",
@@ -219,6 +222,7 @@
       "remaining_candidate_features": [
         "body mass index (BMI)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), duration of diabetes, presence of diabetes-related autoantibodies (GAD, IA-2, insulin), HbA1c, fasting C-peptide, estimated glomerular filtration rate (eGFR), history of pancreatitis or gallbladder disease, history of hypersensitivity reaction to sitagliptin or lansoprazole."
   }
 }

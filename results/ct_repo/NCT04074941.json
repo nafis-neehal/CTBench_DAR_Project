@@ -50,7 +50,8 @@
         "history of kidney disease",
         "dietary compliance."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, resting systolic blood pressure, resting diastolic blood pressure, medication use, cognitive function score, physical function (timed up and go test), presence of physical disability, history of kidney disease, dietary compliance."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Cognitive Function, Medication Use,",
@@ -103,7 +104,8 @@
         "Region of Enrollment",
         "Body Mass Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Cognitive Function, Medication Use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, Cognitive Function, Physical Function, Comorbidities, Medication Use,",
@@ -158,7 +160,8 @@
         "Comorbidities",
         "Medication Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, Cognitive Function, Physical Function, Comorbidities, Medication Use"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, resting systolic blood pressure, resting diastolic blood pressure, Montreal Cognitive Assessment score, timed up and go test score, number and type of blood pressure medications, history of kidney disease, history of kidney transplant.",
@@ -209,6 +212,7 @@
         "history of kidney disease",
         "history of kidney transplant."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, resting systolic blood pressure, resting diastolic blood pressure, Montreal Cognitive Assessment score, timed up and go test score, number and type of blood pressure medications, history of kidney disease, history of kidney transplant."
   }
 }

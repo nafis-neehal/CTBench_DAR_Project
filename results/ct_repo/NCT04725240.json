@@ -44,7 +44,8 @@
         "pregnancy status",
         "breastfeeding status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), duration since hypothalamic injury, type of hypothalamic lesion (unilateral or bilateral), history of craniopharyngioma or other non-malignant brain tumor, previous treatments (surgery, chemotherapy, radiation), hormone replacement therapy status, glycated hemoglobin (HbA1c) levels, glomerular filtration rate (GFR), presence of significant dermatologic findings, psychiatric history, pulmonary disease status, cardiac disease status, oncologic disease status, cognitive function, contraception use, pregnancy status, breastfeeding status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hypothalamic Lesion Type, Time Since Hypothalamic Injury, Hormone Replacement Therapy Use, Glycated Hemoglobin (HbA1c), Glomerular Filtration Rate (GFR),",
@@ -89,7 +90,8 @@
         "Time Since Hypothalamic Injury",
         "Hormone Replacement Therapy Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Hypothalamic Lesion Type, Time Since Hypothalamic Injury, Hormone Replacement Therapy Use, Glycated Hemoglobin (HbA1c), Glomerular Filtration Rate (GFR)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, BMI, Hypothalamic injury, Hypothalamic lesion, Craniopharyngioma, Non-malignant brain tumor, Surgery, Chemotherapy, Radiation, BMI z-score, HbA1c, Glomerular filtration rate.",
@@ -141,7 +143,8 @@
         "Chemotherapy",
         "Radiation"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, BMI, Hypothalamic injury, Hypothalamic lesion, Craniopharyngioma, Non-malignant brain tumor, Surgery, Chemotherapy, Radiation, BMI z-score, HbA1c, Glomerular filtration rate."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, BMI, weight, height, waist circumference, hip circumference, body fat percentage, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including hypothalamic injury, craniopharyngioma, brain tumor, surgery, chemotherapy, radiation), concomitant medications, hormone replacement therapy, glycated hemoglobin (HbA1c), glomerular filtration rate (GFR), dermatologic findings, family history of skin cancer or melanoma, cognitive function.",
@@ -214,6 +217,7 @@
         "concomitant medications",
         "hormone replacement therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, BMI, weight, height, waist circumference, hip circumference, body fat percentage, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including hypothalamic injury, craniopharyngioma, brain tumor, surgery, chemotherapy, radiation), concomitant medications, hormone replacement therapy, glycated hemoglobin (HbA1c), glomerular filtration rate (GFR), dermatologic findings, family history of skin cancer or melanoma, cognitive function."
   }
 }

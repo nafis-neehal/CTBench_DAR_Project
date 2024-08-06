@@ -42,7 +42,8 @@
         "Baseline Anxiety and Depression Levels",
         "Baseline Clinic Visit Frequency"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Cancer Type, Smoking History (e.g., number of cigarettes per day, years of smoking), Stage of Cancer, Comorbidities, Socioeconomic Status, Education Level, Employment Status, Health Insurance Status, Baseline Tobacco Use Treatment Service (TUTS) Engagement, Baseline Medication Use for Tobacco Cessation, Baseline Quality of Life, Baseline Anxiety and Depression Levels, Baseline Clinician Referral Rates, Baseline Clinic Visit Frequency."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Type, Smoking Status, Number of Cigarettes per Day, Duration of Smoking, Previous Quit Attempts,",
@@ -83,7 +84,8 @@
         "Duration of Smoking",
         "Previous Quit Attempts"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Type, Smoking Status, Number of Cigarettes per Day, Duration of Smoking, Previous Quit Attempts"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Diagnosis, Tobacco Use Status, Number of Cigarettes Smoked per Day, Nicotine Dependence Level, Previous Quit Attempts,",
@@ -122,7 +124,8 @@
         "Nicotine Dependence Level",
         "Previous Quit Attempts"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Diagnosis, Tobacco Use Status, Number of Cigarettes Smoked per Day, Nicotine Dependence Level, Previous Quit Attempts"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, cancer type, cancer stage, smoking history, nicotine dependence level, number of previous quit attempts, current medications, comorbidities, clinician type (physician, nurse practitioner, physician assistant), clinic location, insurance type, payment structures.",
@@ -168,6 +171,7 @@
         "insurance type",
         "payment structures."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, cancer type, cancer stage, smoking history, nicotine dependence level, number of previous quit attempts, current medications, comorbidities, clinician type (physician, nurse practitioner, physician assistant), clinic location, insurance type, payment structures."
   }
 }

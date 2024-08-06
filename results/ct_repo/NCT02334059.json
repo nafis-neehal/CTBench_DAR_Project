@@ -40,7 +40,8 @@
         "baseline psychiatric history",
         "baseline language proficiency."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, ASA classification, baseline pain score, comorbidities, duration of surgery, type of anesthesia, preoperative opioid use, baseline kidney function, baseline psychiatric history, baseline language proficiency."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, ASA Classification, Duration of Surgery, Baseline Pain Score, Preoperative Opioid Use, Comorbidities,",
@@ -80,7 +81,8 @@
         "Preoperative Opioid Use",
         "Comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, ASA Classification, Duration of Surgery, Baseline Pain Score, Preoperative Opioid Use, Comorbidities"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Body Mass Index, ASA Classification, History of Chronic Pain, History of Opioid Use, Creatinine Level,",
@@ -123,7 +125,8 @@
       "remaining_candidate_features": [
         "ASA Classification"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, ASA Classification, History of Chronic Pain, History of Opioid Use, Creatinine Level"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), ASA classification, history of chronic pain, history of substance abuse, creatinine level, psychiatric history, English fluency.",
@@ -165,6 +168,7 @@
         "creatinine level",
         "English fluency."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), ASA classification, history of chronic pain, history of substance abuse, creatinine level, psychiatric history, English fluency."
   }
 }

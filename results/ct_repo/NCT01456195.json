@@ -52,7 +52,8 @@
         "use of other medications",
         "pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), HbA1c concentration, fasting plasma glucose (FPG), systolic blood pressure, diastolic blood pressure, serum creatinine, alanine aminotransferase (ALT) levels, aspartate aminotransferase (AST) levels, total bilirubin level, hemoglobin level, history of cancer, history of thyroid disease, history of diabetic retinopathy, history of gastric surgery, history of HIV/HBV/HCV infection, history of cardiovascular events, history of drug or alcohol abuse, compliance with study medication, use of other medications, pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Creatinine, Alanine Aminotransferase (ALT), Aspartate Aminotransferase (AST), Total Bilirubin, Estimated Glomerular Filtration Rate (eGFR), Hemoglobin, ",
@@ -105,7 +106,8 @@
         "Estimated Glomerular Filtration Rate (eGFR)",
         "Hemoglobin"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Creatinine, Alanine Aminotransferase (ALT), Aspartate Aminotransferase (AST), Total Bilirubin, Estimated Glomerular Filtration Rate (eGFR), Hemoglobin"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, History of Diabetes, Duration of Diabetes, Previous Antidiabetic Medication Use.",
@@ -157,7 +159,8 @@
         "History of Diabetes",
         "Previous Antidiabetic Medication Use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, History of Diabetes, Duration of Diabetes, Previous Antidiabetic Medication Use."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c concentration, fasting plasma glucose (FPG), systolic and diastolic blood pressure, history of antidiabetic agent use, history of other medications, smoking status.",
@@ -206,6 +209,7 @@
         "history of antidiabetic agent use",
         "history of other medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c concentration, fasting plasma glucose (FPG), systolic and diastolic blood pressure, history of antidiabetic agent use, history of other medications, smoking status."
   }
 }

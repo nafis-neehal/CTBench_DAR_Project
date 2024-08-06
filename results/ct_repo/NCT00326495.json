@@ -50,7 +50,8 @@
         "presence of measurable disease",
         "presence of biopsy-amenable lesion"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, KRAS mutation status, prior chemotherapy regimens, prior radiation therapy, prior surgery, tumor EGFR expression, absolute neutrophil count, platelet count, total bilirubin, AST/ALT levels, creatinine levels, creatinine clearance, PT/PTT levels, systolic blood pressure, diastolic blood pressure, life expectancy, presence of measurable disease, presence of biopsy-amenable lesion."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, KRAS mutation status, EGFR expression, ECOG performance status, Absolute neutrophil count, Platelet count, Total bilirubin, AST/ALT levels, Creatinine levels, PT/PTT, Systolic Blood Pressure, Diastolic Blood Pressure, Prior chemotherapy regimens,",
@@ -96,7 +97,8 @@
         "Diastolic Blood Pressure",
         "Prior chemotherapy regimens"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, KRAS mutation status, EGFR expression, ECOG performance status, Absolute neutrophil count, Platelet count, Total bilirubin, AST/ALT levels, Creatinine levels, PT/PTT, Systolic Blood Pressure, Diastolic Blood Pressure, Prior chemotherapy regimens"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, KRAS Mutation Status, EGFR Expression Status, Prior Chemotherapy Regimens, Prior Radiation Therapy, Prior Surgery, Tumor Size, Tumor Location, Number of Metastatic Sites, Systolic Blood Pressure, Diastolic Blood Pressure.",
@@ -139,7 +141,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, KRAS Mutation Status, EGFR Expression Status, Prior Chemotherapy Regimens, Prior Radiation Therapy, Prior Surgery, Tumor Size, Tumor Location, Number of Metastatic Sites, Systolic Blood Pressure, Diastolic Blood Pressure."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ECOG performance status, life expectancy, prior chemotherapy regimens, prior radiation therapy, prior surgery, KRAS mutation status, EGFR expression, tumor size, number of metastatic sites, systolic blood pressure, diastolic blood pressure, absolute neutrophil count, platelets, total bilirubin, AST, ALT, creatinine, creatinine clearance, PT, PTT.",
@@ -187,6 +190,7 @@
         "PT",
         "PTT"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ECOG performance status, life expectancy, prior chemotherapy regimens, prior radiation therapy, prior surgery, KRAS mutation status, EGFR expression, tumor size, number of metastatic sites, systolic blood pressure, diastolic blood pressure, absolute neutrophil count, platelets, total bilirubin, AST, ALT, creatinine, creatinine clearance, PT, PTT."
   }
 }

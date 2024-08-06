@@ -43,7 +43,8 @@
         "use of insulin pump",
         "presence of pituitary disorder."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of type 1 diabetes, A1C level, Body Mass Index (BMI), C-Peptide level, insulin regimen (number of injections per day), history of severe hypoglycemic episodes, use of drugs affecting glycemia, history of allergy or intolerance to NPH or glargine, hypoglycemia awareness, use of insulin pump, presence of pituitary disorder."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Frequency of Hypoglycemic Episodes, C-Peptide Levels,",
@@ -86,7 +87,8 @@
         "Daily Insulin Dose",
         "Frequency of Hypoglycemic Episodes"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Frequency of Hypoglycemic Episodes, C-Peptide Levels"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Diabetes Duration, BMI, A1C, C-Peptide, Insulin Dose, Hypoglycemic Episodes,",
@@ -128,7 +130,8 @@
         "Insulin Dose",
         "Hypoglycemic Episodes"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes Duration, BMI, A1C, C-Peptide, Insulin Dose, Hypoglycemic Episodes"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, A1C, duration of type 1 diabetes, C-Peptide level, number of daily insulin injections, type of insulin used prior to study, history of severe hypoglycemic episodes, presence of hypoglycemia unawareness.",
@@ -171,6 +174,7 @@
         "history of severe hypoglycemic episodes",
         "presence of hypoglycemia unawareness"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, A1C, duration of type 1 diabetes, C-Peptide level, number of daily insulin injections, type of insulin used prior to study, history of severe hypoglycemic episodes, presence of hypoglycemia unawareness."
   }
 }

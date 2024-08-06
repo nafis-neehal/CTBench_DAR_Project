@@ -69,7 +69,8 @@
         "Baseline gastrointestinal symptoms",
         "Baseline nutritional status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Liver function tests (ALT, AST, T-bilirubin), Platelet count, Hepatocellular carcinoma status, History of hepatic encephalopathy, History of variceal bleeding, History of spontaneous bacterial peritonitis, Evidence of portal hypertension (hepatosplenomegaly, thrombocytopenia), Current medication use, Alcohol use history, Baseline gastrointestinal symptoms, Baseline nutritional status"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of hepatic encephalopathy, History of variceal bleeding, History of spontaneous bacterial peritonitis, Platelet count, Hepatocellular carcinoma status, Liver function tests (ALT, T-bilirubin), Presence of portal vein thrombosis,",
@@ -140,7 +141,8 @@
         "History of spontaneous bacterial peritonitis",
         "Hepatocellular carcinoma status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, History of hepatic encephalopathy, History of variceal bleeding, History of spontaneous bacterial peritonitis, Platelet count, Hepatocellular carcinoma status, Liver function tests (ALT, T-bilirubin), Presence of portal vein thrombosis"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, History of complications related to liver cirrhosis, Hepatosplenomegaly, Thrombocytopenia, ALT, T-bilirubin, Child-Pugh score, MELD score.",
@@ -205,7 +207,8 @@
         "Child-Pugh score",
         "MELD score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (NIH/OMB), Region of Enrollment, History of complications related to liver cirrhosis, Hepatosplenomegaly, Thrombocytopenia, ALT, T-bilirubin, Child-Pugh score, MELD score."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), liver cirrhosis etiology, Child-Pugh score, Model for End-Stage Liver Disease (MELD) score, history of hepatic encephalopathy, history of variceal bleeding, history of spontaneous bacterial peritonitis, platelet count, spleen size, portal vein diameter, alanine transaminase (ALT) level, total bilirubin level, international normalized ratio (INR), serum creatinine level, serum sodium level.",
@@ -277,6 +280,7 @@
         "international normalized ratio (INR)",
         "serum sodium level."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), liver cirrhosis etiology, Child-Pugh score, Model for End-Stage Liver Disease (MELD) score, history of hepatic encephalopathy, history of variceal bleeding, history of spontaneous bacterial peritonitis, platelet count, spleen size, portal vein diameter, alanine transaminase (ALT) level, total bilirubin level, international normalized ratio (INR), serum creatinine level, serum sodium level."
   }
 }

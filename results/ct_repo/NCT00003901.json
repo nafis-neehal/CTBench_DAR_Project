@@ -43,7 +43,8 @@
         "non-malignant systemic disease status",
         "planned surgical procedure type."
       ]
-    }
+    },
+    "processed-gen-response": "Age, ECOG/Zubrod status, clinical stage of NSCLC, histological subtype of NSCLC, N1 or N2 disease status, preoperative CT scan results, medical fitness for surgery, type of planned surgical resection, prior cancer history, evidence of pleural effusion, history of ipsilateral thoracotomy or thoracoscopy, prior chemotherapy or radiotherapy, non-malignant systemic disease status, planned surgical procedure type."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG/Zubrod status, Clinical Stage, Pathologic Diagnosis, Type of Surgical Resection, Preoperative Assessment Results, Prior Cancer History, ",
@@ -90,7 +91,8 @@
         "Pathologic Diagnosis",
         "Prior Cancer History"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG/Zubrod status, Clinical Stage, Pathologic Diagnosis, Type of Surgical Resection, Preoperative Assessment Results, Prior Cancer History"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG/Zubrod status, Histological type of NSCLC, Clinical stage, N stage, Tumor size, Number of positive lymph nodes, Surgical procedure, Pathological stage.",
@@ -141,7 +143,8 @@
         "Tumor size",
         "Number of positive lymph nodes"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG/Zubrod status, Histological type of NSCLC, Clinical stage, N stage, Tumor size, Number of positive lymph nodes, Surgical procedure, Pathological stage."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ECOG/Zubrod status, clinical stage, histological type of NSCLC, N stage, presence of pleural effusion, prior malignancies, surgical procedure, comorbidities.",
@@ -183,6 +186,7 @@
         "prior malignancies",
         "comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ECOG/Zubrod status, clinical stage, histological type of NSCLC, N stage, presence of pleural effusion, prior malignancies, surgical procedure, comorbidities."
   }
 }

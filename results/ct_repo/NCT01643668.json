@@ -51,7 +51,8 @@
         "Infection Status",
         "GVHD Prophylaxis Regimen"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Race/Ethnicity, Disease Type (AML, ALL, MDS), Disease Status at Transplant, Donor Type (related or unrelated), HLA Match Status, Organ Function Tests (e.g., liver function, kidney function), Performance Status (e.g., ECOG score), Prior Treatments, Time from Diagnosis to Transplant, Cytogenetic Risk Group, Comorbidities, Infection Status, GVHD Prophylaxis Regimen"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Disease Type (AML, ALL, MDS), Donor Type (Related, Unrelated), Baseline ANC Count, Baseline Platelet Count, Organ Function Tests,",
@@ -96,7 +97,8 @@
         "Baseline Platelet Count",
         "Organ Function Tests"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Disease Type (AML, ALL, MDS), Donor Type (Related, Unrelated), Baseline ANC Count, Baseline Platelet Count, Organ Function Tests"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity (NIH/OMB), Region of Enrollment, Diagnosis (AML, ALL, MDS), Disease Status, Performance Status, Prior Chemotherapy, Prior Radiation, Donor Type (Related, Unrelated), Donor-Recipient Sex Match, Donor-Recipient CMV Match, Donor-Recipient ABO Match.",
@@ -149,7 +151,8 @@
         "Donor-Recipient Sex Match",
         "Donor-Recipient ABO Match"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Ethnicity (NIH/OMB), Region of Enrollment, Diagnosis (AML, ALL, MDS), Disease Status, Performance Status, Prior Chemotherapy, Prior Radiation, Donor Type (Related, Unrelated), Donor-Recipient Sex Match, Donor-Recipient CMV Match, Donor-Recipient ABO Match."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), performance status, disease type (Acute Myeloid Leukemia, Acute Lymphoblastic Leukemia, Myelodysplastic Syndrome), disease status (relapsed, refractory, newly diagnosed), prior treatment (chemotherapy, radiation, stem cell transplantation), comorbidities, organ function (renal, hepatic, cardiac, pulmonary), laboratory values (complete blood count, liver function tests, renal function tests).",
@@ -198,6 +201,7 @@
         "organ function (renal, hepatic, cardiac, pulmonary)",
         "laboratory values (complete blood count, liver function tests, renal function tests)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), performance status, disease type (Acute Myeloid Leukemia, Acute Lymphoblastic Leukemia, Myelodysplastic Syndrome), disease status (relapsed, refractory, newly diagnosed), prior treatment (chemotherapy, radiation, stem cell transplantation), comorbidities, organ function (renal, hepatic, cardiac, pulmonary), laboratory values (complete blood count, liver function tests, renal function tests)."
   }
 }

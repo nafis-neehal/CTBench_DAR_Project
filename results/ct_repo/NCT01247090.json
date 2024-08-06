@@ -34,7 +34,8 @@
         "medication use",
         "comorbid conditions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline systolic blood pressure, baseline diastolic blood pressure, duration of end stage renal disease, duration on hemodialysis, stable dry weight, presence of clinically significant vascular disease, history of ischemic colitis, history of Raynaud's disease, baseline QTc interval, medication use, comorbid conditions."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Predialysis Systolic Blood Pressure, Predialysis Diastolic Blood Pressure, Dry Weight, History of Vascular Disease,",
@@ -72,7 +73,8 @@
         "Dry Weight",
         "History of Vascular Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Hemodialysis, Predialysis Systolic Blood Pressure, Predialysis Diastolic Blood Pressure, Dry Weight, History of Vascular Disease"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of End Stage Renal Disease, Duration of Hemodialysis, Dry Weight, Predialysis Systolic Blood Pressure, Predialysis Diastolic Blood Pressure.",
@@ -113,7 +115,8 @@
         "Predialysis Systolic Blood Pressure",
         "Predialysis Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of End Stage Renal Disease, Duration of Hemodialysis, Dry Weight, Predialysis Systolic Blood Pressure, Predialysis Diastolic Blood Pressure."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, weight, height, body mass index (BMI), duration of end-stage renal disease, duration of hemodialysis, predialysis systolic blood pressure, predialysis diastolic blood pressure, dry weight, comorbidities (e.g., diabetes, cardiovascular disease), medications (e.g., antihypertensives, vasopressors), history of vascular disease, history of ischemic colitis, history of Raynaud's disease.",
@@ -153,6 +156,7 @@
         "history of ischemic colitis",
         "history of Raynaud's disease."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, weight, height, body mass index (BMI), duration of end-stage renal disease, duration of hemodialysis, predialysis systolic blood pressure, predialysis diastolic blood pressure, dry weight, comorbidities (e.g., diabetes, cardiovascular disease), medications (e.g., antihypertensives, vasopressors), history of vascular disease, history of ischemic colitis, history of Raynaud's disease."
   }
 }

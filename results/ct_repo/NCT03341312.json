@@ -39,7 +39,8 @@
         "alcohol consumption",
         "physical activity level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), glycated hemoglobin (HbA1c), fasting C-peptide, duration of diabetes, type and dose of prandial insulin, type and dose of basal insulin, use of metformin, blood pressure, lipid profile, renal function, liver function, smoking status, alcohol consumption, physical activity level."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline HbA1c, Fasting C-peptide, Duration of Diabetes, Type of Basal Insulin, Daily Insulin Dose, Use of Metformin,",
@@ -78,7 +79,8 @@
         "Daily Insulin Dose",
         "Use of Metformin"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline HbA1c, Fasting C-peptide, Duration of Diabetes, Type of Basal Insulin, Daily Insulin Dose, Use of Metformin"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Fasting C-peptide, HbA1c, Insulin Dose, Duration of Diabetes, Region of Enrollment,",
@@ -115,7 +117,8 @@
         "HbA1c",
         "Insulin Dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, Fasting C-peptide, HbA1c, Insulin Dose, Duration of Diabetes, Region of Enrollment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), glycated hemoglobin (HbA1c), fasting C-peptide, duration of type 2 diabetes mellitus, insulin regimen, metformin use, blood glucose control.",
@@ -154,6 +157,7 @@
         "metformin use",
         "blood glucose control."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), glycated hemoglobin (HbA1c), fasting C-peptide, duration of type 2 diabetes mellitus, insulin regimen, metformin use, blood glucose control."
   }
 }

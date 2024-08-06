@@ -41,7 +41,8 @@
         "history of pancreatitis",
         "history of diabetic retinopathy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, baseline HbA1c, insulin glargine dose, use of metformin, weight, estimated glomerular filtration rate (eGFR), history of cardiovascular disease, history of pancreatitis, history of diabetic retinopathy."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Use of Metformin, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR),",
@@ -84,7 +85,8 @@
         "Diastolic Blood Pressure",
         "Estimated Glomerular Filtration Rate (eGFR)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Use of Metformin, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, Body Mass Index, HbA1c, Insulin Dose, Metformin Use, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, eGFR, History of Cardiovascular Disease.",
@@ -130,7 +132,8 @@
         "eGFR",
         "History of Cardiovascular Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Duration, Body Mass Index, HbA1c, Insulin Dose, Metformin Use, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, eGFR, History of Cardiovascular Disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose at screening, insulin glargine dose at screening, metformin use at screening, weight, systolic blood pressure, diastolic blood pressure, heart rate, medical history, concomitant medications.",
@@ -174,6 +177,7 @@
         "medical history",
         "concomitant medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose at screening, insulin glargine dose at screening, metformin use at screening, weight, systolic blood pressure, diastolic blood pressure, heart rate, medical history, concomitant medications."
   }
 }

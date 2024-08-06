@@ -28,7 +28,8 @@
         "use of immunosuppressive or immunomodulating agents",
         "baseline glucagon-stimulated C-peptide AUC."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, BMI, fasting basal C-peptide, duration of diabetes diagnosis, presence of significant disease or condition other than type 1 diabetes, use of immunosuppressive or immunomodulating agents, baseline glucagon-stimulated C-peptide AUC."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline C-peptide, Body Mass Index, Duration of Diabetes, HbA1c, Insulin Dose,",
@@ -65,7 +66,8 @@
         "HbA1c",
         "Insulin Dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline C-peptide, Body Mass Index, Duration of Diabetes, HbA1c, Insulin Dose"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, BMI, Fasting Basal C-Peptide, Diabetes Duration,",
@@ -91,7 +93,8 @@
         "BMI",
         "Diabetes Duration"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, BMI, Fasting Basal C-Peptide, Diabetes Duration"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, fasting basal C-peptide, duration of diabetes, HbA1c, insulin dose, presence of diabetes-related complications, history of immunosuppressive or immunomodulating agents use.",
@@ -123,6 +126,7 @@
         "presence of diabetes-related complications",
         "history of immunosuppressive or immunomodulating agents use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, fasting basal C-peptide, duration of diabetes, HbA1c, insulin dose, presence of diabetes-related complications, history of immunosuppressive or immunomodulating agents use."
   }
 }

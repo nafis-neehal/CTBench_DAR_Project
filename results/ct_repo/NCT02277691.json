@@ -67,7 +67,8 @@
         "HbA1c levels",
         "history of drug abuse"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, body mass index (BMI), baseline systolic blood pressure (SBP), baseline diastolic blood pressure (DBP), presence of diabetes mellitus, presence of chronic kidney disease (CKD), estimated glomerular filtration rate (eGFR), urinary albumin levels, history of cardiovascular diseases, history of cerebrovascular disorders, history of vascular diseases, hepatic function (AST/ALT levels), renal function (eGFR), sodium levels, potassium levels, history of gout, HbA1c levels, history of drug abuse, history of alcohol abuse."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, History of cardiovascular diseases, Baseline antihypertensive medication use,",
@@ -127,7 +128,8 @@
       "remaining_candidate_features": [
         "Race/Ethnicity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, History of cardiovascular diseases, Baseline antihypertensive medication use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, History of Hypertension, History of Diabetes Mellitus, History of Chronic Kidney Disease, eGFRcreat, Urinary Albumin, History of Cardiovascular Disease.",
@@ -191,7 +193,8 @@
         "Urinary Albumin",
         "History of Cardiovascular Disease."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, History of Hypertension, History of Diabetes Mellitus, History of Chronic Kidney Disease, eGFRcreat, Urinary Albumin, History of Cardiovascular Disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, medical history (including diabetes mellitus, chronic kidney disease, cardiovascular disease), concomitant medications, smoking status, alcohol consumption.",
@@ -259,6 +262,7 @@
         "ethnicity",
         "heart rate"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, medical history (including diabetes mellitus, chronic kidney disease, cardiovascular disease), concomitant medications, smoking status, alcohol consumption."
   }
 }

@@ -41,7 +41,8 @@
         "Baseline laboratory values (e.g., liver function tests, renal function tests)",
         "Baseline vital signs (e.g., blood pressure, heart rate)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Race, Karnofsky Performance Status, Number of daily bowel movements, Duration of carcinoid syndrome, Type and dose of somatostatin analog therapy, Presence of metastatic neuroendocrine tumor, History of previous treatments for carcinoid syndrome, Baseline laboratory values (e.g., liver function tests, renal function tests), Baseline vital signs (e.g., blood pressure, heart rate)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky Performance Status, Number of daily bowel movements, Duration of carcinoid syndrome, SSA therapy dose,",
@@ -87,7 +88,8 @@
         "Number of daily bowel movements",
         "Duration of carcinoid syndrome"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Karnofsky Performance Status, Number of daily bowel movements, Duration of carcinoid syndrome, SSA therapy dose"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky Performance Status, History of carcinoid syndrome, Daily bowel movements at baseline, Somatostatin analogue dose, Duration of somatostatin analogue therapy, Prior tumor-directed therapy, Presence of flushing at baseline.",
@@ -136,7 +138,8 @@
         "Prior tumor-directed therapy",
         "Presence of flushing at baseline."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Karnofsky Performance Status, History of carcinoid syndrome, Daily bowel movements at baseline, Somatostatin analogue dose, Duration of somatostatin analogue therapy, Prior tumor-directed therapy, Presence of flushing at baseline."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), Karnofsky Performance status, duration of carcinoid syndrome, duration of SSA therapy, type of SSA therapy, dose of SSA therapy, number of bowel movements per day at baseline, histopathological tumor grade, tumor location, presence of liver metastases, presence of other metastases.",
@@ -195,6 +198,7 @@
         "presence of liver metastases",
         "presence of other metastases"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), Karnofsky Performance status, duration of carcinoid syndrome, duration of SSA therapy, type of SSA therapy, dose of SSA therapy, number of bowel movements per day at baseline, histopathological tumor grade, tumor location, presence of liver metastases, presence of other metastases."
   }
 }

@@ -43,7 +43,8 @@
         "Smoking status",
         "Alcohol use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Race, Ethnicity, Body Mass Index (BMI), Baseline PSA level, Total testosterone level, Duration of androgen-deprivation therapy (ADT), Prior orchiectomy status, PSA doubling time, Gleason score, ECOG performance status, Prior treatments for prostate cancer, Comorbid conditions, Smoking status, Alcohol use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline PSA level, Testosterone level, Duration of androgen-deprivation therapy, Prostate cancer stage, Prior treatments,",
@@ -82,7 +83,8 @@
         "Prostate cancer stage",
         "Prior treatments"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, Baseline PSA level, Testosterone level, Duration of androgen-deprivation therapy, Prostate cancer stage, Prior treatments"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, PSA value, Total testosterone level, Time since bilateral orchiectomy, Time since start of ADT, Prior chemotherapy, Prior radiotherapy, ECOG performance status, Bone pain at baseline.",
@@ -128,7 +130,8 @@
         "Prior radiotherapy",
         "Bone pain at baseline."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, PSA value, Total testosterone level, Time since bilateral orchiectomy, Time since start of ADT, Prior chemotherapy, Prior radiotherapy, ECOG performance status, Bone pain at baseline."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, race, ethnicity, body mass index (BMI), prostate-specific antigen (PSA) value, PSA doubling time, total testosterone level, duration of androgen-deprivation therapy (ADT), type of ADT (bilateral orchiectomy or GnRH agonist/antagonist), presence of lymph node metastases.",
@@ -165,6 +168,7 @@
         "type of ADT (bilateral orchiectomy or GnRH agonist/antagonist)",
         "presence of lymph node metastases."
       ]
-    }
+    },
+    "processed-gen-response": "age, race, ethnicity, body mass index (BMI), prostate-specific antigen (PSA) value, PSA doubling time, total testosterone level, duration of androgen-deprivation therapy (ADT), type of ADT (bilateral orchiectomy or GnRH agonist/antagonist), presence of lymph node metastases."
   }
 }

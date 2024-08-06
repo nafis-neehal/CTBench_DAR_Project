@@ -41,7 +41,8 @@
         "prior response to therapy",
         "baseline quality of life scores."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline disease characteristics, prior treatments, performance status, comorbidities, duration of multiple myeloma, cytogenetic risk status, renal function, liver function, hematologic parameters, prior response to therapy, baseline quality of life scores."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Previous treatment history, Duration of initial response, Baseline disease characteristics, Performance status, Hemoglobin levels, Platelet count, Creatinine levels, ",
@@ -81,7 +82,8 @@
         "Platelet count",
         "Creatinine levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Previous treatment history, Duration of initial response, Baseline disease characteristics, Performance status, Hemoglobin levels, Platelet count, Creatinine levels"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Multiple Myeloma Diagnosis Duration, Prior Autologous Transplant, Prior Lenalidomide Maintenance Therapy, Baseline M-Protein, Baseline Hemoglobin, Baseline Platelet Count, Baseline Creatinine, Baseline Beta-2 Microglobulin, Baseline Albumin, Baseline LDH, Baseline ISS Stage, Baseline R-ISS Stage, Baseline Cytogenetic Risk Category.",
@@ -125,7 +127,8 @@
         "Baseline R-ISS Stage",
         "Baseline Cytogenetic Risk Category"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Multiple Myeloma Diagnosis Duration, Prior Autologous Transplant, Prior Lenalidomide Maintenance Therapy, Baseline M-Protein, Baseline Hemoglobin, Baseline Platelet Count, Baseline Creatinine, Baseline Beta-2 Microglobulin, Baseline Albumin, Baseline LDH, Baseline ISS Stage, Baseline R-ISS Stage, Baseline Cytogenetic Risk Category."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), performance status, multiple myeloma stage, prior therapies, time from diagnosis to randomization, hematological parameters (e.g., hemoglobin, platelet count, white blood cell count), serum creatinine, serum lactate dehydrogenase (LDH), beta-2 microglobulin, albumin, presence of extramedullary disease, cytogenetic abnormalities, International Staging System (ISS) stage, Revised ISS (R-ISS) stage.",
@@ -173,6 +176,7 @@
         "International Staging System (ISS) stage",
         "Revised ISS (R-ISS) stage"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), performance status, multiple myeloma stage, prior therapies, time from diagnosis to randomization, hematological parameters (e.g., hemoglobin, platelet count, white blood cell count), serum creatinine, serum lactate dehydrogenase (LDH), beta-2 microglobulin, albumin, presence of extramedullary disease, cytogenetic abnormalities, International Staging System (ISS) stage, Revised ISS (R-ISS) stage."
   }
 }

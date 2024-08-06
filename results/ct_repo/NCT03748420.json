@@ -36,7 +36,8 @@
         "Cancer Status",
         "Hospice Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Hemoglobin A1C, Blood Pressure, LDL levels, Cardiovascular Disease Diagnosis, Diabetes Diagnosis, Medication List, Epic Medication Adherence Score (e-PDC), Health Insurance Coverage, Pregnancy Status, Cancer Status, Hospice Enrollment."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemoglobin A1C, Blood Pressure, LDL Cholesterol, Medication Adherence Score, Cardiovascular Disease Diagnosis, Diabetes Diagnosis, Statin Use,",
@@ -78,7 +79,8 @@
         "Diabetes Diagnosis",
         "Statin Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Hemoglobin A1C, Blood Pressure, LDL Cholesterol, Medication Adherence Score, Cardiovascular Disease Diagnosis, Diabetes Diagnosis, Statin Use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Existing Cardiovascular Disease, Baseline HbA1c, Blood Pressure, Total Cholesterol, LDL Cholesterol, HDL Cholesterol, Triglycerides, BMI, eGFR, Diabetic Retinopathy,",
@@ -124,7 +126,8 @@
         "eGFR",
         "Diabetic Retinopathy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Existing Cardiovascular Disease, Baseline HbA1c, Blood Pressure, Total Cholesterol, LDL Cholesterol, HDL Cholesterol, Triglycerides, BMI, eGFR, Diabetic Retinopathy"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, diabetes duration, hypertension duration, hyperlipidemia duration, number of medications, comorbidities, prior cardiovascular events, health literacy, education level, income level, insurance type, primary care provider, medication regimen complexity, prior adherence to medications.",
@@ -171,6 +174,7 @@
         "medication regimen complexity",
         "prior adherence to medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, diabetes duration, hypertension duration, hyperlipidemia duration, number of medications, comorbidities, prior cardiovascular events, health literacy, education level, income level, insurance type, primary care provider, medication regimen complexity, prior adherence to medications."
   }
 }

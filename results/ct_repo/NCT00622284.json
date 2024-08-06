@@ -31,7 +31,8 @@
         "hepatic function",
         "history of cardiovascular events"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline HbA1c, duration of diabetes, body mass index (BMI), prior antidiabetic medication use, renal function, hepatic function, history of cardiovascular events"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Blood Pressure, Renal Function, Hepatic Function, Prior Antidiabetic Treatment,",
@@ -68,7 +69,8 @@
         "Hepatic Function",
         "Prior Antidiabetic Treatment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Blood Pressure, Renal Function, Hepatic Function, Prior Antidiabetic Treatment"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes duration, Previous antidiabetic medication, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol.",
@@ -107,7 +109,8 @@
         "HDL Cholesterol",
         "LDL Cholesterol"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Diabetes duration, Previous antidiabetic medication, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c at baseline, fasting plasma glucose (FPG) at baseline, systolic blood pressure (SBP) at baseline, diastolic blood pressure (DBP) at baseline, lipid profile at baseline, smoking status, medical history (including cardiovascular disease, hypertension, dyslipidemia), concomitant medications, metformin dose and duration at baseline.",
@@ -147,6 +150,7 @@
         "concomitant medications",
         "metformin dose and duration at baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c at baseline, fasting plasma glucose (FPG) at baseline, systolic blood pressure (SBP) at baseline, diastolic blood pressure (DBP) at baseline, lipid profile at baseline, smoking status, medical history (including cardiovascular disease, hypertension, dyslipidemia), concomitant medications, metformin dose and duration at baseline."
   }
 }

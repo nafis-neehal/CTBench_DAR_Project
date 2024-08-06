@@ -50,7 +50,8 @@
         "socioeconomic status",
         "educational level"
       ]
-    }
+    },
+    "processed-gen-response": "age, gender, duration on hemodialysis, baseline physical activity level, comorbid conditions, body mass index (BMI), medication use, socioeconomic status, educational level, smoking status"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration on Hemodialysis, Baseline Physical Activity Level, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -105,7 +106,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration on Hemodialysis, Baseline Physical Activity Level, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Dialysis duration, Comorbidities,",
@@ -158,7 +160,8 @@
       "remaining_candidate_features": [
         "Comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Dialysis duration, Comorbidities"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, body mass index, dialysis duration, comorbidities, walking ability, physical function, quality of life, blood pressure, hemoglobin, albumin, creatinine, urea reduction ratio.",
@@ -214,6 +217,7 @@
         "creatinine",
         "urea reduction ratio."
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, body mass index, dialysis duration, comorbidities, walking ability, physical function, quality of life, blood pressure, hemoglobin, albumin, creatinine, urea reduction ratio."
   }
 }

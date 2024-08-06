@@ -58,7 +58,8 @@
         "chemotherapy",
         "or targeted agents."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race/ethnicity, performance status (ECOG), absolute neutrophil count, platelet count, hemoglobin level, bilirubin level, creatinine level, KRAS status, presence of synchronous primary colon cancer, number of pathologically confirmed positive lymph nodes, history of tumor-related obstructions, history of colonic perforation, history of other malignancies within the past 5 years, history of cardiovascular conditions (e.g., high blood pressure, angina, congestive heart failure, myocardial infarction, heart disease), history of pulmonary conditions (e.g., pulmonary fibrosis, interstitial pneumonitis), history of allergic reactions to monoclonal antibody therapy or platinum compounds, presence of human anti-mouse antibodies (HAMA), HIV status, pregnancy status, history of gastrointestinal bleeding, presence of peripheral sensory or motor neuropathy, history of other concurrent medical conditions, prior chemotherapy or radiotherapy for colon cancer, concurrent use of biologic therapy, chemotherapy, or targeted agents."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Performance Status (ECOG), Absolute Neutrophil Count, Platelet Count, Hemoglobin, Bilirubin, Creatinine, Tumor Stage, Number of Positive Lymph Nodes, KRAS Status,",
@@ -107,7 +108,8 @@
         "Bilirubin",
         "Creatinine"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Performance Status (ECOG), Absolute Neutrophil Count, Platelet Count, Hemoglobin, Bilirubin, Creatinine, Tumor Stage, Number of Positive Lymph Nodes, KRAS Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Performance Status (ECOG), Tumor Stage, Number of Positive Lymph Nodes, Tumor Differentiation, Baseline Carcinoembryonic Antigen (CEA), Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure.",
@@ -156,7 +158,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Performance Status (ECOG), Tumor Stage, Number of Positive Lymph Nodes, Tumor Differentiation, Baseline Carcinoembryonic Antigen (CEA), Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, performance status (ECOG), tumor location, tumor stage, number of positive lymph nodes, presence of tumor adherence to adjacent structures, presence of tumor-related obstructions or colonic perforation, synchronous primary colon cancer, prior surgical procedure, time from surgery to randomization, absolute neutrophil count, platelet count, hemoglobin, bilirubin, creatinine, KRAS status.",
@@ -207,6 +210,7 @@
         "bilirubin",
         "creatinine"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, performance status (ECOG), tumor location, tumor stage, number of positive lymph nodes, presence of tumor adherence to adjacent structures, presence of tumor-related obstructions or colonic perforation, synchronous primary colon cancer, prior surgical procedure, time from surgery to randomization, absolute neutrophil count, platelet count, hemoglobin, bilirubin, creatinine, KRAS status."
   }
 }

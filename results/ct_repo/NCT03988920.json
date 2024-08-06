@@ -37,7 +37,8 @@
         "baseline serum calcium level",
         "baseline parathyroid hormone (PTH) level."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline serum phosphorus level, duration of dialysis, comorbid conditions (e.g., diabetes, hypertension), baseline kidney function, medication history, body mass index (BMI), dietary phosphate intake, baseline serum calcium level, baseline parathyroid hormone (PTH) level."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Dialysis, Baseline Serum Phosphorus Level, Baseline Kidney Function, Concomitant Medications, Body Mass Index, Blood Pressure,",
@@ -76,7 +77,8 @@
         "Concomitant Medications",
         "Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Dialysis, Baseline Serum Phosphorus Level, Baseline Kidney Function, Concomitant Medications, Body Mass Index, Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Dialysis vintage, Serum phosphorus concentration, Calcium levels, Parathyroid hormone levels, Vitamin D levels,",
@@ -112,7 +114,8 @@
         "Parathyroid hormone levels",
         "Vitamin D levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Dialysis vintage, Serum phosphorus concentration, Calcium levels, Parathyroid hormone levels, Vitamin D levels"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of dialysis, type of dialysis (hemodialysis or peritoneal dialysis), serum phosphorus concentration at baseline, calcium levels, parathyroid hormone levels, vitamin D levels, albumin levels, presence of comorbidities (e.g., diabetes, hypertension), concomitant medications (e.g., phosphate binders, vitamin D analogs).",
@@ -154,6 +157,7 @@
         "presence of comorbidities (e.g., diabetes, hypertension)",
         "concomitant medications (e.g., phosphate binders, vitamin D analogs)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of dialysis, type of dialysis (hemodialysis or peritoneal dialysis), serum phosphorus concentration at baseline, calcium levels, parathyroid hormone levels, vitamin D levels, albumin levels, presence of comorbidities (e.g., diabetes, hypertension), concomitant medications (e.g., phosphate binders, vitamin D analogs)."
   }
 }

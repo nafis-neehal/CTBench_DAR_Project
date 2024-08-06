@@ -30,7 +30,8 @@
         "baseline visual acuity",
         "baseline ocular health status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline intra-ocular pressure (IOP), diagnosis (intra-ocular hypertension or primary open-angle glaucoma), current anti-glaucoma medication use, duration of current anti-glaucoma medication use, visual field status, history of eye trauma, baseline visual acuity, baseline ocular health status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intra-ocular Pressure, Use of Anti-glaucoma Medication, Duration of Intra-ocular Hypertension, Visual Field Loss,",
@@ -66,7 +67,8 @@
         "Duration of Intra-ocular Hypertension",
         "Visual Field Loss"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Intra-ocular Pressure, Use of Anti-glaucoma Medication, Duration of Intra-ocular Hypertension, Visual Field Loss"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Intra-ocular Pressure, Diagnosis of Intra-ocular Hypertension or Primary Open-Angle Glaucoma, Anti-glaucoma Medication Use, Visual Acuity, Visual Field Defect.",
@@ -103,7 +105,8 @@
         "Visual Acuity",
         "Visual Field Defect"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Intra-ocular Pressure, Diagnosis of Intra-ocular Hypertension or Primary Open-Angle Glaucoma, Anti-glaucoma Medication Use, Visual Acuity, Visual Field Defect."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), medical history (including diagnosis of intra-ocular hypertension or primary open-angle glaucoma), current medications (including anti-glaucoma medication), intra-ocular pressure (IOP) at baseline, visual acuity, visual field, cup-to-disc ratio, spherical equivalent refraction, axial length, central corneal thickness.",
@@ -143,6 +146,7 @@
         "axial length",
         "central corneal thickness"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), medical history (including diagnosis of intra-ocular hypertension or primary open-angle glaucoma), current medications (including anti-glaucoma medication), intra-ocular pressure (IOP) at baseline, visual acuity, visual field, cup-to-disc ratio, spherical equivalent refraction, axial length, central corneal thickness."
   }
 }

@@ -45,7 +45,8 @@
         "adherence to medication regimen",
         "baseline 24-hour mean arterial pressure (MAP)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, baseline blood pressure, stage of chronic kidney disease, duration of hypertension, type and dosage of antihypertensive medication, body mass index (BMI), renal function (e.g., glomerular filtration rate), presence of end-stage renal disease (ESRD), comorbid conditions, family history of hypertension or kidney disease, socioeconomic status, adherence to medication regimen, baseline 24-hour mean arterial pressure (MAP)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Blood Pressure, Stage of Chronic Kidney Disease, Type of Antihypertensive Medication, Duration of Hypertension, ",
@@ -83,7 +84,8 @@
         "Type of Antihypertensive Medication",
         "Duration of Hypertension"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Blood Pressure, Stage of Chronic Kidney Disease, Type of Antihypertensive Medication, Duration of Hypertension"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Chronic Kidney Disease Stage, Antihypertensive Medication Use,",
@@ -126,7 +128,8 @@
         "Diastolic Blood Pressure",
         "Antihypertensive Medication Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Chronic Kidney Disease Stage, Antihypertensive Medication Use"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, height, weight, body mass index (BMI), CKD stage, estimated glomerular filtration rate (eGFR), current antihypertensive medication regimen, duration of hypertension, duration of CKD, presence of ESRD, history of renal transplant, comorbidities (e.g. diabetes, cardiovascular disease).",
@@ -174,6 +177,7 @@
         "presence of ESRD",
         "comorbidities (e.g. diabetes, cardiovascular disease)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, height, weight, body mass index (BMI), CKD stage, estimated glomerular filtration rate (eGFR), current antihypertensive medication regimen, duration of hypertension, duration of CKD, presence of ESRD, history of renal transplant, comorbidities (e.g. diabetes, cardiovascular disease)."
   }
 }

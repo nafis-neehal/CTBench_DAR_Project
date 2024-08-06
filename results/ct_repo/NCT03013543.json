@@ -44,7 +44,8 @@
         "contraceptive use",
         "breastfeeding status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, BMI, genotype, baseline weight, hunger assessment score, hemoglobin A1c (HbA1c), glomerular filtration rate (GFR), history of melanoma, history of oculocutaneous albinism, psychiatric history, liver disease history, pulmonary disease history, cardiac disease history, oncologic disease history, prior gastric bypass surgery, prior use of weight loss agents, prior participation in clinical studies, pregnancy status, contraceptive use, breastfeeding status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Genetic Mutation Type, Baseline Hunger Score, Baseline Weight, Hemoglobin A1c, Glomerular Filtration Rate, ",
@@ -80,7 +81,8 @@
         "Hemoglobin A1c",
         "Glomerular Filtration Rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Genetic Mutation Type, Baseline Hunger Score, Baseline Weight, Hemoglobin A1c, Glomerular Filtration Rate"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Genetic Disorder, Region of Enrollment, Body Mass Index, Hunger Assessments, Leptin Levels, Insulin Levels, Glucose Levels, HbA1c, Lipid Profiles, Blood Pressure.",
@@ -119,7 +121,8 @@
         "Lipid Profiles",
         "Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Genetic Disorder, Region of Enrollment, Body Mass Index, Hunger Assessments, Leptin Levels, Insulin Levels, Glucose Levels, HbA1c, Lipid Profiles, Blood Pressure."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, genotype, BMI, weight, hunger assessments, HbA1c, GFR, medical history (psychiatric disorders, pulmonary disease, cardiac disease, oncologic disease, liver disease, melanoma, oculocutaneous albinism), medication use (weight loss agents, psychiatric medications), family history (melanoma), dermatologic findings (melanoma or pre-melanoma skin lesions).",
@@ -161,6 +164,7 @@
         "family history (melanoma)",
         "dermatologic findings (melanoma or pre-melanoma skin lesions)."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, genotype, BMI, weight, hunger assessments, HbA1c, GFR, medical history (psychiatric disorders, pulmonary disease, cardiac disease, oncologic disease, liver disease, melanoma, oculocutaneous albinism), medication use (weight loss agents, psychiatric medications), family history (melanoma), dermatologic findings (melanoma or pre-melanoma skin lesions)."
   }
 }

@@ -43,7 +43,8 @@
         "Presence of jaundice",
         "CTP score for cirrhosis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, BMI, ASA physical status, Total bilirubin, Presence of cirrhosis, Type of liver lesion (benign or malignant), Type of liver resection (segmental or major), Presence of jaundice, CTP score for cirrhosis, Difficulty index."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, BMI, ASA physical status, Total bilirubin, Presence of cirrhosis, Type of liver lesion (benign or malignant), Type of liver resection (segmental or major),",
@@ -85,7 +86,8 @@
         "Presence of cirrhosis",
         "Type of liver resection (segmental or major)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, ASA physical status, Total bilirubin, Presence of cirrhosis, Type of liver lesion (benign or malignant), Type of liver resection (segmental or major)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, BMI, ASA physical status, Total bilirubin, Cirrhosis status, Tumor type, Tumor size, Liver function, Coagulation profile, Previous abdominal surgery,",
@@ -130,7 +132,8 @@
         "Coagulation profile",
         "Previous abdominal surgery"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, ASA physical status, Total bilirubin, Cirrhosis status, Tumor type, Tumor size, Liver function, Coagulation profile, Previous abdominal surgery"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, Gender, BMI, ASA physical status, Total bilirubin, CTP score, Tumor type (benign/malignant), Tumor size, Liver function, Presence of cirrhosis, Previous liver resection, Difficulty index score.",
@@ -175,6 +178,7 @@
         "Presence of cirrhosis",
         "Previous liver resection"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, BMI, ASA physical status, Total bilirubin, CTP score, Tumor type (benign/malignant), Tumor size, Liver function, Presence of cirrhosis, Previous liver resection, Difficulty index score."
   }
 }

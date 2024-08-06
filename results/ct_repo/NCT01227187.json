@@ -48,7 +48,8 @@
         "Use of Anticoagulant Medications (Ticlid, Plavix, Warfarin)",
         "Pregnancy Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Baseline Platelet Count, Baseline Partial Thromboplastin Time (PTT), Baseline International Normalized Ratio (INR), Systolic Blood Pressure (SBP), History of Bleeding Diathesis, History of Cerebrovascular Accident (CVA), Use of Anticoagulant Medications (Ticlid, Plavix, Warfarin), Pregnancy Status"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Platelet Count, Baseline Partial Thromboplastin Time (PTT), Baseline International Normalized Ratio (INR), Systolic Blood Pressure, Diastolic Blood Pressure, History of Bleeding Diathesis, History of Cerebrovascular Accident (CVA), Use of Anticoagulant Medications,",
@@ -104,7 +105,8 @@
         "History of Cerebrovascular Accident (CVA)",
         "Use of Anticoagulant Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Platelet Count, Baseline Partial Thromboplastin Time (PTT), Baseline International Normalized Ratio (INR), Systolic Blood Pressure, Diastolic Blood Pressure, History of Bleeding Diathesis, History of Cerebrovascular Accident (CVA), Use of Anticoagulant Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemodialysis duration, History of bleeding diathesis, History of CVA, Systolic Blood Pressure, Platelet count, Baseline PTT, INR,",
@@ -159,7 +161,8 @@
         "History of CVA",
         "Systolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Hemodialysis duration, History of bleeding diathesis, History of CVA, Systolic Blood Pressure, Platelet count, Baseline PTT, INR"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, weight, height, body mass index (BMI), race, ethnicity, duration of ESRD, duration of hemodialysis, comorbidities (e.g., diabetes, hypertension), medications (e.g., anticoagulants, antiplatelet agents), platelet count, systolic blood pressure (SBP), baseline PTT, international normalized ratio (INR).",
@@ -221,6 +224,7 @@
         "medications (e.g., anticoagulants, antiplatelet agents)",
         "systolic blood pressure (SBP)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, weight, height, body mass index (BMI), race, ethnicity, duration of ESRD, duration of hemodialysis, comorbidities (e.g., diabetes, hypertension), medications (e.g., anticoagulants, antiplatelet agents), platelet count, systolic blood pressure (SBP), baseline PTT, international normalized ratio (INR)."
   }
 }

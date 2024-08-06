@@ -37,7 +37,8 @@
         "previous antibiotic use",
         "baseline laboratory values (e.g., blood glucose levels, HbA1c)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, diabetes mellitus type, duration of diabetes, ulcer size, ulcer duration, ulcer location, baseline infection severity, baseline wound care practices, comorbid conditions, smoking status, peripheral arterial disease status, previous antibiotic use, baseline laboratory values (e.g., blood glucose levels, HbA1c)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, Ulcer Size, Ulcer Duration, Baseline Infection Severity, Blood Glucose Levels, Hemoglobin A1c,",
@@ -76,7 +77,8 @@
         "Blood Glucose Levels",
         "Hemoglobin A1c"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Duration, Ulcer Size, Ulcer Duration, Baseline Infection Severity, Blood Glucose Levels, Hemoglobin A1c"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, HbA1c, BMI, Blood pressure, Ulcer size, Ulcer duration,",
@@ -115,7 +117,8 @@
         "Blood pressure",
         "Ulcer duration"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes duration, HbA1c, BMI, Blood pressure, Ulcer size, Ulcer duration"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, diabetes duration, HbA1c, body mass index (BMI), ulcer size, ulcer duration, ankle-brachial index (ABI), presence of peripheral neuropathy, presence of peripheral arterial disease.",
@@ -149,6 +152,7 @@
         "presence of peripheral neuropathy",
         "presence of peripheral arterial disease."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, diabetes duration, HbA1c, body mass index (BMI), ulcer size, ulcer duration, ankle-brachial index (ABI), presence of peripheral neuropathy, presence of peripheral arterial disease."
   }
 }

@@ -44,7 +44,8 @@
         "pregnancy or lactation status",
         "use of contraception"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, diagnosis (acute myeloid leukemia or high-risk myelodysplastic syndrome), white blood cell count, bilirubin levels, serum creatinine levels, left ventricular ejection fraction, prior treatments (e.g., hydroxyurea, leukapheresis), presence of concomitant illnesses, infection status, cardiac disease status, pregnancy or lactation status, use of contraception, treatment-related mortality score."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline White Blood Cell Count, Baseline Blast Percentage in Bone Marrow, Baseline Blast Percentage in Peripheral Blood, Bilirubin, Serum Creatinine, Left Ventricular Ejection Fraction, Treatment-Related Mortality Score,",
@@ -96,7 +97,8 @@
         "Baseline Blast Percentage in Bone Marrow",
         "Baseline Blast Percentage in Peripheral Blood"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline White Blood Cell Count, Baseline Blast Percentage in Bone Marrow, Baseline Blast Percentage in Peripheral Blood, Bilirubin, Serum Creatinine, Left Ventricular Ejection Fraction, Treatment-Related Mortality Score"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Performance Status, White Blood Cell Count, Hemoglobin, Platelet Count, Peripheral Blood Blast Percentage, Bone Marrow Blast Percentage, Cytogenetic Risk Category, Treatment-Related Mortality Score, Bilirubin, Serum Creatinine, Left Ventricular Ejection Fraction.",
@@ -146,7 +148,8 @@
         "Serum Creatinine",
         "Left Ventricular Ejection Fraction"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Performance Status, White Blood Cell Count, Hemoglobin, Platelet Count, Peripheral Blood Blast Percentage, Bone Marrow Blast Percentage, Cytogenetic Risk Category, Treatment-Related Mortality Score, Bilirubin, Serum Creatinine, Left Ventricular Ejection Fraction."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), performance status, disease classification (Acute Myeloid Leukemia, Myelodysplastic Syndrome, Myeloproliferative Neoplasm), blast percentage in marrow or blood, Treatment-related mortality (TRM) score, bilirubin level, serum creatinine level, left ventricular ejection fraction, white blood cell (WBC) count.",
@@ -198,6 +201,7 @@
         "left ventricular ejection fraction",
         "white blood cell (WBC) count."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), performance status, disease classification (Acute Myeloid Leukemia, Myelodysplastic Syndrome, Myeloproliferative Neoplasm), blast percentage in marrow or blood, Treatment-related mortality (TRM) score, bilirubin level, serum creatinine level, left ventricular ejection fraction, white blood cell (WBC) count."
   }
 }

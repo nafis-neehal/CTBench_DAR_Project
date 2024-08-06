@@ -42,7 +42,8 @@
         "pregnancy status",
         "body mass index (BMI)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, kidney disease stage, estimated glomerular filtration rate (GFR), albumin to creatinine ratio, protein to creatinine ratio, history of kidney transplant, presence of kidney lesions, previous imaging studies (non-contrasted US, CT, MR), history of chronic obstructive pulmonary disease (COPD), history of cardiac disease, blood pressure, history of neurological disease, history of mental illness, history of drug abuse, pregnancy status, body mass index (BMI)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Estimated Glomerular Filtration Rate (eGFR), Albumin to Creatinine Ratio, Protein to Creatinine Ratio, Presence of Kidney Lesion, Type of Kidney Disease, ",
@@ -80,7 +81,8 @@
         "Presence of Kidney Lesion",
         "Type of Kidney Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Estimated Glomerular Filtration Rate (eGFR), Albumin to Creatinine Ratio, Protein to Creatinine Ratio, Presence of Kidney Lesion, Type of Kidney Disease"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Estimated Glomerular Filtration Rate, Albumin to Creatinine Ratio, Protein to Creatinine Ratio, Kidney Lesion Size, Kidney Lesion Location, Chronic Kidney Disease Stage, History of Kidney Transplant.",
@@ -118,7 +120,8 @@
         "Chronic Kidney Disease Stage",
         "History of Kidney Transplant"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Estimated Glomerular Filtration Rate, Albumin to Creatinine Ratio, Protein to Creatinine Ratio, Kidney Lesion Size, Kidney Lesion Location, Chronic Kidney Disease Stage, History of Kidney Transplant."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), estimated glomerular filtration rate (GFR), albumin to creatinine ratio, protein to creatinine ratio, presence of chronic kidney disease (CKD), CKD stage, history of kidney transplant, presence of kidney lesions, number of kidney lesions, lesion size, lesion location, presence of comorbidities (e.g. COPD, cardiac disease, hypertension, neurological disease), medication use.",
@@ -161,6 +164,7 @@
         "presence of comorbidities (e.g. COPD, cardiac disease, hypertension, neurological disease)",
         "medication use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), estimated glomerular filtration rate (GFR), albumin to creatinine ratio, protein to creatinine ratio, presence of chronic kidney disease (CKD), CKD stage, history of kidney transplant, presence of kidney lesions, number of kidney lesions, lesion size, lesion location, presence of comorbidities (e.g. COPD, cardiac disease, hypertension, neurological disease), medication use."
   }
 }

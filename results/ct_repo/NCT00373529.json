@@ -55,7 +55,8 @@
         "CNS involvement",
         "HIV status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, presence of adverse prognostic factors, renal function (total bilirubin, AST, ALT, serum creatinine, estimated GFR), hepatic function, cardiac function (LVEF, left ventricular fractional shortening), prior treatments, presence of other malignancies, CNS involvement, HIV status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Adverse prognostic factors, Renal function (serum creatinine, estimated GFR), Hepatic function (total bilirubin, AST, ALT), Cardiac function (LVEF, left ventricular fractional shortening), Type of AML (de novo, secondary, with antecedent hematologic disorder), Karyotype classification,",
@@ -106,7 +107,8 @@
         "Hepatic function (total bilirubin, AST, ALT)",
         "Cardiac function (LVEF, left ventricular fractional shortening)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG performance status, Adverse prognostic factors, Renal function (serum creatinine, estimated GFR), Hepatic function (total bilirubin, AST, ALT), Cardiac function (LVEF, left ventricular fractional shortening), Type of AML (de novo, secondary, with antecedent hematologic disorder), Karyotype classification"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Karyotype, Hemoglobin, Platelet Count, White Blood Cell Count, Bone Marrow Blast Percentage, Creatinine, Total Bilirubin, AST, ALT, Left Ventricular Ejection Fraction.",
@@ -159,7 +161,8 @@
         "ALT",
         "Left Ventricular Ejection Fraction."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Karyotype, Hemoglobin, Platelet Count, White Blood Cell Count, Bone Marrow Blast Percentage, Creatinine, Total Bilirubin, AST, ALT, Left Ventricular Ejection Fraction."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ECOG performance status, diagnosis of AML (de novo, secondary or with an antecedent hematologic disorder), presence of adverse prognostic factors, karyotype, total bilirubin, AST, ALT, serum creatinine, estimated glomerular filtration rate, left ventricular ejection fraction, left ventricular fractional shortening.",
@@ -210,6 +213,7 @@
         "left ventricular ejection fraction",
         "left ventricular fractional shortening"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ECOG performance status, diagnosis of AML (de novo, secondary or with an antecedent hematologic disorder), presence of adverse prognostic factors, karyotype, total bilirubin, AST, ALT, serum creatinine, estimated glomerular filtration rate, left ventricular ejection fraction, left ventricular fractional shortening."
   }
 }

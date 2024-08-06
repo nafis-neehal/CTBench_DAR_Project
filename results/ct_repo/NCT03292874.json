@@ -41,7 +41,8 @@
         "Race (NIH/OMB)"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, Prostate Specific Antigen (PSA) level, Clinical stage, Gleason score, Primary management strategy (Active Surveillance), Previous treatment history for prostate cancer, Contraindications for gadolinium enhanced MRI"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Prostate Specific Antigen (PSA) level, Clinical stage, Gleason score,",
@@ -80,7 +81,8 @@
         "Race/Ethnicity",
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, Prostate Specific Antigen (PSA) level, Clinical stage, Gleason score"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Prostate Specific Antigen, Gleason Score, Clinical Stage, Body Mass Index, Family History of Prostate Cancer, Prior Biopsy History, Prior Prostate Cancer Treatment.",
@@ -125,7 +127,8 @@
         "Family History of Prostate Cancer",
         "Prior Prostate Cancer Treatment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, Prostate Specific Antigen, Gleason Score, Clinical Stage, Body Mass Index, Family History of Prostate Cancer, Prior Biopsy History, Prior Prostate Cancer Treatment."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), prostate specific antigen (PSA) level, clinical stage, Gleason score, time since diagnosis, prior biopsy history, family history of prostate cancer.",
@@ -174,6 +177,7 @@
         "time since diagnosis",
         "family history of prostate cancer"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), prostate specific antigen (PSA) level, clinical stage, Gleason score, time since diagnosis, prior biopsy history, family history of prostate cancer."
   }
 }

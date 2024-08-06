@@ -37,7 +37,8 @@
         "previous use of GLP-1 receptor agonists",
         "pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, HbA1c, C-peptide levels, fasting plasma glucose concentration, use of oral antidiabetic agents, use of insulin, presence of hepatic disease, presence of renal disease, presence of gastrointestinal disease, history of organ transplantation, presence of chronic infection, history of malignant disease, antibody titers to GAD65 or ICA512, family history of elevated calcitonin or medullary thyroid carcinoma, previous use of GLP-1 receptor agonists, pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Fasting Plasma Glucose, C-peptide, Use of Oral Antidiabetic Agents, Use of Insulin,",
@@ -76,7 +77,8 @@
         "Use of Oral Antidiabetic Agents",
         "Use of Insulin"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Fasting Plasma Glucose, C-peptide, Use of Oral Antidiabetic Agents, Use of Insulin"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, C-peptide, Fasting Plasma Glucose, Duration of Diabetes, Insulin Use, Oral Antidiabetic Agent Use.",
@@ -115,7 +117,8 @@
         "Insulin Use",
         "Oral Antidiabetic Agent Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, HbA1c, C-peptide, Fasting Plasma Glucose, Duration of Diabetes, Insulin Use, Oral Antidiabetic Agent Use."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of type 2 diabetes, HbA1c, fasting plasma glucose, C-peptide, systolic and diastolic blood pressure, medical history, concomitant medications, prior diabetes treatment.",
@@ -155,6 +158,7 @@
         "concomitant medications",
         "prior diabetes treatment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of type 2 diabetes, HbA1c, fasting plasma glucose, C-peptide, systolic and diastolic blood pressure, medical history, concomitant medications, prior diabetes treatment."
   }
 }

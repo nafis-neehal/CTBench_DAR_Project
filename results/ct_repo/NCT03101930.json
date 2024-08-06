@@ -56,7 +56,8 @@
         "alcohol or drug use history",
         "contraceptive use (for women)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, fasting plasma glucose (FPG), two-hour plasma glucose, HbA1C, blood pressure, lipid profile, renal function (eGFR), liver function (AST, ALT), hematocrit, race/ethnicity, smoking status, medication use, history of cardiovascular disease, history of pancreatitis, history of neurological disease, history of gastrointestinal impairment, history of immunological or hematological disorders, alcohol or drug use history, contraceptive use (for women)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Fasting Plasma Glucose, HbA1c, Blood Pressure, Lipid Profile, Family History of Cardiovascular Disease, Smoking Status, Physical Activity Level, Medication Use,",
@@ -105,7 +106,8 @@
         "Physical Activity Level",
         "Medication Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Fasting Plasma Glucose, HbA1c, Blood Pressure, Lipid Profile, Family History of Cardiovascular Disease, Smoking Status, Physical Activity Level, Medication Use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Fasting Plasma Glucose, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, eGFR, Urine Albumin-to-creatinine Ratio, History of Cardiovascular Disease.",
@@ -159,7 +161,8 @@
         "eGFR",
         "History of Cardiovascular Disease."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Fasting Plasma Glucose, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, eGFR, Urine Albumin-to-creatinine Ratio, History of Cardiovascular Disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, FPG, HbA1C, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (including cardiovascular disease, hypertension, and diabetes), medication use, lipid profile, renal function (eGFR, UACR), hematocrit, liver function tests (AST, ALT).",
@@ -207,6 +210,7 @@
         "hematocrit",
         "liver function tests (AST, ALT)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, FPG, HbA1C, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (including cardiovascular disease, hypertension, and diabetes), medication use, lipid profile, renal function (eGFR, UACR), hematocrit, liver function tests (AST, ALT)."
   }
 }

@@ -42,7 +42,8 @@
         "tumor size",
         "pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, performance status (ECOG), tumor size, prior tariquidar exposure, pregnancy status, weight, HIV status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Performance Status (ECOG), Tumor Size, Prior Tariquidar Use, Body Weight,",
@@ -82,7 +83,8 @@
         "Prior Tariquidar Use",
         "Body Weight"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Performance Status (ECOG), Tumor Size, Prior Tariquidar Use, Body Weight"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Performance Status (ECOG), Tumor size, Prior chemotherapy, Prior tariquidar treatment, HIV status, Pregnancy status.",
@@ -126,7 +128,8 @@
         "HIV status",
         "Pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Performance Status (ECOG), Tumor size, Prior chemotherapy, Prior tariquidar treatment, HIV status, Pregnancy status."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, performance status (ECOG), tumor size, tumor type, cancer stage, prior chemotherapy, prior tariquidar treatment, HIV status, pregnancy status, body weight.",
@@ -166,6 +169,7 @@
         "pregnancy status",
         "body weight"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, performance status (ECOG), tumor size, tumor type, cancer stage, prior chemotherapy, prior tariquidar treatment, HIV status, pregnancy status, body weight."
   }
 }

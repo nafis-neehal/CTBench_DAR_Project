@@ -65,7 +65,8 @@
         "smoking status",
         "alcohol use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of diabetes, baseline HbA1c, body mass index (BMI), baseline insulin dose, comorbidities, socioeconomic status, medication adherence history, health insurance status, baseline fasting blood glucose levels, race/ethnicity, education level, employment status, smoking status, alcohol use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Gender, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Basal Insulin Use, Health Insurance Status,",
@@ -123,7 +124,8 @@
         "Basal Insulin Use",
         "Health Insurance Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Basal Insulin Use, Health Insurance Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, Insurance Type, Diabetes Type, Duration of Diabetes, Basal Insulin Prescription, HbA1c, Blood Pressure, Cholesterol, BMI, Region of Enrollment,",
@@ -186,7 +188,8 @@
         "Cholesterol",
         "BMI"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Insurance Type, Diabetes Type, Duration of Diabetes, Basal Insulin Prescription, HbA1c, Blood Pressure, Cholesterol, BMI, Region of Enrollment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, duration of diabetes, type of diabetes, insulin regimen, HbA1c level, BMI, blood pressure, lipid profile, comorbidities, medication adherence, health insurance type, duration of continuous enrollment, number of prescriptions for basal insulin.",
@@ -256,6 +259,7 @@
         "medication adherence",
         "health insurance type"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, duration of diabetes, type of diabetes, insulin regimen, HbA1c level, BMI, blood pressure, lipid profile, comorbidities, medication adherence, health insurance type, number of prescriptions for basal insulin."
   }
 }

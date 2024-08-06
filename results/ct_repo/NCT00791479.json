@@ -50,7 +50,8 @@
         "history of malignancy",
         "pregnancy status for females"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race/ethnicity, body mass index (BMI), baseline HbA1c, duration of diabetes, prior diabetes treatment (diet and exercise only or metformin monotherapy), blood pressure, serum creatinine, liver function tests (alanine transaminase levels), amylase levels, lipase levels, history of cardiovascular events, history of pancreatitis, history of hypertension, history of gastrointestinal conditions, history of CNS stimulant use, history of malignancy, pregnancy status for females."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Diabetes Duration, Blood Pressure, Total Cholesterol, Triglycerides, Serum Creatinine, Liver Enzymes,",
@@ -99,7 +100,8 @@
         "Serum Creatinine",
         "Liver Enzymes"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Diabetes Duration, Blood Pressure, Total Cholesterol, Triglycerides, Serum Creatinine, Liver Enzymes"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Fasting Plasma Glucose, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol.",
@@ -150,7 +152,8 @@
         "HDL Cholesterol",
         "LDL Cholesterol"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Fasting Plasma Glucose, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), weight, height, duration of type 2 diabetes, previous diabetes treatment, glycosylated hemoglobin (HbA1c) at screening, fasting plasma glucose at screening, systolic and diastolic blood pressure, heart rate, smoking status, medical history (including cardiovascular disease, hypertension, and pancreatitis).",
@@ -197,6 +200,7 @@
         "smoking status",
         "medical history (including cardiovascular disease, hypertension, and pancreatitis)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), weight, height, duration of type 2 diabetes, previous diabetes treatment, glycosylated hemoglobin (HbA1c) at screening, fasting plasma glucose at screening, systolic and diastolic blood pressure, heart rate, smoking status, medical history (including cardiovascular disease, hypertension, and pancreatitis)."
   }
 }

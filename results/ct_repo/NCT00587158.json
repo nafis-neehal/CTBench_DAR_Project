@@ -40,7 +40,8 @@
         "baseline immunosuppressive regimen",
         "history of hyperparathyroidism"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline serum calcium levels, baseline serum 25(OH)vitamin D levels, type of kidney transplant (first or second, deceased or living donor), baseline bone density (spine and hip), baseline parathyroid hormone levels, baseline renal function (e.g., serum creatinine, glomerular filtration rate), presence of normocalcemia or hypocalcemia, baseline immunosuppressive regimen, history of diabetes, history of hyperparathyroidism."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Serum Calcium Levels, Serum 25(OH) Vitamin D Levels, Type of Donor (Deceased or Living), Number of Previous Transplants,",
@@ -81,7 +82,8 @@
         "Serum Calcium Levels",
         "Serum 25(OH) Vitamin D Levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Serum Calcium Levels, Serum 25(OH) Vitamin D Levels, Type of Donor (Deceased or Living), Number of Previous Transplants"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Kidney Transplant Type, Donor Type, Pre-transplant Parathyroid Hormone Level, Pre-transplant Calcium Level, Pre-transplant Vitamin D Level, Immunosuppressive Regimen.",
@@ -124,7 +126,8 @@
         "Pre-transplant Vitamin D Level",
         "Immunosuppressive Regimen."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Kidney Transplant Type, Donor Type, Pre-transplant Parathyroid Hormone Level, Pre-transplant Calcium Level, Pre-transplant Vitamin D Level, Immunosuppressive Regimen."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), serum calcium levels, serum 25(OH)vitamin D concentration, kidney function (eGFR or creatinine clearance), time since transplantation, type of transplant (deceased donor or living donor), immunosuppressive regimen, history of diabetes, history of hyperparathyroidism.",
@@ -168,6 +171,7 @@
         "immunosuppressive regimen",
         "history of hyperparathyroidism."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), serum calcium levels, serum 25(OH)vitamin D concentration, kidney function (eGFR or creatinine clearance), time since transplantation, type of transplant (deceased donor or living donor), immunosuppressive regimen, history of diabetes, history of hyperparathyroidism."
   }
 }

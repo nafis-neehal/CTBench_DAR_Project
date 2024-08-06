@@ -58,7 +58,8 @@
         "number of visits with primary clinician",
         "language proficiency"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, primary diagnosis, comorbid conditions, functional status, duration of illness, number of visits with primary clinician, type of primary clinician, type of interprofessional team members involved, language proficiency, cognitive status, family member involvement in care decisions."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Primary Diagnosis, Number of Visits with Primary Clinician, Type of Primary Clinician, Presence of Metastatic Cancer, Chronic Obstructive Pulmonary Disease (COPD) Status, Heart Failure Class, Liver Disease Status, Renal Failure Status, Cognitive Function, ",
@@ -139,7 +140,8 @@
       "remaining_candidate_features": [
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Primary Diagnosis, Number of Visits with Primary Clinician, Type of Primary Clinician, Presence of Metastatic Cancer, Chronic Obstructive Pulmonary Disease (COPD) Status, Heart Failure Class, Liver Disease Status, Renal Failure Status, Cognitive Function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Primary Diagnosis, Comorbidities, Functional Status, Quality of Life, Patient-Reported Symptom Burden, Caregiver Burden, Patient-Reported Experience of Care.",
@@ -192,7 +194,8 @@
         "Caregiver Burden",
         "Patient-Reported Experience of Care."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Primary Diagnosis, Comorbidities, Functional Status, Quality of Life, Patient-Reported Symptom Burden, Caregiver Burden, Patient-Reported Experience of Care."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, primary diagnosis, comorbidities, performance status, cognitive function, education level, marital status, living situation, primary language, insurance status, Charlson Comorbidity Index, New York Heart Association Class, Child's Class, MELD score, FEV1 values, TLC values, 6MWD, serum albumin level, dialysis dependence, number of hospitalizations in the past year, number of emergency department visits in the past year.",
@@ -283,6 +286,7 @@
         "number of hospitalizations in the past year",
         "number of emergency department visits in the past year"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, primary diagnosis, comorbidities, performance status, cognitive function, education level, marital status, living situation, primary language, insurance status, Charlson Comorbidity Index, New York Heart Association Class, Child's Class, MELD score, FEV1 values, TLC values, 6MWD, serum albumin level, dialysis dependence, number of hospitalizations in the past year, number of emergency department visits in the past year."
   }
 }

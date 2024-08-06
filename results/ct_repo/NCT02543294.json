@@ -38,7 +38,8 @@
         "baseline symptom scores (e.g., MD Anderson Symptom Inventory - Heart Failure scores)",
         "language proficiency"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline left ventricular ejection fraction (LVEF), duration of heart failure medication use, type of heart failure medication used (ACE-I, ARB, Beta Blocker), cancer type, time since cancer treatment completion, presence of other comorbidities, baseline heart function tests (e.g., echocardiogram results), baseline symptom scores (e.g., MD Anderson Symptom Inventory - Heart Failure scores), residence location, language proficiency."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Left Ventricular Ejection Fraction (LVEF), Duration of Heart Failure Medication Use, Type of Cancer, Time Since Cancer Treatment Completion, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -79,7 +80,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Left Ventricular Ejection Fraction (LVEF), Duration of Heart Failure Medication Use, Type of Cancer, Time Since Cancer Treatment Completion, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Type, Time Since Cancer Diagnosis, Time Since Last Cancer Treatment, Left Ventricular Ejection Fraction, Heart Failure Medications, Blood Pressure, Body Mass Index.",
@@ -120,7 +122,8 @@
         "Blood Pressure",
         "Body Mass Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Type, Time Since Cancer Diagnosis, Time Since Last Cancer Treatment, Left Ventricular Ejection Fraction, Heart Failure Medications, Blood Pressure, Body Mass Index."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, cancer type, time since cancer diagnosis, time since completion of cancer treatment, LVEF at diagnosis of CILVD, LVEF at enrollment, type of HF medications, duration of HF medication use, comorbidities (e.g. hypertension, coronary artery disease, diabetes mellitus), NYHA functional class, MDASI-HF score.",
@@ -163,6 +166,7 @@
         "NYHA functional class",
         "MDASI-HF score."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, cancer type, time since cancer diagnosis, time since completion of cancer treatment, LVEF at diagnosis of CILVD, LVEF at enrollment, type of HF medications, duration of HF medication use, comorbidities (e.g. hypertension, coronary artery disease, diabetes mellitus), NYHA functional class, MDASI-HF score."
   }
 }

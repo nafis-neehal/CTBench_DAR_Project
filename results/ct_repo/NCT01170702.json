@@ -36,7 +36,8 @@
         "medical therapies resulting in opioid tolerance",
         "cesarean delivery after failed vaginal trial of labor."
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, ASA classification, type of incision, type of anesthetic received, eligibility for intrathecal morphine, history of chronic pain, history of diabetes mellitus, prior epidural placement, opioid consumption in the past year, use of NSAIDs, medical therapies resulting in opioid tolerance, cesarean delivery after failed vaginal trial of labor."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, ASA Physical Status Classification, Type of Cesarean Delivery Incision, Eligibility for Spinal Anesthetic, Eligibility for Intrathecal Morphine,",
@@ -72,7 +73,8 @@
         "Eligibility for Spinal Anesthetic",
         "Eligibility for Intrathecal Morphine"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Body Mass Index, ASA Physical Status Classification, Type of Cesarean Delivery Incision, Eligibility for Spinal Anesthetic, Eligibility for Intrathecal Morphine"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, ASA Status, BMI, Parity, Gestational Age, History of Chronic Pain, History of Diabetes Mellitus, Previous Cesarean Delivery, Type of Anesthesia, Incision Type,",
@@ -110,7 +112,8 @@
         "Type of Anesthesia",
         "Incision Type"
       ]
-    }
+    },
+    "processed-gen-response": "Age, ASA Status, BMI, Parity, Gestational Age, History of Chronic Pain, History of Diabetes Mellitus, Previous Cesarean Delivery, Type of Anesthesia, Incision Type"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, BMI, ASA classification, parity, gestational age, history of chronic pain, history of diabetes mellitus, type of cesarean delivery, prior epidural placement, medical therapies for pain tolerance, NSAIDs use, opioid use, pain scores at baseline.",
@@ -155,6 +158,7 @@
         "opioid use",
         "pain scores at baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, ASA classification, parity, gestational age, history of chronic pain, history of diabetes mellitus, type of cesarean delivery, prior epidural placement, medical therapies for pain tolerance, NSAIDs use, opioid use, pain scores at baseline."
   }
 }

@@ -51,7 +51,8 @@
         "Smoking Status",
         "Comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Blood Pressure, Heart Rate, Race/Ethnicity, Parity, Gestational Age at Delivery, Type of Hypertensive Disorder, Baseline Creatinine, History of Chronic Hypertension, Previous Antihypertensive Use, Mode of Delivery, Socioeconomic Status, Smoking Status, Comorbidities"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Type of Hypertensive Disorder, Baseline Blood Pressure, Baseline Creatinine, Heart Rate,",
@@ -97,7 +98,8 @@
       "remaining_candidate_features": [
         "Heart Rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Type of Hypertensive Disorder, Baseline Blood Pressure, Baseline Creatinine, Heart Rate"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gestational Age at Delivery, Parity, Race/Ethnicity, Customized, Region of Enrollment, Hypertensive Disorder of Pregnancy, Chronic Hypertension, Systolic Blood Pressure, Diastolic Blood Pressure, Creatinine Level, Pulse.",
@@ -143,7 +145,8 @@
         "Creatinine Level",
         "Pulse"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gestational Age at Delivery, Parity, Race/Ethnicity, Region of Enrollment, Hypertensive Disorder of Pregnancy, Chronic Hypertension, Systolic Blood Pressure, Diastolic Blood Pressure, Creatinine Level, Pulse."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, race, ethnicity, body mass index (BMI), gestational age at delivery, parity, history of hypertension, type of hypertensive disorder of pregnancy/postpartum period, chronic hypertension, blood pressure at enrollment, pulse at enrollment, creatinine level at enrollment, number of antihypertensives used prior to enrollment, mode of delivery, breastfeeding status at enrollment.",
@@ -204,6 +207,7 @@
         "number of antihypertensives used prior to enrollment",
         "breastfeeding status at enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "age, race, ethnicity, body mass index (BMI), gestational age at delivery, parity, history of hypertension, type of hypertensive disorder of pregnancy/postpartum period, chronic hypertension, blood pressure at enrollment, pulse at enrollment, creatinine level at enrollment, number of antihypertensives used prior to enrollment, mode of delivery, breastfeeding status at enrollment."
   }
 }

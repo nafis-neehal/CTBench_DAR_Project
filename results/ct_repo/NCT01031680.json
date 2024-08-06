@@ -44,7 +44,8 @@
         "lipid profile (e.g., LDL, HDL, triglycerides)",
         "baseline fasting plasma glucose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, body mass index (BMI), baseline HbA1c levels, duration of type 2 diabetes, baseline blood pressure, baseline body weight, history of cardiovascular disease, history of hypertension, concomitant medications, smoking status, renal function (e.g., eGFR), lipid profile (e.g., LDL, HDL, triglycerides), baseline fasting plasma glucose."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of Diabetes, Existing Cardiovascular Disease, Number of Antihyperglycemic Medications,",
@@ -86,7 +87,8 @@
         "Existing Cardiovascular Disease",
         "Number of Antihyperglycemic Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of Diabetes, Existing Cardiovascular Disease, Number of Antihyperglycemic Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, Previous cardiovascular disease (CVD) event, Glycated hemoglobin, Blood pressure, Body Mass Index, Cardiovascular disease history, Hypertension history,",
@@ -128,7 +130,8 @@
         "Cardiovascular disease history",
         "Hypertension history"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes duration, Previous cardiovascular disease (CVD) event, Glycated hemoglobin, Blood pressure, Body Mass Index, Cardiovascular disease history, Hypertension history"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, history of cardiovascular disease, systolic blood pressure, diastolic blood pressure, HbA1c levels, fasting plasma glucose, lipid profile, estimated glomerular filtration rate (eGFR), urinary albumin-to-creatinine ratio, smoking status, medical history, concomitant medications.",
@@ -173,6 +176,7 @@
         "medical history",
         "concomitant medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, history of cardiovascular disease, systolic blood pressure, diastolic blood pressure, HbA1c levels, fasting plasma glucose, lipid profile, estimated glomerular filtration rate (eGFR), urinary albumin-to-creatinine ratio, smoking status, medical history, concomitant medications."
   }
 }

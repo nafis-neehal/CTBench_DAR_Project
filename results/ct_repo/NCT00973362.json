@@ -29,7 +29,8 @@
         "medical condition status",
         "HPV vaccination status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, clinic location, Pap screening history, informed consent status, cervical disease history, Pap test result history, pregnancy status, medical condition status, HPV vaccination status"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, History of cervical disease, History of abnormal Pap test, Pregnancy status,",
@@ -60,7 +61,8 @@
         "History of abnormal Pap test",
         "Pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, History of cervical disease, History of abnormal Pap test, Pregnancy status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Region of Enrollment, HPV vaccination status, History of cervical disease, Abnormal Pap test result, Pregnancy status,",
@@ -89,7 +91,8 @@
         "Abnormal Pap test result",
         "Pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Region of Enrollment, HPV vaccination status, History of cervical disease, Abnormal Pap test result, Pregnancy status"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, gender, race, ethnicity, smoking status, parity, history of cervical disease, history of abnormal Pap test results, HPV vaccination status, presence of underlying medical conditions.",
@@ -123,6 +126,7 @@
         "HPV vaccination status",
         "presence of underlying medical conditions."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, ethnicity, smoking status, parity, history of cervical disease, history of abnormal Pap test results, HPV vaccination status, presence of underlying medical conditions."
   }
 }

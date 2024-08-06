@@ -35,7 +35,8 @@
         "smoking status",
         "alcohol consumption"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, gender, baseline insulin sensitivity, baseline blood plasma cholesterol levels, dietary intake, physical activity level, medical history, medication use, smoking status, alcohol consumption."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Weight Change in Preceding 3 Months, Smoking Status, Alcohol Intake, Medication Use,",
@@ -70,7 +71,8 @@
         "Alcohol Intake",
         "Medication Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, Weight Change in Preceding 3 Months, Smoking Status, Alcohol Intake, Medication Use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Diabetes Status, Obesity Status,",
@@ -106,7 +108,8 @@
         "Diabetes Status",
         "Obesity Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, Region of Enrollment, Diabetes Status, Obesity Status"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), weight, height, smoking status, alcohol intake, medical history (diabetes, cardiovascular disease, cancer, gastrointestinal disease, kidney disease, liver disease, pancreatitis), medication use, energy metabolism, appetite regulation, hormonal balance.",
@@ -143,6 +146,7 @@
         "appetite regulation",
         "hormonal balance."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), weight, height, smoking status, alcohol intake, medical history (diabetes, cardiovascular disease, cancer, gastrointestinal disease, kidney disease, liver disease, pancreatitis), medication use, energy metabolism, appetite regulation, hormonal balance."
   }
 }

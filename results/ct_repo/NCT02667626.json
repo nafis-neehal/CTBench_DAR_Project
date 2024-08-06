@@ -47,7 +47,8 @@
       "remaining_candidate_features": [
         "Current reproductive health status (hot flashes, sexual health, fertility concerns, contraception use)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Stage of breast cancer, Time since breast cancer diagnosis, Treatment history (surgery, radiation, chemotherapy), Language proficiency, Internet access, Current reproductive health status (hot flashes, sexual health, fertility concerns, contraception use), Ability to consent, Pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Breast Cancer Stage, Time Since Diagnosis, Type of Treatment Received, Hot Flash Score, Sexual Health Status, Fertility Concerns, Contraception Use, Vulvovaginal Atrophy Score, ",
@@ -85,7 +86,8 @@
         "Contraception Use",
         "Vulvovaginal Atrophy Score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Breast Cancer Stage, Time Since Diagnosis, Type of Treatment Received, Hot Flash Score, Sexual Health Status, Fertility Concerns, Contraception Use, Vulvovaginal Atrophy Score"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Breast Cancer Stage, Time Since Breast Cancer Diagnosis, Menopausal Status, Hot Flash Score, Reproductive Concerns After Cancer Scale - Fertility Concerns Subscale Score, Vulvovaginal Atrophy Score,",
@@ -121,7 +123,8 @@
         "Reproductive Concerns After Cancer Scale - Fertility Concerns Subscale Score",
         "Vulvovaginal Atrophy Score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Breast Cancer Stage, Time Since Breast Cancer Diagnosis, Menopausal Status, Hot Flash Score, Reproductive Concerns After Cancer Scale - Fertility Concerns Subscale Score, Vulvovaginal Atrophy Score"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, breast cancer stage, time since breast cancer diagnosis, type of breast cancer treatment, menopausal status, marital status, education level, employment status, income level, access to healthcare, reproductive history, sexual orientation, body mass index (BMI).",
@@ -156,6 +159,7 @@
         "sexual orientation",
         "body mass index (BMI)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, breast cancer stage, time since breast cancer diagnosis, type of breast cancer treatment, menopausal status, marital status, education level, employment status, income level, access to healthcare, reproductive history, sexual orientation, body mass index (BMI)."
   }
 }

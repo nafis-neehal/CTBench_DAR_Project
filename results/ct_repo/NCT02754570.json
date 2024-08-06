@@ -40,7 +40,8 @@
         "baseline blood pressure",
         "baseline heart rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, baseline intraocular pressure, baseline ocular perfusion pressure, duration of glaucoma diagnosis, duration of latanoprost use, baseline visual acuity, baseline central corneal thickness, baseline cup-to-disc ratio, baseline retinal nerve fiber layer thickness, baseline blood pressure, baseline heart rate."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure, Type of Glaucoma, Duration of Latanoprost Use,",
@@ -83,7 +84,8 @@
         "Baseline Intraocular Pressure",
         "Duration of Latanoprost Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Intraocular Pressure, Type of Glaucoma, Duration of Latanoprost Use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis of open angle glaucoma or ocular hypertension, Current use of topical latanoprost, Intraocular pressure readings, Schaffer angle grade, History of intraocular surgery, History of retinal tear or detachment, Active iritis, Daily sleep patterns, Glucocorticoids therapy, Marijuana use, Non-FDA approved medication for glaucoma.",
@@ -136,7 +138,8 @@
         "Marijuana use",
         "Non-FDA approved medication for glaucoma."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diagnosis of open angle glaucoma or ocular hypertension, Current use of topical latanoprost, Intraocular pressure readings, Schaffer angle grade, History of intraocular surgery, History of retinal tear or detachment, Active iritis, Daily sleep patterns, Glucocorticoids therapy, Marijuana use, Non-FDA approved medication for glaucoma."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race/ethnicity, diagnosis (open angle glaucoma, ocular hypertension, pigment dispersion glaucoma, pseudoexfoliation glaucoma), duration of latanoprost use, baseline intraocular pressure, Schaffer angle grade, history of intraocular surgery, history of retinal tear or detachment, history of iritis, smoking status, sleep pattern, glucocorticoids therapy, marijuana use, use of non-FDA approved glaucoma medication.",
@@ -181,6 +184,7 @@
         "marijuana use",
         "use of non-FDA approved glaucoma medication."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race/ethnicity, diagnosis (open angle glaucoma, ocular hypertension, pigment dispersion glaucoma, pseudoexfoliation glaucoma), duration of latanoprost use, baseline intraocular pressure, Schaffer angle grade, history of intraocular surgery, history of retinal tear or detachment, history of iritis, smoking status, sleep pattern, glucocorticoids therapy, marijuana use, use of non-FDA approved glaucoma medication."
   }
 }

@@ -60,7 +60,8 @@
       "remaining_candidate_features": [
         "baseline levels of inflammatory mediators (e.g., PGE2, COX-2)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, life expectancy, baseline levels of inflammatory mediators (e.g., PGE2, COX-2), history of Barrett's Esophagus, history of High Grade Dysplasia (HGD) or Low Grade Dysplasia (LGD), previous ablation treatments (e.g., Photodynamic Therapy, Radiofrequency ablation, endoscopic mucosal resection), liver enzyme levels (ALT, AST, bilirubin, alkaline phosphatase), ability to consent, use of anticoagulation therapy, intolerance to proton pump inhibitors."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Inflammation Biomarker Levels, Baseline COX-2 Gene Expression, History of Barrett's Esophagus, Type of Ablation Therapy Used, Duration Since Last Ablation, Liver Enzyme Levels,",
@@ -101,7 +102,8 @@
         "Duration Since Last Ablation",
         "Liver Enzyme Levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Inflammation Biomarker Levels, Baseline COX-2 Gene Expression, History of Barrett's Esophagus, Type of Ablation Therapy Used, Duration Since Last Ablation, Liver Enzyme Levels"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, History of Barrett's Esophagus, History of High Grade Dysplasia, History of Low Grade Dysplasia, History of Photodynamic Therapy, History of Radiofrequency ablation, History of Endoscopic Mucosal Resection, Life Expectancy.",
@@ -150,7 +152,8 @@
         "History of Radiofrequency ablation",
         "Life Expectancy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, History of Barrett's Esophagus, History of High Grade Dysplasia, History of Low Grade Dysplasia, History of Photodynamic Therapy, History of Radiofrequency ablation, History of Endoscopic Mucosal Resection, Life Expectancy."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, history of Barrett's Esophagus, history of High Grade Dysplasia (HGD) or Low Grade Dysplasia (LGD), type of ablation therapy received, duration of acid suppression therapy prior to enrollment, presence of gastroesophageal reflux disease (GERD) symptoms, use of antacids or histamine-2 (H2) blockers, liver enzyme levels (ALT, AST, bilirubin, alkaline phosphatase).",
@@ -205,6 +208,7 @@
         "smoking status",
         "liver enzyme levels (ALT, AST, bilirubin, alkaline phosphatase)."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, history of Barrett's Esophagus, history of High Grade Dysplasia (HGD) or Low Grade Dysplasia (LGD), type of ablation therapy received, duration of acid suppression therapy prior to enrollment, presence of gastroesophageal reflux disease (GERD) symptoms, use of antacids or histamine-2 (H2) blockers, liver enzyme levels (ALT, AST, bilirubin, alkaline phosphatase)."
   }
 }

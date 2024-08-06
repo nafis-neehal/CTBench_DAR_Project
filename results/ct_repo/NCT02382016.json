@@ -58,7 +58,8 @@
         "Time since PAH diagnosis"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline pulmonary vascular resistance (PVR), systolic blood pressure (SBP), ALT levels, AST levels, bilirubin levels, presence of severe hepatic impairment, presence of severe obstructive or restrictive lung disease, presence of pulmonary veno-occlusive disease."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Pulmonary Vascular Resistance (PVR), Systolic Blood Pressure, ALT, AST, Bilirubin, Severity of Hepatic Impairment, Severity of Lung Disease, ",
@@ -105,7 +106,8 @@
         "Severity of Hepatic Impairment",
         "Severity of Lung Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Pulmonary Vascular Resistance (PVR), Systolic Blood Pressure, ALT, AST, Bilirubin, Severity of Hepatic Impairment, Severity of Lung Disease"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulmonary Vascular Resistance, Liver Function Tests, Bilirubin, ALT/AST Ratio,",
@@ -151,7 +153,8 @@
         "Bilirubin",
         "ALT/AST Ratio"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulmonary Vascular Resistance, Liver Function Tests, Bilirubin, ALT/AST Ratio"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, weight, height, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, liver function tests (ALT, AST, bilirubin), pulmonary function tests (FEV1, FVC), 6-minute walk distance, World Health Organization (WHO) functional class, New York Heart Association (NYHA) functional class, medical history (including liver disease, lung disease), concomitant medications.",
@@ -203,6 +206,7 @@
         "medical history (including liver disease, lung disease)",
         "concomitant medications."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, weight, height, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, liver function tests (ALT, AST, bilirubin), pulmonary function tests (FEV1, FVC), 6-minute walk distance, World Health Organization (WHO) functional class, New York Heart Association (NYHA) functional class, medical history (including liver disease, lung disease), concomitant medications."
   }
 }

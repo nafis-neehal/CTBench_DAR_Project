@@ -42,7 +42,8 @@
         "bacterial plaque",
         "bleed to the sounding"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, HbA1C, fasting plasma glucose (FPG), depth of probing, bleeding at the probe, plaque index, bacterial plaque, bleed to the sounding"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, HbA1c, Fasting Plasma Glucose, Depth of Probing, Bleeding on Probing, Plaque Index, Duration of Diabetes,",
@@ -87,7 +88,8 @@
         "Plaque Index",
         "Duration of Diabetes"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, HbA1c, Fasting Plasma Glucose, Depth of Probing, Bleeding on Probing, Plaque Index, Duration of Diabetes"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes duration, HbA1c, Fasting plasma glucose, Periodontal probing depth, Plaque index, Bleeding on probing, Body Mass Index.",
@@ -133,7 +135,8 @@
         "Diabetes duration",
         "Body Mass Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes duration, HbA1c, Fasting plasma glucose, Periodontal probing depth, Plaque index, Bleeding on probing, Body Mass Index."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, HbA1C, fasting plasma glucose, history of type 2 diabetes, diagnosis of chronic periodontitis, plaque index, bleeding at the probe.",
@@ -171,6 +174,7 @@
         "diagnosis of chronic periodontitis",
         "plaque index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, HbA1C, fasting plasma glucose, history of type 2 diabetes, diagnosis of chronic periodontitis, plaque index, bleeding at the probe."
   }
 }

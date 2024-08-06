@@ -33,7 +33,8 @@
         "presence of diabetes",
         "special diet status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ethnicity, BMI percentiles, parental feeding strategies, attendance at Head Start, presence of food allergies, presence of diabetes, special diet status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity, Child's Age, Child's Gender, Parent's BMI, Child's BMI, Parent's Education Level, Household Income, ",
@@ -70,7 +71,8 @@
         "Parent's Education Level",
         "Household Income"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Ethnicity, Child's Age, Child's Gender, Parent's BMI, Child's BMI, Parent's Education Level, Household Income"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Child's Age, Child's BMI Percentile, Parent's BMI, Parent's Education Level, Family Income,",
@@ -108,7 +110,8 @@
         "Parent's Education Level",
         "Family Income"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Child's Age, Child's BMI Percentile, Parent's BMI, Parent's Education Level, Family Income"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, gender, ethnicity, parental education level, household income, family structure, child's birth weight, breastfeeding history, physical activity level, screen time, dietary habits, parental feeding style, parental BMI.",
@@ -147,6 +150,7 @@
         "parental feeding style",
         "parental BMI"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ethnicity, parental education level, household income, family structure, child's birth weight, breastfeeding history, physical activity level, screen time, dietary habits, parental feeding style, parental BMI."
   }
 }

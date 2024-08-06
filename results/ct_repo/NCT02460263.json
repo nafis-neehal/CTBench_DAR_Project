@@ -47,7 +47,8 @@
         "Baseline bicarbonate",
         "Baseline parathyroid hormone (PTH)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Race, Duration of ESRD, Type of vascular access, Baseline Kt/V, Blood flow rate, Comorbid conditions, Medication use, Baseline blood pressure, Baseline weight, Baseline serum creatinine, Baseline serum albumin, Baseline hemoglobin, Baseline hematocrit, Baseline calcium, Baseline phosphorus, Baseline potassium, Baseline sodium, Baseline bicarbonate, Baseline parathyroid hormone (PTH)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Dialysis, Vascular Access Type, Blood Flow Rate, Kt/V, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Serum Albumin, Serum Creatinine,",
@@ -92,7 +93,8 @@
         "Serum Albumin",
         "Serum Creatinine"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Dialysis, Vascular Access Type, Blood Flow Rate, Kt/V, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Serum Albumin, Serum Creatinine"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ESRD duration, Vascular access type, Kt/V, Blood flow rate, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, Comorbidities (e.g. cardiovascular disease, diabetes, hypertension), New York Heart Association (NYHA) class, Ejection fraction, Hepatitis B Surface Antigen status.",
@@ -139,7 +141,8 @@
         "Ejection fraction",
         "Hepatitis B Surface Antigen status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ESRD duration, Vascular access type, Kt/V, Blood flow rate, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, Comorbidities (e.g. cardiovascular disease, diabetes, hypertension), New York Heart Association (NYHA) class, Ejection fraction, Hepatitis B Surface Antigen status."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, duration of end stage renal disease, type of vascular access, Kt/V at screening, comorbidities (e.g. diabetes, hypertension, cardiovascular disease), New York Heart Association class, ejection fraction, history of cardiovascular adverse events, history of organ transplant, history of malignancy, serostatus for Hepatitis B Surface Antigen, blood pressure, liver function tests, complete blood count.",
@@ -186,6 +189,7 @@
         "liver function tests",
         "complete blood count"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, duration of end stage renal disease, type of vascular access, Kt/V at screening, comorbidities (e.g. diabetes, hypertension, cardiovascular disease), New York Heart Association class, ejection fraction, history of cardiovascular adverse events, history of organ transplant, history of malignancy, serostatus for Hepatitis B Surface Antigen, blood pressure, liver function tests, complete blood count."
   }
 }

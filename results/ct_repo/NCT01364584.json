@@ -82,7 +82,8 @@
         "gender",
         "exercise frequency"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, BMI, glycosylated hemoglobin (HbA1C), smoking status, blood pressure (systolic and diastolic), medication use (metformin, sulfonylurea drugs, meglitinides), menopausal status, exercise frequency, presence of comorbid conditions, renal function (creatinine levels), proteinuria, history of pancreatitis, presence of peripheral arterial disease, presence of autonomic dysfunction."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Glycosylated hemoglobin (HbA1C), Resting systolic blood pressure, Resting diastolic blood pressure, Diabetes duration, Daily insulin dose, Smoking status,",
@@ -136,7 +137,8 @@
         "Daily insulin dose",
         "Smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Glycosylated hemoglobin (HbA1C), Resting systolic blood pressure, Resting diastolic blood pressure, Diabetes duration, Daily insulin dose, Smoking status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Diabetes Duration, Metformin Use, Sulfonylurea Use, Meglitinide Use, Smoking Status, Peak Oxygen Consumption (VO2 Peak) at Baseline.",
@@ -198,7 +200,8 @@
         "Meglitinide Use",
         "Smoking Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Diabetes Duration, Metformin Use, Sulfonylurea Use, Meglitinide Use, Smoking Status, Peak Oxygen Consumption (VO2 Peak) at Baseline."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, HbA1C, systolic blood pressure, diastolic blood pressure, smoking status, duration of type 2 diabetes, metformin dose, sulfonylurea or meglitinide use, exercise habits, menopausal status.",
@@ -251,6 +254,7 @@
         "exercise habits",
         "menopausal status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, HbA1C, systolic blood pressure, diastolic blood pressure, smoking status, duration of type 2 diabetes, metformin dose, sulfonylurea or meglitinide use, exercise habits, menopausal status."
   }
 }

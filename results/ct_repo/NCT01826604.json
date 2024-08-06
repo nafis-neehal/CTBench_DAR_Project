@@ -39,7 +39,8 @@
         "Emergency room visits",
         "Complication rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Hemoglobin level, Estimated blood loss, Duration of surgery, Time from skin incision to delivery, Postoperative length of stay, Intra-operative anti-emetic requirements, Postoperative anti-emetic requirements, Hospital readmission, Emergency room visits, Complication rate"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, BMI, Continuous, Gestational Age at Delivery, Parity, Gravidity, Race/Ethnicity, Customized, Hemoglobin, Estimated Blood Loss, Duration of Surgery, Length of Stay, Postoperative Anti-emetic Use,",
@@ -80,7 +81,8 @@
         "Length of Stay",
         "Postoperative Anti-emetic Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Gestational Age at Delivery, Parity, Gravidity, Race/Ethnicity, Hemoglobin, Estimated Blood Loss, Duration of Surgery, Length of Stay, Postoperative Anti-emetic Use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, BMI, Gestational Age, Parity, Previous Cesarean Section, Preoperative Hemoglobin, Estimated Blood Loss, Intraoperative Anti-emetic Requirements.",
@@ -116,7 +118,8 @@
         "Estimated Blood Loss",
         "Intraoperative Anti-emetic Requirements."
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Gestational Age, Parity, Previous Cesarean Section, Preoperative Hemoglobin, Estimated Blood Loss, Intraoperative Anti-emetic Requirements."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, BMI, gestational age, parity, history of previous cesarean section, presence of comorbidities (e.g. hypertension, diabetes), smoking status, ethnicity, socioeconomic status.",
@@ -157,6 +160,7 @@
         "ethnicity",
         "socioeconomic status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, gestational age, parity, history of previous cesarean section, presence of comorbidities (e.g. hypertension, diabetes), smoking status, ethnicity, socioeconomic status."
   }
 }

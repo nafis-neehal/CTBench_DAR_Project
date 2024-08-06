@@ -46,7 +46,8 @@
         "baseline blood pressure",
         "baseline lipid profile (cholesterol, triglycerides)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, duration of diabetes, baseline HbA1c, body mass index (BMI), baseline fasting plasma glucose, baseline oral anti-diabetic drug regimen, history of cardiovascular disease, renal function, liver function, baseline blood pressure, baseline lipid profile (cholesterol, triglycerides)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Type of Oral Anti-Diabetic Drug, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose,",
@@ -94,7 +95,8 @@
         "Diastolic Blood Pressure",
         "Fasting Plasma Glucose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Type of Oral Anti-Diabetic Drug, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Duration, Previous Cardiovascular Disease, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Type of Oral Anti-Diabetic Drug Treatment.",
@@ -139,7 +141,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Diabetes Duration, Previous Cardiovascular Disease, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Type of Oral Anti-Diabetic Drug Treatment."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose at screening, systolic and diastolic blood pressure, heart rate, history of cardiovascular disease, history of hypoglycaemia, current oral anti-diabetic drug treatment, smoking status.",
@@ -191,6 +194,7 @@
         "history of hypoglycaemia",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose at screening, systolic and diastolic blood pressure, heart rate, history of cardiovascular disease, history of hypoglycaemia, current oral anti-diabetic drug treatment, smoking status."
   }
 }

@@ -39,7 +39,8 @@
         "liver function",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline HbA1c, duration of diabetes, body mass index (BMI), concomitant medications, blood pressure, lipid profile, renal function, liver function, smoking status, ethnicity."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Use of Sulfonylurea,",
@@ -82,7 +83,8 @@
         "Diastolic Blood Pressure",
         "Use of Sulfonylurea"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Use of Sulfonylurea"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, HbA1c, Sulfonylurea dose, Body Mass Index, Blood pressure, Lipid profile, History of cardiovascular disease,",
@@ -124,7 +126,8 @@
         "Lipid profile",
         "History of cardiovascular disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes duration, HbA1c, Sulfonylurea dose, Body Mass Index, Blood pressure, Lipid profile, History of cardiovascular disease"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c, fasting plasma glucose, systolic and diastolic blood pressure, heart rate, sulfonylurea drug and dosage, history of cardiovascular disease, history of thyroid disease.",
@@ -167,6 +170,7 @@
         "history of cardiovascular disease",
         "history of thyroid disease."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c, fasting plasma glucose, systolic and diastolic blood pressure, heart rate, sulfonylurea drug and dosage, history of cardiovascular disease, history of thyroid disease."
   }
 }

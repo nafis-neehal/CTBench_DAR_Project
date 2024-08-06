@@ -49,7 +49,8 @@
         "thyroid disease status",
         "celiac disease status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of diabetes, type of insulin used, hemoglobin A1c level, daily carbohydrate intake, history of diabetic ketoacidosis, history of severe hypoglycemia, presence of tape allergies, presence of active infection, known cardiovascular events, presence of proliferative diabetic retinopathy, presence of adrenal disorder, current treatment for seizure disorder, history of inpatient psychiatric treatment, stability on medication, use of SGLT inhibitor, history of drug or alcohol abuse, dialysis or end-stage kidney disease, thyroid disease status, celiac disease status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Hemoglobin A1c, Daily Carbohydrate Intake, Insulin Pump Usage Duration,",
@@ -91,7 +92,8 @@
         "Daily Carbohydrate Intake",
         "Insulin Pump Usage Duration"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Hemoglobin A1c, Daily Carbohydrate Intake, Insulin Pump Usage Duration"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Diabetes Duration, Insulin Dose, HbA1c, BMI, Carbohydrate Intake,",
@@ -132,7 +134,8 @@
         "Insulin Dose",
         "Carbohydrate Intake"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes Duration, Insulin Dose, HbA1c, BMI, Carbohydrate Intake"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, type 1 diabetes duration, hemoglobin A1c level, insulin type, daily carbohydrate intake, body mass index, presence of diabetic complications (e.g. retinopathy, nephropathy), history of severe hypoglycemia, history of diabetic ketoacidosis, presence of comorbidities (e.g. cardiovascular disease, thyroid disease, celiac disease), medication use (e.g. antihypertensive, lipid-lowering, antidepressant).",
@@ -173,6 +176,7 @@
         "presence of comorbidities (e.g. cardiovascular disease, thyroid disease, celiac disease)",
         "medication use (e.g. antihypertensive, lipid-lowering, antidepressant)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, type 1 diabetes duration, hemoglobin A1c level, insulin type, daily carbohydrate intake, body mass index, presence of diabetic complications (e.g. retinopathy, nephropathy), history of severe hypoglycemia, history of diabetic ketoacidosis, presence of comorbidities (e.g. cardiovascular disease, thyroid disease, celiac disease), medication use (e.g. antihypertensive, lipid-lowering, antidepressant)."
   }
 }

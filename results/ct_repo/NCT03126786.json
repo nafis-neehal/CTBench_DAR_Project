@@ -35,7 +35,8 @@
         "history of glaucoma",
         "use of IOP lowering medication."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, type of diabetes (type 1 or type 2), duration of diabetes, baseline central subfield thickness on SD-OCT, baseline ETDRS BCVA score, intraocular pressure (IOP), history of previous ocular treatments, presence of media opacity, history of glaucoma, use of IOP lowering medication."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline BCVA, Central Subfield Thickness, Intraocular Pressure,",
@@ -73,7 +74,8 @@
         "Central Subfield Thickness",
         "Intraocular Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline BCVA, Central Subfield Thickness, Intraocular Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Type, Duration of Diabetes, HbA1c, ETDRS BCVA score, Central subfield thickness on SD-OCT, IOP, History of glaucoma or optic nerve head change consistent with glaucoma damage.",
@@ -110,7 +112,8 @@
         "IOP",
         "History of glaucoma or optic nerve head change consistent with glaucoma damage."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes Type, Duration of Diabetes, HbA1c, ETDRS BCVA score, Central subfield thickness on SD-OCT, IOP, History of glaucoma or optic nerve head change consistent with glaucoma damage."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, duration of diabetes, type of diabetes, HbA1c level, body mass index, systolic and diastolic blood pressure, ETDRS BCVA score, central subfield thickness on SD-OCT, IOP, number of IOP-lowering medications, presence of diabetic retinopathy, presence of macular edema, prior treatments for DME.",
@@ -155,6 +158,7 @@
         "presence of macular edema",
         "prior treatments for DME"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, duration of diabetes, type of diabetes, HbA1c level, body mass index, systolic and diastolic blood pressure, ETDRS BCVA score, central subfield thickness on SD-OCT, IOP, number of IOP-lowering medications, presence of diabetic retinopathy, presence of macular edema, prior treatments for DME."
   }
 }

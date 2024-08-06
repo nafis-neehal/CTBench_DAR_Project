@@ -40,7 +40,8 @@
         "liver function tests",
         "vital signs"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, baseline hemoglobin (Hb) levels, baseline serum ferritin (s-ferritin) levels, baseline transferrin saturation (TSAT), medical history, prior iron isomaltoside/ferric derisomaltose treatment, concomitant medications, body mass index (BMI), renal function, liver function tests, vital signs."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemoglobin, Serum Ferritin, Transferrin Saturation,",
@@ -75,7 +76,8 @@
         "Serum Ferritin",
         "Transferrin Saturation"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Hemoglobin, Serum Ferritin, Transferrin Saturation"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, Region of Enrollment, Haemoglobin, Serum ferritin, Transferrin saturation, Iron deficiency anemia diagnosis duration, Previous iron isomaltoside/ferric derisomaltose treatment,",
@@ -106,7 +108,8 @@
         "Iron deficiency anemia diagnosis duration",
         "Previous iron isomaltoside/ferric derisomaltose treatment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Region of Enrollment, Haemoglobin, Serum ferritin, Transferrin saturation, Iron deficiency anemia diagnosis duration, Previous iron isomaltoside/ferric derisomaltose treatment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), medical history (including iron deficiency anemia, iron deficiency anaemia), haemoglobin (Hb) level, serum ferritin (s-ferritin) level, transferrin saturation (TSAT) level, prior iron therapy, prior red blood cell transfusions, concomitant medications, liver function tests (LFTs), renal function tests (RFTs).",
@@ -147,6 +150,7 @@
         "liver function tests (LFTs)",
         "renal function tests (RFTs)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), medical history (including iron deficiency anemia, iron deficiency anaemia), haemoglobin (Hb) level, serum ferritin (s-ferritin) level, transferrin saturation (TSAT) level, prior iron therapy, prior red blood cell transfusions, concomitant medications, liver function tests (LFTs), renal function tests (RFTs)."
   }
 }

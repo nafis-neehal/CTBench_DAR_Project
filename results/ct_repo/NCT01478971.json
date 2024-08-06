@@ -51,7 +51,8 @@
         "current Epoetin dose",
         "prior exposure to investigational agents"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, duration on hemodialysis, baseline hemoglobin levels, current Epoetin dose, history of malignancy, pregnancy status, use of birth control, significant medical or psychiatric conditions, prior exposure to investigational agents."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline Hemoglobin Levels, Baseline Epoetin Dose, Body Mass Index, Blood Pressure, Serum Ferritin, Transferrin Saturation, Serum Creatinine, Estimated Glomerular Filtration Rate (eGFR),",
@@ -108,7 +109,8 @@
         "Serum Creatinine",
         "Estimated Glomerular Filtration Rate (eGFR)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Hemodialysis, Baseline Hemoglobin Levels, Baseline Epoetin Dose, Body Mass Index, Blood Pressure, Serum Ferritin, Transferrin Saturation, Serum Creatinine, Estimated Glomerular Filtration Rate (eGFR)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemoglobin level, Epoetin alfa dose, Dialysis duration, Body weight, Blood pressure, Ferritin level, Transferrin saturation,",
@@ -163,7 +165,8 @@
         "Body weight",
         "Blood pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Hemoglobin level, Epoetin alfa dose, Dialysis duration, Body weight, Blood pressure, Ferritin level, Transferrin saturation"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of dialysis, hemoglobin level, Epoetin alfa dose, ferritin level, transferrin saturation, presence of comorbidities (e.g., diabetes, hypertension), history of malignancy, history of ESA intolerance, concomitant medications.",
@@ -220,6 +223,7 @@
         "history of ESA intolerance",
         "concomitant medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of dialysis, hemoglobin level, Epoetin alfa dose, ferritin level, transferrin saturation, presence of comorbidities (e.g., diabetes, hypertension), history of malignancy, history of ESA intolerance, concomitant medications."
   }
 }

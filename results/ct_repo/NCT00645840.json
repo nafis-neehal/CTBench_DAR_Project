@@ -56,7 +56,8 @@
         "history of live vaccine use",
         "history of compliance with therapies"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration since diagnosis, language spoken, serum creatinine levels, serum ALT levels, serum AST levels, platelet count, WBC count, hemoglobin levels, hematocrit levels, red blood cell count, history of autoimmune conditions, history of bacterial infections, history of immunosuppressive agent use, HIV status, history of mycobacterial disease, history of severe infections, history of severe comorbidities, history of tuberculosis, history of hepatitis B or C, history of systemic lupus erythematosus, pregnancy status, lactation status, history of live vaccine use, history of compliance with therapies."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, HbA1c, Serum Creatinine, Serum ALT, Serum AST, Platelet Count, WBC Count, Hemoglobin, Hematocrit, Red Blood Cell Count,",
@@ -98,7 +99,8 @@
         "Hematocrit",
         "Red Blood Cell Count"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, HbA1c, Serum Creatinine, Serum ALT, Serum AST, Platelet Count, WBC Count, Hemoglobin, Hematocrit, Red Blood Cell Count"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, Insulin dose, HbA1c, BMI, Blood pressure, Autoantibody status, C-peptide levels.",
@@ -141,7 +143,8 @@
         "Autoantibody status",
         "C-peptide levels."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes duration, Insulin dose, HbA1c, BMI, Blood pressure, Autoantibody status, C-peptide levels."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, weight, height, BMI, ethnicity, duration of diabetes, HbA1c, fasting C-peptide, insulin dose, presence of diabetes-related autoantibodies, serum creatinine, ALT, AST, platelet count, WBC count, hemoglobin, hematocrit, red blood cell count.",
@@ -189,6 +192,7 @@
         "hematocrit",
         "red blood cell count."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, weight, height, BMI, ethnicity, duration of diabetes, HbA1c, fasting C-peptide, insulin dose, presence of diabetes-related autoantibodies, serum creatinine, ALT, AST, platelet count, WBC count, hemoglobin, hematocrit, red blood cell count."
   }
 }

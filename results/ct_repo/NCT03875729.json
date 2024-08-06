@@ -63,7 +63,8 @@
         "history of infections (HIV, HBV, HCV)",
         "family history of diabetes"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration since diagnosis, baseline C-peptide levels, presence of T1D-related autoantibodies, presence of stable thyroid or celiac disease, history of infections (HIV, HBV, HCV), baseline HbA1c levels, body mass index (BMI), race/ethnicity, family history of diabetes."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline C-peptide levels, Presence of T1D-related autoantibodies, Body Mass Index, HbA1c, Insulin dose,",
@@ -131,7 +132,8 @@
       "remaining_candidate_features": [
         "Duration of Diabetes"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline C-peptide levels, Presence of T1D-related autoantibodies, Body Mass Index, HbA1c, Insulin dose"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Peak Stimulated C-peptide, T1D-related Autoantibodies, BMI, Insulin Dose.",
@@ -194,7 +196,8 @@
         "Duration of Diabetes",
         "Insulin Dose."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Peak Stimulated C-peptide, T1D-related Autoantibodies, BMI, Insulin Dose."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, peak stimulated C-peptide at screening, T1D-related autoantibody status, HbA1c, insulin dose, presence of thyroid or celiac disease, medical history, concomitant medications.",
@@ -262,6 +265,7 @@
         "medical history",
         "concomitant medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, peak stimulated C-peptide at screening, T1D-related autoantibody status, HbA1c, insulin dose, presence of thyroid or celiac disease, medical history, concomitant medications."
   }
 }

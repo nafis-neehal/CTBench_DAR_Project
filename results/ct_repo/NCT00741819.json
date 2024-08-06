@@ -37,7 +37,8 @@
         "previous right heart catheterization results",
         "previous echocardiography results."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, PAH diagnosis category, baseline six-minute walk distance (6MWD), current Ventavis dose, use of background therapy (endothelin receptor antagonist or phosphodiesterase-5-inhibitor), previous right heart catheterization results, previous echocardiography results."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline six-minute walk distance (6MWD), PAH diagnosis category, Background therapy usage, Duration of Ventavis therapy,",
@@ -80,7 +81,8 @@
         "Race/Ethnicity",
         "Duration of Ventavis therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline six-minute walk distance (6MWD), PAH diagnosis category, Background therapy usage, Duration of Ventavis therapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, PAH diagnosis, Six-minute walk distance, Background therapy,",
@@ -122,7 +124,8 @@
       "remaining_candidate_features": [
         "Race/Ethnicity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, PAH diagnosis, Six-minute walk distance, Background therapy"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), PAH etiology (idiopathic/familial, associated with unrepaired or repaired congenital systemic-to-pulmonary shunts, associated with collagen vascular disease, associated with HIV, associated with appetite suppressant/toxin use), six-minute walk distance (6MWD), background therapy (endothelin receptor antagonist, phosphodiesterase-5-inhibitor, or both), duration of PAH diagnosis, duration of Ventavis treatment.",
@@ -164,6 +167,7 @@
         "duration of PAH diagnosis",
         "duration of Ventavis treatment."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), PAH etiology (idiopathic/familial, associated with unrepaired or repaired congenital systemic-to-pulmonary shunts, associated with collagen vascular disease, associated with HIV, associated with appetite suppressant/toxin use), six-minute walk distance (6MWD), background therapy (endothelin receptor antagonist, phosphodiesterase-5-inhibitor, or both), duration of PAH diagnosis, duration of Ventavis treatment."
   }
 }

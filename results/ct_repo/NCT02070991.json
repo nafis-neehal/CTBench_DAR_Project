@@ -45,7 +45,8 @@
         "baseline vital signs",
         "baseline laboratory values"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, left ventricular dysfunction status, diuretic therapy status, baseline NYHA functional class, baseline pulmonary hypertension classification, baseline fluid retention status, baseline comorbidities, baseline medication use, baseline vital signs, baseline laboratory values."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline NYHA Functional Class, Baseline Diuretic Therapy, Baseline Left Ventricular Ejection Fraction (LVEF), Baseline Pulmonary Artery Pressure, Baseline Pulmonary Vascular Resistance, Baseline 6-Minute Walk Distance (6MWD), Baseline BNP/NT-proBNP Levels,",
@@ -102,7 +103,8 @@
         "Baseline Pulmonary Artery Pressure",
         "Baseline BNP/NT-proBNP Levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline NYHA Functional Class, Baseline Diuretic Therapy, Baseline Left Ventricular Ejection Fraction (LVEF), Baseline Pulmonary Artery Pressure, Baseline Pulmonary Vascular Resistance, Baseline 6-Minute Walk Distance (6MWD), Baseline BNP/NT-proBNP Levels"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, Ethnicity (Customized), Region of Enrollment, Left Ventricular Dysfunction, Pulmonary Hypertension, NYHA Functional Class, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Body Mass Index, Creatinine Clearance.",
@@ -153,7 +155,8 @@
         "Heart Rate",
         "Creatinine Clearance"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Region of Enrollment, Left Ventricular Dysfunction, Pulmonary Hypertension, NYHA Functional Class, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Body Mass Index, Creatinine Clearance."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), race, ethnicity, New York Heart Association (NYHA) functional class, left ventricular ejection fraction (LVEF), systolic pulmonary artery pressure (sPAP), diastolic pulmonary artery pressure (dPAP), mean pulmonary artery pressure (mPAP), pulmonary vascular resistance (PVR), cardiac output, 6-minute walk distance (6MWD), N-terminal pro-brain natriuretic peptide (NT-proBNP), creatinine, glomerular filtration rate (GFR), liver function tests (LFTs).",
@@ -217,6 +220,7 @@
         "glomerular filtration rate (GFR)",
         "liver function tests (LFTs)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), race, ethnicity, New York Heart Association (NYHA) functional class, left ventricular ejection fraction (LVEF), systolic pulmonary artery pressure (sPAP), diastolic pulmonary artery pressure (dPAP), mean pulmonary artery pressure (mPAP), pulmonary vascular resistance (PVR), cardiac output, 6-minute walk distance (6MWD), N-terminal pro-brain natriuretic peptide (NT-proBNP), creatinine, glomerular filtration rate (GFR), liver function tests (LFTs)."
   }
 }

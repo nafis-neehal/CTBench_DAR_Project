@@ -38,7 +38,8 @@
         "history of erythropoiesis-stimulating agents (ESA) use",
         "history of blood transfusion."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, estimated glomerular filtration rate (eGFR), hemoglobin (Hgb) level, serum ferritin, transferrin saturation (TSAT), serum intact parathyroid hormone (iPTH), serum phosphate level, history of intravenous (IV) iron use, history of erythropoiesis-stimulating agents (ESA) use, history of blood transfusion."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Hemoglobin, Serum Ferritin, Transferrin Saturation (TSAT), Serum Intact Parathyroid Hormone, Estimated Glomerular Filtration Rate (eGFR), Serum Phosphate,",
@@ -78,7 +79,8 @@
         "Estimated Glomerular Filtration Rate (eGFR)",
         "Serum Phosphate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Hemoglobin, Serum Ferritin, Transferrin Saturation (TSAT), Serum Intact Parathyroid Hormone, Estimated Glomerular Filtration Rate (eGFR), Serum Phosphate"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Estimated glomerular filtration rate, Hemoglobin, Serum ferritin, Transferrin saturation, Serum intact parathyroid hormone, Serum phosphate,",
@@ -118,7 +120,8 @@
         "Serum intact parathyroid hormone",
         "Serum phosphate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Estimated glomerular filtration rate, Hemoglobin, Serum ferritin, Transferrin saturation, Serum intact parathyroid hormone, Serum phosphate"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), estimated glomerular filtration rate (eGFR), hemoglobin (Hgb), serum ferritin, transferrin saturation (TSAT), serum intact parathyroid hormone, serum phosphate, medical history (e.g., diabetes, hypertension), concomitant medications (e.g., ESA, IV iron).",
@@ -158,6 +161,7 @@
         "medical history (e.g., diabetes, hypertension)",
         "concomitant medications (e.g., ESA, IV iron)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), estimated glomerular filtration rate (eGFR), hemoglobin (Hgb), serum ferritin, transferrin saturation (TSAT), serum intact parathyroid hormone, serum phosphate, medical history (e.g., diabetes, hypertension), concomitant medications (e.g., ESA, IV iron)."
   }
 }

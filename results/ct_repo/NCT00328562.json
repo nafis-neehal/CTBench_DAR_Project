@@ -35,7 +35,8 @@
         "Baseline quality of life",
         "Baseline laboratory values (e.g., blood counts, liver function tests)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Smoking status, Performance status (e.g., ECOG score), Histological subtype of NSCLC, Stage of cancer, Presence of brain metastases, FEV1, Previous treatments, Comorbidities, Baseline tumor size, Baseline symptom severity, Baseline quality of life, Baseline laboratory values (e.g., blood counts, liver function tests)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Stage, Presence of Brain Metastases, Forced Expiratory Volume in 1 Second (FEV1), ",
@@ -69,7 +70,8 @@
         "Presence of Brain Metastases",
         "Forced Expiratory Volume in 1 Second (FEV1)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Stage, Presence of Brain Metastases, Forced Expiratory Volume in 1 Second (FEV1)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology, Stage of Disease, Presence of Brain Metastases, FEV1, Oxygen Dependence, Prior Thoracic Radiation Therapy.",
@@ -109,7 +111,8 @@
         "Oxygen Dependence",
         "Prior Thoracic Radiation Therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Histology, Stage of Disease, Presence of Brain Metastases, FEV1, Oxygen Dependence, Prior Thoracic Radiation Therapy."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, smoking history, Eastern Cooperative Oncology Group (ECOG) performance status, histological subtype of NSCLC, tumor stage, presence of brain metastases, prior chemotherapy or radiation therapy, FEV1, oxygen saturation, presence of underlying lung disease, comorbidities.",
@@ -149,6 +152,7 @@
         "presence of underlying lung disease",
         "comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, smoking history, Eastern Cooperative Oncology Group (ECOG) performance status, histological subtype of NSCLC, tumor stage, presence of brain metastases, prior chemotherapy or radiation therapy, FEV1, oxygen saturation, presence of underlying lung disease, comorbidities."
   }
 }

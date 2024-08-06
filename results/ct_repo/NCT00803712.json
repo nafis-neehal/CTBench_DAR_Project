@@ -44,7 +44,8 @@
         "medical condition stability",
         "prior investigational agent use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of hemodialysis, baseline PTH levels, baseline corrected serum calcium levels, history of parathyroidectomy, vitamin D therapy status, pregnancy status, gastrointestinal disorder status, known sensitivity to cinacalcet, medical condition stability, prior investigational agent use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline PTH levels, Baseline Serum Calcium levels, Use of Vitamin D therapy,",
@@ -90,7 +91,8 @@
       "remaining_candidate_features": [
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Hemodialysis, Baseline PTH levels, Baseline Serum Calcium levels, Use of Vitamin D therapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Mean PTH, Mean Corrected Serum Calcium, Vitamin D Use at Baseline, Parathyroidectomy History, Kidney Transplant Status, Cinacalcet Use at Baseline.",
@@ -139,7 +141,8 @@
         "Kidney Transplant Status",
         "Cinacalcet Use at Baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Hemodialysis, Mean PTH, Mean Corrected Serum Calcium, Vitamin D Use at Baseline, Parathyroidectomy History, Kidney Transplant Status, Cinacalcet Use at Baseline."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, duration of hemodialysis, PTH level, corrected serum calcium level, vitamin D use, history of parathyroidectomy, kidney transplant status.",
@@ -184,6 +187,7 @@
         "history of parathyroidectomy",
         "kidney transplant status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, duration of hemodialysis, PTH level, corrected serum calcium level, vitamin D use, history of parathyroidectomy, kidney transplant status."
   }
 }

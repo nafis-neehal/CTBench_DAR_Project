@@ -33,7 +33,8 @@
         "prior cancer treatment status",
         "use of other medications (anticonvulsants, antiparkinsonian agents, neuroleptic agents, carbonic anhydrase inhibitors, NMDA antagonists)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, cancer type, smoking history (number of cigarettes smoked per day, total lifetime cigarettes smoked), ECOG performance status, creatinine levels, SGOT/SGPT levels, blood pressure, alcohol consumption, current use of antidepressant or antianxiety medications, prior cancer treatment status, use of other medications (anticonvulsants, antiparkinsonian agents, neuroleptic agents, carbonic anhydrase inhibitors, NMDA antagonists)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Type, Smoking History, ECOG Performance Status, Creatinine Levels, SGOT/SGPT Levels, Blood Pressure, Alcohol Consumption, Psychiatric History, Concomitant Medications,",
@@ -75,7 +76,8 @@
         "Psychiatric History",
         "Concomitant Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Type, Smoking History, ECOG Performance Status, Creatinine Levels, SGOT/SGPT Levels, Blood Pressure, Alcohol Consumption, Psychiatric History, Concomitant Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Diagnosis, Time Since Cancer Diagnosis, Smoking History, Number of Cigarettes Smoked per Day, Fagerstrom Test for Nicotine Dependence Score, Carbon Monoxide Levels, Exhaled Carbon Monoxide Levels.",
@@ -115,7 +117,8 @@
         "Carbon Monoxide Levels",
         "Exhaled Carbon Monoxide Levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Diagnosis, Time Since Cancer Diagnosis, Smoking History, Number of Cigarettes Smoked per Day, Fagerstrom Test for Nicotine Dependence Score, Carbon Monoxide Levels, Exhaled Carbon Monoxide Levels."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, type of cancer, time since cancer diagnosis, time since completion of cancer treatment, smoking history (pack-years, cigarettes per day), nicotine dependence, ECOG performance status, Karnofsky performance status, creatinine level, SGOT/SGPT level, blood pressure, body mass index (BMI), use of antidepressant or antianxiety medications, use of hormonal or targeted therapies.",
@@ -158,6 +161,7 @@
         "use of antidepressant or antianxiety medications",
         "use of hormonal or targeted therapies"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, type of cancer, time since cancer diagnosis, time since completion of cancer treatment, smoking history (pack-years, cigarettes per day), nicotine dependence, ECOG performance status, Karnofsky performance status, creatinine level, SGOT/SGPT level, blood pressure, body mass index (BMI), use of antidepressant or antianxiety medications, use of hormonal or targeted therapies."
   }
 }

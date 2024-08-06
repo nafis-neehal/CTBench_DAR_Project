@@ -47,7 +47,8 @@
         "baseline CVD risk factor levels (e.g., blood pressure, cholesterol)",
         "baseline medication regimen (e.g., types and number of medications)."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, baseline medication adherence, type of diabetes, duration of diabetes, comorbid conditions, socioeconomic status, health care system affiliation, baseline use of mail order pharmacy, baseline CVD risk factor levels (e.g., blood pressure, cholesterol), baseline medication regimen (e.g., types and number of medications)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline medication adherence, Type of CVD risk factor medications, Duration of diabetes, Baseline HbA1c, Blood pressure, Cholesterol, Triglycerides,",
@@ -97,7 +98,8 @@
         "Cholesterol",
         "Triglycerides"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline medication adherence, Type of CVD risk factor medications, Duration of diabetes, Baseline HbA1c, Blood pressure, Cholesterol, Triglycerides"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Existing Cardiovascular Disease, Baseline HbA1c, Blood Pressure, Total Cholesterol, BMI,",
@@ -146,7 +148,8 @@
         "Total Cholesterol",
         "BMI"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Existing Cardiovascular Disease, Baseline HbA1c, Blood Pressure, Total Cholesterol, BMI"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, diabetes duration, body mass index (BMI), hemoglobin A1c (HbA1c), systolic blood pressure, low-density lipoprotein (LDL) cholesterol, medication adherence rate, number of prescribed medications, comorbidities (e.g., hypertension, hyperlipidemia), health literacy, insurance type, income level, education level, marital status.",
@@ -200,6 +203,7 @@
         "education level",
         "marital status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, diabetes duration, body mass index (BMI), hemoglobin A1c (HbA1c), systolic blood pressure, low-density lipoprotein (LDL) cholesterol, medication adherence rate, number of prescribed medications, comorbidities (e.g., hypertension, hyperlipidemia), health literacy, insurance type, income level, education level, marital status."
   }
 }

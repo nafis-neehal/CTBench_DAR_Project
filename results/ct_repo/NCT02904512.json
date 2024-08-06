@@ -46,7 +46,8 @@
         "baseline blood pressure",
         "baseline lipid profile"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, body mass index (BMI), duration of diabetes, baseline hemoglobin A1c (HbA1c), baseline fasting blood glucose, insulin regimen, comorbidities, length of hospital stay, prior history of hypoglycemia, prior history of hyperglycemia, use of other diabetes medications, baseline kidney function (e.g., serum creatinine), baseline liver function (e.g., liver enzymes), baseline blood pressure, baseline lipid profile."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Baseline Glucose Levels, Insulin Regimen,",
@@ -89,7 +90,8 @@
         "Baseline Glucose Levels",
         "Insulin Regimen"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Baseline Glucose Levels, Insulin Regimen"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Diabetes Duration, Insulin Use, History of Hypoglycemia, History of Hyperglycemia, BMI, Blood Pressure, HbA1c, Glucose Levels,",
@@ -130,7 +132,8 @@
         "Blood Pressure",
         "Glucose Levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes Duration, Insulin Use, History of Hypoglycemia, History of Hyperglycemia, BMI, Blood Pressure, HbA1c, Glucose Levels"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, type of insulin used, history of diabetic complications, comorbidities, admission diagnosis, length of hospital stay, glucose control at admission, HbA1c level, blood pressure, lipid profile.",
@@ -175,6 +178,7 @@
         "blood pressure",
         "lipid profile"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, type of insulin used, history of diabetic complications, comorbidities, admission diagnosis, length of hospital stay, glucose control at admission, HbA1c level, blood pressure, lipid profile."
   }
 }

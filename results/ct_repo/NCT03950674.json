@@ -45,7 +45,8 @@
         "baseline laboratory values (e.g., hemoglobin, white blood cell count, platelet count)",
         "baseline vital signs (e.g., blood pressure, heart rate)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, smoking status, ECOG performance status, histology type, stage of disease, prior treatments, organ function tests (e.g., liver function, renal function), presence of measurable disease, presence of CNS metastases, baseline tumor burden, comorbid conditions, prior radiation therapy, prior surgery, baseline laboratory values (e.g., hemoglobin, white blood cell count, platelet count), baseline vital signs (e.g., blood pressure, heart rate)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Smoking History, Histology, Stage of Disease, EGFR Mutation Status, ALK Rearrangement Status, Prior Radiation Therapy, Prior Surgery, Baseline Tumor Measurements,",
@@ -90,7 +91,8 @@
         "Prior Surgery",
         "Baseline Tumor Measurements"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Smoking History, Histology, Stage of Disease, EGFR Mutation Status, ALK Rearrangement Status, Prior Radiation Therapy, Prior Surgery, Baseline Tumor Measurements"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Smoking History, Histology, Tumor Stage, Prior Systemic Therapy, Prior Radiation Therapy, Baseline Efficacy Measures (e.g. Tumor Size, Tumor Markers), Baseline Laboratory Values (e.g. Hemoglobin, Platelet Count, Creatinine Clearance),",
@@ -136,7 +138,8 @@
         "Prior Radiation Therapy",
         "Baseline Laboratory Values (e.g. Hemoglobin, Platelet Count, Creatinine Clearance)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Smoking History, Histology, Tumor Stage, Prior Systemic Therapy, Prior Radiation Therapy, Baseline Efficacy Measures (e.g. Tumor Size, Tumor Markers), Baseline Laboratory Values (e.g. Hemoglobin, Platelet Count, Creatinine Clearance)"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, smoking history, histology, tumor stage, prior therapy, EGFR or ALK mutation status, measurable disease, life expectancy, organ function.",
@@ -182,6 +185,7 @@
         "life expectancy",
         "organ function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, smoking history, histology, tumor stage, prior therapy, EGFR or ALK mutation status, measurable disease, life expectancy, organ function."
   }
 }

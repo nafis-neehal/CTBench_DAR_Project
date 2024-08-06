@@ -57,7 +57,8 @@
         "use of oral phosphorus binders",
         "use of active vitamin D analogs"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline eGFR, baseline serum ferritin, baseline transferrin saturation, baseline hemoglobin, baseline hepcidin, baseline serum phosphorus, presence of gastrointestinal disorders, presence of liver disease, baseline ALT/AST levels, baseline bilirubin levels, baseline hemoglobin concentration, use of erythropoiesis stimulating agents, use of intravenous iron therapy, history of blood transfusion, known allergies to oral iron therapy, use of oral phosphorus binders, use of active vitamin D analogs."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Serum Ferritin, Transferrin Saturation, Hemoglobin, Serum Phosphorus,",
@@ -110,7 +111,8 @@
       "remaining_candidate_features": [
         "Race/Ethnicity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, eGFR, Serum Ferritin, Transferrin Saturation, Hemoglobin, Serum Phosphorus"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Hemoglobin, Serum Ferritin, Transferrin Saturation, Phosphorus, ALT/AST, Bilirubin, CKD duration,",
@@ -166,7 +168,8 @@
         "Bilirubin",
         "CKD duration"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, eGFR, Hemoglobin, Serum Ferritin, Transferrin Saturation, Phosphorus, ALT/AST, Bilirubin, CKD duration"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, eGFR, serum creatinine, hemoglobin, serum ferritin, transferrin saturation, hepcidin, ALT, AST, bilirubin, serum phosphorus, medical history (including CKD, anemia, iron deficiency, gastrointestinal disorders, liver disease), concomitant medications (including erythropoiesis stimulating agents, oral phosphorus binders, active vitamin D analogs).",
@@ -226,6 +229,7 @@
         "medical history (including CKD, anemia, iron deficiency, gastrointestinal disorders, liver disease)",
         "concomitant medications (including erythropoiesis stimulating agents, oral phosphorus binders, active vitamin D analogs)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, eGFR, serum creatinine, hemoglobin, serum ferritin, transferrin saturation, hepcidin, ALT, AST, bilirubin, serum phosphorus, medical history (including CKD, anemia, iron deficiency, gastrointestinal disorders, liver disease), concomitant medications (including erythropoiesis stimulating agents, oral phosphorus binders, active vitamin D analogs)."
   }
 }

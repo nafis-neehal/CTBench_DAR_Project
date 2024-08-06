@@ -47,7 +47,8 @@
         "concomitant medications",
         "comorbid conditions."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of hemodialysis, baseline PTH levels, baseline calcium levels, baseline phosphorus levels, baseline vitamin D levels, baseline alkaline phosphatase levels, baseline serum albumin levels, baseline hemoglobin levels, baseline creatinine levels, baseline blood pressure, history of parathyroidectomy, history of kidney transplant, concomitant medications, comorbid conditions."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline Parathyroid Hormone (PTH) Levels, Serum Calcium, Serum Phosphorus, Alkaline Phosphatase, Vitamin D Levels, History of Parathyroidectomy,",
@@ -95,7 +96,8 @@
         "Vitamin D Levels",
         "History of Parathyroidectomy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Hemodialysis, Baseline Parathyroid Hormone (PTH) Levels, Serum Calcium, Serum Phosphorus, Alkaline Phosphatase, Vitamin D Levels, History of Parathyroidectomy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemodialysis vintage, Serum intact parathyroid hormone (PTH), Calcium, Phosphorus, Albumin-corrected calcium,",
@@ -145,7 +147,8 @@
       "remaining_candidate_features": [
         "Hemodialysis vintage"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Hemodialysis vintage, Serum intact parathyroid hormone (PTH), Calcium, Phosphorus, Albumin-corrected calcium"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of hemodialysis, duration of chronic kidney disease, history of parathyroidectomy, history of kidney transplant, concomitant medications (e.g. cinacalcet), baseline parathyroid hormone (PTH) level, baseline calcium level, baseline phosphorus level, baseline vitamin D level.",
@@ -195,6 +198,7 @@
         "history of kidney transplant",
         "baseline vitamin D level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of hemodialysis, duration of chronic kidney disease, history of parathyroidectomy, history of kidney transplant, concomitant medications (e.g. cinacalcet), baseline parathyroid hormone (PTH) level, baseline calcium level, baseline phosphorus level, baseline vitamin D level."
   }
 }

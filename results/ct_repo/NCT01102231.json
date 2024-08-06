@@ -38,7 +38,8 @@
         "organ function tests",
         "baseline tumor measurements"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, smoking history, tumor stage, histology type, prior treatments, organ function tests, baseline tumor measurements"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Tumor stage, Histology type, Smoking status, Body Mass Index, Baseline organ function,",
@@ -80,7 +81,8 @@
         "Body Mass Index",
         "Baseline organ function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Tumor stage, Histology type, Smoking status, Body Mass Index, Baseline organ function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, ECOG Performance Status, Histology (Non-squamous), Stage (III), Measurable Disease (RECIST 1.1), Prior Cancer History, Prior Chest Radiation Therapy, Prior Therapy with EGFR Inhibitors, Prior Allergic Reaction to Monoclonal Antibodies.",
@@ -123,7 +125,8 @@
         "Prior Therapy with EGFR Inhibitors",
         "Prior Allergic Reaction to Monoclonal Antibodies."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, ECOG Performance Status, Histology (Non-squamous), Stage (III), Measurable Disease (RECIST 1.1), Prior Cancer History, Prior Chest Radiation Therapy, Prior Therapy with EGFR Inhibitors, Prior Allergic Reaction to Monoclonal Antibodies."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ECOG performance status, smoking history, tumor histology, tumor stage, tumor size, number of metastatic sites, prior cancer history, prior therapy, organ function (renal, hepatic, hematologic).",
@@ -165,6 +168,7 @@
         "prior therapy",
         "organ function (renal, hepatic, hematologic)."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ECOG performance status, smoking history, tumor histology, tumor stage, tumor size, number of metastatic sites, prior cancer history, prior therapy, organ function (renal, hepatic, hematologic)."
   }
 }

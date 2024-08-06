@@ -39,7 +39,8 @@
         "Baseline Serum Creatinine Levels",
         "Region (Asia, Europe, South America)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Duration of Type 2 Diabetes, Baseline HbA1c, Body Mass Index (BMI), Baseline Metformin Dose, Baseline Fasting Plasma Glucose, Baseline Self-Measured Plasma Glucose (SMPG) Frequency, Baseline Insulin Dose, Baseline Blood Pressure, Baseline Alanine Aminotransferase (ALAT) Levels, Baseline Serum Creatinine Levels, Region (Asia, Europe, South America)"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Daily Insulin Dose, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Creatinine, Alanine Aminotransferase (ALAT),",
@@ -89,7 +90,8 @@
         "Duration of Diabetes",
         "Daily Insulin Dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Daily Insulin Dose, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Creatinine, Alanine Aminotransferase (ALAT)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Duration, Body Mass Index, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, Total Daily Dose of Metformin, Previous Insulin Treatment.",
@@ -123,7 +125,8 @@
         "Total Daily Dose of Metformin",
         "Previous Insulin Treatment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Diabetes Duration, Body Mass Index, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, Total Daily Dose of Metformin, Previous Insulin Treatment."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, BMI, duration of diabetes, type of diabetes treatment at screening, HbA1c at screening, fasting plasma glucose at screening, systolic and diastolic blood pressure, total daily dose of metformin, use of additional OAD treatment, history of cardiac problems, history of severe hypertension.",
@@ -164,6 +167,7 @@
         "history of cardiac problems",
         "history of severe hypertension"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, BMI, duration of diabetes, type of diabetes treatment at screening, HbA1c at screening, fasting plasma glucose at screening, systolic and diastolic blood pressure, total daily dose of metformin, use of additional OAD treatment, history of cardiac problems, history of severe hypertension."
   }
 }

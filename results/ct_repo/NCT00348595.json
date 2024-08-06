@@ -55,7 +55,8 @@
         "Evidence of metastatic disease",
         "Number of prior biologic or vaccine therapies."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Baseline PSA level, Prior local treatment (surgery or radiation), Time since last local treatment, Prior systemic chemotherapy, Prior hormonal therapy, Prior biologic or vaccine therapy, Serum testosterone level, Ability to take aspirin, History of thrombotic events, Presence of other malignancies, Serious medical conditions, Laboratory abnormalities, Psychiatric illness, Hypersensitivity to thalidomide, Known brain metastases, HIV status, Hepatitis status, Evidence of metastatic disease, PSA values during pre-study period, Number of prior biologic or vaccine therapies."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline PSA, PSA Doubling Time (PSADT), Serum Testosterone, Prior Local Treatment (Surgery/Radiation), Prior Systemic Therapy,",
@@ -100,7 +101,8 @@
         "Race/Ethnicity",
         "Prior Systemic Therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, Baseline PSA, PSA Doubling Time (PSADT), Serum Testosterone, Prior Local Treatment (Surgery/Radiation), Prior Systemic Therapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Prostate Cancer Diagnosis Duration, Baseline PSA, Gleason Score, Prior Local Treatment, Prior Systemic Therapy, Serum Testosterone Level, BMI, Systolic Blood Pressure, Diastolic Blood Pressure.",
@@ -149,7 +151,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, Prostate Cancer Diagnosis Duration, Baseline PSA, Gleason Score, Prior Local Treatment, Prior Systemic Therapy, Serum Testosterone Level, BMI, Systolic Blood Pressure, Diastolic Blood Pressure."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, weight, height, body mass index (BMI), prostate cancer stage, Gleason score, PSA at diagnosis, time since diagnosis, time since local treatment, type of local treatment, prior systemic therapies, testosterone level, Eastern Cooperative Oncology Group (ECOG) performance status.",
@@ -196,6 +199,7 @@
         "prior systemic therapies",
         "Eastern Cooperative Oncology Group (ECOG) performance status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, weight, height, body mass index (BMI), prostate cancer stage, Gleason score, PSA at diagnosis, time since diagnosis, time since local treatment, type of local treatment, prior systemic therapies, testosterone level, Eastern Cooperative Oncology Group (ECOG) performance status."
   }
 }

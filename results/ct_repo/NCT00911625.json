@@ -39,7 +39,8 @@
         "Hospital Length of Stay (LOS)",
         "Presence of Comorbidities (e.g., hypertension, cardiovascular disease)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Weight, Body Mass Index (BMI), Duration of Type 2 Diabetes, Estimated Glomerular Filtration Rate (eGFR), Baseline Blood Glucose Levels, Use of Dialysis, Concurrent Medications, Hospital Length of Stay (LOS), Presence of Comorbidities (e.g., hypertension, cardiovascular disease), Baseline Hemoglobin A1c (HbA1c)"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline Blood Glucose, Estimated Glomerular Filtration Rate (eGFR), Duration of Diabetes, Use of Dialysis,",
@@ -79,7 +80,8 @@
         "Baseline Blood Glucose",
         "Use of Dialysis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline Blood Glucose, Estimated Glomerular Filtration Rate (eGFR), Duration of Diabetes, Use of Dialysis"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, Estimated GFR, Body Mass Index, Blood glucose, Insulin dose,",
@@ -123,7 +125,8 @@
         "Body Mass Index",
         "Blood glucose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes duration, Estimated GFR, Body Mass Index, Blood glucose, Insulin dose"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, body mass index (BMI), duration of type 2 diabetes, estimated glomerular filtration rate (eGFR), hemoglobin A1c (HbA1c), blood glucose at admission, insulin dose at admission, history of hypertension, history of cardiovascular disease, history of nephropathy, history of neuropathy, history of retinopathy.",
@@ -173,6 +176,7 @@
         "history of neuropathy",
         "history of retinopathy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, body mass index (BMI), duration of type 2 diabetes, estimated glomerular filtration rate (eGFR), hemoglobin A1c (HbA1c), blood glucose at admission, insulin dose at admission, history of hypertension, history of cardiovascular disease, history of nephropathy, history of neuropathy, history of retinopathy."
   }
 }

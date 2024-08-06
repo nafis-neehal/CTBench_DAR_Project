@@ -46,7 +46,8 @@
         "presence of sleep apnea",
         "metastatic cancer status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, type of cancer, time since completion of standard treatment, current hormonal therapy use, current monoclonal antibody use, baseline sleep disturbance score, language proficiency, prior yoga experience, presence of sleep apnea, metastatic cancer status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Cancer, Time Since Completion of Standard Treatment, Current Hormonal Therapy, Current Monoclonal Antibody Therapy, Baseline Sleep Disturbance Score,",
@@ -96,7 +97,8 @@
         "Current Monoclonal Antibody Therapy",
         "Baseline Sleep Disturbance Score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Cancer, Time Since Completion of Standard Treatment, Current Hormonal Therapy, Current Monoclonal Antibody Therapy, Baseline Sleep Disturbance Score"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Cancer Diagnosis, Time Since Cancer Diagnosis, Type of Cancer, Type of Cancer Treatment, Sleep Disturbance Rating, Fatigue Rating, Quality of Life Rating",
@@ -154,7 +156,8 @@
         "Fatigue Rating",
         "Quality of Life Rating"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Cancer Diagnosis, Time Since Cancer Diagnosis, Type of Cancer, Type of Cancer Treatment, Sleep Disturbance Rating, Fatigue Rating, Quality of Life Rating"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, cancer type, time since treatment completion, type of treatment received, presence of hormonal therapy or monoclonal antibodies, sleep disturbance rating, fatigue level, quality of life score.",
@@ -209,6 +212,7 @@
         "fatigue level",
         "quality of life score."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, cancer type, time since treatment completion, type of treatment received, presence of hormonal therapy or monoclonal antibodies, sleep disturbance rating, fatigue level, quality of life score."
   }
 }

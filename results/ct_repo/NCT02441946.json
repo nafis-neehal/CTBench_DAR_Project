@@ -32,7 +32,8 @@
         "prior therapy history",
         "lymph node involvement"
       ]
-    }
+    },
+    "processed-gen-response": "Age, menopausal status, tumor size, hormone receptor status, HER2 status, organ function, prior therapy history, lymph node involvement"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Tumor Size, Hormone Receptor Status, HER2 Status, Menopausal Status, Baseline Ki67 Expression, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -71,7 +72,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Tumor Size, Hormone Receptor Status, HER2 Status, Menopausal Status, Baseline Ki67 Expression, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Menopausal Status, Hormone Receptor Status, HER2 Status, Tumor Size, Ki67 Expression, Histological Grade, Body Mass Index, Region of Enrollment",
@@ -105,7 +107,8 @@
         "Histological Grade",
         "Body Mass Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Menopausal Status, Hormone Receptor Status, HER2 Status, Tumor Size, Ki67 Expression, Histological Grade, Body Mass Index, Region of Enrollment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, menopausal status, body mass index (BMI), performance status, tumor size, tumor grade, hormone receptor status, HER2 status, prior breast cancer history, prior breast surgery, prior radiation therapy, prior chemotherapy, prior hormone therapy, comorbidities, smoking status.",
@@ -151,6 +154,7 @@
         "comorbidities",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, menopausal status, body mass index (BMI), performance status, tumor size, tumor grade, hormone receptor status, HER2 status, prior breast cancer history, prior breast surgery, prior radiation therapy, prior chemotherapy, prior hormone therapy, comorbidities, smoking status."
   }
 }

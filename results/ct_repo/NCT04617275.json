@@ -35,7 +35,8 @@
         "baseline weight",
         "baseline waist circumference"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), duration of Type 2 Diabetes Mellitus, baseline HbA1c levels, baseline fasting plasma glucose, baseline liver function tests, baseline renal function tests, history of cardiovascular events, concomitant medications, smoking status, alcohol consumption, physical activity level, baseline blood pressure, baseline lipid profile, baseline weight, baseline waist circumference."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Concomitant Medications, Systolic Blood Pressure, Diastolic Blood Pressure, Liver Function Tests, History of Cardiovascular Events, History of Psychiatric Disorders,",
@@ -70,7 +71,8 @@
         "History of Cardiovascular Events",
         "History of Psychiatric Disorders"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Concomitant Medications, Systolic Blood Pressure, Diastolic Blood Pressure, Liver Function Tests, History of Cardiovascular Events, History of Psychiatric Disorders"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Diabetes status, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Waist Circumference, Triglycerides, HDL Cholesterol, LDL Cholesterol.",
@@ -107,7 +109,8 @@
         "HDL Cholesterol",
         "LDL Cholesterol"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Diabetes status, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Waist Circumference, Triglycerides, HDL Cholesterol, LDL Cholesterol."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), duration of diabetes, HbA1c, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, heart rate, medical history, concomitant medications, smoking status, ethnicity, race.",
@@ -145,6 +148,7 @@
         "concomitant medications",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), duration of diabetes, HbA1c, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, heart rate, medical history, concomitant medications, smoking status, ethnicity, race."
   }
 }

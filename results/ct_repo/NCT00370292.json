@@ -58,7 +58,8 @@
         "Age",
         "Presence of Brain Metastasis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, ECOG Performance Status, Creatinine Clearance, Histological or Cytological Confirmation of NSCLC, Stage of NSCLC (IIIB or IV), Prior Radiation Therapy, Presence of Brain Metastasis, Cardiac Disease History, Use of Aspirin or NSAIDs, Presence of Third-Space Fluid Collections"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Performance Status (ECOG), Creatinine Clearance (CrCl), Prior Radiation Therapy, Presence of Brain Metastasis,",
@@ -101,7 +102,8 @@
         "Prior Radiation Therapy",
         "Presence of Brain Metastasis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Performance Status (ECOG), Creatinine Clearance (CrCl), Prior Radiation Therapy, Presence of Brain Metastasis"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological Type of NSCLC, Stage of NSCLC, Prior Chemotherapy, Prior Radiotherapy, Creatinine Clearance.",
@@ -160,7 +162,8 @@
       "remaining_candidate_features": [
         "Age"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Histological Type of NSCLC, Stage of NSCLC, Prior Chemotherapy, Prior Radiotherapy, Creatinine Clearance."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, histological type of NSCLC, disease stage, presence of brain metastasis, prior chemotherapy, prior radiation therapy, creatinine clearance, presence of cardiac disease, presence of third-space fluid collections.",
@@ -227,6 +230,7 @@
         "Age",
         "presence of brain metastasis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, histological type of NSCLC, disease stage, presence of brain metastasis, prior chemotherapy, prior radiation therapy, creatinine clearance, presence of cardiac disease, presence of third-space fluid collections."
   }
 }

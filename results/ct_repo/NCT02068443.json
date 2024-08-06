@@ -50,7 +50,8 @@
         "baseline fasting plasma glucose",
         "baseline postprandial glucose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, baseline HbA1c, duration of type 2 diabetes, body mass index (BMI), blood pressure, liver function tests (ALT, AST), renal function tests, cardiovascular history, smoking status, alcohol consumption, concomitant medications, diet and exercise regimen, baseline fasting plasma glucose, baseline postprandial glucose."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of Diabetes, Daily Insulin Dose, Liver Function Tests (ALT, AST), Renal Function Tests, Cardiovascular Disease History, Alcohol Consumption, Smoking Status,",
@@ -106,7 +107,8 @@
         "Alcohol Consumption",
         "Smoking Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of Diabetes, Daily Insulin Dose, Liver Function Tests (ALT, AST), Renal Function Tests, Cardiovascular Disease History, Alcohol Consumption, Smoking Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Existing Cardiovascular Disease, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol.",
@@ -163,7 +165,8 @@
         "HDL Cholesterol",
         "LDL Cholesterol"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Existing Cardiovascular Disease, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, hemoglobin A1c (HbA1c) at baseline, fasting plasma glucose at baseline, systolic and diastolic blood pressure at baseline, history of cardiovascular disease, history of hypertension, history of dyslipidemia, smoking status, alcohol consumption, diet and exercise therapy at baseline.",
@@ -214,6 +217,7 @@
         "alcohol consumption",
         "diet and exercise therapy at baseline."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, hemoglobin A1c (HbA1c) at baseline, fasting plasma glucose at baseline, systolic and diastolic blood pressure at baseline, history of cardiovascular disease, history of hypertension, history of dyslipidemia, smoking status, alcohol consumption, diet and exercise therapy at baseline."
   }
 }

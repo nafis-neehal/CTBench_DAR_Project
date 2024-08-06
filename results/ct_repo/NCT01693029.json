@@ -51,7 +51,8 @@
         "smoking status",
         "baseline liver function tests."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline hemoglobin level, baseline iron levels, duration of chronic kidney disease, duration of end-stage renal disease, baseline erythropoietin dose, comorbid conditions (e.g., diabetes, hypertension), baseline renal function (e.g., glomerular filtration rate), body mass index (BMI), baseline blood pressure, baseline serum creatinine, baseline albumin levels, baseline ferritin levels, baseline transferrin saturation, history of cardiovascular disease, smoking status, baseline liver function tests."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemoglobin level, Iron status, Duration of anemia, Duration of chronic kidney disease, Concomitant medications, Baseline kidney function,",
@@ -95,7 +96,8 @@
         "Concomitant medications",
         "Baseline kidney function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Hemoglobin level, Iron status, Duration of anemia, Duration of chronic kidney disease, Concomitant medications, Baseline kidney function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hemoglobin level, Iron substitution, History of cardiovascular disease, History of malignancy, History of systemic lupus erythematous, History of immunocompromised status.",
@@ -153,7 +155,8 @@
         "Iron substitution",
         "History of cardiovascular disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Hemoglobin level, Iron substitution, History of cardiovascular disease, History of malignancy, History of systemic lupus erythematous, History of immunocompromised status."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of end stage renal disease (ESRD), duration of epoetin alfa therapy, mean hemoglobin level at screening, iron substitution status, presence of comorbidities (e.g. hypertension, diabetes, cardiovascular disease), New York Heart Association (NYHA) class, history of malignancy, history of immunocompromised state.",
@@ -211,6 +214,7 @@
         "presence of comorbidities (e.g. hypertension, diabetes, cardiovascular disease)",
         "New York Heart Association (NYHA) class"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of end stage renal disease (ESRD), duration of epoetin alfa therapy, mean hemoglobin level at screening, iron substitution status, presence of comorbidities (e.g. hypertension, diabetes, cardiovascular disease), New York Heart Association (NYHA) class, history of malignancy, history of immunocompromised state."
   }
 }

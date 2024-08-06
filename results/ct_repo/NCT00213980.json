@@ -40,7 +40,8 @@
         "baseline serum calcium levels",
         "baseline serum vitamin D levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, menopausal status, baseline bone mineral density (BMD), breast cancer stage, axillary node status, prior chemotherapy, prior hormone therapy, calcium and vitamin D intake, physical activity level, smoking status, alcohol consumption, family history of osteoporosis, baseline serum calcium levels, baseline serum vitamin D levels."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Menopausal Status, Breast Cancer Stage, Baseline Bone Mineral Density (BMD), Use of Hormone Replacement Therapy, Calcium and Vitamin D Intake, Physical Activity Level, Smoking Status, Alcohol Consumption,",
@@ -80,7 +81,8 @@
         "Smoking Status",
         "Alcohol Consumption"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Menopausal Status, Breast Cancer Stage, Baseline Bone Mineral Density (BMD), Use of Hormone Replacement Therapy, Calcium and Vitamin D Intake, Physical Activity Level, Smoking Status, Alcohol Consumption"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Postmenopausal Status, Region of Enrollment, Breast Cancer Stage, Axillary Node Status, Prior Bisphosphonate Use, Baseline Bone Mineral Density.",
@@ -116,7 +118,8 @@
         "Prior Bisphosphonate Use",
         "Baseline Bone Mineral Density."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Postmenopausal Status, Region of Enrollment, Breast Cancer Stage, Axillary Node Status, Prior Bisphosphonate Use, Baseline Bone Mineral Density."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, body mass index (BMI), years since menopause, breast cancer stage, axillary node status, history of osteoporosis, history of fractures, current use of hormone replacement therapy (HRT), current use of aromatase inhibitors, current use of chemotherapy, smoking status.",
@@ -157,6 +160,7 @@
         "current use of chemotherapy",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, body mass index (BMI), years since menopause, breast cancer stage, axillary node status, history of osteoporosis, history of fractures, current use of hormone replacement therapy (HRT), current use of aromatase inhibitors, current use of chemotherapy, smoking status."
   }
 }

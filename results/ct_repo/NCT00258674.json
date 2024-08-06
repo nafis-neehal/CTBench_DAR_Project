@@ -50,7 +50,8 @@
         "residency status",
         "insurance coverage type"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, diagnosis of diabetes mellitus, number of diabetes-related visits, residency status, insurance coverage type, baseline HbA1c levels, baseline LDL levels, baseline blood pressure levels."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Baseline HbA1c, Baseline LDL, Diabetes Duration, Medicare Insurance Coverage,",
@@ -100,7 +101,8 @@
         "Diabetes Duration",
         "Medicare Insurance Coverage"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Baseline HbA1c, Baseline LDL, Diabetes Duration, Medicare Insurance Coverage"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Blood Pressure, LDL Cholesterol, Medicare Insurance Coverage.",
@@ -148,7 +150,8 @@
         "LDL Cholesterol",
         "Medicare Insurance Coverage."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Blood Pressure, LDL Cholesterol, Medicare Insurance Coverage."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, duration of diabetes, type of diabetes, comorbidities, current medications, smoking status, body mass index (BMI), systolic and diastolic blood pressure, LDL cholesterol level, HbA1c level, history of diabetes-related complications, number of diabetes-related visits in the past year.",
@@ -208,6 +211,7 @@
         "history of diabetes-related complications",
         "number of diabetes-related visits in the past year."
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, duration of diabetes, type of diabetes, comorbidities, current medications, smoking status, body mass index (BMI), systolic and diastolic blood pressure, LDL cholesterol level, HbA1c level, history of diabetes-related complications, number of diabetes-related visits in the past year."
   }
 }

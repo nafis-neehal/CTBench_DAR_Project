@@ -78,7 +78,8 @@
         "Previous participation in exenatide studies",
         "Allergic reaction history"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Weight, Sedentary lifestyle status, Smoking status, Contraceptive use, Blood pressure, Lipid levels, Renal function, Liver function, History of coronary heart disease, History of diabetes, History of gastrointestinal disorders, History of malignancy, History of pancreatitis, History of psychiatric conditions, History of drug use, History of eating disorders, History of obesity surgery, Thyroid function, Previous participation in exenatide studies, Allergic reaction history."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, BMI, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Baseline Weight, Baseline Hunger Scores, Baseline Energy Expenditure, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin,",
@@ -142,7 +143,8 @@
         "Race/Ethnicity",
         "Baseline Hunger Scores"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Sex: Female, Race/Ethnicity, Region of Enrollment, Baseline Weight, Baseline Hunger Scores, Baseline Energy Expenditure, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, BMI, Region of Enrollment, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin, HOMA-IR, Total Cholesterol, HDL Cholesterol, LDL Cholesterol, Triglycerides.",
@@ -211,7 +213,8 @@
         "Waist Circumference",
         "HOMA-IR"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, BMI, Region of Enrollment, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin, HOMA-IR, Total Cholesterol, HDL Cholesterol, LDL Cholesterol, Triglycerides."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, BMI, sex, race, ethnicity, weight, height, waist circumference, hip circumference, body fat percentage, systolic blood pressure, diastolic blood pressure, heart rate, fasting glucose, fasting insulin, HbA1c, lipid profile, medical history, smoking status, contraceptive use, menstrual cycle status.",
@@ -282,6 +285,7 @@
         "contraceptive use",
         "menstrual cycle status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, sex, race, ethnicity, weight, height, waist circumference, hip circumference, body fat percentage, systolic blood pressure, diastolic blood pressure, heart rate, fasting glucose, fasting insulin, HbA1c, lipid profile, medical history, smoking status, contraceptive use, menstrual cycle status."
   }
 }

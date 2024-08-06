@@ -76,7 +76,8 @@
       "remaining_candidate_features": [
         "duration of ulcerative colitis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline Mayo Clinic Score (MCS), duration of ulcerative colitis, prior corticosteroid use, prior immunosuppressant use, baseline hemoglobin levels, baseline platelet count, baseline absolute neutrophil count, baseline absolute lymphocyte count, baseline serum creatinine, baseline ALT levels, baseline AST levels, baseline alkaline phosphatase levels, baseline total bilirubin levels."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Ulcerative Colitis, Baseline Mayo Clinic Score (MCS), Prior corticosteroid use, Prior immunosuppressant use, Concomitant UC therapy, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Platelet count, Serum creatinine, ALT, AST, Alkaline phosphatase, Total bilirubin,",
@@ -152,7 +153,8 @@
         "Diastolic Blood Pressure",
         "Hemoglobin"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Ulcerative Colitis, Baseline Mayo Clinic Score (MCS), Prior corticosteroid use, Prior immunosuppressant use, Concomitant UC therapy, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Platelet count, Serum creatinine, ALT, AST, Alkaline phosphatase, Total bilirubin"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Ulcerative Colitis Duration, Prior Corticosteroid Use, Prior Immunomodulator Use, Prior Aminosalicylate Use, MCS at Baseline, Endoscopic Index at Baseline, C-Reactive Protein at Baseline, Fecal Calprotectin at Baseline.",
@@ -200,7 +202,8 @@
         "C-Reactive Protein at Baseline",
         "Fecal Calprotectin at Baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Ulcerative Colitis Duration, Prior Corticosteroid Use, Prior Immunomodulator Use, Prior Aminosalicylate Use, MCS at Baseline, Endoscopic Index at Baseline, C-Reactive Protein at Baseline, Fecal Calprotectin at Baseline."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), smoking status, duration of ulcerative colitis, Mayo Clinic Score (MCS) at baseline, prior corticosteroid and/or immunosuppressant treatment, concomitant medications, colonoscopy findings, laboratory values (e.g., complete blood count, liver function tests, renal function tests).",
@@ -250,6 +253,7 @@
         "colonoscopy findings",
         "laboratory values (e.g., complete blood count, liver function tests, renal function tests)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), smoking status, duration of ulcerative colitis, Mayo Clinic Score (MCS) at baseline, prior corticosteroid and/or immunosuppressant treatment, concomitant medications, colonoscopy findings, laboratory values (e.g., complete blood count, liver function tests, renal function tests)."
   }
 }

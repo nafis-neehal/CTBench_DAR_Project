@@ -34,7 +34,8 @@
         "alcohol consumption",
         "socioeconomic status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, BMI, baseline insulin resistance, baseline glucose levels, baseline lipid profile, dietary habits, physical activity level, medical history, medication use, smoking status, alcohol consumption, socioeconomic status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline Insulin Resistance, Baseline Glucose Uptake, Region of Enrollment, ",
@@ -68,7 +69,8 @@
         "Baseline Insulin Resistance",
         "Baseline Glucose Uptake"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline Insulin Resistance, Baseline Glucose Uptake, Region of Enrollment"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Insulin Resistance, Fasting Glucose, Fasting Insulin, HbA1c, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Lipid Profile,",
@@ -107,7 +109,8 @@
         "Diastolic Blood Pressure",
         "Lipid Profile"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, Region of Enrollment, Insulin Resistance, Fasting Glucose, Fasting Insulin, HbA1c, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Lipid Profile"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, weight, height, waist circumference, hip circumference, blood pressure, fasting glucose, fasting insulin, HbA1c, lipid profile, medical history, medication use, smoking status, dietary habits, physical activity level.",
@@ -146,6 +149,7 @@
         "dietary habits",
         "physical activity level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, weight, height, waist circumference, hip circumference, blood pressure, fasting glucose, fasting insulin, HbA1c, lipid profile, medical history, medication use, smoking status, dietary habits, physical activity level."
   }
 }

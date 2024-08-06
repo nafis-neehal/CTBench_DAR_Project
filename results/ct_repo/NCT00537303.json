@@ -48,7 +48,8 @@
         "Smoking Status",
         "Physical Activity Level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Duration of Type 2 Diabetes, HbA1c, BMI, Basal Insulin Dose, Use of Oral Antidiabetic Drugs (OADs), Blood Pressure, Lipid Profile, Renal Function, Liver Function, Smoking Status, Physical Activity Level, Ethnicity."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Basal Insulin Dose, Use of Oral Antidiabetic Drugs (OADs),",
@@ -92,7 +93,8 @@
         "Basal Insulin Dose",
         "Use of Oral Antidiabetic Drugs (OADs)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Basal Insulin Dose, Use of Oral Antidiabetic Drugs (OADs)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, BMI, HbA1c, Diabetes duration, Previous cardiovascular disease, Basal insulin dose, Number of OADs, Region of Enrollment",
@@ -134,7 +136,8 @@
         "Number of OADs",
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, BMI, HbA1c, Diabetes duration, Previous cardiovascular disease, Basal insulin dose, Number of OADs, Region of Enrollment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, BMI, duration of type 2 diabetes, HbA1c at screening, type and dose of basal insulin at screening, type and dose of OADs at screening, history of diabetes-related complications, smoking status.",
@@ -182,6 +185,7 @@
         "history of diabetes-related complications",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, BMI, duration of type 2 diabetes, HbA1c at screening, type and dose of basal insulin at screening, type and dose of OADs at screening, history of diabetes-related complications, smoking status."
   }
 }

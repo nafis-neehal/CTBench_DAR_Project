@@ -53,7 +53,8 @@
         "history of allergies or hypersensitivity",
         "history of serious medical conditions (e.g., connective tissue disorders, interstitial lung disease, cardiac conditions)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ECOG performance status, absolute neutrophil count, platelet count, hemoglobin level, aspartate aminotransferase (AST) level, alanine transaminase (ALT) level, total bilirubin level, alkaline phosphatase level, serum creatinine level, cancer antigen (CA)19-9 level, prothrombin time (PT), partial thromboplastin time (PTT), pancreatic cancer surgical staging (T, N, M), time from surgery to treatment initiation, history of other malignancies, history of infections, history of allergies or hypersensitivity, history of serious medical conditions (e.g., connective tissue disorders, interstitial lung disease, cardiac conditions)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Tumor stage, Lymph node status, Hemoglobin, Absolute neutrophil count, Platelet count, Aspartate aminotransferase (AST), Alanine transaminase (ALT), Total bilirubin, Alkaline phosphatase, Serum creatinine, Cancer antigen (CA)19-9,",
@@ -110,7 +111,8 @@
         "Serum creatinine",
         "Cancer antigen (CA)19-9"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG performance status, Tumor stage, Lymph node status, Hemoglobin, Absolute neutrophil count, Platelet count, Aspartate aminotransferase (AST), Alanine transaminase (ALT), Total bilirubin, Alkaline phosphatase, Serum creatinine, Cancer antigen (CA)19-9"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Tumor Stage, Lymph Node Status, Metastasis Status, CA19-9 Level, Hemoglobin, Absolute Neutrophil Count, Platelet Count, AST, ALT, Total Bilirubin, Alkaline Phosphatase, Serum Creatinine, Body Mass Index.",
@@ -169,7 +171,8 @@
         "Serum Creatinine",
         "Body Mass Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Tumor Stage, Lymph Node Status, Metastasis Status, CA19-9 Level, Hemoglobin, Absolute Neutrophil Count, Platelet Count, AST, ALT, Total Bilirubin, Alkaline Phosphatase, Serum Creatinine, Body Mass Index."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ECOG performance status, tumor stage (T, N, M), surgical margin status (R0 or R1), CA19-9 level, hemoglobin, absolute neutrophil count, platelet count, AST, ALT, total bilirubin, alkaline phosphatase, serum creatinine, body mass index (BMI).",
@@ -218,6 +221,7 @@
         "serum creatinine",
         "body mass index (BMI)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ECOG performance status, tumor stage (T, N, M), surgical margin status (R0 or R1), CA19-9 level, hemoglobin, absolute neutrophil count, platelet count, AST, ALT, total bilirubin, alkaline phosphatase, serum creatinine, body mass index (BMI)."
   }
 }

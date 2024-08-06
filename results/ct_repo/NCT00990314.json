@@ -37,7 +37,8 @@
         "medical history",
         "baseline laboratory values"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, baseline pulmonary arterial hypertension severity, baseline functional class, baseline 6-minute walk distance, baseline hemodynamic parameters, baseline concomitant medications, smoking status, body mass index (BMI), medical history, baseline laboratory values."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Pulmonary Arterial Hypertension (PAH) Severity, Concomitant Medications, Duration of PAH Diagnosis, Functional Class of PAH, 6-Minute Walk Distance, Hemodynamic Parameters,",
@@ -76,7 +77,8 @@
         "Functional Class of PAH",
         "Hemodynamic Parameters"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Pulmonary Arterial Hypertension (PAH) Severity, Concomitant Medications, Duration of PAH Diagnosis, Functional Class of PAH, 6-Minute Walk Distance, Hemodynamic Parameters"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Pulmonary Arterial Hypertension diagnosis duration, World Health Organization functional class, Six-minute walk distance, Mean pulmonary arterial pressure, Cardiac output, Pulmonary vascular resistance, N-terminal pro-brain natriuretic peptide,",
@@ -111,7 +113,8 @@
         "Pulmonary vascular resistance",
         "N-terminal pro-brain natriuretic peptide"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Pulmonary Arterial Hypertension diagnosis duration, World Health Organization functional class, Six-minute walk distance, Mean pulmonary arterial pressure, Cardiac output, Pulmonary vascular resistance, N-terminal pro-brain natriuretic peptide"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), PAH etiology, World Health Organization (WHO) functional class, 6-minute walk distance (6MWD), systolic pulmonary artery pressure (sPAP), mean pulmonary artery pressure (mPAP), cardiac output, pulmonary vascular resistance, N-terminal pro-brain natriuretic peptide (NT-proBNP), medical history, concomitant medications, duration of PAH diagnosis, prior PAH therapies.",
@@ -158,6 +161,7 @@
         "duration of PAH diagnosis",
         "prior PAH therapies"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), PAH etiology, World Health Organization (WHO) functional class, 6-minute walk distance (6MWD), systolic pulmonary artery pressure (sPAP), mean pulmonary artery pressure (mPAP), cardiac output, pulmonary vascular resistance, N-terminal pro-brain natriuretic peptide (NT-proBNP), medical history, concomitant medications, duration of PAH diagnosis, prior PAH therapies."
   }
 }

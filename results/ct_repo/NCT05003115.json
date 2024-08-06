@@ -43,7 +43,8 @@
         "planned transplant status",
         "planned conversion to peritoneal dialysis status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration on hemodialysis, number of missed dialysis sessions, number of shortened dialysis sessions, mental status, severity of illness, language proficiency, living situation, planned transplant status, planned conversion to peritoneal dialysis status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration on Hemodialysis, Number of Missed Dialysis Sessions, Number of Shortened Dialysis Sessions,",
@@ -85,7 +86,8 @@
         "Number of Missed Dialysis Sessions",
         "Number of Shortened Dialysis Sessions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration on Hemodialysis, Number of Missed Dialysis Sessions, Number of Shortened Dialysis Sessions"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Dialysis vintage, Missed or shortened dialysis sessions, Comorbidities, Charlson Comorbidity Index, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Albumin, Phosphorus, Calcium,",
@@ -137,7 +139,8 @@
         "Phosphorus",
         "Calcium"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Dialysis vintage, Missed or shortened dialysis sessions, Comorbidities, Charlson Comorbidity Index, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Albumin, Phosphorus, Calcium"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, education level, employment status, marital status, income level, insurance type, comorbidities, duration of dialysis, number of missed or shortened dialysis sessions, Charlson Comorbidity Index, body mass index (BMI), serum albumin level, hemoglobin level, blood pressure, presence of diabetes, presence of hypertension, smoking status.",
@@ -191,6 +194,7 @@
         "presence of hypertension",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, education level, employment status, marital status, income level, insurance type, comorbidities, duration of dialysis, number of missed or shortened dialysis sessions, Charlson Comorbidity Index, body mass index (BMI), serum albumin level, hemoglobin level, blood pressure, presence of diabetes, presence of hypertension, smoking status."
   }
 }

@@ -56,7 +56,8 @@
         "drug hypersensitivity",
         "gestational status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), fasting plasma glucose (FPG), 2-hour postprandial glucose (2hPG), hemoglobin A1c (HbA1c), liver function tests (ALT, T-Bil), renal function tests, history of cardiovascular disease, presence of chronic complications, presence of acute complications, presence of chronic consumptive diseases, drug hypersensitivity, gestational status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Fasting Plasma Glucose, 2-hour Postload Glucose, HbA1c, Liver Function Tests (ALT, T-Bil), Renal Function Tests, Cardiovascular Disease History,",
@@ -111,7 +112,8 @@
         "Renal Function Tests",
         "Cardiovascular Disease History"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, Fasting Plasma Glucose, 2-hour Postload Glucose, HbA1c, Liver Function Tests (ALT, T-Bil), Renal Function Tests, Cardiovascular Disease History"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Fasting Plasma Glucose, HbA1c, Duration of Diabetes,",
@@ -161,7 +163,8 @@
       "remaining_candidate_features": [
         "Duration of Diabetes"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, Fasting Plasma Glucose, HbA1c, Duration of Diabetes"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, FPG, 2hPG, HbA1c, duration of diabetes, medical history, concomitant medications, smoking status, alcohol consumption, physical activity level.",
@@ -216,6 +219,7 @@
         "alcohol consumption",
         "physical activity level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, FPG, 2hPG, HbA1c, duration of diabetes, medical history, concomitant medications, smoking status, alcohol consumption, physical activity level."
   }
 }

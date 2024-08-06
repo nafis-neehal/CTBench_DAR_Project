@@ -57,7 +57,8 @@
         "Ethnicity",
         "Physical Activity Level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Duration of Diabetes, Baseline HbA1c, Baseline LDL-cholesterol, Medication Adherence Rate, Health Plan Enrollment Duration, Comorbid Conditions, Socioeconomic Status, Education Level, Smoking Status, Body Mass Index (BMI), Blood Pressure, Ethnicity, Physical Activity Level."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Baseline LDL-cholesterol, Duration of Diabetes, Body Mass Index, Blood Pressure, Medication Adherence,",
@@ -115,7 +116,8 @@
         "Body Mass Index",
         "Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Baseline LDL-cholesterol, Duration of Diabetes, Body Mass Index, Blood Pressure, Medication Adherence"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, HbA1c, LDL-cholesterol, Medication adherence, Health plan enrollment,",
@@ -172,7 +174,8 @@
         "Region of Enrollment",
         "Diabetes duration"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Race/Ethnicity, Region of Enrollment, Diabetes duration, HbA1c, LDL-cholesterol, Medication adherence, Health plan enrollment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, duration of diabetes, type of diabetes, body mass index (BMI), average HbA1c, average LDL-cholesterol, number of diabetes medications, number of comorbidities, smoking status, health plan type, duration of health plan enrollment.",
@@ -229,6 +232,7 @@
         "health plan type",
         "duration of health plan enrollment."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, duration of diabetes, type of diabetes, body mass index (BMI), average HbA1c, average LDL-cholesterol, number of diabetes medications, number of comorbidities, smoking status, health plan type, duration of health plan enrollment."
   }
 }

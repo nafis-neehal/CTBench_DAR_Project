@@ -31,7 +31,8 @@
         "baseline diet",
         "baseline physical activity level."
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, PSA level, Gleason score, physical activity level, comorbidities, medication use, alcohol/drug use, prior treatments (e.g., radiotherapy, cryotherapy), baseline weight, baseline diet, baseline physical activity level."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Prostate-Specific Antigen (PSA) levels, Gleason score, Physical activity level, Comorbidities, Use of weight loss medications, Use of lycopene supplements,",
@@ -68,7 +69,8 @@
         "Use of weight loss medications",
         "Use of lycopene supplements"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Prostate-Specific Antigen (PSA) levels, Gleason score, Physical activity level, Comorbidities, Use of weight loss medications, Use of lycopene supplements"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, BMI, Prostate-specific antigen (PSA), Gleason grade, Diabetes status, History of androgen deprivation therapy, History of prostate radiotherapy, History of cryotherapy, Current use of weight loss medications, Current use of lycopene supplements, Co-morbidities, Cardiac pacemaker.",
@@ -100,7 +102,8 @@
         "Co-morbidities",
         "Cardiac pacemaker."
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Prostate-specific antigen (PSA), Gleason grade, Diabetes status, History of androgen deprivation therapy, History of prostate radiotherapy, History of cryotherapy, Current use of weight loss medications, Current use of lycopene supplements, Co-morbidities, Cardiac pacemaker."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, BMI, PSA level, Gleason grade, prostate volume, medical history (diabetes, cardiac disease, pulmonary disease, liver disease), smoking status, physical activity level, medication use (androgen deprivation therapy, antiandrogen therapy, finasteride, weight loss medications, lycopene supplements), insulin use.",
@@ -136,6 +139,7 @@
         "medication use (androgen deprivation therapy, antiandrogen therapy, finasteride, weight loss medications, lycopene supplements)",
         "insulin use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, BMI, PSA level, Gleason grade, prostate volume, medical history (diabetes, cardiac disease, pulmonary disease, liver disease), smoking status, physical activity level, medication use (androgen deprivation therapy, antiandrogen therapy, finasteride, weight loss medications, lycopene supplements), insulin use."
   }
 }

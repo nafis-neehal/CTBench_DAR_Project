@@ -36,7 +36,8 @@
         "socioeconomic status",
         "insurance type"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, baseline blood pressure, duration of hypertension, number of antihypertensive medications, comorbid conditions, smoking status, body mass index (BMI), primary care physician characteristics (e.g., years in practice, number of patients in panel), type of visit (in-office or virtual), socioeconomic status, insurance type."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Blood Pressure, Number of Hypertension Medications, Duration of Hypertension, Provider Specialty, Provider Experience, Number of Patients per Provider,",
@@ -78,7 +79,8 @@
         "Provider Experience",
         "Number of Patients per Provider"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Blood Pressure, Number of Hypertension Medications, Duration of Hypertension, Provider Specialty, Provider Experience, Number of Patients per Provider"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hypertension Diagnosis Duration, Baseline Blood Pressure, Number of Antihypertensive Medications, Comorbidities, Provider Type, Provider Experience.",
@@ -115,7 +117,8 @@
         "Provider Type",
         "Provider Experience"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Hypertension Diagnosis Duration, Baseline Blood Pressure, Number of Antihypertensive Medications, Comorbidities, Provider Type, Provider Experience."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, body mass index (BMI), blood pressure, comorbidities (e.g., diabetes, cardiovascular disease), medication use, number of primary care visits, provider characteristics (e.g., years of experience, specialty), practice characteristics (e.g., size, location).",
@@ -157,6 +160,7 @@
         "provider characteristics (e.g., years of experience, specialty)",
         "practice characteristics (e.g., size, location)"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, body mass index (BMI), blood pressure, comorbidities (e.g., diabetes, cardiovascular disease), medication use, number of primary care visits, provider characteristics (e.g., years of experience, specialty), practice characteristics (e.g., size, location)."
   }
 }

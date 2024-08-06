@@ -42,7 +42,8 @@
         "Smoking Status",
         "Physical Activity Level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Duration of Type 2 Diabetes, Baseline HbA1c, Body Mass Index (BMI), Weight, Insulin Regimen (basal insulin, premixed insulin, or basal/mealtime insulin), Use of Oral Antidiabetics (OADs), Baseline Fasting Plasma Glucose, Blood Pressure, Lipid Profile (Total Cholesterol, LDL, HDL, Triglycerides), Renal Function (eGFR or Serum Creatinine), Liver Function Tests (ALT, AST), History of Cardiovascular Disease, Smoking Status, Physical Activity Level"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Type of Insulin Therapy, Use of Oral Antidiabetics, Weight,",
@@ -82,7 +83,8 @@
         "Use of Oral Antidiabetics",
         "Weight"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Type of Insulin Therapy, Use of Oral Antidiabetics, Weight"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Insulin Dose, Body Mass Index, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol,",
@@ -125,7 +127,8 @@
         "HDL Cholesterol",
         "LDL Cholesterol"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Insulin Dose, Body Mass Index, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose at screening, insulin dose at screening, type of insulin therapy at screening, number and type of oral antidiabetic drugs at screening, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (including cardiovascular disease, thyroid abnormalities, etc.).",
@@ -170,6 +173,7 @@
         "smoking status",
         "medical history (including cardiovascular disease, thyroid abnormalities, etc.)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose at screening, insulin dose at screening, type of insulin therapy at screening, number and type of oral antidiabetic drugs at screening, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (including cardiovascular disease, thyroid abnormalities, etc.)."
   }
 }

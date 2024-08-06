@@ -38,7 +38,8 @@
         "Commitment to Lowering Blood Pressure",
         "Frequency of Ambulatory Visits"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Race/Ethnicity, Baseline Systolic Blood Pressure (SBP), Medication Use, Smartphone Ownership, Language Proficiency, Arm Circumference, Commitment to Lowering Blood Pressure, Frequency of Ambulatory Visits"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Use of Antihypertensive Medications, Smartphone Ownership, Commitment to Lowering Blood Pressure,",
@@ -79,7 +80,8 @@
         "Use of Antihypertensive Medications",
         "Commitment to Lowering Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Use of Antihypertensive Medications, Smartphone Ownership, Commitment to Lowering Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Antihypertensive Medication Use,",
@@ -118,7 +120,8 @@
         "History of Hypertension",
         "Antihypertensive Medication Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Antihypertensive Medication Use"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), arm circumference, systolic blood pressure (SBP) at most recent clinic visit, use of blood pressure medications, number of ambulatory visits in the past year, self-reported commitment to lowering blood pressure, Smartphone type (Android or iOS), English proficiency.",
@@ -159,6 +162,7 @@
         "self-reported commitment to lowering blood pressure",
         "English proficiency."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), arm circumference, systolic blood pressure (SBP) at most recent clinic visit, use of blood pressure medications, number of ambulatory visits in the past year, self-reported commitment to lowering blood pressure, Smartphone type (Android or iOS), English proficiency."
   }
 }

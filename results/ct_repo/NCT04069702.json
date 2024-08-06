@@ -36,7 +36,8 @@
         "medical history",
         "cognitive status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, stage of colorectal cancer, baseline pain score, language proficiency, vision status, hearing status, mental health status, medical history, cognitive status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Pain Score, Stage of Cancer, Visual Acuity, Hearing Ability, Cognitive Function,",
@@ -74,7 +75,8 @@
         "Hearing Ability",
         "Cognitive Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Pain Score, Stage of Cancer, Visual Acuity, Hearing Ability, Cognitive Function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Stage, Pain Intensity, Pain Interference, Pain Catastrophizing, Pain Self-Efficacy, Anxiety, Depression, Sleep Quality, Fatigue.",
@@ -117,7 +119,8 @@
         "Sleep Quality",
         "Fatigue"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Stage, Pain Intensity, Pain Interference, Pain Catastrophizing, Pain Self-Efficacy, Anxiety, Depression, Sleep Quality, Fatigue."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, diagnosis date, cancer stage, pain duration, pain intensity, analgesic use, comorbidities, performance status, quality of life, pain catastrophizing, pain self-efficacy.",
@@ -160,6 +163,7 @@
         "pain catastrophizing",
         "pain self-efficacy"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, diagnosis date, cancer stage, pain duration, pain intensity, analgesic use, comorbidities, performance status, quality of life, pain catastrophizing, pain self-efficacy."
   }
 }

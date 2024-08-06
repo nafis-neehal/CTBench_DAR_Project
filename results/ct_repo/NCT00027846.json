@@ -33,7 +33,8 @@
         "prior surgeries",
         "prior corticosteroid use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, performance status, histological subtype of ependymoma, time since initial surgical resection, ability to undergo MRI, pregnancy status, use of effective contraception, prior surgeries, prior corticosteroid use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Histological subtype of ependymoma, Time since initial surgical resection, Performance status, Use of corticosteroids,",
@@ -68,7 +69,8 @@
         "Performance status",
         "Use of corticosteroids"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Histological subtype of ependymoma, Time since initial surgical resection, Performance status, Use of corticosteroids"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Performance Status, Histological Grade, Tumor Location, Extent of Resection, Time from Surgery to Enrollment,",
@@ -104,7 +106,8 @@
         "Extent of Resection",
         "Time from Surgery to Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Performance Status, Histological Grade, Tumor Location, Extent of Resection, Time from Surgery to Enrollment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, performance status, histological diagnosis (differentiated ependymoma or anaplastic ependymoma), tumor location, extent of initial surgical resection, time from initial surgery to study entry, presence of residual tumor, prior corticosteroid use.",
@@ -135,6 +138,7 @@
         "presence of residual tumor",
         "prior corticosteroid use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, performance status, histological diagnosis (differentiated ependymoma or anaplastic ependymoma), tumor location, extent of initial surgical resection, time from initial surgery to study entry, presence of residual tumor, prior corticosteroid use."
   }
 }

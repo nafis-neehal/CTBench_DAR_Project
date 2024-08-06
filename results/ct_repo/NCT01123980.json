@@ -43,7 +43,8 @@
         "total daily dose of insulin secretagogue",
         "presence of any comorbid conditions."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race/ethnicity, body mass index (BMI), duration of diabetes, baseline HbA1c, fasting plasma glucose (FPG), prior use of oral anti-diabetic drugs (OADs), total daily dose of metformin, total daily dose of insulin secretagogue, presence of any comorbid conditions."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Fasting Plasma Glucose (FPG), Duration of Diabetes, Previous Oral Anti-diabetic Drug (OAD) Use,",
@@ -88,7 +89,8 @@
         "Fasting Plasma Glucose (FPG)",
         "Previous Oral Anti-diabetic Drug (OAD) Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Fasting Plasma Glucose (FPG), Duration of Diabetes, Previous Oral Anti-diabetic Drug (OAD) Use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity (Chinese, Japanese), Region of Enrollment, Diabetes Duration, Body Mass Index, Fasting Plasma Glucose, HbA1c, Metformin Dose, Glimepiride Dose, Insulin Naivety.",
@@ -135,7 +137,8 @@
         "Glimepiride Dose",
         "Insulin Naivety"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Ethnicity (Chinese, Japanese), Region of Enrollment, Diabetes Duration, Body Mass Index, Fasting Plasma Glucose, HbA1c, Metformin Dose, Glimepiride Dose, Insulin Naivety."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c, fasting plasma glucose (FPG), systolic blood pressure, diastolic blood pressure, total daily dose of metformin, total daily dose of insulin secretagogue, type of oral anti-diabetic drugs (OADs) used, smoking status.",
@@ -182,6 +185,7 @@
         "type of oral anti-diabetic drugs (OADs) used",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c, fasting plasma glucose (FPG), systolic blood pressure, diastolic blood pressure, total daily dose of metformin, total daily dose of insulin secretagogue, type of oral anti-diabetic drugs (OADs) used, smoking status."
   }
 }

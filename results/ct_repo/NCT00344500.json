@@ -59,7 +59,8 @@
         "presence of medically unstable condition",
         "pregnancy or breastfeeding status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, diagnosis of psychotic disorder, duration of antipsychotic treatment, type of antipsychotic medication, baseline weight, baseline BMI, baseline body fat percentage, inpatient or outpatient status, competency to sign informed consent, presence of medically unstable condition, pregnancy or breastfeeding status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis of psychotic disorders, Duration of antipsychotic treatment, Baseline weight, Baseline BMI, Baseline body fat percentage,",
@@ -122,7 +123,8 @@
         "Microalbumin/Creatinine"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diagnosis of psychotic disorders, Duration of antipsychotic treatment, Baseline weight, Baseline BMI, Baseline body fat percentage"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Diagnosis of psychotic disorders, Duration of antipsychotic medication use, Weight gain since treatment with SGA's,",
@@ -181,7 +183,8 @@
       "remaining_candidate_features": [
         "Duration of antipsychotic medication use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Diagnosis of psychotic disorders, Duration of antipsychotic medication use, Weight gain since treatment with SGA's"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, diagnosis (psychotic disorders, schizophrenia, schizoaffective disorder, bipolar illness), duration of antipsychotic treatment, type of antipsychotic medication, BMI, body fat percentage, weight, waist circumference, blood pressure, fasting glucose, lipid profile, smoking status, physical activity level, dietary habits, education level, employment status, marital status.",
@@ -264,6 +267,7 @@
         "physical activity level",
         "dietary habits"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, diagnosis (psychotic disorders, schizophrenia, schizoaffective disorder, bipolar illness), duration of antipsychotic treatment, type of antipsychotic medication, BMI, body fat percentage, weight, waist circumference, blood pressure, fasting glucose, lipid profile, smoking status, physical activity level, dietary habits, education level, employment status, marital status."
   }
 }

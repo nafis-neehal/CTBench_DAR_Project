@@ -44,7 +44,8 @@
         "blood pressure (systolic and diastolic)",
         "fasting blood glucose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, HbA1c, eGFR, body mass index (BMI), anti-diabetic medication regimen, hypertension medication status, hyperlipidemia medication status, liver function tests (total bilirubin, alkaline phosphatase, ALT, AST), history of cardiovascular events (MI, stroke, heart failure, unstable angina), NYHA class, corrected serum calcium, blood pressure (systolic and diastolic), fasting blood glucose."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Body Mass Index, eGFR, Blood Pressure, Duration of Diabetes, Anti-diabetic Medication Use,",
@@ -90,7 +91,8 @@
         "Duration of Diabetes",
         "Anti-diabetic Medication Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Body Mass Index, eGFR, Blood Pressure, Duration of Diabetes, Anti-diabetic Medication Use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, eGFR, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, History of Hyperlipidemia, Anti-diabetic Medications, History of Cardiovascular Disease.",
@@ -142,7 +144,8 @@
         "Anti-diabetic Medications",
         "History of Cardiovascular Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, eGFR, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, History of Hyperlipidemia, Anti-diabetic Medications, History of Cardiovascular Disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, BMI, HbA1c, eGFR, systolic blood pressure, diastolic blood pressure, fasting blood glucose, history of hypertension, history of hyperlipidemia, use of anti-diabetic medications, use of medications for hypertension or hyperlipidemia.",
@@ -193,6 +196,7 @@
         "use of anti-diabetic medications",
         "use of medications for hypertension or hyperlipidemia."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, BMI, HbA1c, eGFR, systolic blood pressure, diastolic blood pressure, fasting blood glucose, history of hypertension, history of hyperlipidemia, use of anti-diabetic medications, use of medications for hypertension or hyperlipidemia."
   }
 }

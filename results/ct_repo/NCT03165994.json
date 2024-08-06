@@ -39,7 +39,8 @@
         "congestive heart failure status",
         "HIV status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, histologic subtype, tumor location, ECOG performance status, hematological parameters, renal parameters, hepatic parameters, history of second primary cancer, prior major surgery, prior anticancer treatment, prior immuno-oncology agent exposure, history of bone marrow transplantation, history of autoimmune disorders, chronic steroid use, congestive heart failure status, HIV status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Histologic Subtype, Tumor Location, ECOG Performance Status, Hematological Parameters, Renal Parameters, Hepatic Parameters,",
@@ -80,7 +81,8 @@
         "Renal Parameters",
         "Hepatic Parameters"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Histologic Subtype, Tumor Location, ECOG Performance Status, Hematological Parameters, Renal Parameters, Hepatic Parameters"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histologic Subtype, Tumor Location, Baseline Tumor Size, Baseline Nodal Status, Baseline Metastatic Status, Prior Chemotherapy, Prior Radiation Therapy, Prior Surgery, Baseline Hemoglobin, Baseline White Blood Cell Count, Baseline Platelet Count, Baseline Creatinine, Baseline Bilirubin, Baseline Albumin.",
@@ -130,7 +132,8 @@
         "Baseline Bilirubin",
         "Baseline Albumin"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Histologic Subtype, Tumor Location, Baseline Tumor Size, Baseline Nodal Status, Baseline Metastatic Status, Prior Chemotherapy, Prior Radiation Therapy, Prior Surgery, Baseline Hemoglobin, Baseline White Blood Cell Count, Baseline Platelet Count, Baseline Creatinine, Baseline Bilirubin, Baseline Albumin."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, histologic subtype (squamous cell carcinoma, adenocarcinoma, undifferentiated carcinoma), tumor location (esophagus, GE junction), tumor stage (T1-3 Nx), baseline tumor size, baseline lymph node status, prior cancer history, prior surgery history, prior chemotherapy history, prior radiation therapy history, steroid use at baseline, comorbidities (congestive heart failure, ischemia, conduction abnormalities, myocardial infarction).",
@@ -176,6 +179,7 @@
         "steroid use at baseline",
         "comorbidities (congestive heart failure, ischemia, conduction abnormalities, myocardial infarction)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, histologic subtype (squamous cell carcinoma, adenocarcinoma, undifferentiated carcinoma), tumor location (esophagus, GE junction), tumor stage (T1-3 Nx), baseline tumor size, baseline lymph node status, prior cancer history, prior surgery history, prior chemotherapy history, prior radiation therapy history, steroid use at baseline, comorbidities (congestive heart failure, ischemia, conduction abnormalities, myocardial infarction)."
   }
 }

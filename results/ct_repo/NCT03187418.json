@@ -37,7 +37,8 @@
         "ocular infection or inflammation status",
         "intraocular surgery history."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, baseline intraocular pressure (IOP), glaucoma type, previous surgical interventions, maximal tolerated medical therapy, scleral thinning status, ocular infection or inflammation status, intraocular surgery history."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure (IOP), Glaucoma Severity, Previous Glaucoma Surgery, Duration of Glaucoma, Use of Glaucoma Medications,",
@@ -78,7 +79,8 @@
         "Duration of Glaucoma",
         "Use of Glaucoma Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Intraocular Pressure (IOP), Glaucoma Severity, Previous Glaucoma Surgery, Duration of Glaucoma, Use of Glaucoma Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Intraocular Pressure, Visual Acuity, Cup-to-Disc Ratio, Number of Glaucoma Medications, Previous Glaucoma Surgery, Glaucoma Severity.",
@@ -119,7 +121,8 @@
         "Number of Glaucoma Medications",
         "Previous Glaucoma Surgery"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Intraocular Pressure, Visual Acuity, Cup-to-Disc Ratio, Number of Glaucoma Medications, Previous Glaucoma Surgery, Glaucoma Severity."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, glaucoma type (open-angle, neovascular, secondary), glaucoma severity (mild, moderate, advanced), previous surgical intervention, number of glaucoma medications, best-corrected visual acuity, central corneal thickness, cup-to-disc ratio, visual field mean deviation, spherical equivalent refraction.",
@@ -159,6 +162,7 @@
         "visual field mean deviation",
         "spherical equivalent refraction"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, glaucoma type (open-angle, neovascular, secondary), glaucoma severity (mild, moderate, advanced), previous surgical intervention, number of glaucoma medications, best-corrected visual acuity, central corneal thickness, cup-to-disc ratio, visual field mean deviation, spherical equivalent refraction."
   }
 }

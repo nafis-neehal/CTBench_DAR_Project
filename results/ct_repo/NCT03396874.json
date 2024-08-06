@@ -27,7 +27,8 @@
         "histopathological type of prostate cancer",
         "ability to understand and sign informed consent."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Karnofsky performance status, PSA level, prior definitive therapy (prostatectomy or radiation therapy), time since definitive therapy, histopathological type of prostate cancer, ability to understand and sign informed consent."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky performance status, PSA levels, Time since definitive therapy, Type of definitive therapy (prostatectomy or radiation therapy),",
@@ -60,7 +61,8 @@
         "Time since definitive therapy",
         "Type of definitive therapy (prostatectomy or radiation therapy)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, Karnofsky performance status, PSA levels, Time since definitive therapy, Type of definitive therapy (prostatectomy or radiation therapy)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Karnofsky Performance Status, PSA level, Time since definitive therapy, Type of definitive therapy, Gleason score at diagnosis, Prostate cancer stage at diagnosis, Prior hormone therapy, Prior chemotherapy.",
@@ -93,7 +95,8 @@
         "Prior hormone therapy",
         "Prior chemotherapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Karnofsky Performance Status, PSA level, Time since definitive therapy, Type of definitive therapy, Gleason score at diagnosis, Prostate cancer stage at diagnosis, Prior hormone therapy, Prior chemotherapy."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, Karnofsky performance status, PSA level, time since definitive therapy, type of definitive therapy, histopathological Gleason score, presence of metastatic disease, prior treatments for prostate cancer.",
@@ -122,6 +125,7 @@
         "presence of metastatic disease",
         "prior treatments for prostate cancer."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Karnofsky performance status, PSA level, time since definitive therapy, type of definitive therapy, histopathological Gleason score, presence of metastatic disease, prior treatments for prostate cancer."
   }
 }

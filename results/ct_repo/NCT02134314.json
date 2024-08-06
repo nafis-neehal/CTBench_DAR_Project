@@ -49,7 +49,8 @@
         "Type of Kidney Transplant (ECD/DCD/ECD&DCD)",
         "ABO Compatibility with Donor Allograft."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Race, Donor Age, Cold Ischemia Time, Donor Cause of Death, Pretransplant Meningococcal Vaccination Status, Serum Creatinine Levels, History of Thrombosis, Coagulation Function (INR, PTT, Platelet Count), PCR Status for Hep B/Hep C/HIV, Type of Kidney Transplant (ECD/DCD/ECD&DCD), ABO Compatibility with Donor Allograft."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Donor Age, Cold Ischemia Time, Recipient Race, Donor Cause of Death, Pretransplant Meningococcal Vaccination Status, Baseline Serum Creatinine, Baseline Coagulation Function (INR, PTT, Platelet Count),",
@@ -102,7 +103,8 @@
         "Baseline Serum Creatinine",
         "Baseline Coagulation Function (INR, PTT, Platelet Count)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Donor Age, Cold Ischemia Time, Recipient Race, Donor Cause of Death, Pretransplant Meningococcal Vaccination Status, Baseline Serum Creatinine, Baseline Coagulation Function (INR, PTT, Platelet Count)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Donor Age, Cold Ischemia Time, Recipient Race, Donor Death due to Cerebrovascular Accident, Meningococcal Vaccination Status, End Stage Renal Disease Duration, Previous Transplant History, Comorbidities (e.g., Diabetes, Hypertension).",
@@ -157,7 +159,8 @@
         "Previous Transplant History",
         "Comorbidities (e.g., Diabetes, Hypertension)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Donor Age, Cold Ischemia Time, Recipient Race, Donor Death due to Cerebrovascular Accident, Meningococcal Vaccination Status, End Stage Renal Disease Duration, Previous Transplant History, Comorbidities (e.g., Diabetes, Hypertension)."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, weight, height, BMI, medical history (e.g. hypertension, diabetes), smoking status, pre-transplant serum creatinine, pre-transplant dialysis status, donor age, donor type (ECD/DCD), cold ischemia time, recipient-donor ABO compatibility, pre-transplant meningococcal vaccination status, risk index score for DGF.",
@@ -210,6 +213,7 @@
         "pre-transplant meningococcal vaccination status",
         "risk index score for DGF."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, weight, height, BMI, medical history (e.g. hypertension, diabetes), smoking status, pre-transplant serum creatinine, pre-transplant dialysis status, donor age, donor type (ECD/DCD), cold ischemia time, recipient-donor ABO compatibility, pre-transplant meningococcal vaccination status, risk index score for DGF."
   }
 }

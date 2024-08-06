@@ -41,7 +41,8 @@
         "baseline R wave measurement",
         "baseline capture threshold"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, medical history, type of cardiac implantable electronic device (CIED), duration of CIED implantation, reason for CIED removal or replacement, baseline pacing mode, baseline pacing polarity, baseline base rate, baseline max tracking rate, baseline atrio-ventricular (AV) delay, baseline battery capacity, baseline pacing impedance, baseline shock impedance, baseline P wave measurement, baseline R wave measurement, baseline capture threshold."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Cardiac Implantable Electronic Device (CIED), Reason for CIED Removal, Duration of CIED Implantation, Baseline Pacing Mode, Baseline Pacing Polarity, Baseline Base Rate, Baseline Max Tracking Rate, Baseline Atrio-ventricular (AV) Delay, Baseline Battery Capacity, Baseline Pacing Impedance, Baseline Shock Impedance, Baseline P & R Wave Measurements, Baseline Capture Threshold,",
@@ -88,7 +89,8 @@
         "Baseline P & R Wave Measurements",
         "Baseline Capture Threshold"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Cardiac Implantable Electronic Device (CIED), Reason for CIED Removal, Duration of CIED Implantation, Baseline Pacing Mode, Baseline Pacing Polarity, Baseline Base Rate, Baseline Max Tracking Rate, Baseline Atrio-ventricular (AV) Delay, Baseline Battery Capacity, Baseline Pacing Impedance, Baseline Shock Impedance, Baseline P & R Wave Measurements, Baseline Capture Threshold"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Cardiac Implantable Electronic Device (CIED), Indication for CIED removal or replacement, CIED settings at baseline,",
@@ -125,7 +127,8 @@
         "Indication for CIED removal or replacement",
         "CIED settings at baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Cardiac Implantable Electronic Device (CIED), Indication for CIED removal or replacement, CIED settings at baseline"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, weight, height, body mass index (BMI), medical history (cardiomyopathy, cardiac arrhythmia, heart failure, chronic thromboembolic pulmonary hypertension), type of pacemaker/ICD (permanent/temporary), indication for pacemaker/ICD removal or replacement, presence of comorbidities.",
@@ -163,6 +166,7 @@
         "indication for pacemaker/ICD removal or replacement",
         "presence of comorbidities."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, weight, height, body mass index (BMI), medical history (cardiomyopathy, cardiac arrhythmia, heart failure, chronic thromboembolic pulmonary hypertension), type of pacemaker/ICD (permanent/temporary), indication for pacemaker/ICD removal or replacement, presence of comorbidities."
   }
 }

@@ -64,7 +64,8 @@
         "presence of other active implanted devices",
         "presence of other CGM sensors or transmitters"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of diabetes, type of diabetes (Type 1 or Type 2), history of severe hypoglycemia, history of diabetic ketoacidosis, coronary artery disease status, hematocrit levels, hepatitis B status, hepatitis C status, HIV status, seizure disorder status, adrenal insufficiency status, current treatments (immunosuppressant therapy, chemotherapy, anticoagulant/antithrombotic therapy, glucocorticoids, antibiotics for chronic infection), MRI requirement status, allergy to topical or local anesthetics, allergy to glucocorticoids, psychiatric conditions, alcohol abuse history, drug abuse history, participation in another clinical investigation, presence of other active implanted devices, presence of other CGM sensors or transmitters."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hematocrit, History of Severe Hypoglycemia, History of Diabetic Ketoacidosis,",
@@ -123,7 +124,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hematocrit, History of Severe Hypoglycemia, History of Diabetic Ketoacidosis"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Type, Diabetes Duration, HbA1c, BMI, Hypertension Status, History of Severe Hypoglycemia, History of Diabetic Ketoacidosis, Cardiovascular Disease Status.",
@@ -180,7 +182,8 @@
         "Hypertension Status",
         "Cardiovascular Disease Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes Type, Diabetes Duration, HbA1c, BMI, Hypertension Status, History of Severe Hypoglycemia, History of Diabetic Ketoacidosis, Cardiovascular Disease Status."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, type of diabetes (type 1 or type 2), hemoglobin A1c (HbA1c), history of severe hypoglycemia, history of diabetic ketoacidosis, history of cardiovascular disease, history of seizure disorder, hematocrit, presence of comorbidities (e.g. hypertension, coronary artery disease, congestive heart failure).",
@@ -243,6 +246,7 @@
         "history of seizure disorder",
         "presence of comorbidities (e.g. hypertension, coronary artery disease, congestive heart failure)."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, type of diabetes (type 1 or type 2), hemoglobin A1c (HbA1c), history of severe hypoglycemia, history of diabetic ketoacidosis, history of cardiovascular disease, history of seizure disorder, hematocrit, presence of comorbidities (e.g. hypertension, coronary artery disease, congestive heart failure)."
   }
 }

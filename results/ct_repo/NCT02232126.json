@@ -65,7 +65,8 @@
         "self-efficacy with disease management",
         "medical service use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, primary language, living situation (community dwelling vs. assisted living/skilled care), cognitive status (SPMSQ score), number of prescription medications, recent inpatient admission or emergency department visit, primary diagnosis (heart disease, diabetes, hypertension, cancer, depression, asthma, chronic heart failure, chronic obstructive pulmonary disease, stroke), level of depression, pain level, physical functioning, self-efficacy with disease management, medical service use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Number of Prescription Medications, Previous Hospital Admissions, Previous Emergency Department Visits, Cognitive Status, Living Situation,",
@@ -128,7 +129,8 @@
         "Has Advance Directive"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Number of Prescription Medications, Previous Hospital Admissions, Previous Emergency Department Visits, Cognitive Status, Living Situation"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Marital Status, Living Arrangement, Education Level, Insurance Status, Number of Prescription Medications, Comorbidities (Heart Disease, Diabetes, Hypertension, Cancer, Depression, Asthma, Chronic Heart Failure, Chronic Obstructive Pulmonary Disease, Stroke), Cognitive Function (SPMSQ Score), Prior Hospital Admissions/ED Visits.",
@@ -196,7 +198,8 @@
         "Insurance Status",
         "Comorbidities (Heart Disease, Diabetes, Hypertension, Cancer, Depression, Asthma, Chronic Heart Failure, Chronic Obstructive Pulmonary Disease, Stroke)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Marital Status, Living Arrangement, Education Level, Insurance Status, Number of Prescription Medications, Comorbidities (Heart Disease, Diabetes, Hypertension, Cancer, Depression, Asthma, Chronic Heart Failure, Chronic Obstructive Pulmonary Disease, Stroke), Cognitive Function (SPMSQ Score), Prior Hospital Admissions/ED Visits."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, education level, marital status, living arrangement, cognitive function (SPMSQ score), number of prescription medications, number of inpatient admissions or emergency department visits in previous 6 months, presence of chronic conditions (heart disease, diabetes, hypertension, cancer, depression, asthma, chronic heart failure, chronic obstructive pulmonary disease, stroke), baseline depression level, baseline pain level, baseline physical functioning, baseline self-efficacy with disease management.",
@@ -270,6 +273,7 @@
         "ethnicity",
         "baseline self-efficacy with disease management."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, education level, marital status, living arrangement, cognitive function (SPMSQ score), number of prescription medications, number of inpatient admissions or emergency department visits in previous 6 months, presence of chronic conditions (heart disease, diabetes, hypertension, cancer, depression, asthma, chronic heart failure, chronic obstructive pulmonary disease, stroke), baseline depression level, baseline pain level, baseline physical functioning, baseline self-efficacy with disease management."
   }
 }

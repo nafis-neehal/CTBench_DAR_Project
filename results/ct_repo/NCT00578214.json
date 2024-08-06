@@ -47,7 +47,8 @@
         "Pregnancy Status",
         "Breastfeeding Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Weight, Baseline Anxiety Score, Blood Pressure, Heart Rate, Type of Skin Cancer (Basal Cell Carcinoma or Squamous Cell Carcinoma), Number of Cancer Sites, Tumor Size, History of Oral Midazolam Use, History of Allergies to Benzodiazepines, History of Congestive Heart Failure, Renal Function, Liver Function, Alcohol Use, Glaucoma Status, Hypertension Status, History of Psychoses or Affective Disorders, Neuromuscular Disorders, Chronic Obstructive Pulmonary Disease, Medication Use, Pregnancy Status, Breastfeeding Status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Anxiety Score, Heart Rate, Blood Pressure, Weight, Number of Cancer Sites, Type of Skin Cancer,",
@@ -85,7 +86,8 @@
         "Blood Pressure",
         "Number of Cancer Sites"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Anxiety Score, Heart Rate, Blood Pressure, Weight, Number of Cancer Sites, Type of Skin Cancer"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Weight, Body Mass Index, History of Anxiety, History of Skin Cancer, History of Psychoses or Affective Disorders, History of Neuromuscular Disorders, History of Chronic Obstructive Pulmonary Disease, History of Uncontrolled Hypertension, History of Congestive Heart Failure, History of Renal Failure, History of End-Stage Liver Failure, History of Chronic Alcoholism.",
@@ -131,7 +133,8 @@
         "History of End-Stage Liver Failure",
         "History of Chronic Alcoholism"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Weight, Body Mass Index, History of Anxiety, History of Skin Cancer, History of Psychoses or Affective Disorders, History of Neuromuscular Disorders, History of Chronic Obstructive Pulmonary Disease, History of Uncontrolled Hypertension, History of Congestive Heart Failure, History of Renal Failure, History of End-Stage Liver Failure, History of Chronic Alcoholism."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, weight, height, body mass index (BMI), race, ethnicity, medical history (including history of anxiety, skin cancer, and other relevant conditions), current medications, smoking status, alcohol consumption, history of substance abuse, prior surgical history, American Society of Anesthesiologists (ASA) physical status classification, tumor size and location, number of tumors, prior history of oral midazolam use.",
@@ -173,6 +176,7 @@
         "number of tumors",
         "prior history of oral midazolam use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, weight, height, body mass index (BMI), race, ethnicity, medical history (including history of anxiety, skin cancer, and other relevant conditions), current medications, smoking status, alcohol consumption, history of substance abuse, prior surgical history, American Society of Anesthesiologists (ASA) physical status classification, tumor size and location, number of tumors, prior history of oral midazolam use."
   }
 }

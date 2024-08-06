@@ -43,7 +43,8 @@
         "history of malignant disease",
         "body mass index (BMI)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline hemoglobin level, duration of hemodialysis, spKt/V, urea reduction rate (URR), serum ferritin level, transferrin saturation, blood pressure (systolic and diastolic), serum parathyroid hormone (iPTH) level, platelet count, white blood cell count, C-reactive protein (CRP) level, history of cardiac disease, history of blood coagulation disorders, history of recent bleeding, history of systemic infection or inflammatory disease, use of immunosuppressive therapy, history of malignant disease, body mass index (BMI)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemoglobin level, Duration of hemodialysis, Serum ferritin, Transferrin saturation, Blood pressure, Parathyroid hormone (iPTH), Platelet count, White blood cell count, Body Mass Index,",
@@ -87,7 +88,8 @@
         "White blood cell count",
         "Body Mass Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Hemoglobin level, Duration of hemodialysis, Serum ferritin, Transferrin saturation, Blood pressure, Parathyroid hormone (iPTH), Platelet count, White blood cell count, Body Mass Index"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hemoglobin, Serum Ferritin, Transferrin Saturation, Systolic Blood Pressure, Diastolic Blood Pressure, History of Cardiovascular Disease, History of Hypertension, History of Hyperparathyroidism, History of Liver Disease, History of Malignancy.",
@@ -133,7 +135,8 @@
         "History of Liver Disease",
         "History of Malignancy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Hemoglobin, Serum Ferritin, Transferrin Saturation, Systolic Blood Pressure, Diastolic Blood Pressure, History of Cardiovascular Disease, History of Hypertension, History of Hyperparathyroidism, History of Liver Disease, History of Malignancy."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, weight, height, BMI, duration of ESRD, duration of hemodialysis, Hb level, serum ferritin, transferrin saturation, spKt/V, urea reduction rate, iron supplementation, comorbidities (e.g. hypertension, hyperparathyroidism, heart failure), concomitant medications, previous erythropoietin therapy.",
@@ -176,6 +179,7 @@
         "concomitant medications",
         "previous erythropoietin therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, weight, height, BMI, duration of ESRD, duration of hemodialysis, Hb level, serum ferritin, transferrin saturation, spKt/V, urea reduction rate, iron supplementation, comorbidities (e.g. hypertension, hyperparathyroidism, heart failure), concomitant medications, previous erythropoietin therapy."
   }
 }

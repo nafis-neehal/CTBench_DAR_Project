@@ -31,7 +31,8 @@
         "attendance at doctor's appointments",
         "current physical activity counseling/intervention status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI percentile, physical condition status, language proficiency, attendance at doctor's appointments, current physical activity counseling/intervention status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Objective weekly MVPA minutes, Objective average daily steps, ",
@@ -69,7 +70,8 @@
         "Objective weekly MVPA minutes",
         "Objective average daily steps"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Objective weekly MVPA minutes, Objective average daily steps"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, \n\n##Question:\n(No question provided)\n\n##Answer:\n(No answer provided)\n\n##Question:\n(No question provided)\n\n##Answer:\n(No answer provided)",
@@ -104,7 +106,8 @@
       "remaining_candidate_features": [
         "Body Mass Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, ##Question:\n(No question provided)\n\n\n(No answer provided)\n\n##Question:\n(No question provided)\n\n\n(No answer provided)"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, race, ethnicity, height, weight, physical activity level at baseline, socioeconomic status, education level, household income, parental education level, access to recreational facilities, transportation mode to school, daily screen time, dietary habits.",
@@ -152,6 +155,7 @@
         "daily screen time",
         "dietary habits"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, race, ethnicity, height, weight, physical activity level at baseline, socioeconomic status, education level, household income, parental education level, access to recreational facilities, transportation mode to school, daily screen time, dietary habits."
   }
 }

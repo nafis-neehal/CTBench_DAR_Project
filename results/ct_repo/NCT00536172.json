@@ -48,7 +48,8 @@
         "medication use",
         "body mass index (BMI)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, cancer stage, type of head and neck cancer, baseline depression score, previous cancer treatments, smoking status, alcohol use, marital status, education level, employment status, comorbidities, medication use, body mass index (BMI)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Stage, Type of Cancer Treatment, Baseline Depression Score, Use of Antidepressants, ",
@@ -93,7 +94,8 @@
         "Baseline Depression Score",
         "Use of Antidepressants"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Stage, Type of Cancer Treatment, Baseline Depression Score, Use of Antidepressants"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Diagnosis, Cancer Stage, Treatment Type, History of Depression, Family History of Depression,",
@@ -139,7 +141,8 @@
         "History of Depression",
         "Family History of Depression"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Diagnosis, Cancer Stage, Treatment Type, History of Depression, Family History of Depression"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, education level, marital status, employment status, smoking status, alcohol use, body mass index (BMI), cancer stage, cancer site, treatment type, prior depression history, prior antidepressant use, prior cancer treatment, QIDS-SR-16 score at baseline.",
@@ -192,6 +195,7 @@
         "prior cancer treatment",
         "QIDS-SR-16 score at baseline."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, education level, marital status, employment status, smoking status, alcohol use, body mass index (BMI), cancer stage, cancer site, treatment type, prior depression history, prior antidepressant use, prior cancer treatment, QIDS-SR-16 score at baseline."
   }
 }

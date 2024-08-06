@@ -43,7 +43,8 @@
         "smoking status",
         "alcohol consumption"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), duration of type 2 diabetes, baseline HbA1c, prior diabetes medication regimen, ethnicity, baseline fasting plasma glucose, baseline postprandial glucose, baseline blood pressure, baseline lipid profile (total cholesterol, LDL, HDL, triglycerides), baseline renal function (serum creatinine, eGFR), baseline liver function tests (ALT, AST), baseline weight, smoking status, alcohol consumption."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Prior Diabetes Medications, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Weight,",
@@ -86,7 +87,8 @@
         "Diastolic Blood Pressure",
         "Fasting Plasma Glucose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Prior Diabetes Medications, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Weight"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Diabetes duration, Previous treatment with oral antidiabetic drugs, Systolic Blood Pressure, Diastolic Blood Pressure.",
@@ -125,7 +127,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, HbA1c, Diabetes duration, Previous treatment with oral antidiabetic drugs, Systolic Blood Pressure, Diastolic Blood Pressure."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at baseline, fasting plasma glucose at baseline, systolic blood pressure, diastolic blood pressure, heart rate, history of hypertension, history of cardiovascular disease, history of microvascular complications, current medications, smoking status.",
@@ -167,6 +170,7 @@
         "history of microvascular complications",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at baseline, fasting plasma glucose at baseline, systolic blood pressure, diastolic blood pressure, heart rate, history of hypertension, history of cardiovascular disease, history of microvascular complications, current medications, smoking status."
   }
 }

@@ -48,7 +48,8 @@
         "duration of disease",
         "prior treatments received"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, ECOG performance status, prior lines of therapy, disease stage, CD30 expression level, histological subtype, measurable disease size, duration of disease, prior treatments received."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Histological subtype of NHL, Number of prior systemic therapies, Measurable disease size,",
@@ -90,7 +91,8 @@
         "Number of prior systemic therapies",
         "Measurable disease size"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Histological subtype of NHL, Number of prior systemic therapies, Measurable disease size"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological subtype of NHL, Number of prior systemic therapies, Time since last therapy, Presence of B symptoms, Ann Arbor stage, LDH level, Bone marrow involvement, Extranodal involvement, CD30 expression level.",
@@ -143,7 +145,8 @@
         "Bone marrow involvement",
         "Extranodal involvement"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Histological subtype of NHL, Number of prior systemic therapies, Time since last therapy, Presence of B symptoms, Ann Arbor stage, LDH level, Bone marrow involvement, Extranodal involvement, CD30 expression level."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, histological subtype of NHL, number of prior systemic therapies, time since last therapy, presence of B symptoms, lactate dehydrogenase (LDH) level, beta-2 microglobulin level, CD30 expression level, bulky disease status, presence of extranodal involvement.",
@@ -197,6 +200,7 @@
         "beta-2 microglobulin level",
         "presence of extranodal involvement"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, histological subtype of NHL, number of prior systemic therapies, time since last therapy, presence of B symptoms, lactate dehydrogenase (LDH) level, beta-2 microglobulin level, CD30 expression level, bulky disease status, presence of extranodal involvement."
   }
 }

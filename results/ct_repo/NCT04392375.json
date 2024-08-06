@@ -48,7 +48,8 @@
         "body mass index (BMI)",
         "parity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gestational age, number of fetuses (single or twin), baseline systolic blood pressure, baseline diastolic blood pressure, history of preeclampsia, prior antihypertensive treatment, race/ethnicity, body mass index (BMI), parity, smoking status, presence of comorbidities (e.g., diabetes, chronic hypertension)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Gestational Age, Continuous, Parity, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Number of Fetuses, Prior Preeclampsia,",
@@ -94,7 +95,8 @@
         "Diastolic Blood Pressure",
         "Prior Preeclampsia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gestational Age, Parity, Race/Ethnicity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Number of Fetuses, Prior Preeclampsia"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gestational Age, Nulliparity, Parity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Proteinuria, Twin Gestation.",
@@ -138,7 +140,8 @@
         "Diastolic Blood Pressure",
         "Proteinuria"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gestational Age, Nulliparity, Parity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Proteinuria, Twin Gestation."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, gestational age, parity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, proteinuria level, presence of HELLP syndrome, presence of fetal growth restriction, presence of oligohydramnios, presence of placenta previa, presence of abruption, number of previous pregnancies, number of previous cesarean sections, presence of chronic hypertension, presence of diabetes, presence of kidney disease.",
@@ -200,6 +203,7 @@
         "number of previous cesarean sections",
         "presence of kidney disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, gestational age, parity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, proteinuria level, presence of HELLP syndrome, presence of fetal growth restriction, presence of oligohydramnios, presence of placenta previa, presence of abruption, number of previous pregnancies, number of previous cesarean sections, presence of chronic hypertension, presence of diabetes, presence of kidney disease."
   }
 }

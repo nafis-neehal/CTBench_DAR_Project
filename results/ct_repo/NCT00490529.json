@@ -44,7 +44,8 @@
         "Medical history",
         "Psychological status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, ECOG Performance Status, Karnofsky Performance Scale, HIV status, Disease stage, Prior treatments, Peripheral blood tumor count, Medical history, Psychological status, Pregnancy status"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, ECOG Performance Status, Karnofsky Performance Scale, HIV Status, Prior Chemotherapy, Prior Rituximab Therapy, Tumor Burden,",
@@ -86,7 +87,8 @@
         "Prior Rituximab Therapy",
         "Tumor Burden"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Karnofsky Performance Scale, HIV Status, Prior Chemotherapy, Prior Rituximab Therapy, Tumor Burden"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Karnofsky Performance Scale, HIV Status, Lymphoma Stage, Lymphoma Cell Count, Prior Chemotherapy, Prior Rituximab Treatment,",
@@ -124,7 +126,8 @@
         "Prior Chemotherapy",
         "Prior Rituximab Treatment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Karnofsky Performance Scale, HIV Status, Lymphoma Stage, Lymphoma Cell Count, Prior Chemotherapy, Prior Rituximab Treatment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ECOG Performance Status, Karnofsky performance scale, HIV status, disease stage, prior therapy, time since diagnosis, lymphoma cell count, peripheral blood tumor cell count, rituximab treatment history, chemotherapy treatment history, autologous hematopoietic cell transplant (AHCT) history, comorbidities, performance status at diagnosis.",
@@ -170,6 +173,7 @@
         "comorbidities",
         "performance status at diagnosis."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ECOG Performance Status, Karnofsky performance scale, HIV status, disease stage, prior therapy, time since diagnosis, lymphoma cell count, peripheral blood tumor cell count, rituximab treatment history, chemotherapy treatment history, autologous hematopoietic cell transplant (AHCT) history, comorbidities, performance status at diagnosis."
   }
 }

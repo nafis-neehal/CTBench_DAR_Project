@@ -33,7 +33,8 @@
         "ability to read and write in English",
         "caregiver status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, stage of chronic kidney disease, baseline Kidney Disease Quality of Life-36 Score, baseline Zarit Caregiver Burden Interview (ZBI) Score, education level, access to computer with internet, ability to read and write in English, caregiver status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Stage of Chronic Kidney Disease, Baseline Kidney Disease Quality of Life-36 Score, Baseline Zarit Caregiver Burden Interview (ZBI) Score, Access to Computer with Internet and Email Capability,",
@@ -67,7 +68,8 @@
         "Baseline Zarit Caregiver Burden Interview (ZBI) Score",
         "Access to Computer with Internet and Email Capability"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Stage of Chronic Kidney Disease, Baseline Kidney Disease Quality of Life-36 Score, Baseline Zarit Caregiver Burden Interview (ZBI) Score, Access to Computer with Internet and Email Capability"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, CKD stage, Comorbidities, Dialysis status, Time since CKD diagnosis, Caregiver relationship to patient, Caregiver age, Caregiver sex, Caregiver employment status, Caregiver education level.",
@@ -106,7 +108,8 @@
         "Caregiver employment status",
         "Caregiver education level."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, CKD stage, Comorbidities, Dialysis status, Time since CKD diagnosis, Caregiver relationship to patient, Caregiver age, Caregiver sex, Caregiver employment status, Caregiver education level."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, education level, marital status, employment status, income level, CKD stage, comorbidities, duration of CKD diagnosis, current treatment regimen, caregiver relationship to patient (if applicable).",
@@ -152,6 +155,7 @@
         "current treatment regimen",
         "caregiver relationship to patient (if applicable)"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, education level, marital status, employment status, income level, CKD stage, comorbidities, duration of CKD diagnosis, current treatment regimen, caregiver relationship to patient (if applicable)."
   }
 }

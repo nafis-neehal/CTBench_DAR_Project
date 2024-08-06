@@ -46,7 +46,8 @@
         "Contraception use",
         "Written informed consent"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Disease subtype (DLBCL, FL, MZL), Disease status (relapsed or refractory), Prior treatments received, Platelet count, Absolute neutrophil count, Hemoglobin level, Total bilirubin level, Aspartate aminotransferase level, Alanine transaminase level, Creatinine clearance, International normalized ratio, Activated partial thromboplastin time, Left ventricular ejection fraction, Eastern Cooperative Oncology Group performance status, Life expectancy, Contraception use, Written informed consent."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Histological Subtype, Disease Stage, Prior Treatments, Platelet Count, Absolute Neutrophil Count, Hemoglobin, Total Bilirubin, Aspartate Aminotransferase, Alanine Transaminase, Creatinine Clearance, International Normalized Ratio, Activated Partial Thromboplastin Time, Left Ventricular Ejection Fraction, Eastern Cooperative Oncology Group Performance Status, Life Expectancy,",
@@ -96,7 +97,8 @@
         "Left Ventricular Ejection Fraction",
         "Life Expectancy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Histological Subtype, Disease Stage, Prior Treatments, Platelet Count, Absolute Neutrophil Count, Hemoglobin, Total Bilirubin, Aspartate Aminotransferase, Alanine Transaminase, Creatinine Clearance, International Normalized Ratio, Activated Partial Thromboplastin Time, Left Ventricular Ejection Fraction, Eastern Cooperative Oncology Group Performance Status, Life Expectancy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Eastern Cooperative Oncology Group (ECOG) Performance Status, Histological subtype, Number of prior therapies, Time since last therapy, Baseline ECOG performance status, Baseline laboratory values (hemoglobin, platelet count, absolute neutrophil count), Left ventricular ejection fraction, Creatinine clearance.",
@@ -138,7 +140,8 @@
         "Left ventricular ejection fraction",
         "Creatinine clearance"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Eastern Cooperative Oncology Group (ECOG) Performance Status, Histological subtype, Number of prior therapies, Time since last therapy, Baseline ECOG performance status, Baseline laboratory values (hemoglobin, platelet count, absolute neutrophil count), Left ventricular ejection fraction, Creatinine clearance."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index, Eastern Cooperative Oncology Group performance status, left ventricular ejection fraction, laboratory parameters (hematologic, hepatic, renal), histological subtype of lymphoma, number of prior therapies, time since diagnosis, time since last therapy.",
@@ -181,6 +184,7 @@
         "time since diagnosis",
         "time since last therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index, Eastern Cooperative Oncology Group performance status, left ventricular ejection fraction, laboratory parameters (hematologic, hepatic, renal), histological subtype of lymphoma, number of prior therapies, time since diagnosis, time since last therapy."
   }
 }

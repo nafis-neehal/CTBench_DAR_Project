@@ -79,7 +79,8 @@
         "calcitonin levels",
         "pregnancy status in females of childbearing potential"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), duration of type 2 diabetes mellitus, baseline HbA1c, baseline fasting plasma glucose (FPG), baseline body weight, insulin levels, C-peptide levels, glucagon levels, proinsulin levels, homeostatic model assessment of insulin resistance (HOMA-IR), homeostatic model assessment of beta-cell function (HOMA-beta), blood pressure, history of myocardial infarction, history of stroke, history of heart failure, history of pancreatitis, history of metabolic acidosis, hemoglobin levels, neutrophil count, platelet count, liver function tests (ALT, total bilirubin), renal function (creatinine clearance), history of gastrointestinal disease, history of drug or alcohol abuse, presence of diabetic retinopathy or macular edema, presence of hepatitis B or C, calcitonin levels, pregnancy status in females of childbearing potential."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Fasting Plasma Glucose, Insulin, C-peptide, Glucagon, Proinsulin, HOMA-IR, HOMA-beta, Blood Pressure, Total Cholesterol, Triglycerides, Duration of Diabetes,",
@@ -151,7 +152,8 @@
         "Total Cholesterol",
         "Triglycerides"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Fasting Plasma Glucose, Insulin, C-peptide, Glucagon, Proinsulin, HOMA-IR, HOMA-beta, Blood Pressure, Total Cholesterol, Triglycerides, Duration of Diabetes"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Diabetes Duration, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Insulin Resistance, Beta Cell Function.",
@@ -215,7 +217,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, Region of Enrollment, Diabetes Duration, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Insulin Resistance, Beta Cell Function."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, body mass index (BMI), type 2 diabetes mellitus duration, metformin dose, glycosylated hemoglobin (HbA1c) level, fasting plasma glucose (FPG) level, systolic and diastolic blood pressure, weight, height, ethnicity, smoking status.",
@@ -277,6 +280,7 @@
         "height",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, body mass index (BMI), type 2 diabetes mellitus duration, metformin dose, glycosylated hemoglobin (HbA1c) level, fasting plasma glucose (FPG) level, systolic and diastolic blood pressure, weight, height, ethnicity, smoking status."
   }
 }

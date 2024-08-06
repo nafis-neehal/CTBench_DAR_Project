@@ -38,7 +38,8 @@
         "Type of esophageal cancer (adenocarcinoma, squamous cell carcinoma)",
         "Scheduled procedure (upper endoscopy, surgical esophagectomy)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Race/Ethnicity, ECOG performance status, History of Barrett's esophagus, History of low or high grade dysplasia, History of gastroesophageal reflux disease (GERD), History of esophagitis, Symptoms of esophageal cancer (e.g., dysphagia, weight loss), Type of esophageal cancer (adenocarcinoma, squamous cell carcinoma), Scheduled procedure (upper endoscopy, surgical esophagectomy)"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of Barrett's Esophagus, History of Dysplasia, History of GERD, History of Esophagitis, Symptoms of Esophageal Cancer, ECOG Performance Status,",
@@ -81,7 +82,8 @@
         "Symptoms of Esophageal Cancer",
         "ECOG Performance Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, History of Barrett's Esophagus, History of Dysplasia, History of GERD, History of Esophagitis, Symptoms of Esophageal Cancer, ECOG Performance Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, History of Barrett's esophagus, History of low or high grade dysplasia, History of gastroesophageal reflux disease, History of esophagitis, Symptoms of esophageal cancer, ECOG performance status.",
@@ -127,7 +129,8 @@
         "Symptoms of esophageal cancer",
         "ECOG performance status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, History of Barrett's esophagus, History of low or high grade dysplasia, History of gastroesophageal reflux disease, History of esophagitis, Symptoms of esophageal cancer, ECOG performance status."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, history of Barrett's esophagus, history of low or high grade dysplasia, history of gastroesophageal reflux disease (GERD), history of esophagitis, symptoms of esophageal cancer (EC), ECOG performance status, Karnofsky performance status.",
@@ -170,6 +173,7 @@
         "ECOG performance status",
         "Karnofsky performance status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, history of Barrett's esophagus, history of low or high grade dysplasia, history of gastroesophageal reflux disease (GERD), history of esophagitis, symptoms of esophageal cancer (EC), ECOG performance status, Karnofsky performance status."
   }
 }

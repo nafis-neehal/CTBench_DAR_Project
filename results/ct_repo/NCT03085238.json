@@ -61,7 +61,8 @@
         "hypersensitivity to medications",
         "concurrent use of antineoplastic agents."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, stage of ovarian cancer, type of carcinoma, residual tumor size after surgery, prior chemotherapy cycles, prior radiotherapy, concurrent medical illnesses, presence of metastases, history of other cancers, hypersensitivity to medications, concurrent use of antineoplastic agents."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, ECOG performance status, Residual tumor size post-surgery, Prior chemotherapy cycles, Histological subtype, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -112,7 +113,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, ECOG performance status, Residual tumor size post-surgery, Prior chemotherapy cycles, Histological subtype, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, ECOG Performance Status, Histological Type of Ovarian Cancer, Residual Tumor Size, Number of Cycles of Neoadjuvant Chemotherapy, Prior Surgery Type,",
@@ -155,7 +157,8 @@
         "Residual Tumor Size",
         "Number of Cycles of Neoadjuvant Chemotherapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, ECOG Performance Status, Histological Type of Ovarian Cancer, Residual Tumor Size, Number of Cycles of Neoadjuvant Chemotherapy, Prior Surgery Type"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, ECOG performance status, Ovarian cancer stage, Histological subtype (high-grade serous carcinoma), Residual tumor size, Number of prior chemotherapy cycles, Type of debulking surgery (primary or interval), Presence of visible residual tumor, Prior abdominal and/or pelvic radiotherapy, Presence of central nervous system or cerebral metastases, History of cancer within 5 years, Presence of concurrent medical illnesses.",
@@ -205,6 +208,7 @@
         "History of cancer within 5 years",
         "Presence of concurrent medical illnesses."
       ]
-    }
+    },
+    "processed-gen-response": "Age, ECOG performance status, Ovarian cancer stage, Histological subtype (high-grade serous carcinoma), Residual tumor size, Number of prior chemotherapy cycles, Type of debulking surgery (primary or interval), Presence of visible residual tumor, Prior abdominal and/or pelvic radiotherapy, Presence of central nervous system or cerebral metastases, History of cancer within 5 years, Presence of concurrent medical illnesses."
   }
 }

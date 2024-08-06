@@ -56,7 +56,8 @@
         "primary care visits",
         "subspecialty care visits"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, baseline eGFR, baseline albumin/creatinine ratio, baseline urine protein creatinine ratio, baseline random blood glucose, baseline hemoglobin A1C, use of hypoglycemic agents, systolic blood pressure, diastolic blood pressure, use of antihypertensive agents, comorbidities, medication use, prior hospitalizations, prior emergency room visits, primary care visits, subspecialty care visits."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Estimated Glomerular Filtration Rate (eGFR), Albumin/Creatinine Ratio, Urine Protein Creatinine Ratio, Random Blood Glucose, Hemoglobin A1C, Use of Hypoglycemic Agents, Systolic Blood Pressure, Diastolic Blood Pressure, Use of Antihypertensive Agents,",
@@ -108,7 +109,8 @@
         "Diastolic Blood Pressure",
         "Use of Antihypertensive Agents"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Estimated Glomerular Filtration Rate (eGFR), Albumin/Creatinine Ratio, Urine Protein Creatinine Ratio, Random Blood Glucose, Hemoglobin A1C, Use of Hypoglycemic Agents, Systolic Blood Pressure, Diastolic Blood Pressure, Use of Antihypertensive Agents"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin A1C, Estimated Glomerular Filtration Rate, Albuminuria/Proteinuria, Diabetes Duration, Hypertension Duration, Chronic Kidney Disease Duration, Cardiovascular Disease History, Medication Use.",
@@ -164,7 +166,8 @@
         "Cardiovascular Disease History",
         "Medication Use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin A1C, Estimated Glomerular Filtration Rate, Albuminuria/Proteinuria, Diabetes Duration, Hypertension Duration, Chronic Kidney Disease Duration, Cardiovascular Disease History, Medication Use."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, systolic and diastolic blood pressure, hemoglobin A1C, estimated glomerular filtration rate (eGFR), albumin/creatinine ratio, urine protein creatinine ratio, random blood glucose, use of hypoglycemic agents, use of antihypertensive agents, comorbidities (e.g., cardiovascular disease, heart failure), medication lists, healthcare utilization (e.g., hospitalizations, emergency room visits, outpatient visits), insurance status, socioeconomic status, education level, marital status.",
@@ -225,6 +228,7 @@
         "education level",
         "marital status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, systolic and diastolic blood pressure, hemoglobin A1C, estimated glomerular filtration rate (eGFR), albumin/creatinine ratio, urine protein creatinine ratio, random blood glucose, use of hypoglycemic agents, use of antihypertensive agents, comorbidities (e.g., cardiovascular disease, heart failure), medication lists, healthcare utilization (e.g., hospitalizations, emergency room visits, outpatient visits), insurance status, socioeconomic status, education level, marital status."
   }
 }

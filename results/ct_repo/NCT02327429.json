@@ -29,7 +29,8 @@
         "ability to read and write Chinese or English",
         "presence of severe gastrointestinal or renal problems."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline hemoglobin A1C, treatment type (lifestyle, oral hypoglycemic medications, insulin), duration of diabetes, ability to read and write Chinese or English, presence of severe gastrointestinal or renal problems."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Ethnicity, Body Mass Index, Baseline Hemoglobin A1C, Duration of Diabetes, Type of Diabetes Treatment, Dietary Intake (Energy, Carbohydrate, Protein, Total Fat, Saturated Fat, Dietary Fibre, Added Sucrose, Sodium, Calcium, Cholesterol),",
@@ -65,7 +66,8 @@
         "Type of Diabetes Treatment",
         "Dietary Intake (Energy, Carbohydrate, Protein, Total Fat, Saturated Fat, Dietary Fibre, Added Sucrose, Sodium, Calcium, Cholesterol)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Ethnicity, Body Mass Index, Baseline Hemoglobin A1C, Duration of Diabetes, Type of Diabetes Treatment, Dietary Intake (Energy, Carbohydrate, Protein, Total Fat, Saturated Fat, Dietary Fibre, Added Sucrose, Sodium, Calcium, Cholesterol)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Ethnicity (Chinese), Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol,",
@@ -108,7 +110,8 @@
         "HDL Cholesterol",
         "LDL Cholesterol"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Ethnicity (Chinese), Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ethnicity, body mass index (BMI), duration of diabetes, type of diabetes treatment, hemoglobin A1C, systolic blood pressure, diastolic blood pressure, smoking status, education level, occupation, marital status.",
@@ -144,6 +147,7 @@
         "occupation",
         "marital status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ethnicity, body mass index (BMI), duration of diabetes, type of diabetes treatment, hemoglobin A1C, systolic blood pressure, diastolic blood pressure, smoking status, education level, occupation, marital status."
   }
 }

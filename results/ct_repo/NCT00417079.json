@@ -35,7 +35,8 @@
         "history of other malignancies",
         "concurrent medical conditions."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race/ethnicity, ECOG performance status, prior Taxotere\u00ae dose, prior treatments (surgery, radiation, chemotherapy), PSA levels, presence of visceral or soft tissue metastatic lesions, life expectancy, organ function (laboratory results), history of other malignancies, concurrent medical conditions."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, PSA levels, Previous Taxotere treatment, Extent of disease progression, Prior radiotherapy, Life expectancy,",
@@ -73,7 +74,8 @@
         "Prior radiotherapy",
         "Life expectancy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, ECOG performance status, PSA levels, Previous Taxotere treatment, Extent of disease progression, Prior radiotherapy, Life expectancy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Male, ECOG Performance Status, Prior Taxotere-containing regimen, Prior hormone therapy, PSA level, Number of metastatic lesions, Life expectancy,",
@@ -107,7 +109,8 @@
         "Prior hormone therapy",
         "Life expectancy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, ECOG Performance Status, Prior Taxotere-containing regimen, Prior hormone therapy, PSA level, Number of metastatic lesions, Life expectancy"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, ECOG performance status, life expectancy, prostate cancer history (duration, Gleason score, prior treatments), PSA levels, number and location of metastatic lesions, prior Taxotere dose and duration, surgical or hormone-induced castration status, comorbidities, laboratory results (hematology, biochemistry, liver and kidney function).",
@@ -143,6 +146,7 @@
         "comorbidities",
         "laboratory results (hematology, biochemistry, liver and kidney function)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, ECOG performance status, life expectancy, prostate cancer history (duration, Gleason score, prior treatments), PSA levels, number and location of metastatic lesions, prior Taxotere dose and duration, surgical or hormone-induced castration status, comorbidities, laboratory results (hematology, biochemistry, liver and kidney function)."
   }
 }

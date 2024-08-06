@@ -40,7 +40,8 @@
         "Total daily insulin dose",
         "Thyroid replacement therapy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Tanner stage, Weight, Hemoglobin A1C, Total daily insulin dose, BMI, Thyroid replacement therapy status"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Tanner Stage, Weight, Hemoglobin A1C, Total Daily Insulin Dose, Body Mass Index, Insulin Program Type,",
@@ -84,7 +85,8 @@
         "Total Daily Insulin Dose",
         "Insulin Program Type"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Tanner Stage, Weight, Hemoglobin A1C, Total Daily Insulin Dose, Body Mass Index, Insulin Program Type"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Tanner Stage, Body Mass Index, HbA1c, Total Daily Insulin Dose, Insulin Program, Diabetes Duration,",
@@ -128,7 +130,8 @@
         "Total Daily Insulin Dose",
         "Insulin Program"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Tanner Stage, Body Mass Index, HbA1c, Total Daily Insulin Dose, Insulin Program, Diabetes Duration"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, Tanner stage, weight, BMI, hemoglobin A1C, total daily insulin dose, type of insulin program, duration of type 1 diabetes, presence of thyroid replacement therapy.",
@@ -173,6 +176,7 @@
         "type of insulin program",
         "presence of thyroid replacement therapy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, Tanner stage, weight, BMI, hemoglobin A1C, total daily insulin dose, type of insulin program, duration of type 1 diabetes, presence of thyroid replacement therapy."
   }
 }

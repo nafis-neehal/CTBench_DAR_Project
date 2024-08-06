@@ -47,7 +47,8 @@
         "internet access",
         "outpatient status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, type of diabetes (Type 1 or Type 2), duration of diabetes, HbA1c level at baseline, BMI, presence of lipohypertrophy, daily insulin dose, frequency of hypoglycemic events, quality of life score, internet access, outpatient status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Duration of Diabetes, Type of Diabetes (Type 1 or Type 2), Baseline HbA1c, Insulin Total Daily Dose (TDD), Presence of Lipohypertrophy, Frequency of Hypoglycemic Events, Quality of Life (QoL) Scores,",
@@ -101,7 +102,8 @@
         "Frequency of Hypoglycemic Events",
         "Quality of Life (QoL) Scores"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Duration of Diabetes, Type of Diabetes (Type 1 or Type 2), Baseline HbA1c, Insulin Total Daily Dose (TDD), Presence of Lipohypertrophy, Frequency of Hypoglycemic Events, Quality of Life (QoL) Scores"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Diabetes Type, BMI, HbA1c, Insulin Total Daily Dose, Lipohypertrophy Status, Duration of Diabetes, Quality of Life Score,",
@@ -150,7 +152,8 @@
         "Duration of Diabetes",
         "Quality of Life Score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes Type, BMI, HbA1c, Insulin Total Daily Dose, Lipohypertrophy Status, Duration of Diabetes, Quality of Life Score"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, diabetes type (Type 1 or Type 2), duration of diabetes, duration of insulin therapy, HbA1c at baseline, insulin Total Daily Dose (TDD) at baseline, presence of lipohypertrophy, quality of life (QoL) at baseline.",
@@ -199,6 +202,7 @@
         "insulin Total Daily Dose (TDD) at baseline",
         "quality of life (QoL) at baseline."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, diabetes type (Type 1 or Type 2), duration of diabetes, duration of insulin therapy, HbA1c at baseline, insulin Total Daily Dose (TDD) at baseline, presence of lipohypertrophy, quality of life (QoL) at baseline."
   }
 }

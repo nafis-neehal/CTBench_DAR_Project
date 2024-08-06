@@ -40,7 +40,8 @@
         "baseline health-related quality of life",
         "caregiver availability"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, baseline blood pressure, history of hypertension, stroke severity, modified Rankin scale score, comorbid conditions, medication use, smoking status, alcohol use, socioeconomic status, education level, baseline health-related quality of life, caregiver availability."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Blood Pressure, Stroke Severity, Modified Rankin Scale, History of Hypertension, Medication Adherence,",
@@ -80,7 +81,8 @@
         "History of Hypertension",
         "Medication Adherence"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Blood Pressure, Stroke Severity, Modified Rankin Scale, History of Hypertension, Medication Adherence"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of hypertension, Modified Rankin scale, Systolic Blood Pressure, Diastolic Blood Pressure, Stroke severity, Caregiver involvement,",
@@ -122,7 +124,8 @@
         "Stroke severity",
         "Caregiver involvement"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, History of hypertension, Modified Rankin scale, Systolic Blood Pressure, Diastolic Blood Pressure, Stroke severity, Caregiver involvement"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, stroke type (ischemic or hemorrhagic), stroke severity (modified Rankin scale), hypertension duration, blood pressure at enrollment, comorbidities (diabetes, heart disease, etc.), medication use (antihypertensives, etc.), cognitive function, caregiver status, education level, income level, health insurance status.",
@@ -163,6 +166,7 @@
         "income level",
         "health insurance status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, stroke type (ischemic or hemorrhagic), stroke severity (modified Rankin scale), hypertension duration, blood pressure at enrollment, comorbidities (diabetes, heart disease, etc.), medication use (antihypertensives, etc.), cognitive function, caregiver status, education level, income level, health insurance status."
   }
 }

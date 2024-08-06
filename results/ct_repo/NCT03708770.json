@@ -52,7 +52,8 @@
         "evidence of active infections",
         "informed consent status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline kidney function, target vein diameter, target artery diameter, life expectancy, presence of clinically significant conditions or illnesses within 30 days prior to the AV fistula, history of central venous stenosis, history of upper extremity venous occlusions, history of prior surgically created access, presence of functioning surgical access, pregnancy status, New York Heart Association (NYHA) heart failure class, hypercoagulable state, known bleeding diathesis, immunosuppression status, history of drug abuse, history of major surgical procedures, current treatment with investigational devices or drugs, allergy to contrast dye, adverse effects to sedation or anesthesia, presence of ulnar or radial artery, distance between target artery and vein, evidence of active infections, informed consent status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Kidney Disease, Baseline Hemodialysis Status, Target Vein Diameter, Target Artery Diameter, Estimated Life Expectancy, ",
@@ -99,7 +100,8 @@
       "remaining_candidate_features": [
         "Duration of Kidney Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Kidney Disease, Baseline Hemodialysis Status, Target Vein Diameter, Target Artery Diameter, Estimated Life Expectancy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes Status, Estimated Glomerular Filtration Rate, Hemodialysis Duration,",
@@ -140,7 +142,8 @@
         "Estimated Glomerular Filtration Rate",
         "Hemodialysis Duration"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes Status, Estimated Glomerular Filtration Rate, Hemodialysis Duration"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), kidney disease etiology, duration of hemodialysis, comorbidities (e.g., diabetes, hypertension, cardiovascular disease), New York Heart Association (NYHA) class, estimated life expectancy, target vein and artery diameters, prior access creation attempts, concomitant medications.",
@@ -187,6 +190,7 @@
         "prior access creation attempts",
         "concomitant medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), kidney disease etiology, duration of hemodialysis, comorbidities (e.g., diabetes, hypertension, cardiovascular disease), New York Heart Association (NYHA) class, estimated life expectancy, target vein and artery diameters, prior access creation attempts, concomitant medications."
   }
 }

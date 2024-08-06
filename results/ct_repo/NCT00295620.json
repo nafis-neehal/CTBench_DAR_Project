@@ -60,7 +60,8 @@
         "hormone replacement therapy usage",
         "presence of serious accessory disease."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, menopausal status, TNM classification at diagnosis, estrogen receptor status, progesterone receptor status, prior chemotherapy, prior radiotherapy, duration of prior endocrine therapy, performance index according to WHO, liver function, kidney function, compliance status, psychiatric history, hormone replacement therapy usage, presence of serious accessory disease."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, TNM Classification at Diagnosis, Estrogen Receptor Status, Progesterone Receptor Status, Previous Chemotherapy, Previous Radiotherapy, Duration of Prior Endocrine Therapy, Performance Index, ",
@@ -116,7 +117,8 @@
         "Race/Ethnicity",
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, TNM Classification at Diagnosis, Estrogen Receptor Status, Progesterone Receptor Status, Previous Chemotherapy, Previous Radiotherapy, Duration of Prior Endocrine Therapy, Performance Index"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Postmenopausal Status, Region of Enrollment, Body Mass Index, TNM Classification, Estrogen Receptor Status, Progesterone Receptor Status, Previous Chemotherapy, Previous Radiotherapy, Performance Index According to WHO.",
@@ -165,7 +167,8 @@
         "TNM Classification",
         "Performance Index According to WHO."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Postmenopausal Status, Region of Enrollment, Body Mass Index, TNM Classification, Estrogen Receptor Status, Progesterone Receptor Status, Previous Chemotherapy, Previous Radiotherapy, Performance Index According to WHO."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, menopausal status, TNM classification, tumor size, tumor grade, hormone receptor status, prior chemotherapy, prior radiotherapy, time since primary surgery, performance status, comorbidities.",
@@ -229,6 +232,7 @@
         "time since primary surgery",
         "comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, menopausal status, TNM classification, tumor size, tumor grade, hormone receptor status, prior chemotherapy, prior radiotherapy, time since primary surgery, performance status, comorbidities."
   }
 }

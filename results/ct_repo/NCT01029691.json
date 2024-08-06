@@ -37,7 +37,8 @@
         "Medication Use",
         "Comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Body Mass Index (BMI), Gestational Age, Baseline Blood Pressure, Severity of Preeclampsia, History of Hypertension, Sleep-disordered Breathing Severity, Ethnicity, Smoking Status, Parity, Medication Use, Comorbidities"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Baseline Blood Pressure, Severity of Sleep-Disordered Breathing, Number of Participants With Sleep-Disordered Breathing, ",
@@ -74,7 +75,8 @@
       "remaining_candidate_features": [
         "Number of Participants With Sleep-Disordered Breathing"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Baseline Blood Pressure, Severity of Sleep-Disordered Breathing, Number of Participants With Sleep-Disordered Breathing"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gestational Age, Nulliparity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Proteinuria, Severity of Preeclampsia,",
@@ -102,7 +104,8 @@
         "Proteinuria",
         "Severity of Preeclampsia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gestational Age, Nulliparity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Proteinuria, Severity of Preeclampsia"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, body mass index (BMI), gestational age, parity, history of hypertension, history of preeclampsia, severity of preeclampsia, systolic and diastolic blood pressure, sleep quality, daytime sleepiness, Epworth Sleepiness Scale (ESS) score, polysomnography (PSG) parameters (e.g., apnea-hypopnea index, oxygen desaturation index).",
@@ -145,6 +148,7 @@
         "daytime sleepiness",
         "Epworth Sleepiness Scale (ESS) score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, body mass index (BMI), gestational age, parity, history of hypertension, history of preeclampsia, severity of preeclampsia, systolic and diastolic blood pressure, sleep quality, daytime sleepiness, Epworth Sleepiness Scale (ESS) score, polysomnography (PSG) parameters (e.g., apnea-hypopnea index, oxygen desaturation index)."
   }
 }

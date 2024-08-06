@@ -30,7 +30,8 @@
         "Physical Activity Level",
         "Baseline Gut Microbiome Composition"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, BMI, Duration of Type 2 Diabetes, Baseline Fasting Glucose, Baseline Peak Glucose, Baseline Glucose AUC, Medication Use, Dietary Intake, Physical Activity Level, Baseline Gut Microbiome Composition"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Duration of Diabetes, Fasting Glucose, Peak Glucose, Glucose AUC, Use of Diabetes Medications,",
@@ -64,7 +65,8 @@
         "Glucose AUC",
         "Use of Diabetes Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Duration of Diabetes, Fasting Glucose, Peak Glucose, Glucose AUC, Use of Diabetes Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, Diabetes duration, HbA1c, Fasting glucose, Systolic blood pressure, Diastolic blood pressure, Total cholesterol, Triglycerides, HDL cholesterol, LDL cholesterol, Insulin use, Oral hypoglycemic agent use, History of cardiovascular disease, History of hypertension, History of dyslipidemia.",
@@ -106,7 +108,8 @@
         "History of hypertension",
         "History of dyslipidemia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, Diabetes duration, HbA1c, Fasting glucose, Systolic blood pressure, Diastolic blood pressure, Total cholesterol, Triglycerides, HDL cholesterol, LDL cholesterol, Insulin use, Oral hypoglycemic agent use, History of cardiovascular disease, History of hypertension, History of dyslipidemia."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, duration of type 2 diabetes, HbA1c, fasting glucose, peak glucose, glucose AUC, history of microvascular or macrovascular complications, medication use (including thiazolidinediones and antibiotics), smoking status.",
@@ -137,6 +140,7 @@
         "medication use (including thiazolidinediones and antibiotics)",
         "smoking status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, duration of type 2 diabetes, HbA1c, fasting glucose, peak glucose, glucose AUC, history of microvascular or macrovascular complications, medication use (including thiazolidinediones and antibiotics), smoking status."
   }
 }

@@ -41,7 +41,8 @@
         "presence of chronic infectious diseases",
         "MRI/CT scan/diathermy schedule"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, type of diabetes management (intensive insulin therapy or non-intensive insulin therapy), frequency of exercise, number of daily fingersticks, skin condition, allergy to medical-grade adhesives, pregnancy status, dialysis status, hematocrit level, participation in other investigational studies, history of cardiovascular disease, history of epilepsy, history of severe migraines, history of adrenal disease, history of syncope, hypoglycemia awareness, history of severe hypoglycemia, presence of chronic infectious diseases, MRI/CT scan/diathermy schedule."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Diabetes, Diabetes Management Method (IIT or non-IIT), Frequency of Exercise, Number of Fingersticks per Day, Hematocrit Level,",
@@ -79,7 +80,8 @@
         "Number of Fingersticks per Day",
         "Hematocrit Level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Diabetes, Diabetes Management Method (IIT or non-IIT), Frequency of Exercise, Number of Fingersticks per Day, Hematocrit Level"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, Diabetes Type, Insulin Therapy, BMI, HbA1c, Diabetes Duration, Blood Pressure, Lipid Profile, History of Cardiovascular Disease,",
@@ -122,7 +124,8 @@
         "Blood Pressure",
         "Lipid Profile"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Diabetes Type, Insulin Therapy, BMI, HbA1c, Diabetes Duration, Blood Pressure, Lipid Profile, History of Cardiovascular Disease"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, diabetes type (type 1 or type 2), diabetes duration, insulin therapy type (intensive or non-intensive), body mass index (BMI), hematocrit, history of cardiovascular disease, history of severe hypoglycemia, exercise routine, acetaminophen use.",
@@ -161,6 +164,7 @@
         "exercise routine",
         "acetaminophen use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, diabetes type (type 1 or type 2), diabetes duration, insulin therapy type (intensive or non-intensive), body mass index (BMI), hematocrit, history of cardiovascular disease, history of severe hypoglycemia, exercise routine, acetaminophen use."
   }
 }

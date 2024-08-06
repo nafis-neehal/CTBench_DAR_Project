@@ -46,7 +46,8 @@
         "prior immunosuppression use",
         "medical condition compatibility"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, prior transplant history, HLA mismatch status, EBV serostatus, ABO blood group compatibility, anti-HLA antibody status, leukocyte count, platelet count, HIV status, hepatitis B status, hepatitis C status, cardiac ejection fraction, forced expiratory volume (FEV1), pregnancy status, history of cancer, underlying renal disease etiology, prior radiation therapy, genetic disease history, liver function tests (ALT, AST, AP), bilirubin levels, coagulation studies (PT, PTT), allergy or sensitivity to study drugs, prior immunosuppression use, medical condition compatibility."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Donor (Living or Cadaveric), Number of Previous Transplants, Serologic Evidence of Prior Exposure to EBV, Use of Contraception, Cardiac Ejection Fraction, Forced Expiratory Volume (FEV1), Liver Function Tests (ALT, AST, AP), Bilirubin Levels, Coagulation Studies (PT, PTT),",
@@ -88,7 +89,8 @@
         "Bilirubin Levels",
         "Coagulation Studies (PT, PTT)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Donor (Living or Cadaveric), Number of Previous Transplants, Serologic Evidence of Prior Exposure to EBV, Use of Contraception, Cardiac Ejection Fraction, Forced Expiratory Volume (FEV1), Liver Function Tests (ALT, AST, AP), Bilirubin Levels, Coagulation Studies (PT, PTT)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Creatinine, eGFR, Hemoglobin, Albumin, Prior Kidney Transplant, Donor-Recipient HLA Mismatch, EBV Serostatus.",
@@ -131,7 +133,8 @@
         "Donor-Recipient HLA Mismatch",
         "EBV Serostatus"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Serum Creatinine, eGFR, Hemoglobin, Albumin, Prior Kidney Transplant, Donor-Recipient HLA Mismatch, EBV Serostatus."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), serum creatinine, estimated glomerular filtration rate (eGFR), blood type, HLA mismatch, prior transplant history, EBV serostatus, cardiac ejection fraction, forced expiratory volume (FEV1), liver function chemistries (ALT, AST, AP), bilirubin, coagulation studies (PT, PTT), medical history (including underlying renal disease etiology, cancer, and other relevant conditions).",
@@ -174,6 +177,7 @@
         "coagulation studies (PT, PTT)",
         "medical history (including underlying renal disease etiology, cancer, and other relevant conditions)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), serum creatinine, estimated glomerular filtration rate (eGFR), blood type, HLA mismatch, prior transplant history, EBV serostatus, cardiac ejection fraction, forced expiratory volume (FEV1), liver function chemistries (ALT, AST, AP), bilirubin, coagulation studies (PT, PTT), medical history (including underlying renal disease etiology, cancer, and other relevant conditions)."
   }
 }

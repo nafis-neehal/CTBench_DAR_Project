@@ -51,7 +51,8 @@
         "history of secondary hypertension",
         "baseline heart rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline seated systolic blood pressure (SeSBP), baseline seated diastolic blood pressure (SeDBP), body mass index (BMI), smoking status, alcohol use, duration of hypertension, baseline antihypertensive medication use, baseline HbA1c, baseline creatinine clearance, baseline liver function tests (ALT, AST, total bilirubin), history of cardiovascular events (e.g., myocardial infarction, stroke), history of diabetes, history of heart failure, history of renal disease, history of liver disease, history of secondary hypertension, baseline heart rate."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Seated Systolic Blood Pressure (SeSBP), Baseline Seated Diastolic Blood Pressure (SeDBP), Body Mass Index, History of Cardiovascular Disease, Baseline HbA1c, Baseline Creatinine Clearance, ",
@@ -92,7 +93,8 @@
         "Baseline HbA1c",
         "Baseline Creatinine Clearance"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Seated Systolic Blood Pressure (SeSBP), Baseline Seated Diastolic Blood Pressure (SeDBP), Body Mass Index, History of Cardiovascular Disease, Baseline HbA1c, Baseline Creatinine Clearance"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications, Creatinine Clearance, HbA1c, History of Diabetes, History of Cardiovascular Disease.",
@@ -139,7 +141,8 @@
         "History of Diabetes",
         "History of Cardiovascular Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications, Creatinine Clearance, HbA1c, History of Diabetes, History of Cardiovascular Disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, medical history (hypertension, diabetes, cardiovascular disease, etc.), current medications, smoking status, alcohol consumption, New York Heart Association (NYHA) class, left ventricular ejection fraction (LVEF), creatinine clearance, alanine transaminase (ALT), aspartate transaminase (AST), total bilirubin, hemoglobin A1c (HbA1c), history of myocardial infarction, percutaneous transluminal coronary revascularization, coronary artery bypass graft, unstable angina, stroke, transient ischemic attack (TIA), hypertensive encephalopathy.",
@@ -195,6 +198,7 @@
         "transient ischemic attack (TIA)",
         "hypertensive encephalopathy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, medical history (hypertension, diabetes, cardiovascular disease, etc.), current medications, smoking status, alcohol consumption, New York Heart Association (NYHA) class, left ventricular ejection fraction (LVEF), creatinine clearance, alanine transaminase (ALT), aspartate transaminase (AST), total bilirubin, hemoglobin A1c (HbA1c), history of myocardial infarction, percutaneous transluminal coronary revascularization, coronary artery bypass graft, unstable angina, stroke, transient ischemic attack (TIA), hypertensive encephalopathy."
   }
 }

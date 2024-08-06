@@ -35,7 +35,8 @@
         "prior radiotherapy",
         "presence of active bleeding or high-risk bleeding condition."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, ECOG performance status, smoking history, prior targeted treatment, stage of disease, measurable disease by RECIST, prior radiotherapy, presence of active bleeding or high-risk bleeding condition."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Measurable disease by RECIST, Prior targeted treatment,",
@@ -69,7 +70,8 @@
         "Measurable disease by RECIST",
         "Prior targeted treatment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG performance status, Measurable disease by RECIST, Prior targeted treatment"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology, Prior Targeted Treatment, Measurable Disease by RECIST,",
@@ -104,7 +106,8 @@
         "Prior Targeted Treatment",
         "Measurable Disease by RECIST"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Histology, Prior Targeted Treatment, Measurable Disease by RECIST"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, histology (non-squamous), stage of disease, prior targeted treatment, measurable disease by RECIST, height, weight, body mass index (BMI), smoking history.",
@@ -143,6 +146,7 @@
         "body mass index (BMI)",
         "smoking history"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, histology (non-squamous), stage of disease, prior targeted treatment, measurable disease by RECIST, height, weight, body mass index (BMI), smoking history."
   }
 }

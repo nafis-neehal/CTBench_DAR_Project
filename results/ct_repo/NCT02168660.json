@@ -35,7 +35,8 @@
         "baseline lipid profile",
         "baseline blood pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, serum 25-OH D level, baseline HOMA-IR, baseline weight, ethnicity, baseline serum calcium level, baseline glucose level, baseline insulin level, baseline lipid profile, baseline blood pressure."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline 25-hydroxyvitamin D levels, Baseline HOMA-IR, Systolic Blood Pressure, Diastolic Blood Pressure, Weight, Height, Waist Circumference,",
@@ -73,7 +74,8 @@
         "Height",
         "Waist Circumference"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline 25-hydroxyvitamin D levels, Baseline HOMA-IR, Systolic Blood Pressure, Diastolic Blood Pressure, Weight, Height, Waist Circumference"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Vitamin D level, Insulin Resistance (HOMA-IR), Weight, BMI percentile for age.",
@@ -111,7 +113,8 @@
         "Weight",
         "BMI percentile for age."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Vitamin D level, Insulin Resistance (HOMA-IR), Weight, BMI percentile for age."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, BMI, race, ethnicity, serum 25-OH D level, insulin resistance, weight, height, calcium levels, medical history (diabetes, hepatic or renal disease, malabsorptive disorder, genetic disorder), medication use (anti-convulsant, anti-hypertensive, lipid lowering, glucocorticoid, metformin, insulin).",
@@ -149,6 +152,7 @@
         "medical history (diabetes, hepatic or renal disease, malabsorptive disorder, genetic disorder)",
         "medication use (anti-convulsant, anti-hypertensive, lipid lowering, glucocorticoid, metformin, insulin)"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, BMI, race, ethnicity, serum 25-OH D level, insulin resistance, weight, height, calcium levels, medical history (diabetes, hepatic or renal disease, malabsorptive disorder, genetic disorder), medication use (anti-convulsant, anti-hypertensive, lipid lowering, glucocorticoid, metformin, insulin)."
   }
 }

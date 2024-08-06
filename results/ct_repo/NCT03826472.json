@@ -41,7 +41,8 @@
         "smoking status",
         "alcohol consumption"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of type 2 diabetes, baseline fasting glucose levels, body mass index (BMI), HbA1c levels, use of oral antihyperglycemic agents, dietary habits, physical activity levels, baseline lipid profile, baseline blood pressure, smoking status, alcohol consumption."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Duration of Type 2 Diabetes, Baseline Fasting Glucose, Use of Oral Antihyperglycemic Agents, ",
@@ -80,7 +81,8 @@
         "Race/Ethnicity",
         "Body Mass Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Duration of Type 2 Diabetes, Baseline Fasting Glucose, Use of Oral Antihyperglycemic Agents"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Diabetes duration, Body Mass Index, Fasting blood glucose, HbA1c, Antihyperglycemic agent use,",
@@ -119,7 +121,8 @@
         "Body Mass Index",
         "HbA1c"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes duration, Body Mass Index, Fasting blood glucose, HbA1c, Antihyperglycemic agent use"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), duration of type 2 diabetes, type and dose of oral antihyperglycemic agent, average daily blood glucose levels, HbA1c, systolic and diastolic blood pressure, lipid profile, smoking history, physical activity level.",
@@ -159,6 +162,7 @@
         "smoking history",
         "physical activity level."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), duration of type 2 diabetes, type and dose of oral antihyperglycemic agent, average daily blood glucose levels, HbA1c, systolic and diastolic blood pressure, lipid profile, smoking history, physical activity level."
   }
 }

@@ -47,7 +47,8 @@
         "treatment satisfaction",
         "health-related quality of life."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of diabetes, baseline HbA1c, fasting plasma glucose (FPG), body mass index (BMI), insulin dose, history of hypoglycemia, presence of diabetic retinopathy, presence of other diabetic complications, concomitant medications, smoking status, alcohol consumption, physical activity level, baseline plasma glucose levels (pre-injection, 03:00 hours, mean plasma glucose from 8-point profiles), treatment satisfaction, health-related quality of life."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Fasting Plasma Glucose, Plasma Glucose Prior to Injection, Mean Plasma Glucose, Glucose Variability, Treatment Satisfaction, Health Related Quality of Life, Frequency of Hypoglycemia, Diurnal Distribution of Hypoglycemia, Anti-Insulin Antibody Development,",
@@ -95,7 +96,8 @@
         "Diurnal Distribution of Hypoglycemia",
         "Anti-Insulin Antibody Development"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Fasting Plasma Glucose, Plasma Glucose Prior to Injection, Mean Plasma Glucose, Glucose Variability, Treatment Satisfaction, Health Related Quality of Life, Frequency of Hypoglycemia, Diurnal Distribution of Hypoglycemia, Anti-Insulin Antibody Development"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Fasting Plasma Glucose, Body Mass Index, Insulin Dose, History of Hypoglycemia, History of Diabetic Retinopathy.",
@@ -137,7 +139,8 @@
         "History of Hypoglycemia",
         "History of Diabetic Retinopathy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Fasting Plasma Glucose, Body Mass Index, Insulin Dose, History of Hypoglycemia, History of Diabetic Retinopathy."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c at baseline, fasting plasma glucose (FPG) at baseline, insulin dose at baseline, type of mealtime insulin used, history of hypoglycemia, presence of diabetic complications (retinopathy, nephropathy, neuropathy), smoking status.",
@@ -179,6 +182,7 @@
         "presence of diabetic complications (retinopathy, nephropathy, neuropathy)",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c at baseline, fasting plasma glucose (FPG) at baseline, insulin dose at baseline, type of mealtime insulin used, history of hypoglycemia, presence of diabetic complications (retinopathy, nephropathy, neuropathy), smoking status."
   }
 }

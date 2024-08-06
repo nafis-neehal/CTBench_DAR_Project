@@ -36,7 +36,8 @@
         "baseline liver function",
         "baseline mental health status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, type of surgery, comorbidities, baseline CRP levels, baseline nutritional status, baseline glycemic control, baseline blood pressure, smoking status, alcohol use, drug use history, baseline renal function, baseline liver function, baseline mental health status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Type of Surgery, Preoperative Nutritional Status, Preoperative Comorbidities, Preoperative CRP Levels, Preoperative Blood Pressure, Postoperative Complications, Length of Hospital Stay,",
@@ -72,7 +73,8 @@
         "Postoperative Complications",
         "Length of Hospital Stay"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Type of Surgery, Preoperative Nutritional Status, Preoperative Comorbidities, Preoperative CRP Levels, Preoperative Blood Pressure, Postoperative Complications, Length of Hospital Stay"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Region of Enrollment, Type of Surgery, ASA Classification, BMI, Comorbidities, Previous Abdominal Surgery, Preoperative Hemoglobin, Preoperative Albumin.",
@@ -109,7 +111,8 @@
         "Preoperative Hemoglobin",
         "Preoperative Albumin"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Region of Enrollment, Type of Surgery, ASA Classification, BMI, Comorbidities, Previous Abdominal Surgery, Preoperative Hemoglobin, Preoperative Albumin."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), American Society of Anesthesiologists (ASA) physical status, tumor type, tumor stage, type of surgery, comorbidities, smoking status, history of previous abdominal surgery.",
@@ -144,6 +147,7 @@
         "smoking status",
         "history of previous abdominal surgery."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), American Society of Anesthesiologists (ASA) physical status, tumor type, tumor stage, type of surgery, comorbidities, smoking status, history of previous abdominal surgery."
   }
 }

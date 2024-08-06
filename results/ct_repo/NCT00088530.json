@@ -32,7 +32,8 @@
         "baseline hepatic function",
         "left ventricular ejection fraction (LVEF)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, histological subtype of NHL, number of prior chemotherapy regimens, baseline tumor size, baseline hematologic function, baseline renal function, baseline hepatic function, left ventricular ejection fraction (LVEF)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Hematologic function, Renal function, Hepatic function, Left Ventricular Ejection Fraction (LVEF), Number of prior chemotherapy regimens, Type of prior chemotherapy regimens, ",
@@ -72,7 +73,8 @@
         "Number of prior chemotherapy regimens",
         "Type of prior chemotherapy regimens"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG performance status, Hematologic function, Renal function, Hepatic function, Left Ventricular Ejection Fraction (LVEF), Number of prior chemotherapy regimens, Type of prior chemotherapy regimens"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, ECOG performance status, LVEF, Histological diagnosis, Number of prior regimens of chemotherapy, Time since last chemotherapy, Presence of measurable lesions,",
@@ -101,7 +103,8 @@
         "Time since last chemotherapy",
         "Presence of measurable lesions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, ECOG performance status, LVEF, Histological diagnosis, Number of prior regimens of chemotherapy, Time since last chemotherapy, Presence of measurable lesions"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ECOG performance status, histological subtype of NHL, number of prior regimens of chemotherapy, time since initial diagnosis, time since last relapse, LVEF, presence of B symptoms, bulky disease, International Prognostic Index (IPI) score, serum lactate dehydrogenase (LDH) level.",
@@ -139,6 +142,7 @@
         "International Prognostic Index (IPI) score",
         "serum lactate dehydrogenase (LDH) level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ECOG performance status, histological subtype of NHL, number of prior regimens of chemotherapy, time since initial diagnosis, time since last relapse, LVEF, presence of B symptoms, bulky disease, International Prognostic Index (IPI) score, serum lactate dehydrogenase (LDH) level."
   }
 }

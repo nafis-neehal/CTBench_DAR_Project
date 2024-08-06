@@ -59,7 +59,8 @@
         "Smoking status",
         "Use of non-steroid anti-inflammatory medications."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Blood pressure, Body Mass Index (BMI), Ethnicity (African-American or white), Gender, Hematocrit levels, Serum sodium levels, Serum potassium levels, Liver function tests, Smoking status, Use of non-steroid anti-inflammatory medications."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hematocrit, Serum Sodium, Serum Potassium, Liver Function Tests, ",
@@ -126,7 +127,8 @@
         "Mean Platelet Volume (MPV)"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hematocrit, Serum Sodium, Serum Potassium, Liver Function Tests"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Self-Identified Ethnicity,",
@@ -182,7 +184,8 @@
       "remaining_candidate_features": [
         "Self-Identified Ethnicity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Self-Identified Ethnicity"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, body mass index, blood pressure, hematocrit, serum sodium, serum potassium, liver function tests, history of hypertension, history of cardiovascular disease, history of renal disease, history of liver disease, diabetes status, use of glucose-lowering medications, use of vasoactive medications, use of diuretic medications, atrial fibrillation status, smoking status.",
@@ -252,6 +255,7 @@
         "atrial fibrillation status",
         "smoking status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, body mass index, blood pressure, hematocrit, serum sodium, serum potassium, liver function tests, history of hypertension, history of cardiovascular disease, history of renal disease, history of liver disease, diabetes status, use of glucose-lowering medications, use of vasoactive medications, use of diuretic medications, atrial fibrillation status, smoking status."
   }
 }

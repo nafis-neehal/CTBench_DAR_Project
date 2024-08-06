@@ -43,7 +43,8 @@
         "liver function",
         "mental or CNS disease status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, HbA1c, fasting plasma glucose (FPG), body mass index (BMI), triglycerides (TG), use of anti-hyperglycemic drugs, duration of diabetes, kidney function (eGFR), cardiovascular disease status, liver function, mental or CNS disease status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Fasting Plasma Glucose, Triglycerides, Diabetes Duration, ",
@@ -89,7 +90,8 @@
         "Triglycerides",
         "Diabetes Duration"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Fasting Plasma Glucose, Triglycerides, Diabetes Duration"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Fasting Plasma Glucose, Body Mass Index, Triglycerides, Estimated Glomerular Filtration Rate, History of Cardiovascular Disease.",
@@ -136,7 +138,8 @@
         "Estimated Glomerular Filtration Rate",
         "History of Cardiovascular Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Fasting Plasma Glucose, Body Mass Index, Triglycerides, Estimated Glomerular Filtration Rate, History of Cardiovascular Disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, BMI, HbA1c, FPG, TG, eGFR, medical history of CVDs, medical history of liver diseases, medical history of mental or CNS diseases, use of anti-hyperglycemic drugs, duration of T2DM, smoking status.",
@@ -186,6 +189,7 @@
         "duration of T2DM",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, BMI, HbA1c, FPG, TG, eGFR, medical history of CVDs, medical history of liver diseases, medical history of mental or CNS diseases, use of anti-hyperglycemic drugs, duration of T2DM, smoking status."
   }
 }

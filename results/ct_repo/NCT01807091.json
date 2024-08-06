@@ -53,7 +53,8 @@
         "availability of outpatient infusion pump",
         "space availability in infusion room."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, AML or MDS diagnosis, TRM score, blast count, fibrinogen level, presence of infection, left ventricular ejection fraction (LVEF), presence of outpatient caregiver, distance from treating physician's office, availability of outpatient infusion pump, space availability in infusion room."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis (AML or MDS), Blast count, Fibrinogen level, Left ventricular ejection fraction (LVEF), Presence of infection, Cardiac function, Distance from treating physician's office, Availability of outpatient caregiver,",
@@ -110,7 +111,8 @@
         "Distance from treating physician's office",
         "Availability of outpatient caregiver"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diagnosis (AML or MDS), Blast count, Fibrinogen level, Left ventricular ejection fraction (LVEF), Presence of infection, Cardiac function, Distance from treating physician's office, Availability of outpatient caregiver"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis (AML or MDS), Blast count, Fibrinogen, TRM score, LVEF, Presence of cardiac issues, Presence of infection, Presence of caregiver, Distance from treating physician's office.",
@@ -164,7 +166,8 @@
         "Presence of caregiver",
         "Distance from treating physician's office."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diagnosis (AML or MDS), Blast count, Fibrinogen, TRM score, LVEF, Presence of cardiac issues, Presence of infection, Presence of caregiver, Distance from treating physician's office."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), performance status, AML/MDS subtype, blast count, fibrinogen level, left ventricular ejection fraction (LVEF), treatment-related mortality (TRM) score, comorbidities, prior chemotherapy or radiation therapy, outpatient caregiver availability, distance from treating physician's office.",
@@ -227,6 +230,7 @@
         "outpatient caregiver availability",
         "distance from treating physician's office"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), performance status, AML/MDS subtype, blast count, fibrinogen level, left ventricular ejection fraction (LVEF), treatment-related mortality (TRM) score, comorbidities, prior chemotherapy or radiation therapy, outpatient caregiver availability, distance from treating physician's office."
   }
 }

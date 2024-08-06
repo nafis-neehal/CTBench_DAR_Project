@@ -99,7 +99,8 @@
       "remaining_candidate_features": [
         "height"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, weight, height, blood pressure, fasting triglyceride level, liver function (transaminases), renal function (creatinine clearance), smoking status, alcohol consumption, contraceptive use (for females), history of chronic diseases (e.g., cardiovascular disease, endocrine disorders), medication use, previous exposure to exenatide, history of eating disorders, history of obesity treatment (surgery or medication), physical activity level, dietary habits, psychological status (e.g., depression, psychosis)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline Weight, Baseline Energy Intake, Baseline Energy Expenditure, Blood Pressure, Fasting Triglycerides, Liver Function Tests, Renal Function Tests, ",
@@ -161,7 +162,8 @@
         "Liver Function Tests",
         "Renal Function Tests"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline Weight, Baseline Energy Intake, Baseline Energy Expenditure, Blood Pressure, Fasting Triglycerides, Liver Function Tests, Renal Function Tests"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin, HbA1c, Lipid Profile, Hunger and Fullness Hormones.",
@@ -222,7 +224,8 @@
         "Lipid Profile",
         "Hunger and Fullness Hormones."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin, HbA1c, Lipid Profile, Hunger and Fullness Hormones."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, weight, height, race, ethnicity, smoking status, medical history (diabetes, hypertension, cardiovascular disease, etc.), medication use, dietary habits, physical activity level, menopausal status, contraceptive use, education level, occupation, income level.",
@@ -284,6 +287,7 @@
         "occupation",
         "income level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, weight, height, race, ethnicity, smoking status, medical history (diabetes, hypertension, cardiovascular disease, etc.), medication use, dietary habits, physical activity level, menopausal status, contraceptive use, education level, occupation, income level."
   }
 }

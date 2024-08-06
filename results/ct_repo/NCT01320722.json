@@ -38,7 +38,8 @@
         "Endothelial Function",
         "Renal Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, Body Mass Index (BMI), Baseline 25(OH)D levels, Baseline uric acid levels, Renal Plasma Flow (RPF), Plasma Renin Activity (PRA), Angiotensin II (ATII) Concentration, Blood Pressure, Endothelial Function, Renal Function"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Serum 25(OH)D levels, Serum uric acid levels, Estimated glomerular filtration rate (eGFR),",
@@ -70,7 +71,8 @@
         "Serum uric acid levels",
         "Estimated glomerular filtration rate (eGFR)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Serum 25(OH)D levels, Serum uric acid levels, Estimated glomerular filtration rate (eGFR)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Vitamin D level, Uric acid level, Estimated glomerular filtration rate (eGFR), Diabetes status, History of cardiovascular disease, History of kidney disease, History of gout, History of hypertension, Medication use (ACE-inhibitors, diuretics, beta blockers, etc.),",
@@ -113,7 +115,8 @@
         "History of hypertension",
         "Medication use (ACE-inhibitors, diuretics, beta blockers, etc.)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Vitamin D level, Uric acid level, Estimated glomerular filtration rate (eGFR), Diabetes status, History of cardiovascular disease, History of kidney disease, History of gout, History of hypertension, Medication use (ACE-inhibitors, diuretics, beta blockers, etc.)"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, Sex, Body Mass Index (BMI), 25(OH)D level, Uric acid level, Blood Pressure, Renal Plasma Flow (RPF), Plasma Renin Activity (PRA), Angiotensin II (ATII) Concentration, estimated glomerular filtration rate (EGFR).",
@@ -160,6 +163,7 @@
         "Blood Pressure",
         "estimated glomerular filtration rate (EGFR)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, Body Mass Index (BMI), 25(OH)D level, Uric acid level, Blood Pressure, Renal Plasma Flow (RPF), Plasma Renin Activity (PRA), Angiotensin II (ATII) Concentration, estimated glomerular filtration rate (EGFR)."
   }
 }

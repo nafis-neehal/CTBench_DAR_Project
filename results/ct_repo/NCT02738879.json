@@ -48,7 +48,8 @@
         "blood pressure",
         "lipid profile (e.g., LDL, HDL, triglycerides)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline A1C, duration of Type 2 Diabetes Mellitus, body mass index (BMI), fasting glucose levels, prior anti-hyperglycemic treatment regimen, baseline metformin dose, baseline sitagliptin dose, baseline sulfonylurea dose, baseline insulin glargine dose, renal function (e.g., serum creatinine or eGFR), liver function tests (e.g., ALT, AST), history of hypoglycemia, blood pressure, lipid profile (e.g., LDL, HDL, triglycerides)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Fasting Blood Glucose, Use of Metformin, Use of Sulfonylurea, Use of DPP-4 Inhibitor,",
@@ -105,7 +106,8 @@
       "remaining_candidate_features": [
         "Duration of Diabetes"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Fasting Blood Glucose, Use of Metformin, Use of Sulfonylurea, Use of DPP-4 Inhibitor"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Lipid Profile, History of Cardiovascular Disease, History of Hypoglycemia, Current Anti-Hyperglycemic Agents, Duration of Current Anti-Hyperglycemic Agents.",
@@ -160,7 +162,8 @@
         "History of Hypoglycemia",
         "Duration of Current Anti-Hyperglycemic Agents"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Lipid Profile, History of Cardiovascular Disease, History of Hypoglycemia, Current Anti-Hyperglycemic Agents, Duration of Current Anti-Hyperglycemic Agents."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, A1C at screening, fasting glucose at screening, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including history of hypoglycemia, cardiovascular disease, and other relevant conditions), current medications, smoking status.",
@@ -209,6 +212,7 @@
         "medical history (including history of hypoglycemia, cardiovascular disease, and other relevant conditions)",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, A1C at screening, fasting glucose at screening, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including history of hypoglycemia, cardiovascular disease, and other relevant conditions), current medications, smoking status."
   }
 }

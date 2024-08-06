@@ -44,7 +44,8 @@
         "smoking status",
         "physical activity level."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline HbA1c, duration of diabetes, body mass index (BMI), fasting plasma glucose, prior insulin regimen, concomitant medications, history of hypoglycemia, renal function, liver function, blood pressure, lipid profile, race/ethnicity, smoking status, physical activity level."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Daily Insulin Dose, Frequency of Hypoglycemia,",
@@ -87,7 +88,8 @@
         "Daily Insulin Dose",
         "Frequency of Hypoglycemia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Daily Insulin Dose, Frequency of Hypoglycemia"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, HbA1c, BMI, Blood Pressure, Total Cholesterol, Triglycerides, LDL-C, HDL-C, Previous Cardiovascular Disease, Insulin Dose,",
@@ -133,7 +135,8 @@
         "Previous Cardiovascular Disease",
         "Insulin Dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Duration, HbA1c, BMI, Blood Pressure, Total Cholesterol, Triglycerides, LDL-C, HDL-C, Previous Cardiovascular Disease, Insulin Dose"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c at baseline, fasting plasma glucose at baseline, insulin dose at baseline, type of mealtime insulin used, history of diabetic complications, history of hypoglycemia, concomitant medications, smoking status.",
@@ -176,6 +179,7 @@
         "concomitant medications",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c at baseline, fasting plasma glucose at baseline, insulin dose at baseline, type of mealtime insulin used, history of diabetic complications, history of hypoglycemia, concomitant medications, smoking status."
   }
 }

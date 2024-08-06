@@ -35,7 +35,8 @@
         "Baseline Leg Blood Flow",
         "Comorbidities (e.g., hypertension, dyslipidemia)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, BMI, Duration of Diabetes, Baseline Blood Pressure, Baseline Blood Glucose Levels, Baseline Insulin Levels, Physical Activity Level, Smoking Status, Alcohol Consumption, Medication Use, Baseline Leg Blood Flow, Comorbidities (e.g., hypertension, dyslipidemia)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of Diabetes, Baseline Physical Activity Level, Hemoglobin A1c, Fasting Glucose, Insulin Sensitivity,",
@@ -73,7 +74,8 @@
         "Fasting Glucose",
         "Insulin Sensitivity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of Diabetes, Baseline Physical Activity Level, Hemoglobin A1c, Fasting Glucose, Insulin Sensitivity"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Diabetes duration, Systolic Blood Pressure, Diastolic Blood Pressure, Insulin-stimulated Leg Blood Flow,",
@@ -108,7 +110,8 @@
         "Diastolic Blood Pressure",
         "Insulin-stimulated Leg Blood Flow"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, Diabetes duration, Systolic Blood Pressure, Diastolic Blood Pressure, Insulin-stimulated Leg Blood Flow"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, diabetes duration, HbA1c, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, alcohol consumption, medical history (cardiovascular disease, renal disease, hepatic disease, cancer, autoimmune disease), medication use (antihypertensive, lipid-lowering, glucose-lowering).",
@@ -145,6 +148,7 @@
         "medical history (cardiovascular disease, renal disease, hepatic disease, cancer, autoimmune disease)",
         "medication use (antihypertensive, lipid-lowering, glucose-lowering)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, diabetes duration, HbA1c, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, alcohol consumption, medical history (cardiovascular disease, renal disease, hepatic disease, cancer, autoimmune disease), medication use (antihypertensive, lipid-lowering, glucose-lowering)."
   }
 }

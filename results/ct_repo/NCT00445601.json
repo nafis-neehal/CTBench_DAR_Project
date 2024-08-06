@@ -46,7 +46,8 @@
         "TURBT timing",
         "fertility status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, Zubrod performance status, tumor stage (Ta or T1), tumor grade (Grade 1 or 2), number of recurrences within 18 months, prior malignancy history, upper tract imaging results, urine culture results, TURBT timing, fertility status, prior intravesical therapy timing."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Tumor Grade, Tumor Stage, Number of Recurrences, Zubrod Performance Status, Prior Intravesical Therapy,",
@@ -88,7 +89,8 @@
         "Tumor Stage",
         "Number of Recurrences"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Tumor Grade, Tumor Stage, Number of Recurrences, Zubrod Performance Status, Prior Intravesical Therapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Zubrod Performance Status, Tumor Grade, Tumor Stage, Prior Recurrences, Upper Tract Imaging Results, Urine Culture Results, Urine Analysis Results.",
@@ -132,7 +134,8 @@
         "Urine Culture Results",
         "Urine Analysis Results."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Zubrod Performance Status, Tumor Grade, Tumor Stage, Prior Recurrences, Upper Tract Imaging Results, Urine Culture Results, Urine Analysis Results."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, Zubrod performance status, tumor stage (Ta or T1), tumor grade (1 or 2), number of recurrences within 18 months prior to index tumor, presence of prior tumor in situ or grade 3 disease within 2 years prior to index tumor, upper tract imaging study results, urine culture or analysis results, history of other malignancies.",
@@ -176,6 +179,7 @@
         "urine culture or analysis results",
         "history of other malignancies."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, Zubrod performance status, tumor stage (Ta or T1), tumor grade (1 or 2), number of recurrences within 18 months prior to index tumor, presence of prior tumor in situ or grade 3 disease within 2 years prior to index tumor, upper tract imaging study results, urine culture or analysis results, history of other malignancies."
   }
 }

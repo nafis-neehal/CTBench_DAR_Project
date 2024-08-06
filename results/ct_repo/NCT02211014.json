@@ -34,7 +34,8 @@
         "cardiovascular disease history",
         "gastrointestinal function status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, diagnosis confirmation, number of prior therapies, disease progression status, ECOG performance status, contraception agreement, cardiovascular disease history, gastrointestinal function status, pregnancy status, breastfeeding status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Number of prior therapies, Duration of multiple myeloma, Baseline laboratory values (e.g., hemoglobin, creatinine, calcium), Concomitant medications, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -72,7 +73,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Number of prior therapies, Duration of multiple myeloma, Baseline laboratory values (e.g., hemoglobin, creatinine, calcium), Concomitant medications, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior Therapies for Multiple Myeloma, Time Since Initial Diagnosis of Multiple Myeloma,",
@@ -106,7 +108,8 @@
         "Prior Therapies for Multiple Myeloma",
         "Time Since Initial Diagnosis of Multiple Myeloma"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Prior Therapies for Multiple Myeloma, Time Since Initial Diagnosis of Multiple Myeloma"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ECOG performance status, number of prior therapies for MM, time since initial diagnosis of MM, type of prior therapies for MM, MM disease stage, MM subtype, presence of extramedullary disease, presence of high-risk cytogenetics, serum M-protein level, serum free light chain level, hemoglobin level, platelet count, creatinine level, lactate dehydrogenase level.",
@@ -144,6 +147,7 @@
         "creatinine level",
         "lactate dehydrogenase level."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ECOG performance status, number of prior therapies for MM, time since initial diagnosis of MM, type of prior therapies for MM, MM disease stage, MM subtype, presence of extramedullary disease, presence of high-risk cytogenetics, serum M-protein level, serum free light chain level, hemoglobin level, platelet count, creatinine level, lactate dehydrogenase level."
   }
 }

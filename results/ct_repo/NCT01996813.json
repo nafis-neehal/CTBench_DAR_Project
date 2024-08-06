@@ -47,7 +47,8 @@
         "alcohol use",
         "baseline physical activity level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, gender, medical history (carotid artery stenosis, stroke, transient ischemic attack, syncope, vision loss), baseline cerebral oxygen saturation, baseline blood pressure, baseline heart rate, baseline respiratory rate, baseline oxygen saturation, baseline hemoglobin level, baseline hematocrit level, baseline serum glucose level, baseline cholesterol level, baseline triglyceride level, baseline medication use, smoking status, alcohol use, baseline physical activity level."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, History of carotid artery stenosis, History of stroke, History of transient ischemic attack, History of syncope, History of vision loss,",
@@ -88,7 +89,8 @@
         "History of syncope",
         "History of vision loss"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, History of carotid artery stenosis, History of stroke, History of transient ischemic attack, History of syncope, History of vision loss"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Region of Enrollment, History of Carotid Artery Stenosis, History of Stroke, History of Transient Ischemic Attack, History of Syncope, History of Vision Loss.",
@@ -132,7 +134,8 @@
         "History of Syncope",
         "History of Vision Loss"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, Region of Enrollment, History of Carotid Artery Stenosis, History of Stroke, History of Transient Ischemic Attack, History of Syncope, History of Vision Loss."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), weight, height, history of carotid artery stenosis, history of stroke, history of transient ischemic attack, history of syncope, history of vision loss, presence of comorbidities (e.g. hypertension, diabetes), American Society of Anesthesiologists (ASA) physical status classification.",
@@ -179,6 +182,7 @@
         "history of vision loss",
         "American Society of Anesthesiologists (ASA) physical status classification."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), weight, height, history of carotid artery stenosis, history of stroke, history of transient ischemic attack, history of syncope, history of vision loss, presence of comorbidities (e.g. hypertension, diabetes), American Society of Anesthesiologists (ASA) physical status classification."
   }
 }

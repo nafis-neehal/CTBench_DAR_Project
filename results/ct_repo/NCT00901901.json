@@ -38,7 +38,8 @@
         "baseline complete blood count",
         "baseline vital signs"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, Child-Pugh class, tumor size, number of tumor lesions, prior treatments, presence of cirrhosis, presence of ascites, life expectancy, history of cardiac disease, history of interstitial lung disease, history of gastrointestinal bleeding, baseline liver function tests, baseline renal function tests, baseline complete blood count, baseline vital signs."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Child-Pugh Class, Tumor Size, Previous Treatments, Life Expectancy,",
@@ -74,7 +75,8 @@
         "Previous Treatments",
         "Life Expectancy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Child-Pugh Class, Tumor Size, Previous Treatments, Life Expectancy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Child-Pugh Class, Hepatocellular Carcinoma Diagnosis Duration, Prior Treatment for Hepatocellular Carcinoma, Alpha-fetoprotein, Albumin, Bilirubin, International Normalized Ratio, Aspartate Aminotransferase, Alanine Aminotransferase, Alkaline Phosphatase.",
@@ -116,7 +118,8 @@
         "Alanine Aminotransferase",
         "Alkaline Phosphatase"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Child-Pugh Class, Hepatocellular Carcinoma Diagnosis Duration, Prior Treatment for Hepatocellular Carcinoma, Alpha-fetoprotein, Albumin, Bilirubin, International Normalized Ratio, Aspartate Aminotransferase, Alanine Aminotransferase, Alkaline Phosphatase."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, life expectancy, ECOG PS, Child-Pugh class, histological or cytological diagnosis of HCC, number and size of tumor lesions, prior local therapy, cardiac history, hypertension, corneal abnormalities, interstitial lung disease, gastrointestinal bleeding, prior treatment with yttrium-90 spheres, presence of ascites.",
@@ -157,6 +160,7 @@
         "prior treatment with yttrium-90 spheres",
         "presence of ascites"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, life expectancy, ECOG PS, Child-Pugh class, histological or cytological diagnosis of HCC, number and size of tumor lesions, prior local therapy, cardiac history, hypertension, corneal abnormalities, interstitial lung disease, gastrointestinal bleeding, prior treatment with yttrium-90 spheres, presence of ascites."
   }
 }

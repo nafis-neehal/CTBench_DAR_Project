@@ -40,7 +40,8 @@
         "use of contraception",
         "blood pregnancy test results (for women of childbearing potential)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, disease stage (locally advanced or metastatic), histological confirmation of adenocarcinoma, organ function (bone marrow, hepatic, renal), life expectancy, prior treatments (chemotherapy, radiotherapy, surgery), presence of measurable disease, use of contraception, blood pregnancy test results (for women of childbearing potential)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Disease Stage, Histological Type, Organ Function (Liver, Kidney, Bone Marrow), Coagulation Parameters, Prior Treatments,",
@@ -83,7 +84,8 @@
         "Organ Function (Liver, Kidney, Bone Marrow)",
         "Coagulation Parameters"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Disease Stage, Histological Type, Organ Function (Liver, Kidney, Bone Marrow), Coagulation Parameters, Prior Treatments"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, ECOG Performance Status, Histological confirmation of pancreatic cancer, Metastatic disease, Locally advanced disease, Prior adjuvant treatment, Time since diagnosis, BMI, Karnofsky Performance Status, Charlson Comorbidity Index.",
@@ -130,7 +132,8 @@
         "Karnofsky Performance Status",
         "Charlson Comorbidity Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, ECOG Performance Status, Histological confirmation of pancreatic cancer, Metastatic disease, Locally advanced disease, Prior adjuvant treatment, Time since diagnosis, BMI, Karnofsky Performance Status, Charlson Comorbidity Index."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, pancreatic cancer stage (locally advanced or metastatic), histological type (adenocarcinoma), presence of metastases, prior adjuvant treatment, time since diagnosis, BMI, smoking status, comorbidities (cardiovascular, psychiatric, etc.), prior medications, laboratory values (hemoglobin, creatinine, bilirubin, etc.).",
@@ -175,6 +178,7 @@
         "prior medications",
         "laboratory values (hemoglobin, creatinine, bilirubin, etc.)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, pancreatic cancer stage (locally advanced or metastatic), histological type (adenocarcinoma), presence of metastases, prior adjuvant treatment, time since diagnosis, BMI, smoking status, comorbidities (cardiovascular, psychiatric, etc.), prior medications, laboratory values (hemoglobin, creatinine, bilirubin, etc.)."
   }
 }

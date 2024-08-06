@@ -82,7 +82,8 @@
         "Body Composition",
         "Metabolic Profile."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Cause of Cirrhosis, Albumin Level, International Normalized Ratio (INR), Radiologic or Endoscopic Evidence of Portal Hypertension, Creatinine Level, Model for End Stage Liver Disease (MELD) Score, History of Variceal Bleeding, Ascites, Hepatic Encephalopathy, Jaundice, Potential Transplant Candidate Status, Baseline Physical Fitness (VO2), Baseline Distance Walked, Baseline Sarcopenia Status, Quality of Life, Anthropometrics, Body Composition, Metabolic Profile."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, MELD Score, Serum Albumin, International Normalized Ratio (INR), Creatinine, History of Variceal Bleeding, Ascites, Hepatic Encephalopathy, Jaundice,",
@@ -165,7 +166,8 @@
         "Region of Enrollment",
         "Jaundice"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, MELD Score, Serum Albumin, International Normalized Ratio (INR), Creatinine, History of Variceal Bleeding, Ascites, Hepatic Encephalopathy, Jaundice"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, MELD Score, Cirrhosis Etiology, History of Variceal Bleeding, History of Ascites, History of Hepatic Encephalopathy, History of Jaundice, Creatinine Level, INR, Albumin Level.",
@@ -251,7 +253,8 @@
         "Region of Enrollment",
         "History of Jaundice"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, MELD Score, Cirrhosis Etiology, History of Variceal Bleeding, History of Ascites, History of Hepatic Encephalopathy, History of Jaundice, Creatinine Level, INR, Albumin Level."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), cirrhosis etiology, MELD score, creatinine level, albumin level, INR, presence of portal hypertension, history of variceal bleeding, ascites, hepatic encephalopathy, jaundice, comorbidities (e.g., diabetes, hypertension), smoking status, physical activity level at baseline.",
@@ -340,6 +343,7 @@
         "smoking status",
         "physical activity level at baseline."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), cirrhosis etiology, MELD score, creatinine level, albumin level, INR, presence of portal hypertension, history of variceal bleeding, ascites, hepatic encephalopathy, jaundice, comorbidities (e.g., diabetes, hypertension), smoking status, physical activity level at baseline."
   }
 }

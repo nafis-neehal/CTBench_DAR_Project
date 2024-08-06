@@ -39,7 +39,8 @@
         "Baseline Diabetes Distress Score",
         "Baseline Problem Areas in Diabetes Score."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Type of Diabetes (Type 1 or Type 2), Duration of Diabetes, Baseline HbA1c, History of Hypoglycemia, History of Hyperglycemia, Previous Emergency Room Visits, Language (English or Spanish), Existing Diabetes Center Patient or New Referral, Baseline Diabetes Distress Score, Baseline Problem Areas in Diabetes Score."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Type of Diabetes (Type 1 or Type 2), Reason for Emergency Department Visit (Hypoglycemia or Hyperglycemia), Prior Diabetes Management (Existing Patient or New Referral), Language Proficiency (English or Spanish),",
@@ -75,7 +76,8 @@
         "Prior Diabetes Management (Existing Patient or New Referral)",
         "Language Proficiency (English or Spanish)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Type of Diabetes (Type 1 or Type 2), Reason for Emergency Department Visit (Hypoglycemia or Hyperglycemia), Prior Diabetes Management (Existing Patient or New Referral), Language Proficiency (English or Spanish)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Type, Duration of Diabetes, HbA1c, Blood Pressure, BMI, History of Hypoglycemia, History of Hyperglycemia,",
@@ -119,7 +121,8 @@
         "History of Hypoglycemia",
         "History of Hyperglycemia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Type, Duration of Diabetes, HbA1c, Blood Pressure, BMI, History of Hypoglycemia, History of Hyperglycemia"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, diabetes type (type 1 or type 2), duration of diabetes, HbA1c level, BMI, blood pressure, lipid profile, smoking status, comorbidities (e.g., hypertension, cardiovascular disease), medication use (e.g., insulin, oral hypoglycemics), prior diabetes education, prior CGM use, emergency department visit history, hospitalization history, diabetes distress score, problem areas in diabetes score.",
@@ -170,6 +173,7 @@
         "diabetes distress score",
         "problem areas in diabetes score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, diabetes type (type 1 or type 2), duration of diabetes, HbA1c level, BMI, blood pressure, lipid profile, smoking status, comorbidities (e.g., hypertension, cardiovascular disease), medication use (e.g., insulin, oral hypoglycemics), prior diabetes education, prior CGM use, emergency department visit history, hospitalization history, diabetes distress score, problem areas in diabetes score."
   }
 }

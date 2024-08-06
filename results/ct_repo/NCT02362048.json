@@ -32,7 +32,8 @@
         "gastrointestinal function status",
         "pregnancy or breastfeeding status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, histological or cytological confirmation of pancreatic ductal adenocarcinoma, prior systemic chemotherapy regimens, presence of CNS metastases, cardiovascular disease history, gastrointestinal function status, pregnancy or breastfeeding status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Histological or cytological confirmation of pancreatic cancer, Prior systemic chemotherapy,",
@@ -63,7 +64,8 @@
         "Histological or cytological confirmation of pancreatic cancer",
         "Prior systemic chemotherapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Histological or cytological confirmation of pancreatic cancer, Prior systemic chemotherapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, ECOG Performance Status, Histological or Cytological Confirmation of Pancreatic Ductal Adenocarcinoma, Prior Systemic Chemotherapy Regimen, Number of Prior Chemotherapy Regimens.",
@@ -94,7 +96,8 @@
         "Prior Systemic Chemotherapy Regimen",
         "Number of Prior Chemotherapy Regimens."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, ECOG Performance Status, Histological or Cytological Confirmation of Pancreatic Ductal Adenocarcinoma, Prior Systemic Chemotherapy Regimen, Number of Prior Chemotherapy Regimens."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ECOG performance status, histological type of pancreatic cancer, number of prior systemic chemotherapy regimens, time since diagnosis of metastatic pancreatic cancer, presence of metastases, prior surgery or radiation therapy for pancreatic cancer.",
@@ -124,6 +127,7 @@
         "presence of metastases",
         "prior surgery or radiation therapy for pancreatic cancer."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ECOG performance status, histological type of pancreatic cancer, number of prior systemic chemotherapy regimens, time since diagnosis of metastatic pancreatic cancer, presence of metastases, prior surgery or radiation therapy for pancreatic cancer."
   }
 }

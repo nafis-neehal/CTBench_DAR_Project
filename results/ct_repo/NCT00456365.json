@@ -37,7 +37,8 @@
         "baseline cardiovascular health",
         "medication history"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline kidney function, baseline liver function, baseline muscle function, family history of ADPKD, baseline blood pressure, baseline cholesterol levels, baseline body mass index (BMI), baseline cardiovascular health, medication history, baseline kidney volume."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Kidney Function, Family History of ADPKD, Baseline Liver Function, Baseline Muscle Function,",
@@ -74,7 +75,8 @@
         "Baseline Liver Function",
         "Baseline Muscle Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Kidney Function, Family History of ADPKD, Baseline Liver Function, Baseline Muscle Function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Height, Weight, Body Mass Index, Blood Pressure, Total Cholesterol, LDL Cholesterol, HDL Cholesterol, Triglycerides, Estimated Glomerular Filtration Rate, Total Kidney Volume, Left Ventricular Mass Index,",
@@ -126,7 +128,8 @@
         "Triglycerides",
         "Estimated Glomerular Filtration Rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Height, Weight, Body Mass Index, Blood Pressure, Total Cholesterol, LDL Cholesterol, HDL Cholesterol, Triglycerides, Estimated Glomerular Filtration Rate, Total Kidney Volume, Left Ventricular Mass Index"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, height, weight, body mass index (BMI), systolic blood pressure, diastolic blood pressure, estimated glomerular filtration rate (eGFR), total kidney volume, liver function tests, lipid profile, medical history (including history of liver disease, muscle disease/dystrophy), family medical history (of ADPKD).",
@@ -169,6 +172,7 @@
         "medical history (including history of liver disease, muscle disease/dystrophy)",
         "family medical history (of ADPKD)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, height, weight, body mass index (BMI), systolic blood pressure, diastolic blood pressure, estimated glomerular filtration rate (eGFR), total kidney volume, liver function tests, lipid profile, medical history (including history of liver disease, muscle disease/dystrophy), family medical history (of ADPKD)."
   }
 }

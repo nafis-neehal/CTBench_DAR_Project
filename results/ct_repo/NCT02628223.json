@@ -39,7 +39,8 @@
         "previous medical or laser therapy history",
         "previous incisional glaucoma surgery history."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, initial intraocular pressure (IOP), type of glaucoma (open-angle, pseudoexfoliative, pigment dispersion syndrome), ocular hypertension status, previous medical or laser therapy history, previous incisional glaucoma surgery history."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure (IOP), Type of Glaucoma,",
@@ -80,7 +81,8 @@
       "remaining_candidate_features": [
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Intraocular Pressure (IOP), Type of Glaucoma"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis of glaucoma, Initial intraocular pressure, Visual acuity, Cup-to-disc ratio, Central corneal thickness,",
@@ -122,7 +124,8 @@
         "Cup-to-disc ratio",
         "Central corneal thickness"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diagnosis of glaucoma, Initial intraocular pressure, Visual acuity, Cup-to-disc ratio, Central corneal thickness"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, diagnosis (open-angle glaucoma, ocular hypertension, pseudoexfoliation, pigment dispersion syndrome), initial intraocular pressure (IOP), number of glaucoma medications used, visual acuity, cup-to-disc ratio, central corneal thickness, spherical equivalent refraction.",
@@ -169,6 +172,7 @@
         "central corneal thickness",
         "spherical equivalent refraction."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, diagnosis (open-angle glaucoma, ocular hypertension, pseudoexfoliation, pigment dispersion syndrome), initial intraocular pressure (IOP), number of glaucoma medications used, visual acuity, cup-to-disc ratio, central corneal thickness, spherical equivalent refraction."
   }
 }

@@ -41,7 +41,8 @@
         "compliance with diet and insulin therapy",
         "frequency of blood glucose monitoring."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, type of diabetes (Type 1 or Type 2), duration of diabetes, baseline HbA1c, body mass index (BMI), daily insulin dose, history of severe hypoglycemia, compliance with diet and insulin therapy, frequency of blood glucose monitoring."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Diabetes (Type 1 or Type 2), Duration of Diabetes, Baseline HbA1c, Body Mass Index, Total Daily Insulin Dose, Frequency of Severe Hypoglycemia, Compliance with Diet and Insulin Therapy,",
@@ -91,7 +92,8 @@
         "Frequency of Severe Hypoglycemia",
         "Compliance with Diet and Insulin Therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Diabetes (Type 1 or Type 2), Duration of Diabetes, Baseline HbA1c, Body Mass Index, Total Daily Insulin Dose, Frequency of Severe Hypoglycemia, Compliance with Diet and Insulin Therapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Diabetes Type, Duration of Diabetes, Body Mass Index, HbA1c, Insulin Dose, Region of Enrollment,",
@@ -136,7 +138,8 @@
         "Age",
         "Insulin Dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes Type, Duration of Diabetes, Body Mass Index, HbA1c, Insulin Dose, Region of Enrollment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), duration of diabetes, type of diabetes (type 1 or type 2), HbA1c at baseline, fasting plasma glucose at baseline, insulin dose at baseline, history of severe hypoglycemia, presence of diabetic complications (e.g. retinopathy, nephropathy, neuropathy).",
@@ -180,6 +183,7 @@
         "history of severe hypoglycemia",
         "presence of diabetic complications (e.g. retinopathy, nephropathy, neuropathy)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), duration of diabetes, type of diabetes (type 1 or type 2), HbA1c at baseline, fasting plasma glucose at baseline, insulin dose at baseline, history of severe hypoglycemia, presence of diabetic complications (e.g. retinopathy, nephropathy, neuropathy)."
   }
 }

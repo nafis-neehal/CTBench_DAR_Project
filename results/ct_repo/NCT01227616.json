@@ -32,7 +32,8 @@
         "recent parenteral iron therapy",
         "recent RBC/whole blood transfusion."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of dialysis, method of birth control, history of allergy to iron, pregnancy status, recent parenteral iron therapy, recent RBC/whole blood transfusion."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Dialysis, Baseline Hemoglobin, Baseline Serum Ferritin, Baseline Transferrin Saturation, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -72,7 +73,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Dialysis, Baseline Hemoglobin, Baseline Serum Ferritin, Baseline Transferrin Saturation, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemodialysis duration, Iron deficiency anemia duration, Baseline hemoglobin, Baseline ferritin, Baseline transferrin saturation, Dialysis type, Erythropoietin use,",
@@ -112,7 +114,8 @@
         "Dialysis type",
         "Erythropoietin use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Hemodialysis duration, Iron deficiency anemia duration, Baseline hemoglobin, Baseline ferritin, Baseline transferrin saturation, Dialysis type, Erythropoietin use"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of CKD, duration of dialysis, hemoglobin level at baseline, iron deficiency anemia (IDA) severity, serum ferritin level, transferrin saturation, creatinine level, estimated glomerular filtration rate (eGFR), comorbidities (e.g., diabetes, hypertension), concomitant medications, history of blood transfusions, history of iron therapy.",
@@ -159,6 +162,7 @@
         "history of blood transfusions",
         "history of iron therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of CKD, duration of dialysis, hemoglobin level at baseline, iron deficiency anemia (IDA) severity, serum ferritin level, transferrin saturation, creatinine level, estimated glomerular filtration rate (eGFR), comorbidities (e.g., diabetes, hypertension), concomitant medications, history of blood transfusions, history of iron therapy."
   }
 }

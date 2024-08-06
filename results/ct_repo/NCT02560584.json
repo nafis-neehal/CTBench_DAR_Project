@@ -47,7 +47,8 @@
         "mental condition",
         "compliance likelihood."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, medical history, history of bladder cancer, number of previous tumors, grade of previous tumors, previous treatments (e.g., TURB, BCG immunotherapy, intravesical chemotherapy), presence of gross haematuria, allergy history, pregnancy status, mental condition, compliance likelihood."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of Multiple Tumors, History of Recurrent Tumors, History of High Grade Tumors,",
@@ -84,7 +85,8 @@
         "History of Multiple Tumors",
         "History of Recurrent Tumors"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, History of Multiple Tumors, History of Recurrent Tumors, History of High Grade Tumors"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of multiple tumors, History of recurrent tumors, History of high-grade tumor, Previous treatment with Bacillus Calmette-Gu\u00e9rin (BCG) immunotherapy or intravesical chemotherapy,",
@@ -124,7 +126,8 @@
         "History of multiple tumors",
         "History of recurrent tumors"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, History of multiple tumors, History of recurrent tumors, History of high-grade tumor, Previous treatment with Bacillus Calmette-Gu\u00e9rin (BCG) immunotherapy or intravesical chemotherapy"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (including history of bladder cancer, multiple tumors, recurrent tumors, high-grade tumors), previous treatments (including TURB, BCG immunotherapy, intravesical chemotherapy), presence of gross haematuria, porphyria, allergy to hexaminolevulinate hydrochloride or similar compounds, pregnancy status, breast-feeding status, use of contraception, participation in other clinical studies.",
@@ -173,6 +176,7 @@
         "use of contraception",
         "participation in other clinical studies."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (including history of bladder cancer, multiple tumors, recurrent tumors, high-grade tumors), previous treatments (including TURB, BCG immunotherapy, intravesical chemotherapy), presence of gross haematuria, porphyria, allergy to hexaminolevulinate hydrochloride or similar compounds, pregnancy status, breast-feeding status, use of contraception, participation in other clinical studies."
   }
 }

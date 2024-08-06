@@ -40,7 +40,8 @@
         "baseline cardiovascular status",
         "baseline mental status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, performance status, smoking history, tumor stage, prior surgery, prior radiation therapy, baseline hematologic function, baseline liver function, baseline kidney function, presence of measurable disease, presence of CNS metastases, baseline peripheral neuropathy grade, baseline cardiovascular status, baseline mental status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Performance Status, Tumor Stage, Histology, Smoking Status, Prior Surgery, Prior Radiation Therapy, Hematologic Function, Liver Function, Kidney Function,",
@@ -81,7 +82,8 @@
         "Liver Function",
         "Kidney Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Performance Status, Tumor Stage, Histology, Smoking Status, Prior Surgery, Prior Radiation Therapy, Hematologic Function, Liver Function, Kidney Function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Eastern Cooperative Oncology Group (ECOG) Performance Status, Histology, Stage of Disease, Number of Metastatic Sites, Prior Surgery or Radiation Therapy, Prior Treatment with Investigational Agent.",
@@ -119,7 +121,8 @@
         "Prior Surgery or Radiation Therapy",
         "Prior Treatment with Investigational Agent"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Eastern Cooperative Oncology Group (ECOG) Performance Status, Histology, Stage of Disease, Number of Metastatic Sites, Prior Surgery or Radiation Therapy, Prior Treatment with Investigational Agent."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, Eastern Cooperative Oncology Group (ECOG) performance status, smoking history, tumor histology, tumor stage, number and location of metastases, prior surgery or radiation therapy, time since diagnosis, body mass index (BMI), serum creatinine, bilirubin, and albumin levels, white blood cell count, absolute neutrophil count, platelet count, hemoglobin level.",
@@ -163,6 +166,7 @@
         "platelet count",
         "hemoglobin level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, Eastern Cooperative Oncology Group (ECOG) performance status, smoking history, tumor histology, tumor stage, number and location of metastases, prior surgery or radiation therapy, time since diagnosis, body mass index (BMI), serum creatinine, bilirubin, and albumin levels, white blood cell count, absolute neutrophil count, platelet count, hemoglobin level."
   }
 }

@@ -42,7 +42,8 @@
         "history of cardiovascular events",
         "baseline fasting glucose levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, duration of diabetes, baseline HbA1c, fasting C-peptide, insulin dose, use of oral antidiabetic drugs (OADs), eGFR, history of severe hypoglycemia, history of cardiovascular events, baseline fasting glucose levels."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Fasting C-peptide, Type of Insulin Therapy, Daily Insulin Dose, Use of Oral Antidiabetic Drugs (OADs), Estimated Glomerular Filtration Rate (eGFR),",
@@ -86,7 +87,8 @@
         "Daily Insulin Dose",
         "Estimated Glomerular Filtration Rate (eGFR)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Fasting C-peptide, Type of Insulin Therapy, Daily Insulin Dose, Use of Oral Antidiabetic Drugs (OADs), Estimated Glomerular Filtration Rate (eGFR)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Insulin Dose, HbA1c, BMI, Fasting C-peptide, eGFR, History of Hypoglycemia, History of Cardiovascular Disease.",
@@ -130,7 +132,8 @@
         "History of Hypoglycemia",
         "History of Cardiovascular Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Insulin Dose, HbA1c, BMI, Fasting C-peptide, eGFR, History of Hypoglycemia, History of Cardiovascular Disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, duration of diabetes, type of insulin used, dose of insulin, use of OADs, HbA1c, fasting C-peptide, eGFR, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including history of myocardial infarction, stroke, or transient ischaemic attack), smoking status.",
@@ -174,6 +177,7 @@
         "medical history (including history of myocardial infarction, stroke, or transient ischaemic attack)",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, duration of diabetes, type of insulin used, dose of insulin, use of OADs, HbA1c, fasting C-peptide, eGFR, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including history of myocardial infarction, stroke, or transient ischaemic attack), smoking status."
   }
 }

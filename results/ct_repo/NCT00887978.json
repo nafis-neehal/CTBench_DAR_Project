@@ -39,7 +39,8 @@
         "Physical exam findings",
         "Routine blood test results."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Body weight, Gender, Baseline six-minute walk distance (6MWD), PAH etiology, Current PAH therapy, Duration on current PAH therapy, Previous right heart catheterization results, Previous echocardiography results, Medical history, Physical exam findings, Routine blood test results."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Weight, Baseline 6-minute Walk Distance (6MWD), Type of PAH (idiopathic/heritable, associated with appetite suppressant or toxin use, associated with collagen vascular disease, associated with repaired congenital shunts, associated with HIV), Current PAH therapy (endothelin receptor antagonist, phosphodiesterase-5 inhibitor), Duration of current PAH therapy,",
@@ -81,7 +82,8 @@
         "Body Weight",
         "Duration of current PAH therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Weight, Baseline 6-minute Walk Distance (6MWD), Type of PAH (idiopathic/heritable, associated with appetite suppressant or toxin use, associated with collagen vascular disease, associated with repaired congenital shunts, associated with HIV), Current PAH therapy (endothelin receptor antagonist, phosphodiesterase-5 inhibitor), Duration of current PAH therapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Weight, PAH Etiology, Current PAH Therapy, Baseline 6MWD, World Health Organization Functional Class,",
@@ -125,7 +127,8 @@
         "Region of Enrollment",
         "Body Weight"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Weight, PAH Etiology, Current PAH Therapy, Baseline 6MWD, World Health Organization Functional Class"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body weight, body mass index, PAH etiology (idiopathic/heritable, associated with appetite suppressant or toxin use, associated with collagen vascular disease, associated with repaired congenital shunts, associated with HIV), duration of PAH diagnosis, current PAH therapy (endothelin receptor antagonist and/or phosphodiesterase-5 inhibitor), duration of current PAH therapy, baseline 6MWD, systolic blood pressure, diastolic blood pressure, heart rate, New York Heart Association functional class.",
@@ -170,6 +173,7 @@
         "heart rate",
         "New York Heart Association functional class."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body weight, body mass index, PAH etiology (idiopathic/heritable, associated with appetite suppressant or toxin use, associated with collagen vascular disease, associated with repaired congenital shunts, associated with HIV), duration of PAH diagnosis, current PAH therapy (endothelin receptor antagonist and/or phosphodiesterase-5 inhibitor), duration of current PAH therapy, baseline 6MWD, systolic blood pressure, diastolic blood pressure, heart rate, New York Heart Association functional class."
   }
 }

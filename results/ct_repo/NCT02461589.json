@@ -35,7 +35,8 @@
         "New York Heart Association (NYHA) classification",
         "concomitant medications affecting weight or glucose metabolism."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, diabetes treatment regimen, HbA1c, BMI, renal function (GFR), history of pancreatitis, family or personal history of Multiple Endocrine Neoplasia Type 2 (MEN2) or Medullary Thyroid Carcinoma (MTC), cardiovascular history (myocardial infarction, stroke, unstable angina, transient ischemic attack), New York Heart Association (NYHA) classification, concomitant medications affecting weight or glucose metabolism."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Blood Pressure, Total Cholesterol, eGFR,",
@@ -76,7 +77,8 @@
         "Total Cholesterol",
         "eGFR"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Blood Pressure, Total Cholesterol, eGFR"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Diabetes duration, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, eGFR, Metformin use, Insulin use.",
@@ -124,7 +126,8 @@
         "Metformin use",
         "Insulin use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, HbA1c, Diabetes duration, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, eGFR, Metformin use, Insulin use."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, HbA1c, duration of diabetes, diabetes treatment at baseline, history of cardiovascular disease, history of pancreatitis, history of thyroid disease, smoking status, systolic blood pressure, diastolic blood pressure, heart rate, eGFR, lipid profile, medical history, concomitant medications.",
@@ -170,6 +173,7 @@
         "medical history",
         "concomitant medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, HbA1c, duration of diabetes, diabetes treatment at baseline, history of cardiovascular disease, history of pancreatitis, history of thyroid disease, smoking status, systolic blood pressure, diastolic blood pressure, heart rate, eGFR, lipid profile, medical history, concomitant medications."
   }
 }

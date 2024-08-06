@@ -46,7 +46,8 @@
         "phone type (touch tone)",
         "geographic location (SF Bay Area)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ethnicity, language spoken, duration of diabetes, number of clinic visits in the preceding 24 months, type of diabetes treatment, baseline SF-12 Physical Component Summary score, baseline SF-12 Mental Component Summary score, phone type (touch tone), geographic location (SF Bay Area)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Language, Region of Enrollment, Diabetes Diagnosis Duration, Number of Clinic Visits in Preceding 24 Months,",
@@ -92,7 +93,8 @@
         "Region of Enrollment",
         "Number of Clinic Visits in Preceding 24 Months"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Language, Region of Enrollment, Diabetes Diagnosis Duration, Number of Clinic Visits in Preceding 24 Months"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Language Spoken, Clinic Location, Prior Clinic Visits,",
@@ -137,7 +139,8 @@
         "Clinic Location",
         "Prior Clinic Visits"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Language Spoken, Clinic Location, Prior Clinic Visits"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ethnicity, language spoken, diabetes duration, diabetes treatment regimen, comorbidities, body mass index (BMI), blood pressure, hemoglobin A1c (HbA1c), low-density lipoprotein (LDL) cholesterol, smoking status, education level, income level, health literacy, SF-12 Health Survey scores at baseline.",
@@ -199,6 +202,7 @@
         "smoking status",
         "SF-12 Health Survey scores at baseline."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ethnicity, language spoken, diabetes duration, diabetes treatment regimen, comorbidities, body mass index (BMI), blood pressure, hemoglobin A1c (HbA1c), low-density lipoprotein (LDL) cholesterol, smoking status, education level, income level, health literacy, SF-12 Health Survey scores at baseline."
   }
 }

@@ -47,7 +47,8 @@
         "medication use",
         "comorbid conditions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), baseline fasting plasma glucose, HbA1c, family history of diabetes, smoking status, physical activity level, dietary habits, education level, socioeconomic status, medication use, comorbid conditions, baseline weight."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Fasting Plasma Glucose, HbA1c, Family History of Diabetes, Baseline Weight,",
@@ -92,7 +93,8 @@
         "Fasting Plasma Glucose",
         "HbA1c"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Fasting Plasma Glucose, HbA1c, Family History of Diabetes, Baseline Weight"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Fasting Plasma Glucose, HbA1c, Family History of Diabetes,",
@@ -137,7 +139,8 @@
         "Fasting Plasma Glucose",
         "HbA1c"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Fasting Plasma Glucose, HbA1c, Family History of Diabetes"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, body mass index, fasting plasma glucose, HbA1c, systolic blood pressure, diastolic blood pressure, lipid profile, smoking status, physical activity level, dietary habits, family history of type 2 diabetes, education level, occupation, income level.",
@@ -184,6 +187,7 @@
         "occupation",
         "income level"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, body mass index, fasting plasma glucose, HbA1c, systolic blood pressure, diastolic blood pressure, lipid profile, smoking status, physical activity level, dietary habits, family history of type 2 diabetes, education level, occupation, income level."
   }
 }

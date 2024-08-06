@@ -63,7 +63,8 @@
         "known HIV infection",
         "grade of peripheral neuropathy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, KRAS/NRAS mutation status, neutrophil count, platelet count, hemoglobin level, total bilirubin, AST level, ALT level, serum creatinine, PT-INR, urine protein, UPC ratio, urinary protein, life expectancy, prior chemotherapy status, presence of liver metastases, presence of brain metastases, presence of body cavity fluid, history of radiotherapy, history of other cancers, presence of nonhealing surgical wound, active hemorrhage, use of systemic steroids, presence of colonic stent, history of intestinal resection or colostomy, history of interstitial pulmonary disease, history of cardiovascular events, drug hypersensitivity, presence of active infection, NYHA class, presence of intestinal paralysis or gastrointestinal obstruction, control of hypertension, control of diabetes mellitus, presence of active hepatitis B, known HIV infection, grade of peripheral neuropathy."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, KRAS/NRAS mutation status, Neutrophil count, Platelet count, Hemoglobin, Total bilirubin, AST, ALT, Serum creatinine, PT-INR, Urine protein, UPC ratio, Urinary protein, Life expectancy,",
@@ -112,7 +113,8 @@
         "Urinary protein",
         "Life expectancy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG performance status, KRAS/NRAS mutation status, Neutrophil count, Platelet count, Hemoglobin, Total bilirubin, AST, ALT, Serum creatinine, PT-INR, Urine protein, UPC ratio, Urinary protein, Life expectancy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, ECOG Performance Status, Region of Enrollment, KRAS/NRAS Status, Primary Tumor Location, Number of Metastatic Sites, Prior Adjuvant Chemotherapy, Neutrophil Count, Platelet Count, Hemoglobin, Total Bilirubin, AST, ALT, Serum Creatinine, PT-INR.",
@@ -161,7 +163,8 @@
         "Serum Creatinine",
         "PT-INR"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, ECOG Performance Status, Region of Enrollment, KRAS/NRAS Status, Primary Tumor Location, Number of Metastatic Sites, Prior Adjuvant Chemotherapy, Neutrophil Count, Platelet Count, Hemoglobin, Total Bilirubin, AST, ALT, Serum Creatinine, PT-INR."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ECOG performance status, KRAS/NRAS status, tumor location (left-sided or right-sided), number and location of metastases, prior adjuvant chemotherapy, time since diagnosis, hemoglobin, neutrophil count, platelet count, total bilirubin, AST, ALT, serum creatinine, PT-INR, urine protein, UPC ratio, urinary protein.",
@@ -206,6 +209,7 @@
         "UPC ratio",
         "urinary protein."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ECOG performance status, KRAS/NRAS status, tumor location (left-sided or right-sided), number and location of metastases, prior adjuvant chemotherapy, time since diagnosis, hemoglobin, neutrophil count, platelet count, total bilirubin, AST, ALT, serum creatinine, PT-INR, urine protein, UPC ratio, urinary protein."
   }
 }

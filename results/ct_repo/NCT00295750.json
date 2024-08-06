@@ -35,7 +35,8 @@
         "life expectancy",
         "treatment group (Degarelix or Leuprolide)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, histological stage of prostate cancer, baseline testosterone level, life expectancy, treatment group (Degarelix or Leuprolide)"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline testosterone level, Prostate cancer stage, Life expectancy,",
@@ -79,7 +80,8 @@
       "remaining_candidate_features": [
         "Life expectancy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, Baseline testosterone level, Prostate cancer stage, Life expectancy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity Not Collected, Region of Enrollment, Baseline Testosterone, Prostate-Specific Antigen (PSA), Gleason Score, Clinical Stage of Prostate Cancer,",
@@ -126,7 +128,8 @@
       "remaining_candidate_features": [
         "Race/Ethnicity Not Collected"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity Not Collected, Region of Enrollment, Baseline Testosterone, Prostate-Specific Antigen (PSA), Gleason Score, Clinical Stage of Prostate Cancer"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, body mass index (BMI), prostate-specific antigen (PSA) level, Gleason score, Eastern Cooperative Oncology Group (ECOG) performance status, life expectancy, baseline testosterone level, prostate cancer stage, prior endocrine treatment, prior chemotherapy, prior radiotherapy.",
@@ -178,6 +181,7 @@
         "prior chemotherapy",
         "prior radiotherapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, body mass index (BMI), prostate-specific antigen (PSA) level, Gleason score, Eastern Cooperative Oncology Group (ECOG) performance status, life expectancy, baseline testosterone level, prostate cancer stage, prior endocrine treatment, prior chemotherapy, prior radiotherapy."
   }
 }

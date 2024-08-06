@@ -44,7 +44,8 @@
         "cancer status",
         "presence of gastrointestinal conditions (e.g., Crohn's disease, celiac disease)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, weight, height, body mass index (BMI), baseline erythrocyte omega-3 index %, duration of cystic fibrosis diagnosis, history of exocrine pancreatic insufficiency, frequency of enteral formula use, use of pancreatic enzyme replacement therapy (PERT), dietary fat intake, presence of diabetes mellitus, liver function status, history of lung or liver transplant, cancer status, presence of gastrointestinal conditions (e.g., Crohn's disease, celiac disease)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Erythrocyte Omega-3 Index, Body Mass Index, Duration of Enteral Formula Use, Pancreatic Enzyme Replacement Therapy (PERT) Use, Baseline Fat Absorption,",
@@ -85,7 +86,8 @@
         "Pancreatic Enzyme Replacement Therapy (PERT) Use",
         "Baseline Fat Absorption"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Erythrocyte Omega-3 Index, Body Mass Index, Duration of Enteral Formula Use, Pancreatic Enzyme Replacement Therapy (PERT) Use, Baseline Fat Absorption"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cystic Fibrosis Diagnosis Duration, Pancreatic Insufficiency Diagnosis Duration, Enteral Formula Use Duration, PERT Use Duration, Fat Absorption at Baseline, Erythrocyte Omega-3 Index at Baseline, BMI, Height, Weight,",
@@ -130,7 +132,8 @@
         "Height",
         "Weight"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cystic Fibrosis Diagnosis Duration, Pancreatic Insufficiency Diagnosis Duration, Enteral Formula Use Duration, PERT Use Duration, Fat Absorption at Baseline, Erythrocyte Omega-3 Index at Baseline, BMI, Height, Weight"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, weight, height, body mass index (BMI), cystic fibrosis genotype, duration of cystic fibrosis diagnosis, duration of exocrine pancreatic insufficiency diagnosis, type and dose of pancreatic enzyme replacement therapy (PERT), enteral formula use frequency, fat intake, erythrocyte omega-3 index % (DHA+EPA) at baseline, liver function tests, glucose levels, lung function tests (e.g., FEV1).",
@@ -172,6 +175,7 @@
         "glucose levels",
         "lung function tests (e.g., FEV1)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, weight, height, body mass index (BMI), cystic fibrosis genotype, duration of cystic fibrosis diagnosis, duration of exocrine pancreatic insufficiency diagnosis, type and dose of pancreatic enzyme replacement therapy (PERT), enteral formula use frequency, fat intake, erythrocyte omega-3 index % (DHA+EPA) at baseline, liver function tests, glucose levels, lung function tests (e.g., FEV1)."
   }
 }

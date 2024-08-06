@@ -43,7 +43,8 @@
         "Allergy to study treatment components",
         "Cirrhosis status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Race, ECOG performance status, KRAS mutation status, Prior systemic chemotherapy regimens, Hematologic function, Renal function, Hepatic function, Coagulation function, Tumor tissue sample availability, Metastatic disease status, Prior bevacizumab treatment, History of arterial thrombotic events, History of inflammatory bowel disease, Bowel obstruction history, Bleeding event history, Gilbert's Syndrome status, Allergy to study treatment components, Cirrhosis status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior Systemic Chemotherapy Regimens, Hematologic Function, Renal Function, Hepatic Function, Coagulation Function, Tumor Biomarkers,",
@@ -81,7 +82,8 @@
         "Coagulation Function",
         "Tumor Biomarkers"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Prior Systemic Chemotherapy Regimens, Hematologic Function, Renal Function, Hepatic Function, Coagulation Function, Tumor Biomarkers"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, ECOG Performance Status, Prior Chemotherapy Regimens, Prior Bevacizumab Therapy, KRAS Mutation Status, Metastatic Disease Sites, Baseline ECOG Performance Status, Baseline Hemoglobin, Baseline Platelet Count, Baseline White Blood Cell Count, Baseline Creatinine Clearance, Baseline Albumin, Baseline Total Bilirubin, Baseline Aspartate Aminotransferase, Baseline Alanine Aminotransferase.",
@@ -122,7 +124,8 @@
         "Baseline Aspartate Aminotransferase",
         "Baseline Alanine Aminotransferase"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, ECOG Performance Status, Prior Chemotherapy Regimens, Prior Bevacizumab Therapy, KRAS Mutation Status, Metastatic Disease Sites, Baseline ECOG Performance Status, Baseline Hemoglobin, Baseline Platelet Count, Baseline White Blood Cell Count, Baseline Creatinine Clearance, Baseline Albumin, Baseline Total Bilirubin, Baseline Aspartate Aminotransferase, Baseline Alanine Aminotransferase."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, KRAS mutation status, number of prior systemic chemotherapy regimens, time since diagnosis of metastatic disease, prior therapy with bevacizumab, prior therapy with oxaliplatin, prior therapy with fluoropyrimidine, presence of measurable disease, presence of non-measurable disease, number and location of metastatic sites, baseline laboratory values (hematologic, renal, hepatic function, coagulation function).",
@@ -163,6 +166,7 @@
         "number and location of metastatic sites",
         "baseline laboratory values (hematologic, renal, hepatic function, coagulation function)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, KRAS mutation status, number of prior systemic chemotherapy regimens, time since diagnosis of metastatic disease, prior therapy with bevacizumab, prior therapy with oxaliplatin, prior therapy with fluoropyrimidine, presence of measurable disease, presence of non-measurable disease, number and location of metastatic sites, baseline laboratory values (hematologic, renal, hepatic function, coagulation function)."
   }
 }

@@ -36,7 +36,8 @@
         "Body Mass Index (BMI)",
         "Cognitive Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Duration of Type 1 Diabetes, Insulin Pump Usage Duration, Type of Insulin Used, Hemoglobin A1C Levels, Body Mass Index (BMI), Cognitive Function, Pregnancy Status"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Duration of Diabetes, Type of Insulin Used, Mean Hemoglobin A1C, Insulin Pump Usage,",
@@ -75,7 +76,8 @@
         "Mean Hemoglobin A1C",
         "Insulin Pump Usage"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Duration of Diabetes, Type of Insulin Used, Mean Hemoglobin A1C, Insulin Pump Usage"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Insulin Pump Use, HbA1c, Body Mass Index,",
@@ -116,7 +118,8 @@
         "HbA1c",
         "Body Mass Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Insulin Pump Use, HbA1c, Body Mass Index"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index, duration of type 1 diabetes, mean hemoglobin A1C, insulin requirement, type of insulin used, cognitive function (IQ), presence of acanthosis nigricans, presence of clinically significant major organ system disease.",
@@ -152,6 +155,7 @@
         "presence of acanthosis nigricans",
         "presence of clinically significant major organ system disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index, duration of type 1 diabetes, mean hemoglobin A1C, insulin requirement, type of insulin used, cognitive function (IQ), presence of acanthosis nigricans, presence of clinically significant major organ system disease."
   }
 }

@@ -84,7 +84,8 @@
         "gender",
         "presence of brain metastases"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, stage of disease, prior treatments, liver function, kidney function, marrow function, presence of brain metastases, life expectancy, pregnancy status, HIV status, hepatitis status, history of myocardial infarction, history of other malignancies, hypersensitivity to study drugs, pre-existing neuropathy."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Stage of NSCLC, Prior systemic anti-cancer regimens, Presence of brain metastases, Liver function tests, Kidney function tests, Marrow function tests, Life expectancy,",
@@ -138,7 +139,8 @@
         "Marrow function tests",
         "Life expectancy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Stage of NSCLC, Prior systemic anti-cancer regimens, Presence of brain metastases, Liver function tests, Kidney function tests, Marrow function tests, Life expectancy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, ECOG Performance Status, Histology, Stage of Disease, Number of Prior Chemotherapy Regimens, Prior Platinum-based Chemotherapy, Presence of Brain Metastases, Life Expectancy.",
@@ -188,7 +190,8 @@
         "Presence of Brain Metastases",
         "Life Expectancy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, ECOG Performance Status, Histology, Stage of Disease, Number of Prior Chemotherapy Regimens, Prior Platinum-based Chemotherapy, Presence of Brain Metastases, Life Expectancy."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ECOG performance status, NSCLC stage, number of prior systemic anti-cancer regimens, presence of brain metastases, liver function tests, kidney function tests, complete blood count, prior platinum-based chemotherapy, time since last dose of treatment.",
@@ -238,6 +241,7 @@
         "complete blood count",
         "time since last dose of treatment."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ECOG performance status, NSCLC stage, number of prior systemic anti-cancer regimens, presence of brain metastases, liver function tests, kidney function tests, complete blood count, prior platinum-based chemotherapy, time since last dose of treatment."
   }
 }

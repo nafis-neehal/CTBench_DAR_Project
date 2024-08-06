@@ -37,7 +37,8 @@
         "number of glaucoma medications",
         "baseline best-corrected visual acuity (BCVA)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline intraocular pressure (IOP), visual field mean deviation score, Shaffer Angle Grade, number of glaucoma medications, history of ocular surgery, baseline best-corrected visual acuity (BCVA)"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure (IOP), Visual Field Mean Deviation Score, Shaffer Angle Grade, Number of Glaucoma Medications,",
@@ -75,7 +76,8 @@
         "Shaffer Angle Grade",
         "Number of Glaucoma Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Intraocular Pressure (IOP), Visual Field Mean Deviation Score, Shaffer Angle Grade, Number of Glaucoma Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, Ethnicity (Customized), Region of Enrollment, Diagnosis of Refractory Glaucoma, Maximally-tolerated medicated IOP, Visual field mean deviation score, Shaffer Angle Grade, Area of free, healthy and mobile conjunctiva, Previous glaucoma surgery, Best Corrected Visual Acuity (BCVA).",
@@ -113,7 +115,8 @@
         "healthy and mobile conjunctiva",
         "Best Corrected Visual Acuity (BCVA)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Region of Enrollment, Diagnosis of Refractory Glaucoma, Maximally-tolerated medicated IOP, Visual field mean deviation score, Shaffer Angle Grade, Area of free, healthy and mobile conjunctiva, Previous glaucoma surgery, Best Corrected Visual Acuity (BCVA)."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), diagnosis duration, number of glaucoma medications, best-corrected visual acuity (BCVA), visual field mean deviation score, Shaffer Angle Grade, intraocular pressure (IOP), history of ocular surgery, history of systemic diseases (e.g., diabetes, hypertension).",
@@ -155,6 +158,7 @@
         "intraocular pressure (IOP)",
         "history of systemic diseases (e.g., diabetes, hypertension)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), diagnosis duration, number of glaucoma medications, best-corrected visual acuity (BCVA), visual field mean deviation score, Shaffer Angle Grade, intraocular pressure (IOP), history of ocular surgery, history of systemic diseases (e.g., diabetes, hypertension)."
   }
 }

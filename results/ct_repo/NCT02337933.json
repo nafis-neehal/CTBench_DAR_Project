@@ -50,7 +50,8 @@
       "remaining_candidate_features": [
         "Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, Waist Circumference, High Density Lipoprotein Cholesterol (HDL-c), Fasting Glucose, Triglycerides, Blood Pressure, Body Mass Index (BMI)"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Waist Circumference, High Density Lipoprotein Cholesterol (HDL-c), Fasting Glucose, Triglycerides, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index,",
@@ -108,7 +109,8 @@
         "Uric acid"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Waist Circumference, High Density Lipoprotein Cholesterol (HDL-c), Fasting Glucose, Triglycerides, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Fasting Glucose, Triglycerides, High Density Lipoprotein Cholesterol (HDL-c), Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Low Density Lipoprotein Cholesterol (LDL-c), Insulin Sensitivity.",
@@ -180,7 +182,8 @@
       "remaining_candidate_features": [
         "Race/Ethnicity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Waist Circumference, Fasting Glucose, Triglycerides, High Density Lipoprotein Cholesterol (HDL-c), Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Low Density Lipoprotein Cholesterol (LDL-c), Insulin Sensitivity."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), waist circumference, fasting glucose, triglycerides, high density lipoprotein (HDL) cholesterol, low density lipoprotein (LDL) cholesterol, total cholesterol, systolic blood pressure, diastolic blood pressure.",
@@ -241,6 +244,7 @@
         "Uric acid"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), waist circumference, fasting glucose, triglycerides, high density lipoprotein (HDL) cholesterol, low density lipoprotein (LDL) cholesterol, total cholesterol, systolic blood pressure, diastolic blood pressure."
   }
 }

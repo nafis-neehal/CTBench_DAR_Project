@@ -37,7 +37,8 @@
         "alcohol use",
         "body mass index (BMI)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline tumor size, performance status (e.g., ECOG score), prior treatments, comorbidities, baseline laboratory values (e.g., liver function tests, renal function tests), baseline quality of life scores, smoking status, alcohol use, body mass index (BMI)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Stage of Disease, Prior Cancer Treatments, Performance Status, Baseline Tumor Measurements,",
@@ -74,7 +75,8 @@
         "Performance Status",
         "Baseline Tumor Measurements"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Stage of Disease, Prior Cancer Treatments, Performance Status, Baseline Tumor Measurements"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior Chemotherapy, Prior Radiation Therapy, Number of Metastatic Sites, Primary Tumor Location, Time Since Initial Diagnosis,",
@@ -113,7 +115,8 @@
         "Primary Tumor Location",
         "Time Since Initial Diagnosis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Prior Chemotherapy, Prior Radiation Therapy, Number of Metastatic Sites, Primary Tumor Location, Time Since Initial Diagnosis"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, Eastern Cooperative Oncology Group (ECOG) performance status, tumor location, tumor size, number of metastatic sites, prior adjuvant chemotherapy, prior radiation therapy, time from initial diagnosis to metastatic disease, Karnofsky performance status.",
@@ -151,6 +154,7 @@
         "time from initial diagnosis to metastatic disease",
         "Karnofsky performance status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, Eastern Cooperative Oncology Group (ECOG) performance status, tumor location, tumor size, number of metastatic sites, prior adjuvant chemotherapy, prior radiation therapy, time from initial diagnosis to metastatic disease, Karnofsky performance status."
   }
 }

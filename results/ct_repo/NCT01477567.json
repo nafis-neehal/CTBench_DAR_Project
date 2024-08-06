@@ -82,7 +82,8 @@
         "Fasting Blood Glucose"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), blood pressure, pulse rate, blood test results, urine test results, smoking status, alcohol intake, history of drug or alcohol abuse, electrocardiogram (ECG) readings, immune status (hepatitis B, HIV), history of allergies or other health problems, previous participation in clinical trials, medication use, blood donation history, dietary habits."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Blood Pressure, Pulse Rate, Blood Test Results, Urine Test Results, Smoking Status, Alcohol Intake,",
@@ -125,7 +126,8 @@
         "Smoking Status",
         "Alcohol Intake"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, Blood Pressure, Pulse Rate, Blood Test Results, Urine Test Results, Smoking Status, Alcohol Intake"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulse Rate.",
@@ -160,7 +162,8 @@
         "Diastolic Blood Pressure",
         "Pulse Rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulse Rate."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), blood pressure, pulse rate, diabetes status, medical history, smoking status, alcohol consumption, laboratory test results (blood and urine), electrocardiogram (ECG) readings.",
@@ -208,6 +211,7 @@
         "smoking status",
         "alcohol consumption"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), blood pressure, pulse rate, diabetes status, medical history, smoking status, alcohol consumption, laboratory test results (blood and urine), electrocardiogram (ECG) readings."
   }
 }

@@ -39,7 +39,8 @@
         "presence of nonalcoholic fatty liver disease (NAFLD)",
         "presence of proliferative retinopathy or maculopathy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, duration of type 2 diabetes, baseline HbA1c, body mass index (BMI), baseline fasting plasma glucose, baseline metformin dose, estimated glomerular filtration rate (eGFR), liver function tests (ALT levels), history of cardiovascular events, history of pancreatitis, presence of nonalcoholic fatty liver disease (NAFLD), presence of proliferative retinopathy or maculopathy."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Metformin Dose, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR),",
@@ -79,7 +80,8 @@
         "Diastolic Blood Pressure",
         "Estimated Glomerular Filtration Rate (eGFR)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Metformin Dose, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, eGFR, Metformin Dose.",
@@ -124,7 +126,8 @@
         "eGFR",
         "Metformin Dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, eGFR, Metformin Dose."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at baseline, fasting plasma glucose at baseline, systolic blood pressure, diastolic blood pressure, heart rate, waist circumference, smoking status, metformin dose at baseline.",
@@ -166,6 +169,7 @@
         "smoking status",
         "metformin dose at baseline."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at baseline, fasting plasma glucose at baseline, systolic blood pressure, diastolic blood pressure, heart rate, waist circumference, smoking status, metformin dose at baseline."
   }
 }

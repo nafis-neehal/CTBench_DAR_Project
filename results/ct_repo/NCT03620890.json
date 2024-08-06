@@ -55,7 +55,8 @@
         "number of twin pregnancies",
         "history of major fetal anomalies"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gestational age, Hemoglobin A1c (HBA1C) level, fasting glucose level, random blood glucose level, number of singleton pregnancies, number of twin pregnancies, prior insulin use, history of major fetal anomalies, presence of diabetic nephropathy, presence of diabetic proliferative retinopathy."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Gestational Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Hemoglobin A1c, Fasting Blood Glucose, Number of Previous Pregnancies, Singleton or Twin Pregnancy, ",
@@ -110,7 +111,8 @@
         "Fasting Blood Glucose",
         "Number of Previous Pregnancies"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gestational Age, Sex: Female, Race/Ethnicity, Body Mass Index, Hemoglobin A1c, Fasting Blood Glucose, Number of Previous Pregnancies, Singleton or Twin Pregnancy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gestational Age, Weeks, Pre-pregnancy BMI, Diabetes Duration, HbA1c, Fasting Blood Glucose, Insulin Dose, Singleton or Twin Pregnancy.",
@@ -161,7 +163,8 @@
         "Weeks",
         "Fasting Blood Glucose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gestational Age, Weeks, Pre-pregnancy BMI, Diabetes Duration, HbA1c, Fasting Blood Glucose, Insulin Dose, Singleton or Twin Pregnancy."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, body mass index (BMI), gestational age at enrollment, parity, type of diabetes, duration of diabetes, HbA1c at enrollment, fasting glucose at enrollment, random blood glucose at enrollment, insulin dose at enrollment, history of hypertension, history of preeclampsia, history of fetal anomalies.",
@@ -228,6 +231,7 @@
         "insulin dose at enrollment",
         "history of preeclampsia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, body mass index (BMI), gestational age at enrollment, parity, type of diabetes, duration of diabetes, HbA1c at enrollment, fasting glucose at enrollment, random blood glucose at enrollment, insulin dose at enrollment, history of hypertension, history of preeclampsia, history of fetal anomalies."
   }
 }

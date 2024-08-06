@@ -61,7 +61,8 @@
         "Presence of Uncontrolled Glaucoma",
         "Evidence of External Ocular Infection."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Type of Diabetes (Type 1 or Type 2), Duration of Diabetes, Baseline Visual Acuity (E-ETDRS letter score), Baseline Retinal Thickness (OCT central subfield), Blood Pressure, History of Renal Disease, History of Cardiovascular Disease, Prior Macular Photocoagulation, Media Clarity, Pupillary Dilation, Subject Cooperation, History of Major Ocular Surgery, History of Panretinal Scatter Photocoagulation (PRP), History of Pars Plana Vitrectomy, History of YAG Capsulotomy, Presence of Aphakia, Presence of Uncontrolled Glaucoma, Evidence of External Ocular Infection."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Blood Pressure, Baseline Visual Acuity, Central Subfield Retinal Thickness, Prior Macular Photocoagulation,",
@@ -119,7 +120,8 @@
         "Region of Enrollment",
         "Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Blood Pressure, Baseline Visual Acuity, Central Subfield Retinal Thickness, Prior Macular Photocoagulation"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Type, Diabetes Duration, HbA1c, Blood Pressure, BMI, Retinal Thickness, Visual Acuity, Prior Macular Photocoagulation, Prior Panretinal Scatter Photocoagulation, Prior Vitrectomy.",
@@ -178,7 +180,8 @@
         "Prior Macular Photocoagulation",
         "Prior Vitrectomy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes Type, Diabetes Duration, HbA1c, Blood Pressure, BMI, Retinal Thickness, Visual Acuity, Prior Macular Photocoagulation, Prior Panretinal Scatter Photocoagulation, Prior Vitrectomy."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, diabetes type, duration of diabetes, hemoglobin A1c, systolic and diastolic blood pressure, body mass index, smoking status, history of myocardial infarction, history of stroke, history of transient ischemic attack, history of congestive heart failure, history of renal disease, best corrected E-ETDRS visual acuity letter score, OCT central subfield thickness.",
@@ -239,6 +242,7 @@
         "history of congestive heart failure",
         "history of renal disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, diabetes type, duration of diabetes, hemoglobin A1c, systolic and diastolic blood pressure, body mass index, smoking status, history of myocardial infarction, history of stroke, history of transient ischemic attack, history of congestive heart failure, history of renal disease, best corrected E-ETDRS visual acuity letter score, OCT central subfield thickness."
   }
 }

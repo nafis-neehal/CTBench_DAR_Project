@@ -34,7 +34,8 @@
         "use of systemic corticosteroids",
         "prior chemotherapy history."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, histological or cytological confirmation of prostate adenocarcinoma, prior surgical castration or concurrent use of an agent for medical castration, Prostate-Specific Antigen (PSA) levels, progressive disease status, prior therapy history, hypersensitivity to related compounds, use of antiandrogen therapy, use of systemic corticosteroids, prior chemotherapy history."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline PSA levels, Prior surgical castration, Use of medical castration agent, Progressive disease status,",
@@ -70,7 +71,8 @@
         "Use of medical castration agent",
         "Progressive disease status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, Baseline PSA levels, Prior surgical castration, Use of medical castration agent, Progressive disease status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Eastern Cooperative Oncology Group (ECOG) Performance Status, Prostate-Specific Antigen (PSA) at screening, Gleason score, Prior therapy for prostate cancer, Duration of prior therapy for prostate cancer.",
@@ -110,7 +112,8 @@
         "Prior therapy for prostate cancer",
         "Duration of prior therapy for prostate cancer."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Eastern Cooperative Oncology Group (ECOG) Performance Status, Prostate-Specific Antigen (PSA) at screening, Gleason score, Prior therapy for prostate cancer, Duration of prior therapy for prostate cancer."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, body mass index (BMI), prostate-specific antigen (PSA) level, Gleason score, Eastern Cooperative Oncology Group (ECOG) performance status, prior surgical castration, concurrent use of GnRH analogue, prior neoadjuvant/adjuvant therapy, time since diagnosis of prostate cancer, time since diagnosis of castration-resistant prostate cancer.",
@@ -150,6 +153,7 @@
         "time since diagnosis of prostate cancer",
         "time since diagnosis of castration-resistant prostate cancer"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, body mass index (BMI), prostate-specific antigen (PSA) level, Gleason score, Eastern Cooperative Oncology Group (ECOG) performance status, prior surgical castration, concurrent use of GnRH analogue, prior neoadjuvant/adjuvant therapy, time since diagnosis of prostate cancer, time since diagnosis of castration-resistant prostate cancer."
   }
 }

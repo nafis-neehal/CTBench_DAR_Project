@@ -49,7 +49,8 @@
         "nutritional status",
         "concomitant medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, height, weight, growth hormone deficiency status, Turner syndrome status, chronic renal insufficiency status, baseline IGF-1 levels, duration of growth hormone therapy, pubertal status, ethnicity, socioeconomic status, nutritional status, concomitant medications."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Height, Weight, Body Mass Index, Growth Hormone Deficiency Diagnosis, Turner Syndrome Diagnosis, Chronic Renal Insufficiency Diagnosis, Baseline IGF-1 Levels,",
@@ -97,7 +98,8 @@
         "Chronic Renal Insufficiency Diagnosis",
         "Baseline IGF-1 Levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Height, Weight, Body Mass Index, Growth Hormone Deficiency Diagnosis, Turner Syndrome Diagnosis, Chronic Renal Insufficiency Diagnosis, Baseline IGF-1 Levels"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Diagnosis (Growth Hormone Deficiency, Turner Syndrome, Chronic Renal Insufficiency), Height, Weight, BMI, IGF-1 levels at baseline, GH dose at baseline.",
@@ -142,7 +144,8 @@
         "IGF-1 levels at baseline",
         "GH dose at baseline."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diagnosis (Growth Hormone Deficiency, Turner Syndrome, Chronic Renal Insufficiency), Height, Weight, BMI, IGF-1 levels at baseline, GH dose at baseline."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, weight, height, body mass index (BMI), diagnosis (Turner syndrome, renal insufficiency, pituitary diseases, dwarfism), duration of growth hormone deficiency, previous growth hormone treatment, Tanner stage, pubertal status.",
@@ -188,6 +191,7 @@
         "Tanner stage",
         "pubertal status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, weight, height, body mass index (BMI), diagnosis (Turner syndrome, renal insufficiency, pituitary diseases, dwarfism), duration of growth hormone deficiency, previous growth hormone treatment, Tanner stage, pubertal status."
   }
 }

@@ -55,7 +55,8 @@
         "substance abuse history",
         "renal transplantation plans"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, dialysis vintage, residual renal function, blood-flow rates during hemodialysis, health status, life expectancy, body mass index (BMI), body weight, concomitant diseases, medication use, anticoagulation status, cardiac function, seizure history, blood pressure, intradialytic hypotension (IDH) risk, pregnancy status, clotting disorders, hemoglobin level, liver enzyme levels (ALT, AST), thyroid function (TSH, T3, T4), type 2 diabetes control, prior clinical trial participation, mental health history, substance abuse history, renal transplantation plans."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Dialysis vintage, Body Mass Index, Blood pressure, Hemoglobin level, Alanine aminotransferase (ALT), Aspartate transaminase (AST), Thyroid stimulating hormone (TSH), Diabetes status, ",
@@ -98,7 +99,8 @@
         "Thyroid stimulating hormone (TSH)",
         "Diabetes status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Dialysis vintage, Body Mass Index, Blood pressure, Hemoglobin level, Alanine aminotransferase (ALT), Aspartate transaminase (AST), Thyroid stimulating hormone (TSH), Diabetes status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Dialysis Vintage, Residual Renal Function, Inter-dialysis Interval, Life Expectancy, Concomitant Diseases, Medications, Kt/V, Hemoglobin Level, Alanine Aminotransferase, Aspartate Transaminase, Thyroid Stimulating Hormone.",
@@ -145,7 +147,8 @@
         "Aspartate Transaminase",
         "Thyroid Stimulating Hormone"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Dialysis Vintage, Residual Renal Function, Inter-dialysis Interval, Life Expectancy, Concomitant Diseases, Medications, Kt/V, Hemoglobin Level, Alanine Aminotransferase, Aspartate Transaminase, Thyroid Stimulating Hormone."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), dialysis vintage, residual renal function, inter-dialysis intervals, life expectancy, medical history, physical examination findings, laboratory test results, vital signs, ECG findings, concomitant diseases, medications, Kt/V, blood pressure, ultrafiltration rate (UFR).",
@@ -191,6 +194,7 @@
         "blood pressure",
         "ultrafiltration rate (UFR)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), dialysis vintage, residual renal function, inter-dialysis intervals, life expectancy, medical history, physical examination findings, laboratory test results, vital signs, ECG findings, concomitant diseases, medications, Kt/V, blood pressure, ultrafiltration rate (UFR)."
   }
 }

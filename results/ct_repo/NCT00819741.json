@@ -44,7 +44,8 @@
         "history of haematological disease",
         "history of corticosteroid use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, BMI, baseline HbA1c, fasting blood glucose, duration of diabetes, blood pressure, liver function tests (ASAT, ALAT), renal function tests, history of cardiovascular disease, history of hypertension, history of gastrointestinal disease, history of pulmonary disease, history of neurological disease, history of genitourinary disease, history of haematological disease, history of corticosteroid use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Blood Pressure, Liver Function Tests (ASAT, ALAT), Renal Function, Duration of Diabetes,",
@@ -85,7 +86,8 @@
         "Liver Function Tests (ASAT, ALAT)",
         "Renal Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Blood Pressure, Liver Function Tests (ASAT, ALAT), Renal Function, Duration of Diabetes"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (Customized), Region of Enrollment, Body Mass Index, HbA1c, Diabetes duration, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol,",
@@ -126,7 +128,8 @@
         "HDL Cholesterol",
         "LDL Cholesterol"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Region of Enrollment, Body Mass Index, HbA1c, Diabetes duration, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, BMI, HbA1c, duration of diabetes, systolic and diastolic blood pressure, history of hypertension, history of cardiovascular disease, liver function tests (ASAT, ALAT), renal function tests, use of systemic corticosteroids.",
@@ -168,6 +171,7 @@
         "renal function tests",
         "use of systemic corticosteroids."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, BMI, HbA1c, duration of diabetes, systolic and diastolic blood pressure, history of hypertension, history of cardiovascular disease, liver function tests (ASAT, ALAT), renal function tests, use of systemic corticosteroids."
   }
 }

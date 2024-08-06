@@ -40,7 +40,8 @@
         "use of contraception",
         "expected survival."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, number of liver metastases, size of liver metastases, prior treatments (chemotherapy, targeted biological therapy, surgery, TACE, radiofrequency ablation, cryosurgery), presence of extrahepatic disease, Child-Pugh classification, liver function tests, renal function tests, hematologic function tests, presence of cirrhosis, use of contraception, expected survival."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Number of Liver Metastases, Size of Liver Metastases, Prior Treatments (Chemotherapy, Surgery, TACE, Ablation), Child-Pugh Classification, Uninvolved Liver Volume,",
@@ -80,7 +81,8 @@
         "Child-Pugh Classification",
         "Uninvolved Liver Volume"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Number of Liver Metastases, Size of Liver Metastases, Prior Treatments (Chemotherapy, Surgery, TACE, Ablation), Child-Pugh Classification, Uninvolved Liver Volume"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Child-Pugh Classification, Number of Liver Metastases, Size of Largest Liver Metastasis, Prior Chemotherapy, Prior Radiation Therapy, Prior Surgery, Prior TACE, Prior Radiofrequency Ablation, Prior Cryosurgery.",
@@ -124,7 +126,8 @@
         "Prior Radiofrequency Ablation",
         "Prior Cryosurgery"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Child-Pugh Classification, Number of Liver Metastases, Size of Largest Liver Metastasis, Prior Chemotherapy, Prior Radiation Therapy, Prior Surgery, Prior TACE, Prior Radiofrequency Ablation, Prior Cryosurgery."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, Child-Pugh classification, presence of cirrhosis, number and size of liver metastases, primary cancer diagnosis, presence of extrahepatic disease, prior treatments (chemotherapy, targeted biological therapy, surgery, transarterial chemoembolization, radiofrequency ablation, cryosurgery), time since prior treatment, liver function tests (e.g. bilirubin, ALT, AST), creatinine level, platelet count, hemoglobin level.",
@@ -173,6 +176,7 @@
         "platelet count",
         "hemoglobin level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, Child-Pugh classification, presence of cirrhosis, number and size of liver metastases, primary cancer diagnosis, presence of extrahepatic disease, prior treatments (chemotherapy, targeted biological therapy, surgery, transarterial chemoembolization, radiofrequency ablation, cryosurgery), time since prior treatment, liver function tests (e.g. bilirubin, ALT, AST), creatinine level, platelet count, hemoglobin level."
   }
 }

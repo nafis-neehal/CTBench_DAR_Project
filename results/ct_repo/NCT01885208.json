@@ -41,7 +41,8 @@
         "smoking status",
         "physical activity level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, body mass index (BMI), duration of diabetes, baseline HbA1c, fasting plasma glucose, use of oral antidiabetic drugs (OADs), estimated glomerular filtration rate (eGFR), blood pressure, lipid profile, history of cardiovascular disease, smoking status, physical activity level."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, Use of Oral Antidiabetic Drugs,",
@@ -85,7 +86,8 @@
         "eGFR",
         "Use of Oral Antidiabetic Drugs"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, Use of Oral Antidiabetic Drugs"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, eGFR, History of Cardiovascular Disease.",
@@ -136,7 +138,8 @@
         "eGFR",
         "History of Cardiovascular Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, eGFR, History of Cardiovascular Disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, heart rate, medical history, smoking status, use of concomitant medications, estimated glomerular filtration rate (eGFR), calcitonin value.",
@@ -184,6 +187,7 @@
         "estimated glomerular filtration rate (eGFR)",
         "calcitonin value."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, heart rate, medical history, smoking status, use of concomitant medications, estimated glomerular filtration rate (eGFR), calcitonin value."
   }
 }

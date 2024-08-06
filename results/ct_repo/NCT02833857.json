@@ -74,7 +74,8 @@
         "duration of secondary hyperparathyroidism",
         "duration on hemodialysis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, weight, height, baseline serum corrected calcium concentration, baseline serum phosphorus concentration, baseline serum potassium concentration, baseline intact parathyroid hormone (iPTH) levels, baseline heart rate, baseline temperature, baseline blood pressure, baseline PR interval, baseline QRS interval, baseline QT interval, baseline corrected (Bazett) QT interval, baseline corrected (Fridericia) QT interval, duration of chronic kidney disease, duration of secondary hyperparathyroidism, duration on hemodialysis."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Weight, Serum Corrected Calcium Concentration, Serum Phosphorus Concentration, Serum Potassium Concentration, Intact Parathyroid Hormone (iPTH) Levels, Heart Rate, Temperature, Blood Pressure, PR Interval, QRS Interval, QT Interval, Corrected (Bazett) QT Interval, Corrected (Fridericia) QT Interval,",
@@ -150,7 +151,8 @@
       "remaining_candidate_features": [
         "Weight"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Weight, Serum Corrected Calcium Concentration, Serum Phosphorus Concentration, Serum Potassium Concentration, Intact Parathyroid Hormone (iPTH) Levels, Heart Rate, Temperature, Blood Pressure, PR Interval, QRS Interval, QT Interval, Corrected (Bazett) QT Interval, Corrected (Fridericia) QT Interval"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Weight, Height, Body Mass Index, Hemodialysis duration, Serum calcium, Serum phosphorus, Serum potassium, Intact parathyroid hormone levels, Blood pressure, Heart rate, Electrocardiograph (ECG) measurements.",
@@ -216,7 +218,8 @@
         "Hemodialysis duration",
         "Electrocardiograph (ECG) measurements."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Weight, Height, Body Mass Index, Hemodialysis duration, Serum calcium, Serum phosphorus, Serum potassium, Intact parathyroid hormone levels, Blood pressure, Heart rate, Electrocardiograph (ECG) measurements."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, weight, height, body mass index (BMI), race, ethnicity, duration of hemodialysis, duration of secondary hyperparathyroidism, prior cinacalcet therapy, concomitant medications, laboratory results (serum corrected calcium, phosphorus, potassium, intact parathyroid hormone levels), electrocardiograph (ECG) measurements (QT interval, PR interval, QRS interval), heart rate, temperature, blood pressure.",
@@ -295,6 +298,7 @@
         "prior cinacalcet therapy",
         "concomitant medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, weight, height, body mass index (BMI), race, ethnicity, duration of hemodialysis, duration of secondary hyperparathyroidism, prior cinacalcet therapy, concomitant medications, laboratory results (serum corrected calcium, phosphorus, potassium, intact parathyroid hormone levels), electrocardiograph (ECG) measurements (QT interval, PR interval, QRS interval), heart rate, temperature, blood pressure."
   }
 }

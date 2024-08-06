@@ -31,7 +31,8 @@
         "baseline health care utilization",
         "baseline patient activation measure score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, BMI, primary language, smartphone ownership, health risk stratification score, socioeconomic status, baseline health care utilization, baseline patient activation measure score."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Language Preference, Health Risk Stratification, Smartphone Ownership,",
@@ -67,7 +68,8 @@
         "Health Risk Stratification",
         "Smartphone Ownership"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Language Preference, Health Risk Stratification, Smartphone Ownership"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Primary Language, Health Risk Stratification Score,",
@@ -102,7 +104,8 @@
         "Body Mass Index",
         "Health Risk Stratification Score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Primary Language, Health Risk Stratification Score"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, BMI, primary language, health risk stratification score, comorbidities, medication use, healthcare utilization, education level, income level, occupation, marital status.",
@@ -143,6 +146,7 @@
         "occupation",
         "marital status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, BMI, primary language, health risk stratification score, comorbidities, medication use, healthcare utilization, education level, income level, occupation, marital status."
   }
 }

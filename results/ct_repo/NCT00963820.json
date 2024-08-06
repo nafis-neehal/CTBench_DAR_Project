@@ -37,7 +37,8 @@
         "baseline cardiovascular status",
         "baseline infection status (e.g., HIV, hepatitis B, hepatitis C)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline disease characteristics (e.g., stage of multiple myeloma, prior lines of therapy), performance status (e.g., ECOG score), organ function (e.g., liver function tests, renal function tests), prior treatments and responses, comorbid conditions, baseline laboratory values (e.g., complete blood count, serum calcium, creatinine), baseline neuropathy status, baseline gastrointestinal function, baseline cardiovascular status, baseline infection status (e.g., HIV, hepatitis B, hepatitis C)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Number of Prior Therapies, Functional Status, Organ Function, Peripheral Neuropathy Grade, Infection Status, Cardiovascular Conditions, HIV/Hepatitis Status, Gastrointestinal Disease,",
@@ -79,7 +80,8 @@
         "HIV/Hepatitis Status",
         "Gastrointestinal Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Number of Prior Therapies, Functional Status, Organ Function, Peripheral Neuropathy Grade, Infection Status, Cardiovascular Conditions, HIV/Hepatitis Status, Gastrointestinal Disease"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Eastern Cooperative Oncology Group (ECOG) Performance Status, Multiple Myeloma Disease Status, Prior Lines of Therapy, Prior Proteasome Inhibitor Exposure, Creatinine Clearance, Serum Creatinine, Albumin, Hemoglobin, Platelet Count, Absolute Neutrophil Count.",
@@ -123,7 +125,8 @@
         "Platelet Count",
         "Absolute Neutrophil Count"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Eastern Cooperative Oncology Group (ECOG) Performance Status, Multiple Myeloma Disease Status, Prior Lines of Therapy, Prior Proteasome Inhibitor Exposure, Creatinine Clearance, Serum Creatinine, Albumin, Hemoglobin, Platelet Count, Absolute Neutrophil Count."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, multiple myeloma diagnosis duration, number of prior lines of therapy, prior proteasome inhibitor exposure, prior autologous stem cell transplant, serum creatinine, total bilirubin, aspartate aminotransferase (AST), alanine aminotransferase (ALT), lactate dehydrogenase (LDH), beta-2 microglobulin, albumin, hemoglobin, platelet count, absolute neutrophil count (ANC), peripheral neuropathy grade, Karnofsky performance status.",
@@ -176,6 +179,7 @@
         "peripheral neuropathy grade",
         "Karnofsky performance status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, multiple myeloma diagnosis duration, number of prior lines of therapy, prior proteasome inhibitor exposure, prior autologous stem cell transplant, serum creatinine, total bilirubin, aspartate aminotransferase (AST), alanine aminotransferase (ALT), lactate dehydrogenase (LDH), beta-2 microglobulin, albumin, hemoglobin, platelet count, absolute neutrophil count (ANC), peripheral neuropathy grade, Karnofsky performance status."
   }
 }

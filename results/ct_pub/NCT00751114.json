@@ -82,7 +82,8 @@
       "remaining_candidate_features": [
         "Metformin dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Duration of diabetes, Baseline HbA1c, Baseline Fasting Plasma Glucose (FPG), Body Mass Index (BMI), Body weight, Metformin dose, Renal function (serum creatinine), Hepatic function (ALT, AST), History of retinopathy, History of pancreatitis, Alcohol or drug use history, Pregnancy status, Use of systemic corticosteroids, Participation in other clinical trials."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Sex, Race, Duration of diabetes, HbA1c, Fasting Plasma Glucose (FPG), Body Mass Index (BMI), Weight, Systolic Blood Pressure, Diastolic Blood Pressure, Serum creatinine, Alanine aminotransferase (ALT), Aspartate aminotransferase (AST), Smoking status, Previous antidiabetic treatment, Concomitant medications",
@@ -156,7 +157,8 @@
         "Previous antidiabetic treatment",
         "Alanine aminotransferase (ALT)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, Race, Duration of diabetes, HbA1c, Fasting Plasma Glucose (FPG), Body Mass Index (BMI), Weight, Systolic Blood Pressure, Diastolic Blood Pressure, Serum creatinine, Alanine aminotransferase (ALT), Aspartate aminotransferase (AST), Smoking status, Previous antidiabetic treatment, Concomitant medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Sex, Ethnic Origin, Diabetes duration, BMI, HbA1c, Fasting Plasma Glucose, Metformin dose, History of hypertension, History of dyslipidemia, History of cardiovascular disease, Smoking history.",
@@ -215,7 +217,8 @@
         "History of cardiovascular disease",
         "Smoking history"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, Ethnic Origin, Diabetes duration, BMI, HbA1c, Fasting Plasma Glucose, Metformin dose, History of hypertension, History of dyslipidemia, History of cardiovascular disease, Smoking history."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, BMI, duration of diabetes, HbA1c at baseline, FPG at baseline, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (e.g., hypertension, dyslipidemia, cardiovascular disease), concomitant medications.",
@@ -282,6 +285,7 @@
         "smoking status",
         "medical history (e.g., hypertension, dyslipidemia, cardiovascular disease)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, BMI, duration of diabetes, HbA1c at baseline, FPG at baseline, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (e.g., hypertension, dyslipidemia, cardiovascular disease), concomitant medications."
   }
 }

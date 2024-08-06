@@ -40,7 +40,8 @@
         "Physical Activity Level",
         "Baseline Quality of Life Score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Stage of Breast Cancer, Duration of Breast Cancer Diagnosis, Previous Cancer Treatments, Baseline Pain Score, Baseline Neuropathy Score, Concomitant Medications, Comorbidities, Body Mass Index (BMI), Smoking Status, Alcohol Use, Physical Activity Level, Baseline Quality of Life Score"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Stage, Baseline Pain Score, Baseline Neuropathy Score, Concomitant Medications,",
@@ -80,7 +81,8 @@
         "Baseline Neuropathy Score",
         "Concomitant Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Stage, Baseline Pain Score, Baseline Neuropathy Score, Concomitant Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Breast Cancer Stage, Taxane Treatment, History of Neuropathy, History of Diabetes, Current Narcotic Use, Coagulopathy or Bleeding Disorder, Dermatological Disease, Pacemaker Use,",
@@ -117,7 +119,8 @@
         "Dermatological Disease",
         "Pacemaker Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Breast Cancer Stage, Taxane Treatment, History of Neuropathy, History of Diabetes, Current Narcotic Use, Coagulopathy or Bleeding Disorder, Dermatological Disease, Pacemaker Use"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, history of stage I-III breast cancer, type of breast cancer, time since diagnosis, prior chemotherapy, prior radiation therapy, prior surgery, comorbidities, current medications, Brief Pain Inventory-Short Form Score at baseline, quality of life score at baseline.",
@@ -163,6 +166,7 @@
         "Brief Pain Inventory-Short Form Score at baseline",
         "quality of life score at baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, history of stage I-III breast cancer, type of breast cancer, time since diagnosis, prior chemotherapy, prior radiation therapy, prior surgery, comorbidities, current medications, Brief Pain Inventory-Short Form Score at baseline, quality of life score at baseline."
   }
 }

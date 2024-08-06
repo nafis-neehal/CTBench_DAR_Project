@@ -39,7 +39,8 @@
         "baseline height",
         "baseline blood pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, ECOG performance status, smoking status, prior anticancer therapy, disease stage, histological subtype, renal function, liver function, bone marrow function, baseline tumor size, baseline weight, baseline height, baseline blood pressure."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Region of Enrollment, Histology/Cytology Type, Prior Anticancer Therapy, Renal Function, Liver Function, Bone Marrow Function,",
@@ -75,7 +76,8 @@
         "Liver Function",
         "Bone Marrow Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Region of Enrollment, Histology/Cytology Type, Prior Anticancer Therapy, Renal Function, Liver Function, Bone Marrow Function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological/Cytological Type, Number of Prior Chemotherapy Regimens, Time Since Last Prior Chemotherapy, Best Response to Prior Chemotherapy, Presence of Brain Metastases, Presence of Liver Metastases.",
@@ -112,7 +114,8 @@
         "Presence of Brain Metastases",
         "Presence of Liver Metastases"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Histological/Cytological Type, Number of Prior Chemotherapy Regimens, Time Since Last Prior Chemotherapy, Best Response to Prior Chemotherapy, Presence of Brain Metastases, Presence of Liver Metastases."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, histological type of NSCLC, number of prior therapies, time since diagnosis, time since last prior therapy, presence of metastases, number and location of metastases, prior radiotherapy, prior surgery, smoking history, pack-years of smoking.",
@@ -152,6 +155,7 @@
         "smoking history",
         "pack-years of smoking"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, histological type of NSCLC, number of prior therapies, time since diagnosis, time since last prior therapy, presence of metastases, number and location of metastases, prior radiotherapy, prior surgery, smoking history, pack-years of smoking."
   }
 }

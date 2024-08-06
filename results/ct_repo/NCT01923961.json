@@ -35,7 +35,8 @@
         "blood pressure",
         "serum albumin levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of hemodialysis or hemodiafiltration, clinical stability, presence of comorbid conditions, baseline levels of para-cresylsulfate, baseline levels of indoxylsulfate, sodium chloride concentration in infusion fluid, baseline kidney function, body weight, blood pressure, serum albumin levels."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Duration of dialysis treatment, Type of dialysis treatment, Baseline serum creatinine, Baseline serum urea, Baseline serum albumin, Baseline hemoglobin, Baseline blood pressure, Body Mass Index, Comorbid conditions,",
@@ -76,7 +77,8 @@
         "Body Mass Index",
         "Comorbid conditions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Duration of dialysis treatment, Type of dialysis treatment, Baseline serum creatinine, Baseline serum urea, Baseline serum albumin, Baseline hemoglobin, Baseline blood pressure, Body Mass Index, Comorbid conditions"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Dialysis vintage, Residual renal function, Albumin, Hemoglobin, Calcium, Phosphate, Parathyroid hormone,",
@@ -116,7 +118,8 @@
         "Phosphate",
         "Parathyroid hormone"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Dialysis vintage, Residual renal function, Albumin, Hemoglobin, Calcium, Phosphate, Parathyroid hormone"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index, duration of end-stage renal disease, duration of dialysis, type of dialysis modality, comorbidities, serum albumin, serum creatinine, urea reduction ratio, Kt/V, blood pressure, hemoglobin, calcium, phosphorus, parathyroid hormone, albumin-corrected calcium, bicarbonate, potassium, sodium.",
@@ -160,6 +163,7 @@
         "bicarbonate",
         "potassium"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index, duration of end-stage renal disease, duration of dialysis, type of dialysis modality, comorbidities, serum albumin, serum creatinine, urea reduction ratio, Kt/V, blood pressure, hemoglobin, calcium, phosphorus, parathyroid hormone, albumin-corrected calcium, bicarbonate, potassium, sodium."
   }
 }

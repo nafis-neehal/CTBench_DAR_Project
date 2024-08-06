@@ -78,7 +78,8 @@
         "Household size",
         "Employment status of parent"
       ]
-    }
+    },
+    "processed-gen-response": "Age of parent, Age of child, Gender of child, Birth weight of child, Socioeconomic status, Parental education level, Parental BMI, Child's initial BMI, Physical activity level of parent, Physical activity level of child, Dietary habits of parent, Dietary habits of child, Ethnicity, Household size, Employment status of parent, Marital status of parent."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Maternal BMI, Toddler BMI, Toddler Birth Weight, Toddler Physical Activity Level, Maternal Physical Activity Level, Maternal Diet Quality, Toddler Diet Quality, ",
@@ -141,7 +142,8 @@
         "Race/Ethnicity",
         "Toddler Birth Weight"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Maternal BMI, Toddler BMI, Toddler Birth Weight, Toddler Physical Activity Level, Maternal Physical Activity Level, Maternal Diet Quality, Toddler Diet Quality"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Child's Age, Child's Birth Weight, Maternal Depression Status,",
@@ -191,7 +193,8 @@
         "Child's Birth Weight",
         "Maternal Depression Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Child's Age, Child's Birth Weight, Maternal Depression Status"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), birth weight, gestational age, breastfeeding history, maternal age, maternal education level, household income, family size, marital status, depression status, physical activity level, dietary habits.",
@@ -258,6 +261,7 @@
         "family size",
         "depression status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), birth weight, gestational age, breastfeeding history, maternal age, maternal education level, household income, family size, marital status, depression status, physical activity level, dietary habits."
   }
 }

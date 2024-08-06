@@ -43,7 +43,8 @@
         "medical history",
         "concomitant medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline blood pressure, body mass index (BMI), smoking status, medical history, concomitant medications, renal function, baseline serum pregnancy test (for females)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Body Mass Index, Renal Function, History of Cardiovascular Events, Smoking Status, Concomitant Medications,",
@@ -84,7 +85,8 @@
         "Smoking Status",
         "Concomitant Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Body Mass Index, Renal Function, History of Cardiovascular Events, Smoking Status, Concomitant Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, History of Cardiovascular Disease, Renal Function, Electrolyte Levels.",
@@ -125,7 +127,8 @@
         "Renal Function",
         "Electrolyte Levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, History of Cardiovascular Disease, Renal Function, Electrolyte Levels."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), arm size, systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, medical history (including hypertension, heart failure, myocardial infarction, stroke, cardiac arrhythmias), current medications, smoking status, alcohol consumption, serum creatinine, estimated glomerular filtration rate (eGFR), serum potassium, history of malignancy, New York Heart Association (NYHA) functional class.",
@@ -179,6 +182,7 @@
         "history of malignancy",
         "New York Heart Association (NYHA) functional class."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), arm size, systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, medical history (including hypertension, heart failure, myocardial infarction, stroke, cardiac arrhythmias), current medications, smoking status, alcohol consumption, serum creatinine, estimated glomerular filtration rate (eGFR), serum potassium, history of malignancy, New York Heart Association (NYHA) functional class."
   }
 }

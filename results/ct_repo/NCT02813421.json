@@ -66,7 +66,8 @@
         "willingness to wear CGM",
         "informed consent status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of diabetes, basal/bolus insulin regimen, frequency of capillary blood glucose tests per day, willingness to wear CGM, informed consent status, comorbid conditions, glucocorticoid use, concurrent medication use, prior CGM use, skin condition at CGM placement site, language proficiency."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Diabetes Duration, Basal/Bolus Insulin Regimen, Frequency of Capillary Blood Glucose Tests, Willingness to Wear CGM, Compliance with Study Protocol,",
@@ -111,7 +112,8 @@
         "Willingness to Wear CGM",
         "Compliance with Study Protocol"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Diabetes Duration, Basal/Bolus Insulin Regimen, Frequency of Capillary Blood Glucose Tests, Willingness to Wear CGM, Compliance with Study Protocol"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Diabetes Duration, Insulin Dose, HbA1c, BMI, Blood Pressure, Total Daily Dose of Insulin, Number of Injections per Day,",
@@ -161,7 +163,8 @@
         "Total Daily Dose of Insulin",
         "Number of Injections per Day"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes Duration, Insulin Dose, HbA1c, BMI, Blood Pressure, Total Daily Dose of Insulin, Number of Injections per Day"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, duration of diabetes, type of insulin regimen, average daily insulin dose, HbA1c, body mass index (BMI), blood pressure, lipid profile, history of diabetic ketoacidosis, presence of microvascular complications, smoking status.",
@@ -212,6 +215,7 @@
         "presence of microvascular complications",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, duration of diabetes, type of insulin regimen, average daily insulin dose, HbA1c, body mass index (BMI), blood pressure, lipid profile, history of diabetic ketoacidosis, presence of microvascular complications, smoking status."
   }
 }

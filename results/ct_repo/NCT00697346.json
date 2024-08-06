@@ -32,7 +32,8 @@
         "recovery status from prior treatments",
         "laboratory values at screening."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, type of hematological malignancy, number of prior treatment regimens, prior autologous stem cell transplant status, disease status (relapsed or refractory), measurable disease status, venous access suitability, recovery status from prior treatments, laboratory values at screening."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Type of Hematological Malignancy, Prior Treatments, Disease Status (Relapsed/Refractory), Measurable Disease, Venous Access Suitability, Laboratory Values (e.g., Hemoglobin, Platelets, Neutrophils),",
@@ -74,7 +75,8 @@
         "Venous Access Suitability",
         "Laboratory Values (e.g., Hemoglobin, Platelets, Neutrophils)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Type of Hematological Malignancy, Prior Treatments, Disease Status (Relapsed/Refractory), Measurable Disease, Venous Access Suitability, Laboratory Values (e.g., Hemoglobin, Platelets, Neutrophils)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histological or Cytological Confirmed Hematological Malignancy, Number of Prior Regimens, Prior Autologous Stem Cell Transplant, Presence of Radiographically or Clinically Evaluable Disease, Presence of Measurable Disease.",
@@ -115,7 +117,8 @@
         "Presence of Radiographically or Clinically Evaluable Disease",
         "Presence of Measurable Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Histological or Cytological Confirmed Hematological Malignancy, Number of Prior Regimens, Prior Autologous Stem Cell Transplant, Presence of Radiographically or Clinically Evaluable Disease, Presence of Measurable Disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, histologically or cytologically confirmed hematological malignancy type, number of prior regimens, radiographically or clinically evaluable disease status.",
@@ -151,6 +154,7 @@
         "number of prior regimens",
         "radiographically or clinically evaluable disease status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, histologically or cytologically confirmed hematological malignancy type, number of prior regimens, radiographically or clinically evaluable disease status."
   }
 }

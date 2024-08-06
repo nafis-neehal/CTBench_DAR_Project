@@ -42,7 +42,8 @@
         "baseline blood pressure",
         "baseline heart rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, BMI, American Society of Anesthesiologists (ASA) classification, stage of gastric cancer, comorbidities, previous abdominal surgeries, smoking status, alcohol consumption, baseline hemoglobin levels, baseline white blood cell count, baseline platelet count, baseline liver function tests, baseline renal function tests, baseline blood pressure, baseline heart rate."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, American Society of Anesthesiologists (ASA) Classification, Preoperative Hemoglobin, Preoperative Albumin, Tumor Stage,",
@@ -79,7 +80,8 @@
         "Preoperative Albumin",
         "Tumor Stage"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, American Society of Anesthesiologists (ASA) Classification, Preoperative Hemoglobin, Preoperative Albumin, Tumor Stage"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, BMI, ASA Class, Gastric Cancer Stage,",
@@ -114,7 +116,8 @@
       "remaining_candidate_features": [
         "Gastric Cancer Stage"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, ASA Class, Gastric Cancer Stage"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, ASA class, gastric cancer stage, tumor location, comorbidities, history of previous abdominal surgery, preoperative hemoglobin level, preoperative platelet count, preoperative albumin level.",
@@ -152,6 +155,7 @@
         "preoperative platelet count",
         "preoperative albumin level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, ASA class, gastric cancer stage, tumor location, comorbidities, history of previous abdominal surgery, preoperative hemoglobin level, preoperative platelet count, preoperative albumin level."
   }
 }

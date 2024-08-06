@@ -30,7 +30,8 @@
         "Cardiovascular event history",
         "Renal function status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, BMI, Apathy score, History of cancer, Cardiovascular event history, Renal function status"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Apathy Score, History of Cancer, Cardiovascular Event History, Renal Function,",
@@ -69,7 +70,8 @@
         "Cardiovascular Event History",
         "Renal Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Apathy Score, History of Cancer, Cardiovascular Event History, Renal Function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Apathy score,",
@@ -106,7 +108,8 @@
       "remaining_candidate_features": [
         "Race/Ethnicity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Apathy score"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, Apathy score, weight, height, medical history (cancer, cardiovascular event, renal failure), smoking status, physical activity level, diet habits, comorbidities, medications, education level, occupation, marital status.",
@@ -147,6 +150,7 @@
         "occupation",
         "marital status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, Apathy score, weight, height, medical history (cancer, cardiovascular event, renal failure), smoking status, physical activity level, diet habits, comorbidities, medications, education level, occupation, marital status."
   }
 }

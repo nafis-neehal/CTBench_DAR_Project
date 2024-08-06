@@ -57,7 +57,8 @@
         "physical activity level",
         "dietary habits"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, body mass index (BMI), duration of type 2 diabetes mellitus, glycosylated hemoglobin (HbA1c) level, history of acute coronary syndrome, blood pressure, lipid profile, smoking status, renal function (e.g., serum creatinine, estimated glomerular filtration rate), use of antidiabetic medications, use of cardiovascular medications, history of hypertension, history of dyslipidemia, history of heart failure, history of stroke, physical activity level, dietary habits."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Blood Pressure, Cholesterol, Triglycerides, History of Acute Coronary Syndrome, Use of Antidiabetic Therapy,",
@@ -109,7 +110,8 @@
         "Triglycerides",
         "Use of Antidiabetic Therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Blood Pressure, Cholesterol, Triglycerides, History of Acute Coronary Syndrome, Use of Antidiabetic Therapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, Previous cardiovascular disease (CVD) event, Glycated hemoglobin, Blood pressure, Cholesterol, Triglycerides, Body Mass Index, \n\n##Answer:\nAge, Categorical, Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Existing Cardiovascular Disease, Baseline HbA1c, Daily Insulin Dose, BMI, Blood Pressure, Total Cholesterol, eGFR, Diabetic Retinopathy, \n\n##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Objective weekly MVPA minutes, Adherence to MVPA guidelines at baseline, Objective average daily steps,",
@@ -177,7 +179,8 @@
         "Adherence to MVPA guidelines at baseline",
         "Objective average daily steps"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, Previous cardiovascular disease (CVD) event, Glycated hemoglobin, Blood pressure, Cholesterol, Triglycerides, Body Mass Index, Categorical, Sex: Female, Male, Diabetes Diagnosis Duration, Existing Cardiovascular Disease, Baseline HbA1c, Daily Insulin Dose, BMI, Blood Pressure, Total Cholesterol, eGFR, Diabetic Retinopathy, Race/Ethnicity, Systolic Blood Pressure, Diastolic Blood Pressure, Objective weekly MVPA minutes, Adherence to MVPA guidelines at baseline, Objective average daily steps"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, duration of diabetes, glycosylated hemoglobin level, systolic blood pressure, diastolic blood pressure, heart rate, medical history of acute coronary syndrome, history of myocardial infarction, history of percutaneous coronary intervention, history of coronary artery bypass grafting, current smoking status, history of hypertension, history of dyslipidemia, history of chronic kidney disease, current antidiabetic therapy, current antihypertensive therapy, current lipid-lowering therapy.",
@@ -235,6 +238,7 @@
         "current antihypertensive therapy",
         "current lipid-lowering therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, duration of diabetes, glycosylated hemoglobin level, systolic blood pressure, diastolic blood pressure, heart rate, medical history of acute coronary syndrome, history of myocardial infarction, history of percutaneous coronary intervention, history of coronary artery bypass grafting, current smoking status, history of hypertension, history of dyslipidemia, history of chronic kidney disease, current antidiabetic therapy, current antihypertensive therapy, current lipid-lowering therapy."
   }
 }

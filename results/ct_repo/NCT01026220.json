@@ -48,7 +48,8 @@
         "concurrent corticosteroid therapy",
         "concurrent pegfilgrastim use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, weight, height, stage of Hodgkin lymphoma, presence of B symptoms, creatinine clearance, serum creatinine levels, total bilirubin levels, AST levels, ALT levels, shortening fraction by ECHO, ejection fraction by MUGA, FEV_1/FVC by pulmonary function tests, dyspnea at rest, exercise intolerance, pulse oximetry on room air, pregnancy status, QTc interval on 12-lead ECG, prior corticosteroid use, prior chemotherapy or radiotherapy, use of effective contraception, concurrent corticosteroid therapy, concurrent pegfilgrastim use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Stage of Disease, B Symptoms Presence, Creatinine Clearance, Total Bilirubin, AST/ALT Levels, Ejection Fraction, FEV_1/FVC, ",
@@ -88,7 +89,8 @@
         "Ejection Fraction",
         "FEV_1/FVC"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Stage of Disease, B Symptoms Presence, Creatinine Clearance, Total Bilirubin, AST/ALT Levels, Ejection Fraction, FEV_1/FVC"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hodgkin Lymphoma Stage, B Symptoms, Creatinine Clearance, Serum Creatinine, Total Bilirubin, AST, ALT, Shortening Fraction, Ejection Fraction, FEV1/FVC, Pulse Oximetry.",
@@ -132,7 +134,8 @@
         "FEV1/FVC",
         "Pulse Oximetry"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Hodgkin Lymphoma Stage, B Symptoms, Creatinine Clearance, Serum Creatinine, Total Bilirubin, AST, ALT, Shortening Fraction, Ejection Fraction, FEV1/FVC, Pulse Oximetry."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, weight, height, race, ethnicity, performance status, disease stage, presence of B symptoms, creatinine clearance, serum creatinine, total bilirubin, AST, ALT, shortening fraction, ejection fraction, FEV1/FVC, pulse oximetry, QTc interval, prior corticosteroid use, presence of large mediastinal mass.",
@@ -179,6 +182,7 @@
         "prior corticosteroid use",
         "presence of large mediastinal mass"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, weight, height, race, ethnicity, performance status, disease stage, presence of B symptoms, creatinine clearance, serum creatinine, total bilirubin, AST, ALT, shortening fraction, ejection fraction, FEV1/FVC, pulse oximetry, QTc interval, prior corticosteroid use, presence of large mediastinal mass."
   }
 }

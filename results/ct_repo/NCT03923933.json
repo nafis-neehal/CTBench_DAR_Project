@@ -59,7 +59,8 @@
         "baseline hemoglobin",
         "baseline albumin"
       ]
-    }
+    },
+    "processed-gen-response": "age, gender, baseline glomerular filtration rate (GFR), baseline total body water, duration of chronic kidney disease, baseline volume overload, residual diuresis, current use of loop diuretics, comorbid conditions (e.g., diabetes, hypertension), baseline serum electrolytes (e.g., sodium, potassium), baseline blood pressure, baseline body mass index (BMI), baseline serum creatinine, baseline hemoglobin, baseline albumin"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Glomerular Filtration Rate (GFR), Volume Overload Status, Residual Diuresis, Use of Loop Diuretics,",
@@ -108,7 +109,8 @@
         "Residual Diuresis",
         "Use of Loop Diuretics"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Glomerular Filtration Rate (GFR), Volume Overload Status, Residual Diuresis, Use of Loop Diuretics"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Glomerular Filtration Rate, Volume Overload, Residual Diuresis, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, Loop Diuretic Dose, Duration of Chronic Kidney Disease.",
@@ -167,7 +169,8 @@
         "Loop Diuretic Dose",
         "Duration of Chronic Kidney Disease."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Glomerular Filtration Rate, Volume Overload, Residual Diuresis, Systolic Blood Pressure, Diastolic Blood Pressure, Body Mass Index, Loop Diuretic Dose, Duration of Chronic Kidney Disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, body mass index, glomerular filtration rate, residual diuresis, duration of chronic kidney disease, comorbidities (e.g. hypertension, diabetes), use of concomitant medications (e.g. ACE inhibitors, beta blockers), history of cardiovascular disease, New York Heart Association functional class.",
@@ -214,6 +217,7 @@
         "history of cardiovascular disease",
         "New York Heart Association functional class."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, body mass index, glomerular filtration rate, residual diuresis, duration of chronic kidney disease, comorbidities (e.g. hypertension, diabetes), use of concomitant medications (e.g. ACE inhibitors, beta blockers), history of cardiovascular disease, New York Heart Association functional class."
   }
 }

@@ -38,7 +38,8 @@
         "medication use",
         "baseline MOVE! program participation status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline weight, BMI, medical center location (Ann Arbor or Cleveland), baseline physical activity level, baseline dietary habits, comorbid conditions, smoking status, medication use, baseline MOVE! program participation status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Baseline weight, Physical activity level, Dietary habits,",
@@ -79,7 +80,8 @@
         "Physical activity level",
         "Dietary habits"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Baseline weight, Physical activity level, Dietary habits"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Self-reported physical activity, Self-reported diet quality,",
@@ -120,7 +122,8 @@
         "Self-reported physical activity",
         "Self-reported diet quality"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Self-reported physical activity, Self-reported diet quality"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), weight, height, waist circumference, medical center location, MOVE! program eligibility, ability to walk 10 minutes continuously, comorbidities, current medications, smoking status, education level, employment status, marital status.",
@@ -166,6 +169,7 @@
         "employment status",
         "marital status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), weight, height, waist circumference, medical center location, MOVE! program eligibility, comorbidities, current medications, smoking status, education level, employment status, marital status."
   }
 }

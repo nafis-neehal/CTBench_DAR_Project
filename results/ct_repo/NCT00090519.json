@@ -47,7 +47,8 @@
         "history of liver disease",
         "history of dialysis or renal transplant."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, type of diabetes (Type 1 or Type 2), baseline visual acuity, baseline HbA1c levels, baseline systolic blood pressure, presence of vitreous hemorrhage, severity of diabetic retinopathy, history of liver disease, history of dialysis or renal transplant."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Diabetes (Type 1 or Type 2), Baseline HbA1c, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Visual Acuity, Duration of Diabetes, Presence of Diabetic Retinopathy,",
@@ -102,7 +103,8 @@
         "Race/Ethnicity",
         "Baseline Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Diabetes (Type 1 or Type 2), Baseline HbA1c, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Visual Acuity, Duration of Diabetes, Presence of Diabetic Retinopathy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Diabetes Type, Duration of Diabetes, Glycosylated Hemoglobin (HbA1c), Systolic Blood Pressure, Diabetic Retinopathy Severity, Best Corrected Visual Acuity,",
@@ -152,7 +154,8 @@
         "Number of diabetic retinopathy (DR) study eyes per participant"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes Type, Duration of Diabetes, Glycosylated Hemoglobin (HbA1c), Systolic Blood Pressure, Diabetic Retinopathy Severity, Best Corrected Visual Acuity"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, duration of diabetes, type of diabetes, HbA1c, systolic blood pressure, body mass index (BMI), smoking status, medical history (including hypertension, hyperlipidemia, cardiovascular disease), diabetic retinopathy severity, best-corrected visual acuity, central macular thickness.",
@@ -207,6 +210,7 @@
         "medical history (including hypertension, hyperlipidemia, cardiovascular disease)",
         "central macular thickness"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, duration of diabetes, type of diabetes, HbA1c, systolic blood pressure, body mass index (BMI), smoking status, medical history (including hypertension, hyperlipidemia, cardiovascular disease), diabetic retinopathy severity, best-corrected visual acuity, central macular thickness."
   }
 }

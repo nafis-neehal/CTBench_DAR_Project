@@ -46,7 +46,8 @@
         "baseline pulmonary function",
         "baseline cardiac function."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, Karnofsky performance status, prior radiation, prior surgery, prior chemotherapy, organ function, bone marrow function, histological type of cancer, site of cancer, smoking status, alcohol use, comorbidities, baseline laboratory values (e.g., liver function tests, renal function tests), baseline pulmonary function, baseline cardiac function."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Karnofsky performance status, Prior radiation, Prior surgery, Prior chemotherapy, Organ function, Bone marrow function,",
@@ -105,7 +106,8 @@
       "remaining_candidate_features": [
         "Race/Ethnicity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Karnofsky performance status, Prior radiation, Prior surgery, Prior chemotherapy, Organ function, Bone marrow function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Karnofsky Performance Status, Prior Radiation, Prior Surgery, Prior Chemotherapy, Histology, Tumor Site, Time Since Initial Diagnosis, Time Since Last Treatment, ECOG Performance Status, Weight, Height, Body Surface Area, Hemoglobin, White Blood Cell Count, Platelet Count, Creatinine, Bilirubin, AST, ALT, Alkaline Phosphatase.",
@@ -162,7 +164,8 @@
         "ALT",
         "Alkaline Phosphatase"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Karnofsky Performance Status, Prior Radiation, Prior Surgery, Prior Chemotherapy, Histology, Tumor Site, Time Since Initial Diagnosis, Time Since Last Treatment, ECOG Performance Status, Weight, Height, Body Surface Area, Hemoglobin, White Blood Cell Count, Platelet Count, Creatinine, Bilirubin, AST, ALT, Alkaline Phosphatase."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, Karnofsky performance status, histological diagnosis, tumor location, prior treatment (radiation, surgery, chemotherapy), organ function (renal, hepatic, bone marrow), comorbidities (intercurrent illness, pulmonary dysfunction, cardiomyopathy, coronary artery disease).",
@@ -203,6 +206,7 @@
         "organ function (renal, hepatic, bone marrow)",
         "comorbidities (intercurrent illness, pulmonary dysfunction, cardiomyopathy, coronary artery disease)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, Karnofsky performance status, histological diagnosis, tumor location, prior treatment (radiation, surgery, chemotherapy), organ function (renal, hepatic, bone marrow), comorbidities (intercurrent illness, pulmonary dysfunction, cardiomyopathy, coronary artery disease)."
   }
 }

@@ -43,7 +43,8 @@
         "presence of psychiatric disease",
         "presence of rheumatic disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline HbA1c, C-peptide levels, body mass index (BMI), baseline blood glucose levels, liver function tests (AST, ALT), serum total bilirubin, creatinine kinase, serum creatinine, presence of cardiovascular disease, presence of renal disease, presence of hepatic disease, presence of hematological disease, presence of oncological disease, presence of endocrine disease, presence of psychiatric disease, presence of rheumatic disease."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline HbA1c, C-peptide, Serum creatinine, Serum Total bilirubin, Aspartate aminotransferase (AST), Alanine aminotransferase (ALT), Creatinine kinase,",
@@ -85,7 +86,8 @@
         "Alanine aminotransferase (ALT)",
         "Creatinine kinase"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline HbA1c, C-peptide, Serum creatinine, Serum Total bilirubin, Aspartate aminotransferase (AST), Alanine aminotransferase (ALT), Creatinine kinase"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, C-peptide, Diabetes duration,",
@@ -124,7 +126,8 @@
         "C-peptide",
         "Diabetes duration"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, HbA1c, C-peptide, Diabetes duration"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, duration of type 2 diabetes, hemoglobin A1c, fasting plasma glucose, C-peptide, systolic blood pressure, diastolic blood pressure, heart rate, medical history, concomitant medications.",
@@ -164,6 +167,7 @@
         "medical history",
         "concomitant medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, duration of type 2 diabetes, hemoglobin A1c, fasting plasma glucose, C-peptide, systolic blood pressure, diastolic blood pressure, heart rate, medical history, concomitant medications."
   }
 }

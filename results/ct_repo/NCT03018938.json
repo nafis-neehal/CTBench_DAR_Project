@@ -37,7 +37,8 @@
         "history of cardiovascular disease",
         "family history of diabetes"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), duration of type 2 diabetes, baseline HbA1c, fasting plasma glucose, use of oral anti-hyperglycemic medications, blood pressure, lipid profile, renal function, liver function, smoking status, alcohol consumption, physical activity level, history of cardiovascular disease, family history of diabetes."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Blood Pressure, Use of Oral Anti-Hyperglycemic Medications,",
@@ -75,7 +76,8 @@
         "Blood Pressure",
         "Use of Oral Anti-Hyperglycemic Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Blood Pressure, Use of Oral Anti-Hyperglycemic Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (Chinese), Region of Enrollment, Diabetes duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Lipid profile, Previous anti-hyperglycemic medications,",
@@ -113,7 +115,8 @@
         "Lipid profile",
         "Previous anti-hyperglycemic medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (Chinese), Region of Enrollment, Diabetes duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Lipid profile, Previous anti-hyperglycemic medications"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), duration of diabetes, HbA1c at screening, fasting plasma glucose (FPG) at screening, systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, smoking status, medical history (including hypertension, dyslipidemia, cardiovascular disease), concomitant medications, oral anti-hyperglycemic medications (OAMs) used prior to study entry.",
@@ -150,6 +153,7 @@
         "concomitant medications",
         "oral anti-hyperglycemic medications (OAMs) used prior to study entry."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), duration of diabetes, HbA1c at screening, fasting plasma glucose (FPG) at screening, systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, smoking status, medical history (including hypertension, dyslipidemia, cardiovascular disease), concomitant medications, oral anti-hyperglycemic medications (OAMs) used prior to study entry."
   }
 }

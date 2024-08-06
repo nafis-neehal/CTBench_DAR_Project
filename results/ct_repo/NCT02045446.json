@@ -40,7 +40,8 @@
         "use of contraception",
         "weight change in the prior 3 months."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, smoking status, performance status (KPS), number of metastatic sites, liver function tests (AST, ALT, Alkaline phosphatase), total bilirubin, bone marrow function (peripheral granulocyte count), renal function (serum creatinine), forced expiratory volume in 1 second (FEV1), prior chemotherapy response (stable disease or partial response), prior radiotherapy history, use of contraception, weight change in the prior 3 months."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky Performance Status (KPS), Number of Metastatic Sites, Prior Chemotherapy Regimen, Baseline AST, Baseline ALT, Baseline Alkaline Phosphatase, Total Bilirubin, Peripheral Granulocyte Count, Serum Creatinine, ",
@@ -87,7 +88,8 @@
         "Peripheral Granulocyte Count",
         "Serum Creatinine"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Karnofsky Performance Status (KPS), Number of Metastatic Sites, Prior Chemotherapy Regimen, Baseline AST, Baseline ALT, Baseline Alkaline Phosphatase, Total Bilirubin, Peripheral Granulocyte Count, Serum Creatinine"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Eastern Cooperative Oncology Group (ECOG) Performance Status, Number of metastatic sites, Prior chemotherapy regimens, Best response to prior chemotherapy, Time from diagnosis to randomization, Time from completion of chemotherapy to randomization, Baseline sum of longest diameter of target lesions.",
@@ -132,7 +134,8 @@
         "Time from completion of chemotherapy to randomization",
         "Baseline sum of longest diameter of target lesions."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Eastern Cooperative Oncology Group (ECOG) Performance Status, Number of metastatic sites, Prior chemotherapy regimens, Best response to prior chemotherapy, Time from diagnosis to randomization, Time from completion of chemotherapy to randomization, Baseline sum of longest diameter of target lesions."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, KPS, number of metastatic sites, metastatic site locations (e.g. liver, lung, bone), prior chemotherapy regimens, prior radiotherapy, EGFR/ALK mutation status, FEV1, AST, ALT, alkaline phosphates, total bilirubin, peripheral granulocyte count, serum creatinine.",
@@ -178,6 +181,7 @@
         "peripheral granulocyte count",
         "serum creatinine"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, KPS, number of metastatic sites, metastatic site locations (e.g. liver, lung, bone), prior chemotherapy regimens, prior radiotherapy, EGFR/ALK mutation status, FEV1, AST, ALT, alkaline phosphates, total bilirubin, peripheral granulocyte count, serum creatinine."
   }
 }

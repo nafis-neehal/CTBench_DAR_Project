@@ -44,7 +44,8 @@
         "Use of prophylactic antibiotics",
         "Length of hospital stay"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Gestational age, Type of cesarean delivery (planned or unplanned), Presence of pre-existing infection around incision site, Bleeding disorder status, Use of therapeutic anticoagulation, Allergy to dressing components, History of previous cesarean deliveries, Comorbid conditions (e.g., diabetes, hypertension), Smoking status, Race/ethnicity, Socioeconomic status, Preoperative hemoglobin level, Duration of surgery, Intraoperative blood loss, Use of prophylactic antibiotics, Length of hospital stay."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Body Mass Index, Gestational Age, Type of Cesarean (Planned or Unplanned), History of Previous Cesarean, Diabetes Status, Hypertension Status, Smoking Status,",
@@ -81,7 +82,8 @@
         "Hypertension Status",
         "Smoking Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Body Mass Index, Gestational Age, Type of Cesarean (Planned or Unplanned), History of Previous Cesarean, Diabetes Status, Hypertension Status, Smoking Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, BMI, Gestational Age, Parity, Previous Cesarean Section, History of Wound Complications, Diabetes, Hypertension, Smoking Status.",
@@ -113,7 +115,8 @@
         "Hypertension",
         "Smoking Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Gestational Age, Parity, Previous Cesarean Section, History of Wound Complications, Diabetes, Hypertension, Smoking Status."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, BMI, Gestational age, Parity, History of previous cesarean delivery, History of previous wound complications, Diabetes, Hypertension, Smoking status, Pre-pregnancy weight, Height, Ethnicity, Insurance status, Education level, Marital status.",
@@ -153,6 +156,7 @@
         "Education level",
         "Marital status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Gestational age, Parity, History of previous cesarean delivery, History of previous wound complications, Diabetes, Hypertension, Smoking status, Pre-pregnancy weight, Height, Ethnicity, Insurance status, Education level, Marital status."
   }
 }

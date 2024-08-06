@@ -37,7 +37,8 @@
         "primary care provider",
         "significant life stress indicators."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, socioeconomic status, education level, health insurance status, baseline health status, previous colorectal cancer screening history, physician's recommendation date, time since last screening order, primary care provider, significant life stress indicators."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Time since screening order, Type of screening test ordered, Socioeconomic status, Education level, Health literacy, Access to healthcare,",
@@ -74,7 +75,8 @@
         "Health literacy",
         "Access to healthcare"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Time since screening order, Type of screening test ordered, Socioeconomic status, Education level, Health literacy, Access to healthcare"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Primary Care Physician, Colorectal Cancer Screening Order Date, Previous Colorectal Cancer Screening History, Life Stress Level,",
@@ -111,7 +113,8 @@
         "Colorectal Cancer Screening Order Date",
         "Life Stress Level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Primary Care Physician, Colorectal Cancer Screening Order Date, Previous Colorectal Cancer Screening History, Life Stress Level"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, education level, income, occupation, marital status, smoking status, body mass index (BMI), medical comorbidities, prior cancer screening history, time since screening order, type of screening test ordered.",
@@ -149,6 +152,7 @@
         "time since screening order",
         "type of screening test ordered."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, education level, income, occupation, marital status, smoking status, body mass index (BMI), medical comorbidities, prior cancer screening history, time since screening order, type of screening test ordered."
   }
 }

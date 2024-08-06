@@ -67,7 +67,8 @@
         "Duration since amputation",
         "Baseline pain score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Type of amputation (transfemoral or transtibial), Duration since amputation, Baseline pain score, Beck Depression Inventory score, Presence of systemic infection, Immunocompromised status, Use of immunosuppressive medications, Presence of implanted electronic device, Pregnancy status, Allergy history to skin contact materials and/or anesthetic agent, Mental status, Ability to provide informed consent."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Amputation (Transfemoral or Transtibial), Duration of Postamputation Pain, Baseline Phantom Limb Pain Score, Baseline Residual Limb Pain Score, Beck Depression Inventory Score, Use of Pain Medications,",
@@ -111,7 +112,8 @@
         "Baseline Residual Limb Pain Score",
         "Beck Depression Inventory Score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Amputation (Transfemoral or Transtibial), Duration of Postamputation Pain, Baseline Phantom Limb Pain Score, Baseline Residual Limb Pain Score, Beck Depression Inventory Score, Use of Pain Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Amputation Level, Time Since Amputation, Baseline Phantom Limb Pain Score, Baseline Residual Limb Pain Score, Beck Depression Inventory Score,",
@@ -155,7 +157,8 @@
         "Baseline Phantom Limb Pain Score",
         "Baseline Residual Limb Pain Score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Amputation Level, Time Since Amputation, Baseline Phantom Limb Pain Score, Baseline Residual Limb Pain Score, Beck Depression Inventory Score"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), type of amputation (transfemoral or transtibial), duration of postamputation pain, Beck Depression Inventory score, presence of systemic infection, immunocompromised status, presence of implanted electronic device, history of allergy to skin contact materials and/or anesthetic agent, altered mental status, ability to provide informed consent.",
@@ -222,6 +225,7 @@
         "body mass index (BMI)",
         "duration of postamputation pain"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), type of amputation (transfemoral or transtibial), duration of postamputation pain, Beck Depression Inventory score, presence of systemic infection, immunocompromised status, presence of implanted electronic device, history of allergy to skin contact materials and/or anesthetic agent, altered mental status, ability to provide informed consent."
   }
 }

@@ -55,7 +55,8 @@
         "baseline medication use",
         "baseline comorbidities (e.g., hypertension, diabetes)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), cancer stage, baseline cardiac function (e.g., ejection fraction), baseline blood pressure, baseline heart rate, baseline glucose levels, baseline cholesterol levels, baseline physical activity level, baseline smoking status, baseline medication use, baseline comorbidities (e.g., hypertension, diabetes)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Stage, Baseline Cardiac Function, Baseline Blood Pressure, Baseline Blood Glucose, Smoking Status, Baseline Physical Activity Level,",
@@ -111,7 +112,8 @@
         "Baseline Blood Glucose",
         "Smoking Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Stage, Baseline Cardiac Function, Baseline Blood Pressure, Baseline Blood Glucose, Smoking Status, Baseline Physical Activity Level"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Cancer Stage, Chemotherapy Cycle, Oncologist Approval, Ability to Understand and Provide Written Informed Consent,",
@@ -150,7 +152,8 @@
         "Oncologist Approval",
         "Ability to Understand and Provide Written Informed Consent"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Cancer Stage, Chemotherapy Cycle, Oncologist Approval, Ability to Understand and Provide Written Informed Consent"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, body mass index, breast cancer stage, chemotherapy cycle, oncologist's approval, ability to exercise, orthopedic limitations, cardiovascular disease history, hypertension status, diabetes status, respiratory disease status, smoking status.",
@@ -195,6 +198,7 @@
         "respiratory disease status",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, body mass index, breast cancer stage, chemotherapy cycle, oncologist's approval, ability to exercise, orthopedic limitations, cardiovascular disease history, hypertension status, diabetes status, respiratory disease status, smoking status."
   }
 }

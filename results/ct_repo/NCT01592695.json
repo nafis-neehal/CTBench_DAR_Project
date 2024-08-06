@@ -47,7 +47,8 @@
         "combination pharmacotherapy usage",
         "treatment satisfaction."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, smoking history (e.g., number of cigarettes per day, years of smoking), primary care provider location (Iowa City VAMC or Coralville Clinic), residence type (non-metropolitan area), willingness to quit (within the next 30 days), telephone access type (land line or cell phone), residence stability, depressive symptoms, alcohol use, weight, comorbid conditions (e.g., psychiatric disorders), use of nicotine replacement therapy, use of bupropion, use of varenicline, combination pharmacotherapy usage, treatment satisfaction."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Smoking History, Daily Cigarette Consumption, Previous Quit Attempts, Depressive Symptoms, Alcohol Use, Weight, Access to Telephone, Stable Residence,",
@@ -93,7 +94,8 @@
         "Access to Telephone",
         "Stable Residence"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Smoking History, Daily Cigarette Consumption, Previous Quit Attempts, Depressive Symptoms, Alcohol Use, Weight, Access to Telephone, Stable Residence"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Veteran Status, Cigarettes Smoked per Day, Nicotine Dependence, Fagerstrom Test for Nicotine Dependence, Depression Symptoms, Alcohol Use, Body Mass Index,",
@@ -138,7 +140,8 @@
         "Alcohol Use",
         "Body Mass Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Veteran Status, Cigarettes Smoked per Day, Nicotine Dependence, Fagerstrom Test for Nicotine Dependence, Depression Symptoms, Alcohol Use, Body Mass Index"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, veteran status, smoking history (e.g., number of cigarettes smoked per day, years of smoking), nicotine dependence, motivation to quit, depressive symptoms, alcohol use, body mass index (BMI), medical comorbidities, prior quit attempts, current medications, education level, employment status, marital status, income level.",
@@ -189,6 +192,7 @@
         "marital status",
         "income level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, veteran status, smoking history (e.g., number of cigarettes smoked per day, years of smoking), nicotine dependence, motivation to quit, depressive symptoms, alcohol use, body mass index (BMI), medical comorbidities, prior quit attempts, current medications, education level, employment status, marital status, income level."
   }
 }

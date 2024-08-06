@@ -40,7 +40,8 @@
         "prior radiation therapy",
         "comorbid conditions."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, smoking status, histology type (squamous vs. non-squamous), PD-L1 tumor proportion score (TPS), prior adjuvant/neoadjuvant therapy, organ function parameters (e.g., liver function tests, renal function tests), baseline tumor size, presence of metastases, prior radiation therapy, comorbid conditions."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, PD-L1 Tumor Proportion Score, Histology (Squamous/Non-Squamous), Prior Systemic Therapy, Organ Function (Liver, Kidney), Smoking Status,",
@@ -82,7 +83,8 @@
         "Organ Function (Liver, Kidney)",
         "Smoking Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, PD-L1 Tumor Proportion Score, Histology (Squamous/Non-Squamous), Prior Systemic Therapy, Organ Function (Liver, Kidney), Smoking Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology (Squamous/Non-Squamous), Smoking Status, Prior Systemic Chemotherapy, Prior Radiation Therapy, Tumor Proportion Score (TPS), PD-L1 Expression, Eastern Cooperative Oncology Group (ECOG) Performance Status.",
@@ -126,7 +128,8 @@
         "Tumor Proportion Score (TPS)",
         "Eastern Cooperative Oncology Group (ECOG) Performance Status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Histology (Squamous/Non-Squamous), Smoking Status, Prior Systemic Chemotherapy, Prior Radiation Therapy, Tumor Proportion Score (TPS), PD-L1 Expression, Eastern Cooperative Oncology Group (ECOG) Performance Status."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, smoking history, tumor histology, tumor stage, PD-L1 expression level, prior systemic chemotherapy, prior radiation therapy, prior malignancy, organ function (renal, hepatic, etc.), body mass index (BMI).",
@@ -173,6 +176,7 @@
         "organ function (renal, hepatic, etc.)",
         "body mass index (BMI)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, smoking history, tumor histology, tumor stage, PD-L1 expression level, prior systemic chemotherapy, prior radiation therapy, prior malignancy, organ function (renal, hepatic, etc.), body mass index (BMI)."
   }
 }

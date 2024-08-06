@@ -50,7 +50,8 @@
         "Smoking status",
         "Body mass index (BMI)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Baseline systolic blood pressure, Baseline diastolic blood pressure, Number of antihypertensive medications, Duration of hypertension, Baseline estimated glomerular filtration rate (eGFR), Presence of renal artery disease, Comorbidities, Smoking status, Body mass index (BMI)"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Number of Antihypertensive Medications, Estimated Glomerular Filtration Rate (eGFR), Duration of Hypertension,",
@@ -100,7 +101,8 @@
         "Baseline Diastolic Blood Pressure",
         "Duration of Hypertension"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Number of Antihypertensive Medications, Estimated Glomerular Filtration Rate (eGFR), Duration of Hypertension"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Systolic Blood Pressure, Diastolic Blood Pressure, Number of Antihypertensive Medications, eGFR, Duration of Hypertension,",
@@ -150,7 +152,8 @@
         "Diastolic Blood Pressure",
         "Duration of Hypertension"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Systolic Blood Pressure, Diastolic Blood Pressure, Number of Antihypertensive Medications, eGFR, Duration of Hypertension"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, body mass index (BMI), systolic BP, diastolic BP, number of antihypertensive medications, eGFR, presence of comorbidities (e.g. diabetes, cardiovascular disease), smoking status.",
@@ -206,6 +209,7 @@
         "body mass index (BMI)",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, body mass index (BMI), systolic BP, diastolic BP, number of antihypertensive medications, eGFR, presence of comorbidities (e.g. diabetes, cardiovascular disease), smoking status."
   }
 }

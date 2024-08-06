@@ -48,7 +48,8 @@
         "smoking status",
         "alcohol use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline HbA1c, duration of diabetes, medication use, comorbid conditions, socioeconomic status, education level, employment status, marital status, social support, baseline body mass index (BMI), baseline blood pressure, baseline lipid levels, smoking status, alcohol use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Blood Pressure, Socioeconomic Status, Social Support,",
@@ -94,7 +95,8 @@
         "Blood Pressure",
         "Socioeconomic Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Blood Pressure, Socioeconomic Status, Social Support"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -136,7 +138,8 @@
         "Diabetes duration",
         "Body Mass Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, type of diabetes, HbA1c, blood pressure, lipid profile, smoking status, comorbidities, medication use, insulin use, diabetes self-care activities, social support, quality of life, depression symptoms, anxiety symptoms.",
@@ -188,6 +191,7 @@
         "depression symptoms",
         "anxiety symptoms"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, type of diabetes, HbA1c, blood pressure, lipid profile, smoking status, comorbidities, medication use, insulin use, diabetes self-care activities, social support, quality of life, depression symptoms, anxiety symptoms."
   }
 }

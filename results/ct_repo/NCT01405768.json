@@ -50,7 +50,8 @@
         "baseline respiratory rate",
         "baseline temperature"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline pain score, medical history, prior cervical procedures, use of analgesics, smoking status, menstrual cycle phase, body mass index (BMI), ethnicity, baseline anxiety level, baseline blood pressure, baseline heart rate, baseline respiratory rate, baseline temperature."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Baseline Pain Score, Use of Analgesics, Type of Cervical Dysplasia,",
@@ -90,7 +91,8 @@
         "Use of Analgesics",
         "Type of Cervical Dysplasia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Baseline Pain Score, Use of Analgesics, Type of Cervical Dysplasia"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Region of Enrollment, Cervical Dysplasia Diagnosis, Prior Biopsy Results, Prior Pap Results,",
@@ -127,7 +129,8 @@
         "Prior Biopsy Results",
         "Prior Pap Results"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Region of Enrollment, Cervical Dysplasia Diagnosis, Prior Biopsy Results, Prior Pap Results"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, body mass index (BMI), parity, smoking status, history of previous cervical procedures, type of cervical dysplasia, antecedent biopsy or pap read, use of over-the-counter medications (NSAIDS or Tylenol) within 7 days of scheduled LEEP.",
@@ -172,6 +175,7 @@
         "antecedent biopsy or pap read",
         "use of over-the-counter medications (NSAIDS or Tylenol) within 7 days of scheduled LEEP."
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, body mass index (BMI), parity, smoking status, history of previous cervical procedures, type of cervical dysplasia, antecedent biopsy or pap read, use of over-the-counter medications (NSAIDS or Tylenol) within 7 days of scheduled LEEP."
   }
 }

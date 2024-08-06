@@ -39,7 +39,8 @@
         "history of hypoglycemia events",
         "baseline insulin dose (for those on insulin)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline HbA1c, duration of type 2 diabetes mellitus, current antidiabetic medications, baseline fasting plasma glucose, body mass index (BMI), renal function (eGFR), cognitive function (MMSE score), history of hypoglycemia events, baseline insulin dose (for those on insulin)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Basal Insulin Dose, Antidiabetic Medication Use, eGFR, Mini-Mental State Examination (MMSE) Score,",
@@ -79,7 +80,8 @@
         "eGFR",
         "Mini-Mental State Examination (MMSE) Score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Basal Insulin Dose, Antidiabetic Medication Use, eGFR, Mini-Mental State Examination (MMSE) Score"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes duration, HbA1c, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Insulin dose, Antidiabetic medications, Cognitive function (MMSE score), eGFR.",
@@ -123,7 +125,8 @@
         "Cognitive function (MMSE score)",
         "eGFR"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Diabetes duration, HbA1c, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Insulin dose, Antidiabetic medications, Cognitive function (MMSE score), eGFR."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (including cardiovascular disease, hypertension, dyslipidemia), current antidiabetic medications, insulin dose and type (if applicable), MMSE score.",
@@ -168,6 +171,7 @@
         "insulin dose and type (if applicable)",
         "MMSE score."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, heart rate, smoking status, medical history (including cardiovascular disease, hypertension, dyslipidemia), current antidiabetic medications, insulin dose and type (if applicable), MMSE score."
   }
 }

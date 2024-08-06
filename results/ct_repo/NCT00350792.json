@@ -34,7 +34,8 @@
         "concurrent antitumor therapy status",
         "brain metastasis status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG Performance Status, stage of disease, measurable lesion status, prior chemotherapy status, presence of serious systemic disorders, ability to discontinue aspirin or anti-inflammatory non-steroid use, concurrent antitumor therapy status, brain metastasis status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Stage of Disease, Measurable Lesion Size,",
@@ -66,7 +67,8 @@
         "Race/Ethnicity",
         "Measurable Lesion Size"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Stage of Disease, Measurable Lesion Size"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, ECOG Performance Status, Stage of NSCLC, Measurable Lesion, Prior Chemotherapy,",
@@ -98,7 +100,8 @@
         "Measurable Lesion",
         "Prior Chemotherapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, ECOG Performance Status, Stage of NSCLC, Measurable Lesion, Prior Chemotherapy"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ECOG Performance Status, stage of NSCLC, presence of measurable lesions, prior chemotherapy, prior radiotherapy, presence of systemic disorders, presence of brain metastasis.",
@@ -130,6 +133,7 @@
         "presence of systemic disorders",
         "presence of brain metastasis."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ECOG Performance Status, stage of NSCLC, presence of measurable lesions, prior chemotherapy, prior radiotherapy, presence of systemic disorders, presence of brain metastasis."
   }
 }

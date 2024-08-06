@@ -43,7 +43,8 @@
         "peripheral venous access quality",
         "recent blood collection history"
       ]
-    }
+    },
+    "processed-gen-response": "Age, weight, body mass index (BMI), systolic blood pressure, history of drug use, history of alcohol use, gastrointestinal disease history, cancer history, hepatitis B surface antigen (HBsAg) status, hepatitis C virus (HCV) antibody status, human immunodeficiency virus (HIV) antibody/antigen status, syphilis serology, hemoglobin value, electrocardiogram (ECG) results, alanine aminotransferase (ALT) levels, aspartate aminotransferase (AST) levels, peripheral venous access quality, recent blood collection history."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Alanine Aminotransferase (ALT), Aspartate Aminotransferase (AST), Ethnicity, Region of Enrollment, Weight,",
@@ -81,7 +82,8 @@
         "Aspartate Aminotransferase (AST)",
         "Ethnicity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin, Alanine Aminotransferase (ALT), Aspartate Aminotransferase (AST), Ethnicity, Region of Enrollment, Weight"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Electrolyte levels, Liver function tests, Renal function tests, Hemoglobin, ECG findings.",
@@ -131,7 +133,8 @@
         "Liver function tests",
         "Renal function tests"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Electrolyte levels, Liver function tests, Renal function tests, Hemoglobin, ECG findings."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, body mass index (BMI), weight, systolic blood pressure, diastolic blood pressure, heart rate, medical history, concomitant medications, smoking status, alcohol consumption.",
@@ -175,6 +178,7 @@
         "medical history",
         "concomitant medications"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, body mass index (BMI), weight, systolic blood pressure, diastolic blood pressure, heart rate, medical history, concomitant medications, smoking status, alcohol consumption."
   }
 }

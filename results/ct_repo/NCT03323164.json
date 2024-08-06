@@ -35,7 +35,8 @@
         "presence of mild drusen or pigmentary changes",
         "presence of mild background non-proliferative diabetic retinopathy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, diagnosis (ocular hypertension, primary open angle glaucoma, or normal tension glaucoma), best corrected visual acuity, baseline peripapillary vessel density, baseline flow index, baseline optic nerve head vessel density, baseline optic nerve head flow index, history of ocular surgery, presence of mild drusen or pigmentary changes, presence of mild background non-proliferative diabetic retinopathy."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Best Corrected Visual Acuity, Type of Glaucoma, Baseline Intraocular Pressure, Baseline Vessel Density, Baseline Flow Index",
@@ -74,7 +75,8 @@
         "Baseline Vessel Density",
         "Baseline Flow Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Best Corrected Visual Acuity, Type of Glaucoma, Baseline Intraocular Pressure, Baseline Vessel Density, Baseline Flow Index"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis (POAG, NTG, OHTN), Best Corrected Visual Acuity, Intraocular Pressure, Central Corneal Thickness, Cup-to-Disc Ratio, Visual Field Mean Deviation, Visual Field Pattern Standard Deviation,",
@@ -115,7 +117,8 @@
         "Visual Field Mean Deviation",
         "Visual Field Pattern Standard Deviation"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diagnosis (POAG, NTG, OHTN), Best Corrected Visual Acuity, Intraocular Pressure, Central Corneal Thickness, Cup-to-Disc Ratio, Visual Field Mean Deviation, Visual Field Pattern Standard Deviation"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, diagnosis (ocular hypertension, primary open angle glaucoma, or normal tension glaucoma), best corrected visual acuity, intraocular pressure, spherical equivalent, axial length, central corneal thickness, cup-to-disc ratio, visual field mean deviation, number of antiglaucoma medications used, duration of glaucoma diagnosis.",
@@ -155,6 +158,7 @@
         "number of antiglaucoma medications used",
         "duration of glaucoma diagnosis."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, diagnosis (ocular hypertension, primary open angle glaucoma, or normal tension glaucoma), best corrected visual acuity, intraocular pressure, spherical equivalent, axial length, central corneal thickness, cup-to-disc ratio, visual field mean deviation, number of antiglaucoma medications used, duration of glaucoma diagnosis."
   }
 }

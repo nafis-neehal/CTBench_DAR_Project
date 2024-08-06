@@ -24,7 +24,8 @@
       "remaining_candidate_features": [
         "health status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, health status"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Education Level, Marital Status, Employment Status, Health Status, Prior Decision-Making Experience,",
@@ -56,7 +57,8 @@
         "Health Status",
         "Prior Decision-Making Experience"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Education Level, Marital Status, Employment Status, Health Status, Prior Decision-Making Experience"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female,",
@@ -79,7 +81,8 @@
         "Region of Enrollment"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, gender, educational level, occupation, marital status, prior experience with decision aids, prior experience with regretful decisions.",
@@ -108,6 +111,7 @@
         "prior experience with decision aids",
         "prior experience with regretful decisions."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, educational level, occupation, marital status, prior experience with decision aids, prior experience with regretful decisions."
   }
 }

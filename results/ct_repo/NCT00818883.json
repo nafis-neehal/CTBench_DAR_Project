@@ -45,7 +45,8 @@
         "duration of hypertension",
         "previous antihypertensive treatments"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline systolic blood pressure, baseline diastolic blood pressure, body mass index (BMI), medical history, concomitant medications, smoking status, alcohol use, baseline laboratory values (e.g., serum potassium, alanine aminotransferase, aspartate aminotransferase, estimated glomerular filtration rate), duration of hypertension, previous antihypertensive treatments."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Body Mass Index, Baseline 24-hour Ambulatory Blood Pressure Monitoring, Baseline Serum Potassium, Baseline eGFR, Baseline Fasting Glucose, Baseline HbA1c, Baseline Lipid Profile,",
@@ -94,7 +95,8 @@
         "Baseline HbA1c",
         "Baseline Lipid Profile"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Body Mass Index, Baseline 24-hour Ambulatory Blood Pressure Monitoring, Baseline Serum Potassium, Baseline eGFR, Baseline Fasting Glucose, Baseline HbA1c, Baseline Lipid Profile"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Mean Sitting Clinic Systolic Blood Pressure, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications, Prior Antihypertensive Therapy.",
@@ -140,7 +142,8 @@
         "Number of Antihypertensive Medications",
         "Prior Antihypertensive Therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Mean Sitting Clinic Systolic Blood Pressure, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications, Prior Antihypertensive Therapy."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, smoking status, medical history (including hypertension duration and severity), concomitant medications, systolic blood pressure, diastolic blood pressure, heart rate, serum potassium levels, estimated glomerular filtration rate, alanine aminotransferase, aspartate aminotransferase, hemoglobin A1c (for participants with diabetes).",
@@ -191,6 +194,7 @@
         "aspartate aminotransferase",
         "hemoglobin A1c (for participants with diabetes)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, smoking status, medical history (including hypertension duration and severity), concomitant medications, systolic blood pressure, diastolic blood pressure, heart rate, serum potassium levels, estimated glomerular filtration rate, alanine aminotransferase, aspartate aminotransferase, hemoglobin A1c (for participants with diabetes)."
   }
 }

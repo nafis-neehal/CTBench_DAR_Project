@@ -41,7 +41,8 @@
         "congestive heart failure",
         "pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, baseline HbA1c levels, body mass index (BMI), current use of MyHealtheVet Secure Messaging, history of participation in weight loss programs, physical activity level, medication use (e.g., Metformin), history of stroke or myocardial infarction, history of chemotherapy for cancer, presence of diabetes, dementia, major functional limitations, cirrhosis, COPD, end stage renal disease, congestive heart failure, pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, HbA1c, Body Mass Index, Physical Activity Level, Engagement in Preventive Behaviors, Use of MyHealtheVet Secure Messaging,",
@@ -76,7 +77,8 @@
         "Engagement in Preventive Behaviors",
         "Use of MyHealtheVet Secure Messaging"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, HbA1c, Body Mass Index, Physical Activity Level, Engagement in Preventive Behaviors, Use of MyHealtheVet Secure Messaging"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes duration, Engagement in recommended behaviors to prevent T2DM at baseline,",
@@ -112,7 +114,8 @@
         "Diabetes duration",
         "Engagement in recommended behaviors to prevent T2DM at baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Diabetes duration, Engagement in recommended behaviors to prevent T2DM at baseline"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), HbA1c level, duration of prediabetes, current smoking status, physical activity level, education level, employment status, marital status, number of comorbidities, current medications, prior weight loss program participation, prior diabetes education, self-reported health status, MyHealtheVet Secure Messaging usage frequency.",
@@ -155,6 +158,7 @@
         "self-reported health status",
         "MyHealtheVet Secure Messaging usage frequency"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), HbA1c level, duration of prediabetes, current smoking status, physical activity level, education level, employment status, marital status, number of comorbidities, current medications, prior weight loss program participation, prior diabetes education, self-reported health status, MyHealtheVet Secure Messaging usage frequency."
   }
 }

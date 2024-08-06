@@ -52,7 +52,8 @@
         "heart disease status",
         "concurrent medication use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline eGFR, baseline serum endostatin level, HCV RNA level, genotype 1b chronic hepatitis C status, presence of compensated cirrhosis, co-infection status (hepatitis B virus, human immunodeficiency virus), albumin level, platelet count, history of autoimmune hepatitis, alcohol consumption history, history of hypersensitivity to grazoprevir and elbasvir, pregnancy status, breastfeeding status, heart disease status, concurrent medication use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline eGFR, Baseline Serum Endostatin Level, HCV RNA Level, Presence of Compensated Cirrhosis, Albumin Level, Platelet Count,",
@@ -103,7 +104,8 @@
         "Baseline Serum Endostatin Level",
         "Platelet Count"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline eGFR, Baseline Serum Endostatin Level, HCV RNA Level, Presence of Compensated Cirrhosis, Albumin Level, Platelet Count"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, HCV RNA, Albumin, Platelets, History of Cirrhosis, History of Autoimmune Hepatitis, History of Heart Disease, History of Hypersensitivity to Grazoprevir and Elbasvir, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure.",
@@ -161,7 +163,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, eGFR, HCV RNA, Albumin, Platelets, History of Cirrhosis, History of Autoimmune Hepatitis, History of Heart Disease, History of Hypersensitivity to Grazoprevir and Elbasvir, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), genotype 1b chronic hepatitis C duration, HCV RNA level, liver cirrhosis status, Child-Pugh score, albumin level, platelet count, eGFR level, serum creatinine level, history of hypertension, history of diabetes, history of heart disease, smoking status, alcohol consumption status.",
@@ -214,6 +217,7 @@
         "smoking status",
         "alcohol consumption status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), genotype 1b chronic hepatitis C duration, HCV RNA level, liver cirrhosis status, Child-Pugh score, albumin level, platelet count, eGFR level, serum creatinine level, history of hypertension, history of diabetes, history of heart disease, smoking status, alcohol consumption status."
   }
 }

@@ -52,7 +52,8 @@
         "body mass index (BMI)",
         "baseline medication use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, duration of dialysis, type of dialysis (peritoneal or hemodialysis), baseline hemoglobin levels, serum ferritin levels, transferrin saturation (TSAT), baseline blood pressure, history of cardiovascular events, baseline erythropoiesis-stimulating agent dose, baseline kidney function, comorbid conditions (e.g., diabetes, hypertension), body mass index (BMI), baseline medication use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Dialysis, Baseline Hemoglobin, Serum Ferritin, Transferrin Saturation (TSAT), Blood Pressure, History of Cardiovascular Disease, Type of Dialysis (Peritoneal or Hemodialysis),",
@@ -99,7 +100,8 @@
         "Blood Pressure",
         "History of Cardiovascular Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Dialysis, Baseline Hemoglobin, Serum Ferritin, Transferrin Saturation (TSAT), Blood Pressure, History of Cardiovascular Disease, Type of Dialysis (Peritoneal or Hemodialysis)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Dialysis modality, Duration of dialysis, Hemoglobin, Ferritin, TSAT, ESA dose, History of cardiovascular disease, History of heart failure, History of stroke, History of peripheral artery disease.",
@@ -151,7 +153,8 @@
         "History of stroke",
         "History of peripheral artery disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Dialysis modality, Duration of dialysis, Hemoglobin, Ferritin, TSAT, ESA dose, History of cardiovascular disease, History of heart failure, History of stroke, History of peripheral artery disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of dialysis, type of dialysis (peritoneal or hemodialysis), duration of erythropoiesis-stimulating agent therapy, mean hemoglobin at screening, serum ferritin, transferrin saturation (TSAT), systolic and diastolic blood pressure, New York Heart Association (NYHA) class, history of cardiovascular disease, history of heart failure, history of stroke or transient ischemic attack, history of peripheral artery disease.",
@@ -205,6 +208,7 @@
         "history of stroke or transient ischemic attack",
         "history of peripheral artery disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of dialysis, type of dialysis (peritoneal or hemodialysis), duration of erythropoiesis-stimulating agent therapy, mean hemoglobin at screening, serum ferritin, transferrin saturation (TSAT), systolic and diastolic blood pressure, New York Heart Association (NYHA) class, history of cardiovascular disease, history of heart failure, history of stroke or transient ischemic attack, history of peripheral artery disease."
   }
 }

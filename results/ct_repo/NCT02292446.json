@@ -33,7 +33,8 @@
         "malignancy history",
         "pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, liver function, renal function, spleen size, previous hydroxyurea treatment response, infection status, malignancy history, pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Liver function, Renal function, Spleen size, Duration of polycythemia vera, Previous hydroxyurea treatment,",
@@ -72,7 +73,8 @@
         "Spleen size",
         "Duration of polycythemia vera"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG performance status, Liver function, Renal function, Spleen size, Duration of polycythemia vera, Previous hydroxyurea treatment"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Palpable spleen, Prior hydroxyurea treatment, Duration of polycythemia vera, Spleen size, Hemoglobin, White blood cell count, Platelet count.",
@@ -113,7 +115,8 @@
         "White blood cell count",
         "Platelet count"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG performance status, Palpable spleen, Prior hydroxyurea treatment, Duration of polycythemia vera, Spleen size, Hemoglobin, White blood cell count, Platelet count."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), ECOG performance status, spleen size, prior treatment with hydroxyurea, duration of polycythemia vera, hemoglobin level, white blood cell count, platelet count, liver function tests, renal function tests.",
@@ -155,6 +158,7 @@
         "liver function tests",
         "renal function tests"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), ECOG performance status, spleen size, prior treatment with hydroxyurea, duration of polycythemia vera, hemoglobin level, white blood cell count, platelet count, liver function tests, renal function tests."
   }
 }

@@ -50,7 +50,8 @@
       "remaining_candidate_features": [
         "life expectancy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, ECOG performance status, prior treatments, HER2 status, stage of cancer, baseline laboratory values (hemoglobin, platelet count, absolute neutrophil count, serum bilirubin, AST/SGOT, ALT/SGPT, serum creatinine, fasting plasma glucose), life expectancy, baseline ECG (QT interval)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, HER2 Status, Prior Trastuzumab Treatment, Prior Taxane Treatment, Hemoglobin, Platelet Count, Absolute Neutrophil Count, Serum Bilirubin, AST/SGOT, ALT/SGPT, Serum Creatinine, Fasting Plasma Glucose, Left Ventricular Ejection Fraction (LVEF), QT Interval,",
@@ -105,7 +106,8 @@
         "Left Ventricular Ejection Fraction (LVEF)",
         "QT Interval"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, HER2 Status, Prior Trastuzumab Treatment, Prior Taxane Treatment, Hemoglobin, Platelet Count, Absolute Neutrophil Count, Serum Bilirubin, AST/SGOT, ALT/SGPT, Serum Creatinine, Fasting Plasma Glucose, Left Ventricular Ejection Fraction (LVEF), QT Interval"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, HER2 Status, Prior Trastuzumab and Taxane Treatment, Eastern Cooperative Oncology Group (ECOG) Performance Status, Hemoglobin, Platelet Count, Absolute Neutrophil Count (ANC), Serum Bilirubin, Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), Serum Creatinine, Fasting Plasma Glucose (FPG), Left Ventricular Ejection Fraction (LVEF), QT Interval Adjusted According to Fridericia (QTcF).",
@@ -156,7 +158,8 @@
         "Left Ventricular Ejection Fraction (LVEF)",
         "QT Interval Adjusted According to Fridericia (QTcF)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, HER2 Status, Prior Trastuzumab and Taxane Treatment, Eastern Cooperative Oncology Group (ECOG) Performance Status, Hemoglobin, Platelet Count, Absolute Neutrophil Count (ANC), Serum Bilirubin, Aspartate Aminotransferase (AST), Alanine Aminotransferase (ALT), Serum Creatinine, Fasting Plasma Glucose (FPG), Left Ventricular Ejection Fraction (LVEF), QT Interval Adjusted According to Fridericia (QTcF)."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, life expectancy, histological confirmation of HER2-positive breast cancer, prior trastuzumab and taxane-based chemotherapy regimen, hemoglobin, platelet count, absolute neutrophil count, serum bilirubin, AST/SGOT and/or ALT/SGPT, serum creatinine, fasting plasma glucose, QT interval, left ventricular ejection fraction, blood pressure, history of cardiac disease or impaired cardiac function, diabetes mellitus, gastrointestinal function or disease.",
@@ -213,6 +216,7 @@
         "diabetes mellitus",
         "gastrointestinal function or disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, life expectancy, histological confirmation of HER2-positive breast cancer, prior trastuzumab and taxane-based chemotherapy regimen, hemoglobin, platelet count, absolute neutrophil count, serum bilirubin, AST/SGOT and/or ALT/SGPT, serum creatinine, fasting plasma glucose, QT interval, left ventricular ejection fraction, blood pressure, history of cardiac disease or impaired cardiac function, diabetes mellitus, gastrointestinal function or disease."
   }
 }

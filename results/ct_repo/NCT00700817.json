@@ -49,7 +49,8 @@
         "renal function",
         "liver function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, duration of diabetes, baseline HbA1c, body mass index (BMI), fasting plasma glucose, blood pressure, lipid profile, previous diabetes treatment, concomitant medications, smoking status, alcohol consumption, physical activity level, renal function, liver function."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Metformin Dose, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose,",
@@ -95,7 +96,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Metformin Dose, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol.",
@@ -144,7 +146,8 @@
         "HDL Cholesterol",
         "LDL Cholesterol"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose at screening, systolic and diastolic blood pressure, heart rate, smoking status, medical history (including cardiovascular disease, hypertension, dyslipidemia, and nephropathy), concomitant medications, metformin dose and duration.",
@@ -194,6 +197,7 @@
         "concomitant medications",
         "metformin dose and duration."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at screening, fasting plasma glucose at screening, systolic and diastolic blood pressure, heart rate, smoking status, medical history (including cardiovascular disease, hypertension, dyslipidemia, and nephropathy), concomitant medications, metformin dose and duration."
   }
 }

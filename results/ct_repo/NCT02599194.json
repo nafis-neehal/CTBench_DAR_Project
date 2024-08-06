@@ -41,7 +41,8 @@
         "performance status",
         "baseline Standard Uptake Value Maximum (SUVmax)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, cancer type, cancer stage, histological subtype, renal function (serum creatinine), prior treatments, performance status, baseline Standard Uptake Value Maximum (SUVmax), menopausal status (for females), pregnancy status (for females of childbearing potential)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Type, Stage of Cancer, Renal Function (Serum Creatinine), Prior Treatments,",
@@ -78,7 +79,8 @@
         "Renal Function (Serum Creatinine)",
         "Prior Treatments"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Type, Stage of Cancer, Renal Function (Serum Creatinine), Prior Treatments"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Type, Stage of Cancer, Treatment Type, Eastern Cooperative Oncology Group (ECOG) Performance Status, Body Mass Index, Serum Creatinine, Prior Chemotherapy, Prior Radiotherapy, Prior Biologic/Immunotherapy.",
@@ -118,7 +120,8 @@
         "Prior Radiotherapy",
         "Prior Biologic/Immunotherapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Type, Stage of Cancer, Treatment Type, Eastern Cooperative Oncology Group (ECOG) Performance Status, Body Mass Index, Serum Creatinine, Prior Chemotherapy, Prior Radiotherapy, Prior Biologic/Immunotherapy."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), performance status, cancer type, cancer stage, prior therapies, time since diagnosis, serum creatinine level, presence of metastases, Eastern Cooperative Oncology Group (ECOG) performance status.",
@@ -159,6 +162,7 @@
         "presence of metastases",
         "Eastern Cooperative Oncology Group (ECOG) performance status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), performance status, cancer type, cancer stage, prior therapies, time since diagnosis, serum creatinine level, presence of metastases, Eastern Cooperative Oncology Group (ECOG) performance status."
   }
 }

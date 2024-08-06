@@ -36,7 +36,8 @@
         "duration of surgery",
         "preoperative anxiety level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), American Society of Anesthesiologists (ASA) classification, baseline pain score, type of breast cancer surgery, comorbidities, baseline opioid use, duration of surgery, preoperative anxiety level"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, American Society of Anesthesiologists (ASA) classification, Type of breast cancer surgery, Preoperative pain score,",
@@ -73,7 +74,8 @@
         "Type of breast cancer surgery",
         "Preoperative pain score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, American Society of Anesthesiologists (ASA) classification, Type of breast cancer surgery, Preoperative pain score"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, ASA Status, Sex: Female, BMI, Region of Enrollment, Type of Breast Cancer Surgery,",
@@ -103,7 +105,8 @@
         "BMI",
         "Type of Breast Cancer Surgery"
       ]
-    }
+    },
+    "processed-gen-response": "Age, ASA Status, Sex: Female, BMI, Region of Enrollment, Type of Breast Cancer Surgery"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), American Society of Anesthesiologists (ASA) classification, type of breast cancer surgery, history of chronic pain, history of opioid use, baseline pain score.",
@@ -133,6 +136,7 @@
         "history of opioid use",
         "baseline pain score."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), American Society of Anesthesiologists (ASA) classification, type of breast cancer surgery, history of chronic pain, history of opioid use, baseline pain score."
   }
 }

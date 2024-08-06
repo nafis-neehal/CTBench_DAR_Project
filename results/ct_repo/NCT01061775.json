@@ -45,7 +45,8 @@
         "history of bariatric surgery",
         "pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, baseline BMI, duration since last treatment (surgery, radiation, or chemotherapy), presence of renal impairment, presence of gastroparesis, history of pancreatitis, diabetes status, use of Metformin, use of weight loss medications, participation in weight loss programs, history of bariatric surgery, pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Waist to Height Ratio, Time Since Treatment for Craniopharyngioma,",
@@ -86,7 +87,8 @@
         "Race/Ethnicity",
         "Time Since Treatment for Craniopharyngioma"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Waist to Height Ratio, Time Since Treatment for Craniopharyngioma"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, Hypothalamic obesity diagnosis duration, Previous treatment for craniopharyngioma, Radiation therapy, Chemotherapy, Surgical treatment, Parental consent, Patient assent,",
@@ -131,7 +133,8 @@
         "Parental consent",
         "Patient assent"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, Hypothalamic obesity diagnosis duration, Previous treatment for craniopharyngioma, Radiation therapy, Chemotherapy, Surgical treatment, Parental consent, Patient assent"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, weight, height, waist circumference, hip circumference, presence of diabetes, presence of gastroparesis, presence of pancreatitis, renal function, time since treatment for craniopharyngioma, type of treatment for craniopharyngioma, use of Metformin, use of weight loss medications, participation in formal weight loss programs, history of bariatric surgery.",
@@ -189,6 +192,7 @@
         "participation in formal weight loss programs",
         "history of bariatric surgery"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, weight, height, waist circumference, hip circumference, presence of diabetes, presence of gastroparesis, presence of pancreatitis, renal function, time since treatment for craniopharyngioma, type of treatment for craniopharyngioma, use of Metformin, use of weight loss medications, participation in formal weight loss programs, history of bariatric surgery."
   }
 }

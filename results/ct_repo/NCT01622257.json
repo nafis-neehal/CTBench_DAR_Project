@@ -68,7 +68,8 @@
         "baseline ovulation rate",
         "baseline clinical pregnancy rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, duration of infertility, baseline insulin resistance, baseline serum testosterone level, baseline lipid profile, baseline ovulation rate, baseline clinical pregnancy rate"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Body Mass Index, Ovulation Rate, Insulin Resistance, Serum Testosterone Level, Lipid Profile,",
@@ -134,7 +135,8 @@
       "remaining_candidate_features": [
         "Ovulation Rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Body Mass Index, Ovulation Rate, Insulin Resistance, Serum Testosterone Level, Lipid Profile"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, BMI, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin, HOMA-IR, Total Testosterone, Lipid Profile, Duration of Infertility, Previous Ovulation Induction.",
@@ -214,7 +216,8 @@
         "Lipid Profile",
         "Previous Ovulation Induction."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, BMI, Waist Circumference, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Glucose, Fasting Insulin, HOMA-IR, Total Testosterone, Lipid Profile, Duration of Infertility, Previous Ovulation Induction."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, BMI, parity, infertility duration, PCOS duration, serum testosterone level, insulin resistance, lipid profile, ovulation rate, menstrual cycle regularity, presence of acne or hirsutism, waist circumference, hip circumference, systolic blood pressure, diastolic blood pressure, smoking history, medical history (cardiovascular, liver, kidney, or respiratory disease, diabetes, uncontrolled hypertension, or malignancy).",
@@ -290,6 +293,7 @@
         "smoking history",
         "medical history (cardiovascular, liver, kidney, or respiratory disease, diabetes, uncontrolled hypertension, or malignancy)."
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, parity, infertility duration, PCOS duration, serum testosterone level, insulin resistance, lipid profile, ovulation rate, menstrual cycle regularity, presence of acne or hirsutism, waist circumference, hip circumference, systolic blood pressure, diastolic blood pressure, smoking history, medical history (cardiovascular, liver, kidney, or respiratory disease, diabetes, uncontrolled hypertension, or malignancy)."
   }
 }

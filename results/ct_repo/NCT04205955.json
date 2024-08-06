@@ -73,7 +73,8 @@
         "Quality of Life Score",
         "Prior Malignancy History"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Race/Ethnicity, Body Mass Index (BMI), Medical History, Cancer Stage at Diagnosis, Type of Surgery, Time Since Last Treatment, Low Anterior Resection Syndrome (LARS) Score, Baseline Bowel Function, Quality of Life Score, Prior Malignancy History, Language Proficiency"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Surgery (ostomy or anastomosis), Time Since Last Treatment, Low Anterior Resection Syndrome (LARS) Score, Baseline Bowel Function, Quality of Life,",
@@ -142,7 +143,8 @@
         "Baseline Bowel Function",
         "Quality of Life"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Surgery (ostomy or anastomosis), Time Since Last Treatment, Low Anterior Resection Syndrome (LARS) Score, Baseline Bowel Function, Quality of Life"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Prior History of Rectosigmoid Colon Cancer or Rectal Cancer, Post-Surgical Permanent Ostomy or Anastomosis, Low Anterior Resection Syndrome (LARS) Score, Prior Treatment for Rectal Cancer, Time Since Last Treatment for Rectal Cancer.",
@@ -217,7 +219,8 @@
       "remaining_candidate_features": [
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Prior History of Rectosigmoid Colon Cancer or Rectal Cancer, Post-Surgical Permanent Ostomy or Anastomosis, Low Anterior Resection Syndrome (LARS) Score, Prior Treatment for Rectal Cancer, Time Since Last Treatment for Rectal Cancer."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), type of cancer (rectosigmoid colon cancer or rectal cancer), time since last treatment, type of surgery (ostomy or anastomosis), LARS score, quality of life score, presence of comorbidities, medication use.",
@@ -287,6 +290,7 @@
         "presence of comorbidities",
         "medication use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), type of cancer (rectosigmoid colon cancer or rectal cancer), time since last treatment, type of surgery (ostomy or anastomosis), LARS score, quality of life score, presence of comorbidities, medication use."
   }
 }

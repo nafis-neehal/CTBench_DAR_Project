@@ -34,7 +34,8 @@
         "life expectancy",
         "surgical resection status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, tumor type, tumor stage, prior treatments, performance status, liver function, renal function, life expectancy, biopsy confirmation, surgical resection status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Tumor Type, Tumor Stage, Liver Function (Child-Pugh score), Life Expectancy,",
@@ -69,7 +70,8 @@
         "Liver Function (Child-Pugh score)",
         "Life Expectancy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Tumor Type, Tumor Stage, Liver Function (Child-Pugh score), Life Expectancy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Tumor type, Tumor stage, Prior cancer treatment, Prior surgery, Performance status, Body Mass Index,",
@@ -106,7 +108,8 @@
         "Performance status",
         "Body Mass Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Tumor type, Tumor stage, Prior cancer treatment, Prior surgery, Performance status, Body Mass Index"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), tumor type, tumor stage, prior cancer treatment, surgical procedure, comorbidities, liver function tests, Child-Pugh score, life expectancy.",
@@ -147,6 +150,7 @@
         "Child-Pugh score",
         "life expectancy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), tumor type, tumor stage, prior cancer treatment, surgical procedure, comorbidities, liver function tests, Child-Pugh score, life expectancy."
   }
 }

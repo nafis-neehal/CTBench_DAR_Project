@@ -37,7 +37,8 @@
         "type of head and neck cancer",
         "use of non-steroidal anti-inflammatory drugs."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, performance status, liver function tests, kidney function tests, blood cell counts, prior treatment history, presence of metastasis, type of head and neck cancer, use of non-steroidal anti-inflammatory drugs."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Performance Status, Liver Function Tests, Kidney Function Tests, Blood Cell Counts, Region of Enrollment, Previous Cancer Treatment,",
@@ -79,7 +80,8 @@
         "Kidney Function Tests",
         "Blood Cell Counts"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Performance Status, Liver Function Tests, Kidney Function Tests, Blood Cell Counts, Region of Enrollment, Previous Cancer Treatment"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Performance Status, Head and Neck Cancer Stage, Prior Treatment for Cancer, Liver Function, Kidney Function, Blood Cell Count,",
@@ -116,7 +118,8 @@
         "Kidney Function",
         "Blood Cell Count"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Performance Status, Head and Neck Cancer Stage, Prior Treatment for Cancer, Liver Function, Kidney Function, Blood Cell Count"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, performance status, cancer type, cancer stage, presence of metastases, liver function, kidney function, blood cell count, prior cancer treatment, presence of serious illnesses, use of non-steroidal anti-inflammatory drugs.",
@@ -156,6 +159,7 @@
         "presence of serious illnesses",
         "use of non-steroidal anti-inflammatory drugs."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, performance status, cancer type, cancer stage, presence of metastases, liver function, kidney function, blood cell count, prior cancer treatment, presence of serious illnesses, use of non-steroidal anti-inflammatory drugs."
   }
 }

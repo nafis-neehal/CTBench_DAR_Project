@@ -34,7 +34,8 @@
         "use of birth control methods",
         "informed consent status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, type of tumor, disease status (refractory or recurrent), measurable disease status, Lansky or Karnofsky Score, ANC levels, liver function (total bilirubin, SGPT/ALT levels), pregnancy status (for females of childbearing potential), use of birth control methods, informed consent status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Tumor, Disease Status (Refractory or Recurrent), Lansky or Karnofsky Score, Absolute Neutrophil Count (ANC), Liver Function (Total Bilirubin, SGPT/ALT), Pregnancy Test (for females of childbearing potential), Contraceptive Use (for post-pubertal subjects),",
@@ -74,7 +75,8 @@
         "Pregnancy Test (for females of childbearing potential)",
         "Contraceptive Use (for post-pubertal subjects)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Tumor, Disease Status (Refractory or Recurrent), Lansky or Karnofsky Score, Absolute Neutrophil Count (ANC), Liver Function (Total Bilirubin, SGPT/ALT), Pregnancy Test (for females of childbearing potential), Contraceptive Use (for post-pubertal subjects)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis, Disease Status, Lansky or Karnofsky Score, Absolute Neutrophil Count, Liver Function Tests, Serum Bilirubin, SGPT (ALT), Prior Chemotherapy, Prior Radiotherapy, Prior Anti-tumor Therapy, Infection Status, Medical Condition.",
@@ -119,7 +121,8 @@
         "Infection Status",
         "Medical Condition."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diagnosis, Disease Status, Lansky or Karnofsky Score, Absolute Neutrophil Count, Liver Function Tests, Serum Bilirubin, SGPT (ALT), Prior Chemotherapy, Prior Radiotherapy, Prior Anti-tumor Therapy, Infection Status, Medical Condition."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, Lansky or Karnofsky Score, tumor type (neuroblastoma, medulloblastoma, brain tumor, rare tumor), disease status (refractory or recurrent), time from initial diagnosis, presence of measurable disease, ANC, liver function (total bilirubin, SGPT/ALT), performance status, prior treatments (chemotherapy, radiotherapy, anti-tumor therapy), presence of serious infection or life-threatening illness.",
@@ -155,6 +158,7 @@
         "prior treatments (chemotherapy, radiotherapy, anti-tumor therapy)",
         "presence of serious infection or life-threatening illness."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, Lansky or Karnofsky Score, tumor type (neuroblastoma, medulloblastoma, brain tumor, rare tumor), disease status (refractory or recurrent), time from initial diagnosis, presence of measurable disease, ANC, liver function (total bilirubin, SGPT/ALT), performance status, prior treatments (chemotherapy, radiotherapy, anti-tumor therapy), presence of serious infection or life-threatening illness."
   }
 }

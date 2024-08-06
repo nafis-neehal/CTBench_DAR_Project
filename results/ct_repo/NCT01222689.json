@@ -48,7 +48,8 @@
         "use of contraception",
         "pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, ECOG performance status, prior lines of therapy, absolute neutrophil count (ANC), platelet count, total bilirubin, aspartate aminotransferase (AST), alanine aminotransferase (ALT), serum creatinine, CA19-9 levels, life expectancy, presence of measurable disease, prior radiation therapy, use of contraception, pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Absolute neutrophil count, Platelet count, Total bilirubin, AST, ALT, Serum creatinine, CA19-9 level, Prior systemic therapy, Prior radiation therapy, Life expectancy,",
@@ -97,7 +98,8 @@
         "Serum creatinine",
         "Life expectancy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Absolute neutrophil count, Platelet count, Total bilirubin, AST, ALT, Serum creatinine, CA19-9 level, Prior systemic therapy, Prior radiation therapy, Life expectancy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior Chemotherapy, Prior Radiation Therapy, CA19-9 Level, Tumor Stage, Tumor Location, ANC, Platelet Count, INR, Total Bilirubin, AST, ALT, Serum Creatinine.",
@@ -151,7 +153,8 @@
         "ALT",
         "Serum Creatinine"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Prior Chemotherapy, Prior Radiation Therapy, CA19-9 Level, Tumor Stage, Tumor Location, ANC, Platelet Count, INR, Total Bilirubin, AST, ALT, Serum Creatinine."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, life expectancy, histological type of pancreatic cancer, number of prior therapies, prior radiation therapy, prior surgery, CA19-9 level, ANC, platelet count, INR, total bilirubin, AST, ALT, serum creatinine, presence of metastases, measurable disease.",
@@ -205,6 +208,7 @@
         "presence of metastases",
         "measurable disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, life expectancy, histological type of pancreatic cancer, number of prior therapies, prior radiation therapy, prior surgery, CA19-9 level, ANC, platelet count, INR, total bilirubin, AST, ALT, serum creatinine, presence of metastases, measurable disease."
   }
 }

@@ -35,7 +35,8 @@
         "renal function (glomerular filtration rate)",
         "liver function (Child-Pugh score)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of type 2 diabetes, baseline HbA1c levels, fasting central glucose levels, body mass index (BMI), prior diabetes treatment (diet alone, oral anti-diabetic agents, insulin), comorbidities, hospitalization reason (Internal Medicine, General Surgery, Traumatology), diabetic diet adherence, renal function (glomerular filtration rate), liver function (Child-Pugh score)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Fasting Blood Glucose, Body Mass Index, Blood Pressure, Renal Function (eGFR), Liver Function (Child-Pugh Score),",
@@ -75,7 +76,8 @@
         "Renal Function (eGFR)",
         "Liver Function (Child-Pugh Score)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Fasting Blood Glucose, Body Mass Index, Blood Pressure, Renal Function (eGFR), Liver Function (Child-Pugh Score)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, Fasting Central Glucose, HbA1c, Insulin Treatment, Oral Anti-Diabetic Agents, Diabetic Diet.",
@@ -114,7 +116,8 @@
         "Oral Anti-Diabetic Agents",
         "Diabetic Diet."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, Fasting Central Glucose, HbA1c, Insulin Treatment, Oral Anti-Diabetic Agents, Diabetic Diet."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), duration of type 2 diabetes, history of hypertension, history of cardiovascular disease, history of kidney disease, history of liver disease, smoking status, HbA1c at baseline, fasting central glucose at baseline, type of oral anti-diabetic agents used before admission, insulin treatment before admission, glomerular filtration rate, Child-Pugh score.",
@@ -153,6 +156,7 @@
         "glomerular filtration rate",
         "Child-Pugh score."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), duration of type 2 diabetes, history of hypertension, history of cardiovascular disease, history of kidney disease, history of liver disease, smoking status, HbA1c at baseline, fasting central glucose at baseline, type of oral anti-diabetic agents used before admission, insulin treatment before admission, glomerular filtration rate, Child-Pugh score."
   }
 }

@@ -83,7 +83,8 @@
         "history of upper respiratory infections",
         "sleep apnea status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), asthma duration, baseline FEV1, baseline leptin levels, baseline adiponectin levels, smoking history, inhaled corticosteroid dose, comorbidities, medication use, baseline airway reactivity (PC20), baseline B-type natriuretic peptide (BNP) levels, pregnancy status, use of contraception, history of asthma exacerbations, history of upper respiratory infections, sleep apnea status, electrocardiogram (ECG) abnormalities."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Asthma duration, Baseline FEV1, Methacholine PC20, Inhaled corticosteroid dose, Systolic Blood Pressure, Diastolic Blood Pressure, Leptin levels, Adiponectin levels,",
@@ -144,7 +145,8 @@
         "Leptin levels",
         "Adiponectin levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Asthma duration, Baseline FEV1, Methacholine PC20, Inhaled corticosteroid dose, Systolic Blood Pressure, Diastolic Blood Pressure, Leptin levels, Adiponectin levels"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, FEV1, Asthma Control Questionnaire (ACQ) score, Methacholine challenge test PC20, Inhaled corticosteroid dose, Weekly weights, B-type natriuretic peptide (BNP) level.",
@@ -206,7 +208,8 @@
         "Weekly weights",
         "B-type natriuretic peptide (BNP) level."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, FEV1, Asthma Control Questionnaire (ACQ) score, Methacholine challenge test PC20, Inhaled corticosteroid dose, Weekly weights, B-type natriuretic peptide (BNP) level."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, smoking history, duration of asthma, FEV1, PC20, inhaled corticosteroid dose, leptin levels, adiponectin levels, B-type natriuretic peptide levels, liver enzymes, serum creatinine, electrocardiogram results.",
@@ -268,6 +271,7 @@
         "serum creatinine",
         "electrocardiogram results."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, smoking history, duration of asthma, FEV1, PC20, inhaled corticosteroid dose, leptin levels, adiponectin levels, B-type natriuretic peptide levels, liver enzymes, serum creatinine, electrocardiogram results."
   }
 }

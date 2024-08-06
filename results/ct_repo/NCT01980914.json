@@ -54,7 +54,8 @@
         "blood pressure",
         "lipid levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of diabetes, BMI, A1c levels, blood pressure, lipid levels, glomerular filtration rate (GFR), history of coronary artery disease (CAD), history of stroke, cognitive function, language proficiency."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Duration of Diabetes, HbA1c, Blood Pressure, Glomerular Filtration Rate (GFR), History of Cardiovascular Disease, History of Cerebrovascular Disease,",
@@ -96,7 +97,8 @@
         "History of Cardiovascular Disease",
         "History of Cerebrovascular Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Duration of Diabetes, HbA1c, Blood Pressure, Glomerular Filtration Rate (GFR), History of Cardiovascular Disease, History of Cerebrovascular Disease"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes duration, Insulin glargine dose, BMI, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, LDL Cholesterol, HDL Cholesterol, Triglycerides, eGFR, History of cardiovascular disease, History of chronic heart failure, History of cerebrovascular disease.",
@@ -139,7 +141,8 @@
         "History of chronic heart failure",
         "History of cerebrovascular disease."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes duration, Insulin glargine dose, BMI, HbA1c, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, LDL Cholesterol, HDL Cholesterol, Triglycerides, eGFR, History of cardiovascular disease, History of chronic heart failure, History of cerebrovascular disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, A1c, duration of diabetes, insulin glargine dose, history of cardiovascular disease, history of chronic heart failure, history of cerebrovascular disease, glomerular filtration rate, blood pressure, lipid profile.",
@@ -197,6 +200,7 @@
         "sex",
         "insulin glargine dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, A1c, duration of diabetes, insulin glargine dose, history of cardiovascular disease, history of chronic heart failure, history of cerebrovascular disease, glomerular filtration rate, blood pressure, lipid profile."
   }
 }

@@ -32,7 +32,8 @@
         "informed consent status",
         "history of prior radiation to the head or neck."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, diagnosis of squamous cell carcinoma, treatment recommendation (definitive radiation therapy with concurrent chemotherapy), prior surgical resection status, treatment course duration (at least 30 radiation fractions), informed consent status, history of prior radiation to the head or neck."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Tumor Stage, Tumor Location, Smoking Status, Alcohol Use, Baseline Salivary Flow Rate, Baseline Swallowing Function, Quality of Life Scores,",
@@ -70,7 +71,8 @@
         "Baseline Swallowing Function",
         "Quality of Life Scores"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Tumor Stage, Tumor Location, Smoking Status, Alcohol Use, Baseline Salivary Flow Rate, Baseline Swallowing Function, Quality of Life Scores"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Tumor stage, Tumor location, Radiation treatment plan, Prior chemotherapy, Prior surgical resection, Salivary flow rate, Quality of life score",
@@ -108,7 +110,8 @@
         "Salivary flow rate",
         "Quality of life score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Tumor stage, Tumor location, Radiation treatment plan, Prior chemotherapy, Prior surgical resection, Salivary flow rate, Quality of life score"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, weight, height, body mass index (BMI), Karnofsky performance status, tumor stage, tumor location, prior chemotherapy, prior surgical resection, radiation therapy dose and fractionation, salivary flow rate at baseline, quality of life scores at baseline.",
@@ -146,6 +149,7 @@
         "salivary flow rate at baseline",
         "quality of life scores at baseline."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, weight, height, body mass index (BMI), Karnofsky performance status, tumor stage, tumor location, prior chemotherapy, prior surgical resection, radiation therapy dose and fractionation, salivary flow rate at baseline, quality of life scores at baseline."
   }
 }

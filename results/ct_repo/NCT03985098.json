@@ -51,7 +51,8 @@
         "Smoking status",
         "Body Mass Index (BMI)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Race/Ethnicity, Baseline medication adherence, Duration of diabetes, Duration of hypertension, Comorbid conditions, Baseline blood pressure, Baseline HbA1c, Socioeconomic status, Health plan enrollment duration, Number of medications, Baseline renal function, Smoking status, Body Mass Index (BMI)"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Duration of Hypertension, Baseline HbA1c, Baseline Blood Pressure, Baseline Cholesterol Levels, Medication Adherence at Baseline,",
@@ -95,7 +96,8 @@
         "Baseline Cholesterol Levels",
         "Medication Adherence at Baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Duration of Hypertension, Baseline HbA1c, Baseline Blood Pressure, Baseline Cholesterol Levels, Medication Adherence at Baseline"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, Hypertension duration, ACEI/ARB medication adherence, Blood pressure, HbA1c, BMI, Comorbidities (dementia, hyperkalemia, renal artery stenosis),",
@@ -142,7 +144,8 @@
         "HbA1c",
         "BMI"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes duration, Hypertension duration, ACEI/ARB medication adherence, Blood pressure, HbA1c, BMI, Comorbidities (dementia, hyperkalemia, renal artery stenosis)"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, duration of hypertension, comorbidities (e.g., cardiovascular disease, kidney disease), smoking status, education level, income level, medication regimen (including ACEI/ARB type and dose), blood pressure, hemoglobin A1c (HbA1c), low-density lipoprotein (LDL) cholesterol, creatinine level, estimated glomerular filtration rate (eGFR).",
@@ -194,6 +197,7 @@
         "creatinine level",
         "estimated glomerular filtration rate (eGFR)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, duration of hypertension, comorbidities (e.g., cardiovascular disease, kidney disease), smoking status, education level, income level, medication regimen (including ACEI/ARB type and dose), blood pressure, hemoglobin A1c (HbA1c), low-density lipoprotein (LDL) cholesterol, creatinine level, estimated glomerular filtration rate (eGFR)."
   }
 }

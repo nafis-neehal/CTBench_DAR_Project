@@ -45,7 +45,8 @@
         "history of malignant disease",
         "history of hypoglycemia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), duration of diabetes, baseline HbA1c, fasting plasma glucose, body weight, metformin dosage, renal function (creatinine clearance), history of cardiovascular disease, history of pancreatitis, triglyceride levels, history of gastrointestinal diseases, history of central nervous system diseases, history of liver disease, history of malignant disease, history of hypoglycemia."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Body Mass Index, Fasting Plasma Glucose, Diabetes Duration, Use of Metformin,",
@@ -86,7 +87,8 @@
         "Diabetes Duration",
         "Use of Metformin"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Body Mass Index, Fasting Plasma Glucose, Diabetes Duration, Use of Metformin"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Fasting Plasma Glucose, Duration of Diabetes, Metformin Dose, History of Cardiovascular Disease, Triglycerides, Creatinine Clearance,",
@@ -130,7 +132,8 @@
         "Triglycerides",
         "Creatinine Clearance"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, HbA1c, Fasting Plasma Glucose, Duration of Diabetes, Metformin Dose, History of Cardiovascular Disease, Triglycerides, Creatinine Clearance"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, duration of diabetes, HbA1c at screening, fasting plasma glucose concentration at screening, metformin dose, history of cardiovascular disease, history of severe congestive heart failure, history of pancreatitis, history of triglycerides >=500 mg/dL, estimated creatinine clearance, liver function tests, history of severe gastrointestinal diseases, history of malignant disease.",
@@ -178,6 +181,7 @@
         "history of severe gastrointestinal diseases",
         "history of malignant disease."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, duration of diabetes, HbA1c at screening, fasting plasma glucose concentration at screening, metformin dose, history of cardiovascular disease, history of severe congestive heart failure, history of pancreatitis, history of triglycerides >=500 mg/dL, estimated creatinine clearance, liver function tests, history of severe gastrointestinal diseases, history of malignant disease."
   }
 }

@@ -25,7 +25,8 @@
         "Prior use of prostaglandin(s)",
         "Baseline intraocular pressure (IOP)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Diagnosis of open-angle glaucoma or ocular hypertension, Prior use of prostaglandin(s), Baseline intraocular pressure (IOP)"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure (IOP), Prior use of prostaglandin(s),",
@@ -57,7 +58,8 @@
         "Baseline Intraocular Pressure (IOP)",
         "Prior use of prostaglandin(s)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Intraocular Pressure (IOP), Prior use of prostaglandin(s)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diagnosis of open angle glaucoma or ocular hypertension, Prior use of prostaglandin(s), Intraocular pressure at baseline,",
@@ -92,7 +94,8 @@
         "Prior use of prostaglandin(s)",
         "Intraocular pressure at baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diagnosis of open angle glaucoma or ocular hypertension, Prior use of prostaglandin(s), Intraocular pressure at baseline"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), diagnosis (open-angle glaucoma or ocular hypertension), prior use of prostaglandin(s), intraocular pressure (IOP) at baseline, number of eyes with IOP 22-34 mmHg, presence of comorbidities, concomitant medications.",
@@ -128,6 +131,7 @@
         "presence of comorbidities",
         "concomitant medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), diagnosis (open-angle glaucoma or ocular hypertension), prior use of prostaglandin(s), intraocular pressure (IOP) at baseline, number of eyes with IOP 22-34 mmHg, presence of comorbidities, concomitant medications."
   }
 }

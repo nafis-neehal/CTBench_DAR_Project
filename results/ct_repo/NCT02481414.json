@@ -47,7 +47,8 @@
         "history of invasive squamous cell carcinoma of the cervix",
         "investigator's assessment of patient suitability."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Pap smear result, treatment history for HSIL, informed consent status, compliance with protocol requirements, history of immunosuppressive disease or treatment, pregnancy status, breastfeeding status, allergy to Candida antigen, history of severe asthma, history of invasive squamous cell carcinoma of the cervix, history of receiving PepCan, investigator's assessment of patient suitability."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Baseline Pap smear result, History of severe asthma, History of invasive squamous cell carcinoma of the cervix, History of immunosuppressive disease or treatment,",
@@ -101,7 +102,8 @@
       "remaining_candidate_features": [
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Baseline Pap smear result, History of severe asthma, History of invasive squamous cell carcinoma of the cervix, History of immunosuppressive disease or treatment"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Ethnicity (NIH/OMB), Region of Enrollment, HPV status, Cervical lesion grade, Colposcopy results, Pap smear results, History of cervical disease, History of immunosuppression, Pregnancy status, Breastfeeding status.",
@@ -166,7 +168,8 @@
         "Region of Enrollment",
         "History of cervical disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Ethnicity (NIH/OMB), Region of Enrollment, HPV status, Cervical lesion grade, Colposcopy results, Pap smear results, History of cervical disease, History of immunosuppression, Pregnancy status, Breastfeeding status."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, Pap smear result, colposcopy-guided biopsy result, history of immunosuppressive disease or treatment, pregnancy status, breastfeeding status, allergy to Candida antigen, history of severe asthma, history of invasive squamous cell carcinoma of the cervix, prior receipt of PepCan.",
@@ -240,6 +243,7 @@
         "Currently use oral contraceptives"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, Pap smear result, colposcopy-guided biopsy result, history of immunosuppressive disease or treatment, pregnancy status, breastfeeding status, allergy to Candida antigen, history of severe asthma, history of invasive squamous cell carcinoma of the cervix, prior receipt of PepCan."
   }
 }

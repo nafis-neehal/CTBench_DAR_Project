@@ -41,7 +41,8 @@
         "baseline physical examination findings",
         "baseline ECG findings"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, body mass index (BMI), baseline HbA1c, duration of diabetes, baseline fasting plasma glucose, baseline blood pressure (systolic and diastolic), baseline pulse rate, baseline renal function (e.g., serum creatinine or eGFR), baseline liver function tests (e.g., ALT, AST), baseline lipid profile (e.g., total cholesterol, LDL, HDL, triglycerides), smoking status, alcohol use, concomitant medications, baseline physical examination findings, baseline ECG findings."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulse Rate, Duration of Diabetes,",
@@ -77,7 +78,8 @@
         "Pulse Rate",
         "Duration of Diabetes"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pulse Rate, Duration of Diabetes"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Fasting Plasma Glucose, Diabetes duration, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol.",
@@ -119,7 +121,8 @@
         "HDL Cholesterol",
         "LDL Cholesterol"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, HbA1c, Fasting Plasma Glucose, Diabetes duration, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at baseline, fasting plasma glucose at baseline, systolic and diastolic blood pressure at baseline, pulse rate at baseline, medical history, concomitant medications, smoking status.",
@@ -157,6 +160,7 @@
         "concomitant medications",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c at baseline, fasting plasma glucose at baseline, systolic and diastolic blood pressure at baseline, pulse rate at baseline, medical history, concomitant medications, smoking status."
   }
 }

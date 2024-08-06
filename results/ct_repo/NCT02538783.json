@@ -46,7 +46,8 @@
         "Gender",
         "Initial Weight"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Gender, Initial Weight, Weight Loss in Past 4-6 Months, Health Status, Online Weight Watchers Membership Status"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline Weight, Weight Loss History, Online Weight Watchers Membership Status,",
@@ -97,7 +98,8 @@
       "remaining_candidate_features": [
         "Baseline Weight"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline Weight, Weight Loss History, Online Weight Watchers Membership Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, Weight Loss History, Online Weight Watchers Membership, Region of Enrollment,",
@@ -144,7 +146,8 @@
       "remaining_candidate_features": [
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, Weight Loss History, Online Weight Watchers Membership, Region of Enrollment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, weight, race, ethnicity, education level, income, occupation, marital status, smoking status, medical history, medications, comorbidities, weight loss history, physical activity level, diet habits, online Weight Watchers membership duration.",
@@ -206,6 +209,7 @@
         "diet habits",
         "online Weight Watchers membership duration."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, weight, race, ethnicity, education level, income, occupation, marital status, smoking status, medical history, medications, comorbidities, weight loss history, physical activity level, diet habits, online Weight Watchers membership duration."
   }
 }

@@ -44,7 +44,8 @@
         "baseline immunosuppressive therapy",
         "time since transplant."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, BMI, type of kidney donor (living or deceased), baseline kidney function, baseline liver function, baseline blood pressure, baseline blood glucose levels, baseline cholesterol levels, baseline immunosuppressive therapy, time since transplant."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Type of Kidney Donor (Living or Deceased), Time Since Transplant, Baseline Tacrolimus Levels, Renal Function (eGFR), Concomitant Medications,",
@@ -92,7 +93,8 @@
         "Renal Function (eGFR)",
         "Concomitant Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Type of Kidney Donor (Living or Deceased), Time Since Transplant, Baseline Tacrolimus Levels, Renal Function (eGFR), Concomitant Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Ideal Body Weight, Adjusted Body Weight, Kidney Transplant Type,",
@@ -143,7 +145,8 @@
       "remaining_candidate_features": [
         "Kidney Transplant Type"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Ideal Body Weight, Adjusted Body Weight, Kidney Transplant Type"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, weight (actual, ideal, and adjusted), kidney function (e.g., creatinine clearance), transplant type (living donor or deceased donor), time since transplant (e.g., post-operative day 0), medical history (e.g., diabetes, hypertension), concomitant medications.",
@@ -191,6 +194,7 @@
         "medical history (e.g., diabetes, hypertension)",
         "concomitant medications."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, weight (actual, ideal, and adjusted), kidney function (e.g., creatinine clearance), transplant type (living donor or deceased donor), time since transplant (e.g., post-operative day 0), medical history (e.g., diabetes, hypertension), concomitant medications."
   }
 }

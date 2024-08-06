@@ -35,7 +35,8 @@
         "Diagnosis of dementia",
         "Diagnosis of chronic obstructive pulmonary disease (COPD) or other chronic respiratory illness"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Asthma Control Questionnaire (ACQ) score, Gender, Smoking history, Diagnosis of dementia, Diagnosis of chronic obstructive pulmonary disease (COPD) or other chronic respiratory illness, Language spoken"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Asthma Control Questionnaire (ACQ) score, Smoking history,",
@@ -72,7 +73,8 @@
         "Asthma Control Questionnaire (ACQ) score",
         "Smoking history"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Asthma Control Questionnaire (ACQ) score, Smoking history"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Body Mass Index, Asthma Control Questionnaire (ACQ) score,",
@@ -107,7 +109,8 @@
       "remaining_candidate_features": [
         "Asthma Control Questionnaire (ACQ) score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, Asthma Control Questionnaire (ACQ) score"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, ACQ score, smoking history, diagnosis of dementia, diagnosis of COPD or other chronic respiratory illness, years since asthma diagnosis, asthma medication use, physical activity level, education level, income level, occupation, marital status, ethnicity, race.",
@@ -164,6 +167,7 @@
         "physical activity level",
         "occupation"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, ACQ score, smoking history, diagnosis of dementia, diagnosis of COPD or other chronic respiratory illness, years since asthma diagnosis, asthma medication use, physical activity level, education level, income level, occupation, marital status, ethnicity, race."
   }
 }

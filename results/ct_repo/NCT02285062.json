@@ -39,7 +39,8 @@
         "Prior malignancies",
         "Organ system scores."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, ECOG performance status, Histological subtype, Disease stage, Measurable disease by CT/MRI, Cumulative Illness Rating Scale (CIRS) score, Left Ventricular Ejection Fraction (LVEF), Peripheral neuropathy grade, Serostatus for HIV/HBV/HCV, Prior malignancies, Organ system scores."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Cumulative Illness Rating Scale (CIRS) score, Left Ventricular Ejection Fraction (LVEF), Peripheral neuropathy grade, Baseline tumor size,",
@@ -80,7 +81,8 @@
         "Peripheral neuropathy grade",
         "Baseline tumor size"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG performance status, Cumulative Illness Rating Scale (CIRS) score, Left Ventricular Ejection Fraction (LVEF), Peripheral neuropathy grade, Baseline tumor size"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, ECOG Performance Status, ABC Subtype, Ann Arbor Stage, International Prognostic Index (IPI) Score, Lactate Dehydrogenase (LDH) Level, Beta-2 Microglobulin Level, Bone Marrow Involvement, Extranodal Involvement, Bulky Disease.",
@@ -123,7 +125,8 @@
         "Bone Marrow Involvement",
         "Extranodal Involvement"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, ECOG Performance Status, ABC Subtype, Ann Arbor Stage, International Prognostic Index (IPI) Score, Lactate Dehydrogenase (LDH) Level, Beta-2 Microglobulin Level, Bone Marrow Involvement, Extranodal Involvement, Bulky Disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ECOG performance status, histological subtype of DLBCL, disease stage, presence of B symptoms, LDH level, bulky disease, number of extranodal sites involved, International Prognostic Index (IPI) score, CIRS score, LVEF, presence of peripheral neuropathy.",
@@ -170,6 +173,7 @@
         "LVEF",
         "presence of peripheral neuropathy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ECOG performance status, histological subtype of DLBCL, disease stage, presence of B symptoms, LDH level, bulky disease, number of extranodal sites involved, International Prognostic Index (IPI) score, CIRS score, LVEF, presence of peripheral neuropathy."
   }
 }

@@ -42,7 +42,8 @@
         "cognitive status",
         "psychiatric status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, language preference, insurance status, baseline A1C level, social and economic needs, duration of diabetes, medication use, comorbid conditions, cognitive status, psychiatric status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin A1C, Socioeconomic Status, Social Determinants of Health, Diabetes Duration,",
@@ -87,7 +88,8 @@
         "Socioeconomic Status",
         "Diabetes Duration"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Hemoglobin A1C, Socioeconomic Status, Social Determinants of Health, Diabetes Duration"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Insurance Type, Hemoglobin A1C, Social and/or Economic Need,",
@@ -129,7 +131,8 @@
         "Diabetes Diagnosis Duration",
         "Insurance Type"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Insurance Type, Hemoglobin A1C, Social and/or Economic Need"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, language spoken, Medicaid status, Kaiser Permanente Northwest membership duration, diabetes diagnosis duration, most recent hemoglobin A1C test value, number of social and/or economic needs endorsed on the Your Current Life Situation assessment, cognitive function, psychiatric impairment status.",
@@ -172,6 +175,7 @@
         "cognitive function",
         "psychiatric impairment status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, language spoken, Medicaid status, Kaiser Permanente Northwest membership duration, diabetes diagnosis duration, most recent hemoglobin A1C test value, number of social and/or economic needs endorsed on the Your Current Life Situation assessment, cognitive function, psychiatric impairment status."
   }
 }

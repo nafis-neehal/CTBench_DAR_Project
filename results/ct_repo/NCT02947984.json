@@ -32,7 +32,8 @@
         "Other cancer controlled < 3 years",
         "Pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Histological documentation of benign meningioma, Imaging studies (CT and/or MRI), Karnofsky performance status, Prior cranial irradiation, Concurrent primary cancer, Other cancer controlled < 3 years, Pregnancy status"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Karnofsky Performance Status, Tumor Size, Tumor Location, Prior Surgery, Time Since Diagnosis,",
@@ -73,7 +74,8 @@
         "Prior Surgery",
         "Time Since Diagnosis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Karnofsky Performance Status, Tumor Size, Tumor Location, Prior Surgery, Time Since Diagnosis"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Karnofsky Performance Status, Histological Documentation of Benign Meningioma, Residual or Recurrent Intracranial Tumor, Prior Cranial Irradiation, Concurrent Primary Cancer.",
@@ -108,7 +110,8 @@
         "Prior Cranial Irradiation",
         "Concurrent Primary Cancer."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Karnofsky Performance Status, Histological Documentation of Benign Meningioma, Residual or Recurrent Intracranial Tumor, Prior Cranial Irradiation, Concurrent Primary Cancer."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, Karnofsky performance status, histological meningioma subtype, tumor size, tumor location, time since initial diagnosis, time since previous surgery, number of previous surgeries, presence of neurological symptoms, prior treatment with chemotherapy or hormone therapy.",
@@ -146,6 +149,7 @@
         "presence of neurological symptoms",
         "prior treatment with chemotherapy or hormone therapy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, Karnofsky performance status, histological meningioma subtype, tumor size, tumor location, time since initial diagnosis, time since previous surgery, number of previous surgeries, presence of neurological symptoms, prior treatment with chemotherapy or hormone therapy."
   }
 }

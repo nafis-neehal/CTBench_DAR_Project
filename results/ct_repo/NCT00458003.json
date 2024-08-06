@@ -63,7 +63,8 @@
         "baseline fetal heart rate",
         "baseline fetal biophysical profile"
       ]
-    }
+    },
+    "processed-gen-response": "Age, ASA physical status, BMI, resting heart rate, gestational age, number of fetuses, baseline blood pressure, baseline heart rate, baseline oxygen saturation, history of preeclampsia, previous cesarean delivery, baseline hemoglobin level, baseline hematocrit level, baseline platelet count, baseline serum creatinine level, baseline liver function tests, baseline proteinuria, baseline fetal heart rate, baseline fetal biophysical profile."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, BMI, ASA Physical Status Classification, Resting Heart Rate, Number of Gestations, Diagnosis of Preeclampsia, Type of Anesthesia,",
@@ -103,7 +104,8 @@
         "ASA Physical Status Classification",
         "Type of Anesthesia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, ASA Physical Status Classification, Resting Heart Rate, Number of Gestations, Diagnosis of Preeclampsia, Type of Anesthesia"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gestational Age, ASA Physical Status, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Parity, Previous Cesarean Delivery.",
@@ -145,7 +147,8 @@
         "Parity",
         "Previous Cesarean Delivery"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gestational Age, ASA Physical Status, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Parity, Previous Cesarean Delivery."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, ASA physical status, BMI, gestational age, parity, resting heart rate, systolic blood pressure, diastolic blood pressure, mean arterial pressure, presence of preexisting hypertension, presence of fetal anomalies, twin gestation, presence of eclampsia.",
@@ -195,6 +198,7 @@
         "presence of fetal anomalies",
         "presence of eclampsia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, ASA physical status, BMI, gestational age, parity, resting heart rate, systolic blood pressure, diastolic blood pressure, mean arterial pressure, presence of preexisting hypertension, presence of fetal anomalies, twin gestation, presence of eclampsia."
   }
 }

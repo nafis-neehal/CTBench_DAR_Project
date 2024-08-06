@@ -42,7 +42,8 @@
         "presence of psychiatric disease",
         "presence of rheumatic disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), baseline HbA1c, duration of diabetes, baseline metformin dose, serum creatinine level, C-peptide level, aspartate aminotransferase (AST) level, alanine aminotransferase (ALT) level, serum total bilirubin level, creatinine kinase level, presence of cardiovascular disease, presence of renal disease, presence of hepatic disease, presence of hematologic disease, presence of oncologic disease, presence of endocrine disease, presence of psychiatric disease, presence of rheumatic disease."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline HbA1c, Serum Creatinine, C-peptide, Duration of Diabetes, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -80,7 +81,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline HbA1c, Serum Creatinine, C-peptide, Duration of Diabetes, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, C-peptide, Serum creatinine level, Metformin dose.",
@@ -123,7 +125,8 @@
         "Serum creatinine level",
         "Metformin dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes duration, Body Mass Index, HbA1c, Fasting Plasma Glucose, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, C-peptide, Serum creatinine level, Metformin dose."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index, duration of diabetes, HbA1c at baseline, fasting plasma glucose at baseline, systolic blood pressure, diastolic blood pressure, heart rate, serum creatinine, C-peptide, metformin dose, history of cardiovascular disease, history of hypertension, history of dyslipidemia.",
@@ -161,6 +164,7 @@
         "history of hypertension",
         "history of dyslipidemia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index, duration of diabetes, HbA1c at baseline, fasting plasma glucose at baseline, systolic blood pressure, diastolic blood pressure, heart rate, serum creatinine, C-peptide, metformin dose, history of cardiovascular disease, history of hypertension, history of dyslipidemia."
   }
 }

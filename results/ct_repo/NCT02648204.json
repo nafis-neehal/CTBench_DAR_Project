@@ -44,7 +44,8 @@
         "baseline blood pressure",
         "baseline lipid profile"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, HbA1c levels, duration of diabetes, baseline metformin dose, renal function (eGFR), history of pancreatitis, family or personal history of Multiple Endocrine Neoplasia Type 2 or Medullary Thyroid Carcinoma, presence of proliferative retinopathy or maculopathy, history of malignant neoplasms, New York Heart Association classification, baseline weight, baseline BMI, baseline blood pressure, baseline lipid profile."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, Daily Metformin Dose,",
@@ -83,7 +84,8 @@
         "eGFR",
         "Daily Metformin Dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, Daily Metformin Dose"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, Metformin dose,",
@@ -121,7 +123,8 @@
         "eGFR",
         "Metformin dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, eGFR, Metformin dose"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, heart rate, waist circumference, smoking status, medical history (including cardiovascular disease, hypertension, dyslipidemia), concomitant medications, metformin dose.",
@@ -168,6 +171,7 @@
         "concomitant medications",
         "metformin dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c, fasting plasma glucose, systolic blood pressure, diastolic blood pressure, heart rate, waist circumference, smoking status, medical history (including cardiovascular disease, hypertension, dyslipidemia), concomitant medications, metformin dose."
   }
 }

@@ -31,7 +31,8 @@
         "imaging modality used",
         "duration of imaging procedure."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, liver function tests, tumor size, tumor location, previous treatments, performance status, comorbidities, imaging modality used, duration of imaging procedure."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Liver tumor type, Tumor size, Previous treatments, Baseline liver function tests, Baseline imaging characteristics,",
@@ -67,7 +68,8 @@
         "Baseline liver function tests",
         "Baseline imaging characteristics"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Liver tumor type, Tumor size, Previous treatments, Baseline liver function tests, Baseline imaging characteristics"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Primary Malignant Liver Neoplasm diagnosis, Prior treatment for liver tumor, ECOG performance status, Liver function tests,",
@@ -102,7 +104,8 @@
         "ECOG performance status",
         "Liver function tests"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Primary Malignant Liver Neoplasm diagnosis, Prior treatment for liver tumor, ECOG performance status, Liver function tests"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, weight, height, body mass index (BMI), ethnicity, primary tumor type, tumor size, tumor location, number of tumors, liver function, performance status, prior treatments, comorbidities.",
@@ -140,6 +143,7 @@
         "prior treatments",
         "comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, weight, height, body mass index (BMI), ethnicity, primary tumor type, tumor size, tumor location, number of tumors, liver function, performance status, prior treatments, comorbidities."
   }
 }

@@ -39,7 +39,8 @@
         "Hepatitis B status",
         "Hepatitis C status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, ECOG performance status, Tumor type (colorectal, pancreatic, non-small cell lung cancer), Prior treatments, Hematologic function (e.g., hemoglobin, white blood cell count, platelet count), Renal function (e.g., creatinine, glomerular filtration rate), Hepatic function (e.g., liver enzymes, bilirubin levels), Presence of measurable disease per RECIST 1.1, Recent tumor tissue availability, HIV status, Hepatitis B status, Hepatitis C status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Type of Cancer, Prior Treatments, Hematologic Function, Renal Function, Hepatic Function, Tumor Tissue Availability,",
@@ -77,7 +78,8 @@
         "Hepatic Function",
         "Tumor Tissue Availability"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Type of Cancer, Prior Treatments, Hematologic Function, Renal Function, Hepatic Function, Tumor Tissue Availability"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Tumor Type, Prior Cancer Therapy, Prior Surgery, Prior Radiotherapy, Prior Biological Cancer Therapy, Prior Immunotherapy, Prior Chemotherapy, Time Since Last Treatment, Presence of Metastases, Presence of Autoimmune Disease.",
@@ -120,7 +122,8 @@
         "Presence of Metastases",
         "Presence of Autoimmune Disease."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Tumor Type, Prior Cancer Therapy, Prior Surgery, Prior Radiotherapy, Prior Biological Cancer Therapy, Prior Immunotherapy, Prior Chemotherapy, Time Since Last Treatment, Presence of Metastases, Presence of Autoimmune Disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, cancer type (pancreatic, colorectal, non-small cell lung), disease stage, prior treatments, measurable disease per RECIST 1.1 guidelines, laboratory values (hematologic, renal, hepatic function), tumor tissue availability.",
@@ -160,6 +163,7 @@
         "laboratory values (hematologic, renal, hepatic function)",
         "tumor tissue availability."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, cancer type (pancreatic, colorectal, non-small cell lung), disease stage, prior treatments, measurable disease per RECIST 1.1 guidelines, laboratory values (hematologic, renal, hepatic function), tumor tissue availability."
   }
 }

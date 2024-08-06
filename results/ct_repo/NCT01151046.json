@@ -37,7 +37,8 @@
         "baseline laboratory values (e.g., liver function tests, renal function tests)",
         "baseline quality of life scores."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race/ethnicity, menopausal status, ECOG performance status, tumor stage, hormone receptor status (ER+/PR+), HER2 status, prior treatments, comorbidities, baseline tumor burden, baseline laboratory values (e.g., liver function tests, renal function tests), baseline quality of life scores."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Hormone Receptor Status (ER+/PR+), HER2 Status, Disease Stage, Prior Treatments, Visceral Disease Status, CNS Disease Status,",
@@ -74,7 +75,8 @@
         "Prior Treatments",
         "CNS Disease Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Hormone Receptor Status (ER+/PR+), HER2 Status, Disease Stage, Prior Treatments, Visceral Disease Status, CNS Disease Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Eastern Cooperative Oncology Group (ECOG) Performance Status, Region of Enrollment, Menopausal Status, ER Status, PR Status, Her2 Status, Prior Chemotherapy, Prior Hormonal Therapy, Prior Radiation Therapy, Metastatic Disease Sites,",
@@ -109,7 +111,8 @@
         "Prior Radiation Therapy",
         "Metastatic Disease Sites"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Eastern Cooperative Oncology Group (ECOG) Performance Status, Region of Enrollment, Menopausal Status, ER Status, PR Status, Her2 Status, Prior Chemotherapy, Prior Hormonal Therapy, Prior Radiation Therapy, Metastatic Disease Sites"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, menopausal status, Eastern Cooperative Oncology Group (ECOG) performance status, tumor histology, tumor grade, ER and PR status, Her2 status, prior chemotherapy, prior hormone therapy, prior radiation therapy, presence of visceral disease, presence of bone metastases, presence of CNS metastases, baseline laboratory values (e.g. complete blood count, liver function tests, renal function tests).",
@@ -150,6 +153,7 @@
         "presence of CNS metastases",
         "baseline laboratory values (e.g. complete blood count, liver function tests, renal function tests)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, menopausal status, Eastern Cooperative Oncology Group (ECOG) performance status, tumor histology, tumor grade, ER and PR status, Her2 status, prior chemotherapy, prior hormone therapy, prior radiation therapy, presence of visceral disease, presence of bone metastases, presence of CNS metastases, baseline laboratory values (e.g. complete blood count, liver function tests, renal function tests)."
   }
 }

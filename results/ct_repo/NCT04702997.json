@@ -42,7 +42,8 @@
         "pregnancy status",
         "breastfeeding status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline eGFR, baseline UACR, systolic blood pressure, diastolic blood pressure, use of ACE inhibitors or ARBs, hematuria status, history of eGFR decline, body mass index, serum albumin, BNP level, HbA1c level, history of cardiac disease, history of malignancy, COVID-19 diagnosis history, prior participation in clinical studies, pregnancy status, breastfeeding status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline eGFR, Urine Albumin to Creatinine Ratio (UACR), Systolic Blood Pressure, Diastolic Blood Pressure, Hematuria, Use of ACEi/ARB, Diabetes status, Serum Albumin, Body Mass Index,",
@@ -84,7 +85,8 @@
         "Serum Albumin",
         "Body Mass Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline eGFR, Urine Albumin to Creatinine Ratio (UACR), Systolic Blood Pressure, Diastolic Blood Pressure, Hematuria, Use of ACEi/ARB, Diabetes status, Serum Albumin, Body Mass Index"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Urine Albumin to Creatinine Ratio, Systolic Blood Pressure, Diastolic Blood Pressure, Hematuria, Body Mass Index, History of Cardiovascular Disease, History of Diabetes, History of Malignancy, Use of Angiotensin-Converting Enzyme Inhibitor and/or Angiotensin II Receptor Blocker.",
@@ -129,7 +131,8 @@
         "History of Malignancy",
         "Use of Angiotensin-Converting Enzyme Inhibitor and/or Angiotensin II Receptor Blocker."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, eGFR, Urine Albumin to Creatinine Ratio, Systolic Blood Pressure, Diastolic Blood Pressure, Hematuria, Body Mass Index, History of Cardiovascular Disease, History of Diabetes, History of Malignancy, Use of Angiotensin-Converting Enzyme Inhibitor and/or Angiotensin II Receptor Blocker."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, eGFR, urine albumin to creatinine ratio (UACR), hematuria, history of diabetes, history of hypertension, history of cardiovascular disease, history of malignancy, smoking status, use of angiotensin-converting enzyme inhibitor (ACEi) and/or angiotensin II receptor blocker (ARB), use of other medications for CKD.",
@@ -174,6 +177,7 @@
         "use of angiotensin-converting enzyme inhibitor (ACEi) and/or angiotensin II receptor blocker (ARB)",
         "use of other medications for CKD."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, eGFR, urine albumin to creatinine ratio (UACR), hematuria, history of diabetes, history of hypertension, history of cardiovascular disease, history of malignancy, smoking status, use of angiotensin-converting enzyme inhibitor (ACEi) and/or angiotensin II receptor blocker (ARB), use of other medications for CKD."
   }
 }

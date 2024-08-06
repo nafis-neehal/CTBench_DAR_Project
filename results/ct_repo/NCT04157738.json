@@ -39,7 +39,8 @@
         "Glycemic Variability",
         "Presence of Comorbid Conditions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity, Duration of Diabetes, Baseline HbA1c, BMI, Baseline Glucose Levels, Insulin Regimen Type, Language Spoken, Socioeconomic Status, Caregiver Anxiety Levels, Glycemic Variability, Presence of Comorbid Conditions"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Glucose Monitoring Usage, Caregiver Anxiety Levels, Glycemic Variability,",
@@ -78,7 +79,8 @@
         "Caregiver Anxiety Levels",
         "Glycemic Variability"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Glucose Monitoring Usage, Caregiver Anxiety Levels, Glycemic Variability"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, BMI, HbA1c, Insulin Dose, Caregiver Anxiety Score, Glucagon-like Peptide-1 (GLP-1) levels, Glucose Variability.",
@@ -118,7 +120,8 @@
         "Glucagon-like Peptide-1 (GLP-1) levels",
         "Glucose Variability"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, BMI, HbA1c, Insulin Dose, Caregiver Anxiety Score, Glucagon-like Peptide-1 (GLP-1) levels, Glucose Variability."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, race, ethnicity, duration of diabetes, HbA1c at diagnosis, insulin dose at baseline, caregiver's anxiety level at baseline, glycemic variability at baseline, language spoken (English or Spanish), caregiver's education level, family income, family structure (single parent or two-parent household).",
@@ -156,6 +159,7 @@
         "family income",
         "family structure (single parent or two-parent household)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, race, ethnicity, duration of diabetes, HbA1c at diagnosis, insulin dose at baseline, caregiver's anxiety level at baseline, glycemic variability at baseline, language spoken (English or Spanish), caregiver's education level, family income, family structure (single parent or two-parent household)."
   }
 }

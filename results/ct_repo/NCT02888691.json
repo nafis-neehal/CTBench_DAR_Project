@@ -42,7 +42,8 @@
         "baseline insulin dose",
         "presence of comorbid conditions."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of type 1 diabetes, HbA1c, BMI, insulin pump use duration, baseline carbohydrate intake, baseline insulin dose, presence of comorbid conditions."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, HbA1c, Body Mass Index, Insulin Pump Use Duration, Daily Insulin Dose, Continuous Glucose Monitoring Use,",
@@ -88,7 +89,8 @@
         "Region of Enrollment",
         "Daily Insulin Dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, HbA1c, Body Mass Index, Insulin Pump Use Duration, Daily Insulin Dose"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, HbA1c, Diabetes duration, Insulin pump use duration, Total daily insulin dose,",
@@ -130,7 +132,8 @@
       "remaining_candidate_features": [
         "Total daily insulin dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, HbA1c, Diabetes duration, Insulin pump use duration, Total daily insulin dose"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, HbA1c, duration of type 1 diabetes, insulin pump use duration, average daily insulin dose, carbohydrate counting proficiency, continuous glucose monitoring experience, presence of diabetic complications (retinopathy, nephropathy, neuropathy), history of severe hypoglycemia, smoking status.",
@@ -173,6 +176,7 @@
         "history of severe hypoglycemia",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, HbA1c, duration of type 1 diabetes, insulin pump use duration, average daily insulin dose, carbohydrate counting proficiency, presence of diabetic complications (retinopathy, nephropathy, neuropathy), history of severe hypoglycemia, smoking status."
   }
 }

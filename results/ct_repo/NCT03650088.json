@@ -47,7 +47,8 @@
         "substance use",
         "pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, BMI, HBA1c, baseline physical activity level, smartphone ownership, language proficiency, dietary habits, medical history (heart condition, chest pain, loss of consciousness), mental health status, substance use, pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline HbA1c, Baseline Physical Activity Level, Baseline Dietary Intake, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of Diabetes,",
@@ -90,7 +91,8 @@
         "Diastolic Blood Pressure",
         "Duration of Diabetes"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline HbA1c, Baseline Physical Activity Level, Baseline Dietary Intake, Systolic Blood Pressure, Diastolic Blood Pressure, Duration of Diabetes"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Diabetes duration, Physical activity level, Smartphone ownership, Internet access,",
@@ -137,7 +139,8 @@
         "Smartphone ownership",
         "Internet access"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, HbA1c, Diabetes duration, Physical activity level, Smartphone ownership, Internet access"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, BMI, HBA1c, duration of diabetes, physical activity level, diet quality, comorbidities, medication use, education level, income, occupation, marital status.",
@@ -186,6 +189,7 @@
         "occupation",
         "marital status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, BMI, HBA1c, duration of diabetes, physical activity level, diet quality, comorbidities, medication use, education level, income, occupation, marital status."
   }
 }

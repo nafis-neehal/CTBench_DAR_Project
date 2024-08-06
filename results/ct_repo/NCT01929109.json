@@ -38,7 +38,8 @@
         "QT interval on ECG",
         "PR interval on ECG."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), renal function (estimated creatinine clearance), presence of Type 2 Diabetes Mellitus (T2DM), blood pressure, hemoglobin levels, use of insulin, duration of hemodialysis, use of cytochrome P450 (CYP)3A inhibitors, use of drugs with a narrow therapeutic index, QT interval on ECG, PR interval on ECG."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Estimated Creatinine Clearance (CLcr), Renal Function Group (Healthy, Mild, Moderate, Severe, ESRD), Type 2 Diabetes Mellitus Status, Hemoglobin, Systolic Blood Pressure, Diastolic Blood Pressure, 12-lead Electrocardiogram (ECG) Abnormalities, Use of Potent CYP3A Inhibitors, Use of Drugs with Narrow Therapeutic Index, Use of Drugs Known to Prolong QT Interval,",
@@ -81,7 +82,8 @@
         "Use of Drugs with Narrow Therapeutic Index",
         "Use of Drugs Known to Prolong QT Interval"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Estimated Creatinine Clearance (CLcr), Renal Function Group (Healthy, Mild, Moderate, Severe, ESRD), Type 2 Diabetes Mellitus Status, Hemoglobin, Systolic Blood Pressure, Diastolic Blood Pressure, 12-lead Electrocardiogram (ECG) Abnormalities, Use of Potent CYP3A Inhibitors, Use of Drugs with Narrow Therapeutic Index, Use of Drugs Known to Prolong QT Interval"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Estimated Creatinine Clearance, Diabetes Status, Hemoglobin, Systolic Blood Pressure, Diastolic Blood Pressure.",
@@ -120,7 +122,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Estimated Creatinine Clearance, Diabetes Status, Hemoglobin, Systolic Blood Pressure, Diastolic Blood Pressure."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), estimated creatinine clearance (CLcr), presence of type 2 diabetes mellitus (T2DM), hemoglobin level, systolic and diastolic blood pressure, electrocardiogram (ECG) parameters (QTcF, PR interval).",
@@ -161,6 +164,7 @@
         "systolic and diastolic blood pressure",
         "electrocardiogram (ECG) parameters (QTcF, PR interval)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), estimated creatinine clearance (CLcr), presence of type 2 diabetes mellitus (T2DM), hemoglobin level, systolic and diastolic blood pressure, electrocardiogram (ECG) parameters (QTcF, PR interval)."
   }
 }

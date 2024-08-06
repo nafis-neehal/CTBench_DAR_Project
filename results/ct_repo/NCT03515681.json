@@ -33,7 +33,8 @@
         "language spoken",
         "number of systolic blood pressure measurements >140/90 mmHg in the previous 12 months."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, weight, baseline systolic blood pressure, baseline diastolic blood pressure, cell phone ownership, language spoken, number of systolic blood pressure measurements >140/90 mmHg in the previous 12 months."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Weight, Cell Phone Ownership, Language Spoken,",
@@ -73,7 +74,8 @@
         "Cell Phone Ownership",
         "Language Spoken"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Weight, Cell Phone Ownership, Language Spoken"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Cell phone ownership, Language proficiency,",
@@ -114,7 +116,8 @@
         "Cell phone ownership",
         "Language proficiency"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Cell phone ownership, Language proficiency"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, systolic blood pressure, diastolic blood pressure, number of years with hypertension, current antihypertensive medication use, smoking status, body mass index (BMI), education level, income level, language spoken at home.",
@@ -158,6 +161,7 @@
         "income level",
         "language spoken at home."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, systolic blood pressure, diastolic blood pressure, number of years with hypertension, current antihypertensive medication use, smoking status, body mass index (BMI), education level, income level, language spoken at home."
   }
 }

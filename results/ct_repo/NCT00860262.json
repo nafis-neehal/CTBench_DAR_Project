@@ -43,7 +43,8 @@
         "alcohol consumption",
         "baseline heart rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline systolic blood pressure (SBP), baseline diastolic blood pressure (DBP), current antihypertensive therapy status, medical history, body mass index (BMI), smoking status, alcohol consumption, baseline heart rate, race/ethnicity, duration of hypertension."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Current antihypertensive therapy,",
@@ -83,7 +84,8 @@
         "Baseline Systolic Blood Pressure",
         "Baseline Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Current antihypertensive therapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications at Baseline,",
@@ -128,7 +130,8 @@
         "History of Hypertension",
         "Number of Antihypertensive Medications at Baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications at Baseline"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (including presence of diabetes, cardiovascular disease, kidney disease), current antihypertensive therapy, duration of hypertension, baseline seated trough cuff SBP and DBP, heart rate, estimated glomerular filtration rate (eGFR), serum potassium, serum creatinine.",
@@ -178,6 +181,7 @@
         "serum potassium",
         "serum creatinine"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (including presence of diabetes, cardiovascular disease, kidney disease), current antihypertensive therapy, duration of hypertension, baseline seated trough cuff SBP and DBP, heart rate, estimated glomerular filtration rate (eGFR), serum potassium, serum creatinine."
   }
 }

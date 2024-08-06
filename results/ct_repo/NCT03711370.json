@@ -35,7 +35,8 @@
         "Developmental delay status",
         "Current use of opaque bottles"
       ]
-    }
+    },
+    "processed-gen-response": "Age of mother, Age of infant, Feeding mode, Percentage of bottle-feeding, Responsibility for infant feeding, Pediatrician attendance, Use of stainless-steel bottles, Gestational age at birth, Birth weight, Maternal smoking status during pregnancy, Medical conditions affecting oral feeding, Growth history, Weight-for-length percentile, Developmental delay status, Current use of opaque bottles"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Infant Age, Infant Weight, Infant Length, Feeding Mode, Maternal Age, Maternal Education, Maternal Employment Status, Maternal Pre-pregnancy BMI,",
@@ -71,7 +72,8 @@
         "Maternal Employment Status",
         "Maternal Pre-pregnancy BMI"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Infant Age, Infant Weight, Infant Length, Feeding Mode, Maternal Age, Maternal Education, Maternal Employment Status, Maternal Pre-pregnancy BMI"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nMaternal Age, Continuous, Infant Age, Continuous, Maternal Race/Ethnicity, Customized, Region of Enrollment, Infant Birth Weight, Gestational Age, Maternal Education Level, Feeding Mode at Enrollment, Infant Weight-for-length Z-scores at Enrollment,",
@@ -102,7 +104,8 @@
         "Feeding Mode at Enrollment",
         "Infant Weight-for-length Z-scores at Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Maternal Age, Infant Age, Maternal Race/Ethnicity, Region of Enrollment, Infant Birth Weight, Gestational Age, Maternal Education Level, Feeding Mode at Enrollment, Infant Weight-for-length Z-scores at Enrollment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, gestational age, birth weight, weight for length percentile, maternal age, maternal smoking status during pregnancy, medical history, feeding mode at baseline, number of feedings per day, average feeding volume per feeding.",
@@ -134,6 +137,7 @@
         "number of feedings per day",
         "average feeding volume per feeding."
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, gestational age, birth weight, weight for length percentile, maternal age, maternal smoking status during pregnancy, medical history, feeding mode at baseline, number of feedings per day, average feeding volume per feeding."
   }
 }

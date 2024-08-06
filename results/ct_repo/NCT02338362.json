@@ -44,7 +44,8 @@
         "history of ocular surgery",
         "baseline visual acuity."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, baseline intraocular pressure, cup:disc ratio, humphrey visual field mean deviation, duration of glaucoma, use of glaucoma medications, smoking status, body mass index (BMI), history of ocular surgery, baseline visual acuity."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure, Cup-to-Disc Ratio, Visual Field Mean Deviation, Duration of Glaucoma/Ocular Hypertension, Use of Glaucoma Medications,",
@@ -92,7 +93,8 @@
         "Duration of Glaucoma/Ocular Hypertension",
         "Use of Glaucoma Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Intraocular Pressure, Cup-to-Disc Ratio, Visual Field Mean Deviation, Duration of Glaucoma/Ocular Hypertension, Use of Glaucoma Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cup:Disc Ratio, Humphrey Visual Field Mean Deviation, Intraocular Pressure, Glaucoma Diagnosis Duration,",
@@ -139,7 +141,8 @@
         "Race/Ethnicity",
         "Glaucoma Diagnosis Duration"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cup:Disc Ratio, Humphrey Visual Field Mean Deviation, Intraocular Pressure, Glaucoma Diagnosis Duration"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, smoking status, duration of glaucoma, cup:disc ratio, Humphrey visual field mean deviation, intraocular pressure at baseline, number of glaucoma medications, best-corrected visual acuity.",
@@ -191,6 +194,7 @@
         "smoking status",
         "number of glaucoma medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, smoking status, duration of glaucoma, cup:disc ratio, Humphrey visual field mean deviation, intraocular pressure at baseline, number of glaucoma medications, best-corrected visual acuity."
   }
 }

@@ -48,7 +48,8 @@
         "smoking status",
         "alcohol use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, duration of chronic kidney disease, duration on hemodialysis, baseline parathyroid hormone levels, baseline calcium levels, baseline phosphorus levels, baseline vitamin D levels, baseline alkaline phosphatase levels, baseline serum albumin levels, baseline hemoglobin levels, baseline blood pressure, baseline body mass index (BMI), history of cardiovascular disease, history of diabetes, smoking status, alcohol use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline Parathyroid Hormone (PTH) Levels, Serum Calcium Levels, Serum Phosphorus Levels, Use of Vitamin D Analogues, Use of Phosphate Binders,",
@@ -92,7 +93,8 @@
         "Use of Vitamin D Analogues",
         "Use of Phosphate Binders"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Hemodialysis, Baseline Parathyroid Hormone (PTH) Levels, Serum Calcium Levels, Serum Phosphorus Levels, Use of Vitamin D Analogues, Use of Phosphate Binders"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Dialysis vintage, Hemodialysis frequency, Serum calcium, Serum phosphorus, Intact parathyroid hormone, Vitamin D use, Cinacalcet use,",
@@ -137,7 +139,8 @@
         "Vitamin D use",
         "Cinacalcet use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Dialysis vintage, Hemodialysis frequency, Serum calcium, Serum phosphorus, Intact parathyroid hormone, Vitamin D use, Cinacalcet use"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of hemodialysis, dialysis frequency, dialysate calcium concentration, serum calcium levels, parathyroid hormone (PTH) levels, vitamin D levels, history of parathyroidectomy, presence of comorbidities (e.g., diabetes, hypertension), concomitant medications (e.g., phosphate binders, vitamin D analogs), and prior treatment with cinacalcet.",
@@ -185,6 +188,7 @@
         "concomitant medications (e.g., phosphate binders, vitamin D analogs)",
         "prior treatment with cinacalcet"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of hemodialysis, dialysis frequency, dialysate calcium concentration, serum calcium levels, parathyroid hormone (PTH) levels, vitamin D levels, history of parathyroidectomy, presence of comorbidities (e.g., diabetes, hypertension), concomitant medications (e.g., phosphate binders, vitamin D analogs), and prior treatment with cinacalcet."
   }
 }

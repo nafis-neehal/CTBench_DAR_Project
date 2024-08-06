@@ -32,7 +32,8 @@
         "primary tumor control status",
         "comorbid conditions."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, histologic type of lung cancer, stage of lung cancer, number of lesions, lesion size, Zubrod performance status, prior therapy, primary tumor control status, pregnancy status, comorbid conditions."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Performance Status, Tumor Size, Number of Lesions, Primary Tumor Control Status, Prior Therapy,",
@@ -70,7 +71,8 @@
         "Primary Tumor Control Status",
         "Prior Therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Performance Status, Tumor Size, Number of Lesions, Primary Tumor Control Status, Prior Therapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Zubrod Performance Status, Tumor Size, Number of Lesions, Primary Tumor Status, Prior Radiation Therapy, Prior Therapy Toxicity, Co-morbid Conditions.",
@@ -108,7 +110,8 @@
         "Prior Therapy Toxicity",
         "Co-morbid Conditions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Zubrod Performance Status, Tumor Size, Number of Lesions, Primary Tumor Status, Prior Radiation Therapy, Prior Therapy Toxicity, Co-morbid Conditions."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, Zubrod performance status, histologic type of non-small cell lung cancer, tumor size, number of lesions, presence of metastatic disease, primary tumor site, time since diagnosis, prior therapy, co-morbid conditions.",
@@ -141,6 +144,7 @@
         "prior therapy",
         "co-morbid conditions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, Zubrod performance status, histologic type of non-small cell lung cancer, tumor size, number of lesions, presence of metastatic disease, primary tumor site, time since diagnosis, prior therapy, co-morbid conditions."
   }
 }

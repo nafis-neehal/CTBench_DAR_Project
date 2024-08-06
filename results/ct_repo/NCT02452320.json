@@ -48,7 +48,8 @@
         "Duration of surgery",
         "Type of anesthesia used."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, BMI, Baseline pain score, Baseline nausea and vomiting score, Baseline quality of recovery score, Comorbidities, Medication history, Smoking status, Alcohol consumption, Renal function (creatinine clearance), Liver function tests (AST and ALT), Surgical history, Duration of surgery, Type of anesthesia used."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline Liver Function Tests (AST, ALT), Baseline Renal Function (Creatinine Clearance), Alcohol Consumption,",
@@ -85,7 +86,8 @@
         "Baseline Renal Function (Creatinine Clearance)",
         "Alcohol Consumption"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline Liver Function Tests (AST, ALT), Baseline Renal Function (Creatinine Clearance), Alcohol Consumption"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, BMI, Region of Enrollment, Type of Surgery, History of Nausea and Vomiting, History of Pain, History of Opioid Use,",
@@ -123,7 +125,8 @@
         "History of Pain",
         "History of Opioid Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, Region of Enrollment, Type of Surgery, History of Nausea and Vomiting, History of Pain, History of Opioid Use"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, weight, height, ethnicity, smoking status, alcohol consumption, medical history (obesity-related comorbidities), surgical history, medications (analgesics, anti-emetics), ASA physical status classification, duration of surgery, anesthesia type.",
@@ -168,6 +171,7 @@
         "duration of surgery",
         "anesthesia type."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, weight, height, ethnicity, smoking status, alcohol consumption, medical history (obesity-related comorbidities), surgical history, medications (analgesics, anti-emetics), ASA physical status classification, duration of surgery, anesthesia type."
   }
 }

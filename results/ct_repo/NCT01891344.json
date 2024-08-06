@@ -39,7 +39,8 @@
         "gastrointestinal disorders",
         "hospitalization history for bowel obstruction."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, histological subtype, number of prior chemotherapy regimens, BRCA mutation status, presence of measurable disease, prior cancer history, prior PARP inhibitor treatment, presence of central nervous system metastases, gastrointestinal disorders, hospitalization history for bowel obstruction."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Histological subtype, Number of prior chemotherapy regimens, Presence of measurable disease, gBRCA mutation status,",
@@ -71,7 +72,8 @@
         "Presence of measurable disease",
         "gBRCA mutation status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Histological subtype, Number of prior chemotherapy regimens, Presence of measurable disease, gBRCA mutation status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Eastern Cooperative Oncology Group (ECOG) Performance Status, Histology, Grade, Number of prior chemotherapy regimens, Time from last chemotherapy, Best response to last chemotherapy, Presence of measurable disease, Presence of biopsiable disease, gBRCA mutation status, Prior platinum sensitivity.",
@@ -109,7 +111,8 @@
         "Presence of biopsiable disease",
         "gBRCA mutation status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Eastern Cooperative Oncology Group (ECOG) Performance Status, Histology, Grade, Number of prior chemotherapy regimens, Time from last chemotherapy, Best response to last chemotherapy, Presence of measurable disease, Presence of biopsiable disease, gBRCA mutation status, Prior platinum sensitivity."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, histological subtype, grade of cancer, number of prior chemotherapy regimens, time since last chemotherapy, presence of measurable disease, presence of biopsiable disease, gBRCA mutation status, prior cancer history, presence of central nervous system metastases, presence of gastrointestinal disorders.",
@@ -151,6 +154,7 @@
         "presence of central nervous system metastases",
         "presence of gastrointestinal disorders."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, histological subtype, grade of cancer, number of prior chemotherapy regimens, time since last chemotherapy, presence of measurable disease, presence of biopsiable disease, gBRCA mutation status, prior cancer history, presence of central nervous system metastases, presence of gastrointestinal disorders."
   }
 }

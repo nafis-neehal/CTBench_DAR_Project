@@ -53,7 +53,8 @@
         "time from stroke symptom onset to randomization",
         "time from hospital arrival to treatment initiation"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, baseline NIHSS score, pre-stroke modified Rankin Scale score, history of type 2 diabetes mellitus, admission blood glucose level, time from stroke symptom onset to randomization, time from hospital arrival to treatment initiation, prior use of IV tPA or IA therapies, presence of substantial pre-existing neurological or psychiatric illness, pregnancy status, renal dialysis status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline NIHSS score, Pre-stroke modified Rankin Scale score, History of type 2 diabetes mellitus, Admission blood glucose, Time from stroke symptom onset to randomization, Use of IV tPA or IA therapies,",
@@ -102,7 +103,8 @@
         "Pre-stroke modified Rankin Scale score",
         "Time from stroke symptom onset to randomization"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline NIHSS score, Pre-stroke modified Rankin Scale score, History of type 2 diabetes mellitus, Admission blood glucose, Time from stroke symptom onset to randomization, Use of IV tPA or IA therapies"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, History of Diabetes, Admission Blood Glucose, Baseline NIHSS Score, Pre-stroke Modified Rankin Scale Score, Body Temperature, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate.",
@@ -151,7 +153,8 @@
         "Diastolic Blood Pressure",
         "Heart Rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, History of Diabetes, Admission Blood Glucose, Baseline NIHSS Score, Pre-stroke Modified Rankin Scale Score, Body Temperature, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), history of type 2 diabetes mellitus, admission blood glucose, baseline NIHSS score, pre-stroke modified Rankin Scale score, time of symptom onset, time of hospital arrival, time of randomization, IV tPA or IA tPA use, IA therapies use.",
@@ -205,6 +208,7 @@
         "time of randomization",
         "IA therapies use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), history of type 2 diabetes mellitus, admission blood glucose, baseline NIHSS score, pre-stroke modified Rankin Scale score, time of symptom onset, time of hospital arrival, time of randomization, IV tPA or IA tPA use, IA therapies use."
   }
 }

@@ -91,7 +91,8 @@
         "Abnormal Hemoglobin Levels"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), duration of Type 1 Diabetes, residual C-peptide levels, presence of islet autoantibodies, HLA-DQ8 gene status, baseline blood pressure, baseline HbA1c levels, history of hypertension, history of hypoglycemia, history of autoimmune or immune deficiency disorders, history of substance abuse, psychiatric or medical disorders, reproductive status and birth control use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, C-peptide levels, Presence of islet autoantibodies, HLA-DQ8 status, Blood Pressure, Body Mass Index, History of severe hypoglycemia, Use of anti-hypertensive medications,",
@@ -173,7 +174,8 @@
         "Race/Ethnicity",
         "HLA-DQ8 status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, C-peptide levels, Presence of islet autoantibodies, HLA-DQ8 status, Blood Pressure, Body Mass Index, History of severe hypoglycemia, Use of anti-hypertensive medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, C-peptide, Islet Autoantibody Status, HLA-DQ8 Gene Status, BMI, Blood Pressure, History of Hypertension.",
@@ -248,7 +250,8 @@
         "HLA-DQ8 Gene Status",
         "History of Hypertension."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, C-peptide, Islet Autoantibody Status, HLA-DQ8 Gene Status, BMI, Blood Pressure, History of Hypertension."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, HgbA1c, C-peptide levels, islet autoantibody titers, HLA-DQ8 genotype, blood pressure, history of hypertension, history of hypoglycemia, insulin dose, diabetes duration, residual insulin production.",
@@ -316,6 +319,7 @@
         "insulin dose",
         "residual insulin production."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, HgbA1c, C-peptide levels, islet autoantibody titers, HLA-DQ8 genotype, blood pressure, history of hypertension, history of hypoglycemia, insulin dose, diabetes duration, residual insulin production."
   }
 }

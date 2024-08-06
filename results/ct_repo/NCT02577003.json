@@ -48,7 +48,8 @@
         "smoking status",
         "alcohol consumption"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, body mass index (BMI), duration of Type 2 diabetes mellitus, baseline HbA1c, fasting plasma glucose, blood pressure, lipid profile (total cholesterol, LDL cholesterol, HDL cholesterol, triglycerides), renal function (serum creatinine, estimated glomerular filtration rate), liver function tests (ALT, AST), concomitant medications, history of cardiovascular disease, smoking status, alcohol consumption."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Use of Antidiabetic Medications,",
@@ -95,7 +96,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Fasting Plasma Glucose, Use of Antidiabetic Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Fasting Plasma Glucose, Total Cholesterol, Triglycerides, HDL-C, LDL-C, eGFR, Urinary Albumin-to-Creatinine Ratio.",
@@ -147,7 +149,8 @@
         "LDL-C",
         "Urinary Albumin-to-Creatinine Ratio"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes duration, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HbA1c, Fasting Plasma Glucose, Total Cholesterol, Triglycerides, HDL-C, LDL-C, eGFR, Urinary Albumin-to-Creatinine Ratio."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, HbA1c at baseline, fasting plasma glucose at baseline, systolic blood pressure at baseline, diastolic blood pressure at baseline, history of hypertension, history of dyslipidemia, history of cardiovascular disease, smoking status, estimated glomerular filtration rate (eGFR) at baseline.",
@@ -191,6 +194,7 @@
         "history of cardiovascular disease",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus, HbA1c at baseline, fasting plasma glucose at baseline, systolic blood pressure at baseline, diastolic blood pressure at baseline, history of hypertension, history of dyslipidemia, history of cardiovascular disease, smoking status, estimated glomerular filtration rate (eGFR) at baseline."
   }
 }

@@ -31,7 +31,8 @@
         "intraoperative hemorrhage requiring transfusion",
         "known allergy or hypersensitivity to silver or drape materials containing acrylic adhesives."
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, CDC Wound Classification, ASA Physical Status Classification, presence of systemic bacterial or fungal infection, presence of remote-site skin infection, life expectancy, intraoperative hemorrhage requiring transfusion, known allergy or hypersensitivity to silver or drape materials containing acrylic adhesives."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Race/Ethnicity, Customized, Region of Enrollment, ASA Physical Status Classification, CDC Wound Classification, Type of Skin Closure Technique,",
@@ -67,7 +68,8 @@
         "CDC Wound Classification",
         "Type of Skin Closure Technique"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Race/Ethnicity, Region of Enrollment, ASA Physical Status Classification, CDC Wound Classification, Type of Skin Closure Technique"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, BMI, ASA Physical Status Classification, CDC Wound Classification, Region of Enrollment, Previous cesarean section, Gestational age at delivery, Type of cesarean section, Intraoperative complications, Postoperative complications.",
@@ -107,7 +109,8 @@
         "Intraoperative complications",
         "Postoperative complications."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, BMI, ASA Physical Status Classification, CDC Wound Classification, Region of Enrollment, Previous cesarean section, Gestational age at delivery, Type of cesarean section, Intraoperative complications, Postoperative complications."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, BMI, ASA Class, CDC Wound Classification, surgical incision length, type of cesarean section procedure, subcuticular skin closure technique, number of previous cesarean sections, gestational age at delivery, parity, ethnicity, race.",
@@ -150,6 +153,7 @@
         "number of previous cesarean sections",
         "parity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, ASA Class, CDC Wound Classification, surgical incision length, type of cesarean section procedure, subcuticular skin closure technique, number of previous cesarean sections, gestational age at delivery, parity, ethnicity, race."
   }
 }

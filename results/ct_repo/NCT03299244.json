@@ -55,7 +55,8 @@
         "serum magnesium levels",
         "serum transaminase levels (ALT, AST)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of hemodialysis, baseline serum intact parathyroid hormone (PTH) levels, baseline serum calcium levels, baseline serum phosphate levels, use of vitamin D sterols, use of calcium supplements, use of phosphate binders, dialysate calcium concentration, history of parathyroidectomy, history of kidney transplant, history of myocardial infarction, history of coronary angioplasty, history of coronary arterial bypass grafting, serum albumin levels, serum magnesium levels, serum transaminase levels (ALT, AST)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline Serum Intact Parathyroid Hormone (PTH), Baseline Serum Calcium, Baseline Serum Phosphorus, Baseline Serum Albumin, Baseline Serum Magnesium, Baseline Serum Transaminase (ALT, AST), Use of Vitamin D Sterols, Use of Calcium Supplements, Use of Phosphate Binders,",
@@ -111,7 +112,8 @@
         "Use of Calcium Supplements",
         "Use of Phosphate Binders"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Hemodialysis, Baseline Serum Intact Parathyroid Hormone (PTH), Baseline Serum Calcium, Baseline Serum Phosphorus, Baseline Serum Albumin, Baseline Serum Magnesium, Baseline Serum Transaminase (ALT, AST), Use of Vitamin D Sterols, Use of Calcium Supplements, Use of Phosphate Binders"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Male, Female, Region of Enrollment, Hemodialysis vintage, Dialysate calcium concentration, Kt/V, Urea reduction ratio, Serum intact parathyroid hormone, Serum calcium, Vitamin D sterol use, Calcium supplement use, Phosphate binder use.",
@@ -158,7 +160,8 @@
         "Calcium supplement use",
         "Phosphate binder use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Male, Female, Region of Enrollment, Hemodialysis vintage, Dialysate calcium concentration, Kt/V, Urea reduction ratio, Serum intact parathyroid hormone, Serum calcium, Vitamin D sterol use, Calcium supplement use, Phosphate binder use."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of hemodialysis, Kt/V, urea reduction ratio, dialysate calcium concentration, serum intact parathyroid hormone (PTH) level, serum calcium level, vitamin D sterol use, calcium supplement use, phosphate binder use.",
@@ -206,6 +209,7 @@
         "calcium supplement use",
         "phosphate binder use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), duration of hemodialysis, Kt/V, urea reduction ratio, dialysate calcium concentration, serum intact parathyroid hormone (PTH) level, serum calcium level, vitamin D sterol use, calcium supplement use, phosphate binder use."
   }
 }

@@ -40,7 +40,8 @@
         "baseline hematologic parameters",
         "baseline nutritional status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, type of cancer, stage of cancer, prior treatments, baseline oral health status, baseline renal function, baseline liver function, baseline pulmonary function, baseline cardiac function, baseline infection status, baseline mucositis status, baseline performance status, baseline hematologic parameters, baseline nutritional status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Cancer, CD34+ cell count, Renal function (serum creatinine), Liver function (direct bilirubin, AST, ALT), Pulmonary function (DLCO), ",
@@ -78,7 +79,8 @@
         "Liver function (direct bilirubin, AST, ALT)",
         "Pulmonary function (DLCO)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Cancer, CD34+ cell count, Renal function (serum creatinine), Liver function (direct bilirubin, AST, ALT), Pulmonary function (DLCO)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (NIH/OMB), Cancer Diagnosis, CD34+ cells/kg, Prior Bone Marrow or Peripheral Blood Stem Cell Transplantation, History of Pancreatitis, Renal Function, Liver Function, Pulmonary Function,",
@@ -114,7 +116,8 @@
         "Liver Function",
         "Pulmonary Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (NIH/OMB), Cancer Diagnosis, CD34+ cells/kg, Prior Bone Marrow or Peripheral Blood Stem Cell Transplantation, History of Pancreatitis, Renal Function, Liver Function, Pulmonary Function"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), cancer diagnosis, disease stage, prior chemotherapy or radiation therapy, CD34+ cell count, creatinine level, bilirubin level, AST level, ALT level, DLCO, New York Heart Association class, history of pancreatitis, history of congestive heart failure.",
@@ -161,6 +164,7 @@
         "history of pancreatitis",
         "history of congestive heart failure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), cancer diagnosis, disease stage, prior chemotherapy or radiation therapy, CD34+ cell count, creatinine level, bilirubin level, AST level, ALT level, DLCO, New York Heart Association class, history of pancreatitis, history of congestive heart failure."
   }
 }

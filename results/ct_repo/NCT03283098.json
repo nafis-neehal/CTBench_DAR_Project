@@ -55,7 +55,8 @@
         "pregnancy status (for females)",
         "contraceptive use (for females of reproductive potential)"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, ethnicity, body weight, height, body mass index (BMI), duration of hemodialysis, dialysis adequacy (Kt/V or URR), corrected calcium level, intact parathyroid hormone (PTH) level, history of cardiovascular conditions, history of malignancy, baseline 12-lead electrocardiogram (ECG) results, previous use of cinacalcet, blood or plasma loss history, pregnancy status (for females), contraceptive use (for females of reproductive potential)"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Corrected Calcium Level, Intact Parathyroid Hormone (PTH) Level, Hemodialysis Adequacy (Kt/V or URR),",
@@ -101,7 +102,8 @@
         "Duration of Hemodialysis",
         "Hemodialysis Adequacy (Kt/V or URR)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Hemodialysis, Corrected Calcium Level, Intact Parathyroid Hormone (PTH) Level, Hemodialysis Adequacy (Kt/V or URR)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hemodialysis vintage, Dialysis adequacy (Kt/V or URR), Corrected calcium level, Intact PTH level, History of cardiovascular conditions.",
@@ -149,7 +151,8 @@
         "Dialysis adequacy (Kt/V or URR)",
         "History of cardiovascular conditions."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Hemodialysis vintage, Dialysis adequacy (Kt/V or URR), Corrected calcium level, Intact PTH level, History of cardiovascular conditions."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, weight, height, body mass index (BMI), Chinese ancestry, duration of end stage renal disease, duration of hemodialysis, Kt/V, urea reduction ratio (URR), corrected calcium level, intact PTH level, dialysis prescription, medical history (including cardiovascular conditions, malignancy), concomitant medications.",
@@ -203,6 +206,7 @@
         "medical history (including cardiovascular conditions, malignancy)",
         "concomitant medications."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, weight, height, body mass index (BMI), Chinese ancestry, duration of end stage renal disease, duration of hemodialysis, Kt/V, urea reduction ratio (URR), corrected calcium level, intact PTH level, dialysis prescription, medical history (including cardiovascular conditions, malignancy), concomitant medications."
   }
 }

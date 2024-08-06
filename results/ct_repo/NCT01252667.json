@@ -43,7 +43,8 @@
         "donor medical conditions",
         "donor age"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline disease status (e.g., morphologic leukemia-free state), relapse risk score, HLA match status, left ventricular ejection fraction, diffusion capacity of the lung for carbon monoxide (DLCO), total lung capacity (TLC), forced expiratory volume in one second (FEV1), serum creatinine levels, Karnofsky score, Lansky score, presence of active infections, prior malignancy history, donor type (related or unrelated), donor HLA match status, donor cytotoxic crossmatch results, donor medical conditions, donor age."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, AML subtype, Disease status at transplant, Donor type, HLA match status, Karnofsky/Lansky score, Left ventricular ejection fraction, Diffusion capacity of the lung for carbon monoxide (DLCO), Serum creatinine, Liver function tests, Prior treatments,",
@@ -86,7 +87,8 @@
         "Liver function tests",
         "Prior treatments"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, AML subtype, Disease status at transplant, Donor type, HLA match status, Karnofsky/Lansky score, Left ventricular ejection fraction, Diffusion capacity of the lung for carbon monoxide (DLCO), Serum creatinine, Liver function tests, Prior treatments"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky Performance Status, Acute Myeloid Leukemia (AML) French-American-British (FAB) Classification, AML Risk Status, Prior Chemotherapy, Prior Radiation Therapy, Left Ventricular Ejection Fraction, Diffusion Capacity of the Lung for Carbon Monoxide (DLCO), Serum Creatinine, Serum Bilirubin.",
@@ -128,7 +130,8 @@
         "Serum Creatinine",
         "Serum Bilirubin"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Karnofsky Performance Status, Acute Myeloid Leukemia (AML) French-American-British (FAB) Classification, AML Risk Status, Prior Chemotherapy, Prior Radiation Therapy, Left Ventricular Ejection Fraction, Diffusion Capacity of the Lung for Carbon Monoxide (DLCO), Serum Creatinine, Serum Bilirubin."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, Karnofsky score, Lansky score, left ventricular ejection fraction, diffusion capacity of the lung for carbon monoxide (DLCO), total lung capacity (TLC), forced expiratory volume in one second (FEV1), serum creatinine, serum bilirubin, Relapse Risk Score, AML French-American-British (FAB) classification, number of prior chemotherapy regimens, time from diagnosis to transplant, donor-recipient HLA matching, donor age, donor sex.",
@@ -167,6 +170,7 @@
         "donor age",
         "donor sex"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, Karnofsky score, Lansky score, left ventricular ejection fraction, diffusion capacity of the lung for carbon monoxide (DLCO), total lung capacity (TLC), forced expiratory volume in one second (FEV1), serum creatinine, serum bilirubin, Relapse Risk Score, AML French-American-British (FAB) classification, number of prior chemotherapy regimens, time from diagnosis to transplant, donor-recipient HLA matching, donor age, donor sex."
   }
 }

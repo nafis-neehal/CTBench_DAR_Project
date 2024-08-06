@@ -38,7 +38,8 @@
         "Baseline plasma glucose concentration",
         "Baseline endogenous glucose production (EGP)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, BMI, HbA1c, Duration of Type II Diabetes Mellitus, Current diabetes medication, Plasma creatinine, 24-hour urine albumin excretion, Baseline plasma glucose concentration, Baseline endogenous glucose production (EGP)"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, HbA1c, Duration of Diabetes, Baseline Plasma Glucose, Baseline Endogenous Glucose Production, Medication Use,",
@@ -81,7 +82,8 @@
         "Baseline Endogenous Glucose Production",
         "Medication Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, HbA1c, Duration of Diabetes, Baseline Plasma Glucose, Baseline Endogenous Glucose Production, Medication Use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, HbA1c, Diabetes duration, Metformin use, Sulfonylurea use, Body weight,",
@@ -123,7 +125,8 @@
         "Sulfonylurea use",
         "Body weight"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, HbA1c, Diabetes duration, Metformin use, Sulfonylurea use, Body weight"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, HbA1c, duration of diabetes, type of diabetes medication, body weight, plasma creatinine, 24-hour urine albumin excretion, history of proliferative diabetic retinopathy.",
@@ -160,6 +163,7 @@
         "24-hour urine albumin excretion",
         "history of proliferative diabetic retinopathy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, HbA1c, duration of diabetes, type of diabetes medication, body weight, plasma creatinine, 24-hour urine albumin excretion, history of proliferative diabetic retinopathy."
   }
 }

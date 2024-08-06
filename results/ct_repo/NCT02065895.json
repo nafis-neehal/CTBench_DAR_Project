@@ -28,7 +28,8 @@
         "BMI",
         "gender"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, HbA1c, duration of Type 1 diabetes, gender"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Duration of Diabetes, HbA1c, Insulin Pump Use, Continuous Glucose Monitor Use,",
@@ -64,7 +65,8 @@
         "Body Mass Index",
         "Insulin Pump Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Duration of Diabetes, HbA1c, Insulin Pump Use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes duration, BMI, HbA1c, Insulin dose, Continuous glucose monitor data,",
@@ -99,7 +101,8 @@
         "BMI",
         "Insulin dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes duration, BMI, HbA1c, Insulin dose"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, HbA1c, duration of type 1 diabetes, continuous glucose monitor data, continuous subcutaneous insulin infusion pump data, hematocrit.",
@@ -129,6 +132,7 @@
         "BMI",
         "hematocrit."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, HbA1c, duration of type 1 diabetes, hematocrit."
   }
 }

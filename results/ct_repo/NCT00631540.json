@@ -50,7 +50,8 @@
         "smoking status",
         "cholesterol levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline renal function, blood pressure, presence of comorbid conditions (e.g., diabetes, hypertension), lesion characteristics (e.g., size, location), prior treatments for renal artery stenosis, smoking status, cholesterol levels, medication use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline renal function, Blood pressure, Severity of renal artery stenosis, History of hypertension, Smoking status, Diabetes status,",
@@ -97,7 +98,8 @@
         "Smoking status",
         "Diabetes status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline renal function, Blood pressure, Severity of renal artery stenosis, History of hypertension, Smoking status, Diabetes status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, Race/Ethnicity, Region of Enrollment, Renal Artery Stenosis severity, Hypertension, Diabetes, Hyperlipidemia, Smoking status, Prior cardiovascular events, Prior renal interventions, Baseline systolic blood pressure, Baseline creatinine, Baseline eGFR,",
@@ -149,7 +151,8 @@
         "Prior cardiovascular events",
         "Prior renal interventions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Race/Ethnicity, Region of Enrollment, Renal Artery Stenosis severity, Hypertension, Diabetes, Hyperlipidemia, Smoking status, Prior cardiovascular events, Prior renal interventions, Baseline systolic blood pressure, Baseline creatinine, Baseline eGFR"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, serum creatinine, estimated glomerular filtration rate (eGFR), presence of hypertension, presence of diabetes, presence of coronary artery disease, smoking status, prior renal artery intervention, lesion location, lesion length, percent stenosis, renal artery diameter.",
@@ -207,6 +210,7 @@
         "lesion length",
         "renal artery diameter"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, serum creatinine, estimated glomerular filtration rate (eGFR), presence of hypertension, presence of diabetes, presence of coronary artery disease, smoking status, prior renal artery intervention, lesion location, lesion length, percent stenosis, renal artery diameter."
   }
 }

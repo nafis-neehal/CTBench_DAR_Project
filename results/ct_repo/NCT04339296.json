@@ -37,7 +37,8 @@
         "Residency",
         "Baseline Medication Adherence"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Chronic Conditions, Number of Prescribed Medications, Cognitive Status, Residency, Baseline Medication Adherence"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Number of Chronic Conditions, Number of Prescribed Medications, Baseline Medication Adherence, Cognitive Function,",
@@ -83,7 +84,8 @@
         "Baseline Medication Adherence",
         "Cognitive Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Number of Chronic Conditions, Number of Prescribed Medications, Baseline Medication Adherence, Cognitive Function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Number of Chronic Conditions, Number of Prescribed Oral Medications, Cognitive Function,",
@@ -125,7 +127,8 @@
         "Region of Enrollment",
         "Cognitive Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Number of Chronic Conditions, Number of Prescribed Oral Medications, Cognitive Function"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, education level, marital status, living situation, number of chronic conditions, type of chronic conditions, number of prescribed medications, cognitive function, medical history, smoking status, alcohol consumption, body mass index (BMI), blood pressure, blood glucose level, anxiety and depression scores.",
@@ -182,6 +185,7 @@
         "blood glucose level",
         "anxiety and depression scores."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, education level, marital status, living situation, number of chronic conditions, type of chronic conditions, number of prescribed medications, cognitive function, medical history, smoking status, alcohol consumption, body mass index (BMI), blood pressure, blood glucose level, anxiety and depression scores."
   }
 }

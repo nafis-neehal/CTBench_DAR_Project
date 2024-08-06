@@ -50,7 +50,8 @@
         "Baseline glycemic control",
         "Current diabetes therapy (insulin pump use)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Type of diabetes (Type 1 or Type 2), Duration of diabetes, Symptoms of gastroparesis, Gastroparesis Cardinal Symptom Index (GCSI) score, Gastric scintigraphy results, Hemoglobin A1c level, Upper endoscopy results, Renal function (creatinine level), Mastery of CGMS use, Gender, Baseline glycemic control, Current diabetes therapy (insulin pump use)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Type, Duration of Diabetes, Gastroparesis Cardinal Symptom Index (GCSI) score, Hemoglobin A1c, Gastric Emptying Time, Upper Endoscopy Results, Renal Function (Creatinine),",
@@ -103,7 +104,8 @@
         "Upper Endoscopy Results",
         "Renal Function (Creatinine)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Type, Duration of Diabetes, Gastroparesis Cardinal Symptom Index (GCSI) score, Hemoglobin A1c, Gastric Emptying Time, Upper Endoscopy Results, Renal Function (Creatinine)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Type, Duration of Diabetes, Gastroparesis Cardinal Symptom Index (GCSI) score, Hemoglobin A1c, Insulin Pump Use, Gastric Emptying Time, Upper Endoscopy Results, Creatinine Level,",
@@ -156,7 +158,8 @@
         "Upper Endoscopy Results",
         "Creatinine Level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes Type, Duration of Diabetes, Gastroparesis Cardinal Symptom Index (GCSI) score, Hemoglobin A1c, Insulin Pump Use, Gastric Emptying Time, Upper Endoscopy Results, Creatinine Level"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, type of diabetes, hemoglobin A1c, GCSI score, gastric emptying time, history of diabetes therapy, insulin pump use, comorbidities, creatinine level.",
@@ -214,6 +217,7 @@
         "comorbidities",
         "creatinine level."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, type of diabetes, hemoglobin A1c, GCSI score, gastric emptying time, history of diabetes therapy, insulin pump use, comorbidities, creatinine level."
   }
 }

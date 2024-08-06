@@ -64,7 +64,8 @@
         "fetal heart status",
         "planned birth location."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gestational age, pre-existing hypertension, pre-pregnancy diabetes, twin pregnancy, history of preeclampsia in a previous pregnancy, body mass index (BMI), baseline folic acid intake, fetal heart status, planned birth location."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Gestational Age at Enrollment, Pre-existing Hypertension, Pre-pregnancy Diabetes, Twin Pregnancy, History of Preeclampsia in Previous Pregnancy, Body Mass Index, Race/Ethnicity, Region of Enrollment, Baseline Folic Acid Intake,",
@@ -132,7 +133,8 @@
         "Gestational age at recruitment"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, Gestational Age at Enrollment, Pre-existing Hypertension, Pre-pregnancy Diabetes, Twin Pregnancy, History of Preeclampsia in Previous Pregnancy, Body Mass Index, Race/Ethnicity, Region of Enrollment, Baseline Folic Acid Intake"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gestational Age, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pre-existing Hypertension, Pre-pregnancy Diabetes, Twin Pregnancy, History of Preeclampsia, Folic Acid Supplementation at Baseline.",
@@ -194,7 +196,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gestational Age, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Pre-existing Hypertension, Pre-pregnancy Diabetes, Twin Pregnancy, History of Preeclampsia, Folic Acid Supplementation at Baseline."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, BMI, parity, gestational age at randomization, history of hypertension, history of diabetes, history of preeclampsia, number of fetuses, fetal sex, ethnicity, smoking status, education level, socioeconomic status.",
@@ -269,6 +272,7 @@
       "remaining_candidate_features": [
         "socioeconomic status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, parity, gestational age at randomization, history of hypertension, history of diabetes, history of preeclampsia, number of fetuses, fetal sex, ethnicity, smoking status, education level, socioeconomic status."
   }
 }

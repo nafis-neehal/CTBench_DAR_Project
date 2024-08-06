@@ -37,7 +37,8 @@
         "current infections",
         "use of birth control methods"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, dialysis type (hemodialysis or peritoneal dialysis), glomerular filtration rate (GFR), hepatitis C virus (HCV) status, panel reactive anti-human leukocyte antigen (HLA) antibody (cPRA) percentage, history of liver disease, history of illicit drug use or alcohol abuse, psychiatric or physical illness, prior solid organ transplant status, blood type compatibility, history of human immunodeficiency virus (HIV) or hepatitis B virus (HBV) infection, current infections, and use of birth control methods."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Dialysis Type, Duration of Dialysis, Baseline Glomerular Filtration Rate (GFR), Panel Reactive Antibody (PRA) Level,",
@@ -74,7 +75,8 @@
         "Duration of Dialysis",
         "Baseline Glomerular Filtration Rate (GFR)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Dialysis Type, Duration of Dialysis, Baseline Glomerular Filtration Rate (GFR), Panel Reactive Antibody (PRA) Level"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hemodialysis or Peritoneal Dialysis, Calculated panel reactive anti-human leukocyte antigen (HLA) antibody (cPRA), Glomerular filtration rate, Hepatitis C virus (HCV) antibody and RNA PCR, History of human immunodeficiency (HIV) infection, History of hepatitis B (HBV) infection.",
@@ -116,7 +118,8 @@
         "History of human immunodeficiency (HIV) infection",
         "History of hepatitis B (HBV) infection."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Hemodialysis or Peritoneal Dialysis, Calculated panel reactive anti-human leukocyte antigen (HLA) antibody (cPRA), Glomerular filtration rate, Hepatitis C virus (HCV) antibody and RNA PCR, History of human immunodeficiency (HIV) infection, History of hepatitis B (HBV) infection."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), glomerular filtration rate (GFR), duration of dialysis, type of dialysis (hemodialysis or peritoneal dialysis), calculated panel reactive anti-human leukocyte antigen (HLA) antibody (cPRA), presence of comorbidities (e.g., diabetes, hypertension), history of previous kidney disease, liver function tests (e.g., aspartate aminotransferase (AST), alanine aminotransferase (ALT), bilirubin), hemoglobin, platelet count, white blood cell count.",
@@ -158,6 +161,7 @@
         "platelet count",
         "white blood cell count."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), glomerular filtration rate (GFR), duration of dialysis, type of dialysis (hemodialysis or peritoneal dialysis), calculated panel reactive anti-human leukocyte antigen (HLA) antibody (cPRA), presence of comorbidities (e.g., diabetes, hypertension), history of previous kidney disease, liver function tests (e.g., aspartate aminotransferase (AST), alanine aminotransferase (ALT), bilirubin), hemoglobin, platelet count, white blood cell count."
   }
 }

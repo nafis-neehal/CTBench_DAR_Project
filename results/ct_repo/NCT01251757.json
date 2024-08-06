@@ -40,7 +40,8 @@
         "Participation in other research studies",
         "Inclusion on Kaiser Permanente's \"do not contact\" list."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Diabetes status, Cardiovascular disease status, Medication adherence rate (MPR) at baseline, Duration of Kaiser Permanente membership, Presence of phone number or mailing address in EMR, History of allergy or intolerance to statins or ACE inhibitors/ARBs, Medical conditions contraindicating use of statins or ACEI/ARBs, Participation in other research studies, Inclusion on Kaiser Permanente's \"do not contact\" list."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Cardiovascular Disease Diagnosis Duration, Baseline Medication Adherence, Type of Medication (Statins, ACEIs, ARBs), Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, LDL Cholesterol, HDL Cholesterol, Triglycerides,",
@@ -91,7 +92,8 @@
         "HDL Cholesterol",
         "Triglycerides"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Cardiovascular Disease Diagnosis Duration, Baseline Medication Adherence, Type of Medication (Statins, ACEIs, ARBs), Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, LDL Cholesterol, HDL Cholesterol, Triglycerides"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes status, Cardiovascular disease status, Medication adherence, Statin use, ACEI/ARB use, Blood pressure, Cholesterol, Body Mass Index,",
@@ -138,7 +140,8 @@
         "Cholesterol",
         "Body Mass Index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes status, Cardiovascular disease status, Medication adherence, Statin use, ACEI/ARB use, Blood pressure, Cholesterol, Body Mass Index"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (diabetes, cardiovascular disease, coronary artery disease, peripheral vascular disease, atherosclerotic stroke), medication use (statins, ACEI, ARB), medication adherence (MPR), comorbidities, blood pressure, lipid profile, hemoglobin A1c (HbA1c), kidney function, liver function.",
@@ -186,6 +189,7 @@
         "kidney function",
         "liver function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (diabetes, cardiovascular disease, coronary artery disease, peripheral vascular disease, atherosclerotic stroke), medication use (statins, ACEI, ARB), medication adherence (MPR), comorbidities, blood pressure, lipid profile, hemoglobin A1c (HbA1c), kidney function, liver function."
   }
 }

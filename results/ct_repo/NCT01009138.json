@@ -39,7 +39,8 @@
         "German language proficiency",
         "informed consent status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, diabetes type, duration of diabetes, baseline CES-D score, HbA1c levels, quality of life score, diabetes self-management score, health care costs, inflammatory parameters, German language proficiency, informed consent status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, Baseline CES-D Score, HbA1c, Quality of Life, Diabetes Self-Management, Health Care Costs, Inflammatory Parameters,",
@@ -79,7 +80,8 @@
         "Health Care Costs",
         "Inflammatory Parameters"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Duration, Baseline CES-D Score, HbA1c, Quality of Life, Diabetes Self-Management, Health Care Costs, Inflammatory Parameters"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Diabetes Type, Diabetes Duration, HbA1c, BMI, CES-D Score, Quality of Life, Diabetes Self-Management, Inflammatory Parameters.",
@@ -120,7 +122,8 @@
         "Diabetes Self-Management",
         "Inflammatory Parameters"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes Type, Diabetes Duration, HbA1c, BMI, CES-D Score, Quality of Life, Diabetes Self-Management, Inflammatory Parameters."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, duration of diabetes, type of diabetes, HbA1c, BMI, CES-D score, quality of life, diabetes self-management, inflammatory parameters, comorbidities, current medications, education level, occupation, marital status.",
@@ -165,6 +168,7 @@
         "occupation",
         "marital status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, duration of diabetes, type of diabetes, HbA1c, BMI, CES-D score, quality of life, diabetes self-management, inflammatory parameters, comorbidities, current medications, education level, occupation, marital status."
   }
 }

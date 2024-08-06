@@ -47,7 +47,8 @@
         "Motivation Levels for Self-Management",
         "Language Proficiency"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Duration of Diabetes, Baseline Hemoglobin A1c, Baseline Quality of Life (Child), Baseline Quality of Life (Parent), Socioeconomic Status, Education Level of Parents, Family Structure, Frequency of Blood Glucose Monitoring, Insulin Regimen, Comorbid Conditions, Access to Healthcare Services, Previous Diabetes Education, Motivation Levels for Self-Management, Language Proficiency."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Quality of Life (Child), Quality of Life (Parent),",
@@ -92,7 +93,8 @@
         "Region of Enrollment",
         "Duration of Diabetes"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Quality of Life (Child), Quality of Life (Parent)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Parent-Child Relationship, HbA1c, BMI, Insulin Dose, Quality of Life,",
@@ -141,7 +143,8 @@
         "BMI",
         "Insulin Dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Parent-Child Relationship, HbA1c, BMI, Insulin Dose, Quality of Life"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, duration of diabetes, language spoken at home, family structure (single parent vs. two-parent household), parental education level, household income, insurance type, diabetes treatment regimen, frequency of blood glucose monitoring, history of diabetes-related hospitalizations, baseline Hemoglobin A1c, baseline child and parent quality of life scores.",
@@ -187,6 +190,7 @@
         "frequency of blood glucose monitoring",
         "history of diabetes-related hospitalizations"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, duration of diabetes, language spoken at home, family structure (single parent vs. two-parent household), parental education level, household income, insurance type, diabetes treatment regimen, frequency of blood glucose monitoring, history of diabetes-related hospitalizations, baseline Hemoglobin A1c, baseline child and parent quality of life scores."
   }
 }

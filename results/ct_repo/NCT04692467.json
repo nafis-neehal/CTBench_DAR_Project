@@ -31,7 +31,8 @@
         "HIV care provider",
         "consent status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of ART, stable ART regimen duration, HIV 1-RNA levels, systolic blood pressure (SBP), diastolic blood pressure (DBP), current antihypertensive treatment status, HIV care provider, consent status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HIV 1-RNA levels, Duration of ART,",
@@ -69,7 +70,8 @@
         "HIV 1-RNA levels",
         "Duration of ART"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, HIV 1-RNA levels, Duration of ART"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, HIV duration, ART duration, CD4 count, HIV RNA, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Kidney function, Diabetes status, Protease inhibitor/ritonavir use.",
@@ -108,7 +110,8 @@
         "Diabetes status",
         "Protease inhibitor/ritonavir use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, HIV duration, ART duration, CD4 count, HIV RNA, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Kidney function, Diabetes status, Protease inhibitor/ritonavir use."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of HIV infection, duration of antiretroviral therapy (ART), CD4 cell count, HIV-1 RNA level, smoking status, history of cardiovascular disease, family history of hypertension, education level, occupation, income level.",
@@ -152,6 +155,7 @@
         "occupation",
         "income level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of HIV infection, duration of antiretroviral therapy (ART), CD4 cell count, HIV-1 RNA level, smoking status, history of cardiovascular disease, family history of hypertension, education level, occupation, income level."
   }
 }

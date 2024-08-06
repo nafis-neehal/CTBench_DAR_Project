@@ -44,7 +44,8 @@
         "dialysis status",
         "other medical problems"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of Type 2 Diabetes diagnosis, baseline HbA1c, current insulin regimen, ability to read and understand English, willingness to complete study activities, willingness to sign informed consent, willingness to record glucose measurements, financial ability to cover costs of V-Go device and supplies, history of severe hypoglycemia, history of hypoglycemia unawareness, pregnancy status, lactation status, use of steroids, history of solid organ transplant, current use of U-100 RHI in V-Go, current use of U-500 RHI in V-Go, dialysis status, other medical problems."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Frequency of Hypoglycemia,",
@@ -85,7 +86,8 @@
         "Diastolic Blood Pressure",
         "Frequency of Hypoglycemia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Frequency of Hypoglycemia"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, HbA1c, Insulin Dose, Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol,",
@@ -128,7 +130,8 @@
         "HDL Cholesterol",
         "LDL Cholesterol"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Body Mass Index, HbA1c, Insulin Dose, Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, A1C at screening, fasting plasma glucose at screening, insulin dose at screening, history of hypertension, history of hyperlipidemia, history of cardiovascular disease, smoking status.",
@@ -170,6 +173,7 @@
         "history of cardiovascular disease",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, A1C at screening, fasting plasma glucose at screening, insulin dose at screening, history of hypertension, history of hyperlipidemia, history of cardiovascular disease, smoking status."
   }
 }

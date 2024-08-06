@@ -43,7 +43,8 @@
         "recent surgery or trauma",
         "use of medications causing QT prolongation"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of type 1 diabetes mellitus, hemoglobin A1c (HbA1c) levels, anti-diabetic treatment regimen, history of allergies, history of anaphylaxis, pregnancy status, use of closed loop artificial pancreas, recent investigational drug use, history of malignancy, congestive heart failure status, blood pressure levels, bleeding disorder status, history of pheochromocytoma or insulinoma, HIV status, use of specific medications (systemic beta-blockers, indomethacin, warfarin, anticholinergic drugs, systemic corticosteroids, anti-inflammatory biological agents, kinase inhibitors, other immune modulating agents), recent blood or plasma donation, alcohol and drug use history, recent surgery or trauma, use of medications causing QT prolongation."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Severe Hypoglycemia,",
@@ -84,7 +85,8 @@
         "Diastolic Blood Pressure",
         "History of Severe Hypoglycemia"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Severe Hypoglycemia"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Diabetes duration, HbA1c, BMI, Insulin dose, Region of Enrollment,",
@@ -119,7 +121,8 @@
         "Insulin dose",
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diabetes duration, HbA1c, BMI, Insulin dose, Region of Enrollment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 1 diabetes mellitus (T1DM), hemoglobin A1c (HbA1c), insulin dose, anti-diabetic treatment, history of hypoglycemia, history of anaphylaxis or severe systemic allergy.",
@@ -155,6 +158,7 @@
         "history of hypoglycemia",
         "history of anaphylaxis or severe systemic allergy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 1 diabetes mellitus (T1DM), hemoglobin A1c (HbA1c), insulin dose, anti-diabetic treatment, history of hypoglycemia, history of anaphylaxis or severe systemic allergy."
   }
 }

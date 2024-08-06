@@ -34,7 +34,8 @@
         "education level",
         "comorbid conditions"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of glaucoma diagnosis, baseline intraocular pressure, type of glaucoma medication, adherence to medication regimen, visual acuity, socioeconomic status, education level, comorbid conditions."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Glaucoma Diagnosis, Type of Glaucoma Medication, Baseline Intraocular Pressure, Medication Adherence, Visual Acuity,",
@@ -73,7 +74,8 @@
         "Medication Adherence",
         "Visual Acuity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Glaucoma Diagnosis, Type of Glaucoma Medication, Baseline Intraocular Pressure, Medication Adherence, Visual Acuity"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Glaucoma diagnosis duration, Current glaucoma medication, Intraocular pressure, Visual acuity,",
@@ -113,7 +115,8 @@
         "Intraocular pressure",
         "Visual acuity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Glaucoma diagnosis duration, Current glaucoma medication, Intraocular pressure, Visual acuity"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, duration of glaucoma diagnosis, type of glaucoma, current glaucoma medication, visual acuity, intraocular pressure, number of medications used, education level, occupation, insurance status.",
@@ -155,6 +158,7 @@
         "occupation",
         "insurance status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, duration of glaucoma diagnosis, type of glaucoma, current glaucoma medication, visual acuity, intraocular pressure, number of medications used, education level, occupation, insurance status."
   }
 }

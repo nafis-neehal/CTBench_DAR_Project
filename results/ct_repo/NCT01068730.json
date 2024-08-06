@@ -31,7 +31,8 @@
         "clinical laboratory determinations",
         "estimated creatinine clearance (Clcr)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, medical history, physical examination results, electrocardiogram (ECG) results, clinical laboratory determinations, estimated creatinine clearance (Clcr)"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline creatinine clearance, Baseline ECG results, Baseline clinical laboratory determinations, ",
@@ -67,7 +68,8 @@
         "Baseline ECG results",
         "Baseline clinical laboratory determinations"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline creatinine clearance, Baseline ECG results, Baseline clinical laboratory determinations"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Weight, Height,",
@@ -106,7 +108,8 @@
       "remaining_candidate_features": [
         "Region of Enrollment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Weight, Height"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), weight, height, medical history, electrocardiogram (ECG) results, clinical laboratory determinations, estimated creatinine clearance (Clcr).",
@@ -143,6 +146,7 @@
         "clinical laboratory determinations",
         "estimated creatinine clearance (Clcr)."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), weight, height, medical history, electrocardiogram (ECG) results, clinical laboratory determinations, estimated creatinine clearance (Clcr)."
   }
 }

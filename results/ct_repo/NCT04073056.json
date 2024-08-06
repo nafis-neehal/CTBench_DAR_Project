@@ -43,7 +43,8 @@
         "ASA physical status classification",
         "baseline opioid use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, gender, baseline pain score, comorbidities, medication use, duration of surgery, ASA physical status classification, history of substance abuse, baseline opioid use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, ASA Physical Status Classification, History of substance abuse, Chronic opioid use, Coagulopathy,",
@@ -94,7 +95,8 @@
       "remaining_candidate_features": [
         "ASA Physical Status Classification"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, ASA Physical Status Classification, History of substance abuse, Chronic opioid use, Coagulopathy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, BMI, ASA Classification, History of Substance Abuse, History of Chronic Opioid Use, Coagulopathy Status,",
@@ -139,7 +141,8 @@
         "History of Chronic Opioid Use",
         "Coagulopathy Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, ASA Classification, History of Substance Abuse, History of Chronic Opioid Use, Coagulopathy Status"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, weight, height, ASA classification, history of substance abuse, history of chronic opioid use, coagulation status, presence of local infection.",
@@ -181,6 +184,7 @@
         "coagulation status",
         "presence of local infection."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, weight, height, ASA classification, history of substance abuse, history of chronic opioid use, coagulation status, presence of local infection."
   }
 }

@@ -45,7 +45,8 @@
         "presence of macular edema",
         "pregnancy status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline HbA1c, duration of type 2 diabetes, duration of basal insulin treatment, use of oral antihyperglycemic drugs, history of nocturnal hypoglycemia, body mass index (BMI), fasting plasma glucose, blood pressure, lipid profile, renal function, liver function, presence of diabetic retinopathy, presence of macular edema, pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Daily Insulin Dose, Use of Oral Antihyperglycemic Drugs, History of Diabetic Retinopathy,",
@@ -89,7 +90,8 @@
         "Use of Oral Antihyperglycemic Drugs",
         "History of Diabetic Retinopathy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Daily Insulin Dose, Use of Oral Antihyperglycemic Drugs, History of Diabetic Retinopathy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, HbA1c, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, Oral Antidiabetic Therapy, Basal Insulin Dose.",
@@ -136,7 +138,8 @@
         "LDL Cholesterol",
         "Oral Antidiabetic Therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Duration, HbA1c, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, Oral Antidiabetic Therapy, Basal Insulin Dose."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c at baseline, fasting plasma glucose (FPG) at baseline, insulin dose at baseline, oral antidiabetic therapy at baseline, history of diabetic complications, smoking status.",
@@ -176,6 +179,7 @@
         "history of diabetic complications",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c at baseline, fasting plasma glucose (FPG) at baseline, insulin dose at baseline, oral antidiabetic therapy at baseline, history of diabetic complications, smoking status."
   }
 }

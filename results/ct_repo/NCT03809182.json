@@ -37,7 +37,8 @@
         "Duration of surgery",
         "Type of anesthesia used"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, Body Mass Index (BMI), American Society of Anesthesiologists (ASA) grade, Baseline glucose levels, Baseline insulin levels, Comorbidities, Medication history, Duration of surgery, Type of anesthesia used"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Body Mass Index, Baseline glucose levels, American Society of Anesthesiologists (ASA) grade,",
@@ -73,7 +74,8 @@
       "remaining_candidate_features": [
         "Baseline glucose levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, Baseline glucose levels, American Society of Anesthesiologists (ASA) grade"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, BMI, ASA Physical Status, Glucose Intolerance Diagnosis, Sleeve Gastrectomy,",
@@ -110,7 +112,8 @@
         "Glucose Intolerance Diagnosis",
         "Sleeve Gastrectomy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, BMI, ASA Physical Status, Glucose Intolerance Diagnosis, Sleeve Gastrectomy"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), American Society of Anesthesiologists (ASA) grade, diagnosis of impaired glucose tolerance, baseline glucose levels, history of corticosteroids treatment, history of oral hypoglycemic medication, history of insulin use, allergy to any drug used in the study.",
@@ -148,6 +151,7 @@
         "history of insulin use",
         "allergy to any drug used in the study."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), American Society of Anesthesiologists (ASA) grade, diagnosis of impaired glucose tolerance, baseline glucose levels, history of corticosteroids treatment, history of oral hypoglycemic medication, history of insulin use, allergy to any drug used in the study."
   }
 }

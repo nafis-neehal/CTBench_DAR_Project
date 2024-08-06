@@ -49,7 +49,8 @@
         "prior use of enzyme-inducing antiepileptic drugs (EIAEDs)",
         "prior use of other specific medications (e.g., interferon, thalidomide, vincristine, nitrosoureas, procarbazine, isotretinoin, non-cytotoxic therapy, valproic acid, hydrochlorothiazide)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race/ethnicity, Karnofsky performance status, prior therapies, tumor type, WBC count, absolute neutrophil count, platelet count, hemoglobin level, SGOT level, bilirubin level, creatinine level, history of cardiac conditions, history of other malignancies, presence of active infection, pregnancy status, use of effective contraception, prior radiotherapy, prior surgical resection, prior use of enzyme-inducing antiepileptic drugs (EIAEDs), prior use of other specific medications (e.g., interferon, thalidomide, vincristine, nitrosoureas, procarbazine, isotretinoin, non-cytotoxic therapy, valproic acid, hydrochlorothiazide)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky Performance Status, White Blood Cell Count, Absolute Neutrophil Count, Platelet Count, Hemoglobin, SGOT, Bilirubin, Creatinine, History of Cardiac Conditions, Prior Therapies, Tumor Type, Tumor Progression Evidence,",
@@ -93,7 +94,8 @@
         "History of Cardiac Conditions",
         "Tumor Progression Evidence"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Karnofsky Performance Status, White Blood Cell Count, Absolute Neutrophil Count, Platelet Count, Hemoglobin, SGOT, Bilirubin, Creatinine, History of Cardiac Conditions, Prior Therapies, Tumor Type, Tumor Progression Evidence"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Karnofsky Performance Status, Histological diagnosis, Tumor location, Prior radiotherapy, Prior chemotherapy, Prior surgery, EIAEDs use, WBC count, Absolute neutrophil count, Platelet count, Hemoglobin, SGOT, Bilirubin, Creatinine,",
@@ -140,7 +142,8 @@
         "Bilirubin",
         "Creatinine"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Karnofsky Performance Status, Histological diagnosis, Tumor location, Prior radiotherapy, Prior chemotherapy, Prior surgery, EIAEDs use, WBC count, Absolute neutrophil count, Platelet count, Hemoglobin, SGOT, Bilirubin, Creatinine"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, Karnofsky performance status, histological diagnosis, tumor location, prior therapy (including radiotherapy, chemotherapy, and surgery), time since diagnosis, time since prior therapy, presence of neurological symptoms, ECOG performance status, serum creatinine, serum bilirubin, SGOT, WBC count, absolute neutrophil count, platelet count, hemoglobin, blood pressure, cardiac ejection fraction, QTc interval.",
@@ -188,6 +191,7 @@
         "cardiac ejection fraction",
         "QTc interval"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, Karnofsky performance status, histological diagnosis, tumor location, prior therapy (including radiotherapy, chemotherapy, and surgery), time since diagnosis, time since prior therapy, presence of neurological symptoms, ECOG performance status, serum creatinine, serum bilirubin, SGOT, WBC count, absolute neutrophil count, platelet count, hemoglobin, blood pressure, cardiac ejection fraction, QTc interval."
   }
 }

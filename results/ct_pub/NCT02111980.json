@@ -39,7 +39,8 @@
         "smoking status",
         "alcohol use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, medical history, type of cardiac implantable electronic device (CIED), duration of CIED implantation, reason for CIED removal or replacement, baseline CIED settings, baseline heart rate, baseline blood pressure, baseline cardiac function, comorbid conditions, medication use, smoking status, alcohol use, body mass index (BMI)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Sex, Type of cardiac device (pacemaker or ICD), Duration of device implantation, Indication for device removal, Baseline device settings (pacing mode, pacing polarity, base rate, max tracking rate, AV delay, battery capacity, pacing impedance, shock impedance, P & R wave measurements, capture threshold), Comorbid conditions (e.g., cardiomyopathy, cardiac arrhythmia, heart failure, chronic thromboembolic pulmonary hypertension), Medication use, Smoking status, BMI, Blood pressure, Heart rate.",
@@ -76,7 +77,8 @@
         "Blood pressure",
         "Heart rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, Type of cardiac device (pacemaker or ICD), Duration of device implantation, Indication for device removal, Baseline device settings (pacing mode, pacing polarity, base rate, max tracking rate, AV delay, battery capacity, pacing impedance, shock impedance, P & R wave measurements, capture threshold), Comorbid conditions (e.g., cardiomyopathy, cardiac arrhythmia, heart failure, chronic thromboembolic pulmonary hypertension), Medication use, Smoking status, BMI, Blood pressure, Heart rate."
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Sex, Pacemaker/ICD type, Pacemaker/ICD manufacturer, Pacemaker/ICD model, Pacemaker/ICD implant date, Pacemaker/ICD battery life, Pacemaker/ICD programming, Underlying cardiac condition, Comorbidities.",
@@ -109,7 +111,8 @@
         "Underlying cardiac condition",
         "Comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, Pacemaker/ICD type, Pacemaker/ICD manufacturer, Pacemaker/ICD model, Pacemaker/ICD implant date, Pacemaker/ICD battery life, Pacemaker/ICD programming, Underlying cardiac condition, Comorbidities."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, weight, height, body mass index (BMI), medical history (cardiomyopathy, cardiac arrhythmia, heart failure, chronic thromboembolic pulmonary hypertension), pacemaker/ICD type and model, pacemaker/ICD settings prior to RF scanning, temporary pacemaker usage.",
@@ -143,6 +146,7 @@
         "pacemaker/ICD settings prior to RF scanning",
         "temporary pacemaker usage."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, weight, height, body mass index (BMI), medical history (cardiomyopathy, cardiac arrhythmia, heart failure, chronic thromboembolic pulmonary hypertension), pacemaker/ICD type and model, pacemaker/ICD settings prior to RF scanning, temporary pacemaker usage."
   }
 }

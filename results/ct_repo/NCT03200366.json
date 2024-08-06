@@ -76,7 +76,8 @@
         "Baseline Satisfaction with Healthcare",
         "Baseline Bowel Preparation Quality."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity, Education Level, Income Level, Health Insurance Status, Previous CRC Screening History, Marital Status, Employment Status, Baseline Anxiety Levels, Baseline Satisfaction with Healthcare, Baseline Knowledge of CRC Screening, Baseline Health Literacy, Baseline Bowel Preparation Quality."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Previous CRC screening history, Family history of CRC, Health literacy, Anxiety levels, Satisfaction with colonoscopy experience, Quality of bowel preparation,",
@@ -148,7 +149,8 @@
         "Previous CRC screening history",
         "Family history of CRC"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Previous CRC screening history, Family history of CRC, Health literacy, Anxiety levels, Satisfaction with colonoscopy experience, Quality of bowel preparation"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Family History of Colorectal Cancer, Personal History of Conditions that Place Participants at High Risk for Colorectal Cancer, Prior Colonoscopy Experience, Anxiety about Colonoscopy Procedure, Satisfaction with Colonoscopy Experience.",
@@ -220,7 +222,8 @@
       "remaining_candidate_features": [
         "Prior Colonoscopy Experience"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Family History of Colorectal Cancer, Personal History of Conditions that Place Participants at High Risk for Colorectal Cancer, Prior Colonoscopy Experience, Anxiety about Colonoscopy Procedure, Satisfaction with Colonoscopy Experience."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, education level, income, marital status, employment status, health insurance status, medical comorbidities, family history of CRC, personal history of polyps or CRC, history of colonoscopy, current smoking status, body mass index (BMI), self-reported health status, anxiety level, satisfaction with healthcare provider, prior experience with CRC screening, and distance from residence to endoscopy department.",
@@ -315,6 +318,7 @@
         "satisfaction with healthcare provider",
         "distance from residence to endoscopy department"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, education level, income, marital status, employment status, health insurance status, medical comorbidities, family history of CRC, personal history of polyps or CRC, history of colonoscopy, current smoking status, body mass index (BMI), self-reported health status, anxiety level, satisfaction with healthcare provider, prior experience with CRC screening, and distance from residence to endoscopy department."
   }
 }

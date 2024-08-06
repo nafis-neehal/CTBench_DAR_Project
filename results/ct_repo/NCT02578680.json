@@ -47,7 +47,8 @@
         "substance abuse history",
         "pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, smoking status, ECOG performance status, histology, stage of disease, prior treatments, organ function tests, presence of measurable disease, life expectancy, tumor tissue availability, contraception use, comorbid conditions, prior malignancy history, CNS metastases status, autoimmune disease status, infection status, substance abuse history, pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Smoking History, Histology Type, Tumor Stage, Prior Radiation Therapy, Prior Surgery, Baseline Tumor Measurements,",
@@ -87,7 +88,8 @@
         "Prior Surgery",
         "Baseline Tumor Measurements"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Smoking History, Histology Type, Tumor Stage, Prior Radiation Therapy, Prior Surgery, Baseline Tumor Measurements"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology, Smoking Status, Number of Metastatic Sites, Presence of Brain Metastases, Prior Radiotherapy, Prior Systemic Therapy, Baseline Tumor Size, Baseline LDH, Baseline Albumin, Baseline Hemoglobin.",
@@ -131,7 +133,8 @@
         "Baseline Albumin",
         "Baseline Hemoglobin"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Histology, Smoking Status, Number of Metastatic Sites, Presence of Brain Metastases, Prior Radiotherapy, Prior Systemic Therapy, Baseline Tumor Size, Baseline LDH, Baseline Albumin, Baseline Hemoglobin."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, smoking history, histology, tumor stage, presence of brain metastases, prior radiation therapy, prior systemic therapy, EGFR mutation status, ALK rearrangement status, PD-L1 expression level.",
@@ -175,6 +178,7 @@
         "EGFR mutation status",
         "ALK rearrangement status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, smoking history, histology, tumor stage, presence of brain metastases, prior radiation therapy, prior systemic therapy, EGFR mutation status, ALK rearrangement status, PD-L1 expression level."
   }
 }

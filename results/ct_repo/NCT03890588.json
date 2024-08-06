@@ -45,7 +45,8 @@
         "Pregnancy Status",
         "End Stage Renal Disease Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Baseline eGFR, Baseline Blood Pressure, Baseline A1C, Presence of Cardiovascular Disease, 10-year ASCVD Risk, Cancer Status, Hypoglycemia Status, Cognitive Impairment Status, Number of Glycemia Medications, Use of Insulin, Use of Non-Insulin Glycemia Medications, Albumin to Creatinine Ratio (ACR), Use of NSAIDs, Nephrology Visit History, Enrollment in Hospice, Active Cancer Status, Chemotherapy Status, Pregnancy Status, End Stage Renal Disease Status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Glycated hemoglobin (A1C), Estimated Glomerular Filtration Rate (eGFR), Albumin to Creatinine Ratio (ACR), Use of NSAIDs, Cardiovascular Disease (CVD) history, Diabetes duration,",
@@ -90,7 +91,8 @@
         "Cardiovascular Disease (CVD) history",
         "Diabetes duration"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Glycated hemoglobin (A1C), Estimated Glomerular Filtration Rate (eGFR), Albumin to Creatinine Ratio (ACR), Use of NSAIDs, Cardiovascular Disease (CVD) history, Diabetes duration"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, Existing Cardiovascular Disease, Baseline eGFR, Blood Pressure, Glycated Hemoglobin, Body Mass Index, Albumin to Creatinine Ratio, History of Hypertension, History of Cancer, Cognitive Impairment.",
@@ -134,7 +136,8 @@
         "History of Cancer",
         "Cognitive Impairment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, Existing Cardiovascular Disease, Baseline eGFR, Blood Pressure, Glycated Hemoglobin, Body Mass Index, Albumin to Creatinine Ratio, History of Hypertension, History of Cancer, Cognitive Impairment."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (hypertension, diabetes, cardiovascular disease, cancer), medication use (ACEI, ARB, NSAID, glycemia medications, insulin), blood pressure, glycated hemoglobin (A1C), estimated glomerular filtration rate (eGFR), albumin to creatinine ratio (ACR), calculated 10-yr atherosclerotic cardiovascular disease (ASCVD) risk.",
@@ -176,6 +179,7 @@
         "albumin to creatinine ratio (ACR)",
         "calculated 10-yr atherosclerotic cardiovascular disease (ASCVD) risk"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), smoking status, medical history (hypertension, diabetes, cardiovascular disease, cancer), medication use (ACEI, ARB, NSAID, glycemia medications, insulin), blood pressure, glycated hemoglobin (A1C), estimated glomerular filtration rate (eGFR), albumin to creatinine ratio (ACR), calculated 10-yr atherosclerotic cardiovascular disease (ASCVD) risk."
   }
 }

@@ -49,7 +49,8 @@
         "co-administration of specific medications",
         "dialysis status (for pre-transplant arm)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, renal function (GFR), HCV viremia levels, HCV genotype, liver disease staging, pregnancy status, platelet count, albumin levels, AST levels, ALT levels, history of allergy or adverse events with protease inhibitors, co-administration of specific medications, duration since renal transplantation (for post-transplant arm), dialysis status (for pre-transplant arm)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline renal function (eGFR), HCV viral load, HCV genotype, Liver disease staging, AST, ALT, Albumin, Platelet count, Use of immunosuppressive therapy,",
@@ -99,7 +100,8 @@
         "Platelet count",
         "Use of immunosuppressive therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline renal function (eGFR), HCV viral load, HCV genotype, Liver disease staging, AST, ALT, Albumin, Platelet count, Use of immunosuppressive therapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, HCV Genotype, HCV RNA, Liver Fibrosis Stage, eGFR, Hemoglobin, Platelet Count, Albumin, AST, ALT, Creatinine, Prior Kidney Transplant, Time Since Transplant, Immunosuppressive Regimen.",
@@ -157,7 +159,8 @@
         "Prior Kidney Transplant",
         "Immunosuppressive Regimen"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, HCV Genotype, HCV RNA, Liver Fibrosis Stage, eGFR, Hemoglobin, Platelet Count, Albumin, AST, ALT, Creatinine, Prior Kidney Transplant, Time Since Transplant, Immunosuppressive Regimen."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), chronic kidney disease (CKD) stage, genotype 1 HCV infection, HCV viremia, HCV antibody positivity, liver disease staging, creatinine level, glomerular filtration rate (GFR), albumin level, platelet count, aspartate aminotransferase (AST) level, alanine aminotransferase (ALT) level, Child-Pugh class, history of clinically significant allergy or adverse event with protease inhibitors, history of liver disease caused by an etiology other than HCV, history of hepatocellular carcinoma, history of HIV co-infection, history of prior exposure to HCV protease inhibitor therapy.",
@@ -214,6 +217,7 @@
         "history of HIV co-infection",
         "history of prior exposure to HCV protease inhibitor therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), chronic kidney disease (CKD) stage, genotype 1 HCV infection, HCV viremia, HCV antibody positivity, liver disease staging, creatinine level, glomerular filtration rate (GFR), albumin level, platelet count, aspartate aminotransferase (AST) level, alanine aminotransferase (ALT) level, Child-Pugh class, history of clinically significant allergy or adverse event with protease inhibitors, history of liver disease caused by an etiology other than HCV, history of hepatocellular carcinoma, history of HIV co-infection, history of prior exposure to HCV protease inhibitor therapy."
   }
 }

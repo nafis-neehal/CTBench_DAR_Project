@@ -33,7 +33,8 @@
         "history of hospitalization related to hyperglycemia or diabetic ketoacidosis",
         "presence of gastrointestinal disease."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of type 1 diabetes, baseline HbA1c, type of prandial insulin used, type of basal insulin used, body mass index (BMI), history of severe hypoglycemic episodes, history of hospitalization related to hyperglycemia or diabetic ketoacidosis, presence of gastrointestinal disease."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, Body Mass Index, History of Severe Hypoglycemia, History of Hyperglycemia-related Hospitalization,",
@@ -72,7 +73,8 @@
         "History of Severe Hypoglycemia",
         "History of Hyperglycemia-related Hospitalization"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Daily Insulin Dose, Body Mass Index, History of Severe Hypoglycemia, History of Hyperglycemia-related Hospitalization"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Insulin Dose, BMI, Blood Pressure, Total Cholesterol, Triglycerides,",
@@ -112,7 +114,8 @@
         "Total Cholesterol",
         "Triglycerides"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Diagnosis Duration, HbA1c, Insulin Dose, BMI, Blood Pressure, Total Cholesterol, Triglycerides"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 1 diabetes, HbA1c at screening, insulin dose at screening, type of prandial insulin used, type of basal insulin used, history of severe hypoglycemic episodes, history of hospitalization related to hyperglycemia or diabetic ketoacidosis.",
@@ -152,6 +155,7 @@
         "history of severe hypoglycemic episodes",
         "history of hospitalization related to hyperglycemia or diabetic ketoacidosis."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 1 diabetes, HbA1c at screening, insulin dose at screening, type of prandial insulin used, type of basal insulin used, history of severe hypoglycemic episodes, history of hospitalization related to hyperglycemia or diabetic ketoacidosis."
   }
 }

@@ -45,7 +45,8 @@
         "immunogenicity status (positive/negative)",
         "antibody titers."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of type 2 diabetes mellitus, baseline HbA1c, fasting plasma glucose (FPG), self-measured plasma glucose (SMPG) profiles, insulin dose, body mass index (BMI), presence of diabetic retinopathy, prior use of insulin glargine, prior use of Humalog/Liprolog or NovoLog/NovoRapid, hospitalization for diabetic ketoacidosis, immunogenicity status (positive/negative), antibody titers."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Fasting Plasma Glucose, Self-measured Plasma Glucose, Insulin Dose, Body Mass Index,",
@@ -90,7 +91,8 @@
         "Self-measured Plasma Glucose",
         "Insulin Dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Fasting Plasma Glucose, Self-measured Plasma Glucose, Insulin Dose, Body Mass Index"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Fasting Plasma Glucose, Self-Measured Plasma Glucose, Insulin Dose, Body Mass Index.",
@@ -134,7 +136,8 @@
         "Self-Measured Plasma Glucose",
         "Insulin Dose"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Fasting Plasma Glucose, Self-Measured Plasma Glucose, Insulin Dose, Body Mass Index."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus (T2DM), HbA1c at baseline, fasting plasma glucose (FPG) at baseline, self-measured plasma glucose (SMPG) at baseline, insulin dose at baseline, history of diabetic complications, history of cardiovascular disease, smoking status.",
@@ -179,6 +182,7 @@
         "history of cardiovascular disease",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes mellitus (T2DM), HbA1c at baseline, fasting plasma glucose (FPG) at baseline, self-measured plasma glucose (SMPG) at baseline, insulin dose at baseline, history of diabetic complications, history of cardiovascular disease, smoking status."
   }
 }

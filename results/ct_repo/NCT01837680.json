@@ -55,7 +55,8 @@
         "blood pressure",
         "lipid profile"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gestational age, type of diabetes (gestational or type 2), pre-pregnancy BMI, ethnicity, parity, previous history of gestational diabetes, duration of diabetes, baseline HbA1c, fasting blood glucose levels, socioeconomic status, smoking status, family history of diabetes, blood pressure, lipid profile."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Gestational Age at Diagnosis, Type of Diabetes (Gestational or Type 2), Pre-pregnancy BMI, Ethnicity, Race, Baseline HbA1c, Blood Pressure, Parity, Number of Fetuses,",
@@ -106,7 +107,8 @@
         "Blood Pressure",
         "Parity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gestational Age at Diagnosis, Type of Diabetes (Gestational or Type 2), Pre-pregnancy BMI, Ethnicity, Race, Baseline HbA1c, Blood Pressure, Parity, Number of Fetuses"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gestational Age, Parity, BMI, Previous History of GDM, Previous History of T2DM, Family History of Diabetes, Ethnicity, Region of Enrollment, HbA1c at Screening, Fasting Plasma Glucose at Screening, Insulin Dose at Baseline.",
@@ -159,7 +161,8 @@
         "Fasting Plasma Glucose at Screening",
         "Insulin Dose at Baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gestational Age, Parity, BMI, Previous History of GDM, Previous History of T2DM, Family History of Diabetes, Ethnicity, Region of Enrollment, HbA1c at Screening, Fasting Plasma Glucose at Screening, Insulin Dose at Baseline."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, gestational age at enrollment, parity, body mass index (BMI), type of diabetes (GDM or T2DM), duration of diabetes, previous diabetes treatment, HbA1c at enrollment, fasting plasma glucose at enrollment, blood pressure, medical history (hypertension, preeclampsia, etc.), smoking status.",
@@ -219,6 +222,7 @@
         "blood pressure",
         "smoking status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, gestational age at enrollment, parity, body mass index (BMI), type of diabetes (GDM or T2DM), duration of diabetes, previous diabetes treatment, HbA1c at enrollment, fasting plasma glucose at enrollment, blood pressure, medical history (hypertension, preeclampsia, etc.), smoking status."
   }
 }

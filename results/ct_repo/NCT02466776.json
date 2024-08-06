@@ -49,7 +49,8 @@
         "Duration of surgery",
         "Type of anesthesia used"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Gestational age, Parity, History of previous cesarean delivery, Diabetes status, Hypertension status, Smoking status, Preoperative hemoglobin level, Duration of surgery, Type of anesthesia used"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, BMI, Gestational Age at Delivery, Parity, History of Previous Cesarean Delivery, Diabetes Status, Hypertension Status, Smoking Status,",
@@ -96,7 +97,8 @@
         "BMI",
         "Parity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Gestational Age at Delivery, Parity, History of Previous Cesarean Delivery, Diabetes Status, Hypertension Status, Smoking Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Body Mass Index, Gestational Age, Parity, Previous Cesarean Delivery, Hypertension, Diabetes, Smoking Status,",
@@ -143,7 +145,8 @@
         "Body Mass Index",
         "Parity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Body Mass Index, Gestational Age, Parity, Previous Cesarean Delivery, Hypertension, Diabetes, Smoking Status"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, BMI, parity, gestational age, number of previous cesarean deliveries, medical comorbidities (e.g. hypertension, diabetes), smoking status, ethnicity, socioeconomic status.",
@@ -197,6 +200,7 @@
         "parity",
         "socioeconomic status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, parity, gestational age, number of previous cesarean deliveries, medical comorbidities (e.g. hypertension, diabetes), smoking status, ethnicity, socioeconomic status."
   }
 }

@@ -34,7 +34,8 @@
         "physical activity level of child",
         "medication status of child."
       ]
-    }
+    },
+    "processed-gen-response": "Age of caregiver, gender of caregiver, relationship to child (mother/father/guardian), age of child, gender of child, type of cancer diagnosis, time since end of cancer treatment, BMI percentile of child, language fluency of caregiver, physical activity level of child, medication status of child."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Cancer Type, Time Since Treatment Completion, Caregiver Relationship to Child, Caregiver Age, Caregiver BMI, Caregiver Education Level, Caregiver Employment Status,",
@@ -73,7 +74,8 @@
         "Caregiver Education Level",
         "Caregiver Employment Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Cancer Type, Time Since Treatment Completion, Caregiver Relationship to Child, Caregiver Age, Caregiver BMI, Caregiver Education Level, Caregiver Employment Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Caregiver's Sex: Female, Male, Caregiver's Race/Ethnicity, Customized, Region of Enrollment, Caregiver's Education Level, Caregiver's Employment Status, Caregiver's Marital Status, Pediatric Cancer Survivor's Age, Pediatric Cancer Survivor's Sex: Female, Male, Pediatric Cancer Survivor's BMI Percentile, Pediatric Cancer Survivor's Cancer Diagnosis, Time Since Off-Treatment,",
@@ -114,7 +116,8 @@
         "Pediatric Cancer Survivor's Cancer Diagnosis",
         "Time Since Off-Treatment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Caregiver's Sex: Female, Male, Caregiver's Race/Ethnicity, Region of Enrollment, Caregiver's Education Level, Caregiver's Employment Status, Caregiver's Marital Status, Pediatric Cancer Survivor's Age, Pediatric Cancer Survivor's Sex: Female, Pediatric Cancer Survivor's BMI Percentile, Pediatric Cancer Survivor's Cancer Diagnosis, Time Since Off-Treatment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, BMI, caregiver relationship (biologic/adoptive/step parent/legal guardian), education level, income, employment status, marital status, number of children in household, caregiver's physical activity level, caregiver's diet quality, caregiver's stress level, caregiver's sleep quality, pediatric cancer survivor's cancer diagnosis, pediatric cancer survivor's age at diagnosis, pediatric cancer survivor's time off active cancer treatment, pediatric cancer survivor's current medical status.",
@@ -159,6 +162,7 @@
         "pediatric cancer survivor's time off active cancer treatment",
         "pediatric cancer survivor's current medical status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, BMI, caregiver relationship (biologic/adoptive/step parent/legal guardian), education level, income, employment status, marital status, number of children in household, caregiver's physical activity level, caregiver's diet quality, caregiver's stress level, caregiver's sleep quality, pediatric cancer survivor's cancer diagnosis, pediatric cancer survivor's age at diagnosis, pediatric cancer survivor's time off active cancer treatment, pediatric cancer survivor's current medical status."
   }
 }

@@ -27,7 +27,8 @@
         "History of diabetes",
         "Previous ophthalmologist visits"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Ethnicity, Family history of glaucoma, History of diabetes, Previous ophthalmologist visits"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Family history of glaucoma, Diabetes status, Previous eye care visits, Intraocular pressure, Fundus camera images,",
@@ -66,7 +67,8 @@
         "Intraocular pressure",
         "Fundus camera images"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Family history of glaucoma, Diabetes status, Previous eye care visits, Intraocular pressure, Fundus camera images"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Status, Family History of Glaucoma, Previous Eye Care Visit, Intraocular Pressure, Visual Acuity, Refraction, Cup-to-Disc Ratio, Visual Field Defects, Optic Nerve Head Parameters, Retinal Nerve Fiber Layer Thickness.",
@@ -110,7 +112,8 @@
         "Optic Nerve Head Parameters",
         "Retinal Nerve Fiber Layer Thickness"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Status, Family History of Glaucoma, Previous Eye Care Visit, Intraocular Pressure, Visual Acuity, Refraction, Cup-to-Disc Ratio, Visual Field Defects, Optic Nerve Head Parameters, Retinal Nerve Fiber Layer Thickness."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, ethnicity, family history of glaucoma, diabetes status, prior ophthalmologist visit within the past year, sex, body mass index (BMI), smoking status, medical history (e.g., hypertension, cardiovascular disease), education level, income level, health insurance status.",
@@ -155,6 +158,7 @@
         "income level",
         "health insurance status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, ethnicity, family history of glaucoma, diabetes status, prior ophthalmologist visit within the past year, sex, body mass index (BMI), smoking status, medical history (e.g., hypertension, cardiovascular disease), education level, income level, health insurance status."
   }
 }

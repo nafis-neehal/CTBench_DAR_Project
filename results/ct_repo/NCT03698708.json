@@ -43,7 +43,8 @@
         "employment status of parent/caregiver",
         "ethnicity of child with T1D"
       ]
-    }
+    },
+    "processed-gen-response": "Age of parent/caregiver, gender of parent/caregiver, age of child with T1D, gender of child with T1D, duration of child's T1D diagnosis, type of insulin regimen (MDI or pump), baseline CESD-R score of parent/caregiver, baseline PAID-PR score of parent/caregiver, socioeconomic status, education level of parent/caregiver, marital status of parent/caregiver, employment status of parent/caregiver, ethnicity of parent/caregiver, ethnicity of child with T1D."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Parent/Caregiver Depression Symptoms, Child's Age, Child's Diabetes Duration, Child's Insulin Regimen,",
@@ -85,7 +86,8 @@
         "Child's Diabetes Duration",
         "Child's Insulin Regimen"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Parent/Caregiver Depression Symptoms, Child's Age, Child's Diabetes Duration, Child's Insulin Regimen"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Child's Age, Child's Diabetes Duration, Parent/Caregiver Depression Symptoms, Parent/Caregiver Distress, Child's Glycemic Control, Insulin Regimen.",
@@ -129,7 +131,8 @@
         "Child's Glycemic Control",
         "Insulin Regimen"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Child's Age, Child's Diabetes Duration, Parent/Caregiver Depression Symptoms, Parent/Caregiver Distress, Child's Glycemic Control, Insulin Regimen."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, education level, marital status, employment status, household income, duration of child's T1D diagnosis, child's insulin regimen (MDI or pump), child's glycemic control (HbA1c), parent/caregiver's CESD-R score at screening, parent/caregiver's history of depression or anxiety, parent/caregiver's current medication use.",
@@ -173,6 +176,7 @@
         "parent/caregiver's history of depression or anxiety",
         "parent/caregiver's current medication use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, education level, marital status, employment status, household income, duration of child's T1D diagnosis, child's insulin regimen (MDI or pump), child's glycemic control (HbA1c), parent/caregiver's CESD-R score at screening, parent/caregiver's history of depression or anxiety, parent/caregiver's current medication use."
   }
 }

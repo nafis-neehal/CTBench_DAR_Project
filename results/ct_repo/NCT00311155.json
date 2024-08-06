@@ -84,7 +84,8 @@
         "baseline blood pressure (systolic and diastolic)",
         "pre-treatment medication status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline blood pressure (systolic and diastolic), pre-treatment medication status, history of cardiovascular events, renal function, hepatic function, pulmonary function, gastrointestinal function, endocrine/metabolic status, hematological/oncological status, neurological status, psychiatric status, pregnancy status, use of contraception, laboratory values at screening, presence of secondary hypertension, contraindications for study medications."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Body Mass Index, Pre-treatment Blood Pressure,",
@@ -120,7 +121,8 @@
         "Baseline Diastolic Blood Pressure",
         "Pre-treatment Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Body Mass Index, Pre-treatment Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Cardiovascular Disease, History of Diabetes, History of Kidney Disease, History of Liver Disease, Smoking Status.",
@@ -160,7 +162,8 @@
         "History of Liver Disease",
         "Smoking Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Cardiovascular Disease, History of Diabetes, History of Kidney Disease, History of Liver Disease, Smoking Status."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, medical history (including cardiovascular, renal, pulmonary, hepatic, gastrointestinal, endocrine/metabolic, haematological/oncological, neurological, and psychiatric diseases), concomitant medications, smoking status, alcohol consumption.",
@@ -195,6 +198,7 @@
         "smoking status",
         "alcohol consumption."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), heart rate, medical history (including cardiovascular, renal, pulmonary, hepatic, gastrointestinal, endocrine/metabolic, haematological/oncological, neurological, and psychiatric diseases), concomitant medications, smoking status, alcohol consumption."
   }
 }

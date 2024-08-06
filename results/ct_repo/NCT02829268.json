@@ -51,7 +51,8 @@
         "pregnancy test results (if applicable)",
         "questionnaire responses"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, genetic mutation type, duration of Wolfram syndrome, baseline visual acuity, baseline beta cell function, baseline neurological function, medical history, medication history, physical exam results, neurological exam results, eye exam results, endocrine exam results, vital signs, height, weight, electrocardiogram results, blood test results, urine test results, pregnancy test results (if applicable), questionnaire responses."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Height, Weight, Visual Acuity, Beta Cell Function, Neurological Function, Liver Function,",
@@ -100,7 +101,8 @@
         "Weight",
         "Beta Cell Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Height, Weight, Visual Acuity, Beta Cell Function, Neurological Function, Liver Function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Genetic mutation status (WFS1 gene), Region of Enrollment, Diabetes diagnosis duration, Visual acuity, Remaining beta cell functions, Neurological functions, Height, Weight, BMI.",
@@ -146,7 +148,8 @@
         "Weight",
         "BMI."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Genetic mutation status (WFS1 gene), Region of Enrollment, Diabetes diagnosis duration, Visual acuity, Remaining beta cell functions, Neurological functions, Height, Weight, BMI."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), medical history (including diabetes mellitus, optic nerve atrophy, ataxia), medication history, WFS1 gene mutation status, visual acuity, remaining beta cell functions, neurological functions, liver function tests, electrocardiogram results, blood and urine test results.",
@@ -196,6 +199,7 @@
         "electrocardiogram results",
         "blood and urine test results"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), medical history (including diabetes mellitus, optic nerve atrophy, ataxia), medication history, WFS1 gene mutation status, visual acuity, remaining beta cell functions, neurological functions, liver function tests, electrocardiogram results, blood and urine test results."
   }
 }

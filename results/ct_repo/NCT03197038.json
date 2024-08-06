@@ -38,7 +38,8 @@
         "history of cardiovascular disease",
         "baseline mental health status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, stage of CKD, baseline cognitive function, baseline MRI brain structure, baseline physical activity level, comorbid conditions, medication use, blood pressure, body mass index (BMI), smoking status, alcohol use, education level, socioeconomic status, baseline kidney function (eGFR), history of cardiovascular disease, baseline mental health status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR), Self-reported cognitive complaint, Baseline cognitive function score, MRI brain structure measurements,",
@@ -78,7 +79,8 @@
         "Baseline cognitive function score",
         "MRI brain structure measurements"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Estimated Glomerular Filtration Rate (eGFR), Self-reported cognitive complaint, Baseline cognitive function score, MRI brain structure measurements"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Chronic Kidney Disease Stage, eGFR, Cognitive Complaint, Mini-Cog Score, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Cardiovascular Disease, History of Diabetes, History of Hypertension.",
@@ -121,7 +123,8 @@
         "History of Diabetes",
         "History of Hypertension"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Chronic Kidney Disease Stage, eGFR, Cognitive Complaint, Mini-Cog Score, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Cardiovascular Disease, History of Diabetes, History of Hypertension."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, eGFR, CKD stage, comorbidities, medication use, self-reported cognitive complaint, mini-cog assessment score, systolic and diastolic blood pressure, history of cardiovascular disease, history of neurological/psychiatric disorders, education level, occupation, living situation, smoking status, physical activity level.",
@@ -166,6 +169,7 @@
         "smoking status",
         "physical activity level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, eGFR, CKD stage, comorbidities, medication use, self-reported cognitive complaint, mini-cog assessment score, systolic and diastolic blood pressure, history of cardiovascular disease, history of neurological/psychiatric disorders, education level, occupation, living situation, smoking status, physical activity level."
   }
 }

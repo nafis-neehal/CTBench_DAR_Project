@@ -27,7 +27,8 @@
         "diagnosis of major depressive episode or dysthymia",
         "geographic location (Seattle, Dallas, Albuquerque)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, language spoken, BDI-II score, diagnosis of major depressive episode or dysthymia, duration of maintenance HD, geographic location (Seattle, Dallas, Albuquerque)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline BDI-II Score, Duration of Hemodialysis, Comorbid Conditions, Medication Use, Cognitive Function,",
@@ -64,7 +65,8 @@
         "Medication Use",
         "Cognitive Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline BDI-II Score, Duration of Hemodialysis, Comorbid Conditions, Medication Use, Cognitive Function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Dialysis vintage, Comorbidities, BDI-II score, QIDS-C score, Mini-Cog score, MINI diagnosis,",
@@ -102,7 +104,8 @@
         "Mini-Cog score",
         "MINI diagnosis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Dialysis vintage, Comorbidities, BDI-II score, QIDS-C score, Mini-Cog score, MINI diagnosis"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, duration of end-stage renal disease, duration of hemodialysis, BDI-II score, QIDS-C score, Mini-Cog score, presence of comorbidities (e.g., diabetes, hypertension), current medications, smoking status, alcohol use, employment status, education level, marital status.",
@@ -146,6 +149,7 @@
         "education level",
         "marital status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, duration of end-stage renal disease, duration of hemodialysis, BDI-II score, QIDS-C score, Mini-Cog score, presence of comorbidities (e.g., diabetes, hypertension), current medications, smoking status, alcohol use, employment status, education level, marital status."
   }
 }

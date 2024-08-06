@@ -65,7 +65,8 @@
         "myocardial infarction history",
         "lactation status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race/ethnicity, body mass index (BMI), performance status (ECOG), hormone receptor status (ER, PR, HER2neu), clinical stage of breast cancer, white blood cell count (WBC), platelet count (Plt), hemoglobin (HgB), aspartate aminotransferase (AST), alanine aminotransferase (ALT), creatinine, bilirubin, creatine kinase (CPK), history of previous or concurrent malignancy, gastrointestinal disorder status, current use of statins or fibrates, hypersensitivity to statins, central nervous system (CNS) diseases, psychiatric diseases, infection status, cardiac failure status, anticoagulant or antiplatelet therapy status, mitral/tricuspid valvopathy or valvular prosthesis status, angina status, arterial hypertension status, atrial fibrillation status, myocardial infarction history, lactation status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Tumor Stage, Estrogen Receptor (ER) Status, Progesterone Receptor (PR) Status, HER2 Status, Performance Status (ECOG), White Blood Cell Count, Platelet Count, Hemoglobin Level, Aspartate Aminotransferase (AST) Level, Alanine Aminotransferase (ALT) Level, Creatinine Level, Bilirubin Level, Creatine Kinase (CPK) Level,",
@@ -116,7 +117,8 @@
         "Bilirubin Level",
         "Creatine Kinase (CPK) Level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Tumor Stage, Estrogen Receptor (ER) Status, Progesterone Receptor (PR) Status, HER2 Status, Performance Status (ECOG), White Blood Cell Count, Platelet Count, Hemoglobin Level, Aspartate Aminotransferase (AST) Level, Alanine Aminotransferase (ALT) Level, Creatinine Level, Bilirubin Level, Creatine Kinase (CPK) Level"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Menopausal Status, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Performance Status (ECOG), Tumor Stage, Tumor Grade, ER Status, PR Status, HER2neu Status, Ki-67 Expression at Baseline.",
@@ -165,7 +167,8 @@
         "Tumor Grade",
         "Ki-67 Expression at Baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Menopausal Status, Race/Ethnicity, Region of Enrollment, Body Mass Index, Performance Status (ECOG), Tumor Stage, Tumor Grade, ER Status, PR Status, HER2neu Status, Ki-67 Expression at Baseline."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), performance status (ECOG), menopausal status, hormone receptor status (ER, PR), HER2neu status, clinical stage, tumor size, tumor grade, histologic subtype, prior statin use, prior breast cancer therapy, comorbidities (e.g., diabetes, hypertension), smoking status, alcohol consumption.",
@@ -215,6 +218,7 @@
         "smoking status",
         "alcohol consumption"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), performance status (ECOG), menopausal status, hormone receptor status (ER, PR), HER2neu status, clinical stage, tumor size, tumor grade, histologic subtype, prior statin use, prior breast cancer therapy, comorbidities (e.g., diabetes, hypertension), smoking status, alcohol consumption."
   }
 }

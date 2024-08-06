@@ -46,7 +46,8 @@
         "presence of heart rhythm abnormalities",
         "alcohol use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, baseline blood pressure, number of antihypertensive medications, baseline kidney function (eGFR), baseline serum potassium level, history of cardiovascular events, history of renal transplant, history of cancer, presence of heart rhythm abnormalities, alcohol use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Blood Pressure, Number of Antihypertensive Medications, Baseline eGFR, Serum Potassium Levels, History of Cardiovascular Events, Duration of Chronic Kidney Disease,",
@@ -89,7 +90,8 @@
         "History of Cardiovascular Events",
         "Duration of Chronic Kidney Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Blood Pressure, Number of Antihypertensive Medications, Baseline eGFR, Serum Potassium Levels, History of Cardiovascular Events, Duration of Chronic Kidney Disease"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, eGFR, Blood Pressure, Serum Potassium, Number of Antihypertensive Medications, Duration of Hypertension, History of Cardiovascular Disease,",
@@ -133,7 +135,8 @@
         "Duration of Hypertension",
         "History of Cardiovascular Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, eGFR, Blood Pressure, Serum Potassium, Number of Antihypertensive Medications, Duration of Hypertension, History of Cardiovascular Disease"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, eGFR, serum potassium level, number of antihypertensive medications, duration of hypertension, duration of CKD, history of cardiovascular disease, history of diabetes, smoking status.",
@@ -185,6 +188,7 @@
         "history of diabetes",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, eGFR, serum potassium level, number of antihypertensive medications, duration of hypertension, duration of CKD, history of cardiovascular disease, history of diabetes, smoking status."
   }
 }

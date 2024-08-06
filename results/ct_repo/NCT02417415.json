@@ -41,7 +41,8 @@
         "ability to provide informed consent",
         "exclusion criteria (pregnancy, significant cardiac illness, significant renal illness, significant hepatic illness, contraindications to pressor agents, clinically significant abnormalities in clinical testing, clinically significant abnormalities in mental testing, clinically significant abnormalities in laboratory testing)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, diagnosis (Parkinson Disease, Multiple System Atrophy, Pure Autonomic Failure), baseline systolic blood pressure, presence of supine hypertension, ability to provide informed consent, exclusion criteria (pregnancy, significant cardiac illness, significant renal illness, significant hepatic illness, contraindications to pressor agents, clinically significant abnormalities in clinical testing, clinically significant abnormalities in mental testing, clinically significant abnormalities in laboratory testing)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Type of Autonomic Failure, Duration of Autonomic Failure, Use of Antihypertensive Medications,",
@@ -90,7 +91,8 @@
         "Baseline Diastolic Blood Pressure",
         "Use of Antihypertensive Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Type of Autonomic Failure, Duration of Autonomic Failure, Use of Antihypertensive Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Diagnosis of Autonomic Failure, Type of Autonomic Failure, Duration of Autonomic Failure, Supine Systolic Blood Pressure, Supine Diastolic Blood Pressure, Orthostatic Hypotension, Medications for Hypertension,",
@@ -137,7 +139,8 @@
         "Orthostatic Hypotension",
         "Medications for Hypertension"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Diagnosis of Autonomic Failure, Type of Autonomic Failure, Duration of Autonomic Failure, Supine Systolic Blood Pressure, Supine Diastolic Blood Pressure, Orthostatic Hypotension, Medications for Hypertension"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index, diagnosis (Parkinson Disease, Multiple System Atrophy, Pure Autonomic Failure), duration of autonomic failure, supine systolic blood pressure, orthostatic hypotension severity, comorbidities (cardiac, renal, hepatic illness), medications (pressor agents), laboratory test results (renal, hepatic function).",
@@ -189,6 +192,7 @@
         "medications (pressor agents)",
         "laboratory test results (renal, hepatic function)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index, diagnosis (Parkinson Disease, Multiple System Atrophy, Pure Autonomic Failure), duration of autonomic failure, supine systolic blood pressure, orthostatic hypotension severity, comorbidities (cardiac, renal, hepatic illness), medications (pressor agents), laboratory test results (renal, hepatic function)."
   }
 }

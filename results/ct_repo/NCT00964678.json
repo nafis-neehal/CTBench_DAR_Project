@@ -36,7 +36,8 @@
         "baseline renal function (creatinine clearance)",
         "baseline coagulopathy status (INR, platelet count)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline mean pulmonary artery pressure (mPAP), baseline 6-minute walk distance (6MWD), NYHA class, baseline right ventricular ejection fraction, baseline heart rate, baseline systolic blood pressure, baseline diuretic use, baseline renal function (creatinine clearance), baseline coagulopathy status (INR, platelet count)."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, NYHA class, Mean pulmonary artery pressure (mPAP), 6 minute walk distance (6MWD), Baseline right ventricular ejection fraction, Systolic blood pressure, Diastolic blood pressure, Heart rate,",
@@ -78,7 +79,8 @@
         "Diastolic blood pressure",
         "Heart rate"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, NYHA class, Mean pulmonary artery pressure (mPAP), 6 minute walk distance (6MWD), Baseline right ventricular ejection fraction, Systolic blood pressure, Diastolic blood pressure, Heart rate"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, NYHA class, Mean pulmonary artery pressure, 6 minute walk distance, Right ventricular ejection fraction, Cardiac index, Systolic blood pressure, Diastolic blood pressure, Heart rate, Body mass index.",
@@ -117,7 +119,8 @@
         "Heart rate",
         "Body mass index"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (NIH/OMB), Region of Enrollment, NYHA class, Mean pulmonary artery pressure, 6 minute walk distance, Right ventricular ejection fraction, Cardiac index, Systolic blood pressure, Diastolic blood pressure, Heart rate, Body mass index."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, NYHA class, 6-minute walk distance, mean pulmonary artery pressure, cardiac index, pulmonary capillary wedge pressure, systolic pressure, heart rate, creatinine clearance, co-morbidities, prior PAH treatment.",
@@ -159,6 +162,7 @@
         "co-morbidities",
         "prior PAH treatment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, NYHA class, 6-minute walk distance, mean pulmonary artery pressure, cardiac index, pulmonary capillary wedge pressure, systolic pressure, heart rate, creatinine clearance, co-morbidities, prior PAH treatment."
   }
 }

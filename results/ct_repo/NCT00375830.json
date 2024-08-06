@@ -28,7 +28,8 @@
         "presence of metallic implants",
         "pregnancy or nursing status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, cancer stage, type of cancer (breast or prostate), prostate-specific antigen (PSA) levels, ability to comply with study procedures, ability to remain still for imaging, renal function status, presence of metallic implants, pregnancy or nursing status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Cancer Stage, Type of Cancer (Breast or Prostate), Prostate-Specific Antigen (PSA) Levels, Renal Function, Presence of Metallic Implants,",
@@ -60,7 +61,8 @@
         "Renal Function",
         "Presence of Metallic Implants"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Cancer Stage, Type of Cancer (Breast or Prostate), Prostate-Specific Antigen (PSA) Levels, Renal Function, Presence of Metallic Implants"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Cancer Type (Breast/Prostate), Cancer Stage, PSA Level, Prior Bone Scan Results,",
@@ -91,7 +93,8 @@
         "PSA Level",
         "Prior Bone Scan Results"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Cancer Type (Breast/Prostate), Cancer Stage, PSA Level, Prior Bone Scan Results"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, cancer type (breast or prostate), cancer stage, PSA level, presence of recurrent cancer, renal function, presence of metallic implants, pregnancy status.",
@@ -141,6 +144,7 @@
         "Region of Enrollment"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, sex, cancer type (breast or prostate), cancer stage, PSA level, presence of recurrent cancer, renal function, presence of metallic implants, pregnancy status."
   }
 }

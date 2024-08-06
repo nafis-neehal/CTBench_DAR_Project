@@ -35,7 +35,8 @@
         "presence of gestational diabetes",
         "presence of pregnancy-induced hypertension"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, gestational age, weight, height, race/ethnicity, parity, history of previous cesarean delivery, smoking status, presence of gestational diabetes, presence of pregnancy-induced hypertension."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Body Mass Index, Gestational Age, Race/Ethnicity, Customized, Region of Enrollment, Pre-pregnancy BMI, Weight Gain During Pregnancy, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -69,7 +70,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Body Mass Index, Gestational Age, Race/Ethnicity, Region of Enrollment, Pre-pregnancy BMI, Weight Gain During Pregnancy, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, BMI, Gestational Age, Region of Enrollment, Obesity Classification (Obese, Morbidly Obese), Previous Cesarean Delivery, History of Diabetes, History of Hypertension.",
@@ -102,7 +104,8 @@
         "History of Diabetes",
         "History of Hypertension"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, Gestational Age, Region of Enrollment, Obesity Classification (Obese, Morbidly Obese), Previous Cesarean Delivery, History of Diabetes, History of Hypertension."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, Body Mass Index (BMI), weight, height, gestational age, parity, ethnicity, race, medical history (diabetes, hypertension, collagen vascular disease), number of previous cesarean deliveries, indication for cesarean delivery.",
@@ -138,6 +141,7 @@
         "number of previous cesarean deliveries",
         "indication for cesarean delivery"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Body Mass Index (BMI), weight, height, gestational age, parity, ethnicity, race, medical history (diabetes, hypertension, collagen vascular disease), number of previous cesarean deliveries, indication for cesarean delivery."
   }
 }

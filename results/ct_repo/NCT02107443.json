@@ -43,7 +43,8 @@
         "caregiver relationship to patient",
         "caregiver age"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, cancer type, cancer stage, current cancer treatment, previous cancer treatments, geriatric assessment domain impairments, planned oncology visits, decision-making capacity, language proficiency, caregiver presence, caregiver relationship to patient, caregiver age."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Type, Stage of Cancer, Current Cancer Treatment, Previous Cancer Treatment, Geriatric Assessment Domains (e.g., function, cognition), Polypharmacy, Quality of Life, Patient Satisfaction, Caregiver Involvement,",
@@ -92,7 +93,8 @@
         "Patient Satisfaction",
         "Caregiver Involvement"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Type, Stage of Cancer, Current Cancer Treatment, Previous Cancer Treatment, Geriatric Assessment Domains (e.g., function, cognition), Polypharmacy, Quality of Life, Patient Satisfaction, Caregiver Involvement"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Diagnosis, Cancer Stage, Geriatric Assessment Domain Scores, Comorbidities, Polypharmacy, Functional Status, Cognitive Status, Quality of Life, Caregiver Support.",
@@ -141,7 +143,8 @@
         "Quality of Life",
         "Caregiver Support"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Diagnosis, Cancer Stage, Geriatric Assessment Domain Scores, Comorbidities, Polypharmacy, Functional Status, Cognitive Status, Quality of Life, Caregiver Support."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, cancer diagnosis, cancer stage, type of cancer treatment, comorbidities, geriatric assessment domain scores, polypharmacy, cognitive function, functional status, quality of life, patient-reported outcomes, caregiver relationship to patient, caregiver age, caregiver sex.",
@@ -187,6 +190,7 @@
         "caregiver age",
         "caregiver sex"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, cancer diagnosis, cancer stage, type of cancer treatment, comorbidities, geriatric assessment domain scores, polypharmacy, cognitive function, functional status, quality of life, patient-reported outcomes, caregiver relationship to patient, caregiver age, caregiver sex."
   }
 }

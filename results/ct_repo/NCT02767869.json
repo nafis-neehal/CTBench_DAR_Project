@@ -59,7 +59,8 @@
         "total cholesterol levels",
         "informed consent status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, waist circumference, high density lipoprotein (HDL) levels, fasting glucose levels, triglyceride levels, blood pressure, body mass index (BMI), total cholesterol levels, low density lipoprotein (LDL) levels, informed consent status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Waist Circumference, High Density Lipoprotein (HDL) Levels, Fasting Glucose Levels, Triglycerides Levels, Blood Pressure, Body Mass Index,",
@@ -117,7 +118,8 @@
       "remaining_candidate_features": [
         "Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Waist Circumference, High Density Lipoprotein (HDL) Levels, Fasting Glucose Levels, Triglycerides Levels, Blood Pressure, Body Mass Index"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Waist Circumference, BMI, Fasting Glucose, Triglycerides, HDL-C, Blood Pressure, Insulin Sensitivity, Insulin Secretion,",
@@ -182,7 +184,8 @@
         "First phase of insulin secretion"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Waist Circumference, BMI, Fasting Glucose, Triglycerides, HDL-C, Blood Pressure, Insulin Sensitivity, Insulin Secretion"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, waist circumference, body mass index, high density lipoprotein, fasting glucose, triglycerides, blood pressure, total cholesterol, low density lipoprotein.",
@@ -246,6 +249,7 @@
       "remaining_candidate_features": [
         "total cholesterol"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, waist circumference, body mass index, high density lipoprotein, fasting glucose, triglycerides, blood pressure, total cholesterol, low density lipoprotein."
   }
 }

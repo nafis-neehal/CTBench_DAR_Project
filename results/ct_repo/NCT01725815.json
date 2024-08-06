@@ -49,7 +49,8 @@
         "Cholesterol Levels",
         "Blood Glucose Levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Race/Ethnicity, Socioeconomic Status, Education Level, Employment Status, Marital Status, Type of Serious Mental Illness, Duration of Serious Mental Illness, Type of Chronic Medical Condition, Duration of Chronic Medical Condition, Baseline Health-Related Quality of Life (HRQOL), Medication Use, Smoking Status, Alcohol Use, Physical Activity Level, Body Mass Index (BMI), Blood Pressure, Cholesterol Levels, Blood Glucose Levels."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Serious Mental Illness, Type of Chronic Medical Condition, Baseline Health Related Quality of Life (HRQOL),",
@@ -91,7 +92,8 @@
       "remaining_candidate_features": [
         "Baseline Health Related Quality of Life (HRQOL)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Serious Mental Illness, Type of Chronic Medical Condition, Baseline Health Related Quality of Life (HRQOL)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Serious Mental Illness Diagnosis, Chronic Medical Condition, Cognitive Impairment,",
@@ -133,7 +135,8 @@
       "remaining_candidate_features": [
         "Cognitive Impairment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Serious Mental Illness Diagnosis, Chronic Medical Condition, Cognitive Impairment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, education level, employment status, marital status, living situation, smoking status, body mass index (BMI), medical comorbidity count, SMI diagnosis, duration of SMI, medication adherence, healthcare utilization, HRQOL at baseline.",
@@ -179,6 +182,7 @@
         "healthcare utilization",
         "HRQOL at baseline."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, education level, employment status, marital status, living situation, smoking status, body mass index (BMI), medical comorbidity count, SMI diagnosis, duration of SMI, medication adherence, healthcare utilization, HRQOL at baseline."
   }
 }

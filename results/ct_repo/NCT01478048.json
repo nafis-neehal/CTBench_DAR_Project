@@ -46,7 +46,8 @@
         "prior stem cell transplant status",
         "prior use of immunomodulatory drugs."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline disease characteristics, prior lines of therapy, prior response to proteasome inhibitors, ECOG performance status, renal function, liver function, hemoglobin levels, platelet count, white blood cell count, serum calcium levels, serum albumin levels, serum creatinine levels, \u03b22-microglobulin levels, lactate dehydrogenase (LDH) levels, cytogenetic abnormalities, presence of extramedullary disease, prior stem cell transplant status, prior use of immunomodulatory drugs."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Number of Prior Lines of Therapy, Measurable Disease Status, Prior Proteasome Inhibitor Therapy, Progression-Free Survival (PFS) Status, ",
@@ -85,7 +86,8 @@
         "Measurable Disease Status",
         "Progression-Free Survival (PFS) Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Number of Prior Lines of Therapy, Measurable Disease Status, Prior Proteasome Inhibitor Therapy, Progression-Free Survival (PFS) Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Number of prior lines of therapy, Prior proteasome inhibitor therapy, Best response to prior proteasome inhibitor therapy, Time since last anti-myeloma therapy, M-protein, Hemoglobin, Platelet count, Creatinine, Calcium, Beta-2 microglobulin, Albumin, Lactate dehydrogenase, Bone marrow plasma cells, Extramedullary disease, Cytogenetic abnormalities.",
@@ -135,7 +137,8 @@
         "Extramedullary disease",
         "Cytogenetic abnormalities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Number of prior lines of therapy, Prior proteasome inhibitor therapy, Best response to prior proteasome inhibitor therapy, Time since last anti-myeloma therapy, M-protein, Hemoglobin, Platelet count, Creatinine, Calcium, Beta-2 microglobulin, Albumin, Lactate dehydrogenase, Bone marrow plasma cells, Extramedullary disease, Cytogenetic abnormalities."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, Eastern Cooperative Oncology Group (ECOG) performance status, International Staging System (ISS) stage, number of prior lines of therapy, prior proteasome inhibitor therapy, best response to prior proteasome inhibitor therapy, time since diagnosis, serum M-protein, urine M-protein, serum free light chain, hemoglobin, platelet count, creatinine, lactate dehydrogenase (LDH), beta-2 microglobulin.",
@@ -179,6 +182,7 @@
         "lactate dehydrogenase (LDH)",
         "beta-2 microglobulin"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, Eastern Cooperative Oncology Group (ECOG) performance status, International Staging System (ISS) stage, number of prior lines of therapy, prior proteasome inhibitor therapy, best response to prior proteasome inhibitor therapy, time since diagnosis, serum M-protein, urine M-protein, serum free light chain, hemoglobin, platelet count, creatinine, lactate dehydrogenase (LDH), beta-2 microglobulin."
   }
 }

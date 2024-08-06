@@ -42,7 +42,8 @@
         "presence of central nervous system or brain metastasis",
         "pre-existing neuropathy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, stage of disease (IIIB or IV), prior chemotherapy regimens, prior radiation therapy, baseline tumor size, bone marrow reserve, organ function, pregnancy status, breastfeeding status, presence of serious concomitant systemic disorders, presence of second primary malignancy, allergy or hypersensitivity status, presence of central nervous system or brain metastasis, pre-existing neuropathy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Stage of Disease, Prior Chemotherapy Regimen, Tumor Size at Baseline, Bone Marrow Reserve, Organ Function,",
@@ -83,7 +84,8 @@
         "Bone Marrow Reserve",
         "Organ Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Stage of Disease, Prior Chemotherapy Regimen, Tumor Size at Baseline, Bone Marrow Reserve, Organ Function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior Chemotherapy, Prior Radiation, Tumor Size at Baseline,",
@@ -123,7 +125,8 @@
         "Prior Radiation",
         "Tumor Size at Baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Prior Chemotherapy, Prior Radiation, Tumor Size at Baseline"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, ECOG performance status, smoking history, prior chemotherapy regimens, prior radiation therapy, tumor histology, tumor stage, number of metastatic sites, presence of brain metastasis, baseline tumor size, baseline laboratory values (e.g. hemoglobin, platelet count, white blood cell count, liver function tests, renal function tests).",
@@ -166,6 +169,7 @@
         "baseline tumor size",
         "baseline laboratory values (e.g. hemoglobin, platelet count, white blood cell count, liver function tests, renal function tests)."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, ECOG performance status, smoking history, prior chemotherapy regimens, prior radiation therapy, tumor histology, tumor stage, number of metastatic sites, presence of brain metastasis, baseline tumor size, baseline laboratory values (e.g. hemoglobin, platelet count, white blood cell count, liver function tests, renal function tests)."
   }
 }

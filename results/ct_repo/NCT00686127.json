@@ -37,7 +37,8 @@
         "baseline opioid use",
         "baseline physical activity level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline pain intensity, duration since surgery, type of breast cancer surgery, presence of neuropathic pain, location of pain (breast scar area or ipsilateral arm), use of pain medication, comorbid conditions, baseline functional status, baseline quality of life, baseline use of coanalgesics, baseline opioid use, baseline physical activity level."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Pain Intensity at Baseline, Duration of Neuropathic Pain, Use of Pain Medication, Type of Breast Cancer Surgery, Time Since Surgery,",
@@ -74,7 +75,8 @@
         "Type of Breast Cancer Surgery",
         "Time Since Surgery"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Pain Intensity at Baseline, Duration of Neuropathic Pain, Use of Pain Medication, Type of Breast Cancer Surgery, Time Since Surgery"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Type of Breast Cancer Surgery, Time Since Surgery, Presence of Lymphedema, Presence of Recurrent Disease, Current Pain Medications, Average Daily Pain Intensity at Baseline.",
@@ -112,7 +114,8 @@
         "Presence of Recurrent Disease",
         "Current Pain Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Type of Breast Cancer Surgery, Time Since Surgery, Presence of Lymphedema, Presence of Recurrent Disease, Current Pain Medications, Average Daily Pain Intensity at Baseline."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, education level, marital status, employment status, menopausal status, type of breast cancer surgery, time since surgery, presence of radiation therapy, presence of chemotherapy, presence of hormone therapy, history of pain disorders, current use of pain medications, current use of antidepressants, current use of anticonvulsants, body mass index (BMI), smoking status.",
@@ -155,6 +158,7 @@
         "body mass index (BMI)",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, education level, marital status, employment status, menopausal status, type of breast cancer surgery, time since surgery, presence of radiation therapy, presence of chemotherapy, presence of hormone therapy, history of pain disorders, current use of pain medications, current use of antidepressants, current use of anticonvulsants, body mass index (BMI), smoking status."
   }
 }

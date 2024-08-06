@@ -39,7 +39,8 @@
         "History of Pancreatitis",
         "History of Malignant Neoplasm"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Duration of Type 1 Diabetes, Basal Insulin Dose, Bolus Insulin Dose, Total Daily Insulin Dose, HbA1c, Body Weight, Blood Pressure, Presence of Retinopathy, Presence of Neuropathy, Calcitonin Level, Family History of Medullary Thyroid Carcinoma, History of Pancreatitis, History of Malignant Neoplasm"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Insulin Regimen (Basal Bolus or CSII), Total Daily Insulin Dose, Body Weight, Systolic Blood Pressure, Diastolic Blood Pressure, History of Retinopathy, History of Neuropathy,",
@@ -78,7 +79,8 @@
         "History of Retinopathy",
         "History of Neuropathy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Insulin Regimen (Basal Bolus or CSII), Total Daily Insulin Dose, Body Weight, Systolic Blood Pressure, Diastolic Blood Pressure, History of Retinopathy, History of Neuropathy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Total Daily Insulin Dose, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Retinopathy, History of Neuropathy, History of Cardiovascular Disease.",
@@ -116,7 +118,8 @@
         "History of Neuropathy",
         "History of Cardiovascular Disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Region of Enrollment, Diabetes Diagnosis Duration, Baseline HbA1c, Total Daily Insulin Dose, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Retinopathy, History of Neuropathy, History of Cardiovascular Disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, duration of type 1 diabetes, BMI, HbA1c, total daily insulin dose, type of insulin therapy (basal-bolus or CSII), systolic and diastolic blood pressure, history of diabetic complications (retinopathy, neuropathy, nephropathy), smoking status.",
@@ -153,6 +156,7 @@
         "history of diabetic complications (retinopathy, neuropathy, nephropathy)",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, duration of type 1 diabetes, BMI, HbA1c, total daily insulin dose, type of insulin therapy (basal-bolus or CSII), systolic and diastolic blood pressure, history of diabetic complications (retinopathy, neuropathy, nephropathy), smoking status."
   }
 }

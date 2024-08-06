@@ -43,7 +43,8 @@
         "smoking status",
         "alcohol use."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline systolic blood pressure, baseline diastolic blood pressure, body mass index (BMI), medical history (e.g., history of myocardial infarction, heart failure, diabetes mellitus), baseline laboratory values (e.g., serum potassium, alanine aminotransferase, aspartate aminotransferase), use of antihypertensive medications, smoking status, alcohol use."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Body Mass Index, Baseline 24-hour Ambulatory Blood Pressure, Baseline Heart Rate, Baseline Laboratory Test Results, History of Cardiovascular Events, Concomitant Medications,",
@@ -89,7 +90,8 @@
         "History of Cardiovascular Events",
         "Concomitant Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Body Mass Index, Baseline 24-hour Ambulatory Blood Pressure, Baseline Heart Rate, Baseline Laboratory Test Results, History of Cardiovascular Events, Concomitant Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Mean Sitting Clinic Systolic Blood Pressure, Mean Sitting Clinic Diastolic Blood Pressure, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications at Screening.",
@@ -135,7 +137,8 @@
         "Duration of Hypertension",
         "Number of Antihypertensive Medications at Screening"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Mean Sitting Clinic Systolic Blood Pressure, Mean Sitting Clinic Diastolic Blood Pressure, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications at Screening."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including hypertension, diabetes, cardiovascular disease), concomitant medications, smoking status, alcohol consumption, upper arm circumference, laboratory test results (including alanine aminotransferase, aspartate aminotransferase, potassium levels).",
@@ -182,6 +185,7 @@
         "upper arm circumference",
         "laboratory test results (including alanine aminotransferase, aspartate aminotransferase, potassium levels)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including hypertension, diabetes, cardiovascular disease), concomitant medications, smoking status, alcohol consumption, upper arm circumference, laboratory test results (including alanine aminotransferase, aspartate aminotransferase, potassium levels)."
   }
 }

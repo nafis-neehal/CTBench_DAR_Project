@@ -40,7 +40,8 @@
         "Baseline Cognitive Function Scores",
         "Baseline Professional Recovery Scores."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Type of Cancer, Stage of Cancer, Treatment Type (chemotherapy, radiotherapy, immunotherapy), Employment Status at Diagnosis, Duration of Treatment, Socioeconomic Status, Marital Status, Education Level, Living Situation, Baseline Quality of Life Scores, Baseline Cognitive Function Scores, Baseline Professional Recovery Scores."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Type of Cancer, Treatment Type, Professional Activity Status, Quality of Life Baseline Score, Cognitive Complaints Baseline Score, Professional Recovery Baseline Score, Region of Enrollment,",
@@ -79,7 +80,8 @@
         "Cognitive Complaints Baseline Score",
         "Professional Recovery Baseline Score"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Type of Cancer, Treatment Type, Professional Activity Status, Quality of Life Baseline Score, Cognitive Complaints Baseline Score, Professional Recovery Baseline Score, Region of Enrollment"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Cancer Diagnosis, Professional Activity at Diagnosis, Type of Cancer, Treatment Type, Time Since Diagnosis, Quality of Life Scores, Cognitive Complaints Scores, Professional Recovery Scale Scores",
@@ -117,7 +119,8 @@
         "Cognitive Complaints Scores",
         "Professional Recovery Scale Scores"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Cancer Diagnosis, Professional Activity at Diagnosis, Type of Cancer, Treatment Type, Time Since Diagnosis, Quality of Life Scores, Cognitive Complaints Scores, Professional Recovery Scale Scores"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, cancer type, time since diagnosis, treatment type, employment status at diagnosis, education level, marital status, living situation, number of dependents, comorbidities.",
@@ -155,6 +158,7 @@
         "number of dependents",
         "comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, cancer type, time since diagnosis, treatment type, employment status at diagnosis, education level, marital status, living situation, number of dependents, comorbidities."
   }
 }

@@ -33,7 +33,8 @@
         "lab results",
         "imaging results"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, HIV status, Hepatitis B status, Hepatitis C status, prior therapy, measurable disease status, lab results, imaging results."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Measurable Disease Status, HIV Status, Hepatitis B Status, Hepatitis C Status, Prior Therapy,",
@@ -69,7 +70,8 @@
         "Hepatitis C Status",
         "Prior Therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Measurable Disease Status, HIV Status, Hepatitis B Status, Hepatitis C Status, Prior Therapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior Adjuvant Therapy, Measurable Disease, HIV Status, Hepatitis B Status, Hepatitis C Status",
@@ -108,7 +110,8 @@
         "Hepatitis B Status",
         "Hepatitis C Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Prior Adjuvant Therapy, Measurable Disease, HIV Status, Hepatitis B Status, Hepatitis C Status"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ECOG performance status, HIV status, Hepatitis B and C status, presence of brain metastasis, primary tumor location (ocular or mucosal), prior adjuvant therapy, measurable disease status, laboratory values (e.g. complete blood count, liver function tests).",
@@ -142,6 +145,7 @@
         "measurable disease status",
         "laboratory values (e.g. complete blood count, liver function tests)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ECOG performance status, HIV status, Hepatitis B and C status, presence of brain metastasis, primary tumor location (ocular or mucosal), prior adjuvant therapy, measurable disease status, laboratory values (e.g. complete blood count, liver function tests)."
   }
 }

@@ -53,7 +53,8 @@
         "baseline albumin levels",
         "baseline C-reactive protein (CRP) levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, duration of hemodialysis, baseline PTH levels, baseline calcium levels, baseline phosphate levels, baseline vitamin D levels, medical history, concomitant medications, body mass index (BMI), blood pressure, baseline kidney function, baseline liver function, baseline hemoglobin levels, baseline albumin levels, baseline C-reactive protein (CRP) levels."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Hemodialysis, Baseline Parathyroid Hormone (PTH) Levels, Serum Calcium, Serum Phosphorus, Serum Albumin, History of Parathyroidectomy, History of Kidney Transplant,",
@@ -104,7 +105,8 @@
         "History of Parathyroidectomy",
         "History of Kidney Transplant"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Hemodialysis, Baseline Parathyroid Hormone (PTH) Levels, Serum Calcium, Serum Phosphorus, Serum Albumin, History of Parathyroidectomy, History of Kidney Transplant"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemodialysis vintage, Serum intact parathyroid hormone (PTH), Calcium, Phosphorus, Vitamin D, Albumin,",
@@ -151,7 +153,8 @@
         "Vitamin D",
         "Albumin"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Hemodialysis vintage, Serum intact parathyroid hormone (PTH), Calcium, Phosphorus, Vitamin D, Albumin"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of hemodialysis, duration of CKD, history of parathyroidectomy, history of kidney transplant, comorbidities (e.g., diabetes, hypertension), concomitant medications, baseline PTH level, baseline calcium level, baseline phosphorus level, baseline vitamin D level.",
@@ -200,6 +203,7 @@
         "concomitant medications",
         "baseline vitamin D level."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of hemodialysis, duration of CKD, history of parathyroidectomy, history of kidney transplant, comorbidities (e.g., diabetes, hypertension), concomitant medications, baseline PTH level, baseline calcium level, baseline phosphorus level, baseline vitamin D level."
   }
 }

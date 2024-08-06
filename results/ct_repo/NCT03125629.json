@@ -43,7 +43,8 @@
         "prior treatments",
         "performance status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, cancer type, cancer stage, prior treatments, performance status, renal function, presence of metallic implants, ability to remain still for imaging, informed consent status"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Cancer Type, Stage of Cancer, Previous Treatments, Region of Enrollment, Renal Function,",
@@ -77,7 +78,8 @@
         "Previous Treatments",
         "Renal Function"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Cancer Type, Stage of Cancer, Previous Treatments, Region of Enrollment, Renal Function"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Cancer Diagnosis,",
@@ -105,7 +107,8 @@
       "remaining_candidate_features": [
         "Cancer Diagnosis"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Cancer Diagnosis"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), cancer type, cancer stage, performance status, prior treatments, comorbidities, renal function, presence of metallic implants.",
@@ -143,6 +146,7 @@
         "prior treatments",
         "comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), cancer type, cancer stage, performance status, prior treatments, comorbidities, renal function, presence of metallic implants."
   }
 }

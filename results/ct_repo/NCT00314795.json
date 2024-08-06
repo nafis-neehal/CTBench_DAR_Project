@@ -43,7 +43,8 @@
         "duration of chronic kidney disease",
         "previous ESA treatment history."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline hemoglobin levels, dialysis status (not on dialysis, hemodialysis, peritoneal dialysis, post-renal transplant), history of immunosuppressive therapy, pregnancy status, baseline anti-erythropoietin antibody levels, frequency of transfusions, baseline blood pressure, baseline kidney function (e.g., eGFR), duration of chronic kidney disease, previous ESA treatment history."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Hemoglobin levels, Dialysis status, History of renal transplant, Use of immunosuppressive therapy, Blood pressure, Transfusion requirements, Anti-erythropoietin antibody status,",
@@ -93,7 +94,8 @@
         "Blood pressure",
         "Transfusion requirements"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Hemoglobin levels, Dialysis status, History of renal transplant, Use of immunosuppressive therapy, Blood pressure, Transfusion requirements, Anti-erythropoietin antibody status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Hemoglobin, Serum Creatinine, Estimated Glomerular Filtration Rate (eGFR), Dialysis Status, Transfusion History, Anti-Erythropoietin Antibody Status, Prior ESA Use, Prior Immunotherapy Use.",
@@ -147,7 +149,8 @@
         "Prior ESA Use",
         "Prior Immunotherapy Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Hemoglobin, Serum Creatinine, Estimated Glomerular Filtration Rate (eGFR), Dialysis Status, Transfusion History, Anti-Erythropoietin Antibody Status, Prior ESA Use, Prior Immunotherapy Use."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, duration of chronic kidney disease, type of dialysis (hemodialysis or peritoneal dialysis), time since renal transplant, presence of immunosuppressive therapy, hemoglobin level, erythropoietin antibody status, transfusion history, blood pressure, medical history (including hypertension, myelodysplasia, myeloproliferative disorder, hematologic malignancy, metastatic infiltration).",
@@ -199,6 +202,7 @@
         "transfusion history",
         "blood pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, duration of chronic kidney disease, type of dialysis (hemodialysis or peritoneal dialysis), time since renal transplant, presence of immunosuppressive therapy, hemoglobin level, erythropoietin antibody status, transfusion history, blood pressure, medical history (including hypertension, myelodysplasia, myeloproliferative disorder, hematologic malignancy, metastatic infiltration)."
   }
 }

@@ -73,7 +73,8 @@
         "retinopathy status",
         "autonomic neuropathy status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race/ethnicity, duration of diabetes, HbA1c levels, BMI, blood pressure, lipid profile, baseline forearm blood flow, concomitant medications, smoking status, history of cardiovascular disease, retinopathy status, autonomic neuropathy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, HbA1c, Blood Pressure, Duration of Diabetes, Concomitant Medications, Smoking Status,",
@@ -122,7 +123,8 @@
         "Concomitant Medications",
         "Smoking Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, HbA1c, Blood Pressure, Duration of Diabetes, Concomitant Medications, Smoking Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes Duration, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Cardiovascular Disease, Current Smoking Status, Metformin Use,",
@@ -176,7 +178,8 @@
         "Current Smoking Status",
         "Metformin Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes Duration, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, History of Cardiovascular Disease, Current Smoking Status, Metformin Use"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), HbA1c, systolic blood pressure, diastolic blood pressure, smoking history, duration of type 2 diabetes, type of diabetes treatment at baseline (diet and lifestyle changes or metformin monotherapy), history of cardiovascular disease, presence of retinopathy or maculopathy, presence of autonomic neuropathy.",
@@ -253,6 +256,7 @@
         "Tumor necrosis factor-alpha (TNF-alpha)"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), HbA1c, systolic blood pressure, diastolic blood pressure, smoking history, duration of type 2 diabetes, type of diabetes treatment at baseline (diet and lifestyle changes or metformin monotherapy), history of cardiovascular disease, presence of retinopathy or maculopathy, presence of autonomic neuropathy."
   }
 }

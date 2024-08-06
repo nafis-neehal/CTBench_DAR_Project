@@ -39,7 +39,8 @@
         "presence of comorbid conditions",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, weight loss in the past 3 months, histological subtype of NSCLC, disease stage (T and N status), presence of pleural effusion, PET scan results, prior therapy, initial laboratory values (granulocytes, platelets, creatinine clearance, bilirubin, AST/ALT, alkaline phosphatase), presence of comorbid conditions, smoking status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG performance status, Weight loss in the past 3 months, Histological subtype of NSCLC, Disease stage, Measurable disease status, Prior therapy, PET scan results, Granulocyte count, Platelet count, Creatinine clearance, Bilirubin levels, AST/ALT levels, Alkaline phosphatase levels,",
@@ -88,7 +89,8 @@
         "AST/ALT levels",
         "Alkaline phosphatase levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG performance status, Weight loss in the past 3 months, Histological subtype of NSCLC, Disease stage, Measurable disease status, Prior therapy, PET scan results, Granulocyte count, Platelet count, Creatinine clearance, Bilirubin levels, AST/ALT levels, Alkaline phosphatase levels"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology, Tumor Stage, Nodal Status, Tumor Size, Weight Loss, Prior Thoracotomy, Prior Radiation Therapy, Prior Chemotherapy, PET Scan Results, Calculated Creatinine Clearance, Bilirubin, AST/ALT, Alkaline Phosphatase.",
@@ -138,7 +140,8 @@
         "AST/ALT",
         "Alkaline Phosphatase"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Histology, Tumor Stage, Nodal Status, Tumor Size, Weight Loss, Prior Thoracotomy, Prior Radiation Therapy, Prior Chemotherapy, PET Scan Results, Calculated Creatinine Clearance, Bilirubin, AST/ALT, Alkaline Phosphatase."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ECOG performance status, smoking history, histology (squamous cell carcinoma, adenocarcinoma, large cell anaplastic carcinoma), disease stage (IIIA, IIIB), tumor size, tumor location, number of metastatic sites, prior thoracotomy, weight loss, presence of pleural effusion, PET scan results.",
@@ -180,6 +183,7 @@
         "presence of pleural effusion",
         "PET scan results."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ECOG performance status, smoking history, histology (squamous cell carcinoma, adenocarcinoma, large cell anaplastic carcinoma), disease stage (IIIA, IIIB), tumor size, tumor location, number of metastatic sites, prior thoracotomy, weight loss, presence of pleural effusion, PET scan results."
   }
 }

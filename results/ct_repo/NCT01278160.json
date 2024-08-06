@@ -46,7 +46,8 @@
         "Smoking Status",
         "Physical Activity Level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Body Mass Index (BMI), Duration of Diabetes, Baseline HbA1c, Previous Insulin Regimen, Concomitant Medications (e.g., metformin, glimepiride), Blood Pressure, Lipid Profile (e.g., LDL, HDL, triglycerides), Fasting Plasma Glucose, Renal Function (e.g., serum creatinine), Liver Function (e.g., ALT, AST), History of Hypoglycaemia, Smoking Status, Physical Activity Level"
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Concomitant Medications, History of Hypoglycemia, Retinopathy Status,",
@@ -94,7 +95,8 @@
         "History of Hypoglycemia",
         "Retinopathy Status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Concomitant Medications, History of Hypoglycemia, Retinopathy Status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, HbA1c, Diabetes duration, Previous insulin treatment, Previous oral anti-diabetic treatment,",
@@ -140,7 +142,8 @@
         "Previous insulin treatment",
         "Previous oral anti-diabetic treatment"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, HbA1c, Diabetes duration, Previous insulin treatment, Previous oral anti-diabetic treatment"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c at baseline, fasting plasma glucose at baseline, systolic blood pressure, diastolic blood pressure, lipid profile, smoking status, medical history (including presence of microvascular and macrovascular complications), concomitant medications, insulin dose at baseline.",
@@ -189,6 +192,7 @@
         "concomitant medications",
         "insulin dose at baseline"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of diabetes, HbA1c at baseline, fasting plasma glucose at baseline, systolic blood pressure, diastolic blood pressure, lipid profile, smoking status, medical history (including presence of microvascular and macrovascular complications), concomitant medications, insulin dose at baseline."
   }
 }

@@ -40,7 +40,8 @@
         "previous treatments for cancer",
         "performance status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, cancer stage, tumor location, comorbidities, smoking status, alcohol consumption, body mass index (BMI), baseline hemoglobin levels, baseline white blood cell count, baseline platelet count, baseline coagulation profile, previous treatments for cancer, performance status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Type of Head and Neck Cancer, Tumor Stage, Preoperative Hemoglobin Level, Preoperative Albumin Level, Smoking Status, Alcohol Consumption,",
@@ -82,7 +83,8 @@
         "Smoking Status",
         "Alcohol Consumption"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Type of Head and Neck Cancer, Tumor Stage, Preoperative Hemoglobin Level, Preoperative Albumin Level, Smoking Status, Alcohol Consumption"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Tumor stage, Tumor site, Prior radiation therapy, Prior neck surgery, Coagulation disorders,",
@@ -121,7 +123,8 @@
         "Prior neck surgery",
         "Coagulation disorders"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Tumor stage, Tumor site, Prior radiation therapy, Prior neck surgery, Coagulation disorders"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), tumor stage, tumor location, cancer type, American Society of Anesthesiologists (ASA) physical status, comorbidities, smoking status, history of previous surgery, preoperative hemoglobin level, preoperative platelet count, preoperative international normalized ratio (INR).",
@@ -159,6 +162,7 @@
         "preoperative platelet count",
         "preoperative international normalized ratio (INR)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), tumor stage, tumor location, cancer type, American Society of Anesthesiologists (ASA) physical status, comorbidities, smoking status, history of previous surgery, preoperative hemoglobin level, preoperative platelet count, preoperative international normalized ratio (INR)."
   }
 }

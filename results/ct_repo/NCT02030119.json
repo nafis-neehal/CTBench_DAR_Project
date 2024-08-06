@@ -36,7 +36,8 @@
         "Pregnancy status",
         "Lactation status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, BMI, Baseline physical activity level, Smartphone ownership, Employment status, Participation in other physical activity studies, Pregnancy status, Lactation status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Baseline daily steps, Baseline physical activity level, Smartphone ownership,",
@@ -79,7 +80,8 @@
         "Baseline daily steps",
         "Baseline physical activity level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Baseline daily steps, Baseline physical activity level, Smartphone ownership"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Body Mass Index, Smartphone Type (iPhone or Android), Baseline Steps per Day,",
@@ -117,7 +119,8 @@
       "remaining_candidate_features": [
         "Baseline Steps per Day"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Body Mass Index, Smartphone Type (iPhone or Android), Baseline Steps per Day"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, BMI, IPAQ activity level score, occupation, smartphone type (iPhone or Android), baseline daily step count, employment status, education level, income level.",
@@ -159,6 +162,7 @@
         "occupation",
         "employment status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, BMI, IPAQ activity level score, occupation, smartphone type (iPhone or Android), baseline daily step count, employment status, education level, income level."
   }
 }

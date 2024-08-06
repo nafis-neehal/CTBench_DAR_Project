@@ -112,7 +112,8 @@
       "remaining_candidate_features": [
         "organ function (liver, kidney, hematological, metabolic, cardiac)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, BRCA1/2 mutation status, HER-2 status, number of prior chemotherapy regimens, prior trastuzumab treatment, organ function (liver, kidney, hematological, metabolic, cardiac), prior radiotherapy, prior hormonal therapy, prior biological/investigational therapy, ongoing toxicity from prior therapy, child-bearing potential and contraception use, prior treatment with PARP inhibitors, presence of brain metastases, presence of bone metastases, history of cardiac disease, breathing difficulties, active infection status, wound healing status, viral hepatitis status, HIV status, muscular disease status, pregnancy status, breastfeeding status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, BRCA1/2 mutation status, HER-2 status, Number of prior chemotherapy regimens, Organ function (liver, kidney, hematological, metabolic, cardiac), Prior treatment with PARP inhibitors, Prior radiotherapy, Prior hormonal therapy, Prior biological/investigational therapy,",
@@ -171,7 +172,8 @@
         "Prior hormonal therapy",
         "Prior biological/investigational therapy"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, BRCA1/2 mutation status, HER-2 status, Number of prior chemotherapy regimens, Organ function (liver, kidney, hematological, metabolic, cardiac), Prior treatment with PARP inhibitors, Prior radiotherapy, Prior hormonal therapy, Prior biological/investigational therapy"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Eastern Cooperative Oncology Group (ECOG) Performance Status, Region of Enrollment, Body Mass Index, Prior Chemotherapy Regimens, Prior Trastuzumab-containing Regimen, Prior Radiotherapy, Prior Hormonal Therapy, Prior Biological/Investigational Therapy, Known Deleterious Germline Mutation of BRCA1/2, Prior Treatment with PARP Inhibitors.",
@@ -230,7 +232,8 @@
         "Prior Biological/Investigational Therapy",
         "Prior Treatment with PARP Inhibitors."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Eastern Cooperative Oncology Group (ECOG) Performance Status, Region of Enrollment, Body Mass Index, Prior Chemotherapy Regimens, Prior Trastuzumab-containing Regimen, Prior Radiotherapy, Prior Hormonal Therapy, Prior Biological/Investigational Therapy, Known Deleterious Germline Mutation of BRCA1/2, Prior Treatment with PARP Inhibitors."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, prior chemotherapy regimens, prior trastuzumab-containing regimens, disease duration, number of metastatic sites, presence of visceral metastases, presence of bone metastases, presence of brain metastases, BRCA 1/2 mutation status, HER-2 status, hormone receptor status, prior hormonal therapy, prior biological/investigational therapy, prior radiotherapy, presence of ongoing toxicity, presence of comorbidities (e.g., cardiac disease, chronic viral hepatitis, immunocompromised status).",
@@ -300,6 +303,7 @@
         "presence of ongoing toxicity",
         "presence of comorbidities (e.g., cardiac disease, chronic viral hepatitis, immunocompromised status)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), Eastern Cooperative Oncology Group (ECOG) performance status, prior chemotherapy regimens, prior trastuzumab-containing regimens, disease duration, number of metastatic sites, presence of visceral metastases, presence of bone metastases, presence of brain metastases, BRCA 1/2 mutation status, HER-2 status, hormone receptor status, prior hormonal therapy, prior biological/investigational therapy, prior radiotherapy, presence of ongoing toxicity, presence of comorbidities (e.g., cardiac disease, chronic viral hepatitis, immunocompromised status)."
   }
 }

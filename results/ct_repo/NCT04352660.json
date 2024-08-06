@@ -49,7 +49,8 @@
         "smoking status",
         "baseline bleb appearance."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline intraocular pressure (IOP), duration of glaucoma, type of glaucoma, previous glaucoma medications, visual acuity, central corneal thickness, lens status (phakic/pseudophakic/aphakic), cup-to-disc ratio, systemic comorbidities (e.g., diabetes, hypertension), race/ethnicity, smoking status, baseline bleb appearance."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Intraocular Pressure (IOP), Type of Glaucoma, Duration of Glaucoma, Previous Glaucoma Medications, Baseline Visual Acuity, Baseline Central Corneal Thickness,",
@@ -96,7 +97,8 @@
         "Previous Glaucoma Medications",
         "Baseline Central Corneal Thickness"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Intraocular Pressure (IOP), Type of Glaucoma, Duration of Glaucoma, Previous Glaucoma Medications, Baseline Visual Acuity, Baseline Central Corneal Thickness"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diagnosis of open angle glaucoma, Previous glaucoma surgery, Best corrected visual acuity, Intraocular pressure, Cup-to-disc ratio, Visual field mean deviation.",
@@ -140,7 +142,8 @@
         "Best corrected visual acuity",
         "Cup-to-disc ratio"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diagnosis of open angle glaucoma, Previous glaucoma surgery, Best corrected visual acuity, Intraocular pressure, Cup-to-disc ratio, Visual field mean deviation."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, medical history of glaucoma, duration of glaucoma, previous glaucoma treatment, best-corrected visual acuity, refractive error, central corneal thickness, cup-to-disc ratio, number of glaucoma medications used, intraocular pressure at baseline.",
@@ -193,6 +196,7 @@
         "central corneal thickness",
         "cup-to-disc ratio"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, medical history of glaucoma, duration of glaucoma, previous glaucoma treatment, best-corrected visual acuity, refractive error, central corneal thickness, cup-to-disc ratio, number of glaucoma medications used, intraocular pressure at baseline."
   }
 }

@@ -71,7 +71,8 @@
         "baseline blood pressure",
         "alcohol consumption"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, duration of infertility, baseline serum testosterone levels, baseline serum LH levels, baseline serum FSH levels, baseline serum estradiol levels, baseline serum prolactin levels, baseline serum TSH levels, baseline serum AMH levels, baseline antral follicle count, baseline insulin resistance (HOMA-IR), baseline glucose levels, baseline lipid profile, baseline blood pressure, smoking status, alcohol consumption, previous infertility treatments, baseline sperm concentration and motility of partner."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Duration of Infertility, Baseline Hormone Levels (e.g., LH, FSH, Estradiol, Testosterone), Baseline Antral Follicle Count, Sperm Concentration and Motility,",
@@ -132,7 +133,8 @@
         "Baseline Hormone Levels (e.g., LH, FSH, Estradiol, Testosterone)",
         "Baseline Antral Follicle Count"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Body Mass Index, Duration of Infertility, Baseline Hormone Levels (e.g., LH, FSH, Estradiol, Testosterone), Baseline Antral Follicle Count, Sperm Concentration and Motility"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, BMI, PCOS diagnosis duration, Infertility duration, Previous ovulation induction treatment, Mid-luteal progesterone level, Fasting glucose, Fasting insulin, HOMA-IR, Total testosterone, SHBG, FAI.",
@@ -196,7 +198,8 @@
         "SHBG",
         "FAI"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, BMI, PCOS diagnosis duration, Infertility duration, Previous ovulation induction treatment, Mid-luteal progesterone level, Fasting glucose, Fasting insulin, HOMA-IR, Total testosterone, SHBG, FAI."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, Body Mass Index (BMI), duration of infertility, type of infertility (primary or secondary), PCOS phenotype (ovulatory, anovulatory, or normo-ovulatory), presence of acne, hirsutism, or male pattern baldness, fasting glucose, fasting insulin, lipid profile, thyroid-stimulating hormone (TSH) level, prolactin level, sperm concentration, sperm motility, previous use of fertility medications, previous pregnancy history.",
@@ -262,6 +265,7 @@
         "sperm motility",
         "previous use of fertility medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Body Mass Index (BMI), duration of infertility, type of infertility (primary or secondary), PCOS phenotype (ovulatory, anovulatory, or normo-ovulatory), presence of acne, hirsutism, or male pattern baldness, fasting glucose, fasting insulin, lipid profile, thyroid-stimulating hormone (TSH) level, prolactin level, sperm concentration, sperm motility, previous use of fertility medications, previous pregnancy history."
   }
 }

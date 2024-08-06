@@ -52,7 +52,8 @@
         "allergy or hypersensitivity status",
         "pregnancy status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, BMI, blood pressure (systolic and diastolic), gender, weight stability, physical activity level, cholesterol levels, triglyceride levels, renal function (GFR), presence of comorbid conditions, medication use, allergy or hypersensitivity status, pregnancy status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Insulin Sensitivity, Total Cholesterol, Triglycerides, GFR,",
@@ -106,7 +107,8 @@
         "Insulin Sensitivity",
         "GFR"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Insulin Sensitivity, Total Cholesterol, Triglycerides, GFR"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, Glomerular Filtration Rate, Insulin Sensitivity,",
@@ -163,7 +165,8 @@
         "Glomerular Filtration Rate",
         "Insulin Sensitivity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, Glomerular Filtration Rate, Insulin Sensitivity"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), weight, height, systolic blood pressure, diastolic blood pressure, heart rate, waist circumference, hip circumference, glucose levels, lipid profiles, renal function (GFR), medical history (hypertension, diabetes, cardiovascular disease, etc.), medication use, smoking status.",
@@ -225,6 +228,7 @@
         "medication use",
         "smoking status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), weight, height, systolic blood pressure, diastolic blood pressure, heart rate, waist circumference, hip circumference, glucose levels, lipid profiles, renal function (GFR), medical history (hypertension, diabetes, cardiovascular disease, etc.), medication use, smoking status."
   }
 }

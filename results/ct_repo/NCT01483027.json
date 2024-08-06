@@ -54,7 +54,8 @@
         "pregnancy status",
         "participation in other clinical trials"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, primary tumor resection status, extent of liver tumor replacement, ECOG performance status, serum creatinine, serum bilirubin, albumin levels, neutrophil count, prior chemotherapy regimen, baseline efficacy imaging results, presence of extra-hepatic metastases, history of hepatic encephalopathy, history of severe allergies or intolerances, pulmonary function status, cirrhosis or portal hypertension status, prior liver-directed therapies, planned biological agent treatment, presence of ascites, unresolved toxicities from prior cancer therapy, significant extra-hepatic disease, HIV/HBV/HCV status, pregnancy status, participation in other clinical trials."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Baseline Liver Tumor Burden, Serum Creatinine, Serum Bilirubin, Albumin, Neutrophil Count, Prior Chemotherapy Regimen,",
@@ -96,7 +97,8 @@
         "Neutrophil Count",
         "Prior Chemotherapy Regimen"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Baseline Liver Tumor Burden, Serum Creatinine, Serum Bilirubin, Albumin, Neutrophil Count, Prior Chemotherapy Regimen"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Primary Tumor Resection Status, Number of Liver Metastases, Largest Liver Metastasis Diameter, Baseline Carcinoembryonic Antigen (CEA) Level, Baseline Liver Function Tests (LFTs), Prior Chemotherapy Regimens, Time from Diagnosis to Randomization.",
@@ -139,7 +141,8 @@
         "Prior Chemotherapy Regimens",
         "Time from Diagnosis to Randomization"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Primary Tumor Resection Status, Number of Liver Metastases, Largest Liver Metastasis Diameter, Baseline Carcinoembryonic Antigen (CEA) Level, Baseline Liver Function Tests (LFTs), Prior Chemotherapy Regimens, Time from Diagnosis to Randomization."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, ethnicity, race, ECOG performance status, primary tumor resection status, number and size of liver metastases, liver volume, serum creatinine, serum bilirubin, albumin, neutrophil count, prior chemotherapy regimens, time since completion of first-line chemotherapy.",
@@ -204,6 +207,7 @@
         "primary tumor resection status",
         "liver volume"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, ethnicity, race, ECOG performance status, primary tumor resection status, number and size of liver metastases, liver volume, serum creatinine, serum bilirubin, albumin, neutrophil count, prior chemotherapy regimens, time since completion of first-line chemotherapy."
   }
 }

@@ -36,7 +36,8 @@
         "lipid profile (e.g., LDL, HDL, triglycerides)",
         "smoking status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, baseline HbA1c levels, duration of diabetes, body mass index (BMI), insulin dose, concomitant oral antidiabetic drugs, renal function (e.g., eGFR), blood pressure, lipid profile (e.g., LDL, HDL, triglycerides), race/ethnicity, smoking status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Body Mass Index, Renal Function (eGFR),",
@@ -73,7 +74,8 @@
         "Daily Insulin Dose",
         "Renal Function (eGFR)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline HbA1c, Duration of Diabetes, Daily Insulin Dose, Body Mass Index, Renal Function (eGFR)"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Continuous, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, Insulin dose, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure,",
@@ -108,7 +110,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Gender, Ethnicity (NIH/OMB), Region of Enrollment, Diabetes duration, Insulin dose, HbA1c, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c level, fasting plasma glucose level, insulin dose, type of insulin, oral antidiabetic drug use, systolic blood pressure, diastolic blood pressure, history of cardiovascular disease, history of renal disease.",
@@ -150,6 +153,7 @@
         "history of cardiovascular disease",
         "history of renal disease"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), duration of type 2 diabetes, HbA1c level, fasting plasma glucose level, insulin dose, type of insulin, oral antidiabetic drug use, systolic blood pressure, diastolic blood pressure, history of cardiovascular disease, history of renal disease."
   }
 }

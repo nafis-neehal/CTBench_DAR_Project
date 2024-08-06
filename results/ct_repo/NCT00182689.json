@@ -49,7 +49,8 @@
         "history of cardiac disease",
         "prior malignancy history"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, smoking history, performance status (Zubrod), prior chemotherapy regimen, prior radiation therapy, prior surgery, baseline serum creatinine, baseline bilirubin, baseline alkaline phosphatase, baseline SGOT/SGPT, baseline PTT/PT/INR, ANC, platelet count, presence of brain metastases, use of anticonvulsants, use of corticosteroids, ability to swallow or receive enteral medications, reproductive status, history of cardiac disease, prior malignancy history."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Performance Status, Prior Chemotherapy Regimen, Time Since Last Chemotherapy, Prior Radiation Therapy, Serum Creatinine, Bilirubin, Alkaline Phosphatase, SGOT/SGPT, PTT/PT/INR, ANC, Platelet Count, Smoking History,",
@@ -95,7 +96,8 @@
         "ANC",
         "Platelet Count"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Performance Status, Prior Chemotherapy Regimen, Time Since Last Chemotherapy, Prior Radiation Therapy, Serum Creatinine, Bilirubin, Alkaline Phosphatase, SGOT/SGPT, PTT/PT/INR, ANC, Platelet Count, Smoking History"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Zubrod Performance Status, Extent of Disease, Prior Chemotherapy Regimens, Platinum Sensitivity, Best Response to Platinum-Based Therapy, Time Since Last Platinum Treatment, Prior Radiation Therapy, Prior Surgery, Serum Creatinine, Bilirubin, Alkaline Phosphatase, SGOT, SGPT, PTT, PT, INR, ANC, Platelet Count.",
@@ -150,7 +152,8 @@
         "ANC",
         "Platelet Count"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Zubrod Performance Status, Extent of Disease, Prior Chemotherapy Regimens, Platinum Sensitivity, Best Response to Platinum-Based Therapy, Time Since Last Platinum Treatment, Prior Radiation Therapy, Prior Surgery, Serum Creatinine, Bilirubin, Alkaline Phosphatase, SGOT, SGPT, PTT, PT, INR, ANC, Platelet Count."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, Zubrod performance status, smoking history, prior chemotherapy regimens, platinum sensitivity, time since last platinum treatment, best response to platinum-based treatment, presence of brain and/or leptomeningeal metastases, serum creatinine, creatinine clearance, bilirubin, alkaline phosphatase, SGOT, SGPT, PTT, PT, INR, ANC, platelet count.",
@@ -200,6 +203,7 @@
         "ANC",
         "platelet count"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, Zubrod performance status, smoking history, prior chemotherapy regimens, platinum sensitivity, time since last platinum treatment, best response to platinum-based treatment, presence of brain and/or leptomeningeal metastases, serum creatinine, creatinine clearance, bilirubin, alkaline phosphatase, SGOT, SGPT, PTT, PT, INR, ANC, platelet count."
   }
 }

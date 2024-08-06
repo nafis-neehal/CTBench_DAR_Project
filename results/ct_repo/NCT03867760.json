@@ -52,7 +52,8 @@
         "physical health status",
         "frequency of pain episodes"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, cancer type, duration of chronic pain, pain intensity at baseline, language fluency, mental health status, physical health status, completion of active cancer treatment, frequency of pain episodes, functional ability to complete surveys."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Pain Intensity, Duration of Chronic Pain, Type of Cancer, Time Since Completion of Active Cancer Treatment, Use of Pain Medication, Psychological Distress, Functional Fluency in English,",
@@ -101,7 +102,8 @@
         "Psychological Distress",
         "Functional Fluency in English"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Pain Intensity, Duration of Chronic Pain, Type of Cancer, Time Since Completion of Active Cancer Treatment, Use of Pain Medication, Psychological Distress, Functional Fluency in English"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Cancer Diagnosis, Time Since Cancer Diagnosis, Type of Cancer, Type of Cancer Treatment, Pain Duration, Pain Intensity, Sleep Quality, Depression, Anxiety, Fatigue.",
@@ -159,7 +161,8 @@
         "Pain Duration",
         "Sleep Quality"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Cancer Diagnosis, Time Since Cancer Diagnosis, Type of Cancer, Type of Cancer Treatment, Pain Duration, Pain Intensity, Sleep Quality, Depression, Anxiety, Fatigue."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, race, ethnicity, cancer type, cancer treatment type, time since cancer diagnosis, time since completion of active cancer treatment, pain duration, pain location, average pain intensity in the last week, number of days with pain in the past 4 weeks, use of pain medication, history of psychiatric conditions, history of seizure condition, history of brain injury or skull defect, history of brain cancer.",
@@ -224,6 +227,7 @@
         "use of pain medication",
         "history of psychiatric conditions"
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, race, ethnicity, cancer type, cancer treatment type, time since cancer diagnosis, time since completion of active cancer treatment, pain duration, pain location, average pain intensity in the last week, number of days with pain in the past 4 weeks, use of pain medication, history of psychiatric conditions, history of seizure condition, history of brain injury or skull defect, history of brain cancer."
   }
 }

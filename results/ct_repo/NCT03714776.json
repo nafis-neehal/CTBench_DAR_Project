@@ -35,7 +35,8 @@
         "alcohol consumption",
         "physical activity level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), baseline blood pressure, baseline heart rate, duration of hypertension diagnosis, antihypertensive medication regimen, medical history, smoking status, alcohol consumption, physical activity level, baseline plasma angiotensinogen (AGT) levels."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Duration of Hypertension, Use of Antihypertensive Medications,",
@@ -73,7 +74,8 @@
         "Duration of Hypertension",
         "Use of Antihypertensive Medications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Heart Rate, Duration of Hypertension, Use of Antihypertensive Medications"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Antihypertensive Medication Use, Duration of Hypertension, History of Cardiovascular Disease.",
@@ -115,7 +117,8 @@
         "Duration of Hypertension",
         "History of Cardiovascular Disease."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Antihypertensive Medication Use, Duration of Hypertension, History of Cardiovascular Disease."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, heart rate, duration of hypertension, type and dose of antihypertensive medications, medical history (including cardiovascular disease, stroke, transient ischemic attack, angina pectoris, myocardial infarction, long QT syndrome, atrial or ventricular arrhythmias, coronary bypass, percutaneous coronary intervention), smoking status, alcohol consumption.",
@@ -156,6 +159,7 @@
         "smoking status",
         "alcohol consumption"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), systolic blood pressure, diastolic blood pressure, heart rate, duration of hypertension, type and dose of antihypertensive medications, medical history (including cardiovascular disease, stroke, transient ischemic attack, angina pectoris, myocardial infarction, long QT syndrome, atrial or ventricular arrhythmias, coronary bypass, percutaneous coronary intervention), smoking status, alcohol consumption."
   }
 }

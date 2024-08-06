@@ -46,7 +46,8 @@
         "compliance history",
         "psychiatric history"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, duration of type 2 diabetes, baseline HbA1c, BMI, blood pressure (systolic and diastolic), baseline EPC number, baseline metformin dose, presence of microvascular complications, presence of macrovascular complications, liver function tests (AST, ALT, ALP, GGT, bilirubin), renal function (plasma creatinine), history of cardiovascular disease, history of pancreatitis, use of other medications affecting glycemic levels, compliance history, psychiatric history."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Blood Pressure, Total Cholesterol, Triglycerides, eGFR, Smoking Status, Medication Use,",
@@ -92,7 +93,8 @@
         "Smoking Status",
         "Medication Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Duration of Diabetes, Baseline HbA1c, Body Mass Index, Blood Pressure, Total Cholesterol, Triglycerides, eGFR, Smoking Status, Medication Use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Diabetes duration, HbA1c, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, eGFR, Microvascular complications, Macrovascular complications.",
@@ -141,7 +143,8 @@
         "Microvascular complications",
         "Macrovascular complications"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Diabetes duration, HbA1c, BMI, Systolic Blood Pressure, Diastolic Blood Pressure, Total Cholesterol, Triglycerides, HDL Cholesterol, LDL Cholesterol, eGFR, Microvascular complications, Macrovascular complications."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, body mass index (BMI), duration of type 2 diabetes, HbA1c, systolic blood pressure (SBP), diastolic blood pressure (DBP), history of micro- and macro-vascular complications, smoking status, metformin dose, creatinine concentrations.",
@@ -180,6 +183,7 @@
         "metformin dose",
         "creatinine concentrations."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, body mass index (BMI), duration of type 2 diabetes, HbA1c, systolic blood pressure (SBP), diastolic blood pressure (DBP), history of micro- and macro-vascular complications, smoking status, metformin dose, creatinine concentrations."
   }
 }

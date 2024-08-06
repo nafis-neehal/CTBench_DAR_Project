@@ -86,7 +86,8 @@
         "race",
         "ethnicity"
       ]
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, menopausal status (premenopausal, perimenopausal, postmenopausal), blood pressure, plasma glucose concentrations, physical activity level, smoking status, medication use, vitamin supplement use, history of estrogen-dependent neoplasms, history of liver or gallbladder disease, history of vaginal bleeding, history of venous thromboembolism, history of hypertriglyceridemia, history of cardiovascular disease, allergy to transdermal patch or GnRHant, contraindications to HRT and GnRHant."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Menopausal Status (Premenopausal, Perimenopausal, Postmenopausal), Race/Ethnicity, Customized, Resting Blood Pressure, Fasting Plasma Glucose, Physical Activity Level, Smoking Status, Use of Medications Influencing Cardiovascular Function, Use of Vitamin Supplements,",
@@ -143,7 +144,8 @@
         "High-density Lipoprotein"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, Menopausal Status (Premenopausal, Perimenopausal, Postmenopausal), Race/Ethnicity, Resting Blood Pressure, Fasting Plasma Glucose, Physical Activity Level, Smoking Status, Use of Medications Influencing Cardiovascular Function, Use of Vitamin Supplements"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Menopausal Status, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Plasma Glucose Concentrations, Smoking Status, Sedentary or Recreational Activity Level.",
@@ -194,7 +196,8 @@
         "Smoking Status",
         "Sedentary or Recreational Activity Level."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Menopausal Status, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Plasma Glucose Concentrations, Smoking Status, Sedentary or Recreational Activity Level."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, race, ethnicity, menopausal status, body mass index, systolic blood pressure, diastolic blood pressure, fasting plasma glucose, smoking status, physical activity level, use of medications influencing cardiovascular function, use of vitamin supplements.",
@@ -260,6 +263,7 @@
         "High-density Lipoprotein"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, race, ethnicity, menopausal status, body mass index, systolic blood pressure, diastolic blood pressure, fasting plasma glucose, smoking status, physical activity level, use of medications influencing cardiovascular function, use of vitamin supplements."
   }
 }

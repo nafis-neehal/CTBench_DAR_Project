@@ -43,7 +43,8 @@
         "pregnancy or breastfeeding status",
         "recent hospitalization for bowel obstruction."
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, histological subtype, number of prior chemotherapy regimens, BRCA mutation status, disease progression status, presence of evaluable disease, availability of archival tumor tissue, prior cancer history, prior PARP inhibitor treatment, central nervous system metastases status, gastrointestinal disorder status, pregnancy or breastfeeding status, recent hospitalization for bowel obstruction."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, Histological subtype, Number of prior chemotherapy regimens, BRCA mutation status, Baseline tumor size, Performance status,",
@@ -82,7 +83,8 @@
         "Baseline tumor size",
         "Performance status"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, Histological subtype, Number of prior chemotherapy regimens, BRCA mutation status, Baseline tumor size, Performance status"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Eastern Cooperative Oncology Group (ECOG) Performance Status, Histology, Prior Chemotherapy Regimens, Time from Last Chemotherapy, Best Response to Last Chemotherapy, CA-125 Level, BRCA Mutation Status,",
@@ -123,7 +125,8 @@
         "Best Response to Last Chemotherapy",
         "CA-125 Level"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Eastern Cooperative Oncology Group (ECOG) Performance Status, Histology, Prior Chemotherapy Regimens, Time from Last Chemotherapy, Best Response to Last Chemotherapy, CA-125 Level, BRCA Mutation Status"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, histological diagnosis, tumor grade, number of prior chemotherapy regimens, time since last chemotherapy, presence of biopsiable and evaluable disease, BRCA1/2 mutation status, performance status, body mass index (BMI), presence of central nervous system metastases, presence of gastrointestinal disorders, prior cancer history, menopausal status.",
@@ -171,6 +174,7 @@
         "prior cancer history",
         "menopausal status."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, histological diagnosis, tumor grade, number of prior chemotherapy regimens, time since last chemotherapy, presence of biopsiable and evaluable disease, BRCA1/2 mutation status, performance status, body mass index (BMI), presence of central nervous system metastases, presence of gastrointestinal disorders, prior cancer history, menopausal status."
   }
 }

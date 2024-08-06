@@ -41,7 +41,8 @@
         "presence of comorbidities (e.g., hypertension, cardiac conditions)",
         "baseline tumor measurements"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, ECOG performance status, histological subtype of NSCLC, stage of NSCLC, prior treatments, hematologic function (ANC, hemoglobin, platelet count), hepatic function (total bilirubin, transaminases, alkaline phosphatase), renal function (serum creatinine, creatinine clearance, proteinuria), coagulation function (INR, prothrombin time, partial thromboplastin time), presence of comorbidities (e.g., hypertension, cardiac conditions), smoking status, baseline tumor measurements."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Histological Subtype, Stage of Disease, Measurable Disease, Absolute Neutrophil Count, Hemoglobin, Platelet Count, Total Bilirubin, Transaminases, Alkaline Phosphatase, Serum Creatinine, Creatinine Clearance, Urine Protein, International Normalized Ratio, Prothrombin Time, Partial Thromboplastin Time, Contraception Use,",
@@ -90,7 +91,8 @@
         "Partial Thromboplastin Time",
         "Contraception Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, ECOG Performance Status, Histological Subtype, Stage of Disease, Measurable Disease, Absolute Neutrophil Count, Hemoglobin, Platelet Count, Total Bilirubin, Transaminases, Alkaline Phosphatase, Serum Creatinine, Creatinine Clearance, Urine Protein, International Normalized Ratio, Prothrombin Time, Partial Thromboplastin Time, Contraception Use"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Histology, Stage of Disease, Number of Metastatic Sites, Prior Chemotherapy, Prior Radiation Therapy, Prior Surgery, Smoking Status, Pack Years of Smoking, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure.",
@@ -138,7 +140,8 @@
         "Systolic Blood Pressure",
         "Diastolic Blood Pressure"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Histology, Stage of Disease, Number of Metastatic Sites, Prior Chemotherapy, Prior Radiation Therapy, Prior Surgery, Smoking Status, Pack Years of Smoking, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ECOG performance status, histological type of NSCLC, stage of disease, presence of malignant pleural effusion, number and location of metastatic sites, prior therapies, smoking history, pack-years of smoking, body mass index, absolute neutrophil count, hemoglobin, platelet count, total bilirubin, transaminases, alkaline phosphatase, serum creatinine, calculated creatinine clearance, International Normalized Ratio, prothrombin time, partial thromboplastin time.",
@@ -185,6 +188,7 @@
         "prothrombin time",
         "partial thromboplastin time"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ECOG performance status, histological type of NSCLC, stage of disease, presence of malignant pleural effusion, number and location of metastatic sites, prior therapies, smoking history, pack-years of smoking, body mass index, absolute neutrophil count, hemoglobin, platelet count, total bilirubin, transaminases, alkaline phosphatase, serum creatinine, calculated creatinine clearance, International Normalized Ratio, prothrombin time, partial thromboplastin time."
   }
 }

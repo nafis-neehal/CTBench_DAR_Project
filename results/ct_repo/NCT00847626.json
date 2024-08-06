@@ -46,7 +46,8 @@
         "presence of liver disease",
         "baseline ambulatory blood pressure measurement"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline systolic blood pressure, baseline diastolic blood pressure, body mass index (BMI), history of antihypertensive treatment, baseline laboratory test results (e.g., kidney function, liver function, electrolytes), smoking status, alcohol use, history of cardiovascular events, presence of diabetes mellitus, presence of renal dysfunction, presence of liver disease, baseline ambulatory blood pressure measurement."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Baseline 24-hour Ambulatory Blood Pressure, Baseline Heart Rate, Baseline Body Mass Index, Baseline Serum Potassium, Baseline Serum Creatinine, Baseline Fasting Glucose, Baseline HbA1c, Baseline Total Cholesterol, Baseline LDL Cholesterol, Baseline HDL Cholesterol, Baseline Triglycerides, Baseline Alanine Aminotransferase, Baseline Aspartate Aminotransferase, Baseline eGFR,",
@@ -103,7 +104,8 @@
         "Baseline Alanine Aminotransferase",
         "Baseline Aspartate Aminotransferase"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Systolic Blood Pressure, Baseline Diastolic Blood Pressure, Baseline 24-hour Ambulatory Blood Pressure, Baseline Heart Rate, Baseline Body Mass Index, Baseline Serum Potassium, Baseline Serum Creatinine, Baseline Fasting Glucose, Baseline HbA1c, Baseline Total Cholesterol, Baseline LDL Cholesterol, Baseline HDL Cholesterol, Baseline Triglycerides, Baseline Alanine Aminotransferase, Baseline Aspartate Aminotransferase, Baseline eGFR"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Mean Sitting Clinic Systolic Blood Pressure, Mean Sitting Clinic Diastolic Blood Pressure, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications at Screening, Prior Antihypertensive Medication Use.",
@@ -149,7 +151,8 @@
         "Number of Antihypertensive Medications at Screening",
         "Prior Antihypertensive Medication Use"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Body Mass Index, Systolic Blood Pressure, Diastolic Blood Pressure, Mean Sitting Clinic Systolic Blood Pressure, Mean Sitting Clinic Diastolic Blood Pressure, History of Hypertension, Duration of Hypertension, Number of Antihypertensive Medications at Screening, Prior Antihypertensive Medication Use."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including hypertension, diabetes, cardiovascular disease), current medications, smoking status, alcohol consumption, laboratory test results (including renal function, liver function, electrolyte levels).",
@@ -196,6 +199,7 @@
         "alcohol consumption",
         "laboratory test results (including renal function, liver function, electrolyte levels)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index, systolic blood pressure, diastolic blood pressure, heart rate, medical history (including hypertension, diabetes, cardiovascular disease), current medications, smoking status, alcohol consumption, laboratory test results (including renal function, liver function, electrolyte levels)."
   }
 }

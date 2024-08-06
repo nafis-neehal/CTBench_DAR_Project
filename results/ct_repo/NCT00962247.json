@@ -32,7 +32,8 @@
         "baseline physical activity level",
         "baseline energy intake"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, BMI percentile, total sedentary hours per week, household size, baseline physical activity level, baseline energy intake."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Body Mass Index, Baseline Sedentary Behavior, Household Composition,",
@@ -67,7 +68,8 @@
         "Baseline Sedentary Behavior",
         "Household Composition"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Body Mass Index, Baseline Sedentary Behavior, Household Composition"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "##Answer:\nAge, Sex, BMI, Sedentary behavior hours per week, Physical activity level, Energy intake, Household information,",
@@ -100,7 +102,8 @@
         "Energy intake",
         "Household information"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex, BMI, Sedentary behavior hours per week, Physical activity level, Energy intake, Household information"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "age, sex, BMI, weight, height, household income, parental education level, ethnicity, physical activity level at baseline, sedentary behavior hours per week at baseline, energy intake at baseline.",
@@ -143,6 +146,7 @@
         "sedentary behavior hours per week at baseline",
         "energy intake at baseline."
       ]
-    }
+    },
+    "processed-gen-response": "age, sex, BMI, weight, height, household income, parental education level, ethnicity, physical activity level at baseline, sedentary behavior hours per week at baseline, energy intake at baseline."
   }
 }

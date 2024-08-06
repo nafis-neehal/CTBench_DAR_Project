@@ -33,7 +33,8 @@
         "renal function (e.g., eGFR)",
         "baseline dietary intake"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, race, baseline serum potassium levels, baseline RAASi medication use, baseline chronic medication use, medical history, body mass index (BMI), renal function (e.g., eGFR), baseline dietary intake."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Baseline Potassium Levels, Use of RAASi Medication, History of Major Organ Transplant, History of Gastrointestinal Disorders,",
@@ -68,7 +69,8 @@
         "History of Major Organ Transplant",
         "History of Gastrointestinal Disorders"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Baseline Potassium Levels, Use of RAASi Medication, History of Major Organ Transplant, History of Gastrointestinal Disorders"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Serum potassium concentration, RAASi medication use, Comorbidities,",
@@ -102,7 +104,8 @@
         "RAASi medication use",
         "Comorbidities"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Serum potassium concentration, RAASi medication use, Comorbidities"
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, body mass index (BMI), potassium concentration at screening, RAASi medication use, comorbidities (e.g., heart failure, kidney disease), concomitant medications, medical history (e.g., organ transplant, cancer, gastrointestinal disorders).",
@@ -138,6 +141,7 @@
         "concomitant medications",
         "medical history (e.g., organ transplant, cancer, gastrointestinal disorders)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, body mass index (BMI), potassium concentration at screening, RAASi medication use, comorbidities (e.g., heart failure, kidney disease), concomitant medications, medical history (e.g., organ transplant, cancer, gastrointestinal disorders)."
   }
 }

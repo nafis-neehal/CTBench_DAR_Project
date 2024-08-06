@@ -39,7 +39,8 @@
         "ALT levels",
         "creatinine levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, gender, liver function (Child-Pugh score), ECOG Performance Status, tumor size, number of tumors, total tumor diameter, previous treatments for HCC, bilirubin levels, AST levels, ALT levels, creatinine levels."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, Tumor size, Number of tumors, Liver function (Child-Pugh score), ECOG Performance Status, Baseline bilirubin levels, Baseline AST levels, Baseline ALT levels, Baseline creatinine levels,",
@@ -86,7 +87,8 @@
         "Baseline ALT levels",
         "Baseline creatinine levels"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, Tumor size, Number of tumors, Liver function (Child-Pugh score), ECOG Performance Status, Baseline bilirubin levels, Baseline AST levels, Baseline ALT levels, Baseline creatinine levels"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Child-Pugh Score, Tumor size, Number of tumors, Liver function, Bilirubin levels, AST levels, ALT levels, Creatinine levels, Prior treatment for HCC.",
@@ -135,7 +137,8 @@
         "Creatinine levels",
         "Prior treatment for HCC."
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Child-Pugh Score, Tumor size, Number of tumors, Liver function, Bilirubin levels, AST levels, ALT levels, Creatinine levels, Prior treatment for HCC."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), ECOG Performance Status, Child-Pugh score, liver function tests (bilirubin, AST, ALT), creatinine levels, tumor size, tumor number, tumor location, prior treatments for HCC (surgical or ablation).",
@@ -180,6 +183,7 @@
         "tumor location",
         "prior treatments for HCC (surgical or ablation)"
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ethnicity, weight, height, body mass index (BMI), ECOG Performance Status, Child-Pugh score, liver function tests (bilirubin, AST, ALT), creatinine levels, tumor size, tumor number, tumor location, prior treatments for HCC (surgical or ablation)."
   }
 }

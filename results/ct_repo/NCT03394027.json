@@ -90,7 +90,8 @@
         "Region of Enrollment"
       ],
       "remaining_candidate_features": []
-    }
+    },
+    "processed-gen-response": "Age, gender, ECOG performance status, renal function (serum creatinine, creatinine clearance), hepatic function (AST, ALT, total bilirubin), bone marrow function (ANC, platelet count, hemoglobin), prior lines of therapy, type of cancer (hormone receptor positive breast cancer, triple negative breast cancer, endometrial cancer), measurable disease status, biopsy eligibility, prior chemotherapy, prior immunotherapy, history of other invasive malignancies, history of brain metastases, history of cardiac arrhythmias, history of gastrointestinal illnesses, pregnancy status, HIV status, Hepatitis B/C status."
   },
   "generated-by-gpt4-omni-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Renal Function (Serum Creatinine), Hepatic Function (AST, ALT, Total Bilirubin), Bone Marrow Function (ANC, Platelet Count, Hemoglobin), Prior Lines of Therapy, Measurable Disease per RECIST, Tumor Biopsy Feasibility,",
@@ -125,7 +126,8 @@
         "Measurable Disease per RECIST",
         "Tumor Biopsy Feasibility"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Renal Function (Serum Creatinine), Hepatic Function (AST, ALT, Total Bilirubin), Bone Marrow Function (ANC, Platelet Count, Hemoglobin), Prior Lines of Therapy, Measurable Disease per RECIST, Tumor Biopsy Feasibility"
   },
   "generated-by-llama3-70b-in-ts": {
     "gen-response": "Age, Continuous, Sex: Female, Male, Race/Ethnicity, Customized, Region of Enrollment, ECOG Performance Status, Prior Chemotherapy, Prior Hormonal Therapy, Prior Immunotherapy, Prior Radiotherapy, Tumor Histology, Tumor Grade, Measurable Disease, Prior Biopsy, Baseline Hemoglobin, Baseline Platelet Count, Baseline Absolute Neutrophil Count, Baseline Creatinine, Baseline AST, Baseline ALT, Baseline Total Bilirubin.",
@@ -172,7 +174,8 @@
         "Baseline ALT",
         "Baseline Total Bilirubin"
       ]
-    }
+    },
+    "processed-gen-response": "Age, Sex: Female, Male, Race/Ethnicity, Region of Enrollment, ECOG Performance Status, Prior Chemotherapy, Prior Hormonal Therapy, Prior Immunotherapy, Prior Radiotherapy, Tumor Histology, Tumor Grade, Measurable Disease, Prior Biopsy, Baseline Hemoglobin, Baseline Platelet Count, Baseline Absolute Neutrophil Count, Baseline Creatinine, Baseline AST, Baseline ALT, Baseline Total Bilirubin."
   },
   "generated-by-llama3-70b-in-zs": {
     "gen-response": "Age, sex, race, ECOG performance status, histological subtype, hormone receptor status, HER2 status, number of prior chemotherapy lines, presence of metastases, prior treatment with hormonal therapy, prior treatment with chemotherapy, prior treatment with immunotherapy.",
@@ -208,6 +211,7 @@
         "prior treatment with chemotherapy",
         "prior treatment with immunotherapy."
       ]
-    }
+    },
+    "processed-gen-response": "Age, sex, race, ECOG performance status, histological subtype, hormone receptor status, HER2 status, number of prior chemotherapy lines, presence of metastases, prior treatment with hormonal therapy, prior treatment with chemotherapy, prior treatment with immunotherapy."
   }
 }
